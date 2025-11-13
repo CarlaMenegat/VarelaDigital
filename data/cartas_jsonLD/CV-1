@@ -1,0 +1,105 @@
+{
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "frbr": "http://purl.org/vocab/frbr/core#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "pro": "http://purl.org/spar/pro/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "hico": "http://purl.org/emmedi/hico/",
+    "cnt": "http://www.w3.org/2011/content#",
+    "doco": "http://purl.org/spar/doco/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "bio": "http://purl.org/vocab/bio/0.1/",
+    "time": "http://www.w3.org/2006/time#",
+    "owl": "http://www.w3.org/2002/07/owl#"
+  },
+  "id": "https://carlamenegat.github.io/VarelaDigital/letters/CV-1",
+  "type": [
+    "fabio:Letter",
+    "fabio:AnalogItem"
+  ],
+  "dcterms:identifier": "CV-1",
+  "dcterms:creator": {
+    "id": "https://carlamenegat.github.io/VarelaDigital/person/Raul_Abbott",
+    "type": "foaf:Person",
+    "foaf:name": "Raul Abbott"
+  },
+  "pro:addressee": {
+    "id": "https://carlamenegat.github.io/VarelaDigital/person/Alfredo",
+    "type": "foaf:Person",
+    "foaf:name": "Alfredo"
+  },
+  "dcterms:date": {
+    "type": "xsd:date",
+    "@value": "1896-04-27"
+  },
+  "dcterms:spatial": {
+    "id": "https://carlamenegat.github.io/VarelaDigital/place/Cachoeira",
+    "type": "geo:SpatialThing",
+    "rdfs:label": "Cachoeira",
+    "geo:lat": "-30.0331",
+    "geo:long": "-52.8922"
+  },
+  "fabio:hasRepresentation": {
+    "id": "https://carlamenegat.github.io/VarelaDigital/letters/CV-1#text",
+    "type": "doco:TextChunk",
+    "dcterms:type": "mainText",
+    "cnt:chars": "Amigo Alfredo\nSó hoje posso responder tua carta, devido ao estado adoentado do veterano Coritiba...",
+    "mentions": [
+      {
+        "id": "https://carlamenegat.github.io/VarelaDigital/person/Coritiba",
+        "type": "foaf:Person",
+        "foaf:name": "Coritiba"
+      },
+      {
+        "id": "https://carlamenegat.github.io/VarelaDigital/person/Canabarro",
+        "type": "foaf:Person",
+        "foaf:name": "Canabarro"
+      },
+      {
+        "id": "https://carlamenegat.github.io/VarelaDigital/person/Bento_Manuel",
+        "type": "foaf:Person",
+        "foaf:name": "Bento Manuel"
+      },
+      {
+        "id": "https://carlamenegat.github.io/VarelaDigital/person/Demetrio_Ribeiro",
+        "type": "foaf:Person",
+        "foaf:name": "Demétrio Ribeiro"
+      },
+      {
+        "id": "https://carlamenegat.github.io/VarelaDigital/person/Joaquim_Teixeira_Nunes",
+        "type": "foaf:Person",
+        "foaf:name": "Joaquim Teixeira Nunes"
+      },
+      {
+        "id": "https://carlamenegat.github.io/VarelaDigital/person/Roque",
+        "type": "foaf:Person",
+        "foaf:name": "Roque"
+      },
+      {
+        "id": "https://carlamenegat.github.io/VarelaDigital/person/General_Lima",
+        "type": "foaf:Person",
+        "foaf:name": "General Lima"
+      },
+      {
+        "id": "https://carlamenegat.github.io/VarelaDigital/place/Buenos_Aires",
+        "type": "geo:SpatialThing",
+        "rdfs:label": "Buenos Aires"
+      },
+      {
+        "id": "https://carlamenegat.github.io/VarelaDigital/place/Espinilho",
+        "type": "geo:SpatialThing",
+        "rdfs:label": "Espinilho"
+      },
+      {
+        "id": "https://carlamenegat.github.io/VarelaDigital/event/Battle_of_Espinilho",
+        "type": "hico:InterpretationAct",
+        "rdfs:label": "Battle of Espinilho",
+        "hico:hasInterpretationType": "militaryEvent"
+      }
+    ]
+  }
+}
