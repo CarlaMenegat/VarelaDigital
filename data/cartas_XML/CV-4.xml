@@ -1,0 +1,48 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-4 – Antônio Francisco dos Santos Abreu para Domingos José de Almeida</title>
+                <author ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName>
+                    <placeName ref="#sao_lourenco">São Lourenço</placeName>
+                    <date when="1841-11-17">17 de novembro de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#domingos_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#bage">Bagé</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-4">
+                <opener>
+                    <salute>Amigo e Senhor Almeida.</salute>
+                </opener>
+                <p>O portador desta é o Sr. <persName ref="#serafim_ribeiro">Serafim Ribeiro</persName> o qual dirige-se a esse lugar a arranjos tendentes a ele e um filho; tenho portanto a rogar-lhe o obséquio de V.Mcê. fazer o benefício que possa ao dito senhor Ribeiro que os tomarei como próprios, movendo assim tanto mais minha gratidão para com V.Meê., e serei satisfeito quando empregado em seu serviço. Sou como sabe</p>
+                <closer>
+                    <salute>Seu amigo obrigadíssimo criado</salute>
+                    <signed>Antônio Francisco dos Santos Abreu</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

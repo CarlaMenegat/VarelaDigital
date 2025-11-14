@@ -1,0 +1,47 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-6 – Procurador de Antônio Francisco dos Santos Abreu ao Tribunal do Tesouro</title>
+                <author ref="#domingos_almeida">Domingos José de Almeida (procurador)</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#bage">Bagé</placeName>
+                    <date when="1842-03-17">17 de março de 1842</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="#tribunal_tesouro">Tribunal do Tesouro</orgName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-6">
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                <p>Diz o cidadão <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName>, por seu procurador abaixo firmado, que sendo indispensável inscrever-se no <orgName ref="#tesouro">Tesouro</orgName> a quantia que pelos documentos juntos mostra dever-lhe o Estado, a fim de ter lugar o que V.Ex.ª promete no despacho exarado no requerimento que os cobre, requer a V.Ex.ª assim o mande praticar, e fornecer-lhe documento em forma; pelo que R.Mcê.</p>
+                <closer>
+                    <signed>Procurador: <persName ref="#domingos_almeida">Domingos José de Almeida</persName></signed>
+                    <placeName ref="#bage">Bagé</placeName>, <date when="1842-03-17">17 de março de 1842</date>.
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

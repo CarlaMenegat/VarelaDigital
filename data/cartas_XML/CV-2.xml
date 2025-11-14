@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-2 – Antônio F. dos Santos Abreu para Domingos J. de Almeida</title>
+                <author ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName>
+                    <placeName ref="#jaguarao_chico">Jaguarão Chico</placeName>
+                    <date when="1838-11-17">17 de novembro de 1838</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#domingos_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-2">
+                <opener>
+                    <salute>Amigo e Sr. Almeida,</salute>
+                    <dateline>
+                        <placeName ref="#jaguarao_chico">Jaguarão Chico</placeName>, <date when="1838-11-17">17 de novembro 1838</date>
+                    </dateline>
+                </opener>
+                <p>Como segue para esse lugar <persName ref="#dionisio_amaro">Dionísio Amaro</persName>, lhe rogo pelo mesmo me mande os documentos tendentes ao objeto a que meu <persName ref="#irmao_abreu">mano</persName> se dirigiu a essa a tratar com V.Meê.; por cujo obséquio muito obrigará ao seu amigo.</p>
+                <p>Tendo de comprar do outro lado alguns gêneros, recursos para minha casa, e não podendo fazer esta compra senão a troco de gado pela falta de dinheiro, e faltando-me este mesmo até para pagar os direitos (talvez de cem bois), tenho portanto de rogar-lhe o ver se é ou não possível pagar tais direitos em gado, ou encontrar-se-me em um documento que tenho de 120 reses gordas supridas para o consumo do exército.</p>
+                <p>Sendo finalmente que se consigo o que desejo tanto mais moverá a gratidão do</p>
+                <closer>
+                    <salute>Seu sincero obrigado amigo</salute>
+                    <signed>
+                        <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

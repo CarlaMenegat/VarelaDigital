@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standOff xmlns="http://www.tei-c.org/ns/1.0">
+    <listEvent>
+        <event xml:id="combate_espinilho">
+            <desc>Combate do Espinilho</desc>
+            <date when="1837-10-25">25 de outubro de 1837</date>
+            <location>
+                <placeName>Espinilho</placeName>
+                <geo>-31.3347 -56.0947</geo> <!-- Região aproximada da fronteira RS-Uruguai, próximo a Rivera/Sant'Ana do Livramento -->
+            </location>
+            <note>Combate ocorrido durante a Revolução Farroupilha entre forças farroupilhas (lideradas por Canabarro) e legalistas. Resultou em vitória rebelde. Foi citado por Raul Abbott com base em relatos do veterano Coritiba.</note>
+        </event>
+    </listEvent>
+</standOff>

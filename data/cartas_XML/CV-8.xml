@@ -1,0 +1,51 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-8 – Bento Gonçalves da Silva para coletores municipais</title>
+                <author ref="#bento_goncalves">Bento Gonçalves da Silva</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#bento_goncalves">Bento Gonçalves da Silva</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName>Coletores dos municípios de <placeName ref="#jaguarao">Jaguarão</placeName>, <placeName ref="#piratini">Piratini</placeName> e <placeName ref="#pelotas">Pelotas</placeName></orgName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-8">
+                <opener>
+                    <salute>Cópia</salute>
+                </opener>
+                
+                <p>Cidadão Coletor. Sendo o Estado devedor a <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName> da quantia que legalmente vos mostrará, ordeno-vos que lhe admitais letras dos efeitos de sua propriedade que ele quiser despachar nessa Coletoria; devendo as ditas letras serem passadas com um prazo suficiente para o mesmo Abreu ter tempo de requerer ao governo o desconto dos direitos que pretende obter.</p>
+                
+                <p>Alguma letra que dele houver já passada, e que porventura esteja a vencer-se, poderá ser reformada enquanto o mesmo Abreu não obtém do governo a ordem que pretende, ou seu embolso, por outra qualquer maneira; o que espero Assim o cumpráis.</p>
+                
+                <p>Cidadãos coletores dos municípios de <placeName ref="#jaguarao">Jaguarão</placeName>, <placeName ref="#piratini">Piratini</placeName> e <placeName ref="#pelotas">Pelotas</placeName>.</p>
+                
+                <closer>
+                    <signed><persName ref="#bento_goncalves">Bento Gonçalves da Silva</persName></signed>
+                    <note>Está conforme. (a) <persName ref="#hilario_amaro_junior">Hilário Amaro Júnior</persName></note>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

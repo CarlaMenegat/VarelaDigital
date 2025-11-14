@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standOff xmlns="http://www.tei-c.org/ns/1.0">
+    <listPlace>
+        <place xml:id="cachoeira">
+            <placeName>Cachoeira</placeName>
+            <location>
+                <geo> -29.9456 -52.9234 </geo>
+            </location>
+            <note>Cachoeira do Sul, cidade do Rio Grande do Sul, Brasil.</note>
+        </place>
+
+        <place xml:id="buenos_aires">
+            <placeName>Buenos Aires</placeName>
+            <location>
+                <geo> -34.6037 -58.3816 </geo>
+            </location>
+            <note>Capital da Argentina.</note>
+        </place>
+
+        <place xml:id="rio_grande">
+            <placeName>Rio Grande</placeName>
+            <location>
+                <geo> -32.0349 -52.1071 </geo>
+            </location>
+            <note>Cidade portuária no sul do Rio Grande do Sul, Brasil.</note>
+        </place>
+
+        <place xml:id="jaguarao_chico">
+            <placeName>Jaguarão Chico</placeName>
+            <location>
+                <geo>-32.5608 -53.3753</geo>
+            </location>
+            <note>Área rural próxima à cidade de Jaguarão, no sul do Rio Grande do Sul.</note>
+        </place>
+        
+        <place xml:id="jaguarao">
+            <placeName>Jaguarão</placeName>
+            <location>
+                <geo>-32.5603 -53.3764</geo>
+            </location>
+            <note>Município fronteiriço no sul do Rio Grande do Sul, Brasil.</note>
+        </place>
+        
+        <place xml:id="piratini">
+            <placeName>Piratini</placeName>
+            <location>
+                <geo>-31.4474 -53.0963</geo>
+            </location>
+            <note>Antiga capital da República Rio-Grandense durante a Revolução Farroupilha.</note>
+        </place>
+
+        <place xml:id="sao_lourenco">
+            <placeName>São Lourenço</placeName>
+            <location>
+                <geo>-31.3625 -51.9717</geo>
+            </location>
+            <note>São Lourenço do Sul, município no sul do Rio Grande do Sul, Brasil.</note>
+        </place>
+        
+        <place xml:id="sao_joao_batista">
+            <placeName>São João Batista</placeName>
+            <note>Distrito mencionado como local de atuação do Juiz de Paz em questão. Identificação precisa ainda a confirmar.</note>
+        </place>
+        
+        <place xml:id="bage">
+            <placeName>Bagé</placeName>
+            <location>
+                <geo>-31.3294 -54.1069</geo>
+            </location>
+            <note>Município do Rio Grande do Sul, sede do Tesouro da República Rio-grandense.</note>
+        </place>
+        
+        <place xml:id="boqueirao">
+            <placeName>Boqueirão</placeName>
+            <location>
+                <geo>-30.4484 -54.3081</geo>
+            </location>
+            <note>Boqueirão, região mencionada como departamento administrativo do destinatário.</note>
+        </place>
+        
+        <place xml:id="pelotas">
+            <placeName>Pelotas</placeName>
+            <location>
+                <geo>-31.7649 -52.3371</geo>
+            </location>
+            <note>Importante centro econômico e militar no sul do Rio Grande do Sul.</note>
+        </place>
+        
+        <place xml:id="erval">
+            <placeName>Erval</placeName>
+            <location>
+                <geo>-31.9903 -53.0827</geo>
+            </location>
+            <note>Região referida como jurisdição de coletoria fiscal no século XIX, relacionada à atual cidade de Erval (Erval Seco ou Erval Grande), RS.</note>
+        </place>
+        
+        <place xml:id="salso">
+            <placeName>Salso</placeName>
+            <location>
+                <geo>-31.6949 -53.1414</geo>
+            </location>
+            <note>Distrito ou localidade histórica próxima a Bagé, RS, recorrente nas correspondências da Revolução Farroupilha.</note>
+        </place>
+        
+        <place xml:id="cristal">
+            <placeName>Cristal</placeName>
+            <location>
+                <geo>-31.0044 -52.0444</geo>
+            </location>
+            <note>Cristal, município do RS, mencionado como ponto de trânsito na correspondência.</note>
+        </place>
+        
+        <place xml:id="sao_gabriel">
+            <placeName>São Gabriel</placeName>
+            <location>
+                <geo>-30.3336 -54.3211</geo>
+            </location>
+            <note>Cidade do RS, importante centro militar e político no período farroupilha.</note>
+        </place>
+    </listPlace>
+</standOff>

@@ -1,0 +1,59 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-7 – Antônio Vicente da Fontoura para Antônio Francisco dos Santos Abreu</title>
+                <author ref="#fontoura">Antônio Vicente da Fontoura</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#fontoura">Antônio Vicente da Fontoura</persName>
+                    <placeName ref="#bage">Bagé</placeName>
+                    <date when="1842-02-21">21 de fevereiro de 1842</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-7">
+                <opener>
+                    <salute>Ilmo. Sr. Antônio Francisco dos Santos Abreu.</salute>
+                    <dateline><placeName ref="#bage">Bagé</placeName>, <date when="1842-02-21">21 de fevereiro de 1842</date>.</dateline>
+                </opener>
+                
+                <p>Querendo contestar a que dirigiu V.S.ª a seu amigo <persName ref="#domingos_almeida">Almeida</persName>, e que me foi por ele confiada, dirigi a inclusa ao <orgName ref="#inspetoria">Inspetor</orgName>, a qual verá com a resposta deste e a do <orgName ref="#contador">Contador</orgName>, o que por certo motivou não poder fazer lavrar uma ordem marcando a quantia que por conta do que lhe deve o Estado devia ser descontada; a que deu causa V.S.ª levar os documentos e não ficar a dívida escriturada como devia, e até como eu mesmo estava persuadido tivesse acontecido.</p>
+                
+                <p>Desejando porém não causar o menor inconveniente aos credores do Estado, poderá V.S.ª despachar a tropa que me consta está fazendo em qualquer <orgName>Coletoria</orgName>, dando a letra da importância dos direitos ao Coletor na forma estabelecida, e logo mandar seus documentos a esta a seu procurador, ao qual dirá o valor do despacho feito e em qual Coletoria, para este, juntando os documentos ditos, requerer que lhe seja encontrada a importância da dita letra, o que terá lugar, e pelo <orgName ref="#tesouro">Tesouro</orgName> se expedirá a ordem ao coletor.</p>
+                
+                <p>Ora, para isto há muito tempo, porque nunca pode ser menos de 30 dias o prazo de sobredita letra, e assim fica efetuando o encontro que pretende V.S.ª.</p>
+                
+                <closer>
+                    <salute>Sou</salute>
+                    <signed>(a) Antônio Vicente da Fontoura.</signed>
+                </closer>
+                
+                <postscript>
+                    <label>P.S.</label>
+                    <p>É tão justa a exigência de <persName ref="#alexandre_silveira">Alexandre Silveira</persName> que se eu o pudesse de minha conta adiantaria seu embolso; porém para efetuá-lo cumpre também que V.S.ª faça ver a esse senhor que é preciso mandar apresentar seus documentos e por um procurador exigir aqui seu embolso que, novamente lhe afianço, se fará dos primeiros dinheiros a entrarem, ou mesmo por despachos, na forma que já indiquei, de gêneros a exportar ou importar.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

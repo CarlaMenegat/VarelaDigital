@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standOff xmlns="http://www.tei-c.org/ns/1.0">
+    <listOrg>
+        <org xml:id="tesouro">
+            <orgName>Tesouro</orgName>
+            <note>Órgão estatal responsável pelas finanças públicas da República Rio-Grandense.</note>
+        </org>
+        
+        <org xml:id="inspetoria">
+            <orgName>Inspetoria</orgName>
+            <note>Referência à Inspetoria responsável pela auditoria ou fiscalização contábil no Tesouro.</note>
+        </org>
+        
+        <org xml:id="contador">
+            <orgName>Contador</orgName>
+            <note>Setor contábil que respondeu à solicitação sobre a dívida não escriturada.</note>
+        </org>
+    </listOrg>
+</standOff>

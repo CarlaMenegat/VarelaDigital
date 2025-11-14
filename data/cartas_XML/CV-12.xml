@@ -1,0 +1,51 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-12 – Antônio Francisco dos Santos Abreu para Domingos José de Almeida</title>
+                <author>Antônio Francisco dos Santos Abreu</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName>
+                    <placeName ref="#sao_lourenco">São Lourenço</placeName>
+                    <date when="1842-02-09">9 de fevereiro de 1842</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#almeida">Domingos José de Almeida</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-12">
+                <opener>
+                    <salute>Amigo e Sr. Almeida,</salute>
+                </opener>
+                
+                <p>O portador desta é o Sr. <persName ref="#joao_silva">João Agostinho da Silva</persName>, dono das amostras de saragoças e panos que aí lhe deixei, e que pretende entrar em negócio com o governo, a cujo fim ele aí se dirige para poder melhor fazer sua contrata, e por qualquer negócio que o mesmo faça eu por esta me responsabilizo como propriamente meu, portanto rogo-lhe de o proteger no que possa, que tomarei qualquer obséquio a ele feito como a mim próprio, pois é pessoa de minha amizade e a quem desejo prestar-me.</p>
+                
+                <p>Sendo que tenha conseguido a minha justa pretensão, e que o Exmo. Ministro <persName ref="#fontoura">Fontoura</persName> tenha cumprido com o que me disse, rogo-lhe de remeter-me pelo mesmo Sr. Silva as ordens sobre a Coletoria, e que sendo possível venham em duas ordens para melhor servir-me, de uma aqui e outra em <placeName ref="#jaguarao">Jaguarão</placeName>, assim também a do pobre <persName ref="#alexandre_lopes">Alexandre Silveira</persName>.</p>
+                
+                <closer>
+                    <signed>Seu sincero e obrigado amigo<br/>(a) <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName></signed>
+                    <date when="1842-02-09">São Lourenço, 9 de fevereiro de 1842</date>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,50 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-15 – Antônio Francisco dos Santos Abreu para Domingos José de Almeida</title>
+                <author>Antônio Francisco dos Santos Abreu</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName>
+                    <placeName ref="#sao_lourenco">São Lourenço</placeName>
+                    <date when="1843-03-01">1.º de março de 1843</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#alegrete">Alegrete</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-15">
+                <opener>
+                    <salute>Amigo e Sr. Almeida,</salute>
+                </opener>
+                
+                <p>Em dezembro lhe escrevi e remeti todos os meus documentos por um próprio que aí mandei, para V.Mcê. fazer o favor requerer ao governo ordens para se me encontrar os direitos que eu tenha a pagar, no que se me deve, e como não recebesse carta alguma sua, supondo talvez os ditos documentos extraviados, por isso que lhe remeto: uma cópia dos mesmos tirada em juízo, sendo portador o Sr. <persName ref="#miguel_garcia">D. Miguel Garcia</persName>; espero que o meu amigo me fará este grande obséquio com o qual muito obrigará a quem é</p>
+                
+                <closer>
+                    <signed>Antônio Francisco dos Santos Abreu</signed>
+                    <placeName ref="#sao_lourenco">São Lourenço</placeName>, <date when="1843-03-01">1.º de março de 1843</date>.
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

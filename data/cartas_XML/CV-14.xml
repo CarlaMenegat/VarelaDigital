@@ -1,0 +1,49 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-14 – Antônio Vicente da Fontoura para Domingos José de Almeida</title>
+                <author>Antônio Vicente da Fontoura</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#fontoura">Antônio Vicente da Fontoura</persName>
+                    <placeName ref="#bage">Bagé</placeName>
+                    <date when="1842-02-21">21 de fevereiro de 1842</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#almeida">Domingos José de Almeida</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-14">
+                <opener>
+                    <salute>Ilmo. Sr.,</salute>
+                </opener>
+                
+                <p>Contestando o ofício de V.S.ª de ontem, cumpre-me dizer-lhe que não se efetuou a compra das saragoças e pano, por não convir atualmente. Quanto ao quê exige <persName ref="#antonio_abreu">Abreu</persName>, junto remeto a contestação com a qual julgo ficará satisfeito. Devolvo a carta do mesmo Abreu.</p>
+                
+                <closer>
+                    <signed>Antônio Vicente da Fontoura</signed>
+                    <placeName ref="#bage">Bagé</placeName>, <date when="1842-02-21">21 de fevereiro de 1842</date>.
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

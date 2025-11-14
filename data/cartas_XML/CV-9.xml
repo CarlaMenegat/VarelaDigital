@@ -1,0 +1,54 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-9 – Correspondência entre Fontoura e Martins sobre dívida de Abreu</title>
+                <author>Antônio Vicente da Fontoura e Manuel Martins da Silveira Lemos</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#fontoura">Antônio Vicente da Fontoura</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#martins">Manuel Martins da Silveira Lemos</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-9">
+                <opener>
+                    <salute>Amigo e Sr. Martins</salute>
+                </opener>
+                
+                <p><persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName> quer descontos de direitos por conta do que o Estado lhe deve e para não serem iludidas as disposições tomadas sobre pagamentos, rogo-lhe dizer-me quanto é o total do que lhe deve o Estado; também os documentos pelos quais se justou essa conta, para ver o que está nas circunstâncias de ser pago prontamente, na forma do mesmo parecer e circular.</p>
+                
+                <closer>
+                    <signed>Seu amigo e patrício<br/>(a) <persName ref="#fontoura">Fontoura</persName></signed>
+                </closer>
+                
+                <p>Quando aqui esteve o <persName ref="#antonio_abreu">Abreu</persName>, apresentou uns documentos de gados a ele tirados para munício de forças, e os levou por faltarem neles alguns quesitos; não sei em quanto montavam; ele ainda deve uma letra que passou na Coletoria do <placeName ref="#erval">Erval</placeName>, há pouco apresentada pelo coletor dali.</p>
+                
+                <p>Os documentos, o <persName ref="#antonio_abreu">Abreu</persName> tornou a levá-los; por isso não ficaram escriturados. A quantia que pela Coletoria do <placeName ref="#erval">Erval</placeName> se acha debitada, não me lembra qual é; e assim mais acha-se-lhe debitada uma outra quantia, que recebeu por ordem do Ministério da Fazenda pela Coletoria a seu cargo, quando Coletor.</p>
+                
+                <closer>
+                    <signed>De V.Exa. Patrício e afetuoso<br/>(a) <persName ref="#martins">Martins</persName></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

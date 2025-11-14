@@ -1,0 +1,51 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-11 – Domingos José de Almeida para o Tesouro</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#bage">Bagé</placeName>
+                    <date when="1842-03-19">19 de março de 1842</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName>Tribunal do Tesouro</orgName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-11">
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>O cidadão <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName> ao partir desta capital comunicando-me ter-lhe V.Ex.ª prometido expedir ordem para se lhe aceitar letras pelos direitos dos objetos que de sua conta despachasse nas Coletorias do <placeName ref="#erval">Erval</placeName> e <placeName ref="#boqueirao">Boqueirão</placeName>, para a importância delas ser encontrada no que lhe deve o Estado, e para o que acordara com V.Ex.ª deixar seus documentos em meu poder a fim de exigir as ordens a respeito passado algum tempo, bem o do cidadão <persName ref="#alexandre_lopes">Alexandre Silveira Lopes</persName> para ter o mesmo destino, pediu-me lhe aceitasse os ditos documentos, o que fiz.</p>
+                
+                <p>A carta, cópia e ofício em números 1, 2 e 3 verificam quanto levo expressado; e por isso, sobrepondo surpreendido com a exigência de procuração para a inscrição da dívida liquidada do referido cidadão, inscrição que requeri por aproximar-se a transferência da sede do governo, e dever constar no Tesouro a conta em questão para as transações a fazer-se caso haja de verificar-se o encontro prometido, ainda uma vez requeiro a V.Ex.ª que a mande praticar, desistindo eu da exigência de conhecimento em forma, posto que para isso me dê jus a carta e peças que citei, pelo desconceito que a V.Ex.ª mereço.</p>
+                
+                <closer>
+                    <signed>(a) <persName ref="#almeida">Domingos José de Almeida</persName></signed>
+                    <date when="1842-03-19">Bagé, 19 de março de 1842</date>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

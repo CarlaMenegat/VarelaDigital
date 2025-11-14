@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standOff xmlns="http://www.tei-c.org/ns/1.0">
+    <listPerson>
+        <person xml:id="raul_abbott">
+            <persName>Raul Abbott</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q122603323</idno>
+            <note>Jornalista e memorialista gaúcho, ativo no fim do século XIX. Autor de "A Epopéia Farrapa".</note>
+        </person>
+        <person xml:id="alfredo">
+            <persName>Alfredo</persName>
+            <note>Destinatário da carta, não identificado com certeza. Possivelmente amigo pessoal de Raul Abbott.</note>
+        </person>
+        <person xml:id="coritiba">
+            <persName>Coritiba</persName>
+            <note>Veterano da Revolução Farroupilha mencionado por Raul Abbott como testemunha de episódios militares.</note>
+        </person>
+        <person xml:id="canabarro">
+            <persName>Canabarro</persName>
+            <idno type="viaf">https://viaf.org/viaf/49300260</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q17276409</idno>
+            <note>General David Canabarro, líder militar da Revolução Farroupilha (1835–1845).</note>
+        </person>
+        <person xml:id="bento_manuel">
+            <persName>Bento Manuel</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q4831517</idno>
+            <note>Bento Manuel Ribeiro, militar que atuou nos dois lados do conflito Farroupilha.</note>
+        </person>
+        <person xml:id="teixeira_nunes">
+            <persName>Joaquim Teixeira Nunes</persName>
+            <note>Coronel farroupilha, comandante do Corpo de Lanceiros Negros. Morto na traição de Porongos em 1844.</note>
+        </person>
+        <person xml:id="demetrio_ribeiro">
+            <persName>Demétrio Ribeiro</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10368444</idno>
+            <note>Militar e político republicano, atuante no sul do Brasil.</note>
+        </person>
+        <person xml:id="roque">
+            <persName>Roque</persName>
+            <note>Capitão legalista supostamente fuzilado após o combate do Espinilho.</note>
+        </person>
+        <person xml:id="general_lima">
+            <persName>General Lima</persName>
+            <note>General legalista assassinado por Roque, segundo relato oral de veterano.</note>
+        </person>
+        <person xml:id="josefina">
+            <persName>Josefina</persName>
+            <note>Prima de Alfredo, mencionada com carinho na carta.</note>
+        </person>
+        <person xml:id="vivi">
+            <persName>Vivi</persName>
+            <note>Provavelmente criança próxima à família de Alfredo, mencionada como "mimosa".</note>
+        </person>
+        <person xml:id="laia">
+            <persName>Laia</persName>
+            <note>Possivelmente familiar próxima de Raul Abbott; está em convalescença.</note>
+        </person>
+        <person xml:id="antonio_abreu">
+            <persName>Antônio Francisco dos Santos Abreu</persName>
+            <note>Comerciante e fornecedor de gado, frequentemente em contato com o governo farroupilha.</note>
+            <idno type="viaf">https://viaf.org/viaf/—</idno> <!-- se não tiver VIAF, deixe sem -->
+        </person>
+        
+        <person xml:id="domingos_almeida">
+            <persName>Domingos José de Almeida</persName>
+            <note>Político e figura importante na Revolução Farroupilha; Ministro da Fazenda da República Rio-Grandense.</note>
+            <idno type="viaf">https://viaf.org/viaf/66566150</idno>
+        </person>
+        
+        <person xml:id="dionisio_amaro">
+            <persName>Dionísio Amaro</persName>
+            <note>Provável emissário ou mensageiro entre Abreu e Almeida.</note>
+        </person>
+        
+        <person xml:id="irmao_abreu">
+            <persName>Mano de Antônio Abreu</persName>
+            <note>Irmão de Antônio Abreu, não identificado nominalmente.</note>
+        </person>
+        <person xml:id="jose_sousa">
+            <persName>José de Sousa</persName>
+            <note>Possível morador do distrito de São João Batista, envolvido em disputa de direitos com o europeu Costa.</note>
+        </person>
+        
+        <person xml:id="joao_costa">
+            <persName>João José da Costa</persName>
+            <note>Europeu favorecido em disputa relatada por Abreu, em prejuízo de José de Sousa.</note>
+        </person>
+        
+        <person xml:id="serafim_ribeiro">
+            <persName>Serafim Ribeiro</persName>
+            <note>Senhor mencionado na carta como em viagem com seu filho para tratar de assuntos pessoais.</note>
+        </person>
+        
+        <person xml:id="inacio_guimaraes">
+            <persName>Inácio José de Oliveira Guimarães</persName>
+            <note>Chefe de Polícia do Departamento do Boqueirão, destinatário da carta CV-5.</note>
+        </person>
+        
+        <person xml:id="fontoura">
+            <persName>Antônio Vicente da Fontoura</persName>
+            <note>Político e militar da Revolução Farroupilha, autor da carta e figura proeminente no Tesouro.</note>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q4773622</idno>
+        </person>
+        
+        <person xml:id="alexandre_silveira">
+            <persName>Alexandre Silveira</persName>
+            <note>Credor mencionado no post scriptum da carta, aguardando pagamento.</note>
+        </person>
+        
+        <person xml:id="bento_goncalves">
+            <persName>Bento Gonçalves da Silva</persName>
+            <note>Comandante farroupilha e presidente da República Rio-Grandense.</note>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q485461</idno>
+        </person>
+        
+        <person xml:id="hilario_amaro_junior">
+            <persName>Hilário Amaro Júnior</persName>
+            <note>Funcionário que validou a cópia do despacho de Bento Gonçalves da Silva.</note>
+        </person>
+        
+        <person xml:id="martins">
+            <persName>Manuel Martins da Silveira Lemos</persName>
+            <note>Funcionário administrativo vinculado à Coletoria, interlocutor de Fontoura nesta carta.</note>
+        </person>
+        
+        <person xml:id="miguel_garcia">
+            <persName>D. Miguel Garcia</persName>
+            <note>Indivíduo citado como portador de documentos judiciais remetidos por Antônio Abreu.</note>
+        </person>
+        
+        <person xml:id="procurador_fiscal">
+            <persName>Procurador Fiscal Silva</persName>
+            <note>Autoridade fiscal que analisou o pedido de Antônio Francisco dos Santos Abreu em janeiro de 1842.</note>
+        </person>
+        
+        <person xml:id="viana">
+            <persName>Viana</persName>
+            <note>Oficial ligado a Contadoria citado em múltiplas correspondências de Abreu.</note>
+        </person>
+        
+        <person xml:id="afonsojosecortereal">
+            <persName>Afonso José de Almeida Corte Real</persName>
+            <note>Ministro e Secretário dos Negócios da Fazenda durante o período farroupilha.</note>
+        </person>
+        
+        <person xml:id="joao_silva">
+            <persName>João Agostinho da Silva</persName>
+            <note>Comerciante de tecidos, interessado em estabelecer contrato com o governo durante a Revolução Farroupilha.</note>
+        </person>
+    </listPerson>
+</standOff>

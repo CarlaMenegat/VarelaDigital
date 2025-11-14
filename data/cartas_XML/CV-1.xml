@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-1 – Raul Abbott para Alfredo</title>
+                <author>Raul Abbott</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="standoff/standoff-persons.xml"/>
+                    <ptr target="standoff/standoff-places.xml"/>
+                    <ptr target="standoff/standoff-events.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#raul_abbott">Raul Abbott</persName>
+                    <placeName ref="#cachoeira">Cachoeira</placeName>
+                    <date when="1896-04-27">27 de abril de 1896</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#alfredo">Alfredo</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-1">
+                <opener>
+                    <salute>Amigo Alfredo</salute>
+                </opener>
+                <p>Só hoje posso responder tua carta, devido ao estado adoentado do veterano <persName ref="#coritiba">Coritiba</persName> com quem precisava conversar para dar resposta conveniente.</p>
+                <p>Sentimos bastante que a presteza com que resolveram partir, nos tivesse proibido da prometida visita, por nós desejada pelo prazer que nos viria dar. Que agradável seja o passeio a <placeName ref="#buenos_aires">Buenos Aires</placeName> e que regressem novamente ao <placeName ref="#rio_grande">Rio Grande</placeName> são nossos desejos.</p>
+                <p>Do velho <persName ref="#coritiba">Coritiba</persName> colhi o seguinte: “No <event ref="#combate_espinilho">combate do Espinilho</event> estavam os dois, <persName ref="#canabarro">Canabarro</persName> e <persName ref="#bento_manuel">Bento Manuel</persName>, este há poucos dias havia passado para a República.</p>
+                <p>Foi tão somente um corpo e um esquadrão que derrotaram a força legal. As operações foram concebidas por <persName ref="#canabarro">Canabarro</persName>. Comandava o corpo (batalhão) o <persName ref="#teixeira_nunes">Coronel Joaquim Teixeira Nunes</persName> e o esquadrão, <persName ref="#demetrio_ribeiro">Demétrio Ribeiro</persName>. Neste ataque foi prisioneiro o <persName ref="#roque">capitão legalista Roque</persName> sendo em marcha fuzilado. Esse capitão foi o assassino do <persName ref="#general_lima">General Lima</persName>, em uma casa da fronteira.”</p>
+                <p>Aqui termina o velho o que sabia, dizendo estar pronto a mais esclarecimentos dar, quando necessários, digo, solicitados. Creio que fica respondida tua estimada carta faltando pedir para aceitares com <persName ref="#josefina">prima Josefina</persName> nossos protestos de estima e acariciares a mimosa <persName ref="#vivi">Vivi</persName>, muitas vezes, por nós.</p>
+                <p>Agradeço os bons desejos manifestados pelo restabelecimento da <persName ref="#laia">Laia</persName> a quem farei ciente assim regresse do passeio que está fazendo a uma fazenda do município.</p>
+                <closer>
+                    <salute>Abraços manda o</salute>
+                    <signed>Raul</signed>
+                    <placeName ref="#cachoeira">Cachoeira</placeName>, <date when="1896-04-27">27-4-96</date>.
+                </closer>
+            </div>
+        </body>
+    </text>
+    
+    <standOff>
+        <listPerson>
+            <person xml:id="raul_abbott">
+                <persName>Raul Abbott</persName>
+            </person>
+            <person xml:id="alfredo">
+                <persName>Alfredo</persName>
+            </person>
+            <person xml:id="coritiba">
+                <persName>Coritiba</persName>
+            </person>
+            <person xml:id="canabarro">
+                <persName>Canabarro</persName>
+            </person>
+            <person xml:id="bento_manuel">
+                <persName>Bento Manuel</persName>
+            </person>
+            <person xml:id="teixeira_nunes">
+                <persName>Joaquim Teixeira Nunes</persName>
+            </person>
+            <person xml:id="demetrio_ribeiro">
+                <persName>Demétrio Ribeiro</persName>
+            </person>
+            <person xml:id="roque">
+                <persName>Roque</persName>
+            </person>
+            <person xml:id="general_lima">
+                <persName>General Lima</persName>
+            </person>
+            <person xml:id="josefina">
+                <persName>Josefina</persName>
+            </person>
+            <person xml:id="vivi">
+                <persName>Vivi</persName>
+            </person>
+            <person xml:id="laia">
+                <persName>Laia</persName>
+            </person>
+        </listPerson>
+        
+        <listPlace>
+            <place xml:id="cachoeira">
+                <placeName>Cachoeira</placeName>
+            </place>
+            <place xml:id="buenos_aires">
+                <placeName>Buenos Aires</placeName>
+            </place>
+            <place xml:id="rio_grande">
+                <placeName>Rio Grande</placeName>
+            </place>
+        </listPlace>
+        
+        <listEvent>
+            <event xml:id="combate_espinilho">
+                <desc>Combate do Espinilho</desc>
+            </event>
+        </listEvent>
+    </standOff>
+</TEI>
