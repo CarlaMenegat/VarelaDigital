@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>Ofício CV-246 – Domingos José de Almeida para Joaquim dos Santos Prado Lima</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, vol. III (1941).
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1838-07-26">26 de julho de 1838</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#joaquim_prado_lima">Joaquim dos Santos Prado Lima</persName>
+                    <placeName ref="#alegrete">Alegrete</placeName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    
+    
+    
+    <text>
+        <body>
+            
+            <div type="officialDocument" xml:id="CV-246">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>
+                    Não convindo tirar-se uma só rês das 
+                    <orgName ref="#fazendas_nacionais">Fazendas Nacionais</orgName>, 
+                    outrora dos extintos jesuítas em 
+                    <placeName ref="#missoes">Missões</placeName>, 
+                    assim o comunico a V. S. para que fique de nenhum efeito a ordem 
+                    expedida por esta repartição em 6 do presente mês a favor de 
+                    <persName ref="#jose_antonio_silva">José Antônio da Silva</persName>, 
+                    que deverá ser embolsado em gado de propriedade inimiga.
+                </p>
+                
+                <closer>
+                    <salute>Deus guarde a V. Sª.</salute>
+                    <dateline>
+                        <orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName> em 
+                        <placeName ref="#piratini">Piratini</placeName>,
+                        <date when="1838-07-26">26 de julho de 1838</date>.
+                    </dateline>
+                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</signed>
+                </closer>
+                
+                <note type="endorsement">
+                    Ilmo. Sr. <persName ref="#joaquim_prado_lima">Joaquim dos Santos Prado Lima</persName> — 
+                    Comandante Geral da Polícia do Município e Fronteira de 
+                    <placeName ref="#alegrete">Alegrete</placeName>.
+                </note>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-252 – Domingos José de Almeida e Bento Gonçalves da Silva</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, vol. III (1941).
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#bento_goncalves">Bento Gonçalves da Silva</persName>
+                    <orgName ref="#presidencia_estado">Presidência do Estado</orgName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    
+    <text>
+        <body>
+            
+            <div type="letter" xml:id="CV-252">
+                
+                <opener>
+                    <salute>Meu bom Presidente e amigo</salute>
+                </opener>
+                
+                <p>
+                    Neste momento recebo a carta e ofício que a cobre, pela qual meio que 
+                    se antevê o futuro que cumpre prevenir com sagacidade e manha.
+                </p>
+                
+                <closer>
+                    <salute>De V. Ex.ª</salute>
+                    <signed>Amigo sincero e obrigado<br/>(a) <persName ref="#domingos_jose_almeida">Almeida</persName></signed>
+                </closer>
+                
+                
+                <opener>
+                    <salute>Amigo e Sr.</salute>
+                </opener>
+                
+                <p>
+                    Estou imposto da carta de <persName ref="#felix_cunha">Félix</persName> e do ofício.
+                    Convém não divulgar o procedimento de Fortunato. Eu mandei ali há dias 
+                    um próprio e o espero por momentos; então colheremos mais dados, não 
+                    padecendo dúvida a política duvidosa daquele governo.
+                </p>
+                
+                <closer>
+                    <salute>Seu amigo</salute>
+                    <signed>(a) <persName ref="#bento_goncalves">B. G. Silva</persName></signed>
+                </closer>
+                
+                <note type="endorsement">
+                    Exmo. Sr. Presidente do Estado. Sua residência.  
+                    Volta com resposta.  
+                    Nota marginal: “É seguramente a carta a que se refere em ofício de 
+                    Elzeário em 17-8-38.”
+                </note>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>Ofício CV-240 – Domingos José de Almeida para Vasco Madruga de Bitancurt</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, vol. III (1941).
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1838-04-17">17 de abril de 1838</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#vasco_madruga_bitancurt">Vasco Madruga de Bitancurt</persName>
+                    <placeName ref="#erval">Erval</placeName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    
+    
+    
+    <text>
+        <body>
+            
+            <div type="officialDocument" xml:id="CV-240">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>
+                    Na presença de seu ofício de 8 do corrente mês dirigido ao coletor de 
+                    <placeName ref="#jaguarao">Jaguarão</placeName>, e de outro deste ao Inspetor do Tesouro, 
+                    cumpre-me fazer sentir que V. Mcê., como autoridade local e como vivamente 
+                    interessado na prosperidade da República, deve prestar ao referido coletor 
+                    todos os auxílios que dependam de sua jurisdição e influência, a fim de que, 
+                    por falta de mútua cooperação, não perca o Estado os tênues recursos com que 
+                    conta no produto dos direitos estatuídos, para aproximar o fim da gloriosa 
+                    luta em que nos achamos empenhados, e com ele o não definhamento das 
+                    riquezas do País.
+                </p>
+                
+                <p>
+                    Sem desfalque do exército, bem se pode custear os indispensáveis trabalhos 
+                    daquela repartição fiscal com homens não aptos para a campanha, 
+                    que comumente superabundam pelos distritos; destes é que V. Mcê. deve pôr à 
+                    disposição do coletor, e por uma bem combinada escala, os necessários para os 
+                    trabalhos a seu cargo, não perdoando mesmo os afilhados de pessoas de alto 
+                    coturno — como se expressa.
+                </p>
+                
+                <p>
+                    A natureza e extensão de nossa linha com o Estado vizinho, como sabe, 
+                    desafia aos contrabandos; é para evitá-los, é para impor a desmoralização, 
+                    que o governo empenha sua atividade e bons desejos neste importante ramo do 
+                    serviço público, na parte que lhe toca.
+                </p>
+                
+                <closer>
+                    <salute>Deus guarde a V. Mcê.</salute>
+                    <dateline>
+                        <orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName>,
+                        <placeName ref="#piratini">Piratini</placeName>,
+                        <date when="1838-04-17">17 de abril de 1838</date>.
+                    </dateline>
+                    <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                </closer>
+                
+                <note type="endorsement">
+                    Ao cidadão <persName ref="#vasco_madruga_bitancurt">Vasco Madruga de Bitancurt</persName>, 
+                    Juiz de Paz do <placeName ref="#erval">Erval</placeName>.  
+                    Do Ministério da Fazenda.
+                </note>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

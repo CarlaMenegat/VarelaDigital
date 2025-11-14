@@ -575,6 +575,11 @@
             <note>Filho do casal Almeida; aparece em diversas cartas em contexto de doença.</note>
         </person>
         
+        <person xml:id="arisrides_almeida">
+            <persName>Aristides</persName>
+            <note>Filho do casal Almeida.</note>
+        </person>
+        
         <person xml:id="catraio">
             <persName>Catraio</persName>
             <note>Indivíduo encarregado de trazer um cavalo (“tordilho”).</note>
@@ -609,6 +614,178 @@
         <person xml:id="inacio_jose_oliveira_guimaraes">
             <persName>Inácio José de Oliveira Guimarães</persName>
             <note>Funcionário que registrou o recebimento do ofício.</note>
+        </person>
+        
+        <person xml:id="pedro_rodrigues_quevedo">
+            <persName>Pedro Rodrigues de Quevedo</persName>
+            <note>Capitão encarregado de agenciar escravos e administrar o curtume mencionado no ofício.</note>
+        </person>
+        
+        <person xml:id="vasco_madruga_bitancurt">
+            <persName>Vasco Madruga de Bitancurt</persName>
+            <note>Juiz de Paz do distrito do Erval.</note>
+        </person>
+        
+        <person xml:id="silva_tavares">
+            <persName>Silva Tavares</persName>
+            <note>Oficial militar citado como ameaça; atuante na Guerra Farroupilha.</note>
+        </person>
+        
+        <person xml:id="guedes">
+            <persName>Guedes</persName>
+            <note>Tenente-coronel citado como parte das forças legalistas.</note>
+        </person>
+        
+        <person xml:id="felicissimo">
+            <persName>Felicissimo</persName>
+            <note>Tenente-coronel mencionado como comandante de 180 homens.</note>
+        </person>
+        
+        <person xml:id="jose_rodrigues_chaves">
+            <persName>José Rodrigues Chaves</persName>
+            <note>Morador de Bom Retiro; hospedava Bernardina.</note>
+        </person>
+        
+        <person xml:id="zeferino">
+            <persName>Capitão Zeferino</persName>
+            <note>Oficial militar citado por Domingos José de Almeida.</note>
+        </person>
+        <person xml:id="domingos_jose_silveira_filho">
+            <persName>Domingos José de Silveira Filho</persName>
+            <note>2º sargento da 3ª Companhia do Esquadrão de Pelotas do 4º Corpo da 1ª Brigada.</note>
+        </person>
+        
+        <person xml:id="antonio_carlos_soveral">
+            <persName>Antônio Carlos de Soveral</persName>
+            <note>Major sob cujas ordens se encontrava força militar no Estado Oriental.</note>
+        </person>
+        
+        <person xml:id="quincoze">
+            <persName>Quincoze</persName>
+            <note>Destinatário da carta; indivíduo mencionado por Almeida.</note>
+        </person>
+        
+        <person xml:id="forte_gatto">
+            <persName>Forte Gatto</persName>
+            <note>Pessoa citada como destinatária de pagamento em patacões.</note>
+        </person>
+        
+        <person xml:id="joaquim_prado_lima">
+            <persName>Joaquim dos Santos Prado Lima</persName>
+            <note>Comandante Geral da Polícia do Município e Fronteira de Alegrete.</note>
+        </person>
+        
+        <person xml:id="jose_antonio_silva">
+            <persName>José Antônio da Silva</persName>
+            <note>Indivíduo mencionado como beneficiário de ordem revogada.</note>
+        </person>
+        
+        <person xml:id="inacio_guimaraes">
+            <persName>Inácio José de Oliveira Guimarães</persName>
+            <note>Chefe de Polícia do Departamento do Boqueirão.</note>
+        </person>
+        
+        <person xml:id="ana_joaquina_santos">
+            <persName>D. Ana Joaquina da Silva Santos</persName>
+            <note>Remetente de resposta administrativa encaminhada ao governo.</note>
+        </person>
+        
+        <person xml:id="guiomar_soares">
+            <persName>D. Guiomar Maria Soares</persName>
+            <note>Remetente de resposta administrativa enviada ao governo.</note>
+        </person>
+        
+        <person xml:id="julio_centeno">
+            <persName>Júlio César Centeno</persName>
+            <note>Indivíduo que enviou resposta incluída no ofício mencionado.</note>
+        </person>
+        
+        <person xml:id="joaquim_braga">
+            <persName>Joaquim Vieira Braga</persName>
+            <note>Indivíduo que acompanhou as respostas mencionadas.</note>
+        </person>
+        
+        <person xml:id="manuel_madruga">
+            <persName>Manuel Madruga</persName>
+            <note>Chefe de polícia mencionado como responsável pela entrega dos potros.</note>
+        </person>
+        
+        <person xml:id="felix_cunha">
+            <persName>Félix da Cunha</persName>
+            <note>Jornalista e político rio-grandense; importante ativista liberal do período.</note>
+            <idno type="viaf">https://viaf.org/viaf/23627851</idno>
+        </person>
+        
+        <person xml:id="jose_mariano_matos">
+            <persName>José Mariano de Matos</persName>
+            <note>Indivíduo mencionado como recém-chegado de Sandú.</note>
+        </person>
+        
+        <person xml:id="joao_barcelos">
+            <persName>João Barcelos</persName>
+            <note>Irmão de Bernardina, visitado por José Mariano de Matos.</note>
+        </person>
+        
+        <person xml:id="fructuoso_rivera">
+            <persName>Fructuoso Rivera</persName>
+            <note>Militar e político uruguaio, primeiro presidente do Uruguai.</note>
+            <idno type="viaf">https://viaf.org/viaf/89088984</idno>
+        </person>
+        
+        <person xml:id="manuel_oribe">
+            <persName>Manuel Oribe</persName>
+            <note>Presidente uruguaio e rival político de Rivera.</note>
+            <idno type="viaf">https://viaf.org/viaf/22269050</idno>
+        </person>
+        
+        <person xml:id="jose_rodrigues_chaves">
+            <persName>José Rodrigues Chaves</persName>
+            <note>Senhor da casa onde Bernardina residia temporariamente.</note>
+        </person>
+        
+        <person xml:id="carlota">
+            <persName>Carlota</persName>
+            <note>Comadre de Bernardina, mencionada nominalmente.</note>
+        </person>
+        
+        <person xml:id="manuel_campis">
+            <persName>Manuel Campis</persName>
+            <note>Indivíduo mencionado diretamente na carta.</note>
+        </person>
+        
+        <person xml:id="luis_rossetti">
+            <persName>Luís Rossetti</persName>
+            <note>Redator do jornal oficial criado pelo Governo Farroupilha, "O Povo".</note>
+        </person>
+        
+        <person xml:id="general_joao_antonio_lima">
+            <persName>General Lima</persName>
+            <note>General João Antônio de Lima, oficial farroupilha citado como cedente da escrava.</note>
+        </person>
+        
+        <person xml:id="joao_santos_quiminda">
+            <persName>João dos Santos Quimindá</persName>
+            <note>Indivíduo mencionado como reclamante da posse da escrava.</note>
+        </person>
+        
+        <person xml:id="araujo">
+            <persName>Araújo</persName>
+            <note>Proprietário ausente da escrava mencionada em carta.</note>
+        </person>
+        
+        <person xml:id="serafim_dos_anjos_franca">
+            <persName>Serafim dos Anjos França</persName>
+            <note>Inspetor Geral do Tesouro da República Rio-Grandense.</note>
+        </person>
+        
+        <person xml:id="antonio_francisco_reis">
+            <persName>Antônio Francisco dos Reis</persName>
+            <note>Escriturário que certifica a conformidade do documento.</note>
+        </person>
+        
+        <person xml:id="v_s_cunha_filho">
+            <persName>V. S. da Cunha Filho</persName>
+            <note>Revisor que certifica a conformidade do documento.</note>
         </person>
 
     </listPerson>

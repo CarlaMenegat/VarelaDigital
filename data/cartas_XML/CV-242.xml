@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-242 – Domingos José de Almeida para Bernardina Barcelos de Almeida</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, vol. III (1941).
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1838-05-23">23 de maio de 1838</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
+                    <placeName ref="#bom_retiro">Bom Retiro</placeName>
+                </correspAction>
+                
+            </correspDesc>
+            
+        </profileDesc>
+        
+    </teiHeader>
+    
+    
+    
+    
+    <text>
+        <body>
+            
+            <div type="letter" xml:id="CV-242">
+                
+                <opener>
+                    <salute>Querida Bernardina</salute>
+                    <dateline>
+                        <placeName ref="#piratini">Piratini</placeName>,
+                        <date when="1838-05-23">23 de maio de 1838</date>.
+                    </dateline>
+                </opener>
+                
+                <p>
+                    Com a remessa dos cavalos ao Sr. <persName ref="#zeferino">Capitão Zeferino</persName>, 
+                    ainda agora, três da tarde, é que posso despachar o José. Por ele 
+                    remeto uma arroba de erva, e na primeira carreta que se ofereça para 
+                    essa enviarei mais.
+                </p>
+                
+                <p>
+                    Vai também o remédio para <persName ref="#epaminondas_almeida">Epaminondas</persName>, a quem deverás aplicar 
+                    banhos contínuos de malva, leite e água, e evitarás toda a comida e 
+                    bebida carregada, como que não chore para não provocar o sangue. 
+                    Quanto a <persName ref="#aristides_almeida"> Aristides</persName>, se deve fazer o mesmo já recomendado, que não 
+                    há de ser nada como espero em Deus. Não vão remédios para o filho 
+                    da Mariana por não dizeres quais os sintomas da moléstia; enfim, só 
+                    uma carrada de paciência nos pode valer.
+                </p>
+                
+                <p>
+                    A invasão projetada sobre este ponto evaporou-se, graças à providência; 
+                    contudo eu vivo vigilante, e não tenhas o mínimo cuidado a meu 
+                    respeito. As tropas de <placeName ref="#rio_pardo">Rio Pardo</placeName> ainda não chegaram; 
+                    o Presidente da mesma forma, e eu desesperado para me ver livre dos 
+                    incômodos de espírito que bastante me têm amofinado, tanto que 
+                    ansioso me desejo ver em qualquer canto do 
+                    <placeName ref="#estado_oriental">Estado Oriental</placeName>, embora também 
+                    arriscado, pois já me falta a paciência.
+                </p>
+                
+                <p>
+                    Manda-me sempre dizer como vão os meninos, a quem por mim abraçarás. 
+                    Saudades a teus pais, Chiquinha, José Rodrigues, sua mulher, compadre 
+                    Joaquim e sua mulher; e tu recebe o coração do
+                </p>
+                
+                <closer>
+                    <signed>Teu<br/>(a) Almeida.</signed>
+                </closer>
+                
+                <note type="endorsement">
+                    Sra. Bernardina Barcelos de Almeida. Bom Retiro, na fazenda 
+                    do Sr. <persName ref="#jose_rodrigues_chaves">José Rodrigues Chaves</persName>.
+                </note>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

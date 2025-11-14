@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>Circular CV-247 – Secretaria do Interior sobre instalação de escolas</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, vol. III (1941).
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <orgName ref="#secretaria_interior">Secretaria do Interior</orgName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1838-08-01">1.º de agosto de 1838</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <orgName ref="#camara_alegrete">Câmara de Alegrete</orgName>
+                    <placeName ref="#alegrete">Alegrete</placeName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    
+    
+    
+    <text>
+        <body>
+            
+            <div type="officialDocument" xml:id="CV-247">
+                
+                <opener>
+                    <head>Circular</head>
+                </opener>
+                
+                <p>
+                    Convencido o Governo da República que só por meio da difusão das 
+                    luzes e da moral é que podem prosperar e robustecer os Estados como 
+                    este, baseados nos princípios representativos; e tomando em 
+                    consequência por aquele motivo na mais séria consideração a educação 
+                    e instrução da mocidade rio-grandense, inteiramente derrocadas em 
+                    todos ou quase todos os pontos do Estado pelas vicissitudes de uma 
+                    guerra de três anos qual a que sustentamos contra os opressores de 
+                    nossa liberdade e independência; determina que V. Mcês., pondo em 
+                    vigorosa ação o patriotismo e mais qualidades que os distinguem, façam 
+                    instalar provisoriamente com a possível brevidade tantas escolas de 
+                    1ªs letras quantas forem as povoações ou lugares notáveis do seu 
+                    município, provendo-as logo de mestres idôneos, morigerados e 
+                    instruídos, na falta dos conhecimentos do sistema de Lancaster, pelo 
+                    menos nas quatro primeiras operações aritméticas e suas definições, e 
+                    na escrita com acerto, aos quais farão examinar por duas pessoas 
+                    entendedoras da matéria e perante V. Mcês, que igualmente lhes 
+                    arbitrarão ordenados adequados às circunstâncias do local onde 
+                    tiverem de exercer tal magistério, dando de tudo parte ao Governo por 
+                    esta repartição para inteligência e assentamento no Tesouro.
+                </p>
+                
+                <p>
+                    Outrossim lhes previno que tais provimentos não prejudicam aos 
+                    professores que, na conformidade das Leis em vigor, despachados 
+                    forem pelo Governo.
+                </p>
+                
+                <closer>
+                    <salute>Deus guarde a V. Mcês.</salute>
+                    <dateline>
+                        <orgName ref="#secretaria_interior">Secretaria do Interior</orgName>
+                        em <placeName ref="#piratini">Piratini</placeName>,
+                        <date when="1838-08-01">1.º de agosto de 1838</date>.
+                    </dateline>
+                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                </closer>
+                
+                <note type="endorsement">
+                    Srs. Presidente e mais Vereadores da 
+                    <orgName ref="#camara_alegrete">Câmara de Alegrete</orgName>.
+                </note>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

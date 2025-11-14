@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-243 – Declaração de Domingos José de Almeida sobre Domingos José de Silveira Filho</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, vol. III (1941).
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1838-05-30">30 de maio de 1838</date>
+                </correspAction>
+            </correspDesc>
+            
+        </profileDesc>
+        
+    </teiHeader>
+    
+    
+    
+    <text>
+        <body>
+            
+            <div type="letter" xml:id="CV-243">
+                
+                <p>
+                    Atesto em como servindo eu o emprego de Quartel-mestre Geral, e em 
+                    comissão no <placeName ref="#estado_oriental">Estado Oriental</placeName> depois do dia 
+                    4 de janeiro de 1837, se me apresentou o cidadão 
+                    <persName ref="#domingos_jose_silveira_filho">Domingos José de Silveira Filho</persName>, 
+                    2.º sargento da 
+                    <orgName ref="#3cia_esquadrao_pelotas">3ª Companhia do Esquadrão de Pelotas</orgName> do 
+                    <orgName ref="#4corpo_1brigada">4.º Corpo da 1ª Brigada</orgName>, narrando que tendo 
+                    passado aquele Estado às ordens do 
+                    <persName ref="#antonio_carlos_soveral">Major Antônio Carlos de Soveral</persName>, e 
+                    demorando-se este a regressar para o exército, pedia eu o enviasse na 
+                    primeira ocasião, ocupando-o desde logo no serviço que fosse mister; 
+                    o que fiz encarregando-o do pastoreio e recrutamento da cavalhada, e 
+                    depois da condução de porção dela que remeti ao exército, onde se 
+                    conserva até o presente desenvolvendo um patriotismo e conduta digna 
+                    de elogios e da contemplação do governo e de seus compatriotas.
+                </p>
+                
+                <p>
+                    O referido é verdade e o jurarei se necessário for. 
+                    <placeName ref="#piratini">Cidade de Piratini</placeName>, 
+                    <date when="1838-05-30">30 de maio de 1838</date>.
+                </p>
+                
+                <closer>
+                    <signed>(a) Domingos José de Almeida.</signed>
+                </closer>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

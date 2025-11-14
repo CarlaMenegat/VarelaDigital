@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>Ofício CV-239 – Domingos José de Almeida para Inácio José de Oliveira Guimarães</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, vol. III (1941).
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <orgName ref="#secretaria_fazenda">Secretaria de Estado dos Negócios da Fazenda</orgName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1838-04-11">11 de abril de 1838</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                    <placeName ref="#boqueirao">Distrito do Boqueirão</placeName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    
+    
+    
+    <text>
+        <body>
+            
+            <div type="officialDocument" xml:id="CV-239">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>
+                    Acerca do conteúdo em seu ofício de 4 do corrente mês, manda o Governo
+                    declarar-lhe que quando deu ordem ao 
+                    <persName ref="#pedro_rodrigues_quevedo">Capitão Pedro Rodrigues de Quevedo</persName>
+                    para agenciar escravos e fomentar o curtume a seu cargo, estava na
+                    persuasão de que tal estabelecimento era fora do distrito que se confiou a V.S.ª;
+                    mas que agora, ao fato do contrário, pela repartição competente se expede ordem
+                    ao referido capitão para a V.S.ª requisitar quanto lhe seja mister para o
+                    estabelecimento em questão, aprovando a ideia de alternar os operários
+                    proporcionadamente pelos moradores do distrito, a fim de não pesar sobre um
+                    somente semelhante ônus.
+                </p>
+                
+                <p>
+                    Deus guarde a V.S.ª.
+                </p>
+                
+                <closer>
+                    <dateline>
+                        <orgName ref="#secretaria_fazenda">Secretaria de Estado dos Negócios da Fazenda</orgName>,
+                        <placeName ref="#piratini">Piratini</placeName>,
+                        <date when="1838-04-11">11 de abril de 1838</date>.
+                    </dateline>
+                    <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                </closer>
+                
+                <note type="endorsement">
+                    Ofício do Exmo. Ministro da Fazenda de 
+                    <date when="1838-04-11">11 de abril</date>, recebido a 
+                    <date when="1838-04-19">19 do mesmo</date>.<br/>
+                    <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>, 
+                    Comandante da Polícia do Distrito do Boqueirão.
+                </note>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

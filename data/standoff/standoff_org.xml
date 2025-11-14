@@ -30,5 +30,50 @@
             <orgName>Secretaria do Interior</orgName>
             <note>Órgão administrativo da República Rio-grandense.</note>
         </org>
+        
+        <org xml:id="secretaria_fazenda">
+            <orgName>Secretaria de Estado dos Negócios da Fazenda</orgName>
+            <note>Órgão do governo farroupilha responsável pela administração das finanças.</note>
+        </org>
+        
+        <org xml:id="fazendas_nacionais">
+            <orgName>Fazendas Nacionais</orgName>
+            <note>Propriedades rurais pertencentes ao Estado, anteriormente administradas pelos jesuítas.</note>
+        </org>
+        
+        <org xml:id="secretaria_interior">
+            <orgName>Secretaria do Interior</orgName>
+            <note>Órgão administrativo da República Rio-Grandense responsável por assuntos internos.</note>
+        </org>
+        
+        <org xml:id="camara_alegrete">
+            <orgName>Câmara de Alegrete</orgName>
+            <note>Corpo municipal composto pelo presidente e vereadores do município de Alegrete.</note>
+        </org>
+        
+        <org xml:id="ministerio_fazenda">
+            <orgName>Ministério da Fazenda</orgName>
+            <note>Estrutura governamental superior à Secretaria da Fazenda.</note>
+        </org>
+        
+        <org xml:id="departamento_boqueirao">
+            <orgName>Departamento do Boqueirão</orgName>
+            <note>Divisão administrativa sob a chefia de Inácio José de Oliveira Guimarães.</note>
+        </org>
+
+        <org xml:id="presidencia_estado">
+            <orgName>Presidência do Estado</orgName>
+            <note>Órgão máximo da administração da República Rio-Grandense.</note>
+        </org>
+        
+        <org xml:id="exercito_farroupilha">
+            <orgName>Exército Republicano Rio-Grandense</orgName>
+            <note>Força militar da República Rio-Grandense durante a Revolução Farroupilha.</note>
+        </org>
+        
+        <org xml:id="jornal_oficial_republica">
+            <orgName>Jornal Oficial da República Rio-Grandense</orgName>
+            <note>Periódico criado pelo governo farroupilha para divulgação de atos oficiais.</note>
+        </org>
     </listOrg>
 </standOff>

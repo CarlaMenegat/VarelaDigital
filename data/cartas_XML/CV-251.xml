@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-251 – Domingos José de Almeida para Vasco Madruga de Bitancurt</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, vol. III (1941).
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <orgName ref="#ministerio_fazenda">Ministério do Interior e Fazenda</orgName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1838-08-28">28 de agosto de 1838</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#vasco_madruga">Vasco Madruga de Bitancurt</persName>
+                    <placeName ref="#erval">Erval</placeName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    
+    
+    
+    <text>
+        <body>
+            
+            <div type="letter" xml:id="CV-251">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                    <dateline>
+                        <placeName ref="#piratini">Piratini</placeName>,
+                        <date when="1838-08-28">28 de agosto de 1838</date>.
+                    </dateline>
+                </opener>
+                
+                <p>
+                    Tendo-se de proceder nessa povoação o troco do cobre decretado em 8 
+                    do mês passado, manda o governo que V. Mcê., ao Coletor e membros da 
+                    Comissão de que trata o mesmo decreto, forneça casa com cômodos para 
+                    aquele fim, como igualmente munício enquanto durarem tais trabalhos.
+                </p>
+                
+                <closer>
+                    <salute>Deus guarde a V. Mcê.</salute>
+                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                </closer>
+                
+                <note type="endorsement">
+                    Ao cidadão <persName ref="#vasco_madruga_bitancurt">Vasco Madruga de Bitancurt</persName>, 
+                    Juiz de Paz do <placeName ref="#erval">Erval</placeName>.  
+                    Do Ministério do Interior e Fazenda.
+                </note>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

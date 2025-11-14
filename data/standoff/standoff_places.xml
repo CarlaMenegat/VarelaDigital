@@ -46,7 +46,7 @@
             <location>
                 <geo>-31.4474 -53.0963</geo>
             </location>
-            <note>Antiga capital da República Rio-Grandense durante a Revolução Farroupilha.</note>
+            <note>Primeira capital da República Rio-grandense durante a Revolução Farroupilha.</note>
         </place>
 
         <place xml:id="sao_lourenco">
@@ -91,7 +91,7 @@
             <location>
                 <geo>-31.9903 -53.0827</geo>
             </location>
-            <note>Região referida como jurisdição de coletoria fiscal no século XIX, relacionada à atual cidade de Erval (Erval Seco ou Erval Grande), RS.</note>
+            <note>Região referida como jurisdição de coletoria fiscal no século XIX, relacionada à atual cidade de Herval RS.</note>
         </place>
         
         <place xml:id="salso">
@@ -99,7 +99,7 @@
             <location>
                 <geo>-31.6949 -53.1414</geo>
             </location>
-            <note>Distrito ou localidade histórica próxima a Bagé, RS, recorrente nas correspondências da Revolução Farroupilha.</note>
+            <note>Distrito ou localidade histórica próxima a Bagé, RS..</note>
         </place>
         
         <place xml:id="cristal">
@@ -107,7 +107,7 @@
             <location>
                 <geo>-31.0044 -52.0444</geo>
             </location>
-            <note>Cristal, município do RS, mencionado como ponto de trânsito na correspondência.</note>
+            <note>Cristal, município do RS.</note>
         </place>
         
         <place xml:id="sao_gabriel">
@@ -129,18 +129,18 @@
         <place xml:id="rio_de_janeiro">
             <placeName>Rio de Janeiro</placeName>
             <geo>-22.9068, -43.1729</geo>
-            <note>Cidade de onde vinham notícias políticas.</note>
+            <note>Capital do Império do Brasil.</note>
         </place>
         
         <place xml:id="sao_paulo">
             <placeName>São Paulo</placeName>
             <geo>-23.5505, -46.6333</geo>
-            <note>Cidade mencionada em periódicos que relatavam a situação política.</note>
+            <note>Capital da província de mesmo nome.</note>
         </place>
         
         <place xml:id="santa_isabel">
             <placeName>Santa Isabel</placeName>
-            <note>Localidade citada em correspondência anexada; topônimo comum no período.</note>
+            <note></note>
         </place>
         
         <place xml:id="ilha_corvo">
@@ -151,34 +151,34 @@
         <place xml:id="triunfo">
             <placeName>Triunfo</placeName>
             <geo>-29.9443, -51.7076</geo>
-            <note>Vila do Rio Grande do Sul às margens do rio Jacuí, mencionada como base de reunião de forças inimigas.</note>
+            <note>Vila do Rio Grande do Sul às margens do rio Jacuí.</note>
         </place>
         
         <place xml:id="lagoa_patos">
             <placeName>Lagoa dos Patos</placeName>
             <geo>-31.5, -52.5</geo>
-            <note>Grande lagoa do sul do Brasil, referência a sua parte mais larga como ponto estratégico.</note>
+            <note>Grande lagoa do sul do Brasil.</note>
         </place>
         
         <place xml:id="capela_ladroes">
             <placeName>Capela dos Ladrões</placeName>
-            <note>Localidade mencionada como ponto de passagem de uma partida armada; topônimo histórico da região sul-rio-grandense.</note>
+            <note></note>
         </place>
         
         <place xml:id="passo_das_pedras">
             <placeName>Passo das Pedras</placeName>
-            <note>Local atribuído à origem do mensageiro Barbosa.</note>
+            <note></note>
         </place>
         
         <place xml:id="rio_jacui">
             <placeName>Rio Jacuí</placeName>
             <geo>-29.9000, -51.0500</geo>
-            <note>Importante rio do Rio Grande do Sul, palco de operações durante a guerra.</note>
+            <note>Importante rio do Rio Grande do Sul.</note>
         </place>
         
         <place xml:id="charqueadas_costa">
             <placeName>Charqueadas da Costa</placeName>
-            <note>Região produtora de charque na margem do Jacuí, alvo de incursão rebelde.</note>
+            <note>Região produtora de charque na margem do Jacuí.</note>
         </place>
         
         <place xml:id="ilha_paciencia">
@@ -194,7 +194,7 @@
         
         <place xml:id="inhanduí">
             <placeName>Inhanduí</placeName>
-            <note>Rio que delimita parte dos campos da fazenda de Cláudio de Abreu.</note>
+            <note>Rio.</note>
         </place>
         
         <place xml:id="ibirapuita">
@@ -204,24 +204,59 @@
         
         <place xml:id="inhanduí_rincao">
             <placeName>Rincão do Inhanduí</placeName>
-            <note>Fazenda/sesmaria de Cláudio de Abreu mencionada como área a ser regularizada.</note>
-        </place>
-        
-        <place xml:id="inhanduí_rincao">
-            <placeName>Rincão do Inhanduí</placeName>
-            <note>Fazenda/sesmaria pertencente a Cláudio de Abreu, objeto da solicitação.</note>
+            <note>Fazenda/sesmaria de Cláudio de Abreu.</note>
         </place>
         
         <place xml:id="pedras_altas">
             <placeName>Pedras Altas</placeName>
             <geo>-31.7328, -53.5814</geo>
-            <note>Localidade onde residia Bernardina Barcelos de Almeida.</note>
+            <note>Localidade onde residiu Bernardina Barcelos de Almeida.</note>
         </place>
         
         
         <place xml:id="feliz_retiro">
             <placeName>Feliz Retiro</placeName>
-            <note>Localidade rural onde residia Bernardina.</note>
+            <note>Localidade rural onde residiu Bernardina.</note>
         </place>
+        
+        <place xml:id="bom_retiro">
+            <placeName>Bom Retiro</placeName>
+            <note>Propriedade de José Rodrigues Chaves.</note>
+        </place>
+        
+        <place xml:id="rio_pardo">
+            <placeName>Rio Pardo</placeName>
+            <geo>-30.0346, -52.3711</geo>
+            <note>Cidade no centro do Rio Grande do Sul.</note>
+        </place>
+        
+        <place xml:id="estado_oriental">
+            <placeName>Estado Oriental</placeName>
+            <note>Denominação histórica do atual Uruguai.</note>
+        </place>
+        
+        <place xml:id="missoes">
+            <placeName>Missões</placeName>
+            <note>Região histórica das antigas reduções jesuíticas no Rio Grande do Sul.</note>
+        </place>
+        
+        <place xml:id="dores">
+            <placeName>Distrito das Dores</placeName>
+            <note>Localidade do território rio-grandense mencionada para reforço militar.</note>
+        </place>
+        
+        <place xml:id="montevideu">
+            <placeName>Montevidéu</placeName>
+            <geo>-34.9011, -56.1645</geo>
+            <note>Capital do Uruguai, centro da disputa entre Rivera e Oribe.</note>
+        </place>
+        
+        <place xml:id="paysandu">
+            <placeName>Paisandú</placeName>
+            <placeName>Paysandú</placeName> <!-- forma moderna -->
+            <geo>-32.3214, -58.0756</geo>
+            <note>Cidade do Estado Oriental (Uruguai), importante centro urbano e militar no período da Revolução Farroupilha.</note>
+        </place>
+
     </listPlace>
 </standOff>

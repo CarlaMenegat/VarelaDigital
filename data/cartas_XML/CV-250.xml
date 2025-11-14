@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-250 – Domingos José de Almeida para o Presidente do Estado</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, vol. III (1941).
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1838-08-27">27 de agosto de 1838</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#bento_goncalves">Bento Gonçalves da Silva</persName>
+                    <orgName ref="#presidencia_estado">Presidência do Estado</orgName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <div type="letter" xml:id="CV-250">
+                
+                <opener>
+                    <salute>Meu bom Presidente e amigo</salute>
+                </opener>
+                
+                <p>
+                    Para expedir os negócios a meu cargo não posso sair, por isso lhe rogo 
+                    me diga a quem devo expedir as ordens para a entrega dos potros de que 
+                    fala o documento junto.
+                </p>
+                
+                <p>
+                    Rogo a V. Ex.ª a leitura do ofício junto, e que releve lhe faça sentir a 
+                    necessidade de 30 homens nas <placeName ref="#dores">Dores</placeName> para privar as incursões que 
+                    ali se esperam, e uma das anteriores, como V. Ex.ª viu, já foi 
+                    preconizada por ação. Basta que o tempo me foge.
+                </p>
+                
+                <closer>
+                    <salute>De V. Ex.ª</salute>
+                    <signed>Amigo sincero<br/>(a) <persName ref="#domingos_jose_almeida">Almeida</persName></signed>
+                    <dateline>
+                        <placeName ref="#piratini">Piratini</placeName>,
+                        <date when="1838-08-27">27 de agosto de 1838</date>.
+                    </dateline>
+                </closer>
+                
+                <opener>
+                    <salute>Exmo. Sr.</salute>
+                </opener>
+                
+                <p>
+                    A ordem para a entrega dos potros deve ser expedida ao chefe de polícia 
+                    <persName ref="#manuel_madruga">Manuel Madruga</persName>. Quanto à providência de força para o Distrito das 
+                    <placeName ref="#dores">Dores</placeName> se vai providenciar; pois igual representação temos pelo chefe 
+                    de polícia e juiz de paz.
+                </p>
+                
+                <closer>
+                    <salute>Seu amigo fiel</salute>
+                    <signed>(a) <persName ref="#bento_goncalves">B. G. Silva</persName></signed>
+                </closer>
+                
+                <note type="endorsement">
+                    Ilmo. Exmo. Sr. Presidente do Estado. Sua residência.  
+                    Volta com resposta.  
+                    (a) Silva.
+                </note>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
