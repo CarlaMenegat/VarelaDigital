@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>Ofício CV-238 – Domingos José de Almeida</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, vol. III (1941).
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <orgName ref="#secretaria_fazenda">Secretaria de Estado dos Negócios da Fazenda</orgName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1838-04-05">5 de abril de 1838</date>
+                </correspAction>
+                
+                <!-- O destinatário (“V.S.ª”) não é identificável → não marcar -->
+                <correspAction type="received">
+                    <persName>V.S.ª</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    
+    
+    <text>
+        <body>
+            
+            <div type="officialDocument" xml:id="CV-238">
+                
+                <dateline>
+                    <orgName ref="#secretaria_fazenda">Secretaria de Estado dos Negócios da Fazenda</orgName>,
+                    <placeName ref="#piratini">Piratini</placeName>,
+                    <date when="1838-04-05">5 de abril de 1838</date>.
+                </dateline>
+                
+                <p>
+                    Devendo se pôr em efetivo andamento quanto dispõem os decretos de 
+                    <date when="1836-11-11">11 de novembro de 1836</date> e 
+                    <date when="1837-04-05">5 de abril de 1837</date>, não só para pôr em arrecadação os bens 
+                    abandonados pelo inimigo, que por uma inconcebível apatia ou criminosa 
+                    indolência se têm deixado à mão destruidora do tempo e de homens imorais, 
+                    que nos excessos de mal entendido patriotismo derrocam capitais que fadigas 
+                    imensas e louváveis economias hão acumulado; mas ainda para segurar ao 
+                    Estado o produto desses bens, ou aos inocentes filhos do país, que pelos feitos 
+                    de seus pais não devem ser privados das solicitudes de uma nação que 
+                    reconhece os princípios de justiça e sobre eles baseia sua conduta, e 
+                    outrossim para que tais produtos convenientemente aplicados sejam para 
+                    minorar as privações dos cidadãos que se acham em armas, e de suas famílias,
+                    determina o governo que V.S.ª sem perda de tempo remeta a esta Secretaria 
+                    de Estado uma relação de todas as propriedades que no distrito de sua 
+                    jurisdição se acharem incursas nas disposições dos decretos citados, 
+                    declarando:
+                </p>
+                
+                <p>
+                    1.º — quais os proprietários, se estes bandeando-se ao inimigo nos fizeram 
+                    guerra, ou se quando ela ateou-se em janeiro de 1836 se achavam já em ponto 
+                    ocupado e sem meios de evadirem-se;<br/>
+                    2.º — se são casados e têm filhos, e se estes existem nas administrações das 
+                    casas, ou no Exército;<br/>
+                    3.º — que porção de campo pouco mais ou menos forma cada uma das 
+                    propriedades, que prédios ou fábricas nelas existem, e aproximadamente que 
+                    número de animais vacuns, cavalares e ovelhuns; quantos escravos, seus 
+                    sexos, idades e ofícios;<br/>
+                    4.º — finalmente, o valor estimativo de ditas propriedades, seus móveis e 
+                    utensílios.
+                </p>
+                
+                <p>
+                    Iguais relações se exigem dos próprios nacionais. O governo recomenda ao seu 
+                    patriotismo o pronto andamento desta ordem, removendo de pronto qualquer 
+                    obstáculo que a ela se oponha, podendo para levar a efeito tão importante 
+                    serviço chamar em seu auxílio as pessoas de probidade e aptidão que julgar 
+                    necessárias, não desfalcando contudo praças do exército.
+                </p>
+                
+                <closer>
+                    <salute>Deus guarde a V.S.ª.</salute>
+                    <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                </closer>
+                
+                <note type="endorsement">
+                    Ofício de <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>,
+                    <date when="1838-04-05">5 de abril</date>, recebido em 
+                    <date when="1838-05-01">1.º de maio</date>.<br/>
+                    (Letra de Inácio José de Oliveira Guimarães)
+                </note>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

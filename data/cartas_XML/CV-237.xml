@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-237 – Almeida para Bernardina Barcelos de Almeida</title>
+                <author>Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, vol. III (1941).
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#almeida">Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1838-03-30">30 de março de 1838</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
+                    <placeName ref="#feliz_retiro">Feliz Retiro</placeName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    
+    
+    <text>
+        <body>
+            
+            <div type="letter" xml:id="CV-237">
+                
+                <opener>
+                    <salute>Querida Bernardina</salute>
+                    <dateline>
+                        <placeName ref="#piratini">Piratini</placeName>,
+                        <date when="1838-03-30">30 de março de 1838</date>.
+                    </dateline>
+                </opener>
+                
+                <p>
+                    Tendo apenas escrito o que acima se vê, para despachar o 
+                    <persName ref="#militao">Sr. Militão</persName> para essa, recebo a tua de 28 do corrente 
+                    e outra do compadre com a mesma data: ficando pois contente pelo estado 
+                    de saúde de nossos filhos, contudo me vieram as lágrimas à vista da 
+                    posição de teu mano.
+                </p>
+                
+                <p>
+                    Deus assim o quer, cumpre-nos respeitar seus decretos. Ontem à noite, 
+                    sem que eu o esperasse, me veio à mão a nomeação para de novo ocupar o 
+                    lugar que havia deixado: julga tu o quanto me não terá incomodado este 
+                    incidente! Já empenhei minha amizade e serviços para com o Presidente e 
+                    a República para ser dispensado de semelhante emprego; nada se me tem 
+                    atendido; porém ainda me farei duro até que tu me digas o que deva fazer 
+                    a respeito: pois apesar de ver baquear meus adversários, e desmentidas as 
+                    calúnias que estes me assacaram, contudo minha repugnância é invencível.
+                </p>
+                
+                <p>
+                    Pelo mulato te mandarei tudo quanto me encomendas, como igualmente o que 
+                    pede teu pai, a quem confortarás, para receber com resignação o golpe que 
+                    o céu lhe prepara.
+                </p>
+                
+                <p>
+                    Estimarei que nossos filhos não periguem, principalmente 
+                    <persName ref="#bruto_almeida">Bruto</persName>, cuja perda me poria em desespero: abraços a todos, 
+                    saudades a teu pai, mãe e manos, e recebe o coração do
+                </p>
+                
+                <closer>
+                    <signed><persName ref="#almeida">Almeida</persName></signed>
+                </closer>
+                
+                <note type="endorsement">
+                    <persName ref="#bernardina_barcelos_almeida">Sra. Bernardina Barcelos de Almeida</persName>.<br/>
+                    <placeName ref="#feliz_retiro">Feliz Retiro</placeName>.
+                </note>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

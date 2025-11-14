@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-38 – Antônio Pedro de Abreu para Tomás José da Silva</title>
+                <author>Antônio Pedro de Abreu</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#antonio_pedro_abreu">Antônio Pedro de Abreu</persName>
+                    <placeName ref="#triunfo">Vila do Triunfo</placeName>
+                    <date when="1845-02-15">15 de fevereiro de 1845</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-38">
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>
+                    Comunico a V.Ex.ª que tendo notícia pelos meus vigias além do 
+                    <placeName ref="#rio_jacui">rio Jacuí</placeName> que se aproximara uma pequena força rebelde às 
+                    <placeName ref="#charqueadas_costa">charqueadas da Costa</placeName>, de combinação com o 
+                    <persName ref="#fernando_kersting">Major Fernando Kersting</persName>, Comandante deste Município, mandei 
+                    uma partida à Costa comandada pelo <persName ref="#antonio_rodrigues">Furriel Antônio Rodrigues</persName>, e como 
+                    por causa do vento contrário não pôde chegar a tempo, os rebeldes passaram para a 
+                    <placeName ref="#ilha_paciencia">ilha da Paciência</placeName>.
+                </p>
+                
+                <p>
+                    Apesar de meus esforços e do ativo Major Comandante do Município, que ambos 
+                    marchamos em seu seguimento, não pudemos evitar que eles levantassem alguns 
+                    cavalos de estimação do <persName ref="#manuel_antonio">Alferes Manuel Antônio</persName> do 5.º Corpo de 
+                    Cavalaria da Guarda Nacional; mas é muito de supor que, pelas prontas providências, 
+                    tanto por terra como por mar, tomadas pelo referido Major Kersting, os rebeldes não 
+                    só não puderam levar toda a cavalhada da ilha, como também se puderam evadir 
+                    dois moços irmãos do mencionado alferes que tinham sido presos pelos rebeldes.
+                </p>
+                
+                <p>
+                    A partida comandada pelo citado Furriel Rodrigues prendeu um rebelde e baleou outro.
+                </p>
+                
+                <p>
+                    Nesta ocasião julgo do meu dever informar a V.Ex.ª de uma intriga que principia a 
+                    aparecer entre o Comandante da Canhoneira aqui destacada e o Comandante Geral 
+                    do Município, intriga esta toda formada pelo malvado 
+                    <persName ref="#antonio_francisco_almeida">Antônio Francisco de Almeida</persName>, que, como tem dizem, 
+                    quatro filhos nos rebeldes, deseja saber das surtidas para avisar aos mesmos rebeldes, 
+                    que em grande parte são parentes dele.
+                </p>
+                
+                <p>
+                    Este Almeida, vendo que foram malogradas as intrigas que ele tinha feito no exército 
+                    contra Kersting, agora se apura em fazê-las com a marinha.
+                </p>
+                
+                <p>
+                    Releve V.Ex.ª que eu passe a lembrar a necessidade de um lanchão de guerra e de 
+                    uma barca de cavalos à disposição do Comandante Geral do Município. Com esta 
+                    medida de absoluta necessidade lucra muito a Nação e ficam frustrados os planos 
+                    de Almeida.
+                </p>
+                
+                <p>
+                    Eu agora mandei uma partida com ordem de prender o rebelde 
+                    <persName ref="#sete_pernas">Sete-Pernas</persName>, que por falta de uma barca tem podido fazer toda a 
+                    qualidade de violência aos charqueadores da costa do 
+                    <placeName ref="#rio_jacui">rio Jacuí</placeName>.
+                </p>
+                
+                <closer>
+                    <p>Deus guarde a V.Ex.ª, <placeName ref="#triunfo">Vila do Triunfo</placeName> em 
+                        <date when="1845-02-15">15 de fevereiro de 1845</date>.</p>
+                    <signed>
+                        <persName ref="#antonio_pedro_abreu">Antônio Pedro de Abreu</persName><br/>
+                        Major Comandante do Esquadrão do Triunfo e reunião.
+                    </signed>
+                </closer>
+                
+                <note type="endorsement">
+                    Ilmo. e Exmo. Sr. <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>, 
+                    Marechal e Comandante da Guarnição de <placeName ref="#porto_alegre">Porto Alegre</placeName>.
+                </note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-30 – Requerimento de Antônio José de Abreu ao Juiz de Direito</title>
+                <author>Antônio José de Abreu</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1841-10-01">1.º de outubro de 1841</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName>Ilmo. Sr. Juiz de Direito</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-30">
+                <opener>
+                    <salute>Ilmo. Sr. Juiz de Direito</salute>
+                </opener>
+                
+                <p>
+                    Diz o cidadão <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName> que ele foi nomeado
+                    e juramentado por V.S.ª para servir de Curador à fazenda jacente do ab intestato
+                    <persName ref="#jose_augusto_ledek">José Augusto Eledek</persName> [sic], e porque, na conformidade
+                    do § 1.º do artigo 90 da ordem do Livro 1.º e deliberação de 9 de maio de 1834, ao
+                    Suplicante compete receber e administrar os bens da herança, por isso que ele fica
+                    responsável como a isso o obriga a precitada lei, e é por isso que requer à V.S.ª
+                    se digne mandar que se lhe faça a competente carga para o Suplicante assinar e
+                    recebê-los como lhe é ordenado.
+                </p>
+                
+                <p>
+                    Pede a V.S.ª se digne deferir-lhe na forma requerida, juntando-se esta aos autos
+                    respectivos.
+                </p>
+                
+                <p>E.R.Mcê.</p>
+                
+                <note type="endorsement">
+                    Está o Suplicante desonerado da curadoria que assinou, à vista do meu despacho
+                    de hoje, exarado nos autos respectivos.
+                    <placeName ref="#piratini">Piratini</placeName>,
+                    <date when="1841-10-01">1.º de outubro de 1841</date>.<br/>
+                    <signed><persName ref="#freitas">Freitas</persName></signed><br/>
+                    [Na folha 1r.]<br/>
+                    n.º 2 — Anexo ao documento CV-29.
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-37 – Antônio Pedro de Abreu para Tomás José da Silva</title>
+                <author>Antônio Pedro de Abreu</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#antonio_pedro_abreu">Antônio Pedro de Abreu</persName>
+                    <date when="1840-11-26">26 de novembro de 1840</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-37">
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>
+                    Participo a V.Ex.ª que ontem foram entregues nestes presídios,
+                    pelo <persName ref="#alferes_ferreira">Alferes Ferreira</persName> do
+                    <orgName ref="#guardas_nacionais_5corpo">5.º Corpo de Guardas Nacionais</orgName>,
+                    os anarquistas feitos prisioneiros proximamente na Capela:
+                    <persName ref="#candido_machado_sousa">Cândido Machado de Sousa</persName>,
+                    <persName ref="#sebastiao_gomes">Sebastião Gomes</persName>,
+                    <persName ref="#francisco_machado">Francisco Machado</persName>,
+                    <persName ref="#joao_rodrigues">João Rodrigues</persName>,
+                    <persName ref="#inacio_furtado">Inácio Furtado</persName>,
+                    <persName ref="#manuel_jose_santos">Manuel José dos Santos</persName>,
+                    <persName ref="#feliciano_francisco">Feliciano Francisco</persName>,
+                    tenente dos rebeldes, e
+                    <persName ref="#francisco_jose_nascimento_junior">Francisco José do Nascimento Júnior</persName>;
+                    este último foi solto e entregue ao
+                    <persName ref="#dr_fagundes">Dr. Fagundes</persName> por uma portaria de V.Ex.ª
+                    com data de ontem.
+                </p>
+                
+                <p>Deus guarde a V.Ex.ª.</p>
+                
+                <closer>
+                    <p>Quartel nos Presídios do Batalhão 11, 
+                        <date when="1840-11-26">26 de novembro de 1840</date>.
+                    </p>
+                    
+                    <salute>Ilmo. e Exmo. Sr. <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.</salute>
+                    <salute>Marechal Comandante da Guarnição.</salute>
+                    
+                    <signed>
+                        <persName ref="#antonio_pedro_abreu">Antônio Pedro de Abreu</persName>
+                    </signed>
+                    <p>Tenente Comandante dos Presídios do Batalhão 11.</p>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

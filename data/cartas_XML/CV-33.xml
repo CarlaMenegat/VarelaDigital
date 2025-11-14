@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-33 – Antônio José de Abreu para Domingos José de Almeida</title>
+                <author>Antônio José de Abreu</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1841-10-31">31 de outubro de 1841</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#domingos_almeida">Domingos José de Almeida</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-33">
+                <opener>
+                    <salute>Prezadíssimo compadre amigo e senhor</salute>
+                    <p><placeName ref="#piratini">Piratini</placeName>, <date when="1841-10-31">31 de outubro de 1841</date>.</p>
+                </opener>
+                
+                <p>
+                    Esta tem unicamente por objeto saber de sua saúde e de minha comadre.
+                    No dia 24 do corrente lhe escrevi pelo correio e penso que dela seria entregue; 
+                    por aqui não há novidades, unicamente aqui apareceu uma carta para o 
+                    <persName ref="#general_neto">Sr. General Neto</persName> que dizem vinda do 
+                    <placeName ref="#rio_grande">Rio Grande</placeName> conduzida por um 
+                    <persName ref="#barbosa_passo_pedras">Barbosa, do Passo das Pedras</persName>.
+                </p>
+                
+                <p>
+                    Também se dizia que os camelos se achavam em 
+                    <placeName ref="#pelotas">Pelotas</placeName> porém, segundo consta, até aqui não tem
+                    ninguém; é verdade que pela <placeName ref="#capela_ladroes">capela dos Ladrões</placeName> apareceu uma
+                    partida e segundo dizem agarraram dois moços sendo entre eles um filho de um 
+                    <persName ref="#macedo">Macedo</persName> aos quais dizem sentaram praça na infantaria.
+                </p>
+                
+                <p>
+                    Sua comadre muito se recomenda a V.Ex.ª e o mesmo faz a nossa comadre e o mesmo faz
+                    este que confessa ser
+                </p>
+                
+                <closer>
+                    <salute>De V.Ex.ª</salute>
+                    <signed>
+                        <persName ref="#antonio_jose_abreu">Compadre e amigo muito obrigado<br/>Antônio José de Abreu</persName>
+                    </signed>
+                </closer>
+                
+                <note type="endorsement">
+                    Ilmo. e Exmo. Sr. <persName ref="#domingos_almeida">Domingos José de Almeida</persName>.
+                    Digmo. Ministro da Fazenda. <placeName ref="#bage">Bagé</placeName>. [No verso]<br/>
+                    Respondida a 5 de novembro de 1841. [Na folha 1r.]
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

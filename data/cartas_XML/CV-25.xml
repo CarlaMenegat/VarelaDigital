@@ -1,51 +1,107 @@
-<TEI xml:id="CV-25" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-25 de Antônio José de Abreu ao Ministro Afonso José de Almeida Corte Real</title>
+                <title>Carta CV-25 – Antônio José de Abreu para Afonso José de Almeida Corte Real</title>
                 <author>Antônio José de Abreu</author>
             </titleStmt>
+            
             <publicationStmt>
-                <p>Digital edition based on the Anais do Arquivo Histórico do Rio Grande do Sul, vol. III</p>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
             </publicationStmt>
+            
             <sourceDesc>
-                <p>Fonte original: Anais do AHRS, vol. III, p. [inserir página]</p>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
             </sourceDesc>
         </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>
+                    <date when="1837-11-20">20 de novembro de 1837</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#afonso_corte_real">Afonso José de Almeida Corte Real</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
     </teiHeader>
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-25-body">
+            <div type="letter" xml:id="CV-25">
                 <opener>
-                    <dateline>
-                        <placeName ref="#piratini">Piratini</placeName>, <date when="1837-11-20">20 de novembro de 1837</date>
-                    </dateline>
                     <salute>Ilmo. e Exmo. Sr.</salute>
                 </opener>
                 
                 <p>
-                    Incumbido por V.Ex.ª a interpor meu parecer acerca das contas apresentadas pelo cidadão 
-                    <persName ref="#domingosdealmeida">Domingos José de Almeida</persName>, outrora Quartel-mestre-general e Ministro da Fazenda, 
-                    suposto elas me mereçam todo o crédito; contudo em cumprimento de meu dever, me não posso conformar, 
-                    atenta a falta de solenidade de que elas devem ser revestidas, porquanto a sua validade existe na 
-                    autenticidade dos documentos, porém é o que se não encontra [...]
+                    Incumbido por V.Ex.ª a interpor meu parecer acerca das contas apresentadas pelo
+                    cidadão <persName ref="#domingos_almeida">Domingos José de Almeida</persName>,
+                    outrora Quartel-mestre-general e Ministro da Fazenda, suposto elas me mereçam todo o crédito;
+                    contudo em cumprimento de meu dever, me não posso conformar, atenta a falta de solenidade
+                    de que elas devem ser revestidas, porquanto a sua validade existe na autenticidade dos documentos,
+                    porém é o que se não encontra, porque nelas se mencionam parcelas despendidas a favor do Estado,
+                    que não estando documentadas, não lhe podem ser acreditadas, cujas parcelas indicadas a folhas 2
+                    montam à quantia de Rs. 446$560.
                 </p>
                 
                 <p>
-                    Em vista pois do expendido, parece-me ter suficientemente demonstrado meu parecer, julgando por isso, 
-                    que abatida a importância das quantias de 446$560 rs. bem como a de 4:422$874 rs. de folhas 7, 
-                    e apresentado o documento da entrega dos 207 cavalos, se lhe deve satisfazer a quantia de 
-                    Rs. 5:658$651, quantia que considero líquida, e como tal nas circunstâncias de lhe ser satisfeita, 
+                    E pela mesma forma, e em igual circunstância, considero a adição que se encontra a folhas 10,
+                    na qual se faz certa a remessa de 207 cavalos conduzidos para o exército por
+                    <persName ref="#gaspar_borges">Gaspar Borges</persName>; pois que de 84 documentos que se
+                    acham juntos às contas apresentadas, se não realiza a entrega a esse Borges, e nem deste ao exército.
+                </p>
+                
+                <p>
+                    As quantias demonstradas na conta a folhas 7, à exceção da quantia dada ao
+                    <persName ref="#onofre">Coronel Onofre</persName> e
+                    <persName ref="#jose_carlos_pinto">José Carlos Pinto</persName>, por se achar ele constituído
+                    Agente do Estado, as demais não podem ser acreditadas, e nem mesmo reconhecidas dívidas do Estado,
+                    porquanto, de umas se não encontra documento, e de outras, as que se apresentam, não as julgo
+                    suficientes para merecerem o crédito que se pretende, e ainda mesmo a dívida de
+                    <persName ref="#jaime_legris">Jaime Legris</persName> para se haver atenção, se fazia mister
+                    que se fizesse certo por documentos que ela se achava litigiosa.
+                </p>
+                
+                <p>
+                    Em vista pois do expendido, parece-me ter suficientemente demonstrado meu parecer,
+                    julgando por isso, que abatida a importância das quantias de 446$560 rs. bem como a de 4:422$874 rs.
+                    de folhas 7, e apresentado o documento da entrega dos 207 cavalos, se lhe deve satisfazer a quantia
+                    de Rs. 5:658$651, quantia que considero líquida, e como tal nas circunstâncias de lhe ser satisfeita,
                     pela considerar legalmente despendida.
                 </p>
                 
+                <p>
+                    Deus guarde a V.Ex.ª. Cidade de Piratini,
+                    <date when="1837-11-20">20 de novembro de 1837</date>.
+                </p>
+                
                 <closer>
-                    <salute>Deus guarde a V.Ex.ª.</salute>
-                    <signed>(a) <persName ref="#antoniojoseabreu">Antônio José de Abreu</persName>, Procurador Fiscal.</signed>
+                    <p>
+                        Ilmo. e Exmo. Sr.
+                        <persName ref="#afonso_corte_real">Afonso José de Almeida Corte Real</persName>,
+                        Ministro e Secretário dos Negócios da Fazenda.
+                    </p>
+                    
+                    <signed>
+                        <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>
+                    </signed>
+                    <p>Procurador Fiscal.</p>
                 </closer>
                 
-                <note>Resposta de <persName ref="#antoniojoseabreu">Antônio José de Abreu</persName> quando Procurador Fiscal. [No verso, letra de <persName ref="#domingosdealmeida">Domingos José de Almeida</persName>]</note>
+                <note type="endorsement">Resposta de Antônio José de Abreu quando Procurador Fiscal. [No verso, letra de Domingos José de Almeida]</note>
             </div>
         </body>
     </text>

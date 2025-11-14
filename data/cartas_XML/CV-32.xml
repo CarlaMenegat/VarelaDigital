@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-32 – Antônio José de Abreu para Domingos José de Almeida</title>
+                <author>Antônio José de Abreu</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1841-10-24">24 de outubro de 1841</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#domingos_almeida">Domingos José de Almeida</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-32">
+                <opener>
+                    <salute>Meu prezadíssimo compadre e senhor</salute>
+                    <p><placeName ref="#piratini">Piratini</placeName>, <date when="1841-10-24">24 de outubro de 1841</date>.</p>
+                </opener>
+                
+                <p>
+                    Ontem fui de posse de sua estimada carta de 16 do corrente acompanhando a
+                    procuração para o amigo <persName ref="#mateus">Mateus</persName> e sua senhora, bem como o ofício
+                    para o <persName ref="#freitas">Freitas</persName> me entregar cem mil réis do resultado da arrematação
+                    dos bens do finado <persName ref="#jose_augusto_ledek">Ledek</persName>, o que muito lhe agradeço, porém, com a
+                    infelicidade de não ter efeito pois fui informado que o líquido fora aqui entregue
+                    a <persName ref="#shemit">Shemit</persName> e que este dera ordem a <persName ref="#fayete">Fayete</persName> para o fazer
+                    recolher no Tesouro, sendo o portador o filho do
+                    <persName ref="#bernardo_pires">Major Pires</persName> que daqui saiu para essa no dia 21; enfim, paciência.
+                </p>
+                
+                <p>
+                    Todos os recursos por V.Ex.ª administrados me têm sido frustrados pois a mesma
+                    ordem que me mandou não tem sido possível recebê-la e menos transferi-la pelo
+                    obstáculo que se lhe opõe no decreto de 30 de agosto deste ano, enquanto que eu e
+                    minha família jazemos na necessidade por falta de meios, porque como V.Ex.ª não
+                    ignora o não ocupar-me no Foro tem cessado todos os meios de minha subsistência,
+                    porque na verdade esse único recurso se acha em total abandono.
+                </p>
+                
+                <p>
+                    Junto achará V.Ex.ª um requerimento de
+                    <persName ref="#guilherme_schnepf">Guilherme Schnepf</persName>; penso ter toda a justiça; V.
+                    Ex.ª porém deliberará como melhor entender. Ele já seguiu disposto a passar letra
+                    quando o obriguem a pagar os direitos, dando por esse modo espaço a receber pronto
+                    remédio de V.Ex.ª.
+                </p>
+                
+                <p>
+                    Eu por aqui fico bastante incomodado de meus achaques, sua comadre alguma saúde
+                    goza e sua afilhada a maior moléstia que tem é o comer muito para engordar
+                    depressa. Nós nos recomendamos a V.Ex.ª e à nossa comadre e um abraço lhe envia
+                    a pequena. A saúde de V.Ex.ª é a que mais aprecio por ser
+                </p>
+                
+                <closer>
+                    <salute>De V.Ex.ª</salute>
+                    <signed>
+                        <persName ref="#antonio_jose_abreu">Compadre amigo muito obrigado<br/>Antônio José de Abreu</persName>
+                    </signed>
+                </closer>
+                
+                <note type="endorsement">
+                    Torna o ofício de <persName ref="#freitas">Freitas</persName>.<br/>
+                    Respondida a 5 de novembro de 1841. [Na folha 1r., letra de
+                    <persName ref="#domingos_almeida">Domingos José de Almeida</persName>]
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

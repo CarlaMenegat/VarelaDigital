@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-36 – Antônio Pedro de Abreu</title>
+                <author>Antônio Pedro de Abreu</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#antonio_pedro_abreu">Antônio Pedro de Abreu</persName>
+                    <placeName ref="#ilha_corvo">Ilha do Corvo</placeName>
+                    <date when="1839-05-19">19 de maio de 1839</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Companheiro e amigo</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-36">
+                <opener>
+                    <salute>Companheiro e amigo</salute>
+                </opener>
+                
+                <p>
+                    Como me incumbisses de mandar-lhe alguma notícia que pudesse alcançar acerca
+                    dos movimentos do inimigo, e eu ontem às nove horas da noite chegasse a esta
+                    ilha donde se acha a guarda do <persName ref="#alferes_cruz">Alferes Cruz</persName>, fui logo apresentar-me
+                    àquele ou levar-lhe a minha portaria; este mostrou-me uma carta que diz ser de
+                    espião de confiança, a qual carta o avisa que o inimigo está reunindo todas as
+                    canoas na <placeName ref="#triunfo">vila do Triunfo</placeName> com o fim de virem bater as forças legais
+                    das ilhas.
+                </p>
+                
+                <p>
+                    À vista deste aviso hoje me retiro para junto do vosso acampamento até que as
+                    autoridades se sirvam mandar um lanchão para o <placeName ref="#lagoa_patos">largo dos Patos</placeName>, única
+                    providência que pode salvar a cavalhada, guardar e pôr a coberto as famílias que
+                    a força de necessidades as tem constrangido a viver pelas ilhas.
+                </p>
+                
+                <closer>
+                    <salute>Teu súdito, camarada e amigo</salute>
+                    <signed><persName ref="#antonio_pedro_abreu">Antônio Pedro de Abreu</persName></signed>
+                    <p><placeName ref="#ilha_corvo">Ilha do Corvo</placeName>, 
+                        <date when="1839-05-19">19 de maio de 1839</date>.</p>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

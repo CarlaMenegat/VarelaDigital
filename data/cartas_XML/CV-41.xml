@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-41 – Cláudio de Abreu</title>
+                <author>Cláudio de Abreu</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III, Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#claudio_abreu">Cláudio de Abreu</persName>
+                    <placeName ref="#alegrete">Alegrete</placeName>
+                    <date when="1843-03-18">18 de março de 1843</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ilmo. e Exmo. Sr.</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-41">
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>
+                    O Suplicante <persName ref="#claudio_abreu">Tenente-coronel Cláudio de Abreu</persName> vem de novo ante 
+                    V.Ex.ª ponderar que, devendo ser morosa a medida legislativa da 
+                    <orgName ref="#assembleia_geral">Assembléia Geral do Estado</orgName>, com a qual V.Ex.ª deferiu a 
+                    súplica inclusa a respeito da sesmaria que requereu das sobras dos seus campos, 
+                    não só por motivo da guerra atual como por se achar a mesma Assembléia a 
+                    concluir seus trabalhos, receia o Suplicante que outro qualquer súdito da 
+                    República intente a concessão pretendida.
+                </p>
+                
+                <p>
+                    Por isso recorre novamente a V.Ex.ª para que se digne ordenar que o Suplicante 
+                    possa continuar na posse em que se acha das sobras de sua sesmaria, até que 
+                    possa aparecer a dita medida legislativa que lhas conceda, ficando-lhe com 
+                    preferência este direito, visto que a ninguém pode prejudicar tal deliberação, 
+                    por ser o prédio um só rincão possuído pelo Suplicante, o qual não tem dúvida 
+                    em sujeitar-se a qualquer ônus que a Assembléia houver de impor quando tais 
+                    sobras sejam verificadas e concedidas.
+                </p>
+                
+                <closer>
+                    <p>R.J.</p>
+                </closer>
+                
+                <note type="endorsement">
+                    Sim, salvo o direito de terceiro.<br/>
+                    <orgName ref="#secretaria_interior">Secretaria do Interior</orgName> em 
+                    <placeName ref="#alegrete">Alegrete</placeName>, 
+                    <date when="1843-03-18">18 de março de 1843</date>.<br/>
+                    (a) <persName ref="#sa_brito">Sá Brito</persName>.
+                </note>
+                
+                <note type="endorsement">
+                    Maio 18, 1843.<br/>
+                    Despacho das sobras do campo de <placeName ref="#inhanduí_rincao">Inhanduí</placeName>.
+                </note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

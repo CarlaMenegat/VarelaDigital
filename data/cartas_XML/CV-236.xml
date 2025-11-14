@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-236 – Almeida para Bernardina Barcelos de Almeida</title>
+                <author>Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#almeida">Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1838-03-26">26 de março de 1838</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
+                    <placeName ref="#feliz_retiro">Feliz Retiro</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-236">
+                
+                <opener>
+                    <salute>Querida Bernardina</salute>
+                    <dateline>
+                        <placeName ref="#piratini">Piratini</placeName>, 
+                        <date when="1838-03-26">26 de março de 1838</date>.
+                    </dateline>
+                </opener>
+                
+                <p>
+                    Já quase noite recebi a tua de 24 do corrente, em virtude da qual te remeto 
+                    um purgante para <persName ref="#epaminondas">Epaminondas</persName>; e diz o primo 
+                    <persName ref="#mateus">Mateus</persName> que use das bochechadas que ontem seguiram 
+                    pelo <persName ref="#cadete">Cadete</persName>, como das de malvas com leite e refrescos.
+                </p>
+                
+                <p>
+                    <persName ref="#bento_goncalves">Bento</persName> há 5 dias que saiu, e agora mesmo se recolhe; amanhã pretendo ainda 
+                    revestir-me de prudência para falar na ultimação de minhas contas, e quando 
+                    assim o não façam, talvez que perca as estribeiras. O 
+                    <persName ref="#catraio">Catraio</persName> que volte breve trazendo-me o tordilho e vindo no burrinho, 
+                    pois o picaço adoeceu.
+                </p>
+                
+                <p>
+                    Recomenda-me a teus pais, a 
+                    <persName ref="#bernardino">Bernardino</persName>, a todos os mais; abraça por mim 
+                    a nossos filhos e tu recebe o coração do
+                </p>
+                
+                <closer>
+                    <signed><persName ref="#almeida">Almeida</persName></signed>
+                </closer>
+                
+                <note type="addition">
+                    Depois desta feita chegou o <persName ref="#jose">José</persName>; e como pelo 
+                    <persName ref="#cadete">Cadete</persName> foram as bochechadas, o faço regressar já com dois purgantes 
+                    para o <persName ref="#epaminondas_almeida">Epaminondas</persName>. Se ele morrer não pode ir em melhor idade: 
+                    ao menos escusa sofrer o que tem seu pai sofrido. Se assim suceder que se 
+                    enterre mesmo em algum cemitério dessas vizinhanças, para depois se 
+                    trasladar seus ossos quando as coisas o permitam, bem como tenciono fazer 
+                    com os do nosso caro <persName ref="#mingote">Mingote</persName>. Reveste-te de constância, pois o céu 
+                    assim o quer.<br/>
+                    <signed><persName ref="#almeida">Almeida</persName></signed>
+                </note>
+                
+                <note type="endorsement">
+                    <persName ref="#bernardina_barcelos_almeida">Sra. Bernardina Barcelos de Almeida</persName>.<br/>
+                    <placeName ref="#feliz_retiro">Feliz Retiro</placeName>.
+                </note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

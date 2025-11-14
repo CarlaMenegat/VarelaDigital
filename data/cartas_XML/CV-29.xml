@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-29 – Antônio José de Abreu para autoridade superior</title>
+                <author>Antônio José de Abreu</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1841-10-02">2 de outubro de 1841</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName>Ilmo. e Exmo. Sr.</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-29">
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>
+                    Perante V.Ex.ª recorre o cidadão <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>,
+                    confiado que se lhe faça reta e imparcial justiça, à vista da arbitrária deliberação
+                    proferida contra o recorrente pelo atual Juiz de Direito da Comarca de
+                    <placeName ref="#piratini">Piratini</placeName>, como passa a demonstrar.
+                </p>
+                
+                <p>
+                    Tendo falecido ab intestato o estrangeiro
+                    <persName ref="#jose_augusto_ledek">José Augusto Ledek</persName>, passou aquele juiz a
+                    proceder na arrecadação dos bens, depositando-os em poder de um depositário em
+                    ... de setembro do corrente ano, documento n.º 1, deixando de nomear Curador à
+                    fazenda jacente, o que só fez depois de passados dias, recaindo essa nomeação no
+                    recorrente, o qual prestou juramento como se evidencia do referido documento.
+                </p>
+                
+                <p>
+                    Neste estado de coisas, reconhecendo-se o recorrente, por virtude das leis em vigor,
+                    competir-lhe a administração dos bens da herança, requereu àquele juiz a entrega e
+                    administração dela, uma vez que por aquele termo que havia assinado se tornava
+                    responsável por qualquer fraude ou omissão de sua parte (documento n.º 2).
+                </p>
+                
+                <p>
+                    E quando o recorrente esperava que assim lhe fosse deferido por ser conforme à lei,
+                    aquele juiz, menosprezando-a, fez, por sua ordem bocal, que os autos respectivos
+                    subissem à sua conclusão; e antes que deferisse ao recorrente seu requerimento,
+                    exarou em ditos autos o despacho que se encontra no documento n.º 1, pelo qual
+                    excluiu ao recorrente do cargo de Curador, despacho que lhe feriu sua reputação,
+                    porque o frívolo pretexto que alegou não o pode salvar, uma vez que não ignorava
+                    que se havia feito o depósito, e por ele nomeado o depositário, muito antes de ser o
+                    recorrente nomeado Curador.
+                </p>
+                
+                <p>
+                    É pois à vista das razões ponderadas que o recorrente considera ter-lhe aquele juiz
+                    feito manifesta injustiça, e não tendo o recorrente para onde recorra senão para a
+                    autoridade de V.Ex.ª, por ser em tais casos competente pela necessidade de pronto
+                    recurso, espera o recorrente que V.Ex.ª se dignará mandar aquele juiz faça subsistir
+                    aquela curadoria na pessoa do recorrente, havendo-se de nenhum efeito o despacho que
+                    o desonerou, por ir de encontro à marcha judiciária, e com grave ofensa do direito
+                    do recorrente.
+                </p>
+                
+                <p>E.R. Justiça</p>
+                
+                <closer>
+                    <p><placeName ref="#piratini">Piratini</placeName>, 
+                        <date when="1841-10-02">2 de outubro de 1841</date>.
+                    </p>
+                    
+                    <signed>
+                        <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

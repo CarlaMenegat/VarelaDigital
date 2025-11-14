@@ -71,10 +71,6 @@
             <note>Provável emissário ou mensageiro entre Abreu e Almeida.</note>
         </person>
         
-        <person xml:id="irmao_abreu">
-            <persName>Mano de Antônio Abreu</persName>
-            <note>Irmão de Antônio Abreu, não identificado nominalmente.</note>
-        </person>
         <person xml:id="jose_sousa">
             <persName>José de Sousa</persName>
             <note>Possível morador do distrito de São João Batista, envolvido em disputa de direitos com o europeu Costa.</note>
@@ -109,7 +105,7 @@
         <person xml:id="bento_goncalves">
             <persName>Bento Gonçalves da Silva</persName>
             <note>Comandante farroupilha e presidente da República Rio-Grandense.</note>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q485461</idno>
+            <idno type="viaf">https://viaf.org/viaf/51758685</idno>
         </person>
         
         <person xml:id="hilario_amaro_junior">
@@ -119,7 +115,7 @@
         
         <person xml:id="martins">
             <persName>Manuel Martins da Silveira Lemos</persName>
-            <note>Funcionário administrativo vinculado à Coletoria, interlocutor de Fontoura nesta carta.</note>
+            <note>Funcionário administrativo vinculado à Coletoria.</note>
         </person>
         
         <person xml:id="miguel_garcia">
@@ -137,7 +133,7 @@
             <note>Oficial ligado a Contadoria citado em múltiplas correspondências de Abreu.</note>
         </person>
         
-        <person xml:id="afonsojosecortereal">
+        <person xml:id="afonso_jose_corte_real">
             <persName>Afonso José de Almeida Corte Real</persName>
             <note>Ministro e Secretário dos Negócios da Fazenda durante o período farroupilha.</note>
         </person>
@@ -146,5 +142,474 @@
             <persName>João Agostinho da Silva</persName>
             <note>Comerciante de tecidos, interessado em estabelecer contrato com o governo durante a Revolução Farroupilha.</note>
         </person>
+        
+        <person xml:id="antonio_jose_abreu">
+            <persName>Antônio José de Abreu</persName>
+            <note>Funcionário e agente administrativo da República Rio-Grandense; autor deste recurso formal contra decisão judicial.</note>
+        </person>
+        
+        <person xml:id="juiz_piratini">
+            <persName>Juiz de Direito da Comarca de Piratini</persName>
+            <note>Magistrado responsável pelos processos judiciais locais em Piratini em 1841. O nome específico não é mencionado nesta carta.</note>
+        </person>
+        
+        <person xml:id="jose_augusto_ledek">
+            <persName>José Augusto Ledek</persName>
+            <note>Estrangeiro falecido ab intestato, cuja herança motivou a disputa judicial relatada na carta.</note>
+        </person>
+        
+        <person xml:id="bernardo_pires">
+            <persName>Bernardo Pires</persName>
+            <note>Major que atuou como depositário dos bens da fazenda jacente de José Augusto Ledek, e posteriormente nomeado Curador substituto.</note>
+        </person>
+        
+        <person xml:id="freitas">
+            <persName>Freitas</persName>
+            <note>Juiz de Direito da Comarca de Piratini, responsável pelos despachos relativos à curadoria da fazenda jacente.</note>
+        </person>
+        
+        <person xml:id="guilherme_schnepf">
+            <persName>Guilherme Schnepf</persName>
+            <note>Autor de um requerimento anexado por Abreu à carta; figura administrativa ativa no período.</note>
+        </person>
+        
+        <person xml:id="freitas">
+            <persName>Freitas</persName>
+            <note>Juiz de Direito em Piratini, responsável por decisões nos autos de arrecadação da herança de Ledek.</note>
+        </person>
+        
+        <person xml:id="mateus">
+            <persName>Mateus</persName>
+            <note>Amigo de Domingos José de Almeida mencionado como procurador.</note>
+        </person>
+        
+        <person xml:id="shemit">
+            <persName>Shemit</persName>
+            <note>Indivíduo que recebeu o líquido da arrematação dos bens de Ledek, segundo o relato da carta.</note>
+        </person>
+        
+        <person xml:id="fayete">
+            <persName>Fayete</persName>
+            <note>Responsável por recolher valores ao Tesouro, por ordem de Shemit, conforme descrito pelo remetente.</note>
+        </person>
+        
+        <person xml:id="general_neto">
+            <persName>Antônio de Sousa Neto</persName>
+            <note>General farroupilha e líder militar destacado da República Rio-Grandense.</note>
+            <idno type="viaf">https://viaf.org/viaf/41850335</idno>
+        </person>
+        
+        <person xml:id="antonio_pedro_abreu">
+            <persName>Antônio Pedro de Abreu</persName>
+            <note>Tenente Comandante dos Presídios do Batalhão 11 durante a Revolução Farroupilha.</note>
+        </person>
+        
+        <person xml:id="tomas_jose_silva">
+            <persName>Tomás José da Silva</persName>
+            <note>Marechal e Comandante da Guarnição de Porto Alegre.</note>
+        </person>
+        
+        <person xml:id="alferes_ferreira">
+            <persName>Alferes Ferreira</persName>
+            <note>Oficial do 5.º Corpo de Guardas Nacionais responsável pela entrega de prisioneiros.</note>
+        </person>
+        
+        <person xml:id="candido_machado_sousa">
+            <persName>Cândido Machado de Sousa</persName>
+            <note>Prisioneiro mencionado na carta.</note>
+        </person>
+        
+        <person xml:id="sebastiao_gomes">
+            <persName>Sebastião Gomes</persName>
+            <note>Prisioneiro mencionado na carta.</note>
+        </person>
+        
+        <person xml:id="francisco_machado">
+            <persName>Francisco Machado</persName>
+            <note>Prisioneiro mencionado na carta.</note>
+        </person>
+        
+        <person xml:id="joao_rodrigues">
+            <persName>João Rodrigues</persName>
+            <note>Prisioneiro mencionado na carta.</note>
+        </person>
+        
+        <person xml:id="inacio_furtado">
+            <persName>Inácio Furtado</persName>
+            <note>Prisioneiro mencionado na carta.</note>
+        </person>
+        
+        <person xml:id="manuel_jose_santos">
+            <persName>Manuel José dos Santos</persName>
+            <note>Prisioneiro mencionado na carta.</note>
+        </person>
+        
+        <person xml:id="feliciano_francisco">
+            <persName>Feliciano Francisco</persName>
+            <note>Tenente rebelde capturado, segundo a carta.</note>
+        </person>
+        
+        <person xml:id="francisco_jose_nascimento_junior">
+            <persName>Francisco José do Nascimento Júnior</persName>
+            <note>Prisioneiro libertado por portaria.</note>
+        </person>
+        
+        <person xml:id="dr_fagundes">
+            <persName>Dr. Fagundes</persName>
+            <note>Autoridade que recebeu o prisioneiro libertado.</note>
+        </person>
+        
+        <person xml:id="gaspar_borges">
+            <persName>Gaspar Borges</persName>
+            <note>Responsável pela condução de 207 cavalos destinados ao exército farroupilha, conforme mencionado nas contas analisadas.</note>
+        </person>
+        
+        <person xml:id="onofre">
+            <persName>Coronel Onofre</persName>
+            <note>Oficial citado como recebedor de recursos do Estado; identidade histórica específica não confirmada.</note>
+        </person>
+        
+        <person xml:id="jose_carlos_pinto">
+            <persName>José Carlos Pinto</persName>
+            <note>Agente do Estado da República Rio-Grandense, mencionado como destinatário de quantias registradas.</note>
+        </person>
+        
+        <person xml:id="jaime_legris">
+            <persName>Jaime Legris</persName>
+            <note>Cidadão com dívida litigiosa mencionada nas contas analisadas pelo Procurador Fiscal.</note>
+        </person>
+        
+        <person xml:id="coronel_leberio">
+            <persName>Coronel Lebério</persName>
+            <note>Parente do missivista mencionado na carta; nome grafado conforme aparece na fonte (sic).</note>
+        </person>
+        
+        <person xml:id="jose_mariano">
+            <persName>José Mariano</persName>
+            <note>Compadre de Antônio José de Abreu; guardava carta anterior enviada a Domingos José de Almeida.</note>
+        </person>
+        
+        <person xml:id="dona_joaquina_pavao">
+            <persName>Dona Joaquina do Pavão</persName>
+            <note>Moradora da região de Pelotas mencionada na carta; teve seus filhos presos conforme o relato.</note>
+        </person>
+        
+        <person xml:id="rolim">
+            <persName>Rolim</persName>
+            <note>Homem preso em Pelotas junto aos filhos de Dona Joaquina do Pavão, segundo a carta.</note>
+        </person>
+        
+        <person xml:id="antonio_belarmino_ribeiro">
+            <persName>Antônio Belarmino Ribeiro</persName>
+            <note>Escrivão de Órfãos e Ausentes da cidade de Piratini; certificou oficialmente os atos relativos à curadoria da fazenda jacente.</note>
+        </person>
+        
+        <person xml:id="barbosa_passo_pedras">
+            <persName>Barbosa</persName>
+            <note>Indivíduo identificado como “Barbosa, do Passo das Pedras”, mensageiro de carta enviada ao General Neto.</note>
+        </person>
+        
+        <person xml:id="macedo">
+            <persName>Macedo</persName>
+            <note>Pai de um dos jovens apreendidos na região da capela dos Ladrões, conforme o relato.</note>
+        </person>
+        
+        <person xml:id="dutra">
+            <persName>Dutra</persName>
+            <note>Indivíduo mencionado como destinatário de um ofício encaminhado por Abreu.</note>
+        </person>
+        
+        <person xml:id="general_valente">
+            <persName>General Valente</persName>
+            <note>Oficial referido como “novo general” dos galegos desembarcados em Pelotas.</note>
+        </person>
+        
+        <person xml:id="padre_chagas">
+            <persName>Padre Chagas</persName>
+            <note>Religioso mencionado como possível Procurador residente.</note>
+        </person>
+        
+        <person xml:id="custodia_almeida">
+            <persName>D. Custódia</persName>
+            <note>Filha de Domingos José de Almeida</note>
+        </person>
+        
+        <person xml:id="bruto_almeida">
+            <persName>Bruto</persName>
+            <note>Filho de Domingos José de Almeida.</note>
+        </person>
+        
+        <person xml:id="capitao_miguel">
+            <persName>Capitão Miguel</persName>
+            <note>Oficial mencionado como portador de notícias.</note>
+        </person>
+        
+        <person xml:id="feijo">
+            <persName>Diogo Antônio Feijó</persName>
+            <note>Regente do Império, mencionado como preso.</note>
+            <idno type="viaf">https://viaf.org/viaf/2465016</idno>
+        </person>
+        
+        <person xml:id="tobias">
+            <persName>Tobias de Aguiar</persName>
+            <note>Líder militar e político brasileiro, mencionado como fugido.</note>
+            <idno type="viaf">https://viaf.org/viaf/24888413</idno>
+        </person>
+        
+        <person xml:id="alferes_cruz">
+            <persName>Alferes Cruz</persName>
+            <note>Oficial responsável pela guarda na Ilha do Corvo, mencionado como receptor de uma portaria.</note>
+        </person>
+        
+        <person xml:id="fernando_kersting">
+            <persName>Fernando Kersting</persName>
+            <note>Major, Comandante do Município do Triunfo.</note>
+        </person>
+        
+        <person xml:id="antonio_rodrigues">
+            <persName>Antônio Rodrigues</persName>
+            <note>Furriel que comandou a partida enviada à Costa.</note>
+        </person>
+        
+        <person xml:id="manuel_antonio">
+            <persName>Manuel Antônio</persName>
+            <note>Alferes do 5º Corpo de Cavalaria da Guarda Nacional, prejudicado pelos rebeldes.</note>
+        </person>
+        
+        <person xml:id="antonio_francisco_almeida">
+            <persName>Antônio Francisco de Almeida</persName>
+            <note>Indivíduo acusado de intrigas militares e de colaborar com rebeldes.</note>
+        </person>
+        
+        <person xml:id="sete_pernas">
+            <persName>Sete-Pernas</persName>
+            <note>Rebelde conhecido por apelido, alvo de perseguição militar.</note>
+        </person>
+        
+        <person xml:id="joaquim_rodrigues">
+            <persName>Joaquim Rodrigues</persName>
+            <note>Furriel que comandou a partida enviada além do Jacuí.</note>
+        </person>
+
+        <person xml:id="manuel_alz">
+            <persName>Manuel Alz.</persName>
+            <note>Rebelde que comandou a força responsável por frustrar a operação de Joaquim Rodrigues.</note>
+        </person>
+        
+        <person xml:id="jose_romao_taborda">
+            <persName>José Romão Taborda</persName>
+            <note>Rebelde preso em surtida militar anterior e entregue ao comando legalista.</note>
+        </person>
+        
+        <person xml:id="claudio_abreu">
+            <persName>Cláudio de Abreu</persName>
+            <note>Tenente-coronel e proprietário da sesmaria do Inhanduí.</note>
+        </person>
+        
+        <person xml:id="sa_brito">
+            <persName>Sá Brito</persName>
+            <note>Funcionário da Secretaria do Interior responsável pelo despacho de 1843.</note>
+        </person>
+        
+        <person xml:id="bernardina_barcelos_almeida">
+            <persName>Bernardina Barcelos de Almeida</persName>
+            <note>Esposa de Domingos José de Almeida.</note>
+        </person>
+        
+        <person xml:id="dom_lourenco">
+            <persName>Dom Lourenço</persName>
+            <note>Indivíduo mencionado em relação à encomenda de açúcar.</note>
+        </person>
+        
+        <person xml:id="varejao">
+            <persName>Varejão</persName>
+            <note>Responsável por remessas de alimentos mencionadas na carta.</note>
+        </person>
+        
+        <person xml:id="jose_joaquim_silva_maia">
+            <persName>José Joaquim da Silva Maia</persName>
+            <note>Comerciante.</note>
+        </person>
+        
+        <person xml:id="pedro_lopes">
+            <persName>Pedro Lopes</persName>
+            <note>Responsável pelo envio de sacos de farinha.</note>
+        </person>
+        
+        <person xml:id="joao_cunha">
+            <persName>João da Cunha</persName>
+            <note>Responsável por transportar trastes em duas carretas.</note>
+        </person>
+        
+        <person xml:id="granja">
+            <persName>Granja</persName>
+            <note>Pessoa cuja casa serviu como depósito dos trastes enviados.</note>
+        </person>
+        
+        <person xml:id="joao_jose_damasceno">
+            <persName>João José Damasceno</persName>
+            <note>Tenente-coronel residente em Pelotas.</note>
+        </person>
+        
+        <person xml:id="jose_inacio_cunha">
+            <persName>José Inácio da Cunha</persName>
+            <note>Indivíduo mencionado como destinatário do “conhecimento” enviado por Almeida.</note>
+        </person>
+        
+        <person xml:id="jose_rodrigues">
+            <persName>José Rodrigues</persName>
+            <note>Indivíduo mencionado como chefe de família conhecida dos remetentes.</note>
+        </person>
+        
+        <person xml:id="carlota">
+            <persName>Carlota</persName>
+            <note>Prima mencionada no aditamento de Peçanha.</note>
+        </person>
+        
+        <person xml:id="pecanha">
+            <persName>Peçanha</persName>
+            <note>Autor de recomendações anexadas à carta.</note>
+        </person>
+        
+        <person xml:id="joao_jose_victorica">
+            <persName>João José Victorica</persName>
+            <note>Indivíduo cuja ordem gerou parte da dívida registrada.</note>
+        </person>
+        
+        <person xml:id="d_pedro">
+            <persName>D. Pedro</persName>
+            <note>Referência financeira a “ex-sócio de D. Pedro”, provavelmente relativa a negócios anteriores ao período farroupilha.</note>
+        </person>
+        
+        <person xml:id="jose_maria_olave">
+            <persName>José Maria Olave</persName>
+            <note>Recebedor de valores pagos por Domingos José de Almeida.</note>
+        </person>
+        
+        <person xml:id="roberto_bare">
+            <persName>Roberto Bare</persName>
+            <note>Indivíduo que recebeu valores por ordem de Almeida.</note>
+        </person>
+        
+        <person xml:id="joaquim_santos_faria">
+            <persName>Joaquim dos Santos de Faria</persName>
+        </person>
+        
+        <person xml:id="gaspar_gomes_dias">
+            <persName>Gaspar Gomes Dias</persName>
+        </person>
+        
+        <person xml:id="joaquim_maximo_lobato">
+            <persName>Joaquim Máximo Lobato</persName>
+            <note>Tenente mencionado na relação financeira.</note>
+        </person>
+        
+        <person xml:id="pedro_jose_lima">
+            <persName>Pedro José de Lima</persName>
+        </person>
+        
+        <person xml:id="anacleto_jose_matos">
+            <persName>Anacleto José de Matos</persName>
+        </person>
+        
+        <person xml:id="vilaca">
+            <persName>Vilaça</persName>
+        </person>
+        
+        <person xml:id="antonio_francisco_santos_abreu">
+            <persName>Antônio Francisco dos Santos Abreu</persName>
+        </person>
+        
+        <person xml:id="silvano_monteiro_araujo">
+            <persName>Silvano José Monteiro de Araújo e Paula</persName>
+            <note>Tenente-coronel listado nos pagamentos.</note>
+        </person>
+        
+        <person xml:id="bento_joaquim_chaves">
+            <persName>Bento Joaquim de Chaves</persName>
+            <note>Alferes envolvido em transações monetárias registradas.</note>
+        </person>
+        
+        <person xml:id="leandro_jose_costa">
+            <persName>Leandro José da Costa</persName>
+            <note>Tenente citado na lista de pagamentos.</note>
+        </person>
+        
+        <person xml:id="francisco_goncalves_meireles">
+            <persName>Francisco Gonçalves Meireles</persName>
+        </person>
+        
+        <person xml:id="jose_gomes_ferreira_guimaraes_cabeca">
+            <persName>José Gomes Ferreira Guimarães Cabeça</persName>
+        </person>
+        
+        <person xml:id="joaquim_francisco_botelho">
+            <persName>Joaquim Francisco Botelho</persName>
+        </person>
+        
+        <person xml:id="tomas_silva_ramos">
+            <persName>Tomás da Silva Ramos</persName>
+            <note>Tenente.</note>
+        </person>
+        
+        <person xml:id="luis_briano_matos">
+            <persName>Luís Briano de Matos</persName>
+        </person>
+        
+        <person xml:id="isaias_antonio_silva">
+            <persName>Isaias Antônio da Silva</persName>
+        </person>
+        
+        <person xml:id="jose_manoel_leao">
+            <persName>José Manoel de Leão</persName>
+            <note>Coronel.</note>
+        </person>
+        
+        <person xml:id="mariano_gloria">
+            <persName>Mariano Glória</persName>
+            <note>Major que recebeu pagamento registrado.</note>
+        </person>
+        
+        <person xml:id="epaminondas_almeida">
+            <persName>Epaminondas</persName>
+            <note>Filho do casal Almeida; aparece em diversas cartas em contexto de doença.</note>
+        </person>
+        
+        <person xml:id="catraio">
+            <persName>Catraio</persName>
+            <note>Indivíduo encarregado de trazer um cavalo (“tordilho”).</note>
+        </person>
+        
+        <person xml:id="bernardino">
+            <persName>Bernardino</persName>
+            <note>Parente próximo da família; aparece em outras cartas.</note>
+        </person>
+        
+        <person xml:id="jose">
+            <persName>José</persName>
+            <note>Indivíduo mencionado no aditamento; sua identidade não é especificada.</note>
+        </person>
+        
+        <person xml:id="mingote">
+            <persName>Mingote</persName>
+            <note>Pessoa falecida cujos ossos Almeida pretende trasladar futuramente.</note>
+        </person>
+        
+        <person xml:id="cadete">
+            <persName>Cadete</persName>
+            <note>Portador que transporta remédios; não é possível identificar nome civil.</note>
+        </person>
+        
+        
+        <person xml:id="militao">
+            <persName>Militão</persName>
+            <note>Portador despachado para levar correspondência.</note>
+        </person>
+        
+        <person xml:id="inacio_jose_oliveira_guimaraes">
+            <persName>Inácio José de Oliveira Guimarães</persName>
+            <note>Funcionário que registrou o recebimento do ofício.</note>
+        </person>
+
     </listPerson>
 </standOff>

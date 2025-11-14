@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-234 – Almeida para Bernardina Barcelos de Almeida</title>
+                <author>Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, vol. III, Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#almeida">Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1837-12-14">14 de dezembro de 1837</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
+                    <placeName ref="#pedras_altas">Pedras Altas</placeName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <div type="letter" xml:id="CV-234">
+                
+                <opener>
+                    <salute>Querida Bernardina do coração</salute>
+                    <dateline><placeName ref="#piratini">Piratini</placeName>, 
+                        <date when="1837-12-14">14 de dezembro de 1837</date>.</dateline>
+                </opener>
+                
+                <p>
+                    Pela pressa com que o portador está para seguir serve esta unicamente de 
+                    fazer-te ciente que vou com muitas melhoras do meu pé; além disto te certifico 
+                    que amanhã aqui chega o meu amigo <persName ref="#bento_goncalves">Bento Gonçalves</persName>, depois do que 
+                    pode ser que dê uma chegada até lá.
+                </p>
+                
+                <p>
+                    Manda-me dizer como vão os nossos filhos, a quem darás muitos abraços, e me 
+                    recomendarás ao compadre e comadre, e igualmente à família de 
+                    <persName ref="#jose_rodrigues">José Rodrigues</persName>; e tu conta sempre com o teu
+                </p>
+                
+                <closer>
+                    <salute>Marido muito amante</salute>
+                    <signed><persName ref="#almeida">Almeida</persName></signed>
+                </closer>
+                
+                <note type="addition">
+                    Recomendações da minha parte a V. Mcê. todos e em particular à sua prima 
+                    <persName ref="#carlota">Carlota</persName>.<br/>
+                    <signed><persName ref="#pecanha">Peçanha</persName></signed>
+                </note>
+                
+                <note type="endorsement">
+                    <persName ref="#bernardina_barcelos_almeida">Sra. D. Bernardina Barcelos de Almeida</persName>.<br/>
+                    <placeName ref="#pedras_altas">Pedras Altas</placeName>.
+                </note>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

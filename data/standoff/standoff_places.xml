@@ -117,5 +117,111 @@
             </location>
             <note>Cidade do RS, importante centro militar e político no período farroupilha.</note>
         </place>
+        
+        <place xml:id="alegrete">
+            <placeName>Alegrete</placeName>
+            <location>
+                <geo>-29.7901 -55.7942</geo>
+            </location>
+            <note>Município do sudoeste gaúcho, importante centro logístico e militar farroupilha.</note>
+        </place>
+        
+        <place xml:id="rio_de_janeiro">
+            <placeName>Rio de Janeiro</placeName>
+            <geo>-22.9068, -43.1729</geo>
+            <note>Cidade de onde vinham notícias políticas.</note>
+        </place>
+        
+        <place xml:id="sao_paulo">
+            <placeName>São Paulo</placeName>
+            <geo>-23.5505, -46.6333</geo>
+            <note>Cidade mencionada em periódicos que relatavam a situação política.</note>
+        </place>
+        
+        <place xml:id="santa_isabel">
+            <placeName>Santa Isabel</placeName>
+            <note>Localidade citada em correspondência anexada; topônimo comum no período.</note>
+        </place>
+        
+        <place xml:id="ilha_corvo">
+            <placeName>Ilha do Corvo</placeName>
+            <note>Ilha fluvial localizada no delta do Jacuí, utilizada estrategicamente durante a Revolução Farroupilha.</note>
+        </place>
+        
+        <place xml:id="triunfo">
+            <placeName>Triunfo</placeName>
+            <geo>-29.9443, -51.7076</geo>
+            <note>Vila do Rio Grande do Sul às margens do rio Jacuí, mencionada como base de reunião de forças inimigas.</note>
+        </place>
+        
+        <place xml:id="lagoa_patos">
+            <placeName>Lagoa dos Patos</placeName>
+            <geo>-31.5, -52.5</geo>
+            <note>Grande lagoa do sul do Brasil, referência a sua parte mais larga como ponto estratégico.</note>
+        </place>
+        
+        <place xml:id="capela_ladroes">
+            <placeName>Capela dos Ladrões</placeName>
+            <note>Localidade mencionada como ponto de passagem de uma partida armada; topônimo histórico da região sul-rio-grandense.</note>
+        </place>
+        
+        <place xml:id="passo_das_pedras">
+            <placeName>Passo das Pedras</placeName>
+            <note>Local atribuído à origem do mensageiro Barbosa.</note>
+        </place>
+        
+        <place xml:id="rio_jacui">
+            <placeName>Rio Jacuí</placeName>
+            <geo>-29.9000, -51.0500</geo>
+            <note>Importante rio do Rio Grande do Sul, palco de operações durante a guerra.</note>
+        </place>
+        
+        <place xml:id="charqueadas_costa">
+            <placeName>Charqueadas da Costa</placeName>
+            <note>Região produtora de charque na margem do Jacuí, alvo de incursão rebelde.</note>
+        </place>
+        
+        <place xml:id="ilha_paciencia">
+            <placeName>Ilha da Paciência</placeName>
+            <note>Ilha fluvial usada como refúgio por forças rebeldes.</note>
+        </place>
+        
+        <place xml:id="porto_alegre">
+            <placeName>Porto Alegre</placeName>
+            <geo>-30.0346, -51.2177</geo>
+            <note>Capital da Província do Rio Grande do Sul.</note>
+        </place>
+        
+        <place xml:id="inhanduí">
+            <placeName>Inhanduí</placeName>
+            <note>Rio que delimita parte dos campos da fazenda de Cláudio de Abreu.</note>
+        </place>
+        
+        <place xml:id="ibirapuita">
+            <placeName>Ibirapuitã</placeName>
+            <note>Rio que se junta ao Inhanduí, formando divisa natural.</note>
+        </place>
+        
+        <place xml:id="inhanduí_rincao">
+            <placeName>Rincão do Inhanduí</placeName>
+            <note>Fazenda/sesmaria de Cláudio de Abreu mencionada como área a ser regularizada.</note>
+        </place>
+        
+        <place xml:id="inhanduí_rincao">
+            <placeName>Rincão do Inhanduí</placeName>
+            <note>Fazenda/sesmaria pertencente a Cláudio de Abreu, objeto da solicitação.</note>
+        </place>
+        
+        <place xml:id="pedras_altas">
+            <placeName>Pedras Altas</placeName>
+            <geo>-31.7328, -53.5814</geo>
+            <note>Localidade onde residia Bernardina Barcelos de Almeida.</note>
+        </place>
+        
+        
+        <place xml:id="feliz_retiro">
+            <placeName>Feliz Retiro</placeName>
+            <note>Localidade rural onde residia Bernardina.</note>
+        </place>
     </listPlace>
 </standOff>

@@ -15,9 +15,10 @@
             <sourceDesc>
                 <bibl>
                     Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
-                    <ptr target="standoff/standoff-persons.xml"/>
-                    <ptr target="standoff/standoff-places.xml"/>
-                    <ptr target="standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
                 </bibl>
             </sourceDesc>
         </fileDesc>

@@ -15,5 +15,20 @@
             <orgName>Contador</orgName>
             <note>Setor contábil que respondeu à solicitação sobre a dívida não escriturada.</note>
         </org>
+        
+        <org xml:id="guardas_nacionais_5corpo">
+            <orgName>5.º Corpo de Guardas Nacionais</orgName>
+            <note>Unidade militar da Guarda Nacional, força de caráter provincial e imperial atuante no período da Revolução Farroupilha.</note>
+        </org>
+        
+        <org xml:id="assembleia_geral">
+            <orgName>Assembléia Geral Constituinte e Legislativa do Estado</orgName>
+            <note>Órgão legislativo responsável por medidas relativas à concessão de sesmarias.</note>
+        </org>
+        
+        <org xml:id="secretaria_interior">
+            <orgName>Secretaria do Interior</orgName>
+            <note>Órgão administrativo da República Rio-grandense.</note>
+        </org>
     </listOrg>
 </standOff>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-27 – Antônio José de Abreu para Domingos José de Almeida</title>
+                <author>Antônio José de Abreu</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>
+                    <!-- data aproximada: agosto de 1840 (mas não explicitada no corpo da carta) -->
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#domingos_almeida">Domingos José de Almeida</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-27">
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>
+                    Certo deve estar V.Ex.ª de que ontem me retirei desse lugar e me acho parando na
+                    casa de meu parente o <persName ref="#coronel_leberio">Coronel Lebério</persName> com destino de
+                    receber suas ordens e constando-me de que talvez o governo se ponha em movimento,
+                    por isso espero de V.Ex.ª me dê algum esclarecimento a respeito de minha marcha,
+                    se devo ou não seguir para essa vila, ou então o ponto onde me devo reunir com
+                    V.Ex.ª no caso de ter de acompanhar a força, o que de certo será um sacrifício
+                    atendendo à minha idade e estado de saúde; enfim V.Ex.ª é quem deve dispor de
+                    minha pessoa.
+                </p>
+                
+                <p>
+                    Eu de <placeName ref="#sao_gabriel">São Gabriel</placeName> lhe tinha escrito a semelhante respeito,
+                    cuja carta se acha em poder da senhora do compadre
+                    <persName ref="#jose_mariano">José Mariano</persName> e, a não ser os motivos que ocorreram,
+                    decerto não teria dado semelhante passo sem deliberação de V.Ex.ª.
+                </p>
+                
+                <p>
+                    A saúde de V.Ex.ª é o que mais aprecio por ser
+                </p>
+                
+                <closer>
+                    <salute>De V.Ex.ª</salute>
+                    <signed>
+                        <persName ref="#antonio_jose_abreu">Amigo muito obrigado<br/>Antônio José de Abreu</persName>
+                    </signed>
+                </closer>
+                
+                <note type="postscript">
+                    N.B. A ser possível V.Ex.ª poder-me suprir com alguma pataca é grande favor
+                    para comprar aí algumas coisas indispensáveis.
+                </note>
+                
+                <note type="endorsement">
+                    Ilmo. e Exmo. Sr. <persName ref="#domingos_almeida">Domingos José de Almeida</persName>. [No verso]<br/>
+                    <placeName ref="#alegrete">Alegrete</placeName>.<br/>
+                    Recebida e respondida a 28 de agosto de 1840.
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

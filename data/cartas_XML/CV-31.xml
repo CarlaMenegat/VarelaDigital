@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-31 – Requerimento de Antônio José de Abreu ao Juiz de Direito interino</title>
+                <author>Antônio José de Abreu</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName>Ilmo. Sr. Juiz de Direito interino</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-31">
+                <opener>
+                    <salute>Ilmo. Sr. Juiz de Direito interino</salute>
+                </opener>
+                
+                <p>
+                    Diz o cidadão <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName> que se lhe torna
+                    necessário que o escrivão respectivo, em vista dos autos de arrecadação dos bens
+                    do finado ab intestato <persName ref="#jose_augusto_ledek">José Augusto Ledek</persName>, lhe dê por
+                    certidão o despacho em que o Suplicante foi nomeado Curador à fazenda jacente
+                    daquele finado, dia, mês e ano em que prestou juramento, bem como o dia e ano em
+                    que aqueles bens foram depositados em mão do
+                    <persName ref="#bernardo_pires">Major Bernardo Pires</persName>, e finalmente o despacho
+                    pelo qual foi o Suplicante desonerado do cargo de Curador.
+                </p>
+                
+                <p>
+                    Pede a V.S.ª se digne mandar passar a certidão requerida.
+                </p>
+                
+                <p>E.R.M.</p>
+                
+                <note type="endorsement">
+                    Passe. <placeName ref="#piratini">Piratini</placeName>,
+                    <date when="1841-10-02">2 de Outubro de 1841</date>.<br/>
+                    <signed><persName ref="#freitas">Freitas</persName></signed><br/>
+                    n.º 2 [Na folha 1r]
+                </note>
+                
+                <note type="endorsement">
+                    O cidadão <persName ref="#antonio_belarmino_ribeiro">Antônio Belarmino Ribeiro</persName>, Escrivão de
+                    Órfãos e Ausentes da cidade de <placeName ref="#piratini">Piratini</placeName> e seu termo.
+                    <br/><br/>
+                    Em virtude do despacho retro: certifico que os bens de que trata o peticionário
+                    foram depositados em poder do cidadão <persName ref="#bernardo_pires">Major Bernardo Pires</persName>,
+                    a vinte quatro de setembro próximo pretérito, como consta dos autos respectivos a
+                    folhas onze.
+                    <br/><br/>
+                    Assim mais certifico e consta dos mesmos autos a folhas quatorze, ter sido o
+                    peticionário nomeado Curador e prestado juramento a vinte cinco do citado mês de
+                    setembro.
+                    <br/><br/>
+                    Certifico, finalmente, que dos preditos autos a folhas vinte um verso consta haver
+                    sido o peticionário desonerado de tal curadoria, no dia primeiro do corrente mês de
+                    outubro, e substituído pelo supradito cidadão <persName ref="#bernardo_pires">Major Bernardo Pires</persName>.
+                    <br/><br/>
+                    <placeName ref="#piratini">Piratini</placeName>, <date when="1841-10-02">2 de outubro de 1841</date>.<br/>
+                    <signed><persName ref="#antonio_belarmino_ribeiro">Antônio Belarmino Ribeiro</persName></signed>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

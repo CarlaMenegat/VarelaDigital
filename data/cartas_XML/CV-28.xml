@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-28 – Antônio José de Abreu para Domingos José de Almeida</title>
+                <author>Antônio José de Abreu</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1841-03-21">21 de março de 1841</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#domingos_almeida">Domingos José de Almeida</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-28">
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr. <persName ref="#domingos_almeida">Domingos José de Almeida</persName></salute>
+                    <p><placeName ref="#piratini">Piratini</placeName>, <date when="1841-03-21">21 de março de 1841</date>.</p>
+                </opener>
+                
+                <p>
+                    Com prazer recebi sua estimável carta com data de 15 do que gira que muito me
+                    comprazeu por saber gozava saúde e que tinha feito uma viagem feliz; fiz ciente
+                    aos demais senhores contemplados na mesma; por aqui presentemente não há novidade
+                    a não ser o dizer-se que o Silva pretende passar.
+                </p>
+                
+                <p>
+                    Quinta-feira foram agarrados em <placeName ref="#pelotas">Pelotas</placeName> os seis filhos de
+                    <persName ref="#dona_joaquina_pavao">Dona Joaquina do Pavão</persName> e um velho chamado
+                    <persName ref="#rolim">Rolim</persName>.
+                </p>
+                
+                <p>
+                    Participo-lhe que com a saída de V.Ex.ª o Sr. Chefe de Polícia tratou de reformar
+                    as rações de carne, de sorte que tendo eu oito filhos e mulher e quatro escravos
+                    não recebo para dois dias mais de meia arroba de carne e por isso, a V.Ex.ª
+                    junto com meu compadre <persName ref="#jose_mariano">José Mariano</persName> não darem alguma
+                    providência, estou eu muitas mais o não receberemos; estou persuadido que esse
+                    senhor vai contra as ordens do governo, segundo os decretos e circulares que existem
+                    a semelhante respeito.
+                </p>
+                
+                <p>
+                    Há dias escrevia V.Ex.ª a respeito à ordem que V.Ex.ª me deu para o
+                    <placeName ref="#erval">Erval</placeName> e espero que dará pronto remédio. Minha família muito
+                    se lhe recomenda e eu em particular o faço por ser
+                </p>
+                
+                <closer>
+                    <salute>De V.Ex.ª</salute>
+                    <signed>
+                        <persName ref="#antonio_jose_abreu">Amigo muito obrigado<br/>Antônio José de Abreu</persName>
+                    </signed>
+                </closer>
+                
+                <note type="endorsement">
+                    Ilmo. e Exmo. Sr. <persName ref="#domingos_almeida">Domingos José de Almeida</persName>,
+                    Ministro dos Negócios da Fazenda. [No verso]<br/>
+                    <placeName ref="#sao_gabriel">São Gabriel</placeName>.<br/>
+                    Respondida a 11 de abril. [Na folha 1r.]
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>
