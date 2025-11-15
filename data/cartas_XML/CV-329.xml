@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-329 – Domingos José de Almeida para Inácio José de Oliveira Guimarães</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1839-08-31">31 de agosto de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#inacio_jose_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-329">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Para se não malograrem as importantes vantagens por nossas armas obtidas no Estado Catarinense, vantagens que de per si nos segura o próximo reconhecimento de nossa independência, faz-se mister o concurso de todas as autoridades e os esforços de todos os cidadãos da república, a fim de não vermos por uma terceira vez desprezados os mimos da providência, como sucedera depois dos triunfos desta capital em <date when="1837-04-07">7 de abril de 1837</date> e em <placeName ref="#rio_pardo">Rio Pardo</placeName> a <date when="1838-04-30">30 de abril de 1838</date>.</p>
+                
+                <p>Os pontos avançados naquela parte pela <orgName ref="#divisao_auxiliadora">Divisão Auxiliadora</orgName> demandam fortes guarnições, não só para obstar desembarques na costa ou bater imediatamente quem consiga fazê-lo, como ainda para cobrir o trânsito das munições de boca e guerra, que por este Estado têm de ser fornecidas à Divisão citada, e alguma contramarcha que tente ou seja obrigada a fazer por alguma imprevista circunstância.</p>
+                
+                <p>Nesta inteligência pois, e para os fins apontados, manda o governo que V.Sª. confidencialmente, de acordo com os comandantes parciais de polícia do departamento de sua jurisdição, e com os juízes de paz e inspetores de quarteirão dele, em dia marcado, proceda a recrutamento geral de todas as pessoas nas circunstâncias da lei; bem como de todos os morenos, que existam no mesmo departamento, cujos senhores não mostrarem documento de compra, ou não justificarem não ter o moreno, sobre quem se disputa a posse, pertencido a inimigos da república, e por isso não incurso nas disposições dos Decretos de 11 de novembro de 1836 e 5 de abril de 1837.</p>
+                
+                <p>V.Sª. não ignorará o abuso que acerca dos morenos de propriedade inimiga se têm cometido, e quanto convém à moral pública e aos interesses da humanidade e do Estado que semelhante abuso seja cortado pela raiz.</p>
+                
+                <p>Os recrutados V.Sª. enviará com segurança para os depósitos designados por lei.</p>
+                
+                <closer>
+                    <salute>Deus guarde a V.Sª.</salute>
+                    <signed>Domingos José de Almeida</signed>
+                </closer>
+                
+                <p>Ilmo. Sr. <persName ref="#inacio_jose_guimaraes">Inácio José de Oliveira Guimarães</persName>.</p>
+                
+                <note type="endorsement">S. da R.</note>
+                <note type="endorsement">Ao cidadão Chefe Geral de Polícia do departamento do Boqueirão.</note>
+                <note type="endorsement">Do Ministério da Guerra. Ofício de 31 de agosto, recebido a 17 de setembro.</note>
+                <note type="endorsement">Piratini — Caçapava.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

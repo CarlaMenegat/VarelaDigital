@@ -42,6 +42,12 @@
             <persName>General Lima</persName>
             <note>General legalista assassinado por Roque, segundo relato oral de veterano.</note>
         </person>
+        
+        <person xml:id="joao_manuel_lima_silva">
+            <persName>João Manuel de Lima e Silva</persName>
+            <note>General farroupilha falecido em 1839, homenageado com exéquias oficiais em Caçapava.</note>
+        </person>
+
         <person xml:id="josefina">
             <persName>Josefina</persName>
             <note>Prima de Alfredo, mencionada com carinho na carta.</note>
@@ -64,6 +70,11 @@
             <persName>Domingos José de Almeida</persName>
             <note>Político e figura importante na Revolução Farroupilha; Ministro da Fazenda da República Rio-Grandense.</note>
             <idno type="viaf">https://viaf.org/viaf/66566150</idno>
+        </person>
+        
+        <person xml:id="domingos_jose_almeida">
+            <persName>Domingos José de Almeida</persName>
+            <note>Ministro e Secretário de Estado da República Rio-Grandense, responsável pelos expedientes da Fazenda e da Guerra.</note>
         </person>
         
         <person xml:id="dionisio_amaro">
@@ -675,6 +686,11 @@
             <note>Chefe de Polícia do Departamento de Alegrete; também Comandante Geral de Polícia do Departamento e Fronteira de Alegrete.</note>
         </person>
         
+        <person xml:id="joao_antonio_silveira">
+            <persName>João Antônio da Silveira</persName>
+            <note>Coronel e Comandante da Divisão da Direita do exército farroupilha.</note>
+        </person>
+        
         <person xml:id="jose_antonio_silva">
             <persName>José Antônio da Silva</persName>
             <note>Indivíduo mencionado como beneficiário de ordem revogada.</note>
@@ -718,7 +734,7 @@
         
         <person xml:id="jose_mariano_matos">
             <persName>José Mariano de Matos</persName>
-            <note>Indivíduo mencionado como recém-chegado de Sandú.</note>
+            <note>Político farroupilha, vice-presidente mais votado da República Rio-Grandense, que assumiu interinamente a administração civil em 1839.</note>
         </person>
         
         <person xml:id="joao_barcelos">
@@ -963,6 +979,16 @@
         <note>Oficial militar farroupilha citado como comandante de divisão.</note>
     </person>
     
+    <person xml:id="domingos_crescencio_carvalho">
+        <persName>Domingos Crescêncio de Carvalho</persName>
+        <note>Coronel farroupilha, comandante da Divisão da Esquerda durante a Revolução Farroupilha.</note>
+    </person>
+    
+    <person xml:id="joao_manuel_araujo_pinto">
+        <persName>João Manuel de Araújo Pinto</persName>
+        <note>Tenente encarregado da Secretaria da Guerra.</note>
+    </person>
+    
     <person xml:id="assis">
         <persName>Assis</persName>
         <note>Destinatário de remessa financeira mencionada por Almeida.</note>
@@ -1056,5 +1082,232 @@
     <person xml:id="fidelis_nepomuceno_prates">
         <persName>Fidelis Nepomuceno de Carvalho Prates</persName>
         <note>Capitão de São Gabriel envolvido na remessa de mulas.</note>
+    </person>
+    
+    <person xml:id="jose_luis_andrade">
+        <persName>José Luís de Andrade</persName>
+    </person>
+    
+    <person xml:id="eleuterio_sousa">
+        <persName>Eleutério Soares de Sousa</persName>
+    </person>
+    
+    <person xml:id="alexandre_abreu_vale">
+        <persName>Alexandre de Abreu Vale</persName>
+    </person>
+    
+    <person xml:id="antonio_agostinho_nascimento">
+        <persName>Antônio Agostinho do Nascimento</persName>
+    </person>
+    
+    <person xml:id="marcos_cristine">
+        <persName>Marcos Cristine</persName>
+    </person>
+    
+    <person xml:id="vicente_ferrer_almeida">
+        <persName>Vicente Ferrer de Almeida</persName>
+    </person>
+    
+    <person xml:id="joao_tomas_farinha">
+        <persName>João Tomás Farinha</persName>
+    </person>
+    
+    <person xml:id="carlos_munoz">
+        <persName>Carlos Muñoz</persName>
+    </person>
+    
+    <person xml:id="jose_alves_morais">
+        <persName>José Alves de Morais</persName>
+        <note>Tenente-coronel e Comandante da Guarnição de Caçapava.</note>
+    </person>
+    
+    <person xml:id="claudio_piedade">
+        <persName>Cláudio José da Piedade</persName>
+        <note>Comandante do Contingente em Caçapava.</note>
+    </person>
+    
+    <person xml:id="antonio_jose">
+        <persName>Antônio José</persName>
+        <note>Servente do Trem de Guerra, envolvido em incidente administrativo referido na carta.</note>
+    </person>
+    
+    <person xml:id="carlos_munoz">
+        <persName>Carlos Muñoz</persName>
+        <note>Fornecedor de fazendas (tecidos) contratado pelo governo farroupilha.</note>
+    </person>
+    
+    <person xml:id="joao_antonio_silveira">
+        <persName>João Antônio da Silveira</persName>
+        <note>Coronel farroupilha, comandante da Divisão da Direita durante a Guerra dos Farrapos.</note>
+    </person>
+    
+    <person xml:id="felisberto_fagundes_sousa">
+        <persName>Felisberto Fagundes de Sousa</persName>
+        <note>Capitão farroupilha, Diretor do Trem de Guerra durante a administração republicana.</note>
+    </person>
+    
+    <person xml:id="salvador_pinheiro">
+        <persName>Salvador Pinheiro</persName>
+        <note>Soldado do 3.º Batalhão, trabalhando na oficina de sapateiros do Arsenal, autor do requerimento citado.</note>
+    </person>
+    
+    <person xml:id="joaquim_barbosa_prado">
+        <persName>Joaquim Barbosa do Prado</persName>
+        <note>Militar proposto para o posto de capitão da Companhia de São Gabriel em 1839.</note>
+    </person>
+    
+    <person xml:id="mateus_jose_santos">
+        <persName>Mateus José dos Santos</persName>
+        <note>Destinatário de parte dos valores pagos por ordem do Tenente-coronel João José Damasceno.</note>
+    </person>
+    
+    <person xml:id="teodoro_jose_ribeiro">
+        <persName>Teodoro José Ribeiro</persName>
+        <note>Tenente-coronel rio-grandense mencionado em operações militares na região da barra do Camaquã em 1839.</note>
+    </person>
+    
+    <person xml:id="urbano_soares">
+        <persName>Urbano Soares</persName>
+        <note>Major das forças rio-grandenses, participante de movimentações militares relacionadas ao desembarque no Camaquã.</note>
+    </person>
+    
+    <person xml:id="jose_manuel_leao">
+        <persName>José Manuel de Leão</persName>
+        <note>Coronel rio-grandense mencionado como fornecedor de gado para missões administrativas e militares da República Rio-Grandense.</note>
+    </person>
+    
+    <person xml:id="silverio_jose_santos">
+        <persName>Silvério José dos Santos</persName>
+        <note>Tenente quartel-mestre do Corpo de Guardas Nacionais do município, designado para servir na Secretaria da Comandância Geral de Polícia.</note>
+    </person>
+    
+    <person xml:id="joao_antonio_silveira">
+        <persName>João Antônio da Silveira</persName>
+        <note>Coronel farroupilha, Comandante da Divisão da Direita durante a Guerra Farroupilha.</note>
+    </person>
+    
+    <person xml:id="norberto_carlos_silva">
+        <persName>Norberto Carlos da Silva</persName>
+        <note>Soldado desertor mencionado na CV-334.</note>
+    </person>
+    
+    <person xml:id="antonio_carlos_vidal">
+        <persName>Antônio Carlos Vidal</persName>
+        <note>Soldado desertor mencionado na CV-334.</note>
+    </person>
+    
+    <person xml:id="cipriano_espirito_santo">
+        <persName>Cipriano Rodrigues do Espírito Santo</persName>
+        <note>Soldado desertor mencionado na CV-334.</note>
+    </person>
+    
+    <person xml:id="manuel_anselmo">
+        <persName>Manuel Anselmo</persName>
+        <note>Soldado desertor mencionado na CV-334.</note>
+    </person>
+    
+    <person xml:id="jose_venancio">
+        <persName>José Venâncio</persName>
+        <note>Soldado desertor mencionado na CV-334.</note>
+    </person>
+    
+    <person xml:id="manuel_joaquim_siqueira">
+        <persName>Manuel Joaquim de Siqueira</persName>
+        <note>Soldado desertor mencionado na CV-335.</note>
+    </person>
+    
+    <person xml:id="francisco_pinto_rangel">
+        <persName>Francisco Pinto Rangel</persName>
+        <note>Soldado desertor mencionado na CV-335.</note>
+    </person>
+    
+    <person xml:id="firmino_antonio">
+        <persName>Firmino Antônio</persName>
+        <note>Soldado desertor mencionado na CV-335.</note>
+    </person>
+    
+    <person xml:id="amandio_rodrigues">
+        <persName>Amândio Rodrigues</persName>
+        <note>Recruta desertor mencionado na CV-335.</note>
+    </person>
+    
+    <person xml:id="manuel_moreira_silva">
+        <persName>Manuel Moreira da Silva</persName>
+        <note>Cidadão mencionado em ordem judicial relativa à fazenda das Pedras Altas.</note>
+    </person>
+    
+    <person xml:id="claudiano_quadros">
+        <persName>Claudiano de Quadros</persName>
+        <note>Cidadão citado em notificação sobre retirada de gado da fazenda das Pedras Altas.</note>
+    </person>
+    
+    <person xml:id="manuel_antunes_porciuncula">
+        <persName>Manuel Antunes da Porciúncula</persName>
+        <note>Cidadão envolvido em disputa de pastagens na fazenda das Pedras Altas.</note>
+    </person>
+    
+    <person xml:id="faustino_lima">
+        <persName>Faustino José de Lima</persName>
+        <note>Arrendatário da fazenda das Pedras Altas, cuja segurança pessoal é mencionada na carta.</note>
+    </person>
+    
+    <person xml:id="antonio_duarte">
+        <persName>Antônio Gonçalves Pereira Duarte</persName>
+        <note>Cidadão encarregado do transporte de marcas de ferro e cartuchos mencionados na CV-341.</note>
+    </person>
+    
+    <person xml:id="modesto_franco">
+        <persName>Modesto Franco</persName>
+        <note>Agente comercial ligado à República Rio-Grandense, atuando na obtenção de armas e munições no exterior.</note>
+    </person>
+    
+    <person xml:id="juliao_garcia">
+        <persName>Julião Antônio Garcia</persName>
+        <note>Credor mencionado em saques destinados ao pagamento de suprimentos militares.</note>
+    </person>
+    
+    <person xml:id="zeferino_coelho_neto">
+        <persName>Zeferino Coelho Neto</persName>
+        <note>Credor associado ao fornecimento de armas e itens bélicos para a República Rio-Grandense.</note>
+    </person>
+    
+    <person xml:id="jacques">
+        <persName>Jaques</persName>
+        <note>Indivíduo citado como recusando manter contas com o Governo; provavelmente agente comercial.</note>
+    </person>
+    
+    <person xml:id="henrique_vareiro">
+        <persName>Henrique José Vareiro</persName>
+        <note>Sargento da Companhia de Artifícios mencionado em declaração formal sobre coação para transferência.</note>
+    </person>
+    
+    <person xml:id="jose_maria_amaral">
+        <persName>José Maria do Amaral</persName>
+        <note>Major do Estado-maior; testemunha da declaração.</note>
+    </person>
+    
+    <person xml:id="joaquim_bem">
+        <persName>Joaquim Francisco de Bem</persName>
+        <note>Capitão Vice-diretor do Arsenal de Guerra.</note>
+    </person>
+    
+    <person xml:id="manuel_santa_isabel">
+        <persName>Manuel José de Santa Isabel</persName>
+        <note>Testemunha na declaração.</note>
+    </person>
+    
+    <person xml:id="antonio_silvestre_maciel">
+        <persName>Antônio Silvestre Maciel</persName>
+        <note>Testemunha na declaração.</note>
+    </person>
+    
+    <person xml:id="felicio_soares_silva">
+        <persName>Felício Soares da Silva</persName>
+        <note>Proprietário interessado em remover gado do rincão de Pereira para a região de Candiota.</note>
+    </person>
+    
+    <person xml:id="ismael">
+        <persName>Ismael</persName>
+        <note>Morador estabelecido dentro da fazenda de Candiota, indicado por Bento Gonçalves como arrendatário preferencial.</note>
     </person>
 </standOff>

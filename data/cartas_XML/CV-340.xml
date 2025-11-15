@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-340 – Circular de Domingos José de Almeida para Inácio José de Oliveira Guimarães</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1839-10-23">23 de outubro de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-340">
+                
+                <opener>
+                    <salute>Circular – Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Incluso remeto a V.Sª 2 exemplares do Periódico 
+                    <orgName ref="#periodico_povo">Povo</orgName>, número 111, de 19 do corrente, 
+                    em o qual se descreve as exéquias que por alma do falecido 
+                    <persName ref="#joao_manuel_lima_silva">General João Manuel de Lima e Silva</persName> 
+                    tiveram lugar nesta capital no dia 17 deste mesmo mês; para que, 
+                    dando-lhes V.Sª a devida publicidade, conheçam nossos concidadãos 
+                    qual o apreço e consideração que a Nação Rio-grandense tributa 
+                    aos restos dos patriotas que em defesa da independência e liberdade 
+                    nacional exalaram e exalarem seus últimos suspiros.
+                </p>
+                
+                <closer>
+                    <salute>Deus guarde a V.Sª.</salute>
+                    <signed>Domingos José de Almeida</signed>
+                    <p>Secretaria da Fazenda encarregada do expediente do Governo</p>
+                </closer>
+                
+                <p>Ilmo. Sr. <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.</p>
+                
+                <note type="endorsement">Do Ministério da Guerra de 23 de outubro, recebida a 12 de novembro.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

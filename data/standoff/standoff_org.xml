@@ -105,7 +105,7 @@
             <orgName>Repartição Fiscal</orgName>
             <note>Órgão responsável pela fiscalização fluvial no Rio Uruguai.</note>
         </org>
-        
+
         <org xml:id="coletoria_alegrete">
             <orgName>Coletoria da vila de Alegrete</orgName>
             <note>Instância fiscal responsável pela arrecadação local.</note>
@@ -114,6 +114,76 @@
         <org xml:id="juiz_municipal">
             <orgName>Juiz Municipal</orgName>
             <note>Cargo judicial na administração local da República Rio-Grandense.</note>
+        </org>
+        
+        <org xml:id="trem_guerra">
+            <orgName>Trem de Guerra</orgName>
+            <note>Corpo logístico responsável pelo fornecimento, transporte e manutenção de material bélico da República Rio-Grandense.</note>
+        </org>
+        
+        <org xml:id="arsenal">
+            <orgName>Arsenal</orgName>
+            <note>Estabelecimento militar destinado à produção e reparo de equipamento bélico e utensílios do exército farroupilha.</note>
+        </org>
+        
+        <org xml:id="corpos_primeira_linha">
+            <orgName>Corpos de 1ª Linha</orgName>
+            <note>Unidades militares regulares da República Rio-Grandense, equivalentes às tropas de linha do exército.</note>
+        </org>
+        
+        <org xml:id="guarda_nacional">
+            <orgName>Guarda Nacional</orgName>
+            <note>Força militar cívica destinada à manutenção da ordem interna, presente tanto no Império do Brasil quanto na organização farroupilha.</note>
+        </org>
+        
+        <org xml:id="divisao_auxiliadora">
+            <orgName>Divisão Auxiliadora</orgName>
+            <note>Corpo militar destacado para operações externas, atuando no Estado Catarinense e citado como responsável por manter posições avançadas estratégicas.</note>
+        </org>
+        
+        <org xml:id="guarnicao_cacapava">
+            <orgName>Guarnição de Caçapava</orgName>
+            <note>Unidade militar responsável pela defesa da capital rio-grandense.</note>
+        </org>
+        
+        <org xml:id="governo_republica">
+            <orgName>Governo da República Rio-Grandense</orgName>
+            <note>Administração central do Estado republicano formado pelos farroupilhas a partir de 1836.</note>
+        </org>
+        
+        <org xml:id="divisao_esquerda">
+            <orgName>Divisão da Esquerda</orgName>
+            <note>Unidade militar integrante da estrutura militar da República Rio-Grandense.</note>
+        </org>
+        
+        <org xml:id="corpo_1_linha">
+            <orgName>1º Corpo</orgName>
+            <note>Unidade militar da estrutura farroupilha, mencionada como subordinada ao comando da Divisão.</note>
+        </org>
+        
+        <org xml:id="secretaria_justica_eclesiasticos">
+            <orgName>Secretaria de Negócios da Justiça e Eclesiásticos</orgName>
+            <note>Órgão responsável pelos assuntos judiciais e religiosos da República Rio-Grandense.</note>
+        </org>
+        
+        <org xml:id="periodico_povo">
+            <orgName>Povo</orgName>
+            <note>Periódico da República Rio-Grandense, utilizado para comunicados oficiais e notícias do governo.</note>
+        </org>
+        
+        <org xml:id="ministerio_guerra">
+            <orgName>Ministério da Guerra</orgName>
+            <note>Órgão responsável pelas comunicações militares e administrativas da República Rio-Grandense.</note>
+        </org>
+        
+        <org xml:id="camara_municipal">
+            <orgName>Câmaras Municipais</orgName>
+            <note>Corpos administrativos locais da República Rio-Grandense, responsáveis por eleições e funções civis.</note>
+        </org>
+        
+        <org xml:id="coletorias">
+            <orgName>Coletorias da República Rio-Grandense</orgName>
+            <note>Órgãos responsáveis pela arrecadação de tributos e execução de pagamentos determinados pelo governo.</note>
         </org>
     </listOrg>
 </standOff>

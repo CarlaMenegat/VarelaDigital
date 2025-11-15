@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-312 – Domingos José de Almeida para João Antônio da Silveira</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1839-06-06">6 de junho de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <div type="letter" xml:id="CV-312">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Tendo presente dois ofícios que V.Sª. me dirigiu em 31 do passado, em um participando-me ter expedido ordem para regressarem os homens que pedi para ajudarem ao cidadão <persName ref="#eleuterio_sousa">Eleutério Soares de Sousa</persName> na fatura das tropas de que lhe havia encarregado, e em outro fazendo ver que tendo-lhe sido recambiadas algumas ordens que havia sacado contra as coletorias de <placeName ref="#sao_gabriel">São Gabriel</placeName> e <placeName ref="#alegrete">Alegrete</placeName> para pagamento de cavalos comprados para remonta do exército exigia providências a tal respeito;</p>
+                
+                <p>cumpre-me em resposta dizer-lhe que tendo suspendido a fatura de tropas por não convir em razão dos direitos sobre nosso gado estatuídos no Estado vizinho, desnecessária se torna a ida dos cidadãos pedidos; e que tendo já há dias ordenado ao coletor de <placeName ref="#sao_gabriel">São Gabriel</placeName> o pagamento das ordens de V.Sª., semelhantemente ora pratico com o coletor de <placeName ref="#alegrete">Alegrete</placeName>.</p>
+                
+                <p>Deus guarde a V.Sª., <orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 6 de junho de 1839.</p>
+                
+                <closer>
+                    <signed>Domingos José de Almeida</signed>
+                </closer>
+                
+                <p><persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>, Comandante da Divisão da Direita.</p>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

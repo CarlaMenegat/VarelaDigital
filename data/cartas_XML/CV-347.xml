@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-347 – Domingos José de Almeida para Bento Gonçalves da Silva</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1839-11-22">22 de novembro de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#bento_goncalves_silva">Bento Gonçalves da Silva</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-347">
+                
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>Se reiteradas vezes tenho exigido demissão do emprego que me foi confiado, é porque meus tênues mas constantes serviços a prol da causa rio-grandense não têm deixado perceber resultados, e me têm por isso convencido de minha incapacidade para bem desempenhá-lo: V.Exª. porém pensando diversamente me conjura a permanecer no meu posto, e eu, não podendo renegar as condições que me impus quando com os rio-grandenses jurei libertar a pátria e defender princípios, com gosto e cheio de fé continuarei nesse emprego, cumprindo assim os preceitos de V.Exª. e a sentença que me foi fulminada.</p>
+                
+                <p>Deus guarde a V.Exª. como se faz mister à causa americana.</p>
+                
+                <closer>
+                    <signed>Súdito e servo obediente</signed>
+                </closer>
+                
+                <note type="endorsement">Secretaria da Fazenda em Caçapava, 22 de novembro de 1839.</note>
+                <note type="endorsement">Ilmo. e Exmo. Sr. General Bento Gonçalves da Silva, Presidente do Estado Rio-grandense.</note>
+                <note type="endorsement">Minuta com letra de D. J. de Almeida.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

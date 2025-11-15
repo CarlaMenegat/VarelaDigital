@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-313 – Domingos José de Almeida para Joaquim dos Santos Prado Lima</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1839-06-30">30 de junho de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>
+                    <orgName ref="#coletoria_geral">Coletoria Geral</orgName>
+                    <placeName ref="#alegrete">Alegrete</placeName>
+                    <placeName ref="#missoes">Missões</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <div type="letter" xml:id="CV-313">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Para proceder-se na cobrança do que ao Estado deve o cidadão <persName ref="#alexandre_abreu_vale">Alexandre de Abreu Vale</persName>, incluso lhe remeto os documentos juntos sob números: A — B — C — D — 1 — 2 — 3 — 4 — 5; e por esta mesma ocasião lembro a cobrança de <persName ref="#marcos_cristine">Marcos Cristine</persName>.</p>
+                
+                <p>Deus guarde a V.Sª.. <orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 30 de junho de 1839.</p>
+                
+                <closer>
+                    <signed>Domingos José de Almeida</signed>
+                </closer>
+                
+                <p><persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>, Coletor Geral dos municípios de <placeName ref="#alegrete">Alegrete</placeName> e <placeName ref="#missoes">Missões</placeName>.</p>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-316 – Domingos José de Almeida e Bento Gonçalves da Silva</title>
+                <author>Domingos José de Almeida; Bento Gonçalves da Silva</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <!-- PRIMEIRA CORRESPONDÊNCIA: Almeida → Presidente -->
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <date when="1839-07-02">2 de julho de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#bento_goncalves_silva">Bento Gonçalves da Silva</persName>
+                </correspAction>
+                
+                <!-- RESPOSTA: Bento → Almeida -->
+                <correspAction type="sent">
+                    <persName ref="#bento_goncalves_silva">Bento Gonçalves da Silva</persName>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <!-- CARTA PRINCIPAL -->
+            <div type="letter" xml:id="CV-316">
+                
+                <opener>
+                    <salute>Exmo. Sr.</salute>
+                </opener>
+                
+                <p>Para alguma ocorrência extraordinária, e mesmo para vários Decretos que tenho de lavrar acerca de escolas, polícia, coletorias e estatística, faz-se mister que V. Exª. assine as seis folhas de papel inclusas.</p>
+                
+                <closer>
+                    <salute>De V.Exª. compadre amigo e obrigado</salute>
+                    <signed>Almeida</signed>
+                </closer>
+                
+                <dateline>S.C., <date when="1839-07-02">2 de julho de 1839</date></dateline>
+            </div>
+            
+            
+            <!-- RESPOSTA DE BENTO -->
+            <div type="response" xml:id="CV-316-resposta">
+                
+                <opener>
+                    <salute>Exmo. Sr.</salute>
+                </opener>
+                
+                <p>Adjunto-lhe seis folhas assinadas e o decreto que enviou. Logo lá vou dizer-lhe adeus e conversar alguma coisa mais que ocorrer a seu</p>
+                
+                <closer>
+                    <salute>Amigo e compadre</salute>
+                    <signed>B. G. Silva</signed>
+                </closer>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

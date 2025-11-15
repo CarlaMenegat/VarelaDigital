@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-322 – Domingos José de Almeida para Inácio José de Oliveira Guimarães</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <orgName ref="#secretaria_fazenda_guerra">Secretaria da Fazenda encarregada do expediente da Guerra</orgName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1839-07-27">27 de julho de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#inacio_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-322">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Circular</p>
+                
+                <p>Informado por dois professores de primeiras letras de que o número de seus alunos se tem há dias consideravelmente enfraquecido por causa de avisos dados a seus pais e tutores de que o governo, com o fim aparente de promover a instrução pública, alevosamente os reunia para em tempo dado fazer-lhes sentar praça nos Corpos de 1ª Linha, embora não tenham os anos da lei; para dissipar esse prejuízo, de propósito incutido por nossos inimigos para não aproveitar aquela salutar providência, cujos resultados a favor da Nação nunca foi entendido pelo Governo do Brasil e por outros que, como ele, firmam a base da tirania na ignorância dos povos, manda o mesmo Governo declarar-lhe que os alunos, depois de matriculados em quaisquer das aulas nacionais do estado e que as frequentem com proveito, estão isentos não só do recrutamento para a primeira linha, como ainda da Guarda Nacional e do serviço da polícia dos distritos; do que V.Sª. se dará por entendido e fará observar na parte que lhe toca.</p>
+                
+                <p>Deus guarde a V.Sª. <orgName ref="#secretaria_fazenda_guerra">Secretaria da Fazenda encarregada do expediente da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 27 de julho de 1839.</p>
+                
+                <closer>
+                    <signed>Domingos José de Almeida</signed>
+                </closer>
+                
+                <p><persName ref="#inacio_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>, Chefe de Polícia do <placeName ref="#boqueirao">Boqueirão</placeName>.</p>
+                
+                <note type="endorsement">S. da R.</note>
+                <note type="endorsement">Circular recebida a 14 de agosto. Caçapava — Piratini.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

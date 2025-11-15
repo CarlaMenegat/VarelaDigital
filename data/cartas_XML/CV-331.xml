@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-331 – Domingos José de Almeida para Inácio José de Oliveira Guimarães</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1839-09-08">8 de setembro de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#inacio_jose_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-331">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>A vista do sucedido com os lanchões a 23 do mês passado, como me participa por ofício de 25, cumpre que V.Sº. mande entregar ao Tenente-coronel Chefe Geral de Polícia de <placeName ref="#canguçu">Canguçu</placeName>, para ter em arrecadação segura, a peça, munições e aparelhos de ditos lanchões, fazendo seguir para o exército os oficiais e marinheiros que os tripulavam, a fim de serem empregados na <orgName ref="#esquadra_laguna">esquadra que se organiza na Laguna</orgName>, como já por ofício de 22 determinei ao Tenente <persName ref="#zeferino_dutra">Zeferino Pereira Dutra</persName>, comandante deles.</p>
+                
+                <closer>
+                    <salute>Deus guarde a V.Sº.</salute>
+                    <signed>Domingos José de Almeida</signed>
+                    <placeName ref="#cacapava">Caçapava</placeName>, <date when="1839-09-08">8 de setembro de 1839</date>
+                </closer>
+                
+                <p>Ilmo. Sr. <persName ref="#inacio_jose_guimaraes">Inácio José de Oliveira Guimarães</persName>. Chefe Geral de Polícia do Departamento do Boqueirão.</p>
+                
+                <note type="endorsement">Ofício do Exmo. Ministro da Guerra de 8 de setembro, recebido a 8 de outubro, sobre os lanchões e respondido a 9 do mesmo.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

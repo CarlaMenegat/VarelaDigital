@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-332 – Domingos José de Almeida para João Antônio da Silveira</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1839-09-11">11 de setembro de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-332">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Acusando a recepção dos ofícios que em 6 e 8 do corrente V.Sª. me dirigiu, aquele participando ter tido ordem do Exmo. Ministro da Guerra para com a <orgName ref="#divisao_direita">Divisão do seu comando</orgName> colocar-se nas pontas de <placeName ref="#ibirapuita">Ibirapuitã</placeName>, o que não podia fazer por achar-se inteiramente a pé; e este acusando a recepção dos que lhe enderecei a 25 e 28 do passado, reitera a impossibilidade do cumprimento daquela ordem; cumpre em resposta dizer-lhe que podendo bastante afetar os interesses da república a falta de uma força no ponto indicado, cumpre que V.Sª., lançando mão de tudo ao seu alcance, e rompendo, como por outras vezes o tem feito, as dificuldades que se oponham à sua marcha, a verifique com a brevidade que for possível.</p>
+                
+                <p>Estimo ter V.Sª. dispensado o oficial pedido para a Secretaria da Comandância Geral de Polícia deste Município; bem como ter o Juiz de Paz de São Gabriel verificado a compra de porção de fazendas que unidas às que daqui tenho de remeter de alguma forma suprem as precisões da Divisão.</p>
+                
+                <closer>
+                    <salute>Deus guarde a V.Sª.</salute>
+                    <signed>Domingos José de Almeida</signed>
+                </closer>
+                
+                <p>Ilmo. Sr. Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>. Comandante da Divisão da Direita.</p>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

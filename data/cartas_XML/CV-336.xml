@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-336 – Domingos José de Almeida para Inácio José de Oliveira Guimarães</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <date when="1839-09-25">25 de setembro de 1839</date>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#inacio_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-336">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Tendo o Governo mandado reunir sem perda de momento todos os corpos de que se compõem as Divisões da Direita e Esquerda, a fim de ficarem na atitude de carregarem sobre o inimigo em qualquer ponto que apareça, visto que suas circunstâncias desesperadas o forçam a empresas arriscadas, muito particularmente sabendo do estado desapercebido em que nos achamos por causa da estação e do aniquilamento de nossas cavalhadas, assim lhe communico para que, de acordo com os comandantes dos ditos corpos e companhias, faça seguir para o acampamento da divisão a que pertencer não só os indivíduos delas pertencentes e cidadãos aptos para as armas, como ainda toda a cavalhada em estado de serviço, seja ela de quem for, a cujos proprietários passará documento para serem pagos de sua importância caso não lhes sejam restituídos os cavalos tirados.</p>
+                
+                <p>V.Sª deve penetrar-se que em casos extremos e quando a salvação da pátria demanda medidas fortes, todas e quaisquer considerações e respeitos se subordinam àquelas considerações.</p>
+                
+                <closer>
+                    <salute>Deus guarde a V.Sª.</salute>
+                    <signed>Domingos José de Almeida</signed>
+                </closer>
+                
+                <p>Ao cidadão <persName ref="#inacio_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>, Chefe Geral de Polícia do departamento do Boqueirão.</p>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

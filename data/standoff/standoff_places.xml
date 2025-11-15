@@ -276,6 +276,19 @@
             <note>Canal que liga a Lagoa dos Patos à Lagoa Mirim, situado em Pelotas (RS); ponto estratégico para circulação e operações militares no período farroupilha.</note>
         </place>
         
+        <place xml:id="passo_beca">
+            <placeName>Passo do Beca</placeName>
+            <note>Ponto de travessia utilizado no século XIX na região do rio São Gonçalo, associado às rotas de transporte entre Pelotas e Rio Grande.</note>
+        </place>
+        
+        <place xml:id="sao_goncalo_pelotas">
+            <placeName>Rio São Gonçalo</placeName>
+            <location>
+                <geo>-31.7700 -52.3500</geo>
+            </location>
+            <note>Curso d’água que liga a Lagoa Mirim à Lagoa dos Patos; conhecido historicamente como Canal São Gonçalo, atravessando a região de Pelotas (RS).</note>
+        </place>
+        
         <place xml:id="cerro_largo">
             <placeName>Cerro Largo</placeName>
             <note>Região do atual Uruguai, centro comercial ativo no período.</note>
@@ -334,6 +347,23 @@
         <place xml:id="botucarai_serra">
             <placeName>Serra de Botucaraí</placeName>
             <note>Local onde funcionava a fábrica de carretas mencionada.</note>
+        </place>
+        
+        <place xml:id="sao_jose">
+            <placeName>São José</placeName>
+            <note>Topônimo alternativo ao Distrito da Encruzilhada mencionado na carta.</note>
+        </place>
+        
+        <place xml:id="barra_camaqua">
+            <placeName>Barra do Camaquã</placeName>
+            <geo>-31.318, -51.966</geo>
+            <note>Localidade na foz do rio Camaquã, importante ponto de desembarque e circulação militar durante a Guerra Farroupilha.</note>
+        </place>
+        
+        <place xml:id="candiota">
+            <placeName>Candiota</placeName>
+            <geo>-31.5514, -53.6773</geo>
+            <note>Município localizado na região da Campanha, Rio Grande do Sul. No período farroupilha, a área era conhecida pelas estâncias, rincões e invernadas situadas no vale do arroio Candiota, entre Bagé e Piratini.</note>
         </place>
     </listPlace>
 </standOff>
