@@ -987,5 +987,74 @@
         <persName>Vasco Amaro</persName>
         <note>Coletor responsável por receber valores pagos por Antônio Casas.</note>
     </person>
-
+    
+    <person xml:id="joaquim_pereira_fagundes">
+        <persName>Joaquim Pereira Fagundes</persName>
+        <note>Capitão e Chefe de Polícia da Fronteira de Bagé.</note>
+    </person>
+    
+    <person xml:id="damazio_correa">
+        <persName>Damazio Correa</persName>
+        <note>Responsável por receber o pagamento dos novilhos em Montevidéu.</note>
+    </person>
+    
+    <person xml:id="luis_neves">
+        <persName>Luís Neves</persName>
+        <note>Cidadão mencionado como intermediário na oferta do lanchão.</note>
+    </person>
+    
+    <person xml:id="miguel_antonio_magalhaes">
+        <persName>Miguel Antônio de Magalhães</persName>
+        <note>Tenente encarregado de comandar a embarcação adquirida.</note>
+    </person>
+    
+    <person xml:id="aleixo_mosqueira">
+        <persName>Aleixo Mosqueira</persName>
+        <note>Indivíduo mencionado em negociações administrativas envolvendo o governo farroupilha.</note>
+    </person>
+    
+    <person xml:id="jose_tome_salgado">
+        <persName>José Tomé Salgado</persName>
+        <note>Nomeado escrivão da Coletoria da vila de Alegrete.</note>
+    </person>
+    
+    <person xml:id="augusto_siqueira_leitao">
+        <persName>Augusto de Siqueira Pereira Leitão</persName>
+        <note>Cidadão cujos requerimentos foram encaminhados ao governo farroupilha.</note>
+    </person>
+    
+    <person xml:id="vasco_adolfo_charao">
+        <persName>Vasco Adolfo Charão</persName>
+        <note>Destinatário da carta, ligado à administração pública rio-grandense.</note>
+    </person>
+    
+    <person xml:id="miguel_rocha_freitas_travassos">
+        <persName>Miguel da Rocha Freitas Travassos</persName>
+        <note>1.º escriturário que certifica a cópia do documento.</note>
+    </person>
+    
+    <person xml:id="antonio_pereira_porto">
+        <persName>Antônio Pereira Porto</persName>
+        <note>Procurador de Vasco Adolfo Charão, responsável por prestar declaração sob juramento.</note>
+    </person>
+    
+    <person xml:id="vitoriano_ourique">
+        <persName>Vitoriano Ourique</persName>
+        <note>Tabelião interino que lavrou o termo de declaração.</note>
+    </person>
+    
+    <person xml:id="jose_ribeiro_almeida">
+        <persName>José Ribeiro de Almeida</persName>
+        <note>Coronel encarregado do aparte e remessa de mulas no departamento sob sua jurisdição.</note>
+    </person>
+    
+    <person xml:id="rodrigo_felix_martins">
+        <persName>Rodrigo Félix Martins</persName>
+        <note>Morador de Jacuizinho encarregado de receber mulas remetidas pela administração farroupilha.</note>
+    </person>
+    
+    <person xml:id="fidelis_nepomuceno_prates">
+        <persName>Fidelis Nepomuceno de Carvalho Prates</persName>
+        <note>Capitão de São Gabriel envolvido na remessa de mulas.</note>
+    </person>
 </standOff>

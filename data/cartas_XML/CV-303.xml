@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-303 – Domingos José de Almeida para Joaquim dos Santos Prado Lima</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1839-04-08">8 de abril de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>
+                    <orgName ref="#coletoria_alegrete_sao_borja">Coletoria Geral de Alegrete</orgName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-303">
+                
+                <opener>
+                    <salute>Ilmo. [rasgado]</salute>
+                </opener>
+                
+                <p>Avisando o cidadão <persName ref="#luis_neves">Luís [Neves]</persName> propor-se [um passa]geiro a vender um lanchão novo, bem [rasgado] com âncoras, boas correntes, velas novas, com 8 armas de infantaria, 8 lanças de abordar, uma peça de calibre 2 montada em rodízio, com [127] tiros de bala e metralha, e 50 paquetes de cartucho de 10 tiros cada um; e tudo por trezentos novilhos de corte posto na <placeName ref="#costa_quarai">Costa de Quaraí</placeName>, onde os deverá receber; manda o Exmo. Sr. <persName ref="#bento_goncalves_silva">Presidente do Estado</persName> que V.Sª., depois de informado do estado de tudo, efetue a referida compra, visto ser indispensável uma embarcação apropriada para o registo da <orgName ref="#reparticao_fiscal">Repartição Fiscal</orgName> mais interessante sobre o <placeName ref="#rio_uruguai">rio Uruguai</placeName>, e em conseguinte faça a entrega, na parte indicada, dos referidos 300 novilhos; receba a embarcação referida e a ponha sob o mando do <persName ref="#miguel_antonio_magalhaes">Tenente Miguel Antônio de Ma[galhães]</persName>.</p>
+                
+                <p>Deus guarde a V.Sª.. <orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 8 de abril de 1839.</p>
+                
+                <closer>
+                    <signed>Domingos José de Almeida</signed>
+                </closer>
+                
+                <p>Ilmo. Sr. <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>. Coletor Geral da vila de <placeName ref="#alegrete">Alegrete</placeName>.</p>
+                
+                <note type="endorsement">S.R.</note>
+                <note type="endorsement">Ao cidadão Joaquim dos Santos Prado Lima, Coletor Geral da vila de Alegrete.</note>
+                <note type="endorsement">Do Ministério da Fazenda, Abril — 8 — 39. Almeida.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

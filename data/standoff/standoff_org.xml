@@ -100,5 +100,20 @@
             <orgName>Coletoria de Bagé</orgName>
             <note>Instância local encarregada da arrecadação de impostos.</note>
         </org>
+        
+        <org xml:id="reparticao_fiscal">
+            <orgName>Repartição Fiscal</orgName>
+            <note>Órgão responsável pela fiscalização fluvial no Rio Uruguai.</note>
+        </org>
+        
+        <org xml:id="coletoria_alegrete">
+            <orgName>Coletoria da vila de Alegrete</orgName>
+            <note>Instância fiscal responsável pela arrecadação local.</note>
+        </org>
+        
+        <org xml:id="juiz_municipal">
+            <orgName>Juiz Municipal</orgName>
+            <note>Cargo judicial na administração local da República Rio-Grandense.</note>
+        </org>
     </listOrg>
 </standOff>

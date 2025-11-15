@@ -275,6 +275,65 @@
             <geo>-31.7800, -52.3500</geo>
             <note>Canal que liga a Lagoa dos Patos à Lagoa Mirim, situado em Pelotas (RS); ponto estratégico para circulação e operações militares no período farroupilha.</note>
         </place>
-
+        
+        <place xml:id="cerro_largo">
+            <placeName>Cerro Largo</placeName>
+            <note>Região do atual Uruguai, centro comercial ativo no período.</note>
+        </place>
+        
+        <place xml:id="santa_ana">
+            <placeName>Santa Ana</placeName>
+            <note>Localidade fronteiriça onde se faria a entrega dos novilhos.</note>
+        </place>
+        
+        <place xml:id="durazno">
+            <placeName>Durazno</placeName>
+            <geo>-33.3800, -56.5230</geo>
+            <note>Local da assinatura do acordo entre Rivera e Casas.</note>
+        </place>
+        
+        <place xml:id="costa_quarai">
+            <placeName>Costa de Quaraí</placeName>
+            <note>Região próxima ao Rio Quaraí, usada como ponto de entrega comercial e militar.</note>
+        </place>
+        
+        <place xml:id="rio_uruguai">
+            <placeName>Rio Uruguai</placeName>
+            <geo>-30.0, -58.0</geo>
+            <note>Rio que delimita parte da fronteira do Rio Grande do Sul, importante via de navegação.</note>
+        </place>
+        
+        <place xml:id="sao_fructuoso">
+            <placeName>São Fructuoso</placeName>
+            <geo>-31.7200, -55.9800</geo>
+            <note>Nome histórico da atual cidade de Tacuarembó, então capital do Departamento de Tacuarembó no Uruguai, importante centro administrativo e militar no século XIX.</note>
+        </place>
+        
+        <place xml:id="uruguai_regiao">
+            <placeName>Uruguai</placeName>
+            <note>Região jurisdicional relacionada à instalação de órgão fiscal.</note>
+        </place>
+        
+        <place xml:id="cruz_alta">
+            <placeName>Cruz Alta</placeName>
+            <geo>-28.6450, -53.6048</geo>
+            <note>Município rio-grandense onde se planejava estabelecer depósito de mulas.</note>
+        </place>
+        
+        <place xml:id="jacuizinho">
+            <placeName>Jacuizinho</placeName>
+            <note>Localidade mencionada como residência de Rodrigo Félix Martins.</note>
+        </place>
+        
+        <place xml:id="taquari">
+            <placeName>Taquari</placeName>
+            <geo>-29.7994, -51.8653</geo>
+            <note>Local da fábrica de ervas citada na carta.</note>
+        </place>
+        
+        <place xml:id="botucarai_serra">
+            <placeName>Serra de Botucaraí</placeName>
+            <note>Local onde funcionava a fábrica de carretas mencionada.</note>
+        </place>
     </listPlace>
 </standOff>
