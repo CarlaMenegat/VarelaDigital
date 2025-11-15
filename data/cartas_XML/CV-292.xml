@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-292 – Domingos José de Almeida para Joaquim dos Santos Prado Lima</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1839-03-15">15 de março de 1839</date>
+                    <orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>
+                    <orgName ref="#coletoria_alegrete_sao_borja">Coletoria Geral dos Municípios de Alegrete e São Borja</orgName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-292">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Do mercúrio e pós de Joanes que V.Sª. recebeu do conselheiro <persName ref="#antonio_manuel_correia_camara">Antônio Manuel Correia da Câmara</persName>, na primeira ocasião oportuna fará remessa de metade de cada coisa para o Trem de Guerra nesta capital, a fim de satisfazer-se as requisições que dessas drogas fazem os diversos capatazes de invernadas do estado.</p>
+                
+                <p>Deus guarde a V.Sª.. <orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 15 de março de 1839.</p>
+                
+                <closer>
+                    <signed>Domingos José de Almeida</signed>
+                </closer>
+                
+                <p>Ilmo. Sr. <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>, Coletor Geral dos Municípios de <placeName ref="#alegrete">Alegrete</placeName> e <placeName ref="#sao_borja">São Borja</placeName>.</p>
+                
+                <note type="endorsement">S. da R. [No verso]</note>
+                
+                <p>Ao cidadão <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>, Coletor Geral dos municípios de <placeName ref="#sao_borja">São Borja</placeName> e <placeName ref="#alegrete">Alegrete</placeName>. Do <orgName ref="#ministerio_fazenda">Ministério da Fazenda</orgName>.</p>
+                
+                <note type="endorsement">Março — 15 — 39. Almeida. [No verso]</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

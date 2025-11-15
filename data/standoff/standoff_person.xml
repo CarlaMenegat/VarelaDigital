@@ -922,4 +922,70 @@
         <persName>Manuel José Ferreira</persName>
         <note>Prisioneiro citado em investigação militar sobre tentativa de sedução de soldados.</note>
     </person>
+    
+    <person xml:id="antonio_silva_jardim">
+        <persName>Antônio da Silva Jardim</persName>
+        <note>Juiz Municipal e Chefe Geral de Polícia do município durante o período farroupilha.</note>
+    </person>
+    
+    <person xml:id="antonio_manuel_correia_camara">
+        <persName>Antônio Manuel Correia da Câmara</persName>
+        <note>Conselheiro citado como fornecedor de mercúrio e pós de Joanes.</note>
+    </person>
+
+    <person xml:id="jose_leandro">
+        <persName>José Leandro</persName>
+        <note>Indivíduo citado em disputa doméstica remetida ao Presidente do Estado.</note>
+    </person>
+    
+    <person xml:id="joaquim_jose_silva">
+        <persName>Joaquim José da Silva</persName>
+        <note>Coronel e morador do Departamento, contribuinte com oferta de gado.</note>
+    </person>
+    
+    <person xml:id="rolino_pereira_barros">
+        <persName>Rolino Pereira de Barros</persName>
+        <note>Cidadão do Departamento, doador de novilhos à administração farroupilha.</note>
+    </person>
+    
+    <person xml:id="napoleone_castellini">
+        <persName>Napoleone Castellini</persName>
+        <note>Negociante radicado em Montevidéu, frequentemente associado ao envio de gados e suprimentos.</note>
+    </person>
+    
+    <person xml:id="joao_bonifacio">
+        <persName>João Bonifácio</persName>
+        <note>Referência histórica mencionada como exemplo de medida política após a abdicação de D. Pedro I.</note>
+    </person>
+    
+    <person xml:id="coronel_crescencio">
+        <persName>Coronel Crescêncio</persName>
+        <note>Oficial militar farroupilha citado como comandante de divisão.</note>
+    </person>
+    
+    <person xml:id="assis">
+        <persName>Assis</persName>
+        <note>Destinatário de remessa financeira mencionada por Almeida.</note>
+    </person>
+    
+    <person xml:id="fructuoso_rivera">
+        <persName>Dom Fructuoso Rivera</persName>
+        <note>Líder político e militar uruguaio, chefe do Partido Colorado e figura central na Guerra Grande.</note>
+    </person>
+    
+    <person xml:id="matos">
+        <persName>Matos</persName>
+        <note>Indivíduo citado criticamente nas correspondências, envolvido em negociações com Rivera e Casas.</note>
+    </person>
+    
+    <person xml:id="casas">
+        <persName>Dom Antônio Casas</persName>
+        <note>Indivíduo acusado de irregularidades financeiras envolvendo fundos do Tesouro.</note>
+    </person>
+    
+    <person xml:id="vasco_amaro">
+        <persName>Vasco Amaro</persName>
+        <note>Coletor responsável por receber valores pagos por Antônio Casas.</note>
+    </person>
+
 </standOff>

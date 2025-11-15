@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-299 – Joaquim Pereira Fagundes para Serafim dos Anjos França</title>
+                <author>Joaquim Pereira Fagundes</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#joaquim_pereira_fagundes">Joaquim Pereira Fagundes</persName>
+                    <placeName ref="#bage">Bagé</placeName>
+                    <date when="1839-02-09">9 de fevereiro de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#serafim_anjos_franca">Serafim dos Anjos França</persName>
+                    <orgName ref="#tesouro">Tesouro Público Nacional</orgName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-299">
+                
+                <note type="heading">Para se ver com o grande — Antônio Casas</note>
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Junto envio a V.Sª. a cópia da ordem do Exmo. Sr. Presidente ordenando-me pague a <persName ref="#antonio_casas">Dom Antônio Casas</persName> a quantia de novecentos e quarenta e cinco pesos, cujos estão pagos, como consta do recibo passado em dita ordem; o que rogo a V.Sª. sirva-se levar ao conhecimento do <orgName ref="#tribunal_tesouro">Tribunal do Tesouro</orgName> para que este sirva-se mandar pagar-me pela <orgName ref="#coletoria_bage">Coletoria desta povoação</orgName>, sendo que tenha lugar.</p>
+                
+                <p>Deus guarde a V.Sª.. <placeName ref="#bage">Bagé</placeName>, 9 de fevereiro de 1839.</p>
+                
+                <closer>
+                    <signed>Joaquim Pereira Fagundes</signed>
+                </closer>
+                
+                <p>Ao cidadão <persName ref="#serafim_anjos_franca">Serafim dos Anjos França</persName>. Inspetor Geral do <orgName ref="#tesouro
+                                                                                                                                             ">Tesouro Público Nacional</orgName>.</p>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

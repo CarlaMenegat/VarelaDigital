@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-298 – Domingos José de Almeida e Bento Gonçalves da Silva para o Presidente do Estado</title>
+                <author>Domingos José de Almeida; Bento Gonçalves da Silva</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#bento_goncalves_silva">Presidente do Estado</persName>
+                </correspAction>
+                
+                <correspAction type="sent">
+                    <persName ref="#bento_goncalves_silva">Bento Gonçalves da Silva</persName>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#bento_goncalves_silva">Presidente do Estado</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-298">
+                
+                <opener>
+                    <salute>Meu Exmo. Presidente</salute>
+                </opener>
+                
+                <p>Já não me posso conter em silêncio. <persName ref="#matos">Matos</persName> tem desenvolvido coisas que ................. veja esses ofícios e cartas, e depois de combinar com as cartas anteriores do mesmo <persName ref="#matos">Matos</persName> diga-me que juízo se pode fazer de semelhante homem. O ladrão do <persName ref="#casas">Casas</persName> dizem-me que aí está. Pergunte-lhe pela esperteza dos 945 pesos que recebeu pelo <orgName ref="#tesouro">Tesouro</orgName> e por <persName ref="#joaquim_pereira_fagundes">Joaquim Pereira Fagundes</persName>. Este homem, se me vem falar, apanha na cara, para o que já me previno.</p>
+                
+                <closer>
+                    <p>De V.Exª.</p>
+                    <salute>Amigo e obrigado</salute>
+                    <signed>Almeida</signed>
+                </closer>
+                
+                <opener>
+                    <salute>Amigo e Sr.</salute>
+                </opener>
+                
+                <p>Com efeito estou igualmente abstrato com a intervenção de <persName ref="#matos">Matos</persName> no negócio de <persName ref="#casas">Casas</persName>, admitindo a <persName ref="#fructuoso_rivera">Rivera</persName> neste negócio, do qual <persName ref="#matos">Matos</persName> não tem a menor notícia. Contudo estou persuadido que <persName ref="#matos">Matos</persName> só teve em vistas, quando assim obrou, obter de <persName ref="#fructuoso_rivera">Rivera</persName> o armamento que me consta traz, pois ele bem sabe que não somos aqui seus ajudantes-de-ordens. Não se aflija meu amigo, ouça a <persName ref="#casas">Casas</persName> e obre o que for de justiça, e com a dignidade própria do seu costume.</p>
+                
+                <closer>
+                    <salute>Seu amigo</salute>
+                    <signed>B. G. Silva</signed>
+                </closer>
+                
+                <note type="endorsement">Exmo. Sr. Presidente do Estado. [No verso]</note>
+                <note type="endorsement">Sua residência.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

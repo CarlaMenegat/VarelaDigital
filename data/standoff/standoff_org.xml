@@ -85,5 +85,20 @@
             <orgName>Divisão da Direita</orgName>
             <note>Unidade militar farroupilha comandada por João Antônio da Silveira.</note>
         </org>
+        
+        <org xml:id="coletoria_alegrete_sao_borja">
+            <orgName>Coletoria Geral dos Municípios de Alegrete e São Borja</orgName>
+            <note>Órgão fiscal encarregado da arrecadação em dois municípios da fronteira.</note>
+        </org>
+        
+        <org xml:id="tribunal_tesouro">
+            <orgName>Tribunal do Tesouro</orgName>
+            <note>Órgão de supervisão financeira do governo farroupilha.</note>
+        </org>
+        
+        <org xml:id="coletoria_bage">
+            <orgName>Coletoria de Bagé</orgName>
+            <note>Instância local encarregada da arrecadação de impostos.</note>
+        </org>
     </listOrg>
 </standOff>

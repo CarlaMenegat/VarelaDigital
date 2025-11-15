@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-296 – Domingos José de Almeida e Bento Gonçalves da Silva para o Presidente do Estado</title>
+                <author>Domingos José de Almeida; Bento Gonçalves da Silva</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <date when="1839-03-27">27 de março de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#bento_goncalves_silva">Presidente do Estado</persName>
+                </correspAction>
+                
+                <correspAction type="sent">
+                    <persName ref="#bento_goncalves_silva">Bento Gonçalves da Silva</persName>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#bento_goncalves_silva">Presidente do Estado</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-296">
+                
+                <opener>
+                    <salute>Meu Exmo. Presidente</salute>
+                </opener>
+                
+                <p>O bom e compadecido coração de V.Exª. me obrigou a exarar o despacho, que verá no requerimento incluso, sem o consultar a respeito. A medida é necessária, senão indispensável. Lembre-se V.Exª, do caso de <persName ref="#joao_bonifacio">João Bonifácio</persName> e outros depois da abdicação; e se a uma nação constituída, como então estava o Brasil, precisa foi aquela providência, a nação rio-grandense, que se acha em luta na defesa de sua independência, com dobrado motivo assim o deverá fazer. Esta gente é tão atrevida quão descarada, e por isso se torna credora de ser tratada como convém à segurança do Estado, etc., etc., etc..</p>
+                
+                <p>V.Exª., depois de ver essas peças, me devolva para as mandar pôr em execução, etc....</p>
+                
+                <closer>
+                    <p>De V.Exª.</p>
+                    <salute>Amigo sincero e obrigado</salute>
+                    <signed>Almeida</signed>
+                    <date when="1839-03-27">S.C., 27 de março de 1839</date>
+                </closer>
+                
+                <opener>
+                    <salute>Amigo e senhor</salute>
+                </opener>
+                
+                <p>Muito me satisfaz o despacho do tal imperial. Quanto à ordem de ir escoltado, é igualmente boa, devendo, porém, o oficial encarregado não tocar onde se achar força alguma nossa, a fim de que ele não possa dar notícias de suas posições e número. Será bom igualmente que se lhe não consinta dirigir (desde o dia de sua saída) correspondência alguma sem ser vista, e assim as que receber; o oficial que o conduzir, que ao aproximar-se a Divisão do <persName ref="#coronel_crescencio">Coronel Crescêncio</persName> o detenha e consulte ao mesmo Coronel o lugar onde o deve fazer passar o <placeName ref="#sao_goncalo">São Gonçalo</placeName>, a fim de que sua passagem não cause algum transtorno às operações do mesmo coronel.</p>
+                
+                <closer>
+                    <salute>Seu amigo e patrício</salute>
+                    <signed>B. G. Silva</signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-293 – Domingos José de Almeida para Joaquim dos Santos Prado Lima</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1839-03-19">19 de março de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>
+                    <orgName ref="#policia_alegrete_fronteira">Chefia Geral de Polícia do Departamento e Fronteira de Alegrete</orgName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-293">
+                
+                <opener>
+                    <salute>Prezadíssimo Sr. Prado</salute>
+                </opener>
+                
+                <p>Devo resposta a muitos ofícios e cartas de V.Sª., porém é tal o serviço que com preferência sobre mim pesa, que só depois de concluído o poderei fazer. Esta serve de rogar-lhe a remessa do gado para <placeName ref="#montevideo">Montevidéu</placeName>, como do dinheiro que tiver apurado para esta, uma vez que estando na porta o pagamento das cédulas a fazer-se, não se pode demorar tais remessas.</p>
+                
+                <p>Releve esta lembrança e disponha do</p>
+                
+                <closer>
+                    <salute>Seu muito afetuoso e obrigado amigo</salute>
+                    <signed>Domingos José de Almeida</signed>
+                    <date when="1839-03-19">Caçapava, 19 de março de 1839</date>
+                </closer>
+                
+                <note type="endorsement">Março — 19 — 39. Almeida [No verso]</note>
+                
+                <p>Ilmo. Sr. <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>. Chefe Geral de Polícia do Departamento e Fronteira de <placeName ref="#alegrete">Alegrete</placeName>. De <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</p>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

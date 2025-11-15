@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-297 – Domingos José de Almeida e Bento Gonçalves da Silva para o Presidente do Estado</title>
+                <author>Domingos José de Almeida; Bento Gonçalves da Silva</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#bento_goncalves_silva">Presidente do Estado</persName>
+                </correspAction>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <date when="1839-03-31">31 de março de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#bento_goncalves_silva">Presidente do Estado</persName>
+                </correspAction>
+                
+                <correspAction type="sent">
+                    <persName ref="#bento_goncalves_silva">Bento Gonçalves da Silva</persName>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#bento_goncalves_silva">Presidente do Estado</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-297">
+                
+                <opener>
+                    <salute>Meu Exmo. e respeitável Presidente</salute>
+                </opener>
+                
+                <p>Como a V.Exª. fiz ver por carta dirigida ainda de <placeName ref="#piratini">Piratini</placeName> que mandava dispor em <placeName ref="#montevideo">Montevidéu</placeName> do resto dos meus escravos carneadores, para com sua importância mandar a <persName ref="#assis">Assis</persName> 2:000$000, a <persName ref="#zambeccari">Zambeccari</persName> 1:000$000, aos nossos prisioneiros 1:000$000, pagamento da Tipografia 3:852$800 de capital e prêmios vencidos até dezembro próximo passado, a <persName ref="#re">Ré</persName> 1:663$200 para pagamento de papel e remédios que lhe deve o Estado, a <persName ref="#deal">Deal</persName> 384$000 por conta do mesmo Estado, 480$ parte da importância dos remédios que para o mesmo Estado se comprou ao <persName ref="#dr_bocquin">Dr. Bocquin</persName>; agora participo também, que apesar de considerar tais escravos vendidos e distribuída sua importância, vou mandar hoje mesmo contra-ordem, não da venda dos escravos, porque conto com eles perdidos se <persName ref="#fructuoso_rivera">Fructo</persName> continua na opressão dos orientais, mas sim de seu produto, visto a direção que nossas coisas têm tomado há dias a esta parte.</p>
+                
+                <p>V.Exª. pois me releve este passo, que me é violento, porém indispensável. Diga-me também no que assentou acerca da remessa dos gados pois quero despachar as ordens acerca de várias tropas que se estão fazendo.</p>
+                
+                <closer>
+                    <p>De V. Exª.</p>
+                    <salute>Amigo sincero e obrigado</salute>
+                    <signed>Almeida</signed>
+                    <date when="1839-03-31">S.C., 31 de março de 1839</date>
+                </closer>
+                
+                <opener>
+                    <salute>Amigo e Sr.</salute>
+                </opener>
+                
+                <p>Fico imposto de quanto me expõe e não posso menos que louvar o passo que dá. Quanto à remessa dos gados eu não vejo outro meio de seguirem, senão pagando-se os direitos com os mesmos novilhos. Logo lá vou.</p>
+                
+                <closer>
+                    <salute>Seu amigo certo</salute>
+                    <signed>B. G. Silva</signed>
+                </closer>
+                
+                <note type="endorsement">Exmo. Sr. Presidente do Estado. [No verso]</note>
+                <note type="endorsement">Sua residência.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

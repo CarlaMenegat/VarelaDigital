@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-294 – Domingos José de Almeida e Bento Gonçalves da Silva para o Presidente do Estado</title>
+                <author>Domingos José de Almeida; Bento Gonçalves da Silva</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <!-- PRIMEIRA CORRESPONDÊNCIA: ALMEIDA -->
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <date when="1839-03-20">20 de março de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#bento_goncalves_silva">Bento Gonçalves da Silva</persName>
+                </correspAction>
+                
+                <!-- SEGUNDA CORRESPONDÊNCIA: BENTO GONÇALVES -->
+                <correspAction type="sent">
+                    <persName ref="#bento_goncalves_silva">Bento Gonçalves da Silva</persName>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-294">
+                
+                <!-- Parte de Domingos José de Almeida -->
+                <opener>
+                    <salute>Meu Exmo. Presidente</salute>
+                </opener>
+                
+                <p>Acabo de falar a <persName ref="#jose_leandro">José Leandro</persName> acerca do negócio em que V. Exª. se interessa, e ele insiste em nada anuir acerca do recebimento da mulher, pedindo-me insistentemente para ordenar a tirada dos filhos. Diga-me V.Exª. o que devo fazer a tal respeito.</p>
+                
+                <closer>
+                    <p>De V.Exª.</p>
+                    <salute>Amigo o mais obrigado</salute>
+                    <signed>Almeida</signed>
+                    <date when="1839-03-20">Casa, 20 de março de 1839</date>
+                </closer>
+                
+                <!-- Parte de Bento Gonçalves -->
+                <opener>
+                    <salute>Amigo e senhor</salute>
+                </opener>
+                
+                <p>Visto o <persName ref="#jose_leandro">Leandro</persName> instar em separar-se da mulher, forçoso é seguir-se os trâmites da lei. V. Exª., melhor do que eu, sabe a direção que deve dar ao negócio, pois me parece que a mulher não deve ser excluída de ser ouvida. Sou seu amigo.</p>
+                
+                <closer>
+                    <signed>B. G. Silva</signed>
+                </closer>
+                
+                <note type="endorsement">Exmo. Sr. Presidente do Estado. [No verso]</note>
+                <note type="endorsement">Com resposta. Em sua residência.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

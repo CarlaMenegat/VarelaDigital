@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-290 – Domingos José de Almeida para Antônio da Silva Jardim</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1839-03-01">1.º de março de 1839</date>
+                    <orgName ref="#secretaria_fazenda">Secretaria do Estado dos Negócios da Fazenda</orgName>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#antonio_silva_jardim">Antônio da Silva Jardim</persName>
+                    <orgName ref="#policia_municipio">Polícia Municipal</orgName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-290">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Manda o Exmo. Sr. Presidente do Estado que V.Sª., sem perda de tempo, determine aos comandantes de polícia seus subordinados que, nos seus respectivos distritos, passem a recrutar sem demora todos os potros e mulas das propriedades dos inimigos da república que se acham arroladas, para serem arrendadas como dispõe o decreto de 11 de novembro de 1836, cujos animais remeterão para o lugar que V.Sª. lhes indicar, e deve ser o rincão mais atacado que existir no município, para dele se enviar às divisões do exército aquelas porções que convier.</p>
+                
+                <p>Além de tais animais, V.Sª. determinará aos comandantes citados que todos os potros capazes de se domarem pertencentes aos criadores de seus distritos façam juntamente apartar e seguir ao mesmo destino que para aqueles indico, passando a seus proprietários os competentes documentos, para em tempo idôneo serem satisfeitos de suas importâncias.</p>
+                
+                <p>O cuidado, a marcha de todos animais a que me refiro, V.Sª. deverá encarregar a um homem de reconhecida inteligência e probidade a quem fornecerá os peães necessários para tal fim. De todas as dificuldades que encontrar na pronta execução desta ordem V.Sª. me avisará para serem removidas com a presteza que o caso exigir.</p>
+                
+                <p>Deus guarde a V.Sª. <orgName ref="#secretaria_fazenda">Secretaria do Estado dos Negócios da Fazenda</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 1.º de março de 1839.</p>
+                
+                <closer>
+                    <signed>Domingos José de Almeida</signed>
+                </closer>
+                
+                <p>Ilmo. Sr. <persName ref="#antonio_silva_jardim">Antônio da Silva Jardim</persName>, Juiz Municipal e Chefe Geral de Polícia deste Município.</p>
+                
+                <note type="endorsement">[Cópia]</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

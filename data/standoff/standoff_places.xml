@@ -263,6 +263,18 @@
             <geo>-30.5144, -53.4827</geo>
             <note>Município de atuação militar e administrativa durante a Revolução Farroupilha.</note>
         </place>
+        
+        <place xml:id="sao_borja">
+            <placeName>São Borja</placeName>
+            <geo>-28.6600, -56.0036</geo>
+            <note>Um dos mais antigos municípios do RS, com relevância administrativa no período.</note>
+        </place>
+        
+        <place xml:id="sao_goncalo">
+            <placeName>Canal do São Gonçalo</placeName>
+            <geo>-31.7800, -52.3500</geo>
+            <note>Canal que liga a Lagoa dos Patos à Lagoa Mirim, situado em Pelotas (RS); ponto estratégico para circulação e operações militares no período farroupilha.</note>
+        </place>
 
     </listPlace>
 </standOff>
