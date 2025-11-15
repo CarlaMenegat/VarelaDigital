@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-288 – Domingos José de Almeida e Bento Gonçalves da Silva para o Presidente do Estado</title>
+                <author>Domingos José de Almeida; Bento Gonçalves da Silva</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <date when="1839-02-25">25 de fevereiro de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#bento_goncalves_silva">Bento Gonçalves da Silva</persName>
+                </correspAction>
+                
+                <!-- SEGUNDA CORRESPONDÊNCIA: BENTO GONÇALVES → PRESIDENTE -->
+                <correspAction type="sent">
+                    <persName ref="#bento_goncalves_silva">Bento Gonçalves da Silva</persName>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-288">
+                
+                <!-- Primeira parte (Almeida) -->
+                <opener>
+                    <salute>Meu Exmo. Presidente e respeitável amigo</salute>
+                </opener>
+                
+                <p>Parece-me de justiça o que se pede no requerimento incluso; mas V.Exª. me dirá o que devo fazer a respeito.</p>
+                
+                <closer>
+                    <p>De V. Exª.</p>
+                    <salute>Amigo fiel e obrigado</salute>
+                    <signed>Almeida</signed>
+                    <date when="1839-02-25">Casa, 25 de fevereiro de 1839</date>
+                </closer>
+                
+                <!-- Segunda parte (B. G. Silva) -->
+                <opener>
+                    <salute>Amigo e senhor</salute>
+                </opener>
+                
+                <p>Acho justo que se admita a justificação que quer dar essa senhora, a quem já anui há dias; porém sei que o marido é acérrimo inimigo de nossa independência e me consta que ele passou uma fiança de certa quantia para não empunhar armas ou prestar serviços aos galegos.</p>
+                
+                <p>Portanto, forçoso é remeter-se o negócio ao juiz de paz de <placeName ref="#sao_gabriel">São Gabriel</placeName> <note type="endorsement">[1v.]</note> para que este, sendo verdade o que ela alega, suspenda o embargo ou sequestro enquanto ela justifica; mas no caso de assim o não fazer, devem sentar praça os escravos e na forma da fiança (se é que a tem) fazê-la efetiva.</p>
+                
+                <closer>
+                    <salute>Seu amigo</salute>
+                    <signed>B. G. Silva</signed>
+                </closer>
+                
+                <note type="endorsement">Exmo. Sr. Presidente do Estado. [No verso]</note>
+                <note type="endorsement">Sua Casa.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

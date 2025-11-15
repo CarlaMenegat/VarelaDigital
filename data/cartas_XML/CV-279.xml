@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-279 – Sobre rendimentos da Coletoria de São Gabriel e tropas de gado</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III (1941).</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1839-01-09">9 de janeiro de 1839</date>
+                </correspAction>
+                
+                <!-- Destinatário identificado -->
+                <correspAction type="received">
+                    <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <div type="carta" xml:id="CV-279">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                    <dateline>
+                        <placeName ref="#piratini">Piratini</placeName>,
+                        <date when="1839-01-09">9 de janeiro de 1839</date>.
+                    </dateline>
+                </opener>
+                
+                <p>
+                    Por virtude de seu ofício de 4 do corrente que ontem à noite recebi,
+                    junta tem V.Sª. a ordem que exigiu para ter à sua disposição todos os
+                    rendimentos da Coletoria de <placeName ref="#sao_gabriel">São Gabriel</placeName>.
+                    Por esta ocasião rogo a V.Sª. me dispense o Major Joaquim de Faria Correia
+                    ou o Major Manuel Pires para encarregar-se da fatura e remessa das
+                    tropas de gado de corte que daquele distrito têm de sair para
+                    <placeName ref="#montevideo">Montevidéu</placeName>, provenientes do empréstimo que promovi e do dom
+                    gratuito que voluntariamente vários cidadãos têm oferecido para as
+                    despesas da presente luta de nossa independência; para o que
+                    dirijo os ofícios juntos que V.Sª. fará seguir sem perda de momento.
+                </p>
+                
+                <closer>
+                    <salute>Deus guarde a V.Sª.</salute>
+                    <signed>
+                        <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    </signed>
+                </closer>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

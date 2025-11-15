@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-278 – Sobre professor de primeiras letras em São Gabriel</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III (1941).</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1839-01-09">9 de janeiro de 1839</date>
+                </correspAction>
+                
+            </correspDesc>
+            
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <div type="carta" xml:id="CV-278">
+                
+                <opener>
+                    <salute>Meu distinto coronel e respeitável amigo</salute>
+                    <dateline>
+                        <placeName ref="#piratini">Piratini</placeName>,
+                        <date when="1839-01-09">9 de janeiro de 1839</date>.
+                    </dateline>
+                </opener>
+                
+                <p>
+                    Não querendo tomar um arbítrio acerca do professor de primeiras letras
+                    de <placeName ref="#sao_gabriel">São Gabriel</placeName>
+                    sem consultar a V.Sª., lhe dirijo a presente.
+                    V.Sª. é pai e, além disso, estou que perfeitamente conhece o quanto
+                    influe nos costumes das nações a instrução e educação de sua mocidade.
+                    A nossa se vê em total abandono, e se não reparamos de pronto esse mal
+                    certamente nossos vindouros nos lançarão em rosto esse crime.
+                </p>
+                
+                <p>
+                    O seu secretário deve necessariamente fazer-lhe falta, mas o ministério
+                    para que foi encarregado se acha vago por não ser conforme com a justiça
+                    provê-lo enquanto o proprietário aí for empregado. Estou que lhe não
+                    falecerá patriotismo e que, a querer segurar seu emprego, deve ele
+                    mesmo meter outro em seu lugar, ou renunciá-lo para depois ser
+                    empregado em coisa melhor.
+                </p>
+                
+                <p>
+                    Diga-me V.Sª., a respeito e com franqueza, o que acerca de tal assunto
+                    se oferecer, dispondo como lhe parecer da vontade do
+                </p>
+                
+                <closer>
+                    <signed>
+                        <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    </signed>
+                </closer>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

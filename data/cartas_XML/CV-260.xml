@@ -5,7 +5,7 @@
         
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-258 – Circular sobre apreensão e venda de couros exportados sem guia</title>
+                <title>Carta CV-260 – Entrega de couros de munício</title>
                 <author>Domingos José de Almeida</author>
             </titleStmt>
             
@@ -19,29 +19,25 @@
             <sourceDesc>
                 <bibl>
                     Anais do Arquivo Histórico do Rio Grande do Sul, vol. III (1941).
-                    <note>Documento impresso.</note>
                 </bibl>
             </sourceDesc>
-            
         </fileDesc>
         
-        
         <profileDesc>
-            
             <correspDesc>
                 
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     <placeName ref="#piratini">Piratini</placeName>
-                    <date when="1838-10-05">5 de outubro de 1838</date>
+                    <date when="1838-10-18">18 de outubro de 1838</date>
                 </correspAction>
                 
                 <correspAction type="received">
-                    <orgName>Autoridades mencionadas no Artigo 47 do Regulamento das Coletorias</orgName>
+                    <persName ref="#joao_antonio_silveira">João Antônio de Silveira</persName>
+                    <note>Coronel e Comandante da Divisão da Direita.</note>
                 </correspAction>
                 
             </correspDesc>
-            
         </profileDesc>
         
     </teiHeader>
@@ -50,42 +46,32 @@
     <text>
         <body>
             
-            <div type="circular" xml:id="CV-258">
-                
-                <head>Circular</head>
+            <div type="oficio" xml:id="CV-260">
                 
                 <dateline>
                     <placeName ref="#piratini">Piratini</placeName>,
-                    <date when="1838-10-05">5 de outubro de 1838</date>.
+                    <date when="1838-10-18">18 de outubro de 1838</date>.
                 </dateline>
                 
-                <p>
-                    As autoridades de que faz menção o Artigo 47 do Regulamento
-                    das Coletorias do Estado, mandado executar por Decreto de 14 de
-                    agosto próximo passado, determina o Governo que de ora em diante
-                    todos os couros que se exportarem sem guia dos donos das marcas,
-                    na qual declarem a venda deles ao exportador, ou dos Comandantes
-                    de forças do Exército e Chefes de Polícia da República, com rubrica,
-                    a daqueles dos Comandantes das Brigadas ou Divisões, caso provenham
-                    de consumo, sejam por elas apreendidos, sequestrados e vendidos em
-                    hasta pública a quem mais der na Coletoria do Distrito em que tiver
-                    lugar a dita apreensão.
-                </p>
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
                 
                 <p>
-                    O produto dos couros apreendidos e assim dispostos será separado
-                    em duas partes iguais, uma para o apreensor ou apreensores, que será
-                    imediatamente entregue, e outra para o Cofre Nacional, como dispõe
-                    o Artigo 42 do regulamento citado: o que cumprirão.
+                    Acuso a recepção de seu ofício de 17 do corrente mês, e de seu
+                    conteúdo fico inteirado. Caso V.S.ª se demore por esse ponto, e
+                    possa dispensar os couros de munício, pode mandá-los entregar ao
+                    Capitão <persName ref="#joaquim_pereira_fagundes">Joaquim Pereira Fagundes</persName>,
+                    Chefe Geral da Polícia desse Departamento, a fim de ocorrerem ao
+                    pagamento de fazendas que ultimamente se compraram para o exército.
                 </p>
                 
                 <closer>
+                    <salute>Deus guarde a V.S.ª.</salute>
                     <signed>
                         <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     </signed>
                 </closer>
-                
-                <note>Impresso.</note>
                 
             </div>
             

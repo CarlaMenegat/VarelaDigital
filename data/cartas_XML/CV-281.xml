@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-281 – Sobre ordens transmitidas e compras de fazendas</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III (1941).</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1839-01-19">19 de janeiro de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <div type="carta" xml:id="CV-281">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>
+                    Acusando a recepção dos ofícios que V.Sª. me endereçou a
+                    14 e 15 do corrente, cumpre-me em resposta dizer-lhe, quanto ao
+                    primeiro, que fico certo de ter V.Sª. recebido e enviado meus
+                    ofícios ao Major Faria, a quem determinava o cumprimento das
+                    ordens que neles transmitia, e quanto ao segundo, com as ordens
+                    a <persName ref="#rafael_teixeira_marins">Rafael Teixeira Marins</persName> e ao
+                    <persName ref="#joaquim_gomes_araujo">Capitão Joaquim Gomes de Araújo</persName>
+                    fica satisfeita a sua requisição acerca das fazendas a este último
+                    compradas.
+                </p>
+                
+                <closer>
+                    <salute>Deus guarde a V.Sª.</salute>
+                    <dateline>
+                        <placeName ref="#piratini">Piratini</placeName>,
+                        <date when="1839-01-19">19 de janeiro de 1839</date>.
+                    </dateline>
+                    <signed>
+                        <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    </signed>
+                </closer>
+                
+                <opener>
+                    <salute>Ilmo. Sr. Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</salute>
+                    <seg>Digno Comandante da Divisão da Direita.</seg>
+                </opener>
+                
+                <p>
+                    Vai a ordem para dar-se ao médico de Alegrete os 200 patacões que
+                    V.Sª. para ele exigiu.
+                </p>
+                
+                <signed>(a) Almeida.</signed>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

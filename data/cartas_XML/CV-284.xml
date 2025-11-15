@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Carta CV-284 – Entrega de gado para pagamento a Ramírez</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III (1941).</bibl>
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <profileDesc>
+            
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1839-01-22">22 de janeiro de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#joaquim_prado_lima">Joaquim dos Santos Prado Lima</persName>
+                </correspAction>
+                
+            </correspDesc>
+            
+        </profileDesc>
+        
+    </teiHeader>
+    
+    
+    <text>
+        <body>
+            
+            <div type="letter" xml:id="CV-284">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>
+                    Manda o Governo que V.Sª., de acordo com o 
+                    <persName ref="#guedes">Tenente-coronel Guedes</persName> e a 
+                    pessoa competentemente autorizada por 
+                    <persName ref="#joao_pedro_ramirez">João Pedro Ramirez</persName>, 
+                    faça entregar a porção de gado de corte e de criar que lhe seja 
+                    possível apartar das fazendas dos inimigos da República, a fim 
+                    de ser embolsado o dito Ramirez, como convém, da importância 
+                    de gêneros com que forneceu para o exército; e por cujo motivo 
+                    muito lhe recomenda a entrega a que me refiro, e pelo menos de 
+                    4 a 5 mil reses.
+                </p>
+                
+                <p>
+                    No recibo a exigir quando se entregue o gado, deve mandar 
+                    classificar o número de novilhos gordos e magros, o número de 
+                    vacas gordas e magras, o número dos touros de conta e 
+                    finalmente o número de gado de criar, porque todas estas 
+                    classes têm preço diferente.
+                </p>
+                
+                <closer>
+                    <salute>Deus guarde a V.Sª.</salute>
+                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                    <dateline>
+                        <placeName ref="#piratini">Piratini</placeName>,
+                        <date when="1839-01-22">22 de janeiro de 1839</date>.
+                    </dateline>
+                </closer>
+                
+                <note type="verso">
+                    Ilmo. Sr. Joaquim dos Santos Prado Lima, Comandante Geral de 
+                    Polícia do Município de <placeName ref="#alegrete">Alegrete</placeName>.
+                </note>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

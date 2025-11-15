@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-269 – Sobre recibos de couros e acertos de contas</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III (1941).</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1838-11-21">21 de novembro de 1838</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#manuel_martins_barroso">
+                        Manuel Martins Barroso
+                    </persName>
+                    <note>Contador Geral do Tesouro.</note>
+                </correspAction>
+                
+            </correspDesc>
+            
+        </profileDesc>
+        
+    </teiHeader>
+    
+    
+    <text>
+        <body>
+            
+            <div type="carta" xml:id="CV-269">
+                
+                <opener>
+                    <dateline>
+                        <placeName ref="#piratini">Piratini</placeName>,
+                        <date when="1838-11-21">21 de novembro de 1838</date>.
+                    </dateline>
+                    <salute>Amigo Sr. Barroso</salute>
+                </opener>
+                
+                <p>
+                    Entre os meus papéis antigos, que por acaso ontem revi, dei com
+                    o recibo junto, pelo qual vejo dever o Estado a Teodolindo
+                    unicamente 344 couros, que a 960 réis cada um produzem
+                    Rs. 330$240, e não 426$240 de que trata o documento que se
+                    lhe passou, e me foi apresentado para lhe mandar dar outros
+                    couros.
+                </p>
+                
+                <p>
+                    Haja pois de ver isto, e dizer-me se eu é que estou enganado.
+                    A conta do mesmo antes de ser decidida pelo Tribunal quero ser
+                    ouvido, etc., etc., etc…
+                </p>
+                
+                <p>
+                    Faça-me o favor de dar a relação dos livros que supri para o
+                    Tribunal a fim de arranjar de uma vez esses documentos, etc…
+                </p>
+                
+                <closer>
+                    <salute>Seu obrigado e afetuoso amigo</salute>
+                    <signed>
+                        <persName ref="#domingos_jose_almeida">Almeida</persName>
+                    </signed>
+                </closer>
+                
+                <p>
+                    <salute>Exmo. Amigo</salute>
+                </p>
+                
+                <p>
+                    O documento que Farinha apresentou passado por José Jerônimo
+                    mostra ter entregado àquele 556 couros e não 656. Há de erro
+                    contra a Fazenda, segundo recibo que agora aparece, de 96$000 rs.,
+                    proveniente dos 100 couros da diferença nos documentos; porém
+                    a conta à vista dos documentos aqui existentes está certa.
+                </p>
+                
+                <closer>
+                    <salute>Seu obrigado e afetuoso amigo</salute>
+                    <signed>
+                        <persName ref="#manuel_martins_barroso">Barroso</persName>
+                    </signed>
+                </closer>
+                
+                <note type="verso">
+                    Endereçado a Manuel Martins Barroso, Contador Geral do Tesouro.
+                    Indicação: “Em mão”. Marcado como “Respondida”.
+                </note>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

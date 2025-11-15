@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-283 – Sobre o mestre de primeiras letras de São Gabriel</title>
+                <author><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III (1941).</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1839-01-19">19 de janeiro de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName>Coronel não identificado</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <div type="letter" xml:id="CV-283">
+                
+                <opener>
+                    <salute>Meu estimadíssimo coronel e respeitável amigo</salute>
+                </opener>
+                
+                <p>
+                    Continuo na minha teima acerca do mestre de primeiras letras
+                    de <placeName ref="#sao_gabriel">São Gabriel</placeName>, ora secretário de V.Sª.. Não é pelo ordenado que
+                    vence, mas sim para não parar o ensino de nossa mocidade; pode
+                    ele ficar com o mesmo ordenado de mestre, mas há de permitir
+                    que se nomeie outro para aquela cadeira, e ver outra depois de con-
+                    cluída nossa presente demanda. Era isto o que tinha vontade dizer
+                    e me temia se escandalizasse; V.Sª. pois resolva este negócio, que
+                    eu estou por tudo sendo que nossa mocidade não tenha o depois
+                    motivos de queixar-se da presente administração.
+                </p>
+                
+                <p>
+                    Aqui tem V.Sª. a cópia da que dirigi ao Ilmo. Sr. seu mano, por
+                    considerar a V.Sª., quando a dirigi, no Estado vizinho; a falta de
+                    outros recursos me obrigou àquele arbítrio, o qual, se for contra a
+                    sua vontade, terá a bondade mandar suspender, e isto com toda
+                    a franqueza. A pressa nada mais me permite.
+                </p>
+                
+                <closer>
+                    <salute>De V.Sª.,</salute>
+                    <salute>Amigo o mais afetuoso e obrigado</salute>
+                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                    <dateline>
+                        <placeName ref="#piratini">Piratini</placeName>,
+                        <date when="1839-01-19">19 de janeiro de 1839</date>.
+                    </dateline>
+                </closer>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

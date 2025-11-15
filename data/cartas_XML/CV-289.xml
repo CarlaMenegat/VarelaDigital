@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-289 – Domingos José de Almeida para João Antônio da Silveira</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1839-02-28">28 de fevereiro de 1839</date>
+                    <orgName ref="#secretaria_justica">Secretaria de Estado dos Negócios da Justiça</orgName>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
+                    <orgName ref="#divisao_direita">Divisão da Direita</orgName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-289">
+                
+                <head>Reservado</head>
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>A bem de serviço do Estado cumpre que os senhores Prados, oficiais da distinta Divisão ao marido de V.Sª., me digam, por escrito e por este próprio, se com efeito o preso <persName ref="#manuel_jose_ferreira">Manuel José Ferreira</persName> há tentado a sedução de soldados, que me dizem eles asseveram a pessoas nesta residentes.</p>
+                
+                <p>Deus guarde a V.Sª., <orgName ref="#secretaria_justica">Secretaria de Estado dos Negócios da Justiça</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 28 de fevereiro de 1839.</p>
+                
+                <closer>
+                    <signed>Domingos José de Almeida</signed>
+                </closer>
+                
+                <p>Ilmo. Sr. Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>, Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</p>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

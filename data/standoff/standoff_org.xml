@@ -75,5 +75,15 @@
             <orgName>Jornal Oficial da República Rio-Grandense</orgName>
             <note>Periódico criado pelo governo farroupilha para divulgação de atos oficiais.</note>
         </org>
+        
+        <org xml:id="policia_alegrete">
+            <orgName>Comando Geral de Polícia de Alegrete</orgName>
+            <note>Autoridade policial local durante o período farroupilha.</note>
+        </org>
+        
+        <org xml:id="divisao_direita">
+            <orgName>Divisão da Direita</orgName>
+            <note>Unidade militar farroupilha comandada por João Antônio da Silveira.</note>
+        </org>
     </listOrg>
 </standOff>

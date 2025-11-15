@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-274 – Domingos José de Almeida ao Coronel João Antônio da Silveira</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III (1941).</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1838-12-12">12 de dezembro de 1838</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>
+                </correspAction>
+                
+            </correspDesc>
+            
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <div type="carta" xml:id="CV-274">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                    <dateline>
+                        <placeName ref="#piratini">Piratini</placeName>,
+                        <date when="1838-12-12">12 de dezembro de 1838</date>.
+                    </dateline>
+                </opener>
+                
+                <p>
+                    Pelo Tribunal do Tesouro, como hoje se há determinado por esta
+                    Repartição, se expedirão as ordens para que o Coletor de Bagé
+                    aceite todos os saques por V.Sª. contra ele feitos para pagamento
+                    dos cavalos cuja compra se lhe há encarregado; e quanto ao gado
+                    para a troca de cavalos nessa espécie determinada, podem ser tirados
+                    da <placeName ref="#fazenda_musica">Fazenda da Música</placeName>,
+                    e todas as quantias não arrematadas ainda e compreendidas no
+                    disposto dos Decretos de 11 de novembro de 1836 e abril de 1837:
+                    o que lhe comunico para sua inteligência e em resposta ao seu
+                    ofício de 3 do corrente.
+                </p>
+                
+                <closer>
+                    <salute>Deus guarde a V.Sª.</salute>
+                    <signed>
+                        <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    </signed>
+                </closer>
+                
+                <note type="verso">
+                    Destinatário: Coronel João Antônio da Silveira, Comandante da Divisão da Direita.
+                </note>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

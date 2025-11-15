@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Carta CV-275 – Demissão de Domingos José de Almeida</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III (1941).</bibl>
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <profileDesc>
+            
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1838-12-14">14 de dezembro de 1838</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#bento_goncalves">Bento Gonçalves da Silva</persName>
+                </correspAction>
+                
+            </correspDesc>
+            
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <div type="carta" xml:id="CV-275">
+                
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <dateline>
+                        <placeName ref="#piratini">Piratini</placeName>,
+                        <date when="1838-12-14">14 de dezembro de 1838</date>.
+                    </dateline>
+                </opener>
+                
+                <p>
+                    Por amizade a V.Exª., mas por vinte dias somente, segunda vez tomei parte
+                    no Governo da República, e para não parar-me ocioso nesse curto tempo dei
+                    o impulso que é dado à parte da Administração que me foi confiada. Estabeleci
+                    o Tesouro, organizei as Coletorias e coligi um método de arrecadação para ter
+                    o Estado um rendimento qualquer para acorrer às suas precisões.
+                </p>
+                
+                <p>
+                    A par disto coadjuvei com todas as minhas forças o regate da cancerosa moeda
+                    de cobre, redigindo a lei a respeito, que o desonra a República. A instrução da
+                    mocidade, o incremento da indústria e outros trabalhos úteis me não foram
+                    esquecidos. A sorte de nossos concidadãos do exército mereceu toda a minha
+                    atenção e o periódico do Governo não deixou também de roubar-me o tempo.
+                </p>
+                
+                <p>
+                    Apesar porém de tantas vigílias e incômodos, meus serviços não têm
+                    correspondido à expectativa, e uma oposição sistemática particularmente da
+                    parte do Tesouro, assaz me tem convencido que devo deixar o lugar para quem
+                    melhor o desempenhe. Assim o faço pois remetendo pela Secretaria da Guerra
+                    para ser presente a V.Ex.ª minha demissão.
+                </p>
+                
+                <p>
+                    Nem estes foram só os motivos que a tanto me forçaram: a falta de meios para
+                    minha subsistência e de minha família, não querendo ser pesado à Nação em
+                    coisa alguma, coopera também para este passo inevitável. Sinto não poder por
+                    mais tempo acompanhar a V.Exª. em seus trabalhos: mas cumpre confessá-lo, não
+                    posso já resistir à inepta oposição que de muito mina as bases do governo.
+                    Se meus serviços forem úteis ao exército com gosto os prestarei ainda.
+                </p>
+                
+                <closer>
+                    <salute>Deus guarde a V.Ex.ª como a Pátria é mister.</salute>
+                    <signed>
+                        De V.Ex.ª, amigo o mais obrigado,<br/>
+                        <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    </signed>
+                </closer>
+                
+                <note type="verso">
+                    Destinatário: Ilmo. e Exmo. Sr. General Bento Gonçalves da Silva,
+                    Presidente do Estado.
+                </note>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

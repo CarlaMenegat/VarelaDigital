@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-265 – Sobre retirada de barricas de farinha da praça</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III (1941).</bibl>
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <profileDesc>
+            
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1838-11-09">9 de novembro de 1838</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#inacio_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                </correspAction>
+                
+            </correspDesc>
+            
+        </profileDesc>
+        
+    </teiHeader>
+    
+    
+    
+    <text>
+        <body>
+            
+            <div type="letter" xml:id="CV-265">
+                
+                <opener>
+                    <salute>Meu bom amigo e Sr.</salute>
+                </opener>
+                
+                <p>
+                    Não podendo retirar do preço da praça objeto algum pertencente
+                    à presa, vai uma ordem para V.S.ª tirar as barricas de farinha
+                    que lhe forem mister, sujeitando-se ao que estas derem na
+                    referida praça. Pacheco cuidará que tem de pagar as que tirou
+                    pelo preço que arbitrou, mas acha-se enganado. De propósito
+                    lhe não tenho contestado acerca do ............, etc., etc..
+                    Sempre ando com pressas, dirá V.S.ª, mas acredite que burro
+                    algum ainda carregou tanta carga como a que ora pesa sobre mim.
+                    E que fazer quando se serve à causa e aos amigos? De repente
+                    arrebento, mas enquanto há forças — cara alegre — como dizem.
+                    Adeus meu amigo. Dê a <persName ref="#inacio_oliveira_guimaraes">Inácio</persName>
+                    os 40$rs. das assinaturas, e mande ao
+                </p>
+                
+                <closer>
+                    <salute>Seu sincero e obrigado amigo</salute>
+                    <signed>
+                        <persName ref="#domingos_jose_almeida">Almeida</persName>
+                    </signed>
+                    <dateline>
+                        <placeName ref="#piratini">Piratini</placeName>,
+                        <date when="1838-11-09">9 de novembro de 1838</date>.
+                    </dateline>
+                </closer>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

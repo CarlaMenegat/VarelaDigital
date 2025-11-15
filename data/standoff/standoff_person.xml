@@ -661,8 +661,8 @@
         </person>
         
         <person xml:id="quincoze">
-            <persName>Quincoze</persName>
-            <note>Destinatário da carta; indivíduo mencionado por Almeida.</note>
+            <persName>Carlos Fernandez de Quincoze</persName>
+            <note>Cidadão que manteve relações financeiras e correspondência direta com Domingos José de Almeida, possivelmente ligado ao comércio local.</note>
         </person>
         
         <person xml:id="forte_gatto">
@@ -672,7 +672,7 @@
         
         <person xml:id="joaquim_prado_lima">
             <persName>Joaquim dos Santos Prado Lima</persName>
-            <note>Comandante Geral da Polícia do Município e Fronteira de Alegrete.</note>
+            <note>Chefe de Polícia do Departamento de Alegrete; também Comandante Geral de Polícia do Departamento e Fronteira de Alegrete.</note>
         </person>
         
         <person xml:id="jose_antonio_silva">
@@ -787,6 +787,139 @@
             <persName>V. S. da Cunha Filho</persName>
             <note>Revisor que certifica a conformidade do documento.</note>
         </person>
-
+        
+        <person xml:id="manuel_silva_pacheco">
+            <persName>Manuel da Silva Pacheco</persName>
+            <note>Juiz de Paz de São João.</note>
+        </person>
+        
+        <person xml:id="francisco_antonio_machado">
+            <persName>Francisco Antônio Machado</persName>
+            <note>Cidadão encarregado do transporte dos efeitos apresados.</note>
+        </person>
+        
+        <person xml:id="antonia_gonçalves_silva">
+            <persName>D. Antônia</persName>
+            <note>Irmã de Bento Gonçalves. Proprietária de armazéns na Barra de Camaquã.</note>
+        </person>
+        
+        <place xml:id="sao_joao">
+            <placeName>São João</placeName>
+            <note>Freguesia citada no documento; identificação precisa ainda não determinada.</note>
+        </place>
+        
+        <place xml:id="passo_mendonca">
+            <placeName>Passo do Mendonça</placeName>
+            <note>Local tradicionalmente referido nas rotas da região do Camaquã; coordenadas não determinadas.</note>
+        </place>
+        
+        <place xml:id="barra_camaqua">
+            <placeName>Barra de Camaquã</placeName>
+            <geo>-31.3317, -51.9627</geo>
+            <note>Localidade próxima ao encontro do rio Camaquã com a Laguna dos Patos.</note>
+        </place>
+        
+        <person xml:id="joaquim_pereira_fagundes">
+            <persName>Joaquim Pereira Fagundes</persName>
+            <note>Capitão e Chefe Geral da Polícia do Departamento do Boqueirão.</note>
+        </person>
+        
+        <person xml:id="joao_antonio_silveira">
+            <persName>João Antônio de Silveira</persName>
+            <note>Coronel e Comandante da Divisão da Direita da República Rio-Grandense.</note>
+        </person>
+        
+        <person xml:id="antonio_jose_bonilha">
+            <persName>Antônio José Bonilha</persName>
+            <note>Cidadão encarregado de transportar farinha apreendida na sumaca “Mineira”.</note>
+        </person>
+        
+        <person xml:id="manuel_martins_barroso">
+            <persName>Manuel Martins Barroso</persName>
+            <note>Contador Geral do Tesouro da República Rio-Grandense.</note>
+        </person>
     </listPerson>
+    
+    <person xml:id="luis_rossetti">
+        <persName>Luís Rossetti</persName>
+        <note>Tenente italiano e redator do jornal oficial da República Rio-Grandense.</note>
+    </person>
+    
+    <person xml:id="garibaldi">
+        <persName>Giuseppe Garibaldi</persName>
+        <note>Revolucionário italiano que atuou na Guerra Farroupilha liderando a marinha republicana.</note>
+        <idno type="viaf">https://viaf.org/viaf/2460204</idno>
+    </person>
+    
+    <person xml:id="zambeccari">
+        <persName>Giovanni Battista Zambeccari</persName>
+        <note>Companheiro de Garibaldi na Legião Italiana, atuante na República Rio-Grandense.</note>
+    </person>
+    
+    <person xml:id="cuneo">
+        <persName>Giovanni Battista Cuneo</persName>
+        <note>Italiano aliado de Garibaldi e participante das operações republicanas.</note>
+    </person>
+    
+    <person xml:id="castellini">
+        <persName>Luigi Castellini</persName>
+        <note>Italiano envolvido na luta republicana e próximo ao grupo de Rossetti e Garibaldi.</note>
+    </person>
+    
+    <person xml:id="jose_silva_brandao">
+        <persName>José da Silva Brandão</persName>
+        <note>Ministro e Secretário de Estado dos Negócios da Guerra, Marinha e Exterior da República Rio-Grandense.</note>
+    </person>
+    
+    <person xml:id="joaquim_gomes_araujo">
+        <persName>Joaquim Gomes de Araújo</persName>
+        <note>Capitão envolvido em compras de fazendas para o exército farroupilha.</note>
+    </person>
+    
+    <person xml:id="rafael_teixeira_marins">
+        <persName>Rafael Teixeira Marins</persName>
+        <note>Militar ou agente administrativo da República Rio-Grandense citado em documentos oficiais.</note>
+    </person>
+    
+    <person xml:id="joao_pedro_ramirez">
+        <persName>João Pedro Ramirez</persName>
+        <note>Fornecedor e agente político ligado ao Estado Oriental (Uruguai), responsável por gêneros fornecidos ao exército farroupilha.</note>
+    </person>
+    
+    <person xml:id="roberto_bisley">
+        <persName>Roberto G. Bisley</persName>
+        <note>Capitão e armador corsário associado à República Rio-Grandense.</note>
+    </person>
+    
+    <person xml:id="jeronimo_teixeira_almeida">
+        <persName>Jerônimo Teixeira de Almeida</persName>
+        <note>Comerciante e colaborador da República, atuando na logística de presas e descargas.</note>
+    </person>
+    
+    <place xml:id="mostardas">
+        <placeName>Mostardas</placeName>
+        <geo>-31.1056, -50.9161</geo>
+        <note>Localidade litorânea usada como ponto de encalhe de presas.</note>
+    </place>
+    
+    <place xml:id="rio_grande_barra">
+        <placeName>Barra de Rio Grande</placeName>
+        <geo>-32.1790, -52.1640</geo>
+        <note>Canal de acesso ao porto de Rio Grande, área estratégica para corsários.</note>
+    </place>
+    
+    <person xml:id="joaquim_faria_correa">
+        <persName>Joaquim de Faria Corrêa</persName>
+        <note>Major, responsável por operações de gado e logística militar.</note>
+    </person>
+    
+    <person xml:id="natalio_rusca">
+        <persName>Natálio Rusca</persName>
+        <note>Negociante citado em contratos de fornecimento durante a Revolução Farroupilha.</note>
+    </person>
+    
+    <person xml:id="manuel_jose_ferreira">
+        <persName>Manuel José Ferreira</persName>
+        <note>Prisioneiro citado em investigação militar sobre tentativa de sedução de soldados.</note>
+    </person>
 </standOff>

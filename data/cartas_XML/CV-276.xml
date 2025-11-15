@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Carta CV-276 – Demissão das Secretarias de Estado</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III (1941).</bibl>
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <profileDesc>
+            
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1838-12-14">14 de dezembro de 1838</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#jose_silva_brandao">
+                        José da Silva Brandão
+                    </persName>
+                </correspAction>
+                
+            </correspDesc>
+            
+        </profileDesc>
+        
+    </teiHeader>
+    
+    
+    <text>
+        <body>
+            
+            <div type="carta" xml:id="CV-276">
+                
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <dateline>
+                        <placeName ref="#piratini">Piratini</placeName>,
+                        <date when="1838-12-14">14 de dezembro de 1838</date>.
+                    </dateline>
+                </opener>
+                
+                <p>
+                    Não podendo bem desempenhar as funções das Secretarias de Estado que
+                    me foram confiadas, dou minha demissão e rogo a V.Exª. que o faça
+                    ciente ao Exmo. Sr. Presidente do Estado.
+                </p>
+                
+                <closer>
+                    <salute>Deus guarde a V.Exª.</salute>
+                    <signed>
+                        <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    </signed>
+                </closer>
+                
+                <note type="verso">
+                    Destinatário: Ilmo. e Exmo. Sr. José da Silva Brandão,
+                    Ministro e Secretário de Estado dos Negócios da Guerra, Marinha e Exterior.
+                </note>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

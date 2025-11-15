@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>Carta / Tratado de Sociedade – CV-285</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III (1941).</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1839-01-26">26 de janeiro de 1839</date>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <div type="letter" xml:id="CV-285">
+                
+                <p>
+                    Os abaixo-assinados 
+                    <persName ref="#roberto_bisley">Capitão Roberto G. Bisley</persName>, 
+                    <persName ref="#jeronimo_teixeira_almeida">Jerônimo Teixeira de Almeida</persName> 
+                    e 
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>, 
+                    desejando cooperar com todas as suas forças no pronto reconhecimento da 
+                    República Riograndense, hão acordado armar à sua custa um lanchão para 
+                    fazer o corso do alto-mar nas águas da barra de 
+                    <placeName ref="#rio_grande_barra">Rio Grande</placeName>, contra as 
+                    embarcações dos súditos do Imperador do Brasil, tirando dele, ao mesmo 
+                    tempo, todas as vantagens que se puderem colher, e para fins tais se 
+                    obrigam reciprocamente às condições exaradas nos artigos seguintes:
+                </p>
+                
+                <p>
+                    <hi rend="bold">Artigo 1.º</hi> — Para a compra de um lanchão que há de cruzar 
+                    nas águas da barra do Rio Grande para hostilizar os súditos do Governo 
+                    do Brasil, seu equipamento, armamento e avançamentos à tripulação, 
+                    cada um dos sócios é obrigado a entregar em 
+                    <placeName ref="#montevideo">Montevidéu</placeName> ao sócio 
+                    <persName ref="#roberto_bisley">Capitão Roberto Bisley</persName>, ou a quem ele 
+                    determinar, a quantia de setecentos e cinquenta patacões em moeda sonante.
+                </p>
+                
+                <p>
+                    <hi rend="bold">Artigo 2.º</hi> — Ao dito sócio 
+                    <persName ref="#roberto_bisley">Capitão Roberto</persName> compete a compra do 
+                    lanchão mencionado, seu equipamento e armamento, bem como o comando do 
+                    mesmo, a direção das presas e tudo o mais concernente ao corso, conforme 
+                    o Regulamento de 12 de novembro de 1836 e demais instruções, recebidas 
+                    com sua carta patente desta República; e pelos trabalhos do armamento 
+                    e equipamento nada exigirá, mas nas presas, como comandante do corsário, 
+                    terá em tudo cinco por cento além da parte que lhe competir como armador.
+                </p>
+                
+                <p>
+                    <hi rend="bold">Artigo 3.º</hi> — Ao sócio 
+                    <persName ref="#jeronimo_teixeira_almeida">Jerônimo</persName> compete dirigir-se 
+                    para <placeName ref="#mostardas">Mostardas</placeName> logo que tenha aviso da 
+                    compra e saída do lanchão corsário, ter sentinelas na costa para observar 
+                    onde se encalha a presa, fomentar sua descarga, dispor dos efeitos do 
+                    carregamento e manter escrituração clara e avisos aos demais sócios.
+                </p>
+                
+                <p>
+                    <hi rend="bold">Artigo 4.º</hi> — Ao sócio 
+                    <persName ref="#domingos_jose_almeida">Almeida</persName> compete agenciar junto 
+                    ao Governo da República as ordens e providências necessárias à proteção 
+                    da descarga das presas, venda dos gêneros nelas contidos e pagamento 
+                    daqueles vendidos ao Estado, além da direção dos avisos a 
+                    <placeName ref="#montevideo">Montevidéu</placeName>.
+                </p>
+                
+                <p>
+                    <hi rend="bold">Artigo 5.º</hi> — Todas as presas contendo fazendas secas ou 
+                    artigos bélicos serão enviadas para 
+                    <placeName ref="#mostardas">Mostardas</placeName>, a encalhar no ponto 
+                    contratado; às demais presas o comandante dará o destino conveniente, 
+                    metendo a pique as que não tiverem utilidade.
+                </p>
+                
+                <p>
+                    <hi rend="bold">Artigo 6.º</hi> — A metade do produto das presas, depois de 
+                    liquidada, será entregue prontamente ao comandante e apresadores.
+                </p>
+                
+                <p>
+                    <hi rend="bold">Artigo 7.º</hi> — A outra metade será entregue aos armadores, 
+                    que a dividirão em partes iguais.
+                </p>
+                
+                <p>
+                    <hi rend="bold">Artigo 8.º</hi> — O sócio 
+                    <persName ref="#jeronimo_teixeira_almeida">Jerônimo</persName> fica responsável 
+                    pelos efeitos das presas de que dispuser, e o sócio 
+                    <persName ref="#roberto_bisley">Capitão Roberto</persName> igualmente pelas presas 
+                    destinadas a outros pontos, devendo dar avisos repetidos.
+                </p>
+                
+                <p>
+                    E desta forma conformes, assinam três exemplares deste teor, a fim de 
+                    cada sócio conservar o seu.
+                </p>
+                
+                <closer>
+                    <dateline>
+                        <placeName ref="#piratini">Cidade de Piratini</placeName>,
+                        <date when="1839-01-26">26 de janeiro de 1839</date>.
+                    </dateline>
+                    
+                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed><lb/>
+                    <signed>(a) <persName ref="#roberto_bisley">Roberto G. Bisley</persName></signed><lb/>
+                    <signed>(a) <persName ref="#jeronimo_teixeira_almeida">Jerônimo Teixeira de Almeida</persName></signed>
+                </closer>
+                
+                <note type="verso">
+                    Trato de sociedade de um corsário.
+                </note>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

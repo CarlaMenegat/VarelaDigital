@@ -257,6 +257,12 @@
             <geo>-32.3214, -58.0756</geo>
             <note>Cidade do Estado Oriental (Uruguai), importante centro urbano e militar no período da Revolução Farroupilha.</note>
         </place>
+        
+        <place xml:id="cacapava">
+            <placeName>Caçapava</placeName>
+            <geo>-30.5144, -53.4827</geo>
+            <note>Município de atuação militar e administrativa durante a Revolução Farroupilha.</note>
+        </place>
 
     </listPlace>
 </standOff>

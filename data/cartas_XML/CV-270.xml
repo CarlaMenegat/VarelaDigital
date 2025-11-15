@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-270 – Solicitação sobre pagamento de cavalos dados ao Coronel Gama</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III (1941).</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1838-12-07">7 de dezembro de 1838</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#bento_goncalves_silva">Bento Gonçalves da Silva</persName>
+                    <note>Presidente do Estado.</note>
+                </correspAction>
+                
+            </correspDesc>
+            
+        </profileDesc>
+        
+    </teiHeader>
+    
+    
+    <text>
+        <body>
+            
+            <div type="carta" xml:id="CV-270">
+                
+                <opener>
+                    <dateline>
+                        <placeName ref="#piratini">Piratini</placeName>,
+                        <date when="1838-12-07">7 de dezembro de 1838</date>.
+                    </dateline>
+                    <salute>Diga-me V.Ex.ª por escrito</salute>
+                </opener>
+                
+                <p>
+                    Diga-me V.Ex.ª por escrito o que devo fazer com aquele sujeito
+                    que exige o embolso de 40 cavalos dados ao Coronel Gama 
+                    em Missões, etc....
+                </p>
+                
+                <closer>
+                    <salute>De V. Ex.ª, amigo muito obrigado</salute>
+                    <signed>
+                        <persName ref="#domingos_jose_almeida">Almeida</persName>
+                    </signed>
+                </closer>
+                
+                <p>
+                    <salute>Atenta a necessidade do Estado,</salute>
+                </p>
+                
+                <p>
+                    entendo que se lhe pode deferir que logo que as circunstâncias
+                    que agora desfalcam o Tesouro, com as urgentes despesas da guerra,
+                    será o Suplicante embolsado, etc., etc....
+                </p>
+                
+                <closer>
+                    <signed>
+                        <persName ref="#bento_goncalves_silva">B. G. Silva</persName>
+                    </signed>
+                </closer>
+                
+                <note type="verso">
+                    Endereçado ao Presidente do Estado. Indicação: “Sua casa”.
+                </note>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
