@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-485</title>
+                <title>Carta CV-492</title>
                 <author>
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </author>
@@ -32,11 +32,10 @@
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     <placeName ref="#bage">Bagé</placeName>
-                    <date when="1841-08-24">24 de agosto de 1841</date>
+                    <date when="1841-08-27">27 de agosto de 1841</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#jose_amancio_jambeiro">José Amâncio Jambeiro</persName>
-                    <placeName ref="#piratini">Piratini</placeName>
+                    <persName ref="#demetrio_ribeiro">Demétrio Ribeiro</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -44,28 +43,23 @@
     
     <text>
         <body>
-            <div xml:id="CV-485" type="letter">
+            <div xml:id="CV-492" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Honrado <persName ref="#demetrio_ribeiro">Tenente-coronel e amigo Demétrio Ribeiro</persName></salute>
+                    <dateline><placeName ref="#bage">Bagé</placeName>, 27 de agosto de 1841.</dateline>
                 </opener>
                 
-                <p>Por virtude de sua oficiosa de 15 do corrente, incluso lhe remeto uma portaria para, na apresentação dela ao cidadão <persName ref="#comissario_geral_exercito">Comissário Geral do Exército</persName>, serem entregues ao negociante <persName ref="#francisco_nault">Francisco Nault</persName> os quarenta couros que V. S.ª requisitou, a fim de continuar a ser sua família socorrida pelo dito negociante, e marchar V. S.ª sem demora para este campo.</p>
+                <p>Em virtude de vossa estimada carta de 3 do corrente há pouco recebida, incluso vos remeto a ordem de 160$000 que exigistes para receberes em qualquer das coletorias do Estado, a fim de satisfazeres ao amigo <persName ref="#sarasin">Sarasin</persName>.</p>
+                
+                <p>Para tudo o mais que for do vosso serviço mandai com franqueza ao</p>
                 
                 <closer>
-                    <salute>Deus guarde a V. S.ª.</salute>
-                    <dateline>Secretaria do Interior e Fazenda encarregada do expediente da Guerra em <placeName ref="#bage">Bagé</placeName>, 24 de agosto de 1841.</dateline>
-                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                    <p>Vosso sincero amigo e compatriota</p>
+                    <signed>(a) Almeida.</signed>
                 </closer>
                 
-                <address>
-                    <persName ref="#jose_amancio_jambeiro">Ilmo. Sr. Capitão José Amâncio Jambeiro</persName><br/>
-                    <placeName ref="#piratini">Piratini</placeName>
-                </address>
-                
-                <note type="endorsement">
-                    S. da R. — Ao cidadão <persName ref="#jose_amancio_jambeiro">José Amâncio Jambeiro</persName>. <placeName ref="#piratini">Piratini</placeName>. Do Ministério da Guerra.
-                </note>
+                <note type="endorsement">Último para copiar — Minuta</note>
                 
             </div>
         </body>

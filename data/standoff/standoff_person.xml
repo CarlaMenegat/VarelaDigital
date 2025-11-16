@@ -2246,6 +2246,11 @@
             <persName>Benito</persName>
         </person>
         
+        <person xml:id="benito_gontan">
+            <persName>Benito Gontan</persName>
+            <note>Mencionado como responsável por fornecer baeta mediante recibo.</note>
+        </person>
+        
         <person xml:id="irineu">
             <persName>Irineu</persName>
         </person>
@@ -2358,6 +2363,11 @@
         
         <person xml:id="bernardo_jose_rodrigues_filho">
             <persName>Bernardo José Rodrigues Filho</persName>
+        </person>
+        
+        <person xml:id="bernardo_jose_rodrigues">
+            <persName>Bernardo José Rodrigues</persName>
+            <note>Mencionado como 1.º Deputado do Quartel-mestre-general e destinatário formal da ordem.</note>
         </person>
         
         <person xml:id="joao_paulo">
@@ -2488,6 +2498,142 @@
         <person xml:id="frederico_smithe">
             <persName>Frederico Smithe</persName>
             <note>Destinatário da ordem de pagamento, mencionado como ausente.</note>
+        </person>
+        
+        <person xml:id="rafael_zobaran">
+            <persName>Rafael Zobaran</persName>
+            <note>Negociante que forneceria fazendas, mas não possuía o estoque adequado.</note>
+        </person>
+        
+        <person xml:id="tomas_jose_pereira">
+            <persName>Tomás José Pereira</persName>
+            <note>Mencionado como Tenente-coronel e responsável pelo pedido de materiais.</note>
+        </person>
+        
+        <person xml:id="camilo_mercio_pereira">
+            <persName>Camilo Mércio Pereira</persName>
+            <note>Indicado como destinatário das fazendas que deveriam ser fornecidas.</note>
+        </person>
+        
+        <person xml:id="jose_de_assis_candall">
+            <persName>José de Assis Candall</persName>
+            <note>Destinatário da ordem de fornecimento, envolvido em transações têxteis.</note>
+        </person>
+        
+        <person xml:id="morais_pereira">
+            <persName>Morais Pereira</persName>
+            <note>Assinante do recibo ao final; identidade completa não fornecida.</note>
+        </person>
+        
+        <person xml:id="joao_fernandes">
+            <persName>João Fernandes</persName>
+            <note>Mencionado como capitão envolvido na compra ou recebimento das fazendas.</note>
+        </person>
+        
+        <person xml:id="serafim_dias">
+            <persName>Serafim Dias</persName>
+            <note>Cabo da 5.ª Companhia do 3.º Batalhão, citado como enfermo e necessitando vestimenta.</note>
+        </person>
+        
+        <person xml:id="jose_amancio_jambeiro">
+            <persName>José Amâncio Jambeiro</persName>
+            <note>Mencionado como capitão e destinatário da ordem referente à entrega de couros.</note>
+        </person>
+        
+        <person xml:id="francisco_nault">
+            <persName>Francisco Nault</persName>
+            <note>Negociante encarregado de socorrer a família do destinatário mediante fornecimento de bens em troca de couros.</note>
+        </person>
+        
+        <person xml:id="julio_paulet">
+            <persName>Júlio Paulet</persName>
+            <note>Destinatário da carta; consultado sobre venda de equipamento para fabricação de graxa e possibilidade de venda de mulas.</note>
+        </person>
+        
+        <person xml:id="francisco_trueba">
+            <persName>Francisco Truebas</persName>
+            <note>Responsável por receber e encaminhar a resposta do destinatário; autoridade ou comerciante atuante em Cerro Largo.</note>
+        </person>
+        
+        <person xml:id="israel_soares_azambuja">
+            <persName>Israel Soares de Azambuja</persName>
+            <note>Destinatário; referido como Major.</note>
+        </person>
+        
+        <person xml:id="domingos_lopes">
+            <persName>Domingos Lopes</persName>
+            <note>Envolvido em incidente citado no 4.º Distrito.</note>
+        </person>
+        
+        <person xml:id="francisco_duarte">
+            <persName>Francisco Duarte</persName>
+            <note>Envolvido em incidente citado no 4.º Distrito.</note>
+        </person>
+        
+        <person xml:id="domingos_correia">
+            <persName>Domingos Correia</persName>
+            <note>Mencionado como envolvido em incidente; contexto de vingança.</note>
+        </person>
+        
+        <person xml:id="luis_antonio_castro_braga">
+            <persName>Luís Antônio de Castro Braga</persName>
+            <note>Destinatário da carta CV-489.</note>
+        </person>
+        
+        <person xml:id="leocadia">
+            <persName>D. Leocádia</persName>
+            <note>Mencionada como beneficiária do pedido de farinhas.</note>
+        </person>
+        
+        <person xml:id="quirino">
+            <persName>Quirino</persName>
+            <note>Mencionado como recebedor de quantia; não há outra qualificação.</note>
+        </person>
+        
+        <person xml:id="jose_manuel_silva">
+            <persName>José Manuel da Silva</persName>
+            <note>Destinatário da carta CV-491.</note>
+        </person>
+        
+        <person xml:id="florentino_sousa_leite">
+            <persName>Florentino de Sousa Leite</persName>
+            <note>Mencionado como Tenente-coronel incumbido de receber e enviar materiais.</note>
+        </person>
+        
+        <person xml:id="sarasin">
+            <persName>Sarasin</persName>
+            <note>Mencionado como destinatário indireto para pagamento; não identificado com mais detalhes.</note>
+        </person>
+        
+        <person xml:id="jose_douglas_pimentel">
+            <persName>José Douglas Pimentel</persName>
+            <note>Soldado dispensado do serviço militar após expiração do engajamento.</note>
+        </person>
+        
+        <person xml:id="jacinto">
+            <persName>Jacinto</persName>
+        </person>
+        
+        <person xml:id="dr_maneco">
+            <persName>Dr. Maneco</persName>
+        </person>
+        
+        <person xml:id="teodosia">
+            <persName>D. Teodósia</persName>
+        </person>
+        
+        <person xml:id="quinota">
+            <persName>D. Quinota</persName>
+        </person>
+        
+        <person xml:id="antonio_simoes_pereira_junior">
+            <persName>Antônio Simões Pereira Júnior</persName>
+            <note>Comerciante de gado citado na carta CV-499 da Coleção Varela.</note>
+        </person>
+        
+        <person xml:id="dom_inocencio_cocio">
+            <persName>Dom Inocêncio Cocio</persName>
+            <note>Destinatário da carta CV-500.</note>
         </person>
     </listPerson>
 </standOff>

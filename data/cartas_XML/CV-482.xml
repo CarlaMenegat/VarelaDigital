@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-482</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#bage">Bagé</placeName>
+                    <date when="1841-08-14">14 de agosto de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#inacio_jose_de_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                    <placeName ref="#boqueirao">Boqueirão</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-482" type="letter">
+                
+                <note type="heading">(Reservado)</note>
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Anuindo S. Ex.ª o <persName ref="#presidente_republica">Sr. Presidente</persName> à proposição por V. S.ª oferecida por parte de um negociante do <placeName ref="#rio_grande">Rio Grande</placeName>, que se compromete fornecer-nos de dois a quatro mil côvados de pano ordinário a dois mil réis ao côvado; igual porção de baetas a setecentos réis; belbutinas a quinhentos réis; e algodão americano a duzentos e cinquenta réis a vara com o prêmio de sessenta por cento, para ser pago da importância de tudo em novilhos de corte pelo preço de três patacões prata cada um nos rodeios, que deverão ser beneficiados na charqueada de V. S.ª, me determina lhe diga que quanto antes faça vir os gêneros indicados, ou maior porção se for possível e os envie ao <persName ref="#general_chefe_estado_maior">Exmo. General Chefe do Estado-maior</persName>, certo de que a importância dos mesmos lhe será enviada em novilhos imediatamente que sejam exigidos, e que os efeitos provenientes de tais novilhos serão exportados livres de direitos na conformidade do disposto no § 8 do art. 37 do regulamento das coletorias, e bem assim o sal que introduzir para benefício de tais novilhos.</p>
+                
+                <closer>
+                    <salute>Deus guarde a V. S.ª.</salute>
+                    <dateline>Secretaria da Fazenda em <placeName ref="#bage">Bagé</placeName>, 14 de agosto de 1841.</dateline>
+                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                </closer>
+                
+                <address>
+                    <persName ref="#inacio_jose_de_oliveira_guimaraes">Ilmo. Sr. Inácio José de Oliveira Guimarães</persName>
+                </address>
+                
+                <note type="endorsement">
+                    Ofício do Ministro da Fazenda do 14 de agosto, recebido a 29, sobre a vinda dos gêneros. S. da R. Ao cidadão <persName ref="#inacio_jose_de_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>, Chefe Geral de Polícia do departamento do <placeName ref="#boqueirao">Boqueirão</placeName>. Do Ministério da Fazenda. Recebido a 29.
+                </note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

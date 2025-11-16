@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-485</title>
+                <title>Carta CV-495</title>
                 <author>
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </author>
@@ -32,11 +32,10 @@
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     <placeName ref="#bage">Bagé</placeName>
-                    <date when="1841-08-24">24 de agosto de 1841</date>
+                    <date when="1841-09-04">4 de setembro de 1841</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#jose_amancio_jambeiro">José Amâncio Jambeiro</persName>
-                    <placeName ref="#piratini">Piratini</placeName>
+                    <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -44,28 +43,27 @@
     
     <text>
         <body>
-            <div xml:id="CV-485" type="letter">
+            <div xml:id="CV-495" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. Sr. <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName></salute>
+                    <dateline><placeName ref="#bage">Bagé</placeName>, 4 de setembro de 1841.</dateline>
                 </opener>
                 
-                <p>Por virtude de sua oficiosa de 15 do corrente, incluso lhe remeto uma portaria para, na apresentação dela ao cidadão <persName ref="#comissario_geral_exercito">Comissário Geral do Exército</persName>, serem entregues ao negociante <persName ref="#francisco_nault">Francisco Nault</persName> os quarenta couros que V. S.ª requisitou, a fim de continuar a ser sua família socorrida pelo dito negociante, e marchar V. S.ª sem demora para este campo.</p>
+                <p>Prezado amigo e Sr.</p>
+                
+                <p>Pelo Sr. <persName ref="#albino_jose_ferreira">Albino José Ferreira</persName> recebi sua estimada de 26 do passado e termo de conciliação com ele feita em meu nome nesse mesmo dia, pelo que lhe estou sumamente agradecido.</p>
+                
+                <p>Como o dito Sr. <persName ref="#albino_jose_ferreira">Albino</persName> nesta conciliação desmentisse o que havia dito naquela que teve com <persName ref="#benito_agostinho_grania">Benito Agostinho Graña</persName>, a 24 de julho último, e me passasse clareza da quantia de Rs. 1:098$850, que por ele mandei dar ao dito <persName ref="#benito_agostinho_grania">Grania</persName> em <placeName ref="#montevideo">Montevidéu</placeName>, haja V.S.ª de suspender todo e qualquer procedimento judicial que contra ele tenha tentado em virtude das minhas anteriores; e me diga qual a despesa feita para lhe mandar satisfazer.</p>
+                
+                <p>Meus respeitos à Sra. e V.S.ª disponha do</p>
                 
                 <closer>
-                    <salute>Deus guarde a V. S.ª.</salute>
-                    <dateline>Secretaria do Interior e Fazenda encarregada do expediente da Guerra em <placeName ref="#bage">Bagé</placeName>, 24 de agosto de 1841.</dateline>
-                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                    <p>Seu muito afetuoso e obrigado amigo</p>
+                    <signed>(a) <persName ref="#domingos_jose_almeida">Almeida</persName></signed>
                 </closer>
                 
-                <address>
-                    <persName ref="#jose_amancio_jambeiro">Ilmo. Sr. Capitão José Amâncio Jambeiro</persName><br/>
-                    <placeName ref="#piratini">Piratini</placeName>
-                </address>
-                
-                <note type="endorsement">
-                    S. da R. — Ao cidadão <persName ref="#jose_amancio_jambeiro">José Amâncio Jambeiro</persName>. <placeName ref="#piratini">Piratini</placeName>. Do Ministério da Guerra.
-                </note>
+                <note type="endorsement">Copiado — Minuta</note>
                 
             </div>
         </body>

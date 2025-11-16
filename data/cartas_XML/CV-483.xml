@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-483</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#sao_gabriel">São Gabriel</placeName>
+                    <date when="1841-08-16">16 de agosto de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#presidente_republica">Presidente</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-483" type="letter">
+                
+                <opener>
+                    <salute>Meu Exmo. compadre, amigo e Sr.</salute>
+                </opener>
+                
+                <p><persName ref="#jose_de_assis_candall">Candall</persName> exige documento das fazendas constantes da relação junta, diz que por sua ordem dadas ao <persName ref="#joao_fernandes">Capitão João Fernandes</persName>; e se assim for pode V. Ex.ª rubricar para se lhe mandar passar o dito documento.</p>
+                
+                <closer>
+                    <p>De V. Ex.ª<br/>
+                        Compadre e amigo fiel e obrigado</p>
+                    <dateline><placeName ref="#sao_gabriel">S.C.</placeName>, 16 de agosto de 1841</dateline>
+                    <signed>(a) <persName ref="#domingos_jose_almeida">Almeida</persName></signed>
+                </closer>
+                
+                <!-- RESPOSTA ANEXADA -->
+                <opener>
+                    <salute>Exmo. Sr.</salute>
+                </opener>
+                
+                <p>Devolvo a conta rubricada, e conquanto eu esteja certo de que pelo <persName ref="#joao_fernandes">Capitão João Fernandes</persName> mandei fazer esta compra para suprimento de algumas praças e oficiais, todavia não posso lembrar-me das miudezas que foram; porém, como eu havia dado ordem àquele capitão para dar documento do que recebesse, e não tendo ele feito, não tive dúvida em rubricar, certo na capacidade do negociante, e mesmo porque exigirei do capitão a conta, em tempo oportuno.</p>
+                
+                <closer>
+                    <p>Seu amigo fiel</p>
+                    <signed>(a) <persName ref="#bento_goncalves">B. G. Silva</persName></signed>
+                </closer>
+                
+                <address>
+                    <persName ref="#presidente_republica">Exmo. Sr. Presidente</persName>
+                </address>
+                
+                <note type="endorsement">S. casa.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

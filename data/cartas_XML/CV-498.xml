@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-498 – Autor desconhecido para Simeão Estelita da Cunha</title>
+                <author>Autor desconhecido</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                </bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <placeName ref="#bage">Bagé</placeName>
+                    <date when="1841-09-09">9 de setembro de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#simeao_estelita_cunha">Simeão Estelita da Cunha</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-498">
+                
+                <opener>
+                    <salute>Prezado amigo e Sr,</salute>
+                </opener>
+                
+                <p><persName ref="#manuel_pires">Manuel Pires</persName> exige de mim a importância da letra que lhe passei para ultimar a transação que entre ele e V.S.ª existia; diga-me se quer que a entregue para dar providência ao arranjo dela.</p>
+                
+                <p>Nossos respeitos à Ilma. Sra. <persName ref="#teodosia">D. Teodósia</persName> minha Sra., as tias, <persName ref="#quinota">D. Quinota</persName>, à Sra. filha e genro, e V.S.ª,</p>
+                
+                <closer>
+                    <salute>Disponha do</salute>
+                    <signed>Seu sincero e obrigado amigo</signed>
+                </closer>
+                
+                <note type="endorsement">Minuta</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

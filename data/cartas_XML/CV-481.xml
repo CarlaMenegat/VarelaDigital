@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-481</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#bage">Bagé</placeName>
+                    <date when="1841-08-12">12 de agosto de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#jose_de_assis_candall">José de Assis Candall</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-481" type="letter">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Tendo ontem mandado dar, de casa do negociante <persName ref="#rafael_zobaran">Rafael Zobaran</persName>, as fazendas precisas para preencher o pedido junto firmado pelo <persName ref="#tomas_jose_pereira">Tenente-coronel Tomás José Pereira</persName> em <date>[9 do]</date> mês passado; e não tendo o dito negociante as próprias para o fim exigido, rogo a V.S.ª as dê, sendo que possa ser, ao cidadão <persName ref="#camilo_mercio_pereira">Camilo Mércio Pereira</persName>, certo de que sua importância mandarei satisfazer por esta, ou por a Coletoria que indicar. As miudezas que se têm tirado em sua casa até hoje lhe mandarei pagar em couros do consumo se assim lhe convier enviar-me a respectiva conta. […] <persName ref="#bernardo_jose_rodrigues_filho">Bernardo José Rodrigues</persName> terá de […] artigos para vestir-se alguns […]. V.S.ª não duvide dar-lhe o que pede […] importância pela forma acima expressada.</p>
+                
+                <closer>
+                    <salute>Deus guarde a V.S.ª.</salute>
+                    <dateline>Secretaria da Fazenda em <placeName ref="#bage">Bagé</placeName>, 12 de agosto de 1841.</dateline>
+                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                </closer>
+                
+                <address>
+                    <persName ref="#jose_de_assis_candall">Ao cidadão José de Assis Candall</persName>
+                </address>
+                
+                <note type="endorsement">
+                    29 côvados de […] 3840 96$000<br/>
+                    10 ditos […] 2400 24$000<br/>
+                    42 ditos de baeta rosa 1120 47$040<br/>
+                    [34] ditos de belbute 600 20$400<br/>
+                    6 varas de algodão azul para calças 640 3$840<br/>
+                    1 peça de riscado p/ camisas, 44 côvados 320 14$080<br/>
+                    1 dita algodão 20 varas p/ ceroulas 320 6$400<br/>
+                    27 1/2 […] de retrós azul 200 5$500<br/>
+                    16 novelos de linha 40 $640<br/>
+                    7 dúzias […] furadas p/ calças 100 $700<br/>
+                    4 dúzias botões amarelos p/ ponches $1$280<br/>
+                    3 1/2 ditos p/ […] 200 $700<br/>
+                    32 côvados de […] 320 10$240<br/>
+                    12 dúzias […] 320 3$840<br/>
+                    29 côvados de […] as fardas […] 1280 37$120<br/>
+                    1 chapéu de pano 2$400<br/>
+                    1 barbicacho $800<br/>
+                    Soma 274$980</note>
+                
+                <note type="endorsement">
+                    Por ordem do Exmo. Ministro <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.<br/>
+                    Recebi do cidadão <persName ref="#jose_de_assis_candall">José de Assis Candall</persName> as fazendas acima mencionadas no importe de duzentos setenta e quatro mil novecentos e oitenta rs. para fornecimento […] praças da 5.º Brigada.<br/>
+                    […] agosto de 1841.<br/>
+                    (a) <persName ref="#morais_pereira">[…] de Morais Pereira</persName>
+                </note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

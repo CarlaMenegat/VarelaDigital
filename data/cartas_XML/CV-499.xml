@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-499 – Secretaria do Interior e Fazenda para autoridades diversas</title>
+                <author>Secretaria de Interior e Fazenda encarregada do expediente da Guerra</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                </bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <orgName ref="#secretaria_interior_fazenda">Secretaria de Interior e Fazenda</orgName>
+                    <placeName ref="#bage">Bagé</placeName>
+                    <date when="1841-08-05">5 de agosto de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <note>Autoridades do território, não nomeadas</note>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-499">
+                
+                <p>Tendo o cidadão <persName ref="#antonio_simoes_pereira_junior">Antônio Simões Pereira Júnior</persName> de exportar porção de gado de corte para as charqueadas do <placeName ref="#triunfo">Triunfo</placeName>, com o fim de empregar a importância dela em gêneros próprios para o exército e requerendo a isenção de trinta cavalos para tal serviço, e podê-los mandar comprar no Estado vizinho, S. Ex.ª o Sr. <persName ref="#bento_goncalves">Presidente</persName> determina que, em atenção ao exposto, autoridade alguma lhe tire para o serviço do <orgName ref="#exercito">exército</orgName> os referidos trinta cavalos que vai mandar comprar no <placeName ref="#estado_oriental">Estado Oriental</placeName>, visto reportar a conservação deles vantagens à <orgName ref="#republica">República</orgName> pelos objetos que vai introduzir: o que cumprirão aquelas a quem o conhecimento desta pertencer.</p>
+                
+                <p><orgName ref="#secretaria_interior_fazenda">Secretaria de Interior e Fazenda encarregada do expediente da Guerra</orgName> em <placeName ref="#bage">Bagé</placeName>, <date when="1841-08-05">5 de agosto de 1841</date>.</p>
+                
+                <note type="endorsement">Copiado n.º 5</note>
+                <note type="endorsement">Minuta rasurada no verso do documento CV-498</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

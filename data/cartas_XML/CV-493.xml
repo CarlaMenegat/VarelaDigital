@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-485</title>
+                <title>Carta CV-493</title>
                 <author>
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </author>
@@ -32,11 +32,10 @@
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     <placeName ref="#bage">Bagé</placeName>
-                    <date when="1841-08-24">24 de agosto de 1841</date>
+                    <date when="1841-08-31">31 de agosto de 1841</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#jose_amancio_jambeiro">José Amâncio Jambeiro</persName>
-                    <placeName ref="#piratini">Piratini</placeName>
+                    <persName ref="#bernardo_jose_rodrigues">Bernardo José Rodrigues</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -44,28 +43,29 @@
     
     <text>
         <body>
-            <div xml:id="CV-485" type="letter">
+            <div xml:id="CV-493" type="letter">
                 
                 <opener>
                     <salute>Ilmo. Sr.</salute>
                 </opener>
                 
-                <p>Por virtude de sua oficiosa de 15 do corrente, incluso lhe remeto uma portaria para, na apresentação dela ao cidadão <persName ref="#comissario_geral_exercito">Comissário Geral do Exército</persName>, serem entregues ao negociante <persName ref="#francisco_nault">Francisco Nault</persName> os quarenta couros que V. S.ª requisitou, a fim de continuar a ser sua família socorrida pelo dito negociante, e marchar V. S.ª sem demora para este campo.</p>
+                <p>O cidadão <persName ref="#jose_douglas_pimentel">José Douglas Pimentel</persName>, que acaba de ser dispensado do serviço por ter expirado o prazo do seu engaje, pede uma baeta à conta de uns atrazados por ver-se sem uma coberta que o abrigue do tempo em seu trânsito desta para <placeName ref="#jaguarao">Jaguarão</placeName>; e sendo de justiça a sua exigência veja V. S.ª se lhe arranja dita baeta e lha entrega, dando parte ao comandante do 2.º Corpo de Clavineiros de 1.ª linha para a carga respectiva.</p>
+                
+                <p>Deus guarde a V. S.ª. Secretaria do Interior e Fazenda encarregada do expediente da Guerra em <placeName ref="#bage">Bagé</placeName>, 31 de agosto de 1841.</p>
+                
+                <p>Ilmo. Sr. <persName ref="#bernardo_jose_rodrigues">Bernardo José Rodrigues</persName><br/>
+                    1.º Deputado do Quartel-mestre-general.</p>
                 
                 <closer>
-                    <salute>Deus guarde a V. S.ª.</salute>
-                    <dateline>Secretaria do Interior e Fazenda encarregada do expediente da Guerra em <placeName ref="#bage">Bagé</placeName>, 24 de agosto de 1841.</dateline>
                     <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
                 </closer>
                 
-                <address>
-                    <persName ref="#jose_amancio_jambeiro">Ilmo. Sr. Capitão José Amâncio Jambeiro</persName><br/>
-                    <placeName ref="#piratini">Piratini</placeName>
-                </address>
+                <p>O Sr. <persName ref="#benito_gontan">Benito Gontan</persName> pode dar três côvados de baeta ao cidadão de que acima faço menção e obter recibo que eu satisfarei sua importância, Era ut supra.</p>
                 
-                <note type="endorsement">
-                    S. da R. — Ao cidadão <persName ref="#jose_amancio_jambeiro">José Amâncio Jambeiro</persName>. <placeName ref="#piratini">Piratini</placeName>. Do Ministério da Guerra.
-                </note>
+                <signed>(a) <persName ref="#domingos_jose_almeida">Almeida</persName></signed>
+                
+                <note type="endorsement">Recebi o gênero acima mencionado. (a) <persName ref="#jose_douglas_pimentel">José Douglas Pimentel</persName>.</note>
+                <note type="endorsement">S. da R. — Minuta</note>
                 
             </div>
         </body>
