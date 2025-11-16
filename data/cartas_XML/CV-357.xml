@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-357 – Deliberação sobre fábrica de lombilhos</title>
+                <author>
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1839-12-28">28 de dezembro de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#inacio_jose_de_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-357">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Convido ou fomentar-se a fábrica de lombilhos a cargo do Capitão <persName ref="#pedro_rodrigues_de_quevedo">Pedro Rodrigues de Quevedo</persName>, ou dissolvê-la por improficua, S.Exª, o Sr. Vice-presidente da República <persName ref="#gomes_jardim">Gomes Jardim</persName> autoriza a V.Sª para deliberar acerca de uma ou de outra coisa, devendo no primeiro caso empenhar seus esforços e levar a dita fábrica ao pé que se faz mister, indicando ao Governo quanto para isso for necessário a fim de dar as providências para o efeito indispensáveis.</p>
+                
+                <closer>
+                    <p>Deus guarde a V.Sª.</p>
+                    <signed>Secretaria da Fazenda em <placeName ref="#cacapava">Caçapava</placeName>, 28 de dezembro de 1839.<br/>
+                        (a) <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>.</signed>
+                </closer>
+                
+                <p>Ilmo. Sr. <persName ref="#inacio_jose_de_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>. Chefe Geral de Polícia do departamento do <placeName ref="#boqueirao">Boqueirão</placeName>. S. da BR.</p>
+                
+                <note type="endorsement">[No verso] Ao cidadão <persName ref="#inacio_jose_de_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>. Chefe Geral de Polícia do departamento do <placeName ref="#boqueirao">Boqueirão</placeName>. Do Ministério da Fazenda.</note>
+                
+                <note type="endorsement">Ofício do Exmo. Ministro da Fazenda de 28 de dezembro, recebido a 7 de janeiro de 1840. Sobre a fábrica de arreios. Respondido a 20 de janeiro de 1840.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

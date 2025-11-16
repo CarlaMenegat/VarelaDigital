@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-358 – Relação de materiais e orçamento para fabricação de lombilhos</title>
+                <respStmt>
+                    <resp>Solicitante</resp>
+                    <persName ref="#pedro_rodrigues_de_quevedo">Capitão Pedro Rodrigues de Quevedo</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. (Anexo ao documento CV-357)</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="inventory" xml:id="CV-358">
+                
+                <head>Objetos requeridos para a fabricação de 400 lombilhos em 1 ano</head>
+                
+                <p>Objetos que exige o Capitão <persName ref="#pedro_rodrigues_de_quevedo">Pedro Rodrigues de Quevedo</persName> lhe forneça o Governo para a prontificação de 400 lombilhos em 1 ano:</p>
+                
+                <list>
+                    <item>100 couros para 400 cortas de lombilho</item>
+                    <item>80 ditos para 800 abas para os mesmos</item>
+                    <item>2 formões grandes</item>
+                    <item>2 goivas regulares</item>
+                    <item>2 ferros de descarnar</item>
+                    <item>9 facas grandes</item>
+                    <item>2 machados</item>
+                    <item>5 homens para a fábrica — tendo já 2 para este fim empregados pelo Governo, e os 3 serão tirados daqueles que não andam nas fileiras</item>
+                </list>
+                
+                <p>A carne de =  
+                    5 reses mensais para munício destes homens.<br/>
+                    15 alqueires de sal para um ano.</p>
+                
+                <p>Que este munício deve ser prestado pelo departamento de <placeName ref="#cangucu">Canguçu</placeName> por ficar mais próximo àquela fábrica, devendo em dia marcado a autoridade que o fornecer pô-lo na fazenda de <placeName ref="#fazenda_maria_venuncia">D. Maria Venúncia</placeName>, que dista da fábrica meia légua, aonde os homens o irão receber.</p>
+                
+                <head>Orçamento</head>
+                
+                <p>
+                    180 .................................................... $960      172$800<br/>
+                    2 formões grandes ..................................... $480         $960<br/>
+                    2 goivas regulares .................................... $480         $960<br/>
+                    2 ferros de descarnar ............................... 10$000      20$000<br/>
+                    2 machados ............................................ 2$560       5$120<br/>
+                    60 reses para 5 homens em 1 ano ...................... 4$500     270$000<br/>
+                    15 alqueires de sal ................................... 1$920      28$800<br/>
+                    ___________________<br/>
+                    501$840
+                </p>
+                
+                <note>[Ao lado, no sentido vertical] 857$600 / 501$840 / 355$760</note>
+                
+                <p><hi>Abater:</hi><br/>
+                    60 couros das reses dadas aos 5 homens ................. $960      57$600<br/>
+                    ___________________<br/>
+                    444$240</p>
+                
+                <p>400 lombilhos prontos preço por que se compram no mercado a ............. 2$060      824$000 (*)</p>
+                
+                <p><hi>Resulta</hi> a favor da Fazenda Nacional Rs. 379$760</p>
+                
+                <note type="editorial">(*) No original este número está rasurado, tendo sido escrito em tinta diferente “800$000”.</note>
+                
+                <note type="endorsement">[Anexo ao documento CV-357]</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

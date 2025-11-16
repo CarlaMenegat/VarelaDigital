@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-371 – Circular sobre organização da estatística do Estado</title>
+                <author>
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1840-03-16">16 de março de 1840</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#inacio_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="circular" xml:id="CV-371">
+                
+                <head>Circular</head>
+                
+                <p>Tendo S.Exª, o Sr. Vice-presidente da República encarregado ao Engenheiro <persName ref="#anzani_francisco">Capitão Anzani Francisco</persName> da organização da Estatística do Estado, a bem da qual se procederá ao arrolamento ordenado pelo decreto de 15 do mês passado, determina que para ser levada a efeito esta salutar providência, V.Sª sem trepidar satisfaça todas as requisições do dito capitão; o que cumprirá.</p>
+                
+                <closer>
+                    <p>Deus guarde a V.Sª.</p>
+                    <signed>Secretaria do Interior em <placeName ref="#cacapava">Caçapava</placeName>, 16 de março de 1840.<br/>
+                        (a) <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName></signed>
+                </closer>
+                
+                <p>Ilmo. Sr. <persName ref="#inacio_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>.<br/>
+                    Chefe Geral de Polícia do departamento do Boqueirão.</p>
+                
+                <note type="endorsement">Ofício do Sr. Ministro do Interior de 16 de março, recebido a 10 de maio, ordenando se satisfaça as requisições feitas pelo Capitão Anzani, encarregado da Estatística.</note>
+                
+                <note type="endorsement">Ao cidadão Chefe Geral de Polícia do departamento do Boqueirão. Do Ministério do Interior.</note>
+                
+                <note type="endorsement"><placeName ref="#cacapava">Caçapava</placeName>. [Carimbo]</note>
+                
+                <note type="endorsement">[Circular impressa]</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

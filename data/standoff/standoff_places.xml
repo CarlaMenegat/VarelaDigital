@@ -365,5 +365,74 @@
             <geo>-31.5514, -53.6773</geo>
             <note>Município localizado na região da Campanha, Rio Grande do Sul. No período farroupilha, a área era conhecida pelas estâncias, rincões e invernadas situadas no vale do arroio Candiota, entre Bagé e Piratini.</note>
         </place>
+        
+        <place xml:id="santa_maria">
+            <placeName>Cabo de Santa Maria</placeName>
+            <location>
+                <geo>-34.9417 -54.9517</geo>
+            </location>
+        </place>
+        
+        <place xml:id="maldonado">
+            <placeName>Maldonado</placeName>
+            <geo>-34.9000, -54.9500</geo>
+            <note>Cidade uruguaia (atual Departamento de Maldonado), onde parte dos valores relacionados à presa foi perdida.</note>
+        </place>
+        
+        <place xml:id="laguna">
+            <placeName>Laguna</placeName>
+            <geo>-28.4826, -48.7806</geo>
+            <note>Cidade catarinense; destino de embarcações após a apreensão.</note>
+        </place>
+        
+        <place xml:id="vila_setembrina">
+            <placeName>Vila Setembrina</placeName>
+            <note>Denominação política usada pelo governo farroupilha; localização histórica aproximada.</note>
+        </place>
+        
+        <place xml:id="sao_martinho">
+            <placeName>São Martinho</placeName>
+            <geo>-27.7101, -53.9691</geo>
+            <note>Coordenada moderna; a picada pode não coincidir exatamente.</note>
+        </place>
+        
+        <place xml:id="pinhal">
+            <placeName>Picada do Pinhal</placeName>
+            <note>Topônimo viário histórico; localização precisa incerta, possivelmente no eixo Cruz Alta–Santa Maria.</note>
+        </place>
+        
+        <place xml:id="aguas_mornas">
+            <placeName>Águas Mornas</placeName>
+            <note>Topônimo hidrotermal local; localização exata desconhecida, não correspondente ao município homônimo de SC.</note>
+        </place>
+        
+        <place xml:id="curitibanos">
+            <placeName>Curitibanos</placeName>
+            <geo>-27.2829, -50.5827</geo>
+            <note>Região correspondente ao atual município de Curitibanos (SC).</note>
+        </place>
+        
+        <place xml:id="toropi">
+            <placeName>Toropi</placeName>
+            <geo>-29.4711, -54.2244</geo>
+            <note>Possível referência ao atual município de Toropi (RS).</note>
+        </place>
+        
+        <place xml:id="ibicui">
+            <placeName>Ibicuí</placeName>
+            <geo>-29.0215, -55.1859</geo>
+            <note>Rio Ibicuí, afluente do Rio Uruguai, marco territorial citado.</note>
+        </place>
+        
+        <place xml:id="corrientes">
+            <placeName>Corrientes</placeName>
+            <geo>-27.4712, -58.8396</geo>
+        </place>
+        
+        <place xml:id="salto">
+            <placeName>Salto</placeName>
+            <geo>-31.3833, -57.9667</geo>
+        </place>
+
     </listPlace>
 </standOff>

@@ -14,6 +14,12 @@
             <persName>Coritiba</persName>
             <note>Veterano da Revolução Farroupilha mencionado por Raul Abbott como testemunha de episódios militares.</note>
         </person>
+        
+        <person xml:id="gomes_jardim">
+            <persName>José Gomes Jardim</persName>
+            <note>Vice-presidente e líder civil da República Rio-Grandense, atuante no governo farroupilha.</note>
+        </person> 
+
         <person xml:id="canabarro">
             <persName>Canabarro</persName>
             <idno type="viaf">https://viaf.org/viaf/49300260</idno>
@@ -21,9 +27,8 @@
             <note>General David Canabarro, líder militar da Revolução Farroupilha (1835–1845).</note>
         </person>
         <person xml:id="bento_manuel">
-            <persName>Bento Manuel</persName>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q4831517</idno>
-            <note>Bento Manuel Ribeiro, militar que atuou nos dois lados do conflito Farroupilha.</note>
+            <persName>Bento Manuel Ribeiro</persName>
+            <note>Militar e estancieiro rio-grandense, atuante como comandante farroupilha; posteriormente aliado do Império.</note>
         </person>
         <person xml:id="teixeira_nunes">
             <persName>Joaquim Teixeira Nunes</persName>
@@ -288,6 +293,11 @@
         <person xml:id="jaime_legris">
             <persName>Jaime Legris</persName>
             <note>Cidadão com dívida litigiosa mencionada nas contas analisadas pelo Procurador Fiscal.</note>
+        </person>
+        
+        <person xml:id="joao_goncalves_padilha">
+            <persName>João Gonçalves Padilha</persName>
+            <note>Proprietário de estância citada no contexto da abertura da picada do Pinhal.</note>
         </person>
         
         <person xml:id="coronel_leberio">
@@ -738,7 +748,7 @@
         </person>
         
         <person xml:id="joao_barcelos">
-            <persName>João Barcelos</persName>
+            <persName>João Rodrigues Barcelos</persName>
             <note>Irmão de Bernardina, visitado por José Mariano de Matos.</note>
         </person>
         
@@ -1029,6 +1039,11 @@
         <note>Cidadão mencionado como intermediário na oferta do lanchão.</note>
     </person>
     
+    <person xml:id="isidoro_neves">
+        <persName>Isidoro Neves</persName>
+        <note>Autor de anotação marginal no documento.</note>
+    </person>
+    
     <person xml:id="miguel_antonio_magalhaes">
         <persName>Miguel Antônio de Magalhães</persName>
         <note>Tenente encarregado de comandar a embarcação adquirida.</note>
@@ -1309,5 +1324,91 @@
     <person xml:id="ismael">
         <persName>Ismael</persName>
         <note>Morador estabelecido dentro da fazenda de Candiota, indicado por Bento Gonçalves como arrendatário preferencial.</note>
+    </person>
+    
+    <person xml:id="joao_b_gregg">
+        <persName>João B. Gregg</persName>
+        <note>Tenente citado na avaliação dos salvados.</note>
+    </person>
+    
+    <person xml:id="antonio_da_costa_chaves">
+        <persName>Antônio da Costa Chaves</persName>
+        <note>Juiz de paz em Mostardas.</note>
+    </person>
+    
+    <person xml:id="domingos_goncalves_chaves">
+        <persName>Domingos Gonçalves Chaves</persName>
+        <note>Tenente-coronel, chefe geral de polícia em Mostardas.</note>
+    </person>
+    
+    <person xml:id="carlos_roberts">
+        <persName>Carlos Roberts</persName>
+        <note>Cabo envolvido na guarda de objetos da embarcação.</note>
+    </person>
+    
+    <person xml:id="collins">
+        <persName>Collins</persName>
+        <note>Indivíduo envolvido na comercialização de salvados.</note>
+    </person>
+    
+    <person xml:id="roberts">
+        <persName>Roberts</persName>
+        <note>Indivíduo vendedor de itens em leilão.</note>
+    </person>
+    
+    <person xml:id="d_francisco_joaquim_munoz">
+        <persName>D. Francisco Joaquim Muñoz</persName>
+        <note>Indivíduo relacionado a pagamentos ou adiantamentos monetários.</note>
+    </person>
+    
+    <person xml:id="jose_mariano_da_cunha">
+        <persName>José Mariano da Cunha</persName>
+        <note>Destinatário dos gados de corte mencionados no documento.</note>
+    </person>
+    
+    <person xml:id="miguel_jose_de_campos_junior">
+        <persName>Miguel José de Campos Júnior</persName>
+        <note>Subscritor da conferência do documento, atuando no impedimento do oficial-major.</note>
+    </person>
+    
+    <person xml:id="isac_pereira_da_silva">
+        <persName>Isac Pereira da Silva</persName>
+        <note>Cidadão que ofereceu carreta e ervas em favor da causa republicana.</note>
+    </person>
+    
+    <person xml:id="manuel_pereira_soares">
+        <persName>Manuel Pereira Soares</persName>
+        <note>Capitão e comandante de polícia do distrito de São Martinho.</note>
+    </person>
+    
+    <person xml:id="bonifacio_calderon">
+        <persName>Bonifácio Calderon</persName>
+    </person>
+    
+    <person xml:id="francisco_jose_ferreira_camboim">
+        <persName>Francisco José Ferreira Camboim</persName>
+        <note>Secretário responsável pela conferência do documento.</note>
+    </person>
+    
+    <person xml:id="francisco_jose_silva_moura">
+        <persName>Francisco José da Silva Moura</persName>
+    </person>
+    
+    
+    <person xml:id="jose_silveira_gularte">
+        <persName>José Silveira Gularte</persName>
+    </person>
+    
+    <person xml:id="osorio">
+        <persName>Osório</persName>
+    </person>
+    
+    <person xml:id="sebastiao_ribeiro">
+        <persName>Dr. Sebastião Ribeiro</persName>
+        <note>Ministro e Secretário de Estado dos Negócios da Justiça e Exterior da República Rio-Grandense, plenipotenciário e encarregado junto ao Estado Oriental do Uruguai.</note>
+    </person>
+    
+    <person xml:id="juan_lavalle">
+        <persName>Juan Lavalle</persName>
     </person>
 </standOff>

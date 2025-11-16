@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-370 – Ordem de entrega de gado para quitação de dívida</title>
+                <author>
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1840-03-06">6 de março de 1840</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#felisberto_machado_ourique">Felisberto Machado de Carvalho Ourique</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-370">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>S.Exª, o Sr. Vice-presidente da República determina que depois de separado o gado destinado para o cidadão <persName ref="#antonio_vicente_fontoura">Antônio Vicente da Fontoura</persName>, daquele do dissidente <persName ref="#francisco_jose_silva_moura">Francisco José da Silva Moura</persName>, do restante mande V.Sª entregar mil reses de criar ao cidadão <persName ref="#antonio_duarte">Antônio Gonçalves Pereira Duarte</persName>, que à razão de dois mil réis cada uma rês se dá em pagamento de maior quantia ao cidadão <persName ref="#jose_silveira_gularte">José Silveira Gularte</persName>; o que V.Sª cumprirá.</p>
+                
+                <closer>
+                    <p>Deus guarde a V.Sª.</p>
+                    <signed>Secretaria da Fazenda em <placeName ref="#cacapava">Caçapava</placeName>, 6 de março de 1840.<br/>(a) <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName></signed>
+                </closer>
+                
+                <p>Ilmo. Sr. <persName ref="#felisberto_machado_ourique">Felisberto Machado de Carvalho Ourique</persName>.<br/>
+                    Chefe Geral de Polícia do município da <placeName ref="#cachoeira">Cachoeira</placeName>.</p>
+                
+                <note type="endorsement">O Sr. Comandante de Polícia do 2.º Distrito deste município cumpra com a ordem do Exmo. Ministro tal qual se contém. Quartel do Comando Geral de Polícia do município da Cachoeira, 9 de março de 1840. (a) Ourique. M, Chefe de Polícia.</note>
+                
+                <note type="endorsement">Ao cidadão Felisberto Carvalho Ourique. Chefe Geral da Polícia de Cachoeira. Do Ministério da Fazenda.</note>
+                
+                <note type="endorsement">Lançado no Livro 35 a fls. 36. O Escrivão. (a) Osório.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

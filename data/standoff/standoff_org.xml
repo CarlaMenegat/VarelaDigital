@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <standOff xmlns="http://www.tei-c.org/ns/1.0">
     <listOrg>
+        <org xml:id="republica_farrapa">
+            <orgName>República Rio-Grandense</orgName>
+            <note>Governo insurgente estabelecido durante a Revolução Farroupilha.</note>
+        </org>
+        
         <org xml:id="tesouro">
             <orgName>Tesouro</orgName>
             <note>Órgão estatal responsável pelas finanças públicas da República Rio-Grandense.</note>
@@ -185,5 +190,7 @@
             <orgName>Coletorias da República Rio-Grandense</orgName>
             <note>Órgãos responsáveis pela arrecadação de tributos e execução de pagamentos determinados pelo governo.</note>
         </org>
+        
+        
     </listOrg>
 </standOff>

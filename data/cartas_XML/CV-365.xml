@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-365 – Circular sobre instruções eleitorais</title>
+                <author>
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1840-02-10">10 de fevereiro de 1840</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#inacio_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="circular" xml:id="CV-365">
+                
+                <head>Circular</head>
+                
+                <p>Para exato e pronto cumprimento da parte que a V.Sª toca nas eleições de deputados, vereadores e juízes de paz, como lhe incumbe o Art. 37 das Instruções para o efeito mandadas executar por decreto de hoje, incluso lhe remeto 8 exemplares das referidas Instruções e decreto citado. As assinaturas dos comandantes de Companhia e Corpos de que trata o Art. 39 das Instruções, são exaradas depois das assinaturas dos votantes, ou de outrem por eles, como insinua o Art. 10 das mesmas Instruções; o que V.Sª mandará explicar a quem convier para se não alegar ignorância.</p>
+                
+                <closer>
+                    <p>Deus guarde a V.Sª.</p>
+                    <signed>Secretaria do Interior em <placeName ref="#cacapava">Caçapava</placeName>, 10 de fevereiro de 1840.<br/>
+                        (a) <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>.</signed>
+                </closer>
+                
+                <p>Ilmo. Sr. <persName ref="#inacio_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>.</p>
+                
+                <note type="endorsement">Ofício do Exmo. Ministro do Interior de 10 de fevereiro, recebido a 18 do mesmo; sobre eleições. [Circular impressa]</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

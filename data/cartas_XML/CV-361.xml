@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-361 – Comunicação sobre participações enviadas ao Presidente</title>
+                <author>
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1840-01-22">22 de janeiro de 1840</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#bento_manuel">Bento Manuel Ribeiro</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-361">
+                
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>Cópia — Ontem à tarde recebi nesta a carta que V.Ex.ª se serviu dirigir-me em 18 do corrente incluindo as participações do ocorrido nos <placeName ref="#curitibanos">Curitibanos</placeName>, cujas participações imediatamente se seguiram a S.Ex.ª, o Sr. General Presidente, como V.Ex.ª exigiu, o que comunico a V.Ex.ª em resposta à dita carta.</p>
+                
+                <closer>
+                    <p>Deus guarde a V.Ex.ª.</p>
+                    <signed>Secretaria da Fazenda em <placeName ref="#cacapava">Caçapava</placeName>, 22 de janeiro de 1840.<br/>
+                        <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>.</signed>
+                </closer>
+                
+                <p>Ilmo. Exmo. Sr. General <persName ref="#bento_manuel">Bento Manuel Ribeiro</persName>.</p>
+                
+                <note type="endorsement">Está conforme. No impedimento do Oficial-maior. (a) <persName ref="#miguel_jose_de_campos_junior">Miguel José de Campos Júnior</persName>.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

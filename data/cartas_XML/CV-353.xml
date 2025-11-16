@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ofício CV-353</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1839-12-12">12 de dezembro de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="oficio" xml:id="CV-353">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Suposto no ofício da cópia inclusa assevere S.Exª., o General <persName ref="#bento_goncalves">Bento Gonçalves</persName>, tem ordenado a V.Sª. marchasse para o lugar que indica caso não tivesse o General <persName ref="#bento_manuel">Bento Manuel</persName> marcado outro destino, por ordem de S.Exª. o Sr. Vice-presidente lhe remeto a referida cópia para sua inteligência.</p>
+                
+                <closer>
+                    <p>Deus guarde a V.Sª.</p>
+                    <signed>Domingos José de Almeida</signed>
+                </closer>
+                
+                <note type="endorsement">
+                    Secretaria da Fazenda encarregada do expediente da Guerra em Caçapava, 12 de dezembro de 1839.
+                </note>
+                
+                <note type="endorsement">
+                    Ilmo. Sr. Coronel João Antônio da Silveira, Comandante da Divisão da Direita.
+                </note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

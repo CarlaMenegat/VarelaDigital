@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-368 – Circular sobre publicação e exigência de rol patrimonial (variante impressa)</title>
+                <author>
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1840-02-15">15 de fevereiro de 1840</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#inacio_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="circular" xml:id="CV-368">
+                
+                <head>Circular</head>
+                
+                <p>Cópia. Incluso remeto a V.Sª 10 exemplares da autêntica do decreto de hoje, e da Proclamação e decreto a que o mesmo se refere, a fim de lhes dar inteiro cumprimento na parte que lhes toca, para o que fará publicar por editais e sem perda de tempo em todos os distritos e lugares notáveis desse departamento, declarando aos moradores deles que com as relações que têm de apresentarem nas Assembléias primárias para as eleições de deputados, vereadores e juízes de paz como foi ordenado pelo decreto de 10 do corrente, têm de entregar mais o rol de seus bens submoventes e moventes ou daqueles que administram com as clarezas exigidas em o dito decreto hoje promulgado, sob a pena nele estatuída se o contrário praticarem ou alterarem o rol referido; e que no caso de existirem algumas propriedades em abandono, ao vizinho mais próximo compete a exibição do rol que lhes diz respeito.</p>
+                
+                <p>O Governo espera que penetrando-se V.Sªs da importância próxima e remota desta salutar medida porão em ação o patriotismo e esforço que tanto os caracteriza para que a mesma seja levada a efeito com a exatidão que se faz mister.</p>
+                
+                <closer>
+                    <p>Deus guarde a V.Sª.</p>
+                    <signed>Secretaria da Fazenda em <placeName ref="#cacapava">Caçapava</placeName>, 15 de fevereiro de 1840.<br/>
+                        <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>.</signed>
+                </closer>
+                
+                <p>Ilmo. Sr. <persName ref="#inacio_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>.</p>
+                
+                <note type="endorsement">Ofício do Exmo. Ministro da Fazenda de 15 de fevereiro, recebido a 25 do mesmo, sobre os arrolamentos dos bens compreedidos no Decreto de 15 de <orig>abxilede</orig> 1839.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

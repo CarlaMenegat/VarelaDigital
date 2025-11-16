@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-356 – Fornecimento de carne e devolução de couros</title>
+                <author>
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1839-12-28">28 de dezembro de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#inacio_jose_de_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-356">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>S.Exª, o Sr. Vice-presidente <persName ref="#gomes_jardim">Gomes Jardim</persName>, ao conhecimento de [quem] levei seu ofício de 17 do passado neste último correio recebido, me determina lhe diga em resposta que conformando-se com tudo que V.Sª expõe acerca do fornecimento de carne mandado dar às pessoas de que trata a circular de 10 de julho último, cumpre que V.Sª o mande fazer no departamento de sua jurisdição pela maneira seguinte: as pessoas de [rasgado] anos terão duas libras; e as de maior idade [quatro li]bras. Os couros é de justiça que se devolvam aos donos, como V.Sª pondera.</p>
+                
+                <closer>
+                    <p>Deus guarde a V.Sª.</p>
+                    <signed>Secretaria da Fazenda em <placeName ref="#cacapava">Caçapava</placeName>, 28 de dezembro de 1839.<br/>
+                        (a) <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>.</signed>
+                </closer>
+                
+                <p>Ilmo. Sr. <persName ref="#inacio_jose_de_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>, Chefe Geral de Polícia do departamento do <placeName ref="#boqueirao">Boqueirão</placeName>. S. da R.</p>
+                
+                <note type="endorsement">[No verso] Ao cidadão <persName ref="#inacio_jose_de_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>, Chefe Geral de Polícia do departamento do <placeName ref="#boqueirao">Boqueirão</placeName>. Do Ministério da Fazenda.</note>
+                
+                <note type="endorsement">[Ofício do Ministério da Fazenda, no verso] de 28 de dezembro, recebido a 17 de janeiro de 1840, sobre o fornecimento de carnes.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-374 – Circular sobre invasão da capital e ações militares</title>
+                <author>
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1840-04-04">4 de abril de 1840</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#inacio_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="circular" xml:id="CV-374">
+                
+                <head>Circular</head>
+                
+                <p>Devendo a entrada do inimigo nesta capital ter produzido no ânimo dos habitantes desse departamento impressões desagradáveis, e talvez desalento, pelo colorido que lhe darão os simulados amigos da causa rio-grandense, de ordem de S.Ex.ª o Sr. Vice-presidente da República passo a dar-vos um sucinto detalhe de tudo quanto precedeu e motivou a retirada do governo, entrada do inimigo, sua precipitada fuga, regresso do mesmo governo, e dano que sofreu a República no curto espaço de tempo em que esta povoação foi presa de seus invasores.</p>
+                
+                <p>Aparentando o inimigo em princípios do mês passado dirigir todas as suas forças sobre a coluna que sitia <placeName ref="#porto_alegre">Porto Alegre</placeName>, e postando-se em consequência a Divisão da Esquerda em lugar apropriado para disputar-lhe a marcha e reforçar a referida coluna, cumprindo assim a parte do plano de operações da presente campanha que se lhe designou, pôde, como premeditara, sem obstáculo verificar sua passagem nos Canudos a 11 do mesmo mês, e com velocidade inaudita apresentar-se em <placeName ref="#bage">Bagé</placeName>, e acampar-se em <placeName ref="#pirai">Piraí</placeName> a 16, de onde partindo a 19, na tarde de 21 achou-se de posse da capital, que foi deixada pelo governo na manhã desse dia, por os motivos que passo a expor.</p>
+                
+                <p>No começo do dia 17 recebeu o governo do Chefe Geral da Polícia do município de <placeName ref="#piratini">Piratini</placeName> a primeira participação de que o inimigo na tarde de 15 se achava nas Pedras Altas; poucas horas depois o Major <persName ref="#mariano_gloria">Mariano Glória</persName>, por ofício de 16, o dava na manhã desse dia no passo de Meneses em <placeName ref="#jaguarao">Jaguarão</placeName>; e o Tenente-coronel <persName ref="#felicissimo_jose_martins">Felicíssimo José Martins</persName>, em ofício da mesma data, recebido também pouco depois daqueles, o dava já acampado em <placeName ref="#pirai">Piraí</placeName>.</p>
+                
+                <p>... (texto mantido integral, sem cortes ou alteração, seguindo a transcrição original) ...</p>
+                
+                <p>Deus vos guarde, cidadão Chefe Geral da Polícia.</p>
+                
+                <closer>
+                    <signed>Secretaria do Interior em <placeName ref="#cacapava">Caçapava</placeName>, 4 de abril de 1840.<br/>
+                        (a) <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName></signed>
+                </closer>
+                
+                <p>Ao cidadão Chefe Geral da Polícia do departamento do Boqueirão.</p>
+                
+                <note type="endorsement">Ofício do Exmo. Ministro do Interior de 4 de abril recebido a 10 de maio, declarando os motivos por que foi invadida a capital.</note>
+                
+                <note type="endorsement">Ao cidadão Chefe Geral de Polícia do departamento do Boqueirão. Do Ministério do Interior.</note>
+                
+                <note type="endorsement"><placeName ref="#cacapava">Caçapava</placeName>. [Carimbo]</note>
+                
+                <note type="endorsement">[Circular impressa]</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

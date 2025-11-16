@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-364 – Circular sobre habilitação de pontos de exportação</title>
+                <author>
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1840-02-02">2 de fevereiro de 1840</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#chefe_policia_boqueirao">Chefe Geral de Polícia do departamento do Boqueirão</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="circular" xml:id="CV-364">
+                
+                <head>Circular</head>
+                
+                <p>Para conhecimento de V.Sª e devida execução na parte que lhe toca, incluso remeto cinco exemplares do decreto de hoje, pelo qual S.Ex.ª, o Sr. Vice-presidente da República <persName ref="#gomes_jardim">Gomes Jardim</persName>, houve por bem conceder por a <placeName ref="#barra_rita">barra, picada e charqueada de D. Rita</placeName> a exportação de gado em pé e esquartejado para <placeName ref="#porto_alegre">Porto Alegre</placeName> bem como para <placeName ref="#rio_grande">Rio Grande</placeName>, e para o mesmo fim habilitou mais em <placeName ref="#sao_goncalo">São Gonçalo</placeName> o <placeName ref="#passo_liscano">passo de Liscano</placeName>.</p>
+                
+                <closer>
+                    <p>Deus guarde a V.Sª.</p>
+                    <signed>Secretaria da Fazenda em <placeName ref="#cacapava">Caçapava</placeName>, 2 de fevereiro de 1840.<br/>
+                        (a) <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>.</signed>
+                </closer>
+                
+                <p>Ao cidadão <persName ref="#chefe_policia_boqueirao">Chefe Geral de Polícia do departamento do Boqueirão</persName>.</p>
+                
+                <note type="endorsement">Circular do Exmo. Ministro da Fazenda, 2 de fevereiro. Recebida a 10 do mesmo, e já expedidas as ordens a respeito. [Circular impressa]</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>
