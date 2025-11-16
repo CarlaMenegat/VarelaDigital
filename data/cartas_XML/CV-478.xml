@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-478</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#sao_gabriel">São Gabriel</placeName>
+                    <date when="1841-07-08">8 de julho de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
+                    <placeName ref="#bage">Bagé</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-478" type="letter">
+                
+                <opener>
+                    <salute>Querida Bernardina</salute>
+                </opener>
+                
+                <p>No 1.º do corrente enviei a nosso <persName ref="#compadre">compadre</persName> os papéis que vim fazer para ele assinar e mos remeter e eu seguir com eles a essa para os enviar a <persName ref="#matos">Matos</persName> como tratamos; ele se achava então daqui a dez léguas, em cuja distância poderia o próprio aqui chegar em três dias: até hoje, porém, nem o próprio e nem resposta me tem vindo; julga quanto isto me não terá incomodado.</p>
+                
+                <p>Hoje me disseram que ele mesmo vem, e que talvez antes da noite aqui esteja: se assim acontecer, eu mesmo serei o portador desta, e se não seguirá pelo <persName ref="#rafael">compadre Rafael</persName>.</p>
+                
+                <p>Seja qual for o embaraço de minha ida a essa, nada a privará; espera-me pois por estes poucos dias. Recomenda-me às comadres, compadre e conhecidos, abraça por mim a nossos filhos, e recebe tu o coração do</p>
+                
+                <closer>
+                    <signed>Teu <persName ref="#domingos_jose_almeida">(a) Almeida</persName></signed>
+                </closer>
+                
+                <address>
+                    <persName ref="#bernardina_barcelos_almeida">Sra. Bernardina Barcelos de Almeida</persName><br/>
+                    <placeName ref="#bage">Bagé</placeName>
+                </address>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

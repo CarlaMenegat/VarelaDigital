@@ -270,5 +270,10 @@
         <org xml:id="quartel_mestre_general">
             <orgName>Quartel-mestre-general</orgName>
         </org>
+        
+        <org xml:id="infantaria">
+            <orgName>Infantaria</orgName>
+            <note>Ramo militar terrestre que compunha as forças armadas durante a Revolução Farroupilha.</note>
+        </org>
     </listOrg>
 </standOff>

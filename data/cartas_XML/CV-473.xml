@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-473</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#sao_gabriel">São Gabriel</placeName>
+                    <date when="1841-05-03">3 de maio de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
+                    <placeName ref="#bage">Bagé</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-473" type="letter">
+                
+                <opener>
+                    <salute>Querida Bernardina</salute>
+                </opener>
+                
+                <p>Ontem recebi a tua de 28 do passado, e sua leitura me encheu da mais viva satisfação, pela certeza de não teres sofrido com a estada nessa de nossos inimigos, que só aí procederam bem. Sobre mim não tenhas o menor incômodo e me escreve continuamente como te tenho feito; elas te chegarão às mãos.</p>
+                
+                <p>Logo que o inimigo avance ou se retire, te mandarei sair para onde eu tiver de parar neste inverno.</p>
+                
+                <p>Manda o <persName ref="#casaca">Casaca</persName>, logo que esta receberes, para a casa do velho <persName ref="#neto">Neto</persName>, a fim de ir com <persName ref="#joao_da_cunha">João da Cunha</persName> a <placeName ref="#montevideo">Montevidéu</placeName> quando por ali passar; e isto faze logo que esta receberes.</p>
+                
+                <p>O <orgName ref="#ministerio_andrada">Ministério Andrada</orgName> caiu, bem como o <orgName ref="#presidente_e_comandante_armas">Presidente e Comandante das Armas</orgName> desta, vindo o <persName ref="#saturnino">Saturnino</persName> em lugar de <persName ref="#alvares_machado">Álvares Machado</persName>, e <persName ref="#conde_do_rio_pardo">Conde do Rio Pardo</persName> em lugar de <persName ref="#joao_paulo">João Paulo</persName>. Isto tem de produzir bons resultados, etc., etc...</p>
+                
+                <p>Saudades a nossas comadres, abraços a nossos queridos filhos, e tu recebe o coração do</p>
+                
+                <closer>
+                    <signed>Teu <persName ref="#domingos_jose_almeida">(a) Almeida</persName></signed>
+                </closer>
+                
+                <address>
+                    <persName ref="#bernardina_barcelos_almeida">Sra. Bernardina Barcelos de Almeida</persName>.<br/>
+                    <placeName ref="#bage">Bagé</placeName>
+                </address>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-475</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <date when="1841-05-14">14 de maio de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#bernardo_jose_rodrigues_filho">Bernardo José Rodrigues</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-475" type="letter">
+                
+                <opener>
+                    <salute>Sr. Comissário</salute>
+                </opener>
+                
+                <p>Para o <persName ref="#jose_amaral_ferrador">Capitão José Amaral Ferrador</persName> veja se compra a peça de chita que pede na carta inclusa para camisas; cuja carta e chita me enviará, que depois lhe irá a ordem para o pagamento.</p>
+                
+                <closer>
+                    <p>De V. S.ª</p>
+                    <signed>Amigo afetuoso <persName ref="#domingos_jose_almeida">(a) Almeida</persName></signed>
+                </closer>
+                
+                <dateline>S. C., 14 de maio de 1841.</dateline>
+                
+                <note type="endorsement">uma peça de chita por 128800 rs. [em casa de Lucas]</note>
+                
+                <address>
+                    <persName ref="#bernardo_jose_rodrigues_filho">Ilmo. Sr. Bernardo José Rodrigues</persName> — Sua residência.<br/>
+                    <note>2.º Corpo de 1.º linha — Para lançar</note>
+                </address>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

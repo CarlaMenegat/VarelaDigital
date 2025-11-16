@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-474</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <date when="1841-05-11">11 de maio de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#joao_antonio_da_silveira">Coronel João Antônio da Silveira</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-474" type="letter">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Inteirado de quanto V. S.ª me diz no ofício que me dirigiu a 9 do corrente acerca das licenças para a exportação de gado de corte, respondo.</p>
+                
+                <p>Na ocasião de expedir a ordem para a sua absoluta privação, com o fim de não serem distraídos do exército homens e cavalos pus fora dessa determinação o francês <persName ref="#delapierre">Delapierre</persName> somente por saber que há muito estava com gente empregada no aparte de várias tropas, naquela data a concluir-se.</p>
+                
+                <p>Logo depois o cidadão <persName ref="#antonio_prudente_da_fonseca">Antônio Prudente da Fonseca</persName> exigiu portaria para uma tropa que já vinha em marcha, como asseverou o <persName ref="#alexandre_bueno_de_camargo">Capitão Alexandre Bueno de Camargo</persName>, e lha não pude negar por vir em caminho; o mesmo sucedeu com o cidadão <persName ref="#fidelis_nepomuceno_junior">Fidélis Nepomuceno Júnior</persName>.</p>
+                
+                <p><persName ref="#jose_maria_de_macedo">José Maria de Macedo</persName> representou pouco depois ter uma tropa apartada e pronta a seguir de conta do Capitão <persName ref="#fidelis_nepomuceno_junior">Fidélis</persName>, e nesta circunstância lhe não pude negar portaria por coisa pertencente a este cidadão prestável.</p>
+                
+                <p><persName ref="#jobim_de_cambai">Jobim de Cambaí</persName> e <persName ref="#hermenegildo_carvalho">Hermenegildo Carvalho</persName> pelas mesmas razões expediram o gado que tinham apartado; e além destes a ninguém mais tem o governo permitido a extração de gados e de novo recomenda a V. S.ª que o não permita para atender-se ao exército somente.</p>
+                
+                <closer>
+                    <p>Deus guarde a V. S.ª. Secretaria da Fazenda, 11 de maio de 1841.</p>
+                </closer>
+                
+                <signed>
+                    <persName ref="#joao_antonio_da_silveira">Ilmo. Sr. Coronel João Antônio da Silveira</persName>.<br/>
+                    <persName ref="#domingos_jose_almeida">(a) Domingos José de Almeida</persName>
+                </signed>
+                
+                <note type="endorsement">S. da R. <lb/>Ao cidadão <persName ref="#joao_antonio_da_silveira">Coronel João Antônio da Silveira</persName>. Comandante da Divisão da Direita. Aonde se ache. <orgName ref="#ministerio_fazenda">Do Ministério da Fazenda</orgName>.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

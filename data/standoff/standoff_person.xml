@@ -2359,5 +2359,135 @@
         <person xml:id="bernardo_jose_rodrigues_filho">
             <persName>Bernardo José Rodrigues Filho</persName>
         </person>
+        
+        <person xml:id="joao_paulo">
+            <persName>João Paulo</persName>
+            <note>Mencionado como chefe militar aliado ao Império do Brasil durante ações de campanha contra os republicanos farroupilhas.</note>
+        </person>
+        
+        <person xml:id="victorica">
+            <persName>Victorica</persName>
+            <note>Indivíduo citado como credor ou responsável por possível empréstimo financeiro à família de Domingos José de Almeida.</note>
+        </person>
+        
+        <person xml:id="truebas">
+            <persName>Truebas</persName>
+            <note>Indivíduo mencionado como potencial provedor de recursos financeiros para Bernardina.</note>
+        </person>
+        
+        <person xml:id="casaca">
+            <persName>Casaca</persName>
+            <note>Indivíduo mencionado como encarregado de deslocamento e envio de recados ou serviços.</note>
+        </person>
+        
+        <person xml:id="neto">
+            <persName>Neto</persName>
+            <note>Identificado como "velho Neto", possivelmente residente ou ponto de referência para deslocamento; identidade completa não especificada.</note>
+        </person>
+        
+        <person xml:id="joao_da_cunha">
+            <persName>João da Cunha</persName>
+            <note>Indivíduo citado como acompanhante de viagem a Montevidéu.</note>
+        </person>
+        
+        <person xml:id="saturnino">
+            <persName>Saturnino</persName>
+            <note>Mencionado como ocupante de cargo após queda do Ministério Andrada.</note>
+        </person>
+        
+        <person xml:id="alvares_machado">
+            <persName>Álvares Machado</persName>
+            <note>Mencionado como autoridade substituída na narrativa epistolar.</note>
+        </person>
+        
+        <person xml:id="conde_do_rio_pardo">
+            <persName>Conde do Rio Pardo</persName>
+            <note>Autoridade nomeada para cargo após mudança política referida.</note>
+        </person>
+        
+        <person xml:id="delapierre">
+            <persName>Delapierre</persName>
+            <note>Citizenship indicada como francesa; mencionado no contexto de manejo e exportação de gado durante a Revolução Farroupilha.</note>
+        </person>
+        
+        <person xml:id="antonio_prudente_da_fonseca">
+            <persName>Antônio Prudente da Fonseca</persName>
+            <note>Mencionado como responsável por tropa de gado em trânsito.</note>
+        </person>
+        
+        <person xml:id="alexandre_bueno_de_camargo">
+            <persName>Alexandre Bueno de Camargo</persName>
+            <note>Mencionado com posto de capitão no contexto da carta.</note>
+        </person>
+        
+        <person xml:id="fidelis_nepomuceno_junior">
+            <persName>Fidélis Nepomuceno Júnior</persName>
+            <note>Mencionado como responsável ou proprietário de tropa apartada.</note>
+        </person>
+        
+        <person xml:id="jose_maria_de_macedo">
+            <persName>José Maria de Macedo</persName>
+            <note>Mencionado como interessado na condução e portaria de tropa de gado.</note>
+        </person>
+        
+        <person xml:id="jobim_de_cambai">
+            <persName>Jobim de Cambaí</persName>
+            <note>Citados como expedidores de tropa apartada; parte do circuito de manejo pecuário.</note>
+        </person>
+        
+        <person xml:id="hermenegildo_carvalho">
+            <persName>Hermenegildo Carvalho</persName>
+            <note>Mencionado como envolvido na expedição de gado apartado.</note>
+        </person>
+        
+        <person xml:id="jose_amaral_ferrador">
+            <persName>José Amaral Ferrador</persName>
+            <note>Mencionado com posto de capitão na carta, solicitante de peça de chita para camisas.</note>
+        </person>
+        
+        <person xml:id="evaristo">
+            <persName>Evaristo</persName>
+            <note>Indivíduo encarregado de entregar dinheiro à destinatária, mencionado sem sobrenome.</note>
+        </person>
+        
+        <person xml:id="luis_machado_teixeira">
+            <persName>Luís Machado Teixeira</persName>
+            <note>Mencionado como portador da carta e indicado para exercer o cargo de coletor.</note>
+        </person>
+        
+        <person xml:id="maria_angela_corte_real_de_lima">
+            <persName>Maria Ângela Corte Real de Lima</persName>
+            <note>Pessoa proprietária mencionada na carta, cujo patrimônio foi objeto de decisão administrativa.</note>
+        </person>
+        
+        <person xml:id="jose_alves_de_morais">
+            <persName>José Alves de Morais</persName>
+            <note>Tenente-coronel e genro de Maria Ângela Corte Real de Lima, responsável pelo arrendamento do Rincão de Saicã.</note>
+        </person>
+        
+        <person xml:id="general_lima">
+            <persName>General Lima</persName>
+            <note>Mencionado como esposo de Maria Ângela Corte Real de Lima; identidade completa não fornecida.</note>
+        </person>
+        
+        <person xml:id="joao_antonio_da_silveira">
+            <persName>João Antônio da Silveira</persName>
+            <note>General, destinatário da carta, comandante de forças republicanas.</note>
+        </person>
+        
+        <person xml:id="presidente_republica">
+            <persName>Presidente da República</persName>
+            <note>Autoridade superior mencionada sem identificação nominal.</note>
+        </person>
+        
+        <person xml:id="isabel_leonor_meireles_de_matos">
+            <persName>Isabel Leonor Meireles de Matos</persName>
+            <note>Mencionada como destinatária de quantia monetária; tratada com título de dama.</note>
+        </person>
+        
+        <person xml:id="frederico_smithe">
+            <persName>Frederico Smithe</persName>
+            <note>Destinatário da ordem de pagamento, mencionado como ausente.</note>
+        </person>
     </listPerson>
 </standOff>

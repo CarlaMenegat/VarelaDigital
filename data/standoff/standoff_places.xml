@@ -21,6 +21,12 @@
             <note>Município de Santa Catarina, Brasil.</note>
         </place>
         
+        <place xml:id="rosario_do_sul">
+            <placeName>Rosário do Sul</placeName>
+            <geo>-30.2580, -54.9120</geo>
+            <note>Município localizado na região sudoeste do Rio Grande do Sul, Brasil, próximo ao rio Santa Maria e à fronteira com o Uruguai. No período da Revolução Farroupilha, foi área estratégica de circulação militar, deslocamento de tropas e logística de campanha.</note>
+        </place>
+        
         <place xml:id="vacaria">
             <placeName>Vacaria</placeName>
             <geo>-28.5079 -50.9418</geo>
@@ -213,6 +219,12 @@
         <place xml:id="inhanduí">
             <placeName>Inhanduí</placeName>
             <note>Rio.</note>
+        </place>
+        
+        <place xml:id="santa_maria_da_boca_do_monte">
+            <placeName>Santa Maria da Boca do Monte</placeName>
+            <geo>-29.6868, -53.8149</geo>
+            <note>Denominação histórica da atual cidade de Santa Maria, no Rio Grande do Sul.</note>
         </place>
         
         <place xml:id="ibirapuita">
