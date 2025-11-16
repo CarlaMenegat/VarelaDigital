@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-407 – Ordem de pagamento ao Tenente-coronel Boaventura Soares da Silva</title>
+                <author><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName>
+                    <placeName ref="#vacaqua">Vacaquá</placeName>
+                    <date when="1840-11-02">2 de novembro de 1840</date>
+                </correspAction>
+                <correspAction type="received">
+                    <!-- destinatário sem nome -->
+                    <persName>Coletor de <placeName ref="#alegrete">Alegrete</placeName></persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-407" type="letter">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                    <note type="endorsement">S.R.</note>
+                </opener>
+                
+                <p>Dos rendimentos da <orgName ref="#coletoria">coletoria</orgName> a seu cargo pagará V. S.ª ao cidadão 
+                    Tenente-coronel <persName ref="#boaventura_soares_silva">Boaventura Soares da Silva</persName> a quantia de Rs. 
+                    212$820, duzentos e doze mil oitocentos e vinte réis, em patacões à razão de cinco patacas cada um, 
+                    importância do que há suprido às forças de <placeName ref="#sao_borja">São Borja</placeName>, como dos dois documentos inclusos.</p>
+                
+                <p>Esta dívida é sagrada e por isso espera o Governo que V. S.ª se esforce em satisfazê-la.</p>
+                
+                <closer>
+                    <p>Deus guarde a V. S.ª.</p>
+                </closer>
+                
+                <p><orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName> em 
+                    <placeName ref="#vacaqua">Vacaquá</placeName>, 2 de novembro de 1840.</p>
+                
+                <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</signed>
+                
+                <p>Ao cidadão Coletor de <placeName ref="#alegrete">Alegrete</placeName>.</p>
+                
+                <note type="endorsement">
+                    S.R. [No verso]<br/>
+                    Ao cidadão Coletor de <placeName ref="#alegrete">Alegrete</placeName>.<br/>
+                    Do <orgName ref="#ministerio_fazenda">Ministério da Fazenda</orgName>.
+                </note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

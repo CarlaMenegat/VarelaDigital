@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-430 – Considerações sobre prisão, liberação de escravizados e tensões administrativas</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <date notBefore="1840-12-01" notAfter="1840-12-31">[dezembro de 1840]</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#jose_mariano_matos">José Mariano de Matos</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-430" type="letter">
+                
+                <opener>
+                    <salute>Exmo. Sr. Matos</salute>
+                </opener>
+                
+                <p>Enquanto está com a mão na massa: tome mais estes papéis para seu tabaco.</p>
+                
+                <p>O preso reclamado por Florisbelo e o mulato da viúva de <placeName ref="#cacapava">Caçapava</placeName> foram soltos, um antes que eu regressasse, e outro por sua ordem, bem como o escravo de <persName ref="#alexandre_simoes">Simões</persName>.</p>
+                
+                <p>Disto, e do mais com <persName ref="#camilo_campelo">Campelo</persName> e outros, colijo que estamos nos paroxismos, e que só o braço de Deus terá poder de sustentar o edifício que pende para o lado etc., etc., etc...</p>
+                
+                <closer>
+                    <p>Seu amigo obrigado<br/>
+                        (a) <persName ref="#domingos_jose_almeida">Almeida</persName>.</p>
+                </closer>
+                
+                <p>Vai o ofício de J.S. e aquele a que se refere.</p>
+                
+                <note type="endorsement">Deve ser de dezembro de 1840. Vide retro.</note>
+                
+                <opener>
+                    <salute>Sr.</salute>
+                </opener>
+                
+                <p>Deve-se responder ao Sr. Pereira que não tem lugar sua pretensão, e menos pela maneira com que a exige; remeta-lhe cópia do ofício de <persName ref="#belo_neto">Belo Neto</persName>, e diga-lhe que o mulato Benedito é por mim e por todos quantos vieram de <placeName ref="#cacapava">Caçapava</placeName> conhecido por escravo único da velha Luísa, de cuja subsistência trata; que é sabido que daquela vila saiu alugado ao irmão do estrangeiro Grafia; que finalmente o governo entendeu dever mandá-los soltar, que nisso exerceu uma de suas atribuições, sem que compita a S. S.ª a fiscalização de seus atos e menos o querer pó-lo em coação e inibido de soltar um qualquer indivíduo só porque fora preso por S. S.ª; e finalmente que se o governo praticou uma injustiça, ou fez um dano à pátria com essas solturas, ele é por isso responsável e jamais S. S.ª a quem a opinião pública tecerá os devidos encômios pelo seu zelo etc., etc...</p>
+                
+                <p>Mas que essa mesma opinião pública jamais lhe tecerá elogios pelo passo que acaba de dar de demitir-se só porque não marchara o governo de conformidade com os seus desejos, embora seguisse o que a razão, a justiça e a humanidade reclamavam.</p>
+                
+                <p>Se o Major Belo iludiu o governo e lhe mentiu, o governo não o podia esperar de sua pessoa; e nem S. S.ª se anima a afirmá-lo.</p>
+                
+                <p>Que o governo não quer testas-de-ferro, quer como ele bons e zelosos servidores que cumpram suas ordens e as respeitem sem quererem fazer do governo um espantalho ou testa-de-ferro sem ação ou vontade própria.</p>
+                
+                <p>Com efeito já me falta a paciência para aturar tanta ignorância, brutalidade e ousadia.</p>
+                
+                <p>Eu não sei que diabo tenho escrito: faça pois o que entender; salvando sempre a dignidade do governo.</p>
+                
+                <closer>
+                    <signed>Seu amigo<br/>(a) <persName ref="#jose_mariano_matos">Matos</persName>.</signed>
+                </closer>
+                
+                <note type="endorsement">Exmo. Sr. Matos. Sua casa.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

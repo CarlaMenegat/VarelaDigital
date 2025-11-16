@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-405 – Requisição de soldados para serviço particular</title>
+                <author><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <orgName ref="#secretaria_interior_fazenda">Secretaria do Interior e Fazenda</orgName>
+                    <placeName ref="#cavera">Caverá</placeName>
+                    <date when="1840-10-11">11 de outubro de 1840</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
+                    <orgName ref="#divisao_direita">Divisão da Direita</orgName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-405" type="letter">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Requisitando o Exmo. Vigário Apostólico um camarada para tratar do seu cavalo, e o mesmo pedindo 
+                    <persName ref="#jose_vaz_viana">José Vaz Viana</persName>, almoxarife, haja V. S.ª de mandar que da 
+                    <orgName ref="#companhia_artifices">Companhia de Artífices</orgName> se forneça ao dito Exmo. Vigário o soldado 
+                    <persName ref="#oliverio_rodrigues_pereira">Olivério Rodrigues Pereira</persName>, e ao almoxarife o soldado 
+                    <persName ref="#francisco_rosario">Francisco do Rosário</persName> para o fim indicado.</p>
+                
+                <closer>
+                    <p>Deus guarde a V. S.ª.</p>
+                </closer>
+                
+                <p><orgName ref="#secretaria_interior_fazenda">Secretaria do Interior e Fazenda</orgName> encarregada do 
+                    expediente da Guerra em <placeName ref="#cavera">Caverá</placeName>, 11 de outubro de 1840.</p>
+                
+                <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</signed>
+                
+                <p>Ilmo. Sr. Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.<br/>
+                    Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</p>
+                
+                <note type="endorsement">
+                    S. da R. [No verso]<br/>
+                    Ilmo. Sr. Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.<br/>
+                    Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.<br/>
+                    Do <orgName ref="#ministerio_guerra">Ministério da Guerra</orgName>.
+                </note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

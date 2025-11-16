@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-435 – Informações familiares e notícias militares</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1841-01-11">11 de janeiro de 1841</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-435" type="letter">
+                
+                <opener>
+                    <dateline><placeName ref="#piratini">Piratini</placeName>, 11 de janeiro de 1841.</dateline>
+                    <salute>Querida Bernardina</salute>
+                </opener>
+                
+                <p>Todas as novidades se dissiparam com a certeza de não passar Silva, e ter regressado da <placeName ref="#encruzilhada">Encruzilhada</placeName> para <placeName ref="#rio_pardo">Rio Pardo</placeName> a força inimiga que ali entrara a 4 do presente; pelo que já ontem deixei de dormir no mato e de brigar com os muquins [sic]. A divisão de <persName ref="#canabarro">Canabarro</persName> já se acha no município da <placeName ref="#cruz_alta">Cruz Alta</placeName>; a de <persName ref="#bento_goncalves">Bento Gonçalves</persName> também ali a faço, e por isso mui breve aí estarei apesar das más notícias do outro lado, ou te irei buscar.</p>
+                
+                <p>José tem estado muito mal e o Catraio também hoje adoeceu. Madama Nault não achou casa; mas se acha na minha, e eu muito estimo para pagar-lhe com isso o bem que te tratou em tua moléstia; nestes 5 ou 6 dias muda-se.</p>
+                
+                <p>Visita por mim a nossos compadres e comadres, a D. Rufina, seu marido e Ferrugem, abraça a nossos filhos e recebe o coração do</p>
+                
+                <closer>
+                    <signed><persName ref="#domingos_jose_almeida">Teu (a) Almeida</persName></signed>
+                </closer>
+                
+                <note type="endorsement">
+                    Sra. Bernardina Barcelos de Almeida. <placeName ref="#bage">Bagé</placeName>.
+                </note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

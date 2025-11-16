@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-426 – Correspondência familiar sobre moradia, saúde e demissões</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1840-12-27">27 de dezembro de 1840</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-426" type="letter">
+                
+                <opener>
+                    <dateline><placeName ref="#piratini">Piratini</placeName>, 27 de dezembro de 1840.</dateline>
+                    <salute>Querida Bernardina.</salute>
+                </opener>
+                
+                <p>Neste momento, três da tarde, tive a perene satisfação de receber a tua de anteontem, em que me participas tua chegada nessa, sucesso da Maria em caminho e a má casa que ocupas, como que nossos queridos filhos se acham sem novidade. Eu te suplico que te conformes com a sorte que nos foi prescrita, esperando que ela se modifique mediante a proteção do céu.</p>
+                
+                <p>Hoje mandei um próprio a <placeName ref="#cerro_largo">Cerro Largo</placeName> a ver se compro ou alugo a casa de <persName ref="#manuel_gomes_guimaraes">Manuel Gomes Guimarães</persName>; e quando nada disto arranje comprei [sic] as do velho Oliveira, o que verificado te irei imediatamente buscar, caso chegue a salvo, como espero, a Divisão do Centro que há dias há subido a Serra,</p>
+                
+                <p>Por isso não penses que tenho desistido do intento de largar o emprego que ocupo; já não posso com ele e também já é tempo de viver para ti e para nossos filhos.</p>
+                
+                <p>O escravo de <persName ref="#alexandre_simoes">Simões</persName>, como aquele vindo com o irmão de Graña, já foram devolvidos a seus senhores; e se dizem que protejo aos negociantes falam uma verdade de que muito e muito me honra.</p>
+                
+                <p>A hipocondria muito me tem atacado nestes últimos dias; já me não é possível estar fora de ti e dos meninos, a quem por mim abraçarás ternamente.</p>
+                
+                <p>Eu muito desejo que não recebas carne do Estado para gasto de casa; compra toda quanto precisares e despreza continhos que sempre são alterados por quem os relata.</p>
+                
+                <p>Saudades aos compadres, D. Rufina, e recebe o coração<br/>
+                    Do teu <signed>(a) <persName ref="#domingos_jose_almeida">Almeida</persName>.</signed></p>
+                
+                <note type="endorsement">
+                    <persName ref="#bernardina_barcelos_almeida">Sra. Bernardina Barcelos de Almeida</persName>. <placeName ref="#bage">Bagé</placeName>.
+                </note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-415 – Solicitação de recibo complementar</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1840-12-14">14 de dezembro de 1840</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
+                    <orgName ref="#divisao_direita">Divisão da Direita</orgName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-415" type="letter">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Quando em 19 do passado exigi de V. S.ª o recibo das quantias que de dinheiro meu lhe havia dado para 
+                    despesas de bombeiros e miudezas da <orgName ref="#divisao_direita">Divisão</orgName> a seu cargo, me não lembrou das três onças 
+                    que lhe dei a 5 do mesmo em <placeName ref="#vacaqua">Vacaquá</placeName> no valor de cinquenta e um patacões prata, e por isso 
+                    os não contemplei na conta então dada, como verá da cópia inclusa, e em vista da qual me forneceu o documento 
+                    também por cópia firmado no referido dia 19.</p>
+                
+                <p>E porque para meu embolso, em tempo idôneo, seja mister documento seu, rogo a V. S.ª mo remeta na primeira 
+                    ocasião segura que para esta se oferecer.</p>
+                
+                <closer>
+                    <p>Deus guarde a V. S.ª.</p>
+                </closer>
+                
+                <p><orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName> em 
+                    <placeName ref="#piratini">Piratini</placeName>, 14 de dezembro de 1840.</p>
+                
+                <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</signed>
+                
+                <p>Ilmo. Sr. <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName><br/>
+                    Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</p>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

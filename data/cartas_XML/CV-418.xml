@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-418 – Instrução para lançamento contábil de letra</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1841-02-28">28 de fevereiro de 1841</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <note>Ao [T.G.] interino do Tesouro (não identificado nominalmente).</note>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-418" type="letter">
+                
+                <p>A letra a meu favor passada por 
+                    <persName ref="#manuel_pedro_toledo">Manuel Pedroso [sic] de Toledo</persName> 
+                    em <note>[rasgado]</note> de novembro próximo passado pela quantidaddee 785 
+                    patacões prata, há tido o destino demonstrado nos ofícios de 16 de dezembro 
+                    próximo passado e 13 do corrente em cópias autênticas juntos, em virtude dos 
+                    quais debitará ditos 785 patacões prata ao cidadão 
+                    <persName ref="#joao_jose_damasceno">Coronel João José Damasceno</persName>.</p>
+                
+                <closer>
+                    <p>Deus guarde a V. S.ª.</p>
+                </closer>
+                
+                <p><orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName> em 
+                    <placeName ref="#piratini">Piratini</placeName>, 28 de fevereiro de 1841.</p>
+                
+                <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</signed>
+                
+                <p>Ao <note>[cidadão] [T.G.]</note> interino do 
+                    <orgName ref="#tesouro">Tesouro</orgName>.</p>
+                
+                <note type="endorsement">[Cópia]</note>
+                
+                <note type="endorsement">
+                    [Os documentos CV-416, 417 e 418 foram copiados por 
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName> 
+                    na mesma folha]
+                </note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

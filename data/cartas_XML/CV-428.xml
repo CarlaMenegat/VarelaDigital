@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-428 – Medidas sobre fraude nos direitos nacionais</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1840-12-28">28 de dezembro de 1840</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#camilo_campelo">Camilo Campelo</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-428" type="letter">
+                
+                <opener>
+                    <salute>Cópia — Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Os ofícios que ora expeço a <persName ref="#jose_joaquim_caldeira">José Joaquim Caldeira</persName>, a <persName ref="#leocadio_jose_oliveira">Leocádio José de Oliveira</persName> e a <persName ref="#simeao_estelita_cunha">Simeão Estelita da Cunha</persName>, por cópia inclusos, mostrarão a V. S.ª quais os resultados de nossa conferência acerca da fraude que tem havido nos direitos nacionais, direitos que nos são urgentes presentemente. Se me tiver escapado outra alguma medida mais profícua, se servirá dizer-me para determiná-la.</p>
+                
+                <p>Também anexo cópia do ofício que dirijo ao Chefe Geral de Polícia do município de <placeName ref="#jaguarao">Jaguarão</placeName>, para sua inteligência. Imediatamente que recebi seu ofício de hoje revoguei a transferência da mulher de <persName ref="#camilo_fernandes_lima">Camilo Fernandes Lima</persName> e da viúva Rita, despachando o Guarda Nacional <persName ref="#antonio_sousa_leal">Antônio de Sousa Leal</persName> para o ponto onde V. S.ª o tem colocado. Ontem à noite recebi o que V. S.ª me dirigiu com a parte do mesmo Leal, tendo antes a V. S.ª enviado a que dera o <persName ref="#felix_vieira">Major Félix Vieira</persName>.</p>
+                
+                <p>Eu suponho que o movimento do inimigo tem por fim fazer passar livres de direitos várias tropas que me consta estarem-se fazendo no <placeName ref="#estado_oriental">Estado Oriental</placeName>; e por isso não seria ocioso se V. S.ª, podendo, mandasse tomá-las na passagem do Jaguarão, não desprezando contudo as cautelas que convêm.</p>
+                
+                <closer>
+                    <p>Deus guarde a V. S.ª.</p>
+                </closer>
+                
+                <signed>
+                    <orgName ref="#secretaria_interior_fazenda">Secretaria do Interior e Fazenda</orgName> encarregada do expediente da Guerra em <placeName ref="#piratini">Piratini</placeName>, 28 de dezembro de 1840.<br/>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.
+                </signed>
+                
+                <note type="endorsement">Ilmo. Sr. <persName ref="#camilo_campelo">Tenente-coronel Camilo Campelo</persName>, Comandante das Forças desta Comarca. Está conforme. O Oficial-maior interino. (a) Vicente Ferrer de Almeida.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

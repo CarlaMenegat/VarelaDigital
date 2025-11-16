@@ -8,6 +8,24 @@
             </location>
             <note>Cachoeira do Sul, cidade do Rio Grande do Sul, Brasil.</note>
         </place>
+        
+        <place xml:id="passo_fundo">
+            <placeName>Passo Fundo</placeName>
+            <geo>-28.2620 -52.4067</geo>
+            <note>Município do Rio Grande do Sul, Brasil.</note>
+        </place>
+        
+        <place xml:id="lages">
+            <placeName>Lages</placeName>
+            <geo>-27.8150 -50.3259</geo>
+            <note>Município de Santa Catarina, Brasil.</note>
+        </place>
+        
+        <place xml:id="vacaria">
+            <placeName>Vacaria</placeName>
+            <geo>-28.5079 -50.9418</geo>
+            <note>Município do Rio Grande do Sul, Brasil.</note>
+        </place>
 
         <place xml:id="buenos_aires">
             <placeName>Buenos Aires</placeName>
@@ -296,7 +314,8 @@
         
         <place xml:id="cerro_largo">
             <placeName>Cerro Largo</placeName>
-            <note>Região do atual Uruguai, centro comercial ativo no período.</note>
+            <geo>-32.3333 -54.4167</geo> 
+            <note>Departamento do Uruguai, mencionado como destino de mensageiro enviado por Domingos José de Almeida.</note>
         </place>
         
         <place xml:id="santa_ana">
@@ -308,6 +327,12 @@
             <placeName>Durazno</placeName>
             <geo>-33.3800, -56.5230</geo>
             <note>Local da assinatura do acordo entre Rivera e Casas.</note>
+        </place>
+        
+        <place xml:id="encruzilhada_do_sul">
+            <placeName>Encruzilhada do Sul</placeName>
+            <geo>-30.5439 -52.5206</geo>
+            <note>Município localizado na região centro-sul do Rio Grande do Sul, Brasil; citado nas cartas como ponto estratégico durante movimentos militares da Revolução Farroupilha.</note>
         </place>
         
         <place xml:id="costa_quarai">
@@ -444,8 +469,44 @@
             <geo>-33.2670, -53.7943</geo>
             <note>Curso d’água no sudeste do Uruguai que deságua na Lagoa Mirim.</note>
         </place>
-
         
-
+        <place xml:id="cavera">
+            <placeName>Caverá</placeName>
+            <geo>-30.1801 -55.4739</geo>
+            <note>Local de emissão do documento; mencionado como sede da Secretaria da Fazenda.</note>
+        </place>
+        
+        <place xml:id="mostardas">
+            <placeName>Mostardas</placeName>
+            <geo>-31.1056, -50.9161</geo>
+            <note>Localidade litorânea usada como ponto de encalhe de presas.</note>
+        </place>
+        
+        <place xml:id="rio_grande_barra">
+            <placeName>Barra de Rio Grande</placeName>
+            <geo>-32.1790, -52.1640</geo>
+            <note>Canal de acesso ao porto de Rio Grande, área estratégica para corsários.</note>
+        </place>
+        
+        <place xml:id="santana_do_livramento">
+            <placeName>Santana do Livramento</placeName>
+            <geo>-30.8773 -55.5392</geo>
+            <note>Cidade fronteiriça no Rio Grande do Sul, Brasil; identificada no documento como "Santana".</note>
+        </place>
+        
+        <org xml:id="corpo_segundo">
+            <orgName>2.º Corpo</orgName>
+            <note>Unidade militar mencionada como responsável pelo envio de soldados para serviço de faxina.</note>
+        </org>
+        
+        <place xml:id="passo_enforcados">
+            <placeName>Passo dos Enforcados</placeName>
+            <note>Topônimo citado como ponto de travessia.</note>
+        </place>
+        
+        <place xml:id="barra_cacequi">
+            <placeName>Barra do Cacequi</placeName>
+            <note>Local de emissão do documento.</note>
+        </place>
     </listPlace>
 </standOff>

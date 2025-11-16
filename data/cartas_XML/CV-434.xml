@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-434 – Instruções administrativas e logísticas militares</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <orgName ref="#secretaria_interior_fazenda">Secretaria do Interior e Fazenda</orgName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1841-01-08">8 de janeiro de 1841</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-434" type="letter">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Imbuído S. Ex.ª o Sr. Vice-presidente da matéria de seu ofício de 3 do corrente, que ontem pelas nove da noite me veio às mãos, me determina lhe diga em resposta.</p>
+                
+                <p>Que acerca da reorganização do pessoal das Coletorias de <placeName ref="#itaqui">Itaqui</placeName>, <placeName ref="#sao_borja">São Borja</placeName> e <placeName ref="#cruz_alta">Cruz Alta</placeName>, estando para isso V. S.ª autorizado e muito confiando na sua probidade e patriotismo, se conformará com o que praticar a respeito, embora em aviso de ontem tenha aprovado o que V. S.ª expôs em ofício de 27 do passado; e que fora aprovada a nomeação do Chefe Geral de Polícia para o município de <placeName ref="#sao_borja">São Borja</placeName> e soltura de Siqueira.</p>
+                
+                <p>Que para não haver falta em seus saques e ordens sobre as Coletorias que aponta, ora se lhe incluem as ordens precisas, e lhe recomenda, em consequência, que tomando em mui séria ponderação a nudez em que virão as Divisões do Centro, não poupe meios para por essa parte comprar toda a roupa que se lhe oferecer para seu vestuário, e assim que aplique aquelas com Agostinho Guarch contratadas.</p>
+                
+                <p>E que para fornecer cavalos à Divisão do mando do General <persName ref="#canabarro">Canabarro</persName> não repare em sacrifícios, tendo na memória que cem ou duzentos contos que se acrescente à dívida pública neste artigo, nada absolutamente é em relação às vantagens a esperar-se.</p>
+                
+                <p>Tendo pois ultimado a resposta do ofício indicado, de ordem de S. Ex.ª muito lhe recomendo a pronta criação dos corpos de que tratei no ofício de ontem; o que espero cumpra penetrando-se da urgente necessidade daquela medida, pela imediata utilidade que dela resulta à República.</p>
+                
+                <closer>
+                    <p>Deus guarde a V. S.ª.</p>
+                </closer>
+                
+                <signed>
+                    <orgName ref="#secretaria_interior_fazenda">Secretaria do Interior e Fazenda</orgName> encarregada do expediente da Guerra em <placeName ref="#piratini">Piratini</placeName>, 8 de janeiro de 1841.<br/>
+                    <persName ref="#domingos_jose_almeida">(a) Domingos José de Almeida</persName>.
+                </signed>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-422 – Pedido de informações e devolução documental</title>
+                <author><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1840-12-17">17 de dezembro de 1840</date>
+                </correspAction>
+                <correspAction type="received">
+                    <note>Destinatário não nomeado: “meu honrado coronel e distinto amigo”.</note>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-422" type="letter">
+                
+                <opener>
+                    <salute>Meu honrado coronel e distinto amigo.</salute>
+                    <dateline><placeName ref="#piratini">Piratini</placeName>, 17 de dezembro de 1840.</dateline>
+                </opener>
+                
+                <p>Desde suas últimas comunicações pelo Tenente José Gonçalves nada sabemos dessa parte e isso muito me tem mortificado.</p>
+                
+                <p>Se já vieram os escravos que pedi ao amigo <persName ref="#portoo">Sr. Tenente-coronel Porto</persName> para mandar conduzir da 
+                    <placeName ref="#cruz_alta">Cruz Alta</placeName>, tomarei por especial favor se V. S.ª mos enviar a esta com segurança e brevidade. 
+                    Devolva-me também com brevidade o requerimento de 
+                    <persName ref="#jose_maria_palma">José Maria da Palma</persName> com as respectivas informações, e aos seus destinos remeterá os ofícios que esta acompanham.</p>
+                
+                <p>Das letras da Tipografia podem dar notícia o oriental <persName ref="#orcasa">Orcasa</persName> e talvez a mãe de Paulino: esta arma nos faz muita falta; e suposto espere outra de 
+                    <placeName ref="#montevideo">Montevidéu</placeName>, contudo bom é não perder-se a existente.</p>
+                
+                <closer>
+                    <p>Recomenda-me aos amigos e disponha do</p>
+                    <signed>Seu sincero e obrigado amigo<br/>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

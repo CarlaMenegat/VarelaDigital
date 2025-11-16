@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-413 – Solicitação de captura de escravizados fugitivos</title>
+                <author><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <orgName ref="#secretaria_fazenda">Secretaria do Interior e Fazenda</orgName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1840-12-12">12 de dezembro de 1840</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-413" type="letter">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Tendo fugado na noite de ontem para hoje ao cidadão 
+                    <persName ref="#manuel_rodrigues_barbosa">Manuel Rodrigues Barbosa</persName> dez escravos de nomes 
+                    <persName ref="#joaquim">Joaquim</persName> crioulo, 
+                    <persName ref="#joana">Joana</persName> sua mulher e três filhos destes menores, sendo dois machos e uma fêmea, 
+                    <persName ref="#antonio_crioulo">Antônio</persName> crioulo sapateiro, 
+                    <persName ref="#apolinario">Apolinário</persName> mulato alfaiate, 
+                    <persName ref="#tomasia">Tomásia</persName>, 
+                    <persName ref="#margarida">Margarida</persName> e 
+                    <persName ref="#elias_crioulo">Elias</persName> crioulo campeiro; roubando entre outros objetos vinte e cinco onças de ouro, e pedindo o referido cidadão a pronta captura de tais escravos, e oferecendo avultada molhadura a quem os trouxer, haja V. S.ª com urgência de a recomendar aos Comandantes da Polícia dos diversos distritos de sua jurisdição.</p>
+                
+                <closer>
+                    <p>Deus guarde a V. S.ª,</p>
+                </closer>
+                
+                <p><orgName ref="#secretaria_interior_fazenda">Secretaria do Interior e Fazenda</orgName> encarregada do expediente da Justiça e Guerra em 
+                    <placeName ref="#piratini">Piratini</placeName>, 12 de dezembro de 1840.</p>
+                
+                <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</signed>
+                
+                <p>Ilmo. Sr. <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>.</p>
+                
+                <note type="endorsement">
+                    Ofício do Exmo. Ministro da Justiça e Interior de 12 de dezembro, recebido a 17 do mesmo, sobre 10 escravos fugidos de 
+                    <persName ref="#manuel_rodrigues_barbosa">Manuel Rodrigues Barbosa</persName>.
+                </note>
+                
+                <note type="endorsement">
+                    S. da R. [No verso]<br/>
+                    Ilmo. Sr. <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>. 
+                    Comandante Geral de Polícia do departamento do 
+                    <placeName ref="#boqueirao">Boqueirão</placeName>.<br/>
+                    Do <orgName ref="#ministerio_interior_justiça">Ministério do Interior e Justiça</orgName>.<br/>
+                    <placeName ref="#piratini">Piratini</placeName>. [Carimbo]
+                </note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

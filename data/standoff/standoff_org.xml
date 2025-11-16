@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <standOff xmlns="http://www.tei-c.org/ns/1.0">
     <listOrg>
+        <org xml:id="republica_rio_grandense">
+            <orgName>República Rio-Grandense</orgName>
+            <note>Entidade política proclamada durante a Guerra dos Farrapos (1836–1845).</note>
+        </org>
+        
         <org xml:id="republica_farrapa">
             <orgName>República Rio-Grandense</orgName>
             <note>Governo insurgente estabelecido durante a Revolução Farroupilha.</note>
@@ -209,6 +214,44 @@
         <org xml:id="batalhao_cacadores_3">
             <orgName>3.º Batalhão de Caçadores</orgName>
             <note>Unidade militar à qual pertencia Antônio Maria Valadares.</note>
+        </org>
+        
+        <org xml:id="ministerio_interior_justica">
+            <orgName>Ministério do Interior e Justiça</orgName>
+        </org>
+        
+        <org xml:id="procuradores_gerais">
+            <orgName>Procuradores Gerais</orgName>
+        </org>
+        
+        <org xml:id="imperio_brasil">
+            <orgName>Império do Brasil</orgName>
+            <note>Estado soberano brasileiro no período imperial.</note>
+        </org>
+        
+        <org xml:id="conselho_investigacao">
+            <orgName>Conselho de Investigação</orgName>
+            <note>Instância preliminar responsável por formação da culpa.</note>
+        </org>
+        
+        <org xml:id="conselho_guerra">
+            <orgName>Conselho de Guerra</orgName>
+            <note>Instância militar responsável por julgamento.</note>
+        </org>
+        
+        <org xml:id="juri_acusacao">
+            <orgName>Júri da Acusação</orgName>
+            <note>Instância civil comparável ao Conselho de Investigação.</note>
+        </org>
+        
+        <org xml:id="companhia_artifices">
+            <orgName>Companhia de Artífices</orgName>
+            <note>Unidade militar responsável pelo fornecimento dos soldados requisitados.</note>
+        </org>
+        
+        <org xml:id="corpo_guardas_nacionais">
+            <orgName>Corpo de Guardas Nacionais</orgName>
+            <note>Organização militar responsável pelas praças destinatárias dos efeitos.</note>
         </org>
     </listOrg>
 </standOff>

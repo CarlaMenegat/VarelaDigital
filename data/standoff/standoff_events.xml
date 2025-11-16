@@ -10,5 +10,10 @@
             </location>
             <note>Combate ocorrido durante a Revolução Farroupilha entre forças farroupilhas (lideradas por Canabarro) e legalistas. Resultou em vitória rebelde. Foi citado por Raul Abbott com base em relatos do veterano Coritiba.</note>
         </event>
+        
+        <event xml:id="decreto_1839_02_04">
+            <desc>Decreto de 4 de fevereiro de 1839 que determina pena de morte a invasores hostis vindos do Estado Oriental.</desc>
+            <date when="1839-02-04">4 de fevereiro de 1839</date>
+        </event>
     </listEvent>
 </standOff>
