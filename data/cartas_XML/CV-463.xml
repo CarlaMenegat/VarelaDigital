@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-463</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#bage">Bagé</placeName>
+                    <date when="1841-11-15">15 de novembro de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#manuel_macedo_brum">Manuel de Macedo Brum e Silveira</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-463" type="letter">
+                
+                <opener>
+                    <salute>Ilmo. Sr. Tenente-coronel <persName ref="#manuel_macedo_brum">Manuel de Macedo Brum e Silveira</persName></salute>
+                </opener>
+                
+                <p>Não tendo recebido resposta da carta que por três vias a V. S.ª dirigi a 4 de abril próximo passado, a suponho extraviada, e por isso a apresento em quarta via, rogando-lhe se digne patentear quanto antes, por documentos ou outra forma qualquer, o que de minhas malversações e depredações avançou em <placeName ref="#montevideo">Montevidéu</placeName>; no que fará serviço à causa que sirvo.</p>
+                
+                <closer>
+                    <signed>De V. S.ª venerador e criado <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                </closer>
+                
+                <note type="endorsement">Foram remetidas ao <persName ref="#manuel_jose_silveira">Major Manuel José de Silveira</persName>, de <placeName ref="#sao_gabriel">São Gabriel</placeName>, e é por isso de presumir lhe chegassem às mãos.</note>
+                
+                <note type="endorsement">[Na mesma folha do documento CV-462]</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

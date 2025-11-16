@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-465</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#sao_gabriel">São Gabriel</placeName>
+                    <date when="1841-04-10">10 de abril de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-465" type="letter">
+                
+                <opener>
+                    <salute>Querida Bernardina</salute>
+                </opener>
+                
+                <p>Ontem recebi as tuas de 5 e 7 do corrente, que muito estimei por saber que ficavas de saúde e nossos filhos, a quem por mim abraçarás ternamente. Estou mais tranquilo com os socorros que recebeste de <persName ref="#fayete">Fayete</persName> e <persName ref="#joaquim_gomes">Gomes</persName>; outros te hão de chegar de <placeName ref="#piratini">Piratini</placeName> e <placeName ref="#santa_ana">Santa Ana</placeName>, e fica certa que se daqui mover-me te mandarei ir para onde eu for, sem perda de tempo.</p>
+                
+                <p>Se vires que o <persName ref="#casaca">Casaca</persName> pode pregar algum petardo, manda-mo com o compadre <persName ref="#rafael_compadre">Rafael</persName>, com o qual assentarás também na maneira de seres suprida de uma rês todas as semanas.</p>
+                
+                <p>Recomenda-me às comadres e compadres; dize a <persName ref="#bernardino">Bernardino</persName>, <persName ref="#luis">Luís</persName> e <persName ref="#custodia">Custódia</persName> que recebi suas cartas que não respondo por falta de tempo, ao amigo <persName ref="#bruto">Bruto</persName> e <persName ref="#maria">Maria</persName> que estou mal com eles por me não escrever. Recebe tu o coração do</p>
+                
+                <closer>
+                    <signed>Teu <persName ref="#domingos_jose_almeida">(a) Almeida</persName></signed>
+                </closer>
+                
+                <note type="endorsement">
+                    Sra. <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>. [No verso] <placeName ref="#bage">Bagé</placeName>.
+                </note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

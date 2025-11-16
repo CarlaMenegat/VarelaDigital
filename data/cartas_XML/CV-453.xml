@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-453</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1841-02-22">22 de fevereiro de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#matos">Matos</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-453" type="letter">
+                
+                <opener>
+                    <salute>Exmo. amigo Sr. <persName ref="#matos">Matos</persName></salute>
+                </opener>
+                
+                <p><persName ref="#fileno_carlos_morais">Fileno Carlos de Morais</persName>, capitão da 1.ª Companhia do 1.º Esquadrão do 1.º Corpo da 1.ª Brigada de <orgName ref="#guarda_nacional">Guarda Nacional</orgName>, pede ..... 400$000 em uma ordem sobre a Coletoria de <placeName ref="#bage">Bagé</placeName> para ser paga em desconto de direitos lentamente e à conta de seus vencimentos. Isto pede, diz, em razão de ter gasto tudo quanto tinha na presente luta, ter agora chegado de <placeName ref="#porto_alegre">Porto Alegre</placeName> empenhadíssimo e não ter outro apelo: diga-me o que a fazer para o despachar.</p>
+                
+                <p><placeName ref="#piratini">Piratini</placeName>, 22 de fevereiro de 1841.</p>
+                
+                <closer>
+                    <signed>Seu obrigado amigo</signed>
+                    <signed>(a) <persName ref="#domingos_jose_almeida">Almeida</persName></signed>
+                </closer>
+                
+                <opener>
+                    <salute>Se <persName ref="#fileno_carlos_morais">Fileno</persName> tem gasto tudo quanto tinha na presente luta, se agora chega de <placeName ref="#porto_alegre">Porto Alegre</placeName> empenhadíssimo (por ter comprado um escravo de uma caramuru para que este não sentasse praça em lanceiros para cujo fim estava preso), se finalmente é verdade o que alega, tem justiça: mas é necessário que venha o requerimento informado pelo General, Comandante da Brigada, do Corpo, etc., etc., que necessariamente devem saber das suas circunstâncias: aliás entram todos a gritar e todos mais ou menos se consideram nas mesmas circunstâncias e com direito à mesma graça.</salute>
+                </opener>
+                
+                <p>Nas circunstâncias em que nos achamos, acho bem mau estabelecer um tal precedente.</p>
+                
+                <closer>
+                    <signed>Seu muito obrigado amigo</signed>
+                    <signed>(a) <persName ref="#matos">Matos</persName></signed>
+                </closer>
+                
+                <note type="endorsement">
+                    <p>Exmo. Sr. <persName ref="#matos">Matos</persName>. Sua casa.</p>
+                    <p>Exmo. Sr. <persName ref="#domingos_jose_almeida">Almeida</persName>.</p>
+                </note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

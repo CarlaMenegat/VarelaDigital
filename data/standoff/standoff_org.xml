@@ -18,7 +18,7 @@
         <org xml:id="3_corpo_lanceiros">
             <orgName>3.º Corpo de Lanceiros</orgName>
         </org>
-        
+
         <org xml:id="tesouro">
             <orgName>Tesouro</orgName>
             <note>Órgão estatal responsável pelas finanças públicas da República Rio-Grandense.</note>
@@ -260,6 +260,15 @@
         <org xml:id="corpo_guardas_nacionais">
             <orgName>Corpo de Guardas Nacionais</orgName>
             <note>Organização militar responsável pelas praças destinatárias dos efeitos.</note>
+        </org>
+        
+        <org xml:id="4_batalhao">
+            <orgName>4.º Batalhão</orgName>
+            <note>Unidade militar referida no contexto administrativo-logístico.</note>
+        </org>
+        
+        <org xml:id="quartel_mestre_general">
+            <orgName>Quartel-mestre-general</orgName>
         </org>
     </listOrg>
 </standOff>

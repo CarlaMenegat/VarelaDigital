@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-455</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1841-02-27">27 de fevereiro de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-455" type="letter">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Em virtude das participações há pouco recebidas do Exmo. General Chefe do Estado-maior do <orgName ref="#exercito">Exército</orgName>, acerca da vinda para a campanha do <orgName ref="#exercito_imperial">Exército Imperial</orgName> acantonado em <placeName ref="#rio_pardo">Rio Pardo</placeName>, <placeName ref="#botucarai">Botucaraí</placeName> e <placeName ref="#cachoeira">Cachoeira</placeName>, estando já deste lado de <placeName ref="#jacui">Jacuí</placeName> <persName ref="#jeronimo_jacinto">Jerônimo Jacinto</persName> com duzentos homens de seu mando, o <persName ref="#manuel_lucas_oliveira">Tenente-coronel Manuel Lucas de Oliveira</persName>, apesar de doente, passou a tomar conta do comando de todas as forças desta Comarca; o que lhe comunico para seu conhecimento e para que sem trepidar cumpra com as ordens e requisições que lhe dirigir a bem das operações que tem a desenvolver de pronto.</p>
+                
+                <closer>
+                    <p>Deus guarde a V. S.ª.</p>
+                    <p><orgName ref="#secretaria_interior_fazenda_guerra">Secretaria do Interior e Fazenda encarregada do expediente da Guerra</orgName> em <placeName ref="#piratini">Piratini</placeName>, 27 de fevereiro de 1841.</p>
+                    <signed>Ilmo. Sr. <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>.</signed>
+                    <signed>Chefe Geral de Polícia do departamento do <placeName ref="#boqueirao">Boqueirão</placeName>.</signed>
+                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</signed>
+                </closer>
+                
+                <note type="endorsement">
+                    <p>Ofício do Exmo. Ministro da Guerra de 27 de fevereiro, recebido a 4 de março, comunicando estar comandando a Brigada o <persName ref="#manuel_lucas_oliveira">Tenente-coronel Lucas</persName>.</p>
+                    <p>S. da R. Ilmo. Sr. <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>. Chefe Geral de Polícia do departamento de <placeName ref="#boqueirao">Boqueirão</placeName>. Do <orgName ref="#ministerio_guerra">Ministério da Guerra</orgName>.</p>
+                    <p>[Carimbo: <placeName ref="#piratini">Piratini</placeName>]</p>
+                </note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

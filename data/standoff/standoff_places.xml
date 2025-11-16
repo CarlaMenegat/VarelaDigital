@@ -508,5 +508,17 @@
             <placeName>Barra do Cacequi</placeName>
             <note>Local de emissão do documento.</note>
         </place>
+        
+        <place xml:id="sao_sepe">
+            <placeName>São Sepé</placeName>
+            <geo>-30.1613, -53.5686</geo>
+            <note>Município localizado na região central do Rio Grande do Sul, Brasil, próximo ao rio Vacacaí. No contexto da Revolução Farroupilha, constituiu ponto estratégico de movimentação e acampamento de tropas republicanas.</note>
+        </place>
+        
+        <place xml:id="guaiba">
+            <placeName>Guaíba</placeName>
+            <geo>-30.1086, -51.3233</geo>
+            <note>Cidade situada às margens do lago Guaíba, na região metropolitana de Porto Alegre, Rio Grande do Sul, Brasil. Durante a Revolução Farroupilha, a área em torno do Guaíba foi terreno de circulação militar, comunicações e rotas estratégicas entre o sul e a capital provincial.</note>
+        </place>
     </listPlace>
 </standOff>

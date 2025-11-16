@@ -2273,5 +2273,91 @@
         <person xml:id="major_simao">
             <persName>Major Simão</persName>
         </person>
+        
+        <person xml:id="baltasar">
+            <persName>Baltasar</persName>
+        </person>
+        
+        <person xml:id="fileno_carlos_morais">
+            <persName>Fileno Carlos de Morais</persName>
+        </person>
+        
+        <person xml:id="jeronimo_jacinto">
+            <persName>Jerônimo Jacinto</persName>
+        </person>
+        
+        <person xml:id="lucas">
+            <persName>Lucas</persName>
+        </person>
+        
+        <person xml:id="manuel_lucas_oliveira">
+            <persName>Manuel Lucas de Oliveira</persName>
+        </person>
+        
+        <person xml:id="aleman">
+            <persName>Aleman</persName>
+        </person>
+        
+        <person xml:id="nico">
+            <persName>Nico</persName>
+        </person>
+        
+        <person xml:id="felisberto_machado_carvalho_ourique">
+            <persName>Felisberto Machado de Carvalho Ourique</persName>
+        </person>
+        
+        <person xml:id="agostinho_antonio_melo">
+            <persName>Agostinho Antônio de Melo</persName>
+        </person>
+        
+        <person xml:id="manuel_goncalves_costa">
+            <persName>Manuel Gonçalves da Costa</persName>
+        </person>
+        
+        <person xml:id="manuel_jose_silveira">
+            <persName>Manuel José de Silveira</persName>
+        </person>
+        
+        
+        <person xml:id="silva">
+            <persName>Silva</persName>
+            <note>Identidade parcial — mencionado apenas pelo sobrenome.</note>
+        </person>
+        
+        <person xml:id="medeiros">
+            <persName>Medeiros</persName>
+            <note>Identidade parcial — mencionado apenas pelo sobrenome.</note>
+        </person>
+        
+        <person xml:id="joaquim_gomes">
+            <persName>Joaquim Gomes</persName>
+        </person>
+        
+        <person xml:id="fayete">
+            <persName>Fayete</persName>
+            <note>Nome sem prenome completo — permanece como identificado apenas por forma única no corpus.</note>
+        </person>
+        
+        <person xml:id="borba">
+            <persName>Borba</persName>
+            <note>Identidade parcial — sobrenome, mas agente individual concreto.</note>
+        </person>
+        
+        <person xml:id="dom_francisco_truebas">
+            <persName>Dom Francisco de Truebas</persName>
+        </person>
+        
+        <person xml:id="victorica">
+            <persName>Victorica</persName>
+            <note>Identidade parcial; provável sobrenome hispânico platino.</note>
+        </person>
+        
+        <person xml:id="luis_francisco_cunha">
+            <persName>Luís Francisco da Cunha</persName>
+        </person>
+        
+        <person xml:id="bernardo_jose_rodrigues_filho">
+            <persName>Bernardo José Rodrigues Filho</persName>
+        </person>
     </listPerson>
 </standOff>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-469 (Minuta)</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#bage">Bagé</placeName>
+                    <date when="1841-10-08">8 de outubro de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#anacleto_alonso">Tenente Anacleto Alonso</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-469" type="letter">
+                
+                <note type="draft">[Minuta no verso do documento CV-468]</note>
+                
+                <opener>
+                    <salute>Ilmo. Sr. <persName ref="#anacleto_alonso">Tenente Anacleto Alonso</persName></salute>
+                </opener>
+                
+                <p><placeName ref="#bage">Bagé</placeName>, 8 de outubro de 1841.</p>
+                
+                <p>Prezado amigo e Sr. Sei que V. S.ª tem porção de erva-mate de superior qualidade, e por isso lhe rogo me mande dois terços dela para meu gasto se tiver carreta que os conduza ou, na falta dela, um cargueiro, podendo logo dispor de sua importância.</p>
+                
+                <p>Sem outro assunto sou, de V. S.ª,</p>
+                
+                <closer>
+                    <signed>Amigo afetuoso e obrigado</signed>
+                </closer>
+                
+                <note type="endorsement">[À margem da folha] <num>112</num></note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>
