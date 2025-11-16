@@ -659,6 +659,10 @@
             <note>Capitão encarregado de agenciar escravos e administrar o curtume mencionado no ofício.</note>
         </person>
         
+        <person xml:id="quevedo">
+            <persName>Quevedo</persName>
+        </person>
+        
         <person xml:id="vasco_madruga_bitancurt">
             <persName>Vasco Madruga de Bitancurt</persName>
             <note>Juiz de Paz do distrito do Erval.</note>
@@ -867,6 +871,11 @@
             <note>Capitão e Chefe Geral da Polícia do Departamento do Boqueirão.</note>
         </person>
         
+        
+        <person xml:id="joaquim_pereira">
+            <persName>Joaquim Pereira</persName>
+        </person>
+        
         <person xml:id="joao_antonio_silveira">
             <persName>João Antônio de Silveira</persName>
             <note>Coronel e Comandante da Divisão da Direita da República Rio-Grandense.</note>
@@ -996,6 +1005,10 @@
         <person xml:id="domingos_crescencio_carvalho">
             <persName>Domingos Crescêncio de Carvalho</persName>
             <note>Coronel farroupilha, comandante da Divisão da Esquerda durante a Revolução Farroupilha.</note>
+        </person>
+        
+        <person xml:id="general_crescencio">
+            <persName>General Crescêncio</persName>
         </person>
         
         <person xml:id="joao_manuel_araujo_pinto">
@@ -1716,7 +1729,7 @@
         
         <person xml:id="antonio_jose_caetano">
             <persName>Antônio José Caetano</persName>
-            <note>Pessoa a quem foi emprestada obra mencionada.</note>
+            <note>Citado com o título de cirurgião-mor.</note>
         </person>
         
         <person xml:id="manuel_dias">
@@ -1981,6 +1994,284 @@
         <person xml:id="jose_higino_morais_freitas">
             <persName>José Higino de Morais Freitas</persName>
             <note>Escriturário que atesta a conformidade documental.</note>
+        </person>
+
+        <person xml:id="maria_madalena_barbosa">
+            <persName>Maria Madalena Barbosa</persName>
+            <note>Indicada como possível procuradora de Bernardina nesta carta.</note>
+        </person>
+        
+        <person xml:id="bernardino_braulio_almeida">
+            <persName>Bernardino Bráulio de Almeida</persName>
+            <note>Filho de Domingos José de Almeida e Bernardina Barcelos de Almeida.</note>
+        </person>
+        
+        <person xml:id="luis_almeida">
+            <persName>Luís</persName>
+            <note>Filho de Domingos José de Almeida e Bernardina Barcelos de Almeida.</note>
+        </person>
+        
+        <person xml:id="tenente_leite">
+            <persName>Tenente Leite</persName>
+        </person>
+        
+        <person xml:id="manuel_jose_xavier">
+            <persName>Manuel José Xavier</persName>
+        </person>
+        
+        <person xml:id="filho_xavier">
+            <persName>Filho de Manuel José Xavier</persName>
+            <note>Falecido; serviu na luta farroupilha, promovido a tenente.</note>
+        </person>
+        
+        <person xml:id="lucas_ingles">
+            <persName>Lucas</persName>
+            <note>Identificado na fonte apenas como “inglês”.</note>
+        </person>
+        
+        <person xml:id="jose_borges_abreu">
+            <persName>José Borges de Abreu</persName>
+            <note>Falecido; recolheu objetos mencionados no documento.</note>
+        </person>
+        
+        <person xml:id="juca_marques">
+            <persName>Juca Marques</persName>
+        </person>
+        
+        <person xml:id="clarinho">
+            <persName>Clarinho</persName>
+        </person>
+        
+        <person xml:id="joaquim_gomes">
+            <persName>Joaquim Gomes</persName>
+        </person>
+        
+        <person xml:id="felicissimo">
+            <persName>Felicíssimo</persName>
+        </person>
+        
+        <person xml:id="fileno">
+            <persName>Fileno</persName>
+        </person>
+        
+        <person xml:id="meireles">
+            <persName>Meireles</persName>
+        </person>
+        
+        <person xml:id="centeno">
+            <persName>Centeno</persName>
+        </person>
+        
+        <person xml:id="j_simplicio">
+            <persName>J. Simplício</persName>
+        </person>
+        
+        <person xml:id="capitao_sandim">
+            <persName>Capitão Sandim</persName>
+        </person>
+        
+        <person xml:id="f_silva">
+            <persName>F. Silva</persName>
+        </person>
+        
+        <person xml:id="porfirio">
+            <persName>Porfírio</persName>
+        </person>
+        
+        <person xml:id="luis_b">
+            <persName>Luís B.</persName>
+        </person>
+        
+        <person xml:id="elpidio">
+            <persName>Elpídio</persName>
+        </person>
+        
+        <person xml:id="manuel_belchior">
+            <persName>Manuel Belchior</persName>
+        </person>
+        
+        <person xml:id="celestino">
+            <persName>Celestino</persName>
+        </person>
+        
+        <person xml:id="bernardino_p">
+            <persName>Bernardino P.</persName>
+        </person>
+        
+        <person xml:id="jose_goncalves">
+            <persName>José Gonçalves</persName>
+        </person>
+        
+        <person xml:id="pacifico">
+            <persName>Pacífico</persName>
+        </person>
+        
+        <person xml:id="abreu">
+            <persName>Abreu</persName>
+        </person>
+        
+        <person xml:id="eleuterio">
+            <persName>Eleutério</persName>
+        </person>
+        
+        <person xml:id="pataqueiro">
+            <persName>Pataqueiro</persName>
+        </person>
+        
+        <person xml:id="silveiras">
+            <persName>Silveiras</persName>
+        </person>
+        
+        <person xml:id="firmo">
+            <persName>Firmo</persName>
+        </person>
+        
+        <person xml:id="pereira">
+            <persName>Pereira</persName>
+        </person>
+        
+        <person xml:id="gama">
+            <persName>Gama</persName>
+        </person>
+        
+        <person xml:id="guerrido">
+            <persName>Guerrido</persName>
+        </person>
+        
+        <person xml:id="pb">
+            <persName>P. B.</persName>
+        </person>
+        
+        <person xml:id="mfl">
+            <persName>M.F.L.</persName>
+        </person>
+        
+        <person xml:id="mb_2">
+            <persName>M.B.</persName>
+        </person>
+        
+        <person xml:id="m_moreira">
+            <persName>M. Moreira</persName>
+        </person>
+        
+        <person xml:id="modesto">
+            <persName>Modesto</persName>
+        </person>
+        
+        <person xml:id="joao_lopes">
+            <persName>João Lopes</persName>
+        </person>
+        
+        <person xml:id="jose_lopes">
+            <persName>José Lopes</persName>
+        </person>
+        
+        <person xml:id="mourao">
+            <persName>Mourão</persName>
+        </person>
+        
+        <person xml:id="cristovao">
+            <persName>Cristóvão</persName>
+        </person>
+        
+        <person xml:id="anibal">
+            <persName>Anibal</persName>
+        </person>
+        
+        <person xml:id="guilherme">
+            <persName>Guilherme</persName>
+        </person>
+        
+        <person xml:id="jose_bento">
+            <persName>José Bento</persName>
+        </person>
+        
+        <person xml:id="quinzio">
+            <persName>Quínzio</persName>
+        </person>
+        
+        <person xml:id="malaquias">
+            <persName>Malaquias</persName>
+        </person>
+        
+        <person xml:id="jose_nunes">
+            <persName>José Nunes</persName>
+        </person>
+        
+        <person xml:id="joaquim_carlos">
+            <persName>Joaquim Carlos</persName>
+        </person>
+        
+        <person xml:id="marucas_mateus">
+            <persName>Marucas do Mateus</persName>
+        </person>
+        
+        <person xml:id="marucas_zeferino">
+            <persName>Marucas do Zeferino</persName>
+        </person>
+        
+        <person xml:id="carlotas">
+            <persName>Carlotas</persName>
+        </person>
+        
+        <person xml:id="marucas_inacio">
+            <persName>Marucas de tio Inácio</persName>
+        </person>
+        
+        <person xml:id="quinota">
+            <persName>Quinota</persName>
+        </person>
+        
+        <person xml:id="quinota_joaquim_ligeira">
+            <persName>Quinota de Joaquim da Ligeira</persName>
+        </person>
+        
+        <person xml:id="tio_inacio">
+            <persName>tio Inácio</persName>
+        </person>
+        
+        <person xml:id="joaquim_ligeira">
+            <persName>Joaquim da Ligeira</persName>
+        </person>
+        
+        <person xml:id="dona_rufina">
+            <persName>D. Rufina</persName>
+        </person>
+        
+        <person xml:id="prudencio">
+            <persName>Prudêncio</persName>
+        </person>
+        
+        <person xml:id="benito">
+            <persName>Benito</persName>
+        </person>
+        
+        <person xml:id="irineu">
+            <persName>Irineu</persName>
+        </person>
+        
+        <person xml:id="joao_delapierre">
+            <persName>João Delapierre</persName>
+        </person>
+        
+        <person xml:id="francisco_jose_carvalho">
+            <persName>Francisco José de Carvalho</persName>
+        </person>
+        
+        <person xml:id="capitao_antonio_leite_oliveira">
+            <persName>Antônio Leite de Oliveira</persName>
+        </person>
+        
+        <person xml:id="luis_teixeira_machado">
+            <persName>Luís Teixeira Machado</persName>
+        </person>
+        
+        <person xml:id="guarch">
+            <persName>Guarch</persName>
+        </person>
+        
+        <person xml:id="major_simao">
+            <persName>Major Simão</persName>
         </person>
     </listPerson>
 </standOff>

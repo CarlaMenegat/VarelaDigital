@@ -1,0 +1,70 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-442</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1841-01-28">28 de janeiro de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
+                    <placeName ref="#bage">Bagé</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-442" type="letter">
+                
+                <opener>
+                    <salute>Querida Bernardina</salute>
+                </opener>
+                
+                <p>Por ter portador seguro te faço esta, apesar de talvez ainda hoje mesmo escrever-te pelo Moura, por quem estou na diligência de enviar-te porção de farinha e porção de trigo, posto não ter vindo o que havia comprado, que irá em outra ocasião. Vai uma caixinha e uma carta que te manda Marucas, que aqui foi deixada pelo marido entre duas paredes e sem vintém, mas que tem procedido com muita honra, e por isso lhe tenho suprido com alguma coisa em atenção a ti.</p>
+                
+                <p>Fiz entrega do rapé a D. Cipriana e a Santos; ambos muito te agradecem. D. Cipriana muito me tem obsequiado; mas agora mando lavar minha roupa em casa do Padre Chagas, por a negra do Estado. A Mariana, mulher do Jambeiro, e de José Leandro aqui chegaram anteontem faltas de quase tudo: eu as tenho socorrido conforme minhas forças; a de José Leandro quer seguir para <placeName ref="#pelotas">Pelotas</placeName>, e eu a mandarei breve. Já estive com a mãe e irmãs de Matos, que me pediram te enviasse lembranças quando te escrevesse. A Isabelinha ainda não teve o gosto de dar à luz o fruto do seu ventre; enganou-se na conta.</p>
+                
+                <p>Há mais de oito dias que nada sabemos de nossas forças: esta noite já dormi no mato por ter chegado notícia de estar uma força inimiga no Erval, e não haver aqui um só homem de armas; e o mesmo farei até ter certeza do regresso da dita força.</p>
+                
+                <p>Chegaram os livros com a falta de todos que vinham numa caixa que foram queimados na viagem. Os mapas de Zambeccari não aparecem; vê se te lembras para onde os mandaste. Também faltam umas contas e cadernos do Pané; talvez estejam com os meus papéis que foram para essa: examine e me remeta caso apareçam. Dize ao compadre Sousa que ainda me não trouxeram o trigo que para ele encomendei, o que logo que se verifique lhe remeterei.</p>
+                
+                <closer>
+                    <p>Saudades a ele, à comadre, ao compadre Rafael, à comadre D. Tomásia, suas filhas, D. Rufina; e abraçando por mim a nossos filhos, recebe tu o coração do</p>
+                    <signed>Teu <persName ref="#domingos_jose_almeida">(a) Almeida</persName></signed>
+                </closer>
+                
+                <postscript>Manda entregar essa carta a Joaquim Pereira para enviá-la a João Antônio.</postscript>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

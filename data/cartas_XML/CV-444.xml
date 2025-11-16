@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-444</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <date when="1841-02-01">1.º de fevereiro de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#matos">Matos</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-444" type="letter">
+                
+                <opener>
+                    <salute>Exmo. amigo Sr. <persName ref="#matos">Matos</persName></salute>
+                </opener>
+                
+                <p>Veja esse requerimento e informação, e diga-me o que se fazer. Veja também o que diz <persName ref="#antonio_neto">Neto</persName> e o que responder-lhe, se bem que cavalos [sei quer?] Tavares.</p>
+                
+                <closer>
+                    <signed>Seu amigo obrigado</signed>
+                    <signed>(a) <persName ref="#domingos_jose_almeida">Almeida</persName></signed>
+                    <dateline>1841, Fevereiro 1.º.</dateline>
+                </closer>
+                
+                <opener>
+                    <salute>Amigo Sr.</salute>
+                </opener>
+                
+                <p>A vista da conçessão que já o governo havia dado entendo que se lhe deve continuar a consentir no que exige e na forma requerida, <foreign xml:lang="la">id est</foreign>: o gozo dos serviços do escravo até nova ordem do governo.</p>
+                
+                <p>Não sei que porção de cavalos ficou de arranjar <persName ref="#j_simplicio">J. Simplício</persName>; mas nunca pode ser tal que chegue para o que quer <persName ref="#antonio_neto">Neto</persName>. Quando passamos pelo <persName ref="#capitao_sandim">Capitão Sandim</persName>, há de lembrar-se de ver a grande porção de cavalhadas que por ali estava em consequência de ordem do mesmo <persName ref="#antonio_neto">Neto</persName> para acautelá-las de <persName ref="#silva_tavares">Silva Tavares</persName>; estas cavalhadas não acompanharam a força, voltaram para <placeName ref="#bage">Bagé</placeName>, <placeName ref="#candiota">Candiota</placeName>, etc., etc... por que se não lança mão delas? Que inconveniente há? Por que não mandou pelos 300 cavalos que <persName ref="#f_silva">F. Silva</persName> ficou de entregar?</p>
+                
+                <p>Em suma, eu entendo que se diga ao general que, à vista dos recursos que tem, empreenda o movimento que julgar mais conveniente; tendo porém na devida consideração o não deixar este município abandonado, e o governo na desgraçada necessidade de continuar na peregrinação, etc., etc.; pois a esse abandono do governo devemos agradecer a falta de recursos e de confiança que se observa.</p>
+                
+                <closer>
+                    <signed>(a) <persName ref="#matos">Matos</persName></signed>
+                </closer>
+                
+                <note type="endorsement">
+                    <p>Exmo. Sr. <persName ref="#matos">Matos</persName>. [No verso]</p>
+                    <p>S. Casa.</p>
+                    <p><persName ref="#joao_barcelos">João Barcelos</persName> - 1 [No verso, em tinta e letra diferentes]</p>
+                    <p><persName ref="#porfirio">Porfírio</persName> - 2</p>
+                    <p><persName ref="#luis_b">Luís B.</persName> - 3</p>
+                    <p><persName ref="#elpidio">Elpídio</persName> - 4</p>
+                    <p><persName ref="#manuel_belchior">Manuel Belchior</persName> - 5</p>
+                    <p><placeName ref="#candiota">Candiota</placeName> - 6</p>
+                    <p><persName ref="#celestino">Celestino</persName> - 7</p>
+                    <p><persName ref="#bernardino_p">Bernardino P.</persName> - 8</p>
+                    <p><persName ref="#jose_goncalves">José Gonçalves</persName> - 9</p>
+                    <p><persName ref="#pacifico">Pacífico</persName> - 10</p>
+                    <p><persName ref="#abreu">Abreu</persName> - 11</p>
+                    <p><persName ref="#eleuterio">Eleutério</persName> - 12</p>
+                    <p><persName ref="#pataqueiro">Pataqueiro</persName> - 13</p>
+                    <p><persName ref="#silveiras">Silveiras</persName> - 3</p>
+                    <p><persName ref="#firmo">Firmo</persName> - 4</p>
+                    <p><persName ref="#pereira">Pereira</persName> - 5</p>
+                    <p><persName ref="#gama">Gama</persName> - 6</p>
+                    <p>[ilegível] - 7</p>
+                    <p><persName ref="#guerrido">Guerrido</persName> - 8</p>
+                    <p><persName ref="#pb">P. B.</persName> - 9</p>
+                    <p><persName ref="#mfl">M.F.L.</persName> - 10</p>
+                    <p><persName ref="#mb_2">M.B.</persName> - 11</p>
+                    <p><persName ref="#m_moreira">M. Moreira</persName> - 12</p>
+                    <p><persName ref="#modesto">Modesto</persName> - 13</p>
+                    <p><persName ref="#joao_lopes">João Lopes</persName> - 14</p>
+                    <p><persName ref="#jose_lopes">José Lopes</persName> - 15</p>
+                    <p><persName ref="#mourao">Mourão</persName> - 16</p>
+                    <p><persName ref="#cristovao">Cristóvão</persName> - 17</p>
+                    <p><persName ref="#anibal">Anibal</persName> - 18</p>
+                    <p><persName ref="#guilherme">Guilherme</persName> - 19</p>
+                    <p><persName ref="#jose_bento">José Bento</persName> - 20</p>
+                    <p><persName ref="#quinzio">Quínzio</persName> - 21</p>
+                    <p><persName ref="#malaquias">Malaquias</persName> - 22</p>
+                    <p><persName ref="#jose_nunes">José Nunes</persName> - 23</p>
+                    <p><persName ref="#quevedo">Quevedo</persName> — 24</p>
+                    <p><persName ref="#joaquim_carlos">Joaquim Carlos</persName> - 25</p>
+                </note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

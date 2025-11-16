@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-448</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1841-02-10">10 de fevereiro de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-448" type="letter">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Inteirado de quanto V. S.ª me diz em seu ofício de 28 do passado, respondo. Fica aprovado o cidadão <persName ref="#luis_teixeira_machado">Luís Teixeira Machado</persName> no emprego de Coletor da vila da <placeName ref="#cruz_alta">Cruz Alta</placeName>. Sobremaneira estima o governo a compra de fazendas por V. S.ª efetuada para vestir a <orgName ref="#divisao_centro">Divisão do Centro</orgName>; e para seu pronto pagamento, além das ordens já transmitidas, fica V. S.ª autorizado a lançar mão pesada sobre as ervas e objetos comerciáveis dos dissidentes de <placeName ref="#sao_borja">São Borja</placeName> e <placeName ref="#cruz_alta">Cruz Alta</placeName>.</p>
+                
+                <p>As fazendas de <persName ref="#guarch">Guarch</persName> não é fácil virem no enquanto que o <persName ref="#major_simao">Major Simão</persName> influa nessa transação da qual se não quer abrir, apesar da terminante ordem que lhe dirigi de <placeName ref="#santa_vitoria">Santa Vitória</placeName>; pelo que não sei o que pense a tal respeito, etc. etc...</p>
+                
+                <p>A Tipografia e remédios vindos do <placeName ref="#salto">Salto</placeName> devem parar em <placeName ref="#alegrete">Alegrete</placeName> até segunda ordem para ver-se em que dá a saída do inimigo: a de <placeName ref="#sao_gabriel">São Gabriel</placeName> e seus pertences conservará em <placeName ref="#cacequi">Cacequi</placeName>.</p>
+                
+                <p>O <persName ref="#cirurgiao_mor_antonio_jose_caetano">Cirurgião-mor Antônio José Caetano</persName> há chegado felizmente.</p>
+                
+                <p>A <orgName ref="#companhia_artifices">Companhia de Artífices</orgName> será adida ao batalhão que indicar S. Ex.ª o Sr. <persName ref="#general_comandante_chefe">General Comandante-em-chefe</persName>, visto que se não assentou ainda em que ponto convirá a sede do governo onde deverá persistir.</p>
+                
+                <p>Diga-me V. S.ª se poderá dispensar o <persName ref="#capitao_antonio_leite_oliveira">Capitão Antônio Leite de Oliveira</persName> para encarregá-lo da comandância da nova povoação que pretende o governo estabelecer no <placeName ref="#uruguai">Uruguai</placeName> acima do passo de <placeName ref="#santa_ana">Santa Ana</placeName>, no arruamento da mesma, e de tudo o mais que lhe disser respeito.</p>
+                
+                <closer>
+                    <p>Deus guarde a V. S.ª. Secretaria da Fazenda em <placeName ref="#piratini">Piratini</placeName>, 10 de fevereiro de 1841.</p>
+                    <signed>Ilmo. Sr. <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>.</signed>
+                    <signed>Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</signed>
+                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

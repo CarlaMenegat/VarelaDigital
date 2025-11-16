@@ -1,0 +1,73 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-438</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1841-01-23">23 de janeiro de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
+                    <placeName ref="#bage">Bagé</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-438" type="letter">
+                <opener>
+                    <dateline><placeName ref="#piratini">Piratini</placeName>, <date when="1841-01-23">23 de janeiro de 1841</date>.</dateline>
+                    <salute>Querida Bernardina</salute>
+                </opener>
+                
+                <p>Cumprindo com tuas recomendações, continuamente te tenho escrito, e o farei sempre que hajam portadores. Ontem todo o dia e toda a noite para hoje passei muito atribulado com dores de cabeça, não pude dormir; mas agora que são dez da manhã me acho muito aliviado. Se tu cá estivesses não me acontecia isto, porque quase sempre ando enfezado com as porcarias dos [sacis?] e suas vadiações.</p>
+                
+                <p>Aqui tens as cartas que ontem recebi de teu pai, e a que te escreve Chiquinha; eu lhe respondi agora mesmo convidando-o para vir para minha companhia, e de uma vez desprender-se de Chiquinha, visto estarem as coisas tão adiantadas: tomara eu podê-lo tratar como ele merece e eu desejo, visto ser teu pai, e eu tudo dever-te!</p>
+                
+                <p><persName ref="#joao_simplicio">João Simplício</persName> está a casar-se com uma filha do “Fura-buxo” e te convida e a mim para testemunhas; penso que não podes vir, e por isso manda procuração para em teu lugar servir <persName ref="#maria_madalena_barbosa">D. Maria Madalena Barbosa</persName>, mulher do Barbosa, se bem que eu queria fosse alguma moça bonita, mas não sei o nome delas; e assim mesmo tu tens que dizer do exemplo dos maridos bonitos e honrados, de quem todas as casadas têm inveja e apontam a seus maridos como modelo, etc., etc. Tu nasceste empelicada e na maré cheia.</p>
+                
+                <p>Os camelos, dizem, se encaminham para Caçapava, o que a verificar-se mui breve nos pagarão por junto quanto nos têm feito: Deus permita seja certa esta notícia.</p>
+                
+                <p>Recomenda-me a nossas comadres e compadres, a D. Rufina; abraça por mim a nossos filhos, e recebe o coração do</p>
+                
+                <closer>
+                    <signed>Teu<br/>(a) Almeida.</signed>
+                </closer>
+                
+                <address>
+                    <persName ref="#bernardina_barcelos_almeida">Sra. Bernardina Barcelos de Almeida</persName><br/>
+                    <placeName ref="#bage">Bagé</placeName>
+                </address>
+            </div>
+        </body>
+    </text>
+</TEI>

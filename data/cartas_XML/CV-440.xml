@@ -1,0 +1,78 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-440</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <persName ref="#jose_mariano_matos">José Mariano de Matos</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1841-01-25">25 de janeiro de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#jose_mariano_matos">José Mariano de Matos</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-440" type="letter">
+                
+                <opener>
+                    <salute>Exmo. amigo Sr. Matos</salute>
+                </opener>
+                
+                <p>Veja o requerimento de <persName ref="#manuel_jose_xavier">Manuel José Xavier</persName>, e diga-me o que fazer a respeito. O falecido filho foi camelo, depois farrapo onde foi promovido a tenente: era mui bom como diz <persName ref="#guedes">Guedes</persName>; depois o <persName ref="#tenente_leite">Tenente Leite</persName>, quando mandado de <placeName ref="#cacapava">Caçapava</placeName> rebanhar cavalos, tirou-lhe todos estando ele em serviço.</p>
+                
+                <p>Disto se desgostou; <persName ref="#guedes">Guedes</persName> quis-lhe dar documento, ele não aceitou, e quando passou Loureiro para <placeName ref="#santana_livramento">Santana do Livramento</placeName>, a ele se reuniu. O gado já o mesmo <persName ref="#guedes">Guedes</persName> dispôs; mas pode ser que ainda exista: e segundo a marcha do governo eu penso que se deve dar ao pai tudo, se ainda existir, ou aquilo que houver. V. Ex.ª porém dirá o que se deve fazer.</p>
+                
+                <dateline>Sua casa, <date when="1841-01-25">25 de janeiro de 1841</date>.</dateline>
+                
+                <closer>
+                    <signed>Seu amigo obrigado<br/>(a) Almeida.</signed>
+                </closer>
+                
+                <!-- Resposta manuscrita no mesmo suporte -->
+                <add place="margin" resp="#jose_mariano_matos" type="reply">
+                    <p>Entendo que se lhe deve mandar entregar tudo quanto existir pertencente ao filho em atenção aos serviços que tem prestado este interessante velho. A nação não ficará pobre por essa ninharia, etc... etc...</p>
+                    
+                    <closer>
+                        <signed>Seu amigo<br/>(a) Matos.</signed>
+                    </closer>
+                </add>
+                
+                <address>
+                    <persName ref="#jose_mariano_matos">Exmo. Sr. Matos.</persName><br/>
+                    <note>Sua casa.</note>
+                </address>
+            </div>
+        </body>
+    </text>
+</TEI>

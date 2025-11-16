@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-447</title>
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1841-02-06">6 de fevereiro de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-447" type="letter">
+                
+                <opener>
+                    <dateline><placeName ref="#piratini">Piratini</placeName>, 6 de fevereiro de 1841.</dateline>
+                    <salute>Meu honrado coronel amigo e Sr.</salute>
+                </opener>
+                
+                <p>O Sr. <persName ref="#joao_delapierre">João Delapierre</persName> tem acompanhado os republicanos desde que estes se declararam em nação independente; há prestado serviços, e por isso já sofreu rigorosa prisão. Agora mesmo acabo de tratar com ele negócio de importância para vestir o <orgName ref="#exercito_republicano">exército</orgName>; e sendo-lhe indispensável para o verificar que seja auxiliado na tirada do gado de corte do falecido <persName ref="#francisco_jose_carvalho">Francisco José de Carvalho</persName>, eu me empenho com V. S.ª para o mandar proteger na fatura das tropas, ordenando assim o pratiquem os Comandantes de Polícia dos Distritos onde tem de apartar dito gado. A pressa nada mais me permite.</p>
+                
+                <closer>
+                    <p>De V. S.ª.</p>
+                    <p>Antigo camarada e amigo muito obrigado.</p>
+                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                </closer>
+                
+                <address>
+                    <addrLine>Ilmo. Sr. <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>.</addrLine>
+                    <addrLine>Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</addrLine>
+                    <addrLine>Onde se ache.</addrLine>
+                    <addrLine>De seu amigo <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</addrLine>
+                    <addrLine>Papéis da Revolução. [No verso, em letra diferente]</addrLine>
+                </address>
+                
+            </div>
+        </body>
+    </text>
+</TEI>
