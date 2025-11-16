@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-378 – Sobre ameaça contra o autor</title>
+                <title>Carta CV-381 – Solicitação de comissão para tomada de contas</title>
                 <author><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></author>
             </titleStmt>
             
@@ -19,56 +19,48 @@
                     Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
                     <ptr target="data/standoff/standoff-persons.xml"/>
                     <ptr target="data/standoff/standoff-places.xml"/>
-                    <ptr target="data/standoff/standoff-events.xml"/>
-                    <ptr target="data/standoff/standoff-orgs.xml"/>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         
         <profileDesc>
             <correspDesc>
-                
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     <placeName ref="#piratini">Piratini</placeName>
-                    <date when="1837-09-23">23 de setembro de 1837</date>
+                    <date when="1837-09-23">23 de setembro [1837]</date>
                 </correspAction>
                 
                 <correspAction type="received">
-                    <persName ref="#domingos_crescencio_carvalho">Domingos Crescêncio de Carvalho</persName>
+                    <persName ref="#antonio_vicente_siqueira_pereira_leitao">Antônio Vicente de Siqueira Pereira Leitão</persName>
                 </correspAction>
-                
             </correspDesc>
         </profileDesc>
-        
     </teiHeader>
     
     <text>
         <body>
-            <div xml:id="CV-378" type="letter">
+            <div xml:id="CV-381" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
                 </opener>
                 
-                <p><persName ref="#domingos_jose_almeida">Avisado por pessoa fidedigna</persName> de que alguns Srs. oficiais da distinta 1.º Brigada pretendem meu assassinato, por dilapidador dos fundos públicos dirijo o presente para, por intermédio de V. S.ª, rogar-lhes que suspendendo seu juízo a respeito, de entre si nomeiem uma comissão a quem eu mostre minhas contas e justifique minha conduta, prevenindo assim um passo que pode ser nocivo à causa em que se acham empenhados os briosos rio-grandenses.</p>
-                
-                <p>Minha família está entre eles, ela e minha consciência lhes garante o cumprimento daquilo que de mim exigirem saber. Se porém meu sangue é indispensável para fazer prosperar a árvore da liberdade em nosso país, eu não me retiro, e com ele se pode contar.</p>
+                <p>Devendo prestar minhas contas, tanto do tempo que exerci o emprego de Quartel-mestre General do Exército como do de Ministro e Secretário de Estado dos Negócios da Fazenda, rogo a V. Ex.ª nomeie uma comissão para as tomar, e que amanhã mesmo, a ser possível, entre em exercício.</p>
                 
                 <closer>
-                    <p>Deus guarde a V. S.ª.</p>
+                    <p>Deus guarde a V. Ex.ª.</p>
                     <signed>
-                        Piratini, 23 de setembro de 1837.<br/>
-                        <persName ref="#domingos_jose_almeida">(a) Domingos José de Almeida</persName>
+                        <placeName ref="#piratini">Piratini</placeName>, 23 de setembro.<br/>
+                        <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     </signed>
                 </closer>
                 
                 <note type="endorsement">
-                    Ilmo. Sr. Coronel <persName ref="#domingos_crescencio_carvalho">Domingos Crescêncio de Carvalho</persName>, Comandante.
+                    Ilmo. e Exmo. Sr. Dr. <persName ref="#antonio_vicente_siqueira_pereira_leitao">Antônio Vicente de Siqueira Pereira Leitão</persName>, Ministro e Secretário de Estado dos Negócios da Justiça. [Cópia]
                 </note>
                 
             </div>
         </body>
     </text>
-    
 </TEI>

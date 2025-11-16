@@ -41,6 +41,16 @@
             <note>Órgão do governo farroupilha responsável pela administração das finanças.</note>
         </org>
         
+        <org xml:id="secretaria_interior_fazenda">
+            <orgName>Secretaria do Interior e Fazenda</orgName>
+            <note>Órgão emissor da comunicação.</note>
+        </org>
+        
+        <org xml:id="ministerio_interior_fazenda">
+            <orgName>Ministério do Interior e Fazenda</orgName>
+            <note>Órgão superior mencionado no endosso.</note>
+        </org>
+        
         <org xml:id="fazendas_nacionais">
             <orgName>Fazendas Nacionais</orgName>
             <note>Propriedades rurais pertencentes ao Estado, anteriormente administradas pelos jesuítas.</note>
@@ -191,6 +201,14 @@
             <note>Órgãos responsáveis pela arrecadação de tributos e execução de pagamentos determinados pelo governo.</note>
         </org>
         
+        <org xml:id="corpo_cruz_alta">
+            <orgName>Corpo da Cruz Alta</orgName>
+            <note>Unidade militar de Guardas Nacionais.</note>
+        </org>
         
+        <org xml:id="batalhao_cacadores_3">
+            <orgName>3.º Batalhão de Caçadores</orgName>
+            <note>Unidade militar à qual pertencia Antônio Maria Valadares.</note>
+        </org>
     </listOrg>
 </standOff>

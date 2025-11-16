@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-383</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Cópia manuscrita conforme edição dos Anais.</p>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1837-09-24">24 de setembro de 1837</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#antonio_vicente_siqueira_pereira_leitao">Antônio Vicente de Siqueira Pereira Leitão</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-383" type="letter">
+                
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>Acusando a recepção do ofício de V. Ex.ª com data de ontem, no qual, em resposta ao que lhe dirigi acerca de não poder continuar nos empregos que exercia, se digna dizer-me que não lhe competindo acumular tais cargos sem haver impedimento físico ou moral de minha parte, os não aceitava e em consequência que nada também providenciava a respeito da Comissão que exigi criasse para prestar contas: respondo.</p>
+                
+                <p>A salvação do Estado é a suprema Lei das Nações. Essa lei pois é a que me induziu a esse refletido passo e é ainda a que me obriga permanecer no meu propósito; pois prefiro por dias o juízo que se possa formar de minha conduta ao bem do nosso país e da causa que esposei. Coincidindo o teor de ofícios tendentes ao serviço com o Anônimo dirigido ao Exmo. Sr. Presidente e com avisos que por diversos condutos me vieram à mão, em que alguns oficiais da 1.ª Brigada, com pretextos de dilapidações, exigiriam, logo que ela reunida fosse, não só minha prisão mas ainda o meu assassinato, para exemplo autêntico de minhas malversações, outro arbítrio não tinha, para dissipar aquela sedição e mesmo para arredar essa negra nódoa do partido a que pertenço, que a minha demissão.</p>
+                
+                <p>Desta forma corto pela raiz consequências talvez de grande monta, dou um testemunho de que não sirvo à Pátria com o fito nos empregos, e se me proporciona ocasião de mostrar que longe de tirar à Nação a tenho suprido com soma avultada para acudir às necessidades do exército, vendendo para isso até perto de quarenta escravos da minha propriedade, e me fica o direito de esperar de meus acusadores o pronto embolso do que me dever a Nação.</p>
+                
+                <p>À vista pois do que fica exposto nem V. Ex.ª deve insistir na repulsa que faz e nem objetar sobre a criação da Comissão que exijo, para dessa forma tornar pública minha conduta tão atrozmente caluniada.</p>
+                
+                <closer>
+                    <signed>
+                        <placeName ref="#piratini">Piratini</placeName>, 
+                        <date when="1837-09-24">24 de setembro de 1837</date>.<br/>
+                        <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    </signed>
+                </closer>
+                
+                <note type="endorsement">[Cópia]</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

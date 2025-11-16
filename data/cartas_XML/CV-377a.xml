@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-377.A – Conta de venda de gados</title>
+                <author><persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName></author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="account" xml:id="CV-377A">
+                
+                <head>Conta de venda de reses</head>
+                
+                <p>Conta de venda de 446 reses de corte, que por conta do Estado, mandei vender em <placeName ref="#montevideo">Montevidéu</placeName>, por <persName ref="#martiniano_teixeira_pinto">Martiniano Teixeira Pinto</persName>, a saber:</p>
+                
+                <p>No 1 — 76 novilhos a <persName ref="#felix_baxero">Felix Baxero</persName>, peso 380<br/>
+                    1837 abril — 121 novilhos a <persName ref="#brune">D. Brune</persName>, peso 605<br/>
+                    — 109 vacas a dito, peso 490 — 2105 pesos e 4 reales ....... $800      1:684$400<br/>
+                    26 — 140 vacas a dito, peso 630</p>
+                
+                <p><hi>A deduzir</hi></p>
+                
+                <p>Letra de mil pesos a <persName ref="#jose_carlos_pinto">José Carlos Pinto</persName> — Documento n.º 1 ........... 800$000<br/>
+                    454 patacões, idem, idem — Documento n.º 1 ........... 435$840<br/>
+                    512 ditos despendidos com peões — Documento n.º 3 ........... 491$520<br/>
+                    ————————————————————————————————————————————————<br/>
+                    Resta que satisfaça — Rs. 42$960</p>
+                
+                <p>______________________________________________________________________________</p>
+                
+                <p>Conta n.º 2 — Com <persName ref="#jose_carlos_pinto">José Carlos Pinto</persName> a ser<br/>
+                    Importância da letra de 1$ pesos recebida de <persName ref="#martiniano_teixeira_pinto">Martiniano Teixeira Pinto</persName> ..... 800$000<br/>
+                    Idem de 454 patacões idem, idem ........................................... 435$840<br/>
+                    ————————————————————————————————————————————————<br/>
+                    1:235$840</p>
+                
+                <p><hi>——————— A deduzir ———————</hi></p>
+                
+                <p>A <persName ref="#bernardino_rodrigues_barcelos_filho">Bernardino Rodrigues Barcelos Filho</persName>, letra de 1$ pesos .................. 800$000<br/>
+                    A <persName ref="#alexandre_bresque">Dom Alexandre Bresque</persName> por minha ordem ................................... 168$920<br/>
+                    A <persName ref="#luis_joaquim_luz">Luis Joaquim da Luz</persName> — Documento n.º 4 .................... 28$800<br/>
+                    A <persName ref="#u_roberto">U. Roberto</persName> — Documento n.º 5 .................... 13$360<br/>
+                    A <persName ref="#manuel_ruedas">Manuel Ruedas</persName> — Documento n.º 6 .................... 13$600<br/>
+                    ————————————————————————————————————————————————<br/>
+                    1:025$680</p>
+                
+                <p>————————————————————————————————————————<br/>
+                    .... Resta à Fazenda — Rs. 210$160<br/>
+                    —————————————————————————————————————————<br/>
+                    —————————————————————————————————————————</p>
+                
+                <p>Uma carrada de couros de munição, que em nossa retirada de <placeName ref="#piratini">Piratini</placeName> ficou no moinho de <persName ref="#matos">José de Matos</persName>, por ter-se quebrado o carreto, foi arrecadada e vendida pelo Juiz de Paz <persName ref="#serafim_jose_silveira">Serafim José da Silveira</persName>, e seu produto aplicado para despesas do Hospital Militar e pagamento de um barril com 24 libras de pólvora a <persName ref="#domingos_antonio_peres">Domingos Antônio Peres</persName> como do documento n.º 7, etc., etc., etc.</p>
+                
+                <closer>
+                    <signed>(a) <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>.</signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

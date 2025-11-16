@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CV-391 – Demonstrativo de débito</title>
+                <author><orgName ref="#tesouro">Tesouro Público Nacional Rio-grandense</orgName></author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <orgName ref="#tesouro">Tesouro Público Nacional Rio-grandense</orgName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1840-05-06">6 de maio de 1840</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-391" type="account">
+                
+                <p><orgName ref="#tesouro">O Tesouro Público Nacional Rio-grandense</orgName> a <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></p>
+                <p>Deve</p>
+                
+                <p>— Importância da Conta fl. 18 ........ 10:223$955<br/>
+                    — Prêmio desta quantia em três anos<br/>
+                    e seis meses contados do 1.º de no-<br/>
+                    vembro de 1837 em que devia ser pa-<br/>
+                    ga, ao 1.º do corrente maio de 1840,<br/>
+                    e à razão de 1 1/2% ao mês ........ 6:421$078 16:645$8033<br/>
+                    — Importância da Conta n.º 156 verso ............ 4768779<br/>
+                    Soma Rs. 17:121$812</p>
+                
+                <closer>
+                    <p><placeName ref="#cacapava">Caçapava</placeName>, 6 de maio de 1840.</p>
+                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                </closer>
+                
+                <note type="endorsement">[Os documentos CV-378 a CV-391 estão anexos ao documento CV-377]</note>
+            </div>
+        </body>
+    </text>
+</TEI>

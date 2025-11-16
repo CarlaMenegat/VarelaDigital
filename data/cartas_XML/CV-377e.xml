@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Documento CV-377.E – Nota</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela — Anais do Arquivo Histórico do RS, vol. III</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Cópia transcrita conforme edição impressa.</p>
+                <ptr target="standoff-persons.xml"/>
+                <ptr target="standoff-places.xml"/>
+                <ptr target="standoff-events.xml"/>
+                <ptr target="standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="cv377e" type="note">
+                <head>NOTA</head>
+                
+                <p>
+                    <persName ref="#joaquim_jose_cruz">Joaquim José da Cruz</persName> em cédulas 210$, moeda forte, Conta n.º 4 ...................    120$000<br/>
+                    <persName ref="#antonio_jose_goncalves_chaves">Antônio José Gonçalves Chaves</persName> em cédulas 1:011$, moeda forte, Conta n.º 4 ........    577$714<br/>
+                    <persName ref="#jaime_legris">Jaime Legris</persName>, moeda forte, Conta n.º 5 ...........................................  2:219$000<br/>
+                    <persName ref="#onofre_pires_silveira_canto">Coronel Onofre Pires da Silveira Canto</persName>, moeda forte, Conta n.º 6 .................    371$040<br/>
+                    <persName ref="#joao_alves_miranda_varejao">João Alves de Miranda Varejão</persName>, moeda forte, Conta n.º 6 ..........................  1:250$160<br/>
+                    <persName ref="#jeronimo_teixeira_almeida">Jerônimo Teixeira de Almeida</persName>, moeda forte, Conta n.º 7 ...........................    256$000<br/>
+                    <persName ref="#jose_carlos_pinto">José Carlos Pinto</persName>, moeda forte, Conta n.º 8 ......................................  1:410$160<br/>
+                    -------------------------<br/>
+                    Rs.             6:204$074
+                </p>
+                
+                <p>
+                    A dívida de <persName ref="#joaquim_jose_cruz">Cruz</persName> é segura e não a tem satisfeito já por se achar no Estado vizinho; a de <persName ref="#antonio_jose_goncalves_chaves">Chaves</persName> também é segura, segundo diz o filho, hoje administrador da casa; a de <persName ref="#jaime_legris">Jaime Legris</persName> se acha em litígio por exigir um rebate de 70% e 700 pesos que me havia dado em pagamento de conta contrária no 1825; <persName ref="#onofre_pires_silveira_canto">Coronel Onofre</persName> penso se fará injustiça se se deixar de deduzir nos seus vencimentos; a de <persName ref="#jeronimo_teixeira_almeida">Jerônimo Teixeira de Almeida</persName> tem a Fazenda de receber em panos, baetas e boetões; e a de <persName ref="#jose_carlos_pinto">José Carlos Pinto</persName> só é liquidável quando preste contas dos negócios a seu cargo.
+                </p>
+                
+                <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

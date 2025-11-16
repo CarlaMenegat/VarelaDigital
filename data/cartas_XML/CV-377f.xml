@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CV-377.F</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela — Anais do Arquivo Histórico do RS, vol. III</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Cópia transcrita conforme edição impressa.</p>
+                <ptr target="standoff-persons.xml"/>
+                <ptr target="standoff-places.xml"/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="cv377f">
+                <head>QUADRO</head>
+                
+                <p>— Na minha ida para o <placeName ref="#estado_oriental">Estado Oriental</placeName> na noite de 25 para 26 de novembro próximo passado, levei entre carretas e carretões ......................... 7</p>
+                <p>— Foi depois com a bagagem da infantaria .................................... 1</p>
+                <p>Carretas e Carretões    8</p>
+                
+                <p>– Por inútil na casa do velho Neto ..........................................  1</p>
+                <p>– Semelhantemente no <placeName ref="#salso">passo do Salso</placeName> .........................................  1</p>
+                <p>– Emprestada a <persName ref="#quincoze">Quincoze</persName> por pedido de <persName ref="#crescencio">Crescêncio</persName>: um carretão e uma carreta ida do exército. O carretão vendi por seis cavalos; da carreta, ele ou o <persName ref="#antonio_carlos_de_soveral">Major Antônio Carlos de Soveral</persName> deve dar conta etc., etc., etc., ........ 1</p>
+                <p>– Arruinadas por doze cavalos ...............................................  2</p>
+                <p>– Com o Exmo. Ajudante-general um carretão ..................................  1</p>
+                <p>– Idem abandonada em casa de <persName ref="#luis_vieira">Luís Vieira</persName> ....................................  1</p>
+                <p>– Com a bagagem da infantaria ao <persName ref="#tenente_rangel">Tenente Rangel</persName> .............................  1</p>
+                
+                <p>Carretas e Carretões  8</p>
+                
+                <p>Para prevenir reclamações e consequências iguais às que sofreram nossos Corpos de Caçadores e de Artilharia, dispus das três carretas de que faço menção a troco de cavalos para o exército. O boi em n.º de [249] entreguei ao Exmo. Ajudante-general; destes regressaram 24, quando foi mister enviar os restos do Trem, em cujo serviço se perderam, e o restante existe a cargo de um escravo em casa de <persName ref="#florisbelo_dos_santos_pereira">Florisbelo dos Santos Pereira</persName>. Porção de pregos de batel e de atracar dito do Exmo. Ajudante-general, ao sogro do mesmo e a <persName ref="#joao_antunes_pinto">João Antunes Pinto</persName>, indivíduos a quem o Estado muito mais deve, etc., etc., etc.</p>
+                
+                <closer>
+                    <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

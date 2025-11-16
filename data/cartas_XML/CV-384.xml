@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-384</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Cópia manuscrita conforme edição dos Anais.</p>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#antonio_vicente_siqueira_pereira_leitao">Antônio Vicente de Siqueira Pereira Leitão</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1837-09-24">24 de setembro de 1837</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-384" type="letter">
+                
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>Fico de posse do ofício que V. Ex.ª hoje me endereçou cujo conteúdo passo a levar ao conhecimento do Exmo. Sr. Presidente, que chegou há poucos momentos a esta cidade, a fim de que o mesmo Sr. dê a demissão que V. Ex.ª pede, para então se poder providenciar sobre o que V. Ex.ª exigiu ontem.</p>
+                
+                <p><closer>Deus guarde a V. Ex.ª.</closer></p>
+                <closer>
+                    <placeName ref="#piratini">Piratini</placeName>, 
+                    <date when="1837-09-24">24 de setembro de 1837</date>.<br/>
+                    <persName ref="#antonio_vicente_siqueira_pereira_leitao">Antônio Vicente de Siqueira Pereira Leitão</persName>
+                </closer>
+                
+                <note type="endorsement">[Cópia]</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

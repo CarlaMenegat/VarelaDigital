@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-378 – Sobre ameaça contra o autor</title>
+                <title>Carta CV-400 – Sobre disputa jurídica e instruções para despacho</title>
                 <author><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></author>
             </titleStmt>
             
@@ -27,48 +27,44 @@
         
         <profileDesc>
             <correspDesc>
-                
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
-                    <placeName ref="#piratini">Piratini</placeName>
-                    <date when="1837-09-23">23 de setembro de 1837</date>
                 </correspAction>
-                
                 <correspAction type="received">
-                    <persName ref="#domingos_crescencio_carvalho">Domingos Crescêncio de Carvalho</persName>
+                    <persName ref="#jose_mariano_matos">José Mariano de Matos</persName>
                 </correspAction>
-                
             </correspDesc>
         </profileDesc>
-        
     </teiHeader>
     
     <text>
         <body>
-            <div xml:id="CV-378" type="letter">
+            <div xml:id="CV-400" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Exmo. amigo Sr. <persName ref="#jose_mariano_matos">Matos</persName></salute>
                 </opener>
                 
-                <p><persName ref="#domingos_jose_almeida">Avisado por pessoa fidedigna</persName> de que alguns Srs. oficiais da distinta 1.º Brigada pretendem meu assassinato, por dilapidador dos fundos públicos dirijo o presente para, por intermédio de V. S.ª, rogar-lhes que suspendendo seu juízo a respeito, de entre si nomeiem uma comissão a quem eu mostre minhas contas e justifique minha conduta, prevenindo assim um passo que pode ser nocivo à causa em que se acham empenhados os briosos rio-grandenses.</p>
-                
-                <p>Minha família está entre eles, ela e minha consciência lhes garante o cumprimento daquilo que de mim exigirem saber. Se porém meu sangue é indispensável para fazer prosperar a árvore da liberdade em nosso país, eu não me retiro, e com ele se pode contar.</p>
+                <p>Por próprio agora mesmo recebo a espiga inclusa. Este negócio já me deu desgostos com os homens de <placeName ref="#alegrete">Alegrete</placeName> mas a viúva de Azambuja tudo merece; e suposto isso e a vontade de zelar o que é seu, contudo diga-me o que se oferecer para bem cedo despachar o próprio, escravo da Exma. Sra..</p>
                 
                 <closer>
-                    <p>Deus guarde a V. S.ª.</p>
-                    <signed>
-                        Piratini, 23 de setembro de 1837.<br/>
-                        <persName ref="#domingos_jose_almeida">(a) Domingos José de Almeida</persName>
-                    </signed>
+                    <p>Seu amigo obrigado</p>
+                    <signed>(a) <persName ref="#domingos_jose_almeida">Almeida</persName>.</signed>
+                </closer>
+                
+                <p>Esse negócio não é tão simples como o faz o General: houve uma demanda e foi decidida a favor de Viana; e ultimamente por sentença do Dr. Sá Brito foi Viana tomar posse; não sei pois como ingerir-se o governo neste negócio. A viúva de Estácio merece tudo e não Pires que está bem conhecido; portanto faça o que entender buscando conciliar a compaixão com o dever.</p>
+                
+                <closer>
+                    <signed>(a) <persName ref="#jose_mariano_matos">Matos</persName>.</signed>
                 </closer>
                 
                 <note type="endorsement">
-                    Ilmo. Sr. Coronel <persName ref="#domingos_crescencio_carvalho">Domingos Crescêncio de Carvalho</persName>, Comandante.
+                    Exmo. Sr. <persName ref="#jose_mariano_matos">Matos</persName>. [No verso]<br/>
+                    Em mão.<br/>
+                    Vide carta B. Mel. de 15 de agosto 40. [Letra de Alfredo Varela à margem da folha 1r.]
                 </note>
                 
             </div>
         </body>
     </text>
-    
 </TEI>

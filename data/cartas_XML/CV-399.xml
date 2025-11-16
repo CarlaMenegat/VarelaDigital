@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CV-399 – Decreto de demissão militar</title>
+                <author>
+                    <persName ref="#jose_mariano_matos">José Mariano de Matos</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <orgName ref="#republica_farroupilha">República Rio-grandense</orgName>
+                    <placeName ref="#alegrete">Campo junto a Alegrete</placeName>
+                    <date when="1840-08-11">11 de agosto de 1840</date>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-399" type="decree">
+                
+                <head>DECRETO</head>
+                
+                <p><placeName ref="#alegrete">Campo junto a Alegrete</placeName>, 11 de agosto de 1840.<br/>
+                    5.º da Independência e da República Rio-grandense.</p>
+                
+                <p>Tendo o cidadão <persName ref="#antonio_maria_valadares">Antônio Maria Valadares</persName>, 
+                    1.º Tenente do <orgName ref="#batalhao_cacadores_3">3.º Batalhão de Caçadores</orgName> 
+                    do <orgName ref="#exercito">Exército</orgName> da 
+                    <orgName ref="#republica_farroupilha">República</orgName>, pedindo sua demissão, 
+                    o Vice-presidente da mesma há por bem conceder-lha. 
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>, Ministro e Secretário 
+                    de Estado dos Negócios do Interior e Fazenda encarregado interinamente do expediente da Guerra, 
+                    assim o tenha entendido e o faça executar com os despachos necessários. 
+                    <persName ref="#jose_mariano_matos">José Mariano de Matos</persName>.<br/>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</p>
+                
+                <p>Registre-se e cumpra-se,<br/>
+                    Era ut supra.<br/>
+                    <persName ref="#domingos_jose_almeida">Almeida</persName>.</p>
+                
+                <p>Foi publicado nesta secretaria e registrado no livro competente. Era ut supra. 
+                    <orgName ref="#secretaria_interior">Secretaria do Interior</orgName>.<br/>
+                    O 2.º Escriturário (a) <persName ref="#joao_alexandre_rosa_jr">João Alexandre da Rosa Jr.</persName>.</p>
+                
+                <note type="endorsement">[Anexo ao documento CV-398]</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

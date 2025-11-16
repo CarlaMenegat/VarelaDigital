@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-385</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Cópia manuscrita conforme edição dos Anais.</p>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#antonio_vicente_siqueira_pereira_leitao">Antônio Vicente de Siqueira Pereira Leitão</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1837-09-25">25 de setembro de 1837</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-385" type="letter">
+                
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>Remeto por cópia o decreto pelo qual foi atendida a petição que V. Ex.ª fez para a sua demissão de Ministro e Secretário de Estado dos Negócios do Interior e interino da Fazenda.</p>
+                
+                <closer>
+                    <p>Secretaria de Estado dos Negócios da Justiça em <placeName ref="#piratini">Piratini</placeName>,
+                        <date when="1837-09-25">25 de setembro de 1837</date>.</p>
+                    <signed><persName ref="#antonio_vicente_siqueira_pereira_leitao">Antônio Vicente de Siqueira Pereira Leitão</persName></signed>
+                </closer>
+                
+                <note type="endorsement">[Cópia]</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

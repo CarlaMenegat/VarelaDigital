@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-390</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela — Anais do Arquivo Histórico do RS, vol. III</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Cópia transcrita conforme edição impressa.</p>
+                <ptr target="standoff-persons.xml"/>
+                <ptr target="standoff-places.xml"/>
+                <ptr target="standoff-events.xml"/>
+                <ptr target="standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1837-11-22">22 de novembro de 1837</date>
+                </correspAction>
+                <correspAction type="received">
+                    Exmo. Sr. Ministro da Fazenda
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1837-11-23">23 de novembro de 1837</date>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="cv390">
+                
+                <opener>
+                    <salute>Exmo. Sr. Ministro da Fazenda.</salute>
+                </opener>
+                
+                <p>
+                    Diz <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>, que à vista da impugnação de V. Ex.ª acerca da Comissão que requereu se criasse para tomar contas ao Suplicante, e da demora de 46 dias em se aprovar ou reprovar as que presentou a V. Ex.ª, dúvida alguma resta de que tais precedentes se dirigem ao fim de fazer girar sem oposição dentro e fora do Estado acintosos boatos contra a honra e reputação do Suplicante, e mesmo do Governo, que com isso dá a pensar que, ou é conivente com o Suplicante, tolerando suas supostas prevaricações, ou que é autor desses mesmos boatos que todos os dias tomam mais vulto negando-lhe os meios de sua defesa, qual a declaração do desembolso do Suplicante para continuação da guerra da independência do país.
+                </p>
+                
+                <p>
+                    E porque, nem de uma nem de outra coisa se persuade o Suplicante, ainda mesmo na presença de dados tais, vem ele por isso ainda uma vez requerer a V. Ex.ª o pronto andamento da referida conta: como igualmente quanto à Tipografia a chegar, tinta, papel e o mais já vindo lhe sejam entregues, não só por ser tudo comprado com dinheiro do Suplicante e com grave sacrifício seu, mas ainda porque desejando ele continuar a prestar seus serviços à boa causa que esposou pretende tomar a si a redação de um periódico, onde inserido somente o expediente do Governo, do Comandante-em-cheffe, e operações do exército, trate de manietar a intriga mostrando seus perniciosos efeitos e consequências, e de estabelecer, por meio de exemplos a evitar de outros povos em idênticas circunstâncias ao nosso, a sã moral e os bons costumes por ora alterados pelas vicissitudes das coisas.
+                </p>
+                
+                <p>Pede a V. Ex.ª assim lhe defira expedindo as ordens a respeito. E receberá mercê.</p>
+                
+                <closer>
+                    <placeName ref="#piratini">Piratini</placeName>, 22 de novembro de 1837.<lb/>
+                    <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                </closer>
+                
+                <p>
+                    — Despacho com a própria ortografia e gramática. O que requer está satisfeito. Quanto à Tipografia: não tem lugar; e sim aceita o Governo os serviços que com suas luzes, prática e desvelo se digne prestar-se à causa da Independência; redigindo a folha que deve aparecer no sentido da petição.
+                </p>
+                
+                <closer>
+                    Secretaria dos Negócios do Interior e Fazenda em <placeName ref="#piratini">Piratini</placeName>, 23 de novembro 1837.<lb/>
+                    <signed><persName ref="#corte_real">Corte Real</persName></signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

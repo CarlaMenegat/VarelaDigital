@@ -240,6 +240,11 @@
             <note>Região histórica das antigas reduções jesuíticas no Rio Grande do Sul.</note>
         </place>
         
+        <place xml:id="fronteira_missoes">
+            <placeName>Fronteira de Missões</placeName>
+            <note>Área militar e administrativa referida no contexto da República Rio-Grandense.</note>
+        </place>
+        
         <place xml:id="dores">
             <placeName>Distrito das Dores</placeName>
             <note>Localidade do território rio-grandense mencionada para reforço militar.</note>
@@ -433,6 +438,14 @@
             <placeName>Salto</placeName>
             <geo>-31.3833, -57.9667</geo>
         </place>
+        
+        <place xml:id="arroyocebolati">
+            <placeName>Arroyo Cebollatí</placeName>
+            <geo>-33.2670, -53.7943</geo>
+            <note>Curso d’água no sudeste do Uruguai que deságua na Lagoa Mirim.</note>
+        </place>
+
+        
 
     </listPlace>
 </standOff>

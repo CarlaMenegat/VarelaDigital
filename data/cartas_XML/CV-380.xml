@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-380 – Pedido de desligamento de funções</title>
+                <author><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.
+                    <ptr target="data/standoff/standoff-persons.xml"/>
+                    <ptr target="data/standoff/standoff-places.xml"/>
+                    <ptr target="data/standoff/standoff-events.xml"/>
+                    <ptr target="data/standoff/standoff-orgs.xml"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1837-09-23">23 de setembro de 1837</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#antonio_vicente_siqueira_pereira_leitao">Antônio Vicente de Siqueira Pereira Leitão</persName>
+                </correspAction>
+            </correspDesc>
+                
+        </profileDesc>
+    </teiHeader>
+        
+        <text>
+            <body>
+                <div xml:id="CV-380" type="letter">
+                    
+                    <opener>
+                        <salute>Ilmo. e Exmo. Sr.</salute>
+                    </opener>
+                    
+                    <p>Não podendo por um momento mais permanecer nos empregos que ocupo devolvo a V. Ex.ª o expediente do Governo que em ausência do Exmo. Presidente do Estado me foi conferido por ofício de 14 do corrente mês, como igualmente os das Pastas do Interior e Fazenda que exercia.</p>
+                    
+                    <closer>
+                        <p>Deus guarde a V. Ex.ª.</p>
+                        <signed>
+                            <placeName ref="#piratini">Piratini</placeName>, 23 de setembro de 1837.<br/>
+                            <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                        </signed>
+                    </closer>
+                    
+                    <note type="endorsement">
+                        Ilmo. e Exmo. Sr. Dr. <persName ref="#antonio_vicente_siqueira_pereira_leitao">Antônio Vicente de Siqueira Pereira Leitão</persName>, Ministro e Secretário de Estado dos Negócios da Justiça. [Cópia]
+                    </note>
+                    
+                </div>
+            </body>
+        </text>
+    </TEI>
