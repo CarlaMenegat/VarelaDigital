@@ -284,5 +284,23 @@
             <orgName>Infantaria</orgName>
             <note>Ramo militar terrestre que compunha as forças armadas durante a Revolução Farroupilha.</note>
         </org>
+        
+        <org xml:id="arsenal_guerra">
+            <orgName>Arsenal de Guerra</orgName>
+            <note>Estabelecimento militar sob administração imperial, responsável pelo depósito, manutenção e reparo de materiais bélicos durante a Revolução Farroupilha.</note>
+            <affiliation>Exército do Império do Brasil</affiliation>
+        </org>
+        
+        <org xml:id="quartel_esquadrao_barra">
+            <orgName>Quartel do Esquadrão da Barra</orgName>
+            <note>Unidade militar do Exército Imperial, local de destacamento de forças legalistas sob comando de Francisco Pedro de Abreu (Moringe).</note>
+            <affiliation>Exército do Império do Brasil</affiliation>
+        </org>
+        
+        <org xml:id="oitavo_batalhao">
+            <orgName>8.º Batalhão</orgName>
+            <note>Unidade militar legalista do Exército Imperial, responsável por prisões disciplinares e execução de ordens de comando.</note>
+            <affiliation>Exército do Império do Brasil</affiliation>
+        </org>
     </listOrg>
 </standOff>

@@ -2,7 +2,7 @@ import re
 import os
 
 # Caminho do arquivo extraído
-input_txt_path = "/Users/carlamenegat/Documents/GitHub/Untitled/VarelaDigital/data/extracted_text_ptfinal.txt"
+input_txt_path = "/Users/carlamenegat/Documents/GitHub/Untitled/VarelaDigital/data/Anais_full_OCR.txt"
 output_dir = "/Users/carlamenegat/Documents/GitHub/Untitled/VarelaDigital/data/cartas_txt"
 
 # Cria a pasta de saída se não existir

@@ -15,5 +15,15 @@
             <desc>Decreto de 4 de fevereiro de 1839 que determina pena de morte a invasores hostis vindos do Estado Oriental.</desc>
             <date when="1839-02-04">4 de fevereiro de 1839</date>
         </event>
+        
+        <event xml:id="operacao_tapes_1838">
+            <desc>Operação militar legalista na costa da Lagoa dos Patos, incluindo apreensão de embarcação rebelde e confronto armado.</desc>
+            <date from="1838-07-03" to="1838-07-16">3–16 de julho de 1838</date>
+            <location>
+                <placeName ref="#lagoa_patos"/>
+                <placeName ref="#tapes"/>
+                <placeName ref="#porto_alegre"/>
+            </location>
+        </event>
     </listEvent>
 </standOff>

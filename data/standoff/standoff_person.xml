@@ -127,6 +127,30 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q4773622</idno>
         </person>
         
+        <person xml:id="francisco_pedro_abreu">
+            <persName>Francisco Pedro de Abreu</persName>
+            <note>Capitão comandante, autor da comunicação disciplinar.</note>
+        </person>
+        
+        <person xml:id="francisco_xavier_cunha">
+            <persName>Francisco Xavier da Cunha</persName>
+            <note>Brigadeiro comandante da guarnição, destinatário da carta.</note>
+        </person>
+        
+        <person xml:id="francisco_pedro_abreu">
+            <persName>Francisco Pedro de Abreu</persName>
+            <persName type="alias">Moringe</persName>
+            <note>Militar e comandante legalista do Exército Imperial brasileiro durante a Revolução Farroupilha (1835–1845), atuando em oposição às forças da República Rio-Grandense. Suas comunicações e relatórios referem-se às atividades, disciplina e logística das tropas imperiais, nunca às forças farroupilhas.</note>
+            <affiliation>Exército do Império do Brasil</affiliation>
+            <role>Comandante militar</role>
+            <sex>m</sex>
+        </person>
+        
+        <person xml:id="domingos_vicente">
+            <persName>Domingos Vicente</persName>
+            <note>Soldado submetido à prisão disciplinar devido à violação de normas capilares militares.</note>
+        </person>
+        
         <person xml:id="alexandre_silveira">
             <persName>Alexandre Silveira</persName>
             <note>Credor mencionado no post scriptum da carta, aguardando pagamento.</note>
@@ -1270,6 +1294,11 @@
         <person xml:id="manuel_joaquim_siqueira">
             <persName>Manuel Joaquim de Siqueira</persName>
             <note>Soldado desertor mencionado na CV-335.</note>
+        </person>
+        
+        <person xml:id="firmino_luis_gomes_de_abreu">
+            <persName>Firmino Luís Gomes de Abreu</persName>
+            <note>Almoxarife do Arsenal de Guerra, responsável pela relação de materiais apreendidos.</note>
         </person>
         
         <person xml:id="francisco_pinto_rangel">
@@ -3050,7 +3079,6 @@
             <persName>Isaías</persName>
             <note>Indivíduo que recusou prosseguir no cargo em razão de perseguições e calúnias.</note>
         </person>
-        
         
         <person xml:id="joaquim_campos">
             <persName>Joaquim Campos</persName>

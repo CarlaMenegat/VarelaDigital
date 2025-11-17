@@ -557,5 +557,11 @@
             <geo>-29.4969, -54.69</geo>
             <note>Município de Jaguari, Estado do Rio Grande do Sul, Brasil. Latitude aproximadamente -29°29′49″ S e longitude -54°41′24″ O.  [oai_citation:0‡Prefeitura Municipal de Jaguari](https://www.jaguari.rs.gov.br/pagina/2/localizacao?utm_source=chatgpt.com)</note>
         </place>
+        
+        <place xml:id="tapes">
+            <placeName>Tapes</placeName>
+            <geo>-30.6733, -51.3953</geo>
+            <note>Município localizado às margens da Lagoa dos Patos, Rio Grande do Sul, Brasil; corresponde ao antigo lugar referido nas fontes como Tapes.</note>
+        </place>
     </listPlace>
 </standOff>

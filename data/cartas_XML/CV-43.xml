@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-43 – <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName> para <persName ref="#francisco_xavier_cunha">Francisco Xavier da Cunha</persName></title>
+                <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
+                    <orgName ref="#quartel_esquadrao_barra">Quartel do Esquadrão da Barra</orgName>
+                    <date when="1837-08-30">30 de agosto de 1837</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#francisco_xavier_cunha">Francisco Xavier da Cunha</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-43">
+                
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>Tendo o soldado <persName ref="#domingos_vicente">Domingos Vicente</persName>, do esquadrão de meu comando, apresentado-se no quartel de bigode rapado, e considerando o procedimento deste soldado não só um ato de insubordinação como alguma sedição de pessoa oculta, o prendi e o mandei recolher nas prisões do <orgName ref="#oitavo_batalhao">8.º Batalhão</orgName> por ordem de V. Ex.ª, e espero merecer de V. Ex.ª a graça de o conservar preso até crescer o bigode, não só porque não quero ver no esquadrão de meu comando derramada a insubordinação; como por ser este o primeiro que no mesmo corpo se arrojou a um procedimento tão estranho à disciplina militar.</p>
+                
+                <closer>
+                    <salute>Deus guarde a V. S.ª</salute>
+                    <dateline><orgName ref="#quartel_esquadrao_barra">Quartel do Esquadrão da Barra</orgName>, <date when="1837-08-30">30 de agosto de 1837</date>.</dateline>
+                    <signed><persName ref="#francisco_pedro_abreu">(a) Francisco Pedro de Abreu</persName><br/>Capitão Comandante.</signed>
+                </closer>
+                
+                <note type="endorsement">Ilmo. e Exmo. Sr. <persName ref="#francisco_xavier_cunha">Francisco Xavier da Cunha</persName>. Brigadeiro Comandante da Guarnição.</note>
+                <note type="endorsement">Já foi respondido no 1.º de setembro de 1837. [No verso]</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

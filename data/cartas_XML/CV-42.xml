@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Relação de materiais militares – CV-42</title>
+                <author><persName ref="#firmino_luis_gomes_de_abreu">Firmino Luís Gomes de Abreu</persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#firmino_luis_gomes_de_abreu">Firmino Luís Gomes de Abreu</persName>
+                    <orgName ref="#arsenal_guerra">Arsenal de Guerra</orgName>
+                    <date when="1840-12-26">26 de dezembro de 1840</date>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="inventory" xml:id="CV-42">
+                
+                <head>Relação do que foi tomado aos rebeldes e veio para este Arsenal, a saber:</head>
+                
+                <list>
+                    <item>Peças de bronze de calibre 9</item>
+                    <item>Dita dita de 6</item>
+                    <item>Forja de campanha</item>
+                    <item>Armões</item>
+                    <item>Reparos de campanha</item>
+                    <item>Soquetes com lanadas</item>
+                    <item>Cucharras com sacatrapos</item>
+                    <item>Lemes de conteiras</item>
+                </list>
+                
+                <p>É o que devo relacionar porque é somente o que acho.</p>
+                
+                <closer>
+                    <dateline><orgName ref="#arsenal_guerra">Arsenal de Guerra</orgName>, <date when="1840-12-26">26 de dezembro de 1840</date>.</dateline>
+                    <signed>O Almoxarife<br/>(a) <persName ref="#firmino_luis_gomes_de_abreu">Firmino Luís Gomes de Abreu</persName></signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>
