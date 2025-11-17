@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta/Nota CV-550 – <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName> para <persName ref="#bento_goncalves">Bento Gonçalves da Silva</persName></title>
+                <author><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#unknown_place">[local não indicado]</placeName>
+                    <date when="unknown">[data não indicada]</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#bento_goncalves">Bento Gonçalves da Silva</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="note" xml:id="CV-550">
+                
+                <opener>
+                    <salute>Meu compadre amigo e Sr.</salute>
+                </opener>
+                
+                <p><persName ref="#jose_francisco_vaz">José Francisco Vaz</persName> pede demissão e os direitos de quinhentas reses que quer exportar para <placeName ref="#rio_grande">Rio Grande</placeName> à conta de seus vencimentos; e <persName ref="#joaquim_bernardes_pereira">Joaquim Bernardes Pereira</persName>, 100 reses para criar. O 1.º pertence a V. Ex.ª o respectivo despacho; e sobre o 2.º e 3.º se servirá dizer-me o que devo despachar.</p>
+                
+                <closer>
+                    <salute>De V. Ex.ª</salute>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

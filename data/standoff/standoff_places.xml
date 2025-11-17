@@ -532,5 +532,30 @@
             <geo>-30.1086, -51.3233</geo>
             <note>Cidade situada às margens do lago Guaíba, na região metropolitana de Porto Alegre, Rio Grande do Sul, Brasil. Durante a Revolução Farroupilha, a área em torno do Guaíba foi terreno de circulação militar, comunicações e rotas estratégicas entre o sul e a capital provincial.</note>
         </place>
+        
+        <place xml:id="hospital">
+            <placeName>Hospital</placeName>
+            <location>
+                <geo>-31.6833 -54.6500</geo>
+            </location>
+            <note>
+                Região rural situada na bacia do Arroyo Hospital,
+                no norte do Uruguai, em área hoje próxima da localidade Paso Hospital (departamento de Rivera)
+                e da fronteira com o departamento de Tacuarembó e o estado do Rio Grande do Sul (Brasil).
+                A estância Hospital é mencionada na carta CV-504 como propriedade de Tristão de Borba.
+            </note>
+        </place>
+        
+        <place xml:id="parobe_rs">
+            <placeName>Parobé</placeName>
+            <geo>-29.6307, -50.8257</geo>
+            <note>Município de Parobé, Estado do Rio Grande do Sul, Brasil; localizado na Região Metropolitana de Porto Alegre, microrregião de Porto Alegre. Coordenadas aproximadas: latitude -29° 37′ 44″ S, longitude -50° 49′ 32″ O.  [oai_citation:0‡cidade-brasil.com.br](https://www.cidade-brasil.com.br/municipio-parobe.html?utm_source=chatgpt.com)</note>
+        </place>
+        
+        <place xml:id="jaguari_rs">
+            <placeName>Jaguari</placeName>
+            <geo>-29.4969, -54.69</geo>
+            <note>Município de Jaguari, Estado do Rio Grande do Sul, Brasil. Latitude aproximadamente -29°29′49″ S e longitude -54°41′24″ O.  [oai_citation:0‡Prefeitura Municipal de Jaguari](https://www.jaguari.rs.gov.br/pagina/2/localizacao?utm_source=chatgpt.com)</note>
+        </place>
     </listPlace>
 </standOff>

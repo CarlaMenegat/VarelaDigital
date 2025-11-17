@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-505 – Autor desconhecido para João Jorge Fayete</title>
+                <author>Autor desconhecido</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                </bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <placeName ref="#bage">Bagé</placeName>
+                    <date when="1841-09-10">10 de setembro de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#joao_jorge_fayete">João Jorge Fayete</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-505">
+                
+                <opener>
+                    <salute>Da conta que V. Mcê. a 6 do corrente me remeteu</salute>
+                </opener>
+                
+                <p>Da conta que V. Mcê. a 6 do corrente me remeteu, importante em Rs. 516$200, e daquela de miudezas entregues ao Sr. Comissário Geral no valor de Rs. 17$480, separei o que pertencia ao Estado e o que à minha casa; importando a conta daquele em Rs. 246$000, como da conta por extenso em n.º 1, e a desta em Rs. 146$620 como da de n.º 2.</p>
+                
+                <p>Para pagamento destas quantias lhe remeto inclusas as ordens seguintes em desconto dos direitos da tropa de <persName ref="#antonio_bento">Antônio Bento</persName> por V. Mcê. despachada a 30 do passado, a saber:</p>
+                
+                <p>— para pagamento de fazendas fornecidas ao arranjo da sala do <orgName ref="#tesouro">Tesouro</orgName>, ao <orgName ref="#guarda_nacional">Guarda Nacional</orgName> <persName ref="#gabriel_goncalves_guimaraes">Gabriel Gonçalves Guimarães</persName>, ao <persName ref="#coronel_rolao">Coronel Rolão</persName>, ao <orgName ref="#terceiro_batalhao">3.º Batalhão</orgName>, ao <persName ref="#capitao_franca">Capitão França</persName>, ao <persName ref="#andre_martins_moura">André Martins de Moura</persName>, à viúva do <persName ref="#coronel_crescencio">Coronel Crescêncio</persName> por seu cunhado e o Sr. Comissário Geral, deduzida a importância de 50 couros que recebeu à conta ........................................... 246$060</p>
+                
+                <p>— minha conta particular ......................... 146$620</p>
+                
+                <p>— ordem a seu favor por encontro da quantia de ... 422$920 expedida a 31 do passado para saldar a quantia de Rs. 490$000 dos direitos da tropa do dito <persName ref="#antonio_bento">Antônio Bento</persName> por V.Mcê. afiançados ........... 97$320</p>
+                
+                <p>Ficando pois V. Mcê. desonerado da fiança referida, e credor do Estado da quantia de Rs. 325$600 resto da ordem pelo <orgName ref="#tesouro">Tesouro</orgName> expedida a 31 do passado, como acima se declara; cumpre-me dizer-lhe porque deduzo na minha conta particular os 45$000 da conta de <placeName ref="#porto_alegre">Porto Alegre</placeName> incluída na que me deu o <persName ref="#smithe">Sr. Smithe</persName> no 1.º de fevereiro pp. e os 48$000 a ele dados em <placeName ref="#cacapava">Caçapava</placeName>.</p>
+                
+                <p>Deduzi a parcela de 45$000 porque penso haver engano, mas a entregarei quando me for apresentada por extenso.</p>
+                
+                <p>Deduzi os 48$000 porque tendo-os pedido ao <persName ref="#smithe">Sr. Smithe</persName> por carta de 29 de junho de 1839 enviando um -Fica- dessa quantia para deixar em seu poder caso me fizesse tal suprimento, este me foi devolvido, por não poder o <persName ref="#smithe">Sr. Smithe</persName> então servir-me como disse ao portador, ficando aquela, em virtude da qual quando o <persName ref="#antonio_dos_santos_paiva">Antônio dos Santos Paiva</persName> por minha ordem a 12 de agosto seguinte foi pagar-lhe o que me havia suprido, ele exigiu os 50 patacões de que tratava a dita carta asseverando ter o -Fica- envolvido em papéis; e obrigando-se apresentá-lo com vagar eu lhe dei os 50 patacões. Ele se há de lembrar de tudo isto, e lá tem o <persName ref="#antonio_dos_santos_paiva">Sr. Santos Paiva</persName> com quem se pode informar e, se apresentar o -Fica- com data de 29 de junho de 1839, eu lho satisfarei imediatamente.</p>
+                
+                <p>Sendo quanto se me oferece, sou</p>
+                
+                <closer>
+                    <salute>De V. Mcê.</salute>
+                    <signed>Amigo muito obrigado</signed>
+                </closer>
+                
+                <note type="endorsement">Copiado n.º 10</note>
+                <note type="endorsement">Minuta</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

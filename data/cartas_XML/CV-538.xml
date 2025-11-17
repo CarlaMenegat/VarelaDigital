@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-538 – Domingos José de Almeida para Albino José Ferreira</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#bage">Bagé</placeName>
+                    <date when="1841-11-05">5 de novembro de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#albino_jose_ferreira">Albino José Ferreira</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-538">
+                
+                <opener>
+                    <salute>Sr. <persName ref="#albino_jose_ferreira">Albino José Ferreira</persName>.</salute>
+                    <dateline><placeName ref="#bage">Bagé</placeName>, <date when="1841-11-05">5 de novembro de 1841</date>.</dateline>
+                </opener>
+                
+                <p>Com a 2.º via da sua de 17 do passado, recebi a que me dirigiu a 31 do mesmo, que vou contestar.</p>
+                
+                <p>Fico certo terem-lhe sido apresentadas minhas ordens a favor do <persName ref="#professor_publico">professor público dessa cidade</persName>, de <persName ref="#joao_mendes">João Mendes</persName>, de <persName ref="#manuel_rodrigues_barbosa">Manuel Rodrigues Barbosa</persName>, de <persName ref="#antonio_dos_santos_paiva">Santos Paiva</persName> e de <persName ref="#miguel_jose_de_campos_jr">Miguel José de Campos</persName>, como da remessa do milho que lhe pedi, e que todas há de satisfazer como promete, de que lhe serei agradecido.</p>
+                
+                <p>Acerca de sua pretensão ao pagamento em cédulas de metade de seus ordenados, cedendo a outra metade para despesas da guerra, cumpre-me dizer-lhe que sendo ela de grande vantagem para o Tesouro, todavia não pode verificar-se presentemente por não haver cédulas disponíveis, e por oposta ao decreto de 12 de janeiro de 1839.</p>
+                
+                <p>Quanto à roupa que oferece para suprimento do exército, sendo pouca como diz, não abrange as necessidades de um Corpo pelo menos, e por isso também as não posso mandar receber.</p>
+                
+                <p>E quanto à sua ida a <placeName ref="#cacapava">Caçapava</placeName>, estando ainda aquela povoação e seus subúrbios ocupada pelo célebre <persName ref="#prestes">Prestes</persName>, acho pouco prudente; contudo, a querer aventurar-se, diga-me para lhe mandar as ordens que lhe forem precisas.</p>
+                
+                <p>O desprezo com que <persName ref="#smithe">Smithe</persName> tratou a demanda que teve com V.Mcê. lhe proporcionou um triunfo momentâneo: porque da carta que V.Mcê. dirigiu a <persName ref="#francisco_de_miranda">Francisco de Miranda</persName>, datada de <placeName ref="#parobe">Parobé</placeName> a 10 de setembro do ano passado, e conta por letra de <persName ref="#santos_paiva">Santos Paiva</persName> que me apresentou, se colige que a ele e aos mais seus credores mandará V.Mcê. embolsar com as roupas e fazendas que tinha pelos preços então correntes em <placeName ref="#cacapava">Caçapava</placeName>; e que tendo sua Sra. assim praticado por ordem sua, V.Mcê. não podia exigir as diferenças que notou. Porém, como disse, ele deixou correr tudo à revelia, e o governo teve de confirmar a sentença dada a bem das fórmulas: bom será que ele não tente nova questão a tal respeito.</p>
+                
+                <p>Com o milho que lhe pedi veja se me remete um surrão de farinha de trigo que tenho no <persName ref="#bernardo_pires">Major Pires</persName>, que lhe ficarei obrigado.</p>
+                
+                <p>Meus respeitos à <persName ref="#d_rita">Sra. D. Rita</persName> minha Sra., e V. Mcê. disponha do</p>
+                
+                <closer>
+                    <signed>Seu amigo afetuoso e obrigado</signed>
+                </closer>
+                
+                <note type="endorsement">[Minuta]</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

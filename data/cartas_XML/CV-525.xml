@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-525 – Domingos José de Almeida para General João Antônio da Silveira</title>
+                <author>Domingos José de Almeida</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <placeName ref="#bage">Bagé</placeName>
+                    <date when="1841-10-09">9 de outubro de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#joao_antonio_silveira">General João Antônio da Silveira</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-525">
+                
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>Levando ao conhecimento de S. Ex.ª o Sr. Presidente o ofício que V. Ex.ª me dirigiu a 27 do passado requisitando um cargueiro com cartuchos e o armamento que há tempos exigiu, que podia seguir nas carretas que trouxeram as peças; de ordem do mesmo respondo.</p>
+                
+                <p>Os carreteiros de que faz menção suponho terem já regressado por não aparecerem na chácara em que pararam; eu os mando ver em outras, e se ainda os achar enviarei o armamento que se puder dispensar, como pelos portadores deste o cargueiro com cartuchos, caso se verifique a ida dos ditos carreteiros.</p>
+                
+                <p>Dependendo a expedição de ordens acerca de negócios da <orgName ref="#secretaria_interior_fazenda_guerra">Fazenda e do expediente da Guerra</orgName> e de outros assuntos da administração do Estado da certeza de retirada do inimigo para <placeName ref="#rio_pardo">Rio Pardo</placeName> como se diz, convém que V. Ex.ª sem perda de tempo, de momento me diga se com efeito verificou-se a dita retirada.</p>
+                
+                <closer>
+                    <salute>Deus guarde a V. Ex.ª</salute>
+                    <dateline><placeName ref="#bage">Bagé</placeName>, <date when="1841-10-09">9 de outubro de 1841</date>.</dateline>
+                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                </closer>
+                
+                <note type="endorsement">S. da R.</note>
+                <note type="endorsement">Ao cidadão <persName ref="#joao_antonio_silveira">General João Antônio da Silveira</persName>.</note>
+                <note type="endorsement"><placeName ref="#sao_gabriel">São Gabriel</placeName>.</note>
+                <note type="endorsement">Do <orgName ref="#ministerio_guerra">Ministério da Guerra</orgName>.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

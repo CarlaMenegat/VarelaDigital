@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-515 – Autor desconhecido para Joaquim de Sousa</title>
+                <author>Autor desconhecido</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <placeName ref="#bage">Bagé</placeName>
+                    <date when="1841-09-27">27 de setembro de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#joaquim_de_sousa">Joaquim de Sousa</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-515">
+                
+                <opener>
+                    <salute>Sr.</salute>
+                </opener>
+                
+                <p>Para o <persName ref="#antonio_joaquim_de_sousa">Sr. Tenente-coronel Antônio Joaquim de Sousa</persName> pode V.Mcê. entregar a seu filho o <persName ref="#joaquim_antonio_de_sousa">Sr. Joaquim Antônio de Sousa</persName>, portador desta, cinco côvados de pano azul fino que me pede para farda, colete e calças, que eu respondo por sua importância, e para isso exija recibo dela.</p>
+                
+                <p>De V.Mcê.</p>
+                
+                <closer>
+                    <signed>Compadre e amigo obrigado</signed>
+                </closer>
+                
+                <note type="endorsement">76</note>
+                <note type="endorsement">n.º 19 – Copiado</note>
+                <note type="endorsement">Minuta</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-558 – <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName> para <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName></title>
+                <author><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#san_fructuoso">Vila de San Fructuoso</placeName>
+                    <date when="1841-12-27">27 de dezembro de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-558">
+                
+                <opener>
+                    <salute>Querida <persName ref="#bernardina_barcelos_almeida">Bernardina</persName></salute>
+                    <dateline><placeName ref="#san_fructuoso">Vila de San Fructuoso</placeName>, <date when="1841-12-27">27 de dezembro de 1841</date>.</dateline>
+                </opener>
+                
+                <p>A 21 chegamos ainda cedo em casa de <persName ref="#quirino_candiota">Quirino Candiota</persName>, daqui distante seis léguas; e aí sabendo que ainda aqui se não achava o <persName ref="#fructuoso_rivera">Presidente Rivera</persName>, paramos. A 24 à noite recebemos cartas do mesmo, fazendo ver que por incômodos de saúde não podia vir como convencionara, mas que seu Secretário, portador delas, munido de plenos poderes, nos instruiria do que convinha fazer; este se achava aqui e por isso o procuramos anteontem, e ultimados os arranjos a que se dirigiu, amanhã daqui sairemos, mas com marchas vagarosas para recebermos porção de cavalos que nos faculta.</p>
+                
+                <p>No 2.º dia de viagem sofri uma grande febre proveniente de uma inflamação de que fui acometido, porém tendo nessa noite suado copiosamente melhorei e nada mais me tem incomodado. Aqui encontrei <persName ref="#joaquim_campos">Joaquim Campos</persName> com loja e dela pouco levarei para os meninos por falta de condução; a eles por mim abraça e recomendando-me a todos os [rasgado] recebe tu o coração do</p>
+                
+                <closer>
+                    <signed>Teu</signed>
+                    <signed>(a) <persName ref="#domingos_jose_almeida">Almeida</persName></signed>
+                </closer>
+                
+                <note type="endorsement">Sra. <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>. <placeName ref="#bage">Bagé</placeName>.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

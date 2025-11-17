@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-545 – <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName> para <persName ref="#luis_rodrigues_barcelos">Luís Rodrigues Barcelos</persName></title>
+                <author><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#bage">Bagé</placeName>
+                    <date when="1841-11-25">25 de novembro de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#luis_rodrigues_barcelos">Luís Rodrigues Barcelos</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-545">
+                
+                <opener>
+                    <salute>Cópia — Sr. <persName ref="#luis_rodrigues_barcelos">Luís Rodrigues Barcelos</persName>.</salute>
+                    <dateline><placeName ref="#bage">Bagé</placeName>, <date when="1841-11-25">25 de novembro de 1841</date>.</dateline>
+                    <salute>Primo amigo e Sr.</salute>
+                </opener>
+                
+                <p>A V. Mcê., como residente aí quase efetivamente, vou por esta rogar-lhe o favor de tomar conta de minha desgraçada casa para de uma vez não ser arruinada, reparando-a no que for de mister para não vir abaixo ou ser presa dos ladrões, certo de que tudo que com ela despender eu serei pronto em pagar.</p>
+                
+                <p>O Sr. <persName ref="#eugenio_vidie">Eugênio Vidie</persName> vai dela remover a máquina de fazer graxa de <persName ref="#chevalier">Chevalier</persName> e <persName ref="#augusto">Augusto</persName>; espero também que V. Mcê. a entregue, deixando as caldeiras e tudo o mais pertencente à charqueada.</p>
+                
+                <p>O galpão onde se acha a dita máquina, dizem-me que se acha muito arruinado e em ponto de vir abaixo; espero que o mande esbirrar de pronto, tomar as águas, e fechá-lo de modo que outra vez não seja ameaçado de vir abaixo.</p>
+                
+                <p>As miudezas do guindaste, tafona, graxeira e charqueada espero que V. Mcê. passe a lugar mais seguro para não serem queimadas, como se tem praticado com os mais utensílios.</p>
+                
+                <p>Os primos e primas que hajam esta por sua e V. Mcê. disponha do seu primo e amigo obrigado.</p>
+                
+                <closer>
+                    <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

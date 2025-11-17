@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-536 – Domingos José de Almeida para Bento Gonçalves da Silva</title>
+                <author>Domingos José de Almeida</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <!-- Local nominal ausente (S.C. = sua casa) -->
+                    <date when="1841-11-04">4 de novembro de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#bento_goncalves_silva">Presidente da República</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-536">
+                
+                <opener>
+                    <salute>Meu respeitável compadre amigo e Sr.</salute>
+                </opener>
+                
+                <p>É massada; mas é bom que V. Ex.ª fique ao fato das coisas. Aqui tem um requerimento de <persName ref="#manuel_joaquim_de_almeida">Manuel Joaquim de Almeida</persName> e cartas que abonam o seu pedido. Sua pretensão a nova avaliação é justa por ser o escravo de que trata bens de órfãos, e não haver o <persName ref="#canabarro">General Canabarro</persName> ao menos mandado fazê-la por duas pessoas, ao menos para ressalvar-se de increpações injustas.</p>
+                
+                <p>Para não chocar a <persName ref="#canabarro">Canabarro</persName> pretendo mandar proceder a dita avaliação por pessoas conhecedoras do escravo, ou mandar pagar pelo mesmo quinhentos mil réis: V. Ex.ª me dirá o que melhor convier.</p>
+                
+                <p>A carta de <persName ref="#sa_brito">Sá Brito</persName> não está má pelo que diz acerca da negociação da Europa, que lhe comuniquei sem dizer-lhe qual a nação com que se faria tal negociação; e por estar de acordo respeito as apelações decretadas [sic] ultimamente, etc., etc...</p>
+                
+                <closer>
+                    <salute>De V. Ex.ª.</salute>
+                    <signed>Compadre e amigo obrigado<br/>(a) <persName ref="#domingos_jose_almeida">Almeida</persName>.</signed>
+                    <dateline>S.C., <date when="1841-11-04">4 de novembro de 1841</date>.</dateline>
+                </closer>
+                
+                <note type="endorsement">Exmo. Sr. Presidente da República.<br/>S. casa.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

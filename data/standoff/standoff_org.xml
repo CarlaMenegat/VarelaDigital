@@ -94,6 +94,10 @@
             <note>Órgão máximo da administração da República Rio-Grandense.</note>
         </org>
         
+        <org xml:id="presidencia_republica">
+            <orgName>Presidência da República</orgName>
+        </org>
+        
         <org xml:id="exercito_farroupilha">
             <orgName>Exército Republicano Rio-Grandense</orgName>
             <note>Força militar da República Rio-Grandense durante a Revolução Farroupilha.</note>
@@ -264,6 +268,11 @@
         
         <org xml:id="4_batalhao">
             <orgName>4.º Batalhão</orgName>
+            <note>Unidade militar referida no contexto administrativo-logístico.</note>
+        </org>
+        
+        <org xml:id="terceiro_batalhao">
+            <orgName>3.º Batalhão</orgName>
             <note>Unidade militar referida no contexto administrativo-logístico.</note>
         </org>
         

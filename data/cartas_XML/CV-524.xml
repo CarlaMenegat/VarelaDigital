@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-524 – Domingos José de Almeida para destinatário não explicitado</title>
+                <author>Domingos José de Almeida</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <!-- Local omitido no texto, não pode ser inferido -->
+                    <date when="1841-10-06">6 de outubro de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <!-- destinatário não nomeado na abertura -->
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-524">
+                
+                <opener>
+                    <salute>Ilmo. compadre, amigo e Sr.</salute>
+                </opener>
+                
+                <p>Como verá, <persName ref="#joaquim_pereira_fagundes">Joaquim Pereira Fagundes</persName> quer desistir do arrendamento da <placeName ref="#estancia_barreto">estância de Barreto</placeName>. Que ele não pode exportar o gado, é fato que nós sabemos; e que a estância não está desfalcada, também é constante: e sobre tudo isso, acresce que esse gado se pode dar ao mesmo <persName ref="#fructuoso_rivera">Fructo</persName> em pagamento do que se lhe deve e a <persName ref="#joao_jose_victorica">Victorica</persName> o que se lhe resta. Enfim diga V. Ex.ª que despacho quer que se ponha.</p>
+                
+                <closer>
+                    <salute>De V. Ex.ª</salute>
+                    <signed>Compadre e amigo obrigado<br/>(a) <persName ref="#domingos_jose_almeida">Almeida</persName>.</signed>
+                </closer>
+                
+                <p>Veja mais essa carta de João Antônio e saiba que a coisa nasce do mesmo doutoreco que nos escreveu em desafronta aos festejos que preparavam e não fizeram a 7 do passado por causa de João Antônio, que querendo fazer a função de 20 se urdiu aquela trama para ser frustrada também. Neste estado de coisas bom é que o Sr. Leitão não regresse tão cedo, etc., etc...</p>
+                
+                <pb/>
+                <p>S.C., 6 de outubro de 1841.</p>
+                
+                <note type="endorsement">Exmo. Sr. Presidente do Estado.</note>
+                <note type="endorsement">Sua casa.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

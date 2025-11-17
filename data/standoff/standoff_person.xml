@@ -41,6 +41,11 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10368444</idno>
             <note>Militar e político republicano, atuante no sul do Brasil.</note>
         </person>
+        
+        <person xml:id="demetrio">
+            <persName>Demétrio</persName>
+            <note>Identificado com patente de Tenente-coronel.</note>
+        </person>
 
         <person xml:id="roque">
             <persName>Roque</persName>
@@ -141,6 +146,10 @@
         <person xml:id="martins">
             <persName>Manuel Martins da Silveira Lemos</persName>
             <note>Funcionário administrativo vinculado à Coletoria.</note>
+        </person>
+        
+        <person xml:id="manuel_martins_silveira_lemos">
+            <persName>Manuel Martins da Silveira Lemos</persName>
         </person>
         
         <person xml:id="miguel_garcia">
@@ -352,6 +361,11 @@
             <note>Pai de um dos jovens apreendidos na região da capela dos Ladrões, conforme o relato.</note>
         </person>
         
+        <person xml:id="macedo">
+            <persName>Macedo</persName>
+            <note>Indivíduo que realizou arrendamento da estância citada.</note>
+        </person>
+        
         <person xml:id="dutra">
             <persName>Dutra</persName>
             <note>Indivíduo mencionado como destinatário de um ofício encaminhado por Abreu.</note>
@@ -432,6 +446,7 @@
         <person xml:id="manuel_alz">
             <persName>Manuel Alz.</persName>
             <note>Rebelde que comandou a força responsável por frustrar a operação de Joaquim Rodrigues.</note>
+            <persName type="role">Capitão</persName>
         </person>
         
         <person xml:id="jose_romao_taborda">
@@ -603,6 +618,10 @@
             <note>Coronel.</note>
         </person>
         
+        <person xml:id="manuel_jose_leao">
+            <persName>Manuel José de Leão CV-512</persName>
+        </person>
+        
         <person xml:id="mariano_gloria">
             <persName>Mariano Glória</persName>
             <note>Major que recebeu pagamento registrado.</note>
@@ -720,6 +739,11 @@
         <person xml:id="joao_antonio_silveira">
             <persName>João Antônio da Silveira</persName>
             <note>Coronel e Comandante da Divisão da Direita do exército farroupilha.</note>
+        </person>
+        
+        <person xml:id="joao_antonio_silveira">
+            <persName>João Antônio da Silveira</persName>
+            <persName type="role">General</persName>
         </person>
         
         <person xml:id="jose_antonio_silva">
@@ -1343,6 +1367,11 @@
             <note>Morador estabelecido dentro da fazenda de Candiota, indicado por Bento Gonçalves como arrendatário preferencial.</note>
         </person>
         
+        <person xml:id="major_ismael">
+            <persName>Major Ismael</persName>
+            <note>Oficial mencionado no documento; identidade completa não fornecida no texto.</note>
+        </person>
+        
         <person xml:id="joao_b_gregg">
             <persName>João B. Gregg</persName>
             <note>Tenente citado na avaliação dos salvados.</note>
@@ -1410,7 +1439,6 @@
         <person xml:id="francisco_jose_silva_moura">
             <persName>Francisco José da Silva Moura</persName>
         </person>
-        
         
         <person xml:id="jose_silveira_gularte">
             <persName>José Silveira Gularte</persName>
@@ -1488,6 +1516,10 @@
             <note>Responsável pela movimentação e entrega de tropas.</note>
         </person>
         
+        <person xml:id="ana_ferreira_antunes">
+            <persName>Ana Ferreira Antunes</persName>
+            <note>Viúva de João Antunes, citada na transferência da estância do Butiá.</note>
+        </person>
         
         <person xml:id="joao_antunes">
             <persName>João Antunes</persName>
@@ -1497,6 +1529,7 @@
         <person xml:id="felix_vieira">
             <persName>Félix Vieira</persName>
             <note>Conduziu tropas e entregas para diferentes destinatários.</note>
+            <note>Mencionado com posto de Major.</note>
         </person>
         
         <person xml:id="francisco_carlos_da_costa">
@@ -1588,12 +1621,32 @@
             <note>Sócio de Almeida e autor das Meórias Economo políticas.</note>
         </person>
         
+        <person xml:id="antonio_jose_goncalves_chaves_pai">
+            <persName>Antônio José Gonçalves Chaves</persName>
+            <note>Pai; mencionado como falecido. Figura relacionada a transações contábeis anteriores com Domingos José de Almeida.</note>
+        </person>
+        
+        <person xml:id="antonio_jose_goncalves_chaves_filho">
+            <persName>Antônio José Gonçalves Chaves</persName>
+            <persName type="role">Dr.</persName>
+            <note>Filho do homônimo acima; referido como responsável por ajustes contábeis da herança ou bens paternos.</note>
+        </person>
+        
+        
+        <person xml:id="tenente_coronel_baltasar">
+            <persName>Tenente-coronel Baltasar</persName>
+        </person>
+        
         <person xml:id="francisco_augusto_cunha">
             <persName>Francisco Augusto da Cunha</persName>
         </person>
         
         <person xml:id="marciano_pereira_ribeiro">
             <persName>Marciano Pereira Ribeiro</persName>
+        </person>
+        
+        <person xml:id="dr_marciano">
+            <persName>Dr. Marciano</persName>
         </person>
         
         <person xml:id="americo_cabral_melo">
@@ -1971,11 +2024,6 @@
             <note>Guarda Nacional enviado por determinação administrativa.</note>
         </person>
         
-        <person xml:id="felix_vieira">
-            <persName>Félix Vieira</persName>
-            <note>Mencionado com posto de Major.</note>
-        </person>
-        
         <person xml:id="camilo_campelo">
             <persName>Camilo Campelo</persName>
             <note>Tenente-coronel e Comandante das Forças da Comarca, destinatário da carta.</note>
@@ -2343,6 +2391,46 @@
             <note>Nome sem prenome completo — permanece como identificado apenas por forma única no corpus.</note>
         </person>
         
+        <person xml:id="joao_jorge_fayete">
+            <persName>João Jorge Fayete</persName>
+        </person>
+        
+        <person xml:id="antonio_bento">
+            <persName>Antônio Bento</persName>
+        </person>
+        
+        <person xml:id="gabriel_goncalves_guimaraes">
+            <persName>Gabriel Gonçalves Guimarães</persName>
+        </person>
+        
+        <person xml:id="coronel_rolao">
+            <persName>Coronel Rolão</persName>
+        </person>
+        
+        <person xml:id="capitao_franca">
+            <persName>Capitão França</persName>
+        </person>
+        
+        <person xml:id="andre_martins_moura">
+            <persName>André Martins de Moura</persName>
+        </person>
+        
+        <person xml:id="dom_pedro_morera">
+            <persName>Dom Pedro Morera</persName>
+        </person>
+        
+        <person xml:id="jose_evaristo_costa_bandeira">
+            <persName>José Evaristo da Costa Bandeira</persName>
+        </person>
+        
+        <person xml:id="manuel_francisco_moura">
+            <persName>Manuel Francisco de Moura</persName>
+        </person>
+        
+        <person xml:id="antonio_dos_santos_paiva">
+            <persName>Antônio dos Santos Paiva</persName>
+        </person>
+        
         <person xml:id="borba">
             <persName>Borba</persName>
             <note>Identidade parcial — sobrenome, mas agente individual concreto.</note>
@@ -2459,6 +2547,17 @@
             <persName>Evaristo</persName>
             <note>Indivíduo encarregado de entregar dinheiro à destinatária, mencionado sem sobrenome.</note>
         </person>
+        
+        <person xml:id="evaristo">
+            <persName>Evaristo</persName>
+            <note>Indivíduo que solicita a retirada de gados conforme documento citado.</note>
+        </person>
+        
+        <person xml:id="bibiano">
+            <persName>Bibiano</persName>
+            <note>Indivíduo relacionado à estância mencionada, provavelmente proprietário ou responsável.</note>
+        </person>
+
         
         <person xml:id="luis_machado_teixeira">
             <persName>Luís Machado Teixeira</persName>
@@ -2590,6 +2689,11 @@
             <note>Mencionado como recebedor de quantia; não há outra qualificação.</note>
         </person>
         
+        <person xml:id="quirino_candiota">
+            <persName>Quirino Candiota</persName>
+            <note>Anfitrião mencionado na viagem do remetente.</note>
+        </person>
+        
         <person xml:id="jose_manuel_silva">
             <persName>José Manuel da Silva</persName>
             <note>Destinatário da carta CV-491.</note>
@@ -2634,6 +2738,323 @@
         <person xml:id="dom_inocencio_cocio">
             <persName>Dom Inocêncio Cocio</persName>
             <note>Destinatário da carta CV-500.</note>
+        </person>
+        
+        <person xml:id="serafim">
+            <persName>Serafim</persName>
+            <note>Mencionado como Juiz de Paz.</note>
+        </person>
+        
+        <person xml:id="francisco_antonio_alvares">
+            <persName>Francisco Antônio Álvares</persName>
+            <note>Destinatário da carta CV-502.</note>
+        </person>
+        
+        <person xml:id="coronel_leao">
+            <persName>Coronel Leão</persName>
+            <note>Citado como falecido e ligado à família mencionada na carta.</note>
+        </person>
+        
+        <person xml:id="jose_ferreira_gomes_roque">
+            <persName>José Ferreira Gomes Roque</persName>
+        </person>
+        
+        <person xml:id="arranca">
+            <persName>Arranca</persName>
+            <note>Provavelmente comerciante ou fornecedor citado para compra de óleo.</note>
+        </person>
+        
+        <person xml:id="faria">
+            <persName>Faria</persName>
+        </person>
+        
+        <person xml:id="tristao_de_borba">
+            <persName>Tristão de Borba</persName>
+        </person>
+        
+        <person xml:id="manuel_crioulo">
+            <persName>Manuel</persName>
+            <note>Descrito como escravo crioulo, acompanhando Tristão de Borba.</note>
+        </person>
+        
+        <person xml:id="joao">
+            <persName>João</persName>
+            <note>Descrito como escravo, acompanhando Tristão de Borba.</note>
+        </person>
+        
+        <person xml:id="ivo">
+            <persName>Ivo</persName>
+            <note>Descrito como escravo, acompanhando Tristão de Borba.</note>
+        </person>
+        
+        <person xml:id="felisbino">
+            <persName>Felisbino</persName>
+            <note>Mencionado como piá acompanhando o grupo.</note>
+        </person>
+        
+        <person xml:id="manuel_pia">
+            <persName>Manuel</persName>
+            <note>Piá, homônimo do escravo Manuel.</note>
+        </person>
+        
+        <person xml:id="albino_jose_monte">
+            <persName>Albino José do Monte</persName>
+            <note>Identificado com o título Capitão.</note>
+        </person>
+        
+        <person xml:id="luis_machado_teixeira">
+            <persName>Luís Machado Teixeira</persName>
+            <note>Coletor da povoação, conforme carta CV-510.</note>
+        </person>
+        
+        <person xml:id="francisco_jose_bueno">
+            <persName>Francisco José Bueno</persName>
+        </person>
+        
+        <person xml:id="albino_jose_ferreira">
+            <persName>Albino José Ferreira</persName>
+        </person>
+        
+        <person xml:id="jose_gomes_portinho">
+            <persName>José Gomes Portinho</persName>
+            <note>Identificado com patente de Tenente-coronel.</note>
+        </person>
+        
+        <person xml:id="joaquim_de_sousa">
+            <persName>Joaquim de Sousa</persName>
+        </person>
+        
+        <person xml:id="antonio_joaquim_de_sousa">
+            <persName>Antônio Joaquim de Sousa</persName>
+            <note>Identificado com patente militar de Tenente-coronel.</note>
+        </person>
+        
+        <person xml:id="joaquim_antonio_de_sousa">
+            <persName>Joaquim Antônio de Sousa</persName>
+            <note>Filho e portador mencionado em CV-515 e CV-516.</note>
+        </person>
+        
+        <person xml:id="luis_carlos_oliveira">
+            <persName>Luis Carlos de Oliveira</persName>
+        </person>
+        
+        <person xml:id="mauricio_carlos_morais">
+            <persName>Maurício Carlos de Morais</persName>
+        </person>
+        
+        <person xml:id="jeronimo_jose_mota">
+            <persName>Jerônimo José da Mota</persName>
+        </person>
+        
+        <person xml:id="jacinto_dinartes">
+            <persName>Jacinto Dinartes</persName>
+        </person>
+        
+        <person xml:id="jose_pereira_silva">
+            <persName>José Pereira da Silva</persName>
+            <note>Ex-comandante do brigue “Bento Gonçalves”.</note>
+        </person>
+        
+        <person xml:id="luis_bocquin_des_hilaires">
+            <persName>D. Luís Bocquin des Hilaires</persName>
+        </person>
+        
+        <person xml:id="pablo_ramon">
+            <persName>Dom Pablo Ramón</persName>
+        </person>
+        
+        <person xml:id="manuel_goncalves_silva">
+            <persName>Manuel Gonçalves da Silva</persName>
+        </person>
+        
+        <person xml:id="jose_ilidoro_figueiredo">
+            <persName>José Ilidoro de Figueiredo</persName>
+        </person>
+        
+        <person xml:id="antonio_lourenco_pereira">
+            <persName>Antônio Lourenço Pereira</persName>
+            <persName type="role">Guarda Nacional</persName>
+        </person>
+        
+        <person xml:id="zeferino_jose_santos">
+            <persName>Zeferino José dos Santos</persName>
+            <persName type="role">Cabo</persName>
+        </person>
+        
+        <person xml:id="zeferino_jose_santos">
+            <persName>Zeferino José dos Santos</persName>
+            <persName type="role">Guarda Nacional</persName>
+        </person>
+        
+        <person xml:id="joao_antonio_silveira">
+            <persName>João Antônio da Silveira</persName>
+            <persName type="role">General</persName>
+        </person>
+        
+        <person xml:id="manuel_pacheco">
+            <persName>Manuel Pacheco</persName>
+        </person>
+        
+        <person xml:id="zeferino_pacheco">
+            <persName>Zeferino Pacheco</persName>
+        </person>
+        
+        <person xml:id="brigadeiro_gama">
+            <persName>Brigadeiro Gama</persName>
+        </person>
+        
+        <person xml:id="jose_luis_bustamante">
+            <persName>Dom José Luis Bustamante</persName>
+        </person>
+        
+        <person xml:id="juan_manuel_de_rosas">
+            <persName>Juan Manuel de Rosas</persName>
+            <persName type="birthName">Juan Manuel José Domingo Ortiz de Rozas y López de Osornio</persName>
+            <note>Caudilho argentino, governador da Província de Buenos Aires (1835-52) e figura dominante da Confederação Argentina; habitualmente conhecido como “Restaurador das Leis”.</note>
+            <birth when="1793-03-30">30 de março de 1793</birth>
+            <death when="1877-03-14">14 de março de 1877</death>
+            <idno type="wikidata">Q311436</idno>
+            <idno type="viaf">12133790p</idno>
+        </person>
+        
+        <person xml:id="coronel_ribeiro">
+            <persName>Ribeiro</persName>
+            <persName type="role">ex-coronel</persName>
+        </person>
+        
+        <person xml:id="joao_mendes">
+            <persName>João Mendes</persName>
+        </person>
+        
+        <person xml:id="francisco_de_miranda">
+            <persName>Francisco de Miranda</persName>
+        </person>
+        
+        <person xml:id="d_rita">
+            <persName>D. Rita</persName>
+        </person>
+        
+        <person xml:id="mendonca">
+            <persName>Velho Mendonça</persName>
+            <note>Homem falecido antes da data da carta; teria libertado seus escravos.</note>
+        </person>
+        
+        <person xml:id="david_silveira_duarte">
+            <persName>David Silveira Duarte</persName>
+            <note>Envolvido na tentativa de reescravização dos libertos mencionados.</note>
+        </person>
+        
+        <person xml:id="manuel_lucas_de_lima">
+            <persName>Manuel Lucas de Lima</persName>
+            <note>Tenente mencionado como exportador de gado.</note>
+        </person>
+        
+        <person xml:id="jan_fernandez">
+            <persName>Jan Fernandez</persName>
+            <note>Identificado apenas pelo nome; contexto e função não determinados no documento.</note>
+        </person>
+        
+        <person xml:id="luis_rodrigues_barcelos">
+            <persName>Luís Rodrigues Barcelos</persName>
+            <note>Destinatário da carta; provavelmente residente em Bagé e próximo à família do autor.</note>
+        </person>
+        
+        <person xml:id="eugenio_vidie">
+            <persName>Eugênio Vidie</persName>
+            <note>Indivíduo citado como responsável pela remoção de máquina de graxa.</note>
+        </person>
+        
+        <person xml:id="chevalier">
+            <persName>Chevalier</persName>
+            <note>Indivíduo referido como proprietário ou responsável associado à máquina de graxa.</note>
+        </person>
+        
+        <person xml:id="augusto">
+            <persName>Augusto</persName>
+            <note>Indivíduo citado em associação com Chevalier e a máquina de graxa.</note>
+        </person>
+        
+        <person xml:id="jose_rosa_neves">
+            <persName>José da Rosa Neves</persName>
+            <note>Destinatário da carta; identificado como amigo e pessoa de confiança do autor.</note>
+        </person>
+        
+        
+        <person xml:id="boaventura_teixeira_barcelos">
+            <persName>Boaventura Teixeira Barcelos</persName>
+            <note>Mencionado como primo do autor, solicitado anteriormente para auxiliar na reconstrução das casas.</note>
+        </person>
+        
+        <person xml:id="luis_teixeira_barcelos">
+            <persName>Luís Teixeira Barcelos</persName>
+            <note>Mencionado como primo do autor, solicitado anteriormente para a mesma tarefa.</note>
+        </person>
+        
+        <person xml:id="francisco_ribeiro_lopes">
+            <persName>Francisco Ribeiro Lopes</persName>
+            <note>Amigo citado como alternativa para auxiliar na reedificação das casas.</note>
+        </person>
+        
+        <person xml:id="inacio_rodrigues_barcelos">
+            <persName>Inácio Rodrigues Barcelos</persName>
+            <note>Destinatário da carta; identificado como tio do autor.</note>
+        </person>
+        
+        <person xml:id="leao_prospero_chastan">
+            <persName>Leão Próspero Chastan</persName>
+            <note>Indivíduo arrendatário da charqueada pertencente ao autor.</note>
+        </person>
+        
+        <person xml:id="joao_cunha_pecanha">
+            <persName>João da Cunha Peçanha</persName>
+            <note>Indivíduo citado como responsável pela entrega de madeiras.</note>
+        </person>
+        
+        <person xml:id="cipriano_rodrigues_barcelos">
+            <persName>Cipriano Rodrigues Barcelos</persName>
+            <note>Indivíduo que recebeu as madeiras entregues por ordem do autor.</note>
+        </person>
+        
+        <person xml:id="antonio_rodrigues_barcelos">
+            <persName>Antônio Rodrigues Barcelos</persName>
+            <note>Destinatário da carta; identificado como irmão do autor.</note>
+        </person>
+
+        <person xml:id="domingos_soares_barbosa">
+            <persName>Domingos Soares Barbosa</persName>
+            <note>Indivíduo que firmou recibo relacionado a materiais da charqueada em 1837.</note>
+        </person>
+        
+        <person xml:id="jose_francisco_vaz">
+            <persName>José Francisco Vaz</persName>
+            <note>Indivíduo mencionado como solicitante de demissão e direito sobre reses.</note>
+        </person>
+        
+        <person xml:id="inacio_machado_silveira">
+            <persName>Inácio Machado da Silveira</persName>
+            <note>Indivíduo citado como requerente em correspondência administrativa consultada pelo remetente.</note>
+        </person>
+        
+        <person xml:id="joaquim_bernardes_pereira">
+            <persName>Joaquim Bernardes Pereira</persName>
+            <note>Indivíduo que solicita 100 reses para criação.</note>
+        </person>
+        
+        
+        <person xml:id="jose_antonio_batista">
+            <persName>José Antônio Batista</persName>
+            <note>Indivíduo citado como ex-coletor e terceiro proposto para o cargo.</note>
+        </person>
+        
+        <person xml:id="isaias">
+            <persName>Isaías</persName>
+            <note>Indivíduo que recusou prosseguir no cargo em razão de perseguições e calúnias.</note>
+        </person>
+        
+        
+        <person xml:id="joaquim_campos">
+            <persName>Joaquim Campos</persName>
+            <note>Comerciante encontrado na Vila de San Fructuoso.</note>
         </person>
     </listPerson>
 </standOff>

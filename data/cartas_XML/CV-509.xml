@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-509 – Autor desconhecido para Albino José do Monte</title>
+                <author>Autor desconhecido</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
+                </bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <placeName ref="#bage">Bagé</placeName>
+                    <date when="1841-09-21">21 de setembro de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#albino_jose_monte">Albino José do Monte</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-509">
+                
+                <opener>
+                    <salute>Prezado amigo e Sr.</salute>
+                </opener>
+                
+                <p>A escassez de minhas faculdades pelos suprimentos que tenho feito ao <orgName ref="#tesouro">Tesouro</orgName>, ora faço expedir uma ordem para V.S.ª dar por minha conta ao <persName ref="#jose_evaristo_costa_bandeira">Sr. José Evaristo da Costa Bandeira</persName>, portador desta, duzentos patacões. Se pois V.S.ª fizer o obséquio de os dar ainda que para recebê-los depois, caso a Coletoria não os tenha disponíveis, será favor.</p>
+                
+                <p>Seu ofício de 4 do corrente me veio às mãos anteontem.</p>
+                
+                <p>Estimarei que continue a gozar saúde, e que mande com franqueza ao</p>
+                
+                <closer>
+                    <salute>Seu afetuoso e obrigado amigo</salute>
+                </closer>
+                
+                <note type="endorsement">70</note>
+                <note type="endorsement">n.º 14 Copiado</note>
+                <note type="endorsement">Minuta</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>
