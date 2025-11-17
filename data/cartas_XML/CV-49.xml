@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-49 – Informações sobre deslocamento de forças</title>
+                <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
+                    <placeName ref="#picada">Acampamento da Picada</placeName>
+                    <date when="1838-11-18">18 de novembro de 1838</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>
+                </correspAction>
+                </correspDesc>
+            </profileDesc>
+        </teiHeader>
+        
+        <text>
+            <body>
+                <div type="letter" xml:id="CV-49">
+                    
+                    <opener>
+                        <salute>Ilmo. e Exmo. Sr.</salute>
+                    </opener>
+                    
+                    <p>Ontem veio o <persName ref="#cruz">Cruz</persName> e diz que <persName ref="#bento_manuel">Bento Manuel</persName> seguiu para <placeName ref="#piratini">Piratini</placeName> e as peças para <placeName ref="#rio_pardo">Rio Pardo</placeName> e no <placeName ref="#triunfo">Triunfo</placeName> está o <persName ref="#capitao_augusto">Capitão Augusto</persName> com tudo reunido, velhos, crianças e aleijados tendo 160 homens de cavalaria, 40 infantes ao mando de <persName ref="#felisberto">Felisberto</persName>, irmão do <persName ref="#simas">Simas</persName> e eles diz que se retiram por estes seis ou oito dias; da ida das peças para <placeName ref="#rio_pardo">Rio Pardo</placeName> confirma o <persName ref="#jose_joao_castro">Furriel José João de Castro</persName> que foi prisioneiro no <placeName ref="#rio_pardo">Rio Pardo</placeName>, e vindo ontem de <placeName ref="#santo_amaro">Santo Amaro</placeName>; e V.Exª. pode mandar os ofícios para o <persName ref="#major_simas">Major Simas</persName> e <persName ref="#mombach">Mombaque</persName> e querendo também pode ir para gente do <persName ref="#oliveira">Oliveira</persName>. O <persName ref="#cruz">Cruz</persName> está pronto à espera dos ofícios para seguir; é o que por ora tenho de informar a V.Exª.</p>
+                    
+                    <p>Deus guarde a V.Exª. por muitos anos.</p>
+                    
+                    <closer>
+                        <dateline><placeName ref="#picada">Acampamento da Picada</placeName>, <date when="1838-11-18">18 de novembro de 1838</date>.</dateline>
+                        <signed>Ilmo. Exmo. Sr. <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/>
+                            <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.<br/>
+                            Major Comandante do Destacamento da Picada.</signed>
+                    </closer>
+                    
+                    <note type="editorial">Mombaque é corruptela de Mombach</note>
+                    
+                </div>
+            </body>
+        </text>
+    </TEI>

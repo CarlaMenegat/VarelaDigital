@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-50 – Sobre necessidade de embarcação para infantaria</title>
+                <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
+                    <placeName ref="#picada">Acampamento da Picada</placeName>
+                    <date when="1838-12-09">9 de dezembro de 1838</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-50">
+                
+                <opener>
+                    <salute>Ilmo. Exmo. Sr.</salute>
+                </opener>
+                
+                <p>Previno a V.Exª. não esqueça virem iates para marchar a infantaria; pois cá só tem uma canoa que levará cento e tantos homens.</p>
+                
+                <p>Deus guarde a V.Exª, muitos anos.</p>
+                
+                <closer>
+                    <dateline><placeName ref="#picada">Acampamento da Picada</placeName>, <date when="1838-12-09">9 de dezembro de 1838</date>.</dateline>
+                    <signed>Sr. <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/>
+                        <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName><br/>
+                        Major.</signed>
+                </closer>
+                
+                <note type="editorial">Vide atrás na de 1839, do mesmo. [Atribuído a Alfredo Varela, na folha 1r.]</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

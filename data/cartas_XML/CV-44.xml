@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-44 – Relatório de operação militar</title>
+                <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
+                    <date when="1838-07-16">16 de julho de 1838</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brigadeiro e Comandante da Guarnição desta Capital</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-44">
+                
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>Em cumprimento das ordens de V. Ex.ª segui no dia 3 do corrente, às 8 horas da noite, com sessenta e duas praças, 33 do <orgName ref="#corpo_provisorio">Provisório</orgName> e 29 da <orgName ref="#quinta_comp_cavalaria">5.º Companhia de Cavalaria</orgName> do <orgName ref="#esquadrao_barra">Esquadrão da Barra</orgName> do meu comando, embarcados no iate “Ventura Feliz” do Capitão <persName ref="#joao_antonio">João Antônio</persName> e acompanhados da escuna de guerra do comando do Tenente <persName ref="#jose_ricardo">José Ricardo</persName> para a costa da <placeName ref="#lagoa_patos">Lagoa dos Patos</placeName>, no lugar dos <placeName ref="#tapes">Tapes</placeName>, aonde cheguei no dia 6, de madrugada; e seguindo os meus detalhes, logo prendi uma polícia de vigia anarquista, na qual prisão pereceram dois, por resistirem, sendo ambos dos mais malfazejos.</p>
+                
+                <p>Apreendi logo o iate “São Manuel”, do rebelde <persName ref="#joao_antonio_lopes">João Antônio Lopes</persName>, carregado de erva de mate, pronto a seguir viagem, que pela 3ª vez ali ia com grosso fornecimento para os anarquistas, bem como outras cargas, que ainda tinha em terra para carga de outro iate, assim como mais erva ensurroada e couros.</p>
+                
+                <p>Pude mais, no mesmo dia, aventurar cavalos e seguir de noite com 30 homens à <placeName ref="#capela_dores">capela das Dores</placeName> a prender certos anarquistas muito avalizados, porém sendo pressentido quando se apanharam cavalos por um tal <persName ref="#chico_rocha">Chico Rocha</persName>, o qual como um raio pôde avisar e mandar avisar por toda a parte os seus colegas farrapais, que quando à meia-noite lhes cerquei as casas já estavam todos no mato, achando-me só com as famílias.</p>
+                
+                <p>Contudo, centralmente em distância de três e meia léguas, no sítio de <persName ref="#miguel_barbosa">Miguel Barbosa</persName>, tomei uma peça de bronze com seus reparos, que da barcaça da “<orgName ref="#legalidade">Legalidade</orgName>” nova se tinha tomado em <placeName ref="#rio_pardo">Rio Pardo</placeName> no dia 30 de abril do corrente ano, a qual estava em viagem para o <placeName ref="#rio_camaqua">rio de Camaquã</placeName>, para onde dizem se está aprontando uma esquadrilha dos rebeldes.</p>
+                
+                <p>Depois de conduzir e embarcar esta peça, e tudo o mais que apreendi, receando alguma emboscada de repente, mandei que fossem embarcando algumas praças, e estando quase duas partes embarcadas e tendo já soltado os cavalos fui de improviso atacado por uma força de mais de 50 homens inimigos, e assim mesmo a pé, com essa pouca gente, lhe fiz rosto, em posição tal que os anarquistas depois de darem a 1.º descarga debaixo de sua fúria e receber outra dos legais e mais alguns tiros pela retaguarda da onde não esperavam, redemoinharam uns sobre outros; e nesta ocasião lhe foram bem mandados 4 tiros de peça de bala rasa da canhoneira, que concorreu para os rebeldes deixarem o campo; conhecendo-se bem de irem alguns feridos, e o tal avisador <persName ref="#chico_rocha">Chico Rocha</persName> se escapou a pé por entre os mais farrapos, deixando o cavalo baleado e morto com arreios, e dos legais, graças à divina providência, ninguém ficou ferido.</p>
+                
+                <p>Depois disto, embarquei com o resto da gente no mesmo dia 7 do corrente fazendo imediatamente sair as embarcações para esta capital aonde se acham ancoradas, gastando na volta quase 8 dias, por falta de vento.</p>
+                
+                <p>Foi apreendido ao dito rebelde <persName ref="#joao_antonio_lopes">João Antônio Lopes</persName> o iate “São Manuel”, dois negros que dele andam no iate, 1500 arrobas de erva de mate ensurroada, pouco mais ou menos, em couros de alguns legais que existem nesta cidade e, assim mais, perto de duzentos couros, também alguns de marcas de legalistas agora existentes nesta cidade; e mais alguns pertences do iate; à vista do que V. Ex.ª determinará as ordens competentes.</p>
+                
+                <closer>
+                    <dateline><placeName ref="#porto_alegre">Porto Alegre</placeName>, <date when="1838-07-16">16 de julho de 1838</date>.</dateline>
+                    <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName><br/>Capitão</signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

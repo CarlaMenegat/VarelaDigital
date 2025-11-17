@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-45 – Pagamento a observadores (bombeiros)</title>
+                <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
+                    <date when="1838-09-13">13 de setembro de 1838</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#antonio_elzeário_miranda_brito">Antônio Elzeário de Miranda e Brito</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+        
+        <text>
+            <body>
+                <div type="letter" xml:id="CV-45">
+                    
+                    <opener>
+                        <salute>Ilmo. e Exmo. Sr.</salute>
+                    </opener>
+                    
+                    <p>Os portadores deste são <persName ref="#sebastiao_afonso_silva">Sebastião Afonso da Silva</persName> e <persName ref="#jose_luis_silva">José Luís da Silva</persName>, a quem eu mandei de bombeiros ao distrito da <placeName ref="barra_camaqua">Barra</placeName>, a observar os passos do inimigo antes da minha próxima saída em 30 de agosto próximo passado; e ambos justos pela quantia de cinquenta mil réis, os quais V. Ex.ª mandará pagar, pertencendo a cada um 25$000 rs.</p>
+                    
+                    <p>Deus guarde a V. Ex.ª muitos anos como há mister.</p>
+                    
+                    <closer>
+                        <dateline><placeName ref="#porto_alegre">Porto Alegre</placeName>, <date when="1838-09-13">13 de setembro de 1838</date>.</dateline>
+                        <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName><br/>Major</signed>
+                    </closer>
+                    
+                    <note type="endorsement">Ordem à Pagadoria. [Na folha 1r.]</note>
+                    <note type="endorsement">Foi ordem à Pagadoria em 14 dito. [Na folha 1v.]</note>
+                    <note type="endorsement">Ilmo. e Exmo. Sr. Presidente da Província e Comandante das Armas da mesma e Marechal-de-campo <persName ref="#antonio_elzeário_miranda_brito">Antônio Elzeário de Miranda e Brito</persName>. Do Major <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>. [No verso]</note>
+                    
+                </div>
+            </body>
+        </text>
+    </TEI>

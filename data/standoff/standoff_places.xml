@@ -396,10 +396,28 @@
             <note>Topônimo alternativo ao Distrito da Encruzilhada mencionado na carta.</note>
         </place>
         
+        <place xml:id="rio_cai">
+            <placeName>Rio Caí</placeName>
+            <geo>-29.5884, -51.3741</geo>
+            <note>Coordenadas aproximadas correspondentes ao município de São Sebastião do Caí, RS; utilizadas para referência geográfica do topônimo citado.</note>
+        </place>
+        
+        <place xml:id="arroio_ratos">
+            <placeName>Arroio dos Ratos</placeName>
+            <geo>-30.0878, -51.7301</geo>
+            <note>Município do Rio Grande do Sul, Brasil; corresponde ao topônimo citado na carta.</note>
+        </place>
+        
         <place xml:id="barra_camaqua">
             <placeName>Barra do Camaquã</placeName>
             <geo>-31.318, -51.966</geo>
             <note>Localidade na foz do rio Camaquã, importante ponto de desembarque e circulação militar durante a Guerra Farroupilha.</note>
+        </place>
+        
+        <place xml:id="rio_camaqua">
+            <placeName>Rio de Camaquã</placeName>
+            <geo>-31.0800, -51.5570</geo>
+            <note>Rio localizado no Rio Grande do Sul, cuja foz deságua na Lagoa dos Patos; coordenadas correspondem ao baixo curso do rio.</note>
         </place>
         
         <place xml:id="candiota">
@@ -562,6 +580,12 @@
             <placeName>Tapes</placeName>
             <geo>-30.6733, -51.3953</geo>
             <note>Município localizado às margens da Lagoa dos Patos, Rio Grande do Sul, Brasil; corresponde ao antigo lugar referido nas fontes como Tapes.</note>
+        </place>
+        
+        <place xml:id="ilha_paciencia">
+            <placeName>Ilha da Paciência</placeName>
+            <geo>-30.2300, -51.2000</geo>
+            <note>Ilha localizada na região da Laguna dos Patos, Rio Grande do Sul, Brasil; citada como ponto logístico para embarque e condução de animais durante operações militares do período.</note>
         </place>
     </listPlace>
 </standOff>
