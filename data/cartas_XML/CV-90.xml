@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-90 – <persName ref="#jose_inacio_silva_abreu">José Inácio da Silva Abreu</persName> para <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName></title>
+                <author><persName ref="#jose_inacio_silva_abreu">José Inácio da Silva Abreu</persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#jose_inacio_silva_abreu">José Inácio da Silva Abreu</persName>
+                    <placeName ref="#ibirapuita">Campo em Ibirapuitã</placeName>
+                    <date when="1837-12-02">2 de dezembro de 1837</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-90">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Por ter andado bastante atrapalhado tenho faltado a meu dever em responder ofício que de V.Sª. recebi escrito a 25 de novembro do corrente e como os nossos companheiros me asseveravam que participavam tudo quanto corria, que eu tirasse a segurar a nossa fronteira, e eu me capacitava que assim era pelos próprios que me pediam para mandar a V.Sª. e como agora mesmo cheguei da força, não quero deixar de participar-lhe tudo que tem ocorrido. Pela cópia do ofício junto verá V.Sª. o que ocorreu do outro lado de <placeName ref="#ibicui">Ibicuí</placeName>; em uma noite fez o <persName ref="#bento_manuel">Brigadeiro Bento Manuel</persName> junção comigo, trazendo consigo 30 homens, e na outra o <persName ref="#jacinto_guedes">Sargento-mor Jacinto Guedes</persName>, trazendo consigo cento e tantos homens; esta junção em Carvaraci?, donde me achava com as poucas forças que tinha; logo marchamos sobre <persName ref="#mingote">Mingote</persName> e <persName ref="#siqueira">Siqueira</persName>, donde perdemos 2 homens e o inimigo 9, sendo o comandante da minha força que atacou; o <persName ref="#major_carneiro">Major Carneiro</persName> logo na mesma marcha foi sobre <persName ref="#loureiro">Loureiro</persName> e não encontrei porque na noite da minha junção com o <persName ref="#bento_manuel">Brigadeiro Bento Manuel</persName>, <persName ref="#loureiro">Loureiro</persName> acho que soube, repassou para o outro lado, porque no outro dia atacamos a <persName ref="#mingote">Mingote</persName> e já encontramos na nossa volta os nossos extraviados do outro lado, que também foi no mesmo dia que nós atacamos cá;</p>
+                
+                <p>não explico melhor o mais sobre tratados e planos porque pedi ao Sr. <persName ref="#prado">Prado</persName>, Presidente da <orgName ref="#camara_municipal">Câmara</orgName>, que explicasse a V.Sª. todos os nossos passos, porque nunca me despeguei das nossas forças a fim de que não faltasse nada. Sobre estas tantas requisições V.Sª. me mandará dizer como me possa desenvolver, não sendo aceitas as minhas ordens nesta <orgName ref="#coletoria">coletoria</orgName>. Agora mesmo fico aprontando uma porção de pólvora para mandar a V.Sª. e aprontando estes extraviados que aqui vieram dar faltos de tudo, assim como novecentos cavalos para a expedição que temos de mandar por estes 4 dias, que tudo farei com mais gosto recebendo a resposta deste com algumas instruções, as quais se cumprirão com a maior exatidão possível; a saber a nossa reunião foi de 400 homens entre todos; se houver alguma queixa por motivo de alguma prisão que eu fiz V.Sª. não dê ouvidos que assim foi preciso segundo a nossa circunstância, Deus guarde a V.Sª. por muitos anos.</p>
+                
+                <closer>
+                    <p><placeName ref="#ibirapuita">Campo em Ibirapuitã</placeName>, <date when="1837-12-02">2 de dezembro de 1837</date>.</p>
+                    
+                    <signed>Ilmo. Sr. <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</signed>
+                    <signed>Coronel Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</signed>
+                    
+                    <signed>(a) <persName ref="#jose_inacio_silva_abreu">José Inácio da Silva Abreu</persName>.</signed>
+                    <signed>Tenente-coronel Comandante Interino da Fronteira.</signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

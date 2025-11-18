@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Contrato particular de compra e venda — CV-96</title>
+                <author><persName ref="#urbano_jose_afonso">Urbano José Afonso</persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#urbano_jose_afonso">Urbano José Afonso</persName>
+                    <placeName ref="#arapey_chico">Arapey Chico</placeName>
+                    <date when="1848-09-18">18 de setembro de 1848</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#juliao_castro">Julião Castro</persName>
+                </correspAction>
+            </correspDesc>
+            <textDesc>
+                <channel>manuscrito</channel>
+                <purpose type="legal">Contrato de compra e venda de estabelecimento rural e marcas de gado</purpose>
+            </textDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="legal" subtype="private_contract" xml:id="CV-96">
+                <head>Contrato particular de compra e venda de estabelecimento e marcas</head>
+                
+                <p>Eu, abaixo assinado, <persName ref="#urbano_jose_afonso">Urbano José Afonso</persName> declaro que tenho justo e contratado com o Sr. <persName ref="#juliao_castro">Julião Castro</persName> a venda de meu estabelecimento de estância, sito na costa de Canhitas, com légua e meia de campo mais ou menos, no departamento do Salto, no <placeName ref="#uruguai">Estado Oriental</placeName>, com todos os animais vacuns, cavalares, muares e outros quaisquer que se julguem ser de minha propriedade, existentes no campo de que me acho apossado, debaixo das condições abaixo mencionadas:</p>
+                
+                <list type="ordered">
+                    <item>Desde hoje em diante ficará o Sr. <persName ref="#juliao_castro">Julião Castro</persName> como comprador, senhor e possuidor das marcas pertencentes a meu estabelecimento e de minha propriedade aqui e em qualquer parte onde se encontre qualquer animal pertencente às ditas marcas debaixo da seguridade da venda que delas lhe fiz.</item>
+                    
+                    <item>Que, a mim, como vendedor e morador no Brasil, terei o direito e faculdade de recrutar os animais pertencentes às ditas marcas existentes na província do <placeName ref="#rio_grande">Rio Grande do Sul</placeName>, por espaço de seis meses, e fazê-los contramarcar, e quando assim o não cumpra, findo o dito prazo, lhe perderei o direito.</item>
+                    
+                    <item>Que as marcas de que faço venda são as seguintes, a saber: a de minha propriedade a seguinte MTIM e a de meu filho <persName ref="#antonio_jose_afonso">Antônio José Afonso</persName> a que se segue Ã, ficando eu responsável pela marca de meu filho, no caso que a isto ponha a menor dúvida.</item>
+                    
+                    <item>Que a venda das marcas e todos os animais a elas pertencentes foi tratada por oitocentos pesos prata, pelo cunho, obrigando-se o Sr. <persName ref="#juliao_castro">Julião Castro</persName>, como comprador, a fazer o primeiro pagamento à vista da quantia de quatrocentos e vinte e três pesos, os quais já recebi ao fazer deste, e trezentos setenta e sete, ao prazo de cinco meses, por uma letra por si firmada ao dito prazo.</item>
+                    
+                    <item>Que se por acaso o comprador <persName ref="#juliao_castro">Julião Castro</persName> tem ocasião de fazer algum desfrute de gados por venda que deles faça para a charqueada ou para outra qualquer parte que se entenda com o mesmo fim, será obrigado à exceção do prazo que lhe dou a cumprir o dito pagamento, embora não esteja vencido o dito prazo.</item>
+                    
+                    <item>Fica o comprador <persName ref="#juliao_castro">Julião Castro</persName> obrigado a cumprir com exatidão as disposições abaixo mencionadas, a saber: entregar a mim ou à minha ordem seis animais muares de marca para cima, bem como doze éguas na mesma conformidade, quando eu ou minha ordem as procure, assim como seis potros incluindo nestes um pastor baio sebruno; assim como dará por minha ordem, de que faço reserva, o seguinte: a <persName ref="#nazario_verao">D. Nazário Verão</persName> quatro animais vacuns masculinos, a <persName ref="#valdomiro_sousa">D. Valdomiro Sousa</persName>, dois ditos, a <persName ref="#manuel_moreira_miranda">Manuel Moreira de Miranda</persName>, um potro, no caso que um de que se acha possuído sem contramarca lhe feneça, a <persName ref="#filipe_rodrigues">D. Filipe Rodrigues</persName>, um idem, de que lançará mão quando bem lhe pareça, bem como a <persName ref="#maria_moreira_silva">D. Maria Moreira da Silva</persName> um potro baio oveiro, da manada dos Baios conhecidos.</item>
+                    
+                    <item>Que, desde hoje em diante, perco como vendedor o direito dos haveres de que por este trato faço venda ao Sr. <persName ref="#juliao_castro">Julião Castro</persName>, ficando ele obrigado a responder com sua pessoa e bens havidos e por haver, para o pronto pagamento e execução do referido, bem como eu a fazer-lhe firme e valiosa a venda, tanto em juízo como fora dele, sem embargo de terceiro.</item>
+                </list>
+                
+                <p>Por assim o termos justo e contratado passamos dois documentos deste mesmo teor e em tudo iguais, aos quais damos tanta força e vigor como se fosse escritura pública, e para certeza da verdade firmamos com as testemunhas abaixo declaradas.</p>
+                
+                <p>Feito em <placeName ref="#arapey_chico">Arapey Chico</placeName>, aos <date when="1848-09-18">18 de setembro de 1848</date>.</p>
+                
+                <closer>
+                    <signed>(a) <persName ref="#urbano_jose_afonso">Urbano José Afonso</persName></signed>
+                    <signed>(a) <persName ref="#juliao_castro">Julião Castro</persName></signed>
+                    
+                    <label>Como testemunhas</label>
+                    <signed>(a) <persName ref="#manuel_ferreira_bica">Manuel Ferreira Bica</persName></signed>
+                    <signed>(a) <persName ref="#justino_bernardes_castro">Justino Bernardes de Castro</persName></signed>
+                    
+                    <label>Como testemunha que este fiz e assinei</label>
+                    <signed>(a) <persName ref="#manuel_moreira_mirandu">Manuel Moreira de Mirandu</persName></signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

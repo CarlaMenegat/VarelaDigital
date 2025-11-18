@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-100 – Ordem militar sobre junção de forças</title>
+                <author><persName ref="#paulo_pereira_silva_alana">Paulo Pereira da Silva Alana</persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#paulo_pereira_silva_alana">Paulo Pereira da Silva Alana</persName>
+                    <placeName ref="#passo_mampituba">Passo do Mampituba</placeName>
+                    <date when="1839-02-07">7 de fevereiro de 1839</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#rodrigo_antonio_silva">Rodrigo Antônio da Silva</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-100">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Por ordem que tive do Sr. Comandante Superior <persName ref="#vicente_vilas_boas">Vicente Paulo de Oliveira Vilas Boas</persName>, ordeno a V.Sª. que o quanto antes marche a este ponto, a fazer junção com o Sr. Capitão Silveira, aonde me acho, para dar todas as providências a bem da causa que defendemos.</p>
+                
+                <p>Hoje mesmo seguem os cavalos do Sr. Pelúcio [sic] e todos os que se têm reunido para poder seguir a coluna que por falta de cavalos não tem seguido para este ponto; V.Sª. mandará reunir os cavalos que puder, sejam de quem for; na sua retaguarda deve V.Sª. deixar uma pequena partida bem montada para dar as participações do que houver neste ponto de junção.</p>
+                
+                <p>O comandante manda agradecer ao Alferes José Antônio os bons cavalos que lhe tem mandado; advirto a V.Sª. que os cavalos devem vir, sejam vendidos, ou alugados, ou emprestados, para ver se assim o inimigo não pode varar, pois sem a proteção de V.Sª. nada se pode fazer por estar tudo a pé; a demora da coluna é chegar estes cavalos que, hoje seguem, e logo que cheguem, se porá em marcha para este ponto; isto mesmo fará ver ao Sr. Alferes José Antônio e o Sargento Prestes; espero assim cumpra tanto V.Sª. como o mesmo alferes e o Prestes, ficando V.Sª. responsável por toda qualquer omissão que haja.</p>
+                
+                <p>Deus guarde V.Sª.. <placeName ref="#passo_mampituba">Passo do [Mampituba]</placeName>, <date when="1839-02-07">7 de fevereiro de 1839</date>.</p>
+                
+                <closer>
+                    <salute>Ilmo. Sr. <persName ref="#rodrigo_antonio_silva">Rodrigo Antônio da Silva</persName>, capitão em diligência.</salute>
+                    <note>N.B. — Os cavalos que V.Sª. mandar é para tomar o ponto do passo da Lagoa que assim determina S.Ex.ª.</note>
+                    <signed>(a) <persName ref="#paulo_pereira_silva_alana">Paulo Pereira da Silva Alana</persName>, Sargento-maior encarregado.</signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

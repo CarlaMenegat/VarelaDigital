@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-89 – <persName ref="#jose_inacio_silva_abreu">José Inácio da Silva Abreu</persName> para <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName></title>
+                <author><persName ref="#jose_inacio_silva_abreu">José Inácio da Silva Abreu</persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#jose_inacio_silva_abreu">José Inácio da Silva Abreu</persName>
+                    <placeName ref="#alegrete">Quartel em Alegrete</placeName>
+                    <date when="1837-11-22">22 de novembro de 1837</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-89">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>À vista da cópia do ofício junto verá V.Sª. o que por aqui há; não explico a V.Sª. algumas coisas mais porque estou certo que a carta junta do Sr. Presidente <persName ref="#prado">Prado</persName> explica; há mais de 4 dias que já tinha ordenado ao Sr. <persName ref="#manuel_alves">Capitão Manuel Alves</persName> para seguir às imediações de <placeName ref="#ibirocai">Ibirocaí</placeName> a reunir-se com o <persName ref="#major_carneiro">Major Carneiro</persName> que se achava ali com 50 homens, já à espera disto mesmo, deixando o Sr. <persName ref="#capitao_fortunato">Capitão Fortunato</persName> com 20 homens em <placeName ref="#santana_livramento">Santa Ana</placeName>, e até hoje nada se tem dado cumprimento; também oficiei aos comandantes que tinham reuniões, também para se reunir ao mesmo major, oficial este que pela necessidade que tive lancei mão dele, não ficando ele isento de responder sobre o crime que cometeu;</p>
+                
+                <p>e como até agora ainda não chegou nenhuma, e à vista do ofício, deberei a marchar já com as pessoas que pude reunir, que andarão por 40 homens e à vista disto mandará V.Sª. aquilo que for servido, determinando-me as suas ordens.</p>
+                
+                <closer>
+                    <p>Deus guarde a V.Sª. muitos anos. <placeName ref="#alegrete">Quartel em Alegrete</placeName>, <date when="1837-11-22">22 de novembro de 1837</date>.</p>
+                    
+                    <signed>Ilmo. Sr. <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</signed>
+                    <signed>Coronel e Comandante da <orgName ref="#divisao_direita">Divisão Direita</orgName>.</signed>
+                    
+                    <signed>(a) <persName ref="#jose_inacio_silva_abreu">José Inácio da Silva Abreu</persName>.</signed>
+                    <signed>Tenente-coronel Comandante Interino da Fronteira.</signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

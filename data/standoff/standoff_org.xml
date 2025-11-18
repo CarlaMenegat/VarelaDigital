@@ -351,5 +351,17 @@
             <orgName>Assembléia Constituinte</orgName>
             <note>Órgão deliberativo responsável pela elaboração constitucional.</note>
         </org>
+        
+        <org xml:id="guarda_militar_policia">
+            <orgName>Guarda Militar da Polícia</orgName>
+        </org>
+        
+        <org xml:id="bc8">
+            <orgName>8.º Batalhão de Caçadores</orgName>
+        </org>
+        
+        <org xml:id="rc3">
+            <orgName>3.º Regimento de Cavalaria</orgName>
+        </org>
     </listOrg>
 </standOff>

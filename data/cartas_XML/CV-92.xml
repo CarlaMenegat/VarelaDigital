@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-92 – <persName ref="#paulo_jose_abreu">Paulo José de Abreu</persName> para <persName ref="#antonio_pedro_abreu">Antônio Pedro de Abreu</persName></title>
+                <author><persName ref="#paulo_jose_abreu">Paulo José de Abreu</persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#paulo_jose_abreu">Paulo José de Abreu</persName>
+                    <!-- Local não informado -->
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#antonio_pedro_abreu">Antônio Pedro de Abreu</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-92">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Acuso recebida a sua carta oficial com data de 7, no dia 9 do corrente; diz aquele ditado antigo, que mais vale tarde do que nunca; eu fui atacado de surpresa no dia 8 por uma força de 30 homens, às onze horas do dia, e foi tão feliz que não perdi um homem senão um malacara que se passou e com cinco homens que tinha; eles não foram muito folgados; perderam um cavalo baleado e não puderam parar muito tempo no lugar, e se eu tivesse a gente toda reunida, não sei como eles se safariam; levaram coisa de 16 cavalos e alguma mala de roupa e ponches, dois; a partida era comandada por <persName ref="#juca_custodio">Juca Custódio</persName> e <persName ref="#farias">o Farias</persName>, e depois de algum tempo de questão eu fui à fala com <persName ref="#juca_custodio">Juca Custódio</persName>, aonde estive por espaço de uma hora com ele.</p>
+                
+                <p>É quanto tenho a participar a V.Sª. a quem Deus guarde.</p>
+                
+                <closer>
+                    <signed>Ilmo. Sr. <persName ref="#antonio_pedro_abreu">Antônio Pedro de Abreu</persName>.</signed>
+                    <signed>Tenente e Comandante da Polícia de <placeName ref="#triunfo">Triunfo</placeName>.</signed>
+                    
+                    <signed>(a) <persName ref="#paulo_jose_abreu">Paulo José de Abreu</persName>.</signed>
+                    <signed>Capitão Comandante da Polícia de <placeName ref="#santo_amaro">Santo Amaro</placeName>.</signed>
+                </closer>
+                
+                <note type="endorsement">Visto e cópia para a imprensa. [Anotação a lápis na fl. 1r.]</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -265,6 +265,17 @@
             <note>Denominação histórica do atual Uruguai.</note>
         </place>
         
+        <place xml:id="uruguai">
+            <placeName>Estado Oriental</placeName>
+            <note>Denominação histórica do atual Uruguai no contexto do século XIX.</note>
+        </place>
+        
+        <place xml:id="arapey_chico">
+            <placeName>Arapey Chico</placeName>
+            <geo precision="approximate">-31.0833, -56.0000</geo>
+            <note>Afluente do rio Arapey, no departamento de Salto, Uruguai; local de celebração do contrato.</note>
+        </place>
+        
         <place xml:id="missoes">
             <placeName>Missões</placeName>
             <note>Região histórica das antigas reduções jesuíticas no Rio Grande do Sul.</note>
@@ -726,6 +737,30 @@
             <placeName>Ponta Rasa</placeName>
             <geo>-29.9640 -51.3726</geo>
             <note>Localização aproximada da Ilha da Ponta Rasa no município de Triunfo (RS), margem do Rio Jacuí.   </note>
+        </place>
+        
+        <place xml:id="ilha_fanfa">
+            <placeName>Ilha do Fanfa</placeName>
+            <geo>-29.5750, -51.6100</geo>
+            <note>Ilha fluvial no rio Jacuí, município de Triunfo, RS; local da chamada Batalha da Ilha do Fanfa, em 3–4 de outubro de 1836. </note> 
+        </place>
+        
+        <place xml:id="restinga_seca">
+            <placeName>Restinga Seca</placeName>
+            <geo>-29.8128, -53.3750</geo>
+            <note>Localidade do Rio Grande do Sul, registrada na correspondência como área de acampamento militar em dezembro de 1841.</note>
+        </place>
+        
+        <place xml:id="tacuarembo">
+            <placeName>Tacuarembó</placeName>
+            <geo precision="approximate">-31.7333, -55.9833</geo>
+            <note>Cidade situada na região centro-norte do Uruguai, mencionada nas correspondências da Coleção Varela como local relacionado a operações e transações administrativas.</note>
+        </place>
+        
+        <place xml:id="passo_mampituba">
+            <placeName>Passo do Mampituba</placeName>
+            <geo precision="approximate">-29.1790, -49.9570</geo>
+            <note>Localidade de passagem associada ao Rio Mampituba, região limítrofe entre Rio Grande do Sul e Santa Catarina, usada historicamente como ponto de travessia.</note>
         </place>
     </listPlace>
 </standOff>

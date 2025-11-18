@@ -3507,11 +3507,6 @@
             <note>Identificado como amigo e informante.</note>
         </person>
 
-        <person xml:id="coronel_loureiro">
-            <persName>Coronel Loureiro</persName>
-            <note>Oficial citado reunindo tropas.</note>
-        </person>
-
         <person xml:id="anibal">
             <persName>Aníbal</persName>
             <note>Chefe militar ou líder de tropas citado com 200 homens.</note>
@@ -3686,7 +3681,7 @@
             <note>Tenente, comandante interino do Esquadrão do Triunfo na data da carta (27/12/1842).</note>
         </person>
         
-        <person xml:id="farias01">
+        <person xml:id="farias">
             <persName>Farias</persName>
             <note>Indivíduo mencionado apenas pelo sobrenome, qualificado no documento como assassino. Identidade completa não confirmada; id provisório.</note>
         </person>
@@ -3772,6 +3767,11 @@
             <note>Tenente-general, comandante da força da guarnição de Porto Alegre.</note>
         </person>
         
+        <person xml:id="francisco_chagas_santos">
+            <persName>Francisco das Chagas Santos</persName>
+            <note>Tenente-general e autoridade governamental à época.</note>
+        </person>
+        
         <person xml:id="jose_araujo_ribeiro">
             <persName>José de Araújo Ribeiro</persName>
             <note>Presidente da Província citado na carta.</note>
@@ -3825,6 +3825,261 @@
         <person xml:id="joaquim_francisco_santos_abreu">
             <persName>Joaquim Francisco dos Santos Abreu</persName>
             <note>Médico e figura política rio-grandense, atuando como presidente de mesa eleitoral e dirigente local durante o período farroupilha.</note>
+        </person>
+        
+        <person xml:id="manuel_alves">
+            <persName>Manuel Alves</persName>
+            <note>Capitão destacado para deslocamento até Ibirocaí.</note>
+        </person>
+        
+        <person xml:id="major_carneiro">
+            <persName>Major Carneiro</persName>
+            <note>Oficial militar responsável por tropa de 50 homens em Ibirocaí.</note>
+        </person>
+        
+        <person xml:id="capitao_fortunato">
+            <persName>Fortunato</persName>
+            <note>Capitão responsável por guarnição em Santana do Livramento.</note>
+        </person>
+        
+        <person xml:id="jacinto_guedes">
+            <persName>Jacinto Guedes</persName>
+            <note>Sargento-mor que conduziu reforços militares.</note>
+        </person>
+        
+        <person xml:id="mingote">
+            <persName>Mingote</persName>
+            <note>Indivíduo mencionado como alvo de ação militar.</note>
+        </person>
+        
+        <person xml:id="siqueira">
+            <persName>Siqueira</persName>
+            <note>Indivíduo mencionado como alvo de ação militar.</note>
+        </person>
+        
+        <person xml:id="prado">
+            <persName>Prado</persName>
+            <note>Presidente da Câmara local; identificação completa não confirmada.</note>
+        </person>
+        
+        <person xml:id="sezefredo_nunes">
+            <persName>Sezefredo Nunes</persName>
+            <note>Indivíduo remetido preso por ordem militar.</note>
+        </person>
+        
+        <person xml:id="lope_chico">
+            <persName>Lope Chico</persName>
+            <note>Citado como interlocutor político na província de Corrientes.</note>
+        </person>
+        
+        <person xml:id="pedro_ribeiro">
+            <persName>Pedro Ribeiro</persName>
+            <note>Mencionado em deslocamento militar com 40 homens.</note>
+        </person>
+        
+        <person xml:id="rafael_brandao">
+            <persName>Rafael Brandão</persName>
+            <note>Comandante da força no arroio dos Ratos.</note>
+        </person>
+        
+        <person xml:id="jose_antonio_araujo_ribeiro">
+            <persName>José Antônio de Araújo Ribeiro</persName>
+            <note>Cunhado do autor; transmissor de informação militar.</note>
+        </person>
+        
+        <person xml:id="antonio_jose_pires">
+            <persName>Antônio José Pires</persName>
+            <note>Genro de João da Costa, responsável por enviar aviso preventivo.</note>
+        </person>
+        
+        <person xml:id="francisco_manuel_accioli">
+            <persName>Francisco Manuel Accioli</persName>
+            <note>Capitão comandante interino, autor da carta.</note>
+        </person>
+        
+        <person xml:id="antonio_correia_seara">
+            <persName>Antônio Correia Seara</persName>
+            <note>Brigadeiro comandante interino das forças em operações.</note>
+        </person>
+        
+        <person xml:id="lucio_antonio_santa_ana">
+            <persName>Lúcio Antônio de Santa Ana</persName>
+            <note>Soldado do Batalhão de Caçadores 3, feito prisioneiro e restituído.</note>
+        </person>
+        
+        <person xml:id="padre_feliciano">
+            <persName>Padre Feliciano</persName>
+            <note>Proprietário da estância onde o soldado adoeceu.</note>
+        </person>
+        
+        <person xml:id="agostinho">
+            <persName>Agostinho</persName>
+            <note>Líder rebelde citado sem sobrenome.</note>
+        </person>
+        
+        <person xml:id="jose_antonio_ferreira_adrião">
+            <persName>José Antônio Ferreira Adrião</persName>
+            <note>Tenente comandante da Polícia, autor do relatório.</note>
+        </person>
+        
+        <person xml:id="camilo_maria_meneses">
+            <persName>Camilo Maria de Meneses</persName>
+            <note>Ex-juiz de paz de São Gabriel, acusado de rebelião e desvio de bens militares.</note>
+        </person>
+        
+        <person xml:id="capitao_paula">
+            <persName>Capitão Paula</persName>
+            <note>Oficial do 3.º Regimento de Cavalaria que entregou material militar sob ordens.</note>
+        </person>
+        
+        <person xml:id="fabiano_pires_almeida">
+            <persName>Fabiano Pires de Almeida</persName>
+            <note>Oficial mencionado em transferência de prisioneiros.</note>
+        </person>
+        
+        <person xml:id="major_boaventura_soares">
+            <persName>Major Boaventura Soares</persName>
+            <note>Oficial citado entre os seduzidos ao levante.</note>
+        </person>
+        
+        <person xml:id="domingos_da_silva">
+            <persName>Domingos da Silva</persName>
+            <note>Tenente-coronel envolvido no episódio na vila de São Borja.</note>
+        </person>
+        
+        <person xml:id="terencio">
+            <persName>Terêncio</persName>
+            <note>Tenente, identificação incompleta.</note>
+        </person>
+        
+        <person xml:id="matias">
+            <persName>Matias</persName>
+            <note>Tenente, identificação incompleta.</note>
+        </person>
+        
+        <person xml:id="manuel_santos_loureiro">
+            <persName>Manuel dos Santos Loureiro</persName>
+            <note>Tenente-coronel que ordenou a transferência de Camilo.</note>
+        </person>
+        
+        <person xml:id="bernardino_jose_lopes">
+            <persName>Bernardino José Lopes</persName>
+            <note>Juiz municipal da vila da Cruz Alta.</note>
+        </person>
+        
+        <person xml:id="capitao_francisco_jose_anjo">
+            <persName>Francisco José Anjo</persName>
+            <note>Capitão e testemunha mencionada.</note>
+        </person>
+        
+        <person xml:id="capitao_claudio">
+            <persName>Capitão Cláudio</persName>
+            <note>Ajudante da praça, citado como testemunha.</note>
+        </person>
+        
+        <person xml:id="antonio_felix_lobo">
+            <persName>Antônio Félix Lobo</persName>
+            <note>Major graduado e secretário do Comando das Armas, confirmou a cópia.</note>
+        </person>
+        
+        <person xml:id="urbano_jose_afonso">
+            <persName>Urbano José Afonso</persName>
+            <note>Vendedor e autor do contrato.</note>
+        </person>
+        
+        <person xml:id="juliao_castro">
+            <persName>Julião Castro</persName>
+            <note>Comprador do estabelecimento, marcas e gado.</note>
+        </person>
+        
+        <person xml:id="antonio_jose_afonso">
+            <persName>Antônio José Afonso</persName>
+            <note>Filho do vendedor, titular de uma das marcas.</note>
+        </person>
+        
+        <person xml:id="nazario_verao">
+            <persName>Nazário Verão</persName>
+            <note>Beneficiário de quatro animais por ordem reservada.</note>
+        </person>
+        
+        <person xml:id="valdomiro_sousa">
+            <persName>Valdomiro Sousa</persName>
+            <note>Beneficiário de dois animais por ordem reservada.</note>
+        </person>
+        
+        <person xml:id="manuel_moreira_miranda">
+            <persName>Manuel Moreira de Miranda</persName>
+            <note>Beneficiário de um potro conforme condição contratual.</note>
+        </person>
+        
+        <person xml:id="filipe_rodrigues">
+            <persName>Filipe Rodrigues</persName>
+            <note>Beneficiário de um animal conforme cláusula.</note>
+        </person>
+        
+        <person xml:id="maria_moreira_silva">
+            <persName>Maria Moreira da Silva</persName>
+            <note>Beneficiária de um potro da manada dos Baios.</note>
+        </person>
+        
+        <person xml:id="manuel_ferreira_bica">
+            <persName>Manuel Ferreira Bica</persName>
+            <note>Testemunha do contrato.</note>
+        </person>
+        
+        <person xml:id="justino_bernardes_castro">
+            <persName>Justino Bernardes de Castro</persName>
+            <note>Testemunha do contrato.</note>
+        </person>
+        
+        <person xml:id="manuel_moreira_mirandu">
+            <persName>Manuel Moreira de Mirandu</persName>
+            <note>Testemunha e responsável pela redação final.</note>
+        </person>
+        
+        <person xml:id="felix_eduardo_aguiar">
+            <persName>Félix Eduardo Aguiar</persName>
+            <note>Autor da carta.</note>
+        </person>
+        
+        <person xml:id="inacio_nobre">
+            <persName>Inácio Nobre</persName>
+            <note>Portador da correspondência para o destinatário.</note>
+        </person>
+        
+        <person xml:id="joao_antonio_oliveira_aguiar">
+            <persName>João Antônio de Oliveira Aguiar</persName>
+            <note>Autor da carta.</note>
+        </person>
+        
+        <person xml:id="atanasio_aguirre">
+            <persName>Atanásio C. Aguirre</persName>
+            <note>Autor da carta; identificado como Coronel no endosso.</note>
+        </person>
+        
+        <person xml:id="manuel_severino_xavier">
+            <persName>Manuel Severino Xavier</persName>
+            <note>Envolvido na obrigação financeira e recebedor da quantia em Taquarembó.</note>
+        </person>
+        
+        <person xml:id="palacios">
+            <persName>Palácios</persName>
+            <note>Intermediário financeiro citado no documento.</note>
+        </person>
+        
+        <person xml:id="vicente_vilas_boas">
+            <persName>Vicente Paulo de Oliveira Vilas Boas</persName>
+            <note>Comandante Superior mencionado na ordem militar.</note>
+        </person>
+        
+        <person xml:id="rodrigo_antonio_silva">
+            <persName>Rodrigo Antônio da Silva</persName>
+            <note>Capitão destinatário da ordem.</note>
+        </person>
+        
+        <person xml:id="paulo_pereira_silva_alana">
+            <persName>Paulo Pereira da Silva Alana</persName>
+            <note>Sargento-maior encarregado e autor da carta.</note>
         </person>
 
     </listPerson>

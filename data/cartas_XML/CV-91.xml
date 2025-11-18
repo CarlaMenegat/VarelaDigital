@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-91 – <persName ref="#jose_inacio_silva_abreu">José Inácio da Silva Abreu</persName> para <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName></title>
+                <author><persName ref="#jose_inacio_silva_abreu">José Inácio da Silva Abreu</persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#jose_inacio_silva_abreu">José Inácio da Silva Abreu</persName>
+                    <placeName ref="#alegrete">Quartel em Alegrete</placeName>
+                    <date when="1837-12-16">16 de dezembro de 1837</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-91">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Tive ordem do Exmo. Sr. <persName ref="#bento_manuel">Brigadeiro Bento Manuel Ribeiro</persName>, bocalmente, para remeter preso <persName ref="#sezefredo_nunes">Sezefredo Nunes</persName> à brigada de V.Sª., dizendo-me que a parte já tinha seguido e por isso é que não acompanha o preso, que remeto a V.Sª. nesta ocasião escoltado por um inferior e 4 soldados.</p>
+                
+                <p>Aqui se apresentou o Sr. <persName ref="#capitao_fortunato">Capitão Fortunato Francisco da Silva</persName> para exercer o seu emprego das forças do 2.º e 3.º distritos, nomeado por V.Sª.; e mandando eu ordem ao mesmo capitão, me respondeu que estava nomeado pelo <persName ref="#bento_manuel">Brigadeiro Bento Manuel</persName> para ir à província de <placeName ref="#corrientes">Corrientes</placeName> a tratar com <persName ref="#lope_chico">Lope Chico</persName> negócios políticos.</p>
+                
+                <p>O mesmo capitão diz que se acham 50 cavalos de sua encomenda à espera de ordens de V.Sª. para seguir para o lugar que V.Sª. ache conveniente. Desta prisão nada digo a V.Sª. porque nada sei senão de que lhe remetesse, o que cumpri.</p>
+                
+                <p>Deus guarde a V.Sª. por muitos anos. <placeName ref="#alegrete">Quartel em Alegrete</placeName>, <date when="1837-12-16">16 de dezembro de 1837</date>.</p>
+                
+                <closer>
+                    <signed>Ilmo. Sr. <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</signed>
+                    <signed>Coronel Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</signed>
+                    <signed>(a) <persName ref="#jose_inacio_silva_abreu">José Inácio da Silva Abreu</persName>.</signed>
+                    <signed>Tenente-coronel Comandante Interino da Fronteira.</signed>
+                </closer>
+                
+                <note type="endorsement">Ilmo. Sr. <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>, Coronel Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>. Do Tenente-coronel Comandante Interino da Fronteira. Respondido.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

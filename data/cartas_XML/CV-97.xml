@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-97 – Félix Eduardo Aguiar para Dr. Camilo dos Santos Campelo</title>
+                <author><persName ref="#felix_eduardo_aguiar">Félix Eduardo Aguiar</persName></author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#felix_eduardo_aguiar">Félix Eduardo Aguiar</persName>
+                    <placeName ref="#cerro_largo">Vila do Cerro Largo</placeName>
+                    <date when="1843-09-22">22 de setembro 1843</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#camilo_campelo">Dr. Camilo dos Santos Campelo</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-97">
+                
+                <opener>
+                    <salute>Cópia. Ilmo. Sr. Dr. <persName ref="#camilo_campelo">Camilo dos Santos Campelo</persName>.</salute>
+                </opener>
+                
+                <p>Querido amigo; Suas apreciáveis, que me entregou <persName ref="#inacio_nobre">D. Inácio Nobre</persName>, me hão servido de uma satisfação, pois por uma delas vejo que V.Sª. está ocupado em a grande causa da liberdade, e como deste sentimento não posso prescindir, tampouco não posso menos que felicitá-lo e felicitar-nos.</p>
+                
+                <p>A 20, às 9 da noite, teve lugar uma sublevação de uns santafesinos, em mui pequeno número, os quais deveram sua salvação à obscuridade da noite. Segundo todas as instruções, eles hão marchado para essa parte donde espero que V.Sª. não omitirá meio para escarmentar esses malvados rebeldes, advertindo-lhe que é mais crível a sua direção para <placeName ref="#bage">Bagé</placeName>.</p>
+                
+                <p>À minha entrada neste departamento, o cabecilha <persName ref="#dionisio_coronel">Dionísio Coronel</persName>, com 200 rebeldes, passou o <placeName ref="#jaguarao">Jaguarão</placeName> no <placeName ref="#francisquito">Francisquito</placeName>; e como é consequente, se preparará, do outro lado, para incomodar-nos novamente quando estamos ocupados de um forte exército à nossa frente, e como esta ocorrência atrasará o serviço a que eu e V.Sª. estamos destinados, lhe advirto, para seu conhecimento e demais fins, advertindo-lhe que, em caso necessário, passe a este lado de <placeName ref="#jaguarao">Jaguarão</placeName> com sua força, donde encontrará gado e cavalos, sendo eu responsável pelos resultados desta operação, com tal que nem <persName ref="#dionisio_coronel">Dionísio</persName>, nem Borges passem por aqui quando chegue o caso de eu ausentar-me, que talvez não demorara.</p>
+                
+                <p>Celebro esta ocasião para repetir-me de V.Sª. afetíssimo amigo e seguro servidor que beija suas mãos.</p>
+                
+                <closer>
+                    <signed><persName ref="#felix_eduardo_aguiar">Félix Eduardo Aguiar</persName></signed>
+                    <signed>Está conforme. (a) <persName ref="#camilo_campelo">Camilo Campelo</persName></signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

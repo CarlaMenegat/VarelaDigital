@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-93 – <persName ref="#pedro_jose_gomes_abreu">Pedro José Gomes de Abreu</persName> para <persName ref="#joao_dias_castro">João Dias de Castro</persName></title>
+                <author><persName ref="#pedro_jose_gomes_abreu">Pedro José Gomes de Abreu</persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#pedro_jose_gomes_abreu">Pedro José Gomes de Abreu</persName>
+                    <date when="1839-01-22">22 de janeiro de 1839</date>
+                    <!-- Local indicado apenas pela sigla S.C.; não identificado com segurança -->
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#joao_dias_castro">João Dias de Castro</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-93">
+                
+                <opener>
+                    <salute>Ilmo. Sr. Dr. <persName ref="#joao_dias_castro">João Dias de Castro</persName></salute>
+                </opener>
+                
+                <p>Ontem fiz ver a V.Sª., por assim mo afirmar um patrão que veio das charqueadas da <placeName ref="#charqueadas_barra">Barra</placeName>, que na quinta-feira passada tinha saído daquele distrito da <placeName ref="#barra">Barra</placeName>, <persName ref="#amaral_ferrador">Amaral Ferrador</persName> e <persName ref="#pedro_ribeiro">Pedro Ribeiro</persName>, com 40 homens que ali tinham reunido, a fazerem junção com outra força, no <placeName ref="#arroio_ratos">arroio dos Ratos</placeName>, comandada por <persName ref="#rafael_brandao">Rafael Brandão</persName>.</p>
+                
+                <p>Hoje, há pouco: mais de uma hora, que me encontra meu cunhado <persName ref="#jose_antonio_araujo_ribeiro">José Antônio de Araújo Ribeiro</persName>, que me procurava para me certificar que <persName ref="#bento_manuel">Bento Manuel Ribeiro</persName> estava com uma força de quatrocentos homens de cavalaria, de camisolas encarnadas, nas charqueadas da <placeName ref="#freguesia_nova">Freguesia Nova</placeName>, agarrando quantos negros podiam pegar em armas; e que sabia disto porque <persName ref="#antonio_jose_pires">Antônio José Pires</persName>, genro de João da Costa, tinha mandado avisar a noite passada o seu capataz na <placeName ref="#ilha_fanfa">ilha do Fanfa</placeName> para retirar os negros, mas que este capataz, em lugar de se embarcar com os negros, se tinha embarcado só, a vir-lhe dar parte, e que ele o fizera voltar hoje mesmo sobre a marcha a buscar os negros.</p>
+                
+                <p>Pela tal libré de colorados, se desconfia não sejam vindos do <placeName ref="#rio_grande">Rio Grande</placeName>; enfim eu participo o que me disseram e V.Sª. lhe dará a importância que julgar necessária.</p>
+                
+                <p>E mande como pode a quem é, com respeito, seu súdito venerador criado, <lb/>
+                    S.C., <date when="1839-01-22">22 de janeiro de 1839</date>.</p>
+                
+                <closer>
+                    <signed>(a) <persName ref="#pedro_jose_gomes_abreu">Pedro José Gomes de Abreu</persName>.</signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>
