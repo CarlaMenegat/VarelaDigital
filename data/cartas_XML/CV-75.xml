@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-75 – Francisco Pedro de Abreu para Urbano Soares da Silva</title>
+                <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
+                    <date when="1843-10-20">20 de outubro de 1843</date>
+                    <placeName ref="#cangucu">Canguçu</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#urbano_soares_silva">Urbano Soares da Silva</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-75">
+                
+                <opener>
+                    <dateline><placeName ref="#cangucu">Canguçu</placeName>, 20 de outubro de 1843.</dateline>
+                    <salute>Ilmo. Sr. <persName ref="#urbano_soares_silva">Urbano Soares</persName></salute>
+                    <salute>Meu prezado parente e amigo.</salute>
+                </opener>
+                
+                <p>É chegado o tempo de todos os rio-grandenses amigos de sua pátria olharem com aquela atenção que lhe deve merecer a nossa infeliz pátria que por mais de oito anos sofre as perseguições e ruínas de uma guerra civil. Parece-me que meu parente estará convencido que vantagem nenhuma teria esta província na separação do <term>Império</term> e mesmo que não é possível conseguir esta separação; já então a demora da guerra só servirá para destruição de nossa pátria; <persName ref="#bento_goncalves">Bento Gonçalves</persName> e <persName ref="#neto">Neto</persName> hoje estão fazendo a guerra aos habitantes deste departamento e aqueles homens que lhes têm ajudado a fazer a guerra contra seus interesses próprios e de seus patrícios; portanto rogo ao meu parente dar um galope até cá, não só para ter o gosto de o conhecer, como para tratarmos dos interesses de nossa pátria que me parece dever-lhe merecer isto muita atenção; disponha deste que se preza ser seu parente e amigo.</p>
+                
+                <p>
+                    <note type="postscript">Me fará o obséquio fazer este mesmo convite ao meu patrício e seu cunhado Paulo, pois que também tenho muitos desejos de o conhecer.</note>
+                </p>
+                
+                <closer>
+                    <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></signed>
+                </closer>
+                
+                <note type="editorial">(*) Trata-se de Urbano Soares da Silva.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

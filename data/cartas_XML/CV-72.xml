@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-72 – Francisco Pedro de Abreu para José Maria da Silva Betancourt</title>
+                <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
+                    <date when="1842-09-17">17 de setembro de 1842</date>
+                    <placeName ref="#ponta_rasa">Ponta Rasa</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#jose_maria_betancourt">José Maria da Silva Betancourt</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-72">
+                
+                <opener>
+                    <salute>Ilmo. Exmo. Sr.</salute>
+                </opener>
+                
+                <p>Participo a V.Ex.ª que em cumprimento das suas ordens e do que tínhamos tratado comuniquei ao Exmo. Sr. Presidente, o qual aprovou muito, e me disse que podia mandar os meus bombeiros e que tudo quanto fosse preciso para essa operação que eu requisitasse; mandei os meus bombeiros a <placeName ref="#piratini">Piratini</placeName>, trouxeram-me as notícias que <persName ref="#neto">Neto</persName> estava em <placeName ref="#piratini">Piratini</placeName> com um piquete de 50 homens aprontando-se para uma grande festa ao dia 20 de setembro; muitas carreiras atadas; uma invernada de mil cavalos; o <persName ref="#castilho01">Castilho</persName> e o <persName ref="#correia01">Major Correia</persName> com cento e cinquenta homens num rincão sobre o <placeName ref="#rio_camaqua">Camaquã</placeName>.</p>
+                
+                <p>Tendo o Exmo. Sr. Presidente ido para o <placeName ref="#rio_grande">Rio Grande</placeName>, escrevi-lhe dando-lhe parte das notícias, e se ele quisesse que se desse um golpe no inimigo, que parecia ser da muita vantagem este bote, mas que era preciso vir a "barca n.º 2" de cavalos que estava no <placeName ref="#rio_grande">Rio Grande</placeName> e um ou dois vapores; eu mandei outro bombeiro para me vir no dia 8 do corrente e fui-me aprontando para a expedição; chegando-me o bombeiro no dia 8 do corrente, dando-me as mesmas notícias dos grandes preparatórios para a festa e as carreiras, e que se juntava muita oficialada, e que além dos cavalos das invernadas ainda se podia reunir perto de mil cavalos pelos vizinhos.</p>
+                
+                <p>E como o Exmo. Sr. Presidente não tivesse vindo do <placeName ref="#rio_grande">Rio Grande</placeName>, nem me desse resposta à minha participação, comuniquei ao Exmo. Sr. Comandante da Guarnição para me dar infantaria e o mais que necessitasse; logo me disse que estava tudo pronto e que eu falasse com o Exmo. Chefe do Mar para aprontar as embarcações; o que me disse que da sua parte estava tudo pronto e como esteve.</p>
+                
+                <p>Mas ao depois apareceram várias dúvidas da parte do Exmo. Sr. Comandante da Guarnição receando comprometimentos com o Exmo. Sr. Presidente por não me ter dado resposta à minha participação e ter mandado o vapor conduzir à 1.ª Brigada de Cavalaria; apesar de todos os meus esforços e de ter conseguido já ter embarcado trezentos e tantos homens de cavalaria, noventa cavalos em duas barcas e quarenta alemães de infantaria, prontos a marchar nessa mesma noite, tais foram os receios dos comprometimentos que foi malograda esta importantíssima operação, tendo de voltar nessa mesma noite do dia 16 do corrente com a minha gente e cavalhada já de <placeName ref="#porto_alegre">Porto Alegre</placeName> para o meu acampamento.</p>
+                
+                <p>Portanto, se V.Ex.ª quiser que se faça alguma coisa de vantagem, pode mandar-me uma portaria igual a esta que junto vai por cópia, porque do contrário nada poderei fazer; logo que tenha de operar sujeito à vontade dos mais. As cavalhadas que tenho nas invernadas estão magras e só para fins de novembro ficarão prontas para qualquer operação; os cem reúnos amilhados estão capazes de qualquer empresa forte; é o que tenho de levar ao conhecimento de V.Ex.ª para determinar o que for servido.</p>
+                
+                <closer>
+                    <dateline>Acampamento na <placeName ref="#ponta_rasa">Ponta Rasa</placeName>, 17 de setembro de 1842.</dateline>
+                    <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abrew</persName></signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

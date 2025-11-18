@@ -1,0 +1,56 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-77 – <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName> para <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName></title>
+                <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, vol. III, Porto Alegre, 1941.</bibl>
+                
+                <!-- standoffs declarados -->
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
+                    <date when="1844-05-16">16 de maio de 1844</date>
+                    <placeName ref="#cangucu">Canguçu</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-77">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Tendo-me participado o <persName ref="#bolilho">Alferes Bolilho</persName> que tinha entregado na guarda dessa guarnição dois presos à minha ordem, um de nome <persName ref="#lucio_de_braga">Lúcio de Braga</persName>, a este V.S.ª lhe mandará dar seiscentas varadas e depois que fique melhor o remeterá preso para o <placeName ref="#rio_grande">Rio Grande</placeName> para ser deportado segundo a ordem do Exmo. Sr. Presidente e General-em-chefe e o outro V.S.ª mandará entregar a bordo de uma canhoneira e mandará pedir ao comandante para lhe pôr um par de machos até segunda ordem minha.</p>
+                
+                <p>Deus guarde a V.S.ª., <placeName ref="#campo_cangucu">Campo junto a Canguçu</placeName>, <date when="1844-05-16">16 de maio de 1844</date>.</p>
+                
+                <closer>
+                    <signed><persName ref="#francisco_pedro_abreu">(a) Francisco Pedro de Abreu</persName></signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-60 – <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName> para <persName ref="#manuel_jorge_rodrigues">Manuel Jorge Rodrigues</persName></title>
+                <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
+                    <placeName ref="#santo_amaro">Santo Amaro</placeName>
+                    <date when="1840-06-12">12 de junho de 1840</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#manuel_jorge_rodrigues">Manuel Jorge Rodrigues</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-60">
+                
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>Em virtude das ordens que recebi de V.Ex.ª, fiz seguir o <persName ref="#capitao_rafael_jose_viana_2">Capitão Rafael José Viana</persName> no dia 21 com 50 homens do 5.º Corpo e o <persName ref="#alferes_prestes">Alferes Prestes</persName>, do 3.º Corpo, com 30 homens, para reunir as cavalhadas das imediações do <placeName ref="#cerro_do_roque">cerro do Roque</placeName> e <placeName ref="#erval">Erval</placeName>, para manter a força do meu mando que se achava a pé, o que o dito Capitão e Alferes Prestes reuniram trezentos e tantos; e eu marchando com cento e tantos homens do corpo do meu comando e 50 homens da 3.ª Brigada comandados pelo <persName ref="#capitao_antonio_fernando">Capitão Antônio Fernando</persName>, que ao todo fazia o cômputo de 230, e fazendo junção no <placeName ref="#cerro_do_roque">cerro do Roque</placeName>, fiz seguir o <persName ref="#major_mariano_martins">Major Mariano Martins</persName> com cento e tantos, atravessar a serra de <placeName ref="#sao_joao">São João</placeName> a correr a costa do <placeName ref="#velhaco">Velhaco</placeName> e <placeName ref="#camaqua">Camaquã</placeName>.</p>
+                
+                <p>E eu marchei com o resto da força direito à freguesia da <placeName ref="#encruzilhada">Encruzilhada</placeName>, a que entrei no dia 26 de maio, sem encontrar resistência alguma; achando a freguesia deserta por se terem retirado os moradores espavoridos das notícias aterradoras que espalhavam os farrapos que andavam de coxilha em coxilha, ali fiz conhecer aos moradores o contrário, e dando-lhes as proclamações de V.Ex.ª, dali fiz seguir o <persName ref="#capitao_boaventura">Capitão Boaventura</persName> com 40 homens além da <placeName ref="#encruzilhada">Encruzilhada</placeName>, e descer pela margem de <placeName ref="#camaqua">Camaquã</placeName>, o qual fez junção comigo em <placeName ref="#sao_jose">São José</placeName>, com 200 cavalos; passei ao outro lado de <placeName ref="#camaqua">Camaquã</placeName> e fiz seguir o <persName ref="#tenente_isaias_2">Tenente Isaías</persName> à capela do <placeName ref="#boqueirao">Boqueirão</placeName> com uma partida, e ali reuniu os cavalos que pôde e desceu para a estância do <persName ref="#braga">Braga</persName>, aonde é hoje invernada de <persName ref="#gomes_jardim">José Gomes Jardim</persName>, o vice-presidente da República, a fazer junção comigo, e repassando o <placeName ref="#camaqua">Camaquã</placeName> com 300 cavalos a fazer junção com o <persName ref="#major_mariano_martins">Major Mariano</persName> que tinha reunido 300 cavalos mansos e 200 e tantos potros e 40 mulas mansas e chucras.</p>
+                
+                <p>Marchando para <placeName ref="#sao_jose">São José</placeName> fiz seguir o <persName ref="#capitao_antonio_fernando">Capitão Antônio Fernando</persName> com as praças das 2.º e 3.º Brigadas levando 400 cavalos dos melhores e 80 potros por me ter requisitado o Ilmo. Sr. <persName ref="#coronel_loureiro">Coronel Loureiro</persName>, que seguia para a campanha e que estava com falta de cavalos; e eu recolhendo-me para este lugar no dia 9 do corrente, com 800 cavalos mansos, 200 potros e 40 mulas mansas e chucras, não tendo encontrado reunião alguma senão pequenos grupos pelos matos, que destes foram mortos 3, e tomados arreios e armamento.</p>
+                
+                <p>Achan-se os matos cheios de homens desertados das fileiras inimigas, dizendo que só a cabeça se reunirá; os grandes influentes acham-se muito desacorçoados, e dizem que, desde o momento em que souberam que os farrapos ficaram enchiqueirados da parte de dentro de <placeName ref="#taquari">Taquari</placeName>, julgaram a República perdida, e já muitos pedem anistia do Governo; eu, Exmo. Sr., nunca vi os farrapos tão desacorçoados como agora.</p>
+                
+                <p>É quanto tenho a honra de levar ao conhecimento de V.Ex.ª, a quem Deus guarde por muitos anos. <placeName ref="#santo_amaro">Santo Amaro</placeName>, <date when="1840-06-12">12 de junho de 1840</date>.</p>
+                
+                <closer>
+                    <salute>Ilmo. e Exmo. Sr. <persName ref="#manuel_jorge_rodrigues">Manuel Jorge Rodrigues</persName>, Tenente-general Comandante-em-chefe do Exército em Operações nesta Província.</salute>
+                    <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>,</signed>
+                    <signed>Tenente-coronel.</signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

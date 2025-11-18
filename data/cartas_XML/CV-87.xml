@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-87 – <persName ref="#manuel_martins_silveira_lemos">Manuel Martins da Silveira Lemos</persName> para <persName ref="#antonio_francisco_santos_abreu">Antônio Francisco dos Santos Abreu</persName></title>
+                <author><persName ref="#manuel_martins_silveira_lemos">Manuel Martins da Silveira Lemos</persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#manuel_martins_silveira_lemos">Manuel Martins da Silveira Lemos</persName>
+                    <orgName ref="#secretaria_tesouro">Secretaria do Tesouro</orgName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1840-02-13">13 de fevereiro de 1840</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#antonio_francisco_santos_abreu">Antônio Francisco dos Santos Abreu</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-87">
+                
+                <note type="copy">Cópia.</note>
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Em virtude do disposto no artigo 44 das instruções para as eleições dos deputados da <orgName ref="#assembleia_constituinte">Assembléia Constituinte</orgName>, vereadores, juízes de paz do Estado, haja V.Sª. de satisfazer as requisições que para compra de papel, pena, tinta e obreias lhe forem feitas pelas respectivas <orgName ref="#camara_municipal">Câmaras Municipais</orgName>, ou pelos chefes de polícia na falta delas.</p>
+                
+                <closer>
+                    <p>Deus guarde a V.Sª.. <orgName ref="#secretaria_tesouro">Secretaria do Tesouro</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, <date when="1840-02-13">13 de fevereiro de 1840</date>.</p>
+                    
+                    <signed><persName ref="#manuel_martins_silveira_lemos">Manuel Martins da Silveira Lemos</persName>.</signed>
+                    <signed>Ao cidadão <persName ref="#antonio_francisco_santos_abreu">Antônio Francisco dos Santos Abreu</persName>, <orgName ref="#coletoria">Coletor</orgName> do <placeName ref="#boqueirao">Boqueirão</placeName>.</signed>
+                </closer>
+                
+                <note type="endorsement">[Cópia anexa ao Doc. CV-86]</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

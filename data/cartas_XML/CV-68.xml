@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-68 – <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName> 
+                    para <persName ref="#conde_rio_pardo">Conde do Rio Pardo</persName></title>
+                <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
+                    <placeName ref="#capela_das_dores">Capela das Dores</placeName>
+                    <date when="1842-01-29">29 de janeiro de 1842</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#conde_rio_pardo">Conde do Rio Pardo</persName>
+                    <roleName>General-em-chefe do Exército em Operações</roleName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-68">
+                
+                <opener>
+                    <salute>Ilmo. Exmo. Sr.</salute>
+                </opener>
+                
+                <p>Em cumprimento das ordens que tive de V. Exª., no dia 20
+                    do corrente passei o <placeName ref="#sao_goncalo">São Gonçalo</placeName> com a força que trouxe de 
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName> e o <persName ref="#major_antunes">Major Antunes</persName> com vinte homens 
+                    entrando neste número alguns oficiais e o <persName ref="#capitao_lucas">Capitão Lucas</persName> (*1) com dois 
+                    camaradas que se me ofereceu para sair; e como corresse a notícia 
+                    que <persName ref="#neto">Neto</persName> já estivesse à minha espera com mais de mil homens, 
+                    requisitei ao Exmo. Comandante da Guarnição do 
+                    <placeName ref="#rio_grande">Rio Grande</placeName> o Batalhão 8.º para deixar num ponto de apoio para 
+                    eu poder reconhecer a força, visto que não achei um homem para 
+                    bombeiro; e marchando sobre a capela de <placeName ref="#cangucu">Canguçu</placeName>, aonde se achava 
+                    <persName ref="#bento_goncalves">Bento Gonçalves</persName> com duzentos e tantos homens e alguns oficiais superiores
+                    da República, por mais esforços que fiz não me foi possível varar sem 
+                    ser sentido por ser um terreno muito povoado e todos farrapos; logo 
+                    que <persName ref="#bento_goncalves">Bento Gonçalves</persName> teve a notícia da minha marcha para aquela povoação 
+                    reuniu tudo e pôs-se em retirada; vendo eu que nada podia fazer por 
+                    ele já estar prevenido e a minha cavalhada ser muito péssima tratei 
+                    de dar de comer à minha gente e descansar os cavalos...</p>
+                
+                <p>...mandando retirar ao 8.º Batalhão que tinha deixado de apoio na 
+                    olaria do <persName ref="#ricardo">Ricardo</persName> para o <placeName ref="#passo_liscano">passo do Liscano</placeName> e voltar o 
+                    <persName ref="#major_antunes">Major Antunes</persName> e o <persName ref="#capitao_cecas">Capitão Cecas</persName> [sic] com as praças que 
+                    trouxeram, e pondo-me eu em retirada, mostrando muito medo e 
+                    receio de <persName ref="#bento_goncalves">Bento Gonçalves</persName> e de <persName ref="#neto">Neto</persName>, marchando toda noite e de 
+                    madrugada, e na madrugada do dia 24 me alcançaram 
+                    <persName ref="#bento_goncalves">Bento Gonçalves</persName> nas picadas de <placeName ref="#guatimim">Guatimim</placeName>; deixando eu uma 
+                    emboscada na retaguarda...</p>
+                
+                <p>...passei o <placeName ref="#arroio_grande">arroio Grande</placeName> e fiz adiantar o 
+                    <persName ref="#capitao_isaias">Capitão Isaías</persName> com 50 e tantos homens a reunir cavalos na margem 
+                    esquerda de <placeName ref="#rio_camaqua">Camaquã</placeName>... fiz constar pelos moradores que vinha com muito medo 
+                    de <persName ref="#neto">Neto</persName>... </p>
+                
+                <p>...emboscando-me perto do dito 
+                    <placeName ref="#passo_cordeiro">passo do Cordeiro</placeName> fiz emboscar a infantaria ao mando do 
+                    <persName ref="#major_queste">Sr. Major Queste</persName> (*2) na picada determinando-lhe que deixasse passar 
+                    de 150 homens a 200 e lhe fizesse fogo...</p>
+                
+                <p>...deixando no campo 31 mortos e vinte prisioneiros, entrando 
+                    neste número um <persName ref="#tenente_coronel_morto">tenente-coronel</persName> e um <persName ref="#tenente_morto">tenente</persName>... é de lastimar a 
+                    perda do valente e honrado <persName ref="#capitao_antonio_candido_silva">Capitão Antônio Cândido da Silva</persName> e do bravo 
+                    <persName ref="#alferes_pedro_antonio_iripi">Alferes Pedro Antônio Iripi</persName> e do valente 
+                    <persName ref="#sargento_antonio_correia">Sargento Antônio Correia</persName>...</p>
+                
+                <p>...deixei de proteção 
+                    à cavalhada e mesmo de observação ao passo o 
+                    <persName ref="#capitao_francisco_cabeleira">Capitão Francisco Cabeleira</persName>... vou-me retirando pela costa da 
+                    <placeName ref="#lagoa_patos">lagoa dos Patos</placeName> a dissolver as reuniões... Deus guarde a V. Exª. 
+                    <placeName ref="#capela_das_dores">Capela das Dores</placeName>, <date when="1842-01-29">29 de janeiro de 1842</date>.</p>
+                
+                <closer>
+                    <salute>Ilmo. Exmo. Sr. <persName ref="#conde_rio_pardo">Conde do Rio Pardo</persName></salute>
+                    <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
+                    <signed>Tenente-coronel Comandante da Expedição</signed>
+                </closer>
+                
+                <note type="editorial">(*1) — original de difícil leitura; aqui lido como Lucas; adiante, lido como Cecas.</note>
+                <note type="editorial">(*2) — leitura possivelmente “Kersting”.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

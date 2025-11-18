@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-57 – <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName> para <persName ref="#filipe_neri_oliveira">Filipe Neri de Oliveira</persName></title>
+                <title>Carta CV-61 – <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName> para <persName ref="#manuel_jorge_rodrigues">Manuel Jorge Rodrigues</persName></title>
                 <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
             </titleStmt>
             
@@ -27,10 +27,11 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
-                    <date when="1839-12-17">17 de dezembro de 1839</date>
+                    <placeName ref="#santo_amaro">Santo Amaro</placeName>
+                    <date when="1840-06-13">13 de junho de 1840</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#filipe_neri_oliveira">Filipe Neri de Oliveira</persName>
+                    <persName ref="#manuel_jorge_rodrigues">Manuel Jorge Rodrigues</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -38,18 +39,19 @@
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-57">
+            <div type="letter" xml:id="CV-61">
                 
                 <opener>
                     <salute>Ilmo. e Exmo. Sr.</salute>
                 </opener>
                 
-                <p>Participo a V.Exª. que no dia 15 para 16 do corrente mandei ao <persName ref="#tenente_isaias_antonio">Tenente Isaías Antônio Alz.</persName>, <persName ref="#alferes_antonio_joaquim_cruz">Alferes Antônio Joaquim da Cruz</persName>, <persName ref="#antonio_jose_carvalho_2">Antônio José de Carvalho</persName> e 16 soldados, todos do corpo do meu comando, ao <placeName ref="#passo_fundo">passo Fundo</placeName> a fim de surpreender uma guarda dos rebeldes que ali se achava, comandada pelo <persName ref="#tenente_nogueira">Tenente Nogueira</persName>, fazer-se-lhes 4 prisioneiros e tomar-se 6 cavalos arreados, escapando-se a mais gente pelos matos.</p>
+                <p>Em virtude das ordens de V.Ex.º, fiz seguir hoje o <persName ref="#tenente_isaias_2">Tenente Isaías</persName> com 24 homens a surpreender uma guarda de rebeldes que dizem estar na <placeName ref="#boa_vista">Boa Vista</placeName>, e eu passo esta noite com o resto da gente para o outro lado a cumprir as ordens que V.Ex.º me determinou; eu mando seguir uma barca para defronte do acampamento da Picada, para estar ali pronta a ver se dela posso mandar surpreender o <persName ref="#juca_custodio">Juca Custódio</persName>, que anda pelo <placeName ref="#cerro_da_fortaleza">cerro da Fortaleza</placeName> e <placeName ref="#santa_cruz">Santa Cruz</placeName> com 20 e tantos homens.</p>
                 
-                <p>É quanto tenho a honra de comunicar a V.Exª. para sua inteligência. Deus guarde a V.Exª.. Acampamento em frente à Picada, <date when="1839-12-17">17 de dezembro de 1839</date>.</p>
+                <p>É o que por agora tenho de levar a conhecimento de V.Ex.ª. Deus guarde a V.Ex.ª.</p>
                 
                 <closer>
-                    <salute>Ilmo. e Exmo. Sr. <persName ref="#filipe_neri_oliveira">Filipe Neri de Oliveira</persName>, Brigadeiro Comandante da 2a. Brigada.</salute>
+                    <dateline><placeName ref="#santo_amaro">Santo Amaro</placeName>, <date when="1840-06-13">13 de junho de 1840</date>.</dateline>
+                    <salute>Ilmo. e Exmo. Sr. <persName ref="#manuel_jorge_rodrigues">Manuel Jorge Rodrigues</persName>, Tenente-general Comandante-em-chefe do Exército.</salute>
                     <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
                     <signed>Tenente-coronel.</signed>
                 </closer>

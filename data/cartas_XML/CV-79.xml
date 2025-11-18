@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-79 – <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName> para <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName></title>
+                <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1844-06-28">28 de junho de 1844</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-79">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Junto vão os intitulados Coronéis <persName ref="#joaquim_pedro2">Joaquim Pedro</persName> e <persName ref="#jose_mariano_matos">José Mariano de Matos</persName> e um capitão e um soldado para logo V.Sᵃ. remeter para o Rio Grande com toda segurança; já saberá que o intitulado Coronel <persName ref="#antonio_manuel_amaral">Antônio Manuel do Amaral</persName> foi à vila de <placeName ref="#jaguarao">Jaguarão</placeName> saquear com 150 homens e foi rechaçado pela polícia de <placeName ref="#jaguarao">Jaguarão</placeName>, coadjuvado pela infantaria e marinha, ficando morto o mesmo Amaral e um tenente e 5 ou 6 soldados e feridos um tenente e 6 soldados, e da nossa parte tivemos de lastimar um sargento morto; isto me conta o mesmo capitão que vai preso, que esteve no ataque; por ora ainda não tive notícia oficial; se ainda não tiver saído a gente do 2.º Corpo que ficou para trazer armamento, V.Sᵃ. fará sair quanto antes para <placeName ref="#cangucu">Canguçu</placeName>.</p>
+                
+                <p>Deus guarde a V.Sᵃ.. Campo nas pontas de <placeName ref="#piratini">Piratini</placeName>, <date when="1844-06-28">28 de junho de 1844</date>.</p>
+                
+                <p>Ilmo. Sr. <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName>.<br/>
+                    Tenente-coronel Comandante da Guarnição da cidade de <placeName ref="#pelotas">Pelotas</placeName>.</p>
+                
+                <closer>
+                    <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

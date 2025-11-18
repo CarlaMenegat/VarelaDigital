@@ -97,9 +97,9 @@
         <place xml:id="boqueirao">
             <placeName>Boqueirão</placeName>
             <location>
-                <geo>-30.4484 -54.3081</geo>
+                <geo>-29.1833 -54.8672</geo>
             </location>
-            <note>Boqueirão, região mencionada como departamento administrativo do destinatário.</note>
+            <note>Boqueirão, localidade próxima a Santiago, RS, com registros históricos de movimentações militares farroupilhas.</note>
         </place>
         
         <place xml:id="pelotas">
@@ -402,6 +402,20 @@
             <note>Coordenadas aproximadas correspondentes ao município de São Sebastião do Caí, RS; utilizadas para referência geográfica do topônimo citado.</note>
         </place>
         
+        
+        <place xml:id="cai">
+            <placeName>Caí</placeName>
+            <geo>-29.5884, -51.3741</geo>
+            <note>Atual São Sebastião do Caí, referência geográfica no deslocamento militar.</note>
+        </place>
+        
+        <place xml:id="aldeia_anjos">
+            <placeName>Aldeia dos Anjos</placeName>
+            <geo>-29.6868, -51.1328</geo>
+            <note>Nome antigo do atual município de Gravataí, RS.</note>
+        </place>
+
+        
         <place xml:id="arroio_ratos">
             <placeName>Arroio dos Ratos</placeName>
             <geo>-30.0878, -51.7301</geo>
@@ -518,10 +532,34 @@
             <note>Canal de acesso ao porto de Rio Grande, área estratégica para corsários.</note>
         </place>
         
-        <place xml:id="santana_do_livramento">
+        <place xml:id="ibicui">
+            <placeName>Rio Ibicuí</placeName>
+            <geo>-29.9861, -55.5178</geo>
+            <note>Rio localizado na região sul do Rio Grande do Sul, divisor natural entre áreas de atuação militar durante a Revolução Farroupilha.</note>
+        </place>
+        
+        <place xml:id="borore">
+            <placeName>Bororé</placeName>
+            <geo>-30.4000, -56.1333</geo>
+            <note>Localidade rural histórica próxima da fronteira oeste do Rio Grande do Sul; aparece como ponto militar e de deslocamento de tropas.</note>
+        </place>
+        
+        <place xml:id="ibirocai">
+            <placeName>Ibirocaí</placeName>
+            <geo>-29.8500, -55.2000</geo>
+            <note>Localidade ou referência hidrológica da região oeste/sudoeste do Rio Grande do Sul; presente em operações militares de 1835–1845.</note>
+        </place>
+        
+        <place xml:id="botucarai">
+            <placeName>Serra de Botucaraí</placeName>
+            <geo>-29.3082, -52.3814</geo>
+            <note>Formação serrana localizada entre Sobradinho e Passa-Sete, mencionada como corredor estratégico de movimentação farroupilha.</note>
+        </place>
+        
+        <place xml:id="santana_livramento">
             <placeName>Santana do Livramento</placeName>
-            <geo>-30.8773 -55.5392</geo>
-            <note>Cidade fronteiriça no Rio Grande do Sul, Brasil; identificada no documento como "Santana".</note>
+            <geo>-30.8774, -55.5392</geo>
+            <note>Município fronteiriço do Rio Grande do Sul; referido nas cartas como 'Santa Ana'. Local de relevância militar e logística.</note>
         </place>
         
         <org xml:id="corpo_segundo">
@@ -567,13 +605,13 @@
         <place xml:id="parobe_rs">
             <placeName>Parobé</placeName>
             <geo>-29.6307, -50.8257</geo>
-            <note>Município de Parobé, Estado do Rio Grande do Sul, Brasil; localizado na Região Metropolitana de Porto Alegre, microrregião de Porto Alegre. Coordenadas aproximadas: latitude -29° 37′ 44″ S, longitude -50° 49′ 32″ O.  [oai_citation:0‡cidade-brasil.com.br](https://www.cidade-brasil.com.br/municipio-parobe.html?utm_source=chatgpt.com)</note>
+            <note>Município de Parobé, Estado do Rio Grande do Sul, Brasil; localizado na Região Metropolitana de Porto Alegre, microrregião de Porto Alegre. Coordenadas aproximadas: latitude -29° 37′ 44″ S, longitude -50° 49′ 32″ O. </note>
         </place>
         
         <place xml:id="jaguari_rs">
             <placeName>Jaguari</placeName>
             <geo>-29.4969, -54.69</geo>
-            <note>Município de Jaguari, Estado do Rio Grande do Sul, Brasil. Latitude aproximadamente -29°29′49″ S e longitude -54°41′24″ O.  [oai_citation:0‡Prefeitura Municipal de Jaguari](https://www.jaguari.rs.gov.br/pagina/2/localizacao?utm_source=chatgpt.com)</note>
+            <note>Município de Jaguari, Estado do Rio Grande do Sul, Brasil. Latitude aproximadamente -29°29′49″ S e longitude -54°41′24″ O. </note>
         </place>
         
         <place xml:id="tapes">
@@ -586,6 +624,108 @@
             <placeName>Ilha da Paciência</placeName>
             <geo>-30.2300, -51.2000</geo>
             <note>Ilha localizada na região da Laguna dos Patos, Rio Grande do Sul, Brasil; citada como ponto logístico para embarque e condução de animais durante operações militares do período.</note>
+        </place>
+        
+        <place xml:id="ilha_dos_tapes">
+            <placeName>Ilha dos Tapes</placeName>
+            <geo>-30.6733, -51.3958</geo> 
+            <note>Ilha lagunar situada na margem da Lagoa dos Patos, município de Tapes (RS), utilizada como ponto de desembarque nas operações militares de 1839.</note>
+        </place>
+        
+        <place xml:id="barra_velhaco">
+            <placeName>Barra do Velhaco</placeName>
+            <geo>-30.911074, -51.494969</geo> 
+            <note>Local da foz do Arroio Velhaco na Lagoa dos Patos, atualmente município de Arambaré (RS).  [oai_citation:2‡Wikipedia](https://pt.wikipedia.org/wiki/Arambar%C3%A9?utm_source=chatgpt.com)</note>
+        </place>
+        
+        <place xml:id="barra_graxim">
+            <placeName>Barra do Graxim</placeName>
+            <geo>-31.500857, -52.007942</geo> 
+            <note>Foz do Arroio Graxim na Lagoa dos Patos. Região costeira sudoeste do estado do Rio Grande do Sul.</note>
+        </place>
+        
+        <place xml:id="itapua">
+            <placeName>Itapuã</placeName>
+            <geo>-30.367, -51.017</geo>
+            <note>Promontório costeiro na região metropolitana de Porto Alegre (RS), Brasil.</note>
+        </place>
+        
+        <place xml:id="rio_dos_sinos">
+            <placeName>Rio dos Sinos</placeName>
+            <geo>-29.90 -51.25</geo>
+            <note>Rio do nordeste do Rio Grande do Sul, com cerca de 190 km de extensão, nascendo na região de Caraá e desaguando no delta do Jacuí, em Canoas. Importante eixo histórico de ocupação do Vale do Rio dos Sinos.</note>
+        </place>
+        
+        <place xml:id="rio_tramandai">
+            <placeName>Rio Tramandaí</placeName>
+            <geo>-29.98 -50.15</geo>
+            <note>Rio do litoral norte do Rio Grande do Sul que drena para a Lagoa Tramandaí e chega ao Atlântico pela barra de Tramandaí, formando um estuário lagunar de grande importância ecológica.</note>
+        </place>
+        
+        <place xml:id="torres">
+            <placeName>Torres</placeName>
+            <geo>-29.34 -49.73</geo>
+            <note>Município litorâneo no extremo norte do litoral do Rio Grande do Sul, conhecido pelos paredões rochosos à beira-mar e pela Ilha dos Lobos. No século XIX, era importante ponto de passagem entre o planalto e o litoral sul.</note>
+        </place>
+        
+        <place xml:id="batovi">
+            <placeName>Batoví</placeName>
+            <geo>-29.2770 -55.1570</geo>
+            <note>Localidade no interior do Rio Grande do Sul, mencionada no contexto da Revolução Farroupilha.</note>
+        </place>
+        
+        <place xml:id="botucarai">
+            <placeName>Botucaraí</placeName>
+            <geo>-29.0450 -52.3280</geo>
+            <note>Passo de Botucaraí ou localidade histórica no Rio Grande do Sul, citado como rota de retirada de rebeldes.</note>
+        </place>
+        
+        <place xml:id="pavao">
+            <placeName>Pavão</placeName>
+            <geo>-31.9709 -52.4472</geo>
+            <note>Localidade provável na região de Capão do Leão, RS; coordenadas aproximadas e passíveis de revisão histórica.</note>
+        </place>
+        
+        <place xml:id="cangucu">
+            <placeName>Canguçu</placeName>
+            <geo>-31.3956 -52.6758</geo>
+            <note>Município no Rio Grande do Sul. Coordenadas aproximadas: latitude -31° 23′ 42″ S, longitude -52° 40′ 33″ O. </note>
+        </place>
+        
+        <place xml:id="rio_guaiba">
+            <placeName>Rio Guaíba</placeName>
+            <geo>-30.11833 -51.32139</geo>
+            <note>Curso d’água no Rio Grande do Sul; ponto de referência aproximado baseado em município de Guaíba. </note>
+        </place>
+        
+        <place xml:id="tavares">
+            <placeName>Tavares</placeName>
+            <geo>-31.2876 -51.0945</geo>
+            <note>Município no litoral norte do RS. </note>
+        </place>
+        
+        <place xml:id="cristal">
+            <placeName>Cristal</placeName>
+            <geo>-31.00222 -52.04667</geo>
+<note>Município no RS onde corre o rio Camaquã.  </note>
+        </place>
+        
+        <place xml:id="cerro_roque">
+            <placeName>Cerro do Roque</placeName>
+            <geo>-30.31936 -52.12761</geo>
+            <note>Elevação no RS identificada como “Cerro do Roque”. Coordenadas aproximadas.  </note>
+        </place>
+        
+        <place xml:id="charqueadas_barra">
+            <placeName>Charqueadas da Barra</placeName>
+            <geo>-29.9550 -51.6250</geo>
+            <note>Provável correspondência com o município de Charqueadas (RS). Coordenadas aproximadas: 29° 57′ 18″ S, 51° 37′ 30″ O.  </note>
+        </place>
+        
+        <place xml:id="ponta_rasa">
+            <placeName>Ponta Rasa</placeName>
+            <geo>-29.9640 -51.3726</geo>
+            <note>Localização aproximada da Ilha da Ponta Rasa no município de Triunfo (RS), margem do Rio Jacuí.   </note>
         </place>
     </listPlace>
 </standOff>

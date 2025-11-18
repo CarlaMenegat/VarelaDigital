@@ -3,17 +3,15 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-57 – <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName> para <persName ref="#filipe_neri_oliveira">Filipe Neri de Oliveira</persName></title>
+                <title>Carta CV-74 – Francisco Pedro de Abreu para Barão de Caxias</title>
                 <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
             </titleStmt>
-            
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
-            
             <sourceDesc>
                 <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
                 <ptr target="data/standoff/standoff-persons.xml"/>
@@ -27,10 +25,11 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
-                    <date when="1839-12-17">17 de dezembro de 1839</date>
+                    <date when="1842-12-27">27 de dezembro de 1842</date>
+                    <placeName ref="#ponta_rasa">Ponta Rasa</placeName>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#filipe_neri_oliveira">Filipe Neri de Oliveira</persName>
+                    <persName ref="#barao_caxias">Barão de Caxias</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -38,20 +37,18 @@
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-57">
+            <div type="letter" xml:id="CV-74">
                 
                 <opener>
                     <salute>Ilmo. e Exmo. Sr.</salute>
                 </opener>
                 
-                <p>Participo a V.Exª. que no dia 15 para 16 do corrente mandei ao <persName ref="#tenente_isaias_antonio">Tenente Isaías Antônio Alz.</persName>, <persName ref="#alferes_antonio_joaquim_cruz">Alferes Antônio Joaquim da Cruz</persName>, <persName ref="#antonio_jose_carvalho_2">Antônio José de Carvalho</persName> e 16 soldados, todos do corpo do meu comando, ao <placeName ref="#passo_fundo">passo Fundo</placeName> a fim de surpreender uma guarda dos rebeldes que ali se achava, comandada pelo <persName ref="#tenente_nogueira">Tenente Nogueira</persName>, fazer-se-lhes 4 prisioneiros e tomar-se 6 cavalos arreados, escapando-se a mais gente pelos matos.</p>
+                <p>Junto remeto a V.Ex.ª a participação do <persName ref="#jose_alves_medeiros">Tenente José Alves de Medeiros</persName>, comandante interino do <orgName ref="#esquadrao_triunfo">Esquadrão do Triunfo</orgName>, da morte do assassino <persName ref="#farias01">Farias</persName>, o que muito lucra a humanidade com a morte de tal perverso; ontem tive notícia que ele tinha descido para o <placeName ref="#passo_triunfo">passo do Triunfo</placeName> com um malvado; à noite fiz seguir uma partida a emboscar-se no caminho de sua retirada, não só para o prender, como para pegar uns desertores do corpo. Esta partida ainda não se recolheu.</p>
                 
-                <p>É quanto tenho a honra de comunicar a V.Exª. para sua inteligência. Deus guarde a V.Exª.. Acampamento em frente à Picada, <date when="1839-12-17">17 de dezembro de 1839</date>.</p>
+                <p>É quanto tenho a levar ao conhecimento de V.Ex.ª, a quem Deus guarde por muitos anos. <placeName ref="#ponta_rasa">Acampamento na Ponta Rasa</placeName>, 27 de dezembro de 1842.</p>
                 
                 <closer>
-                    <salute>Ilmo. e Exmo. Sr. <persName ref="#filipe_neri_oliveira">Filipe Neri de Oliveira</persName>, Brigadeiro Comandante da 2a. Brigada.</salute>
-                    <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
-                    <signed>Tenente-coronel.</signed>
+                    <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></signed>
                 </closer>
                 
             </div>

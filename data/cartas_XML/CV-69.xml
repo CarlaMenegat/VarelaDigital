@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Carta CV-69 – <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
+                    para <persName ref="#conde_rio_pardo">Conde de Rio Pardo</persName>
+                </title>
+                <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
+                    <date when="1842-05-24">24 de maio de 1842</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#conde_rio_pardo">Conde de Rio Pardo</persName>
+                    <roleName>General-em-chefe do Exército</roleName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-69">
+                
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>Conforme as ordens e instruções de V. Ex.ª datadas de 29 do
+                    mês próximo passado fiz as competentes reuniões das forças e
+                    esquadrões de meu comando no destacamento da 
+                    <placeName ref="#ponta_rasa">Ponta Rasa</placeName>, e no
+                    dia 3 do corrente, às 5 horas da tarde, ultimei no 
+                    <placeName ref="#rio_guaiba">rio Guaíba</placeName> a passagem de todas as forças e cavalhadas para a margem
+                    direita do mesmo rio; e no mesmo dia, às 6 horas da tarde, com o fim de poder 
+                    cortar a retaguarda do inimigo, marchei com 370 praças de cavalaria e 84 ditas de 
+                    infantaria alemã engajada direto à serra do 
+                    <placeName ref="#erval">Erval</placeName>, a qual atravessei em 3 noites, saindo nos faxinais chamados
+                    do <placeName ref="#tavares">Tavares</placeName>, aonde foi preso o Juiz de Paz dos rebeldes 
+                    <persName ref="#jose_goncalves_silva">José Gonçalves da Silva</persName>, irmão do chefe dos mesmos 
+                    <persName ref="#bento_goncalves">Bento Gonçalves da Silva</persName>...</p>
+                
+                <p>...soube que as forças rebeldes que tinham passado para a margem esquerda do 
+                    <placeName ref="#rio_camaqua">rio Camaquã</placeName> e as que tinham reunido já tinham passado para a margem direita 
+                    do mesmo rio; sem demora segui à capela de 
+                    <placeName ref="#sao_joao">São João</placeName> e daí dirigi, como convinha, algumas partidas...</p>
+                
+                <p>...e no dito passo foi preso um rebelde camarada de outro rebelde oficial; e aí no dia 9 se 
+                    reuniram todas as partidas com cento e cinquenta cavalos e quatro prisioneiros mais,
+                    sendo um deles fulano de tal Lemos, intitulado tenente, e três soldados presos pelo 
+                    <persName ref="#fidelis_pais_silva">Alferes Fidélis Pais da Silva</persName>...</p>
+                
+                <p>...oficiando no mesmo dia 9 ao <persName ref="#joao_frederico">Tenente-coronel João Frederico</persName>, comandante das forças que
+                    tinham saído de <placeName ref="#rio_pardo">Rio Pardo</placeName>, a fim de ele marchar com a força de seu mando a passar 
+                    <placeName ref="#rio_camaqua">Camaquã</placeName> direto à estância do <persName ref="#malaquias">Malaquias</persName>...</p>
+                
+                <p>...Marchando eu com a força de meu mando, a passar o mesmo rio no 
+                    <placeName ref="#passo_mendonca">passo do Mendonça</placeName>, no <placeName ref="#cristal">Cristal</placeName>... no passo de 
+                    <placeName ref="#santa_isabel">Santa Isabel</placeName>, frenteando a capela do <placeName ref="#boqueirao">Boqueirão</placeName>...</p>
+                
+                <p>...saindo de <placeName ref="#santa_isabel">Santa Isabel</placeName> no dia 12 cheguei no dia 13; e feita a junção, no mesmo dia principiamos 
+                    nossa retirada, tornando a repassar o 
+                    <placeName ref="#rio_camaqua">rio Camaquã</placeName> no <placeName ref="#passo_armada">passo da Armada</placeName>, seguindo juntas todas as forças 
+                    até o lugar chamado a <placeName ref="#cordilheira">Cordilheira</placeName>, ... e do dito 
+                    <placeName ref="#cerro_roque">cerro Roque</placeName> me encaminhei no dia à 
+                    <placeName ref="#ponta_rasa">Ponta Rasa</placeName>, chegando na margem direita do rio no dia 22...</p>
+                
+                <p>Deus guarde a V. Ex.ª muitos anos. 
+                    <placeName ref="#porto_alegre">Leal e Valerosa Cidade de Porto Alegre</placeName>, 
+                    <date when="1842-05-24">24 de maio de 1842</date>.</p>
+                
+                <closer>
+                    <salute>Ilmo. e Exmo. Senhor 
+                        <persName ref="#conde_rio_pardo">Conde de Rio Pardo</persName></salute>
+                    <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
+                    <signed>Tenente-coronel</signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

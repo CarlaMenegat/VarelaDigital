@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-58 – <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName> para <persName ref="#filipe_neri_oliveira">Filipe Neri de Oliveira</persName></title>
+                <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
+                    <date when="1839-12-31">31 de dezembro de 1839</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#filipe_neri_oliveira">Filipe Neri de Oliveira</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-58">
+                
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>Conforme as ordens de V.Exª. marchei no dia 21 do corrente do acampamento da ilha em frente à Picada, às 6 horas da tarde, com 158 praças de cavalaria do 5.º Corpo do meu comando e 12 do 3.º Corpo com os oficiais de cavalaria, o <persName ref="#capitao_belisario">Capitão Belisário</persName>, o <persName ref="#capitao_rafael_viana">Capitão Rafael Viana</persName>, o <persName ref="#tenente_isaias">Tenente Isaías</persName>, o <persName ref="#tenente_marcos">Tenente Marcos</persName> e o <persName ref="#antonio_pedro_abreu">Tenente da extinta 2.º Linha Antônio Pedro de Abreu</persName>, o <persName ref="#julio_viana">Alferes Júlio Viana</persName>, <persName ref="#alferes_ferreira">Alferes Ferreira</persName>, <persName ref="#alferes_cruz">Alferes Cruz</persName>, <persName ref="#alferes_machado">Alferes Machado</persName>; e seguindo todos rio acima embarcados nas barcas e lanchões de guerra à meia-noite desembarquei, da parte esquerda, em <placeName ref="#santa_cruz">Santa Cruz</placeName>; e seguindo de noite mesmo pelos matos do <placeName ref="#arroio_dos_ratos">arroio dos Ratos</placeName> acima, me embosquei em frente à olaria do finado <persName ref="#juca_leao">Juca Leão</persName>, até amanhecer o dia 22, em que abri nova picada em que passei, saindo daí às 9 horas do dia, direto ao passo da freguesia do <placeName ref="#triunfo">Triunfo</placeName>, apanhando alguns cavalos e pessoas de suspeita, e dali marchei toda a noite, indo amanhecer no <placeName ref="#cerro_do_roque">cerro do Roque</placeName> no dia 23.</p>
+                
+                <p>E adiante do dito cerro, encontrei uma partida de rebeldes, de 40 a 50 homens, comandada pelo intitulado <persName ref="#tenente_coronel_silveira">Tenente-coronel Silveira</persName>, da <placeName ref="#encruzilhada">Encruzilhada</placeName>, o qual, apesar de os cavalos irem um tanto pesados, ataquei, mandando na frente comandando a guerrilha o <persName ref="#tenente_isaias">Tenente Isaías</persName> e o <persName ref="#julio_viana">Alferes Júlio</persName>, e comandando a proteção o <persName ref="#capitao_rafael_viana">Capitão Rafael Viana</persName>, e o <persName ref="#alferes_cruz">Alferes Cruz</persName> e eu com a mais gente em seguimento; e foi dita partida destroçada completamente, ficando-lhe quatro homens mortos no campo e cinco prisioneiros, e é de crer que muitos fossem feridos; deixando-nos alguns cavalos arreados com arreios ordinários; sendo o resto perseguido mais de duas léguas, até a entrada dos <placeName ref="#cerros_do_erval">cerros do Erval</placeName>; e nesse mesmo dia às 6 horas da tarde, me encaminhei à entrada da picada da serra geral do <placeName ref="#erval">Erval</placeName>, a qual pela sua extensidade e caminhos escabrosos, com bastante custo atravessei em duas noites e um dia e fui sair em <placeName ref="#sao_joao">São João</placeName> no dia 25 de madrugada.</p>
+                
+                <p>E refazendo-me aí de alguns cavalos fiz sair o <persName ref="#antonio_pedro_abreu">Tenente Antônio Pedro de Abreu</persName> com 60 homens pelo passo do <placeName ref="#duro">Duro</placeName> abaixo, até o <placeName ref="#arroio_velhaco">arroio Velhaco</placeName>, a levantar as cavalhadas daquela costa; e eu segui com a mais força pela costa de <placeName ref="#camaqua">Camaquã</placeName> abaixo, recrutando as cavalhadas que apareciam e a fazer junção no dia 26 no <placeName ref="#butta">Butta</placeName> [sic], com o dito Tenente <persName ref="#antonio_pedro_abreu">Abreu</persName>, que aí, conforme as ordens, se achava com cento e tantos cavalos mansos; de onde de noite principiei a retirar-me direto à <placeName ref="#capela_das_dores">capela das Dores</placeName>, e daí ao passo do <placeName ref="#araca">Araçá</placeName>, aonde cheguei no dia 28, às 4 horas da madrugada, aonde esperei que amanhecesse o dia a fim de abrir uma picada; e passando nela às 6 horas do dito dia, tive notícia de uma partida rebelde que me esperava e, enquanto mudava cavalos, mandei em descoberta o <persName ref="#antonio_pedro_abreu">Tenente Antônio Pedro de Abreu</persName> com 6 homens, o qual, encontrando a descoberta do inimigo de 6 homens, comandada pelo <persName ref="#ricardo">Comandante da Polícia Ricardo</persName>, ressabiado, perverso rebelde, velozmente atacou, aprisionando cinco e matando um; o que observado pelos mais inimigos, velozmente se puseram em retirada não dando lugar de trabalhar à minha gente; e assim segui a fazer junção com V.Exª. no mesmo dia 28 às onze horas do dia no passo do <placeName ref="#campo_das_eguas">campo das Éguas</placeName>, com quatrocentos e tantos cavalos mansos, dez prisioneiros entre os quais o célebre <persName ref="#ricardo">Ricardo</persName> e outro semelhante, filho de <persName ref="#bento_surdo">Bento Surdo</persName>, e <persName ref="#jacinto_roque">Jacinto Roque</persName>, juiz de paz dos rebeldes no <placeName ref="#cerro_do_roque">cerro do Roque</placeName>, e seis apresentados.</p>
+                
+                <p>Não houve quebra alguma nas forças da legalidade, à exceção de um do 5.º Corpo que desertou. Preenchidas assim as minhas medidas, e cumpridas as ordens de V.Exª., é muito de louvar a coragem, valor e constância com que me acompanharam todos os oficiais e oficiais inferiores e soldados nas empresas e marchas, de dia e de noite, por serras e caminhos escabrosos, faltos de descanso e provimento, mostrando assim a vontade com que defendem o trono do Sr. Dom Pedro Segundo. Deus guarde a V.Exª. muitos anos como havemos mister.</p>
+                
+                <closer>
+                    <dateline>Quartel em <placeName ref="#porto_alegre">Porto Alegre</placeName>, <date when="1839-12-31">31 de dezembro de 1839</date>.</dateline>
+                    <salute>Ilmo. e Exmo. Senhor <persName ref="#filipe_neri_oliveira">Filipe Neri de Oliveira</persName>. Digníssimo Brigadeiro e Comandante da 2a. Brigada.</salute>
+                    <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
+                    <signed>Tenente-coronel Comandante de 5.º Corpo de Guarda Nacional.</signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

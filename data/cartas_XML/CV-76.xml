@@ -1,0 +1,56 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-76 – Francisco Pedro de Abreu para Luís José Ferreira</title>
+                <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
+                    <date when="1844-05-16?">16 de maio de 44</date>
+                    <placeName ref="#cangucu">Canguçu</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-76">
+                
+                <opener>
+                    <dateline>Acampamento junto a <placeName ref="#cangucu">Canguçu</placeName>, 16 de maio de 44.</dateline>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Cumpre que V.S.ª mande do batalhão de seu comando cinquenta praças escolhidas comandados por um oficial hábil e forte para caminhar a pé no mato, devendo se achar neste ponto no dia 19 sem falta, no ponto aonde o portador e vaqueano indicar; e aí achará o Alferes <persName ref="#emilio_01">Emílio</persName> que indicará ao oficial a comissão que tem de fazer, devendo vir com o vaqueano mais quatro homens de cavalaria desembaraçados; nessa cidade deverá chegar cem homens e cavalaria vindos de Porto Alegre, os quais V.S.ª os mandará aquartelar no armazém da praia perto do sobrado do Prº Ribas até segunda ordem minha e deles V.S.ª</p>
+                
+                <p>poderá dispor de alguns para algumas diligências se forem precisos. Eu hoje sigo a operar sobre o inimigo e por isso por ora não mande comunicação nenhuma para mim sem ter exata notícia aonde eu estou.</p>
+                
+                <closer>
+                    <salute>Deus guarde a V.S.ª.</salute>
+                    <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></signed>
+                </closer>
+                
+                <fw type="recipient">Ilmo. Sr. <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName>. Tenente-coronel Comandante do 8.º Batalhão de Caçadores.</fw>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Carta CV-66 – 
+                    <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName> 
+                    para 
+                    <persName ref="#joao_paulo_santos_barreto">João Paulo dos Santos Barreto</persName>
+                </title>
+                <author>
+                    <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
+                    <placeName ref="#sao_pedro">São Pedro</placeName>
+                    <date when="1841-08-04">4 de agosto de 1841</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#joao_paulo_santos_barreto">João Paulo dos Santos Barreto</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-66">
+                
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>
+                    Participo a V. Ex.ª que tendo notícia que o <persName ref="#portinho">Portinho</persName> estava
+                    reunindo os extraviados em <placeName ref="#santa_maria">Santa Maria</placeName> e para coadjuvar a dita
+                    reunião veio o <persName ref="#carvalhinho">Carvalhinho</persName>; hoje marcho com cento e tantos homens 
+                    de cavalaria e o 3.º Batalhão para proteção a um ponto no caso de ser preciso. 
+                    Fiz seguir as carretas de negócio do <persName ref="#miller">Miller</persName> que ainda não tinham seguido 
+                    por causa da chuva; quando eu cheguei já o <persName ref="#tenente_coronel_melo">Tenente-coronel Melo</persName> 
+                    tinha comprado a maior parte dos algodõezinhos; hoje segue uma carreta com o resto da erva que cá estava; 
+                    em eu voltando farei seguir 200 alqueires de farinha que se está acabando de aprontar; 
+                    o <persName ref="#miller">Miller</persName> há de entregar 6 rolos de fumo comprados a 14$rs. cada uma arroba, 
+                    e o importe o mesmo <persName ref="#miller">Miller</persName> há de receber.
+                </p>
+                
+                <p>
+                    Deus guarde a V. Ex.ª. <placeName ref="#sao_pedro">São Pedro</placeName>, 
+                    <date when="1841-08-04">4 de agosto de 1841</date>.
+                </p>
+                
+                <closer>
+                    <salute>Ilmo. e Exmo. Sr. <persName ref="#joao_paulo_santos_barreto">João Paulo dos Santos Barreto</persName>.</salute>
+                    <signed>Brigadeiro Comandante do Exército.</signed>
+                    <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
+                    <signed>Tenente-coronel</signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

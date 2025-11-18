@@ -174,6 +174,11 @@
         
         <person xml:id="manuel_martins_silveira_lemos">
             <persName>Manuel Martins da Silveira Lemos</persName>
+            <note>Autoridade administrativa vinculada à Secretaria do Tesouro durante o período da Revolução Farroupilha.</note>
+        </person>
+        
+        <person xml:id="manuel_martins_silveira_lemos">
+            <persName>Manuel Martins da Silveira Lemos</persName>
         </person>
         
         <person xml:id="miguel_garcia">
@@ -259,6 +264,19 @@
         <person xml:id="antonio_neto">
             <persName>Antônio Neto</persName>
             <note>General e Chefe do Estado-maior do Exército.</note>
+        </person>
+        
+        <person xml:id="antonio_sousa_neto">
+            <persName>Antônio de Sousa Neto</persName>
+        </person>
+        
+        <person xml:id="filipe_neri">
+            <persName>Filipe Neri</persName>
+        </person>
+        
+        <person xml:id="filipe_neri_oliveira">
+            <persName>Filipe Neri de Oliveira</persName>
+            <note>Brigadeiro e Comandante de Brigada Imperial.</note>
         </person>
         
         <person xml:id="antonio_pedro_abreu">
@@ -403,6 +421,11 @@
         <person xml:id="padre_chagas">
             <persName>Padre Chagas</persName>
             <note>Religioso mencionado como possível Procurador residente.</note>
+        </person>
+        
+        <person xml:id="francisco_chagas_martins_avila_sousa">
+            <persName>Francisco das Chagas Martins Ávila e Sousa</persName>
+            <note>Autoridade eclesiástica, tratada como "Exmo. prelado" e destinatário da carta; atuante no contexto da administração farroupilha.</note>
         </person>
         
         <person xml:id="custodia_almeida">
@@ -1688,11 +1711,6 @@
         
         <person xml:id="florisbelo_dos_santos_pereira">
             <persName>Florisbelo dos Santos Pereira</persName>
-        </person>
-        
-        <person xml:id="francisco_chagas_martins_avila_sousa">
-            <persName>Francisco das Chagas Martins Ávila e Sousa</persName>
-            <note>Autoridade eclesiástica, tratada como "Exmo. prelado" e destinatário da carta; atuante no contexto da administração farroupilha.</note>
         </person>
         
         <person xml:id="alexandre_simoes">
@@ -3080,6 +3098,10 @@
             <note>Indivíduo que recusou prosseguir no cargo em razão de perseguições e calúnias.</note>
         </person>
         
+        <person xml:id="isaias_antonio_alz">
+            <persName>Isaías Antônio Alz.</persName>
+        </person>
+        
         <person xml:id="joaquim_campos">
             <persName>Joaquim Campos</persName>
             <note>Comerciante encontrado na Vila de San Fructuoso.</note>
@@ -3269,6 +3291,11 @@
             <persName>Claro</persName>
         </person>
         
+        <person xml:id="claro_jose_sousa">
+            <persName>Claro José de Sousa</persName>
+            <note>Tenente ferido em combate.</note>
+        </person>
+        
         <person xml:id="duarte_canabarro">
             <persName>Duarte Martins Canabarro</persName>
         </person>
@@ -3284,5 +3311,521 @@
         <person xml:id="francisco_felix_fonseca">
             <persName>Francisco Félix da Fonseca</persName>
         </person>
+
+        <person xml:id="eleuterio_jose_pereira">
+            <persName>Eleutério José Pereira</persName>
+            <note>Identificado como membro do governo rebelde farroupilha.</note>
+        </person>
+        
+        <person xml:id="antonia_do_brejo">
+            <persName>Antônia do Brejo</persName>
+            <note>Viúva mencionada como informante da movimentação rebelde.</note>
+        </person>
+        
+        <person xml:id="sebastiao_rego_barros">
+            <persName>Sebastião do Rego Barros</persName>
+            <note>Ministro e Secretário de Estado dos Negócios da Guerra do Império do Brasil.</note>
+        </person>
+        
+        <person xml:id="rocha">
+            <persName>Rocha</persName>
+            <note>Tenente da Marinha, comandante de embarcações.</note>
+        </person>
+        
+        <person xml:id="capitao_christe">
+            <persName>Christe</persName>
+            <note>Capitão, comandante da infantaria citada.</note>
+        </person>
+        
+        <person xml:id="jose_manuel_de_leao">
+            <persName>José Manuel de Leão</persName>
+            <note>Coronel de Legião, morto no ataque relatado.</note>
+        </person>
+        
+        <person xml:id="antonio_turpim">
+            <persName>Antônio Turpim</persName>
+            <note>Identificado como assassino, morto no ataque.</note>
+        </person>
+        
+        <person xml:id="jeronimo">
+            <persName>Jerônimo</persName>
+            <note>Tenente rebelde capturado.</note>
+        </person>
+        
+        <person xml:id="alferes_inocencio">
+            <persName>Alferes Inocêncio</persName>
+            <note>Oficial rebelde capturado.</note>
+        </person>
+        
+        <person xml:id="tenente_isaias">
+            <persName>Isaías</persName>
+            <note>Tenente mencionado como destacado no desempenho.</note>
+        </person>
+        
+        <person xml:id="tenente_isaias_antonio">
+            <persName>Isaías Antônio Alz.</persName>
+            <note>Tenente sob comando de Francisco Pedro de Abreu.</note>
+        </person>
+        
+        <person xml:id="antonio_jose_carvalho_2">
+            <persName>Antônio José de Carvalho</persName>
+            <note>Membro da tropa destacada; homônimo a outro já existente.</note>
+        </person>
+        
+        <person xml:id="tenente_nogueira">
+            <persName>Nogueira</persName>
+            <note>Tenente rebelde comandante da guarda no Passo Fundo.</note>
+        </person>
+        
+        <person xml:id="alferes_carvalho">
+            <persName>Carvalho</persName>
+            <note>Alferes citado como atuante com distinção.</note>
+        </person>
+        
+        <person xml:id="cabo_fidelis">
+            <persName>Fidélis Pais da Silva</persName>
+            <note>Cabo destacado pelo valor em ação.</note>
+        </person>
+        
+        <person xml:id="sargento_fidelis_pais_silva">
+            <persName>Sargento Fidélis Pais da Silva</persName>
+            <note>Ferido durante a ação militar.</note>
+        </person>
+        
+        <person xml:id="capitao_belisario">
+            <persName>Belisário</persName>
+            <note>Capitão da cavalaria legalista.</note>
+        </person>
+        
+        <person xml:id="capitao_rafael_viana">
+            <persName>Rafael Viana</persName>
+            <note>Capitão da cavalaria legalista.</note>
+        </person>
+
+        <person xml:id="tenente_marcos">
+            <persName>Marcos</persName>
+            <note>Tenente citado em operação militar.</note>
+        </person>
+        
+        <person xml:id="antonio_pedro_abreu">
+            <persName>Antônio Pedro de Abreu</persName>
+            <note>Tenente da extinta 2ª Linha, destacado na operação.</note>
+        </person>
+        
+        <person xml:id="julio_viana">
+            <persName>Júlio Viana</persName>
+            <note>Alferes legalista.</note>
+        </person>
+        
+        <person xml:id="alferes_ferreira">
+            <persName>Ferreira</persName>
+            <note>Alferes participante da ação.</note>
+        </person>
+        
+        <person xml:id="alferes_cruz">
+            <persName>Cruz</persName>
+            <note>Alferes mencionado várias vezes em combate.</note>
+        </person>
+        
+        <person xml:id="alferes_machado">
+            <persName>Machado</persName>
+            <note>Alferes legalista.</note>
+        </person>
+        
+        <person xml:id="tenente_coronel_silveira">
+            <persName>Silveira</persName>
+            <note>Chefe rebelde, referido como tenente-coronel.</note>
+        </person>
+        
+        <person xml:id="ricardo">
+            <persName>Ricardo</persName>
+            <note>Comandante da polícia do distrito, rebelde, capturado.</note>
+        </person>
+        
+        <person xml:id="bento_surdo">
+            <persName>Bento Surdo</persName>
+            <note>Identificado como pai de prisioneiro.</note>
+        </person>
+        
+        <person xml:id="jacinto_roque">
+            <persName>Jacinto Roque</persName>
+            <note>Juiz de paz rebelde no cerro do Roque.</note>
+        </person>
+        
+        <person xml:id="verissimo">
+            <persName>Veríssimo</persName>
+            <note>Ferreiro identificado como produtor de lanças para rebeldes.</note>
+        </person>
+        
+        <person xml:id="joaquim_pedro">
+            <persName>Joaquim Pedro</persName>
+            <note>Ajudante-general dos rebeldes, associado à encomenda de lanças.</note>
+        </person>
+        
+        <person xml:id="manuel_jorge_rodrigues">
+            <persName>Manuel Jorge Rodrigues</persName>
+            <note>Tenente-general e comandante-em-chefe das forças legalistas na província.</note>
+        </person>
+        
+        <person xml:id="capitao_rafael_jose_viana_2">
+            <persName>Rafael José Viana</persName>
+            <note>Capitão do 5.º Corpo; homônimo de Rafael Viana já citado anteriormente.</note>
+        </person>
+        
+        <person xml:id="alferes_prestes">
+            <persName>Prestes</persName>
+            <note>Alferes do 3.º Corpo.</note>
+        </person>
+        
+        <person xml:id="capitao_antonio_fernando">
+            <persName>Antônio Fernando</persName>
+            <note>Capitão comandante de destacamento mencionado.</note>
+        </person>
+        
+        <person xml:id="major_mariano_martins">
+            <persName>Mariano Martins</persName>
+            <note>Major legalista mencionado em operações no interior.</note>
+        </person>
+        
+        <person xml:id="capitao_boaventura">
+            <persName>Boaventura</persName>
+            <note>Capitão enviado além da Encruzilhada.</note>
+        </person>
+        
+        <person xml:id="braga">
+            <persName>Braga</persName>
+            <note>Proprietário de estância citada.</note>
+        </person>
+        
+        <person xml:id="coronel_loureiro">
+            <persName>Coronel Loureiro</persName>
+            <note>Oficial que requereu cavalos para a campanha.</note>
+        </person>
+        
+        <person xml:id="joao_silveira">
+            <persName>João Silveira</persName>
+            <note>Identificado como amigo e informante.</note>
+        </person>
+
+        <person xml:id="coronel_loureiro">
+            <persName>Coronel Loureiro</persName>
+            <note>Oficial citado reunindo tropas.</note>
+        </person>
+
+        <person xml:id="anibal">
+            <persName>Aníbal</persName>
+            <note>Chefe militar ou líder de tropas citado com 200 homens.</note>
+        </person>
+
+        <person xml:id="guedes">
+            <persName>Guedes</persName>
+            <note>Comandante rebelde com 500 homens segundo relato.</note>
+        </person>
+
+        <person xml:id="joao_ferreira">
+            <persName>João Ferreira</persName>
+            <note>Tenente rebelde que se apresentou.</note>
+        </person>
+        
+        <person xml:id="joao_frederico_caldwell">
+            <persName>João Frederico Caldwell</persName>
+            <note>Tenente-coronel comandante de operações; grafado "Calvaro" no original impresso.</note>
+        </person>
+        
+        <person xml:id="major_ourives">
+            <persName>Ourives</persName>
+            <note>Oficial legalista citado como comandante de força de cavalaria.</note>
+        </person>
+        
+        <person xml:id="major_rodrigues">
+            <persName>Rodrigues</persName>
+            <note>Major atuando nas picadas das Três Forquilhas.</note>
+        </person>
+        
+        <person xml:id="jeronimo_de_barros">
+            <persName>Jerônimo de Barros</persName>
+            <note>Soldado prisioneiro que escapou e forneceu informações.</note>
+        </person>
+        
+        <person xml:id="tenente_coronel_melo">
+            <persName>Tenente-coronel Melo</persName>
+            <note>Oficial legalista mencionado como apoio logístico.</note>
+        </person>
+        
+        <person xml:id="capitao_joao_ferreira">
+            <persName>João Ferreira</persName>
+            <note>Capitão mencionado como enviado para observação militar.</note>
+        </person>
+        
+        <person xml:id="carvalhinho">
+            <persName>Carvalhinho</persName>
+            <note>Indivíduo citado como reforço à reunião em Santa Maria; identificação completa ainda indeterminada.</note>
+        </person>
+        
+        <person xml:id="miller">
+            <persName>Miller</persName>
+            <note>Negociante mencionado no contexto de fornecimento de gêneros para o exército.</note>
+        </person>
+        
+        <person xml:id="juca_jacinto">
+            <persName>Juca Jacinto</persName>
+            <note>Comandante rebelde morto na ação.</note>
+        </person>
+        
+        <person xml:id="pacheco">
+            <persName>Pacheco</persName>
+            <note>Mencionado como assassino aliado aos rebeldes.</note>
+        </person>
+        
+        <person xml:id="tenente_bento">
+            <persName>Tenente Bento</persName>
+            <note>Oficial rebelde capturado.</note>
+        </person>
+        
+        <person xml:id="tenente_eduardo">
+            <persName>Tenente Eduardo</persName>
+            <note>Oficial de infantaria legalista.</note>
+        </person>
+        
+        <person xml:id="tenente_novas">
+            <persName>Tenente Novas</persName>
+            <note>Oficial de infantaria legalista.</note>
+        </person>
+        
+        <person xml:id="capitao_lucas">
+            <persName>Capitão Lucas</persName>
+            <note>Nome incerto: leitura paleográfica sujeita a revisão.</note>
+        </person>
+        
+        <person xml:id="capitao_cecas">
+            <persName>Capitão Cecas</persName>
+            <note>Mesma pessoa indicada como “Lucas” no início? Revisão prosopográfica futura.</note>
+        </person>
+        
+        <person xml:id="ricardo">
+            <persName>Ricardo</persName>
+        </person>
+        
+        <person xml:id="major_queste">
+            <persName>Major Queste</persName>
+            <note>Possível leitura alternativa “Kersting”.</note>
+        </person>
+        
+        <person xml:id="capitao_antonio_candido_silva">
+            <persName>Capitão Antônio Cândido da Silva</persName>
+        </person>
+        
+        <person xml:id="alferes_pedro_antonio_iripi">
+            <persName>Alferes Pedro Antônio Iripi</persName>
+        </person>
+        
+        <person xml:id="sargento_antonio_correia">
+            <persName>Sargento Antônio Correia</persName>
+        </person>
+        
+        <person xml:id="capitao_francisco_cabeleira">
+            <persName>Capitão Francisco Cabeleira</persName>
+        </person>
+        
+        <person xml:id="conde_rio_pardo">
+            <persName>Conde do Rio Pardo</persName>
+        </person>
+        
+        <person xml:id="jose_goncalves_silva">
+            <persName>José Gonçalves da Silva</persName>
+            <note>Juiz de Paz dos rebeldes; irmão de Bento Gonçalves da Silva.</note>
+        </person>
+        
+        <person xml:id="joao_frederico">
+            <persName>João Frederico</persName>
+            <note>Tenente-coronel comandante das forças vindas de Rio Pardo.</note>
+        </person>
+        
+        <person xml:id="malaquias">
+            <persName>Malaquias</persName>
+            <note>Estancieiro citado como referência geográfica e logística.</note>
+        </person>
+        
+        <person xml:id="castilho01">
+            <persName>Castilho</persName>
+            <note>Indivíduo não identificado com prenome; citado em Piratini em setembro de 1842, acompanhado de força armada.</note>
+        </person>
+        
+        <person xml:id="correia01">
+            <persName>Major Correia</persName>
+            <note>Oficial referido apenas pelo sobrenome; contexto militar rebelde próximo ao rio Camaquã em 1842.</note>
+        </person>
+        
+        <person xml:id="jose_maria_betancourt">
+            <persName>José Maria da Silva Betancourt</persName>
+            <note>Brigadeiro e comandante-em-chefe do Exército Imperial no RS.</note>
+        </person>
+        
+        <person xml:id="francisco_lima_silva">
+            <persName>Francisco de Lima e Silva</persName>
+            <note>Oficial do Exército Imperial, citado como Major em 1842, comandante de infantaria subordinada.</note>
+        </person>
+        
+        <person xml:id="antonio_soares_paiva">
+            <persName>Antônio Soares de Paiva</persName>
+            <note>Coronel, comandante da guarnição da vila do Norte, citado em 1842.</note>
+        </person>
+        
+        <person xml:id="meneses01">
+            <persName>Capitão-tenente Meneses</persName>
+            <note>Oficial citado apenas pelo sobrenome; comandante de embarcação a vapor, 1842.</note>
+        </person>
+        
+        <person xml:id="barao_caxias">
+            <persName>Barão de Caxias</persName>
+            <note>Luís Alves de Lima e Silva, chefe supremo militar no período.</note>
+        </person>
+        
+        <person xml:id="jose_alves_medeiros">
+            <persName>José Alves de Medeiros</persName>
+            <note>Tenente, comandante interino do Esquadrão do Triunfo na data da carta (27/12/1842).</note>
+        </person>
+        
+        <person xml:id="farias01">
+            <persName>Farias</persName>
+            <note>Indivíduo mencionado apenas pelo sobrenome, qualificado no documento como assassino. Identidade completa não confirmada; id provisório.</note>
+        </person>
+        
+        <person xml:id="urbano_soares_silva">
+            <persName>Urbano Soares da Silva</persName>
+            <note>Destinatário da carta CV-75; identificado como parente e residente na região de Canguçu no ano de 1843.</note>
+        </person>
+        
+        <person xml:id="luis_jose_ferreira">
+            <persName>Luís José Ferreira</persName>
+            <note>Tenente-coronel, comandante do 8º Batalhão de Caçadores, destinatário da carta CV-76.</note>
+        </person>
+        
+        <person xml:id="emilio_01">
+            <persName>Emílio</persName>
+            <note>Alferes citado na CV-76; identidade a confirmar.</note>
+        </person>
+        
+        <person xml:id="luis_jose_ferreira">
+            <persName>Luís José Ferreira</persName>
+            <note>Tenente-coronel, comandante do 8.º Batalhão de Caçadores.</note>
+        </person>
+        
+        <person xml:id="bolilho">
+            <persName>Bolilho</persName>
+            <note>Identificado como Alferes; necessita confirmação e desambiguação nominal.</note>
+        </person>
+        
+        <person xml:id="lucio_de_braga">
+            <persName>Lúcio de Braga</persName>
+            <note>Prisioneiro citado na carta; sem identificação histórica confirmada.</note>
+        </person>
+        
+        <person xml:id="luis_jose_ferreira">
+            <persName>Luís José Ferreira</persName>
+            <note>Tenente-coronel, comandante da guarnição em Pelotas.</note>
+        </person>
+        
+        <person xml:id="luis_jose_ferreira">
+            <persName>Luís José Ferreira</persName>
+            <note>Tenente-coronel, comandante da guarnição em Pelotas.</note>
+        </person>
+        
+        <person xml:id="joaquim_pedro2">
+            <persName>Joaquim Pedro</persName>
+            <note>Indivíduo citado como coronel rebelde; identidade precisa ainda não confirmada.</note>
+        </person>
+        
+        
+        <person xml:id="jose_mariano_matos">
+            <persName>José Mariano de Matos</persName>
+            <note>Indivíduo citado como coronel rebelde.</note>
+        </person>
+        
+        <person xml:id="antonio_manuel_amaral">
+            <persName>Antônio Manuel do Amaral</persName>
+            <note>Identificado como coronel rebelde, morto durante confronto em Jaguarão.</note>
+        </person>
+        
+        <person xml:id="freire">
+            <persName>Freire</persName>
+            <note>Identificado apenas pelo sobrenome, citado como Major.</note>
+        </person>
+        
+        <person xml:id="flor">
+            <persName>Flor</persName>
+            <note>Citado como Alferes, mensageiro de ofícios.</note>
+        </person>
+        
+        <person xml:id="batista2">
+            <persName>Batista</persName>
+            <note>Citado como Capitão do 2.º Corpo; identidade precisa não confirmada.</note>
+        </person>
+        
+        <person xml:id="carcerero">
+            <persName>Carcerero</persName>
+            <note>Citado como Capitão do 2.º Corpo; grafia e identidade ainda a confirmar.</note>
+        </person>
+        
+        <person xml:id="francisco_chagas">
+            <persName>Francisco das Chagas</persName>
+            <note>Tenente-general, comandante da força da guarnição de Porto Alegre.</note>
+        </person>
+        
+        <person xml:id="jose_araujo_ribeiro">
+            <persName>José de Araújo Ribeiro</persName>
+            <note>Presidente da Província citado na carta.</note>
+        </person>
+        
+        <person xml:id="manuel_jose_alencastre">
+            <persName>Manuel José de Alencastre</persName>
+            <note>Capitão nomeado juiz de paz.</note>
+        </person>
+        
+        <person xml:id="jose_rodrigues_tavares">
+            <persName>José Rodrigues Tavares</persName>
+            <note>Nomeado interinamente ao comando da polícia local.</note>
+        </person>
+        
+        <person xml:id="paulo_alano">
+            <persName>Paulo Alano</persName>
+            <note>Major citado como apoio militar.</note>
+        </person>
+        
+        <person xml:id="mariano_gloria">
+            <persName>Mariano Glória</persName>
+            <note>Indicado como comandante rebelde.</note>
+        </person>
+        
+        <person xml:id="joao_pedro_abreu">
+            <persName>João Pedro de Abreu</persName>
+            <note>Oficial militar farroupilha, atuando como major e comandante interino durante a Revolução Farroupilha.</note>
+        </person>
+        
+        <person xml:id="francisco_antonio_da_silva_bitancourt">
+            <persName>Francisco Antônio da Silva Bitancourt</persName>
+            <note>Coronel e ajudante-general das forças farroupilhas, destinatário de diversas comunicações militares.</note>
+        </person>
+        
+        <person xml:id="jose_andre">
+            <persName>José André</persName>
+            <note>Sargento-ajudante citado como desertor.</note>
+        </person>
+        
+        <person xml:id="joao_marques">
+            <persName>João Marques</persName>
+            <note>1.º Sargento citado como desertor.</note>
+        </person>
+        
+        <person xml:id="luis_carlos">
+            <persName>Luís Carlos</persName>
+            <note>Furriel citado como desertor e aliciador de soldados.</note>
+        </person>
+        
+        <person xml:id="joaquim_francisco_santos_abreu">
+            <persName>Joaquim Francisco dos Santos Abreu</persName>
+            <note>Médico e figura política rio-grandense, atuando como presidente de mesa eleitoral e dirigente local durante o período farroupilha.</note>
+        </person>
+
     </listPerson>
 </standOff>

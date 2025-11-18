@@ -11,6 +11,11 @@
             <note>Governo insurgente estabelecido durante a Revolução Farroupilha.</note>
         </org>
         
+        <org xml:id="segundo_batalhao">
+            <orgName>2.º Batalhão</orgName>
+        </org>
+
+        
         <org xml:id="quarta_reparticao_interior">
             <orgName>4ª Repartição do Interior</orgName>
         </org>
@@ -324,6 +329,27 @@
         <org xml:id="legalidade">
             <orgName>Legalidade</orgName>
             <note>Barcaça mencionada como tendo sido tomada em Rio Pardo e da qual provinha a peça de bronze apreendida.</note>
+        </org>
+        
+        <org xml:id="esquadrao_triunfo">
+            <orgName>Esquadrão do Triunfo</orgName>
+            <note>Unidade militar mencionada em 1842, comandada interinamente por José Alves de Medeiros.</note>
+            <affiliation>Exército do Império do Brasil</affiliation>
+        </org>
+        
+        <org xml:id="mesa_eleitoral">
+            <orgName>Mesa Eleitoral</orgName>
+            <note>Órgão responsável pela administração de processo eleitoral local.</note>
+        </org>
+        
+        <org xml:id="assembleia_primaria">
+            <orgName>Assembléia Primária</orgName>
+            <note>Instância eleitoral de base, organizada para escolha de representantes.</note>
+        </org>
+        
+        <org xml:id="assembleia_constituinte">
+            <orgName>Assembléia Constituinte</orgName>
+            <note>Órgão deliberativo responsável pela elaboração constitucional.</note>
         </org>
     </listOrg>
 </standOff>

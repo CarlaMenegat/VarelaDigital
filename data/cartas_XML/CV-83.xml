@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-83 – <persName ref="#joao_pedro_abreu">João Pedro de Abreu</persName> para <persName ref="#francisco_chagas">Francisco das Chagas</persName></title>
+                <author><persName ref="#joao_pedro_abreu">João Pedro de Abreu</persName></author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#joao_pedro_abreu">João Pedro de Abreu</persName>
+                    <placeName ref="#velhaco">arroio do Velhaco</placeName>
+                    <date when="1836-10-27">27 de outubro de 1836</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#francisco_chagas">Francisco das Chagas</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-83">
+                
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>Participo a V.Sᵃ. que em virtude das ordens do Exmo. Sr. Presidente da Província <persName ref="#jose_araujo_ribeiro">José de Araújo Ribeiro</persName>, o qual me encarregou do Comando da Polícia dos distritos 6.º e 7.º e 8.º pertencentes ao termo da <placeName ref="#triunfo">Vila Nova do Triunfo</placeName>, passei ao 8.º distrito da freguesia das <placeName ref="#dores">Dores</placeName>, onde me acho até a data deste, fazendo manter a ordem legal, tendo no dia 23 do corrente feito empossar do cargo do juizado de paz o Capitão <persName ref="#manuel_jose_alencastre">Manuel José de Alencastre</persName>, que até este dia achava-se fugitivo pelas brenhas dos desertos por ter sido muito perseguido pelos anarquistas e, igualmente, empossei do comando da polícia, interinamente, o cidadão <persName ref="#jose_rodrigues_tavares">José Rodrigues Tavares</persName>, pessoa de quem confio por ser muito fidedigno e pertencer ao partido da legalidade.</p>
+                
+                <p>Tenho feito todos os esforços a fim de reunir por boas maneiras os desertores das fileiras dos rebeldes, e não tenho feito por ora prisões nos mesmos por estar ainda muito perto o inimigo e desconfiar que se principiar a prender alguns, os outros, noticiosos, fujam a reforçarem as fileiras dos rebeldes, o que guardo para quando vier o Major <persName ref="#paulo_alano">Paulo Alano</persName> com forças para guarnecer a costa de <placeName ref="#camaqua">Camaquã</placeName>.</p>
+                
+                <p>Os três distritos acham-se cheios de anarquistas e de ladrões facinorosos; os cidadãos pacíficos e amigos da ordem legal me suplicam com lágrimas e me impedem a minha retirada deste lugar sem que eu lhes deixe uma força dos soldados de meu mando para os guardar dos muitos malfeitores que existem pelos matos amalocados, o que faço por não deixá-los expostos aos rebeldes que já existem no 8.º distrito e as famílias e cidadãos amigos da ordem, deixando por este motivo de não poder voltar aos 6.º e 7.º distritos para neles executar a mesma ordem, por ter só debaixo de meu mando 30 praças e, destes, seguem com este ofício 6 soldados e 1 cabo, por se acharem há mais de mês com a roupa do corpo e já muito nus, os quais vão com licença de 5 dias para trazerem a sua roupa; e à vista do que levo expendido imploro a V.Exᵃ que, no caso que o referido Major <persName ref="#paulo_alano">Paulo Alano</persName> tenha alguma demora em vir, V.Exᵃ, por sua benignidade, e a bem do serviço legal, me mande quando menos 30 homens que sejam bons e bem armados para assim poder policiar os distritos de que fui encarregado pelo Exmo. Presidente da Província, que contém este departamento de mais de 25 léguas, para poder conservar a paz e tranquilidade dos cidadãos pacíficos.</p>
+                
+                <p>Junto verá V.Exᵃ a representação que hoje recebo do juiz de paz e mais cidadãos para fazer reter-me neste lugar até que V.Exᵃ dê as providências que achar mais conveniente. A muito custo tenho reunido duzentos e tantos cavalos e estes acham-se quase todos incapazes de poder servir no presente por estarem bastante magros; nestes mesmos vou fazendo o serviço até juntar mais alguns. O inimigo retirou-se para o outro lado de <placeName ref="#camaqua">Camaquã</placeName>, ficando do lado de cá deste arroio uma partida, que me dizem ser de mais de 60 homens, comandada pelo rebelde <persName ref="#mariano_gloria">Mariano Glória</persName>, e o inimigo levou na sua retirada tudo quanto foi cavalo que havia nestes distritos fazendo seguir alguns moradores pacíficos com seus cavalos e até éguas mansas.</p>
+                
+                <p>Eu fico neste lugar mais arriscado dos distritos por ser aonde suponho ser mais ameaçado dos inimigos, e do que se passar de ora em diante farei pronta participação; é o quanto tenho a honra de levar ao respeitável conhecimento de V.Exᵃ. Deus guarde a V.Exᵃ por muitos anos. Acampamento volante nas imediações do <placeName ref="#velhaco">arroio do Velhaco</placeName>, <date when="1836-10-27">27 de outubro de 1836</date>.</p>
+                
+                <p>Ilmo. Exmo. Sr. <persName ref="#francisco_chagas">Francisco das Chagas</persName>.<br/>
+                    Comandante da Força da Guarnição da <placeName ref="#porto_alegre">cidade de Porto Alegre</placeName>.</p>
+                
+                <closer>
+                    <signed>(a) <persName ref="#joao_pedro_abreu">João Pedro de Abreu</persName></signed><br/>
+                    <signed>Tenente Comandante da Polícia do <placeName ref="#arroio_ratos">arroio dos Ratos</placeName> até o <placeName ref="#velhaco">arroio Velhaco</placeName>.</signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>
