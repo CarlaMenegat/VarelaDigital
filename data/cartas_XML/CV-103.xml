@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-103 – Antônio de Melo e Albuquerque para Domingos José de Almeida</title>
+                <author><persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName></author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName>
+                    <placeName ref="#cruz_alta">Cruz Alta</placeName>
+                    <date when="1839-07-09">9 de julho de 1839</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-103">
+                
+                <opener>
+                    <salute>Exmo. Sr.</salute>
+                </opener>
+                
+                <dateline>
+                    <placeName ref="#cruz_alta">Cruz Alta</placeName>, 
+                    <date when="1839-07-09">9 de julho de 1839</date>.
+                </dateline>
+                
+                <p>Penhorado de gratidão pelas bondades de V.Ex.ª, eu faltaria ao mais satisfatório de meus deveres se o não patenteasse por meio desta, muito ambicionando a saúde e prosperidade de V.Exª., e comunicando-lhe que aqui cheguei a esta sua casa felizmente; o meu préstimo atualmente é muito limitado, porém nos particulares de V.Exª. não haverão [sic] excessos que não faça para provar-lhe quanto me considero agradecido, e muito desejarei mostrar a V.Ex.ª que sou:</p>
+                
+                <closer>
+                    <signed>De V.Exª. amigo e muito obrigado criado.</signed>
+                    <signed>(a) <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName></signed>
+                </closer>
+                
+                <note type="endorsement">Recebida e respondida a 18.</note>
+                
+                <note type="endorsement">
+                    Ao cidadão Exmo. Sr. <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>. 
+                    Digmo. Ministro da Fazenda. 
+                    <placeName ref="#cacapava">Caçapava</placeName>.
+                </note>
+                
+                <note type="endorsement">
+                    <placeName ref="#santa_maria">Santa Maria</placeName> ...... [Carimbo no verso]
+                </note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-130 – Serafim Joaquim de Alencastre para Inácio José de Oliveira Guimarães</title>
+                <author>
+                    <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1839-12-20">20 de dezembro de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-130">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Apesar do que se lhe ordenou pela circular que, com data de ontem, 
+                    se endereçou a todos os chefes de polícia, tenho a acrescentar que as 
+                    suas ordens a respeito devem ser terminantes, despregando toda energia 
+                    para com aqueles que, sem justa causa, não queiram acudir ao reclamo 
+                    da Pátria na presente crise, fazendo-os responsáveis para com o governo 
+                    da incúria e fraqueza com que se portarem, e remetendo presos a esta 
+                    capital os mais omissos no desempenho de suas ordens.</p>
+                
+                <p>Deus guarde a V.S.ª. <placeName ref="#cacapava">Secretaria dos Negócios da Guerra e Marinha em Caçapava</placeName>,
+                    <date when="1839-12-20">20 de dezembro de 1839</date>.</p>
+                
+                <closer>
+                    <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
+                </closer>
+                
+                <note type="endorsement">
+                    Ofício do Exmo. Ministro da Guerra de 20 de dezembro, recebido a 27 do mesmo.  
+                    S. da R. logo, logo.  
+                    Ao cidadão <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>, 
+                    Chefe de Polícia do departamento do Boqueirão.  
+                    Do Ministério da Guerra.
+                </note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

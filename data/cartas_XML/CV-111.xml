@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Documento CV-111 – Requerimento (fragmentário)</title>
+                <author>
+                    <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="legal" subtype="petition" xml:id="CV-111">
+                
+                <head>Requerimento (fragmentário)</head>
+                
+                <gap reason="lost"/>
+                
+                <p>… que teve a vencer. Quando Srs. 
+                    <del reason="erasure">Exmos. Srs.</del>
+                    a causa legal se achava na crise mais melindrosa; quando todos os chefes se viram na dura
+                    necessidade ou de emigrarem para as províncias vizinhas ou para dentro das praças fortificadas; quando,
+                    finalmente, a campanha era toda dos rebeldes, e não havia a menor esperança de recursos; foi nesta mesma
+                    época em que o Suplicante, ajudado de muitos cidadãos beneméritos, fez uma formal oposição aos anarquistas,
+                    com os quais se conservou em continuadas guerrilhas e polêmicas sempre honrosas para a legalidade por tempo
+                    de 3 meses, até que o Exmo. Sr. Marechal Barreto,
+                    <del reason="erasure">cansado de sofrer</del>
+                    se apresentou em campo e veio 
+                    <del reason="erasure">dar alma — esperança — aos legalistas marchando a par de mil sacrifícios</del>
+                    pôr-se 
+                    <del reason="erasure">opor-se</del>
+                    à frente de 500 homens que o Suplicante tinha nos diversos pontos de sua responsabilidade; mas antes que este 
+                    <del reason="erasure">experiente</del>
+                    General tivesse tempo de reconhecer o terreno, o inimigo e a força que comandava, e providenciar a escassez
+                    de armamentos e munições que havia, fomos atacados por uma força anarquista ao mando de 
+                    <persName ref="#bento_manuel">Bento Manuel Ribeiro</persName>
+                    de 700 homens, no dia 7 de julho 
+                    <del reason="erasure">do corrente</del>, dia
+                    em que havíamos já sofrido muitas deserções e uma horrível traição feita por Evaristo dos Santos Robalo, que
+                    comandava um esquadrão 
+                    <del reason="erasure">que não foi</del>, não sendo possível colocá-lo em seu lugar, por cuja causa, e outras, foi aquela força
+                    destroçada e o Suplicante preso e remetido para 
+                    <placeName ref="#sao_gabriel">São Gabriel</placeName>
+                    <del reason="erasure">(sendo o único oficial a quem tal aconteceu)</del>, onde se conservou até que
+                    entrando naquele lugar uma força legal, comandada pelo Alferes Juca Cipriano, o Suplicante lhe pediu socorro
+                    de cavalos e gente, e com 6 homens que trouxe em sua companhia, e negros e peães que levava, atacou na sua
+                    marcha para Cima da Serra uma partida de anarquistas que se achava nos Campestres, comandada pelo Tenente 
+                    <del reason="erasure">Cabo</del> Juca, e destroçando-a tomou 
+                    <del reason="erasure">dois</del> 
+                    cavalos e arreios 
+                    <del reason="erasure">com arreios</del>
+                    ao inimigo, e teve a satisfação de apresentar-se ao mesmo Exmo. Sr. Marechal Barreto no dia 1.º de outubro,
+                    quando o mesmo senhor já se achava promovendo a reunião que, secundada pelo Suplicante e outros cidadãos,
+                    chegou ao número de 400 homens, à frente dos quais marchou 
+                    <del reason="erasure">marchando para este ponto, sofrendo pelo caminho algumas deserções</del>;
+                    teve a glória de acompanhar ao mesmo 
+                    <del reason="erasure">Exmo. Sr.</del>, na qualidade de comandante daquela brigada 
+                    <del reason="erasure">que hoje se acha acampada na Picada; o que tudo é patente à ilustre Comissão.</del>.
+                </p>
+                
+                <p>O Suplicante 
+                    <del reason="erasure">Exmos.</del>
+                    Srs., bem poderia ter feito 
+                    <del reason="erasure">poderá patente fazer</del>
+                    valer 
+                    <del reason="erasure">a vossas vistas que padecendo</del>
+                    para escusar-se do serviço, uma moléstia crônica e temível 
+                    <del reason="erasure">não duvidou :</del>, mas desprezando a vida para acudir às exigências da pátria,
+                    em um tempo em que não poderia ser notado sem injustiça, em um tempo em que toda a Província ficou 
+                    <del reason="erasure">extasiada, se não conhecesse que não deverão, sem dúvida escapar às vossas perspicácias tais circunstâncias. Vós, senhores, sois todos testemunhas deste relatório, por serem todos estes fatos praticados à face da Província e que, sem dúvida, chegariam à vossa notícia aqueles que vós não presenciastes. Eu poderia, senhores, apresentar-vos tudo bem documentado; porém, como havê-los (os documentos), achando-nos a uma distância de perto de 100 léguas do lugar em que se acham, e o trânsito embaraçado pelo inimigo?</del>
+                    aterrada com a horrível traição que sofreu, pelo contrário procurou fazer os mais relevantes e valiosos serviços os
+                    quais são de notoriedade pública, e comprovados pelos documentos juntos; e outros muitos poderia apresentar se
+                    não fosse a distância de mais de 100 léguas em que se acham, estando o trânsito embaraçado pelo inimigo.
+                </p>
+                
+                <p>Além do exposto, resta ao Suplicante 
+                    <del reason="erasure">informar-vos</del>
+                    ponderar a S.M.I. que não tendo tido tempo de formar seu estabelecimento e procurar meios de subsistência
+                    para sua família, tem, de mais a mais, sido 
+                    <del reason="erasure">o Suplicante</del>
+                    sobrecarregado de grandes despesas, indispensáveis na crise atual, para fazer e conservar 
+                    <del reason="erasure">boas</del>
+                    reuniões de gente como as que tem feito. Comprovadas com ofícios dos Exmos. ex-Presidentes José de Araújo,
+                    Chagas, Antero, 
+                    <persName ref="#bento_manuel">Bento Manuel</persName>, Marechal Barreto, Brigadeiro Carneiro e outros chefes de quem o Suplicante
+                    pode apresentar os mais lisonjeiros elogios e agradecimentos em nome da pátria. O Suplicante é pobre, tem mulher
+                    e 5 filhos a sustentar e é por isso que 
+                    <del reason="erasure">sendo</del>
+                    se julga merecedor de que se lhe conceda uma pensão 
+                    <del reason="erasure">assim o requer, exigindo de vossa retidão que pesando na balança da justiça os serviços prestados pelo Suplicante, lhe proporcioneis, por meio de vossas respeitáveis informações, a graça de que se fizer digno.</del>
+                    a exemplo de outros que iguais ou talvez menos serviços têm prestado, e já foram remunerados com pensões e por isso
+                    espera igual prêmio e…
+                </p>
+                
+                <p>R.M.</p>
+                
+                <note type="editorial">Depois de feito este requerimento à Comissão, marchamos para o forte dos rebeldes, junto a 
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>, e os derrotamos e, em seguida, a 
+                    <placeName ref="#rio_pardo">Rio Pardo</placeName>.
+                </note>
+                
+                <signed>
+                    <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName>
+                </signed>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

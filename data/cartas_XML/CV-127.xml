@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-127 – Serafim Joaquim de Alencastre para João Antônio da Silveira</title>
+                <author>
+                    <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1839-12-19">19 de dezembro de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#joao_silveira">João Antônio da Silveira</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div xml:id="CV-127" type="letter">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>
+                    Passo às mãos de V.S.ª, por cópia, o ofício anexo do Juiz de
+                    Paz de <placeName ref="#santa_maria">Santa Maria</placeName> e a portaria inclusa. Pelo ofício
+                    de V.S.ª de 16 do corrente, por participações daquele mesmo juiz
+                    de paz e de outros cidadãos, vejo que o negócio é mais sério do
+                    que pensava e que por consequência é necessário encará-lo com a
+                    devida consideração.
+                </p>
+                
+                <p>
+                    A portaria e o mesmo ofício mostram concludentemente quem são
+                    os influentes, e quase todos têm sido anistiados pelo governo.
+                    Ao Exmo. General <persName ref="#bento_manuel">Bento Manuel</persName> e a V.S.ª cumpre mais principalmente
+                    tomarem as medidas convenientes para impedir que esse fermento,
+                    a que já se pode dar o nome de força, tenha maior incremento,
+                    o General, como encarregado da iniciativa das operações da cam-
+                    panha, e V.S.ª, como chefe da Divisão da Direita.
+                </p>
+                
+                <p>
+                    Uma vez que caiam em poder de V.S.ª alguns dos chefes mencio-
+                    nados pelo Juiz de Paz <persName ref="#gomes_porto">Gomes Porto</persName> no ofício junto, V.S.ª lhes
+                    deverá aplicar o disposto no decreto do Governo de 5 de feve-
+                    reiro do corrente ano, porque quase todos hão sido prisioneiros
+                    e anistiados, e se acham nas circunstâncias marcadas pelo mesmo
+                    decreto.
+                </p>
+                
+                <closer>
+                    <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
+                </closer>
+                
+                <note type="endorsement">
+                    Respondido a 22 do corrente.
+                </note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

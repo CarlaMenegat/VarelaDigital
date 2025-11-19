@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-134 – Saturnino de Sousa e Oliveira para Manuel José de Simas</title>
+                <author>
+                    <persName ref="#saturnino_oliveira">Saturnino de Sousa e Oliveira</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do RS, Vol. III (1941).</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#saturnino_oliveira">Saturnino de Sousa e Oliveira</persName>
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
+                    <date when="1839-12-04">4 de dezembro de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#manuel_simas">Manuel José de Simas</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-134">
+                
+                <opener>
+                    <salute>Cópia — Reservado.</salute>
+                </opener>
+                
+                <p>
+                    Acabo de receber participações oficiais do Presidente de 
+                    <placeName ref="#santa_catarina">Santa Catarina</placeName> 
+                    de estar restaurada a vila da Laguna e igualmente a de 
+                    <placeName ref="#lages">Lages</placeName>, e os rebeldes expulsos de ambos e derrotados, 
+                    com grande perda; uma força de <placeName ref="#sao_paulo">São Paulo</placeName> de 1200 homens 
+                    chegou a Lages e ocupa e guarnece este distrito. Até o fim deste 
+                    mês há de sair uma forte coluna nossa pelo Norte e Mostardas, 
+                    e segundo o plano que está combinado cumpre que V. Mcê. tenha 
+                    sua força toda reunida e pronta para executar as ordens que lhe serão 
+                    transmitidas; e previno-o de ora em diante lhe serão tais ordens 
+                    escritas de meu próprio punho, e nenhuma cumprirá que tenha só 
+                    a minha assinatura, por ter aparecido uma falsificada e muito semelhante.
+                </p>
+                
+                <closer>
+                    <signed>
+                        <persName ref="#saturnino_oliveira">Saturnino de Sousa e Oliveira</persName>
+                    </signed>
+                    <dateline>
+                        <placeName ref="#porto_alegre">Palácio do Governo em Porto Alegre</placeName>,
+                        <date when="1839-12-04">4 de dezembro de 1839</date>
+                    </dateline>
+                    <signed>
+                        <persName ref="#manuel_simas">Manuel José de Simas</persName>
+                    </signed>
+                </closer>
+                
+                <note type="endorsement">
+                    Está conforme. <persName ref="#luis_ribeiro_barreto">Luís José Ribeiro Barreto</persName>.<br/>
+                    Está conforme. <persName ref="#manuel_lima">Manuel Vieira Lima</persName>, Major às ordens.<br/>
+                    Está conforme. O oficial-maior interino, 
+                    <persName ref="#vicente_almeida">Vicente Ferrer de Almeida</persName>.
+                </note>
+                
+                <note type="editorial">[Anexo ao documento CV-133]</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

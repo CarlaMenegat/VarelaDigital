@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-135 – Serafim Joaquim de Alencastre para João Antônio da Silveira</title>
+                <author>
+                    <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, vol. III.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1839-12-25">25 de dezembro de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-135">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Foram apresentados ao governo os dois ofícios de V. S.ª de
+                    21 e 22 do andante, e cópia adjunta, e suposto que um deles sem
+                    assinatura, contudo ficou ciente de quanto V. S.ª relata nos mes-
+                    mos, tanto no que respeita ao inimigo, como acerca de seus deta-
+                    lhes combinados com o 
+                    <persName ref="#bento_manuel">General Bento Manuel</persName>, 
+                    e sobre cuja maté-
+                    ria, nada tem o governo por agora que acumular, uma vez que o
+                    mesmo general encarou seriamente tais eventos. O governo es-
+                    pera que V. S.ª continuará a participar o que for ocorrendo.</p>
+                
+                <closer>
+                    <signed>
+                        <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
+                    </signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

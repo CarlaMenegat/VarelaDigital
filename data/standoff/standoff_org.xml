@@ -363,5 +363,20 @@
         <org xml:id="rc3">
             <orgName>3.º Regimento de Cavalaria</orgName>
         </org>
+        
+        <org xml:id="caixa_militar">
+            <orgName>Caixa Militar</orgName>
+            <note>Órgão administrativo militar responsável por pagamentos e provimentos.</note>
+        </org>
+        
+        <org xml:id="comando_militar_santo_antonio">
+            <orgName>Comando Militar do município de Santo Antônio</orgName>
+            <note>Unidade militar responsável pelo distrito de Santo Antônio da Patrulha.</note>
+        </org>
+        
+        <org xml:id="ministerio_guerra_marinha">
+            <orgName>Secretaria dos Negócios da Guerra e Marinha</orgName>
+            <note>Órgão do governo da República Rio-Grandense responsável pela administração militar.</note>
+        </org>
     </listOrg>
 </standOff>

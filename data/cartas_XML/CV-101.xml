@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-101 – <persName ref="#paulo_pereira_silva_alano">Paulo Pereira da Silva Alano</persName> para <persName ref="#antonio_elzeario_miranda_brito">Antônio Elzeário de Miranda e Brito</persName></title>
+                <author><persName ref="#paulo_pereira_silva_alano">Paulo Pereira da Silva Alano</persName></author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#paulo_pereira_silva_alano">Paulo Pereira da Silva Alano</persName>
+                    <placeName ref="#tres_forquilhas">Três Forquilhas</placeName>
+                    <date when="1839-03-08">8 de março de 1839</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#antonio_elzeario_miranda_brito">Antônio Elzeário de Miranda e Brito</persName>
+                    <note>Presidente da Província.</note>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-101">
+                
+                <opener>
+                    <salute>Ilmo. Exmo. Sr.</salute>
+                </opener>
+                
+                <p>Achando-me autorizado pelo Comandante Superior do Comando das Forças da Vanguarda e guarnecendo os pontos das <placeName ref="#tres_forquilhas">Três Forquilhas</placeName>, <placeName ref="#rio_verde">Rio Verde</placeName> e <placeName ref="#torres">Torres</placeName>; e achando sendo de meu dever participar a V.Exª. o estado em que nos achamos para podermos operar quando V. Ex.ª determina, faço-o ver a V. Ex.ª, que o fazer deste vou fazer ver ao Comandante Superior que deve por todos os modos marchar até a ponte das <placeName ref="#torres">Torres</placeName> para melhor termos combinações com V. Ex.ª; pois eu seguro ao Comandante Superior e a V.Exª. que posso pôr as peças que vêm na força na praia de Machado Gomes sem maior perigo;</p>
+                
+                <p>sendo de gosto e vontade de V.Exª. teremos combinação com tiro de peça; chegar eu ou a força na <placeName ref="#ilha_santo_antonio">Illa de Santo Antônio</placeName> dar cinco tiros para que V.Ex.ª me responda com outros tantos; e os que se derem, V.Exª. mandará dar outros tantos com os dias que tem de se demorar para o fazer a junção, e isto tudo vou fazer ver ao Comandante Superior que se acha distante deste ponto vinte léguas.</p>
+                
+                <p>Tudo isso sendo vontade de V.Exª. e do Comandante Superior. Disponho-me a levar a artilharia embarcada até a freguesia da Serra e tem-se a travessia de uma légua que poderá termos algum embaraço do inimigo. Sobre o estado desta coluna o portador deste, que é o Tenente <persName ref="#jose_joaquim_cabeleira">José Joaquim Cabeleira</persName>, é quem bem pode informar a V.Exª., juntamente se é ou não justo este meu plano.</p>
+                
+                <p>Deus guarde a V.Exª.. <placeName ref="#tres_forquilhas">Acampamento nas Três Forquilhas</placeName> em <date when="1839-03-08">8 de março de 1839</date>.</p>
+                
+                <closer>
+                    <salute>Ilmo. Exmo. Sr. Marechal <persName ref="#antonio_elzeario_miranda_brito">Antônio Elzeário de Miranda e Brito</persName>. Presidente da Província.</salute>
+                    <signed>(a) <persName ref="#paulo_pereira_silva_alano">Paulo Pereira da Silva Alano</persName>.</signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

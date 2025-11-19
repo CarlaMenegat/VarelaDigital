@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-128 – José Gomes Porto ao Ministro da Guerra</title>
+                <author>
+                    <persName ref="#jose_gomes_porto">José Gomes Porto</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do RS, Vol. III.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#jose_gomes_porto">José Gomes Porto</persName>
+                    <placeName ref="#santa_maria">Capela de Santa Maria</placeName>
+                    <date when="1839-12-16">16 de dezembro de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName>Ministro da Guerra</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-128">
+                
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>
+                    Copia — Ilmo. e Exmo. Sr. Participo a V. Ex.ª que no dia 14
+                    do corrente apareceu neste lugar, pelas 7 horas da noite, uma leve
+                    notícia de entrarem aqui os legalistas perversos de Cima da Serra;
+                    reuniu-se a polícia às mesmas horas que constava de 12 homens;
+                    fiz seguir para fora da povoação, ficando eu; e quando foi ao romper
+                    do dia 15, com o tropel, abrindo eu a porta encontrei-me com
+                    o inimigo, que não tive remédio senão parar-me, e com isto aparece
+                    no campo o Tenente <persName ref="#jose_jacinto">José Jacinto</persName>,
+                    que vinha sobre a povoação em descoberta, e descobrindo o inimigo
+                    retirou-se com 6 homens para a banda da polícia, e o inimigo
+                    carregou sobre ele, e este tenente, que dificultoso lhe é voltar a
+                    cara ao inimigo, carregou sobre ele, do que resultou ficar gravemente
+                    ferido, assim como um oficial inimigo; e quando seriam 9 horas do dia
+                    retiraram-se imediatamente para Cima da Serra, não fazendo mais dano
+                    algum, talvez supondo haver força perto, sendo comandante da força
+                    (cuja seria de 100 homens) o Alferes Padilha, o Tenente
+                    <persName ref="#joao_batista_oliveira">João Batista de Oliveira</persName>,
+                    o Tenente Bueno e o comandante de Polícia de São Martinho, todos de
+                    Cima da Serra, que Padilha tinha escondidos, cuja reunião feita pelo
+                    dito comandante de polícia e o tal Oliveira.
+                </p>
+                
+                <p>
+                    E hoje aparece-me aqui um soldado do cidadão Coronel Agostinho com
+                    uma carta aberta de sua mulher para o dito coronel que fazem estar
+                    por <placeName ref="#rio_pardo">Rio Pardo</placeName>, cujo soldado trazia uma portaria,
+                    que junto remeto a V. Ex.ª, e por ela verá o novo chefe de Polícia do
+                    município da <placeName ref="#cruz_alta">Cruz Alta</placeName>, contando-me o camarada indicado do
+                    resultado da Cruz Alta que indo conduzindo ofícios para o Coronel
+                    Agostinho em <placeName ref="#botucarai">Botucaraí</placeName>, e que o referido na portaria mandara
+                    adiante cassar-lhe os ofícios que levava, e que vendo o Melo Brabo
+                    atacar a Polícia da Cruz Alta, extraviaram a dita polícia e passaram
+                    os extraviados pela estância do Cadeado, e que levantaram a cavalhada
+                    toda, em seguida a <placeName ref="#sao_xavier">São Xavier</placeName>.
+                </p>
+                
+                <p>
+                    Diz o mesmo soldado que Melo, pai do Tenente-coronel Antônio de
+                    Melo e Albuquerque, tinha entregado o dinheiro da Coletoria e fizeram
+                    pagamento aos homens que reuniram na Cruz Alta, que andava por 200,
+                    ficando para as bandas do <placeName ref="#passo_fundo">Passo Fundo</placeName> a força que viera da
+                    <placeName ref="#vacaria">Vacaria</placeName> comandada por um Candinho; e eu, Exmo. Sr., do meio
+                    deles pude ter a felicidade escapar-me com a contínua lida em que
+                    eles andavam, pois não pararam nem meio quarto de hora em qualquer
+                    parte; foram à casa do coletor desta capela, três vezes a cercaram,
+                    para que a mulher lhes desse conta do dinheiro e papéis pertencentes
+                    à coletoria, o que nada acharam porque o dito coletor se retirou com
+                    tudo.
+                </p>
+                
+                <p>
+                    É tudo quanto por esta parte tem ocorrido. Deus guarde a V. Ex.ª
+                    muitos anos como à pátria é mister.
+                </p>
+                
+                <closer>
+                    <dateline>
+                        <placeName ref="#santa_maria">Capela de Santa Maria</placeName>,
+                        <date when="1839-12-16">16 de dezembro de 1839</date>
+                    </dateline>
+                    <signed>(a) <persName ref="#jose_gomes_porto">José Gomes Porto</persName>, juiz de paz.</signed>
+                </closer>
+                
+                <note type="endorsement">[Cópia anexa ao documento]</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

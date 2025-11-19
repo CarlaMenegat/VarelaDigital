@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-126 – Vicente de Paula Simões Pires para o Ministro da Guerra</title>
+                <author>
+                    <persName ref="#vicente_paula_simoes_pires">Vicente de Paula Simões Pires</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do RS, Vol. III.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#vicente_paula_simoes_pires">Vicente de Paula Simões Pires</persName>
+                    <placeName ref="#fazenda_meio">Fazenda do Meio</placeName>
+                    <date when="1839-12-18">18 de dezembro de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#ministro_guerra">Ministro e Secretário de Estado dos Negócios da Guerra</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-126">
+                
+                <p>Cópia — Ilmo. e Exmo. Sr.. Ontem à tarde mandei o Tenente
+                    Gomes ao outro lado de <placeName ref="#vacacai">Vacacaí</placeName> a saber notícias do inimigo, de onde pôde
+                    saber bocalmente, de um camarada do Capitão Alexandre que me enviava
+                    a participar que quase ao escurecer subiam uns esquadrões à Coxilha do
+                    Durasnal próximo a Santa Maria e que seriam como 100 homens, tendo
+                    de tarde sido incendiados os campos em volta da mesma capela e sem
+                    saber-se quem o fez.</p>
+                
+                <p>Dizem os bombeiros do Capitão Alexandre que, além desta força,
+                    souberam notícia de haver outra, mas que eles não puderam descobrir por
+                    ser já tarde; torno a fazer sair o Tenente Gomes para <placeName ref="#vacacai">Vacacaí</placeName>
+                    com 4 homens bons e bem montados, para ver se eles passam no passo,
+                    e eu então fazer minha retirada, procurando fazer junção com o Major
+                    Fontoura, segundo a ordem que tive do mesmo, dezenove homens mal
+                    armados, entrando neste número alguns bem velhos e mocinhos de 14 anos,
+                    onde se acham 2 filhos do falecido Capitão Lino de Brum, que sua mãe mos
+                    enviou.</p>
+                
+                <p>Toda a atividade de minha parte conservarei, porém sempre lembro a
+                    V.Ex.ª, a eles passarem o <placeName ref="#vacacai">Vacacaí</placeName>, serão mais demoradas minhas partes,
+                    porque têm então de caminharem por Santa Bárbara em baixo na estrada
+                    das tropas, se também me não cortarem.</p>
+                
+                <p>Lembra-me dizer a V.Ex.º que dei ordem ao Tenente Gomes que,
+                    caso eles passem o <placeName ref="#vacacai">Vacacaí</placeName> em direção a esse ponto, dos quatro homens
+                    que tem fizesse disparar um direito ao <placeName ref="#jacui">Jacuí</placeName> a avisar, e que será talvez
+                    aviso vocal.</p>
+                
+                <closer>
+                    <p>Deus guarde a V.Ex.º muitos anos.</p>
+                    <dateline>
+                        Campo na <placeName ref="#fazenda_meio">Fazenda do Meio</placeName>,
+                        <date when="1839-12-18">18 de dezembro de 1839</date>.
+                    </dateline>
+                    <signed>
+                        <persName ref="#vicente_paula_simoes_pires">
+                            Vicente de Paula Simões Pires
+                        </persName>.
+                    </signed>
+                </closer>
+                
+                <note type="endorsement">[Cópia anexa ao documento]</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

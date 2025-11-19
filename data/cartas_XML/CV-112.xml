@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-112 – José Pedroso de Albuquerque para Francisco das Chagas Martins Ávila e Sousa</title>
+                <author>
+                    <persName ref="#jose_pedroso_albuquerque">José Pedroso de Albuquerque</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#jose_pedroso_albuquerque">José Pedroso de Albuquerque</persName>
+                    <placeName ref="#alegrete">Alegrete</placeName>
+                    <date when="1842-09-26">26 de setembro de 1842</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#francisco_chagas_avila_sousa">Francisco das Chagas Martins Ávila e Sousa</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-112">
+                
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>Foi presente ao Governo o ofício de V.Exª. datado de 20 do corrente, acompanhando uma
+                    representação do <persName ref="#padre_francisco_terroba">Padre Francisco Terroba</persName>, pretendendo a ereção de uma capela
+                    no passo do <placeName ref="#itaqui">Itaqui</placeName>, sobre o que V.Exª. consulta ao mesmo Governo para deliberar a
+                    respeito. Manda responder a V.Exª. que é conveniente espaçar o deferimento de semelhante
+                    pretensão, até que pelos respectivos habitantes seja reclamada essa medida.</p>
+                
+                <p>Deus guarde a V.Exª..</p>
+                
+                <dateline>
+                    <placeName ref="#alegrete">Secretaria da Justiça em Alegrete</placeName>,
+                    <date when="1842-09-26">26 de setembro de 1842</date>.
+                </dateline>
+                
+                <closer>
+                    <salute>Ilmo. e Exmo. Sr. 
+                        <persName ref="#francisco_chagas_avila_sousa">Padre Francisco das Chagas Martins Ávila e Sousa</persName>, Vigário Apostólico.</salute>
+                    <signed>(a) <persName ref="#jose_pedroso_albuquerque">José Pedroso de Albuquerque</persName>.</signed>
+                </closer>
+                
+                <note type="editorial">Segue-se carta com a opinião de Barbacena sobre meios de acabar a guerra.</note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

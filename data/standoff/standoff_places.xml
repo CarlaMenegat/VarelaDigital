@@ -762,5 +762,72 @@
             <geo precision="approximate">-29.1790, -49.9570</geo>
             <note>Localidade de passagem associada ao Rio Mampituba, região limítrofe entre Rio Grande do Sul e Santa Catarina, usada historicamente como ponto de travessia.</note>
         </place>
+        
+        <place xml:id="tres_forquilhas">
+            <placeName>Três Forquilhas</placeName>
+            <geo precision="approximate">-29.5380, -50.0700</geo>
+            <note>Localidade no litoral norte do Rio Grande do Sul, usada como ponto militar em 1839.</note>
+        </place>
+        
+        <place xml:id="rio_verde">
+            <placeName>Rio Verde</placeName>
+            <geo precision="approximate">-29.3500, -49.9000</geo>
+            <note>Rio da região de Torres; citado como ponto guarnecido.</note>
+        </place>
+        
+        <place xml:id="ilha_santo_antonio">
+            <placeName>Illa de Santo Antônio</placeName>
+            <geo precision="approximate">-29.3500, -49.7500</geo>
+            <note>Ilha mencionada como ponto de comunicação por tiros de peça; topônimo histórico.</note>
+        </place>
+        
+        <place xml:id="canoas">
+            <placeName>Canoas</placeName>
+            <geo precision="approximate">-29.9150, -51.1785</geo>
+            <note>Região referida como “aquém de Canoas” nas operações militares farroupilhas; próxima ao atual município de Canoas (RS).</note>
+        </place>
+        
+        
+        <place xml:id="santa_catarina">
+            <placeName>Santa Catarina</placeName>
+            <geo>-27.2423, -50.2189</geo>
+        </place>
+        
+        
+        <place xml:id="sao_paulo_provincia">
+            <placeName>São Paulo</placeName>
+            <geo>-23.5505, -46.6333</geo>
+            <note>Província de São Paulo, mencionada como potencial fornecedora de apoio militar.</note>
+        </place>
+        
+        <place xml:id="rio_antas">
+            <placeName>Rio das Antas</placeName>
+            <geo>-28.5000, -51.0000</geo>
+            <note>Rio da região nordeste do Rio Grande do Sul, citado na carta como referência ao deslocamento militar “sobre as Antas”.</note>
+        </place>
+        
+        <place xml:id="santo_antonio_patrulha">
+            <placeName>Santo Antônio da Patrulha</placeName>
+            <geo>-29.8260, -50.5170</geo>
+            <note>Cidade do Rio Grande do Sul; local do comando militar referido na carta.</note>
+        </place>
+        
+        <place xml:id="itaqui">
+            <placeName>Itaqui</placeName>
+            <placeName type="variant">Passo do Itaqui</placeName>
+            <geo precision="approximate">-29.1250, -56.5528</geo>
+            <note>
+                Município do oeste do Rio Grande do Sul, junto ao rio Uruguai. 
+                Nas correspondências da Coleção Varela, “Passo do Itaqui” refere-se 
+                a um ponto de travessia na mesma região, usado como referência 
+                administrativa e eclesiástica no século XIX.
+            </note>
+        </place>
+        
+        <place xml:id="melo">
+            <placeName>Melo</placeName>
+            <geo>-32.3700, -54.1790</geo>
+            <note>Capital do departamento de Cerro Largo, Uruguai. Sede administrativa e local de escrita da carta CV-117.</note>
+        </place>
     </listPlace>
 </standOff>

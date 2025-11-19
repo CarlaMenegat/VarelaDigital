@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-124 – Alexandre Manuel Pereira para o Ministro da Guerra e Marinha</title>
+                <author>
+                    <persName ref="#alexandre_pereira">Alexandre Manuel Pereira</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#alexandre_pereira">Alexandre Manuel Pereira</persName>
+                    <placeName ref="#vacacai">Vacacaí</placeName>
+                    <date when="1839-12-15">15 de dezembro de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#ministro_guerra_marinha">Ministro da Guerra e Marinha</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-124">
+                
+                <p>
+                    Cópia — Hoje pelas 5 horas da madrugada entraram na capela
+                    de <placeName ref="#santa_maria">Santa Maria</placeName>, os nossos inimigos vindos de Cima da Serra, e
+                    querendo eu descobrir a força mandei o Tenente José Jacinto com
+                    5 homens, e nos primeiros tiros foi morto, e eu depois de observar
+                    a força me retirei com 10 homens, que era a gente que tinha; nesta
+                    mesma data já oficiei ao Ilmo. Sr. Coronel <persName ref="#joao_antonio_silveira">João Antônio</persName>,
+                    dando-lhe parte do ocorrido; a força que pude observar andava por
+                    cento e tantos homens; eu fico neste ponto tomando atenção sobre
+                    a marcha do inimigo.
+                </p>
+                
+                <closer>
+                    <signed>
+                        <persName ref="#alexandre_pereira">Alexandre Manuel Pereira</persName> — 
+                        Capitão de Guardas Nacionais
+                    </signed>
+                    <dateline>
+                        <placeName ref="#vacacai">Vacacaí</placeName>,
+                        <date when="1839-12-15">15 de dezembro de 1839</date>,
+                        às 8 horas do dia.
+                    </dateline>
+                </closer>
+                
+                <note type="endorsement">
+                    Está conforme. O capitão empregado na Secretaria da Guerra.  
+                    (a) Vicente Ferrer de Almeida.
+                </note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

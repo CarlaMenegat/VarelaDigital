@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-120 – Manuel José de Alencastre ao Tenente-general das forças da capital</title>
+                <author>
+                    <persName ref="#manuel_alencastre">Manuel José de Alencastre</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                
+                <correspAction type="sent">
+                    <persName ref="#manuel_alencastre">Manuel José de Alencastre</persName>
+                    <placeName ref="#capela_dores">Capela das Dores</placeName>
+                    <date when="1836-10-27">27 de outubro de 1836</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName>Tenente-general das forças da capital de 
+                        <placeName ref="#porto_alegre">Porto Alegre</placeName>
+                    </persName>
+                </correspAction>
+                
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-120">
+                
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>Tendo-me o Exmo. Sr. Presidente ordenado por ofício que eu
+                    tomasse conta do emprego das autoridades deste distrito, para o
+                    que vinha competente força para me coadjuvar, pois que não me
+                    devo fiar nos anarquistas do mesmo distrito que por obrigados se
+                    apresentaram em revista, é de grande necessidade que a pequena
+                    força que aqui se acha comandada pelo Tenente Antônio Pedro,
+                    digo, João Pedro, se não retire deste mesmo distrito, porque se
+                    mostra com certeza que pelas imediações do Velhaco há anarquis-
+                    tas refugiados em malocas, onde nestas é de supor se acham o cé-
+                    lebre Manuel Antônio, anarquista, ex-juiz de paz, e o do distrito
+                    vizinho de São João por nome João Evangelista; portanto, é de
+                    grande precisão que se conserve aqui uma força equivalente para
+                    repelir algum assalto destes malvados que suas tenções é assassi-
+                    narem os pacíficos, e ainda os mesmos companheiros deles que aqui
+                    se apresentaram.</p>
+                
+                <p>Eu espero que V.Exª. providencie o mais possível a fim de termos
+                    algum sossego em um distrito onde eu estou [...] destes honrados
+                    homens [...] porque se eu tomei conta do juizado é para fazer respeitar
+                    [...] autoridades legais e entre anarquistas não me é possível sem
+                    risco de vidas.</p>
+                
+                <closer>
+                    <salute>Deus guarde a V.Exª. muitos anos.</salute>
+                    <dateline>Distrito das 
+                        <placeName ref="#capela_dores">Dores</placeName>, 
+                        <date when="1836-10-27">27 de outubro de 1836</date>.
+                    </dateline>
+                    <signed>(a) <persName ref="#manuel_alencastre">Manuel José de Alencastre</persName>, Juiz de paz da capela das Dores.</signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

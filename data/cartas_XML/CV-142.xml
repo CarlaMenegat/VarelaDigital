@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CV-142 — Ofício de Serafim Joaquim de Alencastre a João Antônio da Silveira</title>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Arquivo Histórico do Rio Grande do Sul</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
+                <date when="1840-03-19">19 de março de 1840</date>
+                <availability status="restricted">
+                    <p>Uso acadêmico.</p>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    Anais do Arquivo Histórico do RS, vol. III, Carta CV-142.
+                </bibl>
+                <ptr target="standoff-persons.xml"/>
+                <ptr target="standoff-places.xml"/>
+                <ptr target="standoff-events.xml"/>
+                <ptr target="standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Serafim Joaquim de Alencastre</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1840-03-19">19 de março de 1840</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>João Antônio da Silveira</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter">
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>
+                    Ficam em meu poder, depois de haverem sido presentes ao
+                    governo, os dois ofícios de V. S.ª datados de 15 do corrente, e aos
+                    quais me é dado responder que o Tenente José Antônio de Faria
+                    seguirá com o que houver feito da requisição de V. S.ª, mas tendo
+                    tido V. S.ª ordem para retrogradar em sua marcha, talvez já lhe
+                    não convenha fazer seguir o mesmo a <placeName ref="#cachoeira">Cachoeira</placeName>, e como ele
+                    terá mais um ou dois dias de demora, espero que V. S.ª me avise para
+                    o encaminhar ao ponto indicado e o mesmo tenente levará os lombilhos
+                    que houverem.
+                </p>
+                
+                <p>
+                    Enquanto às espadas e pistolas, nenhuma só existe no Trem,
+                    e por este motivo não fica V. S.ª satisfeito nesta parte. Agora
+                    mesmo faço dirigir um próprio a <placeName ref="#rio_pardo">Rio Pardo</placeName> a trazer
+                    dali porção de pano, que indo para o exército não pôde avançar,
+                    o qual será aplicado à força de seu mando.
+                </p>
+                
+                <p>Deus guarde a V. S.ª.</p>
+                
+                <closer>
+                    <signed>
+                        <placeName ref="#cacapava">Secretaria de Guerra em Caçapava</placeName>,
+                        <date when="1840-03-19">19 de março de 1840</date>.
+                    </signed>
+                    <signed>(a) Serafim Joaquim de Alencastre.</signed>
+                    <signed>Ilmo. Sr. Coronel João Antônio da Silveira.</signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

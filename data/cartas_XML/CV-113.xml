@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-113 – José Pedroso de Albuquerque para Inácio José de Oliveira Guimarães</title>
+                <author>
+                    <persName ref="#jose_pedroso_albuquerque">José Pedroso de Albuquerque</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#jose_pedroso_albuquerque">José Pedroso de Albuquerque</persName>
+                    <placeName ref="#alegrete">Alegrete</placeName>
+                    <date when="1842-09-27">27 de setembro de 1842</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#inacio_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-113">
+                
+                <opener>
+                    <salute>Cidadão</salute>
+                </opener>
+                
+                <p>Sendo presente a este Governo o ofício por cópia, que em 11 do próximo pretérito dirigistes ao
+                    cidadão Dr. Juiz de Direito dessa Comarca, a quem recusáveis obedecer como Chefe de Polícia
+                    da mesma; e tendo-se conformado o mesmo Governo com o expediente tomado pelo
+                    General-em-chefe do exército, mandando que o referido Dr. Juiz de Direito reassumisse as funções de
+                    <orgName ref="#chefia_policia_comarcana">Chefe Geral de Polícia Comarcana</orgName>, visto que essa disposição marcha em harmonia com as leis
+                    do Império do Brasil, que provisoriamente seguimos; nos ordena de vos considerar exonerado 
+                    do referido emprego de Chefe Geral de Polícia desse departamento, que com tanta honra haveis 
+                    desempenhado: o que vos comunico para vossa inteligência e devida execução.</p>
+                
+                <p>Deus vos guarde.</p>
+                
+                <dateline>
+                    Secretaria da Justiça em <placeName ref="#alegrete">Alegrete</placeName>,
+                    <date when="1842-09-27">27 de setembro de 1842</date>.
+                </dateline>
+                
+                <closer>
+                    <salute>Ao cidadão <persName ref="#inacio_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>.</salute>
+                    <signed>(a) <persName ref="#jose_pedroso_albuquerque">José Pedroso de Albuquerque</persName>.</signed>
+                </closer>
+                
+                <note type="endorsement">
+                    Ao cidadão Inácio José de Oliveira Guimarães — Boqueirão.  
+                    Do Ministro da Justiça.  
+                    Ofício do Ministro da Justiça dando-me minha demissão.
+                </note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-129 – Serafim Joaquim de Alencastre para Inácio José de Oliveira Guimarães</title>
+                <author>
+                    <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III (1941).</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1839-12-19">19 de dezembro de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-129">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>
+                    Um abalo geral em todas as forças inimigas, e por diversos pontos do Estado,
+                    indica o resultado de um plano combinado contra a liberdade e independência
+                    do povo continentino, por isso que a aparição inopinada de alguns grupos
+                    imperiais nos lugares de mais fácil acesso, as suas horrorosas tropelias,
+                    confirma esta verdade: razão suficiente e poderosa para se desenvolver com
+                    a maior energia os meios eficazes de fazer abortar suas maquinações.
+                </p>
+                
+                <p>
+                    V.S.ª deverá desde já, com a presteza possível, mandar reunir toda a gente
+                    de seu município à <orgName ref="#divisao_esquerda">Divisão da Esquerda</orgName>,
+                    não excetuando um só homem que possa montar a cavalo, suspendendo todas
+                    as portarias, sejam da autoridade que for, ainda mesmo aquelas mais absolutas,
+                    porque a crise assim urge e determina.
+                </p>
+                
+                <p>
+                    Mandará igualmente levantar toda a cavalhada que houver, tirando-se o nome
+                    dos donos e o número de cavalos com que se prestam, para quando forem
+                    restituídos serem pagos pelos cofres nacionais os que faltarem, o que o governo
+                    espera da atividade e patriotismo de V.S.ª.
+                </p>
+                
+                <closer>
+                    <p>Deus guarde a V.S.ª.</p>
+                    <dateline>
+                        Secretaria da Guerra em
+                        <placeName ref="#cacapava">Caçapava</placeName>,
+                        <date when="1839-12-19">19 de dezembro de 1839</date>.
+                    </dateline>
+                    <signed>
+                        <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
+                    </signed>
+                </closer>
+                
+                <note type="endorsement">
+                    Ofício do Exmo. Ministro da Guerra de 19 de dezembro recebido a 25 do mesmo.  
+                    Circular.  
+                    Ao cidadão <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>,
+                    Chefe Geral de Polícia.
+                </note>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

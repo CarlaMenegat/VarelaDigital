@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-115 – Ricardo Antônio de Melo e Albuquerque para Bento Manuel Ribeiro</title>
+                <author>
+                    <persName ref="#ricardo_melo_albuquerque">Ricardo Antônio de Melo e Albuquerque</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#ricardo_melo_albuquerque">Ricardo Antônio de Melo e Albuquerque</persName>
+                    <placeName ref="#cruz_alta">Cruz Alta</placeName>
+                    <date when="1839-12-07">7 de dezembro de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#bento_manuel">Bento Manuel Ribeiro</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-115">
+                
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>O Coronel Agostinho pede-me, em uma carta escrita com muita pressa, participe a V.Exª. que,
+                    mandando um contingente de 50 homens, ao mando do Capitão Lima, a reunir-se ao Tenente-coronel
+                    Aranha, no dia 5 pela manhã foi atacado para cá da estância do Lara por uma força inimiga,
+                    ficando o mesmo Lima destroçado, escapando com 2 oficiais mais e 8 soldados, ficando prisioneiro
+                    o Tenente Saraiva e outros mortos; e como o coronel, por este movimento, não só julga ter sido batido
+                    o Tenente-coronel Aranha, como estar com a comunicação cortada por aquela parte, marchou a reunir
+                    em <placeName ref="#botucarai">Botucaraí</placeName>, visto ser provável que os prisioneiros confessariam a pouca força
+                    com que ficou no <placeName ref="#passo_fundo">Passo Fundo</placeName>; e afirma o mesmo Capitão Lima que o Candinho com os
+                    emigrados é que o bateram.</p>
+                
+                <p>Pela carta adjunta verá V.Exª. o acontecimento do <placeName ref="#rio_pardo">Rio Pardo</placeName>, afirmando demais
+                    a V.Exª. que este município está sem armas, sem força e na maior agitação.</p>
+                
+                <p>Deus guarde a V.Exª. muitos anos.</p>
+                
+                <dateline>
+                    <placeName ref="#cruz_alta">Vila da Cruz Alta</placeName>,
+                    <date when="1839-12-07">7 de dezembro de 1839</date>.
+                </dateline>
+                
+                <closer>
+                    <salute>Ilmo. e Exmo. Sr. General <persName ref="#bento_manuel">Bento Manuel Ribeiro</persName>.</salute>
+                    <signed>(a) <persName ref="#ricardo_melo_albuquerque">Ricardo Antônio de Melo e Albuquerque</persName>.</signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-110 – Antônio de Melo e Albuquerque para Tomás José da Silva</title>
+                <author>
+                    <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName>
+                    <placeName ref="#santo_antonio_patrulha">Santo Antônio da Patrulha</placeName>
+                    <date when="1844-02-09">9 de fevereiro de 1844</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-110">
+                
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>Em observância às ordens que por V.Exª. me foram dadas, marcha a apresentar-se a V.Exª. o Tenente 
+                    <persName ref="#joao_lourenco_vidal">João Lourenço Vidal</persName>, portador deste, levando em sua companhia as poucas praças que quiseram
+                    marchar, e que V.Exª. verá da relação que o mesmo leva, assim como daquelas que ficaram por não poderem marchar
+                    em razão de seu estado de saúde.</p>
+                
+                <p>Este município é composto de gente tão péssima e sem constância, como nenhum outro da província, provando a
+                    V.Exª. esta verdade com o seu procedimento anterior e presente, pois que não houveram rogos, promessas e ameaças
+                    que com eles não despendesse, porém tudo foi inútil, nem ao menos à revista quiseram vir; porém lembrando-me que
+                    seus mesmos chefes e oficiais não gozam para com eles de prestígio suficiente para os levar e conservar, nada mais
+                    há de estranhar, restando-me a protestar a V.Exª. que não descansarão mais as polícias do município sem que agarre
+                    a maior parte, pois que eles não se ausentam daqui acoutando-se na serra, obstáculo terrível, que favorece tal
+                    patifaria.</p>
+                
+                <p>Pelo mesmo tenente remeto a V.Exª. um desertor do depósito de nome João Carneiro, que foi preso por esta polícia
+                    no Pinhal; não sei se será este o seu verdadeiro nome. Agora mesmo acabo de receber o ofício de V.Exª. em que me
+                    ordena a prisão de 12 praças recrutas que daí fugiram, em cumprimento do qual faço avisar a todos os comandantes
+                    para providenciar os meios de suas prisões.</p>
+                
+                <p>É o quanto me cumpre levar ao superior conhecimento de V.Exª.. Deus guarde a V.Exª. muitos anos.</p>
+                
+                <dateline>
+                    Quartel do <orgName ref="#comando_militar_santo_antonio">Comando Militar do município de Santo Antônio</orgName>,
+                    <placeName ref="#santo_antonio_patrulha">Santo Antônio</placeName>,
+                    <date when="1844-02-09">9 de fevereiro de 1844</date>.
+                </dateline>
+                
+                <closer>
+                    <salute>Ilmo. e Exmo. Sr. <persName ref="#tomas_jose_silva">Marechal de Campo Tomás José da Silva</persName>,<br/>
+                        Digmo. Comandante da Guarnição de <placeName ref="#porto_alegre">Porto Alegre</placeName>.</salute>
+                    <signed>(a) <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName><br/>
+                        Coronel Comandante Militar do município de Santo Antônio.</signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-116 – Manuel de Aleman a Juan Antonio de Silvera</title>
+                <author>
+                    <persName ref="#manuel_aleman">Manuel de Aleman</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do RS, Vol. III.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#manuel_aleman">Manuel de Aleman</persName>
+                    <placeName ref="#cerro_largo_uy">Cerro Largo</placeName>
+                    <date when="1839-05-09">Mayo 9 de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#juan_antonio_silvera">Juan Antonio de Silvera</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text xml:lang="es">
+        <body>
+            <div type="letter" xml:id="CV-116">
+                
+                <opener>
+                    <salute>Ilmo. Sr. Don Juan Antonio de Silvera</salute>
+                    <dateline>
+                        <placeName ref="#cerro_largo">Cerro Largo</placeName>,
+                        <date when="1839-05-09">Mayo 9 de 1839</date>
+                    </dateline>
+                </opener>
+                
+                <p>Respetable Señor y amigo:</p>
+                
+                <p>Con el mayor placer he recibido la apreciable carta de V.S.
+                    de fecha 16 del mes pasado, en la que se digna felicitarme por
+                    el cargo a que mi gobierno me ha destinado; al contestar a V.S.
+                    no puedo menos que ofrecer mis inútiles servicios, advirtiendo que
+                    haré cuanto esté en mí por el bien de la causa que V.S. abraza,
+                    y caso que en algo se me considere útil puede V.S. ocuparme con
+                    franqueza.</p>
+                
+                <p>Sin más objeto me repito de V.S. obsecuente y afectísimo
+                    servidor que besa las manos de V.S.</p>
+                
+                <closer>
+                    <signed>(a) <persName ref="#manuel_aleman">Manuel de Aleman</persName></signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

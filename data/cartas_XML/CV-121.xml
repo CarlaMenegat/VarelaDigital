@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CV-121 — Ofício sobre deserções no corpo do Major Maximiano</title>
+                <author>
+                    <persName ref="#serafim_joaquim_alencastre">Serafim Joaquim de Alencastre</persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do AHRS, vol. III</publisher>
+                <availability status="free">
+                    <p>Transcrição para edição digital em TEI.</p>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Volume III dos Anais do Arquivo Histórico do RS.</bibl>
+                <ptr target="standoff-persons.xml"/>
+                <ptr target="standoff-places.xml"/>
+                <ptr target="standoff-events.xml"/>
+                <ptr target="standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#serafim_joaquim_alencastre">Serafim Joaquim de Alencastre</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1839-12-14">14 de dezembro de 1839</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
+                    <note>Coronel e Comandante da Divisão da Direita.</note>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="cv_121">
+                <opener>
+                    <p>Ilmo. Sr.</p>
+                </opener>
+                
+                <p>
+                    Tendo levado ao conhecimento do Exmo. Vice-presidente do Estado
+                    as bem fundadas ponderações de V.Sª. contidas no seu ofício do
+                    1.º do que rege com respeito às deserções que têm havido no corpo
+                    do <persName>Major Maximiano</persName>; o mesmo Exmo. Sr.,
+                    posto que assim lastime um tal comportamento, aliás digno de
+                    severa punição, todavia se conforma com os raciocínios de V.Sª. e
+                    aprova tudo o que V.Sª. há obrado em semelhante caso, ao mesmo
+                    passo que submete à prudência de V.Sª. a iniciativa desse objeto,
+                    seguro que V.Sª. procederá de um modo legítimo e conforme a boa
+                    ordem do serviço do Estado.
+                </p>
+                
+                <p>Deus guarde a V.Sª.. Secretaria da Guerra em <placeName ref="#cacapava">Caçapava</placeName>, 14 de dezembro de 1839.</p>
+                
+                <closer>
+                    <signed>
+                        <persName ref="#serafim_joaquim_alencastre">Serafim Joaquim de Alencastre</persName>
+                    </signed>
+                </closer>
+                
+                <postscript>
+                    <p>
+                        V.Sª. que, com franqueza, aprove ou desaprove a minha resolução.
+                        Sou com estima, respeito e consideração de V.S.ª patrício e amigo
+                        afetuoso e obrigado.
+                    </p>
+                    <signed>
+                        <persName ref="#serafim_joaquim_alencastre">Serafim Joaquim de Alencastre</persName>
+                    </signed>
+                </postscript>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

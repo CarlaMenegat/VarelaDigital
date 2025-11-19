@@ -2398,6 +2398,16 @@
             <persName>Aleman</persName>
         </person>
         
+        <person xml:id="manuel_aleman">
+            <persName>Manuel de Aleman</persName>
+            <note>Autor da carta CV-116, atuando em Cerro Largo (UY) no contexto da correspondência luso-oriental.</note>
+        </person>
+        
+        <person xml:id="juan_antonio_silvera">
+            <persName>Juan Antonio de Silvera</persName>
+            <note>Destinatário da carta CV-116; autoridade ou figura política da região de Cerro Largo no Estado Oriental.</note>
+        </person>
+        
         <person xml:id="nico">
             <persName>Nico</persName>
         </person>
@@ -3792,6 +3802,11 @@
             <note>Major citado como apoio militar.</note>
         </person>
         
+        <person xml:id="paulo_pereira_silva_alano">
+            <persName>Paulo Pereira da Silva Alano</persName>
+            <note>Sargento-mor encarregado; autor da carta.</note>
+        </person>
+        
         <person xml:id="mariano_gloria">
             <persName>Mariano Glória</persName>
             <note>Indicado como comandante rebelde.</note>
@@ -4080,6 +4095,186 @@
         <person xml:id="paulo_pereira_silva_alana">
             <persName>Paulo Pereira da Silva Alana</persName>
             <note>Sargento-maior encarregado e autor da carta.</note>
+        </person>
+        
+        <person xml:id="antonio_elzeario_miranda_brito">
+            <persName>Antônio Elzeário de Miranda e Brito</persName>
+            <note>Marechal e Presidente da Província.</note>
+        </person>
+        
+        <person xml:id="jose_joaquim_cabeleira">
+            <persName>José Joaquim Cabeleira</persName>
+            <note>Tenente; portador da correspondência e informante sobre a coluna.</note>
+        </person>
+        
+        <person xml:id="teseu">
+            <persName>Teseu</persName>
+            <note>Autor da carta; pseudônimo maçônico (Thezeu).</note>
+        </person>
+        
+        <person xml:id="melo">
+            <persName>Melo</persName>
+            <note>Nome usado na assinatura conjunta.</note>
+        </person>
+        
+        <person xml:id="oliveira">
+            <persName>Oliveira</persName>
+            <note>Destinatário da carta; identidade incompleta.</note>
+        </person>
+        
+        <person xml:id="jose_inacio_ourives">
+            <persName>José Inácio (Juca Ourives)</persName>
+            <note>Capitão mencionado como comparativo de serviços.</note>
+        </person>
+        
+        <person xml:id="cunha">
+            <persName>Cunha</persName>
+            <note>Brigadeiro citado como protetor de José Inácio.</note>
+        </person>
+        
+        <person xml:id="silva_tavares">
+            <persName>Silva Tavares</persName>
+            <note>Protetor de José Inácio.</note>
+        </person>
+        
+        <person xml:id="araujo_ribeiro">
+            <persName>Araújo Ribeiro</persName>
+            <note>Autor de ofícios mencionados.</note>
+        </person>
+        
+        <person xml:id="antero">
+            <persName>Antero</persName>
+            <note>Pessoa mencionada em ofício.</note>
+        </person>
+        
+        <person xml:id="chagas">
+            <persName>Chagas</persName>
+            <note>Remetente de dois ofícios.</note>
+        </person>
+        
+        <person xml:id="carneiro">
+            <persName>Carneiro</persName>
+            <note>Brigadeiro citado.</note>
+        </person>
+        
+        <person xml:id="barreto">
+            <persName>Barreto</persName>
+            <note>Autor de carta elogiada.</note>
+        </person>
+        
+        <person xml:id="elzeario">
+            <persName>Elzeário</persName>
+            <note>Presidente que distingue o autor em ordens do dia.</note>
+        </person>
+        
+        <person xml:id="luis_palmeiro">
+            <persName>Luís Palmeiro</persName>
+            <note>Autor de carta remetida em anexo.</note>
+        </person>
+        
+        <person xml:id="almeida">
+            <persName>Almeida</persName>
+            <note>Ministro autor de carta mencionada.</note>
+        </person>
+        
+        <person xml:id="antonio_melo_albuquerque">
+            <persName>Antônio de Melo e Albuquerque</persName>
+            <note>Autor da carta CV-103.</note>
+        </person>
+        
+        <person xml:id="joao_silva_machado">
+            <persName>João da Silva Machado</persName>
+            <note>Comandante Superior das Legiões de Guarda Nacional do Sul da Província de São Paulo, do Rio Negro e de Lages.</note>
+        </person>
+        
+        <person xml:id="hipolito">
+            <persName>Hipólito</persName>
+            <note>Capitão mencionado como comandante de 30 homens. Identidade incompleta.</note>
+        </person>
+        
+        <person xml:id="labatut">
+            <persName>Pedro Labatut</persName>
+            <note>Marechal e comandante militar; concedeu licença mencionada na carta.</note>
+        </person>
+        
+        <person xml:id="jose_antonio_oliveira">
+            <persName>José Antônio de Oliveira</persName>
+            <note>Capitão que acompanha o autor na diligência.</note>
+        </person>
+        
+        <person xml:id="francisco_fabiano_silva">
+            <persName>Francisco Fabiano da Silva</persName>
+            <note>Soldado capturado como desertor e remetido às autoridades militares.</note>
+        </person>
+        
+        <person xml:id="pedro_jose">
+            <persName>Pedro José</persName>
+            <note>Praça do exército, desertor que se apresentou ao Comando Militar de Santo Antônio.</note>
+        </person>
+        
+        <person xml:id="joao_lourenco_vidal">
+            <persName>João Lourenço Vidal</persName>
+            <note>Tenente enviado a apresentar-se ao comando superior.</note>
+        </person>
+        
+        <person xml:id="jose_pedroso_albuquerque">
+            <persName>José Pedroso de Albuquerque</persName>
+            <note>Autor da carta CV-112, ligado à Secretaria da Justiça em Alegrete.</note>
+        </person>
+        
+        <person xml:id="padre_francisco_terroba">
+            <persName>Francisco Terroba</persName>
+            <note>Padre que apresentou requerimento para ereção de uma capela no Passo do Itaqui.</note>
+        </person>
+        
+        <person xml:id="francisco_chagas_avila_sousa">
+            <persName>Francisco das Chagas Martins Ávila e Sousa</persName>
+            <note>Vigário Apostólico, destinatário da carta CV-112.</note>
+        </person>
+        
+        <person xml:id="ricardo_melo_albuquerque">
+            <persName>Ricardo Antônio de Melo e Albuquerque</persName>
+            <note>Autor da carta CV-115, atuando na administração militar em Cruz Alta.</note>
+        </person>
+        
+        <person xml:id="major_maximiano">
+            <persName>Major Maximiano</persName>
+            <note>Oficial referido apenas pelo primeiro nome; comandante de corpo militar mencionado em contexto de deserções.</note>
+        </person>
+        
+        <person xml:id="teodoro_medeiros">
+            <persName>Teodoro José de Medeiros</persName>
+            <note>Furriel, portador da correspondência e solicitante de suprimentos.</note>
+        </person>
+        
+        <person xml:id="lino_brum">
+            <persName>Lino de Brum</persName>
+            <note>Capitão falecido, mencionado devido ao envio de seus filhos ao destacamento.</note>
+        </person>
+        
+        <person xml:id="vicente_paula_simoes_pires">
+            <persName>Vicente de Paula Simões Pires</persName>
+            <note>Oficial farroupilha; autor da carta CV-126.</note>
+        </person>
+        
+        <person xml:id="gomes_porto">
+            <persName>Gomes Porto</persName>
+            <note>Juiz de Paz de Santa Maria mencionado em operações de segurança.</note>
+        </person>
+        
+        <person xml:id="saturnino_sousa_oliveira">
+            <persName>Saturnino de Sousa e Oliveira</persName>
+            <note>Presidente da Província do Rio Grande do Sul durante o período da Revolução Farroupilha.</note>
+        </person>
+        
+        <person xml:id="manuel_jose_simas">
+            <persName>Manuel José de Simas</persName>
+            <note>Major referido como destinatário da ordem reservada emitida pelo Presidente Saturnino.</note>
+        </person>
+        
+        <person xml:id="luis_jose_ribeiro_barreto">
+            <persName>Luís José Ribeiro Barreto</persName>
+            <note>Assinante que autentica a cópia do documento, provavelmente oficial da administração provincial.</note>
         </person>
 
     </listPerson>

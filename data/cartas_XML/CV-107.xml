@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-107 – Antônio de Melo e Albuquerque para José Maria da Silva Betancourt</title>
+                <author><persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName></author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName>
+                    <placeName ref="#vacaria">Vacaria</placeName>
+                    <date when="1842-08-07">7 de agosto de 1842</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#jose_maria_betancourt">José Maria da Silva Betancourt</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-107">
+                
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>Depois de bastantes incômodos de viagem por causa da grande falta que há de cavalos por estes lugares, cheguei no dia 4 do corrente a este distrito da <placeName ref="#vacaria">Vacaria</placeName>, tendo a satisfação, porém, de encontrar tudo em sossego, bem como favoráveis notícias de <placeName ref="#sao_paulo">São Paulo</placeName>, motivo por que me parece por ora desnecessária a marcha do Tenente-coronel Rodrigo, e suficiente a companhia do Capitão <persName ref="#jose_antonio_oliveira">José Antônio de Oliveira</persName>, que marchou comigo e que deixo em posição sobre as <placeName ref="#rio_antas">Antas</placeName>, no passo de Cima, neste distrito, até minha volta de <placeName ref="#lages">Lages</placeName> para onde sigo hoje, que pude obter alguns cavalos em muito mau estado, para ir vagarosamente marchando; e dali, com melhores informações, participarei a V.Exª. miudamente quanto ocorrer.</p>
+                
+                <p>Tanto o distrito de Cima da Serra, como este, se acham no mais lastimoso estado que é possível, tanto de cavalos, como de gados, que só em poucas partes os há. Os cavalos e mulas que V.Exª. me mandou dar não subiram a Serra por causa da estação e má qualidade dos mesmos, pois que todos cansaram, restando-me o desgosto de participar a V.Exª. que minha volta será bastante demorada por esta razão.</p>
+                
+                <p>É quanto me cumpre levar ao respeitável conhecimento de V.Exª.. Deus guarde a V.Exª. muitos anos.</p>
+                
+                <dateline>Distrito da <placeName ref="#vacaria">Vacaria</placeName>, 
+                    <date when="1842-08-07">7 de agosto de 1842</date>.
+                </dateline>
+                
+                <closer>
+                    <signed>(a) <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName></signed>
+                    <signed>Coronel em comissão na Serra.</signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-108 – Antônio de Melo e Albuquerque para o Barão de Caxias</title>
+                <author><persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName></author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName>
+                    <placeName ref="#santo_antonio_patrulha">Santo Antônio</placeName>
+                    <date when="1842-12-07">7 de dezembro de 1842</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#barao_caxias">Barão de Caxias</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-108">
+                
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
+                
+                <p>Andando o comandante de polícia deste distrito na diligência de prender alguns desertores do 
+                    <orgName ref="#corpo8_gn">8.º Corpo de Guardas Nacionais</orgName>, agarrou um de 1.º Linha, que nesta data remeto a V.Exº. 
+                    Seu nome é <persName ref="#francisco_fabiano_silva">Francisco Fabiano da Silva</persName> e não menciono o batalhão a que pertence porque ele o não conhece, ou não quer declarar.
+                    É quanto me cumpre e tenho a honra levar ao respeitável conhecimento de V.Exª. 
+                    Deus guarde a V.Exª. muitos anos.
+                </p>
+                
+                <dateline>
+                    Quartel do <orgName ref="#comando_militar_santo_antonio">Comando Militar do município de Santo Antônio</orgName>, 
+                    <placeName ref="#santo_antonio_patrulha">Santo Antônio</placeName>, 
+                    <date when="1842-12-07">7 de dezembro de 1842</date>.
+                </dateline>
+                
+                <closer>
+                    <salute>Ilmo. e Exmo. Sr. <persName ref="#barao_caxias">Barão de Caxias</persName>,<br/>Digmo. Presidente e General-em-chefe do Exército.</salute>
+                    <signed>(a) <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName><br/>
+                        Coronel Comandante Militar do município de Santo Antônio.</signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>
