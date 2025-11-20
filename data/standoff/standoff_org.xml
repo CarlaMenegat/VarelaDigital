@@ -378,5 +378,10 @@
             <orgName>Secretaria dos Negócios da Guerra e Marinha</orgName>
             <note>Órgão do governo da República Rio-Grandense responsável pela administração militar.</note>
         </org>
+        
+        <org xml:id="corpo_segundo">
+            <orgName>2.º Corpo</orgName>
+            <note>Unidade militar mencionada como responsável pelo envio de soldados para serviço de faxina.</note>
+        </org>
     </listOrg>
 </standOff>
