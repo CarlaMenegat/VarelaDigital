@@ -92,6 +92,7 @@
 
         <place xml:id="sao_lourenco">
             <placeName type="historical">São Lourenço</placeName>
+            <placeName type="historical">Boqueirão</placeName>
             <placeName type="modern">São Lourenço do Sul</placeName>
             <idno>https://www.geonames.org/3448596/sao-lourenco-do-sul.html</idno>
             <location>
@@ -99,6 +100,17 @@
             </location>
             <note>São Lourenço do Sul, no sul do Rio Grande do Sul, Brasil.</note>
         </place>
+        
+        <place xml:id="boqueirao">
+            <placeName type="historical">Santiago do Boqueirão</placeName>
+            <placeName type="historical">Boqueirão</placeName>
+            <placeName type="modern">Santiago</placeName>
+            <idno>https://www.geonames.org/3449741/santiago.html</idno>
+            <location>
+                <geo>-29.1833 -54.8672</geo>
+            </location>
+            <note>Antigo nome de  Santiago, Rio Grande do Sul.</note>
+        </place> <!--errado é são lourenço!!!-->
         
         <place xml:id="sao_joao_batista">
             <placeName type="historical">São João Batista</placeName>
@@ -116,16 +128,7 @@
             <note>Município do Rio Grande do Sul, sede do Tesouro da República Rio-grandense. Bagé é grafada como “Bayes” em correspondência em língua espanhola.</note>
         </place>
         
-        <place xml:id="boqueirao">
-            <placeName type="historical">Santiago do Boqueirão</placeName>
-            <placeName type="historical">Boqueirão</placeName>
-            <placeName type="modern">Santiago</placeName>
-            <idno>https://www.geonames.org/3449741/santiago.html</idno>
-            <location>
-                <geo>-29.1833 -54.8672</geo>
-            </location>
-            <note>Antigo nome de  Santiago, Rio Grande do Sul.</note>
-        </place>
+        
         
         <place xml:id="pelotas">
             <placeName>Pelotas</placeName>
@@ -933,6 +936,20 @@
             <idno>https://www.geonames.org/3441702/melo.html</idno>
             <geo>-32.3700, -54.1790</geo>
             <note>Capital do departamento de Cerro Largo, Uruguai.</note>
+        </place>
+        
+        <place xml:id="vacacai">
+            <placeName>Vacacaí</placeName>
+            <idno>https://www.geonames.org/3445639/vacacai.html</idno>
+            <geo>-30.44778, -54.37583</geo>
+            <note>Região em torno do Rio de mesmo nome, próxima a São Sepé, Rio Grande do Sul.</note>
+        </place>
+        
+        <place xml:id="jacu">
+            <placeName>Jacu</placeName>
+            <idno>https://www.geonames.org/13037218/arroio-do-jacu.html</idno>
+            <geo>-31.19528, -52.19779</geo>
+            <note>Arroio em São Lourenço do Sul, Rio Grande do Sul.</note>
         </place>
         
         <place xml:id="santa_isabel">

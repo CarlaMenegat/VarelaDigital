@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-147 – Secretaria da Guerra para Inácio José de Oliveira Guimarães</title>
+                <title>Carta CV-157 – Serafim Joaquim de Alencastre para João Antônio da Silveira</title>
                 <author>Serafim Joaquim de Alencastre</author>
                 <respStmt>
                     <resp>Edição digital</resp>
@@ -81,12 +81,12 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName>
-                    <placeName ref="#cacapava">Caçapava</placeName>
-                    <date when="1840-05-14">14 de maio de 1840</date>
+                    <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
+                    <placeName ref="#bage">Bagé</placeName>
+                    <date when="1842-01-28">28 de janeiro de 1842</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                    <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -100,37 +100,35 @@
             </list>
         </revisionDesc>
     </teiHeader>
-    
-    
     <text>
         <body>
-            <div type="letter" xml:id="CV-148">
+            <div type="letter" xml:id="CV-157">
                 
-                <opener><salute>Ilmo. Sr.</salute></opener>
+                <opener>
+                    <salute>Exmo. Sr. <persName ref="#joao_antonio_silveira">General João Antônio</persName></salute>
+                    <dateline><placeName ref="#bage">Bagé</placeName>, <date when="1842-01-28">28 de janeiro 1842</date>.</dateline>
+                </opener>
                 
-                <p>Foram presentes ao governo os dois ofícios de V. S.ª de 28 e 30 do passado, e de cuja matéria ficou bem inteligenciado, aprovando as medidas tomadas por V. S.ª.</p>
+                <p>Esta tem por objeto prevenir a V. Ex.ª sobre um fato que teve lugar entre mim e <persName ref="#jose_mariano_matos">José Mariano de Matos</persName>, a fim de que V. Ex.ª não se guie sobre as primeiras informações, suspenda o seu juízo a tal respeito, e não me repute criminoso sem me ouvir.</p>
                 
-                <p>E enquanto ao último período de seu ofício, em que trata da mulher indigitada como perigosa à tranquilidade desse departamento, visto que ela favoreceu de algum modo o ingresso do inimigo: ordena o governo que depois de V. S.ª examinar bem as circunstâncias do fato, se conhecer que ela realmente cooperou para aquele evento, a faça imediatamente remover para outro destino, ou mesmo para os sítios ocupados pelo inimigo, porque só destarte deixará de tramar quem por convicção e interesses ama o partido contrário.</p>
+                <p>Na primeira ocasião remeterei a V. Ex.ª a correspondência que houve, e então farei as ponderações convenientes. Direi agora somente que me acho com voz de prisão e ordem para responder a Conselho de Guerra.</p>
                 
-                <p>O ofício junto, rogo a V. S.ª haja de o enviar com segurança ao seu destino. Deus guarde a V. S.ª. <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, <date when="1840-05-14">14 de maio de 1840</date>.</p>
+                <p>Sem atender ao seu resultado, porque enfim a corda sempre se quebra pelo mais fraco, eu estou resolvido a tudo porque o Sr. <persName ref="#jose_mariano_matos">José Mariano</persName> assim o quer, e bom será que ele me não obrigue a mais terrível contingência.</p>
+                
+                <p>Nas circunstâncias em que me acho, só a consideração e amizade de meus patrícios poderão dulcificar o azedume de minha situação. Creia V. Ex.ª que eu sou com estima e respeito, de V. Ex.ª, patrício e amigo obrigado.</p>
                 
                 <closer>
                     <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
-                
-                <closer>
-                    <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
-                </closer>
-                
+
                 <note type="endorsement">
-                    Ilmo. Sr. <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.  
-                    (a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>.  
-                    
                     <note type="source">[No verso]</note>
                     
-                    Ofício do Exmo. Ministro da Guerra de 
-                    <date when="1840-05-14">14 de maio</date>, recebido a 28 do mesmo,  
-                    sobre as partes que dei do inimigo, e da mulher indigitada inimiga, etc., etc.
+                    Ao cidadão <persName ref="#joao_antonio_silveira">General João Antônio da Silveira</persName>. Onde se achar.  
+                    De seu amigo e patrício <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>.
+                    
+                    <note type="source">[No verso]</note>
+                    Respondido a <date when="1842-03-07">7 de março de 1842</date>.
                 </note>
                 
             </div>

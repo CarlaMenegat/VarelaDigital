@@ -6,6 +6,11 @@
             <note>Entidade política proclamada durante a Guerra dos Farrapos (1836–1845).</note>
         </org>
         
+        <org xml:id="secretaria_republica_riograndense">
+            <orgName>Secretaria da República Riograndense</orgName>
+            <note>Órgão administrativo do governo farroupilha.</note>
+        </org>
+        
         <org xml:id="republica_farrapa">
             <orgName>República Rio-Grandense</orgName>
             <note>Governo insurgente estabelecido durante a Revolução Farroupilha.</note>
@@ -203,6 +208,11 @@
             <note>Órgão responsável pelos assuntos judiciais e religiosos da República Rio-Grandense.</note>
         </org>
         
+        <org xml:id="secretaria_guerra">
+            <orgName>Secretaria dos Negócios da Guerra</orgName>
+            <note>Órgão administrativo do governo farroupilha responsável por expedir ordens militares, coordenar operações e comunicar instruções aos comandantes de divisão e autoridades locais. Frequentemente aparece nos cabeçalhos e fechos das cartas da Coleção Varela.</note>
+        </org>
+        
         <org xml:id="periodico_povo">
             <orgName>Povo</orgName>
             <note>Periódico da República Rio-Grandense, utilizado para comunicados oficiais e notícias do governo.</note>
@@ -382,6 +392,12 @@
         <org xml:id="corpo_segundo">
             <orgName>2.º Corpo</orgName>
             <note>Unidade militar mencionada como responsável pelo envio de soldados para serviço de faxina.</note>
+        </org>
+        
+        <org xml:id="1_brigada_guarda_nacional">
+            <orgName>1.º Brigada de Guarda Nacional</orgName>
+            <affiliation>Farroupilhas</affiliation>
+            <note>Unidade militar da Guarda Nacional mencionada nas correspondências farroupilhas.</note>
         </org>
     </listOrg>
 </standOff>

@@ -3,13 +3,16 @@
     <listPerson>
         <person xml:id="raul_abbott">
             <persName>Raul Abbott</persName>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q122603323</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q136885232</idno>
+            <note>Engenheiro e membro de diversas sociedades intelectuais. Era irmão de Fernando Abbott que foi presidente do Rio Grande do Sul em duas ocasiões.</note>
+        </person>
+
+        <person xml:id="alfredo_varela">
+            <persName>Alfredo</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q14474103</idno>
             <note>Jornalista e memorialista gaúcho, ativo no fim do século XIX. Autor de "A Epopéia Farrapa".</note>
         </person>
-        <person xml:id="alfredo">
-            <persName>Alfredo</persName>
-            <note>Destinatário da carta, não identificado com certeza. Possivelmente amigo pessoal de Raul Abbott.</note>
-        </person>
+
         <person xml:id="coritiba">
             <persName>Coritiba</persName>
             <note>Veterano da Revolução Farroupilha mencionado por Raul Abbott como testemunha de episódios militares.</note>
@@ -17,20 +20,35 @@
         
         <person xml:id="gomes_jardim">
             <persName>José Gomes de Vasconcelos Jardim</persName>
-            <note>Vice-presidente e líder civil da República Rio-Grandense, atuante no governo farroupilha.</note>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q7274284</idno>
+            <roleName>Vice-presidente da República Rio-grandense</roleName>
+            <roleName>2° presidente da República Rio-grandense</roleName>
+            <note>José Gomes Jardim (1792–1873), político farroupilha, Vice-presidente e depois Presidente da República Riograndense.</note>
         </person> 
 
         <person xml:id="canabarro">
             <persName>Canabarro</persName>
-            <idno type="viaf">https://viaf.org/viaf/49300260</idno>
+            <idno type="viaf">https://viaf.org/en/viaf/48454698</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q17276409</idno>
-            <note>General David Canabarro, líder militar da Revolução Farroupilha (1835–1845).</note>
+            <roleName>General</roleName>
+            <note>General David Canabarro, líder militar da Revolução Farroupilha.</note>
+        </person>
+        
+        <person xml:id="serafim_alencastre">
+            <persName>Serafim Joaquim de Alencastre</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10370179</idno>
+            <roleName>Ministro da Guerra e Marinha da República Rio-Grandense[</roleName>
+            <note>Além de ser Ministro da Guerra, escreveu a primeira versão do Hino Rio-Grandense (hino farroupilha), depois substituída pela de Francisco Pinto da Fontoura. </note>
         </person>
 
         <person xml:id="bento_manuel">
             <persName>Bento Manuel Ribeiro</persName>
+            <idno type="viaf">https://viaf.org/en/viaf/86286479</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3638335</idno>
+            <roleName>General</roleName>
             <note>Militar e estancieiro rio-grandense, atuante como comandante farroupilha; posteriormente aliado do Império.</note>
         </person>
+
         <person xml:id="teixeira_nunes">
             <persName>Joaquim Teixeira Nunes</persName>
             <note>Coronel farroupilha, comandante do Corpo de Lanceiros Negros. Morto na traição de Porongos em 1844.</note>
@@ -116,11 +134,6 @@
             <note>Senhor mencionado na carta como em viagem com seu filho para tratar de assuntos pessoais.</note>
         </person>
         
-        <person xml:id="inacio_guimaraes">
-            <persName>Inácio José de Oliveira Guimarães</persName>
-            <note>Chefe de Polícia do Departamento do Boqueirão, destinatário da carta CV-5.</note>
-        </person>
-        
         <person xml:id="fontoura">
             <persName>Antônio Vicente da Fontoura</persName>
             <note>Político e militar da Revolução Farroupilha, autor da carta e figura proeminente no Tesouro.</note>
@@ -159,7 +172,8 @@
         <person xml:id="bento_goncalves">
             <persName>Bento Gonçalves da Silva</persName>
             <note>Comandante farroupilha e presidente da República Rio-Grandense.</note>
-            <idno type="viaf">https://viaf.org/viaf/51758685</idno>
+            <idno type="viaf">https://viaf.org/en/viaf/3272801</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1789375</idno>
         </person>
         
         <person xml:id="hilario_amaro_junior">
@@ -256,19 +270,24 @@
             <note>Responsável por recolher valores ao Tesouro, por ordem de Shemit, conforme descrito pelo remetente.</note>
         </person>
         
-        <person xml:id="general_neto">
+        <person xml:id="antonio_sousa_neto">
             <persName>Antônio de Sousa Neto</persName>
+            <idno type="viaf">https://viaf.org/en/viaf/312881911</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q612105</idno>
+            <roleName>General da República Rio-Grandense</roleName>
             <note>General farroupilha e líder militar destacado da República Rio-Grandense.</note>
         </person>
+        
+        <person xml:id="general_neto">
+            <persName>Antônio de Sousa Neto</persName>
+        </person> <!--corrigir para id antonio_sousa_neto-->
         
         <person xml:id="antonio_neto">
             <persName>Antônio Neto</persName>
             <note>General e Chefe do Estado-maior do Exército.</note>
-        </person>
+        </person> <!--corrigir para id antonio_sousa_neto-->
         
-        <person xml:id="antonio_sousa_neto">
-            <persName>Antônio de Sousa Neto</persName>
-        </person>
+        
         
         <person xml:id="filipe_neri">
             <persName>Filipe Neri</persName>
@@ -419,14 +438,24 @@
         </person>
         
         <person xml:id="padre_chagas">
-            <persName>Padre Chagas</persName>
-            <note>Religioso mencionado como possível Procurador residente.</note>
+            <persName>Francisco das Chagas Martins Ávila e Sousa</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10285293</idno>
+            <roleName>Vigário Apostólico da República</roleName>
+            <relation
+                name="family"
+                mutual="false"
+                active="#padre_chagas"
+                passive="#martins"
+                ref="https://www.wikidata.org/wiki/Q31184"> 
+                <desc>Irmãos</desc>
+            </relation>
+            <note>Sacerdote Católico, foi nomeado Vigário Apostólico da República. Foi o deputado mais votado da Assembléia Geral Legislativa da República Rio-grandense.</note>
         </person>
         
         <person xml:id="francisco_chagas_martins_avila_sousa">
             <persName>Francisco das Chagas Martins Ávila e Sousa</persName>
             <note>Autoridade eclesiástica, tratada como "Exmo. prelado" e destinatário da carta; atuante no contexto da administração farroupilha.</note>
-        </person>
+        </person> <!--corrigir para a id padre_chagas-->
         
         <person xml:id="custodia_almeida">
             <persName>D. Custódia</persName>
@@ -473,6 +502,7 @@
         <person xml:id="manuel_antonio">
             <persName>Manuel Antônio</persName>
             <note>Alferes do 5º Corpo de Cavalaria da Guarda Nacional, prejudicado pelos rebeldes.</note>
+            <note>Tenente farroupilha encarregado de deslocamento com tropas.</note>
         </person>
         
         <person xml:id="antonio_francisco_almeida">
@@ -548,7 +578,10 @@
         
         <person xml:id="joao_jose_damasceno">
             <persName>João José Damasceno</persName>
-            <note>Tenente-coronel residente em Pelotas.</note>
+            <idno></idno>
+            <roleName>Tenente-coronel</roleName>
+            <roleName>Coronel</roleName>
+            <note></note>
         </person>
         
         <person xml:id="jose_inacio_cunha">
@@ -715,10 +748,7 @@
             <note>Portador despachado para levar correspondência.</note>
         </person>
         
-        <person xml:id="inacio_jose_oliveira_guimaraes">
-            <persName>Inácio José de Oliveira Guimarães</persName>
-            <note>Funcionário que registrou o recebimento do ofício.</note>
-        </person>
+        
         
         <person xml:id="pedro_rodrigues_quevedo">
             <persName>Pedro Rodrigues de Quevedo</persName>
@@ -785,12 +815,13 @@
         
         <person xml:id="joao_antonio_silveira">
             <persName>João Antônio da Silveira</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q16940348</idno>
+            <roleName>General</roleName>
+            <roleName>Comandante da Divisão da Direita</roleName>
+            <roleName>Coronel</roleName>
+            <roleName>Chefe do 1.º Corpo de Exército</roleName>
+            <affiliation><orgName ref="#farroupilhas">Farroupilhas</orgName></affiliation>
             <note>Coronel e Comandante da Divisão da Direita do exército farroupilha.</note>
-        </person>
-        
-        <person xml:id="joao_antonio_silveira">
-            <persName>João Antônio da Silveira</persName>
-            <persName type="role">General</persName>
         </person>
         
         <person xml:id="jose_antonio_silva">
@@ -800,7 +831,17 @@
         
         <person xml:id="inacio_guimaraes">
             <persName>Inácio José de Oliveira Guimarães</persName>
-            <note>Chefe de Polícia do Departamento do Boqueirão.</note>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10303358</idno>
+            <roleName>Chefe de Polícia do Departamento do Boqueirão</roleName>
+            <relation
+                name="family"
+                mutual="false"
+                active="#inacio_guimaraes"
+                passive="#bento_goncalves"
+                ref="https://www.wikidata.org/wiki/Q51117200"> 
+                <desc>Genro de Bento Gonçalves.</desc>
+            </relation>
+            <note>Chefe de Polícia do Departamento do Boqueirão (São Lourenço).</note>
         </person>
         
         <person xml:id="ana_joaquina_santos">
@@ -836,7 +877,22 @@
         
         <person xml:id="jose_mariano_matos">
             <persName>José Mariano de Matos</persName>
-            <note>Político farroupilha, vice-presidente mais votado da República Rio-Grandense, que assumiu interinamente a administração civil em 1839.</note>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10310051</idno>
+            <roleName>Deputado provincial eleito à 1.ª Legislatura da Assembleia Provincial.</roleName>
+            <roleName>Ministro da Guerra e da Marinha da República Rio-grandense</roleName>
+            <roleName>Vice-presidente da República Rio-grandense</roleName>
+            <roleName>Ministro da Guerra do Império (1864).</roleName>
+            <relation
+                xml:id="rel_domingos_matos_amizade"
+                name="friendship"
+                mutual="true"
+                active="#domingos_jose_almeida"
+                passive="#jose_mariano_matos"
+                ref="https://www.wikidata.org/wiki/Q491"
+                >
+                <desc>Relação de amizade atestada em correspondência da Coleção Varela.</desc>
+            </relation>
+            <note>Político farroupilha, vice-presidente mais votado da República Rio-Grandense, que assumiu interinamente a administração civil em 1839. Autor do brasão que foi adotado para o Rio Grande do Sul pelos constituintes de 1891. </note>
         </person>
         
         <person xml:id="joao_barcelos">
@@ -945,11 +1001,6 @@
         
         <person xml:id="joaquim_pereira">
             <persName>Joaquim Pereira</persName>
-        </person>
-        
-        <person xml:id="joao_antonio_silveira">
-            <persName>João Antônio de Silveira</persName>
-            <note>Coronel e Comandante da Divisão da Direita da República Rio-Grandense.</note>
         </person>
         
         <person xml:id="antonio_jose_bonilha">
@@ -1068,19 +1119,22 @@
             <note>Referência histórica mencionada como exemplo de medida política após a abdicação de D. Pedro I.</note>
         </person>
         
-        <person xml:id="coronel_crescencio">
+        <person xml:id="crescencio"> 
             <persName>Coronel Crescêncio</persName>
             <note>Oficial militar farroupilha citado como comandante de divisão.</note>
-        </person>
+        </person> <!--Corrigir para id domingos_crescecncio_carvalho-->
         
         <person xml:id="domingos_crescencio_carvalho">
             <persName>Domingos Crescêncio de Carvalho</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10268042</idno>
+            <roleName>Coronel</roleName>
+            <roleName>General</roleName>
             <note>Coronel farroupilha, comandante da Divisão da Esquerda durante a Revolução Farroupilha.</note>
-        </person>
+        </person> <!--Corrigir para id domingos_crescecncio_carvalho-->
         
         <person xml:id="general_crescencio">
             <persName>General Crescêncio</persName>
-        </person>
+        </person> 
         
         <person xml:id="joao_manuel_araujo_pinto">
             <persName>João Manuel de Araújo Pinto</persName>
@@ -1239,11 +1293,6 @@
             <note>Fornecedor de fazendas (tecidos) contratado pelo governo farroupilha.</note>
         </person>
         
-        <person xml:id="joao_antonio_silveira">
-            <persName>João Antônio da Silveira</persName>
-            <note>Coronel farroupilha, comandante da Divisão da Direita durante a Guerra dos Farrapos.</note>
-        </person>
-        
         <person xml:id="felisberto_fagundes_sousa">
             <persName>Felisberto Fagundes de Sousa</persName>
             <note>Capitão farroupilha, Diretor do Trem de Guerra durante a administração republicana.</note>
@@ -1282,11 +1331,6 @@
         <person xml:id="silverio_jose_santos">
             <persName>Silvério José dos Santos</persName>
             <note>Tenente quartel-mestre do Corpo de Guardas Nacionais do município, designado para servir na Secretaria da Comandância Geral de Polícia.</note>
-        </person>
-        
-        <person xml:id="joao_antonio_silveira">
-            <persName>João Antônio da Silveira</persName>
-            <note>Coronel farroupilha, Comandante da Divisão da Direita durante a Guerra Farroupilha.</note>
         </person>
         
         <person xml:id="norberto_carlos_silva">
@@ -1928,17 +1972,22 @@
         
         <person xml:id="juca_cipriano">
             <persName>Juca Cipriano</persName>
-            <note>Indivíduo acusado de atos violentos anteriores à data do documento.</note>
+            <persName>José Alves de Simas</persName>
+            <idno></idno>
+            <note>Caudilho legalista. </note>
         </person>
         
         <person xml:id="dedeco">
             <persName>Dedeco</persName>
+            <idno></idno>
             <note>Indivíduo citado como envolvido em ações violentas.</note>
         </person>
         
         <person xml:id="januafio_torto">
             <persName>Januáfio Torto</persName>
+            <idno></idno>
             <note>Indivíduo citado como envolvido em ações violentas.</note>
+            <note>Tenente que permaneceu em Vacacaí com o Vice-presidente.</note>
         </person>
         
         <person xml:id="jeronimo_jacinto_pereira">
@@ -2073,7 +2122,9 @@
         
         <person xml:id="camilo_campelo">
             <persName>Camilo Campelo</persName>
-            <note>Tenente-coronel e Comandante das Forças da Comarca, destinatário da carta.</note>
+            <idno></idno>
+            <roleName>Tenente-coronel</roleName>
+            <note>Tenente-coronel e Comandante encarregado das operações além de Camaquã.</note>
         </person>
         
         <person xml:id="belo_neto">
@@ -2362,6 +2413,11 @@
             <persName>Antônio Leite de Oliveira</persName>
         </person>
         
+        <person xml:id="leite">
+            <persName>Leite</persName>
+            <note>Indivíduo mencionado em nota manuscrita; sem maiores dados identificáveis no corpus.</note>
+        </person>
+        
         <person xml:id="luis_teixeira_machado">
             <persName>Luís Teixeira Machado</persName>
         </person>
@@ -2392,6 +2448,11 @@
         
         <person xml:id="manuel_lucas_oliveira">
             <persName>Manuel Lucas de Oliveira</persName>
+            <roleName>Tenente-coronel</roleName>
+            <idno type="viaf">https://viaf.org/en/viaf/14095044</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10324329</idno>
+            <roleName>Comandante da 1ª Brigada de Guardas Nacionais</roleName>
+            <note>Tenente-coronel farroupilha citado como comandante de brigada em 1841.</note>
         </person>
         
         <person xml:id="aleman">
@@ -2538,7 +2599,7 @@
         <person xml:id="neto">
             <persName>Neto</persName>
             <note>Identificado como "velho Neto", possivelmente residente ou ponto de referência para deslocamento; identidade completa não especificada.</note>
-        </person>
+        </person> <!--pai de Antônio de Souza Neto-->
         
         <person xml:id="joao_da_cunha">
             <persName>João da Cunha</persName>
@@ -2943,10 +3004,7 @@
             <persName type="role">Guarda Nacional</persName>
         </person>
         
-        <person xml:id="joao_antonio_silveira">
-            <persName>João Antônio da Silveira</persName>
-            <persName type="role">General</persName>
-        </person>
+
         
         <person xml:id="manuel_pacheco">
             <persName>Manuel Pacheco</persName>
@@ -3427,11 +3485,6 @@
             <note>Alferes legalista.</note>
         </person>
         
-        <person xml:id="alferes_ferreira">
-            <persName>Ferreira</persName>
-            <note>Alferes participante da ação.</note>
-        </person>
-        
         <person xml:id="alferes_cruz">
             <persName>Cruz</persName>
             <note>Alferes mencionado várias vezes em combate.</note>
@@ -3470,6 +3523,7 @@
         <person xml:id="joaquim_pedro">
             <persName>Joaquim Pedro</persName>
             <note>Ajudante-general dos rebeldes, associado à encomenda de lanças.</note>
+            <note>Coronel farroupilha; frequentemente citado em movimentações estratégicas.</note>
         </person>
         
         <person xml:id="manuel_jorge_rodrigues">
@@ -3701,11 +3755,6 @@
             <note>Destinatário da carta CV-75; identificado como parente e residente na região de Canguçu no ano de 1843.</note>
         </person>
         
-        <person xml:id="luis_jose_ferreira">
-            <persName>Luís José Ferreira</persName>
-            <note>Tenente-coronel, comandante do 8º Batalhão de Caçadores, destinatário da carta CV-76.</note>
-        </person>
-        
         <person xml:id="emilio_01">
             <persName>Emílio</persName>
             <note>Alferes citado na CV-76; identidade a confirmar.</note>
@@ -3713,7 +3762,8 @@
         
         <person xml:id="luis_jose_ferreira">
             <persName>Luís José Ferreira</persName>
-            <note>Tenente-coronel, comandante do 8.º Batalhão de Caçadores.</note>
+            <idno></idno>
+            <note>Tenente-coronel, comandante do 8.º Batalhão de Caçadores. Também comandou a guarnição de Pelotas.</note>
         </person>
         
         <person xml:id="bolilho">
@@ -3726,27 +3776,11 @@
             <note>Prisioneiro citado na carta; sem identificação histórica confirmada.</note>
         </person>
         
-        <person xml:id="luis_jose_ferreira">
-            <persName>Luís José Ferreira</persName>
-            <note>Tenente-coronel, comandante da guarnição em Pelotas.</note>
-        </person>
-        
-        <person xml:id="luis_jose_ferreira">
-            <persName>Luís José Ferreira</persName>
-            <note>Tenente-coronel, comandante da guarnição em Pelotas.</note>
-        </person>
-        
         <person xml:id="joaquim_pedro2">
             <persName>Joaquim Pedro</persName>
             <note>Indivíduo citado como coronel rebelde; identidade precisa ainda não confirmada.</note>
         </person>
-        
-        
-        <person xml:id="jose_mariano_matos">
-            <persName>José Mariano de Matos</persName>
-            <note>Indivíduo citado como coronel rebelde.</note>
-        </person>
-        
+
         <person xml:id="antonio_manuel_amaral">
             <persName>Antônio Manuel do Amaral</persName>
             <note>Identificado como coronel rebelde, morto durante confronto em Jaguarão.</note>
@@ -4227,11 +4261,6 @@
             <note>Padre que apresentou requerimento para ereção de uma capela no Passo do Itaqui.</note>
         </person>
         
-        <person xml:id="francisco_chagas_avila_sousa">
-            <persName>Francisco das Chagas Martins Ávila e Sousa</persName>
-            <note>Vigário Apostólico, destinatário da carta CV-112.</note>
-        </person>
-        
         <person xml:id="ricardo_melo_albuquerque">
             <persName>Ricardo Antônio de Melo e Albuquerque</persName>
             <note>Autor da carta CV-115, atuando na administração militar em Cruz Alta.</note>
@@ -4276,6 +4305,117 @@
             <persName>Luís José Ribeiro Barreto</persName>
             <note>Assinante que autentica a cópia do documento, provavelmente oficial da administração provincial.</note>
         </person>
-
+        
+        <person xml:id="felix_aires">
+            <persName>Félix Aires</persName>
+            <note>Capitão mencionado em operações militares no contexto da Revolução Farroupilha.</note>
+        </person>
+        
+        <person xml:id="laurindo">
+            <persName>Laurindo</persName>
+            <note>Capitão referido no contexto militar farroupilha.</note>
+        </person>
+        
+        <person xml:id="reinecio">
+            <persName>Reinécio</persName>
+            <note>Tenente mencionado como acompanhando Manuel Antônio.</note>
+        </person>
+        
+        <person xml:id="fialho">
+            <persName>Fialho</persName>
+            <note>Indivíduo mencionado entre os que permaneceram na retaguarda.</note>
+        </person>
+        
+        <person xml:id="pedro_vieira">
+            <persName>Pedro José Vieira</persName>
+            <persName type="popular" xml:lang="es">Perico el Bailarín</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q5658905</idno>
+            <roleName>Coronel</roleName>
+            <relation
+                name="family"
+                mutual="false"
+                active="#pedro_vieira"
+                passive="#felix_vieira"
+                ref="https://www.wikidata.org/wiki/Q31184"> 
+                <desc>Irmãos</desc>
+            </relation>
+            <note>Coronel farroupilha, possivelmente irmão de Félix Vieira.</note>
+        </person>
+        
+        <person xml:id="jose_coutinho_almeida">
+            <persName>José Coutinho de Almeida</persName>
+            <idno></idno>
+        </person>
+        
+        <person xml:id="jeremias_jose_pinho">
+            <persName>Jeremias José Pinho</persName>
+            <idno></idno>
+        </person>
+        
+        <person xml:id="antonio_soares_oliveira">
+            <persName>Antônio Soares de Oliveira</persName>
+            <idno></idno>
+        </person>
+        
+        <person xml:id="francisco_quevedo">
+            <persName>Francisco de Quevedo</persName>
+            <idno></idno>
+        </person>
+        
+        <person xml:id="francisco_rodrigues_morais">
+            <persName>Francisco Rodrigues de Morais</persName>
+            <idno></idno>
+        </person>
+        
+        <person xml:id="joao_antonio_granada">
+            <persName>João Antônio Granada</persName>
+            <idno></idno>
+        </person>
+        
+        <person xml:id="daniel_jose_araujo">
+            <persName>Daniel José de Araújo</persName>
+            <idno></idno>
+        </person>
+        
+        <person xml:id="jose_bernardino_oliveira">
+            <persName>José Bernardino de Oliveira</persName>
+            <idno></idno>
+        </person>
+        
+        <person xml:id="serafim_silva_ribeiro">
+            <persName>Serafim da Silva Ribeiro</persName>
+            <idno></idno>
+        </person>
+        
+        <person xml:id="vasco_ribeiro_silva">
+            <persName>Vasco Ribeiro da Silva</persName>
+            <idno></idno>
+        </person>
+        
+        <person xml:id="francisco_pinto_silva">
+            <persName>Francisco Pinto da Silva</persName>
+            <idno></idno>
+            <note>Tenente que transportou armas e munições para João Antônio da Silveira.</note>
+        </person>
+        
+        <person xml:id="oliverio_ortiz">
+            <persName>Olivério José Ortiz da Silva</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10340741</idno>
+            <note>Foi eleito deputado provincial, junto com seu irmão padre Fidêncio José Ortiz, para a 1ª Legislatura da Assembleia Legislativa Provincial do Rio Grande do Sul. Ao rebentar a Revolução Farroupilha era comandante da guarnição de São Gabriel, serviu à principio com as forças do governo, porém aderiu depois ao movimento revolucionário, até o dia em que Bento Manoel Ribeiro, foi incorporar-se às tropas do governo. </note>
+            <relation
+                xml:id="rel_oliverio_bento_manoel"
+                active="#oliverio_ortiz"
+                passive="#bento_manoel"
+                name="seguia_lealdades_de"
+                ref="https://www.wikidata.org/wiki/Q2119376">
+                <desc>Olivério José Ortiz seguiu Bento Manoel em suas mudanças de lealdade durante a Revolução Farroupilha.</desc>
+            </relation>    
+        </person>
+        
+        <person xml:id="hildebrando_freitas_pedroso">
+            <persName>Hildebrando de Freitas Pedroso</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10295559</idno>
+            <note>Sacerdote, foi eleito deputado na Assembleia Constituinte e Legislativa Farroupilha, em 1842, sendo dela presidente. </note>
+        </person>
     </listPerson>
 </standOff>

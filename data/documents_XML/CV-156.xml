@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-147 – Secretaria da Guerra para Inácio José de Oliveira Guimarães</title>
+                <title>Carta CV-156 – Serafim Joaquim de Alencastre para João Antônio da Silveira</title>
                 <author>Serafim Joaquim de Alencastre</author>
                 <respStmt>
                     <resp>Edição digital</resp>
@@ -81,12 +81,12 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName>
-                    <placeName ref="#cacapava">Caçapava</placeName>
-                    <date when="1840-05-14">14 de maio de 1840</date>
+                    <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
+                    <placeName ref="#bage">Bagé</placeName>
+                    <date when="1842-01-01">1.º de janeiro de 1842</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                    <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -100,37 +100,37 @@
             </list>
         </revisionDesc>
     </teiHeader>
-    
-    
     <text>
         <body>
-            <div type="letter" xml:id="CV-148">
+            <div type="letter" xml:id="CV-156">
                 
-                <opener><salute>Ilmo. Sr.</salute></opener>
+                <opener>
+                    <salute>Ilmo. e Exmo. Sr.</salute>
+                </opener>
                 
-                <p>Foram presentes ao governo os dois ofícios de V. S.ª de 28 e 30 do passado, e de cuja matéria ficou bem inteligenciado, aprovando as medidas tomadas por V. S.ª.</p>
+                <p>Passo às mãos de V. Ex.ª a adjunta ordem do dia de hoje, sob n.º 83, que S. Ex.ª o Sr. Ministro Encarregado do Expediente do Governo manda remeter, a fim de ser publicada no Corpo de Exército ao mando de V. Ex.ª.</p>
                 
-                <p>E enquanto ao último período de seu ofício, em que trata da mulher indigitada como perigosa à tranquilidade desse departamento, visto que ela favoreceu de algum modo o ingresso do inimigo: ordena o governo que depois de V. S.ª examinar bem as circunstâncias do fato, se conhecer que ela realmente cooperou para aquele evento, a faça imediatamente remover para outro destino, ou mesmo para os sítios ocupados pelo inimigo, porque só destarte deixará de tramar quem por convicção e interesses ama o partido contrário.</p>
+                <p>Deus guarde a V. Ex.ª. Quartel-general em <placeName ref="#bage">Bagé</placeName>, <date when="1842-01-01">1.º de janeiro de 1842</date>.</p>
                 
-                <p>O ofício junto, rogo a V. S.ª haja de o enviar com segurança ao seu destino. Deus guarde a V. S.ª. <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, <date when="1840-05-14">14 de maio de 1840</date>.</p>
-                
-                <closer>
-                    <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
-                </closer>
+                <p>Ao cidadão <persName ref="#joao_antonio_silveira">General Silveira</persName>, Comandante do 1.º Corpo de Exército.</p>
                 
                 <closer>
                     <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
+                    <signed>1.º Deputado do <persName ref="#bento_goncalves">General Chefe do Estado-maior do Exército</persName></signed>
                 </closer>
                 
                 <note type="endorsement">
-                    Ilmo. Sr. <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.  
-                    (a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>.  
+                    <choice>
+                        <abbr>S. R.</abbr>
+                        <expan><orgName ref="#secretaria_presidencia_republica">Secretaria da Presidência da República</orgName></expan>
+                    </choice>
                     
                     <note type="source">[No verso]</note>
                     
-                    Ofício do Exmo. Ministro da Guerra de 
-                    <date when="1840-05-14">14 de maio</date>, recebido a 28 do mesmo,  
-                    sobre as partes que dei do inimigo, e da mulher indigitada inimiga, etc., etc.
+                    Ao cidadão <persName ref="#joao_antonio_silveira">General João Antônio da Silveira</persName>,  
+                    Chefe do 1.º Corpo de Exército.  
+                    Aonde se achar.  
+                    Do 1.º Deputado do <persName ref="#bento_goncalves">General Chefe do Estado-maior do Exército</persName>.
                 </note>
                 
             </div>
