@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-175 – Domingos José de Almeida e José Vieira Viana</title>
+                <author>Domingos José de Almeida; José Vieira Viana</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-07-02">02 de julho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#sua_casa">sua casa</placeName>
+                    <date when="1835-10-02">2 de outubro de 1835</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#jose_vieira_viana">José Vieira Viana</persName>
+                </correspAction>
+                <correspAction type="sent">
+                    <persName ref="#jose_vieira_viana">José Vieira Viana</persName>
+                    <placeName ref="#sua_casa">sua casa</placeName>
+                    <date when="1835-10-02">2 de outubro de 1835</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-11-21">21/11/2025</date>
+                    Conversão TEI realizada por Carla Menegat.
+                </item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!-- PRIMEIRA CARTA -->
+            <div type="letter" xml:id="CV-175_a">
+                
+                <opener>
+                    <salute>Amigo <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                        <persName ref="#jose_vieira_viana">Viana</persName>
+                    </salute>
+                </opener>
+                
+                <p>Constando agora mesmo, 6 horas da tarde, que se pretendia prender-me
+                    e a todos os indivíduos que se acharam hoje de manhã nessa cidade, têm
+                    alguns deles corrido e participar-me da pouca sinceridade com que afiancei
+                    estar tudo arranjado da maneira que desejávamos.</p>
+                
+                <p>Eu não posso acreditar que fosse traída uma confidência, que servia de
+                    farol para livrar-nos dos furores de partidos; e por isso lhe rogo me diga,
+                    com franqueza, para ocultar-me, a fim de não ser responsável, em tempo
+                    algum, pelas consequências que podem seguir-se, vista a deliberação em que
+                    vejo a muitos que expus o que se passou na conferência.</p>
+                
+                <p>Estou como fora de mim e desejo me oriente hoje mesmo sobre o
+                    particular.</p>
+                
+                <closer>
+                    <dateline>
+                        <choice><abbr>S.C.</abbr><expan>sua casa</expan></choice>,
+                        <date when="1835-10-02">2 de outubro de 1835</date>.
+                    </dateline>
+                    <signed>Seu sincero amigo<br/>(a) 
+                        <persName ref="#domingos_jose_almeida">Almeida</persName>.
+                    </signed>
+                </closer>
+                
+            </div>
+            
+            <!-- SEGUNDA CARTA (RESPOSTA) -->
+            <div type="letter" xml:id="CV-175_b">
+                
+                <opener>
+                    <salute>Ilmo. amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>.</salute>
+                </opener>
+                <p>Esta sua participação me surpreendeu, e, não obstante ter eu estado hoje
+                    todo dia em casa com dores de cabeça, saí agora para o lugar onde costumo,
+                    como o portador lhe dirá, e posso asseverar-lhe, com a franqueza que me é
+                    própria, que eu não só ignoro como estranho que tal procedimento se
+                    pratique, e que desta maneira se corresponda à muito conveniente
+                    condescendência que V. S.º se serviu ter hoje conosco.</p>
+                
+                <p>E como o caso é muito sério, tratarei de avisar-lhe do que puder alcançar
+                    a tal respeito, certificando-lhe que desejo corresponder à sua boa fé e não
+                    desmentir o conceito que lhe mereceu sempre o</p>
+                
+                <closer>
+                    <signed>Seu amigo velho e obrigado<br/>
+                        (a) <persName ref="#jose_vieira_viana">José Vieira Viana</persName>.
+                    </signed>
+                    <dateline>
+                        <date when="1835-10-02">2 de outubro de 1835</date>.
+                    </dateline>
+                </closer>
+                
+                <note type="endorsement" place="verso">
+                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                    <persName ref="#jose_vieira_viana">José Vieira Viana</persName>.<br/>
+                    <choice><abbr>S.C.</abbr><expan>sua casa</expan></choice>.<br/>
+                    Respondeu. [No verso]
+                </note>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

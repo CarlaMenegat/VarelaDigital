@@ -1051,12 +1051,27 @@
                 name="kinship"
                 mutual="true"
                 active="#bernardina_barcelos"
-                passive="#bernardino_rodrigues_barcelos"
+                passive="#bernardino_rodrigues_barcelo_filho"
                 ref="https://www.wikidata.org/wiki/Q840795"
                 >
                 <desc>Relação de parentesco: Bernardina Barcelos de Almeida e Bernardino Rodrigues Barcelos filho eram irmãos, conforme mencionado na correspondência da Coleção Varela.</desc>
             </relation>
             <note>Irmão de Bernardina Rodrigues Barcelos. É homonimo de seu pai.</note>
+        </person>
+        
+        <person xml:id="bernardino_rodrigues_barcelos_pai">
+            <persName>Bernardino Rodrigues Barcelos</persName>
+            <idno></idno>
+            <relation
+                xml:id="rel_bernardina_pai_bernardino"
+                name="kinship"
+                mutual="false"
+                active="#bernardino_rodrigues_barcelos_pai"
+                passive="#bernardina_barcelos_de_almeida"
+                >
+                <desc>Relação de parentesco: Bernardino Rodrigues Barcelos é pai de Bernardina Barcelos de Almeida.</desc>
+            </relation>
+            <note>Pai de Bernardina Barcelos de Almeida. Tem filho homônimo.</note>
         </person>
         
         <person xml:id="joaquim_barcelos">
@@ -3282,7 +3297,32 @@
                 >
                 <desc>Relação de parentesco: Cirpriano Rodrigues Barcelos era tio paterno de Bernardina Barcelos de Almeida.</desc>
             </relation>
+            <roleName>Comendador</roleName>
             <note>Tio de Bernardina Barcelos de Almeida. Tinha charqueada muito próxima a de Domingos José de Almeida. Também era comerciante de gado e escravos.</note>
+        </person>
+        
+        <person xml:id="cipriano_joaquim_rodrigues_barcelos">
+            <persName>Cipriano Joaquim Rodrigues Barcelos</persName>
+            <idno></idno>
+            <relation
+                xml:id="rel_bernardina_cipriano_primos"
+                name="kinship"
+                mutual="true"
+                active="#bernardina_barcelos_de_almeida"
+                passive="#cipriano_joaquim_rodrigues_barcelos"
+                ref="https://www.wikidata.org/wiki/Q840795">
+                <desc>Relação de parentesco: Cipriano Joaquim Rodrigues Barcelos era primo de Bernardina Barcelos de Almeida.</desc>
+            </relation>
+            <relation
+                xml:id="rel_joaquim_cipriano_parent_child"
+                name="kinship"
+                mutual="false"
+                active="#joaquim_rodrigues_barcelos"
+                passive="#cipriano_joaquim_rodrigues_barcelos"
+                ref="https://www.wikidata.org/wiki/Q840795">
+                <desc>Relação de parentesco: Joaquim Rodrigues Barcelos era pai de Cipriano Joaquim Rodrigues Barcelos.</desc>
+            </relation>
+            <note>Primo de Bernardina Barcelos de Almeida; filho de Joaquim Rodrigues Barcelos. Figura ativa na administração doméstica e rural durante as ausências de Domingos José de Almeida, frequentemente citado nas cartas da Coleção Varela.</note>
         </person>
         
         <person xml:id="luis_rodrigues_barcelos">
@@ -4795,6 +4835,49 @@
             <persName>Ângelo</persName>
             <idno></idno>
             <note>Membro da família que visita Almeida em Porto Alegre, acompanhando Francisco Rodrigues Barcelos.</note>
+        </person>
+        
+        <person xml:id="jose_pedro">
+            <persName>José Pedro</persName>
+            <idno></idno>
+            <note>Parente de Bernardina mencionado na correspondência.</note>
+        </person>
+        
+        <person xml:id="jose_vieira_viana">
+            <persName>José Vieira Viana</persName>
+            <idno></idno>
+            <note>Foi charqueador, um dos construtores da primeira barca a vapor do Estado junto com Domingos José de Almeida.</note>
+        </person>
+        
+        <person xml:id="belchior">
+            <persName>Belchior</persName>
+            <idno></idno>
+            <note>Compadre de Almeida.</note>
+        </person>
+        
+        <person xml:id="travassos">
+            <persName>Travassos</persName>
+            <idno></idno>
+            <note>Indivíduo encarregado de receber a roupa de Almeida.</note>
+        </person>
+        
+        <person xml:id="baltasar">
+            <persName>Baltasar</persName>
+            <idno></idno>
+            <note>Contato mencionado por Almeida para obter uma carta.</note>
+        </person>
+        
+        <person xml:id="luis_alves_santos_marques">
+            <persName>Luís Alves dos Santos Marques</persName>
+            <idno></idno>
+            <roleName>Segundo-Tenent</roleName>
+            <note>Comandante que tratou Almeida durante a prisão a bordo da escuna Incorporação, em 1835.</note>
+        </person>
+        
+        <person xml:id="israel_soares_paiva">
+            <persName>Israel Soares de Paiva</persName>
+            <idno></idno>
+            <note>Comandante legalista.</note>
         </person>
     </listPerson>
 </standOff>
