@@ -409,5 +409,21 @@
             <orgName>Assembléia</orgName>
             <note>Casa legislativa provincial do Rio Grande do Sul, mencionada no contexto de 1835.</note>
         </org>
+        
+        <org xml:id="camara_rio_grande">
+            <orgName>Câmara Municipal da Cidade do Rio Grande</orgName>
+        </org>
+        
+        <org xml:id="12_companhia_gn">
+            <orgName>12ª Companhia da Guarda Nacional</orgName>
+        </org>
+        
+        <org xml:id="quartel_permanentes">
+            <orgName>Quartel dos Permanentes</orgName>
+        </org>
+        
+        <org xml:id="12_companhia_gn">
+            <orgName>12ª Companhia da Guarda Nacional</orgName>
+        </org>
     </listOrg>
 </standOff>

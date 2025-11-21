@@ -428,8 +428,14 @@
         <place xml:id="cruz_alta">
             <placeName>Cruz Alta</placeName>
             <idno type="geonames">https://www.geonames.org/3465108/cruz-alta.html</idno>
-            <geo>-28.6450, -53.6048</geo>
+            <geo type="geonames">-28.6450, -53.6048</geo>
             <note>Município rio-grandense onde se planejava estabelecer depósito de mulas.</note>
+        </place>
+        
+        <place xml:id="arroio_grande">
+            <placeName>Arroio Grande</placeName>
+            <idno type="geonames">https://www.geonames.org/3471422/arroio-grande.html</idno>
+            <geo type="geonames">-32.2375, -53.08694</geo>
         </place>
         
         <place xml:id="jacuizinho">
@@ -917,6 +923,14 @@
                 a um ponto de travessia na mesma região, usado como referência 
                 administrativa e eclesiástica no século XIX.
             </note>
+        </place>
+        
+        <place xml:id="sao_jose_norte">
+            <placeName type="modern">São José do Norte</placeName>
+            <placeName type="historical">Vila do Norte</placeName>
+            <idno type="geonames">https://www.geonames.org/3448652/sao-jose-do-norte.html</idno>
+            <geo type="geonames">--32.01472, -52.04167</geo>
+            <note>Vila no estreito entre a Lagoa dos Patos e o Oceano Atlântico, logo ao norte do porto de Rio Grande.</note>
         </place>
         
         <place xml:id="melo">

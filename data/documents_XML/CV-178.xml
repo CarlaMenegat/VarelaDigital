@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-178 – Domingos José de Almeida para Bernardina</title>
+                <author>Domingos José de Almeida</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-07-02">02 de julho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#escuna_incorporacao">Bordo</placeName>
+                    <date when="1835-10-16">16 de outubro de 1835</date>
+                </correspAction>
+                
+                <correspAction type="received">
+                    <persName ref="#bernardina_barcelos_de_almeida">Bernardina Barcelos de Almeida</persName>
+                    <placeName ref="#pelotas">Pelotas</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-11-21">21/11/2025</date>
+                    Conversão TEI realizada por Carla Menegat.
+                </item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <div type="letter" xml:id="CV-178">
+                
+                <opener>
+                    <salute>Minha saudosa Bernardina</salute>
+                    <dateline>
+                        <placeName ref="#escuna_incorporacao">Bordo</placeName>,
+                        <date when="1835-10-16">16 de outubro de 1835</date>.
+                    </dateline>
+                </opener>
+                
+                <p>De posse da tua apreciável de ontem, agradeço ao céu por ter-te dado
+                    forças para suportar o golpe que a sorte nos descarregou; e de novo te rogo
+                    a mais estrita conformidade e constância nos trabalhos deste mundo, porque
+                    não de outra forma se poderá vencer os obstáculos de que estamos rodeados.</p>
+                
+                <p>Eu sinto na verdade a direção que tomou a opinião pública a meu
+                    respeito, julgando-me criminoso e imputando-me tudo quanto ideias
+                    esquentadas e malévolas lhes têm sugerido; mas tudo isto é nada em
+                    comparação às tuas aflições, que é sobretudo o que me acabrunha. E se pois
+                    me estimas e me queres ver contente, mesmo na presença da morte, faze
+                    porque me conste que vives tranqúuila e tratando da educação de nossos
+                    filhos.</p>
+                
+                <p>Considerai que outros têm estado numa condição ainda mais desesperada
+                    que a nossa, e que por uma resignação constante aos decretos da providência
+                    venceram dificuldades que pareciam insuperáveis, e foram depois restituídos
+                    à posição que haviam perdido.</p>
+                
+                <p>Eu me não queixo de ninguém, e nem pretendo a mais pequena vingança,
+                    e somente retirar-me com horror de tudo que me ligue a homens. Só assim
+                    viverei contente no meio de minha querida família.</p>
+                
+                <p>Fui também informado do procedimento de nossos credores e de nada me
+                    admiro: eles fazem o que era de esperar. E se não fosse a quadra e os fins
+                    que nisto diviso, de muito bom grado lhes entregaria tudo, visto que vivendo
+                    como tenho vivido, qualquer modo de subsistência me seria muito mais
+                    propício, poupando-te o desgosto em que vives, etc.; mas quererem
+                    prevalecer-se de minha ausência para fazerem com a minha casa o mesmo
+                    que fizeram com a de 
+                    <persName ref="#joao_jose_gomes">João José Gomes</persName>,
+                    é o que não posso comportar, e ordeno que se oponham a um manejo tanto
+                    vil quanto prejudicial.</p>
+                
+                <p>Caso, porém, levem avante um plano muito premeditado, não te entregues
+                    por isso à desesperação, que Deus não desampara a ninguém. Eu já sabia
+                    deste expediente, que mo douraram com deixar-te 10% e mesmo promoverem
+                    uma subscrição; mas desde logo desconfiei de tanta fortuna, de tanta
+                    generosidade, com aquele a quem… etc…</p>
+                
+                <p>Enfim, sobre isto escrevo ao amigo 
+                    <persName ref="#antonio_jose_goncalves_chaves">Chaves</persName>
+                    e ao primo 
+                    <persName ref="#cipriano_joaquim_rodrigues_barcelos">Cipriano</persName>,
+                    e estou que eles farão o que puderem a nosso benefício.</p>
+                
+                <p>Persisto ainda no projeto de ir para o Rio até que, destruídas estas
+                    impressões a meu respeito, possa voltar a teus braços; isto é um sacrifício
+                    que faço por amor de ti mesma, mas antes de partir inda tenciono ver-te aí.</p>
+                
+                <p>Noutra serei mais extenso. Abraços a nossos filhos e visitas a todos os
+                    nossos, recebendo tu o coração do</p>
+                
+                <closer>
+                    <signed>Teu marido do coração<br/>
+                        (a) <persName ref="#domingos_jose_almeida">Almeida</persName>.
+                    </signed>
+                </closer>
+                
+                <postscript>
+                    <label><choice><abbr>P.S.</abbr><expan>post scriptum</expan></choice></label>
+                    <p>Manda-me amanhã o seguinte:</p>
+                    <list>
+                        <item>Economia Política</item>
+                        <item>Contrato Social</item>
+                        <item>Beccaria ou “Tratado de Delitos e Penas”</item>
+                        <item>Obras de Telinho Elípio</item>
+                        <item>As meias de seda pretas</item>
+                        <item>1 barril de línguas</item>
+                        <item>1 dito de carne</item>
+                        <item>1 goela para seringa</item>
+                    </list>
+                    
+                    <p>E o João que separe e guarde todas as contas de Barros, parecer
+                        da Comissão sobre a concordata e todos os ofícios e papéis não
+                        pertencentes a negócio da casa.</p>
+                    
+                    <p>O amigo <persName ref="#cantonio_jose_goncalves_chaves">Chaves</persName> e o primo 
+                        <persName ref="#cipriano_joaquim_rodrigues_barcelos">Cipriano</persName> que me mandem carta de recomendação para o Rio; 
+                        e o primo <persName ref="#cipriano_joaquim_rodrigues_barcelos">Cipriano</persName> que me mande dar algum dinheiro, se puder, no Rio.</p>
+                </postscript>
+                
+                <note type="endorsement" place="verso">
+                    <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice>
+                    <persName ref="#bernardina_barcelos_de_almeida">
+                        Bernardina Barcelos de Almeida
+                    </persName>.<br/>
+                    <placeName ref="#pelotas">Pelotas</placeName>.
+                </note>
+                
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

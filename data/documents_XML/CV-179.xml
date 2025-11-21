@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Declaração pública CV-179 – O cidadão Domingos José de Almeida aos seus compatriotas</title>
+                <author>Domingos José de Almeida</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-07-02">02 de julho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
+        <profileDesc>
+            <textClass>
+                <keywords scheme="genre">
+                    <term>manifesto político</term>
+                    <term>declaração pública</term>
+                    <term>panfleto impresso</term>
+                </keywords>
+                <keywords scheme="topic">
+                    <term>Revolução Farroupilha</term>
+                    <term>prisão política</term>
+                    <term>denúncia pública</term>
+                </keywords>
+            </textClass>
+            
+            <creation>
+                <date when="1835">1835</date>
+                <placeName ref="#porto_alegre">Porto Alegre</placeName>
+            </creation>
+            
+            <langUsage>
+                <language ident="pt">Português</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-11-21">21/11/2025</date>
+                    Conversão TEI realizada por Carla Menegat.
+                </item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+<text>
+    <body>
+        
+        <div type="public-declaration" xml:id="CV-179">
+            
+            <head>O cidadão Domingos José de Almeida a seus compatriotas</head>
+            
+            <docImprint>
+                Porto Alegre, 1835: Tipografia de V. F. de Andrade, Rua da Ponte.
+            </docImprint>
+            
+            <p><hi rend="bold">RIO-GRANDENSES!</hi> Para que nossos irmãos das mais províncias do
+                Império possam avaliar a índole desse partido feroz e perverso que sustentava
+                e dirigia a administração do 
+                <persName ref="#braga">Sr. Antônio Rodrigues Fernandes Braga</persName>,
+                que vossas virtudes e vosso patriotismo acaba de suplantar, vou patentear os
+                motivos que originaram minha prisão e quanto ocorreu nos tormentosos
+                dezessete dias que jazi encerrado na estreita câmara da escuna de guerra
+                <placeName ref="#escuna_19_outubro">“19 de Outubro”</placeName>,
+                a fim de verdes com horror a sorte que vos esperava, se o gênio tutelar do Brasil
+                desamparasse a Santa Causa que defendeis.</p>
+            
+            <p>Assaz conhecedor de vossa justa indignação contra uma administração
+                anti-nacional, despótica, turbulenta e dissipadora, qual a do 
+                <persName ref="#braga">Sr. Braga</persName>, apenas
+                soube dos movimentos de 
+                <date when="1835-09-20">20 de setembro</date>
+                na capital, me alistei nas vossas fileiras,
+                protestando morrer convosco, ou salvar a Pátria dos monstros que a oprimiam.</p>
+            
+            <p>Firme neste propósito e seguro dos sentimentos dos oficiais e guardas nacionais
+                do meu comando, do patriotismo dos beneméritos 
+                <persName ref="#major_pinto">Major Pinto</persName>,
+                <persName ref="#capitao_pinto">Capitão Pinto</persName>,
+                <persName ref="#tenente_pinto">Tenente Pinto</persName>,
+                e 
+                <persName ref="#alferes_felizardo">Alferes Felizardo</persName>,
+                da infantaria da cidade de 
+                <placeName ref="#pelotas">Pelotas</placeName>,
+                e mais que tudo do brasileirismo do 
+                <persName ref="#jose_jeronimo_amaral">Major José Jerônimo do Amaral</persName>,
+                oficiais e guardas nacionais do esquadrão do seu comando, lançara os primeiros
+                traços do plano a seguir, para embotar de pronto as insídias do 
+                <persName ref="#braga">Sr. Braga</persName>,
+                caso no inútil esforço de resistência nos quisesse envolver nos horrores da
+                anarquia, quando, encorajado o dito 
+                <persName ref="#braga">Sr. Braga</persName> por conselhos recebidos no
+                <placeName ref="#rio_grande">Rio Grande</placeName>,
+                se apresenta na cidade de 
+                <placeName ref="#pelotas">Pelotas</placeName>,
+                digna colônia dos retrógados de nossa Província, desenrolando o estandarte da
+                guerra civil.</p>
+            
+            <p>Os morras rusguentos dados por… no desembarque do 
+                <persName ref="#braga">Sr. Braga</persName>,
+                extremou no momento os partidos; e quando eu pensava nos meios de evitar
+                prematuros rompimentos, se me apresenta, pelas onze horas da noite, parte do
+                esquadrão do meu comando requisitando minha assistência para prenderem o
+                <persName ref="#braga">Sr. Braga</persName>.</p>
+            
+            <p>Nada mais fácil na ocasião; porém também nada mais desairoso a liberais.
+                O caso se tornou sério à vista de razões que opus, e forçoso foi seguir um
+                arbítrio para prevenir desaguisados. Ocorreu-me a ideia de apresentar-me na
+                cidade com aquela força, e empenhar a Câmara para, com tal pretexto, rogar ao
+                <persName ref="#braga">Sr. Braga</persName> a desistência de seus nulos projetos de resistência à vontade
+                da maioria da Província. Com estas vistas coloco-me à frente da força e apareço
+                na cidade…</p>
+            
+            <p>… onde logo se me reuniu parte da infantaria, major e oficiais da 
+                <orgName ref="#12_companhia_gn">12ª Companhia da Guarda Nacional</orgName>,
+                respirando também os desejos da prisão do 
+                <persName ref="#braga">Sr. Braga</persName>.
+                Apareceu o juiz de direito enfadado demais, com gente armada, o
+                que lhe produziu vários — foras — que iria a mais, se eu não atalhasse, dando
+                vivas aos objetos da veneração dos brasileiros.</p>
+            
+            <p>Depois de mais acalmado o dito juiz, pude convencê-lo da necessidade de
+                uma conferência entre ele e mais algumas pessoas de conceito da cidade, a qual
+                teve lugar na sua própria casa. Nesta conferência se assentou que nada se
+                fizesse de representações ao 
+                <persName ref="#braga">Sr. Braga</persName>,
+                que se tratasse somente da polícia do
+                município, para evitar desordens na crise em que nos achávamos, conservando-se
+                a cidade na expectativa, sem bandear-se a partidos para se não comprometer
+                ou chamar sobre si o ódio do vencedor…</p>
+            
+            <p>… e nada mais aspirando eu, por ter desta forma salvado vítimas, voltei
+                com meus companheiros, que fiz destroçar uma légua fora da cidade. Nesse
+                mesmo dia tive de arrepender-me de minha credulidade, pois me constou que se
+                projetava minha prisão e de meus camaradas, ao tempo que se preparavam,
+                fanaticamente, os da 
+                <hi rend="italic">boa ordem</hi>
+                <note type="sourceNote">Grifado no original.</note>
+                para engrossarem as fileiras do 
+                <persName ref="#major_marques">Major Marques</persName>,
+                primeira avançada do legalismo.</p>
+                
+                <p>Meus companheiros segunda vez me procuram, queixando-se de traição;
+                    eu exijo explicações de um dos conferentes; esta se me dá desmentindo o
+                    boato de prisão; logo depois me avisam estar a cidade em consternação, por
+                    dizer-se que, sabendo eu ter de ser preso, marchava com minha gente a tomar
+                    vingança; também desminto esta asserção, e todos nos tranquilizamos.</p>
+                
+                <p>Passados dois dias, um dos conferentes me procura e me avisa que, à vista da
+                    indisposição que contra mim se levantara em toda a cidade, estivesse em
+                    cautela, se bem que prometia inteligen-ciar-me de qualquer novidade ou ordem
+                    a meu respeito. Apenas me deixa esta alma compassiva, sou sabedor que um
+                    moço meu fâmulo, que dirigi ao 
+                    <placeName ref="#arroio_grande">Arroio Grande</placeName>
+                    quando concebi o plano de fazer com que o 
+                    <persName ref="#braga">Sr. Braga</persName> desistisse da tentativa de resistências à vontade geral da
+                    Província, para fazer retirar a força nacional ali destacada, a fim de evitar
+                    derramamento de sangue caso se topasse com a do 
+                    <persName ref="#major_marques">Major Marques</persName>, estava
+                    preso desde o dia anterior, por ter conduzido ofícios para as Câmaras desta
+                    cidade e do <placeName ref="#rio_grande">Rio Grande</placeName>.</p>
+                
+                <p>Tal precedente, ocultado, ao que parecia, com vistas de me conservar em
+                    descuido, como fatos posteriores o provaram, para se assenhorearem de minha
+                    pessoa, descansando na fidelidade da inteligência prometida, não foi bastante
+                    para pôr-me a coberto da cilada que se me preparou; tal era a minha boa fé
+                    e sinceridade em tudo quanto havia praticado.</p>
+                
+                <p>Na noite desse mesmo dia 
+                    (<date when="1835-10-04">4 do corrente outubro</date>),
+                    das sete para as oito horas, estando eu no meu terreiro a
+                    desfrutar o luar, rodeado de minha família e hóspedes, chegam três
+                    cavaleiros e, perguntando um deles por mim, prontamente me dirigi a ele,
+                    que se apeava ao mesmo tempo. Este, em voz submissa, dá-me
+                    recomendações do meu apreciável amigo 
+                    <persName ref="#antonio_neto">Capitão Antônio Neto</persName>,
+                    de quem, tendo a comunicar-me objetos de segredo, rogava que nos
+                    apartássemos um pouco para não sermos ouvidos; assim o fiz, e ele,
+                    perguntando-me em seguida pelas novidades, e se dito Neto poderia chegar
+                    com a gente que trazia, tive toda a leviandade de expor o estado das coisas em
+                    relação ao movimento atual.</p>
+                
+                <p>Depois do que, pedindo-me que o acompanhasse para falarmos ao mesmo
+                    Neto, que ficara atrás dos valos da minha lavoura, foi quando conheci minha
+                    indiscrição, e lhe perguntei quem era, ao que satisfazendo balbuciadamente,
+                    disse ser <persName ref="#nico_oliveira">Nico de Oliveira</persName>; e havendo entre um e outro salientes
+                    desproporções, considerei-me morto, pensando estar na presença dos
+                    assassinos do…</p>
+                
+                <p>Em semelhante conjuntura, forçoso foi obedecer em silêncio, para não
+                    cravar em minha mulher, que se achava na porta observando-nos, e ainda na
+                    convalescença do parto que havia tido há trinta e quatro dias, o punhal da
+                    desesperação. Atrás dos valos encontrei uma partida de dez homens a cavalo,
+                    na garupa de um dos quais me fez montar o meu apreensor no momento que
+                    se aproximava minha mulher, a quem mandou fazer fogo se mais um passo
+                    avançasse, e ordenou que seguíssemos para a cidade.</p>
+                
+                <p>De meio caminho voltamos para prender ao cidadão 
+                    <persName ref="#antonio_antunes_porciuncula">
+                        Antônio Antunes de Porciúncula
+                    </persName>,
+                    meu fiel companheiro e amigo, da casa do qual me despachou em companhia
+                    de três de seus sequazes para a prisão, ficando o resto com o valentão
+                    do meu apreensor à espera do dito Antunes, que se não encontrara.</p>
+                
+                <p>Nesta saída, intrépido esperava o meu assassinato, quando o meu condutor,
+                    condoendo-se talvez de procedimentos tão duros, em voz baixa me diz —
+                    sossegai, que vos darei escapula imediatamente que chegarmos ao cercado
+                    de… — e aplicou o cavalo. Pouco depois ouvimos um tiro, e logo mais o
+                    tropel de cavaleiros que nos seguiam: o luar estava claríssimo e nós então em
+                    um descampado, do qual não nos podíamos desviar sem ser pressentidos.</p>
+                
+                <p>Isto causou-nos desassossego, e não em vão, pelas vozes que de longe
+                    ouvíamos do meu apreensor, ordenando aos seus que corressem por serem
+                    muitos os que vinham, e alcançando-nos logo, debaixo da mesma carreira nos
+                    trouxe até a cidade.</p>
+                
+                <p>Ao passarmos pela Praça da Igreja, ouvi mandar fazer alto, e reconhecendo
+                    a voz do <persName ref="#candido_fernandes_lima">
+                        Sr. Cândido Fernandes Lima
+                    </persName>, juiz de paz do 2.º Distrito, voltei-me para o lado de
+                    onde vinha e divisei que se encaminhava para a partida com uma senhora.
+                    Estava eu já internado na rua da Igreja, quando percebo que minha mulher
+                    era essa senhora que vinha com o 
+                    <persName ref="#candido_fernandes_lima">Sr. Cândido</persName>,
+                    pelo lamento que fazia de me não ver e julgar-me morto.</p>
+                
+                <p>Rogo então a meu apreensor que me consinta falar à minha mulher, para
+                    tirá-la da ilusão que tanto a magoava, quando esse monstro com figura de
+                    homem, puxando de um pistolão que trazia, arremessou-o contra a cabeça da
+                    pessoa que me conduzia, gritando — anda para diante se não te ponho a
+                    cabeça… —</p>
+                
+                <p>Rio-grandenses! e vós todos que amais a vossas consortes, figurai-vos qual
+                    minha dor e desesperação, à vista de minha mulher consternada, e deste
+                    procedimento tanto iníquo quanto desumano? Onde, onde se veria tanta
+                    dureza e maldade, senão nos possessos amigos da 
+                    <hi rend="italic">boa ordem</hi>
+                    <note type="sourceNote">Grifado no original.</note>,
+                    defensores da administração do estultíssimo 
+                    <persName ref="#braga">Sr. Braga</persName>!!!</p>
+                
+                <p>Como assombrado, só de mim dei acordo quando metido no centro de uma
+                    crescida reunião de gente boa e armada, que no largo do 
+                    <orgName ref="#quartel_permanentes">Quartel dos Permanentes</orgName>
+                    aguardavam a rica presa… aí, cheio de ênfase, endereçou meu apreensor ao
+                    juiz municipal, com tom arrogante e de quem proclamava, o seguinte discurso
+                    — aí o têm, deixem-no escapar que eu também tudo deixarei por mão! —</p>
+                
+                <p>O juiz, aparentando surpresa, exigiu saber por ordem de quem se me havia
+                    prendido, ao que satisfez o valente assassino do 
+                    <persName ref="#pantaleao_sotelo">
+                        General Pantaleão Sotelo
+                    </persName>
+                    quando vendido para despojá-lo em 1820 — que pela do 
+                    <persName ref="#braga">Sr. Presidente</persName>.</p>
+                
+                <p>Circulado de armas, ao primeiro conhecido com quem deparei, o 
+                    <persName ref="#gerena">Sr. Gerena</persName>,
+                    pedi para procurar minha mulher desolada, e certificar-lhe que eu existia,
+                    apresentando minha caixa de tabaco para o comprovar; este senhor, não só me
+                    prestou tão relevante favor, de que sempre me recordarei agradecido, mas
+                    ainda, na volta, me trouxe meias e tamancos, condoendo-se de ver-me
+                    molhado até os joelhos.</p>
+                
+                <p>A ferocidade sobressaía neste luzido ajuntamento, órgão fiel da índole dos
+                    partidários bragarenses. Um oficial de carpinteiro de nome 
+                    <persName ref="#joaquim_jose_sousa">Joaquim José de Sousa</persName>,
+                    que então se achava trabalhando em minha casa e que teve a indiscrição de
+                    acompanhar minha mulher, quando alucinada percorria as ruas em minha
+                    busca, e de oferecer-lhe calçado, foi, por tão enorme crime, preso, no momento
+                    mesmo que disto me dava conta com demonstrações sentimentais; de cuja
+                    prisão se evadiu, aceitando uma arma e unindo-se às fileiras da 
+                    <hi rend="italic">justiça</hi>
+                    <note type="sourceNote">Grifado no original.</note>.</p>
+                
+                <p>Igual sorte recebeu o 
+                    <persName ref="#jose_maria">Sr. José Maria de …</persName>,
+                    que, reconhecido a obséquios que, diz, eu lhe prestara quando veio de
+                    Pernambuco, teve a audácia de manifestar-me sentimentos por ver-me
+                    naquele estado; e o muito ilustre 
+                    <persName ref="#maldonado">Sr. Maldonado</persName>,
+                    corifeu desse santo partido e em tudo digno dele, atormentou-me com chufas…
+                    que, com grande esforço, pude relevar em silêncio.</p>
+                
+                <p>Recobrando algum sossego, no meio mesmo do tropel de emoções
+                    veementes, procurei indagar quem era o meu humaníssimo apreensor, e minha
+                    indignação subiu então de ponto, nomeando-se-me o famigerado 
+                    <persName ref="#basilio_ferreira_bica">Basílio Ferreira Bica</persName>,
+                    meu antigo amigo em <placeName ref="#sao_gabriel">São Gabriel</placeName>!!! Mas ele havia abraçado a causa
+                    da <hi rend="italic">boa ordem</hi>
+                    <note type="sourceNote">Grifado no original.</note>, e tanto bastava para se tornar feroz.</p>
+                
+                <p>Na manhã do dia 
+                    <date when="1835-10-05">5</date>,
+                    e a despeito da promessa do juiz municipal de eu ser custodiado
+                    mesmo em sua casa — para melhor receber as consolações de minha mulher e de
+                    meus filhos — fui intimado para seguir imediatamente à 
+                    barca de vapor, a fim de transportar-me ao 
+                    <placeName ref="#rio_grande">Rio Grande</placeName>.</p>
+                
+                <p>A promessa do juiz fez com que eu deixasse de mandar buscar à minha casa
+                    roupa com que pudesse aparecer decente; e assim mesmo, com um empatanado
+                    arrieiro e só com o que tinha no corpo, acompanhei aos 
+                    <persName ref="#juizes_paz_inspetores">
+                        Srs. juízes de paz e inspetores
+                    </persName>,
+                    a quem se incumbiu de me levarem.</p>
+                
+                <p>Marchou a força depois dos vivas que se deram ao 
+                    <persName ref="#dom_pedro_ii">Sr. D. Pedro II</persName>,
+                    à Constituição, etc., de mistura ao 
+                    <persName ref="#bica">Comandante Bica</persName>
+                    e ao juiz municipal; e nós por diversas ruas,
+                    onde, pelo ajudante de ordens do mesmo juiz municipal, se nos ordenou que
+                    marchássemos atrás da força, creio que com o fim de me dar em espetáculo,
+                    daquela forma humilhante, a uma povoação fanatizada…</p>
+                
+                <p>… ao que se opôs o 
+                    <persName ref="#candido_fernandes_lima">
+                        Sr. Cândido Fernandes Lima
+                    </persName>,
+                    dizendo que passava pela sua casa para me fornecer roupa e que se comprometia
+                    dar de mim conta; e continuamos nesta direção.</p>
+                
+                <p>O <persName ref="#candido_fernandes_lima">Sr. Cândido</persName>,
+                    rio-grandenses, não só me muniu de uma boa trouxa de roupa,
+                    mas também de uma cédula de 
+                    <measure type="currency">100$000</measure>,
+                    ação que ainda ao traçar estas linhas me arranca lágrimas de reconhecimento,
+                    e com prazer o recomendo ao vosso respeito e estima, como igualmente ao
+                    <persName ref="#joao_rodrigues_ribas">
+                        Sr. João Rodrigues Ribas
+                    </persName>,
+                    que, ao eu entrar para a barca, me enviou 
+                    <measure type="currency">50 patacões</measure>:
+                    socorros que aceitei, prevendo já o destino que tinha a correr debaixo da
+                    sanha do mais idiota e mau dos caudilhos, qual o 
+                    <persName ref="#braga">Sr. Antônio Rodrigues Fernandes Braga</persName>.</p>
+                
+                <p>Pouco depois que largamos, os guardas nacionais da infantaria que me
+                    custodiavam me participaram que o 
+                    <persName ref="#melo_pacheco_resende">
+                        Major José de Melo Pacheco de Resende
+                    </persName>,
+                    que ia na mesma barca, mas a quem eu ainda não tinha visto porque então
+                    já estava interdito, contava, a quem o queria ouvir, que, nos ofícios
+                    interceptados ao meu sota-capataz, que também comigo seguia preso,
+                    se me ordenava a execução de sublevar a escravatura, indispondo-me,
+                    como indispôs, com tão atroz e negra calúnia!</p>
+                
+                <p>Admira, porém, que o 
+                    <persName ref="#melo_pacheco_resende">
+                        Major Melo
+                    </persName>
+                    avançasse semelhante proposição, porque, a existir tal plano,
+                    necessariamente ele deveria ser convidado, pela razão de não haver escravo
+                    mais escravo que o mesmo major, etc…</p>
+                
+                <p>Tocamos na <placeName ref="#sao_jose_norte">vila do Norte</placeName>,
+                    e finalmente atracamos na 
+                    <placeName ref="#rio_grande">cidade do Rio Grande</placeName>
+                    pelas três horas da tarde; aí creio que me estrangulariam, se a porta do
+                    salão da barca não estivesse guarnecida pelos guardas nacionais que me
+                    acompanharam.</p>
+                
+                <p>Pois foi tal o enxame de parasitas da 
+                    <hi rend="italic">boa ordem</hi>
+                    <note type="sourceNote">Grifado no original.</note>
+                    e tal o sussurro, que facilmente
+                    se previa suas danadas intenções, e eu muito particularmente as conheci,
+                    quando, ao saltar para o escaler que me conduziu à minha prisão, uma voz se
+                    levantou dizendo — atirem na água de uma vez com esse diabo!</p>
+                
+                <p>Ah! Partido infernal!!! E sois aquele que impropriamente vos apelidáveis
+                    da <hi rend="italic">boa ordem</hi>
+                    <note type="sourceNote">Grifado no original.</note>!!
+                    Aquele que queríeis dominar esta província, pátria de heróis, com
+                    raríssimas exceções!!!</p>
+                
+                <p>Na viagem do Norte para Rio Grande soube, também, que o 
+                    <persName ref="#luis_alves_santos_marques">
+                        2.º Tenente Luís Alves dos Santos Marques
+                    </persName>,
+                    que se achava no trapiche do Norte quando aportara a barca, havia prometido
+                    rebaixar-me aos pés o mais pesado grilhão, se eu lhe caísse nas unhas; e,
+                    indo eu para a escuna de seu comando, tremia com a lembrança dos martírios
+                    que se me preparavam.</p>
+                
+                <p>Porém, em abono da verdade, cumpre-me dizer que, apesar da maneira austera
+                    com que me recebeu e tratou no decurso de minha prisão, não consentindo que
+                    eu me servisse com o meu escravo, que recebesse visitas de meus amigos, que
+                    saísse a respirar no convés ao ar livre senão três vezes, que dirigisse a alguém
+                    carta ou papel sem que por ele fosse lido e emendado, todavia tinha a
+                    liberdade de comer quando desejava e daquilo que houvesse, e só por isso
+                    lhe sou agradecido.</p>
+                
+                <p>Todas, ou quase todas as conversações que comigo teve, rolaram sobre o
+                    estado próspero dos defensores do 
+                    <persName ref="#braga">Sr. Braga</persName>,
+                    e qualquer poderá ajuizar do interesse que eu tomaria por essa horda indômita
+                    e feroz.</p>
+                
+                <p>Ao quinto dia de minha prisão, entre outras cousas a consolar-me, disse que
+                    tal era a indisposição contra mim que até lhe tinham pedido para envenenar-me;
+                    e, suposto eu não formasse dele o conceito de prestar-se a este convite
+                    inumano, contudo, receando algum empenho a que não pudesse resistir,
+                    pedi imediatamente para ser remetido ao 
+                    <placeName ref="#rio_de_janeiro">Rio de Janeiro</placeName>,
+                    onde, fora da influência dos selvagens 
+                    <hi rend="italic">legalistas</hi>
+                    <note type="sourceNote">Grifado no original.</note>,
+                    me visse a coberto de assassinos e aliviado de martírios, embora mais apartado
+                    de sete inocentes filhos e de minha consorte.</p>
+                
+                <p>Para marchar tudo coerente, sou por minha mulher informado que um meu
+                    devedor e dois de meus credores, erigindo-se em uma coisa que só eles
+                    poderão dar-lhe o nome, logo no dia seguinte ao da minha prisão haviam
+                    dirigido circulares para se tomar conta de minha casa.</p>
+                
+                <p>Este passo honroso e digno dos digníssimos senhores da 
+                    <hi rend="italic">boa ordem</hi>
+                    <note type="sourceNote">Grifado no original.</note>,
+                    no momento em que o mundo me era fechado e que uma revolução fechava a
+                    porta a todas as transações, deixa claramente ver a intenção de arrancarem-me
+                    por cinco aquilo que talvez valesse cem, ficando minha família exposta à fome
+                    e à nudez, e eu à maldição dos credores ausentes.</p>
+                
+                <p>Transportado com essa notícia a melancólicas ponderações sobre a dureza e a
+                    índole de um partido político que não respirava mais que atrocidades, sentidas
+                    lágrimas molhavam meu rosto, prevendo a sorte que aguardava a flor da
+                    Província, se os sucessos das armas pendessem a favor desses canibais
+                    desenfreados…</p>
+                
+                <p>… quando, pondo-se uma mesa no centro da sala do meu estreito cárcere,
+                    entram e tomam assento o 
+                    <persName ref="#jose_vieira_braga">
+                        Dr. José Vieira Braga
+                    </persName>
+                    e seu escrivão; por aquele me foi dito que vinha interrogar-me acerca de meus
+                    crimes, e em seguida assim o fez, perguntando-me com que fim fui eu com
+                    força armada à cidade de 
+                    <placeName ref="#pelotas">Pelotas</placeName>,
+                    se bem que tendo, em um discurso proferido na 
+                    <orgName ref="#assembleia_geral_legislativa_rs">
+                        Assembléia Provincial
+                    </orgName>,
+                    prometido fazer uma revolução, demonstrava com fatos verificar minha promessa.</p>
+                
+                <p>A isto respondi que a minha ida à cidade de 
+                    <placeName ref="#pelotas">Pelotas</placeName>
+                    outro fim não teve que ver se atalhava os horrores da anarquia, fazendo
+                    conhecer ao 
+                    <persName ref="#braga">Sr. Presidente Braga</persName>
+                    que sua tenacidade contra a opinião da maioria da Província, além de irrisória,
+                    iria comprometer cidadãos pacíficos e acender rivalidades intermináveis e
+                    ruinosas.</p>
+                
+                <p>Que, quanto ao meu discurso, não via que essa figura, de que então me
+                    servi, pudesse ser aplicada aos movimentos da Província e menos fazer-me
+                    crime; sendo irresponsável pelas opiniões que, como deputado, expendi no
+                    recinto da 
+                    <orgName ref="#assembleia_geral_legislativa_rs">Assembléia Provincial</orgName>.</p>
+                
+                <p>Desconvindo nisto o juiz, continuou que, na mesma Assembleia, asseverara eu
+                    que o dia da vingança havia de chegar; e que aparecendo esta revolução contra
+                    a autoridade a que me referi então, era de presumir-se que tal ameaça
+                    aventurada foi já sobre bases que não deveriam falhar.</p>
+                
+                <p>Enjoado de um diálogo alheio da questão, posto que suficiente a demonstrar-me
+                    qual a causa de meus crimes e porque tanto se me oprimia, contestei que bastante
+                    cego era todo aquele que, seguindo passo a passo a tortuosa administração do 
+                    <persName ref="#braga">Sr. Braga</persName>,
+                    não visse as raias a esbarrar, chamando contra si a vingança dos habitantes
+                    de uma Província inteira, cansados de o sofrer e dispostos a resistir-lhe, se
+                    indômito continuasse em desatinos…</p>
+                
+                <p>… bem como esse de mandar instruir meu processo duas vezes em foro
+                    alheio; porque tendo eu meu domicílio na cidade de 
+                    <placeName ref="#pelotas">Pelotas</placeName>,
+                    e existindo preso no ancoradouro da 
+                    <placeName ref="#sao_jose_norte">Vila do Norte</placeName>,
+                    vinha de ser chamado ao juízo da 
+                    <placeName ref="#rio_grande">Cidade do Rio Grande</placeName>,
+                    onde melhor e mais a jeito deparava com elementos a saciar seu gênio perverso,
+                    rancoroso e vingativo, acobertado debaixo de aparências de cordeiro.</p>
+                
+                <p>Foi-se o juiz, e eu, entregue às ponderações do costume, dizia: quando o
+                    quadro de uma esposa prestes a sucumbir e as inocentes lágrimas de tenros
+                    filhos não abranda a sanha do malvado, que destino aguarda a mor parte
+                    de meus coprovincianos, se por algum imprevisto desar este monstro segunda
+                    vez empolga o supremo mando da Província!! Que devastações… que montão
+                    de ruínas!!</p>
+                
+                <p>Inda bem não tinham desvanecido de minha fantasia estas ideias, quando
+                    o estrondo de inúmeros foguetes outra vez me repõe em dolorosa aflição.
+                    O sangue de brasileiros, que brasileiros fizeram derramar nas margens do 
+                    <placeName ref="#arroio_grande">Arroio Grande</placeName>,
+                    foi anunciado de maneira tão estrondosa na 
+                    <placeName ref="#rio_grande">cidade do Rio Grande</placeName>,
+                    pelos amigos da 
+                    <hi rend="italic">boa ordem</hi>
+                    <note type="sourceNote">Grifado no original.</note>,
+                    que ainda hoje sua lembrança faz palpitar de indignação o peito mais gelado.</p>
+                
+                <p>Os aprestos, porém, de uma pronta viagem que imediatamente sucedeu a esta
+                    desmarcada alegria, me informaram demasiado — lá mesmo no escuro de minha
+                    prisão — que o céu tinha enfim ouvido os acentos da justiça.</p>
+                
+                <p>Minhas privações se redobraram, papel e tinta se me esconde; e eu parto
+                    para a barra sem despedir-me de minha cara família. Ali, resignado até a
+                    algum violento assassínio, esperava, cortado de dores, o momento de sair
+                    talvez para sempre desta província abençoada, deixando nela tudo, depois
+                    da pátria, que me é mais caro.</p>
+                
+                <p>No quinto dia de uma existência ali quase desanimada, pelas vivas expressões
+                    de ver-me arrancado de minha casa, tratado de modo tão opressivo e vil,
+                    e conduzido como troféu do 
+                    <persName ref="#braga">Sr. Braga</persName>,
+                    apareceu o 
+                    <persName ref="#manuel_marques_sousa">
+                        Major Manuel Marques de Sousa
+                    </persName>,
+                    que, não se pejan-do, como outros de seu credo, de endereçar-me a palavra,
+                    mostrou-se admirado de ainda ser eu conservado em prisão e prometeu-me
+                    liberdade, imediatamente, que falasse ao Presidente das canhoneiras.</p>
+                
+                <p>… fazendo-me, ao mesmo tempo, sentir ser de utilidade que naquele mesmo
+                    dia me achasse em casa, a ser possível. Esta última asserção me arrojou de
+                    novo em combinações agitadas, pensando ter havido alguma desgraça em 
+                    minha família.</p>
+                
+                <p>Seguiu ele ao Presidente; meia hora depois, passou para a residência do
+                    mesmo uma deputação da 
+                    <orgName ref="#camara_rio_grande">
+                        Câmara Municipal da Cidade do Rio Grande
+                    </orgName>,
+                    pouco mais regressou o comandante da escuna, que também lá se achava,
+                    e com demonstrações de prazer anunciou-me estar eu solto e um escaler à
+                    minha disposição para meu regresso.</p>
+                
+                <p>No entanto que se safavam os baús de meu fato, chegou o 
+                    <persName ref="#manuel_gomes_silva">
+                        Sr. Manuel Gomes da Silva
+                    </persName>,
+                    membro da Câmara e da deputação acima anunciada, o qual,
+                    aproximando-se a mim, com a docilidade que lhe é própria, me fez ver ter
+                    vindo buscar-me em consequência de requisição do respeitável corpo de que
+                    fazia parte.</p>
+                
+                <p>Sensibilizado ao extremo, dispus-me a segui-lo. Mas o comandante da
+                    escuna, impugnando que eu seguisse com o 
+                    <persName ref="#manuel_gomes_silva">Sr. Gomes</persName>,
+                    me pôs em sustos, supondo ser a nova de minha soltura uma burla para
+                    zombar-se de minha credulidade.</p>
+                
+                <p>Chega à escuna o 
+                    <persName ref="#israel_soares_paiva">
+                        Sr. Israel Soares de Paiva
+                    </persName>,
+                    que, depois de breve entrevista com o comandante, chamou-me de parte e
+                    expôs-me que, tendo o 
+                    <persName ref="#manuel_gomes_silva">Sr. Gomes</persName>
+                    a indiscrição de dizer ao 
+                    <persName ref="#braga">Sr. Braga</persName> 
+                    que grande porção de cidadãos da cidade, e tropa, e o coronel, se achavam
+                    impacientes à minha espera no trapiche, ordenara bocalmente ao comandante
+                    para me não deixar seguir com o 
+                    <persName ref="#manuel_gomes_silva">Sr. Gomes</persName>…</p>
+                
+                <p>… e que minha soltura fosse apresentada como fruto das informações do 
+                    <persName ref="#manuel_marques_sousa">Sr. Marques</persName>,
+                    não das reclamações da Câmara.</p>
+                
+                <p>Larga o 
+                    <persName ref="#manuel_gomes_silva">Sr. Gomes</persName>,
+                    e eu, desanimado, me preparava a segui-lo de longe, esperando que, na ação
+                    de meter-me no escaler, novas ordens me detivessem.</p>
+                
+                <p>Metido no escaler, logo que assentei e não se me ouvir mais da escuna,
+                    obtive convencer a tripulação de não voltarmos mais, ainda que perseguidos
+                    de metralha, fazendo rumo à praia mais próxima…</p>
+                
+                <p>… donde, salvo já de tiros e respirando segurança, me dirigi à 
+                    <placeName ref="#rio_grande">cidade do Rio Grande</placeName>,
+                    cujos habitantes e pessoas de fora me receberam de tal maneira que logo ali
+                    me dei por exuberantemente recompensado de tudo quanto havia padecido.</p>
+                
+                <p>No dia seguinte (<date when="1835-10-23">23</date>), passei-me para a 
+                    <placeName ref="#sao_jose_norte">Vila do Norte</placeName>,
+                    onde também à porfia seus habitantes demonstraram prazer pela minha
+                    liberdade.</p>
+                
+                <p>A 24 cheguei à minha casa, onde, rodeado de mulher e filhos e livre da
+                    prepotência braganense, representamos, por grande espaço, a cena mais
+                    patética; e a 
+                    <date when="1835-10-25">25</date>,
+                    na <placeName ref="#pelotas">cidade de Pelotas</placeName>,
+                    meus amigos e os amigos da liberdade colmaram meu prazer na satisfação
+                    que em seus rostos transluzia por verem-me restituído a seus braços.</p>
+                
+                <p>— Rio-grandenses! Com minha soltura, mais um triunfo alcançastes dos
+                    inimigos da Pátria, mas não penseis realizados vossos nobres trabalhos, sem
+                    que um total esquecimento do passado e um generoso perdão aos iludidos
+                    conduza o carro da revolução aos fins que se propôs.</p>
+                
+                <p>Não mancheis, pois, a obra mais perfeita de vossas mãos com intrigas e
+                    dissenções odiosas. Abracemo-nos todos os habitantes do Continente, e a um
+                    só alvo — qual o bem da Pátria — dirijamos firmes os nossos esforços!</p>
+                
+                <dateline>
+                    <placeName ref="#pelotas">Pelotas</placeName>,
+                    <date when="1835-10-29">29 de Outubro de 1835</date>.
+                </dateline>
+                
+                <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                
+                <note type="printing">
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>,
+                    1835: Tipografia de V. F. de Andrade, rua da Ponte.  
+                    [Exemplar impresso]
+                </note>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
+    

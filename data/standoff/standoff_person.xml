@@ -77,6 +77,18 @@
             <note>Militar e político republicano, atuante no sul do Brasil.</note>
         </person>
         
+        <person xml:id="manuel_marques_sousa">
+            <persName>Manuel Marques de Sousa</persName>
+            <idno type="viaf">https://viaf.org/en/viaf/72807444</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2005413</idno>
+            <roleName>Major</roleName>
+            <roleName>Tenente-general</roleName>
+            <roleName>Ministro da Guerra</roleName>
+            <affiliation>império do Brasil</affiliation>
+            <affiliation>Partido Liberal</affiliation>
+            <note>Inicia a farroupilha como Major. Se tornou Barão, Visconde e Conde de Porto Alegre.</note>
+        </person>
+        
         <person xml:id="demetrio">
             <persName>Demétrio</persName>
             <note>Identificado com patente de Tenente-coronel.</note>
@@ -95,11 +107,21 @@
         <person xml:id="general_lima">
             <persName>General Lima</persName>
             <note>General legalista assassinado por Roque, segundo relato oral de veterano.</note>
-        </person>
+        </person> <!--coorrigir para id joao_manuel_lima_silva-->
+        
+        <person xml:id="general_lima">
+            <persName>General Lima</persName>
+            <note>Mencionado como esposo de Maria Ângela Corte Real de Lima; identidade completa não fornecida.</note>
+        </person> <!--corrigir essa id para id joao_manuel_lima_silva-->
         
         <person xml:id="joao_manuel_lima_silva">
             <persName>João Manuel de Lima e Silva</persName>
             <note>General farroupilha falecido em 1839, homenageado com exéquias oficiais em Caçapava.</note>
+        </person>
+        
+        <person xml:id="maria_angela_corte_real_de_lima">
+            <persName>Maria Ângela Corte Real de Lima</persName>
+            <note>Pessoa proprietária mencionada na carta, cujo patrimônio foi objeto de decisão administrativa.</note>
         </person>
 
         <person xml:id="josefina">
@@ -117,8 +139,15 @@
         <person xml:id="antonio_abreu">
             <persName>Antônio Francisco dos Santos Abreu</persName>
             <note>Comerciante e fornecedor de gado, frequentemente em contato com o governo farroupilha.</note>
-
         </person>
+        
+        <person xml:id="braga">
+            <persName>Antônio Rodrigues Fernandes Braga</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q16492340</idno>
+            <roleName>Presidente da Província do Rio Grande do Sul</roleName>
+            <note>Presidente da Província do Rio Grande do Sul quando estoura a Guerra dos Farrapos.</note>
+        </person>
+
         
         <person xml:id="domingos_almeida">
             <persName>Domingos José de Almeida</persName>
@@ -1625,6 +1654,23 @@
             <note>Capitão farroupilha e cunhado de Bento Gonçalves.</note>
         </person>
         
+        <person xml:id="antonio_antunes_porciuncula">
+            <persName>Antônio Antunes de Porciúncula</persName>
+            <idno></idno>
+            <relation
+                xml:id="rel_domingos_poricuncula_amizade"
+                name="friendship"
+                mutual="true"
+                active="#domingos_jose_almeida"
+                passive="#antonio_antunes_porciuncula"
+                ref="https://www.wikidata.org/wiki/Q491"
+                >
+            </relation>
+            <role>Capitão Commandante Interino da Fronteira e Linha de São Gonçalo</role>
+            <roleName>Capitão Ajudante de Ordens do Commando Interino das Armas</roleName>
+            <note>Amigo de Almeida citado em sua proclamaçao de 1835.</note>
+        </person>
+        
         <person xml:id="faustino_lima">
             <persName>Faustino José de Lima</persName>
             <note>Arrendatário da fazenda das Pedras Altas, cuja segurança pessoal é mencionada na carta.</note>
@@ -2126,7 +2172,6 @@
             <note>Tenente-coronel que supriu forças em São Borja e recebe pagamento ordenado.</note>
         </person>
         
-        # PERSONS
         <person xml:id="antonio_pinto_braga">
             <persName>Antônio Pinto Braga</persName>
             <note>Capitão e subscritor responsável pela distribuição dos efeitos.</note>
@@ -2901,19 +2946,9 @@
             <note>Exerceu o cargo de coletor da República.</note>
         </person>
         
-        <person xml:id="maria_angela_corte_real_de_lima">
-            <persName>Maria Ângela Corte Real de Lima</persName>
-            <note>Pessoa proprietária mencionada na carta, cujo patrimônio foi objeto de decisão administrativa.</note>
-        </person>
-        
         <person xml:id="jose_alves_de_morais">
             <persName>José Alves de Morais</persName>
             <note>Tenente-coronel e genro de Maria Ângela Corte Real de Lima, responsável pelo arrendamento do Rincão de Saicã.</note>
-        </person>
-        
-        <person xml:id="general_lima">
-            <persName>General Lima</persName>
-            <note>Mencionado como esposo de Maria Ângela Corte Real de Lima; identidade completa não fornecida.</note>
         </person>
         
         <person xml:id="presidente_republica">
@@ -4751,6 +4786,12 @@
             <note>Indivíduo citado como influenciador da decisão do Presidente.</note>
         </person>
         
+        <person xml:id="joao_rodrigues_ribas">
+            <persName>João Rodrigues Ribas</persName>
+            <idno></idno>
+            <note>Membro da Assembleia provincial de 1835.</note>
+        </person>
+        
         <person xml:id="luis_azevedo">
             <persName>Luís de Azevedo</persName>
             <idno></idno>
@@ -4878,6 +4919,88 @@
             <persName>Israel Soares de Paiva</persName>
             <idno></idno>
             <note>Comandante legalista.</note>
+        </person>
+        
+        <person xml:id="joao_jose_gomes">
+            <persName>João José Gomes</persName>
+            <idno></idno>
+            <note>Comerciante.</note>
+        </person>
+        
+        <person xml:id="major_pinto">
+            <persName>Major Pinto</persName>
+            <idno></idno>
+            <note>Oficial da Guarda Nacional de Pelotas ao início da farroupilha.</note>
+        </person>
+        
+        <person xml:id="capitao_pinto">
+            <persName>Capitão Pinto</persName>
+            <idno></idno>
+            <note>Oficial da Guarda Nacional de Pelotas ao início da farroupilha.</note>
+        </person>
+        
+        <person xml:id="tenente_pinto">
+            <persName>Tenente Pinto</persName>
+            <idno></idno>
+            <note>Oficial da Guarda Nacional de Pelotas ao início da farroupilha.</note>
+        </person>
+        
+        <person xml:id="alferes_felizardo">
+            <persName>Alferes Felizardo</persName>
+            <idno></idno>
+            <note>Oficial da Guarda Nacional de Pelotas ao início da farroupilha.</note>
+        </person>
+        
+        <person xml:id="jose_jeronimo_amaral">
+            <persName>José Jerônimo do Amaral</persName>
+            <idno></idno>
+            <note>Major da Guarda Nacional ao início da farroupilha.</note>
+        </person>
+        
+        <person xml:id="candido_fernandes_lima">
+            <persName>Cândido Fernandes Lima</persName>
+            <idno></idno>
+            <note>Juiz de Paz do 2.º Distrito de Pelotas.</note>
+        </person>
+        
+        <person xml:id="gerena">
+            <persName>Sr. Gerena</persName>
+            <idno></idno>
+        </person>
+        
+        <person xml:id="joaquim_jose_sousa">
+            <persName>Joaquim José de Sousa</persName>
+            <idno></idno>
+            <roleName>Oficial carpinteiro</roleName>
+            <note>Oficial carpinteiro; preso por solidariedade a Almeida.</note>
+        </person>
+        
+        <person xml:id="jose_maria">
+            <persName>José Maria</persName>
+            <idno></idno>
+        </person>
+        
+        <person xml:id="maldonado">
+            <persName>Maldonado</persName>
+            <idno></idno>
+        </person>
+
+        <person xml:id="melo_pacheco_resende">
+            <persName>José de Melo Pacheco de Resende</persName>
+            <idno></idno>
+            <note>Major legalista.</note>
+        </person>
+        
+        <person xml:id="jose_vieira_braga">
+            <persName>José Vieira Braga</persName>
+            <idno></idno>
+            <note>Juiz instrutor do processo de Almeida em 1835.</note>
+        </person>
+        
+        <person xml:id="manuel_gomes_silva">
+            <persName>Manuel Gomes da Silva</persName>
+            <idno></idno>
+            <note>Memebro da Câmara de Rio Grande em 1835.</note>
         </person>
     </listPerson>
 </standOff>
