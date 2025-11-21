@@ -42,13 +42,13 @@
             <div type="note" xml:id="CV-550">
                 
                 <opener>
-                    <salute>Meu compadre amigo e Sr.</salute>
+                    <salute>Meu compadre amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p><persName ref="#jose_francisco_vaz">José Francisco Vaz</persName> pede demissão e os direitos de quinhentas reses que quer exportar para <placeName ref="#rio_grande">Rio Grande</placeName> à conta de seus vencimentos; e <persName ref="#joaquim_bernardes_pereira">Joaquim Bernardes Pereira</persName>, 100 reses para criar. O 1.º pertence a V. Ex.ª o respectivo despacho; e sobre o 2.º e 3.º se servirá dizer-me o que devo despachar.</p>
+                <p><persName ref="#jose_francisco_vaz">José Francisco Vaz</persName> pede demissão e os direitos de quinhentas reses que quer exportar para <placeName ref="#rio_grande">Rio Grande</placeName> à conta de seus vencimentos; e <persName ref="#joaquim_bernardes_pereira">Joaquim Bernardes Pereira</persName>, 100 reses para criar. O 1.º pertence a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> o respectivo despacho; e sobre o 2.º e 3.º se servirá dizer-me o que devo despachar.</p>
                 
                 <closer>
-                    <salute>De V. Ex.ª</salute>
+                    <salute>De <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice></salute>
                 </closer>
                 
             </div>

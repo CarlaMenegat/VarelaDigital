@@ -42,12 +42,12 @@
             <div type="letter" xml:id="CV-109">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Aqui se me apresentou o alemão <persName ref="#pedro_jose">Pedro José</persName>, praça que desertou modernamente do exército, dizendo que já se tinha apresentado a V.Exª., e que V.Exª. o mandara para este ponto, e que se me apresentasse. Têm chegado mais alguns, e mandado por interposta pessoa saber se eu os aceito, porém, à vista das ordens a respeito, não os tenho querido receber, e mesmo porque estou certo que ao menor indício que haja de marcha semelhantes indivíduos tornam a desertar, porque este povo do município, com raríssima exceção, só aqui são capazes de prestar serviços, e na campanha é o que se está vendo, e por isso antes quero ver se os vão pouco a pouco prendendo para que levem a correção que merecem; à vista do que, V.Exª. ordenará o que for servido.</p>
+                <p>Aqui se me apresentou o alemão <persName ref="#pedro_jose">Pedro José</persName>, praça que desertou modernamente do exército, dizendo que já se tinha apresentado a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>, e que <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> o mandara para este ponto, e que se me apresentasse. Têm chegado mais alguns, e mandado por interposta pessoa saber se eu os aceito, porém, à vista das ordens a respeito, não os tenho querido receber, e mesmo porque estou certo que ao menor indício que haja de marcha semelhantes indivíduos tornam a desertar, porque este povo do município, com raríssima exceção, só aqui são capazes de prestar serviços, e na campanha é o que se está vendo, e por isso antes quero ver se os vão pouco a pouco prendendo para que levem a correção que merecem; à vista do que, <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> ordenará o que for servido.</p>
                 
-                <p>Deus guarde a V.Exª. muitos anos.</p>
+                <p>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muitos anos.</p>
                 
                 <dateline>
                     Quartel do <orgName ref="#comando_militar_santo_antonio">Comando Militar do município de Santo Antônio</orgName>, 
@@ -56,7 +56,7 @@
                 </dateline>
                 
                 <closer>
-                    <salute>Ilmo. Exmo. Sr. <persName ref="#tomas_jose_silva">Marechal-de-campo Tomás José da Silva</persName>,<br/>
+                    <salute>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Marechal-de-campo Tomás José da Silva</persName>,<br/>
                         Digmo. Comandante da Guarnição de <placeName ref="#porto_alegre">Porto Alegre</placeName>.</salute>
                     <signed>(a) <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName><br/>
                         Coronel Comandante Militar do município de Santo Antônio.</signed>

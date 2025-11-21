@@ -34,12 +34,12 @@
         <body>
             <div type="letter" xml:id="CV-13">
                 <opener>
-                    <salute>Ilmo. Exmo. Sr.,</salute>
+                    <salute>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>,</salute>
                 </opener>
                 
-                <p>O Sr. <persName ref="#joao_silva">João Agostinho da Silva</persName>, dono dos panos que por pedido de V.Ex.ª incumbi ao cidadão <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName> comprasse, há vindo a esta para definitivamente tratá-los, como diz o dito cidadão Abreu na carta inclusa, e eu o envio à presença de V.Ex.ª para o fim a que se dirigiu.</p>
+                <p>O <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_silva">João Agostinho da Silva</persName>, dono dos panos que por pedido de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> incumbi ao cidadão <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName> comprasse, há vindo a esta para definitivamente tratá-los, como diz o dito cidadão Abreu na carta inclusa, e eu o envio à presença de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> para o fim a que se dirigiu.</p>
                 
-                <p>O predito cidadão Abreu pede-me para obter de V.Ex.ª a graça que ficou de fazer-lhe acerca do encontro da importância dos direitos do gado que tenciona exportar, e a ser isso possível pode V.Ex.ª remeter-me as ordens a respeito, como devolver-me a carta que cito se lhe não for precisa.</p>
+                <p>O predito cidadão Abreu pede-me para obter de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> a graça que ficou de fazer-lhe acerca do encontro da importância dos direitos do gado que tenciona exportar, e a ser isso possível pode <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> remeter-me as ordens a respeito, como devolver-me a carta que cito se lhe não for precisa.</p>
                 
                 <closer>
                     <signed>Domingos José de Almeida</signed>

@@ -47,10 +47,10 @@
             <div type="letter" xml:id="CV-523">
                 
                 <opener>
-                    <salute>Amigo e Sr. <persName ref="#augusto_pereira_leitao">Augusto Pereira de Siqueira Leitão</persName>.</salute>
+                    <salute>Amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#augusto_pereira_leitao">Augusto Pereira de Siqueira Leitão</persName>.</salute>
                 </opener>
                 
-                <p>Por conta de nossos amigos os Srs. <persName ref="#joao_antonio_silveira">General João Antônio da Silveira</persName> e <persName ref="#jose_ilidoro_figueiredo">José Ilidoro de Figueiredo</persName> pode V.S.ª dispôr em minha mão da quantia que lhe for de mister para suas despesas.</p>
+                <p>Por conta de nossos amigos os Srs. <persName ref="#joao_antonio_silveira">General João Antônio da Silveira</persName> e <persName ref="#jose_ilidoro_figueiredo">José Ilidoro de Figueiredo</persName> pode <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> dispôr em minha mão da quantia que lhe for de mister para suas despesas.</p>
                 
                 <p>De nada mais servindo a presente continua a ser</p>
                 

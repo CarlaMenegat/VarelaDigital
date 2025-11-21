@@ -46,17 +46,17 @@
             <div xml:id="CV-490" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr. <persName ref="#manuel_francisco_moura">Manuel Francisco de Moura</persName>.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#manuel_francisco_moura">Manuel Francisco de Moura</persName>.</salute>
                     <dateline><placeName ref="#bage">Bagé</placeName>, 26 de agosto de 1841.</dateline>
                 </opener>
                 
-                <p>Estimável tio amigo e Sr.</p>
+                <p>Estimável tio amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></p>
                 
                 <p>Para destazer um engano, lhe rogo o favor de dizer-me quanto recebeu por minha conta da Coletoria de <placeName ref="#candiota">Candiota</placeName>, quanto mandou a <persName ref="#alexandre_simoes">Alexandre Simões</persName> para remeter à sua sobrinha e quanto entregou ao tvabo <persName ref="#quirino">Quirino</persName>.</p>
                 
                 <p>Também lhe rogo a pronta remessa dos quarenta alqueires de cal que lhe pedi.</p>
                 
-                <p>Meus respeitos à minha tia e Sra., e V.Mcê. disponha do</p>
+                <p>Meus respeitos à minha tia e <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice>, e <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> disponha do</p>
                 
                 <closer>
                     <signed>Seu parente e amigo obrigado<br/>(a) Almeida.</signed>

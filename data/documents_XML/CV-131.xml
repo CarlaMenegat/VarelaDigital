@@ -46,16 +46,16 @@
             <div type="circular" xml:id="CV-131">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
-                    Inclusos remeto a V. S.ª 12 exemplares do decreto desta data,
-                    para que V. S.ª faça a efetiva sua publicidade e execução.
+                    Inclusos remeto a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 12 exemplares do decreto desta data,
+                    para que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> faça a efetiva sua publicidade e execução.
                 </p>
                 
                 <closer>
-                    <p>Deus guarde a V. S.ª.</p>
+                    <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                     <dateline>
                         Secretaria dos Negócios da Guerra em
                         <placeName ref="#cacapava">Caçapava</placeName>,

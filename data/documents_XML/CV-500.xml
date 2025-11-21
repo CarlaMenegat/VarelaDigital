@@ -45,10 +45,10 @@
             <div type="letter" xml:id="CV-500">
                 
                 <opener>
-                    <salute>Amigo e Sr.</salute>
+                    <salute>Amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Tendo à vista a sua estimada de 29 do passado, respondo. Sobremaneira me admira a devolução de minha letra de .... 90$000 pelo <persName ref="#joao_pedro_ramirez">Sr. Ramirez</persName>, tendo ele pago todas as quantias hei sacado a seu favor, e de outros negociantes mais, e aí houve motivo; mas remeta-me V., e diga a quem devo dar sua importância, que o farei com prontidão.</p>
+                <p>Tendo à vista a sua estimada de 29 do passado, respondo. Sobremaneira me admira a devolução de minha letra de .... 90$000 pelo <persName ref="#joao_pedro_ramirez"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Ramirez</persName>, tendo ele pago todas as quantias hei sacado a seu favor, e de outros negociantes mais, e aí houve motivo; mas remeta-me V., e diga a quem devo dar sua importância, que o farei com prontidão.</p>
                 
                 <p>Sendo quanto se me oferece sou</p>
                 

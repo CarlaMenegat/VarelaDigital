@@ -47,13 +47,13 @@
                 <div xml:id="CV-380" type="letter">
                     
                     <opener>
-                        <salute>Ilmo. e Exmo. Sr.</salute>
+                        <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                     </opener>
                     
-                    <p>Não podendo por um momento mais permanecer nos empregos que ocupo devolvo a V. Ex.ª o expediente do Governo que em ausência do Exmo. Presidente do Estado me foi conferido por ofício de 14 do corrente mês, como igualmente os das Pastas do Interior e Fazenda que exercia.</p>
+                    <p>Não podendo por um momento mais permanecer nos empregos que ocupo devolvo a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> o expediente do Governo que em ausência do Exmo. Presidente do Estado me foi conferido por ofício de 14 do corrente mês, como igualmente os das Pastas do Interior e Fazenda que exercia.</p>
                     
                     <closer>
-                        <p>Deus guarde a V. Ex.ª.</p>
+                        <p>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.</p>
                         <signed>
                             <placeName ref="#piratini">Piratini</placeName>, 23 de setembro de 1837.<br/>
                             <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
@@ -61,7 +61,7 @@
                     </closer>
                     
                     <note type="endorsement">
-                        Ilmo. e Exmo. Sr. Dr. <persName ref="#antonio_vicente_siqueira_pereira_leitao">Antônio Vicente de Siqueira Pereira Leitão</persName>, Ministro e Secretário de Estado dos Negócios da Justiça. [Cópia]
+                        Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Dr. <persName ref="#antonio_vicente_siqueira_pereira_leitao">Antônio Vicente de Siqueira Pereira Leitão</persName>, Ministro e Secretário de Estado dos Negócios da Justiça. [Cópia]
                     </note>
                     
                 </div>

@@ -46,21 +46,21 @@
             <div xml:id="CV-450" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Dos couros de consumo da polícia a seu mando, e na falta destes ou daqueles do gado dado às famílias dos patriotas, de alguns que obtenha por empréstimo, dará cinquenta de vaca ao cidadão <persName ref="#pedro_rodrigues_quevedo">Capitão Pedro Rodrigues de Quevedo</persName>, para de pronto arranjar porção de lombilhos para a <orgName ref="#divisao_centro">Divisão do Centro</orgName> que chega quase com falta total deles pelo que conta o governo que V. S.ª com tudo ao seu alcance auxilie ao dito capitão no desempenho deste importante serviço.</p>
+                <p>Dos couros de consumo da polícia a seu mando, e na falta destes ou daqueles do gado dado às famílias dos patriotas, de alguns que obtenha por empréstimo, dará cinquenta de vaca ao cidadão <persName ref="#pedro_rodrigues_quevedo">Capitão Pedro Rodrigues de Quevedo</persName>, para de pronto arranjar porção de lombilhos para a <orgName ref="#divisao_centro">Divisão do Centro</orgName> que chega quase com falta total deles pelo que conta o governo que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> com tudo ao seu alcance auxilie ao dito capitão no desempenho deste importante serviço.</p>
                 
                 <closer>
-                    <p>Deus guarde a V. S.ª.</p>
+                    <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                     <p><orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName> em <placeName ref="#piratini">Piratini</placeName>, 15 de fevereiro de 1841.</p>
-                    <signed>Ilmo. Sr. <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>.</signed>
+                    <signed>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>.</signed>
                     <signed>Chefe Geral de Polícia do departamento do <placeName ref="#boqueirao">Boqueirão</placeName>.</signed>
                     <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</signed>
                 </closer>
                 
                 <note type="endorsement">
-                    <p>S. da R.</p>
+                    <p><choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice></p>
                     <p>Ao cidadão <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>. Chefe Geral de Polícia do departamento do <placeName ref="#boqueirao">Boqueirão</placeName>. Do <orgName ref="#ministerio_fazenda">Ministério da Fazenda</orgName>.</p>
                 </note>
                 

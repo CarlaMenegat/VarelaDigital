@@ -50,14 +50,14 @@
             <div type="letter" xml:id="CV-323">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Circular</p>
                 
                 <p>Para o Governo poder com acerto lançar mão das medidas econômicas que convém estabelecer, manda que V.Sº., sem perda de tempo, o informe por esta repartição: 1.º quantas famílias, número, idade e sexo das pessoas de que elas se compõem, são municiadas de carne por conta do Estado no departamento de sua jurisdição policial, em virtude da Circular de 2 de setembro de 1837 corroborada pelo Decreto de 14 de agosto de 1838; 2.º qual o número das pessoas que, além daquelas famílias, são também municiadas no referido departamento; 3.º com quantas libras de carne são municiadas cada uma das ditas pessoas; 4.º com que títulos ou ordens se municiam tais pessoas, e desde quando; e 5.º finalmente, qual o destino que se tem dado aos couros do gado para esse fornecimento comprado.</p>
                 
-                <p>Deus guarde a V.Sª. <orgName ref="#secretaria_fazenda">Secretaria da Fazenda encarregada do expediente da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 8 de agosto de 1839.</p>
+                <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> <orgName ref="#secretaria_fazenda">Secretaria da Fazenda encarregada do expediente da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 8 de agosto de 1839.</p>
                 
                 <closer>
                     <signed>Domingos José de Almeida</signed>
@@ -65,7 +65,7 @@
                 
                 <p><persName ref="#inacio_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>, Chefe de Polícia do <placeName ref="#boqueirao">Boqueirão</placeName>.</p>
                 
-                <note type="endorsement">S. da R.</note>
+                <note type="endorsement"><choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice></note>
                 <note type="endorsement">Caçapava — Piratini. Recebido a 14 de agosto.</note>
                 
             </div>

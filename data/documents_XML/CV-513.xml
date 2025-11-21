@@ -43,10 +43,10 @@
             <div type="letter" xml:id="CV-513">
                 
                 <opener>
-                    <salute>Sr.</salute>
+                    <salute><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Para arranjos de uma dispensa que peço a S. Ex.ª o Sr. Vigário Apostólico, haja V.Mcê. de entregar ao mesmo Exmo. Sr. ou à sua ordem todo o dinheiro que for de mister, e o debitará ao</p>
+                <p>Para arranjos de uma dispensa que peço a <choice><abbr>S. Ex.ª</abbr><expan>Sua Excelência</expan></choice> o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Vigário Apostólico, haja <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> de entregar ao mesmo Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> ou à sua ordem todo o dinheiro que for de mister, e o debitará ao</p>
                 
                 <closer>
                     <signed>Seu amigo venerador e criado</signed>

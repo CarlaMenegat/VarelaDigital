@@ -47,7 +47,7 @@
             <div type="letter" xml:id="CV-132">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Em resposta a seu ofício de 18 do corrente, em que requisita
@@ -57,7 +57,7 @@
                     imediatamente serão remetidas ao Juiz de Paz de
                     <placeName ref="#sao_gabriel">São Gabriel</placeName>, bem como os cartuchos que se julgue precisos.</p>
                 
-                <p>Deus guarde a V.S.ª.</p>
+                <p>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                 
                 <closer>
                     <dateline>Secretaria dos Negócios da Guerra em 
@@ -68,7 +68,7 @@
                 </closer>
                 
                 <note type="endorsement">
-                    Ilmo. Sr. Coronel João Antônio da Silveira.  
+                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel João Antônio da Silveira.  
                     Comandante da Divisão da Direita.
                 </note>
                 

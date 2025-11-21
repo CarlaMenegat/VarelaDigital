@@ -106,10 +106,10 @@
             <div type="letter" xml:id="CV-154">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Tendo o cidadão <persName ref="#serafim_silva_ribeiro">Serafim da Silva Ribeiro</persName> oferecido para o serviço das armas a um seu filho de nome <persName ref="#vasco_ribeiro_silva">Vasco Ribeiro da Silva</persName>, ficando de o apresentar até o dia 25 do mês que entra, determina portanto S. Ex.º o <persName ref="#bento_goncalves">Sr. General-em-chefe</persName> que V. S.ª o mande para esta capital com brevidade. 
+                <p>Tendo o cidadão <persName ref="#serafim_silva_ribeiro">Serafim da Silva Ribeiro</persName> oferecido para o serviço das armas a um seu filho de nome <persName ref="#vasco_ribeiro_silva">Vasco Ribeiro da Silva</persName>, ficando de o apresentar até o dia 25 do mês que entra, determina portanto <choice><abbr>S. Ex.</abbr><expan>Sua Excelência</expan></choice>º o <persName ref="#bento_goncalves"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General-em-chefe</persName> que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> o mande para esta capital com brevidade. 
                     <note type="editorial">
                         <choice>
                             <abbr>(*)</abbr>
@@ -118,7 +118,7 @@
                     </note>
                 </p>
                 
-                <p>Deus guarde a V. S.ª. Quartel-general em <placeName ref="#bage">Bagé</placeName>, <date when="1841-11-30">30 de novembro de 1841</date>.</p>
+                <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>. Quartel-general em <placeName ref="#bage">Bagé</placeName>, <date when="1841-11-30">30 de novembro de 1841</date>.</p>
                 
                 <p><persName ref="#inacio_guimaraes">Cidadão Inácio José de Oliveira Guimarães</persName>, Comandante Geral de Polícia do <placeName ref="#sao_lourenco">departamento do Boqueirão</placeName>.</p>
                 

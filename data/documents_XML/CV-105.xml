@@ -42,7 +42,7 @@
             <div type="letter" xml:id="CV-105">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <dateline>
@@ -50,24 +50,24 @@
                     <date when="1840-02-14">14 de fevereiro de 1840</date>.
                 </dateline>
                 
-                <p>O Capitão <persName ref="#hipolito">Hipólito</persName> com 30 homens, inclusive 3 subalternos, se apresentaram neste campo a 12 do corrente, sendo o único socorro que em 32 dias, que aqui me acho, tenho tido dessa insensível Província! Parece impossível, Exmo. Sr., que uma Província amante da ordem como é a de <placeName ref="#sao_paulo_provincia">São Paulo</placeName>, e que conta perto de 400.000 habitantes, não tenha meios de nos coadjúvar com o limitado socorro de 1.000 homens para fortuna do Sul, e que tudo depende de ordens superiores, e que nestas desculpas se nos vá o tempo, até que o inimigo (que não dorme) se reúna das mais longínquas partes em que se acham e nos bata em nossa apatia.</p>
+                <p>O Capitão <persName ref="#hipolito">Hipólito</persName> com 30 homens, inclusive 3 subalternos, se apresentaram neste campo a 12 do corrente, sendo o único socorro que em 32 dias, que aqui me acho, tenho tido dessa insensível Província! Parece impossível, Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>, que uma Província amante da ordem como é a de <placeName ref="#sao_paulo_provincia">São Paulo</placeName>, e que conta perto de 400.000 habitantes, não tenha meios de nos coadjúvar com o limitado socorro de 1.000 homens para fortuna do Sul, e que tudo depende de ordens superiores, e que nestas desculpas se nos vá o tempo, até que o inimigo (que não dorme) se reúna das mais longínquas partes em que se acham e nos bata em nossa apatia.</p>
                 
-                <p>Este lugar, Exmo. Sr., está inteiramente falto até daqueles meios necessários para conservar a existência; nele tudo é desolação e miséria, e não é possível portanto que eu me possa conservar com esta força sem ser socorrido por mais de 20 dias ou um mês o mais tarde; portanto, ou hei de sacrificar-me com a força avançando para a frente, ou pôr-me na mais triste e intempestiva retirada; retirada que talvez seja funesta a essa Província e à causa legal pelo gás que vai dar aos anarquistas.</p>
+                <p>Este lugar, Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>, está inteiramente falto até daqueles meios necessários para conservar a existência; nele tudo é desolação e miséria, e não é possível portanto que eu me possa conservar com esta força sem ser socorrido por mais de 20 dias ou um mês o mais tarde; portanto, ou hei de sacrificar-me com a força avançando para a frente, ou pôr-me na mais triste e intempestiva retirada; retirada que talvez seja funesta a essa Província e à causa legal pelo gás que vai dar aos anarquistas.</p>
                 
                 <p>O inimigo em número de 400 se acha em <placeName ref="#lages">Lages</placeName>, blasonando de maiores socorros, e de intentarem até a invasão dessa Província. Eu não creio que tal aconteça, porém, à vista do que observo, da falta de patriotismo e nenhum recurso enviado até o presente, quase que não duvido disso.</p>
                 
-                <p>Exmo. Sr., eu não tenho crédito algum nessa Província, por isso me não dirijo ao Exmo. Presidente dela; porém conservo uma forte esperança em V.Exª., que nos auxiliará e proverá todos os meios para a comum felicidade, e lembre-se V.Exª. que perdida a minha Província, perdido está o resto do Brasil; V.Exª. bem o conhece.</p>
+                <p>Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>, eu não tenho crédito algum nessa Província, por isso me não dirijo ao Exmo. Presidente dela; porém conservo uma forte esperança em <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>, que nos auxiliará e proverá todos os meios para a comum felicidade, e lembre-se <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> que perdida a minha Província, perdido está o resto do Brasil; <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> bem o conhece.</p>
                 
                 <p>Agora se há um plano oculto, que não convenha por isso o completo triunfo da lei, então eu desejava também saber a fim de tomar providências para a salvação destes sinceros que me acompanham cheios da melhor fé do mundo. De <placeName ref="#santa_catarina">Santa Catarina</placeName> até o presente nada sei, apesar de já ter oficiado ao Exmo. Presidente dela.</p>
                 
-                <p>Minha força se acha nua, sem soldo, sem fumo, sem armamento e munições; enfim, cheia de fome e quanto se necessita; V.Exª. bem sabe o que é um povo nestas circunstâncias. É quanto tenho a honra de levar ao alto conhecimento de V.Exª.. Deus guarde a V.Exª. muitos anos.</p>
+                <p>Minha força se acha nua, sem soldo, sem fumo, sem armamento e munições; enfim, cheia de fome e quanto se necessita; <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> bem sabe o que é um povo nestas circunstâncias. É quanto tenho a honra de levar ao alto conhecimento de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>. Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muitos anos.</p>
                 
                 <closer>
                     <signed><persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName>,<br/>
                         Coronel Comandante da Imperial Brigada Cruz-altense.</signed>
                 </closer>
                 
-                <note type="endorsement">Ilmo. Exmo. Sr. <persName ref="#joao_silva_machado">João da Silva Machado</persName>. Comandante Superior das Legiões de G.N. do Sul da Província de São Paulo e da Divisão do Rio Negro e Lages.</note>
+                <note type="endorsement">Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_silva_machado">João da Silva Machado</persName>. Comandante Superior das Legiões de G.N. do Sul da Província de São Paulo e da Divisão do Rio Negro e Lages.</note>
                 
                 <note type="endorsement">Doado pelo saudoso Martim Francisco Filho. (a) A. Varela.</note>
                 <note type="endorsement">[Cópia]</note>

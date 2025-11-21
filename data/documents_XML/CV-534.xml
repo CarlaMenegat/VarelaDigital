@@ -41,14 +41,14 @@
             <div type="letter" xml:id="CV-534">
                 
                 <opener>
-                    <salute>Cópia — <persName ref="#joao_da_cunha_pecanha">Sr. João da Cunha Peçanha</persName>.</salute>
+                    <salute>Cópia — <persName ref="#joao_da_cunha_pecanha"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> João da Cunha Peçanha</persName>.</salute>
                     <dateline><placeName ref="#bage">Bagé</placeName>, <date when="1841-10-21">21 de outubro de 1841</date>.</dateline>
                     <salute>Parente e amigo.</salute>
                 </opener>
                 
-                <p>Incluso tem V.Mcê. o extrato de minhas contas com o meu falecido amigo <persName ref="#antonio_jose_goncalves_chaves_pai">Antônio José Gonçalves Chaves</persName>, para com elas V.Mcê. ajustar com o <persName ref="#antonio_jose_goncalves_chaves_filho">Sr. Dr. Chaves</persName> as que constar dos assentos dos livros de seu honrado pai. O saldo nos meus livros aparecia maior porque as 25 onças debitadas em 18 de janeiro de 1835 se achavam já debitadas a 20 de dezembro de 1834: ora, se foram por duas vezes dadas, pode constar de seus assentos, aos quais muito respeito por conhecer sua honradez. Se o <persName ref="#antonio_jose_goncalves_chaves_filho">Sr. Dr. Chaves</persName> der o restante, receba e empregue por sua conta.</p>
+                <p>Incluso tem <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> o extrato de minhas contas com o meu falecido amigo <persName ref="#antonio_jose_goncalves_chaves_pai">Antônio José Gonçalves Chaves</persName>, para com elas <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> ajustar com o <persName ref="#antonio_jose_goncalves_chaves_filho"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Dr. Chaves</persName> as que constar dos assentos dos livros de seu honrado pai. O saldo nos meus livros aparecia maior porque as 25 onças debitadas em 18 de janeiro de 1835 se achavam já debitadas a 20 de dezembro de 1834: ora, se foram por duas vezes dadas, pode constar de seus assentos, aos quais muito respeito por conhecer sua honradez. Se o <persName ref="#antonio_jose_goncalves_chaves_filho"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Dr. Chaves</persName> der o restante, receba e empregue por sua conta.</p>
                 
-                <p>De V.Mcê. parente e amigo obrigado.</p>
+                <p>De <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> parente e amigo obrigado.</p>
                 
                 <closer>
                     <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>

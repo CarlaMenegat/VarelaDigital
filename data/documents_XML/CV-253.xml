@@ -73,7 +73,7 @@
                     <persName ref="#joao_barcelos">João</persName>, que me diz ter ganho muito dinheiro no 
                     fornecimento a <persName ref="#fructuoso_rivera">Fructo</persName>, e que este se acha em estado de breve 
                     ficar senhor de <placeName ref="#montevideu">Montevidéu</placeName>, o que, a verificar-se, talvez que o 
-                    Sr. <persName ref="#manuel_oribe">Ramirez</persName> não saia como pensa.
+                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#manuel_oribe">Ramirez</persName> não saia como pensa.
                 </p>
                 
                 <p>
@@ -85,7 +85,7 @@
                 
                 <p>
                     Os meninos vão indo bem, assim sucede com os de lá, a quem por mim 
-                    abraçarás. Dês lembranças ao Sr. <persName ref="#jose_rodrigues_chaves">Chaves</persName>, sua mulher, 
+                    abraçarás. Dês lembranças ao <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#jose_rodrigues_chaves">Chaves</persName>, sua mulher, 
                     comadre <persName ref="#carlota">Carlota</persName>, 
                     <persName ref="#manuel_campis">Manuel Campis</persName> e a todos em geral; e recebe tu o 
                     coração do teu
@@ -96,8 +96,8 @@
                 </closer>
                 
                 <note type="endorsement">
-                    Sra. Bernardina Barcelos de Almeida.  
-                    Em casa do Sr. <persName ref="#jose_rodrigues_chaves">José Rodrigues Chaves</persName>.
+                    <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> Bernardina Barcelos de Almeida.  
+                    Em casa do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#jose_rodrigues_chaves">José Rodrigues Chaves</persName>.
                 </note>
                 
             </div>

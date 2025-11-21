@@ -46,12 +46,12 @@
             <div type="letter" xml:id="CV-517">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Querendo o Governo impôr-se do estado da aula pública a seu cargo e dos alunos que a frequentam há nomeado uma comissão composta dos cidadãos <persName ref="#manuel_martins_silveira_lemos">Manuel Martins da Silveira Lemos</persName>, <persName ref="#jose_maria_pereira_campos">José Maria Pereira de Campos</persName> e <persName ref="#augusto_siqueira_leitao">Augusto de Siqueira Pereira Leitão</persName>, marcando-lhe o dia 17 do corrente para o respectivo exame; o que lhe comunico para sua inteligência.</p>
                 
-                <p>Deus guarde a V.S.ª.</p>
+                <p>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                 
                 <closer>
                     <signed>Secretaria do Interior</signed>

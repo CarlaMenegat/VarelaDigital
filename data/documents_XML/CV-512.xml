@@ -43,15 +43,15 @@
             <div type="letter" xml:id="CV-512">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Não tendo V.S.ª mandado procurar os seis patacões que me pediu por carta de 17 do corrente, não lhos tenho mandado, e nem o faria se agora mesmo não deparasse com a sua dita carta, em virtude da qual juntos achará os mencionados seis patacões, de que me enviará recebido.</p>
+                <p>Não tendo <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> mandado procurar os seis patacões que me pediu por carta de 17 do corrente, não lhos tenho mandado, e nem o faria se agora mesmo não deparasse com a sua dita carta, em virtude da qual juntos achará os mencionados seis patacões, de que me enviará recebido.</p>
                 
                 <p>Sem outro assunto sou</p>
                 
                 <closer>
-                    <salute>De V.S.ª</salute>
+                    <salute>De <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice></salute>
                     <signed>Afetuoso venerador e criado</signed>
                 </closer>
                 

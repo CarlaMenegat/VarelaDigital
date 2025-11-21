@@ -46,22 +46,22 @@
             <div xml:id="CV-489" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr. <persName ref="#luis_antonio_castro_braga">Luís Antônio de Castro Braga</persName></salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#luis_antonio_castro_braga">Luís Antônio de Castro Braga</persName></salute>
                     <dateline><placeName ref="#bage">Bagé</placeName>, 26 de agosto de 1841.</dateline>
                 </opener>
                 
-                <p>Prezado amigo e Sr.</p>
+                <p>Prezado amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></p>
                 
                 <p>Tendo ainda agora 4 da tarde recebido a sua estimada de 23 do passado, passo a contestá-la, para aproveitar um próprio que para essa parte amanhã cedo.</p>
                 
-                <p>Tendo-se expedido ordens terminantes para se confiscar todas as mercadorias que desse município se encontrar com direção ao campo inimigo, bem com direção a <placeName ref="#sao_gabriel">São Gabriel</placeName>, <placeName ref="#santa_maria_boca_monte">Santa Maria da Boca do Monte</placeName> ou <placeName ref="#cruz_alta">Cruz Alta</placeName>, não pode ter lugar a permissão da introdução de farinhas que V.S.ª exige para a Sra. <persName ref="#leocadia">D. Leocádia</persName>; o que sobreponto sinto.</p>
+                <p>Tendo-se expedido ordens terminantes para se confiscar todas as mercadorias que desse município se encontrar com direção ao campo inimigo, bem com direção a <placeName ref="#sao_gabriel">São Gabriel</placeName>, <placeName ref="#santa_maria_boca_monte">Santa Maria da Boca do Monte</placeName> ou <placeName ref="#cruz_alta">Cruz Alta</placeName>, não pode ter lugar a permissão da introdução de farinhas que <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> exige para a <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> <persName ref="#leocadia">D. Leocádia</persName>; o que sobreponto sinto.</p>
                 
-                <p>O amigo <persName ref="#bocquin">Bocquin</persName> partiu ontem para <placeName ref="#montevideo">Montevidéu</placeName> a ver-se com sua família, apesar de não ter plena certeza de ali achar-se, e sim duas sobrinhas. A ele hei mandado dar Rs. 107$420, importância dos gêneros que V. S.ª me remeteu a 2 e 8 de novembro p.p. e que ele me disse os havia pago a V.S.ª.</p>
+                <p>O amigo <persName ref="#bocquin">Bocquin</persName> partiu ontem para <placeName ref="#montevideo">Montevidéu</placeName> a ver-se com sua família, apesar de não ter plena certeza de ali achar-se, e sim duas sobrinhas. A ele hei mandado dar Rs. 107$420, importância dos gêneros que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> me remeteu a 2 e 8 de novembro p.p. e que ele me disse os havia pago a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                 
                 <p>Meus serviços continuam à sua disposição, pois que com veras sou</p>
                 
                 <closer>
-                    <p>De V.S.ª<br/>Amigo muito afetuoso e obrigado</p>
+                    <p>De <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice><br/>Amigo muito afetuoso e obrigado</p>
                     <signed>(a) Almeida.</signed>
                 </closer>
                 

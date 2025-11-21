@@ -46,12 +46,12 @@
             <div xml:id="CV-440" type="letter">
                 
                 <opener>
-                    <salute>Exmo. amigo Sr. Matos</salute>
+                    <salute>Exmo. amigo <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Matos</salute>
                 </opener>
                 
                 <p>Veja o requerimento de <persName ref="#manuel_jose_xavier">Manuel José Xavier</persName>, e diga-me o que fazer a respeito. O falecido filho foi camelo, depois farrapo onde foi promovido a tenente: era mui bom como diz <persName ref="#guedes">Guedes</persName>; depois o <persName ref="#tenente_leite">Tenente Leite</persName>, quando mandado de <placeName ref="#cacapava">Caçapava</placeName> rebanhar cavalos, tirou-lhe todos estando ele em serviço.</p>
                 
-                <p>Disto se desgostou; <persName ref="#guedes">Guedes</persName> quis-lhe dar documento, ele não aceitou, e quando passou Loureiro para <placeName ref="#santana_livramento">Santana do Livramento</placeName>, a ele se reuniu. O gado já o mesmo <persName ref="#guedes">Guedes</persName> dispôs; mas pode ser que ainda exista: e segundo a marcha do governo eu penso que se deve dar ao pai tudo, se ainda existir, ou aquilo que houver. V. Ex.ª porém dirá o que se deve fazer.</p>
+                <p>Disto se desgostou; <persName ref="#guedes">Guedes</persName> quis-lhe dar documento, ele não aceitou, e quando passou Loureiro para <placeName ref="#santana_livramento">Santana do Livramento</placeName>, a ele se reuniu. O gado já o mesmo <persName ref="#guedes">Guedes</persName> dispôs; mas pode ser que ainda exista: e segundo a marcha do governo eu penso que se deve dar ao pai tudo, se ainda existir, ou aquilo que houver. <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> porém dirá o que se deve fazer.</p>
                 
                 <dateline>Sua casa, <date when="1841-01-25">25 de janeiro de 1841</date>.</dateline>
                 
@@ -69,7 +69,7 @@
                 </add>
                 
                 <address>
-                    <persName ref="#jose_mariano_matos">Exmo. Sr. Matos.</persName><br/>
+                    <persName ref="#jose_mariano_matos">Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Matos.</persName><br/>
                     <note>Sua casa.</note>
                 </address>
             </div>

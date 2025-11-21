@@ -40,15 +40,15 @@
             <div type="letter" xml:id="CV-94">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p><persName ref="#lucio_antonio_santa_ana">Lúcio Antônio de Santa Ana</persName>, soldado do <orgName ref="#batalhao_cacadores_3">Batalhão de Caçadores 3</orgName>, que ficou doente na estância do <persName ref="#padre_feliciano">Padre Feliciano</persName>, quando este batalhão marchava a fazer junção com as forças vindas do <placeName ref="#rio_grande">Rio Grande</placeName>, caiu prisioneiro no dia 25 do próximo passado novembro, quando foi derrotada a força rebelde caudilhada por <persName ref="#agostinho">Agostinho</persName> e, como informado fosse destas circunstâncias, o tirei do círculo dos mais prisioneiros para o entregar ao batalhão; e agora apresento-o a V.Exª. para resolver como julgar queira.</p>
+                <p><persName ref="#lucio_antonio_santa_ana">Lúcio Antônio de Santa Ana</persName>, soldado do <orgName ref="#batalhao_cacadores_3">Batalhão de Caçadores 3</orgName>, que ficou doente na estância do <persName ref="#padre_feliciano">Padre Feliciano</persName>, quando este batalhão marchava a fazer junção com as forças vindas do <placeName ref="#rio_grande">Rio Grande</placeName>, caiu prisioneiro no dia 25 do próximo passado novembro, quando foi derrotada a força rebelde caudilhada por <persName ref="#agostinho">Agostinho</persName> e, como informado fosse destas circunstâncias, o tirei do círculo dos mais prisioneiros para o entregar ao batalhão; e agora apresento-o a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> para resolver como julgar queira.</p>
                 
-                <p>Deus guarde a V.Exª.. <placeName ref="#restinga_seca">Acampamento na Restinga Seca</placeName>, <date when="1841-12-08">8 de dezembro 1841</date>.</p>
+                <p>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>. <placeName ref="#restinga_seca">Acampamento na Restinga Seca</placeName>, <date when="1841-12-08">8 de dezembro 1841</date>.</p>
                 
                 <closer>
-                    <signed>Ilmo. e Exmo. Sr. <persName ref="#antonio_correia_seara">Antônio Correia Seara</persName>.</signed>
+                    <signed>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#antonio_correia_seara">Antônio Correia Seara</persName>.</signed>
                     <signed>Brigadeiro Comandante Interino das Forças em Operações.</signed>
                     <signed>(a) <persName ref="#francisco_manuel_accioli">Francisco Manuel Accioli</persName>.</signed>
                     <signed>Capitão Comandante Interino.</signed>

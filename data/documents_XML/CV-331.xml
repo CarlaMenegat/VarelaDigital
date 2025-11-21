@@ -48,7 +48,7 @@
             <div type="letter" xml:id="CV-331">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>A vista do sucedido com os lanchões a 23 do mês passado, como me participa por ofício de 25, cumpre que V.Sº. mande entregar ao Tenente-coronel Chefe Geral de Polícia de <placeName ref="#canguçu">Canguçu</placeName>, para ter em arrecadação segura, a peça, munições e aparelhos de ditos lanchões, fazendo seguir para o exército os oficiais e marinheiros que os tripulavam, a fim de serem empregados na <orgName ref="#esquadra_laguna">esquadra que se organiza na Laguna</orgName>, como já por ofício de 22 determinei ao Tenente <persName ref="#zeferino_dutra">Zeferino Pereira Dutra</persName>, comandante deles.</p>
@@ -59,7 +59,7 @@
                     <placeName ref="#cacapava">Caçapava</placeName>, <date when="1839-09-08">8 de setembro de 1839</date>
                 </closer>
                 
-                <p>Ilmo. Sr. <persName ref="#inacio_jose_guimaraes">Inácio José de Oliveira Guimarães</persName>. Chefe Geral de Polícia do Departamento do Boqueirão.</p>
+                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_jose_guimaraes">Inácio José de Oliveira Guimarães</persName>. Chefe Geral de Polícia do Departamento do Boqueirão.</p>
                 
                 <note type="endorsement">Ofício do Exmo. Ministro da Guerra de 8 de setembro, recebido a 8 de outubro, sobre os lanchões e respondido a 9 do mesmo.</note>
                 

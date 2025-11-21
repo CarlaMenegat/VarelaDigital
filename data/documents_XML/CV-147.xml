@@ -104,7 +104,7 @@
         <body>
             <div type="letter" xml:id="CV-147">
                 
-                <opener><salute>Ilmo. Sr.</salute></opener>
+                <opener><salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute></opener>
                 
                 <p>Nesta data se ordenou por parte do governo ao cidadão 
                     <persName ref="#pedro_vieira">Coronel Pedro Vieira</persName> para promover, além de 
@@ -113,13 +113,13 @@
                     não só para observar os movimentos do inimigo, mas ainda para perseguir e bater 
                     qualquer grupo que, durante a ausência da 
                     <orgName ref="#divisao_esquerda">Divisão da Esquerda</orgName>, ouse pisar nosso território; 
-                    em consequência a V. S.º cumpre coadjuvá-lo em tudo aquilo que estiver ao seu 
+                    em consequência a <choice><abbr>V. S.</abbr><expan>Vossa Senhoria</expan></choice>º cumpre coadjuvá-lo em tudo aquilo que estiver ao seu 
                     alcance, procedendo no seu município à reunião de todos aqueles homens que ainda 
                     nele existam aptos para o serviço, suspendendo todas as portarias de isenção, 
                     certo que a lei suprema é a salvação pública. Confio que para desempenho de tão 
-                    salutar providência V. S.ª fará, como costuma, todos os sacrifícios.</p>
+                    salutar providência <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> fará, como costuma, todos os sacrifícios.</p>
                 
-                <p>Deus guarde a V. S.ª. 
+                <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>. 
                     <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName> em 
                     <placeName ref="#cacapava">Caçapava</placeName>, 
                     <date when="1840-04-01">1.º de abril de 1840</date>.</p>
@@ -137,7 +137,7 @@
                 </closer>
                 
                 <note type="endorsement">
-                    Ilmo. Sr. <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.  
+                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.  
                     
                     (a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>.  
                     

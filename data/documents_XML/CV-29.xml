@@ -34,7 +34,7 @@
                 </correspAction>
                 
                 <correspAction type="received">
-                    <persName>Ilmo. e Exmo. Sr.</persName>
+                    <persName>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -44,11 +44,11 @@
         <body>
             <div type="letter" xml:id="CV-29">
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
-                    Perante V.Ex.ª recorre o cidadão <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>,
+                    Perante <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> recorre o cidadão <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>,
                     confiado que se lhe faça reta e imparcial justiça, à vista da arbitrária deliberação
                     proferida contra o recorrente pelo atual Juiz de Direito da Comarca de
                     <placeName ref="#piratini">Piratini</placeName>, como passa a demonstrar.
@@ -84,8 +84,8 @@
                 <p>
                     É pois à vista das razões ponderadas que o recorrente considera ter-lhe aquele juiz
                     feito manifesta injustiça, e não tendo o recorrente para onde recorra senão para a
-                    autoridade de V.Ex.ª, por ser em tais casos competente pela necessidade de pronto
-                    recurso, espera o recorrente que V.Ex.ª se dignará mandar aquele juiz faça subsistir
+                    autoridade de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, por ser em tais casos competente pela necessidade de pronto
+                    recurso, espera o recorrente que <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> se dignará mandar aquele juiz faça subsistir
                     aquela curadoria na pessoa do recorrente, havendo-se de nenhum efeito o despacho que
                     o desonerou, por ir de encontro à marcha judiciária, e com grave ofensa do direito
                     do recorrente.

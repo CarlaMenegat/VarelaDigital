@@ -54,13 +54,13 @@
             <div type="letter" xml:id="CV-346">
                 
                 <opener>
-                    <salute>Meu respeitavel compadre amigo e Sr.</salute>
+                    <salute>Meu respeitavel compadre amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p><persName ref="#felicio_soares_silva">Felício Soares da Silva</persName> pretende remover para <placeName ref="#candiota">Candiota</placeName> o gado que tem no rincão de Pereira, oferecendo para isso pagar arrendamento ao Estado: veja V.Sª. se admite a sua pretensão para exarar-se as ordens a respeito.</p>
+                <p><persName ref="#felicio_soares_silva">Felício Soares da Silva</persName> pretende remover para <placeName ref="#candiota">Candiota</placeName> o gado que tem no rincão de Pereira, oferecendo para isso pagar arrendamento ao Estado: veja <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> se admite a sua pretensão para exarar-se as ordens a respeito.</p>
                 
                 <closer>
-                    <p>De V. Exª.</p>
+                    <p>De <choice><abbr>V. Exª.</abbr><expan>Vossa Excelência</expan></choice></p>
                     <salute>Compadre amigo e obrigado</salute>
                     <signed>Almeida</signed>
                     <date when="1839-11-20">Caçapava, 20 de novembro de 1839</date>
@@ -78,7 +78,7 @@
                 </closer>
                 
                 <note type="endorsement">Légua e meia de campo no fundo de Candiota. 150$</note>
-                <note type="endorsement">Ilmo. e Exmo. Sr. Presidente do Estado. Em mão.</note>
+                <note type="endorsement">Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente do Estado. Em mão.</note>
                 
             </div>
         </body>

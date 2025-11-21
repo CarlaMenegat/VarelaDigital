@@ -46,24 +46,24 @@
             <div xml:id="CV-484" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Estando gravemente enfermo <persName ref="#serafim_dias">Serafim Dias</persName>, cabo da 5.º Companhia do 3.º Batalhão, e sem roupa alguma com que se cobrir, haja V. Mcê. de lhe dar o ponche feito, e avisar em tempo idôneo ao comandante do dito Batalhão para a carga respectiva.</p>
+                <p>Estando gravemente enfermo <persName ref="#serafim_dias">Serafim Dias</persName>, cabo da 5.º Companhia do 3.º Batalhão, e sem roupa alguma com que se cobrir, haja <choice><abbr>V. Mcê.</abbr><expan>Vossa Mercê</expan></choice> de lhe dar o ponche feito, e avisar em tempo idôneo ao comandante do dito Batalhão para a carga respectiva.</p>
                 
                 <closer>
-                    <salute>Deus guarde a V. S.ª.</salute>
+                    <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
                     <dateline>Secretaria do Interior e Fazenda encarregada do expediente da Guerra em <placeName ref="#bage">Bagé</placeName>, 20 de agosto de 1841.</dateline>
                     <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
                 </closer>
                 
                 <address>
-                    <persName ref="#bernardo_jose_rodrigues_filho">Ilmo. Sr. Bernardo José Rodrigues</persName><br/>
+                    <persName ref="#bernardo_jose_rodrigues_filho">Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Bernardo José Rodrigues</persName><br/>
                     1.º Deputado do Quartel-mestre-general
                 </address>
                 
                 <note type="endorsement">
-                    S. da R. — Ao cidadão <persName ref="#bernardo_jose_rodrigues_filho">Bernardo José Rodrigues</persName>, 1.º Deputado do Quartel-mestre-general. Do Ministério da Guerra.
+                    <choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice> — Ao cidadão <persName ref="#bernardo_jose_rodrigues_filho">Bernardo José Rodrigues</persName>, 1.º Deputado do Quartel-mestre-general. Do Ministério da Guerra.
                 </note>
                 
             </div>

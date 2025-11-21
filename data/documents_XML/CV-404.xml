@@ -46,7 +46,7 @@
             <div xml:id="CV-404" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Tendo à vista seu ofício de ontem no qual, capeando o que lhe dirigira o Major Presidente do 
@@ -79,7 +79,7 @@
                     para com elas praticar-se o contrário.</p>
                 
                 <closer>
-                    <p>Deus guarde a V.S.ª.</p>
+                    <p>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                 </closer>
                 
                 <p><orgName ref="#secretaria_interior_fazenda">Secretaria do Interior e Fazenda</orgName> encarregada do expediente da 
@@ -87,7 +87,7 @@
                 
                 <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</signed>
                 
-                <p>Ilmo. Sr. Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>, 
+                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>, 
                     Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</p>
                 
             </div>

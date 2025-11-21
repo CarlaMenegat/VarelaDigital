@@ -48,13 +48,13 @@
                 <note type="copy">Cópia</note>
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Neste momento tenho parte que passou <persName ref="#jeronimo_jacinto">Jerônimo Jacinto</persName> no passo da <placeName ref="#cachoeira">Cachoeira</placeName> com 200 homens de cavalaria, e me persuado será para bater-me ou a V. S.ª; seja como for preciso é muita cautela entre nós. O <orgName ref="#exercito">exército</orgName> hoje vem passar em <placeName ref="#santa_barbara">Santa Bárbara</placeName> e agora mesmo vou dirigir-me ao General a ver se cortamos ao dito <persName ref="#jeronimo_jacinto">Jerônimo</persName>.</p>
+                <p>Neste momento tenho parte que passou <persName ref="#jeronimo_jacinto">Jerônimo Jacinto</persName> no passo da <placeName ref="#cachoeira">Cachoeira</placeName> com 200 homens de cavalaria, e me persuado será para bater-me ou a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>; seja como for preciso é muita cautela entre nós. O <orgName ref="#exercito">exército</orgName> hoje vem passar em <placeName ref="#santa_barbara">Santa Bárbara</placeName> e agora mesmo vou dirigir-me ao General a ver se cortamos ao dito <persName ref="#jeronimo_jacinto">Jerônimo</persName>.</p>
                 
                 <closer>
-                    <p>Deus guarde a V. S.ª.</p>
+                    <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                     <p>Campo em <placeName ref="#capane">Capané</placeName>, 21 de fevereiro de 1841.</p>
                     <signed>Ao cidadão Coronel <persName ref="#agostinho_antonio_melo">Agostinho Antônio de Melo</persName>, Comandante das Forças sobre <placeName ref="#jacui">Jacuí</placeName>.</signed>
                     <signed><persName ref="#felisberto_machado_carvalho_ourique">Felisberto Machado de Carvalho Ourique</persName>.</signed>

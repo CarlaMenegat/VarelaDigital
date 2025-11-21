@@ -50,14 +50,14 @@
             <div type="letter" xml:id="CV-310">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Tendo projetado estabelecer no <placeName ref="#cruz_alta">Município da Cruz Alta</placeName> um bom depósito de mulas onde talvez se proporcione pronta venda e com vantagem, para o efeito ora hei encarregado ao Coronel <persName ref="#jose_ribeiro_almeida">José Ribeiro de Almeida</persName> do aparte e remessa de todas as mulas no departamento de sua jurisdição existentes, ao cidadão <persName ref="#rodrigo_felix_martins">Rodrigo Félix Martins</persName> morador em <placeName ref="#jacuizinho">Jacuizinho</placeName>, e a mesma coisa determinei ao Capitão <persName ref="#fidelis_nepomuceno_prates">Fidelis Nepomuceno de Carvalho Prates</persName>, de <placeName ref="#sao_gabriel">São Gabriel</placeName>.</p>
                 
-                <p>Sendo pois que desse ponto V.Sª. possa obter porção daquele artigo pode também enviá-lo ao mesmo destino. À par destas providências outras tenho tomado que breve vão ocorrer às precisões do Estado, bem como a fábrica de ervas em <placeName ref="#taquari">Taquari</placeName> que já conta com perto de 40 operários, a fábrica de carretas na <placeName ref="#botucarai_serra">Serra de Botucaraí</placeName> e a fábrica de curtume em <placeName ref="#rio_pardo">Rio Pardo</placeName>. A do salitre se acha bem adiantada e não tardará fornecer-nos desse importante e indispensável artigo.</p>
+                <p>Sendo pois que desse ponto <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> possa obter porção daquele artigo pode também enviá-lo ao mesmo destino. À par destas providências outras tenho tomado que breve vão ocorrer às precisões do Estado, bem como a fábrica de ervas em <placeName ref="#taquari">Taquari</placeName> que já conta com perto de 40 operários, a fábrica de carretas na <placeName ref="#botucarai_serra">Serra de Botucaraí</placeName> e a fábrica de curtume em <placeName ref="#rio_pardo">Rio Pardo</placeName>. A do salitre se acha bem adiantada e não tardará fornecer-nos desse importante e indispensável artigo.</p>
                 
-                <p>Deus guarde a V.Sª.. <orgName ref="#secretaria_fazenda">Secretaria de Estado dos Negócios da Fazenda</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 16 de maio de 1839.</p>
+                <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>. <orgName ref="#secretaria_fazenda">Secretaria de Estado dos Negócios da Fazenda</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 16 de maio de 1839.</p>
                 
                 <closer>
                     <signed>Domingos José de Almeida</signed>
@@ -65,8 +65,8 @@
                 
                 <p><persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>, Chefe Geral de Polícia do município de <placeName ref="#alegrete">Alegrete</placeName>.</p>
                 
-                <note type="endorsement">S. da R.</note>
-                <note type="endorsement">Ilmo. Sr. Joaquim dos Santos Prado Lima. Chefe Geral de Polícia do município de Alegrete. Do Ministério da Fazenda.</note>
+                <note type="endorsement"><choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice></note>
+                <note type="endorsement">Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Joaquim dos Santos Prado Lima. Chefe Geral de Polícia do município de Alegrete. Do Ministério da Fazenda.</note>
                 <note type="endorsement">Respondido a 29 de maio de 1839. Almeida.</note>
                 <note type="endorsement">São Gabriel.</note>
                 

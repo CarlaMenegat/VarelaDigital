@@ -47,7 +47,7 @@
             <div type="letter" xml:id="CV-130">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Apesar do que se lhe ordenou pela circular que, com data de ontem, 
@@ -58,7 +58,7 @@
                     da incúria e fraqueza com que se portarem, e remetendo presos a esta 
                     capital os mais omissos no desempenho de suas ordens.</p>
                 
-                <p>Deus guarde a V.S.ª. <placeName ref="#cacapava">Secretaria dos Negócios da Guerra e Marinha em Caçapava</placeName>,
+                <p>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>. <placeName ref="#cacapava">Secretaria dos Negócios da Guerra e Marinha em Caçapava</placeName>,
                     <date when="1839-12-20">20 de dezembro de 1839</date>.</p>
                 
                 <closer>
@@ -67,7 +67,7 @@
                 
                 <note type="endorsement">
                     Ofício do Exmo. Ministro da Guerra de 20 de dezembro, recebido a 27 do mesmo.  
-                    S. da R. logo, logo.  
+                    <choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice> logo, logo.  
                     Ao cidadão <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>, 
                     Chefe de Polícia do departamento do Boqueirão.  
                     Do Ministério da Guerra.

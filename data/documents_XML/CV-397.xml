@@ -43,15 +43,15 @@
             <div xml:id="CV-397" type="letter">
                 
                 <opener>
-                    <salute>Exmo. amigo Sr. <persName ref="#jose_mariano_matos">Matos</persName></salute>
+                    <salute>Exmo. amigo <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#jose_mariano_matos">Matos</persName></salute>
                 </opener>
                 
-                <p>Aqui tem o que B.M. diz acerca do negócio de Loureiro. O Coronel Agostinho se presta a ir; venha V. Ex.ª para redigirmos o ofício ou me diga se deve desprezar o negócio.</p>
+                <p>Aqui tem o que B.M. diz acerca do negócio de Loureiro. O Coronel Agostinho se presta a ir; venha <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> para redigirmos o ofício ou me diga se deve desprezar o negócio.</p>
                 
-                <p>Estimarei que a Sra. esteja melhor.</p>
+                <p>Estimarei que a <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> esteja melhor.</p>
                 
                 <closer>
-                    <p>De V. Ex.ª<br/>
+                    <p>De <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice><br/>
                         Amigo muito obrigado</p>
                     <signed>(a) <persName ref="#domingos_jose_almeida">Almeida</persName>.</signed>
                 </closer>
@@ -63,7 +63,7 @@
                     <salute>Exmo. amigo</salute>
                 </opener>
                 
-                <p>V. Ex.º deve escrever de minha parte a Loureiro para o fim que sabe oferecendo-lhe o posto de coronel da <orgName ref="#republica_farroupilha">República</orgName>, comando da <placeName ref="#fronteira_missoes">Fronteira de Missões</placeName>, restituição de todos os seus bens e de seus irmãos e parentes, bem como os de todas as pessoas que com ele se apresentarem, indenização de prejuízos, etc., etc...</p>
+                <p><choice><abbr>V. Ex.</abbr><expan>Vossa Excelência</expan></choice>º deve escrever de minha parte a Loureiro para o fim que sabe oferecendo-lhe o posto de coronel da <orgName ref="#republica_farroupilha">República</orgName>, comando da <placeName ref="#fronteira_missoes">Fronteira de Missões</placeName>, restituição de todos os seus bens e de seus irmãos e parentes, bem como os de todas as pessoas que com ele se apresentarem, indenização de prejuízos, etc., etc...</p>
                 
                 <p>Eu não vou aí porque não julgo necessário; e estou certo que oficiará ao homem do modo mais conveniente.</p>
                 
@@ -78,10 +78,10 @@
                 </closer>
                 
                 <note type="endorsement">
-                    S. da R. [No verso]<br/>
-                    Ilmo. e Exmo. Sr. Coronel <persName ref="#jose_mariano_matos">José Mariano de Matos</persName>.<br/>
+                    <choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice> [No verso]<br/>
+                    Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#jose_mariano_matos">José Mariano de Matos</persName>.<br/>
                     Vice-presidente da <orgName ref="#republica_farroupilha">República</orgName>.<br/>
-                    Em casa do Sr. Tenente-cel. <persName ref="#jose_abreu">José de Abreu</persName>.<br/>
+                    Em casa do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Tenente-cel. <persName ref="#jose_abreu">José de Abreu</persName>.<br/>
                     De <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.
                 </note>
                 

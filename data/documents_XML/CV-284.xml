@@ -54,11 +54,11 @@
             <div type="letter" xml:id="CV-284">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
-                    Manda o Governo que V.Sª., de acordo com o 
+                    Manda o Governo que <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>, de acordo com o 
                     <persName ref="#guedes">Tenente-coronel Guedes</persName> e a 
                     pessoa competentemente autorizada por 
                     <persName ref="#joao_pedro_ramirez">João Pedro Ramirez</persName>, 
@@ -79,7 +79,7 @@
                 </p>
                 
                 <closer>
-                    <salute>Deus guarde a V.Sª.</salute>
+                    <salute>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice></salute>
                     <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
                     <dateline>
                         <placeName ref="#piratini">Piratini</placeName>,
@@ -88,7 +88,7 @@
                 </closer>
                 
                 <note type="verso">
-                    Ilmo. Sr. Joaquim dos Santos Prado Lima, Comandante Geral de 
+                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Joaquim dos Santos Prado Lima, Comandante Geral de 
                     Polícia do Município de <placeName ref="#alegrete">Alegrete</placeName>.
                 </note>
                 

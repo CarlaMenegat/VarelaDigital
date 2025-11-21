@@ -45,7 +45,7 @@
             <div type="letter" xml:id="CV-129">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
@@ -58,7 +58,7 @@
                 </p>
                 
                 <p>
-                    V.S.ª deverá desde já, com a presteza possível, mandar reunir toda a gente
+                    <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> deverá desde já, com a presteza possível, mandar reunir toda a gente
                     de seu município à <orgName ref="#divisao_esquerda">Divisão da Esquerda</orgName>,
                     não excetuando um só homem que possa montar a cavalo, suspendendo todas
                     as portarias, sejam da autoridade que for, ainda mesmo aquelas mais absolutas,
@@ -69,11 +69,11 @@
                     Mandará igualmente levantar toda a cavalhada que houver, tirando-se o nome
                     dos donos e o número de cavalos com que se prestam, para quando forem
                     restituídos serem pagos pelos cofres nacionais os que faltarem, o que o governo
-                    espera da atividade e patriotismo de V.S.ª.
+                    espera da atividade e patriotismo de <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.
                 </p>
                 
                 <closer>
-                    <p>Deus guarde a V.S.ª.</p>
+                    <p>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                     <dateline>
                         Secretaria da Guerra em
                         <placeName ref="#cacapava">Caçapava</placeName>,

@@ -33,7 +33,7 @@
                     <date when="1843-02-21">21 de fevereiro de 1843</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Ilmo. e Exmo. Sr.</persName>
+                    <persName>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -44,7 +44,7 @@
         <body>
             <div type="letter" xml:id="CV-40">
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
@@ -61,7 +61,7 @@
                 <p>
                     Porque estes campos ainda não fossem medidos e demarcados, e o Suplicante 
                     presuma que dentro das supracitadas confrontações haja sobras daquela sesmaria, 
-                    temendo-se que outro qualquer as requeira em dano seu, pede a V.Ex.ª que se 
+                    temendo-se que outro qualquer as requeira em dano seu, pede a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que se 
                     digne conceder por Carta de Sesmaria as sobras existentes no referido rincão.
                 </p>
                 

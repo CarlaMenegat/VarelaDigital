@@ -48,17 +48,17 @@
             <div type="letter" xml:id="CV-233">
                 
                 <opener>
-                    <salute>Ao Sr. Tenente-coronel Damasceno</salute>
+                    <salute>Ao <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Tenente-coronel Damasceno</salute>
                 </opener>
                 
                 <p>
-                    Depois de ter V.S.ª partido, é que me lembrou do conhecimento junto, 
+                    Depois de ter <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> partido, é que me lembrou do conhecimento junto, 
                     que fará o favor mandá-lo entregar ao cidadão 
                     <persName ref="#jose_inacio_cunha">José Inácio da Cunha</persName>.
                 </p>
                 
                 <p>
-                    De nada mais, e sou de V.S.ª companheiro e amigo.
+                    De nada mais, e sou de <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> companheiro e amigo.
                 </p>
                 
                 <closer>
@@ -68,7 +68,7 @@
                 </closer>
                 
                 <note type="endorsement">
-                    Ilmo. Sr. Tenente-coronel 
+                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Tenente-coronel 
                     <persName ref="#joao_jose_damasceno">João José Damasceno</persName>.<br/>
                     <placeName ref="#pelotas">Pelotas</placeName>.
                 </note>

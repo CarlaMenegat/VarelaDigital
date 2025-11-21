@@ -46,7 +46,7 @@
             <div type="carta" xml:id="CV-279">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                     <dateline>
                         <placeName ref="#piratini">Piratini</placeName>,
                         <date when="1839-01-09">9 de janeiro de 1839</date>.
@@ -55,19 +55,19 @@
                 
                 <p>
                     Por virtude de seu ofício de 4 do corrente que ontem à noite recebi,
-                    junta tem V.Sª. a ordem que exigiu para ter à sua disposição todos os
+                    junta tem <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> a ordem que exigiu para ter à sua disposição todos os
                     rendimentos da Coletoria de <placeName ref="#sao_gabriel">São Gabriel</placeName>.
-                    Por esta ocasião rogo a V.Sª. me dispense o Major Joaquim de Faria Correia
+                    Por esta ocasião rogo a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> me dispense o Major Joaquim de Faria Correia
                     ou o Major Manuel Pires para encarregar-se da fatura e remessa das
                     tropas de gado de corte que daquele distrito têm de sair para
                     <placeName ref="#montevideo">Montevidéu</placeName>, provenientes do empréstimo que promovi e do dom
                     gratuito que voluntariamente vários cidadãos têm oferecido para as
                     despesas da presente luta de nossa independência; para o que
-                    dirijo os ofícios juntos que V.Sª. fará seguir sem perda de momento.
+                    dirijo os ofícios juntos que <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> fará seguir sem perda de momento.
                 </p>
                 
                 <closer>
-                    <salute>Deus guarde a V.Sª.</salute>
+                    <salute>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice></salute>
                     <signed>
                         <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     </signed>

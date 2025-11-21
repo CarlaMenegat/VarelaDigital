@@ -34,13 +34,13 @@
         <body>
             <div type="letter" xml:id="CV-10">
                 <opener>
-                    <salute>Amigo e Sr. <persName ref="#almeida">Almeida</persName></salute>
+                    <salute>Amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#almeida">Almeida</persName></salute>
                     <date when="1842-12-18">Salso, 18 de dezembro 1842 anos</date>
                 </opener>
                 
-                <p>Se souber V.Mcê. e sua estimável família sempre têm gozado saúde, serei contente. Faço este próprio somente para levar-lhe os meus documentos e procuração, e certo em seu valimento e aptidão conto ser atendido; o portador leva também carta minha e do <persName ref="#inacio_guimaraes">Inácio</persName> para o tio <persName ref="#bento_goncalves">Bento</persName> a fim de dar sua proteção, assim como escrevo ao Sr. <persName ref="#fontoura">Fontoura</persName>, que suponho por esta parte nada se fará; junto tem V.Mcê. a carta deste para mim, como também a cópia de uma ordem que o tio <persName ref="#bento_goncalves">Bento</persName> me havia dado para eu passar letras dos direitos que tivesse a pagar, cuja ordem foi agora contrariada na Coletoria do <placeName ref="#erval">Erval</placeName> não sei se pelo Ministro ou se pelo Inspetor, e que nada se me levasse em conta sem ordem positiva do governo.</p>
+                <p>Se souber <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> e sua estimável família sempre têm gozado saúde, serei contente. Faço este próprio somente para levar-lhe os meus documentos e procuração, e certo em seu valimento e aptidão conto ser atendido; o portador leva também carta minha e do <persName ref="#inacio_guimaraes">Inácio</persName> para o tio <persName ref="#bento_goncalves">Bento</persName> a fim de dar sua proteção, assim como escrevo ao <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#fontoura">Fontoura</persName>, que suponho por esta parte nada se fará; junto tem <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> a carta deste para mim, como também a cópia de uma ordem que o tio <persName ref="#bento_goncalves">Bento</persName> me havia dado para eu passar letras dos direitos que tivesse a pagar, cuja ordem foi agora contrariada na Coletoria do <placeName ref="#erval">Erval</placeName> não sei se pelo Ministro ou se pelo Inspetor, e que nada se me levasse em conta sem ordem positiva do governo.</p>
                 
-                <p>Portanto, meu amigo, que está, como eu estou, com a minha pouca fortuna sacrificada, e V.Mcê. não ignora, veja o que poderá fazer vendendo carne a 600 rs. fracos, couros 140 rs. e o mais em proporção pagando 350 rs. de frete a cada iate, 800 rs. fortes de direitos, e o mais que V.Mcê. melhor do que eu sabe; enfim, meu amigo, pouco me resta para arrebentar; à vista pois de tudo quanto acima lhe tenho dito, permaneço tranquilo que o meu amigo me fará um serviço sempre lembrado, e que em circunstâncias iguais eu teria prazer.</p>
+                <p>Portanto, meu amigo, que está, como eu estou, com a minha pouca fortuna sacrificada, e <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> não ignora, veja o que poderá fazer vendendo carne a 600 rs. fracos, couros 140 rs. e o mais em proporção pagando 350 rs. de frete a cada iate, 800 rs. fortes de direitos, e o mais que <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> melhor do que eu sabe; enfim, meu amigo, pouco me resta para arrebentar; à vista pois de tudo quanto acima lhe tenho dito, permaneço tranquilo que o meu amigo me fará um serviço sempre lembrado, e que em circunstâncias iguais eu teria prazer.</p>
                 
                 <p>Seus escravos não tem sido possível saber-se deles notícias, e sobre o seu iate nas últimas cartas que do <persName ref="#vicente">Vicente</persName> tive ainda nada tinha arranjado.</p>
                 
@@ -52,7 +52,7 @@
                 </closer>
                 
                 <postscript>
-                    <p>P.S. Muito lhe rogo a prontidão deste meu negócio pois que breve me será preciso apresentar a ordem ou pagar os direitos a dinheiro.</p>
+                    <p><choice><abbr>P.S.</abbr><expan>Post scriptum</expan></choice> Muito lhe rogo a prontidão deste meu negócio pois que breve me será preciso apresentar a ordem ou pagar os direitos a dinheiro.</p>
                 </postscript>
             </div>
         </body>

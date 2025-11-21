@@ -47,10 +47,10 @@
             <div type="letter" xml:id="CV-334">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Participo a V.Sª que desertaram no dia 13 do corrente os soldados 
+                <p>Participo a <choice><abbr>V.Sª</abbr><expan>Vossa Senhoria</expan></choice> que desertaram no dia 13 do corrente os soldados 
                     <persName ref="#norberto_carlos_silva">Norberto Carlos da Silva</persName>, 
                     <persName ref="#antonio_carlos_vidal">Antônio Carlos Vidal</persName>, 
                     <persName ref="#cipriano_espirito_santo">Cipriano Rodrigues do Espírito Santo</persName>, 
@@ -62,15 +62,15 @@
                     Sendo todos passados do inimigo.
                 </p>
                 
-                <p>E o que tenho a levar ao conhecimento de V.Sª para sua inteligência.</p>
+                <p>E o que tenho a levar ao conhecimento de <choice><abbr>V.Sª</abbr><expan>Vossa Senhoria</expan></choice> para sua inteligência.</p>
                 
                 <closer>
-                    <salute>Deus guarde a V.Sª.</salute>
+                    <salute>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice></salute>
                     <signed>Cláudio José da Piedade</signed>
                     <p>Quartel em Caçapava</p>
                 </closer>
                 
-                <p>Ilmo. Sr. <persName ref="#jose_alves_morais">José Alves de Morais</persName>, Tenente-coronel Comandante da Guarnição.</p>
+                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#jose_alves_morais">José Alves de Morais</persName>, Tenente-coronel Comandante da Guarnição.</p>
                 
             </div>
         </body>

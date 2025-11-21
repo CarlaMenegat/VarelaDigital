@@ -46,7 +46,7 @@
             <div xml:id="CV-396" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Apresentando-se nesta quase nús os cidadãos 
@@ -55,11 +55,11 @@
                     <orgName ref="#corpo_cruz_alta">Corpo da Cruz Alta</orgName>, eu lhes mandei dar fazendas, 
                     a saber: para o primeiro um ponche, uma farda, duas camisas, duas calças e uma ceroula, 
                     na importância de 57$880; e para o 2.º um ponche, uma farda, uma camisa, uma ceroula, 
-                    e uma calça, na importância de Rs. 47$160; o que lhe comunico para V. S.ª fazer ciente 
+                    e uma calça, na importância de Rs. 47$160; o que lhe comunico para <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> fazer ciente 
                     ao comandante do referido corpo, a fim de que não entrem segunda vez na distribuição da roupa.</p>
                 
-                <p>Lembro a V.S.ª a necessidade de vestir ao predito Corpo e cidadãos que aí se acham reunidos, 
-                    e que se V.S.ª não mandar uma comissão tirar a que houver para isso próprias em 
+                <p>Lembro a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> a necessidade de vestir ao predito Corpo e cidadãos que aí se acham reunidos, 
+                    e que se <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> não mandar uma comissão tirar a que houver para isso próprias em 
                     <placeName ref="#sao_gabriel">São Gabriel</placeName>, e fornecer 2 seus donos dos competentes documentos, 
                     nada arranjará.</p>
                 
@@ -67,7 +67,7 @@
                     e para isso são indispensáveis os meios.</p>
                 
                 <closer>
-                    <p>Deus guarde a V.S.ª</p>
+                    <p>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice></p>
                 </closer>
                 
                 <p><orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName> em 
@@ -75,11 +75,11 @@
                 
                 <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
                 
-                <p>Ilmo. Sr. Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.<br/>
+                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.<br/>
                     Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</p>
                 
                 <note type="endorsement">
-                    S. da R. [No verso]<br/>
+                    <choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice> [No verso]<br/>
                     Ao cidadão Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>. 
                     Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.<br/>
                     Do <orgName ref="#ministerio_fazenda">Ministério da Fazenda</orgName>.

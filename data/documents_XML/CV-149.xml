@@ -106,14 +106,14 @@
             <div type="letter" xml:id="CV-149">
                 
                 <opener>
-                    <salute>Circular. Ilmo. Sr.</salute>
+                    <salute>Circular. Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Achando-se o <persName ref="#camilo_campelo">Tenente-coronel Camilo</persName> encarregado pelo governo das operações além de <placeName ref="#camaqua">Camaquã</placeName>, durante a ausência do Comandante da <orgName ref="#divisao_esquerda">Divisão da Esquerda</orgName>, claro fica que a ele só compete a segurança e tranquilidade da fronteira que lhe foi confiada; e por isso é da rigorosa obrigação de V. S.ª prestar-se por todos os meios ao seu alcance às suas reclamações.</p>
+                <p>Achando-se o <persName ref="#camilo_campelo">Tenente-coronel Camilo</persName> encarregado pelo governo das operações além de <placeName ref="#camaqua">Camaquã</placeName>, durante a ausência do Comandante da <orgName ref="#divisao_esquerda">Divisão da Esquerda</orgName>, claro fica que a ele só compete a segurança e tranquilidade da fronteira que lhe foi confiada; e por isso é da rigorosa obrigação de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> prestar-se por todos os meios ao seu alcance às suas reclamações.</p>
                 
-                <p>Mister é pois coadjuvá-lo, remetendo-lhe V. S.ª os contingentes que for possível e até reunindo-se a ele quando urjam as circunstâncias. Para defender e evitar-se as frequentes invasões do inimigo, deve haver uma massa, e jamais com pequenas frações nos respectivos municípios se poderá conseguir bons resultados, como desgraçadamente tem acontecido segundo faz sentir aquele comandante.</p>
+                <p>Mister é pois coadjuvá-lo, remetendo-lhe <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> os contingentes que for possível e até reunindo-se a ele quando urjam as circunstâncias. Para defender e evitar-se as frequentes invasões do inimigo, deve haver uma massa, e jamais com pequenas frações nos respectivos municípios se poderá conseguir bons resultados, como desgraçadamente tem acontecido segundo faz sentir aquele comandante.</p>
                 
-                <p>Confia o governo que V. S.ª será exato observador de suas ordens. Deus guarde a V. S.ª. <orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, <date when="1840-05-20">20 de maio de 1840</date>.</p>
+                <p>Confia o governo que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> será exato observador de suas ordens. Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>. <orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, <date when="1840-05-20">20 de maio de 1840</date>.</p>
                 
                 <closer>
                     <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
@@ -124,7 +124,7 @@
                 </closer>
                 
                 <note type="endorsement">
-                    Ilmo. Sr. <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>, 
+                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>, 
                     Comandante Geral de Polícia do <placeName ref="#boqueirao">Departamento do Boqueirão</placeName>.  
                     Do <orgName ref="#ministerio_guerra">Ministério da Guerra</orgName>.  
                     

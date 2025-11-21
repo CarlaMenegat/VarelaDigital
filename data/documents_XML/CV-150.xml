@@ -105,13 +105,13 @@
         <body>
             <div type="letter" xml:id="CV-150">
                 
-                <opener><salute>Ilmo. Sr.</salute></opener>
+                <opener><salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute></opener>
                 
-                <p>Passo às mãos de V. S.ª a cópia junta da qual verá V. S.ª os movimentos do inimigo. É mui provável que, sabendo nosso estado indefeso, intente vir a esta capital.</p>
+                <p>Passo às mãos de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> a cópia junta da qual verá <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> os movimentos do inimigo. É mui provável que, sabendo nosso estado indefeso, intente vir a esta capital.</p>
                 
                 <p>Neste pressuposto, o governo faz, desde já, retirar para <placeName ref="#sao_gabriel">São Gabriel</placeName> a bagagem mais pesada, bem como as cavalhadas que se acham em <placeName ref="#sao_sepe">São Sepé</placeName> e <placeName ref="#vacacai">Vacacaí</placeName>.</p>
                 
-                <p>É pois necessário e cumpre que V. S.ª faça aproximar uma força que nos proteja, não tanto pelo pessoal, mas pelo material que bastante tem sofrido. Deus guarde a V. S.ª. <orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, <date when="1840-05-27">27 de maio de 1840</date>.</p>
+                <p>É pois necessário e cumpre que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> faça aproximar uma força que nos proteja, não tanto pelo pessoal, mas pelo material que bastante tem sofrido. Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>. <orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, <date when="1840-05-27">27 de maio de 1840</date>.</p>
                 
                 <closer>
                     <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>

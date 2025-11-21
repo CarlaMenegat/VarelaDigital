@@ -50,16 +50,16 @@
             <div xml:id="CV-420" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Por pessoa diligente mandará V. S.ª ajuntar os tipos da 
+                <p>Por pessoa diligente mandará <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> ajuntar os tipos da 
                     <orgName ref="#tipografia_nacional">Tipografia Nacional</orgName> que consta achar-se em abundância por diversas 
                     casas em <placeName ref="#sao_gabriel">São Gabriel</placeName>, os quais com a referida tipografia remeterá para esta cidade, 
                     logo que julgue seguro o seu trânsito; o que muito lhe recomenda o governo.</p>
                 
                 <closer>
-                    <p>Deus guarde a V. S.ª.</p>
+                    <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                 </closer>
                 
                 <p><orgName ref="#secretaria_interior_fazenda">Secretaria do Interior e Fazenda</orgName> encarregada do expediente da 
@@ -67,7 +67,7 @@
                 
                 <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</signed>
                 
-                <p>Ilmo. Sr. <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName></p>
+                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName></p>
                 
             </div>
         </body>

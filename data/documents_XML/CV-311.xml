@@ -49,14 +49,14 @@
             <div type="letter" xml:id="CV-311">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>A necessidade precursora das grandes descobertas que desfrutamos ora nos obriga ao desenvolvimento de todos os meios que nos forneçam recursos para a sustentação da mais justa das guerras, qual a em que nos achamos empenhados. Nosso país produz o fumo abundantemente, e sendo ele o artigo de primeira necessidade para o exército, prudente é cultivá-lo para forrar sua obtenção do estrangeiro e ao Tesouro enorme soma por que é comprado.</p>
                 
-                <p>Para este fim pois manda o Governo que recrutando V.Sª. todos os escravos de dissidentes que porventura vaguem no seu distrito, os mande entregar ao cidadão Coronel <persName ref="#jose_luis_andrade">José Luís de Andrade</persName>, encarregado da plantação e manipulação da fábrica de fumo que se vai estabelecer no <placeName ref="#encruzilhada">Distrito da Encruzilhada</placeName> ou <placeName ref="#sao_jose">São José</placeName>.</p>
+                <p>Para este fim pois manda o Governo que recrutando <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> todos os escravos de dissidentes que porventura vaguem no seu distrito, os mande entregar ao cidadão Coronel <persName ref="#jose_luis_andrade">José Luís de Andrade</persName>, encarregado da plantação e manipulação da fábrica de fumo que se vai estabelecer no <placeName ref="#encruzilhada">Distrito da Encruzilhada</placeName> ou <placeName ref="#sao_jose">São José</placeName>.</p>
                 
-                <p>Deus guarde a V.Sª.. <orgName ref="#secretaria_fazenda">Secretaria dos Negócios da Fazenda</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 6 de junho de 1839.</p>
+                <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>. <orgName ref="#secretaria_fazenda">Secretaria dos Negócios da Fazenda</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 6 de junho de 1839.</p>
                 
                 <closer>
                     <signed>Domingos José de Almeida</signed>
@@ -64,8 +64,8 @@
                 
                 <p><persName ref="#inacio_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>, Chefe Geral de Polícia do <placeName ref="#boqueirao">Boqueirão</placeName>.</p>
                 
-                <note type="endorsement">S. da R.</note>
-                <note type="endorsement">Ilmo. Sr. Inácio José de Oliveira Guimarães. Chefe Geral de Polícia do Boqueirão. Do Ministério da Fazenda.</note>
+                <note type="endorsement"><choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice></note>
+                <note type="endorsement">Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Inácio José de Oliveira Guimarães. Chefe Geral de Polícia do Boqueirão. Do Ministério da Fazenda.</note>
                 <note type="endorsement">Conforme doc. CV-1220, este ofício foi mandado em circular também aos Chefes de Polícia dos Distritos do Cerro do Roque, de Rio Pardo e de Encruzilhada.</note>
                 
             </div>

@@ -41,27 +41,27 @@
             <div type="letter" xml:id="CV-533">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr. <persName ref="#jose_luis_bustamante">Dom José Luis Bustamante</persName></salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#jose_luis_bustamante">Dom José Luis Bustamante</persName></salute>
                     <dateline><placeName ref="#bage">Bagé</placeName>, <date when="1841-10-21">21 de outubro de 1841</date>.</dateline>
                     <salute>Estimável senhor do meu maior apreço e respeito.</salute>
                 </opener>
                 
-                <p>Inteirado de quanto V.Ex.ª se serviu dizer-me nas que se dignou dirigir-me a 6 e 15 de setembro último, respondo.</p>
+                <p>Inteirado de quanto <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> se serviu dizer-me nas que se dignou dirigir-me a 6 e 15 de setembro último, respondo.</p>
                 
-                <p>A amizade e confiança que dedico a V. Ex.ª são devidas às suas virtudes, e elas foram as que me animaram a cometer a V. Ex.ª os negócios dirigidos ao <persName ref="#matos">Sr. Matos</persName>, que então considerei em caminho para esta.</p>
+                <p>A amizade e confiança que dedico a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> são devidas às suas virtudes, e elas foram as que me animaram a cometer a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> os negócios dirigidos ao <persName ref="#matos"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Matos</persName>, que então considerei em caminho para esta.</p>
                 
                 <p>Os impressos que me fez obséquio remeter-me bastante me orientaram acerca das ocorrências do <placeName ref="#brasil">Brasil</placeName>, cujo governo e política marchando sobre bases falsas e nutridas por mentirosas informações, bastante hão influido e influirão no bom êxito de nossa questão.</p>
                 
                 <p>Sobremaneira estimo a mediação da <placeName ref="#gra_bretanha">Grã-Bretanha</placeName> acerca dos negócios dessa república com a de <placeName ref="#buenos_aires">Buenos Aires</placeName>, posto que sinta a permanência do tigre <persName ref="#rosas">Rosas</persName> na testa dos negócios daquela infeliz nação, berço de tantos heróis americanos.</p>
                 
-                <p>O exército imperial há recuado para a esquerda de <placeName ref="#jacui">Jacuí</placeName>, deixando na campanha o melhor de três mil homens desertados de sua infantaria e cavalaria: muito custará ao governo do <placeName ref="#brasil">Brasil</placeName> pô-lo no pé em que se achava em março último, e por isso e pela influência, e facções que lhe disputam o mando, a mediação de S. Ex.ª o Presidente desse Estado talvez seja coroada de resultados para nós propícios, e para ele da maior glória.</p>
+                <p>O exército imperial há recuado para a esquerda de <placeName ref="#jacui">Jacuí</placeName>, deixando na campanha o melhor de três mil homens desertados de sua infantaria e cavalaria: muito custará ao governo do <placeName ref="#brasil">Brasil</placeName> pô-lo no pé em que se achava em março último, e por isso e pela influência, e facções que lhe disputam o mando, a mediação de <choice><abbr>S. Ex.ª</abbr><expan>Sua Excelência</expan></choice> o Presidente desse Estado talvez seja coroada de resultados para nós propícios, e para ele da maior glória.</p>
                 
-                <p>Com V.Ex.ª conheço a necessidade de termos aí um agente de negócios, e para esse fim darei de pronto os passos precisos.</p>
+                <p>Com <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> conheço a necessidade de termos aí um agente de negócios, e para esse fim darei de pronto os passos precisos.</p>
                 
-                <p>O <persName ref="#ulhoa">Sr. Ulhoa</persName> me tem dado informações importantes e do muito que o obsequiou e se interessa pelo bem desta República: eu, por a parte que me cabe, de novo tributo a V. Ex.ª o mais puro e vivo reconhecimento por favores tão distintos; e lhe rogo aceite as homenagens de quem tem a honra de ser</p>
+                <p>O <persName ref="#ulhoa"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Ulhoa</persName> me tem dado informações importantes e do muito que o obsequiou e se interessa pelo bem desta República: eu, por a parte que me cabe, de novo tributo a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> o mais puro e vivo reconhecimento por favores tão distintos; e lhe rogo aceite as homenagens de quem tem a honra de ser</p>
                 
                 <closer>
-                    <salute>De V. Ex.ª</salute>
+                    <salute>De <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice></salute>
                     <signed>Amigo e atento servidor que suas mãos beija</signed>
                 </closer>
                 

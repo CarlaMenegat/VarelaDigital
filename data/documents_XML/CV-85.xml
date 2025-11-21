@@ -40,24 +40,24 @@
             <div type="letter" xml:id="CV-85">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Recebi o ofício de V.Sª. e fico certo no seu conteúdo, agradecendo a lembrança que teve em me nomear presidente da <orgName ref="#mesa_eleitoral">Mesa Eleitoral</orgName>.</p>
+                <p>Recebi o ofício de <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> e fico certo no seu conteúdo, agradecendo a lembrança que teve em me nomear presidente da <orgName ref="#mesa_eleitoral">Mesa Eleitoral</orgName>.</p>
                 
-                <p>Para estarmos de acordo e nada faltar no dia 8 (como é o meu desejo) rogo a V.Sª. haja de me mandar dizer a quem compete preparar a sala e mais necessário, como papel, pena, etc., pois eu julgo que tudo a V.Sª. compete e como se deduz de um ofício que existe nos arquivos da <orgName ref="#coletoria">Coletoria</orgName>. A resposta de V.Sª., sobre este tópico, o mais breve me é necessário, e mandando-me dizer qual a sala para cujo fim.</p>
+                <p>Para estarmos de acordo e nada faltar no dia 8 (como é o meu desejo) rogo a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> haja de me mandar dizer a quem compete preparar a sala e mais necessário, como papel, pena, etc., pois eu julgo que tudo a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> compete e como se deduz de um ofício que existe nos arquivos da <orgName ref="#coletoria">Coletoria</orgName>. A resposta de <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>, sobre este tópico, o mais breve me é necessário, e mandando-me dizer qual a sala para cujo fim.</p>
                 
                 <closer>
-                    <p>Deus guarde a V.Sª.. <placeName ref="#sao_lourenco">São Lourenço</placeName>, <date when="1840-02-26">26 de fevereiro de 1840</date>.</p>
+                    <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>. <placeName ref="#sao_lourenco">São Lourenço</placeName>, <date when="1840-02-26">26 de fevereiro de 1840</date>.</p>
                     
-                    <signed>Ilmo. Sr. <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>.</signed>
+                    <signed>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>.</signed>
                     <signed>Chefe Geral da Polícia.</signed>
                     
                     <signed>(a) <persName ref="#joaquim_francisco_santos_abreu">Joaquim Francisco dos Santos Abreu</persName>.</signed>
                     <signed>Presidente da <orgName ref="#assembleia_primaria">Assembléia Primária</orgName>.</signed>
                 </closer>
                 
-                <note type="endorsement">Ofício do Dr. <persName ref="#joaquim_francisco_santos_abreu">Joaquim Francisco dos Santos Abreu</persName>, Presidente da <orgName ref="#assembleia_primaria">Assembléia Primária</orgName>, de 26 de fevereiro, recebido a 28 e respondido no mesmo dia. S. da R.</note>
+                <note type="endorsement">Ofício do Dr. <persName ref="#joaquim_francisco_santos_abreu">Joaquim Francisco dos Santos Abreu</persName>, Presidente da <orgName ref="#assembleia_primaria">Assembléia Primária</orgName>, de 26 de fevereiro, recebido a 28 e respondido no mesmo dia. <choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice></note>
                 
                 <note type="endorsement">Ao cidadão <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>, Chefe Geral de Polícia do <placeName ref="#boqueirao">Boqueirão</placeName>. Do cidadão Dr. <persName ref="#joaquim_francisco_santos_abreu">Joaquim Francisco dos Santos Abreu</persName>. Eleição da <orgName ref="#assembleia_constituinte">Assembléia Constituinte</orgName>. [Anotação a lápis de Alfredo Varela]</note>
                 

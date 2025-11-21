@@ -38,16 +38,16 @@
                         <placeName ref="#cacapava">Caçapava</placeName>,
                         <date when="1839-12-16">16 de dezembro de 1839</date>
                     </dateline>
-                    <salute>Ilmo. Sr. Coronel João Antônio da Silveira</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel João Antônio da Silveira</salute>
                 </opener>
                 
                 <p>
                     Posto que o nosso conhecimento seja mui antigo, apesar de
                     que não esteja radicado por relações mais estreitas, contudo, 
                     persuadido que tenha chegado ao conhecimento de 
-                    <persName ref="#silveira">V.S.ª</persName> 
+                    <persName ref="#silveira"><choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice></persName> 
                     o decreto do governo de 13 do corrente, eu não devo deixar de me dirigir
-                    a <persName ref="#silveira">V. S.ª</persName> para lhe fazer sentir o quanto eu estou bem penetrado do
+                    a <persName ref="#silveira"><choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice></persName> para lhe fazer sentir o quanto eu estou bem penetrado do
                     melindroso de minha posição, prevalecendo-me da estranha sensação
                     que precisamente deverá despertar, ao mesmo passo que foram
                     improfícuas as ponderações que exibi e outras circunstâncias
@@ -83,7 +83,7 @@
                     somente à lei da necessidade, lei que assaz impera sobre o espírito humano.
                     Eu lastimarei sumamente se não satisfizer as esperanças dos bons patriotas
                     e a espectação do vulgo, que nem sempre é justo a respeito de nossas ações.
-                    Espero a resposta de <persName ref="#silveira">V. S.ª</persName> e que, com franqueza, aprove
+                    Espero a resposta de <persName ref="#silveira"><choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice></persName> e que, com franqueza, aprove
                     ou desaprove a minha resolução.
                 </p>
                 

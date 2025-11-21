@@ -34,7 +34,7 @@
                 </correspAction>
                 
                 <correspAction type="received">
-                    <persName>Ilmo. Sr. Juiz de Direito</persName>
+                    <persName>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Juiz de Direito</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -44,22 +44,22 @@
         <body>
             <div type="letter" xml:id="CV-30">
                 <opener>
-                    <salute>Ilmo. Sr. Juiz de Direito</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Juiz de Direito</salute>
                 </opener>
                 
                 <p>
                     Diz o cidadão <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName> que ele foi nomeado
-                    e juramentado por V.S.ª para servir de Curador à fazenda jacente do ab intestato
+                    e juramentado por <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> para servir de Curador à fazenda jacente do ab intestato
                     <persName ref="#jose_augusto_ledek">José Augusto Eledek</persName> [sic], e porque, na conformidade
                     do § 1.º do artigo 90 da ordem do Livro 1.º e deliberação de 9 de maio de 1834, ao
                     Suplicante compete receber e administrar os bens da herança, por isso que ele fica
-                    responsável como a isso o obriga a precitada lei, e é por isso que requer à V.S.ª
+                    responsável como a isso o obriga a precitada lei, e é por isso que requer à <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>
                     se digne mandar que se lhe faça a competente carga para o Suplicante assinar e
                     recebê-los como lhe é ordenado.
                 </p>
                 
                 <p>
-                    Pede a V.S.ª se digne deferir-lhe na forma requerida, juntando-se esta aos autos
+                    Pede a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> se digne deferir-lhe na forma requerida, juntando-se esta aos autos
                     respectivos.
                 </p>
                 

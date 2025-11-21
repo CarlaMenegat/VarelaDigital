@@ -46,10 +46,10 @@
             <div type="letter" xml:id="CV-69">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Conforme as ordens e instruções de V. Ex.ª datadas de 29 do
+                <p>Conforme as ordens e instruções de <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> datadas de 29 do
                     mês próximo passado fiz as competentes reuniões das forças e
                     esquadrões de meu comando no destacamento da 
                     <placeName ref="#ponta_rasa">Ponta Rasa</placeName>, e no
@@ -88,7 +88,7 @@
                     <placeName ref="#cerro_roque">cerro Roque</placeName> me encaminhei no dia à 
                     <placeName ref="#ponta_rasa">Ponta Rasa</placeName>, chegando na margem direita do rio no dia 22...</p>
                 
-                <p>Deus guarde a V. Ex.ª muitos anos. 
+                <p>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> muitos anos. 
                     <placeName ref="#porto_alegre">Leal e Valerosa Cidade de Porto Alegre</placeName>, 
                     <date when="1842-05-24">24 de maio de 1842</date>.</p>
                 

@@ -48,20 +48,20 @@
             <div xml:id="CV-415" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Quando em 19 do passado exigi de V. S.ª o recibo das quantias que de dinheiro meu lhe havia dado para 
+                <p>Quando em 19 do passado exigi de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> o recibo das quantias que de dinheiro meu lhe havia dado para 
                     despesas de bombeiros e miudezas da <orgName ref="#divisao_direita">Divisão</orgName> a seu cargo, me não lembrou das três onças 
                     que lhe dei a 5 do mesmo em <placeName ref="#vacaqua">Vacaquá</placeName> no valor de cinquenta e um patacões prata, e por isso 
                     os não contemplei na conta então dada, como verá da cópia inclusa, e em vista da qual me forneceu o documento 
                     também por cópia firmado no referido dia 19.</p>
                 
-                <p>E porque para meu embolso, em tempo idôneo, seja mister documento seu, rogo a V. S.ª mo remeta na primeira 
+                <p>E porque para meu embolso, em tempo idôneo, seja mister documento seu, rogo a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> mo remeta na primeira 
                     ocasião segura que para esta se oferecer.</p>
                 
                 <closer>
-                    <p>Deus guarde a V. S.ª.</p>
+                    <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                 </closer>
                 
                 <p><orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName> em 
@@ -69,7 +69,7 @@
                 
                 <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</signed>
                 
-                <p>Ilmo. Sr. <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName><br/>
+                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName><br/>
                     Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</p>
                 
             </div>

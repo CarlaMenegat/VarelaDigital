@@ -45,15 +45,15 @@
             <div type="letter" xml:id="CV-67">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>No dia quatro do corrente marchei deste acampamento com 80 homens de cavalaria e o 3.º Batalhão, 
-                    conforme participei a V.Ex.ª, e no dia 5 foi surpreendida uma guarda avançada do 
+                    conforme participei a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, e no dia 5 foi surpreendida uma guarda avançada do 
                     <persName ref="#fructuoso_rivera">Frutuoso</persName>, aonde foi morto o comandante, que era o intitulado 
                     <persName ref="#juca_jacinto">Comandante Juca Jacinto</persName>, o grande assassino 
                     <persName ref="#pacheco">Pacheco</persName> e 5 prisioneiros, neste número um 
-                    <persName ref="#tenente_bento">Tenente Bento</persName> mui assassino, cujo remeto a V. Ex.ª; e sabendo que o 
+                    <persName ref="#tenente_bento">Tenente Bento</persName> mui assassino, cujo remeto a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>; e sabendo que o 
                     <persName ref="#fructuoso_rivera">Frutuoso</persName> se achava com 90 homens, marchei toda noite com a cavalaria e 
                     2 Companhias de Infantaria comandadas pelo <persName ref="#tenente_eduardo">Tenente Eduardo</persName> e 
                     <persName ref="#tenente_novas">Tenente Novas</persName>. e o 
@@ -66,17 +66,17 @@
                 <p>Da nossa parte tivemos o valente 
                     <persName ref="#claro_jose_sousa">Tenente Claro José de Sousa</persName> baleado em um braço e paleta, e de uma só bala teve quatro feridas, 
                     o <persName ref="#sargento_fidelis_pais_silva">Sargento Fidélis Pais da Silva</persName> chumbeado na mão direita; fiz seguir um oficial com uma partida 
-                    a <placeName ref="#rio_pardo">Rio Pardo</placeName> a levar os ofícios que eu trouxe, com os que V.Ex.ª já me tinha mandado, porque os próprios 
-                    voltaram do caminho por estarem todos os passos tomados; no dia 15 V.Ex.ª pode mandar receber 200 alqueires 
+                    a <placeName ref="#rio_pardo">Rio Pardo</placeName> a levar os ofícios que eu trouxe, com os que <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> já me tinha mandado, porque os próprios 
+                    voltaram do caminho por estarem todos os passos tomados; no dia 15 <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> pode mandar receber 200 alqueires 
                     de farinha no <placeName ref="#toropi">passo do Toropi</placeName>: foi comprada e posta no dito passo a 48500 rs. o alqueire, e espero que 
-                    V. Ex.ª mande o dinheiro a entregar ao oficial da guarda, para eu mandar receber. Segue nesta ocasião o 
-                    <persName ref="#capitao_rafael_viana">Capitão Rafael Viana</persName>, que me pede para ir a <placeName ref="#piraju">Piraju</placeName>, e eu espero que V. Ex.º lhe dê licença.</p>
+                    <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> mande o dinheiro a entregar ao oficial da guarda, para eu mandar receber. Segue nesta ocasião o 
+                    <persName ref="#capitao_rafael_viana">Capitão Rafael Viana</persName>, que me pede para ir a <placeName ref="#piraju">Piraju</placeName>, e eu espero que <choice><abbr>V. Ex.</abbr><expan>Vossa Excelência</expan></choice>º lhe dê licença.</p>
                 
-                <p>Deus guarde a V.Ex.ª. <placeName ref="#rincao_sao_pedro">Rincão de São Pedro</placeName>, 
+                <p>Deus guarde a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>. <placeName ref="#rincao_sao_pedro">Rincão de São Pedro</placeName>, 
                     <date when="1841-08-10">10 de agosto de 1841</date>.</p>
                 
                 <closer>
-                    <salute>Ilmo. e Exmo. Sr. <persName ref="#joao_paulo_santos_barreto">João Paulo dos Santos Barreto</persName>.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_paulo_santos_barreto">João Paulo dos Santos Barreto</persName>.</salute>
                     <signed>Brigadeiro e Comandante do Exército.</signed>
                     <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
                     <signed>Tenente-coronel Comandante do 5.º</signed>

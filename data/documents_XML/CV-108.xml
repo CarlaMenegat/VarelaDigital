@@ -42,14 +42,14 @@
             <div type="letter" xml:id="CV-108">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Andando o comandante de polícia deste distrito na diligência de prender alguns desertores do 
-                    <orgName ref="#corpo8_gn">8.º Corpo de Guardas Nacionais</orgName>, agarrou um de 1.º Linha, que nesta data remeto a V.Exº. 
+                    <orgName ref="#corpo8_gn">8.º Corpo de Guardas Nacionais</orgName>, agarrou um de 1.º Linha, que nesta data remeto a <choice><abbr>V.Ex</abbr><expan>Vossa Excelência</expan></choice>º. 
                     Seu nome é <persName ref="#francisco_fabiano_silva">Francisco Fabiano da Silva</persName> e não menciono o batalhão a que pertence porque ele o não conhece, ou não quer declarar.
-                    É quanto me cumpre e tenho a honra levar ao respeitável conhecimento de V.Exª. 
-                    Deus guarde a V.Exª. muitos anos.
+                    É quanto me cumpre e tenho a honra levar ao respeitável conhecimento de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> 
+                    Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muitos anos.
                 </p>
                 
                 <dateline>
@@ -59,7 +59,7 @@
                 </dateline>
                 
                 <closer>
-                    <salute>Ilmo. e Exmo. Sr. <persName ref="#barao_caxias">Barão de Caxias</persName>,<br/>Digmo. Presidente e General-em-chefe do Exército.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#barao_caxias">Barão de Caxias</persName>,<br/>Digmo. Presidente e General-em-chefe do Exército.</salute>
                     <signed>(a) <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName><br/>
                         Coronel Comandante Militar do município de Santo Antônio.</signed>
                 </closer>

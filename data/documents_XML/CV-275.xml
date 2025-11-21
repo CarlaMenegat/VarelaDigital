@@ -51,7 +51,7 @@
             <div type="carta" xml:id="CV-275">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                     <dateline>
                         <placeName ref="#piratini">Piratini</placeName>,
                         <date when="1838-12-14">14 de dezembro de 1838</date>.
@@ -59,7 +59,7 @@
                 </opener>
                 
                 <p>
-                    Por amizade a V.Exª., mas por vinte dias somente, segunda vez tomei parte
+                    Por amizade a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>, mas por vinte dias somente, segunda vez tomei parte
                     no Governo da República, e para não parar-me ocioso nesse curto tempo dei
                     o impulso que é dado à parte da Administração que me foi confiada. Estabeleci
                     o Tesouro, organizei as Coletorias e coligi um método de arrecadação para ter
@@ -79,28 +79,28 @@
                     correspondido à expectativa, e uma oposição sistemática particularmente da
                     parte do Tesouro, assaz me tem convencido que devo deixar o lugar para quem
                     melhor o desempenhe. Assim o faço pois remetendo pela Secretaria da Guerra
-                    para ser presente a V.Ex.ª minha demissão.
+                    para ser presente a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> minha demissão.
                 </p>
                 
                 <p>
                     Nem estes foram só os motivos que a tanto me forçaram: a falta de meios para
                     minha subsistência e de minha família, não querendo ser pesado à Nação em
                     coisa alguma, coopera também para este passo inevitável. Sinto não poder por
-                    mais tempo acompanhar a V.Exª. em seus trabalhos: mas cumpre confessá-lo, não
+                    mais tempo acompanhar a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> em seus trabalhos: mas cumpre confessá-lo, não
                     posso já resistir à inepta oposição que de muito mina as bases do governo.
                     Se meus serviços forem úteis ao exército com gosto os prestarei ainda.
                 </p>
                 
                 <closer>
-                    <salute>Deus guarde a V.Ex.ª como a Pátria é mister.</salute>
+                    <salute>Deus guarde a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> como a Pátria é mister.</salute>
                     <signed>
-                        De V.Ex.ª, amigo o mais obrigado,<br/>
+                        De <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, amigo o mais obrigado,<br/>
                         <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     </signed>
                 </closer>
                 
                 <note type="verso">
-                    Destinatário: Ilmo. e Exmo. Sr. General Bento Gonçalves da Silva,
+                    Destinatário: Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General Bento Gonçalves da Silva,
                     Presidente do Estado.
                 </note>
                 

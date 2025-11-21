@@ -40,17 +40,17 @@
             <div type="letter" xml:id="CV-86">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Recebi o ofício de V.Sª., com data de 28, em resposta ao meu de 26 do passado, e sobre o seu conteúdo sou a dizer-lhe que mais convencido estou que a V.Sª. é a quem compete todo o arranjo da sala e mais pertences; conheço que este dever é da <orgName ref="#camara_municipal">Câmara Municipal</orgName>, porém em falta dela recai tudo sobre V.Sª., como também é V.Sª. que nomeia um cidadão para presidir as eleições; são deveres que não competem a um cidadão nomeado <foreign xml:lang="la">ad hoc</foreign> para presidir uma mesa eleitoral; demais o V.Sª. dizer em seu citado ofício “que em vista do decreto em questão não julga circunscrito ao circo de suas atribuições a resolução de que eu em meu ofício exigia de V.Sª.”, ignoro qual seja o decreto em questão, pois em meu ofício não citei decreto algum e se é o de 10 de fevereiro em que V.Sª. quer falar, nada se colige a respeito, e muito menos competir a mim escolher sala, etc.</p>
+                <p>Recebi o ofício de <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>, com data de 28, em resposta ao meu de 26 do passado, e sobre o seu conteúdo sou a dizer-lhe que mais convencido estou que a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> é a quem compete todo o arranjo da sala e mais pertences; conheço que este dever é da <orgName ref="#camara_municipal">Câmara Municipal</orgName>, porém em falta dela recai tudo sobre <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>, como também é <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> que nomeia um cidadão para presidir as eleições; são deveres que não competem a um cidadão nomeado <foreign xml:lang="la">ad hoc</foreign> para presidir uma mesa eleitoral; demais o <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> dizer em seu citado ofício “que em vista do decreto em questão não julga circunscrito ao circo de suas atribuições a resolução de que eu em meu ofício exigia de <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>”, ignoro qual seja o decreto em questão, pois em meu ofício não citei decreto algum e se é o de 10 de fevereiro em que <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> quer falar, nada se colige a respeito, e muito menos competir a mim escolher sala, etc.</p>
                 
-                <p>Da cópia junta verá V.Sª. que eu não tenho a apresentar conta alguma ao governo para me embolsar, e sim a V.Sª. compete essa exigência; do que se deduz também que a V.Sª. pertence providenciar o arranjo da sala; espero que conhecendo a justiça do expendido me desculpará.</p>
+                <p>Da cópia junta verá <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> que eu não tenho a apresentar conta alguma ao governo para me embolsar, e sim a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> compete essa exigência; do que se deduz também que a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> pertence providenciar o arranjo da sala; espero que conhecendo a justiça do expendido me desculpará.</p>
                 
                 <closer>
-                    <p>Deus guarde a V.Sª.. <placeName ref="#sao_lourenco">São Lourenço</placeName>, <date when="1840-03-01">1.º de março de 1840</date>.</p>
+                    <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>. <placeName ref="#sao_lourenco">São Lourenço</placeName>, <date when="1840-03-01">1.º de março de 1840</date>.</p>
                     
-                    <signed>Ilmo. Sr. <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>.</signed>
+                    <signed>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>.</signed>
                     <signed>Chefe de Polícia do <placeName ref="#boqueirao">Boqueirão</placeName>.</signed>
                     
                     <signed>(a) <persName ref="#joaquim_francisco_santos_abreu">Joaquim Francisco dos Santos Abreu</persName>.</signed>
@@ -58,7 +58,7 @@
                 
                 <note type="endorsement">Segueue com toda a brevidade possível. [No verso]</note>
                 
-                <note type="endorsement">Ofício do Presidente da <orgName ref="#assembleia_primaria">Mesa Primária</orgName> das eleições do 1.º de março; recebido a 2 e respondido no mesmo dia. S. da Rep.</note>
+                <note type="endorsement">Ofício do Presidente da <orgName ref="#assembleia_primaria">Mesa Primária</orgName> das eleições do 1.º de março; recebido a 2 e respondido no mesmo dia. <choice><abbr>S. da R</abbr><expan>Secretaria da Presidência da República</expan></choice>ep.</note>
                 
                 <note type="endorsement">Ao cidadão <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>, Chefe de Polícia do <placeName ref="#boqueirao">Boqueirão</placeName>. Do Presidente da <orgName ref="#assembleia_primaria">Mesa Primária</orgName>.</note>
                 

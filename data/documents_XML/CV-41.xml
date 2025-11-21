@@ -33,7 +33,7 @@
                     <date when="1843-03-18">18 de março de 1843</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Ilmo. e Exmo. Sr.</persName>
+                    <persName>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -44,13 +44,13 @@
         <body>
             <div type="letter" xml:id="CV-41">
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
                     O Suplicante <persName ref="#claudio_abreu">Tenente-coronel Cláudio de Abreu</persName> vem de novo ante 
-                    V.Ex.ª ponderar que, devendo ser morosa a medida legislativa da 
-                    <orgName ref="#assembleia_geral">Assembléia Geral do Estado</orgName>, com a qual V.Ex.ª deferiu a 
+                    <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> ponderar que, devendo ser morosa a medida legislativa da 
+                    <orgName ref="#assembleia_geral">Assembléia Geral do Estado</orgName>, com a qual <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> deferiu a 
                     súplica inclusa a respeito da sesmaria que requereu das sobras dos seus campos, 
                     não só por motivo da guerra atual como por se achar a mesma Assembléia a 
                     concluir seus trabalhos, receia o Suplicante que outro qualquer súdito da 
@@ -58,7 +58,7 @@
                 </p>
                 
                 <p>
-                    Por isso recorre novamente a V.Ex.ª para que se digne ordenar que o Suplicante 
+                    Por isso recorre novamente a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> para que se digne ordenar que o Suplicante 
                     possa continuar na posse em que se acha das sobras de sua sesmaria, até que 
                     possa aparecer a dita medida legislativa que lhas conceda, ficando-lhe com 
                     preferência este direito, visto que a ninguém pode prejudicar tal deliberação, 

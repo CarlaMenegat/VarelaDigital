@@ -49,12 +49,12 @@
             <div type="letter" xml:id="CV-324">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Ciente dos motivos por que V.Sª. propôs o cidadão <persName ref="#joaquim_barbosa_prado">Joaquim Barbosa do Prado</persName> para capitão da Companhia de <placeName ref="#sao_gabriel">São Gabriel</placeName>, a despeito do direito que a esse posto supunham ter os segundos-tenentes na mesma existentes, assim lhe comunico, e que logo que regresse o Exmo. Sr. Presidente porei em sua presença o ofício que a tal respeito me há dirigido em 5 do passado.</p>
+                <p>Ciente dos motivos por que <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> propôs o cidadão <persName ref="#joaquim_barbosa_prado">Joaquim Barbosa do Prado</persName> para capitão da Companhia de <placeName ref="#sao_gabriel">São Gabriel</placeName>, a despeito do direito que a esse posto supunham ter os segundos-tenentes na mesma existentes, assim lhe comunico, e que logo que regresse o Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente porei em sua presença o ofício que a tal respeito me há dirigido em 5 do passado.</p>
                 
-                <p>Deus guarde a V.Sª. <orgName ref="#secretaria_fazenda">Secretaria da Fazenda encarregada do expediente da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 12 de agosto de 1839.</p>
+                <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> <orgName ref="#secretaria_fazenda">Secretaria da Fazenda encarregada do expediente da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 12 de agosto de 1839.</p>
                 
                 <closer>
                     <signed>Domingos José de Almeida</signed>

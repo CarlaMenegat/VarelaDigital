@@ -47,24 +47,24 @@
             <div type="letter" xml:id="CV-137">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Nesta data se oficia ao chefe de Polícia de Alegrete, para desarmar
                     aos emigrados do Exército Unido, com exceção dos oficiais, e fazer marchar
                     todos para <placeName ref="#sao_gabriel">São Gabriel</placeName>, para cujo ponto diz o
                     Exmo. General <persName ref="#bento_manuel">Bento Manuel</persName> fizera seguir a
-                    <persName ref="#joao_silveira">V. S.ª</persName>, a fim de se pôr à testa dos mesmos emigrados;
-                    em consequência, pois, ordena o governo a <persName ref="#joao_silveira">V. S.ª</persName> que ali os conserve
+                    <persName ref="#joao_silveira"><choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice></persName>, a fim de se pôr à testa dos mesmos emigrados;
+                    em consequência, pois, ordena o governo a <persName ref="#joao_silveira"><choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice></persName> que ali os conserve
                     debaixo de suas vistas, mandando-lhes fornecer unicamente com rações de carne.</p>
                 
                 <p>Se para efetuar-se o desarmamento dos referidos emigrados for mister
                     àquele chefe de polícia a coadjuvação da força armada,
-                    <persName ref="#joao_silveira">V. S.ª</persName> se prestará sem trepidar um só momento a fim de fazer efetivas
+                    <persName ref="#joao_silveira"><choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice></persName> se prestará sem trepidar um só momento a fim de fazer efetivas
                     as determinações do governo, se for possível até à força de armas; o que
-                    se comunica a <persName ref="#joao_silveira">V. S.ª</persName> para sua inteligência.</p>
+                    se comunica a <persName ref="#joao_silveira"><choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice></persName> para sua inteligência.</p>
                 
-                <p>Deus guarde a V. S.ª. Secretaria dos Negócios da Guerra em
+                <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>. Secretaria dos Negócios da Guerra em
                     <placeName ref="#cacapava">Caçapava</placeName>, 19 de janeiro de 1840.</p>
                 
                 <closer>

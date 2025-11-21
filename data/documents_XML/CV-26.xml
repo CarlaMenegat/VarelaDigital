@@ -43,7 +43,7 @@
         <body>
             <div type="letter" xml:id="CV-26">
                 <opener>
-                    <salute>Exmo. Sr.</salute>
+                    <salute>Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
@@ -52,12 +52,12 @@
                     como agora acontece, que tendo antes de ontem pedido recurso para o hospital agora o
                     faço para mim; estou bem certo do que me mandou dizer, porém a necessidade a tudo obriga
                     e por isso um ou dois patacões tudo é suficiente para quem não tem vintém e nem a quem o
-                    pedir se não for a V.Ex.ª. Carne tenho, porém tudo o mais falta e por isso conto de V.Ex.ª
+                    pedir se não for a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>. Carne tenho, porém tudo o mais falta e por isso conto de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>
                     todo o socorro, lembrando-lhe que mais o incomode por minha família do que por mim.
                 </p>
                 
                 <closer>
-                    <salute>De V.Ex.ª</salute>
+                    <salute>De <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice></salute>
                     <signed>
                         <persName ref="#antonio_jose_abreu">Amigo muito antigo e obrigado<br/>Antônio José de Abreu</persName>
                     </signed>
@@ -69,7 +69,7 @@
                     Mais 2 patacões a 28.<br/>
                     Mais 10 ditos a 30 do corrente.<br/>
                     Carregado ao Hospital.<br/>
-                    Ilmo. e Exmo. Sr. <persName ref="#domingos_almeida">Domingos José de Almeida</persName>. [No verso]<br/>
+                    Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_almeida">Domingos José de Almeida</persName>. [No verso]<br/>
                     1840 Abril 30
                 </note>
             </div>

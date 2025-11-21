@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-541 – Domingos José de Almeida para Sr. Fontoura</title>
+                <title>Carta CV-541 – Domingos José de Almeida para <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Fontoura</title>
                 <author>Domingos José de Almeida</author>
             </titleStmt>
             <publicationStmt>
@@ -31,7 +31,7 @@
                     <date when="1841-11-18">18 de novembro de 1841</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#fontoura">Sr. Fontoura</persName>
+                    <persName ref="#fontoura"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Fontoura</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -42,13 +42,13 @@
             <div type="letter" xml:id="CV-541">
                 
                 <opener>
-                    <salute>Meu Exmo. e honrado amigo <persName ref="#fontoura">Sr. Fontoura</persName>.</salute>
+                    <salute>Meu Exmo. e honrado amigo <persName ref="#fontoura"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Fontoura</persName>.</salute>
                     <dateline><placeName ref="#bage">Bagé</placeName>, <date when="1841-11-18">18 de novembro de 1841</date>.</dateline>
                 </opener>
                 
                 <p>Minha paciente resignação se há esgotado, e minha honra me tem feito olhar com indiferença para o futuro que nos espera, e que eu afincadamente tenho dirigido meus esforços para afastar.</p>
                 
-                <p>Está o meu amigo nomeado para substituir-me, e por tudo quanto há de sagrado lhe rogo que sem detença de momento me venha aliviar de um peso com que já não posso. A pátria assim o exige de V.Ex.ª e ela é credora desse ingente sacrifício. Se V. Ex.ª se escusar terá de ser acusado de um crime de que se não poderá justificar facilmente.</p>
+                <p>Está o meu amigo nomeado para substituir-me, e por tudo quanto há de sagrado lhe rogo que sem detença de momento me venha aliviar de um peso com que já não posso. A pátria assim o exige de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> e ela é credora desse ingente sacrifício. Se <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> se escusar terá de ser acusado de um crime de que se não poderá justificar facilmente.</p>
                 
                 <p>Deveria ser mais extenso: porém a prudência me aconselha à concisão. Cá o espera breve o</p>
                 

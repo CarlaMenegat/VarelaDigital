@@ -46,13 +46,13 @@
             <div xml:id="CV-471" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>O 1.º Deputado do <orgName ref="#quartel_mestre_general">Quartel-mestre-general</orgName> me informa serem precisas doze carretas para os transportes, distribuídas da maneira seguinte: 4 para as bagagens da <orgName ref="#infantaria">Infantaria</orgName>; 2 para a ferraria; 1 para a alfaiataria; 1 para roupas feitas, e quatro para as miudezas do comissariado; V. S.ª, como conhecedor das pessoas que podem fornecer este auxílio, as mandará aprontar com à possível brevidade.</p>
+                <p>O 1.º Deputado do <orgName ref="#quartel_mestre_general">Quartel-mestre-general</orgName> me informa serem precisas doze carretas para os transportes, distribuídas da maneira seguinte: 4 para as bagagens da <orgName ref="#infantaria">Infantaria</orgName>; 2 para a ferraria; 1 para a alfaiataria; 1 para roupas feitas, e quatro para as miudezas do comissariado; <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>, como conhecedor das pessoas que podem fornecer este auxílio, as mandará aprontar com à possível brevidade.</p>
                 
                 <closer>
-                    <p>Deus guarde a V. S.ª. Secretaria do Interior em <placeName ref="#sao_gabriel">São Gabriel</placeName>, 24 de abril de 1841.</p>
+                    <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>. Secretaria do Interior em <placeName ref="#sao_gabriel">São Gabriel</placeName>, 24 de abril de 1841.</p>
                 </closer>
                 
                 <signed>

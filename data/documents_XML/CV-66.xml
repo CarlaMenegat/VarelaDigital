@@ -51,11 +51,11 @@
             <div type="letter" xml:id="CV-66">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
-                    Participo a V. Ex.ª que tendo notícia que o <persName ref="#portinho">Portinho</persName> estava
+                    Participo a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que tendo notícia que o <persName ref="#portinho">Portinho</persName> estava
                     reunindo os extraviados em <placeName ref="#santa_maria">Santa Maria</placeName> e para coadjuvar a dita
                     reunião veio o <persName ref="#carvalhinho">Carvalhinho</persName>; hoje marcho com cento e tantos homens 
                     de cavalaria e o 3.º Batalhão para proteção a um ponto no caso de ser preciso. 
@@ -68,12 +68,12 @@
                 </p>
                 
                 <p>
-                    Deus guarde a V. Ex.ª. <placeName ref="#sao_pedro">São Pedro</placeName>, 
+                    Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>. <placeName ref="#sao_pedro">São Pedro</placeName>, 
                     <date when="1841-08-04">4 de agosto de 1841</date>.
                 </p>
                 
                 <closer>
-                    <salute>Ilmo. e Exmo. Sr. <persName ref="#joao_paulo_santos_barreto">João Paulo dos Santos Barreto</persName>.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_paulo_santos_barreto">João Paulo dos Santos Barreto</persName>.</salute>
                     <signed>Brigadeiro Comandante do Exército.</signed>
                     <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
                     <signed>Tenente-coronel</signed>

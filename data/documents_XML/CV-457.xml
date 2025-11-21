@@ -48,15 +48,15 @@
                 <note type="copy">Cópia</note>
                 
                 <opener>
-                    <salute>Exmo. Sr.</salute>
+                    <salute>Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Pelo ofício junto do <persName ref="#major_ourique">Major Ourique</persName> conhecerá V. Ex.ª o movimento do nosso <orgName ref="#exercito">exército</orgName> e a saída de <persName ref="#jeronimo_jacinto">Jerônimo Jacinto</persName> para esta parte do <placeName ref="#jacui">Jacuí</placeName>; e por isso tanto mais necessário se torna eu avançar sobre aquele ponto, o que já não tenho feito por falta de cavalos como tinha participado a V. Ex.ª em meus anteriores ofícios; é mister, portanto, que V. Ex.ª se digne comunicar-me se será possível que no pronto se arranjem alguns cavalos para minha marcha, visto que por aqui os não posso obter; porque do contrário terei de voltar a ver se poderei arranjar alguns.</p>
+                <p>Pelo ofício junto do <persName ref="#major_ourique">Major Ourique</persName> conhecerá <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> o movimento do nosso <orgName ref="#exercito">exército</orgName> e a saída de <persName ref="#jeronimo_jacinto">Jerônimo Jacinto</persName> para esta parte do <placeName ref="#jacui">Jacuí</placeName>; e por isso tanto mais necessário se torna eu avançar sobre aquele ponto, o que já não tenho feito por falta de cavalos como tinha participado a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> em meus anteriores ofícios; é mister, portanto, que <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> se digne comunicar-me se será possível que no pronto se arranjem alguns cavalos para minha marcha, visto que por aqui os não posso obter; porque do contrário terei de voltar a ver se poderei arranjar alguns.</p>
                 
-                <p>Nada mais ocorre por esta parte, e desejo que V. Ex.ª me dê alguma notícia do que souber dos mais pontos do nosso Estado.</p>
+                <p>Nada mais ocorre por esta parte, e desejo que <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> me dê alguma notícia do que souber dos mais pontos do nosso Estado.</p>
                 
                 <closer>
-                    <p>Deus guarde a V. Ex.ª.</p>
+                    <p>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.</p>
                     <p>Quartel-general no passo da <placeName ref="#guarda">Guarda</placeName> em <placeName ref="#camaqua">Camaquã</placeName>, 25 de fevereiro de 1841.</p>
                     <signed>Cidadão Ministro <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</signed>
                     <signed><persName ref="#neto">Antônio Neto</persName>.</signed>

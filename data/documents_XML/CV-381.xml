@@ -43,13 +43,13 @@
             <div xml:id="CV-381" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Devendo prestar minhas contas, tanto do tempo que exerci o emprego de Quartel-mestre General do Exército como do de Ministro e Secretário de Estado dos Negócios da Fazenda, rogo a V. Ex.ª nomeie uma comissão para as tomar, e que amanhã mesmo, a ser possível, entre em exercício.</p>
+                <p>Devendo prestar minhas contas, tanto do tempo que exerci o emprego de Quartel-mestre General do Exército como do de Ministro e Secretário de Estado dos Negócios da Fazenda, rogo a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> nomeie uma comissão para as tomar, e que amanhã mesmo, a ser possível, entre em exercício.</p>
                 
                 <closer>
-                    <p>Deus guarde a V. Ex.ª.</p>
+                    <p>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.</p>
                     <signed>
                         <placeName ref="#piratini">Piratini</placeName>, 23 de setembro.<br/>
                         <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
@@ -57,7 +57,7 @@
                 </closer>
                 
                 <note type="endorsement">
-                    Ilmo. e Exmo. Sr. Dr. <persName ref="#antonio_vicente_siqueira_pereira_leitao">Antônio Vicente de Siqueira Pereira Leitão</persName>, Ministro e Secretário de Estado dos Negócios da Justiça. [Cópia]
+                    Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Dr. <persName ref="#antonio_vicente_siqueira_pereira_leitao">Antônio Vicente de Siqueira Pereira Leitão</persName>, Ministro e Secretário de Estado dos Negócios da Justiça. [Cópia]
                 </note>
                 
             </div>

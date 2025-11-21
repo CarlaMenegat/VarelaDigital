@@ -57,11 +57,11 @@
                 </dateline>
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
-                    Manda o governo que V.S.ª imediatamente que este receber exija
+                    Manda o governo que <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> imediatamente que este receber exija
                     saber do Juiz de Paz de <placeName ref="#sao_joao">São João</placeName>,
                     o cidadão <persName ref="#manuel_silva_pacheco">Manuel da Silva Pacheco</persName>,
                     se os efeitos apresados na sumaca <rs type="embarcacao">“Mineira”</rs> existem
@@ -70,13 +70,13 @@
                     na <placeName ref="#barra_camaqua">Barra de Camaquã</placeName>,
                     para que as carretas daqui idas com o fim de transportar tais
                     efeitos possam ir diretamente ao lugar do recebimento da carga;
-                    e isto pode logo V.S.ª dizê-lo ao cidadão
+                    e isto pode logo <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> dizê-lo ao cidadão
                     <persName ref="#francisco_antonio_machado">Francisco Antônio Machado</persName>,
                     que hoje daqui parte com carretas para a condução dos citados efeitos.
                 </p>
                 
                 <closer>
-                    <salute>Deus guarde a V.S.ª.</salute>
+                    <salute>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
                     <signed>
                         <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     </signed>

@@ -45,12 +45,12 @@
             <div type="letter" xml:id="CV-515">
                 
                 <opener>
-                    <salute>Sr.</salute>
+                    <salute><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Para o <persName ref="#antonio_joaquim_de_sousa">Sr. Tenente-coronel Antônio Joaquim de Sousa</persName> pode V.Mcê. entregar a seu filho o <persName ref="#joaquim_antonio_de_sousa">Sr. Joaquim Antônio de Sousa</persName>, portador desta, cinco côvados de pano azul fino que me pede para farda, colete e calças, que eu respondo por sua importância, e para isso exija recibo dela.</p>
+                <p>Para o <persName ref="#antonio_joaquim_de_sousa"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Tenente-coronel Antônio Joaquim de Sousa</persName> pode <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> entregar a seu filho o <persName ref="#joaquim_antonio_de_sousa"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Joaquim Antônio de Sousa</persName>, portador desta, cinco côvados de pano azul fino que me pede para farda, colete e calças, que eu respondo por sua importância, e para isso exija recibo dela.</p>
                 
-                <p>De V.Mcê.</p>
+                <p>De <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice></p>
                 
                 <closer>
                     <signed>Compadre e amigo obrigado</signed>

@@ -45,13 +45,13 @@
             <div type="letter" xml:id="CV-326">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Com demora extrema recebi seu ofício de 8 do corrente em que participa o desembarque de 200 infantes na <placeName ref="#barra_camaqua">barra do Camaquã</placeName>, e que sobre eles haviam saído o Tenente-coronel <persName ref="#teodoro_jose_ribeiro">Teodoro José Ribeiro</persName> e Major <persName ref="#urbano_soares">Urbano Soares</persName>; e como não tenha tido notícia alguma mais a tal respeito no decurso de 18 dias, presumo que eles terão regressado, e por isso deixo de tomar providências a respeito; contando porém que todas as ocorrências dessa parte V.Sª. me participará sem demora e com as cautelas precisas para me chegarem às mãos com rapidez.</p>
+                <p>Com demora extrema recebi seu ofício de 8 do corrente em que participa o desembarque de 200 infantes na <placeName ref="#barra_camaqua">barra do Camaquã</placeName>, e que sobre eles haviam saído o Tenente-coronel <persName ref="#teodoro_jose_ribeiro">Teodoro José Ribeiro</persName> e Major <persName ref="#urbano_soares">Urbano Soares</persName>; e como não tenha tido notícia alguma mais a tal respeito no decurso de 18 dias, presumo que eles terão regressado, e por isso deixo de tomar providências a respeito; contando porém que todas as ocorrências dessa parte <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> me participará sem demora e com as cautelas precisas para me chegarem às mãos com rapidez.</p>
                 
                 <closer>
-                    <salute>Deus guarde a V.Sª.</salute>
+                    <salute>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice></salute>
                     <signed>Domingos José de Almeida</signed>
                 </closer>
                 

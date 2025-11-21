@@ -47,10 +47,10 @@
             <div xml:id="CV-480" type="letter">
                 
                 <opener>
-                    <salute>Amigo e Sr. Smithe</salute>
+                    <salute>Amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Smithe</salute>
                 </opener>
                 
-                <p>Rogo-lhe o favor de dar à Exma. <persName ref="#isabel_leonor_meireles_de_matos">Sra. D. Isabel Leonor Meireles de Matos</persName> ou à sua ordem cinquenta patacões prata, que com o respectivo recibo os darei aqui a quem V. Mcê. determinar, e lhe ficará obrigado o</p>
+                <p>Rogo-lhe o favor de dar à Exma. <persName ref="#isabel_leonor_meireles_de_matos"><choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> D. Isabel Leonor Meireles de Matos</persName> ou à sua ordem cinquenta patacões prata, que com o respectivo recibo os darei aqui a quem <choice><abbr>V. Mcê.</abbr><expan>Vossa Mercê</expan></choice> determinar, e lhe ficará obrigado o</p>
                 
                 <closer>
                     <p>Seu afetuoso amigo</p>
@@ -58,7 +58,7 @@
                 </closer>
                 
                 <address>
-                    <persName ref="#frederico_smithe">Sr. Frederico Smithe</persName>, ausente — a sua ordem.<br/>
+                    <persName ref="#frederico_smithe"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Frederico Smithe</persName>, ausente — a sua ordem.<br/>
                     <placeName ref="#piratini">Piratini</placeName>
                 </address>
                 

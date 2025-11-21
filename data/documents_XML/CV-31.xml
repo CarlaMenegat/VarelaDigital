@@ -32,7 +32,7 @@
                 </correspAction>
                 
                 <correspAction type="received">
-                    <persName>Ilmo. Sr. Juiz de Direito interino</persName>
+                    <persName>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Juiz de Direito interino</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -42,7 +42,7 @@
         <body>
             <div type="letter" xml:id="CV-31">
                 <opener>
-                    <salute>Ilmo. Sr. Juiz de Direito interino</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Juiz de Direito interino</salute>
                 </opener>
                 
                 <p>
@@ -57,7 +57,7 @@
                 </p>
                 
                 <p>
-                    Pede a V.S.ª se digne mandar passar a certidão requerida.
+                    Pede a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> se digne mandar passar a certidão requerida.
                 </p>
                 
                 <p>E.R.M.</p>

@@ -31,7 +31,7 @@
             <div type="letter" xml:id="CV-375">
                 
                 <opener>
-                    <salute>Amigo Sr. <persName ref="#matos">Matos</persName></salute>
+                    <salute>Amigo <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#matos">Matos</persName></salute>
                 </opener>
                 
                 <p>Parecendo-me não ser ocioso felicitar-se a <persName ref="#juan_lavalle">Lavalle</persName>, redigi o ofício incluso, que a merecer sua aprovação farei seguir a seu destino. Se for preciso prevenir-me [sic] a <persName ref="#bento_manuel_ribeiro">Bento Manuel</persName> a respeito, também lhe oficiarei, etc....</p>
@@ -41,7 +41,7 @@
                     (a) <persName ref="#domingos_jose_de_almeida">Almeida</persName>.</p>
                 
                 <opener>
-                    <salute>Amigo e Sr.</salute>
+                    <salute>Amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Aprovo muito sua lembrança; mas quisera, à vista do que tem havido, e das bem fundadas desconfianças que certas ocorrências devem necessariamente ter ocasionado, que não se esperasse pela resposta de <persName ref="#sebastiao_ribeiro">Dr. Sebastião</persName>, e sim se lhe enviasse desde já as credenciais e mais papéis, ainda que fique demorado este seu ofício dois ou três dias mais. Por intermédio do Guedes chegarão esses papéis às mãos do <persName ref="#sebastiao_ribeiro">Dr. Sebastião</persName>, marchando eles em direção ao <placeName ref="#salto">Salto</placeName>. Ou então encarregar-se ao Capitão Teófilo de entregá-los ao Dr., etc.</p>
@@ -49,7 +49,7 @@
                 <p>Não será mau oficiar a <persName ref="#bento_manuel_ribeiro">Bento Manuel</persName>, como indica.<br/>
                     (a) <persName ref="#matos">Matos</persName>.</p>
                 
-                <p>P.S. Eu não mesmo [sic] falar-lhe por estar muito endefluxado e com muitas dores na cabeça.<br/>
+                <p><choice><abbr>P.S.</abbr><expan>Post scriptum</expan></choice> Eu não mesmo [sic] falar-lhe por estar muito endefluxado e com muitas dores na cabeça.<br/>
                     (a) <persName ref="#matos">Matos</persName>.</p>
                 
                 <note type="endorsement">Passou todo o negócio ao Ministério do Exterior.</note>

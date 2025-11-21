@@ -42,10 +42,10 @@
                 
                 <opener>
                     <salute>Para <persName ref="#bento_goncalves">Bento Gonçalves da Silva</persName>.</salute>
-                    <salute>Meu compadre, amigo e Sr.</salute>
+                    <salute>Meu compadre, amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Notícias frescas para desafiar o apetite para o almoço; veja se será verídica a notícia de <persName ref="#jan_fernandez">Jan Fernandez</persName>, estando o homem da Música preso. Enfim, como as coisas se dirigem a outro alvo e eu já tenha prevenido parte das dificuldades, que eram a minha retirada, aguentem-se como puderem. Não quero amofinar a V. Ex.º de quem sou com veras</p>
+                <p>Notícias frescas para desafiar o apetite para o almoço; veja se será verídica a notícia de <persName ref="#jan_fernandez">Jan Fernandez</persName>, estando o homem da Música preso. Enfim, como as coisas se dirigem a outro alvo e eu já tenha prevenido parte das dificuldades, que eram a minha retirada, aguentem-se como puderem. Não quero amofinar a <choice><abbr>V. Ex.</abbr><expan>Vossa Excelência</expan></choice>º de quem sou com veras</p>
                 
                 <closer>
                     <signed>Amigo sincero e compadre</signed>
@@ -54,7 +54,7 @@
                 </closer>
                 
                 <note type="endorsement">
-                    Exmo. Sr. Presidente da República.<br/>
+                    Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente da República.<br/>
                     Sua casa.
                 </note>
                 

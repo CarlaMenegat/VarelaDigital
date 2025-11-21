@@ -57,13 +57,13 @@
             <div type="officialDocument" xml:id="CV-240">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
                     Na presença de seu ofício de 8 do corrente mês dirigido ao coletor de 
                     <placeName ref="#jaguarao">Jaguarão</placeName>, e de outro deste ao Inspetor do Tesouro, 
-                    cumpre-me fazer sentir que V. Mcê., como autoridade local e como vivamente 
+                    cumpre-me fazer sentir que <choice><abbr>V. Mcê.</abbr><expan>Vossa Mercê</expan></choice>, como autoridade local e como vivamente 
                     interessado na prosperidade da República, deve prestar ao referido coletor 
                     todos os auxílios que dependam de sua jurisdição e influência, a fim de que, 
                     por falta de mútua cooperação, não perca o Estado os tênues recursos com que 
@@ -75,7 +75,7 @@
                 <p>
                     Sem desfalque do exército, bem se pode custear os indispensáveis trabalhos 
                     daquela repartição fiscal com homens não aptos para a campanha, 
-                    que comumente superabundam pelos distritos; destes é que V. Mcê. deve pôr à 
+                    que comumente superabundam pelos distritos; destes é que <choice><abbr>V. Mcê.</abbr><expan>Vossa Mercê</expan></choice> deve pôr à 
                     disposição do coletor, e por uma bem combinada escala, os necessários para os 
                     trabalhos a seu cargo, não perdoando mesmo os afilhados de pessoas de alto 
                     coturno — como se expressa.
@@ -89,7 +89,7 @@
                 </p>
                 
                 <closer>
-                    <salute>Deus guarde a V. Mcê.</salute>
+                    <salute>Deus guarde a <choice><abbr>V. Mcê.</abbr><expan>Vossa Mercê</expan></choice></salute>
                     <dateline>
                         <orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName>,
                         <placeName ref="#piratini">Piratini</placeName>,

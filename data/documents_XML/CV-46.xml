@@ -40,18 +40,18 @@
             <div type="letter" xml:id="CV-46">
                 
                 <opener>
-                    <salute>Cópia. Ilmo. e Exmo. Sr.</salute>
+                    <salute>Cópia. Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Sendo de absoluta necessidade, a bem da sustentação da lei e da legalidade, mais uma pulsante barca de trânsito de animais para coadjuvar, não só a ida e vinda dos animais da nação de que estou encarregado, que existem, ou mais possam ir para as ilhas adjacentes a esta cidade, como para alguma necessária tentativa de acometer o inimigo em qualquer ponto de mar com força ao menos de cem homens de cavalaria; e não podendo as duas barcas que presentemente há, conduzir regularmente mais de cinquenta cavalos, porção muito diminuta para o conseguimento do bom sucesso, e isto não só para bater o inimigo, como para alguma surpresa de cavalhada que tanto nos é necessária, como ainda em extrema necessidade de carne para os hospitais e povo desta cidade.</p>
                 
-                <p>Motivos por que lembro a V. Ex.ª a fim de que se digne recordá-los, e em sua inteligência mandar com a brevidade possível se apronte por conta da nação uma pulsante e forte barca de trânsito de animais, para os fins expendidos.</p>
+                <p>Motivos por que lembro a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> a fim de que se digne recordá-los, e em sua inteligência mandar com a brevidade possível se apronte por conta da nação uma pulsante e forte barca de trânsito de animais, para os fins expendidos.</p>
                 
-                <p>Deus guarde a V. Ex.ª.</p>
+                <p>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.</p>
                 
                 <closer>
                     <dateline><placeName ref="#porto_alegre">Quartel em Porto Alegre</placeName>, <date when="1838-10-13">13 de outubro de 1838</date>.</dateline>
-                    <signed>Ilmo e Exmo. Sr. <persName ref="#tomas_jose_silva">Tomás José da Silva</persName> — Brigadeiro e Comandante da Guarnição desta capital.<br/><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.<br/>Major.</signed>
+                    <signed>Ilmo e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName> — Brigadeiro e Comandante da Guarnição desta capital.<br/><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.<br/>Major.</signed>
                 </closer>
                 
                 <note type="endorsement">Está conforme. (a) <persName ref="#jose_cesario_abreu">José Cesário de Abreu</persName>. Capitão Encarregado do Expediente.</note>

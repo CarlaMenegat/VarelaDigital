@@ -45,13 +45,13 @@
                 <note type="endorsement">2.º via</note>
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Por qualquer das <orgName ref="#coletorias_estado">Coletorias do Estado</orgName> mandará V. S.ª entregar duzentos e quarenta patacões, 240, ao cidadão <persName ref="#manuel_francisco_moura">Manuel Francisco de Moura</persName>, importância do frete de seis carretas de sua propriedade que trouxeram famílias de <placeName ref="#cacapava">Caçapava</placeName>, a saber: duas, a família e objetos do cidadão <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>; uma, a família e trastes do Exmo. Vigário Apostólico; duas, a família e trastes do cidadão <persName ref="#joao_dos_santos_quiminda">João dos Santos Quimindá</persName>; e uma, as escravas da nação, sua roupa e os arquivos da <orgName ref="#secretaria_interior">Secretaria do Interior</orgName> e <orgName ref="#secretaria_fazenda">Fazenda</orgName> e <orgName ref="#tesouro">Tesouro</orgName> que eu deixei em <placeName ref="#cacapava">Caçapava</placeName>, e felizmente se acham a salvo nesta; a todos aqueles mandará debitar o que lhes corresponder.</p>
+                <p>Por qualquer das <orgName ref="#coletorias_estado">Coletorias do Estado</orgName> mandará <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> entregar duzentos e quarenta patacões, 240, ao cidadão <persName ref="#manuel_francisco_moura">Manuel Francisco de Moura</persName>, importância do frete de seis carretas de sua propriedade que trouxeram famílias de <placeName ref="#cacapava">Caçapava</placeName>, a saber: duas, a família e objetos do cidadão <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>; uma, a família e trastes do Exmo. Vigário Apostólico; duas, a família e trastes do cidadão <persName ref="#joao_dos_santos_quiminda">João dos Santos Quimindá</persName>; e uma, as escravas da nação, sua roupa e os arquivos da <orgName ref="#secretaria_interior">Secretaria do Interior</orgName> e <orgName ref="#secretaria_fazenda">Fazenda</orgName> e <orgName ref="#tesouro">Tesouro</orgName> que eu deixei em <placeName ref="#cacapava">Caçapava</placeName>, e felizmente se acham a salvo nesta; a todos aqueles mandará debitar o que lhes corresponder.</p>
                 
                 <closer>
-                    <salute>Deus guarde a V. S.ª</salute>
+                    <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice></salute>
                     <dateline><orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, <date when="1841-12-25">25 de dezembro de 1841</date>.</dateline>
                     <signed><persName ref="#domingos_jose_almeida">(a) Domingos José de Almeida</persName></signed>
                 </closer>

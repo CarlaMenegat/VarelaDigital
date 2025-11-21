@@ -49,18 +49,18 @@
                 <head>Circular</head>
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Para a devida execução na parte que lhe toca, incluso lhe remeto 8 exemplares do decreto de 12 de dezembro próximo passado, pelo qual S.Ex.ª, o Sr. Vice-presidente do Estado, para cortar a continuação dos males que tem reportado à República o trânsito livre de nossos inimigos, houve por bem ordenar que de 12 de abril próximo vindouro em diante, à exceção dos indivíduos do exército, ninguém mais a percorra sem passaportes impressos.</p>
+                <p>Para a devida execução na parte que lhe toca, incluso lhe remeto 8 exemplares do decreto de 12 de dezembro próximo passado, pelo qual <choice><abbr>S.Ex.ª</abbr><expan>Sua Excelência</expan></choice>, o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Vice-presidente do Estado, para cortar a continuação dos males que tem reportado à República o trânsito livre de nossos inimigos, houve por bem ordenar que de 12 de abril próximo vindouro em diante, à exceção dos indivíduos do exército, ninguém mais a percorra sem passaportes impressos.</p>
                 
                 <closer>
-                    <p>Deus guarde a V.Sª.</p>
+                    <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice></p>
                     <signed>Secretaria do Interior e Fazenda em <placeName ref="#cacapava">Caçapava</placeName>, 27 de fevereiro de 1840.<br/>
                         (a) <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName></signed>
                 </closer>
                 
-                <p>Ilmo. Sr. <persName ref="#inacio_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>, Chefe de Polícia do departamento do Boqueirão.</p>
+                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>, Chefe de Polícia do departamento do Boqueirão.</p>
                 
                 <note type="endorsement">Ofício do Exmo. Ministro do Interior de 27 de fevereiro, recebido a 5 de março, sobre passaportes.</note>
                 

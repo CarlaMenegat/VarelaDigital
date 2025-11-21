@@ -45,13 +45,13 @@
             <div xml:id="CV-475" type="letter">
                 
                 <opener>
-                    <salute>Sr. Comissário</salute>
+                    <salute><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comissário</salute>
                 </opener>
                 
                 <p>Para o <persName ref="#jose_amaral_ferrador">Capitão José Amaral Ferrador</persName> veja se compra a peça de chita que pede na carta inclusa para camisas; cuja carta e chita me enviará, que depois lhe irá a ordem para o pagamento.</p>
                 
                 <closer>
-                    <p>De V. S.ª</p>
+                    <p>De <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice></p>
                     <signed>Amigo afetuoso <persName ref="#domingos_jose_almeida">(a) Almeida</persName></signed>
                 </closer>
                 
@@ -60,7 +60,7 @@
                 <note type="endorsement">uma peça de chita por 128800 rs. [em casa de Lucas]</note>
                 
                 <address>
-                    <persName ref="#bernardo_jose_rodrigues_filho">Ilmo. Sr. Bernardo José Rodrigues</persName> — Sua residência.<br/>
+                    <persName ref="#bernardo_jose_rodrigues_filho">Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Bernardo José Rodrigues</persName> — Sua residência.<br/>
                     <note>2.º Corpo de 1.º linha — Para lançar</note>
                 </address>
                 

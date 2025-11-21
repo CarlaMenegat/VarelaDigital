@@ -47,16 +47,16 @@
             <div xml:id="CV-414" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Das quatro onças que de minha conta V. S.ª recebeu do 
+                <p>Das quatro onças que de minha conta <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> recebeu do 
                     <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>, importa em sessenta e oito patacões 
                     prata, se servirá enviar-me o competente recibo por 1.º e 2.ª via para nossa inteligência, e para eu haver do 
                     <orgName ref="#tesouro">Tesouro</orgName> essa quantia caso a encontre naquela que a nação lhe é devedora.</p>
                 
                 <closer>
-                    <p>Deus guarde a V. S.ª.</p>
+                    <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                 </closer>
                 
                 <p><orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName> em 
@@ -64,7 +64,7 @@
                 
                 <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</signed>
                 
-                <p>Ilmo. Sr. <persName ref="#jose_ferreira_gomes_roque">José Ferreira Gomes Roque</persName></p>
+                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#jose_ferreira_gomes_roque">José Ferreira Gomes Roque</persName></p>
                 
             </div>
         </body>

@@ -49,15 +49,15 @@
             <div xml:id="CV-410" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p><event ref="#decreto_1839_02_04">Fulminando o decreto de 4 de fevereiro de 1839</event> a pena de morte contra todos aqueles indivíduos que moradores ou asilados no <placeName ref="#estado_oriental">Estado Oriental</placeName> passarem a este com o fim de hostilizá-lo, e assim prolongarem a guerra que contra nós sustenta o <orgName ref="#imperio_brasil">governo do Brasil</orgName>, e com esse pretexto cometerem as atrocidades horrorosas que então praticaram os famosos 
-                    <persName ref="#juca_cipriano">Juca Cipriano</persName>, <persName ref="#dedeco">Dedeco</persName> e <persName ref="#januafio_torto">Januáfio Torto</persName>, S. Ex.ª o Sr. Vice-presidente da República determina que acerca dos indivíduos anteontem agarrados na força que caudilhava 
-                    <persName ref="#jeronimo_jacinto_pereira">Jerônimo Jacinto Pereira</persName>, V. Ex.ª dê exato cumprimento ao que dispõe o referido decreto, mandando passar pelas armas a todas aquelas pessoas vindas do lugar referido com o precitado 
-                    <persName ref="#jeronimo_jacinto_pereira">Jerônimo</persName> e seus sequazes: o que V. Ex.ª cumprirá sem hesitação, mandando publicar em Ordem do dia o presente aviso.</p>
+                    <persName ref="#juca_cipriano">Juca Cipriano</persName>, <persName ref="#dedeco">Dedeco</persName> e <persName ref="#januafio_torto">Januáfio Torto</persName>, <choice><abbr>S. Ex.ª</abbr><expan>Sua Excelência</expan></choice> o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Vice-presidente da República determina que acerca dos indivíduos anteontem agarrados na força que caudilhava 
+                    <persName ref="#jeronimo_jacinto_pereira">Jerônimo Jacinto Pereira</persName>, <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> dê exato cumprimento ao que dispõe o referido decreto, mandando passar pelas armas a todas aquelas pessoas vindas do lugar referido com o precitado 
+                    <persName ref="#jeronimo_jacinto_pereira">Jerônimo</persName> e seus sequazes: o que <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> cumprirá sem hesitação, mandando publicar em Ordem do dia o presente aviso.</p>
                 
-                <p>Deus guarde a V. Ex.ª.</p>
+                <p>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.</p>
                 
                 <p><orgName ref="#secretaria_interior_fazenda">Secretaria do Interior e Fazenda</orgName> encarregada do expediente de Guerra na 
                     <placeName ref="#barra_cacequi">Barra do Cacequi</placeName>, 18 de novembro de 1840.</p>
@@ -66,11 +66,11 @@
                     (a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.
                 </signed>
                 
-                <p>Ilmo. e Exmo. Sr. General <persName ref="#antonio_neto">Antônio Neto</persName>, Chefe do 
+                <p>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General <persName ref="#antonio_neto">Antônio Neto</persName>, Chefe do 
                     <orgName ref="#estado_maior">Estado-maior do Exército</orgName>.</p>
                 
                 <note type="endorsement">
-                    S. da R. [No verso]<br/>
+                    <choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice> [No verso]<br/>
                     Ao cidadão General <persName ref="#antonio_neto">Antônio Neto</persName><br/>
                     Chefe do <orgName ref="#estado_maior">Estado-maior do Exército</orgName>.<br/>
                     Do <orgName>Ministério encarregado do expediente da Guerra</orgName>.

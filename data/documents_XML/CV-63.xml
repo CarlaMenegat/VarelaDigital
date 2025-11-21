@@ -42,10 +42,10 @@
             <div type="letter" xml:id="CV-63">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>No dia 10 do corrente se concluiu a passagem no <placeName ref="#passo_real">Passo Real</placeName> do <placeName ref="#rio_dos_sinos">Rio dos Sinos</placeName>, pelas 10 horas do dia, do 5.º Batalhão de Infantaria e 11 da mesma arma e 5.º Corpo de Cavalaria de Guarda Nacional; e no dia 11, pelas 2 horas da tarde, o 2.º e o 3.º Regimento de Cavalharia de linha; e às 5 da tarde, se pôs tudo em marchas ao mando do Sr. <persName ref="#joao_frederico_caldwell">Tenente-coronel João Frederico Caldwell</persName><note type="editorial" n="1">No original: Calvaro.</note> e, marchando toda a noite, fomos sestear no dia 12 no <placeName ref="#passo_da_cateira">passo da Cateira</placeName>, além da <placeName ref="#aldeia">Aldeia</placeName> légua e meia.</p>
+                <p>No dia 10 do corrente se concluiu a passagem no <placeName ref="#passo_real">Passo Real</placeName> do <placeName ref="#rio_dos_sinos">Rio dos Sinos</placeName>, pelas 10 horas do dia, do 5.º Batalhão de Infantaria e 11 da mesma arma e 5.º Corpo de Cavalaria de Guarda Nacional; e no dia 11, pelas 2 horas da tarde, o 2.º e o 3.º Regimento de Cavalharia de linha; e às 5 da tarde, se pôs tudo em marchas ao mando do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_frederico_caldwell">Tenente-coronel João Frederico Caldwell</persName><note type="editorial" n="1">No original: Calvaro.</note> e, marchando toda a noite, fomos sestear no dia 12 no <placeName ref="#passo_da_cateira">passo da Cateira</placeName>, além da <placeName ref="#aldeia">Aldeia</placeName> légua e meia.</p>
                 
                 <p>E tendo ali notícia que o inimigo tinha levantado o campo da <placeName ref="#capela_grande">Capela Grande</placeName> e <placeName ref="#boa_vista">Boa Vista</placeName> com toda a força de 400 e tantos homens de cavalaria e 100 e tantos de infantaria e 3 bocas de fogo e muita bagagem e mais de 2000 mil [sic] cavalos, marchando em direitura à freguesia da <placeName ref="#serra">Serra</placeName>, para por ali subir a <placeName ref="#serra">Serra</placeName>; mas o <persName ref="#major_ourives">Major Ourives</persName>, com a força de cavalaria de seu mando e o 5.º Batalhão de Artilharia, pôde tomar-lhe a frente e os rebeldes retrocederam para o <placeName ref="#passo_de_tramandai">passo de <placeName ref="#rio_tramandai">rio Tramandaí</placeName></placeName>.</p>
                 
@@ -55,10 +55,10 @@
                 
                 <p>E disto fui informado por um soldado prisioneiro de nome <persName ref="#jeronimo_de_barros">Jerônimo de Barros</persName>, da força do <persName ref="#major_ourives">Major Ourives</persName>, que pôde escapar-lhe meio dia antes da entrada da Picada, afiançando dito soldado que o inimigo, pela desmoralização em que ia, não vence subir a Serra com mais de 200 homens e 500 cavalos. E isto logo participei ao <persName ref="#major_ourives">Major Ourives</persName>.</p>
                 
-                <p>À vista do que, vendo ser inútil a minha perseguição, me retirei para o <placeName ref="#quilombo">Quilombo</placeName>, a dar descanso aos cavalos, fazendo junção no dia seguinte com o tenente-coronel comandante da força, aonde estamos às ordens de V.Ex.º. <placeName ref="#porto_alegre">Porto Alegre</placeName>, <date when="1840-12-17">17 de dezembro de 1840</date>.</p>
+                <p>À vista do que, vendo ser inútil a minha perseguição, me retirei para o <placeName ref="#quilombo">Quilombo</placeName>, a dar descanso aos cavalos, fazendo junção no dia seguinte com o tenente-coronel comandante da força, aonde estamos às ordens de <choice><abbr>V.Ex.</abbr><expan>Vossa Excelência</expan></choice>º. <placeName ref="#porto_alegre">Porto Alegre</placeName>, <date when="1840-12-17">17 de dezembro de 1840</date>.</p>
                 
                 <closer>
-                    <salute>Ilmo. e Exmo. Sr. <persName ref="#joao_paulo_santos_barreto">João Paulo dos Santos Barreto</persName><note type="editorial" n="2">No original: Sousa.</note>. Digníssimo Comandante-em-chefe do Exército desta Província.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_paulo_santos_barreto">João Paulo dos Santos Barreto</persName><note type="editorial" n="2">No original: Sousa.</note>. Digníssimo Comandante-em-chefe do Exército desta Província.</salute>
                     <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
                     <signed>Tenente-coronel</signed>
                 </closer>

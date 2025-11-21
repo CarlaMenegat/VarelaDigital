@@ -52,7 +52,7 @@
                     Esta tem unicamente por objeto saber de sua saúde e de minha comadre.
                     No dia 24 do corrente lhe escrevi pelo correio e penso que dela seria entregue; 
                     por aqui não há novidades, unicamente aqui apareceu uma carta para o 
-                    <persName ref="#general_neto">Sr. General Neto</persName> que dizem vinda do 
+                    <persName ref="#general_neto"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General Neto</persName> que dizem vinda do 
                     <placeName ref="#rio_grande">Rio Grande</placeName> conduzida por um 
                     <persName ref="#barbosa_passo_pedras">Barbosa, do Passo das Pedras</persName>.
                 </p>
@@ -66,19 +66,19 @@
                 </p>
                 
                 <p>
-                    Sua comadre muito se recomenda a V.Ex.ª e o mesmo faz a nossa comadre e o mesmo faz
+                    Sua comadre muito se recomenda a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> e o mesmo faz a nossa comadre e o mesmo faz
                     este que confessa ser
                 </p>
                 
                 <closer>
-                    <salute>De V.Ex.ª</salute>
+                    <salute>De <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice></salute>
                     <signed>
                         <persName ref="#antonio_jose_abreu">Compadre e amigo muito obrigado<br/>Antônio José de Abreu</persName>
                     </signed>
                 </closer>
                 
                 <note type="endorsement">
-                    Ilmo. e Exmo. Sr. <persName ref="#domingos_almeida">Domingos José de Almeida</persName>.
+                    Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_almeida">Domingos José de Almeida</persName>.
                     Digmo. Ministro da Fazenda. <placeName ref="#bage">Bagé</placeName>. [No verso]<br/>
                     Respondida a 5 de novembro de 1841. [Na folha 1r.]
                 </note>

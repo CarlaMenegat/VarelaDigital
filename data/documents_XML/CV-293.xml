@@ -49,10 +49,10 @@
             <div type="letter" xml:id="CV-293">
                 
                 <opener>
-                    <salute>Prezadíssimo Sr. Prado</salute>
+                    <salute>Prezadíssimo <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Prado</salute>
                 </opener>
                 
-                <p>Devo resposta a muitos ofícios e cartas de V.Sª., porém é tal o serviço que com preferência sobre mim pesa, que só depois de concluído o poderei fazer. Esta serve de rogar-lhe a remessa do gado para <placeName ref="#montevideo">Montevidéu</placeName>, como do dinheiro que tiver apurado para esta, uma vez que estando na porta o pagamento das cédulas a fazer-se, não se pode demorar tais remessas.</p>
+                <p>Devo resposta a muitos ofícios e cartas de <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>, porém é tal o serviço que com preferência sobre mim pesa, que só depois de concluído o poderei fazer. Esta serve de rogar-lhe a remessa do gado para <placeName ref="#montevideo">Montevidéu</placeName>, como do dinheiro que tiver apurado para esta, uma vez que estando na porta o pagamento das cédulas a fazer-se, não se pode demorar tais remessas.</p>
                 
                 <p>Releve esta lembrança e disponha do</p>
                 
@@ -64,7 +64,7 @@
                 
                 <note type="endorsement">Março — 19 — 39. Almeida [No verso]</note>
                 
-                <p>Ilmo. Sr. <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>. Chefe Geral de Polícia do Departamento e Fronteira de <placeName ref="#alegrete">Alegrete</placeName>. De <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</p>
+                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>. Chefe Geral de Polícia do Departamento e Fronteira de <placeName ref="#alegrete">Alegrete</placeName>. De <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</p>
                 
             </div>
         </body>

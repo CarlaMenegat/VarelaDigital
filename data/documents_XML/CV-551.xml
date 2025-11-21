@@ -42,19 +42,19 @@
             <div type="letter" xml:id="CV-551">
                 
                 <opener>
-                    <salute>Meu compadre amigo e Sr.</salute>
+                    <salute>Meu compadre amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Diga-me o que devo responder acerca do que pretendem <persName ref="#inacio_machado_silveira">Inácio Machado da Silveira</persName> e <persName ref="#antonio_carlos_soveral">Major Antônio Carlos de Soveral</persName>, cujas oficiosas as incluo.</p>
                 
                 <closer>
-                    <salute>De V. Ex.ª</salute>
+                    <salute>De <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice></salute>
                     <signed>Compadre e amigo obrigado</signed>
                     <dateline>S.C., <date when="1841-12-01">1.º de dezembro de 1841</date>.</dateline>
                     <signed>(a) <persName ref="#domingos_jose_almeida">Almeida</persName></signed>
                 </closer>
                 
-                <note type="endorsement">Exmo. Sr. Presidente. [No verso]</note>
+                <note type="endorsement">Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente. [No verso]</note>
                 <note type="endorsement">S. casa.</note>
                 
             </div>

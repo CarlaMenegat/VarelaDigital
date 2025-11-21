@@ -46,10 +46,10 @@
             <div xml:id="CV-441" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Ainda ontem é que recebi o ofício que V. S.ª me dirigiu a 22 do passado, comunicando as providências que há dado para pôr em arrecadação todos os objetos pertencentes ao Estado e que ficaram em <placeName ref="#sao_gabriel">São Gabriel</placeName>, ao qual respondo.</p>
+                <p>Ainda ontem é que recebi o ofício que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> me dirigiu a 22 do passado, comunicando as providências que há dado para pôr em arrecadação todos os objetos pertencentes ao Estado e que ficaram em <placeName ref="#sao_gabriel">São Gabriel</placeName>, ao qual respondo.</p>
                 
                 <p>Na mesma ocasião em que se recolherem os objetos mencionados mandará para o mesmo destino uma porção de papel e alguns pertences da Tipografia que deixei em um caixão ao <persName xml:id="lucas_ingles">inglês Lucas</persName>, e assim mais o que recolheu o falecido <persName xml:id="jose_borges_abreu">José Borges de Abreu</persName>, como me avisou, para <placeName ref="#alegrete">Alegrete</placeName>, e a viúva deve saber onde existem; e tudo, logo que haja oportunidade de trânsito seguro, mandará para esta, bem como a Tipografia.</p>
                 
@@ -63,7 +63,7 @@
                 </closer>
                 
                 <address>
-                    <persName ref="#joao_antonio_silveira">Ilmo. Sr. Coronel João Antônio da Silveira</persName><br/>
+                    <persName ref="#joao_antonio_silveira">Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel João Antônio da Silveira</persName><br/>
                     <note>Comandante da Divisão da Direita.</note>
                 </address>
                 

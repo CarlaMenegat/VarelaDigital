@@ -38,13 +38,13 @@
             <div type="letter" xml:id="CV-543">
                 
                 <opener>
-                    <salute>Meu compadre, amigo e Sr.</salute>
+                    <salute>Meu compadre, amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>O tenente <persName ref="#manuel_lucas_de_lima">Manuel Lucas de Lima</persName>, oficial de muito préstimo e não de quindins como muitos, etc., etc., etc... pede para se lhe descontar em seus vencimentos a importância do direito do gado que exportou, como da guia junta: alguns outros têm obtido esta graça e uma vez a um concedida parece que estão no mesmo caso todos os outros. Diga-me V. Ex.ª como o devo despachar.</p>
+                <p>O tenente <persName ref="#manuel_lucas_de_lima">Manuel Lucas de Lima</persName>, oficial de muito préstimo e não de quindins como muitos, etc., etc., etc... pede para se lhe descontar em seus vencimentos a importância do direito do gado que exportou, como da guia junta: alguns outros têm obtido esta graça e uma vez a um concedida parece que estão no mesmo caso todos os outros. Diga-me <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> como o devo despachar.</p>
                 
                 <closer>
-                    <signed>De V. Ex.ª<br/>Compadre e amigo</signed>
+                    <signed>De <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice><br/>Compadre e amigo</signed>
                     <dateline>S.C., <date when="1841-11-23">23 de novembro de 1841</date>.</dateline>
                     <signed>(a) <persName ref="#domingos_jose_almeida">Almeida</persName>.</signed>
                 </closer>
@@ -54,7 +54,7 @@
                     Pode conceder a este o mesmo que se tem concedido a outros; mas bom é saber se este gado era de sua propriedade ou se é transação de algum que quer, por esse meio, fazer negócio, pagando somente a metade, como alguns têm feito, sem se lembrarem que se prejudicam igualmente.<br/><br/>
                     Seu amigo<br/>
                     (a) <persName ref="#bento_goncalves">B. G. Silva</persName>.<br/>
-                    Ilmo. e Exmo. Sr. Presidente<br/>
+                    Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente<br/>
                     S. casa.
                 </note>
                 

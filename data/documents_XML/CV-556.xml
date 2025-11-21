@@ -42,15 +42,15 @@
             <div type="letter" xml:id="CV-556">
                 
                 <opener>
-                    <salute>Meu compadre amigo e Sr.</salute>
+                    <salute>Meu compadre amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Para não ficar encerrada no recinto do Tesouro somente a conta do que me deve do Estado, de dinheiro e somente dinheiro com que tenho ocorrido para as urgências da guerra, peço a V. Ex.ª que passe pela vista a última conta que apresentei a 13 do corrente, pela qual verá dever-me o Estado Rs. 19:024$867, dezenove contos vinte e quatro mil oitocentos e sessenta e sete réis: e verá que a conta de Pereira por mim afiançada já se acha descontada em a dita minha conta. Ele deve o direito do gado que exportou para o <placeName ref="#estado_oriental">Estado Oriental</placeName> tirado há pouco da estância de Barreto, e apesar disso ainda quer descontos estando a dever.</p>
+                <p>Para não ficar encerrada no recinto do Tesouro somente a conta do que me deve do Estado, de dinheiro e somente dinheiro com que tenho ocorrido para as urgências da guerra, peço a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que passe pela vista a última conta que apresentei a 13 do corrente, pela qual verá dever-me o Estado Rs. 19:024$867, dezenove contos vinte e quatro mil oitocentos e sessenta e sete réis: e verá que a conta de Pereira por mim afiançada já se acha descontada em a dita minha conta. Ele deve o direito do gado que exportou para o <placeName ref="#estado_oriental">Estado Oriental</placeName> tirado há pouco da estância de Barreto, e apesar disso ainda quer descontos estando a dever.</p>
                 
                 <p>Rogo-lhe também que lance suas vistas na relação da distribuição do dinheiro que veio pelo Lopes, da <placeName ref="#encruzilhada">Encruzilhada</placeName> e <placeName ref="#piratini">Piratini</placeName>, para ver qual seu fim.</p>
                 
                 <closer>
-                    <salute>De V. Ex.ª</salute>
+                    <salute>De <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice></salute>
                     <signed>Compadre e amigo</signed>
                     <dateline>S.C., <date when="1841-12-16">16 de dezembro de 1841</date>.</dateline>
                     <signed>(a) <persName ref="#domingos_jose_almeida">Almeida</persName></signed>

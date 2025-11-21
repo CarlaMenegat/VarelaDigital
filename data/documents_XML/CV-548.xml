@@ -42,11 +42,11 @@
             <div type="letter" xml:id="CV-548">
                 
                 <opener>
-                    <salute>Sr. <persName ref="#antonio_rodrigues_barcelos">Antônio Rodrigues Barcelos</persName>.</salute>
+                    <salute><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#antonio_rodrigues_barcelos">Antônio Rodrigues Barcelos</persName>.</salute>
                     <dateline><placeName ref="#piratini">Piratini</placeName>, <date when="1842-07-09">9 de julho de 1842</date>.</dateline>
                 </opener>
                 
-                <p>Tendo arrendado minha charqueada ao Sr. <persName ref="#leao_prospero_chastan">Leão Próspero Chastan</persName>, haja V. Mcê. de a entregar com todos os seus utensílios e pertences, visto constar-me achar-se V. Mcê. de posse dela.</p>
+                <p>Tendo arrendado minha charqueada ao <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#leao_prospero_chastan">Leão Próspero Chastan</persName>, haja <choice><abbr>V. Mcê.</abbr><expan>Vossa Mercê</expan></choice> de a entregar com todos os seus utensílios e pertences, visto constar-me achar-se <choice><abbr>V. Mcê.</abbr><expan>Vossa Mercê</expan></choice> de posse dela.</p>
                 
                 <p>Saudades à mana, e disponha do seu mano e amigo afetuoso.</p>
                 

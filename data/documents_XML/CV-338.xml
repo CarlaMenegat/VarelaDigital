@@ -47,10 +47,10 @@
             <div type="letter" xml:id="CV-338">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Pelo Comandante de Polícia do 3.º Distrito deste município mandará V.Sª. inteligenciar aos cidadãos 
+                <p>Pelo Comandante de Polícia do 3.º Distrito deste município mandará <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> inteligenciar aos cidadãos 
                     <persName ref="#manuel_moreira_silva">Manuel Moreira da Silva</persName>, 
                     <persName ref="#claudiano_quadros">Claudiano de Quadros</persName> 
                     e 
@@ -66,14 +66,14 @@
                     for acometida, eles serão os únicos responsáveis por esse delito atroz.
                 </p>
                 
-                <p>Logo que novo juiz de paz seja empossado naquele distrito V.Sª. enviará cópia do presente aviso para lhe dar inteira execução na parte que lhe toca.</p>
+                <p>Logo que novo juiz de paz seja empossado naquele distrito <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> enviará cópia do presente aviso para lhe dar inteira execução na parte que lhe toca.</p>
                 
                 <closer>
-                    <salute>Deus guarde a V.Sª.</salute>
+                    <salute>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice></salute>
                     <signed>Domingos José de Almeida</signed>
                 </closer>
                 
-                <p>Ilmo. Sr. <persName ref="#bernardo_pires">Major Bernardo Pires</persName>, Chefe Geral de Polícia da cidade e município de Piratini.</p>
+                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#bernardo_pires">Major Bernardo Pires</persName>, Chefe Geral de Polícia da cidade e município de Piratini.</p>
                 
                 <note type="endorsement">Recebido a 13 de outubro 1839, respondido a 16 do mesmo.</note>
                 

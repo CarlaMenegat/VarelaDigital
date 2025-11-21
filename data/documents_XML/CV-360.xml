@@ -45,17 +45,17 @@
             <div type="letter" xml:id="CV-360">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Sendo preciso acudir-se ao crédito nacional no pronto pagamento de fazendas, pólvora, espadas e pistolas compradas a <persName ref="#carlos_munhoz">Dom Carlos Muñoz</persName>, conta o governo que V.S.ª em tudo ao seu alcance coadjuve ao cidadão <persName ref="#antonio_de_faria_correia">Antônio de Faria Correia</persName> para que com a possível brevidade faça entregar ao cidadão <persName ref="#jose_mariano_da_cunha">José Mariano da Cunha</persName> os gados de corte de que faço menção no ofício que ora lhe endereço a respeito.</p>
+                <p>Sendo preciso acudir-se ao crédito nacional no pronto pagamento de fazendas, pólvora, espadas e pistolas compradas a <persName ref="#carlos_munhoz">Dom Carlos Muñoz</persName>, conta o governo que <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> em tudo ao seu alcance coadjuve ao cidadão <persName ref="#antonio_de_faria_correia">Antônio de Faria Correia</persName> para que com a possível brevidade faça entregar ao cidadão <persName ref="#jose_mariano_da_cunha">José Mariano da Cunha</persName> os gados de corte de que faço menção no ofício que ora lhe endereço a respeito.</p>
                 
                 <closer>
                     <p>Secretaria da Fazenda em <placeName ref="#sao_martinho">São Martinho</placeName>, 18 de janeiro de 1840.</p>
                     <signed>(a) <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>.</signed>
                 </closer>
                 
-                <p>Ilmo. Sr. Coronel <persName ref="#joao_antonio_da_silveira">João Antônio da Silveira</persName>. Comandante da Divisão da Direita.</p>
+                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_da_silveira">João Antônio da Silveira</persName>. Comandante da Divisão da Direita.</p>
                 
             </div>
         </body>

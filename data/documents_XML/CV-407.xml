@@ -46,19 +46,19 @@
             <div xml:id="CV-407" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
-                    <note type="endorsement">S.R.</note>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <note type="endorsement"><choice><abbr>S.R.</abbr><expan>Secretaria da Presidência da República</expan></choice></note>
                 </opener>
                 
-                <p>Dos rendimentos da <orgName ref="#coletoria">coletoria</orgName> a seu cargo pagará V. S.ª ao cidadão 
+                <p>Dos rendimentos da <orgName ref="#coletoria">coletoria</orgName> a seu cargo pagará <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> ao cidadão 
                     Tenente-coronel <persName ref="#boaventura_soares_silva">Boaventura Soares da Silva</persName> a quantia de Rs. 
                     212$820, duzentos e doze mil oitocentos e vinte réis, em patacões à razão de cinco patacas cada um, 
                     importância do que há suprido às forças de <placeName ref="#sao_borja">São Borja</placeName>, como dos dois documentos inclusos.</p>
                 
-                <p>Esta dívida é sagrada e por isso espera o Governo que V. S.ª se esforce em satisfazê-la.</p>
+                <p>Esta dívida é sagrada e por isso espera o Governo que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> se esforce em satisfazê-la.</p>
                 
                 <closer>
-                    <p>Deus guarde a V. S.ª.</p>
+                    <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                 </closer>
                 
                 <p><orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName> em 
@@ -69,7 +69,7 @@
                 <p>Ao cidadão Coletor de <placeName ref="#alegrete">Alegrete</placeName>.</p>
                 
                 <note type="endorsement">
-                    S.R. [No verso]<br/>
+                    <choice><abbr>S.R.</abbr><expan>Secretaria da Presidência da República</expan></choice> [No verso]<br/>
                     Ao cidadão Coletor de <placeName ref="#alegrete">Alegrete</placeName>.<br/>
                     Do <orgName ref="#ministerio_fazenda">Ministério da Fazenda</orgName>.
                 </note>

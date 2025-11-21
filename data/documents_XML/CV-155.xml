@@ -105,14 +105,14 @@
             <div type="letter" xml:id="CV-155">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Foi presente a S. Ex.ª, o <persName ref="#gomes_jardim">Sr. Vice-Presidente do Estado</persName>, o ofício que V. Ex.ª dirigiu ao <persName ref="#bento_goncalves">Sr. General-em-chefe</persName>, com data de 20 do corrente, do qual ficou S. Ex.ª inteirado.</p>
+                <p>Foi presente a <choice><abbr>S. Ex.ª</abbr><expan>Sua Excelência</expan></choice>, o <persName ref="#gomes_jardim"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Vice-Presidente do Estado</persName>, o ofício que <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> dirigiu ao <persName ref="#bento_goncalves"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General-em-chefe</persName>, com data de 20 do corrente, do qual ficou <choice><abbr>S. Ex.ª</abbr><expan>Sua Excelência</expan></choice> inteirado.</p>
                 
-                <p>Foram entregues os quatro infantes e as quatorze armas descompostas que trouxe o <persName ref="#francisco_pinto_silva">Tenente Francisco Pinto da Silva</persName>, o qual regressa conduzindo, a entregar a V. Ex.ª, 50 peças de belbute, 80 ditas de chitão, 100 ditas de morim, 60 ditas de algodão, 4 ditas de panos finos, 10 ditas de brim e 16 ditas de baetas, 45 libras de linhas, 36 clavinas, 9870 cartuchos embalados e 100 pederneiras, não indo as espadas que requisita por não haver nenhuma.</p>
+                <p>Foram entregues os quatro infantes e as quatorze armas descompostas que trouxe o <persName ref="#francisco_pinto_silva">Tenente Francisco Pinto da Silva</persName>, o qual regressa conduzindo, a entregar a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, 50 peças de belbute, 80 ditas de chitão, 100 ditas de morim, 60 ditas de algodão, 4 ditas de panos finos, 10 ditas de brim e 16 ditas de baetas, 45 libras de linhas, 36 clavinas, 9870 cartuchos embalados e 100 pederneiras, não indo as espadas que requisita por não haver nenhuma.</p>
                 
-                <p>Deus guarde a V. Ex.ª. Quartel-general em <placeName ref="#bage">Bagé</placeName>, <date when="1841-12-25">25 de dezembro de 1841</date>.</p>
+                <p>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>. Quartel-general em <placeName ref="#bage">Bagé</placeName>, <date when="1841-12-25">25 de dezembro de 1841</date>.</p>
                 
                 <p>Ao cidadão <persName ref="#joao_antonio_silveira">General João Antônio da Silveira</persName>,  
                     Chefe do 1.º Corpo de Exército.</p>

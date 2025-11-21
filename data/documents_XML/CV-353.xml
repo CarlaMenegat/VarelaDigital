@@ -42,13 +42,13 @@
             <div type="oficio" xml:id="CV-353">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Suposto no ofício da cópia inclusa assevere S.Exª., o General <persName ref="#bento_goncalves">Bento Gonçalves</persName>, tem ordenado a V.Sª. marchasse para o lugar que indica caso não tivesse o General <persName ref="#bento_manuel">Bento Manuel</persName> marcado outro destino, por ordem de S.Exª. o Sr. Vice-presidente lhe remeto a referida cópia para sua inteligência.</p>
+                <p>Suposto no ofício da cópia inclusa assevere <choice><abbr>S.Exª.</abbr><expan>Sua Excelência</expan></choice>, o General <persName ref="#bento_goncalves">Bento Gonçalves</persName>, tem ordenado a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> marchasse para o lugar que indica caso não tivesse o General <persName ref="#bento_manuel">Bento Manuel</persName> marcado outro destino, por ordem de <choice><abbr>S.Exª.</abbr><expan>Sua Excelência</expan></choice> o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Vice-presidente lhe remeto a referida cópia para sua inteligência.</p>
                 
                 <closer>
-                    <p>Deus guarde a V.Sª.</p>
+                    <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice></p>
                     <signed>Domingos José de Almeida</signed>
                 </closer>
                 
@@ -57,7 +57,7 @@
                 </note>
                 
                 <note type="endorsement">
-                    Ilmo. Sr. Coronel João Antônio da Silveira, Comandante da Divisão da Direita.
+                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel João Antônio da Silveira, Comandante da Divisão da Direita.
                 </note>
                 
             </div>

@@ -45,22 +45,22 @@
             <div type="letter" xml:id="CV-525">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Levando ao conhecimento de S. Ex.ª o Sr. Presidente o ofício que V. Ex.ª me dirigiu a 27 do passado requisitando um cargueiro com cartuchos e o armamento que há tempos exigiu, que podia seguir nas carretas que trouxeram as peças; de ordem do mesmo respondo.</p>
+                <p>Levando ao conhecimento de <choice><abbr>S. Ex.ª</abbr><expan>Sua Excelência</expan></choice> o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente o ofício que <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> me dirigiu a 27 do passado requisitando um cargueiro com cartuchos e o armamento que há tempos exigiu, que podia seguir nas carretas que trouxeram as peças; de ordem do mesmo respondo.</p>
                 
                 <p>Os carreteiros de que faz menção suponho terem já regressado por não aparecerem na chácara em que pararam; eu os mando ver em outras, e se ainda os achar enviarei o armamento que se puder dispensar, como pelos portadores deste o cargueiro com cartuchos, caso se verifique a ida dos ditos carreteiros.</p>
                 
-                <p>Dependendo a expedição de ordens acerca de negócios da <orgName ref="#secretaria_interior_fazenda_guerra">Fazenda e do expediente da Guerra</orgName> e de outros assuntos da administração do Estado da certeza de retirada do inimigo para <placeName ref="#rio_pardo">Rio Pardo</placeName> como se diz, convém que V. Ex.ª sem perda de tempo, de momento me diga se com efeito verificou-se a dita retirada.</p>
+                <p>Dependendo a expedição de ordens acerca de negócios da <orgName ref="#secretaria_interior_fazenda_guerra">Fazenda e do expediente da Guerra</orgName> e de outros assuntos da administração do Estado da certeza de retirada do inimigo para <placeName ref="#rio_pardo">Rio Pardo</placeName> como se diz, convém que <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> sem perda de tempo, de momento me diga se com efeito verificou-se a dita retirada.</p>
                 
                 <closer>
-                    <salute>Deus guarde a V. Ex.ª</salute>
+                    <salute>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice></salute>
                     <dateline><placeName ref="#bage">Bagé</placeName>, <date when="1841-10-09">9 de outubro de 1841</date>.</dateline>
                     <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
                 </closer>
                 
-                <note type="endorsement">S. da R.</note>
+                <note type="endorsement"><choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice></note>
                 <note type="endorsement">Ao cidadão <persName ref="#joao_antonio_silveira">General João Antônio da Silveira</persName>.</note>
                 <note type="endorsement"><placeName ref="#sao_gabriel">São Gabriel</placeName>.</note>
                 <note type="endorsement">Do <orgName ref="#ministerio_guerra">Ministério da Guerra</orgName>.</note>

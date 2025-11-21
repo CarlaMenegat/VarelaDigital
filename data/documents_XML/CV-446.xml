@@ -51,11 +51,11 @@
                     <salute>Querida <persName ref="#bernardina_barcelos_almeida">Bernardina</persName></salute>
                 </opener>
                 
-                <p>Oferecendo-se os Srs. Tenente-coronel <persName ref="#prudencio">Prudêncio</persName> e Major <persName ref="#benito">Benito</persName> para te acompanharem a esta, ora partem para essa com esse fim, apesar do oferecimento do amigo Sr. <persName ref="#irineu">Irineu</persName> se quiser com efeito a tanto obrigar-nos.</p>
+                <p>Oferecendo-se os Srs. Tenente-coronel <persName ref="#prudencio">Prudêncio</persName> e Major <persName ref="#benito">Benito</persName> para te acompanharem a esta, ora partem para essa com esse fim, apesar do oferecimento do amigo <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#irineu">Irineu</persName> se quiser com efeito a tanto obrigar-nos.</p>
                 
                 <p>Agora mesmo, três da tarde, recebi a tua de 29 do passado, que fica respondida por esta. Para virem os meninos a cavalo manda pedir uns petiços ao tio <persName ref="#moura">Moura</persName>, e arreios para eles, ou compra aí mesmo, ou pede-os emprestados. Não venhas com muita carga, basta uma escrava e o <persName ref="#antonio">Antônio</persName>, pois não estamos ainda mui seguros neste ponto, e se ficares tudo virá depois.</p>
                 
-                <p>O fumo entrega ao amigo Sr. <persName ref="#joaquim_pereira_fagundes">Joaquim Pereira Fagundes</persName>.</p>
+                <p>O fumo entrega ao amigo <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_pereira_fagundes">Joaquim Pereira Fagundes</persName>.</p>
                 
                 <closer>
                     <p>Saudades aos compadres, comadres e conhecidos; abraços por mim a nossos filhos, e recebe tu o coração do</p>
@@ -64,7 +64,7 @@
                 </closer>
                 
                 <address>
-                    <addrLine><persName ref="#bernardina_barcelos_almeida">Sra. Bernaydina Barcelos de Almeida</persName>.</addrLine>
+                    <addrLine><persName ref="#bernardina_barcelos_almeida"><choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> Bernaydina Barcelos de Almeida</persName>.</addrLine>
                     <addrLine><placeName ref="#bage">Bagé</placeName>.</addrLine>
                 </address>
                 

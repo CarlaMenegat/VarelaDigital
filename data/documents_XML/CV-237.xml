@@ -63,7 +63,7 @@
                 
                 <p>
                     Tendo apenas escrito o que acima se vê, para despachar o 
-                    <persName ref="#militao">Sr. Militão</persName> para essa, recebo a tua de 28 do corrente 
+                    <persName ref="#militao"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Militão</persName> para essa, recebo a tua de 28 do corrente 
                     e outra do compadre com a mesma data: ficando pois contente pelo estado 
                     de saúde de nossos filhos, contudo me vieram as lágrimas à vista da 
                     posição de teu mano.
@@ -97,7 +97,7 @@
                 </closer>
                 
                 <note type="endorsement">
-                    <persName ref="#bernardina_barcelos_almeida">Sra. Bernardina Barcelos de Almeida</persName>.<br/>
+                    <persName ref="#bernardina_barcelos_almeida"><choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> Bernardina Barcelos de Almeida</persName>.<br/>
                     <placeName ref="#feliz_retiro">Feliz Retiro</placeName>.
                 </note>
                 

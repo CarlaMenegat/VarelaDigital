@@ -45,7 +45,7 @@
             <div type="letter" xml:id="CV-65">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Hoje me chegaram os próprios que tinha mand[o] <placeName ref="#sao_martinho">São Martinho</placeName>. 
@@ -56,10 +56,10 @@
                     por ter quebrado os raios de uma delas e depois de amanhã sem falta devem estar no 
                     <placeName ref="#toropi">passo de Toropi</placeName>.</p>
                 
-                <p>Deus guarde a V.Exª. <placeName ref="#inhamanda">Inhamandá</placeName>, <date when="1841-07-18">18 de julho de 1841</date>.</p>
+                <p>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> <placeName ref="#inhamanda">Inhamandá</placeName>, <date when="1841-07-18">18 de julho de 1841</date>.</p>
                 
                 <closer>
-                    <salute>Ilmo. Exmo. Sr. <persName ref="#joao_paulo_santos_barreto">João Paulo dos Santos Barreto</persName>.</salute>
+                    <salute>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_paulo_santos_barreto">João Paulo dos Santos Barreto</persName>.</salute>
                     <signed>Brigadeiro Comandante do Exército.</signed>
                     <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
                     <signed>Tenente-coronel</signed>

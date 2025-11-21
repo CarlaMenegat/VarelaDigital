@@ -48,12 +48,12 @@
             <div xml:id="CV-412" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Exmo. Sr.</salute>
+                    <salute>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Neste momento, seis da tarde, me veio às mãos o ofício incluso que a V. Ex.ª dirige o Coronel Comandante da 
-                    <orgName ref="#divisao_direita">Divisão da Direita</orgName>, que abri para me impor das novidades por aquela parte correntes, o que V. Ex.ª relevará. 
-                    Com o exposto pelo dito Coronel, mais necessário se torna o aparecimento de V. Ex.ª nas imediações da 
+                <p>Neste momento, seis da tarde, me veio às mãos o ofício incluso que a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> dirige o Coronel Comandante da 
+                    <orgName ref="#divisao_direita">Divisão da Direita</orgName>, que abri para me impor das novidades por aquela parte correntes, o que <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> relevará. 
+                    Com o exposto pelo dito Coronel, mais necessário se torna o aparecimento de <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> nas imediações da 
                     <placeName ref="#cachoeira">Cachoeira</placeName>, a fim de pôr em completa desmoralização o inimigo, que espavorido foge por todas as partes como informa o 
                     <persName ref="#antonio_goncalves">Tenente Antônio Gonçalves</persName>, condutor do dito ofício.</p>
                 
@@ -65,7 +65,7 @@
                     <persName ref="#labatut">Labatut</persName>.</p>
                 
                 <closer>
-                    <p>Deus guarde a V. Ex.ª.</p>
+                    <p>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.</p>
                 </closer>
                 
                 <p><orgName ref="#secretaria_interior_fazenda">Secretaria do Interior e Fazenda</orgName> encarregada dos Negócios da Guerra em 
@@ -75,7 +75,7 @@
                     (a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.
                 </signed>
                 
-                <p>Ilmo. Exmo. Sr. General <persName ref="#antonio_neto">Antônio Neto</persName><br/>
+                <p>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General <persName ref="#antonio_neto">Antônio Neto</persName><br/>
                     Chefe dio <orgName ref="#estado_maior">Estado-maior do Exército</orgName>.</p>
                 
             </div>

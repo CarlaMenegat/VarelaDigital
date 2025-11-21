@@ -46,13 +46,13 @@
             <div xml:id="CV-463" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr. Tenente-coronel <persName ref="#manuel_macedo_brum">Manuel de Macedo Brum e Silveira</persName></salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Tenente-coronel <persName ref="#manuel_macedo_brum">Manuel de Macedo Brum e Silveira</persName></salute>
                 </opener>
                 
-                <p>Não tendo recebido resposta da carta que por três vias a V. S.ª dirigi a 4 de abril próximo passado, a suponho extraviada, e por isso a apresento em quarta via, rogando-lhe se digne patentear quanto antes, por documentos ou outra forma qualquer, o que de minhas malversações e depredações avançou em <placeName ref="#montevideo">Montevidéu</placeName>; no que fará serviço à causa que sirvo.</p>
+                <p>Não tendo recebido resposta da carta que por três vias a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> dirigi a 4 de abril próximo passado, a suponho extraviada, e por isso a apresento em quarta via, rogando-lhe se digne patentear quanto antes, por documentos ou outra forma qualquer, o que de minhas malversações e depredações avançou em <placeName ref="#montevideo">Montevidéu</placeName>; no que fará serviço à causa que sirvo.</p>
                 
                 <closer>
-                    <signed>De V. S.ª venerador e criado <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                    <signed>De <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> venerador e criado <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
                 </closer>
                 
                 <note type="endorsement">Foram remetidas ao <persName ref="#manuel_jose_silveira">Major Manuel José de Silveira</persName>, de <placeName ref="#sao_gabriel">São Gabriel</placeName>, e é por isso de presumir lhe chegassem às mãos.</note>

@@ -60,10 +60,10 @@
                     <salute>Meu Exmo. Presidente</salute>
                 </opener>
                 
-                <p>Acabo de falar a <persName ref="#jose_leandro">José Leandro</persName> acerca do negócio em que V. Exª. se interessa, e ele insiste em nada anuir acerca do recebimento da mulher, pedindo-me insistentemente para ordenar a tirada dos filhos. Diga-me V.Exª. o que devo fazer a tal respeito.</p>
+                <p>Acabo de falar a <persName ref="#jose_leandro">José Leandro</persName> acerca do negócio em que <choice><abbr>V. Exª.</abbr><expan>Vossa Excelência</expan></choice> se interessa, e ele insiste em nada anuir acerca do recebimento da mulher, pedindo-me insistentemente para ordenar a tirada dos filhos. Diga-me <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> o que devo fazer a tal respeito.</p>
                 
                 <closer>
-                    <p>De V.Exª.</p>
+                    <p>De <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice></p>
                     <salute>Amigo o mais obrigado</salute>
                     <signed>Almeida</signed>
                     <date when="1839-03-20">Casa, 20 de março de 1839</date>
@@ -74,13 +74,13 @@
                     <salute>Amigo e senhor</salute>
                 </opener>
                 
-                <p>Visto o <persName ref="#jose_leandro">Leandro</persName> instar em separar-se da mulher, forçoso é seguir-se os trâmites da lei. V. Exª., melhor do que eu, sabe a direção que deve dar ao negócio, pois me parece que a mulher não deve ser excluída de ser ouvida. Sou seu amigo.</p>
+                <p>Visto o <persName ref="#jose_leandro">Leandro</persName> instar em separar-se da mulher, forçoso é seguir-se os trâmites da lei. <choice><abbr>V. Exª.</abbr><expan>Vossa Excelência</expan></choice>, melhor do que eu, sabe a direção que deve dar ao negócio, pois me parece que a mulher não deve ser excluída de ser ouvida. Sou seu amigo.</p>
                 
                 <closer>
                     <signed>B. G. Silva</signed>
                 </closer>
                 
-                <note type="endorsement">Exmo. Sr. Presidente do Estado. [No verso]</note>
+                <note type="endorsement">Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente do Estado. [No verso]</note>
                 <note type="endorsement">Com resposta. Em sua residência.</note>
                 
             </div>

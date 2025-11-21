@@ -51,10 +51,10 @@
             <div type="letter" xml:id="CV-120">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Tendo-me o Exmo. Sr. Presidente ordenado por ofício que eu
+                <p>Tendo-me o Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente ordenado por ofício que eu
                     tomasse conta do emprego das autoridades deste distrito, para o
                     que vinha competente força para me coadjuvar, pois que não me
                     devo fiar nos anarquistas do mesmo distrito que por obrigados se
@@ -70,14 +70,14 @@
                     narem os pacíficos, e ainda os mesmos companheiros deles que aqui
                     se apresentaram.</p>
                 
-                <p>Eu espero que V.Exª. providencie o mais possível a fim de termos
+                <p>Eu espero que <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> providencie o mais possível a fim de termos
                     algum sossego em um distrito onde eu estou [...] destes honrados
                     homens [...] porque se eu tomei conta do juizado é para fazer respeitar
                     [...] autoridades legais e entre anarquistas não me é possível sem
                     risco de vidas.</p>
                 
                 <closer>
-                    <salute>Deus guarde a V.Exª. muitos anos.</salute>
+                    <salute>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muitos anos.</salute>
                     <dateline>Distrito das 
                         <placeName ref="#capela_dores">Dores</placeName>, 
                         <date when="1836-10-27">27 de outubro de 1836</date>.

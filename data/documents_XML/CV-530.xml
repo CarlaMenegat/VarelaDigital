@@ -45,18 +45,18 @@
             <div type="letter" xml:id="CV-530">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Pelo Guarda Nacional <persName ref="#zeferino_jose_santos">Zeferino José dos Santos</persName>, portador deste, remeto a V. Ex.ª as oitenta espadas e vinte quatro clavinas de cavalaria de que tratei no meu último ofício.</p>
+                <p>Pelo Guarda Nacional <persName ref="#zeferino_jose_santos">Zeferino José dos Santos</persName>, portador deste, remeto a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> as oitenta espadas e vinte quatro clavinas de cavalaria de que tratei no meu último ofício.</p>
                 
                 <closer>
-                    <salute>Deus guarde a V. Ex.ª</salute>
+                    <salute>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice></salute>
                     <dateline><orgName ref="#secretaria_interior_fazenda_guerra">Secretaria do Interior e Fazenda encarregada do expediente da Guerra</orgName> em <placeName ref="#bage">Bagé</placeName>, <date when="1841-10-12">12 de outubro de 1841</date>.</dateline>
                     <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
                 </closer>
                 
-                <note type="endorsement">S. da R.</note>
+                <note type="endorsement"><choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice></note>
                 <note type="endorsement">Ao cidadão <persName ref="#joao_antonio_silveira">General João Antônio da Silveira</persName>.</note>
                 <note type="endorsement"><placeName ref="#sao_gabriel">São Gabriel</placeName>.</note>
                 <note type="endorsement">Do <orgName ref="#ministerio_guerra">Ministério da Guerra</orgName>.</note>

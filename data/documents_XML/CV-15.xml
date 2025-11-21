@@ -35,10 +35,10 @@
         <body>
             <div type="letter" xml:id="CV-15">
                 <opener>
-                    <salute>Amigo e Sr. Almeida,</salute>
+                    <salute>Amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Almeida,</salute>
                 </opener>
                 
-                <p>Em dezembro lhe escrevi e remeti todos os meus documentos por um próprio que aí mandei, para V.Mcê. fazer o favor requerer ao governo ordens para se me encontrar os direitos que eu tenha a pagar, no que se me deve, e como não recebesse carta alguma sua, supondo talvez os ditos documentos extraviados, por isso que lhe remeto: uma cópia dos mesmos tirada em juízo, sendo portador o Sr. <persName ref="#miguel_garcia">D. Miguel Garcia</persName>; espero que o meu amigo me fará este grande obséquio com o qual muito obrigará a quem é</p>
+                <p>Em dezembro lhe escrevi e remeti todos os meus documentos por um próprio que aí mandei, para <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> fazer o favor requerer ao governo ordens para se me encontrar os direitos que eu tenha a pagar, no que se me deve, e como não recebesse carta alguma sua, supondo talvez os ditos documentos extraviados, por isso que lhe remeto: uma cópia dos mesmos tirada em juízo, sendo portador o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#miguel_garcia">D. Miguel Garcia</persName>; espero que o meu amigo me fará este grande obséquio com o qual muito obrigará a quem é</p>
                 
                 <closer>
                     <signed>Antônio Francisco dos Santos Abreu</signed>

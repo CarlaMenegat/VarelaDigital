@@ -57,7 +57,7 @@
             <div type="letter" xml:id="CV-251">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                     <dateline>
                         <placeName ref="#piratini">Piratini</placeName>,
                         <date when="1838-08-28">28 de agosto de 1838</date>.
@@ -66,13 +66,13 @@
                 
                 <p>
                     Tendo-se de proceder nessa povoação o troco do cobre decretado em 8 
-                    do mês passado, manda o governo que V. Mcê., ao Coletor e membros da 
+                    do mês passado, manda o governo que <choice><abbr>V. Mcê.</abbr><expan>Vossa Mercê</expan></choice>, ao Coletor e membros da 
                     Comissão de que trata o mesmo decreto, forneça casa com cômodos para 
                     aquele fim, como igualmente munício enquanto durarem tais trabalhos.
                 </p>
                 
                 <closer>
-                    <salute>Deus guarde a V. Mcê.</salute>
+                    <salute>Deus guarde a <choice><abbr>V. Mcê.</abbr><expan>Vossa Mercê</expan></choice></salute>
                     <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
                 </closer>
                 

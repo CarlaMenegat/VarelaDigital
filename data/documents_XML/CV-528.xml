@@ -44,13 +44,13 @@
             <div type="letter" xml:id="CV-528">
                 
                 <opener>
-                    <salute>Meu respeitável compadre, amigo e Sr.</salute>
+                    <salute>Meu respeitável compadre, amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Se for possível mandar-me recibo das oito onças que pediu a 13 de agosto passado, será favor.</p>
                 
                 <closer>
-                    <salute>De V. Ex.ª</salute>
+                    <salute>De <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice></salute>
                     <signed>Compadre e amigo o mais obrigado.<br/>(a) <persName ref="#domingos_jose_almeida">Almeida</persName>.</signed>
                     <dateline>S.C., <date when="1841-10-11">11 de outubro de 1841</date>.</dateline>
                 </closer>
@@ -63,7 +63,7 @@
                     <signed>Seu amigo<br/>(a) <persName ref="#bento_goncalves">B. G. Silva</persName>.</signed>
                 </closer>
                 
-                <note type="endorsement">Ilmo. e Exmo. Sr. Presidente da República, S. Casa.</note>
+                <note type="endorsement">Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente da República, S. Casa.</note>
                 
             </div>
         </body>

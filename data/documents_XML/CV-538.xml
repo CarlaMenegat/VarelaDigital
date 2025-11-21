@@ -41,7 +41,7 @@
             <div type="letter" xml:id="CV-538">
                 
                 <opener>
-                    <salute>Sr. <persName ref="#albino_jose_ferreira">Albino José Ferreira</persName>.</salute>
+                    <salute><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#albino_jose_ferreira">Albino José Ferreira</persName>.</salute>
                     <dateline><placeName ref="#bage">Bagé</placeName>, <date when="1841-11-05">5 de novembro de 1841</date>.</dateline>
                 </opener>
                 
@@ -55,11 +55,11 @@
                 
                 <p>E quanto à sua ida a <placeName ref="#cacapava">Caçapava</placeName>, estando ainda aquela povoação e seus subúrbios ocupada pelo célebre <persName ref="#prestes">Prestes</persName>, acho pouco prudente; contudo, a querer aventurar-se, diga-me para lhe mandar as ordens que lhe forem precisas.</p>
                 
-                <p>O desprezo com que <persName ref="#smithe">Smithe</persName> tratou a demanda que teve com V.Mcê. lhe proporcionou um triunfo momentâneo: porque da carta que V.Mcê. dirigiu a <persName ref="#francisco_de_miranda">Francisco de Miranda</persName>, datada de <placeName ref="#parobe">Parobé</placeName> a 10 de setembro do ano passado, e conta por letra de <persName ref="#santos_paiva">Santos Paiva</persName> que me apresentou, se colige que a ele e aos mais seus credores mandará V.Mcê. embolsar com as roupas e fazendas que tinha pelos preços então correntes em <placeName ref="#cacapava">Caçapava</placeName>; e que tendo sua Sra. assim praticado por ordem sua, V.Mcê. não podia exigir as diferenças que notou. Porém, como disse, ele deixou correr tudo à revelia, e o governo teve de confirmar a sentença dada a bem das fórmulas: bom será que ele não tente nova questão a tal respeito.</p>
+                <p>O desprezo com que <persName ref="#smithe">Smithe</persName> tratou a demanda que teve com <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> lhe proporcionou um triunfo momentâneo: porque da carta que <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> dirigiu a <persName ref="#francisco_de_miranda">Francisco de Miranda</persName>, datada de <placeName ref="#parobe">Parobé</placeName> a 10 de setembro do ano passado, e conta por letra de <persName ref="#santos_paiva">Santos Paiva</persName> que me apresentou, se colige que a ele e aos mais seus credores mandará <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> embolsar com as roupas e fazendas que tinha pelos preços então correntes em <placeName ref="#cacapava">Caçapava</placeName>; e que tendo sua <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> assim praticado por ordem sua, <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> não podia exigir as diferenças que notou. Porém, como disse, ele deixou correr tudo à revelia, e o governo teve de confirmar a sentença dada a bem das fórmulas: bom será que ele não tente nova questão a tal respeito.</p>
                 
                 <p>Com o milho que lhe pedi veja se me remete um surrão de farinha de trigo que tenho no <persName ref="#bernardo_pires">Major Pires</persName>, que lhe ficarei obrigado.</p>
                 
-                <p>Meus respeitos à <persName ref="#d_rita">Sra. D. Rita</persName> minha Sra., e V. Mcê. disponha do</p>
+                <p>Meus respeitos à <persName ref="#d_rita"><choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> D. Rita</persName> minha <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice>, e <choice><abbr>V. Mcê.</abbr><expan>Vossa Mercê</expan></choice> disponha do</p>
                 
                 <closer>
                     <signed>Seu amigo afetuoso e obrigado</signed>

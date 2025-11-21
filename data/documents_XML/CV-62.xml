@@ -43,19 +43,19 @@
             <div type="letter" xml:id="CV-62">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Participo a V.Ex.ª que, tendo notícias que <persName ref="#neto">Neto</persName> estava em <placeName ref="#sao_jose">São José</placeName> reunindo gente para me bater e perseguir a uma polícia que eu tinha botado na <placeName ref="#encruzilhada">Encruzilhada</placeName>, tratei de reunir alguns cavados e persegui-los, caminhando de noite e emboscando-me pelos passos, o que consegui ir até <placeName ref="#sao_jose">São José</placeName> sem ser sentido das avançadas do inimigo; mas já o não encontrei por ter passado <placeName ref="#camaqua">Camaquã</placeName> e seguido para <placeName ref="#piratini">Piratini</placeName>.</p>
+                <p>Participo a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que, tendo notícias que <persName ref="#neto">Neto</persName> estava em <placeName ref="#sao_jose">São José</placeName> reunindo gente para me bater e perseguir a uma polícia que eu tinha botado na <placeName ref="#encruzilhada">Encruzilhada</placeName>, tratei de reunir alguns cavados e persegui-los, caminhando de noite e emboscando-me pelos passos, o que consegui ir até <placeName ref="#sao_jose">São José</placeName> sem ser sentido das avançadas do inimigo; mas já o não encontrei por ter passado <placeName ref="#camaqua">Camaquã</placeName> e seguido para <placeName ref="#piratini">Piratini</placeName>.</p>
                 
                 <p>Ontem chega um amigo<note type="editorial" n="1">O amigo é <persName ref="#joao_silveira">João Silveira</persName>.</note> meu de fora que deixou o <persName ref="#coronel_loureiro">Coronel Loureiro</persName> na <placeName ref="#capela_de_santana">capela de Santana</placeName> com 900 homens a reunir-se com <persName ref="#anibal">Aníbal</persName> com 200 homens que no outro dia se reunia e então pretendia perseguir ao <persName ref="#guedes">Guedes</persName> que andava perto com 500 homens e tem matado alguns oficiais rebeldes que faziam reuniões para os rebeldes; passou-se um tenente<note type="editorial" n="2">O Tenente apresentado é <persName ref="#joao_ferreira">João Ferreira</persName> ao Tenente-coronel Francisco Pedro.</note> dos rebeldes, tem reunido muitos cavalos e gente<note type="editorial" n="3">Parece se refere outra vez a <persName ref="#coronel_loureiro">Loureiro</persName> segundo o exame que foi ao portador do ofício.</note>.</p>
                 
                 <p>Eu sigo direito ao <placeName ref="#salgado">Salgado</placeName> a reunir-me com algumas praças que deixei emboscadas a ver se pegava alguns farrapos que passem do outro lado e então seguirei para esse acampamento depois de bater uma reunião de farrapos que se acham pelos matos.</p>
                 
-                <p>Deus guarde a V.Ex.ª por muitos anos. <placeName ref="#cordilheira">Cordilheira</placeName>, <date when="1840-07-03">3 de julho de 1840</date>.</p>
+                <p>Deus guarde a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> por muitos anos. <placeName ref="#cordilheira">Cordilheira</placeName>, <date when="1840-07-03">3 de julho de 1840</date>.</p>
                 
                 <closer>
-                    <salute>Ilmo. Exmo. Sr. <persName ref="#manuel_jorge_rodrigues">Manuel Jorge Rodrigues</persName>. Tenente-general Comandante-em-chefe do Exército.</salute>
+                    <salute>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#manuel_jorge_rodrigues">Manuel Jorge Rodrigues</persName>. Tenente-general Comandante-em-chefe do Exército.</salute>
                     <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
                     <signed>Tenente-coronel.</signed>
                 </closer>

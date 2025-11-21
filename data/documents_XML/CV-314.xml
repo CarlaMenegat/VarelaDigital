@@ -50,15 +50,15 @@
             <div type="letter" xml:id="CV-314">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                     <note type="endorsement">Circular</note>
                 </opener>
                 
                 <p>Sendo a rápida emissão das ordens do Governo e autoridades constituídas, bem como dos avisos particulares acerca de transações comerciais, uma das mais importantes partes da administração de todo o governo que almeje o bem e prosperidade da Nação que dirige, os correios na república estatuídos reclamam todas as solicitudes do governo dela e o geral concurso e proteção das autoridades secundárias para chegar de pronto ao grau de perfeição e proveito que se faz mister.</p>
                 
-                <p>Partindo dos princípios emitidos, S. Exª. o Sr. Presidente da República me determina que lhe recomende que a todos os paradeiros garanta e faça garantir literalmente os privilégios que lhe conferiu o regulamento mandado executar por Decreto de 26 de julho do ano passado; e que além disso aos que não tiver cavalos de sua propriedade se lhes dêem quatro reiunos para os conservar tratados e prontos para aquele fim somente, e que estes só no caso de invasão inimiga lhes sejam tirados; o que V.Sª. cumprirá, expedindo para o efeito aos seus subalternos as ordens respectivas.</p>
+                <p>Partindo dos princípios emitidos, <choice><abbr>S. Exª.</abbr><expan>Sua Excelência</expan></choice> o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente da República me determina que lhe recomende que a todos os paradeiros garanta e faça garantir literalmente os privilégios que lhe conferiu o regulamento mandado executar por Decreto de 26 de julho do ano passado; e que além disso aos que não tiver cavalos de sua propriedade se lhes dêem quatro reiunos para os conservar tratados e prontos para aquele fim somente, e que estes só no caso de invasão inimiga lhes sejam tirados; o que <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> cumprirá, expedindo para o efeito aos seus subalternos as ordens respectivas.</p>
                 
-                <p>Deus guarde a V.Sª.. <orgName ref="#secretaria_interior_guerra">Secretaria de Estado dos Negócios do Interior, encarregada do expediente da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 1.º de julho de 1839.</p>
+                <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>. <orgName ref="#secretaria_interior_guerra">Secretaria de Estado dos Negócios do Interior, encarregada do expediente da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 1.º de julho de 1839.</p>
                 
                 <closer>
                     <signed>Domingos José de Almeida</signed>
@@ -66,7 +66,7 @@
                 
                 <p><persName ref="#inacio_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>, Chefe de Polícia do departamento do <placeName ref="#boqueirao">Boqueirão</placeName>.</p>
                 
-                <note type="endorsement">S. da R.</note>
+                <note type="endorsement"><choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice></note>
                 <note type="endorsement">Ao cidadão Inácio José de Oliveira Guimarães. Chefe de Polícia do departamento do Boqueirão. Do Ministério da Guerra.</note>
                 <note type="endorsement">Ofício do Exmo. Ministro da Guerra do 1.º de julho, recebido a 22 de agosto e respondido a 19 de setembro.</note>
                 <note type="endorsement">Caçapava.</note>

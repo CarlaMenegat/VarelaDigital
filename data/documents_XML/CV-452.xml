@@ -46,13 +46,13 @@
             <div xml:id="CV-452" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Com meu ofício anterior sobrestando a vinda da Infantaria e Tipografias, como pelo disposto no decreto da extenção <sic>[sic]</sic> do <orgName ref="#trem_guerra">Trem de Guerra</orgName>, fica respondido seu ofício de 14 do corrente. A tardança dos papéis que deixei em <placeName ref="#alegrete">Alegrete</placeName> e que lhe pedi me remetesse, muito sensível me tem sido por a interrupção dos assentos a fazer; e por isso ainda insto pela remessa dos mesmos.</p>
                 
                 <closer>
-                    <p>Deus guarde a V. S.ª.</p>
+                    <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                     <p><orgName ref="#secretaria_interior_fazenda_guerra">Secretaria do Interior e Fazenda encarregada do expediente da Guerra</orgName> em <placeName ref="#piratini">Piratini</placeName>, 19 de fevereiro de 1841.</p>
                     <signed>Ao cidadão <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>.</signed>
                     <signed>Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</signed>

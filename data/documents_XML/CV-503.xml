@@ -45,7 +45,7 @@
                 <div type="letter" xml:id="CV-503">
                     
                     <opener>
-                        <salute>Amigo e Sr.</salute>
+                        <salute>Amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                     </opener>
                     
                     <p>Sendo urgente porção de óleo de linhaça para tinta de nossa <orgName ref="#tipografia">Tipografia</orgName>, rogo-lhe o obséquio de comprar ao <persName ref="#arranca">Arranca</persName> ou ao <persName ref="#faria">Faria</persName> oito ou dezesseis libras e de mo remeter sem perda de tempo; pois talvez que por falta de tintas não trabalhe breve nossa <orgName ref="#tipografia">Tipografia</orgName>.</p>
@@ -53,7 +53,7 @@
                     <p>Sem outro objeto sou</p>
                     
                     <closer>
-                        <salute>De V.S.ª</salute>
+                        <salute>De <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice></salute>
                         <signed>Amigo sincero muito obrigado</signed>
                     </closer>
                     

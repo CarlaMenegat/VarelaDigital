@@ -49,18 +49,18 @@
             <div type="letter" xml:id="CV-305">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Acusando a recepção do ofício que V.Sª. me dirigiu a 9 do corrente, cumpre-me em resposta dizer-lhe que os requerimentos do cidadão <persName ref="#augusto_siqueira_leitao">Augusto de Siqueira Pereira Leitão</persName> vão ser tomados na devida consideração.</p>
+                <p>Acusando a recepção do ofício que <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> me dirigiu a 9 do corrente, cumpre-me em resposta dizer-lhe que os requerimentos do cidadão <persName ref="#augusto_siqueira_leitao">Augusto de Siqueira Pereira Leitão</persName> vão ser tomados na devida consideração.</p>
                 
-                <p>Deus guarde a V.Sª.. <orgName ref="#secretaria_interior">Secretaria do Interior</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 15 de abril de 1839.</p>
+                <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>. <orgName ref="#secretaria_interior">Secretaria do Interior</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 15 de abril de 1839.</p>
                 
                 <closer>
                     <signed>Domingos José de Almeida</signed>
                 </closer>
                 
-                <p>Ilmo. Sr. Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>. Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</p>
+                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>. Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</p>
                 
             </div>
         </body>

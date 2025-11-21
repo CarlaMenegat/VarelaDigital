@@ -49,13 +49,13 @@
             <div type="letter" xml:id="CV-519">
                 
                 <opener>
-                    <salute>Meu compadre amigo e Sr.</salute>
+                    <salute>Meu compadre amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Das praças da <orgName ref="#companhia_artifices">Companhia de Artífices</orgName> tirei uma de nome <persName ref="#jacinto_dinartes">Jacinto Dinartes</persName>, prisioneiro em <placeName ref="#cacapava">Caçapava</placeName>, para batedor da <orgName ref="#tipografia">Tipografia</orgName>; e andando depois de minha ordenança, por estar só <persName ref="#manuel_rodrigues_barbosa">Manuel Rodrigues Barbosa</persName>, eu lha cedi quando estive em <placeName ref="#piratini">Piratini</placeName>. Tal foi o bem com que se há portado o dito Dinartes, que Barbosa se empenha para o pôr de administrador em <placeName ref="#leonche">Leonche</placeName> e pede para isso o isente do serviço e da praça: ele merece este favor porque constantemente tem despendido com a causa da <orgName ref="#republica">República</orgName>; mas não podendo eu fazê-lo, diga-me V. Ex.ª se anue que a respeito expeça eu as ordens a respeito.</p>
+                <p>Das praças da <orgName ref="#companhia_artifices">Companhia de Artífices</orgName> tirei uma de nome <persName ref="#jacinto_dinartes">Jacinto Dinartes</persName>, prisioneiro em <placeName ref="#cacapava">Caçapava</placeName>, para batedor da <orgName ref="#tipografia">Tipografia</orgName>; e andando depois de minha ordenança, por estar só <persName ref="#manuel_rodrigues_barbosa">Manuel Rodrigues Barbosa</persName>, eu lha cedi quando estive em <placeName ref="#piratini">Piratini</placeName>. Tal foi o bem com que se há portado o dito Dinartes, que Barbosa se empenha para o pôr de administrador em <placeName ref="#leonche">Leonche</placeName> e pede para isso o isente do serviço e da praça: ele merece este favor porque constantemente tem despendido com a causa da <orgName ref="#republica">República</orgName>; mas não podendo eu fazê-lo, diga-me <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> se anue que a respeito expeça eu as ordens a respeito.</p>
                 
                 <closer>
-                    <salute>De V. Ex.ª</salute>
+                    <salute>De <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice></salute>
                     <signed>Compadre e amigo<lb/>(a) Almeida.</signed>
                 </closer>
                 
@@ -75,7 +75,7 @@
                 </closer>
                 
                 <opener>
-                    <salute>Exmo. Sr. Presidente.</salute>
+                    <salute>Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente.</salute>
                 </opener>
                 
                 <note type="endorsement">Sua casa.</note>

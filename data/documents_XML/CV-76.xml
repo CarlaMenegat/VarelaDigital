@@ -36,19 +36,19 @@
                 
                 <opener>
                     <dateline>Acampamento junto a <placeName ref="#cangucu">Canguçu</placeName>, 16 de maio de 44.</dateline>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Cumpre que V.S.ª mande do batalhão de seu comando cinquenta praças escolhidas comandados por um oficial hábil e forte para caminhar a pé no mato, devendo se achar neste ponto no dia 19 sem falta, no ponto aonde o portador e vaqueano indicar; e aí achará o Alferes <persName ref="#emilio_01">Emílio</persName> que indicará ao oficial a comissão que tem de fazer, devendo vir com o vaqueano mais quatro homens de cavalaria desembaraçados; nessa cidade deverá chegar cem homens e cavalaria vindos de Porto Alegre, os quais V.S.ª os mandará aquartelar no armazém da praia perto do sobrado do Prº Ribas até segunda ordem minha e deles V.S.ª</p>
+                <p>Cumpre que <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> mande do batalhão de seu comando cinquenta praças escolhidas comandados por um oficial hábil e forte para caminhar a pé no mato, devendo se achar neste ponto no dia 19 sem falta, no ponto aonde o portador e vaqueano indicar; e aí achará o Alferes <persName ref="#emilio_01">Emílio</persName> que indicará ao oficial a comissão que tem de fazer, devendo vir com o vaqueano mais quatro homens de cavalaria desembaraçados; nessa cidade deverá chegar cem homens e cavalaria vindos de Porto Alegre, os quais <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> os mandará aquartelar no armazém da praia perto do sobrado do Prº Ribas até segunda ordem minha e deles <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice></p>
                 
                 <p>poderá dispor de alguns para algumas diligências se forem precisos. Eu hoje sigo a operar sobre o inimigo e por isso por ora não mande comunicação nenhuma para mim sem ter exata notícia aonde eu estou.</p>
                 
                 <closer>
-                    <salute>Deus guarde a V.S.ª.</salute>
+                    <salute>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
                     <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></signed>
                 </closer>
                 
-                <fw type="recipient">Ilmo. Sr. <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName>. Tenente-coronel Comandante do 8.º Batalhão de Caçadores.</fw>
+                <fw type="recipient">Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName>. Tenente-coronel Comandante do 8.º Batalhão de Caçadores.</fw>
                 
             </div>
         </body>

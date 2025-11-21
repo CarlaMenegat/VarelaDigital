@@ -44,28 +44,28 @@
             <div type="letter" xml:id="CV-110">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Em observância às ordens que por V.Exª. me foram dadas, marcha a apresentar-se a V.Exª. o Tenente 
+                <p>Em observância às ordens que por <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> me foram dadas, marcha a apresentar-se a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> o Tenente 
                     <persName ref="#joao_lourenco_vidal">João Lourenço Vidal</persName>, portador deste, levando em sua companhia as poucas praças que quiseram
-                    marchar, e que V.Exª. verá da relação que o mesmo leva, assim como daquelas que ficaram por não poderem marchar
+                    marchar, e que <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> verá da relação que o mesmo leva, assim como daquelas que ficaram por não poderem marchar
                     em razão de seu estado de saúde.</p>
                 
                 <p>Este município é composto de gente tão péssima e sem constância, como nenhum outro da província, provando a
-                    V.Exª. esta verdade com o seu procedimento anterior e presente, pois que não houveram rogos, promessas e ameaças
+                    <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> esta verdade com o seu procedimento anterior e presente, pois que não houveram rogos, promessas e ameaças
                     que com eles não despendesse, porém tudo foi inútil, nem ao menos à revista quiseram vir; porém lembrando-me que
                     seus mesmos chefes e oficiais não gozam para com eles de prestígio suficiente para os levar e conservar, nada mais
-                    há de estranhar, restando-me a protestar a V.Exª. que não descansarão mais as polícias do município sem que agarre
+                    há de estranhar, restando-me a protestar a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> que não descansarão mais as polícias do município sem que agarre
                     a maior parte, pois que eles não se ausentam daqui acoutando-se na serra, obstáculo terrível, que favorece tal
                     patifaria.</p>
                 
-                <p>Pelo mesmo tenente remeto a V.Exª. um desertor do depósito de nome João Carneiro, que foi preso por esta polícia
-                    no Pinhal; não sei se será este o seu verdadeiro nome. Agora mesmo acabo de receber o ofício de V.Exª. em que me
+                <p>Pelo mesmo tenente remeto a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> um desertor do depósito de nome João Carneiro, que foi preso por esta polícia
+                    no Pinhal; não sei se será este o seu verdadeiro nome. Agora mesmo acabo de receber o ofício de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> em que me
                     ordena a prisão de 12 praças recrutas que daí fugiram, em cumprimento do qual faço avisar a todos os comandantes
                     para providenciar os meios de suas prisões.</p>
                 
-                <p>É o quanto me cumpre levar ao superior conhecimento de V.Exª.. Deus guarde a V.Exª. muitos anos.</p>
+                <p>É o quanto me cumpre levar ao superior conhecimento de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>. Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muitos anos.</p>
                 
                 <dateline>
                     Quartel do <orgName ref="#comando_militar_santo_antonio">Comando Militar do município de Santo Antônio</orgName>,
@@ -74,7 +74,7 @@
                 </dateline>
                 
                 <closer>
-                    <salute>Ilmo. e Exmo. Sr. <persName ref="#tomas_jose_silva">Marechal de Campo Tomás José da Silva</persName>,<br/>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Marechal de Campo Tomás José da Silva</persName>,<br/>
                         Digmo. Comandante da Guarnição de <placeName ref="#porto_alegre">Porto Alegre</placeName>.</salute>
                     <signed>(a) <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName><br/>
                         Coronel Comandante Militar do município de Santo Antônio.</signed>

@@ -20,13 +20,13 @@
         <body>
             <div type="letter">
                 <opener>
-                    <salute>Amigo e Sr. <persName ref="#almeida">Almeida</persName>.</salute>
+                    <salute>Amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#almeida">Almeida</persName>.</salute>
                     <placeName ref="#sao_lourenco">São Lourenço</placeName>, 
                     <date when="1843-05-29">29 de maio de 1843</date>.
                 </opener>
-                <p>Tenho recebido suas cartas de 14 e 29 do p.p. mês, e em resposta cumpre-me dizer-lhe que não deixando de reconhecer o quanto <persName ref="#almeida">V.Mcê</persName> se tem esforçado em servir-me, respectivamente às ordens que do governo tenho exigido para meu encontro, e ainda que em parte esteja remediada com a apresentação de suas cartas a alguns coletores, contudo não estou de todo tranquilo, sem que me venham as próprias ordens do governo; espero portanto o meu amigo não se esquecerá e menos perderá a ocasião, quando possível seja, de extrair-me arquivo as já mencionadas ordens.</p>
+                <p>Tenho recebido suas cartas de 14 e 29 do p.p. mês, e em resposta cumpre-me dizer-lhe que não deixando de reconhecer o quanto <persName ref="#almeida"><choice><abbr>V.Mcê</abbr><expan>Vossa Mercê</expan></choice></persName> se tem esforçado em servir-me, respectivamente às ordens que do governo tenho exigido para meu encontro, e ainda que em parte esteja remediada com a apresentação de suas cartas a alguns coletores, contudo não estou de todo tranquilo, sem que me venham as próprias ordens do governo; espero portanto o meu amigo não se esquecerá e menos perderá a ocasião, quando possível seja, de extrair-me arquivo as já mencionadas ordens.</p>
                 
-                <p>Nesta ocasião remeto a meu mano em <placeName ref="#jaguarao">Jaguarão Chico</placeName> uma porção de papéis, para ele dali os remeter a <persName ref="#almeida">V.Mcê</persName>. Sempre grato a seus obséquios mostrarei ser</p>
+                <p>Nesta ocasião remeto a meu mano em <placeName ref="#jaguarao">Jaguarão Chico</placeName> uma porção de papéis, para ele dali os remeter a <persName ref="#almeida"><choice><abbr>V.Mcê</abbr><expan>Vossa Mercê</expan></choice></persName>. Sempre grato a seus obséquios mostrarei ser</p>
                 
                 <closer>
                     <salute>Seu antigo e obrigado amigo</salute>

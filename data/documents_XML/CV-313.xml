@@ -50,12 +50,12 @@
             <div type="letter" xml:id="CV-313">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Para proceder-se na cobrança do que ao Estado deve o cidadão <persName ref="#alexandre_abreu_vale">Alexandre de Abreu Vale</persName>, incluso lhe remeto os documentos juntos sob números: A — B — C — D — 1 — 2 — 3 — 4 — 5; e por esta mesma ocasião lembro a cobrança de <persName ref="#marcos_cristine">Marcos Cristine</persName>.</p>
                 
-                <p>Deus guarde a V.Sª.. <orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 30 de junho de 1839.</p>
+                <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>. <orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 30 de junho de 1839.</p>
                 
                 <closer>
                     <signed>Domingos José de Almeida</signed>

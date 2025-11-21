@@ -61,7 +61,7 @@
                 </p>
                 
                 <closer>
-                    <salute>De V. Exª.</salute>
+                    <salute>De <choice><abbr>V. Exª.</abbr><expan>Vossa Excelência</expan></choice></salute>
                     <signed>
                         <persName ref="#domingos_jose_almeida">Almeida</persName>
                     </signed>
@@ -77,7 +77,7 @@
                 </note>
                 
                 <note type="verso">
-                    Exmo. Sr. Bento Gonçalves da Silva, General Presidente do Estado.
+                    Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Bento Gonçalves da Silva, General Presidente do Estado.
                 </note>
                 
             </div>

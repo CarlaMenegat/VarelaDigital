@@ -42,7 +42,7 @@
             <div type="letter" xml:id="CV-103">
                 
                 <opener>
-                    <salute>Exmo. Sr.</salute>
+                    <salute>Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <dateline>
@@ -50,17 +50,17 @@
                     <date when="1839-07-09">9 de julho de 1839</date>.
                 </dateline>
                 
-                <p>Penhorado de gratidão pelas bondades de V.Ex.ª, eu faltaria ao mais satisfatório de meus deveres se o não patenteasse por meio desta, muito ambicionando a saúde e prosperidade de V.Exª., e comunicando-lhe que aqui cheguei a esta sua casa felizmente; o meu préstimo atualmente é muito limitado, porém nos particulares de V.Exª. não haverão [sic] excessos que não faça para provar-lhe quanto me considero agradecido, e muito desejarei mostrar a V.Ex.ª que sou:</p>
+                <p>Penhorado de gratidão pelas bondades de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, eu faltaria ao mais satisfatório de meus deveres se o não patenteasse por meio desta, muito ambicionando a saúde e prosperidade de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>, e comunicando-lhe que aqui cheguei a esta sua casa felizmente; o meu préstimo atualmente é muito limitado, porém nos particulares de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> não haverão [sic] excessos que não faça para provar-lhe quanto me considero agradecido, e muito desejarei mostrar a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que sou:</p>
                 
                 <closer>
-                    <signed>De V.Exª. amigo e muito obrigado criado.</signed>
+                    <signed>De <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> amigo e muito obrigado criado.</signed>
                     <signed>(a) <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName></signed>
                 </closer>
                 
                 <note type="endorsement">Recebida e respondida a 18.</note>
                 
                 <note type="endorsement">
-                    Ao cidadão Exmo. Sr. <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>. 
+                    Ao cidadão Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>. 
                     Digmo. Ministro da Fazenda. 
                     <placeName ref="#cacapava">Caçapava</placeName>.
                 </note>

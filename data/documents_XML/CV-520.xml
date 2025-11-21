@@ -46,10 +46,10 @@
             <div type="letter" xml:id="CV-520">
                 
                 <opener>
-                    <salute>Sr. <persName ref="#albino_jose_ferreira">Albino José Ferreira</persName></salute>
+                    <salute><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#albino_jose_ferreira">Albino José Ferreira</persName></salute>
                 </opener>
                 
-                <p>Em dinheiro ou objetos de sua casa dará V. Mcê. trinta mil réis mensalmente ao cidadão <persName ref="#joao_jose_abreu">João José de Abreu</persName>, professor de 1.as letras dessa cidade, até que o contrário eu determine; e os lançará em conta do</p>
+                <p>Em dinheiro ou objetos de sua casa dará <choice><abbr>V. Mcê.</abbr><expan>Vossa Mercê</expan></choice> trinta mil réis mensalmente ao cidadão <persName ref="#joao_jose_abreu">João José de Abreu</persName>, professor de 1.as letras dessa cidade, até que o contrário eu determine; e os lançará em conta do</p>
                 
                 <closer>
                     <salute>Seu amigo e obrigado venerador</salute>
@@ -57,12 +57,12 @@
                 </closer>
                 
                 <opener>
-                    <salute>Sr. <persName ref="#albino_jose_ferreira">Albino José Ferreira</persName>.</salute>
+                    <salute><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#albino_jose_ferreira">Albino José Ferreira</persName>.</salute>
                 </opener>
                 
                 <note type="endorsement">uy</note>
                 <note type="endorsement"><placeName ref="#piratini">Piratini</placeName>.</note>
-                <note type="endorsement">Ordem do Exmo. Sr. Ministro da Fazenda em data de 1.º de outubro de 1841.</note>
+                <note type="endorsement">Ordem do Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Ministro da Fazenda em data de 1.º de outubro de 1841.</note>
                 <note type="endorsement">30$ rs. mensais do 1.º de outubro até o último de janeiro.</note>
                 <note type="endorsement">Rs. 120$000</note>
                 

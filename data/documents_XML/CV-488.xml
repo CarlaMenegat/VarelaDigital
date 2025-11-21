@@ -46,7 +46,7 @@
             <div xml:id="CV-488" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr. <persName ref="#israel_soares_azambuja">Major Israel Soares de Azambuja</persName></salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#israel_soares_azambuja">Major Israel Soares de Azambuja</persName></salute>
                     <dateline><placeName ref="#bage">Bagé</placeName>, 25 de agosto de 1841.</dateline>
                 </opener>
                 
@@ -58,14 +58,14 @@
                 
                 <p>A República há perdido dois homens prematuramente, e se vê na contingência de perder patriotas distintos que hão merecido sua estima e contemplações, se imprudentes levarem avante vinganças não próprias de almas generosas!</p>
                 
-                <p>Eu não tenho a honra de o conhecer; mas avaliando devidamente seus serviços, serviços à pátria tão preciosos, me animei dirigir-lhe a presente com o fim de convidá-lo ao pronto desprezo de projetos mal combinados, e de promover os meios de reaparecer a paz no seio dos habitantes desse distrito, dignos sem dúvida de suas solicitudes em harmonizá-los; esperando do tempo que V.S.ª fará justiça às minhas intenções.</p>
+                <p>Eu não tenho a honra de o conhecer; mas avaliando devidamente seus serviços, serviços à pátria tão preciosos, me animei dirigir-lhe a presente com o fim de convidá-lo ao pronto desprezo de projetos mal combinados, e de promover os meios de reaparecer a paz no seio dos habitantes desse distrito, dignos sem dúvida de suas solicitudes em harmonizá-los; esperando do tempo que <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> fará justiça às minhas intenções.</p>
                 
-                <p>Não exijo de V. S.ª o sacrifício de procurar amizades que reprova; mas confio que não perseguirá a quem tiver por inimigo, certo de que só dessa forma levará a paz ao centro das famílias, e merecerá elogios de seus concidadãos.</p>
+                <p>Não exijo de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> o sacrifício de procurar amizades que reprova; mas confio que não perseguirá a quem tiver por inimigo, certo de que só dessa forma levará a paz ao centro das famílias, e merecerá elogios de seus concidadãos.</p>
                 
                 <p>Meu préstimo é quase nulo; mas pode contar com ele em tudo que lhe for de mister, certo de que sou</p>
                 
                 <closer>
-                    <p>De V. S.ª e<br/>
+                    <p>De <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> e<br/>
                         Compatriota e amigo afetuoso</p>
                     <signed>(a) Almeida.</signed>
                 </closer>

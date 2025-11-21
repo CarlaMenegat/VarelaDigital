@@ -34,10 +34,10 @@
         <body>
             <div type="letter" xml:id="CV-14">
                 <opener>
-                    <salute>Ilmo. Sr.,</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>,</salute>
                 </opener>
                 
-                <p>Contestando o ofício de V.S.ª de ontem, cumpre-me dizer-lhe que não se efetuou a compra das saragoças e pano, por não convir atualmente. Quanto ao quê exige <persName ref="#antonio_abreu">Abreu</persName>, junto remeto a contestação com a qual julgo ficará satisfeito. Devolvo a carta do mesmo Abreu.</p>
+                <p>Contestando o ofício de <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> de ontem, cumpre-me dizer-lhe que não se efetuou a compra das saragoças e pano, por não convir atualmente. Quanto ao quê exige <persName ref="#antonio_abreu">Abreu</persName>, junto remeto a contestação com a qual julgo ficará satisfeito. Devolvo a carta do mesmo Abreu.</p>
                 
                 <closer>
                     <signed>Antônio Vicente da Fontoura</signed>

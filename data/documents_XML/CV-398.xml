@@ -46,18 +46,18 @@
             <div xml:id="CV-398" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Havendo Sua Ex.ª o Sr. Vice-presidente da 
+                <p>Havendo Sua Ex.ª o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Vice-presidente da 
                     <orgName ref="#republica_farroupilha">República</orgName> dado demissão ao 1.º Tenente do 
                     <orgName ref="#batalhao_cacadores_3">3.º Batalhão de Caçadores</orgName> do 
                     <orgName ref="#exercito_farroupilha">Exército</orgName> 
                     <persName ref="#antonio_maria_valadares">Antônio Maria Valadares</persName>, como do decreto por cópia junto, 
-                    o comunico a V.S.ª para que o faça constar às forças de seu mando.</p>
+                    o comunico a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> para que o faça constar às forças de seu mando.</p>
                 
                 <closer>
-                    <p>Deus guarde a V.S.ª.</p>
+                    <p>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                 </closer>
                 
                 <p><orgName ref="#secretaria_interior_fazenda">Secretaria do Interior e Fazenda</orgName> encarregada do expediente da Guerra junto a 
@@ -69,7 +69,7 @@
                     Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</p>
                 
                 <note type="endorsement">
-                    S. R. [No verso]<br/>
+                    <choice><abbr>S. R.</abbr><expan>Secretaria da Presidência da República</expan></choice> [No verso]<br/>
                     Ao cidadão Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.<br/>
                     Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.<br/>
                     Aonde se ache.<br/>

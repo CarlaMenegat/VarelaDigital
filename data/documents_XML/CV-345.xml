@@ -60,7 +60,7 @@
                 
                 <!-- PORTARIA -->
                 <div type="order">
-                    <p>O Sr. Capitão Diretor do Trem informe <gap reason="lost"/> o que ontem lhe referiu o Sargento <persName ref="#henrique_vareiro">Henrique José Vareiro</persName>, e as pessoas que tal fato <gap reason="lost"/> presenciaram também se firmarão: o que cumprirá.</p>
+                    <p>O <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Capitão Diretor do Trem informe <gap reason="lost"/> o que ontem lhe referiu o Sargento <persName ref="#henrique_vareiro">Henrique José Vareiro</persName>, e as pessoas que tal fato <gap reason="lost"/> presenciaram também se firmarão: o que cumprirá.</p>
                     
                     <closer>
                         <signed>(a) Domingos José de Almeida</signed>

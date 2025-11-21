@@ -42,16 +42,16 @@
             <div type="letter" xml:id="CV-61">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Em virtude das ordens de V.Ex.º, fiz seguir hoje o <persName ref="#tenente_isaias_2">Tenente Isaías</persName> com 24 homens a surpreender uma guarda de rebeldes que dizem estar na <placeName ref="#boa_vista">Boa Vista</placeName>, e eu passo esta noite com o resto da gente para o outro lado a cumprir as ordens que V.Ex.º me determinou; eu mando seguir uma barca para defronte do acampamento da Picada, para estar ali pronta a ver se dela posso mandar surpreender o <persName ref="#juca_custodio">Juca Custódio</persName>, que anda pelo <placeName ref="#cerro_da_fortaleza">cerro da Fortaleza</placeName> e <placeName ref="#santa_cruz">Santa Cruz</placeName> com 20 e tantos homens.</p>
+                <p>Em virtude das ordens de <choice><abbr>V.Ex.</abbr><expan>Vossa Excelência</expan></choice>º, fiz seguir hoje o <persName ref="#tenente_isaias_2">Tenente Isaías</persName> com 24 homens a surpreender uma guarda de rebeldes que dizem estar na <placeName ref="#boa_vista">Boa Vista</placeName>, e eu passo esta noite com o resto da gente para o outro lado a cumprir as ordens que <choice><abbr>V.Ex.</abbr><expan>Vossa Excelência</expan></choice>º me determinou; eu mando seguir uma barca para defronte do acampamento da Picada, para estar ali pronta a ver se dela posso mandar surpreender o <persName ref="#juca_custodio">Juca Custódio</persName>, que anda pelo <placeName ref="#cerro_da_fortaleza">cerro da Fortaleza</placeName> e <placeName ref="#santa_cruz">Santa Cruz</placeName> com 20 e tantos homens.</p>
                 
-                <p>É o que por agora tenho de levar a conhecimento de V.Ex.ª. Deus guarde a V.Ex.ª.</p>
+                <p>É o que por agora tenho de levar a conhecimento de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>. Deus guarde a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.</p>
                 
                 <closer>
                     <dateline><placeName ref="#santo_amaro">Santo Amaro</placeName>, <date when="1840-06-13">13 de junho de 1840</date>.</dateline>
-                    <salute>Ilmo. e Exmo. Sr. <persName ref="#manuel_jorge_rodrigues">Manuel Jorge Rodrigues</persName>, Tenente-general Comandante-em-chefe do Exército.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#manuel_jorge_rodrigues">Manuel Jorge Rodrigues</persName>, Tenente-general Comandante-em-chefe do Exército.</salute>
                     <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
                     <signed>Tenente-coronel.</signed>
                 </closer>

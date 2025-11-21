@@ -48,6 +48,23 @@
             <roleName>General</roleName>
             <note>Militar e estancieiro rio-grandense, atuante como comandante farroupilha; posteriormente aliado do Império.</note>
         </person>
+        
+        <person xml:id="boaventura_rodrigues_barcelos">
+            <persName>Boaventura Rodrigues Barcelos</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q136892737</idno>
+            <roleName>Comendador</roleName>
+            <relation
+                xml:id="rel_bernardina_boaventura_parentesco"
+                name="kinship"
+                mutual="true"
+                active="#bernardina_barcelos"
+                passive="#boaventura_rodrigues_barcelos"
+                ref="https://www.wikidata.org/wiki/Q840795"
+                >
+                <desc>Relação de parentesco: Boaventura Rodrigues Barcelos era tio paterno de Bernardina Barcelos de Almeida.</desc>
+            </relation>
+            <note>Charqueador e comerciante de grosso, importante em Pelotas. Tio de Bernardina Rodrigues Almeida, legalista.</note>
+        </person>
 
         <person xml:id="teixeira_nunes">
             <persName>Joaquim Teixeira Nunes</persName>
@@ -100,18 +117,23 @@
         <person xml:id="antonio_abreu">
             <persName>Antônio Francisco dos Santos Abreu</persName>
             <note>Comerciante e fornecedor de gado, frequentemente em contato com o governo farroupilha.</note>
-            <idno type="viaf">https://viaf.org/viaf/—</idno> <!-- se não tiver VIAF, deixe sem -->
+
         </person>
         
         <person xml:id="domingos_almeida">
             <persName>Domingos José de Almeida</persName>
             <note>Político e figura importante na Revolução Farroupilha; Ministro da Fazenda da República Rio-Grandense.</note>
-            <idno type="viaf">https://viaf.org/viaf/66566150</idno>
-        </person>
+        </person> <!--corrigir id para domingos_jose_almeida-->
         
         <person xml:id="domingos_jose_almeida">
             <persName>Domingos José de Almeida</persName>
-            <note>Ministro e Secretário de Estado da República Rio-Grandense, responsável pelos expedientes da Fazenda e da Guerra.</note>
+            <idno type="viaf">https://viaf.org/en/viaf/13747991</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10268073</idno>
+            <roleName>Ministro da Fazenda da República Rio-grandense</roleName>
+            <roleName>Ministro do Interior da República Rio-grandense</roleName>
+            <roleName>Ministro da Justiça da República Rio-grandense</roleName>
+            <roleName>Secretário República Rio-grandense</roleName>
+            <note>Ministro e Secretário de Estado da República Rio-Grandense, responsável pelos expedientes da Fazenda, do Interior e da Justiça, além da Secretaria da República.</note>
         </person>
         
         <person xml:id="dionisio_amaro">
@@ -134,15 +156,46 @@
             <note>Senhor mencionado na carta como em viagem com seu filho para tratar de assuntos pessoais.</note>
         </person>
         
+        <person xml:id="paulino_fontoura">
+            <persName type="popular">Paulino</persName>
+            <persName>Antônio Paulo da Fontoura</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q9622579</idno>
+            <relation
+                xml:id="rel_fontoura_irmaos"
+                name="sibling"
+                mutual="true"
+                active="#fontoura"
+                passive="#paulino_fontoura"
+                ref="https://www.wikidata.org/wiki/Q31184"
+                >
+                <desc>Relação de irmandade entre Antônio Vicente da Fontoura e seu irmão Paulino Fontoura, atestada historicamente e mencionada indiretamente na correspondência da Coleção Varela.</desc>
+            </relation>
+            <roleName>Vice-presidente da República Rio-grandense.</roleName>
+            <note>Irmão de Antônio vicente da Fontoura, foi morto no contexto da tensão política na Assembleia Constituinte da República em 13 de fevereiro de 1843.</note>
+        </person>
+        
         <person xml:id="fontoura">
             <persName>Antônio Vicente da Fontoura</persName>
-            <note>Político e militar da Revolução Farroupilha, autor da carta e figura proeminente no Tesouro.</note>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q4773622</idno>
+            <idno type="viaf">https://viaf.org/en/viaf/4964150325584210090000</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q4777674</idno>
+            <roleName>Chefe de polícia da comarca de Rio Pardo durante a República Rio-grandense.</roleName>
+            <roleName>Coletor-geral de impostos da República Rio-grandense</roleName>
+            <roleName>Chefe da missão diplomática da República Rio-Grandense</roleName>
+            <roleName>deputado à Assembleia Constituinte da República Rio-Grandense</roleName>
+            <note>Político e militar da Revolução Farroupilha, um dos líderes da chamada minoria. Negociou a paz de Ponche Verde, que reintegrou o Rio Grande do Sul ao Brasil. </note>
         </person>
         
         <person xml:id="francisco_pedro_abreu">
             <persName>Francisco Pedro de Abreu</persName>
-            <note>Capitão comandante, autor da comunicação disciplinar.</note>
+            <persName>Francisco Pedro Buarque de Abreu</persName>
+            <persName type="popular">Chico Pedro</persName>
+            <persName type="popular">Moringue</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q16917747</idno>
+            <idno type="viaf">https://viaf.org/en/viaf/24112810</idno>
+            <roleName>Barão do Jacuí</roleName>
+            <roleName>Capitão</roleName>
+            <roleName>Coronel</roleName>
+            <note>Militar legalista, famoso por suas operações consideradas ardilosas.</note>
         </person>
         
         <person xml:id="francisco_xavier_cunha">
@@ -237,7 +290,10 @@
         
         <person xml:id="bernardo_pires">
             <persName>Bernardo Pires</persName>
-            <note>Major que atuou como depositário dos bens da fazenda jacente de José Augusto Ledek, e posteriormente nomeado Curador substituto.</note>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q16497994</idno>
+            <roleName>Major</roleName>
+            <roleName>Suplente de deputado à Assembléia Constituinte da República Rio-grandense.</roleName>
+            <note>Major que atuou como depositário dos bens da fazenda jacente de José Augusto Ledek, e posteriormente nomeado Curador substituto. Foi suplente de deputado à Assembléia Constituinte da República Rio-grandense. Considerado possível criador da bandeira da República.</note>
         </person>
         
         <person xml:id="freitas">
@@ -420,11 +476,17 @@
         <person xml:id="macedo">
             <persName>Macedo</persName>
             <note>Pai de um dos jovens apreendidos na região da capela dos Ladrões, conforme o relato.</note>
-        </person>
+        </person> 
         
         <person xml:id="macedo">
             <persName>Macedo</persName>
             <note>Indivíduo que realizou arrendamento da estância citada.</note>
+        </person> <!--id repetida, resolver-->
+        
+        
+        <person xml:id="macedo_1">
+            <persName>Macedo</persName>
+            <idno></idno>
         </person>
         
         <person xml:id="dutra">
@@ -457,14 +519,81 @@
             <note>Autoridade eclesiástica, tratada como "Exmo. prelado" e destinatário da carta; atuante no contexto da administração farroupilha.</note>
         </person> <!--corrigir para a id padre_chagas-->
         
+        <person xml:id="mingote">
+            <persName type="popular">Mingote</persName>
+            <persName>Domingos Almeida Filho</persName>
+            <idno></idno>
+            <note>Primogênito de Domingos José de Almeida e Bernardina. Faleceu ainda criança.</note>
+        </person>
+        
+        <person xml:id="bernardino_almeida">
+            <persName>Bernardino</persName>
+            <idno></idno>
+            <relation
+                xml:id="rel_bernardino_parents"
+                name="childOf"
+                active="#bernardino_almeida"
+                passive="#domingos_jose_almeida #bernardina_barcelos_almeida"
+                ref="https://www.wikidata.org/wiki/Q756">
+                <desc>Bernardino Almeida é filho de Domingos José de Almeida e Bernardina Barcelos de Almeida.</desc>
+            </relation>
+            <note>Filho de Domingos José de Almeida.</note>
+        </person>
+        
         <person xml:id="custodia_almeida">
             <persName>D. Custódia</persName>
+            <idno></idno>
+            <relation
+                xml:id="rel_custodia_parents"
+                name="childOf"
+                active="#custodia_almeida"
+                passive="#domingos_jose_almeida #bernardina_barcelos_almeida"
+                ref="https://www.wikidata.org/wiki/Q756">
+                <desc>Custódia Almeida é filha de Domingos José de Almeida e Bernardina Barcelos de Almeida.</desc>
+            </relation>
             <note>Filha de Domingos José de Almeida</note>
+        </person>
+        
+        <person xml:id="pelopidas_almeida">
+            <persName>Pelópidas Almeida</persName>
+            <idno></idno>
+            <relation
+                xml:id="rel_pelopidas_parents"
+                name="childOf"
+                active="#pelopidas_almeida"
+                passive="#domingos_jose_almeida #bernardina_barcelos_almeida"
+                ref="https://www.wikidata.org/wiki/Q756">
+                <desc>Pelópidas Almeida é filho de Domingos José de Almeida e Bernardina Barcelos de Almeida.</desc>
+            </relation>
+            <note>Filho de Domingos José de Almeida e Bernardina.</note>
         </person>
         
         <person xml:id="bruto_almeida">
             <persName>Bruto</persName>
+            <idno></idno>
+            <relation
+                xml:id="rel_bruto_parents"
+                name="childOf"
+                active="#bruto_almeida"
+                passive="#domingos_jose_almeida #bernardina_barcelos_almeida"
+                ref="https://www.wikidata.org/wiki/Q756">
+                <desc>Bruto Almeida é filho de Domingos José de Almeida e Bernardina Barcelos de Almeida.</desc>
+            </relation>
             <note>Filho de Domingos José de Almeida.</note>
+        </person>
+        
+        <person xml:id="abrilina_almeida">
+            <persName>Abrilina</persName>
+            <idno></idno>
+            <relation
+                xml:id="rel_abrilina_parents"
+                name="childOf"
+                active="#abrilina_almeida"
+                passive="#domingos_jose_almeida #bernardina_barcelos_almeida"
+                ref="https://www.wikidata.org/wiki/Q756">
+                <desc>Abrilina Almeida é filha de Domingos José de Almeida e Bernardina Barcelos de Almeida.</desc>
+            </relation>
+            <note>Filha do casal Bernardina e Domingos José de Almeida.</note>
         </person>
         
         <person xml:id="capitao_miguel">
@@ -543,6 +672,7 @@
         
         <person xml:id="bernardina_barcelos_almeida">
             <persName>Bernardina Barcelos de Almeida</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q136892558</idno>
             <note>Esposa de Domingos José de Almeida.</note>
         </person>
         
@@ -568,7 +698,18 @@
         
         <person xml:id="joao_cunha">
             <persName>João da Cunha</persName>
-            <note>Responsável por transportar trastes em duas carretas.</note>
+            <idno></idno>
+            <relation
+                xml:id="rel_domingos_cunha_confianca"
+                name="business_trust"
+                mutual="false"
+                active="#domingos_jose_almeida"
+                passive="#joao_da_cunha"
+                ref="https://www.wikidata.org/wiki/Q28499442"
+                >
+                <desc>Relação de confiança: João da Cunha atuava como homem de confiança e agente encarregado de tratar negócios domésticos e de propriedade para Domingos José de Almeida, conforme atestado em diversas cartas da Coleção Varela.</desc>
+            </relation>
+            <note>Homem de confiança de Domingos José de Almeida.</note>
         </person>
         
         <person xml:id="granja">
@@ -605,9 +746,16 @@
         </person>
         
         <person xml:id="joao_jose_victorica">
-            <persName>João José Victorica</persName>
-            <note>Indivíduo cuja ordem gerou parte da dívida registrada.</note>
+            <persName xml:lang="pt-BR" type="variant">João José Victorica</persName>
+            <persName xml:lang="es" type="attested">Juan Jose Victorica</persName>
+            <idno></idno>
+            <note>Comerciante de Montevidéu. Credor de Domingos José de Almeida</note>
         </person>
+        
+        <person xml:id="victorica">
+            <persName>Victorica</persName>
+            <note>Identidade parcial; provável sobrenome hispânico platino.</note>
+        </person> <!--corrigir para id joao jose victorica-->
         
         <person xml:id="d_pedro">
             <persName>D. Pedro</persName>
@@ -704,7 +852,10 @@
         
         <person xml:id="mariano_gloria">
             <persName>Mariano Glória</persName>
-            <note>Major que recebeu pagamento registrado.</note>
+            <idno></idno>
+            <roleName>Major</roleName>
+            <affiliation>Farrapos</affiliation>
+            <note></note>
         </person>
         
         <person xml:id="epaminondas_almeida">
@@ -732,10 +883,7 @@
             <note>Indivíduo mencionado no aditamento; sua identidade não é especificada.</note>
         </person>
         
-        <person xml:id="mingote">
-            <persName>Mingote</persName>
-            <note>Pessoa falecida cujos ossos Almeida pretende trasladar futuramente.</note>
-        </person>
+        
         
         <person xml:id="cadete">
             <persName>Cadete</persName>
@@ -895,15 +1043,62 @@
             <note>Político farroupilha, vice-presidente mais votado da República Rio-Grandense, que assumiu interinamente a administração civil em 1839. Autor do brasão que foi adotado para o Rio Grande do Sul pelos constituintes de 1891. </note>
         </person>
         
+        <person xml:id="bernardino_rodrigues_barcelos_filho">
+            <persName>Bernardino Rodrigues Barcelos Filho</persName>
+            <idno></idno>
+            <relation
+                xml:id="rel_bernardina_bernardino_irmaos"
+                name="kinship"
+                mutual="true"
+                active="#bernardina_barcelos"
+                passive="#bernardino_rodrigues_barcelos"
+                ref="https://www.wikidata.org/wiki/Q840795"
+                >
+                <desc>Relação de parentesco: Bernardina Barcelos de Almeida e Bernardino Rodrigues Barcelos filho eram irmãos, conforme mencionado na correspondência da Coleção Varela.</desc>
+            </relation>
+            <note>Irmão de Bernardina Rodrigues Barcelos. É homonimo de seu pai.</note>
+        </person>
+        
+        <person xml:id="joaquim_barcelos">
+            <persName>Joaquim Rodrigues Barcelos</persName>
+            <idno></idno>
+            <relation
+                xml:id="rel_bernardina_joaquim_irmaos"
+                name="kinship"
+                mutual="true"
+                active="#bernardina_barcelos"
+                passive="#joaquim_rodrigues_barcelos"
+                ref="https://www.wikidata.org/wiki/Q840795"
+                >
+                <desc>Relação de parentesco: Bernardina Barcelos de Almeida e Joaquim Rodrigues Barcelos eram irmãos, conforme mencionado na correspondência da Coleção Varela.</desc>
+            </relation>
+            <note>Irmão de Bernardina.</note>
+        </person>
+
         <person xml:id="joao_barcelos">
             <persName>João Rodrigues Barcelos</persName>
-            <note>Irmão de Bernardina, visitado por José Mariano de Matos.</note>
+            <idno></idno>
+            <relation
+                xml:id="rel_bernardina_joao_irmaos"
+                name="kinship"
+                mutual="true"
+                active="#bernardina_barcelos"
+                passive="#joao_rodrigues_barcelos"
+                ref="https://www.wikidata.org/wiki/Q840795"
+                >
+                <desc>Relação de parentesco: Bernardina Barcelos de Almeida e João Rodrigues Barcelos eram irmãos, conforme mencionado na correspondência da Coleção Varela.</desc>
+            </relation>
+            <note>Irmão de Bernardina.</note>
         </person>
         
         <person xml:id="fructuoso_rivera">
             <persName>Fructuoso Rivera</persName>
+            <idno type="viaf">https://viaf.org/en/viaf/305409628</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q467976</idno>
+            <roleName>Presidente do Uruguai</roleName>
+            <roleName>Líder do Partido Colorado</roleName>
+            <roleName>General</roleName>
             <note>Militar e político uruguaio, primeiro presidente do Uruguai.</note>
-            <idno type="viaf">https://viaf.org/viaf/89088984</idno>
         </person>
         
         <person xml:id="manuel_oribe">
@@ -996,8 +1191,15 @@
         <person xml:id="joaquim_pereira_fagundes">
             <persName>Joaquim Pereira Fagundes</persName>
             <note>Capitão e Chefe Geral da Polícia do Departamento do Boqueirão.</note>
-        </person>
+        </person> <!--corrigir vendo se é a mesma pessoa da anotação abaixo ou desambiguar se não for-->
         
+        <person xml:id="joaquim_pereira_fagundes">
+            <persName>Joaquim Pereira Fagundes</persName>
+            <idno></idno>
+            <roleName>Chefe de Polícia da Fronteira de Bagé</roleName>
+            <roleName>Capitão</roleName>
+            <note>Capitão e Chefe de Polícia da Fronteira de Bagé.</note>
+        </person>
         
         <person xml:id="joaquim_pereira">
             <persName>Joaquim Pereira</persName>
@@ -1106,7 +1308,12 @@
         
         <person xml:id="rolino_pereira_barros">
             <persName>Rolino Pereira de Barros</persName>
-            <note>Cidadão do Departamento, doador de novilhos à administração farroupilha.</note>
+            <note>Cidadão do Departamento, doador de novilhos à administração farroupilha. Indicado como compadre de Domingos José de Almeida.</note>
+        </person>
+        
+        <person xml:id="rolino">
+            <persName>Rolino</persName>
+            <note>Compadre de Almeida, responsável pela administração da charqueada enquanto o mesmo estava na Assembleia Provincial.</note>
         </person>
         
         <person xml:id="napoleone_castellini">
@@ -1164,11 +1371,6 @@
         <person xml:id="vasco_amaro">
             <persName>Vasco Amaro</persName>
             <note>Coletor responsável por receber valores pagos por Antônio Casas.</note>
-        </person>
-        
-        <person xml:id="joaquim_pereira_fagundes">
-            <persName>Joaquim Pereira Fagundes</persName>
-            <note>Capitão e Chefe de Polícia da Fronteira de Bagé.</note>
         </person>
         
         <person xml:id="damazio_correa">
@@ -1395,7 +1597,17 @@
         
         <person xml:id="manuel_antunes_porciuncula">
             <persName>Manuel Antunes da Porciúncula</persName>
-            <note>Cidadão envolvido em disputa de pastagens na fazenda das Pedras Altas.</note>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q136892590</idno>
+            <relation
+                name="family"
+                mutual="false"
+                active="#manuel_antunes_porciuncula"
+                passive="#bento_goncalves"
+                ref="https://www.wikidata.org/wiki/Q16658574"> 
+                <desc>Cunhados</desc>
+            </relation>
+            <roleName>Capitão dos Guardas Nacionais</roleName>
+            <note>Capitão farroupilha e cunhado de Bento Gonçalves.</note>
         </person>
         
         <person xml:id="faustino_lima">
@@ -1565,11 +1777,6 @@
             <persName>D. Brune</persName>
         </person>
         
-        <person xml:id="bernardino_rodrigues_barcelos_filho">
-            <persName>Bernardino Rodrigues Barcelos Filho</persName>
-            <note>Irmão de Bernardina Rodrigues Barcelos.</note>
-        </person>
-        
         <person xml:id="alexandre_bresque">
             <persName>Dom Alexandre Bresque</persName>
         </person>
@@ -1714,12 +1921,18 @@
         
         <person xml:id="antonio_jose_goncalves_chaves">
             <persName>Antonio José Gonçalves Chaves</persName>
-            <note>Sócio de Almeida e autor das Meórias Economo políticas.</note>
-        </person>
-        
-        <person xml:id="antonio_jose_goncalves_chaves_pai">
-            <persName>Antônio José Gonçalves Chaves</persName>
-            <note>Pai; mencionado como falecido. Figura relacionada a transações contábeis anteriores com Domingos José de Almeida.</note>
+            <idno type="viaf">https://viaf.org/en/viaf/30827526</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q16491671</idno>
+            <relation
+                xml:id="rel_domingos_matos_amizade"
+                name="friendship"
+                mutual="true"
+                active="#domingos_jose_almeida"
+                passive="#antonio_jose_goncalves_chaves"
+                ref="https://www.wikidata.org/wiki/Q491"
+                >
+            </relation>
+            <note>Sócio de Almeida e autor das Meórias Economo políticas. Morre em 1837. Tem um filho homônimo.</note>
         </person>
         
         <person xml:id="antonio_jose_goncalves_chaves_filho">
@@ -1785,10 +1998,7 @@
             <note>1.º Tenente do 3.º Batalhão de Caçadores do Exército, demitido por decreto do Vice-presidente da República.</note>
         </person>
         
-        <person xml:id="joao_alexandre_rosa_jr">
-            <persName>João Alexandre da Rosa Jr.</persName>
-            <note>Segundo escriturário responsável pela publicação e registro do decreto.</note>
-        </person>
+        
         
         <person xml:id="simao_francisco_pereira">
             <persName>Simão Francisco Pereira</persName>
@@ -2386,6 +2596,8 @@
         
         <person xml:id="prudencio">
             <persName>Prudêncio</persName>
+            <idno></idno>
+            <note>Pessoa próxima da família de Domingos José de Almeida.</note>
         </person>
         
         <person xml:id="benito">
@@ -2558,11 +2770,6 @@
             <persName>Dom Francisco de Truebas</persName>
         </person>
         
-        <person xml:id="victorica">
-            <persName>Victorica</persName>
-            <note>Identidade parcial; provável sobrenome hispânico platino.</note>
-        </person>
-        
         <person xml:id="luis_francisco_cunha">
             <persName>Luís Francisco da Cunha</persName>
         </person>
@@ -2579,11 +2786,6 @@
         <person xml:id="joao_paulo">
             <persName>João Paulo</persName>
             <note>Mencionado como chefe militar aliado ao Império do Brasil durante ações de campanha contra os republicanos farroupilhas.</note>
-        </person>
-        
-        <person xml:id="victorica">
-            <persName>Victorica</persName>
-            <note>Indivíduo citado como credor ou responsável por possível empréstimo financeiro à família de Domingos José de Almeida.</note>
         </person>
         
         <person xml:id="truebas">
@@ -2679,7 +2881,9 @@
         
         <person xml:id="luis_machado_teixeira">
             <persName>Luís Machado Teixeira</persName>
-            <note>Mencionado como portador da carta e indicado para exercer o cargo de coletor.</note>
+            <idno></idno>
+            <roleName>Coletor</roleName>
+            <note>Exerceu o cargo de coletor da República.</note>
         </person>
         
         <person xml:id="maria_angela_corte_real_de_lima">
@@ -2695,11 +2899,6 @@
         <person xml:id="general_lima">
             <persName>General Lima</persName>
             <note>Mencionado como esposo de Maria Ângela Corte Real de Lima; identidade completa não fornecida.</note>
-        </person>
-        
-        <person xml:id="joao_antonio_da_silveira">
-            <persName>João Antônio da Silveira</persName>
-            <note>General, destinatário da carta, comandante de forças republicanas.</note>
         </person>
         
         <person xml:id="presidente_republica">
@@ -2734,6 +2933,7 @@
         
         <person xml:id="jose_de_assis_candall">
             <persName>José de Assis Candall</persName>
+            <idno></idno>
             <note>Destinatário da ordem de fornecimento, envolvido em transações têxteis.</note>
         </person>
         
@@ -3069,9 +3269,52 @@
             <note>Identificado apenas pelo nome; contexto e função não determinados no documento.</note>
         </person>
         
+        <person xml:id="cipriano_rodrigues_barcelos">
+            <persName>Cipriano Rodrigues Barcelos</persName>
+            <idno></idno>
+            <relation
+                xml:id="rel_bernardina_cipriano_parentesco"
+                name="kinship"
+                mutual="true"
+                active="#bernardina_barcelos"
+                passive="#cipriano_rodrigues_barcelos"
+                ref="https://www.wikidata.org/wiki/Q840795"
+                >
+                <desc>Relação de parentesco: Cirpriano Rodrigues Barcelos era tio paterno de Bernardina Barcelos de Almeida.</desc>
+            </relation>
+            <note>Tio de Bernardina Barcelos de Almeida. Tinha charqueada muito próxima a de Domingos José de Almeida. Também era comerciante de gado e escravos.</note>
+        </person>
+        
         <person xml:id="luis_rodrigues_barcelos">
             <persName>Luís Rodrigues Barcelos</persName>
-            <note>Destinatário da carta; provavelmente residente em Bagé e próximo à família do autor.</note>
+            <idno></idno>
+            <relation
+                xml:id="rel_bernardina_luis_parentesco"
+                name="kinship"
+                mutual="true"
+                active="#bernardina_barcelos"
+                passive="#luis_rodrigues_barcelos"
+                ref="https://www.wikidata.org/wiki/Q840795"
+                >
+                <desc>Relação de parentesco: Luís Rodrigues Barcelos era tio paterno de Bernardina Barcelos de Almeida.</desc>
+            </relation>
+            <note>Tio de Bernardina Barcelos de Almeida. Residia em Bagé.</note>
+        </person>
+        
+        <person xml:id="francisco_rodrigues_barcelos">
+            <persName>Francisco Rodrigues Barcelos</persName>
+            <idno></idno>
+            <relation
+                xml:id="rel_bernardina_francisco_parentesco"
+                name="kinship"
+                mutual="true"
+                active="#bernardina_barcelos"
+                passive="#francisco_rodrigues_barcelos"
+                ref="https://www.wikidata.org/wiki/Q840795"
+                >
+                <desc>Relação de parentesco: Francisco Rodrigues Barcelos era tio paterno de Bernardina Barcelos de Almeida.</desc>
+            </relation>
+            <note>Tio de Bernardina Barcelos de Almeida, residente na região de Viamão.</note>
         </person>
         
         <person xml:id="eugenio_vidie">
@@ -3117,7 +3360,8 @@
         
         <person xml:id="leao_prospero_chastan">
             <persName>Leão Próspero Chastan</persName>
-            <note>Indivíduo arrendatário da charqueada pertencente ao autor.</note>
+            <idno></idno>
+            <note>foi um coronel, líder farroupilha e charqueador com importante atuação histórica na Revolução Farroupilha no Rio Grande do Sul.</note>
         </person>
         
         <person xml:id="joao_cunha_pecanha">
@@ -3522,8 +3766,11 @@
         
         <person xml:id="joaquim_pedro">
             <persName>Joaquim Pedro</persName>
-            <note>Ajudante-general dos rebeldes, associado à encomenda de lanças.</note>
-            <note>Coronel farroupilha; frequentemente citado em movimentações estratégicas.</note>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10307345</idno>
+            <roleName>Ajudante-general da República Rio-grandense</roleName>
+            <roleName>Coronel</roleName>
+            <roleName>Comandante dos Lanceiros Negros</roleName>
+            <note>Coronel farroupilha; participou da Batalha do Seival.</note>
         </person>
         
         <person xml:id="manuel_jorge_rodrigues">
@@ -3606,10 +3853,18 @@
             <note>Soldado prisioneiro que escapou e forneceu informações.</note>
         </person>
         
+        <person xml:id="melo">
+            <persName>Melo</persName>
+            <idno></idno>
+            <roleName>Major</roleName>
+            <roleName>Tenente-coronel</roleName>
+            <note>Oficial legalista mencionado como apoio logístico..</note>
+        </person>
+        
         <person xml:id="tenente_coronel_melo">
             <persName>Tenente-coronel Melo</persName>
             <note>Oficial legalista mencionado como apoio logístico.</note>
-        </person>
+        </person> <!--corrigir para id melo-->
         
         <person xml:id="capitao_joao_ferreira">
             <persName>João Ferreira</persName>
@@ -3818,7 +4073,11 @@
         
         <person xml:id="jose_araujo_ribeiro">
             <persName>José de Araújo Ribeiro</persName>
-            <note>Presidente da Província citado na carta.</note>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10310751</idno>
+            <roleName>Presidente da Província do Rio Grande do Sul</roleName>
+            <roleName>Barão do Rio Grande</roleName>
+            <roleName>Visconde do Rio Grande</roleName>
+            <note>Nomeado Presidente da Província pelo Império logo no início da Guerra dos Farrapos. Foi diplomata importante a serviço do Império.</note>
         </person>
         
         <person xml:id="manuel_jose_alencastre">
@@ -3933,7 +4192,7 @@
         
         <person xml:id="jose_antonio_araujo_ribeiro">
             <persName>José Antônio de Araújo Ribeiro</persName>
-            <note>Cunhado do autor; transmissor de informação militar.</note>
+            <note>Cunhado do autor; transmissor de informação militar. Pai de José Araújo Ribeiro.</note>
         </person>
         
         <person xml:id="antonio_jose_pires">
@@ -4169,11 +4428,6 @@
         <person xml:id="silva_tavares">
             <persName>Silva Tavares</persName>
             <note>Protetor de José Inácio.</note>
-        </person>
-        
-        <person xml:id="araujo_ribeiro">
-            <persName>Araújo Ribeiro</persName>
-            <note>Autor de ofícios mencionados.</note>
         </person>
         
         <person xml:id="antero">
@@ -4415,7 +4669,132 @@
         <person xml:id="hildebrando_freitas_pedroso">
             <persName>Hildebrando de Freitas Pedroso</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10295559</idno>
+            <roleName>deputado na Assembleia Constituinte e Legislativa Farroupilha</roleName>
+            <roleName>presidente da Assembleia Constituinte da República Rio-grandense</roleName>
             <note>Sacerdote, foi eleito deputado na Assembleia Constituinte e Legislativa Farroupilha, em 1842, sendo dela presidente. </note>
+        </person>
+        
+        <person xml:id="joao_alexandre">
+            <persName>João Alexandre da Rosa</persName>
+            <idno></idno>
+            <roleName>Comandante de Polícia da Serra dos Tapes</roleName>
+            <note>Comandante de Polícia da Serra dos Tapes.</note>
+        </person>
+        
+        <person xml:id="joao_alexandre_rosa_jr">
+            <persName>João Alexandre da Rosa Jr.</persName>
+            <note>Segundo escriturário responsável pela publicação e registro do decreto.</note>
+        </person> <!--conferir se não é id joao_alexandre-->
+        
+        <person xml:id="serafim_rosa">
+            <persName>Serafim Pereira Rosa</persName>
+            <idno></idno>
+            <note>Morador da região da serra dos Tapes, citado como detentor de instruções entregues ao autor.</note>
+        </person>
+        
+        <person xml:id="batista_fernandes">
+            <persName>Batista Fernandes</persName>
+            <idno></idno>
+            <note>Compadre de Bernardina Barcelos de Almeida, citado como envolvido com os Caramurus.</note>
+            <affiliation>Império do Brasil</affiliation>
+        </person>
+        
+        <person xml:id="jose_felix">
+            <persName>José Félix</persName>
+            <idno></idno>
+            <note>Compadre da família, mencionado por Bernardina.</note>
+        </person>
+        
+        <person xml:id="ribas">
+            <persName>Ribas</persName>
+            <idno></idno>
+            <note>Indivíduo citado como influenciador da decisão do Presidente.</note>
+        </person>
+        
+        <person xml:id="luis_azevedo">
+            <persName>Luís de Azevedo</persName>
+            <idno></idno>
+            <relation
+                name="family"
+                mutual="false"
+                active="#luis_azevedo"
+                passive="#boaventura_rodrigues_barcelos"
+                ref="https://www.wikidata.org/wiki/Q16658574"> 
+                <desc>Cunhados</desc>
+            </relation>
+            <note>Legalista.</note>
+        </person>
+        
+        <person xml:id="dr_joao">
+            <persName>Doutor João</persName>
+            <idno></idno>
+            <note>Amigo de Domingos José de Almeida, mencionado criticamente.</note>
+        </person>
+        
+        <person xml:id="joao_antonio">
+            <persName>João Antônio</persName>
+            <idno></idno>
+            <note>Compadre da família Almeida, citado em contexto de cuidados com cavalos.</note>
+        </person>
+        
+        <person xml:id="merenciana">
+            <persName>Merenciana</persName>
+            <idno></idno>
+            <note>Mulata mencionada como envolvida em disputa doméstica e tutelar.</note>
+        </person>
+        
+        <person xml:id="augusto">
+            <persName>Augusto</persName>
+            <idno></idno>
+        </person>
+        
+        <person xml:id="jose_rodrigues_barcelos">
+            <persName>José</persName>
+            <idno></idno>
+            <relation
+                xml:id="rel_bernardina_jose_parentesco"
+                name="kinship"
+                mutual="true"
+                active="#bernardina_barcelos"
+                passive="#jose_rodrigues_barcelos"
+                ref="https://www.wikidata.org/wiki/Q840795"
+                >
+                <desc>Relação de parentesco: José Rodrigues Barcelos era tio paterno de Bernardina Barcelos de Almeida.</desc>
+            </relation>
+            <roleName>Comendador</roleName>
+            <roleName>Capitão do Exército Imperial</roleName>
+            <roleName>provedor da Santa Casa de Misericórdia de Pelotas</roleName>
+            <note>Tio de Bernardina Barcelos de Almeida. Aderiu a causa farroupilha.</note>
+        </person>
+        
+        <person xml:id="genuino">
+            <persName>Genuíno</persName>
+            <idno></idno>
+        </person>
+        
+        <person xml:id="mateus_gomes">
+            <persName>[Mateus?] Gomes</persName>
+            <idno></idno>
+            <note>Nome lido com dúvida no manuscrito.</note>
+        </person>
+        
+        <person xml:id="xavier_ferreira">
+            <persName>Francisco Xavier Ferreira</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q8962581</idno>
+            <roleName>Deputado provincial na 1ª Legislatura da Assembléia Legislativa Provincial do Rio Grande do Sul</roleName>
+            <note>Deputado provincial na 1ª Legislatura da Assembléia Legislativa Provincial do Rio Grande do Sul, era republicano, porém não separatista. Foi preso na Presiganga e depois enviado ao Rio de Janeiro, onde faleceu no calabouço da Fortaleza de Nossa Senhora da Conceição da Ilha de Villegagnon, em 1838.</note>
+        </person>
+        
+        <person xml:id="manuel_barcelos">
+            <persName>Manuel Barcelos</persName>
+            <idno></idno>
+            <note>Portador da carta enviada a Bernardina.</note>
+        </person>
+        
+        <person xml:id="angelo">
+            <persName>Ângelo</persName>
+            <idno></idno>
+            <note>Membro da família que visita Almeida em Porto Alegre, acompanhando Francisco Rodrigues Barcelos.</note>
         </person>
     </listPerson>
 </standOff>

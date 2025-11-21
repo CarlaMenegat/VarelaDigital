@@ -43,11 +43,11 @@
         <body>
             <div type="letter" xml:id="CV-37">
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
-                    Participo a V.Ex.ª que ontem foram entregues nestes presídios,
+                    Participo a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que ontem foram entregues nestes presídios,
                     pelo <persName ref="#alferes_ferreira">Alferes Ferreira</persName> do
                     <orgName ref="#guardas_nacionais_5corpo">5.º Corpo de Guardas Nacionais</orgName>,
                     os anarquistas feitos prisioneiros proximamente na Capela:
@@ -61,18 +61,18 @@
                     tenente dos rebeldes, e
                     <persName ref="#francisco_jose_nascimento_junior">Francisco José do Nascimento Júnior</persName>;
                     este último foi solto e entregue ao
-                    <persName ref="#dr_fagundes">Dr. Fagundes</persName> por uma portaria de V.Ex.ª
+                    <persName ref="#dr_fagundes">Dr. Fagundes</persName> por uma portaria de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>
                     com data de ontem.
                 </p>
                 
-                <p>Deus guarde a V.Ex.ª.</p>
+                <p>Deus guarde a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.</p>
                 
                 <closer>
                     <p>Quartel nos Presídios do Batalhão 11, 
                         <date when="1840-11-26">26 de novembro de 1840</date>.
                     </p>
                     
-                    <salute>Ilmo. e Exmo. Sr. <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.</salute>
                     <salute>Marechal Comandante da Guarnição.</salute>
                     
                     <signed>

@@ -40,16 +40,16 @@
                 <div type="letter" xml:id="CV-49">
                     
                     <opener>
-                        <salute>Ilmo. e Exmo. Sr.</salute>
+                        <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                     </opener>
                     
-                    <p>Ontem veio o <persName ref="#cruz">Cruz</persName> e diz que <persName ref="#bento_manuel">Bento Manuel</persName> seguiu para <placeName ref="#piratini">Piratini</placeName> e as peças para <placeName ref="#rio_pardo">Rio Pardo</placeName> e no <placeName ref="#triunfo">Triunfo</placeName> está o <persName ref="#capitao_augusto">Capitão Augusto</persName> com tudo reunido, velhos, crianças e aleijados tendo 160 homens de cavalaria, 40 infantes ao mando de <persName ref="#felisberto">Felisberto</persName>, irmão do <persName ref="#simas">Simas</persName> e eles diz que se retiram por estes seis ou oito dias; da ida das peças para <placeName ref="#rio_pardo">Rio Pardo</placeName> confirma o <persName ref="#jose_joao_castro">Furriel José João de Castro</persName> que foi prisioneiro no <placeName ref="#rio_pardo">Rio Pardo</placeName>, e vindo ontem de <placeName ref="#santo_amaro">Santo Amaro</placeName>; e V.Exª. pode mandar os ofícios para o <persName ref="#major_simas">Major Simas</persName> e <persName ref="#mombach">Mombaque</persName> e querendo também pode ir para gente do <persName ref="#oliveira">Oliveira</persName>. O <persName ref="#cruz">Cruz</persName> está pronto à espera dos ofícios para seguir; é o que por ora tenho de informar a V.Exª.</p>
+                    <p>Ontem veio o <persName ref="#cruz">Cruz</persName> e diz que <persName ref="#bento_manuel">Bento Manuel</persName> seguiu para <placeName ref="#piratini">Piratini</placeName> e as peças para <placeName ref="#rio_pardo">Rio Pardo</placeName> e no <placeName ref="#triunfo">Triunfo</placeName> está o <persName ref="#capitao_augusto">Capitão Augusto</persName> com tudo reunido, velhos, crianças e aleijados tendo 160 homens de cavalaria, 40 infantes ao mando de <persName ref="#felisberto">Felisberto</persName>, irmão do <persName ref="#simas">Simas</persName> e eles diz que se retiram por estes seis ou oito dias; da ida das peças para <placeName ref="#rio_pardo">Rio Pardo</placeName> confirma o <persName ref="#jose_joao_castro">Furriel José João de Castro</persName> que foi prisioneiro no <placeName ref="#rio_pardo">Rio Pardo</placeName>, e vindo ontem de <placeName ref="#santo_amaro">Santo Amaro</placeName>; e <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> pode mandar os ofícios para o <persName ref="#major_simas">Major Simas</persName> e <persName ref="#mombach">Mombaque</persName> e querendo também pode ir para gente do <persName ref="#oliveira">Oliveira</persName>. O <persName ref="#cruz">Cruz</persName> está pronto à espera dos ofícios para seguir; é o que por ora tenho de informar a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice></p>
                     
-                    <p>Deus guarde a V.Exª. por muitos anos.</p>
+                    <p>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> por muitos anos.</p>
                     
                     <closer>
                         <dateline><placeName ref="#picada">Acampamento da Picada</placeName>, <date when="1838-11-18">18 de novembro de 1838</date>.</dateline>
-                        <signed>Ilmo. Exmo. Sr. <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/>
+                        <signed>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/>
                             <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.<br/>
                             Major Comandante do Destacamento da Picada.</signed>
                     </closer>

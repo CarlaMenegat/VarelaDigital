@@ -35,10 +35,10 @@
         <body>
             <div type="letter" xml:id="CV-5">
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
-                <p>Para dar cumprimento ao que exige em seu ofício de 16 do presente me é mister que V.S.ª me devolva, para facilitar a exatidão, o mapa estatístico da população do departamento que lhe foi entregue por meu antecessor.</p>
-                <p>Deus guarde a V.S.ª.</p>
+                <p>Para dar cumprimento ao que exige em seu ofício de 16 do presente me é mister que <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> me devolva, para facilitar a exatidão, o mapa estatístico da população do departamento que lhe foi entregue por meu antecessor.</p>
+                <p>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                 <closer>
                     <signed>Antônio Francisco dos Santos Abreu</signed>
                     <placeName ref="#salso">Residência do Juiz de Paz do departamento</placeName>, <date when="1841-11-20">20 de novembro de 1841</date>.

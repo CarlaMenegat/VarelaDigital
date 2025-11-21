@@ -43,20 +43,20 @@
             <div type="letter" xml:id="CV-98">
                 
                 <opener>
-                    <salute>Ilmo. Exmo. Sr. <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</salute>
+                    <salute>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</salute>
                 </opener>
                 
                 <dateline><placeName ref="#pelotas">Pelotas</placeName>, <date when="1843-06-02">2 de junho de 1843</date>.</dateline>
                 
-                <p>Com hastante satisfação vi uma carth de V.Exº. egtcrita a meu sogro na qual vi as recomendações com que memoriava do que lhe fico muito obrigado, assim como pelo favor de suprir a meu filho os dez patacões, cujos remeto pelo portador desta, que é o Sr. [Teixeira] e, já que me abriu este caminho, tenho a rogar-lhe o favor se por respeito de V. Ex.º eu pudesse mandar alguma roupa ou ainda alguma pataca ao dito meu filho, me fazia nisso grande obséquio; se puder ser, V. Ex.º me avisará para eu mandar entregar nesse lugar ou a quem me determinar do que fico esperando sua ordem a tal respeito, de tudo quanto vir lhe possa prestar neste lugar pois nisso me dará gosto e sou</p>
+                <p>Com hastante satisfação vi uma carth de <choice><abbr>V.Ex</abbr><expan>Vossa Excelência</expan></choice>º. egtcrita a meu sogro na qual vi as recomendações com que memoriava do que lhe fico muito obrigado, assim como pelo favor de suprir a meu filho os dez patacões, cujos remeto pelo portador desta, que é o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> [Teixeira] e, já que me abriu este caminho, tenho a rogar-lhe o favor se por respeito de <choice><abbr>V. Ex.</abbr><expan>Vossa Excelência</expan></choice>º eu pudesse mandar alguma roupa ou ainda alguma pataca ao dito meu filho, me fazia nisso grande obséquio; se puder ser, <choice><abbr>V. Ex.</abbr><expan>Vossa Excelência</expan></choice>º me avisará para eu mandar entregar nesse lugar ou a quem me determinar do que fico esperando sua ordem a tal respeito, de tudo quanto vir lhe possa prestar neste lugar pois nisso me dará gosto e sou</p>
                 
                 <closer>
-                    <signed>De V.Exª. muito amigo, criado e obrigado.</signed>
+                    <signed>De <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muito amigo, criado e obrigado.</signed>
                     <signed>(a) <persName ref="#joao_antonio_oliveira_aguiar">João Antônio de Oliveira Aguiar</persName>.</signed>
                 </closer>
                 
                 <note type="endorsement">Respondida a 29 de junho de 1843.</note>
-                <note type="endorsement">Ilmo. Exmo. Sr. Domingos José de Almeida — <placeName ref="#piratini">Piratini</placeName>.</note>
+                <note type="endorsement">Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Domingos José de Almeida — <placeName ref="#piratini">Piratini</placeName>.</note>
                 
             </div>
         </body>

@@ -43,16 +43,16 @@
             <div type="letter" xml:id="CV-64">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Participo a V.Ex.ª que no dia 11 do corrente passei o <placeName ref="#rio_ibicui">Ibicuí</placeName>, 
-                    com 80 homens de cavalaria, segundo as ordens de V.Ex.ª, e marchei para <placeName ref="#santa_maria">Santa Maria</placeName>, 
+                <p>Participo a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que no dia 11 do corrente passei o <placeName ref="#rio_ibicui">Ibicuí</placeName>, 
+                    com 80 homens de cavalaria, segundo as ordens de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, e marchei para <placeName ref="#santa_maria">Santa Maria</placeName>, 
                     aonde foi surpreendido um capitão, 8 soldados rebeldes, 16 cavalos e potros, e fiz seguir para este 5 carretas 
                     de negócio com sal, farinha de trigo, açúcares e fazendas; comprei para a nação 180 arrobas de erva-mate e 100 
                     alqueires de farinha de mandioca, e tudo ficou hoje deste lado.</p>
                 
-                <p>O Sr. <persName ref="#tenente_coronel_melo">Tenente-coronel Melo</persName>, pedindo-lhe sua coadjuvação, prontamente marchou com o seu batalhão fazendo marchas 
+                <p>O <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tenente_coronel_melo">Tenente-coronel Melo</persName>, pedindo-lhe sua coadjuvação, prontamente marchou com o seu batalhão fazendo marchas 
                     forçadas, até metade do caminho, a me proteger a minha retirada e a passagem do passo com todos os gêneros. 
                     O <persName ref="#canabarro">David Canabarro</persName> e <persName ref="#guedes">Guedes</persName> e <persName ref="#demetrio">Demétrio</persName> marcharam para o 
                     <placeName ref="#alegrete">Alegrete</placeName>, para de lá perseguirem ao <persName ref="#coronel_loureiro">Coronel Loureiro</persName>; 
@@ -62,10 +62,10 @@
                     e <persName ref="#joaquim_pedro_2">Joaquim Pedro</persName> indo para a <placeName ref="#encruzilhada">Encruzilhada</placeName> com 100 homens, encaminhou-se para a 
                     <placeName ref="#cachoeira">Cachoeira</placeName>.</p>
                 
-                <p>Deus guarde a V.Ex.ª, <placeName ref="#rincao_do_inhamanda">Rincão do Inhamandá</placeName>, <date when="1841-07-14">14 de julho de 1841</date>.</p>
+                <p>Deus guarde a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, <placeName ref="#rincao_do_inhamanda">Rincão do Inhamandá</placeName>, <date when="1841-07-14">14 de julho de 1841</date>.</p>
                 
                 <closer>
-                    <salute>Ilmo. e Exmo. Sr. <persName ref="#joao_paulo_santos_barreto">João Paulo dos Santos Barreto</persName>.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_paulo_santos_barreto">João Paulo dos Santos Barreto</persName>.</salute>
                     <signed>Brigadeiro e Comandante-em-chefe do Exército.</signed>
                     <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
                     <signed>Tenente-coronel</signed>

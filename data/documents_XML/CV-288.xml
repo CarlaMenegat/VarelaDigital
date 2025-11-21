@@ -60,10 +60,10 @@
                     <salute>Meu Exmo. Presidente e respeitável amigo</salute>
                 </opener>
                 
-                <p>Parece-me de justiça o que se pede no requerimento incluso; mas V.Exª. me dirá o que devo fazer a respeito.</p>
+                <p>Parece-me de justiça o que se pede no requerimento incluso; mas <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> me dirá o que devo fazer a respeito.</p>
                 
                 <closer>
-                    <p>De V. Exª.</p>
+                    <p>De <choice><abbr>V. Exª.</abbr><expan>Vossa Excelência</expan></choice></p>
                     <salute>Amigo fiel e obrigado</salute>
                     <signed>Almeida</signed>
                     <date when="1839-02-25">Casa, 25 de fevereiro de 1839</date>
@@ -83,7 +83,7 @@
                     <signed>B. G. Silva</signed>
                 </closer>
                 
-                <note type="endorsement">Exmo. Sr. Presidente do Estado. [No verso]</note>
+                <note type="endorsement">Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente do Estado. [No verso]</note>
                 <note type="endorsement">Sua Casa.</note>
                 
             </div>

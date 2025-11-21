@@ -20,7 +20,7 @@
         <body>
             <div type="letter" xml:id="CV-143.letter">
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
@@ -28,16 +28,16 @@
                     <persName ref="#fileno">Capitão Fileno</persName>
                     e diz que o inimigo ao amanhecer de hoje estará neste lugar; 
                     cumpre pois que 
-                    <persName ref="#silveira">V. S.ª</persName>, 
+                    <persName ref="#silveira"><choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice></persName>, 
                     enquanto aqui nos defendemos, se encaminhe diretamente a esta capital, 
                     porque com aparição da força de 
-                    <persName ref="#silveira">V. S.ª</persName>,
+                    <persName ref="#silveira"><choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice></persName>,
                     na retaguarda ou flanco do inimigo, ele se verá obrigado a passar aqui momentaneamente.
                     Nem um só instante deve 
-                    <persName ref="#silveira">V. S.ª</persName> 
+                    <persName ref="#silveira"><choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice></persName> 
                     vacilar, e a esperança de sua coadjuvação nos ajudará a defender.
                     Isto é o que o governo ordena a 
-                    <persName ref="#silveira">V. S.ª</persName>, 
+                    <persName ref="#silveira"><choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice></persName>, 
                     e espera sua rápida execução.
                 </p>
                 

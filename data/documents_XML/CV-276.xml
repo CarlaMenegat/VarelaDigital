@@ -54,7 +54,7 @@
             <div type="carta" xml:id="CV-276">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                     <dateline>
                         <placeName ref="#piratini">Piratini</placeName>,
                         <date when="1838-12-14">14 de dezembro de 1838</date>.
@@ -63,19 +63,19 @@
                 
                 <p>
                     Não podendo bem desempenhar as funções das Secretarias de Estado que
-                    me foram confiadas, dou minha demissão e rogo a V.Exª. que o faça
-                    ciente ao Exmo. Sr. Presidente do Estado.
+                    me foram confiadas, dou minha demissão e rogo a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> que o faça
+                    ciente ao Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente do Estado.
                 </p>
                 
                 <closer>
-                    <salute>Deus guarde a V.Exª.</salute>
+                    <salute>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice></salute>
                     <signed>
                         <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     </signed>
                 </closer>
                 
                 <note type="verso">
-                    Destinatário: Ilmo. e Exmo. Sr. José da Silva Brandão,
+                    Destinatário: Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> José da Silva Brandão,
                     Ministro e Secretário de Estado dos Negócios da Guerra, Marinha e Exterior.
                 </note>
                 

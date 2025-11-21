@@ -38,13 +38,13 @@
             <div type="letter" xml:id="CV-542">
                 
                 <opener>
-                    <salute>Meu compadre, amigo e Sr.</salute>
+                    <salute>Meu compadre, amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>O negócio de <persName ref="#jose_de_sousa">José de Sousa</persName> e de <persName ref="#joao_jose_da_costa">João José da Costa</persName> contido no requerimento que V. Ex.ª me mandou pelo <persName ref="#julio_cesar_centeno">Sr. Júlio César Centeno</persName>, e em outro que me recomenda seu sobrinho <persName ref="#antonio_francisco_dos_santos_abreu">Antônio Francisco dos Santos Abreu</persName>, e que já foi despachado e não cumprido, é apadrinhado por esses seus dois parentes. Para serem deferidos como cumpre, convém que V. Ex.ª mesmo os submeta ao juízo de outrem; visto haver eu, fundado na Justiça, dado já minha opinião, e estar de acordo a não cansar-me na expedição de ordens que não serão cumpridas, embora se invoque a disposição da lei, que infelizmente hoje impera nos subúrbios da capital somente, etc., etc., etc...</p>
+                <p>O negócio de <persName ref="#jose_de_sousa">José de Sousa</persName> e de <persName ref="#joao_jose_da_costa">João José da Costa</persName> contido no requerimento que <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> me mandou pelo <persName ref="#julio_cesar_centeno"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Júlio César Centeno</persName>, e em outro que me recomenda seu sobrinho <persName ref="#antonio_francisco_dos_santos_abreu">Antônio Francisco dos Santos Abreu</persName>, e que já foi despachado e não cumprido, é apadrinhado por esses seus dois parentes. Para serem deferidos como cumpre, convém que <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> mesmo os submeta ao juízo de outrem; visto haver eu, fundado na Justiça, dado já minha opinião, e estar de acordo a não cansar-me na expedição de ordens que não serão cumpridas, embora se invoque a disposição da lei, que infelizmente hoje impera nos subúrbios da capital somente, etc., etc., etc...</p>
                 
                 <closer>
-                    <signed>De V. Ex.ª<br/>Compadre e amigo obrigado</signed>
+                    <signed>De <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice><br/>Compadre e amigo obrigado</signed>
                     <dateline>S.C., <date when="1841-11-20">20 de novembro de 1841</date>.</dateline>
                     <signed>(a) <persName ref="#domingos_jose_almeida">Almeida</persName>.</signed>
                 </closer>

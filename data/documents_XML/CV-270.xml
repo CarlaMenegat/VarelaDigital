@@ -55,17 +55,17 @@
                         <placeName ref="#piratini">Piratini</placeName>,
                         <date when="1838-12-07">7 de dezembro de 1838</date>.
                     </dateline>
-                    <salute>Diga-me V.Ex.ª por escrito</salute>
+                    <salute>Diga-me <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> por escrito</salute>
                 </opener>
                 
                 <p>
-                    Diga-me V.Ex.ª por escrito o que devo fazer com aquele sujeito
+                    Diga-me <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> por escrito o que devo fazer com aquele sujeito
                     que exige o embolso de 40 cavalos dados ao Coronel Gama 
                     em Missões, etc....
                 </p>
                 
                 <closer>
-                    <salute>De V. Ex.ª, amigo muito obrigado</salute>
+                    <salute>De <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, amigo muito obrigado</salute>
                     <signed>
                         <persName ref="#domingos_jose_almeida">Almeida</persName>
                     </signed>

@@ -49,18 +49,18 @@
                 <head>2.ª Via</head>
                 
                 <opener>
-                    <salute>Ilmo. Exmo. Sr.</salute>
+                    <salute>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Assentando S.Ex.ª, o Sr. Vice-presidente da República, que muito conviria celebrar V.Ex.ª em seu regresso o Tratado de Aliança e Comércio com o Governo de <placeName ref="#corrientes">Corrientes</placeName>, me determina assim lhe faça ciente, e que avise qual a época que supõe poder ali estar para lhe serem remetidos os respectivos diplomas ao ponto que indicar.</p>
+                <p>Assentando <choice><abbr>S.Ex.ª</abbr><expan>Sua Excelência</expan></choice>, o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Vice-presidente da República, que muito conviria celebrar <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> em seu regresso o Tratado de Aliança e Comércio com o Governo de <placeName ref="#corrientes">Corrientes</placeName>, me determina assim lhe faça ciente, e que avise qual a época que supõe poder ali estar para lhe serem remetidos os respectivos diplomas ao ponto que indicar.</p>
                 
                 <closer>
-                    <p>Deus guarde a V.Ex.ª.</p>
+                    <p>Deus guarde a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.</p>
                     <signed>Secretaria da Fazenda em <placeName ref="#cacapava">Caçapava</placeName>, 2 de abril de 1840.<br/>
                         (a) <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName></signed>
                 </closer>
                 
-                <p>Ilmo. e Exmo. Sr. Dr. <persName ref="#sebastiao_ribeiro">Sebastião Ribeiro</persName>, Ministro e Secretário de Estado dos Negócios da Justiça e Exterior, Plenipotenciário e encarregado extraordinário desta República junto ao Governo do Estado Oriental do Uruguai.</p>
+                <p>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Dr. <persName ref="#sebastiao_ribeiro">Sebastião Ribeiro</persName>, Ministro e Secretário de Estado dos Negócios da Justiça e Exterior, Plenipotenciário e encarregado extraordinário desta República junto ao Governo do Estado Oriental do Uruguai.</p>
                 
             </div>
         </body>

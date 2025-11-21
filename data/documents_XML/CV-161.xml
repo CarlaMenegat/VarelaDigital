@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-161 – João Alexandre para Domingos José de Almeida</title>
+                <author>João Alexandre</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-07-01">01 de julho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#joao_alexandre">João Alexandre</persName>
+                    <placeName ref="#andrade">Andrade</placeName>
+                    <date when="1836-07-08">8 de julho de 1836</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+
+        
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-11-21">21/11/2025</date>
+                    Conversão TEI realizada por Carla Menegat.
+                </item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="letter" xml:id="CV-161">
+                
+                <opener>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                </opener>
+                
+                <p>No dia 6 do corrente, com data do mesmo, recebi ofício de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> pelo qual me encarregava o comando de Polícia da <placeName ref="#serra_tapes">serra dos Tapes</placeName>, à esquerda do <placeName ref="#arroio_pelotas">arroio de Pelotas</placeName>, e, para cumprimento de suas ordens, passei no dia 7 à casa da residência do cidadão <persName ref="#serafim_rosa">Serafim Pereira Rosa</persName>, e este dúvida alguma se ofereceu a entregar-me as instruções existentes hoje em meu poder; e desta forma julgo ter feito o que devera, evitando assim violências sobre os pais de família, cortando a intriga que nada faltava para se pôr no seu auge.</p>
+                
+                <p>As instruções que vejo não as posso pôr em execução em alguns artigos, pela impossibilidade dos habitantes existentes no distrito, e este é preciso que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> o marque para poder pôr em listas seus moradores e esta feita irei beijar as mãos de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> e então verbalmente trataremos o melhor possível para que eu possa desempenhar os meus deveres.</p>
+                
+                <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> por muitos anos.</p>
+                
+                <dateline>
+                    <placeName ref="#andrade">Andrade</placeName>,
+                    <date when="1836-07-08">8 de julho de 1836</date>.
+                </dateline>
+                
+                <closer>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>,  
+                        Coronel Chefe de Legião.</salute>
+                    <signed>(a) <persName ref="#joao_alexandre">João Alexandre</persName></signed>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -40,18 +40,18 @@
             <div type="letter" xml:id="CV-43">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Tendo o soldado <persName ref="#domingos_vicente">Domingos Vicente</persName>, do esquadrão de meu comando, apresentado-se no quartel de bigode rapado, e considerando o procedimento deste soldado não só um ato de insubordinação como alguma sedição de pessoa oculta, o prendi e o mandei recolher nas prisões do <orgName ref="#oitavo_batalhao">8.º Batalhão</orgName> por ordem de V. Ex.ª, e espero merecer de V. Ex.ª a graça de o conservar preso até crescer o bigode, não só porque não quero ver no esquadrão de meu comando derramada a insubordinação; como por ser este o primeiro que no mesmo corpo se arrojou a um procedimento tão estranho à disciplina militar.</p>
+                <p>Tendo o soldado <persName ref="#domingos_vicente">Domingos Vicente</persName>, do esquadrão de meu comando, apresentado-se no quartel de bigode rapado, e considerando o procedimento deste soldado não só um ato de insubordinação como alguma sedição de pessoa oculta, o prendi e o mandei recolher nas prisões do <orgName ref="#oitavo_batalhao">8.º Batalhão</orgName> por ordem de <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, e espero merecer de <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> a graça de o conservar preso até crescer o bigode, não só porque não quero ver no esquadrão de meu comando derramada a insubordinação; como por ser este o primeiro que no mesmo corpo se arrojou a um procedimento tão estranho à disciplina militar.</p>
                 
                 <closer>
-                    <salute>Deus guarde a V. S.ª</salute>
+                    <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice></salute>
                     <dateline><orgName ref="#quartel_esquadrao_barra">Quartel do Esquadrão da Barra</orgName>, <date when="1837-08-30">30 de agosto de 1837</date>.</dateline>
                     <signed><persName ref="#francisco_pedro_abreu">(a) Francisco Pedro de Abreu</persName><br/>Capitão Comandante.</signed>
                 </closer>
                 
-                <note type="endorsement">Ilmo. e Exmo. Sr. <persName ref="#francisco_xavier_cunha">Francisco Xavier da Cunha</persName>. Brigadeiro Comandante da Guarnição.</note>
+                <note type="endorsement">Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#francisco_xavier_cunha">Francisco Xavier da Cunha</persName>. Brigadeiro Comandante da Guarnição.</note>
                 <note type="endorsement">Já foi respondido no 1.º de setembro de 1837. [No verso]</note>
                 
             </div>

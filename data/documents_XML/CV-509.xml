@@ -46,10 +46,10 @@
             <div type="letter" xml:id="CV-509">
                 
                 <opener>
-                    <salute>Prezado amigo e Sr.</salute>
+                    <salute>Prezado amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>A escassez de minhas faculdades pelos suprimentos que tenho feito ao <orgName ref="#tesouro">Tesouro</orgName>, ora faço expedir uma ordem para V.S.ª dar por minha conta ao <persName ref="#jose_evaristo_costa_bandeira">Sr. José Evaristo da Costa Bandeira</persName>, portador desta, duzentos patacões. Se pois V.S.ª fizer o obséquio de os dar ainda que para recebê-los depois, caso a Coletoria não os tenha disponíveis, será favor.</p>
+                <p>A escassez de minhas faculdades pelos suprimentos que tenho feito ao <orgName ref="#tesouro">Tesouro</orgName>, ora faço expedir uma ordem para <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> dar por minha conta ao <persName ref="#jose_evaristo_costa_bandeira"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> José Evaristo da Costa Bandeira</persName>, portador desta, duzentos patacões. Se pois <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> fizer o obséquio de os dar ainda que para recebê-los depois, caso a Coletoria não os tenha disponíveis, será favor.</p>
                 
                 <p>Seu ofício de 4 do corrente me veio às mãos anteontem.</p>
                 

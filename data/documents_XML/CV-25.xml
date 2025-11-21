@@ -43,11 +43,11 @@
         <body>
             <div type="letter" xml:id="CV-25">
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
-                    Incumbido por V.Ex.ª a interpor meu parecer acerca das contas apresentadas pelo
+                    Incumbido por <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> a interpor meu parecer acerca das contas apresentadas pelo
                     cidadão <persName ref="#domingos_almeida">Domingos José de Almeida</persName>,
                     outrora Quartel-mestre-general e Ministro da Fazenda, suposto elas me mereçam todo o crédito;
                     contudo em cumprimento de meu dever, me não posso conformar, atenta a falta de solenidade
@@ -84,13 +84,13 @@
                 </p>
                 
                 <p>
-                    Deus guarde a V.Ex.ª. Cidade de Piratini,
+                    Deus guarde a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>. Cidade de Piratini,
                     <date when="1837-11-20">20 de novembro de 1837</date>.
                 </p>
                 
                 <closer>
                     <p>
-                        Ilmo. e Exmo. Sr.
+                        Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
                         <persName ref="#afonso_corte_real">Afonso José de Almeida Corte Real</persName>,
                         Ministro e Secretário dos Negócios da Fazenda.
                     </p>

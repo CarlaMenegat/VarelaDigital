@@ -47,13 +47,13 @@
             <div type="circular" xml:id="CV-372">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Com o decreto de hoje, e com a permissão para os comandantes parciais de polícia e juízes de paz darem passaportes a quem tenha de transitar nos distritos, fora do município de sua residência e fora do Estado, como do decreto de 12 de dezembro próximo passado, ficam satisfeitas as dúvidas por V.Sª. apresentadas em seu ofício de 12 do corrente, ontem recebido.</p>
+                <p>Com o decreto de hoje, e com a permissão para os comandantes parciais de polícia e juízes de paz darem passaportes a quem tenha de transitar nos distritos, fora do município de sua residência e fora do Estado, como do decreto de 12 de dezembro próximo passado, ficam satisfeitas as dúvidas por <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> apresentadas em seu ofício de 12 do corrente, ontem recebido.</p>
                 
                 <closer>
-                    <p>Deus guarde a V.Sª.</p>
+                    <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice></p>
                     <signed>Secretaria da Fazenda em <placeName ref="#cacapava">Caçapava</placeName>, 18 de março de 1840.<br/>
                         (a) <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>.</signed>
                 </closer>

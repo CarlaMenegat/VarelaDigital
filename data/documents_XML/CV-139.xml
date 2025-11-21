@@ -48,20 +48,20 @@
             <div type="circular" xml:id="CV-139">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>O governo de novo reitera a V. S.ª a pontual execução
+                <p>O governo de novo reitera a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> a pontual execução
                     do decreto de 22 do próximo passado mês, que lhe foi
                     dirigido em circular da mesma data, e lhe recomenda que
                     ordene mui positivamente aos comandantes de polícia de
                     seu departamento jamais consintam que indivíduo algum,
                     qualquer que seja, transite nele sem que esteja munido do
                     competente passaporte, debaixo da mais severa
-                    responsabilidade, o que V. S.ª assim fará cumprir.</p>
+                    responsabilidade, o que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> assim fará cumprir.</p>
                 
                 <closer>
-                    <p>Deus guarde a V. S.ª.</p>
+                    <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                     <dateline>
                         <placeName ref="#cacapava">Caçapava</placeName>,
                         <date when="1840-03-06">6 de março de 1840</date>

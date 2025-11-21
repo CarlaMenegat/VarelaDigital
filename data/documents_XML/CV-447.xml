@@ -47,19 +47,19 @@
                 
                 <opener>
                     <dateline><placeName ref="#piratini">Piratini</placeName>, 6 de fevereiro de 1841.</dateline>
-                    <salute>Meu honrado coronel amigo e Sr.</salute>
+                    <salute>Meu honrado coronel amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>O Sr. <persName ref="#joao_delapierre">João Delapierre</persName> tem acompanhado os republicanos desde que estes se declararam em nação independente; há prestado serviços, e por isso já sofreu rigorosa prisão. Agora mesmo acabo de tratar com ele negócio de importância para vestir o <orgName ref="#exercito_republicano">exército</orgName>; e sendo-lhe indispensável para o verificar que seja auxiliado na tirada do gado de corte do falecido <persName ref="#francisco_jose_carvalho">Francisco José de Carvalho</persName>, eu me empenho com V. S.ª para o mandar proteger na fatura das tropas, ordenando assim o pratiquem os Comandantes de Polícia dos Distritos onde tem de apartar dito gado. A pressa nada mais me permite.</p>
+                <p>O <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_delapierre">João Delapierre</persName> tem acompanhado os republicanos desde que estes se declararam em nação independente; há prestado serviços, e por isso já sofreu rigorosa prisão. Agora mesmo acabo de tratar com ele negócio de importância para vestir o <orgName ref="#exercito_republicano">exército</orgName>; e sendo-lhe indispensável para o verificar que seja auxiliado na tirada do gado de corte do falecido <persName ref="#francisco_jose_carvalho">Francisco José de Carvalho</persName>, eu me empenho com <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> para o mandar proteger na fatura das tropas, ordenando assim o pratiquem os Comandantes de Polícia dos Distritos onde tem de apartar dito gado. A pressa nada mais me permite.</p>
                 
                 <closer>
-                    <p>De V. S.ª.</p>
+                    <p>De <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                     <p>Antigo camarada e amigo muito obrigado.</p>
                     <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
                 </closer>
                 
                 <address>
-                    <addrLine>Ilmo. Sr. <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>.</addrLine>
+                    <addrLine>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>.</addrLine>
                     <addrLine>Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</addrLine>
                     <addrLine>Onde se ache.</addrLine>
                     <addrLine>De seu amigo <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</addrLine>

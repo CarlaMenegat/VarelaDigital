@@ -45,14 +45,14 @@
             <div xml:id="CV-401" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Para pagamento de porção de fazendas que se acham no 
                     <placeName ref="#salto">Salto</placeName>, por pedido do Exmo. General 
                     <persName ref="#bento_manuel_ribeiro">Bento Manuel Ribeiro</persName>, para vestuário do 
-                    <orgName ref="#exercito">exército</orgName>, S. Ex.ª o Sr. Vice-presidente da 
-                    <orgName ref="#republica_farroupilha">República</orgName> pede a V. S.ª ocorra por empréstimo com 
+                    <orgName ref="#exercito">exército</orgName>, <choice><abbr>S. Ex.ª</abbr><expan>Sua Excelência</expan></choice> o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Vice-presidente da 
+                    <orgName ref="#republica_farroupilha">República</orgName> pede a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> ocorra por empréstimo com 
                     cento e cinquenta novilhos e touros de invernar que poderá mandar entregar ao 
                     Major <persName ref="#simao_francisco_pereira">Simão Francisco Pereira</persName> quando pelo mesmo 
                     forem procurados e a quem pelo portador da presente se servirá contestar o que 
@@ -61,12 +61,12 @@
                 <p>A importância dos referidos novilhos e touros lhe será entregue com preferência 
                     por qualquer das <orgName ref="#coletorias_estado">Coletorias do Estado</orgName> que melhor lhe convenha, 
                     e à vista do recibo que deverá exigir da pessoa pelo dito major autorizada para tal 
-                    recebimento. S. Ex.? confia que V. S.2 não hesitará na entrega dos novilhos e touros 
+                    recebimento. <choice><abbr>S. Ex.</abbr><expan>Sua Excelência</expan></choice>? confia que <choice><abbr>V. S.</abbr><expan>Vossa Senhoria</expan></choice>2 não hesitará na entrega dos novilhos e touros 
                     citados, certo de que nisso presta serviço relevante, e dá inequívoca prova do seu 
                     patriotismo.</p>
                 
                 <closer>
-                    <p>Deus guarde a V. S.ª.</p>
+                    <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                 </closer>
                 
                 <p><orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName> em 
@@ -74,7 +74,7 @@
                 
                 <signed>Assinado <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</signed>
                 
-                <p>Ilmo. Sr. Tenente <persName ref="#gaspar_nunes">Gaspar Nunes</persName>.</p>
+                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Tenente <persName ref="#gaspar_nunes">Gaspar Nunes</persName>.</p>
                 
                 <note type="endorsement">[Cópia]</note>
                 

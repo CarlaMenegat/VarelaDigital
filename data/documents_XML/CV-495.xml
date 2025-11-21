@@ -46,17 +46,17 @@
             <div xml:id="CV-495" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr. <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName></salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName></salute>
                     <dateline><placeName ref="#bage">Bagé</placeName>, 4 de setembro de 1841.</dateline>
                 </opener>
                 
-                <p>Prezado amigo e Sr.</p>
+                <p>Prezado amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></p>
                 
-                <p>Pelo Sr. <persName ref="#albino_jose_ferreira">Albino José Ferreira</persName> recebi sua estimada de 26 do passado e termo de conciliação com ele feita em meu nome nesse mesmo dia, pelo que lhe estou sumamente agradecido.</p>
+                <p>Pelo <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#albino_jose_ferreira">Albino José Ferreira</persName> recebi sua estimada de 26 do passado e termo de conciliação com ele feita em meu nome nesse mesmo dia, pelo que lhe estou sumamente agradecido.</p>
                 
-                <p>Como o dito Sr. <persName ref="#albino_jose_ferreira">Albino</persName> nesta conciliação desmentisse o que havia dito naquela que teve com <persName ref="#benito_agostinho_grania">Benito Agostinho Graña</persName>, a 24 de julho último, e me passasse clareza da quantia de Rs. 1:098$850, que por ele mandei dar ao dito <persName ref="#benito_agostinho_grania">Grania</persName> em <placeName ref="#montevideo">Montevidéu</placeName>, haja V.S.ª de suspender todo e qualquer procedimento judicial que contra ele tenha tentado em virtude das minhas anteriores; e me diga qual a despesa feita para lhe mandar satisfazer.</p>
+                <p>Como o dito <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#albino_jose_ferreira">Albino</persName> nesta conciliação desmentisse o que havia dito naquela que teve com <persName ref="#benito_agostinho_grania">Benito Agostinho Graña</persName>, a 24 de julho último, e me passasse clareza da quantia de Rs. 1:098$850, que por ele mandei dar ao dito <persName ref="#benito_agostinho_grania">Grania</persName> em <placeName ref="#montevideo">Montevidéu</placeName>, haja <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> de suspender todo e qualquer procedimento judicial que contra ele tenha tentado em virtude das minhas anteriores; e me diga qual a despesa feita para lhe mandar satisfazer.</p>
                 
-                <p>Meus respeitos à Sra. e V.S.ª disponha do</p>
+                <p>Meus respeitos à <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> e <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> disponha do</p>
                 
                 <closer>
                     <p>Seu muito afetuoso e obrigado amigo</p>

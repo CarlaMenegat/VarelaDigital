@@ -105,14 +105,14 @@
             <div type="letter" xml:id="CV-152">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Havendo obtido escusas do serviço da 1.º Linha, por terem preenchido seu tempo de engajamento as praças seguintes do 2.º Corpo de Cavalaria <persName ref="#jose_coutinho_almeida">José Coutinho de Almeida</persName>, <persName ref="#jeremias_jose_pinho">Jeremias José Pinho</persName>, <persName ref="#antonio_soares_oliveira">Antônio Soares de Oliveira</persName>, <persName ref="#francisco_quevedo">Francisco de Quevedo</persName>, <persName ref="#francisco_rodrigues_morais">Francisco Rodrigues de Morais</persName>, <persName ref="#joao_antonio_granada">João Antônio Granada</persName>, <persName ref="#daniel_jose_araujo">Daniel José de Araújo</persName> e <persName ref="#jose_bernardino_oliveira">José Bernardino de Oliveira</persName>; e como todos vão residir nesse departamento, sirva-se V. S.ª, de ordem do <persName ref="#bento_goncalves">Sr. General-em-chefe do Exército</persName>, considerá-los como Guardas Nacionais desse Corpo, fazendo-os reunir como tais às fileiras quando for necessário.</p>
+                <p>Havendo obtido escusas do serviço da 1.º Linha, por terem preenchido seu tempo de engajamento as praças seguintes do 2.º Corpo de Cavalaria <persName ref="#jose_coutinho_almeida">José Coutinho de Almeida</persName>, <persName ref="#jeremias_jose_pinho">Jeremias José Pinho</persName>, <persName ref="#antonio_soares_oliveira">Antônio Soares de Oliveira</persName>, <persName ref="#francisco_quevedo">Francisco de Quevedo</persName>, <persName ref="#francisco_rodrigues_morais">Francisco Rodrigues de Morais</persName>, <persName ref="#joao_antonio_granada">João Antônio Granada</persName>, <persName ref="#daniel_jose_araujo">Daniel José de Araújo</persName> e <persName ref="#jose_bernardino_oliveira">José Bernardino de Oliveira</persName>; e como todos vão residir nesse departamento, sirva-se <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>, de ordem do <persName ref="#bento_goncalves"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General-em-chefe do Exército</persName>, considerá-los como Guardas Nacionais desse Corpo, fazendo-os reunir como tais às fileiras quando for necessário.</p>
                 
-                <p>Deus guarde a V. S.ª. Quartel-general em <placeName ref="#bage">Bagé</placeName>, <date when="1841-10-04">4 de outubro 1841</date>.</p>
+                <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>. Quartel-general em <placeName ref="#bage">Bagé</placeName>, <date when="1841-10-04">4 de outubro 1841</date>.</p>
                 
-                <p>Ilmo. Sr. <persName ref="#inacio_guimaraes">Comandante Geral de Polícia</persName> do <placeName ref="#sao_lourenco">Departamento do Boqueirão</placeName>.</p>
+                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Comandante Geral de Polícia</persName> do <placeName ref="#sao_lourenco">Departamento do Boqueirão</placeName>.</p>
                 
                 <closer>
                     <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>

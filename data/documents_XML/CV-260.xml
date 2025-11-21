@@ -54,12 +54,12 @@
                 </dateline>
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
                     Acuso a recepção de seu ofício de 17 do corrente mês, e de seu
-                    conteúdo fico inteirado. Caso V.S.ª se demore por esse ponto, e
+                    conteúdo fico inteirado. Caso <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> se demore por esse ponto, e
                     possa dispensar os couros de munício, pode mandá-los entregar ao
                     Capitão <persName ref="#joaquim_pereira_fagundes">Joaquim Pereira Fagundes</persName>,
                     Chefe Geral da Polícia desse Departamento, a fim de ocorrerem ao
@@ -67,7 +67,7 @@
                 </p>
                 
                 <closer>
-                    <salute>Deus guarde a V.S.ª.</salute>
+                    <salute>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
                     <signed>
                         <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     </signed>

@@ -49,7 +49,7 @@
             <div type="carta" xml:id="CV-274">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                     <dateline>
                         <placeName ref="#piratini">Piratini</placeName>,
                         <date when="1838-12-12">12 de dezembro de 1838</date>.
@@ -59,7 +59,7 @@
                 <p>
                     Pelo Tribunal do Tesouro, como hoje se há determinado por esta
                     Repartição, se expedirão as ordens para que o Coletor de Bagé
-                    aceite todos os saques por V.Sª. contra ele feitos para pagamento
+                    aceite todos os saques por <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> contra ele feitos para pagamento
                     dos cavalos cuja compra se lhe há encarregado; e quanto ao gado
                     para a troca de cavalos nessa espécie determinada, podem ser tirados
                     da <placeName ref="#fazenda_musica">Fazenda da Música</placeName>,
@@ -70,7 +70,7 @@
                 </p>
                 
                 <closer>
-                    <salute>Deus guarde a V.Sª.</salute>
+                    <salute>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice></salute>
                     <signed>
                         <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     </signed>

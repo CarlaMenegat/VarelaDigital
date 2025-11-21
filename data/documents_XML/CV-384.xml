@@ -32,12 +32,12 @@
             <div xml:id="CV-384" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Fico de posse do ofício que V. Ex.ª hoje me endereçou cujo conteúdo passo a levar ao conhecimento do Exmo. Sr. Presidente, que chegou há poucos momentos a esta cidade, a fim de que o mesmo Sr. dê a demissão que V. Ex.ª pede, para então se poder providenciar sobre o que V. Ex.ª exigiu ontem.</p>
+                <p>Fico de posse do ofício que <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> hoje me endereçou cujo conteúdo passo a levar ao conhecimento do Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente, que chegou há poucos momentos a esta cidade, a fim de que o mesmo <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> dê a demissão que <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> pede, para então se poder providenciar sobre o que <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> exigiu ontem.</p>
                 
-                <p><closer>Deus guarde a V. Ex.ª.</closer></p>
+                <p><closer>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.</closer></p>
                 <closer>
                     <placeName ref="#piratini">Piratini</placeName>, 
                     <date when="1837-09-24">24 de setembro de 1837</date>.<br/>

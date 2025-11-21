@@ -40,16 +40,16 @@
             <div type="letter" xml:id="CV-48">
                 
                 <opener>
-                    <salute>Ilmo. Exmo. Sr.</salute>
+                    <salute>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Participo-lhe que esta noite chegou-me o bombeiro que tinha mandado à <placeName ref="#boa_vista">Boa Vista</placeName> e diz que <persName ref="#bento_manuel">Bento Manuel</persName> está no <placeName ref="#triunfo">Triunfo</placeName> à espera do resto da gente porque teve ordem do presidente da pilhagem para se retirar com a força e todas as polícias a <placeName ref="#piratini">Piratini</placeName>, diz que por causa de uma grande força legal que desce de <placeName ref="#cima_serra">Cima da Serra</placeName>; dizem mais que as canhoneiras já tiveram muito fogo; o <persName ref="#estevao">Estevão</persName> oferece-se para administrar o forte e comandar a peça; e se V. Ex.ª convier nisto pode encarregá-lo de trazer a peça e os carpinteiros e tábuas para o forte.</p>
+                <p>Participo-lhe que esta noite chegou-me o bombeiro que tinha mandado à <placeName ref="#boa_vista">Boa Vista</placeName> e diz que <persName ref="#bento_manuel">Bento Manuel</persName> está no <placeName ref="#triunfo">Triunfo</placeName> à espera do resto da gente porque teve ordem do presidente da pilhagem para se retirar com a força e todas as polícias a <placeName ref="#piratini">Piratini</placeName>, diz que por causa de uma grande força legal que desce de <placeName ref="#cima_serra">Cima da Serra</placeName>; dizem mais que as canhoneiras já tiveram muito fogo; o <persName ref="#estevao">Estevão</persName> oferece-se para administrar o forte e comandar a peça; e se <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> convier nisto pode encarregá-lo de trazer a peça e os carpinteiros e tábuas para o forte.</p>
                 
-                <p>Deus guarde a V. Ex.ª por muitos anos.</p>
+                <p>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> por muitos anos.</p>
                 
                 <closer>
                     <dateline><placeName ref="#picada">Acampamento da Picada</placeName>, <date when="1838-11-14">14 de novembro de 1838</date>.</dateline>
-                    <signed>Ilmo. Exmo. Sr. <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/>
+                    <signed>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/>
                         <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.<br/>
                         Major Comandante do Destacamento da Picada.</signed>
                 </closer>

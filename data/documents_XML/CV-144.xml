@@ -111,30 +111,73 @@
         <body>
             <div type="letter" xml:id="CV-144">
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>O governo viu o ofício que V. Sª. dirigiu ao <persName ref="#felix_aires">Capitão Félix Aires</persName>, e por notícias verbais consta que V. S.ª, a esta hora, está no <placeName ref="#jacu">Jacu</placeName>. Muito convém pois que V. S.ª faça todo o empenho, uma vez que por fortuna há tomado essa direção, de fazer junção com o <persName ref="#joaquim_pedro">Coronel Joaquim Pedro</persName>, adiantando-lhe um próprio, pois se conseguir essa operação, ela será suficiente para malograr o plano do inimigo, mas para esse efeito não deve V. S.ª trepidar um momento, porque é factível que o inimigo tenha alguns dias de demora na capital.</p>
+                <p>O governo viu o ofício que 
+                    <choice>
+                        <abbr>V. S.ª</abbr>
+                        <expan>Vossa Senhoria</expan>
+                    </choice> 
+                    dirigiu ao <persName ref="#felix_aires">Capitão Félix Aires</persName>, e por notícias verbais consta que 
+                    <choice>
+                        <abbr>V. S.ª</abbr>
+                        <expan>Vossa Senhoria</expan>
+                    </choice>, 
+                    a esta hora, está no <placeName ref="#jacu">Jacu</placeName>. Muito convém pois que 
+                    <choice>
+                        <abbr>V. S.ª</abbr>
+                        <expan>Vossa Senhoria</expan>
+                    </choice> 
+                    faça todo o empenho, uma vez que por fortuna há tomado essa direção, de fazer junção com o <persName ref="#joaquim_pedro">Coronel Joaquim Pedro</persName>, adiantando-lhe um próprio, pois se conseguir essa operação, ela será suficiente para malograr o plano do inimigo, mas para esse efeito não deve 
+                    <choice>
+                        <abbr>V. S.ª</abbr>
+                        <expan>Vossa Senhoria</expan>
+                    </choice> 
+                    trepidar um momento, porque é factível que o inimigo tenha alguns dias de demora na capital.
+                </p>
                 
-                <p>Faço seguir o <persName ref="#manuel_antonio">Tenente Manuel Antônio</persName> com a gente que aqui há disponível. O <persName ref="#laurindo">Capitão Laurindo</persName> deverá estar no <placeName ref="#jacu">Jacu</placeName>, o <persName ref="#felix_aires">Capitão Félix</persName> em <placeName ref="#joao_machado">João Machado</placeName>, e o <persName ref="#reinecio">Tenente Reinécio</persName> seguirá com o <persName ref="#manuel_antonio">Tenente Manuel Antônio</persName>. V. S.ª preste somente sua atenção sobre o inimigo, o qual unicamente lhe deve merecer suas solicitudes.</p>
+                <p>Faço seguir o <persName ref="#manuel_antonio">Tenente Manuel Antônio</persName> com a gente que aqui há disponível. O <persName ref="#laurindo">Capitão Laurindo</persName> deverá estar no <placeName ref="#jacu">Jacu</placeName>, o <persName ref="#felix_aires">Capitão Félix</persName> em <placeName ref="#joao_machado">João Machado</placeName>, e o <persName ref="#reinecio">Tenente Reinécio</persName> seguirá com o <persName ref="#manuel_antonio">Tenente Manuel Antônio</persName>. 
+                    <choice>
+                        <abbr>V. S.ª</abbr>
+                        <expan>Vossa Senhoria</expan>
+                    </choice> 
+                    preste somente sua atenção sobre o inimigo, o qual unicamente lhe deve merecer suas solicitudes.
+                </p>
                 
-                <p>Deus guarde a V. S.ª, <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName> em <placeName ref="#vacacai">Vacacaí</placeName>, <date when="1840-03-23">23 de março 1840</date>.</p>
+                <p>Deus guarde a 
+                    <choice>
+                        <abbr>V. S.ª</abbr>
+                        <expan>Vossa Senhoria</expan>
+                    </choice>, 
+                    <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName> em 
+                    <placeName ref="#vacacai">Vacacaí</placeName>, 
+                    <date when="1840-03-23">23 de março 1840</date>.
+                </p>
                 
                 <closer>
                     <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
                 <note type="endorsement">
-                    Ilmo. Sr. <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>.  
-                    (a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>.  
+                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>.<br/>
+                    (a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>.<br/>
+                    
                     <note type="endorsement">
                         <choice>
                             <abbr>S. da R.</abbr>
-                            <expan><orgName ref="#secretaria_republica">Secretaria da República</orgName></expan>
+                            <expan>
+                                <orgName ref="#secretaria_presidencia_republica">
+                                    Secretaria da Presidência da República
+                                </orgName>
+                            </expan>
                         </choice>
-                    </note> <note type="source">[No verso]</note> 
-                    Ao cidadão <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>, 
-                    Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>. Onde se achar.  
+                    </note>
+                    
+                    <note type="source">[No verso]</note><br/>
+                    
+                    Ao cidadão <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>,
+                    Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>. Onde se achar.<br/>
                     Do <orgName ref="#ministerio_guerra">Ministério da Guerra</orgName>.
                 </note>
             </div>

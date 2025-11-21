@@ -48,7 +48,7 @@
             <div xml:id="CV-430" type="letter">
                 
                 <opener>
-                    <salute>Exmo. Sr. Matos</salute>
+                    <salute>Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Matos</salute>
                 </opener>
                 
                 <p>Enquanto está com a mão na massa: tome mais estes papéis para seu tabaco.</p>
@@ -67,14 +67,14 @@
                 <note type="endorsement">Deve ser de dezembro de 1840. Vide retro.</note>
                 
                 <opener>
-                    <salute>Sr.</salute>
+                    <salute><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Deve-se responder ao Sr. Pereira que não tem lugar sua pretensão, e menos pela maneira com que a exige; remeta-lhe cópia do ofício de <persName ref="#belo_neto">Belo Neto</persName>, e diga-lhe que o mulato Benedito é por mim e por todos quantos vieram de <placeName ref="#cacapava">Caçapava</placeName> conhecido por escravo único da velha Luísa, de cuja subsistência trata; que é sabido que daquela vila saiu alugado ao irmão do estrangeiro Grafia; que finalmente o governo entendeu dever mandá-los soltar, que nisso exerceu uma de suas atribuições, sem que compita a S. S.ª a fiscalização de seus atos e menos o querer pó-lo em coação e inibido de soltar um qualquer indivíduo só porque fora preso por S. S.ª; e finalmente que se o governo praticou uma injustiça, ou fez um dano à pátria com essas solturas, ele é por isso responsável e jamais S. S.ª a quem a opinião pública tecerá os devidos encômios pelo seu zelo etc., etc...</p>
+                <p>Deve-se responder ao <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Pereira que não tem lugar sua pretensão, e menos pela maneira com que a exige; remeta-lhe cópia do ofício de <persName ref="#belo_neto">Belo Neto</persName>, e diga-lhe que o mulato Benedito é por mim e por todos quantos vieram de <placeName ref="#cacapava">Caçapava</placeName> conhecido por escravo único da velha Luísa, de cuja subsistência trata; que é sabido que daquela vila saiu alugado ao irmão do estrangeiro Grafia; que finalmente o governo entendeu dever mandá-los soltar, que nisso exerceu uma de suas atribuições, sem que compita a <choice><abbr>S. S.ª</abbr><expan>Sua Senhoria</expan></choice> a fiscalização de seus atos e menos o querer pó-lo em coação e inibido de soltar um qualquer indivíduo só porque fora preso por <choice><abbr>S. S.ª</abbr><expan>Sua Senhoria</expan></choice>; e finalmente que se o governo praticou uma injustiça, ou fez um dano à pátria com essas solturas, ele é por isso responsável e jamais <choice><abbr>S. S.ª</abbr><expan>Sua Senhoria</expan></choice> a quem a opinião pública tecerá os devidos encômios pelo seu zelo etc., etc...</p>
                 
                 <p>Mas que essa mesma opinião pública jamais lhe tecerá elogios pelo passo que acaba de dar de demitir-se só porque não marchara o governo de conformidade com os seus desejos, embora seguisse o que a razão, a justiça e a humanidade reclamavam.</p>
                 
-                <p>Se o Major Belo iludiu o governo e lhe mentiu, o governo não o podia esperar de sua pessoa; e nem S. S.ª se anima a afirmá-lo.</p>
+                <p>Se o Major Belo iludiu o governo e lhe mentiu, o governo não o podia esperar de sua pessoa; e nem <choice><abbr>S. S.ª</abbr><expan>Sua Senhoria</expan></choice> se anima a afirmá-lo.</p>
                 
                 <p>Que o governo não quer testas-de-ferro, quer como ele bons e zelosos servidores que cumpram suas ordens e as respeitem sem quererem fazer do governo um espantalho ou testa-de-ferro sem ação ou vontade própria.</p>
                 
@@ -86,7 +86,7 @@
                     <signed>Seu amigo<br/>(a) <persName ref="#jose_mariano_matos">Matos</persName>.</signed>
                 </closer>
                 
-                <note type="endorsement">Exmo. Sr. Matos. Sua casa.</note>
+                <note type="endorsement">Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Matos. Sua casa.</note>
                 
             </div>
         </body>

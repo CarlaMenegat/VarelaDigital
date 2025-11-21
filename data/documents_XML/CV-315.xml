@@ -63,15 +63,15 @@
             <div type="letter" xml:id="CV-315">
                 
                 <opener>
-                    <salute>Ilmo. Sr. Coronel <persName ref="#joao_jose_damasceno">João José Damasceno</persName></salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_jose_damasceno">João José Damasceno</persName></salute>
                     <dateline><placeName ref="#cacapava">Caçapava</placeName>, <date when="1839-07-02">2 de julho de 1839</date></dateline>
-                    <salute>Amigo e Sr.</salute>
+                    <salute>Amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Rogo-lhe o favor de dar ao Sr. <persName ref="#antonio_agostinho_nascimento">Antônio Agostinho do Nascimento</persName>, ou à sua ordem, três onças de ouro, valor na mesma espécie recebido nesta do dito Sr.. De nada mais servindo a presente sou</p>
+                <p>Rogo-lhe o favor de dar ao <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#antonio_agostinho_nascimento">Antônio Agostinho do Nascimento</persName>, ou à sua ordem, três onças de ouro, valor na mesma espécie recebido nesta do dito <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>. De nada mais servindo a presente sou</p>
                 
                 <closer>
-                    <salute>De V.Sª. amigo venerador e criado</salute>
+                    <salute>De <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> amigo venerador e criado</salute>
                     <signed>Domingos José de Almeida</signed>
                 </closer>
             </div>
@@ -79,7 +79,7 @@
             
             <!-- ADITAMENTO -->
             <div type="addendum" xml:id="CV-315-add">
-                <p>N.B. Estamos a 23, e há pouco recebi aviso de se ter pago em <placeName ref="#bage">Bagé</placeName> a <persName ref="#joao_tomas_farinha">João Tomás Farinha</persName> os cem mil réis que por V.Sª. também mandei dar; por consequência não tem V.Sª. de dar-lhe coisa alguma mais.</p>
+                <p>N.B. Estamos a 23, e há pouco recebi aviso de se ter pago em <placeName ref="#bage">Bagé</placeName> a <persName ref="#joao_tomas_farinha">João Tomás Farinha</persName> os cem mil réis que por <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> também mandei dar; por consequência não tem <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> de dar-lhe coisa alguma mais.</p>
                 
                 <dateline><placeName ref="#cacapava">Caçapava</placeName>, <date when="1839-07-23">23 de julho de 1839</date></dateline>
                 
@@ -93,7 +93,7 @@
             <!-- RECIBO -->
             <div type="receipt" xml:id="CV-315-recibo">
                 
-                <p>Recebi por mão do Exmo. Sr. Ministro da Fazenda <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName> a quantia acima mencionada de três onças de ouro pertencente ao cidadão <persName ref="#antonio_agostinho_nascimento">Antônio Agostinho do Nascimento</persName>. E para clareza passo o presente que assino.</p>
+                <p>Recebi por mão do Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Ministro da Fazenda <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName> a quantia acima mencionada de três onças de ouro pertencente ao cidadão <persName ref="#antonio_agostinho_nascimento">Antônio Agostinho do Nascimento</persName>. E para clareza passo o presente que assino.</p>
                 
                 <closer>
                     <signed>Vicente Ferrer de Almeida</signed>

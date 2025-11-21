@@ -56,11 +56,11 @@
                 </dateline>
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
-                    Manda o governo que V.S.ª por si e pelos seus delegados, passe com
+                    Manda o governo que <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> por si e pelos seus delegados, passe com
                     a presteza possível a formar uma relação exata e circunstanciada
                     de todos os assassínios propriamente ditos no departamento de
                     sua jurisdição perpetrados pelos partidários e agentes da legalidade
@@ -74,7 +74,7 @@
                 </p>
                 
                 <closer>
-                    <salute>Deus guarde a V.S.ª.</salute>
+                    <salute>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
                     <signed>
                         <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     </signed>

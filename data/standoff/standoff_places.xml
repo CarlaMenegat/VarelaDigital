@@ -3,90 +3,78 @@
     <listPlace>
         <place xml:id="rio-grande-do-sul">
             <placeName>Rio Grande do Sul</placeName>
-            <idno>https://www.geonames.org/3451133/rio-grande-do-sul.html</idno>
+            <idno type="geonames">https://www.geonames.org/3451133/rio-grande-do-sul.html</idno>
             <geo>-30.0346 -51.2177</geo>
             <note>Província mais ao sul do Brasil.</note>
         </place>
         <place xml:id="cachoeira">
             <placeName type="historical">Cachoeira</placeName>
             <placeName type="modern">Cachoeira do Sul</placeName>
-            <idno>https://www.geonames.org/3468436/cachoeira-do-sul.html</idno>
-            <location>
-                <geo>-29.9456 -52.9234</geo>
-            </location>
+            <idno type="geonames">https://www.geonames.org/3468436/cachoeira-do-sul.html</idno>
+            <geo>-29.9456 -52.9234</geo>
             <note>Cachoeira do Sul, Rio Grande do Sul, Brasil.</note>
         </place>
         
         <place xml:id="passo_fundo">
             <placeName>Passo Fundo</placeName>
-            <idno>https://www.geonames.org/3454857/passo-fundo.html</idno>
+            <idno type="geonames">https://www.geonames.org/3454857/passo-fundo.html</idno>
             <geo>-28.2620 -52.4067</geo>
             <note>Localizado no chamado Alto Uruguai, em referência ao Rio com mesmo nome, Rio Grande do Sul, Brasil.</note>
         </place>
         
         <place xml:id="lages">
             <placeName>Lages</placeName>
-            <idno>https://www.geonames.org/3458930/lages.html</idno>
+            <idno type="geonames">https://www.geonames.org/3458930/lages.html</idno>
             <geo>-27.8150 -50.3259</geo>
             <note>Localizado na Serra em Santa Catarina, Brasil.</note>
         </place>
         
         <place xml:id="rosario_do_sul">
             <placeName>Rosário do Sul</placeName>
-            <idno>https://www.geonames.org/3450873/rosario-do-sul.html</idno>
+            <idno type="geonames">https://www.geonames.org/3450873/rosario-do-sul.html</idno>
             <geo>-30.2580, -54.9120</geo>
             <note>Localizado na região sudoeste do Rio Grande do Sul, Brasil, próximo ao rio Santa Maria e à fronteira com o Uruguai. </note>
         </place>
         
         <place xml:id="vacaria">
             <placeName>Vacaria</placeName>
-            <idno>https://www.geonames.org/3445630/vacaria.html</idno>
+            <idno type="geonames">https://www.geonames.org/3445630/vacaria.html</idno>
             <geo>-28.5079 -50.9418</geo>
             <note>Localidade que tem o nome derivado da rota de gado vacuum para o centro do país. Localizado no nordeste do Rio Grande do Sul, Brasil.</note>
         </place>
 
         <place xml:id="buenos_aires">
             <placeName>Buenos Aires</placeName>
-            <idno>https://www.geonames.org/3435910/buenos-aires.html</idno>
-            <location>
-                <geo> -34.6037 -58.3816 </geo>
-            </location>
+            <idno type="geonames">https://www.geonames.org/3435910/buenos-aires.html</idno>
+            <geo> -34.6037 -58.3816 </geo>
             <note>Capital da Argentina.</note>
         </place>
 
         <place xml:id="rio_grande">
             <placeName>Rio Grande</placeName>
-            <idno>https://www.geonames.org/3451138/rio-grande.html</idno>
-            <location>
-                <geo> -32.0349 -52.1071 </geo>
-            </location>
+            <idno type="geonames">https://www.geonames.org/3451138/rio-grande.html</idno>
+            <geo> -32.0349 -52.1071 </geo>
             <note>Cidade portuária no sul do Rio Grande do Sul, Brasil.</note>
         </place>
 
         <place xml:id="jaguarao_chico">
             <placeName>Jaguarão Chico</placeName>
-            <idno>https://www.geonames.org/3460227/arroyo-yaguaron-chico.html</idno>
-            <location>
-                <geo>-32.5608 -53.3753</geo>
-            </location>
+            <idno type="geonames">https://www.geonames.org/3460227/arroyo-yaguaron-chico.html</idno>
+            <geo>-32.5608 -53.3753</geo>
             <note>Arroio tributário do Rio Jaguarão, no sul do Rio Grande do Sul, fronteira com o Uruguai.</note>
         </place>
         
         <place xml:id="jaguarao">
             <placeName>Jaguarão</placeName>
-            <idno>https://www.geonames.org/3460232/jaguarao.html</idno>
-            <location>
-                <geo>-32.5603 -53.3764</geo>
-            </location>
+            <idno type="geonames">https://www.geonames.org/3460232/jaguarao.html</idno>
+            <geo>-32.5603 -53.3764</geo>
             <note>Município fronteiriço no sul do Rio Grande do Sul, Brasil.</note>
         </place>
         
         <place xml:id="piratini">
             <placeName>Piratini</placeName>
-            <idno>https://www.geonames.org/3453524/piratini.html</idno>
-            <location>
-                <geo>-31.4474 -53.0963</geo>
-            </location>
+            <idno type="geonames">https://www.geonames.org/3453524/piratini.html</idno>
+            <geo>-31.4474 -53.0963</geo>
             <note>Primeira capital da República Rio-grandense durante a Revolução Farroupilha.</note>
         </place>
 
@@ -94,7 +82,7 @@
             <placeName type="historical">São Lourenço</placeName>
             <placeName type="historical">Boqueirão</placeName>
             <placeName type="modern">São Lourenço do Sul</placeName>
-            <idno>https://www.geonames.org/3448596/sao-lourenco-do-sul.html</idno>
+            <idno type="geonames">https://www.geonames.org/3448596/sao-lourenco-do-sul.html</idno>
             <location>
                 <geo>-31.3625 -51.9717</geo>
             </location>
@@ -105,7 +93,7 @@
             <placeName type="historical">Santiago do Boqueirão</placeName>
             <placeName type="historical">Boqueirão</placeName>
             <placeName type="modern">Santiago</placeName>
-            <idno>https://www.geonames.org/3449741/santiago.html</idno>
+            <idno type="geonames">https://www.geonames.org/3449741/santiago.html</idno>
             <location>
                 <geo>-29.1833 -54.8672</geo>
             </location>
@@ -114,14 +102,15 @@
         
         <place xml:id="sao_joao_batista">
             <placeName type="historical">São João Batista</placeName>
-            <idno>https://www.geonames.org/13029720/sao-joao-batista.html</idno>
+            <idno type="geonames">https://www.geonames.org/13029720/sao-joao-batista.html</idno>
+            <geo>-28.37188, -54.40057</geo>
             <note>Distrito. Corresponde à localidade de São João Batista na região das Missões no Rio Grande do Sul.</note>
         </place>
         
         <place xml:id="bage">
             <placeName xml:lang="pt-BR" type="attested">Bagé</placeName>
             <placeName xml:lang="es" type="variant">Bayes</placeName>
-            <idno>https://www.geonames.org/3471196/bage.html</idno>
+            <idno type="geonames">https://www.geonames.org/3471196/bage.html</idno>
             <location>
                 <geo>-31.3294 -54.1069</geo>
             </location>
@@ -129,10 +118,9 @@
         </place>
         
         
-        
         <place xml:id="pelotas">
             <placeName>Pelotas</placeName>
-            <idno>https://www.geonames.org/3454244/pelotas.html</idno>
+            <idno type="geonames">https://www.geonames.org/3454244/pelotas.html</idno>
             <location>
                 <geo>-31.7649 -52.3371</geo>
             </location>
@@ -142,7 +130,7 @@
         <place xml:id="erval">
             <placeName type="historical">Erval</placeName>
             <placeName type="modern">Herval</placeName>
-            <idno>https://www.geonames.org/3461679/herval.html</idno>
+            <idno type="geonames">https://www.geonames.org/3461679/herval.html</idno>
             <location>
                 <geo>-31.9903 -53.0827</geo>
             </location>
@@ -151,7 +139,7 @@
         
         <place xml:id="salso">
             <placeName>Salso</placeName>
-            <idno>https://www.geonames.org/13037099/sanga-do-salso.html</idno>
+            <idno type="geonames">https://www.geonames.org/13037099/sanga-do-salso.html</idno>
             <location>
                 <geo>-31.6949 -53.1414</geo>
             </location>
@@ -160,7 +148,7 @@
         
         <place xml:id="cristal">
             <placeName>Cristal</placeName>
-            <idno>https://www.geonames.org/6323411/cristal.html</idno>
+            <idno type="geonames">https://www.geonames.org/6323411/cristal.html</idno>
             <location>
                 <geo>-31.0044 -52.0444</geo>
             </location>
@@ -169,7 +157,7 @@
         
         <place xml:id="sao_gabriel">
             <placeName>São Gabriel</placeName>
-            <idno>https://www.geonames.org/3449099/sao-gabriel.html</idno>
+            <idno type="geonames">https://www.geonames.org/3449099/sao-gabriel.html</idno>
             <location>
                 <geo>-30.3336 -54.3211</geo>
             </location>
@@ -178,7 +166,7 @@
         
         <place xml:id="alegrete">
             <placeName>Alegrete</placeName>
-            <idno>https://www.geonames.org/3472638/alegrete.html</idno>
+            <idno type="geonames">https://www.geonames.org/3472638/alegrete.html</idno>
             <location>
                 <geo>-29.7901 -55.7942</geo>
             </location>
@@ -188,63 +176,63 @@
         <place xml:id="rio_de_janeiro">
             <placeName type="current" xml:lang="pt">Rio de Janeiro</placeName>
             <placeName type="popular" xml:lang="pt">Rio</placeName>
-            <idno>https://www.geonames.org/3451190/rio-de-janeiro.html</idno>
+            <idno type="geonames">https://www.geonames.org/3451190/rio-de-janeiro.html</idno>
             <geo>-22.9068, -43.1729</geo>
             <note>Capital do Império do Brasil.</note>
         </place>
         
         <place xml:id="sao_paulo">
             <placeName>São Paulo</placeName>
-            <idno>https://www.geonames.org/3448439/sao-paulo.html</idno>
+            <idno type="geonames">https://www.geonames.org/3448439/sao-paulo.html</idno>
             <geo>-23.5505, -46.6333</geo>
             <note>Capital da província de mesmo nome.</note>
         </place>
         
         <place xml:id="ilha_corvo">
             <placeName>Ilha do Corvo</placeName>
-            <idno>https://www.geonames.org/13545893/ilha-do-corvo.html</idno>
+            <idno type="geonames">https://www.geonames.org/13545893/ilha-do-corvo.html</idno>
             <geo precision="approximate">-30.0135, -51.2570</geo>
             <note>Ilha fluvial situada no delta do Rio Jacuí, entre Porto Alegre e Canoas.</note>
         </place>
         
         <place xml:id="triunfo">
             <placeName>Triunfo</placeName>
-            <idno>https://www.geonames.org/3446019/triunfo.html</idno>
+            <idno type="geonames">https://www.geonames.org/3446019/triunfo.html</idno>
             <geo>-29.9443, -51.7076</geo>
             <note>Vila do Rio Grande do Sul às margens do rio Jacuí.</note>
         </place>
         
         <place xml:id="lagoa_patos">
             <placeName>Lagoa dos Patos</placeName>
-            <idno>https://www.geonames.org/12070278/lagoa-dos-patos.html</idno>
+            <idno type="geonames">https://www.geonames.org/12070278/lagoa-dos-patos.html</idno>
             <geo>-31.5, -52.5</geo>
             <note>Grande lagoa do sul do Brasil.</note>
         </place>
         
         <place xml:id="rio_jacui">
             <placeName>Rio Jacuí</placeName>
-            <idno>https://www.geonames.org/3460298/rio-jacui.html</idno>
+            <idno type="geonames">https://www.geonames.org/3460298/rio-jacui.html</idno>
             <geo>-29.9000, -51.0500</geo>
             <note>Importante rio do Rio Grande do Sul.</note>
         </place>
         
         <place xml:id="ilha_da_paciencia">
             <placeName>Ilha da Paciência</placeName>
-            <idno type="geonames">3455623</idno>
+            <idno type="geonames">https://www.geonames.org/3455623/ilha-da-paciencia.html</idno>
             <geo precision="approximate">-29.93449, -51.63151</geo>
             <note>Ilha fluvial situada no delta do Rio Jacuí, Rio Grande do Sul.</note>
         </place>
         
         <place xml:id="porto_alegre">
             <placeName>Porto Alegre</placeName>
-            <idno>https://www.geonames.org/3452925/porto-alegre.html</idno>
+            <idno type="geonames">https://www.geonames.org/3452925/porto-alegre.html</idno>
             <geo>-30.0346, -51.2177</geo>
             <note>Capital da Província do Rio Grande do Sul.</note>
         </place>
         
         <place xml:id="inhanduí">
             <placeName>Inhanduí</placeName>
-            <idno>https://www.geonames.org/3461217/arroio-inhandui.html</idno>
+            <idno type="geonames">https://www.geonames.org/3461217/arroio-inhandui.html</idno>
             <geo>-29.5346, -55.95055</geo>
             <note>Rio.</note>
         </place>
@@ -252,28 +240,28 @@
         <place xml:id="santa_maria_da_boca_do_monte">
             <placeName type="historical">Santa Maria da Boca do Monte</placeName>
             <placeName type="modern">Santa Maria</placeName>
-            <idno>https://www.geonames.org/3450083/santa-maria.html</idno>
+            <idno type="geonames">https://www.geonames.org/3450083/santa-maria.html</idno>
             <geo>-29.6868, -53.8149</geo>
             <note>Denominação histórica da atual cidade de Santa Maria, no Rio Grande do Sul.</note>
         </place>
         
         <place xml:id="ibirapuita">
             <placeName>Ibirapuitã</placeName>
-            <idno>https://www.geonames.org/3461568/rio-ibirapuita.html</idno>
+            <idno type="geonames">https://www.geonames.org/3461568/rio-ibirapuita.html</idno>
             <geo>-29.36493, -55.95683</geo>
             <note>Rio que se junta ao Inhanduí, formando divisa natural.</note>
         </place>
         
         <place xml:id="inhanduí_rincao">
             <placeName>Rincão do Inhanduí</placeName>
-            <idno>https://www.geonames.org/3461218/inhandui.html</idno>
+            <idno type="geonames">https://www.geonames.org/3461218/inhandui.html</idno>
             <geo>-29.73333, -56.06667</geo>
             <note>Área rural próxima do Arroio Inhanduí.</note>
         </place>
         
         <place xml:id="pedras_altas">
             <placeName>Pedras Altas</placeName>
-            <idno>https://www.geonames.org/3454426/pedras-altas.html</idno>
+            <idno type="geonames">https://www.geonames.org/3454426/pedras-altas.html</idno>
             <geo>-31.7328, -53.5814</geo>
             <note>Localidade onde residiu Bernardina Barcelos de Almeida.</note>
         </place>
@@ -286,14 +274,14 @@
         
         <place xml:id="bom_retiro">
             <placeName>Bom Retiro</placeName>
-            <indo>https://www.geonames.org/3469391/bom-retiro-do-sul.html</indo>
+            <indo type="geonames">https://www.geonames.org/3469391/bom-retiro-do-sul.html</indo>
             <geo>29.60889, -51.94306</geo>
             <note>Localidade em torno da Propriedade de José Rodrigues Chaves.</note>
         </place>
         
         <place xml:id="rio_pardo">
             <placeName>Rio Pardo</placeName>
-            <idno>https://www.geonames.org/3451102/rio-pardo.html</idno>
+            <idno type="geonames">https://www.geonames.org/3451102/rio-pardo.html</idno>
             <geo>-30.0346, -52.3711</geo>
             <note>Cidade no centro do Rio Grande do Sul.</note>
         </place>
@@ -307,21 +295,21 @@
             <placeName type="historical">Estado Oriental</placeName>
             <placeName type="historical">Republica Oriental do Uruguai</placeName>
             <placeName type="modern">Uruguay</placeName>
-            <idno>https://www.geonames.org/3439705/oriental-republic-of-uruguay.html</idno>
+            <idno type="geonames">https://www.geonames.org/3439705/oriental-republic-of-uruguay.html</idno>
             <geo>-33, -56</geo>
             <note>País ao sul do Brasil.</note>
         </place>
         
         <place xml:id="arapey_chico">
             <placeName>Arapey Chico</placeName>
-            <idno>https://www.geonames.org/3443837/rio-arapey-chico.html</idno>
+            <idno type="geonames">https://www.geonames.org/3443837/rio-arapey-chico.html</idno>
             <geo precision="approximate">-31.0833, -56.0000</geo>
             <note>Afluente do rio Arapey, no departamento de Salto, Uruguai; local de celebração do contrato.</note>
         </place>
         
         <place xml:id="missoes">
             <placeName>Missões</placeName>
-            <idno>https://www.geonames.org/3448457/sao-miguel-das-missoes.html</idno>
+            <idno type="geonames">https://www.geonames.org/3448457/sao-miguel-das-missoes.html</idno>
             <geo precision="approximate">-28.56278, -54.55417</geo>
             <note>Região histórica das antigas reduções jesuíticas no Rio Grande do Sul.</note>
         </place>
@@ -333,7 +321,7 @@
         
         <place xml:id="dores">
             <placeName>Distrito das Dores</placeName>
-            <idno>https://www.geonames.org/maps/google_-29.6897_-53.7911.html</idno>
+            <idno type="geonames">https://www.geonames.org/maps/google_-29.6897_-53.7911.html</idno>
             <geo precision="approximate">-29.6897, -53.7911</geo>
             <note>Distrito de Santa Maria.</note>
         </place>
@@ -341,7 +329,7 @@
         <place xml:id="montevideu">
             <placeName xml:lang="es" type="attested">Montevideo</placeName>
             <placeName xml:lang="pt-BR" type="variant">Montevidéu</placeName>
-            <idno>https://www.geonames.org/3441575/montevideo.html</idno>
+            <idno type="geonames">https://www.geonames.org/3441575/montevideo.html</idno>
             <geo>--34.90328, -56.18816</geo>
             <note>Capital do Uruguai.</note>
         </place>
@@ -349,7 +337,7 @@
         <place xml:id="paysandu">
             <placeName xml:lang="pt-BR" type="variant">Paisandú</placeName>
             <placeName xml:lang="es" type="attested">Paysandú</placeName> 
-            <idno>https://www.geonames.org/3441243/paysandu.html</idno>
+            <idno type="geonames">https://www.geonames.org/3441243/paysandu.html</idno>
             <geo>-32.3214, -58.0756</geo>
             <note>Cidade do Estado Oriental (Uruguai), importante centro urbano e militar no período da Revolução Farroupilha.</note>
         </place>
@@ -357,21 +345,21 @@
         <place xml:id="cacapava">
             <placeName type="historical">Caçapava</placeName>
             <placeName type="modern">Caçapava do Sul</placeName>
-            <idno>https://www.geonames.org/3468560/cacapava-do-sul.html</idno>
+            <idno type="geonames">https://www.geonames.org/3468560/cacapava-do-sul.html</idno>
             <geo>-30.5144, -53.4827</geo>
             <note>Município de atuação militar e administrativa durante a Revolução Farroupilha.</note>
         </place>
         
         <place xml:id="sao_borja">
             <placeName>São Borja</placeName>
-            <idno></idno>
+            <idno type="geonames">https://www.geonames.org/3449340/sao-borja.html</idno>
             <geo>-28.66056, -56.00444</geo>
             <note>Um dos mais antigos municípios do Rio Grande do Sul.</note>
         </place>
         
         <place xml:id="sao_goncalo">
             <placeName>Canal do São Gonçalo</placeName>
-            <idno>https://www.geonames.org/3449069/canal-de-sao-goncalo.html</idno>
+            <idno type="geonames">https://www.geonames.org/3449069/canal-de-sao-goncalo.html</idno>
             <geo>-31.7800, -52.3500</geo>
             <note>Canal que liga a Lagoa dos Patos à Lagoa Mirim, situado em Pelotas, Rio Grande do Sul.</note>
         </place>
@@ -386,35 +374,35 @@
         
         <place xml:id="cerro_largo">
             <placeName>Cerro Largo</placeName>
-            <idno>https://www.geonames.org/3443173/departamento-de-cerro-largo.html</idno>
+            <idno type="geonames">https://www.geonames.org/3443173/departamento-de-cerro-largo.html</idno>
             <geo>-32.3333 -54.4167</geo> 
             <note>Departamento do Uruguai com grande presença de brasileiros.</note>
         </place>
         
         <place xml:id="durazno">
             <placeName>Durazno</placeName>
-            <idno>https://www.geonames.org/3442727/durazno.html</idno>
-            <geo>-33.3800, -56.5230</geo>
+            <idno type="geonames">https://www.geonames.org/3442727/durazno.html</idno>
+            <geo >-33.3800, -56.5230</geo>
             <note>Departamento uruguaio.</note>
         </place>
         
         <place xml:id="encruzilhada_do_sul">
             <placeName>Encruzilhada do Sul</placeName>
-            <idno>https://www.geonames.org/3464255/encruzilhada-do-sul.html</idno>
+            <idno type="geonames">https://www.geonames.org/3464255/encruzilhada-do-sul.html</idno>
             <geo>-30.5439 -52.5206</geo>
             <note>Município localizado na região centro-sul do Rio Grande do Sul, Brasil.</note>
         </place>
         
         <place xml:id="costa_quarai">
             <placeName>Costa de Quaraí</placeName>
-            <idno>https://www.geonames.org/3452179/quarai.html</idno>
+            <idno type="geonames">https://www.geonames.org/3452179/quarai.html</idno>
             <geo>-30.3875, -56.45139</geo>
             <note>Povoação às margens do Rio Quaraí, usada como ponto de entrega comercial e militar.</note>
         </place>
         
         <place xml:id="rio_uruguai">
             <placeName>Rio Uruguai</placeName>
-            <idno>https://www.geonames.org/3439704/uruguay-river.html</idno>
+            <idno type="geonames">https://www.geonames.org/3439704/uruguay-river.html</idno>
             <geo>--34.2, -58.3</geo>
             <note>Rio que delimita parte da fronteira do Rio Grande do Sul, importante via de navegação.</note>
         </place>
@@ -422,7 +410,7 @@
         <place xml:id="sao_fructuoso">
             <placeName type="historical">São Fructuoso</placeName>
             <placeName type="modern">Tacuarembó</placeName>
-            <idno>https://www.geonames.org/3440034/tacuarembo.html</idno>
+            <idno type="geonames">https://www.geonames.org/3440034/tacuarembo.html</idno>
             <geo>-31.7200, -55.9800</geo>
             <note>Nome histórico da atual cidade de Tacuarembó, capital do Departamento de Tacuarembó no Uruguai.</note>
         </place>
@@ -439,7 +427,7 @@
         
         <place xml:id="cruz_alta">
             <placeName>Cruz Alta</placeName>
-            <idno>https://www.geonames.org/3465108/cruz-alta.html</idno>
+            <idno type="geonames">https://www.geonames.org/3465108/cruz-alta.html</idno>
             <geo>-28.6450, -53.6048</geo>
             <note>Município rio-grandense onde se planejava estabelecer depósito de mulas.</note>
         </place>
@@ -447,27 +435,27 @@
         <place xml:id="jacuizinho">
             <placeName>Jacuizinho</placeName>
             <idno>https://www.geonames.org/6324129/jacuizinho.html</idno>
-            <geo>-29.03095, -53.06796</geo>
+            <geo type="geonames">-29.03095, -53.06796</geo>
             <note>Localidade próxima ao Rio Jacuizinho.</note>
         </place>
         
         <place xml:id="taquari">
             <placeName>Taquari</placeName>
             <idno>https://www.geonames.org/6323667/taquari.html</idno>
-            <geo>-29.7994, -51.8653</geo>
+            <geo type="geonames">-29.7994, -51.8653</geo>
             <note>Povoação no vale do rio de mesmo nome.</note>
         </place>
         
         <place xml:id="botucarai_serra">
             <placeName>Cerro de Botucaraí</placeName>
-            <idno>https://www.geonames.org/11979354/cerro-botucarai.html</idno>
+            <idno type="geonames">https://www.geonames.org/11979354/cerro-botucarai.html</idno>
             <geo>-29.70693, -52.83922</geo>
             <note>Cerro localizado no interior de Candelário, entre Sobradinho e Passa-Sete no Rio Grande do Sul.</note>
         </place>
         
         <place xml:id="botucarai">
             <placeName>Botucaraí</placeName>
-            <idno>https://www.geonames.org/3469139/botucarai.html</idno>
+            <idno type="geonames">https://www.geonames.org/3469139/botucarai.html</idno>
             <geo>-29.7125, -52.88972</geo>
             <note>Povoação no interior de candelária.</note>
         </place> <!--corrigir pq temos duas entradas iguais-->
@@ -480,7 +468,7 @@
         
         <place xml:id="sao_jose">
             <placeName>São José</placeName>
-            <idno>https://www.geonames.org/7575805/fazenda-sao-jose.html</idno>
+            <idno type="geonames">https://www.geonames.org/7575805/fazenda-sao-jose.html</idno>
             <geo>-30.6115, -52.4741</geo>
             <note>Distrito de Encruzilhada.</note>
         </place>
@@ -488,7 +476,7 @@
         <place xml:id="rio_cai">
             <placeName>Rio Caí</placeName>
             <idno>https://www.geonames.org/13025066/rio-cai.html</idno>
-            <geo>-29.8241, -51.3562</geo>
+            <geo type="geonames">-29.8241, -51.3562</geo>
             <note>Rio do Caí que desce da Serra do Rio Grande do Sul.</note>
         </place>
         
@@ -496,7 +484,7 @@
         <place xml:id="cai">
             <placeName type="historical">Caí</placeName>
             <placeName type="modern">São Sebastião do Caí</placeName>
-            <idno>https://www.geonames.org/3448227/sao-sebastiao-do-cai.html</idno>
+            <idno type="geonames">https://www.geonames.org/3448227/sao-sebastiao-do-cai.html</idno>
             <geo>-29.58667, -51.37556</geo>
             <note>Atual São Sebastião do Caí, referência geográfica no deslocamento militar.</note>
         </place>
@@ -504,7 +492,7 @@
         <place xml:id="aldeia_anjos">
             <placeName type="historical">Aldeia dos Anjos</placeName>
             <placeName type="Gravataí"></placeName>
-            <idno>https://www.geonames.org/3462089/gravatai.html</idno>
+            <idno type="geonames">https://www.geonames.org/3462089/gravatai.html</idno>
             <geo>-29.6868, -51.1328</geo>
             <note>Localizado próximo à Porto Alegre, nas margens do Rio Gravataí. Povoação começou com os indígenas trasnferidos das Missões após a Guerra Guaranítica.</note>
         </place>
@@ -512,49 +500,49 @@
         
         <place xml:id="arroio_ratos">
             <placeName>Arroio dos Ratos</placeName>
-            <idno>https://www.geonames.org/3471425/arroio-dos-ratos.html</idno>
+            <idno type="geonames">https://www.geonames.org/3471425/arroio-dos-ratos.html</idno>
             <geo>-30.0878, -51.7301</geo>
             <note>Município do Rio Grande do Sul, Brasil; corresponde ao topônimo citado na carta.</note>
         </place>
         
         <place xml:id="barra_camaqua">
             <placeName>Barra do Camaquã</placeName>
-            <idno>https://www.geonames.org/3463760/estrela.html</idno>
+            <idno type="geonames">https://www.geonames.org/3463760/estrela.html</idno>
             <geo>-31.25, -51.75</geo>
             <note>Localidade na foz do rio Camaquã, importante ponto de desembarque e circulação militar durante a Guerra Farroupilha.</note>
         </place>
         
         <place xml:id="rio_camaqua">
             <placeName>Rio de Camaquã</placeName>
-            <idno>https://www.geonames.org/3468012/rio-camaqua.html</idno>
+            <idno type="geonames">https://www.geonames.org/3468012/rio-camaqua.html</idno>
             <geo>--31.28803, -51.74449</geo>
             <note>Rio localizado no Rio Grande do Sul, cuja foz deságua na Lagoa dos Patos; coordenadas correspondem ao baixo curso do rio.</note>
         </place>
         
         <place xml:id="candiota">
             <placeName>Candiota</placeName>
-            <idno>https://www.geonames.org/3467538/candiota.html</idno>
+            <idno type="geonames">https://www.geonames.org/3467538/candiota.html</idno>
             <geo>-31.5514, -53.6773</geo>
             <note>Município localizado na região da Campanha, Rio Grande do Sul. No período farroupilha, a área era conhecida pelas estâncias, rincões e invernadas situadas no vale do arroio Candiota, entre Bagé e Piratini.</note>
         </place>
         
         <place xml:id="santa_maria">
             <placeName>Cabo de Santa Maria</placeName>
-            <idno>https://www.geonames.org/3440561/cabo-santa-maria.html</idno>
+            <idno type="geonames">https://www.geonames.org/3440561/cabo-santa-maria.html</idno>
             <geo>-34.6691, -54.15354</geo>
             <note>Localizado no departamento de Rocha no Uruguai.</note>
         </place>
         
         <place xml:id="maldonado">
             <placeName>Maldonado</placeName>
-            <idno>https://www.geonames.org/3441894/maldonado.html</idno>
+            <idno type="geonames">https://www.geonames.org/3441894/maldonado.html</idno>
             <geo>-34.9000, -54.9500</geo>
             <note>Cidade uruguaia (atual Departamento de Maldonado), onde parte dos valores relacionados à presa foi perdida.</note>
         </place>
         
         <place xml:id="laguna">
             <placeName>Laguna</placeName>
-            <idno>https://www.geonames.org/6323174/laguna.html</idno>
+            <idno type="geonames">https://www.geonames.org/6323174/laguna.html</idno>
             <geo>-28.4826, -48.7806</geo>
             <note>Cidade catarinense; destino de embarcações após a apreensão.</note>
         </place>
@@ -566,97 +554,97 @@
         
         <place xml:id="sao_martinho">
             <placeName>São Martinho</placeName>
-            <idno>https://www.geonames.org/6323632/sao-martinho.html</idno>
+            <idno type="geonames">https://www.geonames.org/6323632/sao-martinho.html</idno>
             <geo>-27.7101, -53.9691</geo>
             <note>Localidade no norte do Rio Grande do Sul.</note>
         </place>
         
         <place xml:id="pinhal">
             <placeName>Picada do Pinhal</placeName>
-            <idno>https://www.geonames.org/6317956/pinhal.html</idno>
+            <idno type="geonames">https://www.geonames.org/6317956/pinhal.html</idno>
             <note>Povoação localizada no norte do Rio Grande do Sul.</note>
         </place>
         
         <place xml:id="curitibanos">
             <placeName>Curitibanos</placeName>
-            <idno>https://www.geonames.org/3464974/curitibanos.html</idno>
+            <idno type="geonames">https://www.geonames.org/3464974/curitibanos.html</idno>
             <geo>-27.2829, -50.5827</geo>
             <note>Município no sul de Santa Catarina.</note>
         </place>
         
         <place xml:id="toropi">
             <placeName>Toropi</placeName>
-            <idno>https://www.geonames.org/3446313/toropi.html</idno>
+            <idno type="geonames">https://www.geonames.org/3446313/toropi.html</idno>
             <geo>-29.4711, -54.2244</geo>
             <note>Povoação no região central do Rio Grande do Sul.</note>
         </place>
         
         <place xml:id="ibicui">
             <placeName>Ibicuí</placeName>
-            <idno>https://www.geonames.org/3461600/rio-ibicui.html</idno>
+            <idno type="geonames">https://www.geonames.org/3461600/rio-ibicui.html</idno>
             <geo>-29.0215, -55.1859</geo>
             <note>Rio Ibicuí, afluente do Rio Uruguai, marco territorial citado.</note>
         </place>
         
         <place xml:id="corrientes">
             <placeName>Corrientes</placeName>
-            <idno>https://www.geonames.org/3435217/corrientes.html</idno>
+            <idno type="geonames">https://www.geonames.org/3435217/corrientes.html</idno>
             <geo>-27.46784, -58.8344</geo>
             <note>Província da atual Argentina.</note>
         </place>
         
         <place xml:id="salto">
             <placeName>Salto</placeName>
-            <idno>https://www.geonames.org/3440714/salto.html</idno>
+            <idno type="geonames">https://www.geonames.org/3440714/salto.html</idno>
             <geo>-31.3833, -57.9667</geo>
             <note>Cidade no Uruguai.</note>
         </place>
         
         <place xml:id="arroyocebolati">
             <placeName>Rio Cebollatí</placeName>
-            <idno>https://www.geonames.org/3443254/rio-cebollati.html</idno>
+            <idno type="geonames">https://www.geonames.org/3443254/rio-cebollati.html</idno>
             <geo>-33.2670, -53.7943</geo>
             <note>Curso d’água no sudeste do Uruguai que deságua na Lagoa Mirim.</note>
         </place>
         
         <place xml:id="cavera">
             <placeName>Caverá</placeName>
-            <idno>https://www.geonames.org/6316835/cavera.html</idno>
+            <idno type="geonames">https://www.geonames.org/6316835/cavera.html</idno>
             <geo>-30.1801 -55.4739</geo>
             <note>Local de emissão do documento; mencionado como sede da Secretaria da Fazenda.</note>
         </place>
         
         <place xml:id="mostardas">
             <placeName>Mostardas</placeName>
-            <idno>https://www.geonames.org/3456629/mostardas.html</idno>
+            <idno type="geonames">https://www.geonames.org/3456629/mostardas.html</idno>
             <geo>-31.1056, -50.9161</geo>
             <note>Localidade litorânea usada como ponto de encalhe de presas.</note>
         </place>
         
         <place xml:id="rio_grande_barra">
             <placeName>Barra do Rio Grande</placeName>
-            <idno>https://www.geonames.org/3451137/barra-do-rio-grande.html</idno>
+            <idno type="geonames">https://www.geonames.org/3451137/barra-do-rio-grande.html</idno>
             <geo>-32.1790, -52.1640</geo>
             <note>Canal de acesso ao porto de Rio Grande, área estratégica para corsários.</note>
         </place>
         
         <place xml:id="ibicui">
             <placeName>Rio Ibicuí</placeName>
-            <idno>https://www.geonames.org/3461600/rio-ibicui.html</idno>
+            <idno type="geonames">https://www.geonames.org/3461600/rio-ibicui.html</idno>
             <geo>-29.9861, -55.5178</geo>
             <note>Rio localizado na região sul do Rio Grande do Sul, divisor natural entre áreas de atuação militar durante a Revolução Farroupilha.</note>
         </place>
         
         <place xml:id="borore">
             <placeName>Bororé</placeName>
-            <idno>https://www.geonames.org/6316634/borore.html</idno>
+            <idno type="geonames">https://www.geonames.org/6316634/borore.html</idno>
             <geo>-30.4000, -56.1333</geo>
             <note>Localidade rural histórica próxima da fronteira oeste do Rio Grande do Sul; aparece como ponto militar e de deslocamento de tropas.</note>
         </place>
         
         <place xml:id="ibirocai">
             <placeName>Ibirocaí</placeName>
-            <idno>https://www.geonames.org/3461560/arroio-ibirocai.html</idno>
+            <idno type="geonames">https://www.geonames.org/3461560/arroio-ibirocai.html</idno>
             <geo>-29.8500, -55.2000</geo>
             <note>Referência hidrológica da região oeste/sudoeste do Rio Grande do Sul.</note>
         </place>
@@ -665,7 +653,7 @@
             <placeName type="modern">Santana do Livramento</placeName>
             <placeName type="historical">Santa Ana</placeName>
             <placeName type="historical">Santana</placeName>
-            <idno>https://www.geonames.org/3449936/sant-ana-do-livramento.html</idno>
+            <idno type="geonames">https://www.geonames.org/3449936/sant-ana-do-livramento.html</idno>
             <geo>-30.8774, -55.5392</geo>
             <note>Município fronteiriço do Rio Grande do Sul.</note>
         </place>
@@ -683,21 +671,21 @@
         
         <place xml:id="barra_cacequi">
             <placeName>Barra do Cacequi</placeName>
-            <idno>https://www.geonames.org/3468552/rio-cacequi.html</idno>
+            <idno type="geonames">https://www.geonames.org/3468552/rio-cacequi.html</idno>
             <geo>-29.88505, -54.90202</geo>
             <note>Local de emissão do documento.</note>
         </place>
         
         <place xml:id="sao_sepe">
             <placeName>São Sepé</placeName>
-            <idno>https://www.geonames.org/3448207/sao-sepe.html</idno>
+            <idno type="geonames">https://www.geonames.org/3448207/sao-sepe.html</idno>
             <geo>-30.1613, -53.5686</geo>
             <note>Município localizado na região central do Rio Grande do Sul, Brasil, próximo ao rio Vacacaí. </note>
         </place>
         
         <place xml:id="guaiba">
             <placeName>Guaíba</placeName>
-            <idno>https://www.geonames.org/3462008/lake-guaiba.html</idno>
+            <idno type="geonames">https://www.geonames.org/3462008/lake-guaiba.html</idno>
             <geo>--30.2795, -51.18696</geo>
             <note>Também conhecido como Rio Guaíba, esse lago é formado pelo encontro de diferentes rios - Jacuí, Gravataí, Caí e dos Sinos - que desembocam na Lagoa dos Patos.</note>
         </place>
@@ -710,28 +698,28 @@
         
         <place xml:id="hospital">
             <placeName>Hospital</placeName>
-            <idno>https://www.geonames.org/3442345/hospital.html</idno>
+            <idno type="geonames">https://www.geonames.org/3442345/hospital.html</idno>
             <geo>--31.68333, -54.65</geo>
             <note>Povoação situada na bacia do Arroyo Hospital no Uruguai.</note>
         </place>
         
         <place xml:id="parobe_rs">
             <placeName>Parobé</placeName>
-            <idno>https://www.geonames.org/3454954/parobe.html</idno>
+            <idno type="geonames">https://www.geonames.org/3454954/parobe.html</idno>
             <geo>-29.6307, -50.8257</geo>
             <note>Povoação localizada na Região de Porto Alegre. </note>
         </place>
         
         <place xml:id="jaguari_rs">
             <placeName>Jaguari</placeName>
-            <idno>https://www.geonames.org/3460221/jaguari.html</idno>
+            <idno type="geonames">https://www.geonames.org/3460221/jaguari.html</idno>
             <geo>-29.4969, -54.69</geo>
             <note>Município de Jaguari, Estado do Rio Grande do Sul, Brasil. Latitude aproximadamente -29°29′49″ S e longitude -54°41′24″ O. </note>
         </place>
         
         <place xml:id="tapes">
             <placeName>Tapes</placeName>
-            <idno>https://www.geonames.org/3446880/tapes.html</idno>
+            <idno type="geonames">https://www.geonames.org/3446880/tapes.html</idno>
             <geo>-30.6733, -51.3953</geo>
             <note>Pequeno porto às margens da Lagoa dos Patos, Rio Grande do Sul.</note>
         </place>
@@ -744,7 +732,7 @@
 
         <place xml:id="ilha_paciencia">
             <placeName>Ilha da Paciência</placeName>
-            <idno>https://www.geonames.org/3455623/ilha-da-paciencia.html</idno>
+            <idno type="geonames">https://www.geonames.org/3455623/ilha-da-paciencia.html</idno>
             <geo>-30.2300, -51.2000</geo>
             <note>Ilha localizada na região da Laguna dos Patos, Rio Grande do Sul, Brasil.</note>
         </place>
@@ -758,70 +746,70 @@
         <place xml:id="arambare">
             <placeName type="historical">Barra do Velhaco</placeName>
             <placeName type="modern">Arambaré</placeName>
-            <idno>https://www.geonames.org/3471824/arambare.html</idno>
+            <idno type="geonames">https://www.geonames.org/3471824/arambare.html</idno>
             <geo>-30.911074, -51.494969</geo> 
             <note>Foz do Arroio Velhaco, localidade de Arambaré, na beira da Lagoa dos Patos.</note>
         </place>
         
         <place xml:id="barra_graxim">
             <placeName>Lagoa do Graxim</placeName>
-            <idno>https://www.geonames.org/13545902/lagoa-do-graxaim.html</idno>
+            <idno type="geonames">https://www.geonames.org/13545902/lagoa-do-graxaim.html</idno>
             <geo>--31.05208, -51.4893</geo> 
             <note>Lagoa em Arambaré, região costeira sudoeste do estado do Rio Grande do Sul.</note>
         </place>
         
         <place xml:id="itapua">
             <placeName>Itapuã</placeName>
-            <idno>https://www.geonames.org/3460657/ponta-de-itapua.html</idno>
+            <idno type="geonames">https://www.geonames.org/3460657/ponta-de-itapua.html</idno>
             <geo>-30.367, -51.017</geo>
             <note>Promontório costeiro na região metropolitana de Porto Alegre, Rio Grande do Sul.</note>
         </place>
         
         <place xml:id="rio_dos_sinos">
             <placeName>Rio dos Sinos</placeName>
-            <idno>https://www.geonames.org/3447542/rio-dos-sinos.html</idno>
+            <idno type="geonames">https://www.geonames.org/3447542/rio-dos-sinos.html</idno>
             <geo>-29.90 -51.25</geo>
             <note>Rio do nordeste do Rio Grande do Sul, com cerca de 190 km de extensão, nascendo na região de Caraá e desaguando no delta do Jacuí, em Canoas. Importante eixo histórico de ocupação do Vale do Rio dos Sinos.</note>
         </place>
         
         <place xml:id="rio_tramandai">
             <placeName>Rio Tramandaí</placeName>
-            <idno>https://www.geonames.org/12532161/rio-tramandai.html</idno>
+            <idno type="geonames">https://www.geonames.org/12532161/rio-tramandai.html</idno>
             <geo>-29.98 -50.15</geo>
             <note>Rio do litoral norte do Rio Grande do Sul que drena para a Lagoa Tramandaí e chega ao Atlântico pela barra de Tramandaí.</note>
         </place>
         
         <place xml:id="torres">
             <placeName>Torres</placeName>
-            <idno>https://www.geonames.org/3446295/torres.html</idno>
+            <idno type="geonames">https://www.geonames.org/3446295/torres.html</idno>
             <geo>-29.34 -49.73</geo>
             <note>Município litorâneo no extremo norte do litoral do Rio Grande do Sul, conhecido pelos paredões rochosos à beira-mar e pela Ilha dos Lobos. No século XIX, era importante ponto de passagem entre o planalto e o litoral sul.</note>
         </place>
         
         <place xml:id="batovi">
             <placeName>Batoví</placeName>
-            <idno>https://www.geonames.org/10944639/cerro-batovi.html</idno>
+            <idno type="geonames">https://www.geonames.org/10944639/cerro-batovi.html</idno>
             <geo>-29.2770 -55.1570</geo>
             <note>Localidade em Tacuarembó no Uruguai.</note>
         </place>
         
         <place xml:id="cangucu">
             <placeName>Canguçu</placeName>
-            <idno>https://www.geonames.org/3467512/cangucu.html</idno>
+            <idno type="geonames">https://www.geonames.org/3467512/cangucu.html</idno>
             <geo>-31.3956 -52.6758</geo>
             <note>Município no Rio Grande do Sul. Coordenadas aproximadas: latitude -31° 23′ 42″ S, longitude -52° 40′ 33″ O. </note>
         </place>
         
         <place xml:id="tavares">
             <placeName>Tavares</placeName>
-            <idno>https://www.geonames.org/3446674/tavares.html</idno>
+            <idno type="geonames">https://www.geonames.org/3446674/tavares.html</idno>
             <geo>-31.2876 -51.0945</geo>
             <note>Município no litoral norte do RS. </note>
         </place>
         
         <place xml:id="cerro_roque">
             <placeName>Cerro do Roque</placeName>
-            <idno>https://www.geonames.org/3450905/cerro-do-roque.html</idno>
+            <idno type="geonames">https://www.geonames.org/3450905/cerro-do-roque.html</idno>
             <geo>-30.31646, -52.13372</geo>
             <note>Elevação no RS identificada como “Cerro do Roque”. </note>
         </place>
@@ -830,7 +818,7 @@
             <placeName type="historical">Charqueadas da Barra</placeName>
             <placeName type="historical">Charqueadas da Costa</placeName>
             <placeName type="modern">Charqueadas</placeName>
-            <idno>https://www.geonames.org/3466261/charqueadas.html</idno>
+            <idno type="geonames">https://www.geonames.org/3466261/charqueadas.html</idno>
             <geo>-29.95472, -51.62528</geo>
             <note>Região produtora de charque na margem do Jacuí. </note>
         </place> <!--corrigir para id charqueadas-->
@@ -842,21 +830,21 @@
         
         <place xml:id="ponta_rasa">
             <placeName>Ponta Rasa</placeName>
-            <idno>www.geonames.org/7582951/ilha-da-ponta-rasa.html</idno>
+            <idno type="geonames">www.geonames.org/7582951/ilha-da-ponta-rasa.html</idno>
             <geo>-29.9640 -51.3726</geo>
             <note>Ilha da Ponta Rasa no município de Triunfo, Rio Grande do Sul, margem do Rio Jacuí.</note>
         </place>
         
         <place xml:id="ilha_fanfa">
             <placeName>Ilha do Fanfa</placeName>
-            <idno>https://www.geonames.org/13024961/ilha-do-fanfa.html</idno>
+            <idno type="geonames">https://www.geonames.org/13024961/ilha-do-fanfa.html</idno>
             <geo>-29.5750, -51.6100</geo>
             <note>Ilha fluvial no rio Jacuí, município de Triunfo, RS. </note> 
         </place>
         
         <place xml:id="restinga_seca">
             <placeName>Restinga Seca</placeName>
-            <idno>https://www.geonames.org/3451632/restinga-seca.html</idno>
+            <idno type="geonames">https://www.geonames.org/3451632/restinga-seca.html</idno>
             <geo>-29.8128, -53.3750</geo>
             <note>Localidade próxima de Santa Maria, no centro do Rio Grande do Sul.</note>
         </place>
@@ -864,56 +852,56 @@
         <place xml:id="passo_mampituba">
             <placeName type="historical">Passo do Mampituba</placeName>
             <placeName type="modern"></placeName>
-            <idno>https://www.geonames.org/6317511/mampituba.html</idno>
+            <idno type="geonames">https://www.geonames.org/6317511/mampituba.html</idno>
             <geo precision="approximate">-29.1790, -49.9570</geo>
             <note>Localidade de passagem associada ao Rio Mampituba, região limítrofe entre Rio Grande do Sul e Santa Catarina, usada historicamente como ponto de travessia.</note>
         </place>
         
         <place xml:id="tres_forquilhas">
             <placeName>Três Forquilhas</placeName>
-            <idno>https://www.geonames.org/6318792/tres-forquilhas.html</idno>
+            <idno type="geonames">https://www.geonames.org/6318792/tres-forquilhas.html</idno>
             <geo precision="approximate">-29.5380, -50.0700</geo>
             <note>Localidade no litoral norte do Rio Grande do Sul, perto da Lagoa Itapeva.</note>
         </place>
         
         <place xml:id="ilha_santo_antonio">
             <placeName>Ilha de Santo Antônio</placeName>
-            <idno>https://www.geonames.org/13037469/ilha-de-santo-antonio.html</idno>
+            <idno type="geonames">https://www.geonames.org/13037469/ilha-de-santo-antonio.html</idno>
             <geo>-31.27603, -51.73631</geo>
             <note>A Ilha de Santo Antônio está localizada no município de Camaquã, Rio Grande do Sul. Se localiza próximo ao distrito da Pacheca e é circundada pelo Rio Camaquã</note>
         </place>
         
         <place xml:id="canoas">
             <placeName>Canoas</placeName>
-            <idno>https://www.geonames.org/3467467/canoas.html</idno>
+            <idno type="geonames">https://www.geonames.org/3467467/canoas.html</idno>
             <geo precision="approximate">-29.9150, -51.1785</geo>
             <note>Localizado próximo a Porto Alegre.</note>
         </place>
         
         <place xml:id="santa_catarina">
             <placeName>Santa Catarina</placeName>
-            <idno>https://www.geonames.org/3450387/santa-catarina.html</idno>
+            <idno type="geonames">https://www.geonames.org/3450387/santa-catarina.html</idno>
             <geo>--27, -50</geo>
             <note>Província ao norte do Rio Grande do Sul.</note>
         </place>
         
         <place xml:id="sao_paulo_provincia">
             <placeName>São Paulo</placeName>
-            <idno>https://www.geonames.org/3448433/sao-paulo.html</idno>
+            <idno type="geonames">https://www.geonames.org/3448433/sao-paulo.html</idno>
             <geo>-22, -49</geo>
             <note>Província de São Paulo no centro do Brasil.</note>
         </place>
         
         <place xml:id="rio_antas">
             <placeName>Rio das Antas</placeName>
-            <idno>https://www.geonames.org/6323243/rio-das-antas.html</idno>
+            <idno type="geonames">https://www.geonames.org/6323243/rio-das-antas.html</idno>
             <geo>-28.5000, -51.0000</geo>
             <note>Rio da região nordeste do Rio Grande do Sul.</note>
         </place>
         
         <place xml:id="santo_antonio_patrulha">
             <placeName>Santo Antônio da Patrulha</placeName>
-            <idno>https://www.geonames.org/3449614/santo-antonio-da-patrulha.html</idno>
+            <idno type="geonames">https://www.geonames.org/3449614/santo-antonio-da-patrulha.html</idno>
             <geo>-29.8260, -50.5170</geo>
             <note>Cidade do Rio Grande do Sul, no caminho entre a capital e o litoral.</note>
         </place>
@@ -921,7 +909,7 @@
         <place xml:id="itaqui">
             <placeName>Itaqui</placeName>
             <placeName type="variant">Passo do Itaqui</placeName>
-            <idno>https://www.geonames.org/3460629/itaqui.html</idno>
+            <idno type="geonames">https://www.geonames.org/3460629/itaqui.html</idno>
             <geo precision="approximate">-29.1250, -56.5528</geo>
             <note>
                 Município do oeste do Rio Grande do Sul, junto ao rio Uruguai. 
@@ -934,22 +922,50 @@
         <place xml:id="melo">
             <placeName>Melo</placeName>
             <idno>https://www.geonames.org/3441702/melo.html</idno>
-            <geo>-32.3700, -54.1790</geo>
+            <geo type="geonames">-32.3700, -54.1790</geo>
             <note>Capital do departamento de Cerro Largo, Uruguai.</note>
         </place>
         
         <place xml:id="vacacai">
             <placeName>Vacacaí</placeName>
-            <idno>https://www.geonames.org/3445639/vacacai.html</idno>
+            <idno type="geonames">https://www.geonames.org/3445639/vacacai.html</idno>
             <geo>-30.44778, -54.37583</geo>
             <note>Região em torno do Rio de mesmo nome, próxima a São Sepé, Rio Grande do Sul.</note>
         </place>
         
         <place xml:id="jacu">
             <placeName>Jacu</placeName>
-            <idno>https://www.geonames.org/13037218/arroio-do-jacu.html</idno>
+            <idno type="geonames">https://www.geonames.org/13037218/arroio-do-jacu.html</idno>
             <geo>-31.19528, -52.19779</geo>
             <note>Arroio em São Lourenço do Sul, Rio Grande do Sul.</note>
+        </place>
+        
+        <place xml:id="serra_tapes">
+            <placeName>Serra dos Tapes</placeName>
+            <idno type="geonames">https://www.geonames.org/3449589/serra-dos-tapes.html</idno>
+            <geo>-31.36187, -52.65808</geo>
+            <note>Região geográfica ao sul do Rio Grande do Sul, citada frequentemente em movimentos militares da Farroupilha.</note>
+        </place>
+        
+        <place xml:id="arroio_pelotas">
+            <placeName>Arroio de Pelotas</placeName>
+            <idno type="geonames">https://www.geonames.org/3454243/arroio-pelotas.html</idno>
+            <geo>-31.77285, -52.2811</geo>
+            <note>Curso d’água na região de Pelotas.</note>
+        </place>
+        
+        <place xml:id="viamao">
+            <placeName>Viamão</placeName>
+            <idno type="geonames">https://www.geonames.org/3445156/viamao.html</idno>
+                <geo>-30.0819 -51.0232</geo>
+            <note>Primeira capital do Rio Grande do Sul.</note>
+        </place>
+        
+        <place xml:id="sao_francisco_paula">
+            <placeName>São Francisco de Paula</placeName>
+            <idno type="geonames"></idno>
+            <geo>https://www.geonames.org/3454244/pelotas.html</geo> 
+            <note>Localidade central do município de Pelotas.</note>
         </place>
         
         <place xml:id="santa_isabel">
@@ -990,6 +1006,11 @@
             <placeName>Pavão</placeName>
             <geo>-31.9709 -52.4472</geo>
             <note>Localidade provável na região de Capão do Leão, RS; coordenadas aproximadas e passíveis de revisão histórica.</note>
+        </place>
+        
+        <place xml:id="andrade">
+            <placeName>Andrade</placeName>
+            <note>Povoado mencionado como local de escrita da carta CV-161.</note>
         </place>
     </listPlace>
 </standOff>

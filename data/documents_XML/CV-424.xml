@@ -51,13 +51,13 @@
             <div xml:id="CV-424" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Para poder resolver acerca da demissão que pelo ofício junto impetra o cidadão Antônio Gonçalves Pereira Duarte, cumpre que V. S.ª me informe o que convier.</p>
+                <p>Para poder resolver acerca da demissão que pelo ofício junto impetra o cidadão Antônio Gonçalves Pereira Duarte, cumpre que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> me informe o que convier.</p>
                 
                 <closer>
-                    <p>Deus guarde a V.S.ª.</p>
+                    <p>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                 </closer>
                 
                 <p><orgName ref="#secretaria_interior_fazenda">Secretaria do Interior e Fazenda</orgName> encarregada do expediente da Guerra em <placeName ref="#piratini">Piratini</placeName>, 24 de dezembro de 1840.</p>
@@ -68,7 +68,7 @@
                 
                 <note type="endorsement">Ofício do Exmo. Ministro da Guerra de 24 de dezembro, recebido a 27, e respondido no mesmo dia, sobre a demissão do capitão ajudante.</note>
                 
-                <note type="endorsement">S.R. Ao cidadão <persName ref="#inacio_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>, Chefe Geral de Polícia do departamento do Boqueirão. Do Ministério da Guerra.</note>
+                <note type="endorsement"><choice><abbr>S.R.</abbr><expan>Secretaria da Presidência da República</expan></choice> Ao cidadão <persName ref="#inacio_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>, Chefe Geral de Polícia do departamento do Boqueirão. Do Ministério da Guerra.</note>
                 
             </div>
         </body>

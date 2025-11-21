@@ -58,13 +58,13 @@
             <div type="letter" xml:id="CV-316">
                 
                 <opener>
-                    <salute>Exmo. Sr.</salute>
+                    <salute>Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Para alguma ocorrência extraordinária, e mesmo para vários Decretos que tenho de lavrar acerca de escolas, polícia, coletorias e estatística, faz-se mister que V. Exª. assine as seis folhas de papel inclusas.</p>
+                <p>Para alguma ocorrência extraordinária, e mesmo para vários Decretos que tenho de lavrar acerca de escolas, polícia, coletorias e estatística, faz-se mister que <choice><abbr>V. Exª.</abbr><expan>Vossa Excelência</expan></choice> assine as seis folhas de papel inclusas.</p>
                 
                 <closer>
-                    <salute>De V.Exª. compadre amigo e obrigado</salute>
+                    <salute>De <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> compadre amigo e obrigado</salute>
                     <signed>Almeida</signed>
                 </closer>
                 
@@ -76,7 +76,7 @@
             <div type="response" xml:id="CV-316-resposta">
                 
                 <opener>
-                    <salute>Exmo. Sr.</salute>
+                    <salute>Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Adjunto-lhe seis folhas assinadas e o decreto que enviou. Logo lá vou dizer-lhe adeus e conversar alguma coisa mais que ocorrer a seu</p>

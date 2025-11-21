@@ -42,16 +42,16 @@
             <div type="letter" xml:id="CV-50">
                 
                 <opener>
-                    <salute>Ilmo. Exmo. Sr.</salute>
+                    <salute>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Previno a V.Exª. não esqueça virem iates para marchar a infantaria; pois cá só tem uma canoa que levará cento e tantos homens.</p>
+                <p>Previno a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> não esqueça virem iates para marchar a infantaria; pois cá só tem uma canoa que levará cento e tantos homens.</p>
                 
-                <p>Deus guarde a V.Exª, muitos anos.</p>
+                <p>Deus guarde a <choice><abbr>V.Exª</abbr><expan>Vossa Excelência</expan></choice>, muitos anos.</p>
                 
                 <closer>
                     <dateline><placeName ref="#picada">Acampamento da Picada</placeName>, <date when="1838-12-09">9 de dezembro de 1838</date>.</dateline>
-                    <signed>Sr. <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/>
+                    <signed><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/>
                         <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName><br/>
                         Major.</signed>
                 </closer>

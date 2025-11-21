@@ -46,15 +46,15 @@
             <div xml:id="CV-449" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Tendo concordado com o <persName ref="#pedro_rodrigues_quevedo">Capitão Pedro Rodrigues de Quevedo</persName> acerca da maneira de montar-se a fábrica de lombilhos a seu cargo no pé que se faz de mister, visto as vantagens que oferece, segundo as reflexões por V. S.ª feitas em ofício de 10 de dezembro p. p. e orçamento que incluiu, assim lhe comunico em resposta, como que ora se expedem as ordens a respeito, contando o governo com os esforços de V. S.ª a bem de dita fábrica para que produza os resultados que dela se espera, adindo-lhe os escravos de dissidentes e vagos que encontrar no departamento de sua jurisdição.</p>
+                <p>Tendo concordado com o <persName ref="#pedro_rodrigues_quevedo">Capitão Pedro Rodrigues de Quevedo</persName> acerca da maneira de montar-se a fábrica de lombilhos a seu cargo no pé que se faz de mister, visto as vantagens que oferece, segundo as reflexões por <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> feitas em ofício de 10 de dezembro p. p. e orçamento que incluiu, assim lhe comunico em resposta, como que ora se expedem as ordens a respeito, contando o governo com os esforços de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> a bem de dita fábrica para que produza os resultados que dela se espera, adindo-lhe os escravos de dissidentes e vagos que encontrar no departamento de sua jurisdição.</p>
                 
                 <closer>
-                    <p>Deus guarde a V. S.ª.</p>
+                    <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                     <p>Secretaria da Fazenda em <placeName ref="#piratini">Piratini</placeName>, 15 de fevereiro de 1841.</p>
-                    <signed>Ilmo. Sr. <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>.</signed>
+                    <signed>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>.</signed>
                     <signed>Chefe Geral de Polícia do departamento do <placeName ref="#boqueirao">Boqueirão</placeName>.</signed>
                     <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</signed>
                 </closer>

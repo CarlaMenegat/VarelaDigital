@@ -47,17 +47,17 @@
                 
                 <!-- Ofício -->
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Para <persName ref="#luis_francisco_cunha">Luís Francisco da Cunha</persName>, cabo do <orgName ref="#4_batalhao">4.º Batalhão</orgName> e ordenança desta Secretaria, andar com mais alguma decência, mande V. S.ª dar-lhe duas camisas, duas calças e duas ceroulas, ou fazendas para tais objetos.</p>
+                <p>Para <persName ref="#luis_francisco_cunha">Luís Francisco da Cunha</persName>, cabo do <orgName ref="#4_batalhao">4.º Batalhão</orgName> e ordenança desta Secretaria, andar com mais alguma decência, mande <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> dar-lhe duas camisas, duas calças e duas ceroulas, ou fazendas para tais objetos.</p>
                 
                 <closer>
-                    <p>Deus guarde a V. S.ª. Secretaria da Fazenda em <placeName ref="#sao_gabriel">São Gabriel</placeName>, 14 de abril de 1841.</p>
+                    <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>. Secretaria da Fazenda em <placeName ref="#sao_gabriel">São Gabriel</placeName>, 14 de abril de 1841.</p>
                     <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
                 </closer>
                 
-                <signed>Ilmo. Sr. <persName ref="#bernardo_jose_rodrigues_filho">Bernardo José Rodrigues Filho</persName>, 1.º Deputado do Quartel-mestre-general.</signed>
+                <signed>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#bernardo_jose_rodrigues_filho">Bernardo José Rodrigues Filho</persName>, 1.º Deputado do Quartel-mestre-general.</signed>
                 
                 <!-- Recibo anexo -->
                 <div type="receipt">
@@ -67,7 +67,7 @@
                 </div>
                 
                 <note type="endorsement">
-                    S. R. — Ilmo. Sr. <persName ref="#bernardo_jose_rodrigues_filho">Bernardo José Rodrigues Filho</persName>, 1.º Deputado do Quartel-mestre-general. S/Q — Do Ministério da Fazenda.
+                    <choice><abbr>S. R.</abbr><expan>Secretaria da Presidência da República</expan></choice> — Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#bernardo_jose_rodrigues_filho">Bernardo José Rodrigues Filho</persName>, 1.º Deputado do Quartel-mestre-general. S/Q — Do Ministério da Fazenda.
                 </note>
                 
                 <note type="endorsement">

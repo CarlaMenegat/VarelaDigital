@@ -60,13 +60,13 @@
                 </p>
                 
                 <closer>
-                    <salute>De V. Ex.ª</salute>
+                    <salute>De <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice></salute>
                     <signed>Amigo sincero e obrigado<br/>(a) <persName ref="#domingos_jose_almeida">Almeida</persName></signed>
                 </closer>
                 
                 
                 <opener>
-                    <salute>Amigo e Sr.</salute>
+                    <salute>Amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
@@ -82,7 +82,7 @@
                 </closer>
                 
                 <note type="endorsement">
-                    Exmo. Sr. Presidente do Estado. Sua residência.  
+                    Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente do Estado. Sua residência.  
                     Volta com resposta.  
                     Nota marginal: “É seguramente a carta a que se refere em ofício de 
                     Elzeário em 17-8-38.”

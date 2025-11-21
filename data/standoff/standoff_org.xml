@@ -399,5 +399,15 @@
             <affiliation>Farroupilhas</affiliation>
             <note>Unidade militar da Guarda Nacional mencionada nas correspondências farroupilhas.</note>
         </org>
+        
+        <org xml:id="caramurus">
+            <orgName>Caramurus</orgName>
+            <note>Facção política conservadora do período regencial e imperial, adversária dos farroupilhas.</note>
+        </org>
+        
+        <org xml:id="assembleia_geral_legislativa_rs">
+            <orgName>Assembléia</orgName>
+            <note>Casa legislativa provincial do Rio Grande do Sul, mencionada no contexto de 1835.</note>
+        </org>
     </listOrg>
 </standOff>

@@ -111,14 +111,14 @@
             <div type="letter" xml:id="CV-146">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Deliberando o governo retrogradar para a capital, me ordenou fosse com antecedência tomar conta dela e ali restabelecer a ordem, e com ela evitar distúrbios e guardar a tranquilidade pública, mas tendo pouca gente à sua disposição, gente necessária para patrulhas, condução de ofícios, bombeações e carneação, não é pois possível, pois, que tudo isto se faça com os poucos elementos que conta.</p>
                 
-                <p>Em consequência deixa de marchar o <persName ref="#laurindo">Capitão Laurindo</persName> e <persName ref="#manuel_antonio">Tenente Manuel Antônio</persName>, que seguem comigo agora mesmo para <placeName ref="#cacapava">Caçapava</placeName>, havendo ficado com o <persName ref="#gomes_jardim">Vice-presidente</persName> o <persName ref="#januario">Tenente Januário</persName> em <placeName ref="#vacacai">Vacacaí</placeName>. Além destes motivos milita outra circunstância, de terem ficado, como dizem, <persName ref="#juca_cipriano">Juca Cipriano</persName>, <persName ref="#dedeco">Dedeco</persName>, <persName ref="#fialho">Fialho</persName> pelas imediações de <placeName ref="#sao_gabriel">São Gabriel</placeName>, assim como que somente mais vinte ou trinta homens não farão falta a V. S.ª, e que não deixará de operar por esta razão.</p>
+                <p>Em consequência deixa de marchar o <persName ref="#laurindo">Capitão Laurindo</persName> e <persName ref="#manuel_antonio">Tenente Manuel Antônio</persName>, que seguem comigo agora mesmo para <placeName ref="#cacapava">Caçapava</placeName>, havendo ficado com o <persName ref="#gomes_jardim">Vice-presidente</persName> o <persName ref="#januario">Tenente Januário</persName> em <placeName ref="#vacacai">Vacacaí</placeName>. Além destes motivos milita outra circunstância, de terem ficado, como dizem, <persName ref="#juca_cipriano">Juca Cipriano</persName>, <persName ref="#dedeco">Dedeco</persName>, <persName ref="#fialho">Fialho</persName> pelas imediações de <placeName ref="#sao_gabriel">São Gabriel</placeName>, assim como que somente mais vinte ou trinta homens não farão falta a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>, e que não deixará de operar por esta razão.</p>
                 
-                <p>Deus guarde a V. S.ª. <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName> em <placeName ref="#joao_machado">João Machado</placeName>, <date when="1840-03-25">25, ao amanhecer, de março 1840</date>.</p>
+                <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>. <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName> em <placeName ref="#joao_machado">João Machado</placeName>, <date when="1840-03-25">25, ao amanhecer, de março 1840</date>.</p>
                 
                 <closer>
                     <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>

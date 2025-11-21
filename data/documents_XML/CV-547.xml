@@ -40,14 +40,14 @@
             <div type="letter" xml:id="CV-547">
                 
                 <opener>
-                    <salute>Cópia — Sr. <persName ref="#inacio_rodrigues_barcelos">Inácio Rodrigues Barcelos</persName>.</salute>
+                    <salute>Cópia — <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_rodrigues_barcelos">Inácio Rodrigues Barcelos</persName>.</salute>
                     <dateline><placeName ref="#piratini">Piratini</placeName>, <date when="1842-07-09">9 de julho de 1842</date>.</dateline>
-                    <salute>Meu prezado tio, amigo e Sr.</salute>
+                    <salute>Meu prezado tio, amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Tendo arrendado minha charqueada ao Sr. <persName ref="#leao_prospero_chastan">Leão Próspero Chastan</persName>, rogo-lhe o favor de mandar entregar ao dito Sr. todas as madeiras que por sua ordem o Sr. <persName ref="#joao_cunha_pecanha">João da Cunha Peçanha</persName> entregou ao Sr. <persName ref="#cipriano_rodrigues_barcelos">Cipriano Rodrigues Barcelos</persName>, como consta dos recibos que se acham na minha casa em <placeName ref="#bage">Bagé</placeName>, que enviarei logo que ali chegue.</p>
+                <p>Tendo arrendado minha charqueada ao <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#leao_prospero_chastan">Leão Próspero Chastan</persName>, rogo-lhe o favor de mandar entregar ao dito <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> todas as madeiras que por sua ordem o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_cunha_pecanha">João da Cunha Peçanha</persName> entregou ao <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#cipriano_rodrigues_barcelos">Cipriano Rodrigues Barcelos</persName>, como consta dos recibos que se acham na minha casa em <placeName ref="#bage">Bagé</placeName>, que enviarei logo que ali chegue.</p>
                 
-                <p>Além deste obséquio espero que V. Mcê. e os primos ajudem ao Sr. <persName ref="#leao_prospero_chastan">Chastan</persName> na aquisição dos objetos que se hajam extraviado, como igualmente nos arranjos da charqueada, para ser de pronto montada como convém; pelo que lhe será grato, o seu sobrinho e amigo muito obrigado.</p>
+                <p>Além deste obséquio espero que <choice><abbr>V. Mcê.</abbr><expan>Vossa Mercê</expan></choice> e os primos ajudem ao <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#leao_prospero_chastan">Chastan</persName> na aquisição dos objetos que se hajam extraviado, como igualmente nos arranjos da charqueada, para ser de pronto montada como convém; pelo que lhe será grato, o seu sobrinho e amigo muito obrigado.</p>
                 
                 <closer>
                     <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>

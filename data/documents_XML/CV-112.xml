@@ -44,16 +44,16 @@
             <div type="letter" xml:id="CV-112">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Foi presente ao Governo o ofício de V.Exª. datado de 20 do corrente, acompanhando uma
+                <p>Foi presente ao Governo o ofício de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> datado de 20 do corrente, acompanhando uma
                     representação do <persName ref="#padre_francisco_terroba">Padre Francisco Terroba</persName>, pretendendo a ereção de uma capela
-                    no passo do <placeName ref="#itaqui">Itaqui</placeName>, sobre o que V.Exª. consulta ao mesmo Governo para deliberar a
-                    respeito. Manda responder a V.Exª. que é conveniente espaçar o deferimento de semelhante
+                    no passo do <placeName ref="#itaqui">Itaqui</placeName>, sobre o que <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> consulta ao mesmo Governo para deliberar a
+                    respeito. Manda responder a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> que é conveniente espaçar o deferimento de semelhante
                     pretensão, até que pelos respectivos habitantes seja reclamada essa medida.</p>
                 
-                <p>Deus guarde a V.Exª..</p>
+                <p>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>.</p>
                 
                 <dateline>
                     <placeName ref="#alegrete">Secretaria da Justiça em Alegrete</placeName>,
@@ -61,7 +61,7 @@
                 </dateline>
                 
                 <closer>
-                    <salute>Ilmo. e Exmo. Sr. 
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
                         <persName ref="#francisco_chagas_avila_sousa">Padre Francisco das Chagas Martins Ávila e Sousa</persName>, Vigário Apostólico.</salute>
                     <signed>(a) <persName ref="#jose_pedroso_albuquerque">José Pedroso de Albuquerque</persName>.</signed>
                 </closer>

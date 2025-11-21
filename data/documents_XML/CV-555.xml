@@ -43,15 +43,15 @@
             <div type="letter" xml:id="CV-555">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Anuindo S. Ex.ª o Sr. Presidente à proposição feita por <persName ref="#joao_da_costa">João da Costa</persName> em carta de 30 de outubro passado dirigida ao <persName ref="#onofre_pires_silveira_canto">Coronel Onofre Pires da Silveira Canto</persName>, e deste ao dito Sr. em 29 de novembro último em originais inclusos; haja V. S.º de expedir circulares aos coletores do Estado ordenando-lhes que as tropas despachadas em nome do dito Costa sejam na conformidade do disposto no $ 8.º do artigo 37 do regulamento que baixou com o Decreto de 14 de agosto de 1838; mas que imediatamente depois de verificados tais despachos por três vias façam deles ciente a V. S.º para no <orgName ref="#tesouro">Tesouro</orgName> mandar abrir os competentes assentamentos, devendo já mandar-lhe debitar os seis mil patacões que oferece.</p>
+                <p>Anuindo <choice><abbr>S. Ex.ª</abbr><expan>Sua Excelência</expan></choice> o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente à proposição feita por <persName ref="#joao_da_costa">João da Costa</persName> em carta de 30 de outubro passado dirigida ao <persName ref="#onofre_pires_silveira_canto">Coronel Onofre Pires da Silveira Canto</persName>, e deste ao dito <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> em 29 de novembro último em originais inclusos; haja <choice><abbr>V. S.</abbr><expan>Vossa Senhoria</expan></choice>º de expedir circulares aos coletores do Estado ordenando-lhes que as tropas despachadas em nome do dito Costa sejam na conformidade do disposto no $ 8.º do artigo 37 do regulamento que baixou com o Decreto de 14 de agosto de 1838; mas que imediatamente depois de verificados tais despachos por três vias façam deles ciente a <choice><abbr>V. S.</abbr><expan>Vossa Senhoria</expan></choice>º para no <orgName ref="#tesouro">Tesouro</orgName> mandar abrir os competentes assentamentos, devendo já mandar-lhe debitar os seis mil patacões que oferece.</p>
                 
-                <p>Imediatamente que se ultime o despacho de seis mil reses de conta do mencionado <persName ref="#joao_da_costa">Costa</persName>, V. S.º revogará as ordens que em virtude a este expedi.</p>
+                <p>Imediatamente que se ultime o despacho de seis mil reses de conta do mencionado <persName ref="#joao_da_costa">Costa</persName>, <choice><abbr>V. S.</abbr><expan>Vossa Senhoria</expan></choice>º revogará as ordens que em virtude a este expedi.</p>
                 
                 <closer>
-                    <salute>Deus guarde a V. S.ª</salute>
+                    <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice></salute>
                     <dateline><orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName> em <placeName ref="#bage">Bagé</placeName>, <date when="1841-12-10">10 de dezembro de 1841</date>.</dateline>
                     <signed><persName ref="#domingos_jose_almeida">(a) Domingos José de Almeida</persName></signed>
                 </closer>

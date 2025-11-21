@@ -101,11 +101,11 @@
                 </closer>
                 
                 <postscript>
-                    <p>P.S. — Tenho recebido tudo quanto tens enviado.</p>
+                    <p><choice><abbr>P.S.</abbr><expan>Post scriptum</expan></choice> — Tenho recebido tudo quanto tens enviado.</p>
                 </postscript>
                 
                 <note type="endorsement">
-                    <persName ref="#bernardina_barcelos_almeida">Sra. D. Bernardina Barcelos de Almeida</persName>.<br/>
+                    <persName ref="#bernardina_barcelos_almeida"><choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> D. Bernardina Barcelos de Almeida</persName>.<br/>
                     <placeName ref="#pedras_altas">Pedras Altas</placeName>.
                 </note>
                 

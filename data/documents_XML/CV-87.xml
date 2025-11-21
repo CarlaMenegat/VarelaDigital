@@ -43,13 +43,13 @@
                 <note type="copy">Cópia.</note>
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Em virtude do disposto no artigo 44 das instruções para as eleições dos deputados da <orgName ref="#assembleia_constituinte">Assembléia Constituinte</orgName>, vereadores, juízes de paz do Estado, haja V.Sª. de satisfazer as requisições que para compra de papel, pena, tinta e obreias lhe forem feitas pelas respectivas <orgName ref="#camara_municipal">Câmaras Municipais</orgName>, ou pelos chefes de polícia na falta delas.</p>
+                <p>Em virtude do disposto no artigo 44 das instruções para as eleições dos deputados da <orgName ref="#assembleia_constituinte">Assembléia Constituinte</orgName>, vereadores, juízes de paz do Estado, haja <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> de satisfazer as requisições que para compra de papel, pena, tinta e obreias lhe forem feitas pelas respectivas <orgName ref="#camara_municipal">Câmaras Municipais</orgName>, ou pelos chefes de polícia na falta delas.</p>
                 
                 <closer>
-                    <p>Deus guarde a V.Sª.. <orgName ref="#secretaria_tesouro">Secretaria do Tesouro</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, <date when="1840-02-13">13 de fevereiro de 1840</date>.</p>
+                    <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>. <orgName ref="#secretaria_tesouro">Secretaria do Tesouro</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, <date when="1840-02-13">13 de fevereiro de 1840</date>.</p>
                     
                     <signed><persName ref="#manuel_martins_silveira_lemos">Manuel Martins da Silveira Lemos</persName>.</signed>
                     <signed>Ao cidadão <persName ref="#antonio_francisco_santos_abreu">Antônio Francisco dos Santos Abreu</persName>, <orgName ref="#coletoria">Coletor</orgName> do <placeName ref="#boqueirao">Boqueirão</placeName>.</signed>

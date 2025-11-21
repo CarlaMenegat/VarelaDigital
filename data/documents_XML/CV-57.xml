@@ -41,15 +41,15 @@
             <div type="letter" xml:id="CV-57">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Participo a V.Exª. que no dia 15 para 16 do corrente mandei ao <persName ref="#tenente_isaias_antonio">Tenente Isaías Antônio Alz.</persName>, <persName ref="#alferes_antonio_joaquim_cruz">Alferes Antônio Joaquim da Cruz</persName>, <persName ref="#antonio_jose_carvalho_2">Antônio José de Carvalho</persName> e 16 soldados, todos do corpo do meu comando, ao <placeName ref="#passo_fundo">passo Fundo</placeName> a fim de surpreender uma guarda dos rebeldes que ali se achava, comandada pelo <persName ref="#tenente_nogueira">Tenente Nogueira</persName>, fazer-se-lhes 4 prisioneiros e tomar-se 6 cavalos arreados, escapando-se a mais gente pelos matos.</p>
+                <p>Participo a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> que no dia 15 para 16 do corrente mandei ao <persName ref="#tenente_isaias_antonio">Tenente Isaías Antônio Alz.</persName>, <persName ref="#alferes_antonio_joaquim_cruz">Alferes Antônio Joaquim da Cruz</persName>, <persName ref="#antonio_jose_carvalho_2">Antônio José de Carvalho</persName> e 16 soldados, todos do corpo do meu comando, ao <placeName ref="#passo_fundo">passo Fundo</placeName> a fim de surpreender uma guarda dos rebeldes que ali se achava, comandada pelo <persName ref="#tenente_nogueira">Tenente Nogueira</persName>, fazer-se-lhes 4 prisioneiros e tomar-se 6 cavalos arreados, escapando-se a mais gente pelos matos.</p>
                 
-                <p>É quanto tenho a honra de comunicar a V.Exª. para sua inteligência. Deus guarde a V.Exª.. Acampamento em frente à Picada, <date when="1839-12-17">17 de dezembro de 1839</date>.</p>
+                <p>É quanto tenho a honra de comunicar a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> para sua inteligência. Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>. Acampamento em frente à Picada, <date when="1839-12-17">17 de dezembro de 1839</date>.</p>
                 
                 <closer>
-                    <salute>Ilmo. e Exmo. Sr. <persName ref="#filipe_neri_oliveira">Filipe Neri de Oliveira</persName>, Brigadeiro Comandante da 2a. Brigada.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#filipe_neri_oliveira">Filipe Neri de Oliveira</persName>, Brigadeiro Comandante da 2a. Brigada.</salute>
                     <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
                     <signed>Tenente-coronel.</signed>
                 </closer>

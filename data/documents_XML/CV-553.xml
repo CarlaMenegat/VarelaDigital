@@ -42,19 +42,19 @@
             <div type="letter" xml:id="CV-553">
                 
                 <opener>
-                    <salute>Meu compadre, amigo e Sr.</salute>
+                    <salute>Meu compadre, amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>O Sr. <persName ref="#evaristo">Evaristo</persName> requer a tirada dos gados de que consta a ordem junta da estância de <persName ref="#bibiano">Bibiano</persName>; para isso será preciso anular o arrendamento feito por <persName ref="#macedo">Macedo</persName>; e como V. Ex.º me comunicou haver com ele tratado não sei o que a respeito, terá a bondade dizer-me o que devo fazer a tal respeito.</p>
+                <p>O <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#evaristo">Evaristo</persName> requer a tirada dos gados de que consta a ordem junta da estância de <persName ref="#bibiano">Bibiano</persName>; para isso será preciso anular o arrendamento feito por <persName ref="#macedo">Macedo</persName>; e como <choice><abbr>V. Ex.</abbr><expan>Vossa Excelência</expan></choice>º me comunicou haver com ele tratado não sei o que a respeito, terá a bondade dizer-me o que devo fazer a tal respeito.</p>
                 
                 <closer>
-                    <salute>De V. Ex.ª</salute>
+                    <salute>De <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice></salute>
                     <signed>Compadre e amigo obrigado</signed>
                     <dateline>S.C., <date when="1841-12-06">6 de dezembro de 1841</date>.</dateline>
                     <signed>(a) <persName ref="#domingos_jose_almeida">Almeida</persName></signed>
                 </closer>
                 
-                <note type="endorsement">Exmo. Sr. Presidente da República. [No verso]</note>
+                <note type="endorsement">Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente da República. [No verso]</note>
                 <note type="endorsement">S. residência.</note>
                 
             </div>

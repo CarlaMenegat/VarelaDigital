@@ -32,7 +32,7 @@
         <body>
             <div type="letter" xml:id="CV-9">
                 <opener>
-                    <salute>Amigo e Sr. Martins</salute>
+                    <salute>Amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Martins</salute>
                 </opener>
                 
                 <p><persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName> quer descontos de direitos por conta do que o Estado lhe deve e para não serem iludidas as disposições tomadas sobre pagamentos, rogo-lhe dizer-me quanto é o total do que lhe deve o Estado; também os documentos pelos quais se justou essa conta, para ver o que está nas circunstâncias de ser pago prontamente, na forma do mesmo parecer e circular.</p>
@@ -46,7 +46,7 @@
                 <p>Os documentos, o <persName ref="#antonio_abreu">Abreu</persName> tornou a levá-los; por isso não ficaram escriturados. A quantia que pela Coletoria do <placeName ref="#erval">Erval</placeName> se acha debitada, não me lembra qual é; e assim mais acha-se-lhe debitada uma outra quantia, que recebeu por ordem do Ministério da Fazenda pela Coletoria a seu cargo, quando Coletor.</p>
                 
                 <closer>
-                    <signed>De V.Exa. Patrício e afetuoso<br/>(a) <persName ref="#martins">Martins</persName></signed>
+                    <signed>De <choice><abbr>V.Ex</abbr><expan>Vossa Excelência</expan></choice>a. Patrício e afetuoso<br/>(a) <persName ref="#martins">Martins</persName></signed>
                 </closer>
             </div>
         </body>

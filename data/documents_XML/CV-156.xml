@@ -105,12 +105,12 @@
             <div type="letter" xml:id="CV-156">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Passo às mãos de V. Ex.ª a adjunta ordem do dia de hoje, sob n.º 83, que S. Ex.ª o Sr. Ministro Encarregado do Expediente do Governo manda remeter, a fim de ser publicada no Corpo de Exército ao mando de V. Ex.ª.</p>
+                <p>Passo às mãos de <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> a adjunta ordem do dia de hoje, sob n.º 83, que <choice><abbr>S. Ex.ª</abbr><expan>Sua Excelência</expan></choice> o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Ministro Encarregado do Expediente do Governo manda remeter, a fim de ser publicada no Corpo de Exército ao mando de <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.</p>
                 
-                <p>Deus guarde a V. Ex.ª. Quartel-general em <placeName ref="#bage">Bagé</placeName>, <date when="1842-01-01">1.º de janeiro de 1842</date>.</p>
+                <p>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>. Quartel-general em <placeName ref="#bage">Bagé</placeName>, <date when="1842-01-01">1.º de janeiro de 1842</date>.</p>
                 
                 <p>Ao cidadão <persName ref="#joao_antonio_silveira">General Silveira</persName>, Comandante do 1.º Corpo de Exército.</p>
                 

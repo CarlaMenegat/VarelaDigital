@@ -45,7 +45,7 @@
             <div xml:id="CV-444" type="letter">
                 
                 <opener>
-                    <salute>Exmo. amigo Sr. <persName ref="#matos">Matos</persName></salute>
+                    <salute>Exmo. amigo <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#matos">Matos</persName></salute>
                 </opener>
                 
                 <p>Veja esse requerimento e informação, e diga-me o que se fazer. Veja também o que diz <persName ref="#antonio_neto">Neto</persName> e o que responder-lhe, se bem que cavalos [sei quer?] Tavares.</p>
@@ -57,7 +57,7 @@
                 </closer>
                 
                 <opener>
-                    <salute>Amigo Sr.</salute>
+                    <salute>Amigo <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>A vista da conçessão que já o governo havia dado entendo que se lhe deve continuar a consentir no que exige e na forma requerida, <foreign xml:lang="la">id est</foreign>: o gozo dos serviços do escravo até nova ordem do governo.</p>
@@ -71,7 +71,7 @@
                 </closer>
                 
                 <note type="endorsement">
-                    <p>Exmo. Sr. <persName ref="#matos">Matos</persName>. [No verso]</p>
+                    <p>Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#matos">Matos</persName>. [No verso]</p>
                     <p>S. Casa.</p>
                     <p><persName ref="#joao_barcelos">João Barcelos</persName> - 1 [No verso, em tinta e letra diferentes]</p>
                     <p><persName ref="#porfirio">Porfírio</persName> - 2</p>

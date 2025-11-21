@@ -49,17 +49,17 @@
             <div xml:id="CV-428" type="letter">
                 
                 <opener>
-                    <salute>Cópia — Ilmo. Sr.</salute>
+                    <salute>Cópia — Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Os ofícios que ora expeço a <persName ref="#jose_joaquim_caldeira">José Joaquim Caldeira</persName>, a <persName ref="#leocadio_jose_oliveira">Leocádio José de Oliveira</persName> e a <persName ref="#simeao_estelita_cunha">Simeão Estelita da Cunha</persName>, por cópia inclusos, mostrarão a V. S.ª quais os resultados de nossa conferência acerca da fraude que tem havido nos direitos nacionais, direitos que nos são urgentes presentemente. Se me tiver escapado outra alguma medida mais profícua, se servirá dizer-me para determiná-la.</p>
+                <p>Os ofícios que ora expeço a <persName ref="#jose_joaquim_caldeira">José Joaquim Caldeira</persName>, a <persName ref="#leocadio_jose_oliveira">Leocádio José de Oliveira</persName> e a <persName ref="#simeao_estelita_cunha">Simeão Estelita da Cunha</persName>, por cópia inclusos, mostrarão a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> quais os resultados de nossa conferência acerca da fraude que tem havido nos direitos nacionais, direitos que nos são urgentes presentemente. Se me tiver escapado outra alguma medida mais profícua, se servirá dizer-me para determiná-la.</p>
                 
-                <p>Também anexo cópia do ofício que dirijo ao Chefe Geral de Polícia do município de <placeName ref="#jaguarao">Jaguarão</placeName>, para sua inteligência. Imediatamente que recebi seu ofício de hoje revoguei a transferência da mulher de <persName ref="#camilo_fernandes_lima">Camilo Fernandes Lima</persName> e da viúva Rita, despachando o Guarda Nacional <persName ref="#antonio_sousa_leal">Antônio de Sousa Leal</persName> para o ponto onde V. S.ª o tem colocado. Ontem à noite recebi o que V. S.ª me dirigiu com a parte do mesmo Leal, tendo antes a V. S.ª enviado a que dera o <persName ref="#felix_vieira">Major Félix Vieira</persName>.</p>
+                <p>Também anexo cópia do ofício que dirijo ao Chefe Geral de Polícia do município de <placeName ref="#jaguarao">Jaguarão</placeName>, para sua inteligência. Imediatamente que recebi seu ofício de hoje revoguei a transferência da mulher de <persName ref="#camilo_fernandes_lima">Camilo Fernandes Lima</persName> e da viúva Rita, despachando o Guarda Nacional <persName ref="#antonio_sousa_leal">Antônio de Sousa Leal</persName> para o ponto onde <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> o tem colocado. Ontem à noite recebi o que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> me dirigiu com a parte do mesmo Leal, tendo antes a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> enviado a que dera o <persName ref="#felix_vieira">Major Félix Vieira</persName>.</p>
                 
-                <p>Eu suponho que o movimento do inimigo tem por fim fazer passar livres de direitos várias tropas que me consta estarem-se fazendo no <placeName ref="#estado_oriental">Estado Oriental</placeName>; e por isso não seria ocioso se V. S.ª, podendo, mandasse tomá-las na passagem do Jaguarão, não desprezando contudo as cautelas que convêm.</p>
+                <p>Eu suponho que o movimento do inimigo tem por fim fazer passar livres de direitos várias tropas que me consta estarem-se fazendo no <placeName ref="#estado_oriental">Estado Oriental</placeName>; e por isso não seria ocioso se <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>, podendo, mandasse tomá-las na passagem do Jaguarão, não desprezando contudo as cautelas que convêm.</p>
                 
                 <closer>
-                    <p>Deus guarde a V. S.ª.</p>
+                    <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                 </closer>
                 
                 <signed>
@@ -67,7 +67,7 @@
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.
                 </signed>
                 
-                <note type="endorsement">Ilmo. Sr. <persName ref="#camilo_campelo">Tenente-coronel Camilo Campelo</persName>, Comandante das Forças desta Comarca. Está conforme. O Oficial-maior interino. (a) Vicente Ferrer de Almeida.</note>
+                <note type="endorsement">Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#camilo_campelo">Tenente-coronel Camilo Campelo</persName>, Comandante das Forças desta Comarca. Está conforme. O Oficial-maior interino. (a) Vicente Ferrer de Almeida.</note>
                 
             </div>
         </body>

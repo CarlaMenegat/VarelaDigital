@@ -49,14 +49,14 @@
             <div type="letter" xml:id="CV-317">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Cópia — Ilmo. Sr.. Tendo à vista seu ofício de ontem que versa sobre a ordem expedida ao Capitão Diretor do <orgName ref="#trem_guerra">Trem de Guerra</orgName> em consequência da ocorrência ali havida no dia anterior com o servente <persName ref="#antonio_jose">Antônio José</persName>, cumpre-me dizer-lhe em resposta, certo do bom e exemplar comportamento de V.Sª. não só no desempenho do comando da guarnição da capital como em todo o serviço de que tem sido encarregado, é que lhe recomendei a continuação desse comportamento digno do seu patriotismo e maneiras doces, desprezando alguma espécie que parecesse ofender o seu melindre e atribuições, bem como aquela que se não pode duvidar ter perturbado a ordem interna da repartição, e que deu lugar à queixa do diretor dela.</p>
+                <p>Cópia — Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>. Tendo à vista seu ofício de ontem que versa sobre a ordem expedida ao Capitão Diretor do <orgName ref="#trem_guerra">Trem de Guerra</orgName> em consequência da ocorrência ali havida no dia anterior com o servente <persName ref="#antonio_jose">Antônio José</persName>, cumpre-me dizer-lhe em resposta, certo do bom e exemplar comportamento de <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> não só no desempenho do comando da guarnição da capital como em todo o serviço de que tem sido encarregado, é que lhe recomendei a continuação desse comportamento digno do seu patriotismo e maneiras doces, desprezando alguma espécie que parecesse ofender o seu melindre e atribuições, bem como aquela que se não pode duvidar ter perturbado a ordem interna da repartição, e que deu lugar à queixa do diretor dela.</p>
                 
                 <p>Está pois tudo passado, e o governo satisfeito com a maneira por que se há desfechado tal negócio. Respeito ao fornecimento de roupa para as praças da guarnição, recrutas e música, ontem mesmo se expediram as ordens necessárias, e com a chegada breve das fazendas compradas a D. <persName ref="#carlos_munoz">Carlos Muñoz</persName>, todas essas requisições serão preenchidas prontamente.</p>
                 
-                <p>Deus guarde a V.Sª.. <orgName ref="#secretaria_fazenda">Secretaria da Fazenda encarregada do expediente da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 6 de julho de 1839.</p>
+                <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>. <orgName ref="#secretaria_fazenda">Secretaria da Fazenda encarregada do expediente da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 6 de julho de 1839.</p>
                 
                 <closer>
                     <signed>Domingos José de Almeida</signed>

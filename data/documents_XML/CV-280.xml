@@ -45,20 +45,20 @@
             <div type="carta" xml:id="CV-280">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
                     Com seu ofício de 8 do corrente chegaram os 390 cavalos que
-                    V.Sª. remeteu para o exército e pelo conduto do Sargento Fidêncio
+                    <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> remeteu para o exército e pelo conduto do Sargento Fidêncio
                     Machado, que belamente desempenhou essa comissão, pois ditos
-                    cavalos chegaram mui bem tratados. V.Sª. não perca ocasião de
+                    cavalos chegaram mui bem tratados. <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> não perca ocasião de
                     adquirir deste artigo, embora com sacrifícios, mesmo com vistas
                     futuras, etc., etc..
                 </p>
                 
                 <closer>
-                    <salute>Deus guarde a V.Sª.</salute>
+                    <salute>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice></salute>
                     <dateline>
                         <placeName ref="#piratini">Piratini</placeName>,
                         <date when="1839-01-10">10 de janeiro de 1839</date>.
@@ -69,7 +69,7 @@
                 </closer>
                 
                 <opener>
-                    <salute>Ilmo. Sr. Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</salute>
                     <seg>Comandante da Divisão da Direita.</seg>
                 </opener>
                 

@@ -44,11 +44,11 @@
         <body>
             <div type="letter" xml:id="CV-39">
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
-                    Participo a V.Ex.ª que chegou-me a partida que tinha mandado além do 
+                    Participo a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que chegou-me a partida que tinha mandado além do 
                     <placeName ref="#rio_jacui">rio Jacuí</placeName> comandada pelo 
                     <persName ref="#joaquim_rodrigues">Furriel Joaquim Rodrigues</persName>,
                     tendo sido malogrado o plano por ter o rebelde 
@@ -58,11 +58,11 @@
                 
                 <p>
                     O rebelde <persName ref="#jose_romao_taborda">José Romão Taborda</persName>, preso na surtida antecedente, 
-                    foi entregue à ordem de V.Ex.ª ao Major Comandante Geral do Município.
+                    foi entregue à ordem de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> ao Major Comandante Geral do Município.
                 </p>
                 
                 <closer>
-                    <p>Deus guarde a V.Ex.ª. Quartel na 
+                    <p>Deus guarde a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>. Quartel na 
                         <placeName ref="#triunfo">vila do Triunfo</placeName>,
                         <date when="1845-02-16">16 de fevereiro de 1845</date>.</p>
                     
@@ -73,7 +73,7 @@
                 </closer>
                 
                 <note type="endorsement">
-                    Ilmo. e Exmo. Sr. <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/>
+                    Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/>
                     Marechal e Comandante da Guarnição de 
                     <placeName ref="#porto_alegre">Porto Alegre</placeName>.
                 </note>

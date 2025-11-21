@@ -44,13 +44,13 @@
             <div type="letter" xml:id="CV-286">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
                     Sendo que ainda se não tenha entregado ao 
                     <persName ref="#major_faria">Major Faria</persName> 
-                    o gado que V.Sª. cedeu ao Estado, haja de o mandar entregar ao cidadão 
+                    o gado que <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> cedeu ao Estado, haja de o mandar entregar ao cidadão 
                     <persName ref="#rafael_teixeira_marins">Rafael Teixeira Marins</persName>, 
                     ficando de nenhum efeito minhas ordens anteriores acerca da entrega do mesmo 
                     ao dito <persName ref="#joaquim_faria_correa">Major Faria</persName>.
@@ -66,7 +66,7 @@
                 </closer>
                 
                 <address>
-                    Ilmo. Sr. 
+                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
                     <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>.<lb/>
                     Comandante da Divisão da Direita.
                 </address>

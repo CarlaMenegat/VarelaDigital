@@ -45,10 +45,10 @@
             <div type="letter" xml:id="CV-115">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>O Coronel Agostinho pede-me, em uma carta escrita com muita pressa, participe a V.Exª. que,
+                <p>O Coronel Agostinho pede-me, em uma carta escrita com muita pressa, participe a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> que,
                     mandando um contingente de 50 homens, ao mando do Capitão Lima, a reunir-se ao Tenente-coronel
                     Aranha, no dia 5 pela manhã foi atacado para cá da estância do Lara por uma força inimiga,
                     ficando o mesmo Lima destroçado, escapando com 2 oficiais mais e 8 soldados, ficando prisioneiro
@@ -58,10 +58,10 @@
                     com que ficou no <placeName ref="#passo_fundo">Passo Fundo</placeName>; e afirma o mesmo Capitão Lima que o Candinho com os
                     emigrados é que o bateram.</p>
                 
-                <p>Pela carta adjunta verá V.Exª. o acontecimento do <placeName ref="#rio_pardo">Rio Pardo</placeName>, afirmando demais
-                    a V.Exª. que este município está sem armas, sem força e na maior agitação.</p>
+                <p>Pela carta adjunta verá <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> o acontecimento do <placeName ref="#rio_pardo">Rio Pardo</placeName>, afirmando demais
+                    a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> que este município está sem armas, sem força e na maior agitação.</p>
                 
-                <p>Deus guarde a V.Exª. muitos anos.</p>
+                <p>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muitos anos.</p>
                 
                 <dateline>
                     <placeName ref="#cruz_alta">Vila da Cruz Alta</placeName>,
@@ -69,7 +69,7 @@
                 </dateline>
                 
                 <closer>
-                    <salute>Ilmo. e Exmo. Sr. General <persName ref="#bento_manuel">Bento Manuel Ribeiro</persName>.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General <persName ref="#bento_manuel">Bento Manuel Ribeiro</persName>.</salute>
                     <signed>(a) <persName ref="#ricardo_melo_albuquerque">Ricardo Antônio de Melo e Albuquerque</persName>.</signed>
                 </closer>
                 

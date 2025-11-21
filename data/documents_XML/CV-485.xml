@@ -47,24 +47,24 @@
             <div xml:id="CV-485" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Por virtude de sua oficiosa de 15 do corrente, incluso lhe remeto uma portaria para, na apresentação dela ao cidadão <persName ref="#comissario_geral_exercito">Comissário Geral do Exército</persName>, serem entregues ao negociante <persName ref="#francisco_nault">Francisco Nault</persName> os quarenta couros que V. S.ª requisitou, a fim de continuar a ser sua família socorrida pelo dito negociante, e marchar V. S.ª sem demora para este campo.</p>
+                <p>Por virtude de sua oficiosa de 15 do corrente, incluso lhe remeto uma portaria para, na apresentação dela ao cidadão <persName ref="#comissario_geral_exercito">Comissário Geral do Exército</persName>, serem entregues ao negociante <persName ref="#francisco_nault">Francisco Nault</persName> os quarenta couros que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> requisitou, a fim de continuar a ser sua família socorrida pelo dito negociante, e marchar <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> sem demora para este campo.</p>
                 
                 <closer>
-                    <salute>Deus guarde a V. S.ª.</salute>
+                    <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
                     <dateline>Secretaria do Interior e Fazenda encarregada do expediente da Guerra em <placeName ref="#bage">Bagé</placeName>, 24 de agosto de 1841.</dateline>
                     <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
                 </closer>
                 
                 <address>
-                    <persName ref="#jose_amancio_jambeiro">Ilmo. Sr. Capitão José Amâncio Jambeiro</persName><br/>
+                    <persName ref="#jose_amancio_jambeiro">Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Capitão José Amâncio Jambeiro</persName><br/>
                     <placeName ref="#piratini">Piratini</placeName>
                 </address>
                 
                 <note type="endorsement">
-                    S. da R. — Ao cidadão <persName ref="#jose_amancio_jambeiro">José Amâncio Jambeiro</persName>. <placeName ref="#piratini">Piratini</placeName>. Do Ministério da Guerra.
+                    <choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice> — Ao cidadão <persName ref="#jose_amancio_jambeiro">José Amâncio Jambeiro</persName>. <placeName ref="#piratini">Piratini</placeName>. Do Ministério da Guerra.
                 </note>
                 
             </div>

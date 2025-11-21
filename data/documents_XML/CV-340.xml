@@ -47,27 +47,27 @@
             <div type="letter" xml:id="CV-340">
                 
                 <opener>
-                    <salute>Circular – Ilmo. Sr.</salute>
+                    <salute>Circular – Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Incluso remeto a V.Sª 2 exemplares do Periódico 
+                <p>Incluso remeto a <choice><abbr>V.Sª</abbr><expan>Vossa Senhoria</expan></choice> 2 exemplares do Periódico 
                     <orgName ref="#periodico_povo">Povo</orgName>, número 111, de 19 do corrente, 
                     em o qual se descreve as exéquias que por alma do falecido 
                     <persName ref="#joao_manuel_lima_silva">General João Manuel de Lima e Silva</persName> 
                     tiveram lugar nesta capital no dia 17 deste mesmo mês; para que, 
-                    dando-lhes V.Sª a devida publicidade, conheçam nossos concidadãos 
+                    dando-lhes <choice><abbr>V.Sª</abbr><expan>Vossa Senhoria</expan></choice> a devida publicidade, conheçam nossos concidadãos 
                     qual o apreço e consideração que a Nação Rio-grandense tributa 
                     aos restos dos patriotas que em defesa da independência e liberdade 
                     nacional exalaram e exalarem seus últimos suspiros.
                 </p>
                 
                 <closer>
-                    <salute>Deus guarde a V.Sª.</salute>
+                    <salute>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice></salute>
                     <signed>Domingos José de Almeida</signed>
                     <p>Secretaria da Fazenda encarregada do expediente do Governo</p>
                 </closer>
                 
-                <p>Ilmo. Sr. <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.</p>
+                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.</p>
                 
                 <note type="endorsement">Do Ministério da Guerra de 23 de outubro, recebida a 12 de novembro.</note>
                 

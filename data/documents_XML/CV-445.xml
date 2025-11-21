@@ -57,7 +57,7 @@
                 
                 <p>Tens agora aqui cinco parentas, sendo três primas e uma sobrinha; aquelas são <persName ref="#marucas_mateus">Marucas do Mateus</persName>, <persName ref="#marucas_zeferino">Marucas do Zeferino</persName>, <persName ref="#carlotas">Carlotas</persName>, <persName ref="#marucas_inacio">Marucas de tio Inácio</persName>, digo <persName ref="#quinota">Quinota</persName> e <persName ref="#quinota_joaquim_ligeira">Quinota de Joaquim da Ligeira</persName>: havemos fazer um fandango quando chegares, depois do que trataremos de arranjos, ou para ficar, ou para voltar.</p>
                 
-                <p>Já estou velho e sem jeito para namorar; preciso portanto a minha costela ao lado a ver se ainda arranjo dez filhos mais. A vires, traz-me toda a rapaziada, e conta com o passadio da campanha e nada mais, traze também algum dinheiro que eu estou como São Francisco. Sobre a Sra. <persName ref="#dona_rufina">D. Rufina</persName> não te incomodes: assim..., etc., etc... Quando vieres me adianta um próprio para te ir esperar em caminho; e traze roupa de cavalo. Não sou mais extenso: cá te espero.</p>
+                <p>Já estou velho e sem jeito para namorar; preciso portanto a minha costela ao lado a ver se ainda arranjo dez filhos mais. A vires, traz-me toda a rapaziada, e conta com o passadio da campanha e nada mais, traze também algum dinheiro que eu estou como São Francisco. Sobre a <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> <persName ref="#dona_rufina">D. Rufina</persName> não te incomodes: assim..., etc., etc... Quando vieres me adianta um próprio para te ir esperar em caminho; e traze roupa de cavalo. Não sou mais extenso: cá te espero.</p>
                 
                 <closer>
                     <p>Saudades a nossos compadres, comadres e conhecidos; abraça por mim a nossos filhos, e recebe o coração do</p>
@@ -66,7 +66,7 @@
                 </closer>
                 
                 <address>
-                    <addrLine><persName ref="#bernardina_barcelos_almeida">Sra. Bernardina Barcelos de Almeida</persName>.</addrLine>
+                    <addrLine><persName ref="#bernardina_barcelos_almeida"><choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> Bernardina Barcelos de Almeida</persName>.</addrLine>
                     <addrLine><placeName ref="#bage">Bagé</placeName></addrLine>
                 </address>
                 

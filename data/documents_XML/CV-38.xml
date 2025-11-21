@@ -44,11 +44,11 @@
         <body>
             <div type="letter" xml:id="CV-38">
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
-                    Comunico a V.Ex.ª que tendo notícia pelos meus vigias além do 
+                    Comunico a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que tendo notícia pelos meus vigias além do 
                     <placeName ref="#rio_jacui">rio Jacuí</placeName> que se aproximara uma pequena força rebelde às 
                     <placeName ref="#charqueadas_costa">charqueadas da Costa</placeName>, de combinação com o 
                     <persName ref="#fernando_kersting">Major Fernando Kersting</persName>, Comandante deste Município, mandei 
@@ -72,7 +72,7 @@
                 </p>
                 
                 <p>
-                    Nesta ocasião julgo do meu dever informar a V.Ex.ª de uma intriga que principia a 
+                    Nesta ocasião julgo do meu dever informar a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> de uma intriga que principia a 
                     aparecer entre o Comandante da Canhoneira aqui destacada e o Comandante Geral 
                     do Município, intriga esta toda formada pelo malvado 
                     <persName ref="#antonio_francisco_almeida">Antônio Francisco de Almeida</persName>, que, como tem dizem, 
@@ -86,7 +86,7 @@
                 </p>
                 
                 <p>
-                    Releve V.Ex.ª que eu passe a lembrar a necessidade de um lanchão de guerra e de 
+                    Releve <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que eu passe a lembrar a necessidade de um lanchão de guerra e de 
                     uma barca de cavalos à disposição do Comandante Geral do Município. Com esta 
                     medida de absoluta necessidade lucra muito a Nação e ficam frustrados os planos 
                     de Almeida.
@@ -100,7 +100,7 @@
                 </p>
                 
                 <closer>
-                    <p>Deus guarde a V.Ex.ª, <placeName ref="#triunfo">Vila do Triunfo</placeName> em 
+                    <p>Deus guarde a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, <placeName ref="#triunfo">Vila do Triunfo</placeName> em 
                         <date when="1845-02-15">15 de fevereiro de 1845</date>.</p>
                     <signed>
                         <persName ref="#antonio_pedro_abreu">Antônio Pedro de Abreu</persName><br/>
@@ -109,7 +109,7 @@
                 </closer>
                 
                 <note type="endorsement">
-                    Ilmo. e Exmo. Sr. <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>, 
+                    Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>, 
                     Marechal e Comandante da Guarnição de <placeName ref="#porto_alegre">Porto Alegre</placeName>.
                 </note>
                 

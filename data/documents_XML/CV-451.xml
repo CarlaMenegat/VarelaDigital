@@ -46,9 +46,9 @@
             <div xml:id="CV-451" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr. <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>.</salute>
                     <dateline><placeName ref="#piratini">Piratini</placeName>, 17 de fevereiro de 1841.</dateline>
-                    <salute>Prezado amigo e Sr.</salute>
+                    <salute>Prezado amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Ontem em casa do <persName ref="#vice_presidente">Vice-presidente</persName> recebi a sua estimada de 14 do corrente e como dali mesmo mandasse o escravo para minha e sua casa, e até agora me não aparece o condutor, sendo aliás meio-dia, resolvi dirigir-lhe a presente em resposta, agradecendo-lhe o singular obséquio da remessa do dito meu escravo.</p>

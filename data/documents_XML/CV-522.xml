@@ -47,14 +47,14 @@
             <div type="letter" xml:id="CV-522">
                 
                 <opener>
-                    <salute>Ilmo. Sr. <persName ref="#luis_bocquin_des_hilaires">D. Luís Bocquin des Hilaires</persName></salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#luis_bocquin_des_hilaires">D. Luís Bocquin des Hilaires</persName></salute>
                 </opener>
                 
-                <p>Prezado amigo e Sr.</p>
+                <p>Prezado amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></p>
                 
                 <p>Que achasse sua família de perfeita saúde é o que mais estimarei. Logo depois de sua saída de <placeName ref="#cerro_largo">Cerro Largo</placeName> correu notícias que o tinham assassinado; julgue quais minhas aflições e depois meu prazer quando por <persName ref="#antonio_goncalves">Antônio Gonçalves</persName> soube ser mentira.</p>
                 
-                <p>Nossa <orgName ref="#tipografia">Tipografia</orgName> está pronta, mas faltam-lhe tipos; eu ora os peço a <persName ref="#pablo_ramon">Dom Pablo Ramón</persName> a quem entregará a carta junta; e se ele os não arranjar V. S.ª mos compre a todo o custo e mos remeta na primeira ocasião de portador seguro, ficando certo que pelo Evaristo, que para essa pretendo mandar por estes oito dias, lhe irá dinheiro suficiente para seu embolso. Ao dito <persName ref="#pablo_ramon">Dom Pablo Ramón</persName> se pede uma grande fatura de objetos para o Trem; rogo a V. S.ª que o ajude na agência de carretas, a fim de que venham tais objetos sem perda de tempo, ainda que ofereça dez ou doze pesos mais de frete por cada carreta que os transportar a <placeName ref="#cerro_largo">Cerro Largo</placeName> para onde devem ser remetidos a <persName ref="#manuel_goncalves_silva">Manuel Gonçalves da Silva</persName> ou a <persName ref="#francisco_truebas">Dom Francisco Truebas</persName>.</p>
+                <p>Nossa <orgName ref="#tipografia">Tipografia</orgName> está pronta, mas faltam-lhe tipos; eu ora os peço a <persName ref="#pablo_ramon">Dom Pablo Ramón</persName> a quem entregará a carta junta; e se ele os não arranjar <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> mos compre a todo o custo e mos remeta na primeira ocasião de portador seguro, ficando certo que pelo Evaristo, que para essa pretendo mandar por estes oito dias, lhe irá dinheiro suficiente para seu embolso. Ao dito <persName ref="#pablo_ramon">Dom Pablo Ramón</persName> se pede uma grande fatura de objetos para o Trem; rogo a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> que o ajude na agência de carretas, a fim de que venham tais objetos sem perda de tempo, ainda que ofereça dez ou doze pesos mais de frete por cada carreta que os transportar a <placeName ref="#cerro_largo">Cerro Largo</placeName> para onde devem ser remetidos a <persName ref="#manuel_goncalves_silva">Manuel Gonçalves da Silva</persName> ou a <persName ref="#francisco_truebas">Dom Francisco Truebas</persName>.</p>
                 
                 <p>Se os carreteiros quiserem vir ao passo do <placeName ref="#valente">Valente</placeName>, tanto melhor; e portanto inste com eles para virem a este ponto. Todos desta sua casa ficam bons, e lhe enviam milhares de saudades, e eu em particular por ser com veras</p>
                 

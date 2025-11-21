@@ -45,20 +45,20 @@
             <div type="letter" xml:id="CV-363">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Se for possível, e sem o mínimo constrangimento, a entrega do resto do gado que V.Sª há oferecido ao cidadão <persName ref="#jose_mariano_da_cunha">José Mariano da Cunha</persName>, expedirá suas ordens a respeito.</p>
+                <p>Se for possível, e sem o mínimo constrangimento, a entrega do resto do gado que <choice><abbr>V.Sª</abbr><expan>Vossa Senhoria</expan></choice> há oferecido ao cidadão <persName ref="#jose_mariano_da_cunha">José Mariano da Cunha</persName>, expedirá suas ordens a respeito.</p>
                 
                 <p>A pretensão dos índios acerca do Campo de São Vicente não pode ter lugar, por isso que o governo lhes há destinado outro ponto entre o <placeName ref="#toropi">Toropi</placeName> e <placeName ref="#ibicui">Ibicuí</placeName>, lugar onde pretende de pronto estabelecer uma colônia, sob a proteção do General <persName ref="#bento_manuel_ribeiro">Bento Manuel</persName>.</p>
                 
                 <closer>
-                    <p>Deus guarde a V.Sª.</p>
+                    <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice></p>
                     <signed>Secretaria da Fazenda em <placeName ref="#cacapava">Caçapava</placeName>, 26 de janeiro de 1840.<br/>
                         (a) <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>.</signed>
                 </closer>
                 
-                <p>Ilmo. Sr. Cel. <persName ref="#joao_antonio_da_silveira">João Antônio da Silveira</persName>, Comandante da Divisão da Direita.</p>
+                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Cel. <persName ref="#joao_antonio_da_silveira">João Antônio da Silveira</persName>, Comandante da Divisão da Direita.</p>
                 
             </div>
         </body>

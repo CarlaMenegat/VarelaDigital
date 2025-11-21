@@ -47,15 +47,15 @@
             <div type="letter" xml:id="CV-349">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Para conhecimento de V.Sª. e devida execução na parte que lhe toca, incluso lhe remeto dez exemplares do decreto de hoje, pelo qual S. Exª., o Sr. Vice-presidente da República, em atenção ao que lhe representou crescido número de cidadãos rio-grandenses, há minorado o direito do gado de corte que deste e dos estados vizinhos se exportar para Rio Grande e seus subúrbios, pelo <placeName ref="#passo_beca">passo do Beca</placeName> no <placeName ref="#sao_goncalo_pelotas">rio São Gonçalo</placeName>.</p>
+                <p>Para conhecimento de <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> e devida execução na parte que lhe toca, incluso lhe remeto dez exemplares do decreto de hoje, pelo qual <choice><abbr>S. Exª.</abbr><expan>Sua Excelência</expan></choice>, o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Vice-presidente da República, em atenção ao que lhe representou crescido número de cidadãos rio-grandenses, há minorado o direito do gado de corte que deste e dos estados vizinhos se exportar para Rio Grande e seus subúrbios, pelo <placeName ref="#passo_beca">passo do Beca</placeName> no <placeName ref="#sao_goncalo_pelotas">rio São Gonçalo</placeName>.</p>
                 
-                <p>Haja pois V.Sª. de ordenar a quem deva ser, que na fatura e condução das tropas a exportar-se se não admitam indivíduos de quaisquer dos corpos do exército, para se não desviar nesses trabalhos combatentes do mesmo.</p>
+                <p>Haja pois <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> de ordenar a quem deva ser, que na fatura e condução das tropas a exportar-se se não admitam indivíduos de quaisquer dos corpos do exército, para se não desviar nesses trabalhos combatentes do mesmo.</p>
                 
                 <closer>
-                    <p>Deus guarde a V.Sª.</p>
+                    <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice></p>
                     <signed>Domingos José de Almeida</signed>
                 </closer>
                 
@@ -64,7 +64,7 @@
                 </note>
                 
                 <note type="endorsement">
-                    Ilmo. Sr. Coronel João Antônio da Silveira, Comandante da Divisão da Direita.
+                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel João Antônio da Silveira, Comandante da Divisão da Direita.
                 </note>
                 
             </div>

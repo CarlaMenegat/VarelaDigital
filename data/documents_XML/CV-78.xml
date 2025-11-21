@@ -40,14 +40,14 @@
             <div type="letter" xml:id="CV-78">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Achando-se a polícia de <placeName ref="#jaguarao">Jaguarão</placeName> sitiada pelos rebeldes, cumpre que V.Sᵃ. mande cinquenta homens de infantaria, comandados por um oficial de confiança; para suprir a falta destes lhe mando sessenta homens de infantaria do Batalhão de seu comando que amanhã sem falta hão de chegar nessa cidade; e eu espero que V.Sᵃ., logo que receba este, vá pessoal requisitar a barca de vapor do Sr. chefe para seguir logo sem perda de tempo, isto no caso que a barca esteja nesse porto e que possa seguir até o dia 24 do corrente; e a não estar a barca que não possa ir no dia marcado, então não mande mais a infantaria, e só sim se chegar o 1.º Batalhão de Fuzileiros; os primeiros que cheguem pode V.Sᵃ. ir mandando, deixando 100 homens do mesmo batalhão comandados por um oficial de confiança.</p>
+                <p>Achando-se a polícia de <placeName ref="#jaguarao">Jaguarão</placeName> sitiada pelos rebeldes, cumpre que V.Sᵃ. mande cinquenta homens de infantaria, comandados por um oficial de confiança; para suprir a falta destes lhe mando sessenta homens de infantaria do Batalhão de seu comando que amanhã sem falta hão de chegar nessa cidade; e eu espero que V.Sᵃ., logo que receba este, vá pessoal requisitar a barca de vapor do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> chefe para seguir logo sem perda de tempo, isto no caso que a barca esteja nesse porto e que possa seguir até o dia 24 do corrente; e a não estar a barca que não possa ir no dia marcado, então não mande mais a infantaria, e só sim se chegar o 1.º Batalhão de Fuzileiros; os primeiros que cheguem pode V.Sᵃ. ir mandando, deixando 100 homens do mesmo batalhão comandados por um oficial de confiança.</p>
                 
                 <p>Deus guarde a V.Sᵃ.. <placeName ref="#passo_maria_gomes">Passo da Maria Gomes</placeName>, <date when="1844-06-23">23 de junho de 1844</date>.</p>
                 
-                <p>Ilmo. Sr. <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName>.<br/>
+                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName>.<br/>
                     Tenente-coronel Comandante da Guarnição de <placeName ref="#pelotas">Pelotas</placeName>.</p>
                 
                 <p>A infantaria deve ficar em <placeName ref="#jaguarao">Jaguarão</placeName> até segunda ordem ou que cheguem as praças que o vá render.</p>

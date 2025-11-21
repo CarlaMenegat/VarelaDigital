@@ -59,20 +59,20 @@
                 </dateline>
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
                     Segue a esse ponto <persName ref="#antonio_jose_bonilha">Antônio José Bonilha</persName>
                     com vistas de carregar da farinha apresada na sumaca
-                    <rs type="embarcacao">“Mineira”</rs> algumas carretas; portanto haja V.S.ª
+                    <rs type="embarcacao">“Mineira”</rs> algumas carretas; portanto haja <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>
                     de encaminhá-lo ao ponto onde ele deva receber mencionada farinha,
                     prestando da sua parte o auxílio ao seu alcance, para com prontidão
                     chegarem a esta cidade as mesmas cargas.
                 </p>
                 
                 <closer>
-                    <salute>Deus guarde a V.S.ª.</salute>
+                    <salute>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
                     <signed>
                         <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     </signed>

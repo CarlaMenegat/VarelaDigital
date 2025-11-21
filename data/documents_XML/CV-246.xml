@@ -57,7 +57,7 @@
             <div type="officialDocument" xml:id="CV-246">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
@@ -65,14 +65,14 @@
                     <orgName ref="#fazendas_nacionais">Fazendas Nacionais</orgName>, 
                     outrora dos extintos jesuítas em 
                     <placeName ref="#missoes">Missões</placeName>, 
-                    assim o comunico a V. S. para que fique de nenhum efeito a ordem 
+                    assim o comunico a <choice><abbr>V. S.</abbr><expan>Vossa Senhoria</expan></choice> para que fique de nenhum efeito a ordem 
                     expedida por esta repartição em 6 do presente mês a favor de 
                     <persName ref="#jose_antonio_silva">José Antônio da Silva</persName>, 
                     que deverá ser embolsado em gado de propriedade inimiga.
                 </p>
                 
                 <closer>
-                    <salute>Deus guarde a V. Sª.</salute>
+                    <salute>Deus guarde a <choice><abbr>V. Sª.</abbr><expan>Vossa Senhoria</expan></choice></salute>
                     <dateline>
                         <orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName> em 
                         <placeName ref="#piratini">Piratini</placeName>,
@@ -82,7 +82,7 @@
                 </closer>
                 
                 <note type="endorsement">
-                    Ilmo. Sr. <persName ref="#joaquim_prado_lima">Joaquim dos Santos Prado Lima</persName> — 
+                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_prado_lima">Joaquim dos Santos Prado Lima</persName> — 
                     Comandante Geral da Polícia do Município e Fronteira de 
                     <placeName ref="#alegrete">Alegrete</placeName>.
                 </note>

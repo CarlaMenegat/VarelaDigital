@@ -45,13 +45,13 @@
             <div type="carta" xml:id="CV-281">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
-                    Acusando a recepção dos ofícios que V.Sª. me endereçou a
+                    Acusando a recepção dos ofícios que <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> me endereçou a
                     14 e 15 do corrente, cumpre-me em resposta dizer-lhe, quanto ao
-                    primeiro, que fico certo de ter V.Sª. recebido e enviado meus
+                    primeiro, que fico certo de ter <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> recebido e enviado meus
                     ofícios ao Major Faria, a quem determinava o cumprimento das
                     ordens que neles transmitia, e quanto ao segundo, com as ordens
                     a <persName ref="#rafael_teixeira_marins">Rafael Teixeira Marins</persName> e ao
@@ -61,7 +61,7 @@
                 </p>
                 
                 <closer>
-                    <salute>Deus guarde a V.Sª.</salute>
+                    <salute>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice></salute>
                     <dateline>
                         <placeName ref="#piratini">Piratini</placeName>,
                         <date when="1839-01-19">19 de janeiro de 1839</date>.
@@ -72,13 +72,13 @@
                 </closer>
                 
                 <opener>
-                    <salute>Ilmo. Sr. Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</salute>
                     <seg>Digno Comandante da Divisão da Direita.</seg>
                 </opener>
                 
                 <p>
                     Vai a ordem para dar-se ao médico de Alegrete os 200 patacões que
-                    V.Sª. para ele exigiu.
+                    <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> para ele exigiu.
                 </p>
                 
                 <signed>(a) Almeida.</signed>

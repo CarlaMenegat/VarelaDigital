@@ -45,13 +45,13 @@
             <div type="letter" xml:id="CV-502">
                 
                 <opener>
-                    <salute>Amigo e Sr.</salute>
+                    <salute>Amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Para prevenir prejuizos iminentes à família de nosso falecido amigo <persName ref="#coronel_leao">Coronel Leão</persName>, faz-se muito preciso que V.S.ª tenha comigo uma entrevista o mais breve possível; e por isso faça o bem de chegar até cá logo que possa ser. Sem outro objeto; sou</p>
+                <p>Para prevenir prejuizos iminentes à família de nosso falecido amigo <persName ref="#coronel_leao">Coronel Leão</persName>, faz-se muito preciso que <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> tenha comigo uma entrevista o mais breve possível; e por isso faça o bem de chegar até cá logo que possa ser. Sem outro objeto; sou</p>
                 
                 <closer>
-                    <salute>De V.S.ª</salute>
+                    <salute>De <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice></salute>
                     <signed>Amigo muito afetuoso e obrigado</signed>
                 </closer>
                 

@@ -50,26 +50,26 @@
             <div xml:id="CV-421" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Da fazenda do dissidente <persName ref="#manuel_alz_oliveira">Manuel Alz. de Oliveira</persName> arrendada a 
-                    <persName ref="#zeferino_dias_silva_ferreira">Zeferino Dias da Silva Ferreira</persName> mandará V. S.ª entregar mil touros de mais de três anos ao 
-                    <persName ref="#jose_rosa_calixto">cidadão José da Rosa Calixto</persName> ou a quem o mesmo determinar, cujos touros V. S.ª mandará 
+                    <persName ref="#zeferino_dias_silva_ferreira">Zeferino Dias da Silva Ferreira</persName> mandará <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> entregar mil touros de mais de três anos ao 
+                    <persName ref="#jose_rosa_calixto">cidadão José da Rosa Calixto</persName> ou a quem o mesmo determinar, cujos touros <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> mandará 
                     despachar na conformidade do disposto no § 8.º do Artigo 37 do Regulamento das Coletorias.</p>
                 
                 <p>Estes touros saem da fazenda por conta do dito cidadão; mas as despesas do aparte são de conta do Estado, e por isso 
                     toda a economia é indispensável.</p>
                 
                 <closer>
-                    <p>Deus guarde a V. S.ª.</p>
+                    <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                 </closer>
                 
                 <p><orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName> em <placeName ref="#piratini">Piratini</placeName>, 17 de dezembro de 1840.</p>
                 
                 <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</signed>
                 
-                <p>Ilmo. Sr. <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName><br/>
+                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName><br/>
                     <orgName ref="#divisao_direita">Comandante da Divisão da Direita</orgName>.</p>
                 
                 <note type="endorsement">Respondido a 28</note>

@@ -105,14 +105,14 @@
                 <div type="letter" xml:id="CV-153">
                     
                     <opener>
-                        <salute>Exmo. Sr.</salute>
+                        <salute>Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                     </opener>
                     
-                    <p>De ordem de S. Ex.ª o <persName ref="#bento_goncalves">Sr. General-em-chefe do Exército</persName> envio a V. Ex.ª a ordem do dia junta de n.º 78 para ser público nas forças de seu mando.</p>
+                    <p>De ordem de <choice><abbr>S. Ex.ª</abbr><expan>Sua Excelência</expan></choice> o <persName ref="#bento_goncalves"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General-em-chefe do Exército</persName> envio a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> a ordem do dia junta de n.º 78 para ser público nas forças de seu mando.</p>
                     
-                    <p>Deus guarde a V. Ex.ª. Quartel-general em <placeName ref="#bage">Bagé</placeName>, <date when="1841-10-18">18 de outubro de 1841</date>.</p>
+                    <p>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>. Quartel-general em <placeName ref="#bage">Bagé</placeName>, <date when="1841-10-18">18 de outubro de 1841</date>.</p>
                     
-                    <p>Exmo. Sr. <persName ref="#joao_antonio_silveira">General João Antônio da Silveira</persName>.</p>
+                    <p>Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">General João Antônio da Silveira</persName>.</p>
                     
                     <closer>
                         <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>

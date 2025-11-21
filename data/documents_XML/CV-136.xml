@@ -47,15 +47,15 @@
             <div type="letter" xml:id="CV-136">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Agora mesmo faço seguir para <placeName ref="#sao_gabriel">São Gabriel</placeName>, a entregar ao Juiz
-                    de Paz Correia, para este remeter a V. S.ª, 1000 cartuchos e 100 lanças; e logo
+                    de Paz Correia, para este remeter a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>, 1000 cartuchos e 100 lanças; e logo
                     que estejam prontas as outras 100 remeterei ao mesmo ponto, o que não
                     demorará muito.</p>
                 
-                <p>Deus guarde a V.S.ª. <placeName ref="#cacapava">Secretaria da Guerra em Caçapava</placeName>,
+                <p>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>. <placeName ref="#cacapava">Secretaria da Guerra em Caçapava</placeName>,
                     26 de dezembro 1839.</p>
                 
                 <closer>
@@ -63,7 +63,7 @@
                 </closer>
                 
                 <note type="endorsement">
-                    S.R. — Ao cidadão <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>,
+                    <choice><abbr>S.R.</abbr><expan>Secretaria da Presidência da República</expan></choice> — Ao cidadão <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>,
                     Comandante da Divisão da Direita, onde se achar.  
                     <placeName ref="#sao_gabriel">S. Gabriel</placeName> [carimbo].
                 </note>

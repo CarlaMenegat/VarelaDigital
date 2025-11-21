@@ -46,13 +46,13 @@
             <div xml:id="CV-483" type="letter">
                 
                 <opener>
-                    <salute>Meu Exmo. compadre, amigo e Sr.</salute>
+                    <salute>Meu Exmo. compadre, amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p><persName ref="#jose_de_assis_candall">Candall</persName> exige documento das fazendas constantes da relação junta, diz que por sua ordem dadas ao <persName ref="#joao_fernandes">Capitão João Fernandes</persName>; e se assim for pode V. Ex.ª rubricar para se lhe mandar passar o dito documento.</p>
+                <p><persName ref="#jose_de_assis_candall">Candall</persName> exige documento das fazendas constantes da relação junta, diz que por sua ordem dadas ao <persName ref="#joao_fernandes">Capitão João Fernandes</persName>; e se assim for pode <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> rubricar para se lhe mandar passar o dito documento.</p>
                 
                 <closer>
-                    <p>De V. Ex.ª<br/>
+                    <p>De <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice><br/>
                         Compadre e amigo fiel e obrigado</p>
                     <dateline><placeName ref="#sao_gabriel">S.C.</placeName>, 16 de agosto de 1841</dateline>
                     <signed>(a) <persName ref="#domingos_jose_almeida">Almeida</persName></signed>
@@ -60,7 +60,7 @@
                 
                 <!-- RESPOSTA ANEXADA -->
                 <opener>
-                    <salute>Exmo. Sr.</salute>
+                    <salute>Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Devolvo a conta rubricada, e conquanto eu esteja certo de que pelo <persName ref="#joao_fernandes">Capitão João Fernandes</persName> mandei fazer esta compra para suprimento de algumas praças e oficiais, todavia não posso lembrar-me das miudezas que foram; porém, como eu havia dado ordem àquele capitão para dar documento do que recebesse, e não tendo ele feito, não tive dúvida em rubricar, certo na capacidade do negociante, e mesmo porque exigirei do capitão a conta, em tempo oportuno.</p>
@@ -71,7 +71,7 @@
                 </closer>
                 
                 <address>
-                    <persName ref="#presidente_republica">Exmo. Sr. Presidente</persName>
+                    <persName ref="#presidente_republica">Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente</persName>
                 </address>
                 
                 <note type="endorsement">S. casa.</note>

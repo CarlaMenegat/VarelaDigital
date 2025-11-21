@@ -34,9 +34,9 @@
         <body>
             <div type="letter" xml:id="CV-6">
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
-                <p>Diz o cidadão <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName>, por seu procurador abaixo firmado, que sendo indispensável inscrever-se no <orgName ref="#tesouro">Tesouro</orgName> a quantia que pelos documentos juntos mostra dever-lhe o Estado, a fim de ter lugar o que V.Ex.ª promete no despacho exarado no requerimento que os cobre, requer a V.Ex.ª assim o mande praticar, e fornecer-lhe documento em forma; pelo que R.Mcê.</p>
+                <p>Diz o cidadão <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName>, por seu procurador abaixo firmado, que sendo indispensável inscrever-se no <orgName ref="#tesouro">Tesouro</orgName> a quantia que pelos documentos juntos mostra dever-lhe o Estado, a fim de ter lugar o que <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> promete no despacho exarado no requerimento que os cobre, requer a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> assim o mande praticar, e fornecer-lhe documento em forma; pelo que R.Mcê.</p>
                 <closer>
                     <signed>Procurador: <persName ref="#domingos_almeida">Domingos José de Almeida</persName></signed>
                     <placeName ref="#bage">Bagé</placeName>, <date when="1842-03-17">17 de março de 1842</date>.
