@@ -242,7 +242,9 @@
         
         <person xml:id="francisco_xavier_cunha">
             <persName>Francisco Xavier da Cunha</persName>
-            <note>Brigadeiro comandante da guarnição, destinatário da carta.</note>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10285240</idno>
+            <roleNeme>Brigadeiro</roleNeme>
+            <note>Brigadeiro comandante da guarnição de São José do Norte.</note>
         </person>
         
         <person xml:id="francisco_pedro_abreu">
@@ -5239,6 +5241,18 @@
         <person xml:id="antonio_rodrigues_filho">
             <persName>Antônio Rodrigues Filho</persName>
             <note>Fornecedor citado na CV-198.</note>
+        </person>
+        
+        <person xml:id="joaquim_jose_freitas">
+            <persName>Joaquim José de Freitas</persName>
+            <idno></idno>
+            <note>Juiz de Paz da Freguesia de Mostardas.</note>
+        </person>
+        
+        <person xml:id="manuel_rodrigues_cordeiro">
+            <persName>Manuel Rodrigues Cordeiro</persName>
+            <idno></idno>
+            <note>Responsável pelo envio de ferragem, massame e chumbo ao comando superior.</note>
         </person>
     </listPerson>
 </standOff>
