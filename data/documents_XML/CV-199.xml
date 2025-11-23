@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Documento CV-199 – Correspondência entre Domingos José de Almeida e Inácio José de Oliveira Guimarães</title>
+                <author>Domingos José de Almeida; Inácio José de Oliveira Guimarães</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-07-02">02 de julho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+
+            <correspDesc xml:id="cv199a-corresp">
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#pelotas">Pelotas</placeName>
+                    <date when="1836-07-22">22 de julho de 1836</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="cv199b-corresp">
+                <correspAction type="sent">
+                    <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                    <placeName ref="#sao_lourenco">São Lourenço</placeName>
+                    <date when="1836-07-24">24 de julho de 1836</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </correspAction>
+            </correspDesc>
+            
+        </profileDesc>
+        
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-11-21">21/11/2025</date>
+                    Conversão TEI realizada por Carla Menegat.
+                </item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <!-- ===================== CV-199a — Carta de Almeida ===================== -->
+            <div type="letter" xml:id="CV-199a">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Inconvenientes insuperáveis têm demorado nossas operações em
+                    <placeName ref="#rio_grande">Rio Grande</placeName>, e a ocupação da capital pelos insurgentes, privando-nos dos
+                    recursos que dali nos vinha de boca e guerra, tem sobremaneira
+                    contristado aos patriotas, por verem nos cidadãos armados um
+                    sofrimento acima da expectativa, e que este se poderá limitar se de
+                    pronto as circunstâncias não melhorarem.</p>
+                
+                <p>Os apologistas do partido contrário têm aberto seus tesouros para
+                    seus sequazes, que nada lhes falta, e essa desproporção será suficiente
+                    para em um momento mudar a face de nossos negócios. Tais ponderações
+                    forçaram a S. Ex.ª, o Sr. Comandante Interino das Armas, a ordenar-me
+                    que pessoal me dirigisse a V. S.ª para rogar-lhe o empréstimo de mil e
+                    quinhentos patacões, o que faço pela presente, por não poder
+                    desamparar outro negócio de igual monta; asseverando a V. S.ª que a
+                    quantia pedida será restituída imediatamente que a capital seja retomada,
+                    o que talvez a esta hora se tenha verificado.</p>
+                
+                <p>Pelo portador, o <persName ref="#baltasar_rodrigues_soares_filho">
+                        Sr. Sargento Baltasar José Rodrigues Soares Filho</persName>, enviará V. S.ª
+                    a quantia pedida, obtendo recibo nesta a fim de ser resgatado quando o
+                    documento em forma lhe for dirigido.</p>
+                
+                <p>Deus guarde a V. S.ª muitos anos.</p>
+                
+                <dateline>
+                    <placeName ref="#pelotas">Pelotas</placeName>,
+                    <date when="1836-07-22">22 de julho de 1836</date>.
+                </dateline>
+                
+                <p>Ilmo. Sr. <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.</p>
+                
+                <closer>
+                    <signed>
+                        (a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName><br/>
+                        Coronel Chefe de Legião.
+                    </signed>
+                </closer>
+                
+                <note type="endorsement" place="verso">
+                    Serviço Público.<br/>
+                    Ilmo. Sr. <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.<br/>
+                    Do coronel Chefe da Legião da Comarca de Rio Grande.
+                </note>
+                
+            </div>
+            
+            
+            <!-- ===================== CV-199b — Resposta de Inácio ===================== -->
+            <div type="letter" xml:id="CV-199b">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>De posse do ofício que V. S.ª me endereçou em 22 do presente,
+                    cumpre-me dizer-lhe que bem a meu pesar não posso concorrer com o
+                    empréstimo que de mim V. S.ª reclama por ordem do Exmo. Sr.
+                    Comandante Interino das Armas, por não me achar munido de dinheiro
+                    algum, o que não deve ser estranho a V. S.ª este meu dizer, pois bem
+                    sabe que as minhas transações todas são efetuadas na cidade de
+                    <placeName ref="#rio_grande">Rio Grande</placeName>, e que mesmo para fazer face a algumas pequenas
+                    despesas tenho sido suprido por
+                    <persName ref="#baltasar_rodrigues_soares_filho">Baltasar José Rodrigues Filho</persName>
+                    e por outros desta mesma freguesia.</p>
+                
+                <p>Eu não me pouparia a esse pequeno desembolso se com efeito houvesse
+                    meios por onde tal quantia se pudesse conseguir, mas isto por aqui é de
+                    tal forma, que muitas vezes nem cem patacões se conseguem por
+                    empréstimo. V. S.ª deve conhecer e ser sabedor que não tenho tratado
+                    de poupar meus bens, e que estes sempre têm estado prontos ao
+                    primeiro aceno de qualquer autoridade que por estes lugares tem
+                    transitado.</p>
+                
+                <p>Deus guarde a V. S.ª muitos anos.</p>
+                
+                <dateline>
+                    <placeName ref="#sao_lourenco">Fazenda em São Lourenço</placeName>,
+                    <date when="1836-07-24">24 de julho de 1836</date>.
+                </dateline>
+                
+                <p>Ilmo. Sr. <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>,
+                    Coronel Chefe de Legião.</p>
+                
+                <closer>
+                    <signed>
+                        (a) <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                    </signed>
+                </closer>
+                
+                <note type="endorsement" place="verso">
+                    [No verso do documento CV-199]
+                </note>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

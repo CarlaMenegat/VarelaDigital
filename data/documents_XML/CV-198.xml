@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carta CV-198 – Domingos José de Almeida para Antônio de Sousa Neto</title>
+                <author>Domingos José de Almeida</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-07-02">02 de julho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc xml:id="cv198a-corresp">
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
+                    <date when="1836-05-14">14 de maio de 1836</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#antonio_sousa_neto">Antônio de Sousa Neto</persName>
+                </correspAction>
+            </correspDesc>
+
+            <correspDesc xml:id="cv198b-corresp">
+                <correspAction type="sent">
+                    <persName>Não identificado</persName>
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#joao_goncalves_da_silva">João Gonçalves da Silva</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-11-21">21/11/2025</date>
+                    Conversão TEI realizada por Carla Menegat.
+                </item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <!-- ===================== CV-198a — Carta ===================== -->
+            <div type="letter" xml:id="CV-198a">
+                
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
+                
+                <p>Desde que aqui cheguei em 5 do corrente mês, que assiduamente
+                    trabalho para prontificar 350 jaquetas, outras tantas calças e camisas,
+                    e 450 ponches, para essa divisão, requisitando 100 ponches demais
+                    para minha legião, por saber do estado dela etc.; e apesar de meus
+                    esforços nada, para assim dizer, tenho obtido; a causa disso fica
+                    comigo, a fim de não atear intrigas.</p>
+                
+                <p>Requisitei seis contos, que se me mandou dar em cobre, e do qual
+                    apenas recebi 2:5008$000 rs.; mas contudo lhe remeto nesta ocasião,
+                    ao conduto do nosso <persName ref="#bento_goncalves">Coronel Comandante Superior</persName>,
+                    o seguinte: em quatro maletas de Bris [sic] dobrado — Prata pelo valor
+                    do cunho Rs. 1:366$400 — 9 onças de ouro pelo valor nominal, sendo
+                    5 a 28$500 e 4 a 308 rs. cada uma.</p>
+                
+                <p>Em 5 caixas, com marca — “Alm.da” — o seguinte:<br/>
+                    50 ponches finos<br/>
+                    115 fardas, sendo 74 carmesins e 41 verdes<br/>
+                    146 calças de baetão azul<br/>
+                    200 camisas</p>
+                
+                <p>O resto do dinheiro, que fico a trocar, como da roupa que se está
+                    a fazer, 4.ª-feira, 18 do presente mês, seguirão comigo na direção de
+                    <placeName ref="#pelotas">Pelotas</placeName>, onde creio nos encontraremos; na maleta marca X é
+                    que vão as 9 onças.</p>
+                
+                <p>Deus guarde a V. S.º muitos anos.</p>
+                
+                <dateline>
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>,
+                    <date when="1836-05-14">14 de maio de 1836</date>.
+                </dateline>
+                
+                <closer>
+                    <signed>
+                        <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.
+                    </signed>
+                </closer>
+                
+                <p>Ilmo. Sr. <persName ref="#antonio_sousa_neto">Antônio de Sousa Neto</persName><br/>
+                    Coronel Comandante da 1.º Divisão Liberal</p>
+                
+            </div>
+            
+            
+            <!-- ===================== CV-198b — Registro contábil ===================== -->
+            <div type="account" xml:id="CV-198b">
+                
+                <head>[No verso do documento CV-198]</head>
+                
+                <p>10:867$023</p>
+                
+                <p>
+                    6 Cobertores a <persName ref="#jose_marques_cunha">José Marques da Cunha</persName> ........ 64$000<br/>
+                    9 Cobertores a <persName ref="#manuel_domigues_moreira">Manuel Domingues Moreira</persName> ........ 43$200<br/>
+                    20 Cobertores a <persName ref="#isidoro_filipe">Isidoro Filipe</persName> ........ 180$000<br/>
+                    14 Cobertores dito dito ........ 285$000<br/>
+                    8 Cobertores a <persName ref="#antonio_inacio_santos">Antônio Inácio dos Santos</persName> ........ 51$200<br/>
+                    28 Cobertores a <persName ref="#antonio_lima_pinto">Antônio de Lima e Pinto</persName> ........ 179$200<br/>
+                    103 côvados de pano a <persName ref="#joao_batista_silva">João Batista da Silva</persName> ........ 432$600<br/>
+                    4 Cobertores a <persName ref="#jose_francisco_guimaraes">José Francisco Guimarães</persName> ........ 34$000<br/>
+                    348 côvados e 1/4 de pano a <persName ref="#jose_joaquim_leite_guimaraes">José Joaquim Leite Guimarães</persName> ........ 1:297$333<br/>
+                    190 3/4 côvados de dito e 140 cobertores a <persName ref="#nelson_aveline">Nelson Aveline</persName> ........ 2:037$450<br/>
+                    19 cobertores e 24 peças de barreganas a <persName ref="#eulalio_antonio_muniz">Eulálio Antônio Muniz</persName> ........ 1:728$400<br/>
+                    A <persName ref="#joaquim_jose_mendes_ribeiro">Joaquim José Mendes Ribeiro</persName>, sua conta ........ 1:158$930<br/>
+                    A <persName ref="#leite_rocha">Leite e Rocha</persName> ........ 178$560<br/>
+                    A <persName ref="#jose_joaquim_leite_guimaraes">José Joaquim Leite Guimarães</persName> ........ 221$500<br/>
+                    12 côvados de pelúcia ........ 34$560<br/>
+                    A <persName ref="#manuel_joaquim_paula">Manuel Joaquim de Paula</persName> ........ 502$720<br/>
+                    A <persName ref="#jorge_taylor">Jorge Taylor</persName> ........ 327$950<br/>
+                    A <persName ref="#jose_ribeiro_pinto_costa">José Ribeiro Pinto Costa</persName> ........ 408$480<br/>
+                    <persName ref="#antonio_maria_sousa">Antônio Maria de Sousa</persName> ........ 618$160<br/>
+                    <persName ref="#joao_pedro_costa_freire">João Pedro da Costa Freire</persName> ........ 626$580<br/>
+                    <persName ref="#antonio_rodrigues_filho">Antônio Rodrigues Filho</persName> ........ 637$200
+                </p>
+                
+                <p>$10:544$303</p>
+                
+                <p>
+                    Carretas ......................................<br/>
+                    2 arrobas de açúcar a <persName ref="#joao_goncalves_da_silva">João Gonçalves da Silva</persName> ........ 25$600<br/>
+                    1 saco para o mesmo ........ $[valor ilegível]
+                </p>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

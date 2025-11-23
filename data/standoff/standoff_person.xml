@@ -116,6 +116,18 @@
         
         <person xml:id="joao_manuel_lima_silva">
             <persName>João Manuel de Lima e Silva</persName>
+            <idno type="viaf">https://viaf.org/en/viaf/70353959</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10311815</idno>
+            <roleName>Major de Infantaria</roleName>
+            <roleName>General</roleName>
+            <relation
+                name="family"
+                mutual="false"
+                active="#francisco_lima_silva"
+                passive="#joao_manuel_lima_silva"
+                ref="https://www.wikidata.org/wiki/Q31184">
+                <desc>Irmãos</desc>
+            </relation>
             <note>General farroupilha falecido em 1839, homenageado com exéquias oficiais em Caçapava.</note>
         </person>
         
@@ -162,6 +174,7 @@
             <roleName>Ministro do Interior da República Rio-grandense</roleName>
             <roleName>Ministro da Justiça da República Rio-grandense</roleName>
             <roleName>Secretário República Rio-grandense</roleName>
+            <affiliation>Partido Liberal</affiliation>
             <note>Ministro e Secretário de Estado da República Rio-Grandense, responsável pelos expedientes da Fazenda, do Interior e da Justiça, além da Secretaria da República.</note>
         </person>
         
@@ -348,8 +361,9 @@
         
         <person xml:id="mateus">
             <persName>Mateus</persName>
+            <idno></idno>
             <note>Amigo de Domingos José de Almeida mencionado como procurador.</note>
-        </person>
+        </person> <!--descobrir se não é mateus_gomes-->
         
         <person xml:id="shemit">
             <persName>Shemit</persName>
@@ -638,14 +652,24 @@
         
         <person xml:id="feijo">
             <persName>Diogo Antônio Feijó</persName>
-            <note>Regente do Império, mencionado como preso.</note>
-            <idno type="viaf">https://viaf.org/viaf/2465016</idno>
+            <pesName type="popular">Padre Feijó</pesName>
+            <idno type="viaf">https://viaf.org/en/viaf/30870854</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1791593</idno>
+            <roleName>Regente do Império do Brasil</roleName>
+            <roleName>Senador do Império</roleName>
+            <roleName>6° Presidente do Senado Imperial do Brasil</roleName>
+            <roleName>Ministro da Justiça do Império do Brasil</roleName>
+            <roleName>Ministro dos Negócios do Império do Brasil</roleName>
+            <roleName>Administrador do Rio de Janeiro</roleName>
+            <affiliation>Partido Liberal</affiliation>
+            <note>Regente do Império, fundador do Partido Liberal.</note>
         </person>
         
         <person xml:id="tobias">
             <persName>Tobias de Aguiar</persName>
-            <note>Líder militar e político brasileiro, mencionado como fugido.</note>
             <idno type="viaf">https://viaf.org/viaf/24888413</idno>
+            <note>Líder militar e político brasileiro, mencionado como fugido.</note>
+            
         </person>
         
         <person xml:id="alferes_cruz">
@@ -2022,6 +2046,13 @@
             <persName>Tenente-coronel Baltasar</persName>
         </person>
         
+        <person xml:id="baltasar_rodrigues_soares_filho">
+            <persName>Baltasar José Rodrigues Soares Filho</persName>
+            <idno></idno>
+            <roleName>Sargento</roleName>
+            <note>Sargento citado como portador do empréstimo solicitado por Almeida.</note>
+        </person>
+        
         <person xml:id="francisco_augusto_cunha">
             <persName>Francisco Augusto da Cunha</persName>
         </person>
@@ -2043,6 +2074,10 @@
         
         <person xml:id="americo_cabral_melo">
             <persName>Américo Cabral de Melo</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q9611679</idno>
+            <roleName>deputado provincial eleito à 1ª Legislatura da Assembleia Provincial do Rio Grande do Sul</roleName>
+            <roleName>Presidente Interino Província do Rio Grande do Sul</roleName>
+            <note>Foi cinco vezes presidente interino do Rio Grande do Sul: de 22 de abril a 22 de agosto de 1830, de 20 de dezembro de 1830 a 8 de janeiro de 1831, de 29 de março a 11 de julho de 1831, de 16 de fevereiro a 28 de março de 1836 e de 1 de abril a 16 de maio de 1837.</note>
         </person>
         
         <person xml:id="tenente_rangel">
@@ -2061,6 +2096,7 @@
         <person xml:id="vicente_meneses">
             <persName>Vicente de Meneses</persName>
         </person>
+
         <person xml:id="antonio_joaquim_torres">
             <persName>Antônio Joaquim Torres</persName>
             <note>Guarda Nacional do Corpo da Cruz Alta, mencionado como beneficiário de distribuição de vestuário.</note>
@@ -2876,6 +2912,7 @@
         
         <person xml:id="casaca">
             <persName>Casaca</persName>
+            <idno></idno>
             <note>Indivíduo mencionado como encarregado de deslocamento e envio de recados ou serviços.</note>
         </person>
         
@@ -4055,7 +4092,7 @@
         <person xml:id="malaquias">
             <persName>Malaquias</persName>
             <note>Estancieiro citado como referência geográfica e logística.</note>
-        </person>
+        </person> <!--corrigir para id malaquias_estancieiro-->
         
         <person xml:id="castilho01">
             <persName>Castilho</persName>
@@ -4924,7 +4961,7 @@
             <persName>Baltasar</persName>
             <idno></idno>
             <note>Contato mencionado por Almeida para obter uma carta.</note>
-        </person>
+        </person> <!--id duplicada.-->
         
         <person xml:id="luis_alves_santos_marques">
             <persName>Luís Alves dos Santos Marques</persName>
@@ -5018,7 +5055,7 @@
         <person xml:id="manuel_gomes_silva">
             <persName>Manuel Gomes da Silva</persName>
             <idno></idno>
-            <note>Memebro da Câmara de Rio Grande em 1835.</note>
+            <note>Membro da Câmara de Rio Grande em 1835.</note>
         </person>
         
         <person xml:id="felizardo">
@@ -5042,6 +5079,166 @@
         <person xml:id="lopes">
             <persName>Lopes</persName>
             <idno></idno>
+        </person>
+        
+        <person xml:id="ceroula">
+            <persName>Ceroula</persName>
+            <note>Figura mencionada como líder inimigo. Identidade histórica incerta.</note>
+            <idno></idno>
+        </person>
+        
+        <person xml:id="joao_goncalves_da_silva">
+            <persName>João Gonçalves da Silva</persName>
+            <idno></idno>
+            <note>Contato de Domingos José de Almeida através do Inspetor de São José do Norte</note>
+        </person>
+        
+        <person xml:id="januaria">
+            <persName>D. Januária de Bragança</persName>
+            <persName>Januária do Brasil</persName>
+            <persName>Januária Maria Joana Carlota Leopoldina Cândida Francisca Xavier de Paula Micaela Gabriela Rafaela Gonzaga</persName>
+            <idno type="viaf">https://viaf.org/en/viaf/41473384</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q261802</idno>
+            <roleName>Princesa do Brasil</roleName>
+            <roleName>Condessa de Áquila</roleName>
+            <note>Januária do Brasil (Rio de Janeiro, 11 de março de 1822 – Nice, 13 de março de 1901), cognominada "a Princesa da Independência", foi a segunda filha do imperador Pedro I e da imperatriz consorte Maria Leopoldina, e, portanto, membro da família imperial brasileira. Era irmã do imperador Pedro II do Brasil e da rainha Maria II de Portugal. De 1835 a 1845, deteve o título de Princesa Imperial do Brasil, como herdeira presuntiva de seu irmão, o imperador Pedro II, que era então menor de idade, e considerou-se a possibilidade de declará-la regente, embora isso nunca tenha se concretizado.</note>
+        </person>
+        
+        <person xml:id="manuel_francisco_andrade">
+            <persName>Pe. Manuel Francisco de Andrade</persName>
+            <idno></idno>
+            <affiliation>Partido Liberal</affiliation>
+            <relation
+                xml:id="rel_andrade_almeida"
+                name="friend"
+                mutual="true"
+                active="#manuel_francisco_andrade"
+                passive="#domingos_jose_almeida">
+            </relation>
+            
+            <relation
+                xml:id="rel_andrade_feijo"
+                name="friendship"
+                mutual="true"
+                active="#manuel_francisco_andrade"
+                passive="#diogo_antonio_feijo">
+                ref="https://www.wikidata.org/wiki/Q491"
+            </relation>
+            <note>Padre amigo de Domingos José de Almeida e de Feijó. Provavelmente membro do Partido Liberal.</note>
+        </person>
+        
+        <person xml:id="vicente">
+            <persName>Vicente</persName>
+            <idno></idno>
+            <note>Indivíduo mencionado junto ao compadre Rolino no contexto da administração de escravos.</note>
+        </person>
+        
+        <person xml:id="goularte">
+            <persName>Goularte</persName>
+            <idno></idno>
+            <note>Correspondente de Rio Grande citado por Almeida.</note>
+        </person>
+        
+        <person xml:id="espindola">
+            <persName>Espíndola</persName>
+            <idno></idno>
+            <note>Morador de Rio Grande citado por Almeida.</note>
+        </person>
+        
+        <person xml:id="malaquias_faria_lobato">
+            <persName>Malaquias de Faria Lobato</persName>
+            <idno></idno>
+            <note>Responsável pelo transporte das cargas mencionadas na carta; associado à logística fluvial.</note>
+        </person>
+        
+        <person xml:id="jose_marques_cunha">
+            <persName>José Marques da Cunha</persName>
+            <note>Fornecedor citado nas contas no verso da carta CV-198.</note>
+        </person>
+        
+        <person xml:id="manuel_domigues_moreira">
+            <persName>Manuel Domingues Moreira</persName>
+            <note>Fornecedor citado em transações registradas no verso da CV-198.</note>
+        </person>
+        
+        <person xml:id="isidoro_filipe">
+            <persName>Isidoro Filipe</persName>
+            <note>Fornecedor relacionado a cobertores mencionados na CV-198.</note>
+        </person>
+        
+        <person xml:id="antonio_inacio_santos">
+            <persName>Antônio Inácio dos Santos</persName>
+            <note>Fornecedor citado no verso da CV-198.</note>
+        </person>
+        
+        <person xml:id="antonio_lima_pinto">
+            <persName>Antônio de Lima e Pinto</persName>
+            <note>Fornecedor citado nas contas da CV-198.</note>
+        </person>
+        
+        <person xml:id="joao_batista_silva">
+            <persName>João Batista da Silva</persName>
+            <note>Fornecedor de panos citado na CV-198.</note>
+        </person>
+        
+        <person xml:id="jose_francisco_guimaraes">
+            <persName>José Francisco Guimarães</persName>
+            <note>Fornecedor de cobertores citado na CV-198.</note>
+        </person>
+        
+        <person xml:id="jose_joaquim_leite_guimaraes">
+            <persName>José Joaquim Leite Guimarães</persName>
+            <note>Fornecedor de panos e cobertores citado diversas vezes na CV-198.</note>
+        </person>
+        
+        <person xml:id="nelson_aveline">
+            <persName>Nelson Aveline</persName>
+            <note>Fornecedor de cobertores e panos citado na CV-198.</note>
+        </person>
+        
+        <person xml:id="eulalio_antonio_muniz">
+            <persName>Eulálio Antônio Muniz</persName>
+            <note>Fornecedor de cobertores e barreganas citado na CV-198.</note>
+        </person>
+        
+        <person xml:id="joaquim_jose_mendes_ribeiro">
+            <persName>Joaquim José Mendes Ribeiro</persName>
+            <note>Credor cujas contas são mencionadas na CV-198.</note>
+        </person>
+        
+        <person xml:id="leite_rocha">
+            <persName>Leite e Rocha</persName>
+            <note>Casa comercial ou sociedade citada no verso da CV-198.</note>
+        </person>
+        
+        <person xml:id="manuel_joaquim_paula">
+            <persName>Manuel Joaquim de Paula</persName>
+            <note>Fornecedor citado no verso da CV-198.</note>
+        </person>
+        
+        <person xml:id="jorge_taylor">
+            <persName>Jorge Taylor</persName>
+            <note>Fornecedor de mercadorias mencionado na CV-198.</note>
+        </person>
+        
+        <person xml:id="jose_ribeiro_pinto_costa">
+            <persName>José Ribeiro Pinto Costa</persName>
+            <note>Credor mencionado na CV-198.</note>
+        </person>
+        
+        <person xml:id="antonio_maria_sousa">
+            <persName>Antônio Maria de Sousa</persName>
+            <note>Fornecedor mencionado no verso da CV-198.</note>
+        </person>
+        
+        <person xml:id="joao_pedro_costa_freire">
+            <persName>João Pedro da Costa Freire</persName>
+            <note>Fornecedor citado na CV-198.</note>
+        </person>
+        
+        <person xml:id="antonio_rodrigues_filho">
+            <persName>Antônio Rodrigues Filho</persName>
+            <note>Fornecedor citado na CV-198.</note>
         </person>
     </listPerson>
 </standOff>
