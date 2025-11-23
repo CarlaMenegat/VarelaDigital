@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-180 – Domingos José de Almeida a Guilherme Rodrigo de Carvalho</title>
+                <title>Carta CV-183 – Domingos José de Almeida a Bernardina Barcelos de Almeida</title>
                 <author>Domingos José de Almeida</author>
                 <respStmt>
                     <resp>Edição digital</resp>
@@ -83,11 +83,11 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
-                    <placeName ref="#pelotas">Pelotas</placeName>
-                    <date when="1835-11-16">16 de novembro de 1835</date>
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
+                    <date when="1835-12-15">15 de dezembro de 1835</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#guilherme_carvalho">Guilherme Rodrigo de Carvalho</persName>
+                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -100,83 +100,56 @@
             </list>
         </revisionDesc>
     </teiHeader>
-    <text>
-        <body>
-            <div type="letter" xml:id="CV-180">
-                
-                <opener>
-                    <salute>Ilmo. <persName ref="#guilherme_carvalho">Sr. Guilherme Rodrigo de Carvalho</persName></salute>
-                </opener>
-                
-                <p>
-                    Com os prejuízos que sofri depois da concordata que obtive 
-                    em 15 de setembro de 1831, quase me vi impossibilitado para o exato 
-                    cumprimento das obrigações que pela mesma havia contraído, e agora, 
-                    pelos movimentos políticos que têm tido lugar na Província, 
-                    não só me vejo inteiramente privado de poder pôr em ação tais deveres, 
-                    como também, se em tal quadra tentasse vender os bens existentes, 
-                    além de não achar quem os demandasse, seriam eles reputados por tão 
-                    diminutos valores que isso equivaleria a perda total, provindo, 
-                    portanto, prejuízo grave a meus credores e a mim em particular.
-                </p>
-                
-                <p>
-                    À vista de tantos motivos, ouso rogar a 
-                    <choice><abbr>V. S.º</abbr><expan>Vossa Senhoria</expan></choice>, 
-                    à semelhança do que já de outros tenho obtido, 
-                    a dilação de cinco anos pelo que lhe sou devedor; 
-                    cujo prazo será contado de 15 de setembro próximo passado, 
-                    porque, findo ele, se até então não me vir solvido, 
-                    dispor-ei de tudo, e por esse modo, de um só jato, embolsarei meus credores.
-                </p>
-                
-                <p>
-                    Sendo que 
-                    <choice><abbr>V. S.º</abbr><expan>Vossa Senhoria</expan></choice> 
-                    anúa a esta proposição, se servirá dizê-lo por escrito no verso 
-                    desta mesma carta.
-                </p>
-                
-                <closer>
-                    <signed>De 
-                        <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
-                        muito atento venerador e obrigado criado<br/>
-                        (a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.
-                    </signed>
-                    <dateline>
-                        <placeName ref="#pelotas">Pelotas</placeName>, 
-                        <date when="1835-11-16">16 de novembro de 1835</date>.
-                    </dateline>
-                </closer>
-                
-                <div type="reply">
-                    <opener>
-                        <salute>Ilmo. <persName ref="#domingos_jose_almeida">Sr. Domingos José de Almeida</persName>.</salute>
-                    </opener>
-                    
-                    <p>
-                        Examinando o conteúdo da sua de 16 do luzente, respondo que, 
-                        da minha parte, anúo à sua proposição.
-                    </p>
-                    
-                    <closer>
-                        <signed>Seu muito atento venerador criado<br/>
-                            (a) <persName ref="#guilherme_carvalho">Guilherme Rodrigo de Carvalho</persName>.
-                        </signed>
-                        <dateline>
-                            <placeName ref="#pelotas">Pelotas</placeName>, 
-                            <date when="1835-11-24">24 de novembro de 1835</date>.
-                        </dateline>
-                    </closer>
-                </div>
-                
-                <note type="endorsement" place="verso">
-                    Ilmo. <persName ref="#guilherme_carvalho">Sr. Guilherme Rodrigo de Carvalho</persName>. [No verso]<br/>
-                    <placeName ref="#pelotas">Cidade de Pelotas</placeName>.<br/>
-                    Respondida. [No verso]
-                </note>
-                
-            </div>
-        </body>
-    </text>
-</TEI>    
+
+<text>
+    <body>
+        <div type="letter" xml:id="CV-183">
+            
+            <opener>
+                <salute>Minha querida mulher do coração</salute>
+                <dateline>
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>,
+                    <date when="1835-12-15">15 de dezembro de 1835</date>.
+                </dateline>
+            </opener>
+            
+            <p>
+                Duas tuas já tenho recebido, e do contentamento que ambas em mim 
+                produziram poderás julgar pelas sensações que em ti sentes quando 
+                recebes as minhas. Bem aflito havia eu estado até poucos dias a esta 
+                parte por pensar que intrigas bem dirigidas haviam produzido 
+                desconfianças entre os nossos; porém, vendo ao contrário que se 
+                caminha firme no bem de nossa Província, o prazer renasceu em meu 
+                coração.
+            </p>
+            
+            <p>
+                Já vivo contente, e as moças a me não deixarem com quebrantos; 
+                coitadas, que perdem o seu tempo, porque não faço caso delas e, por 
+                conseguinte, todas dizem que não há moça mais afortunada que tu, que 
+                eu sou o exemplo dos casados, e faço com isso que o estado seja 
+                apetecido. E que tal? Vê lá quanto vale o meu comportamento e quanto 
+                és feliz possuindo um marido moço, bonito, bem feito e fiel. Onde se 
+                acha tanta coisa junta? Com efeito, neste século é fenômeno, é 
+                maravilha, etc., etc..
+            </p>
+            
+            <p>
+                Abraços a nossos filhos, saudades a todos os nossos, e adeus até o 
+                dia 23 do corrente, se Deus quiser; guarda-me alguma coisa.
+            </p>
+            
+            <closer>
+                <signed>Teu marido do coração<br/>
+                    (a) <persName ref="#domingos_jose_almeida">Almeida</persName>.
+                </signed>
+            </closer>
+            <note type="endorsement" place="verso">
+                Sra. <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.<br/>
+                <placeName ref="#pelotas">Pelotas</placeName>.
+            </note>
+            
+        </div>
+    </body>
+</text>
+</TEI>

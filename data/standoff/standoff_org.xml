@@ -408,7 +408,7 @@
         <org xml:id="assembleia_geral_legislativa_rs">
             <orgName>Assembléia</orgName>
             <note>Casa legislativa provincial do Rio Grande do Sul, mencionada no contexto de 1835.</note>
-        </org>
+        </org> <!--acho que tenho que mudar para id "assembleia_provincial"-->
         
         <org xml:id="camara_rio_grande">
             <orgName>Câmara Municipal da Cidade do Rio Grande</orgName>
@@ -424,6 +424,11 @@
         
         <org xml:id="12_companhia_gn">
             <orgName>12ª Companhia da Guarda Nacional</orgName>
+        </org>
+        
+        <org xml:id="camara_sao_jose_norte">
+            <orgName>Câmara da vila do Norte</orgName>
+            <note>Câmara Municipal de São José do Norte.</note>
         </org>
     </listOrg>
 </standOff>

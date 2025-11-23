@@ -23,9 +23,9 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q7274284</idno>
             <roleName>Vice-presidente da República Rio-grandense</roleName>
             <roleName>2° presidente da República Rio-grandense</roleName>
-            <note>José Gomes Jardim (1792–1873), político farroupilha, Vice-presidente e depois Presidente da República Riograndense.</note>
+            <note>Político farroupilha, Vice-presidente e depois Presidente da República Riograndense.</note>
         </person> 
-
+        
         <person xml:id="canabarro">
             <persName>Canabarro</persName>
             <idno type="viaf">https://viaf.org/en/viaf/48454698</idno>
@@ -328,6 +328,12 @@
         <person xml:id="freitas">
             <persName>Freitas</persName>
             <note>Juiz de Direito da Comarca de Piratini, responsável pelos despachos relativos à curadoria da fazenda jacente.</note>
+        </person>
+        
+        <person xml:id="guilherme_carvalho">
+            <persName>Guilherme Rodrigo de Carvalho</persName>
+            <idno></idno>
+            <note>Credor a quem Almeida solicita dilação de prazo.</note>
         </person>
         
         <person xml:id="guilherme_schnepf">
@@ -743,7 +749,8 @@
         
         <person xml:id="granja">
             <persName>Granja</persName>
-            <note>Pessoa cuja casa serviu como depósito dos trastes enviados.</note>
+            <idno></idno>
+            <note>Credor de Almeida.</note>
         </person>
         
         <person xml:id="joao_jose_damasceno">
@@ -943,7 +950,14 @@
         
         <person xml:id="silva_tavares">
             <persName>Silva Tavares</persName>
-            <note>Oficial militar citado como ameaça; atuante na Guerra Farroupilha.</note>
+            <idno type="viaf">https://viaf.org/en/viaf/6208150325542510090005</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10312398</idno>
+            <roleName>Visconde de Cerro Alegre</roleName>
+            <roleName>Barão de Cerro Alegre</roleName>
+            <roleName>Juiz de paz em Herval</roleName>
+            <roleName>comandante militar da fronteira de Jaguarão</roleName>
+            <roleName>Deputado provincial na 1.ª Legislatura da Assembleia Legislativa Provincial </roleName>
+            <note>Oficial militar legalista atuante na Guerra Farroupilha.</note>
         </person>
         
         <person xml:id="guedes">
@@ -1357,6 +1371,7 @@
         
         <person xml:id="rolino">
             <persName>Rolino</persName>
+            <idno></idno>
             <note>Compadre de Almeida, responsável pela administração da charqueada enquanto o mesmo estava na Assembleia Provincial.</note>
         </person>
         
@@ -2012,12 +2027,19 @@
         </person>
         
         <person xml:id="marciano_pereira_ribeiro">
-            <persName>Marciano Pereira Ribeiro</persName>
+            <persName>Marciano José Pereira Ribeiro</persName>
+            <persName type="popular">Dr. Marciano</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10325233</idno>
+            <roleName>Presidente Interino Província do Rio Grande do Sul</roleName>
+            <roleName>deputado provincial eleito à 1ª Legislatura da Assembleia Provincial do Rio Grande do Sul</roleName>
+            <roleName>Médico</roleName>
+            <note>Formado em medicina em Edimburgo. Foi deputado provincial eleito à 1ª Legislatura da Assembleia Provincial do Rio Grande do Sul. Era 3° vice-presidente da província do Rio Grande do Sul, ao estourar a Guerra dos Farrapos, quando Porto Alegre foi dominada pelos farroupilhas.</note>
         </person>
         
         <person xml:id="dr_marciano">
             <persName>Dr. Marciano</persName>
-        </person>
+            <idno></idno>
+        </person> <!--corrigir para id marciano_pereira_ribeiro -->
         
         <person xml:id="americo_cabral_melo">
             <persName>Américo Cabral de Melo</persName>
@@ -2058,7 +2080,6 @@
             <persName>Antônio Maria Valadares</persName>
             <note>1.º Tenente do 3.º Batalhão de Caçadores do Exército, demitido por decreto do Vice-presidente da República.</note>
         </person>
-        
         
         
         <person xml:id="simao_francisco_pereira">
@@ -3394,12 +3415,13 @@
         
         <person xml:id="eugenio_vidie">
             <persName>Eugênio Vidie</persName>
-            <note>Indivíduo citado como responsável pela remoção de máquina de graxa.</note>
+            <note>Mercador francês. Possível arrendatário da charqueada de Almeida.</note>
         </person>
         
         <person xml:id="chevalier">
-            <persName>Chevalier</persName>
-            <note>Indivíduo referido como proprietário ou responsável associado à máquina de graxa.</note>
+            <persName>Fulgêncio Chevalier</persName>
+            <idno></idno>
+            <note>Responsável pela máquina de graxa na charqueada de Almeida.</note>
         </person>
         
         <person xml:id="augusto">
@@ -4500,10 +4522,6 @@
             <note>Brigadeiro citado como protetor de José Inácio.</note>
         </person>
         
-        <person xml:id="silva_tavares">
-            <persName>Silva Tavares</persName>
-            <note>Protetor de José Inácio.</note>
-        </person>
         
         <person xml:id="antero">
             <persName>Antero</persName>
@@ -5001,6 +5019,29 @@
             <persName>Manuel Gomes da Silva</persName>
             <idno></idno>
             <note>Memebro da Câmara de Rio Grande em 1835.</note>
+        </person>
+        
+        <person xml:id="felizardo">
+            <persName>Felizardo</persName>
+            <idno></idno>
+            <note>Parente próximo de Almeida.</note>
+        </person> <!--confirmar se não é id felizardo_rodrigues_braga-->
+        
+        <person xml:id="rafael">
+            <persName>Rafael</persName>
+            <idno></idno>
+            <note>Compadre de Almeida em Bagé.</note> <!--confirmar se não é algum primo de Bernardina-->
+        </person>
+        
+        <person xml:id="david">
+            <persName>David</persName>
+            <idno></idno>
+            <note>Possível parente do casal Almeida.</note>
+        </person>
+        
+        <person xml:id="lopes">
+            <persName>Lopes</persName>
+            <idno></idno>
         </person>
     </listPerson>
 </standOff>

@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-180 – Domingos José de Almeida a Guilherme Rodrigo de Carvalho</title>
+                <title>Carta CV-187 – Domingos José de Almeida a Bernardina Barcelos de Almeida</title>
                 <author>Domingos José de Almeida</author>
                 <respStmt>
                     <resp>Edição digital</resp>
@@ -83,11 +83,13 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
-                    <placeName ref="#pelotas">Pelotas</placeName>
-                    <date when="1835-11-16">16 de novembro de 1835</date>
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
+                    <date when="1836-01-12">12 de janeiro de 1836</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#guilherme_carvalho">Guilherme Rodrigo de Carvalho</persName>
+                    <persName ref="#bernardina_barcelos_almeida">
+                        Bernardina Barcelos de Almeida
+                    </persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -100,83 +102,75 @@
             </list>
         </revisionDesc>
     </teiHeader>
+    
     <text>
         <body>
-            <div type="letter" xml:id="CV-180">
+            
+            <div type="letter" xml:id="CV-187">
                 
                 <opener>
-                    <salute>Ilmo. <persName ref="#guilherme_carvalho">Sr. Guilherme Rodrigo de Carvalho</persName></salute>
+                    <salute>Minha cara Bernardina do coração</salute>
+                    <dateline>
+                        <placeName ref="#porto_alegre">Porto Alegre</placeName>,
+                        <date when="1836-01-12">12 de janeiro de 1836</date>.
+                    </dateline>
                 </opener>
                 
                 <p>
-                    Com os prejuízos que sofri depois da concordata que obtive 
-                    em 15 de setembro de 1831, quase me vi impossibilitado para o exato 
-                    cumprimento das obrigações que pela mesma havia contraído, e agora, 
-                    pelos movimentos políticos que têm tido lugar na Província, 
-                    não só me vejo inteiramente privado de poder pôr em ação tais deveres, 
-                    como também, se em tal quadra tentasse vender os bens existentes, 
-                    além de não achar quem os demandasse, seriam eles reputados por tão 
-                    diminutos valores que isso equivaleria a perda total, provindo, 
-                    portanto, prejuízo grave a meus credores e a mim em particular.
+                    Amasargurado sobremaneira com a ideia de tuas aflições, ainda te faço
+                    esta apesar de ontem te ter escrito. É com efeito bastante negra a
+                    nuvem que ora cobre o horizonte de nossa Província; mas nem por isso
+                    eu desespero de sua salvação, se uma prudência consumada presidindo os
+                    atos da administração dissipar de pronto os receios que o entusiasmo
+                    de um falso patriotismo, junto a vinganças ignóbeis, tem feito
+                    renascer.
                 </p>
                 
                 <p>
-                    À vista de tantos motivos, ouso rogar a 
-                    <choice><abbr>V. S.º</abbr><expan>Vossa Senhoria</expan></choice>, 
-                    à semelhança do que já de outros tenho obtido, 
-                    a dilação de cinco anos pelo que lhe sou devedor; 
-                    cujo prazo será contado de 15 de setembro próximo passado, 
-                    porque, findo ele, se até então não me vir solvido, 
-                    dispor-ei de tudo, e por esse modo, de um só jato, embolsarei meus credores.
+                    A resposta do Presidente nomeado à 
+                    <orgName ref="#camara_sao_jose_norte">Câmara da vila do Norte</orgName>
+                    tem suscitado dissabores agros, por atiçar o provincialismo,
+                    concitando assim paixões que demasiado podem comprometer a marcha dos
+                    negócios.
                 </p>
                 
                 <p>
-                    Sendo que 
-                    <choice><abbr>V. S.º</abbr><expan>Vossa Senhoria</expan></choice> 
-                    anúa a esta proposição, se servirá dizê-lo por escrito no verso 
-                    desta mesma carta.
+                    Eu já não saio para evitar contestações na defesa daquelas expressões,
+                    posto nelas compreendido seja; mas nem por isso deixo de carregar com
+                    a parte que me toca em magoado silêncio, muito particularmente quando
+                    penso que essa Câmara, a quem se endereçou tão brilhante discurso, com
+                    dois indivíduos tão somente se deparam daqui oriundos.
+                </p>
+                
+                <p>
+                    Não obstante porém o justo azedume que me acompanha, resolvido estou a
+                    cerrar os olhos a tudo e redobrar de esforços para que a Província seja
+                    arrancada do abismo que a ameaça: nela tenho a ti e a sete filhos, e
+                    isto basta para que lhe deseje todas as venturas, etc., etc..
+                </p>
+                
+                <p>
+                    Rogo-te pois, e encarecidamente, que desprezeis tudo quanto te disserem
+                    a meu respeito e que possa comprometer o teu repouso; foge mesmo, minha
+                    requerida Bernardina, das pessoas que com semelhantes novidades aí te
+                    vão afligir. Considerai que estamos numa crise, e que enquanto ela não
+                    se desfecha para dar seu produto, erro será tomar-se em grosso quanto se
+                    inventar, etc., etc..
                 </p>
                 
                 <closer>
-                    <signed>De 
-                        <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
-                        muito atento venerador e obrigado criado<br/>
-                        (a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.
+                    <signed>Teu sincero<br/>(a)
+                        <persName ref="#domingos_jose_almeida">Almeida</persName>.
                     </signed>
-                    <dateline>
-                        <placeName ref="#pelotas">Pelotas</placeName>, 
-                        <date when="1835-11-16">16 de novembro de 1835</date>.
-                    </dateline>
                 </closer>
                 
-                <div type="reply">
-                    <opener>
-                        <salute>Ilmo. <persName ref="#domingos_jose_almeida">Sr. Domingos José de Almeida</persName>.</salute>
-                    </opener>
-                    
-                    <p>
-                        Examinando o conteúdo da sua de 16 do luzente, respondo que, 
-                        da minha parte, anúo à sua proposição.
-                    </p>
-                    
-                    <closer>
-                        <signed>Seu muito atento venerador criado<br/>
-                            (a) <persName ref="#guilherme_carvalho">Guilherme Rodrigo de Carvalho</persName>.
-                        </signed>
-                        <dateline>
-                            <placeName ref="#pelotas">Pelotas</placeName>, 
-                            <date when="1835-11-24">24 de novembro de 1835</date>.
-                        </dateline>
-                    </closer>
-                </div>
-                
                 <note type="endorsement" place="verso">
-                    Ilmo. <persName ref="#guilherme_carvalho">Sr. Guilherme Rodrigo de Carvalho</persName>. [No verso]<br/>
-                    <placeName ref="#pelotas">Cidade de Pelotas</placeName>.<br/>
-                    Respondida. [No verso]
+                    Sra. D. <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.<br/>
+                    <placeName ref="#pelotas">Pelotas</placeName>.
                 </note>
                 
             </div>
+            
         </body>
     </text>
-</TEI>    
+</TEI>

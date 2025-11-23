@@ -42,5 +42,10 @@
                 <placeName ref="#passo_fundo"/>
             </location>
         </event>
+        
+        <event xml:id="viagem_rio_cv191">
+            <desc>Decisão da Assembleia Provincial de enviar Domingos José de Almeida e o Dr. Marciano ao Rio de Janeiro em missão política.</desc>
+            <date when="1836-02-23"/>
+        </event>
     </listEvent>
 </standOff>

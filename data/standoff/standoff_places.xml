@@ -293,6 +293,7 @@
         
         <place xml:id="uruguai">
             <placeName type="historical">Estado Oriental</placeName>
+            <placeName type="historical">Cisplatina</placeName>
             <placeName type="historical">Republica Oriental do Uruguai</placeName>
             <placeName type="modern">Uruguay</placeName>
             <idno type="geonames">https://www.geonames.org/3439705/oriental-republic-of-uruguay.html</idno>
@@ -701,6 +702,20 @@
             <geo>-30.11833 -51.32139</geo>
             <note>Curso d’água no Rio Grande do Sul; ponto de referência aproximado baseado em município de Guaíba. </note>
         </place> <!--corrigir para id guaíba-->
+        
+        <place xml:id="pedras_brancas">
+            <placeName type="historical">Pedras Brancas</placeName>
+            <placeName type="modern">Guaíba</placeName>
+            <idno type="geonames">https://www.geonames.org/3473964/guaiba.html</idno>
+            <geo>-30.11389, -51.325</geo>
+            <note>Nome histórico da atual cidade de Guaíba.</note>
+        </place>
+        
+        <place xml:id="arroio_petim">
+            <placeName>Arroio Petim</placeName>
+            <idno type="geonames">https://www.geonames.org/3454034/arroio-do-petim.html</idno>
+            <geo>-30.21229, -51.32084</geo>
+        </place>
         
         <place xml:id="hospital">
             <placeName>Hospital</placeName>
