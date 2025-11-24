@@ -3,8 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-1 – Raul Abbott para Alfredo</title>
-                <author>Raul Abbott</author>
+                <title>Carta CV-227 – Inácio José de Oliveira Guimarães para Domingos José de Almeida</title>
+                <author>Inácio José de Oliveira Guimarães</author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,7 +16,7 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-06-16">16 de junho de 2025</date>
+                <date when="2025-07-02">02 de julho de 2025</date>
             </editionStmt>
             <extent>
                 <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
@@ -78,16 +78,14 @@
                 </application>
             </appInfo>
         </encodingDesc>
-        
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#raul_abbott">Raul Abbott</persName>
-                    <placeName ref="#cachoeira">Cachoeira</placeName>
-                    <date when="1896-04-27">27 de abril de 1896</date>
+                    <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>
+                    <date when="1837-10-12">12 de outubro de 1837</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#alfredo_varela">Alfredo Varela</persName>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -95,42 +93,57 @@
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-06-16">16/06/2025</date>
-                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
-                </item>
-                <item>
-                    <date when="2025-10-20">20/11/2025</date>
-                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                    <date when="2025-11-23">23/11/2025</date>
+                    Conversão TEI realizada por Carla Menegat.
                 </item>
             </list>
         </revisionDesc>
     </teiHeader>
-
-    
     <text>
         <body>
-            <div type="letter" xml:id="CV-1">
+            <div type="letter" xml:id="CV-227">
+                
                 <opener>
-                    <salute>Amigo <persName ref="#alfredo_varela">Alfredo</persName></salute>
+                    <salute>Resposta<br/>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>.</salute>
                 </opener>
                 
-                <p>Só hoje posso responder tua carta, devido ao estado adoentado do veterano <persName ref="#coritiba">Coritiba</persName> com quem precisava conversar para dar resposta conveniente.</p>
+                <p>Em 28 do p.p. me veio à mão o ofício que <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> se serviu endereçar-me,
+                    e com o mesmo a cópia do decreto de 10 de novembro do ano de 1836, pelo
+                    qual o governo aprovou o plano oferecido por <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que diz respeito a
+                    promover-se nos distritos a subscrições por ações mensalmente; sobre o que,
+                    e em cumprimento ao mencionado ofício de <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, tratei logo de promover
+                    neste distrito a sobredita subscrição, despregando aquele zelo próprio de quem
+                    só almeja ser prestável a nossa sagrada causa.</p>
                 
-                <p>Sentimos bastante que a presteza com que resolveram partir, nos tivesse proibido da prometida visita, por nós desejada pelo prazer que nos viria dar. Que agradável seja o passeio a <placeName ref="#buenos_aires">Buenos Aires</placeName> e que regressem novamente ao <placeName ref="#rio_grande_dosul">Rio Grande</placeName> são nossos desejos.</p>
+                <p>Junto tem <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> a relação dos cidadãos que assinaram, montando sua
+                    importância em Rs. 57$000, indo por mim firmada, e em tempo oportuno darei
+                    cumprimento na parte que diz respeito à cobrança e remessa, sobre o que
+                    permita-me <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> fazer-lhe uma pequena observação: <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> não deixará
+                    de conhecer quanto se torna dificultoso efetuar-se todos os meses a cobrança
+                    e ao mesmo tempo remessa, e por isso me parecia ser melhor fazer-se dita
+                    cobrança, ou ao menos a remessa, por trimestre; queira portanto <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> dar-me
+                    suas últimas ordens a respeito, e esteja certo que tratarei de agenciar mais
+                    algumas assinaturas de pessoas que se acham ausentes do distrito, a fim de por
+                    esta parte aumentar-se mais o rendimento mensal do Estado que tanto preciso
+                    se faz à seguridade da liberdade rio-grandense.</p>
                 
-                <p>Do velho <persName ref="#coritiba">Coritiba</persName> colhi o seguinte: “No <event ref="#combate_espinilho">combate do Espinilho</event> estavam os dois, <persName ref="#canabarro">Canabarro</persName> e <persName ref="#bento_manuel">Bento Manuel</persName>, este há poucos dias havia passado para a República.</p>
+                <p>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> muitos anos.</p>
                 
-                <p>Foi tão somente um corpo e um esquadrão que derrotaram a força legal. As operações foram concebidas por <persName ref="#canabarro">Canabarro</persName>. Comandava o corpo (batalhão) o <persName ref="#teixeira_nunes">Coronel Joaquim Teixeira Nunes</persName> e o esquadrão, <persName ref="#demetrio_ribeiro">Demétrio Ribeiro</persName>. Neste ataque foi prisioneiro o <persName ref="#roque">capitão legalista Roque</persName> sendo em marcha fuzilado. Esse capitão foi o assassino do <persName ref="#general_lima">General Lima</persName>, em uma casa da fronteira.”</p>
-                
-                <p>Aqui termina o velho o que sabia, dizendo estar pronto a mais esclarecimentos dar, quando necessários, digo, solicitados. Creio que fica respondida tua estimada carta faltando pedir para aceitares com prima Josefina nossos protestos de estima e acariciares a mimosa Vivi, muitas vezes, por nós.</p>
-                
-                <p>Agradeço os bons desejos manifestados pelo restabelecimento da Laia a quem farei ciente assim regresse do passeio que está fazendo a uma fazenda do município.</p>
+                <dateline>
+                    Fazenda do Salso,
+                    <date when="1837-10-12">12 de outubro de 1837</date>.
+                </dateline>
                 
                 <closer>
-                    <salute>Abraços manda o</salute>
-                    <signed>Raul</signed>
-                    <placeName ref="#cachoeira">Cachoeira</placeName>, <date when="1896-04-27">27-4-96</date>.
+                    <signed>
+                        (a) <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.
+                    </signed>
                 </closer>
+                
+                <note type="endorsement" place="verso">
+                    [Na folha 1v. do documento CV-227]
+                </note>
+                
             </div>
         </body>
     </text>

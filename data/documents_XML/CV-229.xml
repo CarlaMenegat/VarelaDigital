@@ -3,8 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-1 – Raul Abbott para Alfredo</title>
-                <author>Raul Abbott</author>
+                <title>CV-229 — Carta de Domingos José de Almeida a Bernardina Barcelos de Almeida</title>
+                <author>Domingos José de Almeida</author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,7 +16,7 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-06-16">16 de junho de 2025</date>
+                <date when="2025-07-02">02 de julho de 2025</date>
             </editionStmt>
             <extent>
                 <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
@@ -78,59 +78,81 @@
                 </application>
             </appInfo>
         </encodingDesc>
-        
         <profileDesc>
+            
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#raul_abbott">Raul Abbott</persName>
-                    <placeName ref="#cachoeira">Cachoeira</placeName>
-                    <date when="1896-04-27">27 de abril de 1896</date>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <date when="1837-10-24">24 de outubro de 1837</date>
+                    <placeName ref="#piratini"></placeName>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#alfredo_varela">Alfredo Varela</persName>
+                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            
         </profileDesc>
         
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-06-16">16/06/2025</date>
-                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
-                </item>
-                <item>
-                    <date when="2025-10-20">20/11/2025</date>
-                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                    <date when="2025-11-21">21/11/2025</date>
+                    Conversão TEI realizada por Carla Menegat.
                 </item>
             </list>
         </revisionDesc>
     </teiHeader>
-
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-1">
+            <div type="letter" xml:id="CV-229">
+                
                 <opener>
-                    <salute>Amigo <persName ref="#alfredo_varela">Alfredo</persName></salute>
+                    <dateline>Piratini, 24 de outubro de 1837.</dateline>
+                    <salute>Querida Bernardina</salute>
                 </opener>
                 
-                <p>Só hoje posso responder tua carta, devido ao estado adoentado do veterano <persName ref="#coritiba">Coritiba</persName> com quem precisava conversar para dar resposta conveniente.</p>
+                <p>
+                    Bastante tenho estimado saber que tu e nossos filhos gozam
+                    <choice>
+                        <sic>[sic]</sic>
+                        <corr></corr>
+                    </choice>,
+                    que o compadre vai a melhor, e que a comadre e teus manos
+                    se acham bons. Eu, apesar de não sair da banca com 
+                    <persName ref="#joao_da_cunha">João da Cunha</persName>,
+                    suponho que não vencerei minha escrita ainda nestes doze dias,
+                    o que bastante me amofina, por querer voar a procurar meios 
+                    de descanso e de educar a nossos filhos.
+                </p>
                 
-                <p>Sentimos bastante que a presteza com que resolveram partir, nos tivesse proibido da prometida visita, por nós desejada pelo prazer que nos viria dar. Que agradável seja o passeio a <placeName ref="#buenos_aires">Buenos Aires</placeName> e que regressem novamente ao <placeName ref="#rio_grande_dosul">Rio Grande</placeName> são nossos desejos.</p>
+                <p>
+                    Vão os três escravos que esperava de Porto Alegre; não se deixando 
+                    de alguma plantação, contudo penso que se deve em primeiro lugar 
+                    pôr as carretas em ordem de marcha, em alguma ramada, e que se 
+                    tape o quintal com valos, etc., etc. Os lombilhos do José e do 
+                    Catraio que seguem com os escravos, faze voltar na primeira 
+                    ocasião, ou por próprio, a fim de me não faltarem quando precise.
+                </p>
                 
-                <p>Do velho <persName ref="#coritiba">Coritiba</persName> colhi o seguinte: “No <event ref="#combate_espinilho">combate do Espinilho</event> estavam os dois, <persName ref="#canabarro">Canabarro</persName> e <persName ref="#bento_manuel">Bento Manuel</persName>, este há poucos dias havia passado para a República.</p>
-                
-                <p>Foi tão somente um corpo e um esquadrão que derrotaram a força legal. As operações foram concebidas por <persName ref="#canabarro">Canabarro</persName>. Comandava o corpo (batalhão) o <persName ref="#teixeira_nunes">Coronel Joaquim Teixeira Nunes</persName> e o esquadrão, <persName ref="#demetrio_ribeiro">Demétrio Ribeiro</persName>. Neste ataque foi prisioneiro o <persName ref="#roque">capitão legalista Roque</persName> sendo em marcha fuzilado. Esse capitão foi o assassino do <persName ref="#general_lima">General Lima</persName>, em uma casa da fronteira.”</p>
-                
-                <p>Aqui termina o velho o que sabia, dizendo estar pronto a mais esclarecimentos dar, quando necessários, digo, solicitados. Creio que fica respondida tua estimada carta faltando pedir para aceitares com prima Josefina nossos protestos de estima e acariciares a mimosa Vivi, muitas vezes, por nós.</p>
-                
-                <p>Agradeço os bons desejos manifestados pelo restabelecimento da Laia a quem farei ciente assim regresse do passeio que está fazendo a uma fazenda do município.</p>
+                <p>
+                    Remete a <persName ref="#florisbelo_santos_pereira">Florisbelo</persName> 
+                    a carta junta, pedindo-lhe que a envie com a maior brevidade.
+                    O compadre e a comadre que hajam esta por sua, saudades à 
+                    prima Carlota, à comadre Maria José, seus filhos e pais, abraços 
+                    a nossos filhos, e tu recebe o coração do
+                </p>
                 
                 <closer>
-                    <salute>Abraços manda o</salute>
-                    <signed>Raul</signed>
-                    <placeName ref="#cachoeira">Cachoeira</placeName>, <date when="1896-04-27">27-4-96</date>.
+                    <signed>Teu<br/>(a) <persName ref="#domingos_jose_almeida">Almeida</persName></signed>
                 </closer>
+                
+                <postscript>
+                    Com os cavalos do 
+                    <persName ref="#joao_manuel_lima_silva">Lima</persName> 
+                    manda a carta junta.
+                </postscript>
+                
             </div>
         </body>
     </text>

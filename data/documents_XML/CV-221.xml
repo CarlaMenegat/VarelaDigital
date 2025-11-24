@@ -113,7 +113,7 @@
                         <placeName ref="#piratini">Piratini</placeName>,
                         <date when="1837-08-09">9 de agosto de 1837</date>.
                     </dateline>
-                    <salute>Sr. <persName ref="#antonio_jose_goncalves_chaves">Antônio José Gonçalves Chaves</persName>.</salute>
+                    <salute><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#antonio_jose_goncalves_chaves">Antônio José Gonçalves Chaves</persName>.</salute>
                 </opener>
                 
                 <p>Anteontem recebi duas suas de 9 do passado mês, e tendo de
@@ -121,16 +121,16 @@
                     compra de um artigo que se fazia mister ao Estado e bem assim os 600$
                     a <persName ref="#renovato">Renovato</persName>: e posto não achar fundamento na ordem de meu
                     cunhado, todavia foi bom; porque a Renovato devo somente quatrocentos
-                    e sessenta mil réis, que V. Mcê. entregará ao apresentante de minha
+                    e sessenta mil réis, que <choice><abbr>V. Mcê.</abbr><expan>Vossa Mercê</expan></choice> entregará ao apresentante de minha
                     ordem se os quiser receber; e fique entendendo que enquanto existir em
-                    seu poder fundos meus, quer seja do negócio que V. Mcê. não ignora,
+                    seu poder fundos meus, quer seja do negócio que <choice><abbr>V. Mcê.</abbr><expan>Vossa Mercê</expan></choice> não ignora,
                     quer seja de nossas transações particulares, minhas ordens devem ser
                     pagas religiosamente, embora meu cunhado o contrário determine; o que
                     talvez proceda de coisas que tratamos etc., etc., e que não tiveram
                     efeito; porque a assim ser não teria eu fundos disponíveis nessa.</p>
                 
-                <p>O Sr. seu filho ainda se acha em <placeName ref="#pelotas">Pelotas</placeName>; já lhe escrevi sobre o
-                    dinheiro-papel e respondeu-me que o havia remetido a V. Mcê.;
+                <p>O <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> seu filho ainda se acha em <placeName ref="#pelotas">Pelotas</placeName>; já lhe escrevi sobre o
+                    dinheiro-papel e respondeu-me que o havia remetido a <choice><abbr>V. Mcê.</abbr><expan>Vossa Mercê</expan></choice>;
                     encarreguei-o 2.º vez do recebimento de outra quantia, mas soube que
                     ele vinha a esta e que daqui marchará para essa.</p>
                 
@@ -142,13 +142,13 @@
                     isto mesmo fiz ver a <persName ref="#joao_jose_victorica">Victorica</persName>,
                     inteligenciando-o de que se ele não aprovasse ou os mandasse buscar, que
                     reporia o dinheiro que lhe pedi adiantado, o qual, por fortuna, ainda minha
-                    mulher não havia recebido: por conseguinte os remeto a V. Mcê. à vista
+                    mulher não havia recebido: por conseguinte os remeto a <choice><abbr>V. Mcê.</abbr><expan>Vossa Mercê</expan></choice> à vista
                     da ordem que do mesmo meu cunhado ontem recebi, e estimarei cheguem
                     a salvamento.</p>
                 
                 <p>As onças que pedi, basta que me envie somente vinte, uma vez
                     tenho podido sacar, etc., etc. Vou já escrever a meu sogro sobre o que
-                    V. Mcê. exige, e a procuração lhe irá imediatamente que me venha às mãos,
+                    <choice><abbr>V. Mcê.</abbr><expan>Vossa Mercê</expan></choice> exige, e a procuração lhe irá imediatamente que me venha às mãos,
                     como igualmente cinco escravos mais que me estão a chegar.</p>
                 
                 <p>Torno a repetir que breve lá me tem, e então conversaremos à vontade.
@@ -164,7 +164,7 @@
                 <signed>(a) <persName ref="#domingos_jose_almeida">Almeida</persName>.</signed>
                 
                 <note type="endorsement" place="verso">
-                    Ilmo. Sr. <persName ref="#antonio_jose_goncalves_chaves">Antônio José Gonçalves Chaves</persName>,<br/>
+                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#antonio_jose_goncalves_chaves">Antônio José Gonçalves Chaves</persName>,<br/>
                     <placeName ref="#montevideo">Montevidéu</placeName>. 
                 </note>
                 

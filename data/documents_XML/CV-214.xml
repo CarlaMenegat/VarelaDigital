@@ -110,24 +110,24 @@
             <div type="letter" xml:id="CV-214">
                 
                 <opener>
-                    <salute>Resposta<br/>Ilmo. Exmo. Sr.</salute>
+                    <salute>Resposta<br/>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Em 29 do passado me veio à mão o ofício e decreto que
-                    V. Ex.ª me endereçou com data de 9 do mesmo mês, cumprindo-me
-                    em resposta ao mesmo dizer que ninguém melhor que V. Ex.ª conhece
+                    <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> me endereçou com data de 9 do mesmo mês, cumprindo-me
+                    em resposta ao mesmo dizer que ninguém melhor que <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> conhece
                     o estado em que me acho respeito a finanças, pois que já em 24 de
-                    julho do ano p.p., V. Ex.ª mesmo me fez igual requisição por ordem
-                    do Exmo. Sr. <persName ref="#joao_manuel_lima_silva">
+                    julho do ano p.p., <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> mesmo me fez igual requisição por ordem
+                    do Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_manuel_lima_silva">
                         João Manuel de Lima e Silva</persName>, a qual, com o mesmo pesar
                     que agora me acompanha, me vi na precisão de negar-me a semelhante
                     requisição, que tão justa se faz para a seguridade do sistema proclamado.</p>
                 
                 <p>Tenho bens dos quais já alguns tenho prestado, como
-                    V. Ex.ª não ignora, e iguais desejos inda são de mim inseparáveis, e tudo
+                    <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> não ignora, e iguais desejos inda são de mim inseparáveis, e tudo
                     que for útil para sustentar a nossa causa, gratuitamente ofereço.</p>
                 
-                <p>Deus guarde a V. Ex.ª muitos anos.
+                <p>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> muitos anos.
                     Fazenda do Salso,
                     <date when="1837-07-01">1.º de julho de 1837</date>.</p>
                 

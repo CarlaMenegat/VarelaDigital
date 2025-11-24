@@ -5,19 +5,80 @@
             <titleStmt>
                 <title>Carta CV-2 – Antônio F. dos Santos Abreu para Domingos J. de Almeida</title>
                 <author ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-06-16">16 de junho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>
-                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
-                </bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
             </sourceDesc>
         </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
@@ -31,6 +92,19 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-06-16">16/06/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-10-20">20/11/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     <text>
@@ -42,7 +116,7 @@
                         <placeName ref="#jaguarao_chico">Jaguarão Chico</placeName>, <date when="1838-11-17">17 de novembro 1838</date>
                     </dateline>
                 </opener>
-                <p>Como segue para esse lugar <persName ref="#dionisio_amaro">Dionísio Amaro</persName>, lhe rogo pelo mesmo me mande os documentos tendentes ao objeto a que meu <persName ref="#irmao_abreu">mano</persName> se dirigiu a essa a tratar com <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice>; por cujo obséquio muito obrigará ao seu amigo.</p>
+                <p>Como segue para esse lugar <persName ref="#dionisio_amaro">Dionísio Amaro</persName>, lhe rogo pelo mesmo me mande os documentos tendentes ao objeto a que meu mano se dirigiu a essa a tratar com <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice>; por cujo obséquio muito obrigará ao seu amigo.</p>
                 <p>Tendo de comprar do outro lado alguns gêneros, recursos para minha casa, e não podendo fazer esta compra senão a troco de gado pela falta de dinheiro, e faltando-me este mesmo até para pagar os direitos (talvez de cem bois), tenho portanto de rogar-lhe o ver se é ou não possível pagar tais direitos em gado, ou encontrar-se-me em um documento que tenho de 120 reses gordas supridas para o consumo do exército.</p>
                 <p>Sendo finalmente que se consigo o que desejo tanto mais moverá a gratidão do</p>
                 <closer>

@@ -3,8 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-1 – Raul Abbott para Alfredo</title>
-                <author>Raul Abbott</author>
+                <title>Carta CV-223 – Domingos José de Almeida para João Antônio da Silveira</title>
+                <author>Domingos José de Almeida</author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,7 +16,7 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-06-16">16 de junho de 2025</date>
+                <date when="2025-07-02">02 de julho de 2025</date>
             </editionStmt>
             <extent>
                 <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
@@ -78,16 +78,16 @@
                 </application>
             </appInfo>
         </encodingDesc>
-        
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#raul_abbott">Raul Abbott</persName>
-                    <placeName ref="#cachoeira">Cachoeira</placeName>
-                    <date when="1896-04-27">27 de abril de 1896</date>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1837-08-27">27 de agosto de 1837</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#alfredo_varela">Alfredo Varela</persName>
+                    <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
+                    <note>Comandante da Coluna do Centro</note>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -95,42 +95,49 @@
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-06-16">16/06/2025</date>
-                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
-                </item>
-                <item>
-                    <date when="2025-10-20">20/11/2025</date>
-                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                    <date when="2025-11-21">21/11/2025</date>
+                    Conversão TEI realizada por Carla Menegat.
                 </item>
             </list>
         </revisionDesc>
     </teiHeader>
-
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-1">
+            <div type="letter" xml:id="CV-223">
+                
                 <opener>
-                    <salute>Amigo <persName ref="#alfredo_varela">Alfredo</persName></salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>:</salute>
                 </opener>
                 
-                <p>Só hoje posso responder tua carta, devido ao estado adoentado do veterano <persName ref="#coritiba">Coritiba</persName> com quem precisava conversar para dar resposta conveniente.</p>
+                <p>De ordem do governo passo às mãos de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> o decreto e proclamação
+                    com data de 25 do corrente mês, a fim de lhe dar execução e publicidade,
+                    recomendando que os indivíduos que em virtude do indulto concedido se
+                    apresentarem, devem logo ser remetidos à capital, a fim de prestar juramento
+                    e se lhe fornecer portaria; ficando na inteligência de que sem esse ônus não
+                    se reconhecerá tal apresentação, e nem verificada depois de expirado o prazo.</p>
                 
-                <p>Sentimos bastante que a presteza com que resolveram partir, nos tivesse proibido da prometida visita, por nós desejada pelo prazer que nos viria dar. Que agradável seja o passeio a <placeName ref="#buenos_aires">Buenos Aires</placeName> e que regressem novamente ao <placeName ref="#rio_grande_dosul">Rio Grande</placeName> são nossos desejos.</p>
+                <p>Deus guarde a <choice><abbr>V. S.ª.</abbr><expan>Vossa Senhoria</expan></choice></p>
                 
-                <p>Do velho <persName ref="#coritiba">Coritiba</persName> colhi o seguinte: “No <event ref="#combate_espinilho">combate do Espinilho</event> estavam os dois, <persName ref="#canabarro">Canabarro</persName> e <persName ref="#bento_manuel">Bento Manuel</persName>, este há poucos dias havia passado para a República.</p>
-                
-                <p>Foi tão somente um corpo e um esquadrão que derrotaram a força legal. As operações foram concebidas por <persName ref="#canabarro">Canabarro</persName>. Comandava o corpo (batalhão) o <persName ref="#teixeira_nunes">Coronel Joaquim Teixeira Nunes</persName> e o esquadrão, <persName ref="#demetrio_ribeiro">Demétrio Ribeiro</persName>. Neste ataque foi prisioneiro o <persName ref="#roque">capitão legalista Roque</persName> sendo em marcha fuzilado. Esse capitão foi o assassino do <persName ref="#general_lima">General Lima</persName>, em uma casa da fronteira.”</p>
-                
-                <p>Aqui termina o velho o que sabia, dizendo estar pronto a mais esclarecimentos dar, quando necessários, digo, solicitados. Creio que fica respondida tua estimada carta faltando pedir para aceitares com prima Josefina nossos protestos de estima e acariciares a mimosa Vivi, muitas vezes, por nós.</p>
-                
-                <p>Agradeço os bons desejos manifestados pelo restabelecimento da Laia a quem farei ciente assim regresse do passeio que está fazendo a uma fazenda do município.</p>
+                <dateline>
+                    Secretaria de Estado dos Negócios do Interior e interinamente dos da Guerra
+                    em <placeName ref="#piratini">Piratini</placeName>, 
+                    <date when="1837-08-27">27 de agosto de 1837</date>.
+                </dateline>
                 
                 <closer>
-                    <salute>Abraços manda o</salute>
-                    <signed>Raul</signed>
-                    <placeName ref="#cachoeira">Cachoeira</placeName>, <date when="1896-04-27">27-4-96</date>.
+                    <signed>
+                        (a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.
+                    </signed>
                 </closer>
+                
+                <note type="endorsement" place="verso">
+                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>,<br/>
+                    Comandante da Coluna do Centro.<br/>
+                    Aonde se achar.<br/>
+                    Do Ministério do Interior, Fazenda e Guerra.
+                </note>
+                
             </div>
         </body>
     </text>

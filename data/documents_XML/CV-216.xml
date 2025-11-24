@@ -109,19 +109,19 @@
             <div type="letter" xml:id="CV-216">
                 
                 <opener>
-                    <salute>Cópia – Ilmo. Sr.</salute>
+                    <salute>Cópia – Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Respondendo ao respeitável ofício de V. S.ª, cumpre-me dizer que
-                    pela relação dos bens que estes dias dei, verá V. S.ª que os réditos não
-                    alcançam a quantia que V. S.ª pede; em moeda não tenho vintém, porém
+                <p>Respondendo ao respeitável ofício de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>, cumpre-me dizer que
+                    pela relação dos bens que estes dias dei, verá <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> que os réditos não
+                    alcançam a quantia que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> pede; em moeda não tenho vintém, porém
                     se os meus teres servem, estão prontos para o serviço da pátria; é o quanto
-                    tenho a pôr na respeitável presença de V. S.ª, a quem Deus guarde por muitos
+                    tenho a pôr na respeitável presença de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>, a quem Deus guarde por muitos
                     anos.</p>
                 
                 <p><placeName ref="#pedregal">Pedregal</placeName>,
                     <date when="1837-07-19">19 de julho de 1837</date>.<br/>
-                    Ilmo. Sr.
+                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>,
                     Secretário de Estado dos Negócios da Fazenda.</p>
                 

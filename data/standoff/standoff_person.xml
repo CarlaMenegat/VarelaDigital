@@ -136,20 +136,9 @@
             <note>Pessoa proprietária mencionada na carta, cujo patrimônio foi objeto de decisão administrativa.</note>
         </person>
 
-        <person xml:id="josefina">
-            <persName>Josefina</persName>
-            <note>Prima de Alfredo, mencionada com carinho na carta.</note>
-        </person>
-        <person xml:id="vivi">
-            <persName>Vivi</persName>
-            <note>Provavelmente criança próxima à família de Alfredo, mencionada como "mimosa".</note>
-        </person>
-        <person xml:id="laia">
-            <persName>Laia</persName>
-            <note>Possivelmente familiar próxima de Raul Abbott; está em convalescença.</note>
-        </person>
         <person xml:id="antonio_abreu">
             <persName>Antônio Francisco dos Santos Abreu</persName>
+            <idno></idno>
             <note>Comerciante e fornecedor de gado, frequentemente em contato com o governo farroupilha.</note>
         </person>
         
@@ -255,7 +244,7 @@
             <affiliation>Exército do Império do Brasil</affiliation>
             <role>Comandante militar</role>
             <sex>m</sex>
-        </person>
+        </person> <!--id repetido-->
         
         <person xml:id="domingos_vicente">
             <persName>Domingos Vicente</persName>
@@ -764,12 +753,14 @@
         
         <person xml:id="varejao">
             <persName>Varejão</persName>
+            <idno></idno>
             <note>Responsável por remessas de alimentos mencionadas na carta.</note>
         </person>
         
         <person xml:id="jose_joaquim_silva_maia">
             <persName>José Joaquim da Silva Maia</persName>
-            <note>Comerciante.</note>
+            <idno></idno>
+            <note>Comerciante. Genro de D. Clara. </note>
         </person>
         
         <person xml:id="pedro_lopes">
@@ -883,7 +874,7 @@
         
         <person xml:id="antonio_francisco_santos_abreu">
             <persName>Antônio Francisco dos Santos Abreu</persName>
-        </person>
+        </person> <!--trocar pela id antonio_abreu-->
         
         <person xml:id="silvano_monteiro_araujo">
             <persName>Silvano José Monteiro de Araújo e Paula</persName>
@@ -1082,7 +1073,16 @@
         
         <person xml:id="ana_joaquina_santos">
             <persName>D. Ana Joaquina da Silva Santos</persName>
-            <note>Remetente de resposta administrativa encaminhada ao governo.</note>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Remetente de resposta administrativa encaminhada ao governo. Participou da subscrição de Boqueirão em apoio aos farroupilhas.</note>
         </person>
         
         <person xml:id="guiomar_soares">
@@ -1097,7 +1097,8 @@
         
         <person xml:id="joaquim_braga">
             <persName>Joaquim Vieira Braga</persName>
-            <note>Indivíduo que acompanhou as respostas mencionadas.</note>
+            <idno></idno>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
         
         <person xml:id="manuel_madruga">
@@ -2052,7 +2053,14 @@
         
         <person xml:id="antonio_vicente_siqueira_pereira_leitao">
             <persName>Antônio Vicente de Siqueira Pereira Leitão</persName>
-            <note>Ministro e Secretário de Estado dos Negócios da Justiça, destinatário da carta.</note>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q9623076</idno>
+            <roleName>Ministro e Secretário de Estado dos Negócios da Justiça da República Rio-grandense.</roleName>
+            <roleName>Ministro e Secretário de Estado dos Negócios da Fazenda da República Rio-grandense.</roleName>
+            <roleName>Ministro e Secretário de Estado dos Negócios da Guerra da República Rio-grandense.</roleName>
+            <roleName>Deputado à assembléia provincial do Rio Grande do Sul</roleName>
+            <roleName>Promotor</roleName>
+            <roleName>funcionário da repartição de terras</roleName>
+            <note>Ministro e Secretário de Estado dos Negócios da Justiça. Antônio Vicente de Siqueira Pereira Leitão (Rio Pardo, 17 de janeiro de 1809 — Porto Alegre, 23 de dezembro de 1888) foi um advogado e magistrado brasileiro. </note>
         </person>
         
         <person xml:id="joaquim_jose_cruz">
@@ -2086,11 +2094,19 @@
             <persName>Tenente-coronel Baltasar</persName>
         </person>
         
-        <person xml:id="baltasar_rodrigues_soares_filho">
+        <person xml:id="baltasar_jose_rodrigues_soares_filho">
             <persName>Baltasar José Rodrigues Soares Filho</persName>
             <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
             <roleName>Sargento</roleName>
-            <note>Sargento citado como portador do empréstimo solicitado por Almeida.</note>
+            <note>Sargento citado como portador do empréstimo solicitado por Almeida. Também fez parte da subscrição de São Lourenço para dar suporte aos farroupilhas.</note>
         </person>
         
         <person xml:id="francisco_augusto_cunha">
@@ -3413,7 +3429,16 @@
         
         <person xml:id="david_silveira_duarte">
             <persName>David Silveira Duarte</persName>
-            <note>Envolvido na tentativa de reescravização dos libertos mencionados.</note>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Envolvido em tentativa de reescravização de libertos. Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
         
         <person xml:id="manuel_lucas_de_lima">
@@ -4266,6 +4291,11 @@
             <note>Nomeado Presidente da Província pelo Império logo no início da Guerra dos Farrapos. Foi diplomata importante a serviço do Império.</note>
         </person>
         
+        <person xml:id="jose_antonio_araujo_ribeiro">
+            <persName>José Antônio de Araújo Ribeiro</persName>
+            <note>Cunhado do autor; transmissor de informação militar. Pai de José Araújo Ribeiro.</note>
+        </person>
+        
         <person xml:id="manuel_jose_alencastre">
             <persName>Manuel José de Alencastre</persName>
             <note>Capitão nomeado juiz de paz.</note>
@@ -4374,11 +4404,6 @@
         <person xml:id="rafael_brandao">
             <persName>Rafael Brandão</persName>
             <note>Comandante da força no arroio dos Ratos.</note>
-        </person>
-        
-        <person xml:id="jose_antonio_araujo_ribeiro">
-            <persName>José Antônio de Araújo Ribeiro</persName>
-            <note>Cunhado do autor; transmissor de informação militar. Pai de José Araújo Ribeiro.</note>
         </person>
         
         <person xml:id="antonio_jose_pires">
@@ -5517,5 +5542,461 @@
             <idno></idno>
             <note>Indivíduo envolvido em transações financeiras com Almeida; identificação incompleta.</note>
         </person>
+        
+        <person xml:id="jose_escravo">
+            <persName>José</persName>
+            <idno></idno>
+            <note>Escravo pertencente à família Almeida, mencionado como possível servidor do vigário geral.</note>
+        </person>
+        
+        <person xml:id="belem">
+            <persName>Belém</persName>
+            <idno></idno>
+            <note>Indivíduo mencionado de forma direta no contexto das relações com Ramirez; identidade incompleta.</note>
+        </person>
+        
+        <person xml:id="joao_nunes_silva">
+            <persName>João Nunes da Silva</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+        
+        <person xml:id="joaquim_antunes_fagundes">
+            <persName>Joaquim Antunes Fagundes</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+        
+        <person xml:id="aleixo_goncalves_moreira">
+            <persName>Aleixo Gonçalves Moreira</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="jeronimo_ribeiro_silva">
+            <persName>Jerônimo Ribeiro da Silva</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+        
+        <person xml:id="joao_manuel_fernandes">
+            <persName>João Manuel Fernandes</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="americo_pereira_silva">
+            <persName>Américo Pereira da Silva</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="joao_pereira_silva">
+            <persName>João Pereira da Silva</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="simao_jose_silva">
+            <persName>Simão José da Silva</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="jose_bernardes_rodrigues_martins">
+            <persName>José Bernardes Rodrigues Martins</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="antonio_jose_vale">
+            <persName>Antônio José do Vale</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="joao_batista_barbosa">
+            <persName>João Batista Barbosa</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="luis_pimenta_sampaio">
+            <persName>Luís Pimenta de Sampaio</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="antonio_manuel_rodrigues_carvalho">
+            <persName>Antônio Manuel Rodrigues de Carvalho</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="tomas_cardoso_osorio">
+            <persName>Tomás Cardoso Osório</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="baltasar_jose_rodrigues_soares">
+            <persName>Baltasar José Rodrigues Soares</persName>
+            <idno></idno>
+            <relation
+                xml:id="rel_baltasar_soares_pai_filho"
+                name="kinship"
+                mutual="false"
+                active="#baltasar_jose_rodrigues_soares"
+                passive="#baltasar_jose_rodrigues_soares_filho"
+                ref="https://www.wikidata.org/wiki/Q840795">
+                <desc>Relação de parentesco: Baltasar José Rodrigues Soares era pai de Baltasar José Rodrigues Soares Filho.</desc>
+            </relation>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+        
+        <person xml:id="francisco_jose_vargas">
+            <persName>Francisco José de Vargas</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="joao_batista_vitor">
+            <persName>João Batista Vitor</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="albertino_lopes_soares">
+            <persName>Albertino Lopes Soares</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="antonio_cardoso_osorio">
+            <persName>Antônio Cardoso Osório</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="antonio_francisco_pinto_oliveira">
+            <persName>Antônio Francisco Pinto de Oliveira</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="francisco_jose_araujo">
+            <persName>Francisco José de Araújo</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="francisco_tomas_cunha">
+            <persName>Francisco Tomás da Cunha</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="francisco_vilela_moreira">
+            <persName>Francisco Vilela Moreira</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="manoel_martins_porto">
+            <persName>Manoel Martins Porto</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="melchior_cardoso_osorio">
+            <persName>Melchior Cardoso Osório</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="manuel_rodrigues_mendes">
+            <persName>Manuel Rodrigues Mendes</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="felicio_soares_silva">
+            <persName>Felício Soares da Silva</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="bernardino_soares_silva">
+            <persName>Bernardino Soares da Silva</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="guiomar_maria_soares">
+            <persName>Guiomar Maria Soares</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="manoel_soares_silva">
+            <persName>Manoel Soares da Silva</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
+        <person xml:id="inacio_jose_mendonca">
+            <persName>Inácio José de Mendonça</persName>
+            <idno></idno>
+            <relation
+                name="financialContribution"
+                mutual="false"
+                active="#ID_da_pessoa"
+                passive="#subs_boqueirao_1837"
+                ref="https://www.wikidata.org/wiki/Q2334699">
+                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
+            </relation>
+            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
+        </person>
+
     </listPerson>
 </standOff>

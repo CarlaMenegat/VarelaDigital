@@ -107,7 +107,7 @@
             <div type="letter" xml:id="CV-212">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Reconhecendo o governo que para a pronta consolidação do
@@ -120,15 +120,15 @@
                     incumbiu de promover o referido empréstimo, como se vê do
                     decreto junto de 29 de maio próximo passado.</p>
                 
-                <p>Por semelhante motivo me dirijo a V. S.ª rogando-lhe queira
+                <p>Por semelhante motivo me dirijo a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> rogando-lhe queira
                     prestar-se com a quantia de 5:000$000 rs. em prata ou ouro, que lhe
                     será paga no prazo marcado pelo referido decreto com o prêmio de
                     um e meio por cento ao mês, que principiará a correr desde o dia
                     que nesta Secretaria se lhe entregar o documento em forma.</p>
                 
                 <p>Para o <orgName ref="#tesouro">Tesouro</orgName> nesta data, aliás nesta cidade,
-                    enviará V. S.ª no prazo de trinta dias a soma de que faço menção.
-                    Deus guarde a V. S.ª muitos anos.
+                    enviará <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> no prazo de trinta dias a soma de que faço menção.
+                    Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> muitos anos.
                     <placeName ref="#piratini">Piratini</placeName>,
                     <date when="1837-06-09">9 de junho de 1837</date>.</p>
                 
@@ -140,8 +140,8 @@
                 
                 <note type="endorsement" place="verso">
                     Recebi a 19 de junho e respondi no mesmo dia e ano 1837.<br/>
-                    S. da R. (Secretaria da Presidência da República).<br/>
-                    Ilmo. Sr. <persName ref="#tito_teixeira_pinto">Tito Teixeira Pinto</persName>.<br/>
+                    <choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice> (Secretaria da Presidência da República).<br/>
+                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tito_teixeira_pinto">Tito Teixeira Pinto</persName>.<br/>
                     Do Ministério da Fazenda.
                 </note>
                 

@@ -47,5 +47,13 @@
             <desc>Decisão da Assembleia Provincial de enviar Domingos José de Almeida e o Dr. Marciano ao Rio de Janeiro em missão política.</desc>
             <date when="1836-02-23"/>
         </event>
+        
+        <event xml:id="subs_boqueirao_1837">
+            <desc>Subscrição financeira mensal promovida no Distrito do Boqueirão para apoiar a República Rio-Grandense, iniciada em 1 de outubro de 1837.</desc>
+            <date when="1837-10-01"/>
+            <location>
+                <placeName xml:id="boqueirao"/>
+            </location>
+        </event>
     </listEvent>
 </standOff>
