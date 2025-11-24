@@ -117,14 +117,14 @@
             <div type="letter" xml:id="CV-197a">
                 
                 <opener>
-                    <salute>Ilmo. Exmo. Sr.</salute>
+                    <salute>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Se puder vir agora as 100 calças para enfardar-se com outras e
                     seguirem na canoa que para tal fim se fretou, ao conduto do
-                    <persName ref="#malaquias_faria_lobato">Sr. Malaquias de Faria Lobato</persName>, seria famoso.</p>
+                    <persName ref="#malaquias_faria_lobato"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Malaquias de Faria Lobato</persName>, seria famoso.</p>
                 
-                <p>De V. Ex.ª venerador e criado amigo<br/>
+                <p>De <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> venerador e criado amigo<br/>
                     (a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</p>
                 
             </div>

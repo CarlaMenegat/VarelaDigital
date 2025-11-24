@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-188 – Domingos José de Almeida a Bernardina Barcelos de Almeida</title>
+                <title>Carta CV-202 – Domingos José de Almeida para Manuel Rodrigues Cordeiro</title>
                 <author>Domingos José de Almeida</author>
                 <respStmt>
                     <resp>Edição digital</resp>
@@ -78,20 +78,19 @@
                 </application>
             </appInfo>
         </encodingDesc>
-        
         <profileDesc>
-            <correspDesc>
+            <correspDesc xml:id="cv202-corresp">
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
-                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
-                    <date when="1836-02-09">9 de fevereiro de 1836</date>
+                    <date when="1836-08-09">9 de agosto de 1836</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
-                    <placeName ref="#pelotas">Pelotas</placeName>
+                    <persName ref="#manuel_rodrigues_cordeiro">Manuel Rodrigues Cordeiro</persName>
+                    <placeName ref="#mostardas">Mostardas</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -101,68 +100,34 @@
             </list>
         </revisionDesc>
     </teiHeader>
-
+    
     <text>
         <body>
             
-            <div type="letter" xml:id="CV-188">
+            <div type="letter" xml:id="CV-202">
                 
                 <opener>
-                    <salute>Minha cara Bernardina do coração</salute>
-                    <dateline>
-                        <placeName ref="#porto_alegre">Porto Alegre</placeName>,
-                        <date when="1836-02-09">9 de fevereiro de 1836</date>.
-                    </dateline>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>
-                    Sei que dizem estar eu oculto em casa, talvez por não verem carta minha
-                    pelo correio, e por isso de hoje em diante me dirigirei constantemente
-                    por esse conduto, e tu me farás o mesmo, a fim de tapar a boca a essa
-                    santa gente, que tanto tem promovido o bem da Província, e por
-                    consequência o nosso e de nossos filhos, cujo pagamento Deus por nós lhes
-                    fará.
-                </p>
+                <p>A ferragem, chumbo e cabos que lhe enviar o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Juiz de Paz da
+                    freguesia de <placeName ref="#mostardas">Mostardas</placeName>, <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> fará seguir embarcado ao Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                    Coronel Comandante Superior da Guarda Nacional. Do
+                    <placeName ref="#estreito">Estreito</placeName> tenciono enviar para tais serviços duas ou três
+                    canoas com suas tripulações.</p>
                 
-                <p>
-                    Por aqui gozamos de muito sossego depois que se dispersaram os cabanos;
-                    mas a tormenta que o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
-                    <persName ref="#jose_araujo_ribeiro">Araújo Ribeiro</persName>
-                    e os seus armaram ainda ameaça grandes estragos, se bem que ela esteja
-                    carrancuda para quem a promoveu.
-                </p>
+                <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> muitos anos.</p>
                 
-                <p>
-                    Eu gozo saúde porém sobremaneira aborrecido por estar fora de casa tanto
-                    tempo, ausente de ti e de nossos filhos. Sei do armamento que aí se
-                    prepara para a expedição contra esta capital, mas tu não te incomodes,
-                    e tenhas em memória o que te recomendei nas minhas últimas,
-                    consultando-me por próprio, antes de tudo, se te parecer preciso.
-                </p>
+                <dateline>
+                    Quartel no Pântano Grande,
+                    <date when="1836-08-09">9 de agosto de 1836</date>.
+                </dateline>
                 
-                <p>
-                    Saudades a nossos pais, compadre
-                    <persName ref="#jose_felix">José Félix</persName>, manos e a todos
-                    de casa; abraços a nossos filhos, e tu recebe o coração do
-                </p>
-                
-                <closer>
-                    <signed>Teu fiel<br/>(a)
-                        <persName ref="#domingos_jose_almeida">Almeida</persName>.
-                    </signed>
-                </closer>
-                
-                <p>
-                    <persName ref="#leao_prospero_chastan"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Chastan</persName>,
-                    <persName ref="#chevalier">Chevalier</persName> e
-                    <persName ref="#david">David</persName> que hajam esta por sua.
-                </p>
+                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#manuel_rodrigues_cordeiro">Manuel Rodrigues Cordeiro</persName>.</p>
                 
                 <note type="endorsement" place="verso">
-                    <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> D.
-                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.<br/>
-                    <placeName ref="#pelotas">Pelotas</placeName>.<br/>
-                    <placeName ref="#porto_alegre">Porto Alegre</placeName> [Carimbo].
+                    [Cópia]<br/>
+                    [No verso 1 do documento CV-200]
                 </note>
                 
             </div>

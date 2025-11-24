@@ -105,7 +105,7 @@
             <div type="letter" xml:id="CV-180">
                 
                 <opener>
-                    <salute>Ilmo. <persName ref="#guilherme_carvalho">Sr. Guilherme Rodrigo de Carvalho</persName></salute>
+                    <salute>Ilmo. <persName ref="#guilherme_carvalho"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Guilherme Rodrigo de Carvalho</persName></salute>
                 </opener>
                 
                 <p>
@@ -151,7 +151,7 @@
                 
                 <div type="reply">
                     <opener>
-                        <salute>Ilmo. <persName ref="#domingos_jose_almeida">Sr. Domingos José de Almeida</persName>.</salute>
+                        <salute>Ilmo. <persName ref="#domingos_jose_almeida"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Domingos José de Almeida</persName>.</salute>
                     </opener>
                     
                     <p>
@@ -171,7 +171,7 @@
                 </div>
                 
                 <note type="endorsement" place="verso">
-                    Ilmo. <persName ref="#guilherme_carvalho">Sr. Guilherme Rodrigo de Carvalho</persName>. [No verso]<br/>
+                    Ilmo. <persName ref="#guilherme_carvalho"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Guilherme Rodrigo de Carvalho</persName>. [No verso]<br/>
                     <placeName ref="#pelotas">Cidade de Pelotas</placeName>.<br/>
                     Respondida. [No verso]
                 </note>

@@ -266,18 +266,24 @@
             <note>Localidade onde residiu Bernardina Barcelos de Almeida.</note>
         </place>
         
-        
+        <place xml:id="retiro">
+            <placeName>Retiro</placeName>
+            <idno type="geonames">https://www.geonames.org/3451576/retiro.html</idno>
+            <geo>-31.61667, -52.25</geo>
+            <note>Localidade próxima de Pelotas, na região da Serra dos Tapes.</note>
+        </place>
+
         <place xml:id="feliz_retiro">
             <placeName>Feliz Retiro</placeName>
             <note>Localidade rural onde residiu Bernardina.</note>
-        </place> <!-- corrigir para a id "bom_retiro"-->
+        </place> <!-- corrigir para a id "retiro"-->
         
         <place xml:id="bom_retiro">
             <placeName>Bom Retiro</placeName>
             <indo type="geonames">https://www.geonames.org/3469391/bom-retiro-do-sul.html</indo>
             <geo>29.60889, -51.94306</geo>
             <note>Localidade em torno da Propriedade de José Rodrigues Chaves.</note>
-        </place>
+        </place> <!-- corrigir para a id "retiro"-->
         
         <place xml:id="rio_pardo">
             <placeName>Rio Pardo</placeName>
@@ -487,7 +493,6 @@
             <note>Rio do Caí que desce da Serra do Rio Grande do Sul.</note>
         </place>
         
-        
         <place xml:id="cai">
             <placeName type="historical">Caí</placeName>
             <placeName type="modern">São Sebastião do Caí</placeName>
@@ -665,6 +670,13 @@
             <note>Município fronteiriço do Rio Grande do Sul.</note>
         </place>
         
+        <place xml:id="pirai">
+            <placeName>Piraí</placeName>
+            <idno type="geonames">https://www.geonames.org/3455142/parai.html</idno>
+            <geo>-28.59666, -51.79092</geo>
+            <note>Localidade na divisa entre o Brasil e o Uruguai, próxima do rio de mesmo nome.</note>
+        </place>
+        
         <place xml:id="santa_ana">
             <placeName>Santa Ana</placeName>
             <note>Localidade fronteiriça onde se faria a entrega dos novilhos.</note>
@@ -674,6 +686,12 @@
         <place xml:id="passo_enforcados">
             <placeName>Passo dos Enforcados</placeName>
             <note>Topônimo citado como ponto de travessia.</note>
+        </place>
+        
+        <place xml:id="chui">
+            <placeName>Chuí</placeName>
+            <idno type="geonames">https://www.geonames.org/3466187/chui.html</idno>
+            <geo>-33.69111, -53.45667</geo>
         </place>
         
         <place xml:id="barra_cacequi">
@@ -992,10 +1010,53 @@
         
         <place xml:id="sao_francisco_paula">
             <placeName>São Francisco de Paula</placeName>
-            <idno type="geonames"></idno>
-            <geo>https://www.geonames.org/3454244/pelotas.html</geo> 
-            <note>Localidade central do município de Pelotas.</note>
+            <idno type="geonames">https://www.geonames.org/3454244/pelotas.html</idno>
+            <geo></geo> 
+            <note>Nome da vila no atual centrod e Pelotas.</note>
+        </place> <!--trocar por pelotas-->
+        
+        <place xml:id="estreito">
+            <placeName>Estreito</placeName>
+            <idno type="geonames">https://www.geonames.org/3463780/estreito.html</idno>
+            <geo>-31.82083, -51.74528</geo>
+            <note>Localidade no atual município de São José do Norte.</note>
         </place>
+        
+        <place xml:id="torotama">
+            <placeName>Ilha da Torotama</placeName>
+            <idno type="geonames">https://www.geonames.org/13037322/ilha-da-torotama.html</idno>
+            <geo>-31.91531, -52.15732</geo>
+            <note>Ilha em frente à ponta da Sarangonha.</note>
+        </place>
+        
+        <place xml:id="sarangonha">
+            <placeName>Sarangonha</placeName>
+            <idno type="geonames">https://www.geonames.org/3447990/ilha-da-saragonha.html</idno>
+            <geo>-31.79605, -52.10158</geo>
+            <note>Ilha na Lagoa dos Patos próxima a Palotas.</note>
+        </place>
+        
+        <place xml:id="sao_leopoldo">
+            <placeName>São Leopoldo</placeName>
+            <idno type="geonames">https://www.geonames.org/3448622/sao-leopoldo.html</idno>
+            <geo>-29.76028, -51.14722</geo>
+            <note>Freguesia importante na região do Vale do Rio dos Sinos.</note>
+        </place>
+
+        <place xml:id="chasqueiro">
+            <placeName>Arroio Chasqueiro</placeName>
+            <idno type="geonames">https://www.geonames.org/3444846/arroio-chasqueiro.html</idno>
+            <geo>-32.26848, -52.78478</geo>
+            <note>Arroio próximo a Pelotas.</note>
+        </place>
+        
+        <place xml:id="candiotinha">
+            <placeName>Arroio Candiotinha</placeName>
+            <idno type="geonames">https://www.geonames.org/13036917/arroio-candiotinha.html</idno>
+            <geo>-31.59195, -53.66478</geo>
+            <note>Passo geral mencionado como posição do exército farroupilha.</note>
+        </place>
+
         
         <place xml:id="escuna_incorporacao">
             <placeName>Escuna Incorporação</placeName>

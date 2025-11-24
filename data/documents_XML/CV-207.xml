@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-188 – Domingos José de Almeida a Bernardina Barcelos de Almeida</title>
+                <title>Carta CV-207 – Domingos José de Almeida para Bernardino Rodrigues Barcelos Filho</title>
                 <author>Domingos José de Almeida</author>
                 <respStmt>
                     <resp>Edição digital</resp>
@@ -78,20 +78,20 @@
                 </application>
             </appInfo>
         </encodingDesc>
-        
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
-                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
-                    <date when="1836-02-09">9 de fevereiro de 1836</date>
+                    <placeName ref="#jaguarao_chico">Jaguarão Chico</placeName>
+                    <date when="1836-11-26">26 de novembro de 1836</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
-                    <placeName ref="#pelotas">Pelotas</placeName>
+                    <persName ref="#bernardino_rodrigues_barcelos_filho">Bernardino Rodrigues Barcelos Filho</persName>
+                    <placeName ref="#cerro_largo">Cerro Largo</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -101,72 +101,53 @@
             </list>
         </revisionDesc>
     </teiHeader>
-
     <text>
         <body>
-            
-            <div type="letter" xml:id="CV-188">
+            <div type="letter" xml:id="CV-207">
                 
-                <opener>
-                    <salute>Minha cara Bernardina do coração</salute>
-                    <dateline>
-                        <placeName ref="#porto_alegre">Porto Alegre</placeName>,
-                        <date when="1836-02-09">9 de fevereiro de 1836</date>.
-                    </dateline>
-                </opener>
+                <p>O inimigo se acha em meia légua de distância do nosso exército, as
+                    avançadas se batem quase todos os dias e o ataque geral se aproxima.</p>
                 
-                <p>
-                    Sei que dizem estar eu oculto em casa, talvez por não verem carta minha
-                    pelo correio, e por isso de hoje em diante me dirigirei constantemente
-                    por esse conduto, e tu me farás o mesmo, a fim de tapar a boca a essa
-                    santa gente, que tanto tem promovido o bem da Província, e por
-                    consequência o nosso e de nossos filhos, cujo pagamento Deus por nós lhes
-                    fará.
-                </p>
+                <p>É nesta conjuntura que V. S.ª, tendo aliás prestado já relevantes
+                    serviços à causa da liberdade, se conserva na mais criminosa indiferença.
+                    Todavia inclino-me a crer que esta apatia provém de não saber V. S.ª
+                    nosso estado atual, e que sabendo-o voará em defesa da pátria ameaçada
+                    dos ferros da escravidão.</p>
                 
-                <p>
-                    Por aqui gozamos de muito sossego depois que se dispersaram os cabanos;
-                    mas a tormenta que o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
-                    <persName ref="#jose_araujo_ribeiro">Araújo Ribeiro</persName>
-                    e os seus armaram ainda ameaça grandes estragos, se bem que ela esteja
-                    carrancuda para quem a promoveu.
-                </p>
+                <p>É portanto que dirijo a presente, cientificando de que nosso exército
+                    em número de 1500 bravos se acha no passo geral de
+                    <placeName ref="#candiotinha">Candiotinha</placeName> sobre a estrada, e 
+                    <persName ref="#bento_manuel">Bento Manuel</persName> logo abaixo, do lado 
+                    oposto, no campo da Conceição, com igual força, e sem atrever-se
+                    avançar um passo.</p>
                 
-                <p>
-                    Eu gozo saúde porém sobremaneira aborrecido por estar fora de casa tanto
-                    tempo, ausente de ti e de nossos filhos. Sei do armamento que aí se
-                    prepara para a expedição contra esta capital, mas tu não te incomodes,
-                    e tenhas em memória o que te recomendei nas minhas últimas,
-                    consultando-me por próprio, antes de tudo, se te parecer preciso.
-                </p>
+                <p>Para fazermos junção com a Brigada do Coronel
+                    <persName ref="#joao_antonio_silveira">João Antônio</persName> suponho que virá nosso exército para as pontas de
+                    <placeName ref="#jaguarao">Jaguarão</placeName> onde V. S.ª, com todos os rio-grandenses que puder reunir,
+                    cumpre que voe a engrossar suas filas.</p>
                 
-                <p>
-                    Saudades a nossos pais, compadre
-                    <persName ref="#jose_felix">José Félix</persName>, manos e a todos
-                    de casa; abraços a nossos filhos, e tu recebe o coração do
-                </p>
+                <p>Por objeto do serviço aqui me acho há três dias e só espero por
+                    V. S.ª e seus bravos companheiros para regressar. Seu reconhecido
+                    patriotismo e amor à liberdade me afiançam que pouco me demorarei à
+                    sua espera.</p>
+                
+                <dateline>
+                    <placeName ref="#jaguarao_chico">Fazenda do Neto em Jaguarão Chico</placeName>,
+                    <date when="1836-11-26">26 de novembro de 1836</date>.
+                </dateline>
                 
                 <closer>
-                    <signed>Teu fiel<br/>(a)
-                        <persName ref="#domingos_jose_almeida">Almeida</persName>.
-                    </signed>
+                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.<br/>
+                        Coronel Quartel-mestre General.</signed>
                 </closer>
                 
-                <p>
-                    <persName ref="#leao_prospero_chastan"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Chastan</persName>,
-                    <persName ref="#chevalier">Chevalier</persName> e
-                    <persName ref="#david">David</persName> que hajam esta por sua.
-                </p>
-                
                 <note type="endorsement" place="verso">
-                    <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> D.
-                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.<br/>
-                    <placeName ref="#pelotas">Pelotas</placeName>.<br/>
-                    <placeName ref="#porto_alegre">Porto Alegre</placeName> [Carimbo].
+                    Ilmo. Sr. Alferes <persName ref="#bernardino_rodrigues_barcelos_filho">Bernardino Rodrigues Barcelos Filho</persName>.<br/>
+                    <placeName ref="#cerro_largo">Cerro Largo</placeName>.<br/>
+                    Do Coronel Quartel-mestre General.
                 </note>
                 
             </div>
-            
         </body>
     </text>
 </TEI>

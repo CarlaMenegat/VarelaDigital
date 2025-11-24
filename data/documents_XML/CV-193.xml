@@ -106,18 +106,18 @@
                 <note type="copy">Cópia.</note>
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
                     A bem da missão à Corte do <placeName ref="#rio_de_janeiro">Rio de Janeiro</placeName>,
                     de que me acho encarregado pela <orgName ref="#assembleia_geral_legislativa_rs">Assembléia Legislativa desta Província</orgName>,
-                    requisito a V. Ex.ª cópia autêntica do ofício de
+                    requisito a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> cópia autêntica do ofício de
                     <persName ref="#jose_araujo_ribeiro">José de Araújo Ribeiro</persName> dirigido a
                     <persName ref="#bento_manuel">Bento Manuel Ribeiro</persName> em 27 do mês último,
                     interceptado por o Exmo. Comandante Interino das Armas,
-                    como também ofício deste enviando a V. Ex.ª o de que faço menção.
-                    Deus guarde a V. Ex.ª muitos anos.
+                    como também ofício deste enviando a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> o de que faço menção.
+                    Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> muitos anos.
                 </p>
                 
                 <closer>
@@ -127,7 +127,7 @@
                         <placeName ref="#porto_alegre">Porto Alegre</placeName>,
                         <date when="1836-03-07">7 de março de 1836</date>.
                     </dateline>
-                    <salute>Ilmo. e Exmo. Sr. <persName ref="#americo_cabral_melo">Dr. Américo Cabral de Melo</persName>. Vice-presidente desta Província.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#americo_cabral_melo">Dr. Américo Cabral de Melo</persName>. Vice-presidente desta Província.</salute>
                 </closer>
                 
             </div>

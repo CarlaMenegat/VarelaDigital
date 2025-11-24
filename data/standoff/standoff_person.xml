@@ -170,6 +170,7 @@
             <persName>Domingos José de Almeida</persName>
             <idno type="viaf">https://viaf.org/en/viaf/13747991</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10268073</idno>
+            <roleName>Coronel Chefe de Legião</roleName>
             <roleName>Ministro da Fazenda da República Rio-grandense</roleName>
             <roleName>Ministro do Interior da República Rio-grandense</roleName>
             <roleName>Ministro da Justiça da República Rio-grandense</roleName>
@@ -240,11 +241,11 @@
             <note>Militar legalista, famoso por suas operações consideradas ardilosas.</note>
         </person>
         
-        <person xml:id="francisco_xavier_cunha">
-            <persName>Francisco Xavier da Cunha</persName>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q10285240</idno>
-            <roleNeme>Brigadeiro</roleNeme>
-            <note>Brigadeiro comandante da guarnição de São José do Norte.</note>
+        <person xml:id="francisco_xavier">
+            <persName>Francisco Xavier</persName>
+            <idno></idno>
+            <roleName>Capitão</roleName>
+            <note>Comandante da guarnição de São José do Norte.</note>
         </person>
         
         <person xml:id="francisco_pedro_abreu">
@@ -286,10 +287,6 @@
         <person xml:id="manuel_martins_silveira_lemos">
             <persName>Manuel Martins da Silveira Lemos</persName>
             <note>Autoridade administrativa vinculada à Secretaria do Tesouro durante o período da Revolução Farroupilha.</note>
-        </person>
-        
-        <person xml:id="manuel_martins_silveira_lemos">
-            <persName>Manuel Martins da Silveira Lemos</persName>
         </person>
         
         <person xml:id="miguel_garcia">
@@ -394,7 +391,26 @@
             <note>General e Chefe do Estado-maior do Exército.</note>
         </person> <!--corrigir para id antonio_sousa_neto-->
         
+        <person xml:id="jose_sousa_neto">
+            <persName>José de Sousa Neto</persName>
+            <idno></idno>
+            <relation
+                xml:id="rel_jose_sousa_neto_pai_antonio_sousa_neto"
+                name="kinship"
+                mutual="false"
+                active="#jose_sousa_neto"
+                passive="#antonio_sousa_neto"
+                ref="https://www.wikidata.org/wiki/Q7565"
+                >
+                <desc>Relação de parentesco: José de Sousa Neto é pai de Antônio de Sousa Neto.</desc>
+            </relation>
+            <note>Responsável pela compra de cavalos para o exército farroupilha.</note>
+        </person>
         
+        <person xml:id="neto">
+            <persName>Neto</persName>
+            <note>Identificado como "velho Neto", possivelmente residente ou ponto de referência para deslocamento; identidade completa não especificada.</note>
+        </person> <!--pai de Antônio de Souza Neto-->
         
         <person xml:id="filipe_neri">
             <persName>Filipe Neri</persName>
@@ -486,7 +502,8 @@
         
         <person xml:id="jaime_legris">
             <persName>Jaime Legris</persName>
-            <note>Cidadão com dívida litigiosa mencionada nas contas analisadas pelo Procurador Fiscal.</note>
+            <idno></idno>
+            <note>Cidadão com dívida litigiosa mencionada nas contas analisadas pelo Procurador Fiscal. Credor de Almeida.</note>
         </person>
         
         <person xml:id="joao_goncalves_padilha">
@@ -853,6 +870,8 @@
         
         <person xml:id="anacleto_jose_matos">
             <persName>Anacleto José de Matos</persName>
+            <idno></idno>
+            <note>Tenente-coronel e pagador do exército farroupilha.</note>
         </person>
         
         <person xml:id="vilaca">
@@ -945,8 +964,6 @@
             <note>Indivíduo mencionado no aditamento; sua identidade não é especificada.</note>
         </person>
         
-        
-        
         <person xml:id="cadete">
             <persName>Cadete</persName>
             <note>Portador que transporta remédios; não é possível identificar nome civil.</note>
@@ -957,8 +974,6 @@
             <persName>Militão</persName>
             <note>Portador despachado para levar correspondência.</note>
         </person>
-        
-        
         
         <person xml:id="pedro_rodrigues_quevedo">
             <persName>Pedro Rodrigues de Quevedo</persName>
@@ -998,6 +1013,7 @@
         
         <person xml:id="jose_rodrigues_chaves">
             <persName>José Rodrigues Chaves</persName>
+            <idno></idno>
             <note>Morador de Bom Retiro; hospedava Bernardina.</note>
         </person>
         
@@ -1137,6 +1153,7 @@
                 mutual="false"
                 active="#bernardino_rodrigues_barcelos_pai"
                 passive="#bernardina_barcelos_de_almeida"
+                ref="https://www.wikidata.org/wiki/Q7565"
                 >
                 <desc>Relação de parentesco: Bernardino Rodrigues Barcelos é pai de Bernardina Barcelos de Almeida.</desc>
             </relation>
@@ -1167,7 +1184,7 @@
                 name="kinship"
                 mutual="true"
                 active="#bernardina_barcelos"
-                passive="#joao_rodrigues_barcelos"
+                passive="#joao_barcelos"
                 ref="https://www.wikidata.org/wiki/Q840795"
                 >
                 <desc>Relação de parentesco: Bernardina Barcelos de Almeida e João Rodrigues Barcelos eram irmãos, conforme mencionado na correspondência da Coleção Varela.</desc>
@@ -1177,6 +1194,7 @@
         
         <person xml:id="fructuoso_rivera">
             <persName>Fructuoso Rivera</persName>
+            <persName type="full">José Fructuoso Rivera</persName> 
             <idno type="viaf">https://viaf.org/en/viaf/305409628</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q467976</idno>
             <roleName>Presidente do Uruguai</roleName>
@@ -1187,8 +1205,13 @@
         
         <person xml:id="manuel_oribe">
             <persName>Manuel Oribe</persName>
-            <note>Presidente uruguaio e rival político de Rivera.</note>
-            <idno type="viaf">https://viaf.org/viaf/22269050</idno>
+            <persName type="full">Manuel Ceferino Oribe y Viana </persName>
+            <idno type="viaf">https://viaf.org/en/viaf/53704608</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q467987</idno>
+            <roleName>Presidente do Uruguai</roleName>
+            <roleName>Líder do Partido Blanco</roleName>
+            <note>(Montevidéu, 26 de agosto de 1792 — Montevidéu, 12 de novembro de 1857) foi um caudilho, militar, político e segundo presidente da República Oriental do Uruguai.Presidente uruguaio deposto por Rivera em 1838.</note>
+            
         </person>
         
         <person xml:id="jose_rodrigues_chaves">
@@ -1342,7 +1365,8 @@
         
         <person xml:id="joao_pedro_ramirez">
             <persName>João Pedro Ramirez</persName>
-            <note>Fornecedor e agente político ligado ao Estado Oriental (Uruguai), responsável por gêneros fornecidos ao exército farroupilha.</note>
+            <idno></idno>
+            <note>Fornecedor e agente político ligado ao Estado Oriental (Uruguai), responsável por gêneros fornecidos ao exército farroupilha. É proprietário de uma fazenda chamada Palmar onde Bernardina Almeida se hospeda.</note>
         </person>
         
         <person xml:id="roberto_bisley">
@@ -1978,8 +2002,9 @@
         </person>
         
         <person xml:id="joao_simplicio">
-            <persName>João Simplício</persName>
-            <note>Conduziu diversas tropas de gado.</note>
+            <persName>João Antonio Simplício</persName>
+            <idno></idno>
+            <note>Tenente farroupilha.</note>
         </person>
         
         <person xml:id="jose_luis_correa_camara">
@@ -2721,6 +2746,8 @@
         
         <person xml:id="benito">
             <persName>Benito</persName>
+            <idno></idno>
+            <note>Indivíduo encarregado de acompanhar Bernardina; identificação incompleta.</note>
         </person>
         
         <person xml:id="benito_gontan">
@@ -2820,6 +2847,11 @@
             <persName>Manuel José de Silveira</persName>
         </person>
         
+        <person xml:id="jose_manuel_silveira">
+            <persName>José Manuel da Silveira</persName>
+            <idno></idno>
+            <note>Citado como enviado para obter informações em Pelotas; posteriormente preso.</note>
+        </person>
         
         <person xml:id="silva">
             <persName>Silva</persName>
@@ -2829,10 +2861,6 @@
         <person xml:id="medeiros">
             <persName>Medeiros</persName>
             <note>Identidade parcial — mencionado apenas pelo sobrenome.</note>
-        </person>
-        
-        <person xml:id="joaquim_gomes">
-            <persName>Joaquim Gomes</persName>
         </person>
         
         <person xml:id="fayete">
@@ -2917,11 +2945,6 @@
             <idno></idno>
             <note>Indivíduo mencionado como encarregado de deslocamento e envio de recados ou serviços.</note>
         </person>
-        
-        <person xml:id="neto">
-            <persName>Neto</persName>
-            <note>Identificado como "velho Neto", possivelmente residente ou ponto de referência para deslocamento; identidade completa não especificada.</note>
-        </person> <!--pai de Antônio de Souza Neto-->
         
         <person xml:id="joao_da_cunha">
             <persName>João da Cunha</persName>
@@ -3293,6 +3316,8 @@
         
         <person xml:id="manuel_goncalves_silva">
             <persName>Manuel Gonçalves da Silva</persName>
+            <idno></idno>
+            <note>Responsável pelo envio de cavalos, segundo rumores.</note>
         </person>
         
         <person xml:id="jose_ilidoro_figueiredo">
@@ -4014,8 +4039,11 @@
         
         <person xml:id="miller">
             <persName>Miller</persName>
-            <note>Negociante mencionado no contexto de fornecimento de gêneros para o exército.</note>
+            <persName>Luís Miller</persName>
+            <idno></idno>
+            <note>Português caixeiro preso com José Manuel da Silveira. Negociante mencionado no contexto de fornecimento de gêneros para o exército.</note>
         </person>
+
         
         <person xml:id="juca_jacinto">
             <persName>Juca Jacinto</persName>
@@ -5253,6 +5281,125 @@
             <persName>Manuel Rodrigues Cordeiro</persName>
             <idno></idno>
             <note>Responsável pelo envio de ferragem, massame e chumbo ao comando superior.</note>
+        </person>
+        
+        <person xml:id="junqueira">
+            <persName>Junqueira</persName>
+            <idno></idno>
+            <note>Proprietário da escuna de onde foram retiradas peças de artilharia.</note>
+        </person>
+        
+        <person xml:id="bernardino_gomes">
+            <persName>Bernardino Gomes</persName>
+            <idno></idno>
+            <note>Tenente vindo do Estado Oriental, reforçando a brigada de Neto.</note>
+        </person>
+        
+        <person xml:id="lavalleja">
+            <persName type="popular">Juan Antonio Lavalleja</persName>
+            <persName type="full">Juan Antonio Lavalleja y de la Torre</persName>
+            <idno type="viaf">https://viaf.org/en/viaf/56987781</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q649615</idno>
+            <roleName>Dragão no Regimento de Dragões da União em Montevidéu</roleName>
+            <roleName>Capitão de Artigas</roleName>
+            <roleName>general de Sarandí</roleName>
+            <roleName>Presidente do Uruguai</roleName>
+            <note>Juan Antonio Lavalleja y de la Torre (Minas, 24 de junho de 1784 – Montevidéu, 22 de outubro de 1853) foi um militar e político uruguaio, que liderou os Trinta e Três Orientais, e presidiu o Uruguai no Triunvirato de Gobierno de 1853, junto a Venancio Flores e a Fructuoso Rivera. </note>
+        </person>
+        
+        <person xml:id="serafico">
+            <persName>Seráfico</persName>
+            <idno></idno>
+            <note>Alferes improvisado da fronteira do Chuí.</note>
+        </person>
+        
+        <person xml:id="julian_calderon">
+            <persName>Julian Calderón</persName>
+            <idno></idno>
+            <note>Major citado como responsável pela movimentação de peças de artilharia.</note>
+        </person>
+        
+        <person xml:id="pedro_pinto">
+            <persName>Pedro Pinto</persName>
+            <idno></idno>
+            <note>Comandante de escolta em operação repressiva.</note>
+        </person>
+        
+        <person xml:id="joaquim_marques">
+            <persName>Joaquim Marques</persName>
+            <idno></idno>
+            <note>Cidadão que se ocultou para fugir de captura.</note>
+        </person>
+        
+        <person xml:id="capitao_teixeira">
+            <persName>Capitão Teixeira</persName>
+            <idno></idno>
+            <note>Citado como remetente de cavalos a Crescêncio.</note>
+        </person> <!--Descobrir qual dos militares com esse sobrenome pode ser.-->
+        
+        <person xml:id="pires">
+            <persName>Pires</persName>
+            <idno></idno>
+            <note>Proprietário das lavouras onde Neto teria se ocultado.</note>
+        </person>
+        
+        <person xml:id="mazarredo">
+            <persName>Jorge Mazarredo</persName>
+            <idno></idno>
+            <note>Era o comandante do 8º Batalhão, uma unidade do Exército Imperial, e foi morto em combate durante os eventos iniciais da Revolução Farroupilha.</note>
+        </person>
+        
+        <person xml:id="silvano">
+            <persName>Silvano</persName>
+            <idno></idno>
+            <note>Indivíduo mencionado como preso junto a Marciano; identificação incompleta.</note>
+        </person>
+        
+        <person xml:id="cirilo">
+            <persName>Cirilo</persName>
+            <note>Comandante de força estacionada no Chasqueiro; legalista.</note>
+        </person>
+        
+        <person xml:id="manuel_goncalves">
+            <persName>Manuel Gonçalves</persName>
+            <idno></idno>
+            <note>Proprietário rural mencionado como possível destino de Bernardina.</note>
+        </person>
+        
+        <person xml:id="raimundo_senandes">
+            <persName>Raimundo Senandes</persName>
+            <idno></idno>
+            <note>Ofereceu auxílio a Bernardina durante deslocamento.</note>
+        </person>
+        
+        <person xml:id="paraguai">
+            <persName>Paraguai</persName>
+            <idno></idno>
+            <note>Indivíduo apelidado “Paraguai”, citado como apoio; identificação incompleta.</note>
+        </person>
+        
+        <person xml:id="d_caetana">
+            <persName>D. Caetana</persName>
+            <persName type="full">Cayetana Juana Francisca García González </persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q136955549</idno>
+            <roleName>1.ª Primeira-Dama da República Rio-Grandense</roleName>
+            <relation
+                xml:id="rel_bento_caetana_conjuge"
+                name="spouse"
+                mutual="true"
+                active="#bento_goncalves"
+                passive="#d_caetana"
+                ref="https://www.wikidata.org/wiki/Property:P26"
+                >
+                <desc>Relação conjugal: D. Caetana era esposa de Bento Gonçalves da Silva.</desc>
+            </relation>
+            <note>Foi a esposa de Bento Gonçalves da Silva.</note>
+        </person>
+        
+        <person xml:id="torquato">
+            <persName>Torquato</persName>
+            <idno></idno>
+            <note>Responsável por levar escravos de Domingos José de Almeida a Montevidéu.</note>
         </person>
     </listPerson>
 </standOff>

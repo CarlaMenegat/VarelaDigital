@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-188 – Domingos José de Almeida a Bernardina Barcelos de Almeida</title>
+                <title>Carta CV-204 – Domingos José de Almeida para o Comandante da Barca de Vapor</title>
                 <author>Domingos José de Almeida</author>
                 <respStmt>
                     <resp>Edição digital</resp>
@@ -78,20 +78,19 @@
                 </application>
             </appInfo>
         </encodingDesc>
-        
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
-                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
-                    <date when="1836-02-09">9 de fevereiro de 1836</date>
+                    <placeName ref="#pelotas">Pelotas</placeName>
+                    <date when="1836-09-14">14 de setembro de 1836</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
-                    <placeName ref="#pelotas">Pelotas</placeName>
+                    <persName>Comandante da Barca de Vapor</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -101,72 +100,49 @@
             </list>
         </revisionDesc>
     </teiHeader>
-
+    
     <text>
         <body>
-            
-            <div type="letter" xml:id="CV-188">
+            <div type="letter" xml:id="CV-204">
                 
-                <opener>
-                    <salute>Minha cara Bernardina do coração</salute>
-                    <dateline>
-                        <placeName ref="#porto_alegre">Porto Alegre</placeName>,
-                        <date when="1836-02-09">9 de fevereiro de 1836</date>.
-                    </dateline>
-                </opener>
+                <head>Cópia</head>
                 
-                <p>
-                    Sei que dizem estar eu oculto em casa, talvez por não verem carta minha
-                    pelo correio, e por isso de hoje em diante me dirigirei constantemente
-                    por esse conduto, e tu me farás o mesmo, a fim de tapar a boca a essa
-                    santa gente, que tanto tem promovido o bem da Província, e por
-                    consequência o nosso e de nossos filhos, cujo pagamento Deus por nós lhes
-                    fará.
-                </p>
+                <p>Tendo-se a mim dirigido o Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante da Barca de Vapor
+                    em <date when="1836-06-26">26 de junho p.p.</date>, com o fim de noticiar-me a rebelião de
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>, soltura dos indivíduos ali encarcerados e prisão de
+                    <persName ref="#marciano_pereira_ribeiro">Marciano</persName>, <persName ref="#silvano">Silvano</persName> e mais cinquenta e tantos seus
+                    companheiros, havendo marchado forças de
+                    <placeName ref="#sao_leopoldo">São Leopoldo</placeName> à capital para coadjuvar o partido 
+                    <choice>
+                        <sic>lítimo</sic>
+                        <corr>legítimo</corr>
+                    </choice>
+                    da ordem, em retribuição a aviso tão importante, e, ainda mais que tudo,
+                    penhorado pelas expressões polidas que <choice><abbr>S. S.</abbr><expan>Sua Senhoria</expan></choice>º empregou na nota que
+                    naquela data me fez a honra endereçar, me imponho o dever de, pela
+                    cópia junta, inteligenciá-lo também dos sucessos ocorridos na campanha
+                    em o dia <date when="1836-09-10">10 do corrente mês</date>;</p>
                 
-                <p>
-                    Por aqui gozamos de muito sossego depois que se dispersaram os cabanos;
-                    mas a tormenta que o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
-                    <persName ref="#jose_araujo_ribeiro">Araújo Ribeiro</persName>
-                    e os seus armaram ainda ameaça grandes estragos, se bem que ela esteja
-                    carrancuda para quem a promoveu.
-                </p>
+                <p>acrescentando-se que no dia <date when="1836-09-11">11</date> outra força da Divisão do
+                    Comandante Superior <persName ref="#silva_tavares">Silva Tavares</persName>, estacionada nas pontas do
+                    <placeName ref="#chasqueiro">Chasqueiro</placeName> ao mando de <persName ref="#cirilo">Cirilo</persName>, foi atacada e destroçada por outra força
+                    ao mando do Tenente <persName ref="#joao_simplicio">João Simplício</persName>, escapando-se daquela o dito Cirilo e
+                    dois homens somente, estando já no forte farroupilha os prisioneiros.</p>
                 
-                <p>
-                    Eu gozo saúde porém sobremaneira aborrecido por estar fora de casa tanto
-                    tempo, ausente de ti e de nossos filhos. Sei do armamento que aí se
-                    prepara para a expedição contra esta capital, mas tu não te incomodes,
-                    e tenhas em memória o que te recomendei nas minhas últimas,
-                    consultando-me por próprio, antes de tudo, se te parecer preciso.
-                </p>
+                <p>Aproveito a ocasião para dirigir os respeitos e consideração, que ao
+                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante da Barca de Vapor lhe tributa.</p>
                 
-                <p>
-                    Saudades a nossos pais, compadre
-                    <persName ref="#jose_felix">José Félix</persName>, manos e a todos
-                    de casa; abraços a nossos filhos, e tu recebe o coração do
-                </p>
+                <dateline>
+                    <placeName ref="#pelotas">Pelotas</placeName>,
+                    <date when="1836-09-14">14 de setembro de 1836</date>.
+                </dateline>
                 
                 <closer>
-                    <signed>Teu fiel<br/>(a)
-                        <persName ref="#domingos_jose_almeida">Almeida</persName>.
-                    </signed>
+                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.<br/>
+                        Coronel Chefe de Legião da Comarca de <placeName ref="#rio_grande">Rio Grande</placeName>.</signed>
                 </closer>
                 
-                <p>
-                    <persName ref="#leao_prospero_chastan"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Chastan</persName>,
-                    <persName ref="#chevalier">Chevalier</persName> e
-                    <persName ref="#david">David</persName> que hajam esta por sua.
-                </p>
-                
-                <note type="endorsement" place="verso">
-                    <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> D.
-                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.<br/>
-                    <placeName ref="#pelotas">Pelotas</placeName>.<br/>
-                    <placeName ref="#porto_alegre">Porto Alegre</placeName> [Carimbo].
-                </note>
-                
             </div>
-            
         </body>
     </text>
 </TEI>

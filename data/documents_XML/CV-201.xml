@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-188 – Domingos José de Almeida a Bernardina Barcelos de Almeida</title>
+                <title>Carta CV-201 – Domingos José de Almeida para Bento Gonçalves da Silva</title>
                 <author>Domingos José de Almeida</author>
                 <respStmt>
                     <resp>Edição digital</resp>
@@ -16,7 +16,7 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-07-06">06 de julho de 2025</date>
             </editionStmt>
             <extent>
                 <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
@@ -78,91 +78,72 @@
                 </application>
             </appInfo>
         </encodingDesc>
-        
         <profileDesc>
-            <correspDesc>
+            <correspDesc xml:id="cv201-corresp">
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
-                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
-                    <date when="1836-02-09">9 de fevereiro de 1836</date>
+                    <placeName ref="#mostardas">Mostardas</placeName>
+                    <date when="1836-07-09">9 de julho de 1836</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
-                    <placeName ref="#pelotas">Pelotas</placeName>
+                    <persName ref="#bento_goncalves">Bento Gonçalves da Silva</persName>
+                    <placeName ref="#rio_grande">Rio Grande</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
+                    <date when="2025-11-21">23/11/2025</date>
                     Conversão TEI realizada por Carla Menegat.
                 </item>
             </list>
         </revisionDesc>
     </teiHeader>
-
+    
     <text>
         <body>
             
-            <div type="letter" xml:id="CV-188">
+            <div type="letter" xml:id="CV-201">
                 
                 <opener>
-                    <salute>Minha cara Bernardina do coração</salute>
-                    <dateline>
-                        <placeName ref="#porto_alegre">Porto Alegre</placeName>,
-                        <date when="1836-02-09">9 de fevereiro de 1836</date>.
-                    </dateline>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>
-                    Sei que dizem estar eu oculto em casa, talvez por não verem carta minha
-                    pelo correio, e por isso de hoje em diante me dirigirei constantemente
-                    por esse conduto, e tu me farás o mesmo, a fim de tapar a boca a essa
-                    santa gente, que tanto tem promovido o bem da Província, e por
-                    consequência o nosso e de nossos filhos, cujo pagamento Deus por nós lhes
-                    fará.
-                </p>
+                <p>Devendo nossa marcha ser firme e vigorosa determinei ao Juiz de Paz
+                    desta freguesia que tirasse todos os ponches que houvessem feitos no
+                    distrito e pusesse no depósito que vou criar sob a direção do
+                    <persName ref="#francisco_xavier">Capitão Francisco Xavier</persName>,
+                    Comandante do sítio do Norte; e outrossim que enviasse ao cidadão
+                    <persName ref="#manuel_rodrigues_cordeiro">Manuel Rodrigues Cordeiro</persName>,
+                    para este remeter a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, toda a ferragem e massame de linho que
+                    houvesse no mesmo distrito de barcos dados à costa, como igualmente
+                    todo o chumbo, tanto em grão, barra e pesos que encontrasse; a
+                    ferragem para as obras que se estão constantemente fazendo para uso
+                    das divisões, os cabos de linho para tacos e o chumbo para balas, o que
+                    participo a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> para sua inteligência.</p>
                 
-                <p>
-                    Por aqui gozamos de muito sossego depois que se dispersaram os cabanos;
-                    mas a tormenta que o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
-                    <persName ref="#jose_araujo_ribeiro">Araújo Ribeiro</persName>
-                    e os seus armaram ainda ameaça grandes estragos, se bem que ela esteja
-                    carrancuda para quem a promoveu.
-                </p>
+                <p>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> muitos anos.</p>
                 
-                <p>
-                    Eu gozo saúde porém sobremaneira aborrecido por estar fora de casa tanto
-                    tempo, ausente de ti e de nossos filhos. Sei do armamento que aí se
-                    prepara para a expedição contra esta capital, mas tu não te incomodes,
-                    e tenhas em memória o que te recomendei nas minhas últimas,
-                    consultando-me por próprio, antes de tudo, se te parecer preciso.
-                </p>
+                <dateline>
+                    <placeName ref="#mostardas">Quartel em Mostardas</placeName>,
+                    <date when="1836-07-09">9 de julho de 1836</date>.
+                </dateline>
                 
-                <p>
-                    Saudades a nossos pais, compadre
-                    <persName ref="#jose_felix">José Félix</persName>, manos e a todos
-                    de casa; abraços a nossos filhos, e tu recebe o coração do
-                </p>
+                <p>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#bento_goncalves">Coronel Bento Gonçalves da Silva</persName>.<br/>
+                    Comandante Superior da Guarda Nacional desta Província.</p>
                 
                 <closer>
-                    <signed>Teu fiel<br/>(a)
-                        <persName ref="#domingos_jose_almeida">Almeida</persName>.
+                    <signed>
+                        <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>,<br/>
+                        Coronel Chefe de Legião.
                     </signed>
                 </closer>
                 
-                <p>
-                    <persName ref="#leao_prospero_chastan"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Chastan</persName>,
-                    <persName ref="#chevalier">Chevalier</persName> e
-                    <persName ref="#david">David</persName> que hajam esta por sua.
-                </p>
-                
                 <note type="endorsement" place="verso">
-                    <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> D.
-                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.<br/>
-                    <placeName ref="#pelotas">Pelotas</placeName>.<br/>
-                    <placeName ref="#porto_alegre">Porto Alegre</placeName> [Carimbo].
+                    [Cópia]<br/>
+                    [No verso da folha 1 do documento CV-200]
                 </note>
                 
             </div>

@@ -3,8 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-188 – Domingos José de Almeida a Bernardina Barcelos de Almeida</title>
-                <author>Domingos José de Almeida</author>
+                <title>Carta CV-208 – Antônio de Sousa Neto e Domingos José de Almeida</title>
+                <author>Antônio de Sousa Neto e Domingos José de Almeida</author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -78,20 +78,20 @@
                 </application>
             </appInfo>
         </encodingDesc>
-        
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
+                    <persName ref="#antonio_sousa_neto">Antônio de Sousa Neto</persName>
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
-                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
-                    <date when="1836-02-09">9 de fevereiro de 1836</date>
+                    <placeName ref="#jaguarao">Jaguarão</placeName>
+                    <date when="1837-01-13">13 de janeiro de 1837</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
-                    <placeName ref="#pelotas">Pelotas</placeName>
+                    <persName ref="#anacleto_matos">Anacleto José de Matos</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -101,72 +101,37 @@
             </list>
         </revisionDesc>
     </teiHeader>
-
+    
     <text>
         <body>
-            
-            <div type="letter" xml:id="CV-188">
+            <div type="letter" xml:id="CV-208">
                 
-                <opener>
-                    <salute>Minha cara Bernardina do coração</salute>
-                    <dateline>
-                        <placeName ref="#porto_alegre">Porto Alegre</placeName>,
-                        <date when="1836-02-09">9 de fevereiro de 1836</date>.
-                    </dateline>
-                </opener>
+                <p>O Sr. Tenente-coronel <persName ref="#anacleto_jose_matos">Anacleto José de Matos</persName>, pagador do
+                    exército, do dinheiro em caixa, entregará ao cidadão
+                    <persName ref="#jose_sousa_neto">José de Sousa Neto</persName> ou à sua ordem Rs. 3:986$120, três contos novecentos
+                    oitenta e seis mil cento e vinte, importância de trezentos e setenta e um
+                    cavalos que por ordem do Exmo. Sr. Comandante-em-chefe, por mim
+                    transmitida, comprou para o referido exército em 29 de novembro e 27
+                    de dezembro próximos passados: o que cumprirá.</p>
                 
-                <p>
-                    Sei que dizem estar eu oculto em casa, talvez por não verem carta minha
-                    pelo correio, e por isso de hoje em diante me dirigirei constantemente
-                    por esse conduto, e tu me farás o mesmo, a fim de tapar a boca a essa
-                    santa gente, que tanto tem promovido o bem da Província, e por
-                    consequência o nosso e de nossos filhos, cujo pagamento Deus por nós lhes
-                    fará.
-                </p>
-                
-                <p>
-                    Por aqui gozamos de muito sossego depois que se dispersaram os cabanos;
-                    mas a tormenta que o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
-                    <persName ref="#jose_araujo_ribeiro">Araújo Ribeiro</persName>
-                    e os seus armaram ainda ameaça grandes estragos, se bem que ela esteja
-                    carrancuda para quem a promoveu.
-                </p>
-                
-                <p>
-                    Eu gozo saúde porém sobremaneira aborrecido por estar fora de casa tanto
-                    tempo, ausente de ti e de nossos filhos. Sei do armamento que aí se
-                    prepara para a expedição contra esta capital, mas tu não te incomodes,
-                    e tenhas em memória o que te recomendei nas minhas últimas,
-                    consultando-me por próprio, antes de tudo, se te parecer preciso.
-                </p>
-                
-                <p>
-                    Saudades a nossos pais, compadre
-                    <persName ref="#jose_felix">José Félix</persName>, manos e a todos
-                    de casa; abraços a nossos filhos, e tu recebe o coração do
-                </p>
+                <dateline>
+                    Campo à esquerda de <placeName ref="#jaguarao">Jaguarão</placeName>,
+                    <date when="1837-01-13">13 de janeiro de 1837</date>.
+                </dateline>
                 
                 <closer>
-                    <signed>Teu fiel<br/>(a)
-                        <persName ref="#domingos_jose_almeida">Almeida</persName>.
+                    <signed>
+                        <persName ref="#antonio_sousa_neto">Antônio de Sousa Neto</persName><br/>
+                        Comandante Interino do Exército
                     </signed>
                 </closer>
                 
-                <p>
-                    <persName ref="#leao_prospero_chastan"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Chastan</persName>,
-                    <persName ref="#chevalier">Chevalier</persName> e
-                    <persName ref="#david">David</persName> que hajam esta por sua.
-                </p>
-                
-                <note type="endorsement" place="verso">
-                    <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> D.
-                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.<br/>
-                    <placeName ref="#pelotas">Pelotas</placeName>.<br/>
-                    <placeName ref="#porto_alegre">Porto Alegre</placeName> [Carimbo].
-                </note>
+                <closer>
+                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.<br/>
+                        Coronel Quartel-mestre General.</signed>
+                </closer>
                 
             </div>
-            
         </body>
     </text>
 </TEI>

@@ -106,14 +106,14 @@
             <div type="letter" xml:id="CV-194">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. Sr.</salute>
+                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Os agentes da projetada regência da Sra. D. <persName ref="#januaria">Januária</persName>, 
+                <p>Os agentes da projetada regência da <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> D. <persName ref="#januaria">Januária</persName>, 
                     de mãos dadas com o partido decaído e com o Presidente eleito,
                     atearam nesta Província a guerra civil; e desejando a 
                     <orgName ref="#assembleia_geral_legislativa_rs">Assembléia Provincial</orgName> 
-                    impor a V. Ex.ª do estado que nos aflige e das medidas conducentes a 
+                    impor a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> do estado que nos aflige e das medidas conducentes a 
                     afastar-nos do iminente perigo em que nos expôs a má fé, a hipocrisia e a sede 
                     de vinganças ignóbeis, me nomeou e ao 
                     <persName ref="#marciano_pereira_ribeiro">Dr. Marciano Pereira Ribeiro</persName> 
@@ -121,28 +121,28 @@
                 </p>
                 
                 <p>No entanto, porém, que nos aprontamos para seguir a esta missão árdua, mas 
-                    necessária, o meu amigo Sr. 
+                    necessária, o meu amigo <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
                     <persName ref="#manuel_francisco_andrade">Pe. Manuel Francisco de Andrade</persName>, 
-                    movido por patriotismo, por sincera amizade a V. Ex.ª e por meus rogos, se 
-                    prestou a dirigir-se de pronto a essa Corte para informar a V. Ex.ª de nossos 
+                    movido por patriotismo, por sincera amizade a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> e por meus rogos, se 
+                    prestou a dirigir-se de pronto a essa Corte para informar a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> de nossos 
                     negócios civis, e obstar, se for possível, a alguma medida aconselhada pela 
                     intriga e malvadeza, e que de uma vez nos venha precipitar.</p>
                 
-                <p>V. Ex.ª o conhece; e quando isso não fosse motivo suficiente para acreditar 
+                <p><choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> o conhece; e quando isso não fosse motivo suficiente para acreditar 
                     em sua sinceridade e boa fé, seu caráter sisudo e austero bastaria a afiançar 
                     quanto tem de expor sobre o assunto.</p>
                 
-                <p>O respeito e pura amizade que de muito consagro a V. Ex.ª me animaram a 
+                <p>O respeito e pura amizade que de muito consagro a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> me animaram a 
                     dirigir a presente, o que é relevável à vista de tão ponderosos motivos.</p>
                 
-                <p>Deus guarde a V. Ex.ª muitos anos.</p>
+                <p>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> muitos anos.</p>
                 
                 <closer>
                     <dateline>
                         <placeName ref="#porto_alegre">Porto Alegre</placeName>,
                         <date when="1836-03-11">11 de março de 1836</date>.
                     </dateline>
-                    <salute>Ilmo. Exmo. Sr. 
+                    <salute>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
                         <persName ref="#feijo">Diogo Antonio Feijó</persName> — Regente do <orgName ref="#imperio_brasil">Império.</orgName>
                     </salute>
                 </closer>

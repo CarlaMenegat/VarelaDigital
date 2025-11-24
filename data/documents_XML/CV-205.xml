@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-188 – Domingos José de Almeida a Bernardina Barcelos de Almeida</title>
+                <title>Carta CV-205 – Domingos José de Almeida para Bernardina Barcelos de Almeida</title>
                 <author>Domingos José de Almeida</author>
                 <respStmt>
                     <resp>Edição digital</resp>
@@ -78,20 +78,19 @@
                 </application>
             </appInfo>
         </encodingDesc>
-        
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
-                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
-                    <date when="1836-02-09">9 de fevereiro de 1836</date>
+                    <placeName ref="#pelotas">Pelotas</placeName>
+                    <date when="1836-10-20">20 de outubro de 1836</date>
                 </correspAction>
                 <correspAction type="received">
                     <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
-                    <placeName ref="#pelotas">Pelotas</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -101,72 +100,50 @@
             </list>
         </revisionDesc>
     </teiHeader>
-
+    
     <text>
         <body>
-            
-            <div type="letter" xml:id="CV-188">
+            <div type="letter" xml:id="CV-205">
                 
                 <opener>
-                    <salute>Minha cara Bernardina do coração</salute>
-                    <dateline>
-                        <placeName ref="#porto_alegre">Porto Alegre</placeName>,
-                        <date when="1836-02-09">9 de fevereiro de 1836</date>.
-                    </dateline>
+                    <salute>Bernardina</salute>
                 </opener>
                 
-                <p>
-                    Sei que dizem estar eu oculto em casa, talvez por não verem carta minha
-                    pelo correio, e por isso de hoje em diante me dirigirei constantemente
-                    por esse conduto, e tu me farás o mesmo, a fim de tapar a boca a essa
-                    santa gente, que tanto tem promovido o bem da Província, e por
-                    consequência o nosso e de nossos filhos, cujo pagamento Deus por nós lhes
-                    fará.
-                </p>
+                <p>Se bem ainda me lembro era o plano de tua viagem, quando daqui
+                    saíste, ires à casa do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    <persName ref="#jose_rodrigues_chaves">José Rodrigues Chaves</persName>, e dali saíres de pronto para uma das
+                    fazendas de <persName ref="#manuel_goncalves">Manuel Gonçalves</persName> ou de
+                    <persName ref="#joao_pedro_ramirez">Ramirez</persName>, por se me ter oferecido o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                    <persName ref="#raimundo_senandes">Raimundo Senandes</persName> para tudo quanto te pudesse prestar. Em qualquer
+                    destas partes me parece bem, porque logo que eu possa sair para lá vou,
+                    e depois a <placeName ref="#uruguai">Uruguai</placeName>, onde pretendo firmar minha residência.</p>
                 
-                <p>
-                    Por aqui gozamos de muito sossego depois que se dispersaram os cabanos;
-                    mas a tormenta que o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
-                    <persName ref="#jose_araujo_ribeiro">Araújo Ribeiro</persName>
-                    e os seus armaram ainda ameaça grandes estragos, se bem que ela esteja
-                    carrancuda para quem a promoveu.
-                </p>
+                <p>Hoje me disseram que ias para o 
+                    <persName ref="#luis_rodrigues_barcelos">tio Luís</persName>, e eu o acreditei pelo rumo da
+                    viagem. Isto não convém-nos por maneira alguma; portanto ainda é tempo
+                    de seguires para onde desejo. Tens a teu irmão
+                    <persName ref="#bernardino_rodrigues_barcelos_filho">Bernardino</persName>, agora mais o
+                    <persName ref="#paraguai">Paraguai</persName>, e mesmo o 
+                    <persName ref="#joao_barcelos">compadre João</persName>, logo que ele saiba que para dispor dos couros parte alguma
+                    há como <placeName ref="#cerro_largo">Cerro Largo</placeName>, e além disso estou bem certo que pelo caminho te hão
+                    de escoltar, se for preciso.</p>
                 
-                <p>
-                    Eu gozo saúde porém sobremaneira aborrecido por estar fora de casa tanto
-                    tempo, ausente de ti e de nossos filhos. Sei do armamento que aí se
-                    prepara para a expedição contra esta capital, mas tu não te incomodes,
-                    e tenhas em memória o que te recomendei nas minhas últimas,
-                    consultando-me por próprio, antes de tudo, se te parecer preciso.
-                </p>
-                
-                <p>
-                    Saudades a nossos pais, compadre
-                    <persName ref="#jose_felix">José Félix</persName>, manos e a todos
-                    de casa; abraços a nossos filhos, e tu recebe o coração do
-                </p>
+                <p>Abraços a nossos filhos e saudades às comadres, compadres, e manos.</p>
                 
                 <closer>
-                    <signed>Teu fiel<br/>(a)
-                        <persName ref="#domingos_jose_almeida">Almeida</persName>.
-                    </signed>
+                    <signed>Teu marido que muito te ama</signed>
                 </closer>
                 
-                <p>
-                    <persName ref="#leao_prospero_chastan"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Chastan</persName>,
-                    <persName ref="#chevalier">Chevalier</persName> e
-                    <persName ref="#david">David</persName> que hajam esta por sua.
-                </p>
+                <dateline>
+                    <placeName ref="#pelotas">Pelotas</placeName>,
+                    <date when="1836-10-20">20 de outubro de 1836</date>.
+                </dateline>
                 
-                <note type="endorsement" place="verso">
-                    <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> D.
-                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.<br/>
-                    <placeName ref="#pelotas">Pelotas</placeName>.<br/>
-                    <placeName ref="#porto_alegre">Porto Alegre</placeName> [Carimbo].
-                </note>
+                <closer>
+                    <signed>(a) <persName ref="#domingos_jose_almeida">Almeida</persName></signed>
+                </closer>
                 
             </div>
-            
         </body>
     </text>
 </TEI>

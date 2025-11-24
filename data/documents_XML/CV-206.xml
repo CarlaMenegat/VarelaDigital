@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-188 – Domingos José de Almeida a Bernardina Barcelos de Almeida</title>
+                <title>Carta CV-206 – Domingos José de Almeida para Bernardina Barcelos de Almeida</title>
                 <author>Domingos José de Almeida</author>
                 <respStmt>
                     <resp>Edição digital</resp>
@@ -78,20 +78,20 @@
                 </application>
             </appInfo>
         </encodingDesc>
-        
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
-                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
-                    <date when="1836-02-09">9 de fevereiro de 1836</date>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1836-11-06">6 de novembro de 1836</date>
                 </correspAction>
                 <correspAction type="received">
                     <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
-                    <placeName ref="#pelotas">Pelotas</placeName>
+                    <placeName ref="#estado_oriental">Estado Oriental</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -101,50 +101,55 @@
             </list>
         </revisionDesc>
     </teiHeader>
-
+    
     <text>
         <body>
-            
-            <div type="letter" xml:id="CV-188">
+            <div type="letter" xml:id="CV-206">
                 
                 <opener>
-                    <salute>Minha cara Bernardina do coração</salute>
+                    <salute>Querida <persName ref="#bernardina_barcelos_almeida">Bernardina</persName></salute>
                     <dateline>
-                        <placeName ref="#porto_alegre">Porto Alegre</placeName>,
-                        <date when="1836-02-09">9 de fevereiro de 1836</date>.
+                        <placeName ref="#piratini">Piratini</placeName>,
+                        <date when="1836-11-06">6 de novembro de 1836</date>,
+                        às 7 da noite.
                     </dateline>
                 </opener>
                 
-                <p>
-                    Sei que dizem estar eu oculto em casa, talvez por não verem carta minha
-                    pelo correio, e por isso de hoje em diante me dirigirei constantemente
-                    por esse conduto, e tu me farás o mesmo, a fim de tapar a boca a essa
-                    santa gente, que tanto tem promovido o bem da Província, e por
-                    consequência o nosso e de nossos filhos, cujo pagamento Deus por nós lhes
-                    fará.
-                </p>
+                <p>Já sei que estás na fazenda do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_pedro_">Ramirez</persName> denominada
+                    <placeName ref="#palmar">Palmar</placeName>, perto do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#manuel_goncalves">Manuel Gonçalves</persName> coisa de duas léguas.</p>
                 
-                <p>
-                    Por aqui gozamos de muito sossego depois que se dispersaram os cabanos;
-                    mas a tormenta que o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
-                    <persName ref="#jose_araujo_ribeiro">Araújo Ribeiro</persName>
-                    e os seus armaram ainda ameaça grandes estragos, se bem que ela esteja
-                    carrancuda para quem a promoveu.
-                </p>
+                <p>Eu me parecia que deverias seguir para <placeName ref="#durazno">Durazno</placeName>, a fim de te pôr longe
+                    do contato de nossos inimigos habitadores das imediações da fronteira;
+                    porém para poupar-te incômodos estimo a tua resolução.</p>
                 
-                <p>
-                    Eu gozo saúde porém sobremaneira aborrecido por estar fora de casa tanto
-                    tempo, ausente de ti e de nossos filhos. Sei do armamento que aí se
-                    prepara para a expedição contra esta capital, mas tu não te incomodes,
-                    e tenhas em memória o que te recomendei nas minhas últimas,
-                    consultando-me por próprio, antes de tudo, se te parecer preciso.
-                </p>
+                <p>Faze quanto antes o que te recomendei pelo compadre
+                    <persName ref="#jose_felix">José Félix</persName>, podendo dividir o negócio por diversas pessoas, e tirando
+                    disso mesmo alguma utilidade em salários ainda que por pequenos sejam,
+                    para o que te envio procuração.</p>
                 
-                <p>
-                    Saudades a nossos pais, compadre
-                    <persName ref="#jose_felix">José Félix</persName>, manos e a todos
-                    de casa; abraços a nossos filhos, e tu recebe o coração do
-                </p>
+                <p>Remete essas cartas a fim de te prevenires, e a cobrança de
+                    <persName ref="#jaime_legris">Jaime Legris</persName> encarrega ao mesmo <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                    <persName ref="#manuel_goncalves">Manuel Gonçalves</persName>, conservando sempre as carretas e bois em ação de
+                    viagem para o que as mandarás toldar.</p>
+                
+                <p>O Coronel <persName ref="#joao_antonio_silveira">João Antônio</persName> deu uma ação ao inimigo perto de
+                    <placeName ref="#sao_gabriel">São Gabriel</placeName>, a quem derrotou completamente, pois com vida só ficaram
+                    16 homens; e hoje se proclamou nesta a independência deste Estado, pelo
+                    que me congratulo contigo e com nossos filhos para quem trabalho.</p>
+                
+                <p>Não sei de teus pais e tenho por isso vivido aflito por me dizerem
+                    que o compadre adoecera no 3.º dia de viagem; se aí tiveres cômodos de o
+                    tratar, insta para que vá para tua companhia e desvela-te no seu
+                    restabelecimento.</p>
+                
+                <p><persName ref="#joao_manuel_lima_silva">Lima</persName> tem piorado e creio que vem a furo o inchaço que tinha no
+                    rosto. Tu não tenhas o mínimo cuidado sobre mim porque trabalho, e
+                    incômodo algum será pesado a quem de coração serve à pátria e à
+                    liberdade.</p>
+                
+                <p>Abraços a nossos filhos, saudades ao compadre
+                    <persName ref="#jose_felix">José Félix</persName>, a quem dirás que o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                    <persName ref="#jose_pedro">José Pedro</persName> fica bom, e recebe tu o coração do</p>
                 
                 <closer>
                     <signed>Teu fiel<br/>(a)
@@ -152,21 +157,12 @@
                     </signed>
                 </closer>
                 
-                <p>
-                    <persName ref="#leao_prospero_chastan"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Chastan</persName>,
-                    <persName ref="#chevalier">Chevalier</persName> e
-                    <persName ref="#david">David</persName> que hajam esta por sua.
-                </p>
-                
                 <note type="endorsement" place="verso">
-                    <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> D.
-                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.<br/>
-                    <placeName ref="#pelotas">Pelotas</placeName>.<br/>
-                    <placeName ref="#porto_alegre">Porto Alegre</placeName> [Carimbo].
+                    <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.<br/>
+                    <placeName ref="#uruguai">Estado Oriental</placeName>. <placeName ref="#taquari">Taquari</placeName>.
                 </note>
                 
             </div>
-            
         </body>
     </text>
 </TEI>

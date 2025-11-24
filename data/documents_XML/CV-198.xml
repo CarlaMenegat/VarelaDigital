@@ -118,7 +118,7 @@
             <div type="letter" xml:id="CV-198a">
                 
                 <opener>
-                    <salute>Ilmo. Sr.</salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Desde que aqui cheguei em 5 do corrente mês, que assiduamente
@@ -146,7 +146,7 @@
                     <placeName ref="#pelotas">Pelotas</placeName>, onde creio nos encontraremos; na maleta marca X é
                     que vão as 9 onças.</p>
                 
-                <p>Deus guarde a V. S.º muitos anos.</p>
+                <p>Deus guarde a <choice><abbr>V. S.</abbr><expan>Vossa Senhoria</expan></choice>º muitos anos.</p>
                 
                 <dateline>
                     <placeName ref="#porto_alegre">Porto Alegre</placeName>,
@@ -159,7 +159,7 @@
                     </signed>
                 </closer>
                 
-                <p>Ilmo. Sr. <persName ref="#antonio_sousa_neto">Antônio de Sousa Neto</persName><br/>
+                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#antonio_sousa_neto">Antônio de Sousa Neto</persName><br/>
                     Coronel Comandante da 1.º Divisão Liberal</p>
                 
             </div>
