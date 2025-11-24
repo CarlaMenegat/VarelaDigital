@@ -1056,7 +1056,48 @@
             <geo>-31.59195, -53.66478</geo>
             <note>Passo geral mencionado como posição do exército farroupilha.</note>
         </place>
-
+        
+        <place xml:id="rincao_saica">
+            <placeName>Rincão de Saicã</placeName>
+            <idno type="geonames">https://www.geonames.org/3450735/saica.html</idno>
+            <geo>-29.85, -54.96667</geo>
+            <note>Área rural mencionada como propriedade nacional hipotecada da República Riograndense.</note>
+        </place>
+        
+        <place xml:id="rincao_elrei_rio_pardo">
+            <placeName>Rincão de El Rei (Rio Pardo)</placeName>
+            <idno type="geonames">https://www.geonames.org/3451280/rincao-del-rei.html</idno>
+            <geo>-29.89306, -52.38583</geo>
+            <note>Propriedade nacional hipotecada da República Riograndense; associada ao município de Rio Pardo (RS).</note>
+        </place>
+        
+        <place xml:id="campo_bojuru">
+            <placeName>Campo de Bojuru</placeName>
+            <idno type="geonames">https://www.geonames.org/3469538/bojuru.html</idno>
+            <geo>-31.63333, -51.4175</geo>
+            <note>Área rural mencionada como propriedade nacional hipotecada da República Riograndense.</note>
+        </place>
+        
+        <place xml:id="pedregal">
+            <placeName>Pedregal</placeName>
+            <idno type="geonames">https://www.geonames.org/13034493/pedregal.html</idno>
+            <geo>-29.08587, -52.91019</geo>
+            <note>Localidade em Tunas, Rio Grande do Sul.</note>
+        </place>
+        
+        <place xml:id="taim">
+            <placeName>Taim</placeName>
+            <idno type="geonames">https://www.geonames.org/3447067/taim.html</idno>
+            <geo>-32.49028, -52.58083</geo>
+            <note>Região referida como local onde teriam sido comprados cavalos.</note>
+        </place>
+        
+        <place xml:id="sao_diogo">
+            <placeName>São Diogo</placeName>
+            <idno type="geonames">https://www.geonames.org/13037094/sao-diogo.html</idno>
+            <geo>-31.93553, -53.8839</geo>
+            <note>Passo em Pedras Altas</note>
+        </place>
         
         <place xml:id="escuna_incorporacao">
             <placeName>Escuna Incorporação</placeName>

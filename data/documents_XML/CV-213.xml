@@ -3,8 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-208 – Antônio de Sousa Neto e Domingos José de Almeida</title>
-                <author>Antônio de Sousa Neto e Domingos José de Almeida</author>
+                <title>Documento CV-213 – Decreto financeiro da República Rio-Grandense</title>
+                <author>Governo da República Rio-Grandense</author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -81,13 +81,9 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#antonio_sousa_neto">Antônio de Sousa Neto</persName>
-                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
-                    <placeName ref="#jaguarao">Jaguarão</placeName>
-                    <date when="1837-01-13">13 de janeiro de 1837</date>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="#anacleto_matos">Anacleto José de Matos</persName>
+                    <orgName ref="#republica_riograndense">República Rio-Grandense</orgName>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1837-05-29">29 de maio de 1837</date>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -104,32 +100,71 @@
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-208">
-                
-                <p>O <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Tenente-coronel <persName ref="#anacleto_jose_matos">Anacleto José de Matos</persName>, pagador do
-                    exército, do dinheiro em caixa, entregará ao cidadão
-                    <persName ref="#jose_sousa_neto">José de Sousa Neto</persName> ou à sua ordem Rs. 3:986$120, três contos novecentos
-                    oitenta e seis mil cento e vinte, importância de trezentos e setenta e um
-                    cavalos que por ordem do Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante-em-chefe, por mim
-                    transmitida, comprou para o referido exército em 29 de novembro e 27
-                    de dezembro próximos passados: o que cumprirá.</p>
+            <div type="decree" xml:id="CV-213">
                 
                 <dateline>
-                    Campo à esquerda de <placeName ref="#jaguarao">Jaguarão</placeName>,
-                    <date when="1837-01-13">13 de janeiro de 1837</date>.
+                    <placeName ref="#piratini">Piratini</placeName>,
+                    <date when="1837-05-29">29 de maio de 1837</date> —
+                    2.º da Independência e da República.
                 </dateline>
                 
-                <closer>
-                    <signed>
-                        <persName ref="#antonio_sousa_neto">Antônio de Sousa Neto</persName><br/>
-                        Comandante Interino do Exército
-                    </signed>
-                </closer>
+                <p>Convindo promover-se de pronto, dentro e fora do Estado, um
+                    empréstimo de trezentos contos de réis em moeda forte para ocorrerem
+                    às despesas da guerra defensiva que dignamente sustentam os briosos
+                    habitantes da <orgName ref="#republica_rio_grandense">República Rio-grandense</orgName>, contra o opressivo
+                    e injusto governo de <placeName ref="#rio_de_janeiro">Rio de Janeiro</placeName>, o Presidente da mesma
+                    República decreta:</p>
                 
-                <closer>
-                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.<br/>
-                        Coronel Quartel-mestre General.</signed>
-                </closer>
+                <p><hi rend="bold">Artigo 1.º</hi> — Fica autorizado o
+                    <persName ref="#domingos_jose_almeida">Ministro e Secretário de Estado dos Negócios da Fazenda</persName>
+                    a contrair, dentro e fora do Estado, um empréstimo de trezentos contos
+                    de réis em moeda forte.</p>
+                
+                <p><hi rend="bold">Artigo 2.º</hi> — O capital emprestado vencerá o juro de um e meio por cento
+                    ao mês, ou ainda menos se for possível.</p>
+                
+                <p><hi rend="bold">Artigo 3.º</hi> — O juro de que se faz menção no artigo precedente, como dez
+                    por cento mais para amortização gradual do capital, será impreterivelmente
+                    pago no fim de cada ano, até o completo embolso do empréstimo de que
+                    trata o artigo primeiro, que não excederá ao prazo de dez anos, contados
+                    do dia em que entrar para o <orgName ref="#tesouro">Tesouro</orgName> as quantias emprestadas.</p>
+                
+                <p><hi rend="bold">Artigo 4.º</hi> — Sendo de esperar que o estado do <orgName ref="#tesouro">Tesouro</orgName> se torne
+                    em breve na atitude de fazer face a todas as despesas do Estado, não só
+                    pelo austero método de fiscalização que se há de estabelecer nas Repartições
+                    de Fazenda, como na justa economia delas, a dar-se caso tal a soma total
+                    do empréstimo e prêmios vencidos será paga no fim de seis anos, contados
+                    da data do presente decreto.</p>
+                
+                <p><hi rend="bold">Artigo 5.º</hi> — Além dos rendimentos do Estado, ficam hipotecados ao
+                    embolso do presente empréstimo os próprios nacionais seguintes:
+                    <placeName ref="#rincao_saica">Rincão de Saicã</placeName>;
+                    <placeName ref="#rincao_elrei_rio_pardo">o de El Rei em Rio Pardo</placeName>;
+                    <placeName ref="#campo_bojuru">o Campo de Bojuru</placeName>;
+                    o da Condessa do Real Agrado em <placeName ref="#jaguarao">Jaguarão</placeName>;
+                    as fazendas dos extintos jesuítas em <placeName ref="#missoes">Missões</placeName>;
+                    e todos os terrenos devolutos que ainda existam no Estado.
+                </p>
+                
+                <p><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>,
+                    Ministro e Secretário de Estado dos Negócios da Fazenda, o tenha assim entendido
+                    e faça executar com os despachos necessários.
+                    <persName ref="#gomes_jardim">José Gomes de Vasconcelos Jardim</persName>.
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.
+                    Publique-se e registe-se.
+                    <placeName ref="#piratini">Piratini</placeName>,
+                    <date when="1837-05-29">29 de maio de 1837</date>.
+                    <persName ref="#domingos_jose_almeida">Almeida</persName>.</p>
+                
+                <note type="endorsement">
+                    Está conforme.<br/>
+                    O oficial-maior<br/>
+                    (a) <persName ref="#antonio_belarmino_ribeiro">Antônio Belarmino Ribeiro</persName>.
+                </note>
+                
+                <note type="editorial" place="foot">
+                    [Anexo ao documento CV-212]
+                </note>
                 
             </div>
         </body>

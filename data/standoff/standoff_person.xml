@@ -533,6 +533,9 @@
         
         <person xml:id="antonio_belarmino_ribeiro">
             <persName>Antônio Belarmino Ribeiro</persName>
+            <idno></idno>
+            <roleName>O oficial-maior da Secretaria da República Riograndense</roleName>
+            <roleName>Escrivão de Órfãos e Ausentes da cidade de Piratini</roleName>
             <note>Escrivão de Órfãos e Ausentes da cidade de Piratini; certificou oficialmente os atos relativos à curadoria da fazenda jacente.</note>
         </person>
         
@@ -1099,13 +1102,14 @@
         
         <person xml:id="manuel_madruga">
             <persName>Manuel Madruga</persName>
-            <note>Chefe de polícia mencionado como responsável pela entrega dos potros.</note>
+            <idno></idno>
+            <note>Chefe de polícia.</note>
         </person>
         
         <person xml:id="felix_cunha">
-            <persName>Félix da Cunha</persName>
-            <note>Jornalista e político rio-grandense; importante ativista liberal do período.</note>
+            <persName>Félix da Cunha</persName> 
             <idno type="viaf">https://viaf.org/viaf/23627851</idno>
+            <note>Jornalista e político rio-grandense; importante ativista liberal do período.</note>
         </person>
         
         <person xml:id="jose_mariano_matos">
@@ -1168,7 +1172,7 @@
                 name="kinship"
                 mutual="true"
                 active="#bernardina_barcelos"
-                passive="#joaquim_rodrigues_barcelos"
+                passive="#joaquim_barcelos"
                 ref="https://www.wikidata.org/wiki/Q840795"
                 >
                 <desc>Relação de parentesco: Bernardina Barcelos de Almeida e Joaquim Rodrigues Barcelos eram irmãos, conforme mencionado na correspondência da Coleção Varela.</desc>
@@ -1895,6 +1899,12 @@
             <persName>Martiniano Teixeira Pinto</persName>
         </person>
         
+        <person xml:id="tito_teixeira_pinto">
+            <persName>Tito Teixeira Pinto</persName>
+            <idno></idno>
+            <note>Destinatário do ofício relativo ao empréstimo solicitado pelo governo provincial.</note>
+        </person> <!--descobrir se é o mesmo que martiniano_teixeira_pinto-->
+        
         <person xml:id="felix_baxero">
             <persName>Felix Baxero</persName>
         </person>
@@ -1905,6 +1915,8 @@
         
         <person xml:id="alexandre_bresque">
             <persName>Dom Alexandre Bresque</persName>
+            <idno></idno>
+            <note>Indivíduo que enviou quantia em dinheiro a Bernardina; identificação incompleta.</note>
         </person>
         
         <person xml:id="luis_joaquim_luz">
@@ -1952,6 +1964,7 @@
         
         <person xml:id="joao_antunes">
             <persName>João Antunes</persName>
+            <idno></idno>
             <note>Participou na condução de tropas.</note>
         </person>
         
@@ -2112,7 +2125,9 @@
         </person>
         
         <person xml:id="florisbelo_dos_santos_pereira">
+            <idno></idno>
             <persName>Florisbelo dos Santos Pereira</persName>
+            <note>Proprietário de casa onde Bernardina deveria permanecer.</note>
         </person>
         
         <person xml:id="alexandre_simoes">
@@ -2158,6 +2173,7 @@
         
         <person xml:id="felizardo_rodrigues_braga">
             <persName>Felizardo Rodrigues Braga</persName>
+            <idno></idno>
             <note>Primo do autor, responsável por cobranças antes de falecer.</note>
         </person>
         
@@ -2366,7 +2382,9 @@
         
         <person xml:id="manuel_rodrigues_barbosa">
             <persName>Manuel Rodrigues Barbosa</persName>
+            <idno></idno>
             <note>Cidadão requerente da captura dos escravizados.</note>
+            <note>Enviou 30 onças de ouro para as despesas do Estado; envolvido em conflito administrativo.</note>
         </person>
         
         <person xml:id="joaquim">
@@ -2688,6 +2706,8 @@
         
         <person xml:id="quinzio">
             <persName>Quínzio</persName>
+            <idno></idno>
+            <note>Indivíduo ligado à família; identificação incompleta.</note>
         </person>
         
         <person xml:id="malaquias">
@@ -2749,6 +2769,8 @@
             <idno></idno>
             <note>Indivíduo encarregado de acompanhar Bernardina; identificação incompleta.</note>
         </person>
+        
+        
         
         <person xml:id="benito_gontan">
             <persName>Benito Gontan</persName>
@@ -4580,7 +4602,7 @@
         </person>
         
         <person xml:id="jose_inacio_ourives">
-            <persName>José Inácio (Juca Ourives)</persName>
+            <persName>José Inácio (Juca) Ourives</persName>
             <note>Capitão mencionado como comparativo de serviços.</note>
         </person>
         
@@ -5400,6 +5422,100 @@
             <persName>Torquato</persName>
             <idno></idno>
             <note>Responsável por levar escravos de Domingos José de Almeida a Montevidéu.</note>
+        </person>
+        
+        <person xml:id="sousa">
+            <persName>Velho Sousa</persName>
+            <idno></idno>
+            <note>Destinatário de carta mencionada; identificação incompleta.</note>
+        </person>
+        
+        <person xml:id="maria_jose">
+            <persName>María José</persName>
+            <idno></idno>
+            <note>Comadre de Bernardina mencionada na carta.</note>
+        </person>
+        
+        <person xml:id="florisbelo_avila">
+            <persName>Florisbelo Antonio de Ávila</persName>
+            <idno></idno>
+            <note>Tenente-Coronel comandante da Guarda Nacional de Jaguarão, legalista.</note>
+        </person>
+        
+        <person xml:id="luis_vieira">
+            <persName>Luís Vieira</persName>
+            <idno></idno>
+            <note>Indivíduo que hospeda Bernardina Barcelos de Almeida no Chuí; identificação incompleta.</note>
+        </person>
+        
+        <person xml:id="bernardino_vieira">
+            <persName>Bernardino Vieira</persName>
+            <idno></idno>
+            <note>Parente referido como primo Bernardino Vieira por Domingos José de Almeida.</note>
+        </person>
+        
+        <person xml:id="bruno">
+            <persName>Bruno</persName>
+            <idno></idno>
+            <note>Indivíduo citado como credor por Domingos José de Almeida.</note>
+        </person>
+        
+        
+        <person xml:id="juca_neto">
+            <persName>Juca Neto</persName>
+            <idno></idno>
+            <note>Indivíduo citado como tendo informado compras de cavalos no Taim.</note>
+        </person>
+        
+        <person xml:id="marechal_barreto">
+            <persName type="full">Sebastião Barreto Pereira Pinto</persName>
+            <idno type="viaf">https://viaf.org/en/viaf/9947173669188307660004</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10369073</idno>
+            <roleName>Marechal</roleName>
+            <roleName>Deputado provincial eleito à 1ª Legislatura da Assembleia Legislativa Provincial do Rio Grande do Sul</roleName>
+            <note>(Porto Alegre, 1775 – Porto Alegre, 1841) foi um militar brasileiro. .</note>
+        </person>
+        
+        <person xml:id="sebastiao_medeiros_camara">
+            <persName>Sebastião José de Medeiros Câmara</persName>
+            <idno></idno>
+            <note>Encarregado de buscar Bernardina e conduzi-la a local seguro.</note>
+        </person>
+        
+        <person xml:id="jacinta">
+            <persName>D. Jacinta</persName>
+            <idno></idno>
+            <note>Parente de Bernardina; identificação incompleta.</note>
+        </person>
+        
+        <person xml:id="petrona">
+            <persName>D. Petrona</persName>
+            <idno></idno>
+            <note>Parente de Bernardina; identificação incompleta.</note>
+        </person>
+        
+        <person xml:id="juca_da_costa">
+            <persName>Juca da Costa</persName>
+            <idno></idno>
+            <note>Proprietário de local onde bois poderiam ser deixados.</note>
+        </person>
+        
+        <person xml:id="madruga">
+            <persName>Madruga</persName>
+            <idno></idno>
+            <note>Indivíduo que deveria fornecer bois para a viagem; identificação incompleta.</note>
+        </person>
+        
+        <person xml:id="mingote_2">
+            <persName>Mingote</persName>
+            <idno></idno>
+            <note>Receberia lombilhos encomendados; identificação incompleta.</note>
+        </person>
+        
+        <person xml:id="renovato">
+            <persName>Renovato</persName>
+            <idno></idno>
+            <note>Indivíduo envolvido em transações financeiras com Almeida; identificação incompleta.</note>
         </person>
     </listPerson>
 </standOff>

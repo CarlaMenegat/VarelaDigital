@@ -3,8 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-208 – Antônio de Sousa Neto e Domingos José de Almeida</title>
-                <author>Antônio de Sousa Neto e Domingos José de Almeida</author>
+                <title>Carta CV-222 – Domingos José de Almeida para Bernardina</title>
+                <author>Domingos José de Almeida</author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -81,13 +81,12 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#antonio_sousa_neto">Antônio de Sousa Neto</persName>
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
-                    <placeName ref="#jaguarao">Jaguarão</placeName>
-                    <date when="1837-01-13">13 de janeiro de 1837</date>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1837-08-13">13 de agosto de 1837</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#anacleto_matos">Anacleto José de Matos</persName>
+                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -104,31 +103,38 @@
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-208">
+            <div type="letter" xml:id="CV-222">
                 
-                <p>O <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Tenente-coronel <persName ref="#anacleto_jose_matos">Anacleto José de Matos</persName>, pagador do
-                    exército, do dinheiro em caixa, entregará ao cidadão
-                    <persName ref="#jose_sousa_neto">José de Sousa Neto</persName> ou à sua ordem Rs. 3:986$120, três contos novecentos
-                    oitenta e seis mil cento e vinte, importância de trezentos e setenta e um
-                    cavalos que por ordem do Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante-em-chefe, por mim
-                    transmitida, comprou para o referido exército em 29 de novembro e 27
-                    de dezembro próximos passados: o que cumprirá.</p>
+                <opener>
+                    <dateline>
+                        <placeName ref="#piratini">Piratini</placeName>,
+                        <date when="1837-08-13">13 de agosto de 1837</date>,
+                        às 3 da tarde.
+                    </dateline>
+                    <salute>Querida Bernardina</salute>
+                </opener>
                 
-                <dateline>
-                    Campo à esquerda de <placeName ref="#jaguarao">Jaguarão</placeName>,
-                    <date when="1837-01-13">13 de janeiro de 1837</date>.
-                </dateline>
+                <p>Neste momento me informam que 
+                    <persName ref="#antonio_jose_goncalves_chaves">Chaves</persName>,
+                    a 29 do mês passado, vindo da sua charqueada para a
+                    cidade de <placeName ref="#montevideu">Montevidéu</placeName>, virara o bote e morrera afogado com toda a gente que com ele
+                    vinha. À vista disto não devem seguir os negros por maneira alguma;
+                    antes, para irem ganhando para nossas despesas, é melhor entregá-los ao
+                    Sr. <persName ref="#joao_jose_victorica">Dom Júan José Victorica</persName>, porque com teu mano nos arranjaremos depois.
+                    Portanto mesmo no caso de teres entregado os ditos escravos ao
+                    <persName ref="#torquato">Torquato</persName>, manda que os conserve consigo até ordem do dito Victorica ou
+                    segunda minha. Mal te posso explicar a minha aflição por causa daquele
+                    acontecimento: era meu amigo, era virtuoso, e além de tudo temos
+                    contas bem complicadas. De qualquer lugar que esta recebas expede tuas
+                    ordens a respeito.</p>
+                
+                <p>Suponho que o primo <persName ref="#felizardo_rodrigues_braga">Felizardo</persName> talvez também morresse,
+                    porque a 23 me escreveu daquele ponto, e mesmo de casa do Chaves.
+                    Deus me dê paciência.</p>
                 
                 <closer>
-                    <signed>
-                        <persName ref="#antonio_sousa_neto">Antônio de Sousa Neto</persName><br/>
-                        Comandante Interino do Exército
-                    </signed>
-                </closer>
-                
-                <closer>
-                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.<br/>
-                        Coronel Quartel-mestre General.</signed>
+                    <p>Abraços a nossos filhos e tu recebe o coração do</p>
+                    <signed>Teu fiel amigo<br/>(a) <persName ref="#domingos_jose_almeida">Almeida</persName>.</signed>
                 </closer>
                 
             </div>

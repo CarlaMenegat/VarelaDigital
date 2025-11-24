@@ -123,11 +123,11 @@
                 <p>Como não tenha vindo a Tipografia para o tempo mais oportuno, qual o
                     da tomada de <placeName ref="#cacapava">Caçapava</placeName> a hoje, e eu deva pôr o capital para isso
                     aplicado em algum giro para manutenção de minha família; consulto a
-                    V. Ex.ª se farei bem mandar devolver dito capital, caso não esteja
+                    <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> se farei bem mandar devolver dito capital, caso não esteja
                     realizada a compra de tal Tipografia.</p>
                 
                 <closer>
-                    <salute>De V. Ex.ª</salute>
+                    <salute>De <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice></salute>
                     <signed>Amigo afetuosíssimo e obrigado<br/>
                         <placeName ref="#piratini">Piratini</placeName>,
                         <date when="1837-06-06">6 de junho de 1837</date>.<br/>

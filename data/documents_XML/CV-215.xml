@@ -3,8 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-208 – Antônio de Sousa Neto e Domingos José de Almeida</title>
-                <author>Antônio de Sousa Neto e Domingos José de Almeida</author>
+                <title>Carta CV-215 – Domingos José de Almeida para Tito Teixeira Pinto</title>
+                <author>Domingos José de Almeida</author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -81,13 +81,13 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#antonio_sousa_neto">Antônio de Sousa Neto</persName>
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
-                    <placeName ref="#jaguarao">Jaguarão</placeName>
-                    <date when="1837-01-13">13 de janeiro de 1837</date>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1837-06-09">9 de junho de 1837</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#anacleto_matos">Anacleto José de Matos</persName>
+                    <persName ref="#tito_teixeira_pinto">Tito Teixeira Pinto</persName>
+                    <placeName ref="#pelotas">Pelotas</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -104,32 +104,46 @@
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-208">
+            <div type="letter" xml:id="CV-212">
                 
-                <p>O <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Tenente-coronel <persName ref="#anacleto_jose_matos">Anacleto José de Matos</persName>, pagador do
-                    exército, do dinheiro em caixa, entregará ao cidadão
-                    <persName ref="#jose_sousa_neto">José de Sousa Neto</persName> ou à sua ordem Rs. 3:986$120, três contos novecentos
-                    oitenta e seis mil cento e vinte, importância de trezentos e setenta e um
-                    cavalos que por ordem do Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante-em-chefe, por mim
-                    transmitida, comprou para o referido exército em 29 de novembro e 27
-                    de dezembro próximos passados: o que cumprirá.</p>
+                <opener>
+                    <salute>Ilmo. Sr.</salute>
+                </opener>
                 
-                <dateline>
-                    Campo à esquerda de <placeName ref="#jaguarao">Jaguarão</placeName>,
-                    <date when="1837-01-13">13 de janeiro de 1837</date>.
-                </dateline>
+                <p>Reconhecendo o governo que para a pronta consolidação do
+                    sistema republicano, que a grande maioria dos habitantes deste
+                    Estado há solenemente proclamado e ele jurou defender, é de
+                    absoluta necessidade contrair-se um empréstimo, que assegurando
+                    vantajoso lucro aos concorrentes ocorra às precisões da guerra sem
+                    gravame dos povos, sobrecarregados já, e mesmo para desprezar
+                    medidas violentas, posto que aplicáveis na atualidade das coisas, me
+                    incumbiu de promover o referido empréstimo, como se vê do
+                    decreto junto de 29 de maio próximo passado.</p>
+                
+                <p>Por semelhante motivo me dirijo a V. S.ª rogando-lhe queira
+                    prestar-se com a quantia de 5:000$000 rs. em prata ou ouro, que lhe
+                    será paga no prazo marcado pelo referido decreto com o prêmio de
+                    um e meio por cento ao mês, que principiará a correr desde o dia
+                    que nesta Secretaria se lhe entregar o documento em forma.</p>
+                
+                <p>Para o <orgName ref="#tesouro">Tesouro</orgName> nesta data, aliás nesta cidade,
+                    enviará V. S.ª no prazo de trinta dias a soma de que faço menção.
+                    Deus guarde a V. S.ª muitos anos.
+                    <placeName ref="#piratini">Piratini</placeName>,
+                    <date when="1837-06-09">9 de junho de 1837</date>.</p>
                 
                 <closer>
                     <signed>
-                        <persName ref="#antonio_sousa_neto">Antônio de Sousa Neto</persName><br/>
-                        Comandante Interino do Exército
+                        <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.
                     </signed>
                 </closer>
                 
-                <closer>
-                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.<br/>
-                        Coronel Quartel-mestre General.</signed>
-                </closer>
+                <note type="endorsement" place="verso">
+                    Recebi a 19 de junho e respondi no mesmo dia e ano 1837.<br/>
+                    S. da R. (Secretaria da Presidência da República).<br/>
+                    Ilmo. Sr. <persName ref="#tito_teixeira_pinto">Tito Teixeira Pinto</persName>.<br/>
+                    Do Ministério da Fazenda.
+                </note>
                 
             </div>
         </body>

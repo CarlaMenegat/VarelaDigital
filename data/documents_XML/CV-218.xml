@@ -3,8 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-208 – Antônio de Sousa Neto e Domingos José de Almeida</title>
-                <author>Antônio de Sousa Neto e Domingos José de Almeida</author>
+                <title>Carta CV-218 – Domingos José de Almeida para Bernardina Barcelos de Almeida</title>
+                <author>Domingos José de Almeida</author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,7 +16,7 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-07-09">09 de julho de 2025</date>
             </editionStmt>
             <extent>
                 <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
@@ -81,13 +81,12 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#antonio_sousa_neto">Antônio de Sousa Neto</persName>
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
-                    <placeName ref="#jaguarao">Jaguarão</placeName>
-                    <date when="1837-01-13">13 de janeiro de 1837</date>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1837-06-24">24 de junho de 1837</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#anacleto_matos">Anacleto José de Matos</persName>
+                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -95,7 +94,7 @@
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
+                    <date when="2025-11-21">23/11/2025</date>
                     Conversão TEI realizada por Carla Menegat.
                 </item>
             </list>
@@ -104,32 +103,61 @@
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-208">
-                
-                <p>O <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Tenente-coronel <persName ref="#anacleto_jose_matos">Anacleto José de Matos</persName>, pagador do
-                    exército, do dinheiro em caixa, entregará ao cidadão
-                    <persName ref="#jose_sousa_neto">José de Sousa Neto</persName> ou à sua ordem Rs. 3:986$120, três contos novecentos
-                    oitenta e seis mil cento e vinte, importância de trezentos e setenta e um
-                    cavalos que por ordem do Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante-em-chefe, por mim
-                    transmitida, comprou para o referido exército em 29 de novembro e 27
-                    de dezembro próximos passados: o que cumprirá.</p>
+            <div type="letter" xml:id="CV-218">
                 
                 <dateline>
-                    Campo à esquerda de <placeName ref="#jaguarao">Jaguarão</placeName>,
-                    <date when="1837-01-13">13 de janeiro de 1837</date>.
+                    <placeName ref="#piratini">Piratini</placeName>,
+                    <date when="1837-06-24">24 de junho de 1837</date>.
                 </dateline>
                 
+                <opener>
+                    <salute>Querida <persName ref="#bernardina_barcelos_almeida">Bernardina</persName></salute>
+                </opener>
+                
+                <p>Ontem à noite recebi a tua de 18 do corrente mês, e para pensar
+                    maduramente no que nos convém, atentas às circunstâncias deste e desse
+                    país, demorei o próprio hoje todo o dia; e agora dez horas da noite é que
+                    tomei meu partido a respeito. Manda aprontar as carretas em ordem de
+                    marcha, porque nestes vinte dias, a contar de hoje, ou havemos seguir juntos
+                    para <placeName ref="#montevideo">Montevidéu</placeName>, ou te mandarei vir para este ponto; pois estar
+                    nas <placeName ref="#pedras_altas">Pedras Altas</placeName> e estar aí é a mesma coisa por não podermos
+                    estar juntos.</p>
+                
+                <p>Demais meus receios ainda aí manifestados se vão verificando, e de
+                    uma maneira cujos resultados são assustadores. Meus sacrifícios continuariam
+                    se eu esperasse um êxito favorável; mas vamos a sair do abismo antes que se
+                    perca tudo e fiquem nossos filhos sem sustento.</p>
+                
+                <p>Com isto penetrarás o mais e tende paciência com o influxo da sorte.</p>
+                
+                <p>Lembranças a nossos parentes, abraços a nossos queridos filhos e tu
+                    aceita o coração do</p>
+                
                 <closer>
-                    <signed>
-                        <persName ref="#antonio_sousa_neto">Antônio de Sousa Neto</persName><br/>
-                        Comandante Interino do Exército
+                    <signed>Teu<br/>(a)
+                        <persName ref="#domingos_jose_almeida">Almeida</persName>.
                     </signed>
                 </closer>
                 
+                <note place="folio" type="editorial">
+                    [1v.] Manda dar a <persName ref="#manuel_madruga">Manuel Madruga</persName>
+                    Rs. 49$080, quarenta e nove mil e oitenta, e ao primo
+                    <persName ref="#bernardino_vieira">Bernardino Vieira</persName> 24 patacões,
+                    vinte e quatro patacões, e a <persName ref="#bruno">Bruno</persName> e a
+                    <persName ref="#joao_jose_victorica">Victorica</persName> envia as adjuntas.
+                </note>
+                
                 <closer>
-                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.<br/>
-                        Coronel Quartel-mestre General.</signed>
+                    <signed>(a)
+                        <persName ref="#domingos_jose_almeida">Almeida</persName>.
+                    </signed>
                 </closer>
+                
+                <note type="endorsement" place="verso">
+                    Ilma. Sra. D.
+                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.<br/>
+                    Mangrulho.
+                </note>
                 
             </div>
         </body>

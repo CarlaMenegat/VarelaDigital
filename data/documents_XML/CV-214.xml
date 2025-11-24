@@ -3,8 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-208 – Antônio de Sousa Neto e Domingos José de Almeida</title>
-                <author>Antônio de Sousa Neto e Domingos José de Almeida</author>
+                <title>Carta CV-214 – Inácio José de Oliveira Guimarães para Domingos José de Almeida</title>
+                <author>Inácio José de Oliveira Guimarães</author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -80,18 +80,21 @@
         </encodingDesc>
         <profileDesc>
             <correspDesc>
+                
                 <correspAction type="sent">
-                    <persName ref="#antonio_sousa_neto">Antônio de Sousa Neto</persName>
-                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
-                    <placeName ref="#jaguarao">Jaguarão</placeName>
-                    <date when="1837-01-13">13 de janeiro de 1837</date>
+                    <persName ref="#inacio_guimaraes">
+                        Inácio José de Oliveira Guimarães
+                    </persName>
+                    <date when="1837-07-01">1º de julho de 1837</date>
                 </correspAction>
+                
                 <correspAction type="received">
-                    <persName ref="#anacleto_matos">Anacleto José de Matos</persName>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#piratini">Piratini</placeName>
                 </correspAction>
+                
             </correspDesc>
         </profileDesc>
-        
         <revisionDesc>
             <list>
                 <item>
@@ -104,32 +107,40 @@
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-208">
+            <div type="letter" xml:id="CV-214">
                 
-                <p>O <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Tenente-coronel <persName ref="#anacleto_jose_matos">Anacleto José de Matos</persName>, pagador do
-                    exército, do dinheiro em caixa, entregará ao cidadão
-                    <persName ref="#jose_sousa_neto">José de Sousa Neto</persName> ou à sua ordem Rs. 3:986$120, três contos novecentos
-                    oitenta e seis mil cento e vinte, importância de trezentos e setenta e um
-                    cavalos que por ordem do Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante-em-chefe, por mim
-                    transmitida, comprou para o referido exército em 29 de novembro e 27
-                    de dezembro próximos passados: o que cumprirá.</p>
+                <opener>
+                    <salute>Resposta<br/>Ilmo. Exmo. Sr.</salute>
+                </opener>
                 
-                <dateline>
-                    Campo à esquerda de <placeName ref="#jaguarao">Jaguarão</placeName>,
-                    <date when="1837-01-13">13 de janeiro de 1837</date>.
-                </dateline>
+                <p>Em 29 do passado me veio à mão o ofício e decreto que
+                    V. Ex.ª me endereçou com data de 9 do mesmo mês, cumprindo-me
+                    em resposta ao mesmo dizer que ninguém melhor que V. Ex.ª conhece
+                    o estado em que me acho respeito a finanças, pois que já em 24 de
+                    julho do ano p.p., V. Ex.ª mesmo me fez igual requisição por ordem
+                    do Exmo. Sr. <persName ref="#joao_manuel_lima_silva">
+                        João Manuel de Lima e Silva</persName>, a qual, com o mesmo pesar
+                    que agora me acompanha, me vi na precisão de negar-me a semelhante
+                    requisição, que tão justa se faz para a seguridade do sistema proclamado.</p>
+                
+                <p>Tenho bens dos quais já alguns tenho prestado, como
+                    V. Ex.ª não ignora, e iguais desejos inda são de mim inseparáveis, e tudo
+                    que for útil para sustentar a nossa causa, gratuitamente ofereço.</p>
+                
+                <p>Deus guarde a V. Ex.ª muitos anos.
+                    Fazenda do Salso,
+                    <date when="1837-07-01">1.º de julho de 1837</date>.</p>
                 
                 <closer>
                     <signed>
-                        <persName ref="#antonio_sousa_neto">Antônio de Sousa Neto</persName><br/>
-                        Comandante Interino do Exército
+                        <persName ref="#inacio_guimaraes">
+                            Inácio José de Oliveira Guimarães</persName>
                     </signed>
                 </closer>
                 
-                <closer>
-                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.<br/>
-                        Coronel Quartel-mestre General.</signed>
-                </closer>
+                <note type="endorsement" place="verso">
+                    [Na folha 1v. do documento CV-212]
+                </note>
                 
             </div>
         </body>

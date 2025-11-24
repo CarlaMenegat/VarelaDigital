@@ -3,8 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-208 – Antônio de Sousa Neto e Domingos José de Almeida</title>
-                <author>Antônio de Sousa Neto e Domingos José de Almeida</author>
+                <title>Carta CV-220 – Domingos José de Almeida para Bernardina Barcelos de Almeida</title>
+                <author>Domingos José de Almeida</author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -81,13 +81,14 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#antonio_sousa_neto">Antônio de Sousa Neto</persName>
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
-                    <placeName ref="#jaguarao">Jaguarão</placeName>
-                    <date when="1837-01-13">13 de janeiro de 1837</date>
+                    <placeName ref="#piratini">Piratini</placeName>
+                    <date when="1837-08-09">9 de agosto de 1837</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#anacleto_matos">Anacleto José de Matos</persName>
+                    <persName ref="#bernardina_barcelos_almeida">
+                        Bernardina Barcelos de Almeida
+                    </persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -104,32 +105,70 @@
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-208">
-                
-                <p>O <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Tenente-coronel <persName ref="#anacleto_jose_matos">Anacleto José de Matos</persName>, pagador do
-                    exército, do dinheiro em caixa, entregará ao cidadão
-                    <persName ref="#jose_sousa_neto">José de Sousa Neto</persName> ou à sua ordem Rs. 3:986$120, três contos novecentos
-                    oitenta e seis mil cento e vinte, importância de trezentos e setenta e um
-                    cavalos que por ordem do Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante-em-chefe, por mim
-                    transmitida, comprou para o referido exército em 29 de novembro e 27
-                    de dezembro próximos passados: o que cumprirá.</p>
+            <div type="letter" xml:id="CV-220">
                 
                 <dateline>
-                    Campo à esquerda de <placeName ref="#jaguarao">Jaguarão</placeName>,
-                    <date when="1837-01-13">13 de janeiro de 1837</date>.
+                    <placeName ref="#piratini">Piratini</placeName>,
+                    <date when="1837-08-09">9 de agosto de 1837</date>.
                 </dateline>
                 
-                <closer>
-                    <signed>
-                        <persName ref="#antonio_sousa_neto">Antônio de Sousa Neto</persName><br/>
-                        Comandante Interino do Exército
-                    </signed>
-                </closer>
+                <opener>
+                    <salute>Querida <persName ref="#bernardina_barcelos_almeida">Bernardina</persName></salute>
+                </opener>
+                
+                <p>Com a última derrota do Marechal
+                    <persName ref="#marechal_barreto">Barreto</persName> suponho em segurança nossa campanha
+                    e por esse motivo vai o Sr. <persName ref="#sebastiao_medeiros_camara">Sebastião José de Medeiros Câmara</persName>
+                    para trazer-te até a casa do Sr.
+                    <persName ref="#florisbelo_santos_pereira">Florisbelo dos Santos Pereira</persName>, onde logo que
+                    chegue me avisará, para eu ir ver se ali mesmo, ou no
+                    <persName ref="#jose_rodrigues_chaves">José Rodrigues Chaves</persName>, ou no Canto, deverás persistir até que
+                    possamos de uma vez ir para nossa casa.</p>
+                
+                <p>São tantos os trabalhos que sobre mim pesam presentemente
+                    que me vejo por isso privado de ir-te mesmo buscar como me cumpria;
+                    mas tu relevarás atendendo em primeiro lugar o bem da Pátria.</p>
+                
+                <p>Depois de leres e distribuíres as cartas juntas põe-te em marcha,
+                    mesmo com os bois magros, até <persName ref="#madruga">Madruga</persName>,
+                    onde espero que ele e <persName ref="#joao_antunes">João Antunes</persName>
+                    te forneçam novos bois até o passo de <placeName ref="#sao_diogo">São Diogo</placeName>,
+                    onde o Sr. <persName ref="#florisbelo_santos_pereira">Florisbelo</persName> promete outros
+                    para seguires.</p>
+                
+                <p>Antes de tua saída vê se despachas pelo Torquato todos os escravos
+                    que puderes dispensar, mandando de antemão pedir a
+                    <persName ref="#alexandre_bresque">Bresque</persName> o passaporte deles em nome de teu mano
+                    <persName ref="#joao_barcelos">João</persName>, a quem pertencem pelo negócio que sabes fizemos.</p>
+                
+                <p>A <persName ref="#antonio_jose_rodrigues_chaves">Chaves</persName> manda pedir tudo que vires precisas para comida
+                    e vestuário de nossa casa, pois aqui nada há e bom é provermos com
+                    tempo do necessário.</p>
+                
+                <p>Agradece em meu nome ao primo Sr. <persName ref="#luis_vieira">Luís Vieira</persName>,
+                    à prima Sra. <persName ref="#jacinta">D. Jacinta</persName>,
+                    e à <persName ref="#petrona">D. Petrona</persName> os obséquios comigo e contigo
+                    despendidos, oferecendo-lhes meus serviços para tudo em que os
+                    possa prestar.</p>
+                
+                <p>Se os bois magros não puderem absolutamente virem por diante,
+                    e no <persName ref="#juca_da_costa">Juca da Costa</persName> ou deste lado no
+                    <persName ref="#sampaio">Sampaio</persName> puderem ficar, deixa-os para depois virem para o
+                    Sr. <persName ref="#florisbelo_santos_pereira">Florisbelo</persName>; recomendando-os a alguém para se não perderem,
+                    pois parte deles são do Estado.</p>
+                
+                <p>Se faltar alguma carreta pede a <persName ref="#madruga">Madruga</persName>
+                    ou a <persName ref="#joao_antunes">Antunes</persName>, e a todos eles agradece
+                    os obséquios conosco despendidos. Vão os petisos para os meninos e dirás
+                    a <persName ref="#mingote_2">Mingote</persName> que seus lombilhos estão encomendados. Abraços a
+                    todos os nossos filhos, e tu recebe o coração do teu</p>
                 
                 <closer>
-                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.<br/>
-                        Coronel Quartel-mestre General.</signed>
+                    <signed>(a) <persName ref="#domingos_jose_almeida">Almeida</persName></signed>
                 </closer>
+                
+                <p>A roupa que precisar os meninos é bom que compres em
+                    <placeName ref="#cerro_largo">Cerro Largo</placeName>.</p>
                 
             </div>
         </body>
