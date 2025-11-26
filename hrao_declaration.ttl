@@ -3,6 +3,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix san: <http://example.org/san#> .
 
 #################################################################
 # HRAO — Historical Relations and Agency Ontology
@@ -69,3 +70,60 @@ hrao:requestedPoliticalFavorFrom a owl:ObjectProperty ;
     rdfs:domain prov:Agent ;
     rdfs:range prov:Agent ;
     rdfs:subPropertyOf prov:wasInfluencedBy .
+
+#################################################################
+# Property: hrao:participatedInEvent
+#################################################################
+
+hrao:participatedInEvent a owl:ObjectProperty ;
+    rdfs:label "participated in event"@en ;
+    rdfs:comment "Indicates that an agent participated in a historical event, such as a battle, encounter, campaign, or gathering."@en ;
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+    rdfs:domain prov:Agent ;
+    rdfs:range san:Event .
+
+
+#################################################################
+# Property: hrao:wasPrisonerInEvent
+#################################################################
+
+hrao:wasPrisonerInEvent a owl:ObjectProperty ;
+    rdfs:label "was taken prisoner in event"@en ;
+    rdfs:comment "Indicates that an agent was taken prisoner during a particular historical event."@en ;
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+    rdfs:domain prov:Agent ;
+    rdfs:range san:Event .
+
+
+#################################################################
+# Property: hrao:killed
+#################################################################
+
+hrao:killed a owl:ObjectProperty ;
+    rdfs:label "killed"@en ;
+    rdfs:comment "Indicates that an agent caused the death of another agent, based on historical sources."@en ;
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+    rdfs:domain prov:Agent ;
+    rdfs:range prov:Agent .
+
+#################################################################
+# Property: hrao:wasKilledInEvent
+#################################################################
+
+hrao:wasKilledInEvent a owl:ObjectProperty ;
+    rdfs:label "was killed in event"@en ;
+    rdfs:comment "Indicates that an agent died as a direct consequence of a historical event, such as a battle, ambush, or other violent occurrence."@en ;
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+    rdfs:domain prov:Agent ;
+    rdfs:range san:Event .
+
+#################################################################
+# Property: hrao:servedUnder
+#################################################################
+
+hrao:servedUnder a owl:ObjectProperty ;
+    rdfs:label "served under"@en ;
+    rdfs:comment "Indicates that an agent held an office, function, or role under the authority or leadership of another agent."@en ;
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+    rdfs:domain prov:Agent ;
+    rdfs:range prov:Agent .

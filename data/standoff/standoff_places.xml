@@ -7,6 +7,14 @@
             <geo>-30.0346 -51.2177</geo>
             <note>Província mais ao sul do Brasil.</note>
         </place>
+        
+        <place xml:id="espinilho">
+            <placeName>Espinilho</placeName>
+            <idno type="geonames">https://www.geonames.org/3463943/espinilho.html</idno>
+            <geo>--28.17832, -53.75592</geo>
+            <note>Região de fronteira entre o atual Rio Grande do Sul e o Uruguai, nas proximidades de Rivera/Sant’Ana do Livramento. Local do combate de 25 de outubro de 1837.</note>
+        </place>
+
         <place xml:id="cachoeira">
             <placeName type="historical">Cachoeira</placeName>
             <placeName type="modern">Cachoeira do Sul</placeName>

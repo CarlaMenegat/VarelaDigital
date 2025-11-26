@@ -1,22 +1,92 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-11 – Domingos José de Almeida para o Tesouro</title>
                 <author>Domingos José de Almeida</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-06-18">18 de junho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#almeida">Domingos José de Almeida</persName>
@@ -24,12 +94,24 @@
                     <date when="1842-03-19">19 de março de 1842</date>
                 </correspAction>
                 <correspAction type="received">
-                    <orgName>Tribunal do Tesouro</orgName>
+                    <orgName ref="#tribunal_tesouro">Tribunal do Tesouro</orgName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-06-18">18/06/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-10-25">25/11/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
-    
+
     <text>
         <body>
             <div type="letter" xml:id="CV-11">
@@ -37,9 +119,21 @@
                     <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>O cidadão <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName> ao partir desta capital comunicando-me ter-lhe <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> prometido expedir ordem para se lhe aceitar letras pelos direitos dos objetos que de sua conta despachasse nas Coletorias do <placeName ref="#erval">Erval</placeName> e <placeName ref="#boqueirao">Boqueirão</placeName>, para a importância delas ser encontrada no que lhe deve o Estado, e para o que acordara com <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> deixar seus documentos em meu poder a fim de exigir as ordens a respeito passado algum tempo, bem o do cidadão <persName ref="#alexandre_lopes">Alexandre Silveira Lopes</persName> para ter o mesmo destino, pediu-me lhe aceitasse os ditos documentos, o que fiz.</p>
+                <p>O cidadão <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName> ao partir desta
+                    capital comunicando-me ter-lhe <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> prometido 
+                    expedir ordem para se lhe aceitar letras pelos direitos dos objetos que de sua conta despachasse nas Coletorias 
+                    do <placeName ref="#erval">Erval</placeName> e <placeName ref="#boqueirao">Boqueirão</placeName>, para a 
+                    importância delas ser encontrada no que lhe deve o Estado, e para o que acordara com 
+                    <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> deixar seus documentos em meu poder a fim de exigir
+                    as ordens a respeito passado algum tempo, bem o do cidadão <persName ref="#alexandre_silveira">Alexandre Silveira Lopes</persName>
+                    para ter o mesmo destino, pediu-me lhe aceitasse os ditos documentos, o que fiz.</p>
                 
-                <p>A carta, cópia e ofício em números 1, 2 e 3 verificam quanto levo expressado; e por isso, sobrepondo surpreendido com a exigência de procuração para a inscrição da dívida liquidada do referido cidadão, inscrição que requeri por aproximar-se a transferência da sede do governo, e dever constar no Tesouro a conta em questão para as transações a fazer-se caso haja de verificar-se o encontro prometido, ainda uma vez requeiro a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que a mande praticar, desistindo eu da exigência de conhecimento em forma, posto que para isso me dê jus a carta e peças que citei, pelo desconceito que a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> mereço.</p>
+                <p>A carta, cópia e ofício em números 1, 2 e 3 verificam quanto levo expressado; e por isso, sobrepondo surpreendido 
+                    com a exigência de procuração para a inscrição da dívida liquidada do referido cidadão, inscrição que requeri por 
+                    aproximar-se a transferência da sede do governo, e dever constar no Tesouro a conta em questão para as transações a 
+                    fazer-se caso haja de verificar-se o encontro prometido, ainda uma vez requeiro a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> 
+                    que a mande praticar, desistindo eu da exigência de conhecimento em forma, posto que para isso me dê jus a carta e peças que citei, 
+                    pelo desconceito que a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> mereço.</p>
                 
                 <closer>
                     <signed>(a) <persName ref="#almeida">Domingos José de Almeida</persName></signed>

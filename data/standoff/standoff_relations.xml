@@ -131,6 +131,162 @@
             name="rel:childOf"
             active="#abrilina_almeida"
             passive="#bernardina_barcelos_almeida"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#coritiba"
+            passive="#raul_abbott"/>
+        
+        <relation
+            name="hrao:participatedInEvent"
+            active="#canabarro"
+            passive="#combate_espinilho"/>
+        
+        <relation
+            name="hrao:participatedInEvent"
+            active="#bento_manoel"
+            passive="#combate_espinilho"/>
+        
+        <relation
+            name="hrao:participatedInEvent"
+            active="#teixeira_nunes"
+            passive="#combate_espinilho"/>
+        
+        <relation
+            name="hrao:participatedInEvent"
+            active="#demetrio_ribeiro"
+            passive="#combate_espinilho"/>
+        
+        <relation
+            name="pro:holdsRoleInTime"
+            active="#roque_faustino"
+            passive="#roque_faustino_capitao"/>
+        
+        <relation
+            name="hrao:wasPrisonerInEvent"
+            active="#roque_faustino"
+            passive="#combate_espinilho"/>
+        
+        <relation
+            name="hrao:killed"
+            active="#roque_faustino"
+            passive="#joao_manuel_lima_silva"/>
+        
+        <relation
+            name="pro:holdsRoleInTime"
+            active="#canabarro"
+            passive="#canabarro_general_rrg"/>
+        
+        <relation
+            name="hrao:followedPoliticalAlignmentOf"
+            active="#bento_manoel"
+            passive="#republica_rio_grandense"/>
+        
+        <relation
+            name="hrao:followedPoliticalAlignmentOf"
+            active="#bento_manoel"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:followedPoliticalAlignmentOf"
+            active="#bento_manoel"
+            passive="#republica_rio_grandense"/>
+        
+        <relation
+            name="hrao:participatedInEvent"
+            active="#bento_manoel"
+            passive="#combate_espinilho"/>
+        
+        <relation 
+            name="pro:holdsRoleInTime"
+            active="#bento_manoel"
+            passive="#bento_manoel_farroupilha_1835"/>
+        
+        <relation 
+            name="pro:holdsRoleInTime"
+            active="#bento_manoel"
+            passive="#bento_manoel_imperial_1836"/>
+        
+        <relation 
+            name="pro:holdsRoleInTime"
+            active="#bento_manoel"
+            passive="#bento_manoel_farroupilha_1837"/>
+        
+        <relation 
+            name="pro:withRole" 
+            active="#bento_manoel_farroupilha_1835" 
+            passive="#pro:commander"/>
+        
+        <relation name="pro:withRole" 
+            active="#bento_manoel_imperial_1836" 
+            passive="#pro:commander"/>
+        
+        <relation name="pro:withRole" 
+            active="#bento_manoel_farroupilha_1837" 
+            passive="#pro:commander"/>
+        
+        <relation
+            name="hrao:followedPoliticalAlignmentOf"
+            active="#demetrio_ribeiro"
+            passive="#bento_manoel"/>
+        
+        <relation
+            name="hrao:participatedInEvent"
+            active="#demetrio_ribeiro"
+            passive="#combate_espinilho"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#bento_goncalves"
+            passive="#domingos_jose_almeida"
+            mutual="true"/>
+        
+        <relation
+            name="hrao:servedUnder"
+            active="#domingos_jose_almeida"
+            passive="#bento_goncalves"/>
+        
+        <relation
+            name="rel:hasUncle"
+            active="#antonio_abreu"
+            passive="#bento_goncalves"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#antonio_abreu"
+            passive="#bento_goncalves"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#antonio_abreu"
+            passive="#inacio_guimaraes"
+            mutual="true"/>
+        
+        <relation
+            name="schema:debtor"
+            active="#tesouro"
+            passive="#alexandre_silveira"/>
+        
+        <relation
+            name="pro:holdsRoleInTime"
+            active="#teixeira_nunes"
+            passive="#teixeira_nunes_coronel_lanceiros"/>
+        
+        <relation
+            name="hrao:participatedInEvent"
+            active="#teixeira_nunes"
+            passive="#combate_espinilho"/>
+        
+        <relation
+            name="hrao:wasKilledInEvent"
+            active="#teixeira_nunes"
+            passive="#evento_porongos_1844"/>
+        
+        <relation
+            name="hrao:participatedInEvent"
+            active="#teixeira_nunes"
+            passive="#evento_porongos_1844"/>
 
         <relation
             name="pro:holdsRoleInTime"
@@ -161,6 +317,18 @@
             name="schema:creditor"
             active="#antonio_abreu"
             passive="#tesouro"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#antonio_abreu"
+            passive="#joao_silva"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#miguel_garcia"
+            passive="#antonio_abreu"
+            mutual="true"/>
         
         <relation
             name="schema:affiliation"
