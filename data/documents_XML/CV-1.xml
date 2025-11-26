@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -65,6 +65,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -80,6 +81,12 @@
         </encodingDesc>
         
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#raul_abbott">Raul Abbott</persName>
@@ -114,17 +121,32 @@
                     <salute>Amigo <persName ref="#alfredo_varela">Alfredo</persName></salute>
                 </opener>
                 
-                <p>Só hoje posso responder tua carta, devido ao estado adoentado do veterano <persName ref="#coritiba">Coritiba</persName> com quem precisava conversar para dar resposta conveniente.</p>
+                <p>Só hoje posso responder tua carta, devido ao estado adoentado do veterano <persName ref="#coritiba">Coritiba</persName> 
+                    com quem precisava conversar para dar resposta conveniente.</p>
                 
-                <p>Sentimos bastante que a presteza com que resolveram partir, nos tivesse proibido da prometida visita, por nós desejada pelo prazer que nos viria dar. Que agradável seja o passeio a <placeName ref="#buenos_aires">Buenos Aires</placeName> e que regressem novamente ao <placeName ref="#rio_grande_dosul">Rio Grande</placeName> são nossos desejos.</p>
+                <p>Sentimos bastante que a presteza com que resolveram partir, nos tivesse proibido da prometida visita, 
+                    por nós desejada pelo prazer que nos viria dar. Que agradável seja o passeio a 
+                    <placeName ref="#buenos_aires">Buenos Aires</placeName> e que regressem novamente ao 
+                    <placeName ref="#rio_grande_dosul">Rio Grande</placeName> são nossos desejos.</p>
                 
-                <p>Do velho <persName ref="#coritiba">Coritiba</persName> colhi o seguinte: “No <event ref="#combate_espinilho">combate do Espinilho</event> estavam os dois, <persName ref="#canabarro">Canabarro</persName> e <persName ref="#bento_manuel">Bento Manuel</persName>, este há poucos dias havia passado para a República.</p>
+                <p>Do velho <persName ref="#coritiba">Coritiba</persName> colhi o seguinte:
+                    “No <event ref="#combate_espinilho">combate do Espinilho</event> estavam os dois, 
+                    <persName ref="#canabarro">Canabarro</persName> e <persName ref="#bento_manuel">Bento Manuel</persName>, 
+                    este há poucos dias havia passado para a República.</p>
                 
-                <p>Foi tão somente um corpo e um esquadrão que derrotaram a força legal. As operações foram concebidas por <persName ref="#canabarro">Canabarro</persName>. Comandava o corpo (batalhão) o <persName ref="#teixeira_nunes">Coronel Joaquim Teixeira Nunes</persName> e o esquadrão, <persName ref="#demetrio_ribeiro">Demétrio Ribeiro</persName>. Neste ataque foi prisioneiro o <persName ref="#roque">capitão legalista Roque</persName> sendo em marcha fuzilado. Esse capitão foi o assassino do <persName ref="#general_lima">General Lima</persName>, em uma casa da fronteira.”</p>
+                <p>Foi tão somente um corpo e um esquadrão que derrotaram a força legal. As operações foram concebidas por 
+                    <persName ref="#canabarro">Canabarro</persName>. Comandava o corpo (batalhão) o 
+                    <persName ref="#teixeira_nunes">Coronel Joaquim Teixeira Nunes</persName> e o esquadrão, 
+                    <persName ref="#demetrio_ribeiro">Demétrio Ribeiro</persName>. Neste ataque foi prisioneiro o 
+                    <persName ref="#roque">capitão legalista Roque</persName> sendo em marcha fuzilado. Esse capitão foi o 
+                    assassino do <persName ref="#joao_manuel_lima_silva">General Lima</persName>, em uma casa da fronteira.”</p>
                 
-                <p>Aqui termina o velho o que sabia, dizendo estar pronto a mais esclarecimentos dar, quando necessários, digo, solicitados. Creio que fica respondida tua estimada carta faltando pedir para aceitares com prima Josefina nossos protestos de estima e acariciares a mimosa Vivi, muitas vezes, por nós.</p>
+                <p>Aqui termina o velho o que sabia, dizendo estar pronto a mais esclarecimentos dar, quando necessários, 
+                    digo, solicitados. Creio que fica respondida tua estimada carta faltando pedir para aceitares com 
+                    prima Josefina nossos protestos de estima e acariciares a mimosa Vivi, muitas vezes, por nós.</p>
                 
-                <p>Agradeço os bons desejos manifestados pelo restabelecimento da Laia a quem farei ciente assim regresse do passeio que está fazendo a uma fazenda do município.</p>
+                <p>Agradeço os bons desejos manifestados pelo restabelecimento da Laia a quem farei ciente assim regresse do 
+                    passeio que está fazendo a uma fazenda do município.</p>
                 
                 <closer>
                     <salute>Abraços manda o</salute>

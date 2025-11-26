@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
+    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Varela Digital — Standoff de Relações</title>
+                <respStmt>
+                    <resp>Modelagem e curadoria das relações</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Projeto Varela Digital</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Arquivo auxiliar contendo todas as relações entre entidades nomeadas modeladas em TEI standoff.</p>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil — idioma das descrições editoriais, notas e marcação.</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change when="2025-11-26">Criação do arquivo de standoff de relações para o projeto Varela Digital.</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <standOff type="relations">
+        
+        
+        <relation
+            name="prov:wasDerivedFrom"
+            active="#colecao_varela"
+            passive="#arquivo_dja"/>
+        
+        <relation
+            name="pro:holdsRoleInTime"
+            active="#abrilina_almeida"
+            passive="#abrilina_transfere_arquivo_dja"/>
+        
+        <relation
+            name="pro:withRole"
+            active="#abrilina_transfere_arquivo_dja"
+            passive="#pro:transferAgent"/>
+        
+        <relation
+            name="pro:relatesToEntity"
+            active="#abrilina_transfere_arquivo_dja"
+            passive="#arquivo_dja"/>
+        
+        <relation
+            name="pro:holdsRoleInTime"
+            active="#alfredo_varela"
+            passive="#alfredo_custodia_arquivo_dja"/>
+        
+        <relation
+            name="pro:holdsRoleInTime"
+            active="#alfredo_varela"
+            passive="#alfredo_doacao_colecao_1936"/>
+        
+        <relation
+            name="pro:withRole"
+            active="#alfredo_doacao_colecao_1936"
+            passive="#pro:donor"/>
+        
+        <relation
+            name="pro:relatesToEntity"
+            active="#alfredo_doacao_colecao_1936"
+            passive="#colecao_varela"/>
+
+        <relation
+            name="pro:holdsRoleInTime"
+            active="#estado_rs"
+            passive="#estado_recebe_colecao_1936"/>
+        
+        <relation
+            name="pro:withRole"
+            active="#estado_recebe_colecao_1936"
+            passive="#pro:curator"/>
+        
+        <relation
+            name="pro:holdsRoleInTime"
+            active="#estado_rs"
+            passive="#estado_deposita_no_museu"/>
+        
+        <relation
+            name="pro:withRole"
+            active="#estado_deposita_no_museu"
+            passive="#pro:transferAgent"/>
+        
+        <relation
+            name="pro:relatesToEntity"
+            active="#estado_deposita_no_museu"
+            passive="#museu_julio_castilhos"/>
+        
+        <relation
+            name="pro:holdsRoleInTime"
+            active="#estado_rs"
+            passive="#estado_transfere_para_ahrs_1954"/>
+        
+        <relation
+            name="pro:withRole"
+            active="#estado_transfere_para_ahrs_1954"
+            passive="#pro:transferAgent"/>
+        
+        <relation
+            name="pro:relatesToEntity"
+            active="#estado_transfere_para_ahrs_1954"
+            passive="#arquivo_hrs"/>
+        
+        <relation
+            name="pro:relatesToEntity"
+            active="#estado_recebe_colecao_1936"
+            passive="#colecao_varela"/>
+        
+        <relation
+            name="rel:childOf"
+            active="#abrilina_almeida"
+            passive="#domingos_jose_almeida"/>
+        
+        <relation
+            name="rel:childOf"
+            active="#abrilina_almeida"
+            passive="#bernardina_barcelos_almeida"/>
+
+        <relation
+            name="pro:holdsRoleInTime"
+            active="#fontoura"
+            passive="#fontoura_ministro_fazenda_1841"/>
+        
+        <relation
+            name="schema:member"
+            active="#domingos_jose_almeida"
+            passive="#partido_liberal"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#alexandre_silveira"
+            passive="#domingos_jose_almeida"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#alexandre_silveira"
+            passive="#antonio_abreu"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#antonio_abreu"
+            passive="#domingos_jose_almeida"/>
+        
+        <relation
+            name="schema:creditor"
+            active="#antonio_abreu"
+            passive="#tesouro"/>
+        
+        <relation
+            name="schema:affiliation"
+            active="#inacio_guimaraes"
+            passive="#departamento_boqueirao"/>
+        
+        <relation
+            name="rel:sonInLawOf"
+            active="#inacio_guimaraes"
+            passive="#bento_goncalves"/>
+        
+        <relation
+            name="schema:affiliation"
+            active="#inacio_guimaraes"
+            passive="#departamento_boqueirao"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#antonio_abreu"
+            passive="#serafim_ribeiro"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#jose_sousa"
+            passive="#antonio_abreu"/>
+        
+        <relation
+            name="hrao:landDisputeWith"
+            active="#jose_sousa"
+            passive="#joao_costa"/>
+        
+        <relation
+            name="hrao:requestedPoliticalFavorFrom"
+            active="#antonio_abreu"
+            passive="#domingos_jose_almeida"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#dionisio_amaro"
+            passive="#antonio_abreu"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#dionisio_amaro"
+            passive="#domingos_jose_almeida"/>
+        
+        
+    </standOff>
+    
+</TEI>

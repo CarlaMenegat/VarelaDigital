@@ -1,0 +1,71 @@
+@prefix hrao: <http://example.org/hrao#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+#################################################################
+# HRAO — Historical Relations and Agency Ontology
+# Carla Menegat (Varela Digital Project)
+# Initial release: 2026
+#
+# This ontology defines additional interpersonal and inter-agent
+# relations commonly found in historical corpora, especially those
+# related to leadership, strategic alignment, influence, loyalty,
+# and non-institutional forms of political/military agency.
+#
+# The ontology is designed to be globally reusable and not tied
+# to any specific geographic region, period, or historical context.
+# It complements existing vocabularies such as PROV-O, FOAF,
+# and the Relationship Ontology (REL).
+#################################################################
+
+
+#################################################################
+# Ontology header
+#################################################################
+
+hrao: a owl:Ontology ;
+    rdfs:label "Historical Relations and Agency Ontology"@en ;
+    rdfs:comment "An ontology for representing historical interpersonal and inter-agent relations, including strategic alignment, influence, and other social relations not fully covered by existing vocabularies."@en ;
+    owl:versionInfo "1.0 (2025-11)" .
+
+
+#################################################################
+# Property: hrao:followedPoliticalAlignmentOf
+#################################################################
+
+hrao:followedPoliticalAlignmentOf a owl:ObjectProperty ;
+    rdfs:label "followed the political alignment of"@en ;
+    rdfs:comment "Indicates that an agent followed or aligned themselves with the political or strategic orientation of another agent, especially in contexts of shifting loyalties, leadership, or factional dynamics in historical settings."@en ;
+
+    # semantic relationship with PROV-O
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+
+    # domain and range (agents)
+    rdfs:domain <http://www.w3.org/ns/prov#Agent> ;
+    rdfs:range  <http://www.w3.org/ns/prov#Agent> .
+
+#################################################################
+# Property: hrao:landDisputeWith
+#################################################################
+
+hrao:landDisputeWith a owl:ObjectProperty ;
+    rdfs:label "land dispute with"@en ;
+    rdfs:comment "Indicates that two historical agents were engaged in a dispute over land, property boundaries, or territorial rights."@en ;
+    rdfs:domain prov:Agent ;
+    rdfs:range prov:Agent ;
+    rdf:type owl:SymmetricProperty ;
+    rdfs:subPropertyOf prov:wasInfluencedBy .
+
+
+#################################################################
+# Property: hrao:requestedPoliticalFavorFrom
+#################################################################
+
+hrao:requestedPoliticalFavorFrom a owl:ObjectProperty ;
+    rdfs:label "requested a political favor from"@en ;
+    rdfs:comment "Indicates that an agent requested a political favor, intercession, or informal influence from another agent in a historical or political context."@en ;
+    rdfs:domain prov:Agent ;
+    rdfs:range prov:Agent ;
+    rdfs:subPropertyOf prov:wasInfluencedBy .

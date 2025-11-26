@@ -1,22 +1,92 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-7 – Antônio Vicente da Fontoura para Antônio Francisco dos Santos Abreu</title>
                 <author ref="#fontoura">Antônio Vicente da Fontoura</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-06-17">17 de junho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#fontoura">Antônio Vicente da Fontoura</persName>
@@ -28,6 +98,18 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-06-17">17/06/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-10-20">24/11/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     <text>
@@ -38,20 +120,38 @@
                     <dateline><placeName ref="#bage">Bagé</placeName>, <date when="1842-02-21">21 de fevereiro de 1842</date>.</dateline>
                 </opener>
                 
-                <p>Querendo contestar a que dirigiu <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> a seu amigo <persName ref="#domingos_almeida">Almeida</persName>, e que me foi por ele confiada, dirigi a inclusa ao <orgName ref="#inspetoria">Inspetor</orgName>, a qual verá com a resposta deste e a do <orgName ref="#contador">Contador</orgName>, o que por certo motivou não poder fazer lavrar uma ordem marcando a quantia que por conta do que lhe deve o Estado devia ser descontada; a que deu causa <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> levar os documentos e não ficar a dívida escriturada como devia, e até como eu mesmo estava persuadido tivesse acontecido.</p>
+                <p>Querendo contestar a que dirigiu <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
+                    a seu amigo <persName ref="#domingos_almeida">Almeida</persName>, e que me foi por ele confiada, 
+                    dirigi a inclusa ao <orgName ref="#inspetoria">Inspetor</orgName>, a qual verá com a resposta deste 
+                    e a do <orgName ref="#contador">Contador</orgName>, o que por certo motivou não poder fazer lavrar 
+                    uma ordem marcando a quantia que por conta do que lhe deve o Estado devia ser descontada; a que deu 
+                    causa <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> levar os documentos e não ficar 
+                    a dívida escriturada como devia, e até como eu mesmo estava persuadido tivesse acontecido.</p>
                 
-                <p>Desejando porém não causar o menor inconveniente aos credores do Estado, poderá <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> despachar a tropa que me consta está fazendo em qualquer <orgName>Coletoria</orgName>, dando a letra da importância dos direitos ao Coletor na forma estabelecida, e logo mandar seus documentos a esta a seu procurador, ao qual dirá o valor do despacho feito e em qual Coletoria, para este, juntando os documentos ditos, requerer que lhe seja encontrada a importância da dita letra, o que terá lugar, e pelo <orgName ref="#tesouro">Tesouro</orgName> se expedirá a ordem ao coletor.</p>
+                <p>Desejando porém não causar o menor inconveniente aos credores do Estado, poderá 
+                    <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> despachar a tropa que me consta está 
+                    fazendo em qualquer <orgName>Coletoria</orgName>, dando a letra da importância dos direitos ao Coletor 
+                    na forma estabelecida, e logo mandar seus documentos a esta a seu procurador, ao qual dirá o valor do 
+                    despacho feito e em qual Coletoria, para este, juntando os documentos ditos, requerer que lhe seja encontrada 
+                    a importância da dita letra, o que terá lugar, e pelo <orgName ref="#tesouro">Tesouro</orgName> se expedirá 
+                    a ordem ao coletor.</p>
                 
-                <p>Ora, para isto há muito tempo, porque nunca pode ser menos de 30 dias o prazo de sobredita letra, e assim fica efetuando o encontro que pretende <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
+                <p>Ora, para isto há muito tempo, porque nunca pode ser menos de 30 dias o prazo de sobredita letra, e assim fica 
+                    efetuando o encontro que pretende <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                 
                 <closer>
-                    <salute>Sou</salute>
+                    <salute>Seu</salute>
                     <signed>(a) Antônio Vicente da Fontoura.</signed>
                 </closer>
                 
                 <postscript>
                     <label><choice><abbr>P.S.</abbr><expan>Post scriptum</expan></choice></label>
-                    <p>É tão justa a exigência de <persName ref="#alexandre_silveira">Alexandre Silveira</persName> que se eu o pudesse de minha conta adiantaria seu embolso; porém para efetuá-lo cumpre também que <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> faça ver a esse senhor que é preciso mandar apresentar seus documentos e por um procurador exigir aqui seu embolso que, novamente lhe afianço, se fará dos primeiros dinheiros a entrarem, ou mesmo por despachos, na forma que já indiquei, de gêneros a exportar ou importar.</p>
+                    <p>É tão justa a exigência de <persName ref="#alexandre_silveira">Alexandre Silveira</persName> que se eu o 
+                        pudesse de minha conta adiantaria seu embolso; porém para efetuá-lo cumpre também que 
+                        <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> faça ver a esse senhor que é preciso 
+                        mandar apresentar seus documentos e por um procurador exigir aqui seu embolso que, novamente lhe afianço, 
+                        se fará dos primeiros dinheiros a entrarem, ou mesmo por despachos, na forma que já indiquei, de gêneros 
+                        a exportar ou importar.</p>
                 </postscript>
             </div>
         </body>

@@ -6,11 +6,20 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q136885232</idno>
             <note>Engenheiro e membro de diversas sociedades intelectuais. Era irmão de Fernando Abbott que foi presidente do Rio Grande do Sul em duas ocasiões.</note>
         </person>
-
+        
         <person xml:id="alfredo_varela">
-            <persName>Alfredo</persName>
+            <persName>Alfredo Varela</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q14474103</idno>
-            <note>Jornalista e memorialista gaúcho, ativo no fim do século XIX. Autor de "A Epopéia Farrapa".</note>
+            <state type="roleInTime" xml:id="alfredo_custodia_arquivo_dja">
+                <roleName>Custodiante do arquivo de Domingos José de Almeida</roleName>
+                <affiliation ref="#arquivo_dja"/>
+            </state>
+            <state type="roleInTime" xml:id="alfredo_doacao_colecao_1936">
+                <roleName>Doação da Coleção Varela ao Estado do Rio Grande do Sul</roleName>
+                <affiliation ref="#colecao_varela"/>
+                <date type="when" when="1936"/>
+            </state>
+            <note>Jornalista e memorialista gaúcho, autor de "A Epopéia Farrapa", responsável por organizar a Coleção Varela com base no arquivo de Domingos José de Almeida e documentos adicionais coletados no fim do século XIX.</note>
         </person>
 
         <person xml:id="coritiba">
@@ -54,15 +63,9 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q136892737</idno>
             <roleName>Comendador</roleName>
             <relation
-                xml:id="rel_bernardina_boaventura_parentesco"
-                name="kinship"
-                mutual="true"
-                active="#bernardina_barcelos"
-                passive="#boaventura_rodrigues_barcelos"
-                ref="https://www.wikidata.org/wiki/Q840795"
-                >
-                <desc>Relação de parentesco: Boaventura Rodrigues Barcelos era tio paterno de Bernardina Barcelos de Almeida.</desc>
-            </relation>
+                name="rel:uncleOf"
+                active="#boaventura_rodrigues_barcelos"
+                passive="#bernardina_barcelos_almeida"/>
             <note>Charqueador e comerciante de grosso, importante em Pelotas. Tio de Bernardina Rodrigues Almeida, legalista.</note>
         </person>
 
@@ -103,11 +106,6 @@
             <persName>José Ferreira Gomes Roque</persName>
             <note>Destinatário da carta, responsável pelo recibo solicitado.</note>
         </person>
-
-        <person xml:id="general_lima">
-            <persName>General Lima</persName>
-            <note>General legalista assassinado por Roque, segundo relato oral de veterano.</note>
-        </person> <!--coorrigir para id joao_manuel_lima_silva-->
         
         <person xml:id="general_lima">
             <persName>General Lima</persName>
@@ -121,13 +119,9 @@
             <roleName>Major de Infantaria</roleName>
             <roleName>General</roleName>
             <relation
-                name="family"
-                mutual="false"
+                name="rel:siblingOf"
                 active="#francisco_lima_silva"
-                passive="#joao_manuel_lima_silva"
-                ref="https://www.wikidata.org/wiki/Q31184">
-                <desc>Irmãos</desc>
-            </relation>
+                passive="#joao_manuel_lima_silva"/>
             <note>General farroupilha falecido em 1839, homenageado com exéquias oficiais em Caçapava.</note>
         </person>
         
@@ -135,11 +129,11 @@
             <persName>Maria Ângela Corte Real de Lima</persName>
             <note>Pessoa proprietária mencionada na carta, cujo patrimônio foi objeto de decisão administrativa.</note>
         </person>
-
+        
         <person xml:id="antonio_abreu">
             <persName>Antônio Francisco dos Santos Abreu</persName>
-            <idno></idno>
-            <note>Comerciante e fornecedor de gado, frequentemente em contato com o governo farroupilha.</note>
+            <idno type="project"></idno>
+            <note>Comerciante e fornecedor de gado, em contato frequente com o governo da República Rio-Grandense.</note>
         </person>
         
         <person xml:id="braga">
@@ -157,34 +151,53 @@
         
         <person xml:id="domingos_jose_almeida">
             <persName>Domingos José de Almeida</persName>
+            <birth when="1797-12-05"/>
+            <death when="1871-06-16"/>
             <idno type="viaf">https://viaf.org/en/viaf/13747991</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10268073</idno>
-            <roleName>Coronel Chefe de Legião</roleName>
-            <roleName>Ministro da Fazenda da República Rio-grandense</roleName>
-            <roleName>Ministro do Interior da República Rio-grandense</roleName>
-            <roleName>Ministro da Justiça da República Rio-grandense</roleName>
-            <roleName>Secretário República Rio-grandense</roleName>
-            <affiliation>Partido Liberal</affiliation>
+            <note type="roles">
+                Coronel Chefe de Legião;
+                Ministro da Fazenda da República Rio-Grandense;
+                Ministro do Interior da República Rio-Grandense;
+                Ministro da Justiça da República Rio-Grandense;
+                Secretário da República Rio-Grandense.
+            </note>
+            <state type="roleInTime" xml:id="dja_ministro_fazenda_1836_1841">
+                <roleName>Ministro da Fazenda</roleName>
+                <affiliation ref="#ministerio_fazenda"/>
+                <date type="begin" when="1836-09"/>
+                <date type="end" when="1841-09"/>
+            </state>
+            <state type="roleInTime" xml:id="dja_ministro_interior_1836_1841">
+                <roleName>Ministro do Interior</roleName>
+                <affiliation ref="#ministerio_interior"/>
+                <date type="begin" when="1836-09"/>
+                <date type="end" when="1841-09"/>
+            </state>
             <note>Ministro e Secretário de Estado da República Rio-Grandense, responsável pelos expedientes da Fazenda, do Interior e da Justiça, além da Secretaria da República.</note>
         </person>
         
         <person xml:id="dionisio_amaro">
             <persName>Dionísio Amaro</persName>
+            <idno type="project"></idno>
             <note>Provável emissário ou mensageiro entre Abreu e Almeida.</note>
         </person>
         
         <person xml:id="jose_sousa">
             <persName>José de Sousa</persName>
-            <note>Possível morador do distrito de São João Batista, envolvido em disputa de direitos com o europeu Costa.</note>
+            <idno type="project"></idno>
+            <note>Morador do distrito de São João Batista, envolvido em disputa de terras com João José da Costa.</note>
         </person>
         
         <person xml:id="joao_costa">
             <persName>João José da Costa</persName>
+            <idno type="project"></idno>
             <note>Europeu favorecido em disputa relatada por Abreu, em prejuízo de José de Sousa.</note>
         </person>
         
         <person xml:id="serafim_ribeiro">
             <persName>Serafim Ribeiro</persName>
+            <idno type="project"></idno>
             <note>Senhor mencionado na carta como em viagem com seu filho para tratar de assuntos pessoais.</note>
         </person>
         
@@ -193,28 +206,35 @@
             <persName>Antônio Paulo da Fontoura</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q9622579</idno>
             <relation
-                xml:id="rel_fontoura_irmaos"
-                name="sibling"
-                mutual="true"
+                name="rel:siblingOf"
                 active="#fontoura"
-                passive="#paulino_fontoura"
-                ref="https://www.wikidata.org/wiki/Q31184"
-                >
-                <desc>Relação de irmandade entre Antônio Vicente da Fontoura e seu irmão Paulino Fontoura, atestada historicamente e mencionada indiretamente na correspondência da Coleção Varela.</desc>
-            </relation>
+                passive="#paulino_fontoura"/>
             <roleName>Vice-presidente da República Rio-grandense.</roleName>
             <note>Irmão de Antônio vicente da Fontoura, foi morto no contexto da tensão política na Assembleia Constituinte da República em 13 de fevereiro de 1843.</note>
         </person>
         
         <person xml:id="fontoura">
             <persName>Antônio Vicente da Fontoura</persName>
+            <birth when="1807-06-16"/>
+            <death when="1860-10-20"/>
             <idno type="viaf">https://viaf.org/en/viaf/4964150325584210090000</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q4777674</idno>
-            <roleName>Chefe de polícia da comarca de Rio Pardo durante a República Rio-grandense.</roleName>
-            <roleName>Coletor-geral de impostos da República Rio-grandense</roleName>
-            <roleName>Chefe da missão diplomática da República Rio-Grandense</roleName>
-            <roleName>deputado à Assembleia Constituinte da República Rio-Grandense</roleName>
-            <note>Político e militar da Revolução Farroupilha, um dos líderes da chamada minoria. Negociou a paz de Ponche Verde, que reintegrou o Rio Grande do Sul ao Brasil. </note>
+            <note type="roles">
+                Chefe de polícia da comarca de Rio Pardo durante a República Rio-Grandense;
+                Coletor-geral de impostos da República Rio-Grandense;
+                Chefe da missão diplomática da República Rio-Grandense;
+                Deputado à Assembleia Constituinte da República Rio-Grandense.
+            </note>
+            <state type="roleInTime" xml:id="fontoura_ministro_fazenda_1841">
+                <roleName>Ministro da Fazenda</roleName>
+                <affiliation ref="#ministerio_fazenda"/>
+                <date type="begin" when="1841-09"/>
+                <date type="end" when="1845-03-01"/>
+            </state>
+            <note>
+                Político e militar da Revolução Farroupilha, um dos líderes da chamada minoria.
+                Negociou a paz de Ponche Verde, que reintegrou o Rio Grande do Sul ao Brasil.
+            </note>
         </person>
         
         <person xml:id="francisco_pedro_abreu">
@@ -253,7 +273,8 @@
         
         <person xml:id="alexandre_silveira">
             <persName>Alexandre Silveira</persName>
-            <note>Credor mencionado no post scriptum da carta, aguardando pagamento.</note>
+            <idno type="project"></idno>
+            <note>Credor mencionado na correspondência da Coleção Varela, aguardando pagamento do Tesouro.</note>
         </person>
         
         <person xml:id="bento_goncalves">
@@ -384,15 +405,9 @@
             <persName>José de Sousa Neto</persName>
             <idno></idno>
             <relation
-                xml:id="rel_jose_sousa_neto_pai_antonio_sousa_neto"
-                name="kinship"
-                mutual="false"
+                name="rel:parentOf"
                 active="#jose_sousa_neto"
-                passive="#antonio_sousa_neto"
-                ref="https://www.wikidata.org/wiki/Q7565"
-                >
-                <desc>Relação de parentesco: José de Sousa Neto é pai de Antônio de Sousa Neto.</desc>
-            </relation>
+                passive="#antonio_sousa_neto"/>
             <note>Responsável pela compra de cavalos para o exército farroupilha.</note>
         </person>
         
@@ -564,13 +579,9 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10285293</idno>
             <roleName>Vigário Apostólico da República</roleName>
             <relation
-                name="family"
-                mutual="false"
+                name="rel:siblingOf"
                 active="#padre_chagas"
-                passive="#martins"
-                ref="https://www.wikidata.org/wiki/Q31184"> 
-                <desc>Irmãos</desc>
-            </relation>
+                passive="#martins"/>
             <note>Sacerdote Católico, foi nomeado Vigário Apostólico da República. Foi o deputado mais votado da Assembléia Geral Legislativa da República Rio-grandense.</note>
         </person>
         
@@ -583,6 +594,14 @@
             <persName type="popular">Mingote</persName>
             <persName>Domingos Almeida Filho</persName>
             <idno></idno>
+            <relation
+                name="rel:childOf"
+                active="#mingote"
+                passive="#domingos_jose_almeida"/>
+            <relation
+                name="rel:childOf"
+                active="#mingote"
+                passive="#bernardina_barcelos_almeida"/>
             <note>Primogênito de Domingos José de Almeida e Bernardina. Faleceu ainda criança.</note>
         </person>
         
@@ -590,13 +609,13 @@
             <persName>Bernardino</persName>
             <idno></idno>
             <relation
-                xml:id="rel_bernardino_parents"
-                name="childOf"
+                name="rel:childOf"
                 active="#bernardino_almeida"
-                passive="#domingos_jose_almeida #bernardina_barcelos_almeida"
-                ref="https://www.wikidata.org/wiki/Q756">
-                <desc>Bernardino Almeida é filho de Domingos José de Almeida e Bernardina Barcelos de Almeida.</desc>
-            </relation>
+                passive="#domingos_jose_almeida"/>
+            <relation
+                name="rel:childOf"
+                active="#bernardino_almeida"
+                passive="#bernardina_barcelos_almeida"/>
             <note>Filho de Domingos José de Almeida.</note>
         </person>
         
@@ -604,13 +623,13 @@
             <persName>D. Custódia</persName>
             <idno></idno>
             <relation
-                xml:id="rel_custodia_parents"
-                name="childOf"
+                name="rel:childOf"
                 active="#custodia_almeida"
-                passive="#domingos_jose_almeida #bernardina_barcelos_almeida"
-                ref="https://www.wikidata.org/wiki/Q756">
-                <desc>Custódia Almeida é filha de Domingos José de Almeida e Bernardina Barcelos de Almeida.</desc>
-            </relation>
+                passive="#domingos_jose_almeida"/>
+            <relation
+                name="rel:childOf"
+                active="#custodia_almeida"
+                passive="#bernardina_barcelos_almeida"/>
             <note>Filha de Domingos José de Almeida</note>
         </person>
         
@@ -618,13 +637,13 @@
             <persName>Pelópidas Almeida</persName>
             <idno></idno>
             <relation
-                xml:id="rel_pelopidas_parents"
-                name="childOf"
+                name="rel:childOf"
                 active="#pelopidas_almeida"
-                passive="#domingos_jose_almeida #bernardina_barcelos_almeida"
-                ref="https://www.wikidata.org/wiki/Q756">
-                <desc>Pelópidas Almeida é filho de Domingos José de Almeida e Bernardina Barcelos de Almeida.</desc>
-            </relation>
+                passive="#domingos_jose_almeida"/>
+            <relation
+                name="rel:childOf"
+                active="#pelopidas_almeida"
+                passive="#bernardina_barcelos_almeida"/>
             <note>Filho de Domingos José de Almeida e Bernardina.</note>
         </person>
         
@@ -632,28 +651,24 @@
             <persName>Bruto</persName>
             <idno></idno>
             <relation
-                xml:id="rel_bruto_parents"
-                name="childOf"
+                name="rel:childOf"
                 active="#bruto_almeida"
-                passive="#domingos_jose_almeida #bernardina_barcelos_almeida"
-                ref="https://www.wikidata.org/wiki/Q756">
-                <desc>Bruto Almeida é filho de Domingos José de Almeida e Bernardina Barcelos de Almeida.</desc>
-            </relation>
+                passive="#domingos_jose_almeida"/>
+            <relation
+                name="rel:childOf"
+                active="#bruto_almeida"
+                passive="#bernardina_barcelos_almeida"/>
             <note>Filho de Domingos José de Almeida.</note>
         </person>
         
         <person xml:id="abrilina_almeida">
-            <persName>Abrilina</persName>
+            <persName>Abrilina Barcelos de Almeida</persName>
             <idno></idno>
-            <relation
-                xml:id="rel_abrilina_parents"
-                name="childOf"
-                active="#abrilina_almeida"
-                passive="#domingos_jose_almeida #bernardina_barcelos_almeida"
-                ref="https://www.wikidata.org/wiki/Q756">
-                <desc>Abrilina Almeida é filha de Domingos José de Almeida e Bernardina Barcelos de Almeida.</desc>
-            </relation>
-            <note>Filha do casal Bernardina e Domingos José de Almeida.</note>
+            <state type="roleInTime" xml:id="abrilina_transfere_arquivo_dja">
+                <roleName>Transferência de custódia do arquivo familiar</roleName>
+                <affiliation ref="#arquivo_dja"/>
+            </state>
+            <note>Filha de Domingos José de Almeida e Bernardina Barcelos de Almeida. Responsável pela transferência da custódia do arquivo familiar para Alfredo Varela, que o utilizou na constituição da Coleção Varela.</note>
         </person>
         
         <person xml:id="capitao_miguel">
@@ -672,7 +687,10 @@
             <roleName>Ministro da Justiça do Império do Brasil</roleName>
             <roleName>Ministro dos Negócios do Império do Brasil</roleName>
             <roleName>Administrador do Rio de Janeiro</roleName>
-            <affiliation>Partido Liberal</affiliation>
+            <relation
+                name="schema:member"
+                active="#feijo"
+                passive="#partido_liberal"/>
             <note>Regente do Império, fundador do Partido Liberal.</note>
         </person>
         
@@ -743,6 +761,10 @@
         <person xml:id="bernardina_barcelos_almeida">
             <persName>Bernardina Barcelos de Almeida</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q136892558</idno>
+            <relation
+                name="rel:spouseOf"
+                active="#domingos_jose_almeida"
+                passive="#bernardina_barcelos_almeida"/>
             <note>Esposa de Domingos José de Almeida.</note>
         </person>
         
@@ -772,15 +794,9 @@
             <persName>João da Cunha</persName>
             <idno></idno>
             <relation
-                xml:id="rel_domingos_cunha_confianca"
-                name="business_trust"
-                mutual="false"
-                active="#domingos_jose_almeida"
-                passive="#joao_da_cunha"
-                ref="https://www.wikidata.org/wiki/Q28499442"
-                >
-                <desc>Relação de confiança: João da Cunha atuava como homem de confiança e agente encarregado de tratar negócios domésticos e de propriedade para Domingos José de Almeida, conforme atestado em diversas cartas da Coleção Varela.</desc>
-            </relation>
+                name="prov:actedOnBehalfOf"
+                active="#joao_da_cunha"
+                passive="#domingos_jose_almeida"/>
             <note>Homem de confiança de Domingos José de Almeida.</note>
         </person>
         
@@ -1059,29 +1075,17 @@
         <person xml:id="inacio_guimaraes">
             <persName>Inácio José de Oliveira Guimarães</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10303358</idno>
-            <roleName>Chefe de Polícia do Departamento do Boqueirão</roleName>
-            <relation
-                name="family"
-                mutual="false"
-                active="#inacio_guimaraes"
-                passive="#bento_goncalves"
-                ref="https://www.wikidata.org/wiki/Q51117200"> 
-                <desc>Genro de Bento Gonçalves.</desc>
-            </relation>
-            <note>Chefe de Polícia do Departamento do Boqueirão (São Lourenço).</note>
+            <note type="roles">Chefe de Polícia do Departamento do Boqueirão.</note>
+            <note>Autoridade policial atuante na região do Boqueirão (São Lourenço) durante a República Rio-Grandense.</note>
         </person>
         
         <person xml:id="ana_joaquina_santos">
             <persName>D. Ana Joaquina da Silva Santos</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#ID_da_pessoa"/>
             <note>Remetente de resposta administrativa encaminhada ao governo. Participou da subscrição de Boqueirão em apoio aos farroupilhas.</note>
         </person>
         
@@ -1121,15 +1125,9 @@
             <roleName>Vice-presidente da República Rio-grandense</roleName>
             <roleName>Ministro da Guerra do Império (1864).</roleName>
             <relation
-                xml:id="rel_domingos_matos_amizade"
-                name="friendship"
-                mutual="true"
+                name="foaf:knows"
                 active="#domingos_jose_almeida"
-                passive="#jose_mariano_matos"
-                ref="https://www.wikidata.org/wiki/Q491"
-                >
-                <desc>Relação de amizade atestada em correspondência da Coleção Varela.</desc>
-            </relation>
+                passive="#jose_mariano_matos"/>
             <note>Político farroupilha, vice-presidente mais votado da República Rio-Grandense, que assumiu interinamente a administração civil em 1839. Autor do brasão que foi adotado para o Rio Grande do Sul pelos constituintes de 1891. </note>
         </person>
         
@@ -1137,15 +1135,9 @@
             <persName>Bernardino Rodrigues Barcelos Filho</persName>
             <idno></idno>
             <relation
-                xml:id="rel_bernardina_bernardino_irmaos"
-                name="kinship"
-                mutual="true"
-                active="#bernardina_barcelos"
-                passive="#bernardino_rodrigues_barcelo_filho"
-                ref="https://www.wikidata.org/wiki/Q840795"
-                >
-                <desc>Relação de parentesco: Bernardina Barcelos de Almeida e Bernardino Rodrigues Barcelos filho eram irmãos, conforme mencionado na correspondência da Coleção Varela.</desc>
-            </relation>
+                name="rel:siblingOf"
+                active="#bernardina_barcelos_almeida"
+                passive="#bernardino_rodrigues_barcelo_filho"/>
             <note>Irmão de Bernardina Rodrigues Barcelos. É homonimo de seu pai.</note>
         </person>
         
@@ -1153,15 +1145,9 @@
             <persName>Bernardino Rodrigues Barcelos</persName>
             <idno></idno>
             <relation
-                xml:id="rel_bernardina_pai_bernardino"
-                name="kinship"
-                mutual="false"
+                name="rel:parentOf"
                 active="#bernardino_rodrigues_barcelos_pai"
-                passive="#bernardina_barcelos_de_almeida"
-                ref="https://www.wikidata.org/wiki/Q7565"
-                >
-                <desc>Relação de parentesco: Bernardino Rodrigues Barcelos é pai de Bernardina Barcelos de Almeida.</desc>
-            </relation>
+                passive="#bernardina_barcelos_almeida"/>
             <note>Pai de Bernardina Barcelos de Almeida. Tem filho homônimo.</note>
         </person>
         
@@ -1169,15 +1155,9 @@
             <persName>Joaquim Rodrigues Barcelos</persName>
             <idno></idno>
             <relation
-                xml:id="rel_bernardina_joaquim_irmaos"
-                name="kinship"
-                mutual="true"
-                active="#bernardina_barcelos"
-                passive="#joaquim_barcelos"
-                ref="https://www.wikidata.org/wiki/Q840795"
-                >
-                <desc>Relação de parentesco: Bernardina Barcelos de Almeida e Joaquim Rodrigues Barcelos eram irmãos, conforme mencionado na correspondência da Coleção Varela.</desc>
-            </relation>
+                name="rel:siblingOf"
+                active="#bernardina_barcelos_almeida"
+                passive="#joaquim_barcelos"/>
             <note>Irmão de Bernardina.</note>
         </person>
 
@@ -1185,15 +1165,9 @@
             <persName>João Rodrigues Barcelos</persName>
             <idno></idno>
             <relation
-                xml:id="rel_bernardina_joao_irmaos"
-                name="kinship"
-                mutual="true"
-                active="#bernardina_barcelos"
-                passive="#joao_barcelos"
-                ref="https://www.wikidata.org/wiki/Q840795"
-                >
-                <desc>Relação de parentesco: Bernardina Barcelos de Almeida e João Rodrigues Barcelos eram irmãos, conforme mencionado na correspondência da Coleção Varela.</desc>
-            </relation>
+                name="rel:siblingOf"
+                active="#bernardina_barcelos_almeida"
+                passive="#joao_barcelos"/>
             <note>Irmão de Bernardina.</note>
         </person>
         
@@ -1712,14 +1686,6 @@
         <person xml:id="manuel_antunes_porciuncula">
             <persName>Manuel Antunes da Porciúncula</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q136892590</idno>
-            <relation
-                name="family"
-                mutual="false"
-                active="#manuel_antunes_porciuncula"
-                passive="#bento_goncalves"
-                ref="https://www.wikidata.org/wiki/Q16658574"> 
-                <desc>Cunhados</desc>
-            </relation>
             <roleName>Capitão dos Guardas Nacionais</roleName>
             <note>Capitão farroupilha e cunhado de Bento Gonçalves.</note>
         </person>
@@ -1727,15 +1693,6 @@
         <person xml:id="antonio_antunes_porciuncula">
             <persName>Antônio Antunes de Porciúncula</persName>
             <idno></idno>
-            <relation
-                xml:id="rel_domingos_poricuncula_amizade"
-                name="friendship"
-                mutual="true"
-                active="#domingos_jose_almeida"
-                passive="#antonio_antunes_porciuncula"
-                ref="https://www.wikidata.org/wiki/Q491"
-                >
-            </relation>
             <role>Capitão Commandante Interino da Fronteira e Linha de São Gonçalo</role>
             <roleName>Capitão Ajudante de Ordens do Commando Interino das Armas</roleName>
             <note>Amigo de Almeida citado em sua proclamaçao de 1835.</note>
@@ -2072,20 +2029,19 @@
             <idno type="viaf">https://viaf.org/en/viaf/30827526</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q16491671</idno>
             <relation
-                xml:id="rel_domingos_matos_amizade"
-                name="friendship"
-                mutual="true"
+                name="foaf:knows"
                 active="#domingos_jose_almeida"
-                passive="#antonio_jose_goncalves_chaves"
-                ref="https://www.wikidata.org/wiki/Q491"
-                >
-            </relation>
+                passive="#antonio_jose_goncalves_chaves"/>
             <note>Sócio de Almeida e autor das Meórias Economo políticas. Morre em 1837. Tem um filho homônimo.</note>
         </person>
         
         <person xml:id="antonio_jose_goncalves_chaves_filho">
             <persName>Antônio José Gonçalves Chaves</persName>
             <persName type="role">Dr.</persName>
+            <relation
+                name="rel:childOf"
+                active="#antonio_jose_goncalves_chaves_filho"
+                passive="#antonio_jose_goncalves_chaves"/>
             <note>Filho do homônimo acima; referido como responsável por ajustes contábeis da herança ou bens paternos.</note>
         </person>
         
@@ -2098,13 +2054,9 @@
             <persName>Baltasar José Rodrigues Soares Filho</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#ID_da_pessoa"/>
             <roleName>Sargento</roleName>
             <note>Sargento citado como portador do empréstimo solicitado por Almeida. Também fez parte da subscrição de São Lourenço para dar suporte aos farroupilhas.</note>
         </person>
@@ -2786,8 +2738,6 @@
             <note>Indivíduo encarregado de acompanhar Bernardina; identificação incompleta.</note>
         </person>
         
-        
-        
         <person xml:id="benito_gontan">
             <persName>Benito Gontan</persName>
             <note>Mencionado como responsável por fornecer baeta mediante recibo.</note>
@@ -3058,7 +3008,6 @@
             <persName>Bibiano</persName>
             <note>Indivíduo relacionado à estância mencionada, provavelmente proprietário ou responsável.</note>
         </person>
-
         
         <person xml:id="luis_machado_teixeira">
             <persName>Luís Machado Teixeira</persName>
@@ -3377,8 +3326,6 @@
             <persName type="role">Guarda Nacional</persName>
         </person>
         
-
-        
         <person xml:id="manuel_pacheco">
             <persName>Manuel Pacheco</persName>
         </person>
@@ -3431,13 +3378,9 @@
             <persName>David Silveira Duarte</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#ID_da_pessoa"/>
             <note>Envolvido em tentativa de reescravização de libertos. Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
         
@@ -3455,15 +3398,9 @@
             <persName>Cipriano Rodrigues Barcelos</persName>
             <idno></idno>
             <relation
-                xml:id="rel_bernardina_cipriano_parentesco"
-                name="kinship"
-                mutual="true"
-                active="#bernardina_barcelos"
-                passive="#cipriano_rodrigues_barcelos"
-                ref="https://www.wikidata.org/wiki/Q840795"
-                >
-                <desc>Relação de parentesco: Cirpriano Rodrigues Barcelos era tio paterno de Bernardina Barcelos de Almeida.</desc>
-            </relation>
+                name="rel:uncleOf"
+                active="#cipriano_joaquim_rodrigues_barcelos"
+                passive="#bernardina_barcelos_almeida"/>
             <roleName>Comendador</roleName>
             <note>Tio de Bernardina Barcelos de Almeida. Tinha charqueada muito próxima a de Domingos José de Almeida. Também era comerciante de gado e escravos.</note>
         </person>
@@ -3472,23 +3409,13 @@
             <persName>Cipriano Joaquim Rodrigues Barcelos</persName>
             <idno></idno>
             <relation
-                xml:id="rel_bernardina_cipriano_primos"
-                name="kinship"
-                mutual="true"
-                active="#bernardina_barcelos_de_almeida"
-                passive="#cipriano_joaquim_rodrigues_barcelos"
-                ref="https://www.wikidata.org/wiki/Q840795">
-                <desc>Relação de parentesco: Cipriano Joaquim Rodrigues Barcelos era primo de Bernardina Barcelos de Almeida.</desc>
-            </relation>
+                name="rel:relativeOf"
+                active="#bernardina_barcelos_almeida"
+                passive="#cipriano_joaquim_rodrigues_barcelos"/>
             <relation
-                xml:id="rel_joaquim_cipriano_parent_child"
-                name="kinship"
-                mutual="false"
+                name="rel:parentOf"
                 active="#joaquim_rodrigues_barcelos"
-                passive="#cipriano_joaquim_rodrigues_barcelos"
-                ref="https://www.wikidata.org/wiki/Q840795">
-                <desc>Relação de parentesco: Joaquim Rodrigues Barcelos era pai de Cipriano Joaquim Rodrigues Barcelos.</desc>
-            </relation>
+                passive="#cipriano_joaquim_rodrigues_barcelos"/>
             <note>Primo de Bernardina Barcelos de Almeida; filho de Joaquim Rodrigues Barcelos. Figura ativa na administração doméstica e rural durante as ausências de Domingos José de Almeida, frequentemente citado nas cartas da Coleção Varela.</note>
         </person>
         
@@ -3496,15 +3423,9 @@
             <persName>Luís Rodrigues Barcelos</persName>
             <idno></idno>
             <relation
-                xml:id="rel_bernardina_luis_parentesco"
-                name="kinship"
-                mutual="true"
-                active="#bernardina_barcelos"
-                passive="#luis_rodrigues_barcelos"
-                ref="https://www.wikidata.org/wiki/Q840795"
-                >
-                <desc>Relação de parentesco: Luís Rodrigues Barcelos era tio paterno de Bernardina Barcelos de Almeida.</desc>
-            </relation>
+                name="rel:relativeOf"
+                active="#bernardina_barcelos_almeida"
+                passive="#luis_rodrigues_barcelos"/>
             <note>Tio de Bernardina Barcelos de Almeida. Residia em Bagé.</note>
         </person>
         
@@ -3512,15 +3433,9 @@
             <persName>Francisco Rodrigues Barcelos</persName>
             <idno></idno>
             <relation
-                xml:id="rel_bernardina_francisco_parentesco"
-                name="kinship"
-                mutual="true"
-                active="#bernardina_barcelos"
-                passive="#francisco_rodrigues_barcelos"
-                ref="https://www.wikidata.org/wiki/Q840795"
-                >
-                <desc>Relação de parentesco: Francisco Rodrigues Barcelos era tio paterno de Bernardina Barcelos de Almeida.</desc>
-            </relation>
+                name="rel:relativeOf"
+                active="#bernardina_barcelos_almeida"
+                passive="#francisco_rodrigues_barcelos"/>
             <note>Tio de Bernardina Barcelos de Almeida, residente na região de Viamão.</note>
         </person>
         
@@ -3544,7 +3459,6 @@
             <persName>José da Rosa Neves</persName>
             <note>Destinatário da carta; identificado como amigo e pessoa de confiança do autor.</note>
         </person>
-        
         
         <person xml:id="boaventura_teixeira_barcelos">
             <persName>Boaventura Teixeira Barcelos</persName>
@@ -3652,7 +3566,6 @@
             <note>Proprietário do sítio onde foi tomada uma peça de bronze com seus reparos.</note>
         </person>
         
-        
         <person xml:id="sebastiao_afonso_silva">
             <persName>Sebastião Afonso da Silva</persName>
             <note>Portador da carta e designado como bombeiro para observação do inimigo.</note>
@@ -3668,7 +3581,6 @@
             <note>Destinatário da carta, identificado como Marechal-de-campo, Presidente da Província e Comandante das Armas.</note>
         </person>
         
-        
         <person xml:id="tomas_jose_silva">
             <persName>Tomás José da Silva</persName>
             <note>Destinatário da carta, identificado como Brigadeiro e Comandante da Guarnição da capital.</note>
@@ -3678,7 +3590,6 @@
             <persName>José Cesário de Abreu</persName>
             <note>Capitão identificado como encarregado do expediente e responsável pela autenticação da cópia.</note>
         </person>
-        
         
         <person xml:id="tomas_jose_silva">
             <persName>Tomás José da Silva</persName>
@@ -4090,7 +4001,6 @@
             <idno></idno>
             <note>Português caixeiro preso com José Manuel da Silveira. Negociante mencionado no contexto de fornecimento de gêneros para o exército.</note>
         </person>
-
         
         <person xml:id="juca_jacinto">
             <persName>Juca Jacinto</persName>
@@ -4793,13 +4703,9 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q5658905</idno>
             <roleName>Coronel</roleName>
             <relation
-                name="family"
-                mutual="false"
+                name="rel:siblingOf"
                 active="#pedro_vieira"
-                passive="#felix_vieira"
-                ref="https://www.wikidata.org/wiki/Q31184"> 
-                <desc>Irmãos</desc>
-            </relation>
+                passive="#felix_vieira"/>
             <note>Coronel farroupilha, possivelmente irmão de Félix Vieira.</note>
         </person>
         
@@ -4864,13 +4770,9 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10340741</idno>
             <note>Foi eleito deputado provincial, junto com seu irmão padre Fidêncio José Ortiz, para a 1ª Legislatura da Assembleia Legislativa Provincial do Rio Grande do Sul. Ao rebentar a Revolução Farroupilha era comandante da guarnição de São Gabriel, serviu à principio com as forças do governo, porém aderiu depois ao movimento revolucionário, até o dia em que Bento Manoel Ribeiro, foi incorporar-se às tropas do governo. </note>
             <relation
-                xml:id="rel_oliverio_bento_manoel"
+                name="hrao:followedPoliticalAlignmentOf"
                 active="#oliverio_ortiz"
-                passive="#bento_manoel"
-                name="seguia_lealdades_de"
-                ref="https://www.wikidata.org/wiki/Q2119376">
-                <desc>Olivério José Ortiz seguiu Bento Manoel em suas mudanças de lealdade durante a Revolução Farroupilha.</desc>
-            </relation>    
+                passive="#bento_manoel"/>
         </person>
         
         <person xml:id="hildebrando_freitas_pedroso">
@@ -4965,15 +4867,9 @@
             <persName>José</persName>
             <idno></idno>
             <relation
-                xml:id="rel_bernardina_jose_parentesco"
-                name="kinship"
-                mutual="true"
-                active="#bernardina_barcelos"
-                passive="#jose_rodrigues_barcelos"
-                ref="https://www.wikidata.org/wiki/Q840795"
-                >
-                <desc>Relação de parentesco: José Rodrigues Barcelos era tio paterno de Bernardina Barcelos de Almeida.</desc>
-            </relation>
+                name="rel:uncleOf"
+                active="#jose_rodrigues_barcelos"
+                passive="#bernardina_barcelos_almeida"/>
             <roleName>Comendador</roleName>
             <roleName>Capitão do Exército Imperial</roleName>
             <roleName>provedor da Santa Casa de Misericórdia de Pelotas</roleName>
@@ -5431,15 +5327,9 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q136955549</idno>
             <roleName>1.ª Primeira-Dama da República Rio-Grandense</roleName>
             <relation
-                xml:id="rel_bento_caetana_conjuge"
-                name="spouse"
-                mutual="true"
+                name="rel:spouseOf"
                 active="#bento_goncalves"
-                passive="#d_caetana"
-                ref="https://www.wikidata.org/wiki/Property:P26"
-                >
-                <desc>Relação conjugal: D. Caetana era esposa de Bento Gonçalves da Silva.</desc>
-            </relation>
+                passive="#d_caetana"/>
             <note>Foi a esposa de Bento Gonçalves da Silva.</note>
         </person>
         
@@ -5559,13 +5449,9 @@
             <persName>João Nunes da Silva</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#joao_nunes_silva"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
         
@@ -5573,13 +5459,9 @@
             <persName>Joaquim Antunes Fagundes</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#joaquim_antunes_fagundes"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
         
@@ -5587,13 +5469,9 @@
             <persName>Aleixo Gonçalves Moreira</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#aleixo_goncalves_moreira"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5601,13 +5479,9 @@
             <persName>Jerônimo Ribeiro da Silva</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#jeronimo_ribeiro_silva"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
         
@@ -5615,13 +5489,9 @@
             <persName>João Manuel Fernandes</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#joao_manuel_fernandes"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5629,13 +5499,9 @@
             <persName>Américo Pereira da Silva</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#americo_pereira_silva"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5643,13 +5509,9 @@
             <persName>João Pereira da Silva</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#joao_pereira_silva"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5657,13 +5519,9 @@
             <persName>Simão José da Silva</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#simao_jose_silva"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5671,13 +5529,9 @@
             <persName>José Bernardes Rodrigues Martins</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#jose_bernardes_rodrigues_martins"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5685,13 +5539,9 @@
             <persName>Antônio José do Vale</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#antonio_jose_vale"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5699,13 +5549,9 @@
             <persName>João Batista Barbosa</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#joao_batista_barbosa"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5713,13 +5559,9 @@
             <persName>Luís Pimenta de Sampaio</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#luis_pimenta_sampaio"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5727,13 +5569,9 @@
             <persName>Antônio Manuel Rodrigues de Carvalho</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#antonio_manuel_rodrigues_carvalho"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5741,13 +5579,9 @@
             <persName>Tomás Cardoso Osório</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#tomas_cardoso_osorio"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5755,22 +5589,13 @@
             <persName>Baltasar José Rodrigues Soares</persName>
             <idno></idno>
             <relation
-                xml:id="rel_baltasar_soares_pai_filho"
-                name="kinship"
-                mutual="false"
+                name="rel:parentOf"
                 active="#baltasar_jose_rodrigues_soares"
-                passive="#baltasar_jose_rodrigues_soares_filho"
-                ref="https://www.wikidata.org/wiki/Q840795">
-                <desc>Relação de parentesco: Baltasar José Rodrigues Soares era pai de Baltasar José Rodrigues Soares Filho.</desc>
-            </relation>
+                passive="#baltasar_jose_rodrigues_soares_filho"/>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#baltasar_jose_rodrigues_soares"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
         
@@ -5778,13 +5603,9 @@
             <persName>Francisco José de Vargas</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#francisco_jose_vargas"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5792,13 +5613,9 @@
             <persName>João Batista Vitor</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#joao_batista_vitor"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5806,13 +5623,9 @@
             <persName>Albertino Lopes Soares</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#albertino_lopes_soares"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5820,13 +5633,9 @@
             <persName>Antônio Cardoso Osório</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#ntonio_cardoso_osorio"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5834,13 +5643,9 @@
             <persName>Antônio Francisco Pinto de Oliveira</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#antonio_francisco_pinto_oliveira"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5848,13 +5653,9 @@
             <persName>Francisco José de Araújo</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#francisco_jose_araujo"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5862,13 +5663,9 @@
             <persName>Francisco Tomás da Cunha</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#francisco_tomas_cunha"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5876,13 +5673,9 @@
             <persName>Francisco Vilela Moreira</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#francisco_vilela_moreira"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5890,13 +5683,9 @@
             <persName>Manoel Martins Porto</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#manoel_martins_porto"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5904,13 +5693,9 @@
             <persName>Melchior Cardoso Osório</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#melchior_cardoso_osorio"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5918,13 +5703,9 @@
             <persName>Manuel Rodrigues Mendes</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="manuel_rodrigues_mendes"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5932,13 +5713,9 @@
             <persName>Felício Soares da Silva</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#felicio_soares_silva"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5946,13 +5723,9 @@
             <persName>Bernardino Soares da Silva</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#bernardino_soares_silva"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5960,13 +5733,9 @@
             <persName>Guiomar Maria Soares</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#guiomar_maria_soares"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5974,13 +5743,9 @@
             <persName>Manoel Soares da Silva</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#manoel_soares_silva"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 
@@ -5988,13 +5753,9 @@
             <persName>Inácio José de Mendonça</persName>
             <idno></idno>
             <relation
-                name="financialContribution"
-                mutual="false"
-                active="#ID_da_pessoa"
-                passive="#subs_boqueirao_1837"
-                ref="https://www.wikidata.org/wiki/Q2334699">
-                <desc>Contribuição financeira para a subscrição do Boqueirão.</desc>
-            </relation>
+                name="prov:wasAssociatedWith"
+                active="#subs_boqueirao_1837"
+                passive="#inacio_jose_mendonca"/>
             <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
         </person>
 

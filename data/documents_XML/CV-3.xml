@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -65,6 +65,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -80,6 +81,12 @@
         </encodingDesc>
 
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName>
@@ -115,9 +122,17 @@
                         <placeName ref="#sao_lourenco">São Lourenço</placeName>, <date when="1841-11-13">13 de novembro de 1841</date>
                     </dateline>
                 </opener>
-                <p>Verá <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> o resultado do seu despacho, eu sinto sobremaneira que as ordens superiores não sejam religiosamente respeitadas, muito principalmente por autoridades inferiores, que deveriam ser essas as primeiras a darem o exemplo, e assim provarem as capacidades que temos para possuirmos o governo que felizmente procuramos estabelecer.</p>
-                <p>O requerimento é inexato, e como diz o próprio agressor que para uma força, outra força, e será isto requisição amigável? Bastante sinto que esse infeliz Juiz de Paz do distrito de <placeName ref="#sao_joao_batista">São João Batista</placeName> não se alargasse, com o temor de ofender a alguns que se empenham em tirar o direito desse pobre <persName ref="#jose_sousa">José de Sousa</persName>, e dar ao europeu <persName ref="#joao_costa">João José da Costa</persName>.</p>
-                <p>Enfim, meu amigo, estou certo <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> não se renderá com as relações de nossa amizade, e sim com os deveres de Ministro, e muito principalmente com os de justiça, privando-me assim de me deixar possuir de medonhas futuras ideias.</p>
+                <p>Verá <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> o resultado do seu despacho, eu sinto sobremaneira
+                    que as ordens superiores não sejam religiosamente respeitadas, muito principalmente por autoridades inferiores, que 
+                    deveriam ser essas as primeiras a darem o exemplo, e assim provarem as capacidades que temos para possuirmos o governo 
+                    que felizmente procuramos estabelecer.</p>
+                <p>O requerimento é inexato, e como diz o próprio agressor que para uma força, outra força, e será isto requisição amigável? 
+                    Bastante sinto que esse infeliz Juiz de Paz do distrito de <placeName ref="#sao_joao_batista">São João Batista</placeName> 
+                    não se alargasse, com o temor de ofender a alguns que se empenham em tirar o direito desse pobre 
+                    <persName ref="#jose_sousa">José de Sousa</persName>, e dar ao europeu <persName ref="#joao_costa">João José da Costa</persName>.</p>
+                <p>Enfim, meu amigo, estou certo <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> não se renderá com as relações 
+                    de nossa amizade, e sim com os deveres de Ministro, e muito principalmente com os de justiça, privando-me assim de me deixar 
+                    possuir de medonhas futuras ideias.</p>
                 <closer>
                     <salute>Sempre o mesmo<br/>Seu grato e antigo amigo</salute>
                     <signed>

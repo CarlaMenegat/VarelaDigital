@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <standOff xmlns="http://www.tei-c.org/ns/1.0">
     <listOrg>
+        <org xml:id="colecao_varela" type="archiveCollection">
+            <orgName>Coleção Varela</orgName>
+            <note>Conjunto documental reunido por Alfredo Varela a partir do arquivo pessoal de Domingos José de Almeida e de adições posteriores. Publicado nos Anais do Arquivo Histórico do Rio Grande do Sul.</note>
+        </org>
+        
+        <org xml:id="arquivo_dja" type="personalArchive">
+            <orgName>Arquivo pessoal de Domingos José de Almeida</orgName>
+            <orgName type="alt">Coleção Abrilina</orgName>
+            <note>Fundo documental original da família Almeida, posteriormente transferido por Abrilina Almeida e utilizado por Alfredo Varela na formação da Coleção Varela.</note>
+        </org>
+        
+        <org xml:id="estado_rs" type="government">
+            <orgName>Estado do Rio Grande do Sul</orgName>
+            <state type="roleInTime" xml:id="estado_recebe_colecao_1936">
+                <roleName>Recepção e incorporação da Coleção Varela</roleName>
+                <affiliation ref="#colecao_varela"/>
+                <date type="when" when="1936"/>
+            </state>
+        </org>
+        
+        <org xml:id="museu_julio_castilhos" type="museum">
+            <orgName>Museu Júlio de Castilhos</orgName>
+            <state type="roleInTime" xml:id="estado_deposita_no_museu">
+                <roleName>Depósito institucional da Coleção Varela</roleName>
+                <affiliation ref="#colecao_varela"/>
+            </state>
+        </org>
+        
+        <org xml:id="arquivo_hrs" type="archive">
+            <orgName>Arquivo Histórico do Rio Grande do Sul</orgName>
+            <state type="roleInTime" xml:id="estado_transfere_para_ahrs_1954">
+                <roleName>Transferência da Coleção Varela ao Arquivo Histórico do Rio Grande do Sul</roleName>
+                <affiliation ref="#colecao_varela"/>
+                <date type="when" when="1954"/>
+            </state>
+            <note>Instituição criada em 1954 pelo governo estadual para custodiar e organizar documentos históricos originalmente depositados no Museu Júlio de Castilhos.</note>
+        </org>
+
         <org xml:id="republica_rio_grandense">
             <orgName>República Rio-Grandense</orgName>
             <note>Entidade política proclamada durante a Guerra dos Farrapos (1836–1845).</note>
@@ -92,11 +130,14 @@
         <org xml:id="ministerio_fazenda">
             <orgName>Ministério da Fazenda</orgName>
             <note>Estrutura governamental superior à Secretaria da Fazenda.</note>
+            <note xml:id="ministro_fazenda">
+                Ministro da Fazenda
+            </note>
         </org>
         
         <org xml:id="departamento_boqueirao">
             <orgName>Departamento do Boqueirão</orgName>
-            <note>Divisão administrativa sob a chefia de Inácio José de Oliveira Guimarães.</note>
+            <note>Divisão de chefia de polícia sob a chefia de Inácio José de Oliveira Guimarães.</note>
         </org>
 
         <org xml:id="presidencia_estado">
@@ -431,6 +472,11 @@
         <org xml:id="camara_sao_jose_norte">
             <orgName>Câmara da vila do Norte</orgName>
             <note>Câmara Municipal de São José do Norte.</note>
+        </org>
+        
+        <org xml:id="partido_liberal">
+            <orgName>Partido Liberal</orgName>
+            <note>Partido político brasileiro do século XIX, ao qual pertenceram Feijó e Domingos José de Almeida.</note>
         </org>
     </listOrg>
 </standOff>
