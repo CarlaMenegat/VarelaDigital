@@ -91,7 +91,6 @@
                 <correspAction type="sent">
                     <persName ref="#antonio_abreu">Antônio José de Abreu</persName>
                 </correspAction>
-                
                 <correspAction type="received">
                     <persName>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Juiz de Direito interino</persName>
                 </correspAction>
@@ -104,7 +103,7 @@
                     Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
                 </item>
                 <item>
-                    <date when="2025-10-25">26/11/2025</date>
+                    <date when="2025-10-26">26/11/2025</date>
                     Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>

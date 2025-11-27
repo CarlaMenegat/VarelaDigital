@@ -482,6 +482,259 @@
             active="#antonio_belarmino_ribeiro"
             passive="#antonio_abreu"/>
         
+        <relation
+            name="hrao:appointedProxyOf"
+            active="#antonio_abreu"
+            passive="#mateus"/>
+        
+        <relation
+            name="prov:wasAttributedTo"
+            active="#estate_jose_augusto_ledek"
+            passive="#tesouro"/>
+        
+        <relation
+            name="schema:contributedTo"
+            active="#fayete"
+            passive="#tesouro"/>
+        
+        <relation
+            name="schema:contributedTo"
+            active="#shemit"
+            passive="#tesouro"/>
+        
+        <relation
+            name="hrao:requestedPoliticalFavorFor"
+            active="#antonio_abreu"
+            passive="#guilherme_schnepf"/>
+        
+        <relation
+            name="hrao:deliveredMessageTo"
+            active="#barbosa"
+            passive="#antonio_sousa_neto"/>
+        
+        <relation
+            name="hrao:deliveredMessageTo"
+            active="#antonio_abreu"
+            passive="#dutra"/>
+        
+        <relation
+            name="rel:enemyOf"
+            active="#general_valente"
+            passive="#republica_rio_grandense"/>
+        
+        <relation
+            name="schema:affiliation"
+            active="#general_valente"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:subordinateTo"
+            active="#joaquim_pedro"
+            passive="#domingos_jose_almeida"/>
+        
+        <relation 
+            name="hrao:participatedInEvent"
+            active="#joaquim_pedro"
+            passive="#combate_seival"/>
+        
+        <relation
+            name="hrao:deliveredMessageTo"
+            active="#capitao_miguel"
+            passive="#domingos_jose_almeida"/>
+        
+        <relation
+            name="schema:member"
+            active="#feijo"
+            passive="#partido_liberal"/>
+        
+        <relation
+            name="hrao:participatedInEvent"
+            active="#feijo"
+            passive="#revolta_liberal_1842"/>
+        
+        <relation
+            name="hrao:wasImprisonedBy"
+            active="#feijo"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:participatedInEvent"
+            active="#tobias"
+            passive="#revolta_liberal_1842"/>
+        
+        <relation
+            name="hrao:wasImprisonedBy"
+            active="#tobias"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:followedPoliticalAlignmentOf"
+            active="#tobias"
+            passive="#republica_rio_grandense"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#tobias"
+            passive="#bento_goncalves"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#tobias"
+            passive="#domingos_jose_almeida"/>
+        
+        <relation
+            name="hrao:wasCapturedIn"
+            active="#tobias"
+            passive="#palmeira_das_missoes"/>
+        
+        <relation
+            name="hrao:deliveredOrderTo"
+            active="#antonio_pedro_abreu"
+            passive="#alferes_cruz"/>
+        
+        <relation
+            name="schema:memberOf"
+            active="#antonio_pedro_abreu"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="schema:memberOf"
+            active="#alferes_cruz"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:reportedTo"
+            active="#antonio_pedro_abreu"
+            passive="#tomas_jose_silva"/>
+        
+        <relation
+            name="hrao:issuedOrderToFree"
+            active="#tomas_jose_silva"
+            passive="#francisco_jose_nascimento_junior"/>
+        
+        <relation
+            name="hrao:receivedPrisoners"
+            active="#antonio_pedro_abreu"
+            passive="#candido_machado_sousa"/>
+        <relation
+            name="hrao:receivedPrisoners"
+            active="#antonio_pedro_abreu"
+            passive="#sebastiao_gomes"/>
+        <relation
+            name="hrao:receivedPrisoners"
+            active="#antonio_pedro_abreu"
+            passive="#francisco_machado"/>
+        <relation
+            name="hrao:receivedPrisoners"
+            active="#antonio_pedro_abreu"
+            passive="#joao_rodrigues"/>
+        <relation
+            name="hrao:receivedPrisoners"
+            active="#antonio_pedro_abreu"
+            passive="#inacio_furtado"/>
+        <relation
+            name="hrao:receivedPrisoners"
+            active="#antonio_pedro_abreu"
+            passive="#manuel_jose_santos"/>
+        <relation
+            name="hrao:receivedPrisoners"
+            active="#antonio_pedro_abreu"
+            passive="#feliciano_francisco"/>
+        <relation
+            name="hrao:receivedPrisoners"
+            active="#antonio_pedro_abreu"
+            passive="#francisco_jose_nascimento_junior"/>
+        
+        <relation
+            name="hrao:deliveredPrisoners"
+            active="#alferes_ferreira"
+            passive="#candido_machado_sousa"/>
+        <relation
+            name="hrao:deliveredPrisoners"
+            active="#alferes_ferreira"
+            passive="#sebastiao_gomes"/>
+        <relation
+            name="hrao:deliveredPrisoners"
+            active="#alferes_ferreira"
+            passive="#francisco_machado"/>
+        <relation
+            name="hrao:deliveredPrisoners"
+            active="#alferes_ferreira"
+            passive="#joao_rodrigues"/>
+        <relation
+            name="hrao:deliveredPrisoners"
+            active="#alferes_ferreira"
+            passive="#inacio_furtado"/>
+        <relation
+            name="hrao:deliveredPrisoners"
+            active="#alferes_ferreira"
+            passive="#manuel_jose_santos"/>
+        <relation
+            name="hrao:deliveredPrisoners"
+            active="#alferes_ferreira"
+            passive="#feliciano_francisco"/>
+        <relation
+            name="hrao:deliveredPrisoners"
+            active="#alferes_ferreira"
+            passive="#francisco_jose_nascimento_junior"/>
+        
+        <relation
+            name="hrao:wasImprisonedBy"
+            active="#candido_machado_sousa"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:wasImprisonedBy"
+            active="#sebastiao_gomes"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:wasImprisonedBy"
+            active="#francisco_machado"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:wasImprisonedBy"
+            active="#joao_rodrigues"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:wasImprisonedBy"
+            active="#inacio_furtado"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:wasImprisonedBy"
+            active="#manuel_jose_santos"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:wasImprisonedBy"
+            active="#feliciano_francisco"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:wasImprisonedBy"
+            active="#francisco_jose_nascimento_junior"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:transferredToCustodyOf"
+            active="#antonio_pedro_abreu"
+            passive="#dr_fagundes"/>
+        
+        <relation
+            name="hrao:wasTransferredTo"
+            active="#francisco_jose_nascimento_junior"
+            passive="#dr_fagundes"/>
+        
+        <relation
+            name="hrao:commanded"
+            active="#tomas_jose_silva"
+            passive="#antonio_pedro_abreu"/>
+        
+        
+        
     </standOff>
     
 </TEI>

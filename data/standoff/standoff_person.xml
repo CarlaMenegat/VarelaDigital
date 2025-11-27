@@ -436,23 +436,26 @@
         
         <person xml:id="guilherme_schnepf">
             <persName>Guilherme Schnepf</persName>
-            <note>Autor de um requerimento anexado por Abreu à carta; figura administrativa ativa no período.</note>
+            <idno type="project"></idno>
+            <note>Requerente mencionado por Antônio Abreu, em cujo favor foi solicitado um favor político a Domingos José de Almeida.</note>
         </person>
         
         <person xml:id="mateus">
             <persName>Mateus</persName>
-            <idno></idno>
-            <note>Amigo de Domingos José de Almeida mencionado como procurador.</note>
+            <idno type="project"></idno>
+            <note>Indivíduo mencionado como procurador nomeado por Antônio Francisco dos Santos Abreu. Citado como conhecido de Domingos José de Almeida.</note>
         </person> <!--descobrir se não é mateus_gomes-->
         
         <person xml:id="shemit">
             <persName>Shemit</persName>
-            <note>Indivíduo que recebeu o líquido da arrematação dos bens de Ledek, segundo o relato da carta.</note>
+            <idno type="project"></idno>
+            <note>Indivíduo responsável por receber o líquido da arrematação dos bens do espólio de José Augusto Ledek, conforme correspondência mencionada por Antônio Abreu.</note>
         </person>
         
         <person xml:id="fayete">
             <persName>Fayete</persName>
-            <note>Responsável por recolher valores ao Tesouro, por ordem de Shemit, conforme descrito pelo remetente.</note>
+            <idno type="project"></idno>
+            <note>Indivíduo encarregado de recolher valores ao Tesouro, atuando segundo instruções de Shemit, conforme narrado nas cartas.</note>
         </person>
         
         <person xml:id="antonio_sousa_neto">
@@ -498,7 +501,15 @@
         
         <person xml:id="antonio_pedro_abreu">
             <persName>Antônio Pedro de Abreu</persName>
-            <note>Tenente Comandante dos Presídios do Batalhão 11 durante a Revolução Farroupilha.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="antonio_pedro_abreu_tenente_legalista">
+                <roleName>Tenente comandante dos presídios do Batalhão 11</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <location>
+                    <placeName ref="#ilha_corvo">Ilha do Corvo</placeName>
+                </location>
+            </state>
+            <note>Oficial legalista do Exército Imperial estacionado na Ilha do Corvo, onde comandava os presídios do Batalhão 11 durante a Revolução Farroupilha.</note>
         </person>
         
         <person xml:id="tomas_jose_silva">
@@ -513,42 +524,50 @@
         
         <person xml:id="candido_machado_sousa">
             <persName>Cândido Machado de Sousa</persName>
-            <note>Prisioneiro mencionado na carta.</note>
+            <idno type="project"></idno>
+            <note>Prisioneiro legalista capturado na Capela e entregue aos presídios do Batalhão 11.</note>
         </person>
         
         <person xml:id="sebastiao_gomes">
             <persName>Sebastião Gomes</persName>
-            <note>Prisioneiro mencionado na carta.</note>
+            <idno type="project"></idno>
+            <note>Prisioneiro legalista capturado na Capela e entregue aos presídios do Batalhão 11.</note>
         </person>
         
         <person xml:id="francisco_machado">
             <persName>Francisco Machado</persName>
-            <note>Prisioneiro mencionado na carta.</note>
+            <idno type="project"></idno>
+            <note>Prisioneiro legalista capturado na Capela e entregue aos presídios do Batalhão 11.</note>
         </person>
         
         <person xml:id="joao_rodrigues">
             <persName>João Rodrigues</persName>
-            <note>Prisioneiro mencionado na carta.</note>
+            <idno type="project"></idno>
+            <note>Prisioneiro legalista capturado na Capela e entregue aos presídios do Batalhão 11.</note>
         </person>
         
         <person xml:id="inacio_furtado">
             <persName>Inácio Furtado</persName>
-            <note>Prisioneiro mencionado na carta.</note>
+            <idno type="project"></idno>
+            <note>Prisioneiro legalista capturado na Capela e entregue aos presídios do Batalhão 11.</note>
         </person>
         
         <person xml:id="manuel_jose_santos">
             <persName>Manuel José dos Santos</persName>
-            <note>Prisioneiro mencionado na carta.</note>
+            <idno type="project"></idno>
+            <note>Prisioneiro legalista capturado na Capela e entregue aos presídios do Batalhão 11.</note>
         </person>
         
         <person xml:id="feliciano_francisco">
             <persName>Feliciano Francisco</persName>
-            <note>Tenente rebelde capturado, segundo a carta.</note>
+            <idno type="project"></idno>
+            <note>Tenente rebelde capturado e entregue aos presídios do Batalhão 11.</note>
         </person>
         
         <person xml:id="francisco_jose_nascimento_junior">
             <persName>Francisco José do Nascimento Júnior</persName>
-            <note>Prisioneiro libertado por portaria.</note>
+            <idno type="project"></idno>
+            <note>Prisioneiro legalista capturado na Capela, posteriormente solto por ordem de Tomás José da Silva e entregue ao Dr. Fagundes.</note>
         </person>
         
         <person xml:id="dr_fagundes">
@@ -627,21 +646,11 @@
             <note>Autoridade administrativa farroupilha, atuando como oficial-maior da Secretaria da República e como Escrivão de Órfãos e Ausentes em Piratini. Certificou e formalizou atos relativos à curadoria do espólio de José Augusto Ledek.</note>
         </person>
         
-        <person xml:id="barbosa_passo_pedras">
+        <person xml:id="barbosa">
             <persName>Barbosa</persName>
+            <idno type="project"></idno>
             <note>Indivíduo identificado como “Barbosa, do Passo das Pedras”, mensageiro de carta enviada ao General Neto.</note>
         </person>
-        
-        <person xml:id="macedo">
-            <persName>Macedo</persName>
-            <note>Pai de um dos jovens apreendidos na região da capela dos Ladrões, conforme o relato.</note>
-        </person> 
-        
-        <person xml:id="macedo">
-            <persName>Macedo</persName>
-            <note>Indivíduo que realizou arrendamento da estância citada.</note>
-        </person> <!--id repetida, resolver-->
-        
         
         <person xml:id="macedo_1">
             <persName>Macedo</persName>
@@ -650,12 +659,26 @@
         
         <person xml:id="dutra">
             <persName>Dutra</persName>
-            <note>Indivíduo mencionado como destinatário de um ofício encaminhado por Abreu.</note>
+            <idno type="project"></idno>
+            <note>Indivíduo mencionado como destinatário de um ofício remetido por Antônio Francisco dos Santos Abreu.</note>
         </person>
         
         <person xml:id="general_valente">
-            <persName>General Valente</persName>
-            <note>Oficial referido como “novo general” dos galegos desembarcados em Pelotas.</note>
+            <persName>Tomás Joaquim Pereira Valente</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10383102</idno>
+            <birth when="1790">1790</birth>
+            <death when="1849-08-30">30 de agosto de 1849</death>
+            <state type="roleInTime" xml:id="valente_general_imperio">
+                <roleName>General</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1830"/> 
+            </state>
+            <state type="roleInTime" xml:id="valente_conde_rio_pardo">
+                <roleName>Conde de Rio Pardo</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1847"/> 
+            </state>
+            <note>Militar e político luso-brasileiro, 1.º barão e conde de Rio Pardo. Oficial general do Exército Imperial, enviado ao sul para reforçar as operações legais durante a Revolução Farroupilha. Identificado na correspondência como o “novo general” dos galegos desembarcados em Pelotas.</note>
         </person>
         
         <person xml:id="padre_chagas">
@@ -757,37 +780,90 @@
         
         <person xml:id="capitao_miguel">
             <persName>Capitão Miguel</persName>
-            <note>Oficial mencionado como portador de notícias.</note>
+            <idno type="project"></idno>
+            <note>Oficial mencionado como portador de comunicação enviada por Antônio Francisco dos Santos Abreu a Domingos José de Almeida.</note>
         </person>
         
         <person xml:id="feijo">
             <persName>Diogo Antônio Feijó</persName>
-            <pesName type="popular">Padre Feijó</pesName>
+            <persName type="alias">Padre Feijó</persName>
             <idno type="viaf">https://viaf.org/en/viaf/30870854</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1791593</idno>
-            <roleName>Regente do Império do Brasil</roleName>
-            <roleName>Senador do Império</roleName>
-            <roleName>6° Presidente do Senado Imperial do Brasil</roleName>
-            <roleName>Ministro da Justiça do Império do Brasil</roleName>
-            <roleName>Ministro dos Negócios do Império do Brasil</roleName>
-            <roleName>Administrador do Rio de Janeiro</roleName>
-            <relation
-                name="schema:member"
-                active="#feijo"
-                passive="#partido_liberal"/>
-            <note>Regente do Império, fundador do Partido Liberal.</note>
+            <birth when="1784-08-03"/>
+            <death when="1843-11-10"/>
+            <state type="roleInTime" xml:id="feijo_regente_imperio">
+                <roleName>Regente do Império do Brasil</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1835-10-12"/>
+                <date type="end" when="1837-09-19"/>
+            </state>
+            <state type="roleInTime" xml:id="feijo_senador">
+                <roleName>Senador do Império</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="feijo_presid_senado">
+                <roleName>Presidente do Senado Imperial</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1833"/>
+                <date type="end" when="1833"/>
+            </state>
+            <state type="roleInTime" xml:id="feijo_min_justica">
+                <roleName>Ministro da Justiça</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1831"/>
+                <date type="end" when="1832"/>
+            </state>
+            <state type="roleInTime" xml:id="feijo_min_negocios">
+                <roleName>Ministro dos Negócios do Império</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1835"/>
+                <date type="end" when="1835"/>
+            </state>
+            <state type="roleInTime" xml:id="feijo_admin_rio">
+                <roleName>Administrador do Rio de Janeiro</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Regente do Império do Brasil e figura central do Partido Liberal. Envolveu-se na Revolta Liberal de 1842, sendo posteriormente preso pelo governo imperial.</note>
         </person>
         
         <person xml:id="tobias">
-            <persName>Tobias de Aguiar</persName>
+            <persName>Rafael Tobias de Aguiar</persName>
+            <persName type="alias">Brigadeiro Tobias</persName>
             <idno type="viaf">https://viaf.org/viaf/24888413</idno>
-            <note>Líder militar e político brasileiro, mencionado como fugido.</note>
-            
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10311944</idno>
+            <birth when="1794-10-04"/>
+            <death when="1857-10-07"/>
+            <state type="roleInTime" xml:id="tobias_lider_liberal_sp">
+                <roleName>Líder do Partido Liberal Paulista</roleName>
+                <affiliation ref="#partido_liberal"/>
+            </state>
+            <state type="roleInTime" xml:id="tobias_lider_revolta_1842">
+                <roleName>Liderança militar da Revolta Liberal de 1842</roleName>
+                <affiliation ref="#revolta_liberal_1842"/>
+                <date type="begin" when="1842"/>
+            </state>
+            <state type="roleInTime" xml:id="tobias_prisioneiro_fortaleza_laje">
+                <roleName>Prisioneiro político</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <location>
+                    <placeName ref="#fortaleza_laje">Fortaleza da Laje</placeName>
+                </location>
+                <date type="end" when="1844"/> 
+            </state>
+            <note>Líder liberal paulista, comandante político-militar da Revolta Liberal de 1842. Tentou reorganizar forças no Rio Grande do Sul durante a Guerra dos Farrapos, foi preso em Palmeira das Missões e encarcerado na Fortaleza da Laje até 1844.</note>
         </person>
         
         <person xml:id="alferes_cruz">
             <persName>Alferes Cruz</persName>
-            <note>Oficial responsável pela guarda na Ilha do Corvo, mencionado como receptor de uma portaria.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="alferes_cruz_guarda_ilha_corvo">
+                <roleName>Comandante de guarda</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <location>
+                    <placeName ref="#ilha_corvo">Ilha do Corvo</placeName>
+                </location>
+            </state>
+            <note>Oficial legalista responsável pela guarda da Ilha do Corvo durante a presença das tropas do Batalhão 11.</note>
         </person>
         
         <person xml:id="fernando_kersting">
@@ -2790,7 +2866,7 @@
         
         <person xml:id="marucas_mateus">
             <persName>Marucas do Mateus</persName>
-        </person>
+        </person> <!--Maria Francisca Antunes Maciel, casada com Mateus Gomes Viana-->
         
         <person xml:id="marucas_zeferino">
             <persName>Marucas do Zeferino</persName>
@@ -3669,11 +3745,6 @@
             <note>Portador da carta e designado como bombeiro para observação do inimigo.</note>
         </person>
         
-        <person xml:id="jose_luis_silva">
-            <persName>José Luís da Silva</persName>
-            <note>Portador da carta e designado como bombeiro para observação do inimigo.</note>
-        </person>
-        
         <person xml:id="antonio_elzeário_miranda_brito">
             <persName>Antônio Elzeário de Miranda e Brito</persName>
             <note>Destinatário da carta, identificado como Marechal-de-campo, Presidente da Província e Comandante das Armas.</note>
@@ -3681,17 +3752,21 @@
         
         <person xml:id="tomas_jose_silva">
             <persName>Tomás José da Silva</persName>
-            <note>Destinatário da carta, identificado como Brigadeiro e Comandante da Guarnição da capital.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="tomas_silva_brigadeiro">
+                <roleName>Brigadeiro</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="tomas_silva_comandante_guarnicao">
+                <roleName>Comandante da guarnição da capital</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Oficial superior legalista do Exército Imperial. Exerceu funções como brigadeiro e comandante da guarnição da capital. Destinatário de correspondência militar remetida por oficiais subordinados.</note>
         </person>
         
         <person xml:id="jose_cesario_abreu">
             <persName>José Cesário de Abreu</persName>
             <note>Capitão identificado como encarregado do expediente e responsável pela autenticação da cópia.</note>
-        </person>
-        
-        <person xml:id="tomas_jose_silva">
-            <persName>Tomás José da Silva</persName>
-            <note>Destinatário da carta, identificado como Marechal e Comandante da Guarnição.</note>
         </person>
         
         <person xml:id="manuel_bento">
@@ -3936,11 +4011,6 @@
             <note>Tenente citado em operação militar.</note>
         </person>
         
-        <person xml:id="antonio_pedro_abreu">
-            <persName>Antônio Pedro de Abreu</persName>
-            <note>Tenente da extinta 2ª Linha, destacado na operação.</note>
-        </person>
-        
         <person xml:id="julio_viana">
             <persName>Júlio Viana</persName>
             <note>Alferes legalista.</note>
@@ -3981,13 +4051,20 @@
             <note>Ferreiro identificado como produtor de lanças para rebeldes.</note>
         </person>
         
-        <person xml:id="joaquim_pedro">
-            <persName>Joaquim Pedro</persName>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q10307345</idno>
-            <roleName>Ajudante-general da República Rio-grandense</roleName>
-            <roleName>Coronel</roleName>
-            <roleName>Comandante dos Lanceiros Negros</roleName>
-            <note>Coronel farroupilha; participou da Batalha do Seival.</note>
+        <person xml:id="joaquim_pedro_soares">
+            <persName>Joaquim Pedro Soares</persName>
+            <idno type="project"></idno>
+            <birth when="1774">1774</birth>
+            <death when="unknown"/>
+            <state type="roleInTime" xml:id="joaquim_pedro_coronel_rrg">
+                <roleName>Coronel</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <state type="roleInTime" xml:id="joaquim_pedro_comandante_lanceiros_negros">
+                <roleName>Comandante do 1.º Corpo de Lanceiros Negros</roleName>
+                <affiliation ref="#corpo_lanceiros_negros"/>
+            </state>
+            <note>Militar luso-brasileiro. Veterano da Guerra Peninsular e da Guerra da Cisplatina. Aderiu à Revolução Farroupilha, organizando e comandando o 1.º Corpo de Lanceiros Negros. Participou da Batalha do Seival (1836). Foi preso em Piratini em 1844 e deportado ao Rio de Janeiro ― destino final incerto.</note>
         </person>
         
         <person xml:id="manuel_jorge_rodrigues">
@@ -4248,11 +4325,6 @@
         <person xml:id="lucio_de_braga">
             <persName>Lúcio de Braga</persName>
             <note>Prisioneiro citado na carta; sem identificação histórica confirmada.</note>
-        </person>
-        
-        <person xml:id="joaquim_pedro2">
-            <persName>Joaquim Pedro</persName>
-            <note>Indivíduo citado como coronel rebelde; identidade precisa ainda não confirmada.</note>
         </person>
 
         <person xml:id="antonio_manuel_amaral">
@@ -4983,7 +5055,7 @@
             <persName>[Mateus?] Gomes</persName>
             <idno></idno>
             <note>Nome lido com dúvida no manuscrito.</note>
-        </person>
+        </person> <!-- provavelmente Mateus Gomes Viana, que começou como farroupilha e terminou como legalista-->
         
         <person xml:id="xavier_ferreira">
             <persName>Francisco Xavier Ferreira</persName>

@@ -169,3 +169,123 @@ hrao:appointedCuratorOf a owl:ObjectProperty ;
     # domain and range
     rdfs:domain prov:Agent ;
     rdfs:range  prov:Agent .
+
+#################################################################
+# Property: hrao:deliveredMessageTo
+#################################################################
+
+hrao:deliveredMessageTo a owl:ObjectProperty ;
+    rdfs:label "delivered message to"@en ;
+    rdfs:comment "Indicates that an agent acted as a messenger or courier by delivering a written message, letter, or communication to another agent, typically in historical or military correspondence contexts."@en ;
+
+    # semantic anchoring
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+
+    # domain and range: agents
+    rdfs:domain prov:Agent ;
+    rdfs:range  prov:Agent .
+
+#################################################################
+# Property: hrao:wasCapturedIn
+#################################################################
+
+hrao:wasCapturedIn a owl:ObjectProperty ;
+    rdfs:label "was captured in"@en ;
+    rdfs:comment "Indicates the place where an agent was captured in a historical context."@en ;
+    rdfs:subPropertyOf prov:atLocation ;
+    rdfs:domain prov:Agent ;
+    rdfs:range <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+
+#################################################################
+# Property: hrao:wasImprisonedBy
+#################################################################
+
+hrao:wasImprisonedBy a owl:ObjectProperty ;
+    rdfs:label "was imprisoned by"@en ;
+    rdfs:comment "Indicates that an agent was imprisoned by another agent, typically a government, military authority, or institution."@en ;
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+    rdfs:domain prov:Agent ;
+    rdfs:range prov:Agent .
+
+#################################################################
+# Property: hrao:reportedTo
+#################################################################
+
+hrao:reportedTo a owl:ObjectProperty ;
+    rdfs:label "reported to"@en ;
+    rdfs:comment "Indicates that an agent reported information, orders, or status updates to another agent in a hierarchical or administrative context."@en ;
+    rdfs:subPropertyOf prov:communicatedWith ;
+    rdfs:domain prov:Agent ;
+    rdfs:range prov:Agent .
+
+
+#################################################################
+# Property: hrao:issuedOrderToFree
+#################################################################
+
+hrao:issuedOrderToFree a owl:ObjectProperty ;
+    rdfs:label "issued order to free"@en ;
+    rdfs:comment "Indicates that an agent issued an order to release a prisoner or detainee."@en ;
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+    rdfs:domain prov:Agent ;
+    rdfs:range prov:Agent .
+
+
+#################################################################
+# Property: hrao:receivedPrisoners
+#################################################################
+
+hrao:receivedPrisoners a owl:ObjectProperty ;
+    rdfs:label "received prisoners"@en ;
+    rdfs:comment "Indicates that an agent received custody of one or more prisoners."@en ;
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+    rdfs:domain prov:Agent ;
+    rdfs:range prov:Agent .
+
+
+#################################################################
+# Property: hrao:deliveredPrisoners
+#################################################################
+
+hrao:deliveredPrisoners a owl:ObjectProperty ;
+    rdfs:label "delivered prisoners"@en ;
+    rdfs:comment "Indicates that an agent transferred prisoners to another agent or authority."@en ;
+    rdfs:subPropertyOf prov:actedOnBehalfOf ;
+    rdfs:domain prov:Agent ;
+    rdfs:range prov:Agent .
+
+
+#################################################################
+# Property: hrao:transferredToCustodyOf
+#################################################################
+
+hrao:transferredToCustodyOf a owl:ObjectProperty ;
+    rdfs:label "transferred to custody of"@en ;
+    rdfs:comment "Indicates that an agent transferred a person or entity into the custody of another agent."@en ;
+    rdfs:subPropertyOf prov:actedOnBehalfOf ;
+    rdfs:domain prov:Agent ;
+    rdfs:range prov:Agent .
+
+
+#################################################################
+# Property: hrao:wasTransferredTo
+#################################################################
+
+hrao:wasTransferredTo a owl:ObjectProperty ;
+    rdfs:label "was transferred to"@en ;
+    rdfs:comment "Indicates that an agent was transferred to the custody or authority of another agent."@en ;
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+    rdfs:domain prov:Agent ;
+    rdfs:range prov:Agent .
+
+
+#################################################################
+# Property: hrao:commanded
+#################################################################
+
+hrao:commanded a owl:ObjectProperty ;
+    rdfs:label "commanded"@en ;
+    rdfs:comment "Indicates that an agent exercised military or organizational command over another agent."@en ;
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+    rdfs:domain prov:Agent ;
+    rdfs:range prov:Agent .

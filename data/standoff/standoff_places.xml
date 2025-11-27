@@ -1107,6 +1107,20 @@
             <note>Passo em Pedras Altas</note>
         </place>
         
+        <place xml:id="fortaleza_laje">
+            <placeName>Fortaleza da Laje</placeName>
+            <idno type="geonames">https://www.geonames.org/3459067/ilha-da-laje.html</idno>
+            <geo>-22.9486,-43.1647</geo>
+            <note>Fortificação situada na Baía de Guanabara, Rio de Janeiro, utilizada como presídio político durante o Império do Brasil.</note>
+        </place>
+        
+        <place xml:id="palmeira_das_missoes">
+            <placeName>Palmeira das Missões</placeName>
+            <idno type="geonames">https://www.geonames.org/3455416/palmeira-das-missoes.html</idno>
+            <geo>-27.8996,-53.3134</geo>
+            <note>Local de captura de Rafael Tobias de Aguiar durante sua tentativa de reorganização militar no contexto da Revolta Liberal de 1842.</note>
+        </place>
+        
         <place xml:id="escuna_incorporacao">
             <placeName>Escuna Incorporação</placeName>
             <idno type="geonames"></idno>
@@ -1121,15 +1135,6 @@
         <place xml:id="rio_verde">
             <placeName>Rio Verde</placeName>
             <note>Talvez Vale verde?</note>
-        </place>
-        
-        <place xml:id="capela_ladroes">
-            <placeName>Capela dos Ladrões</placeName>
-            <note>
-                Topônimo histórico mencionado nas fontes da Revolução Farroupilha, ligado à região
-                das ilhas e do delta do rio Jacuí, nas proximidades de Porto Alegre (RS).
-                A localização exata não é identificável em cartografia moderna.
-            </note>
         </place>
         
         <place xml:id="passo_das_pedras">

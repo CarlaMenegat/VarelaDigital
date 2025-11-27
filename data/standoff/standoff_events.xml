@@ -65,5 +65,15 @@
                 <placeName xml:id="boqueirao"/>
             </location>
         </event>
+        
+        <event xml:id="revolta_liberal_1842">
+            <desc>Revolta Liberal de 1842</desc>
+            <date when="1842">1842</date>
+            <location>
+                <placeName ref="#sao_paulo">São Paulo</placeName>
+                <placeName ref="#minas_gerais">Minas Gerais</placeName>
+            </location>
+            <note>Levantamento político-militar de caráter liberal ocorrido em 1842, tendo lideranças civis e militares em São Paulo e Minas Gerais. Foi reprimido pelo governo imperial, resultando na prisão de diversas figuras do Partido Liberal.</note>
+        </event>
     </listEvent>
 </standOff>
