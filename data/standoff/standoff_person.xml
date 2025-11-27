@@ -202,11 +202,13 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10268073</idno>
             <note type="roles">
                 Coronel Chefe de Legião;
-                Ministro da Fazenda da República Rio-Grandense;
-                Ministro do Interior da República Rio-Grandense;
                 Ministro da Justiça da República Rio-Grandense;
                 Secretário da República Rio-Grandense.
             </note>
+            <state type="roleInTime" xml:id="domingos_quartel_mestre_general_rrg">
+                <roleName>Quartel-mestre-general</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
             <state type="roleInTime" xml:id="dja_ministro_fazenda_1836_1841">
                 <roleName>Ministro da Fazenda</roleName>
                 <affiliation ref="#ministerio_fazenda"/>
@@ -355,19 +357,37 @@
             <note>Indivíduo citado como portador de documentos judiciais remetidos por Antônio Abreu.</note>
         </person>
         
-        <person xml:id="procurador_fiscal">
+        <person xml:id="silva_procurador">
             <persName>Procurador Fiscal Silva</persName>
-            <note>Autoridade fiscal que analisou o pedido de Antônio Francisco dos Santos Abreu em janeiro de 1842.</note>
+            <state type="roleInTime" xml:id="silva_procurador_role">
+                <roleName>Procurador Fiscal</roleName>
+                <affiliation ref="#procuradoria_fiscal"/>
+            </state>
+            <note>Autoridade fiscal responsável pela análise de solicitações financeiras remetidas por Antônio Abreu.</note>
         </person>
         
-        <person xml:id="viana">
+        <person xml:id="viana_contador">
             <persName>Viana</persName>
-            <note>Oficial ligado a Contadoria citado em múltiplas correspondências de Abreu.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="viana_contador_role">
+                <roleName>Oficial da Contadoria</roleName>
+                <affiliation ref="#contadoria_geral"/>
+            </state>
+            <note>Oficial da Contadoria citado em correspondências de Antônio Abreu em assuntos financeiros da República Rio-Grandense.</note>
         </person>
         
         <person xml:id="afonso_jose_corte_real">
             <persName>Afonso José de Almeida Corte Real</persName>
-            <note>Ministro e Secretário dos Negócios da Fazenda durante o período farroupilha.</note>
+            <persName type="alias">José de Almeida Corte Real</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10310732</idno>
+            <birth when="1799">1799</birth>
+            <death when="1866">1866</death>
+            <state type="roleInTime" xml:id="afonso_corte_real_ministro_fazenda_1837">
+                <roleName>Ministro da Fazenda</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <date type="begin" when="1837"/>
+            </state>
+            <note>Militar e político, Ministro e Secretário dos Negócios da Fazenda da República Rio-Grandense em 1837, conhecido em algumas fontes como José de Almeida Corte Real.</note>
         </person>
         
         <person xml:id="joao_silva">
@@ -376,32 +396,36 @@
             <note>Comerciante de tecidos citado na correspondência da Coleção Varela, interessado em estabelecer contrato com o governo da República Rio-Grandense.</note>
         </person>
         
-        <person xml:id="antonio_jose_abreu">
-            <persName>Antônio José de Abreu</persName>
-            <note>Funcionário e agente administrativo da República Rio-Grandense; autor deste recurso formal contra decisão judicial.</note>
-        </person>
-        
-        <person xml:id="juiz_piratini">
-            <persName>Juiz de Direito da Comarca de Piratini</persName>
-            <note>Magistrado responsável pelos processos judiciais locais em Piratini em 1841. O nome específico não é mencionado nesta carta.</note>
-        </person>
-        
         <person xml:id="jose_augusto_ledek">
             <persName>José Augusto Ledek</persName>
-            <note>Estrangeiro falecido ab intestato, cuja herança motivou a disputa judicial relatada na carta.</note>
+            <idno type="project"></idno>
+            <birth when="unknown"/>
+            <death when="unknown"/>
+            
+            <note>Indivíduo de origem estrangeira falecido ab intestato, cuja herança foi colocada sob custódia do governo da República Rio-Grandense. Sua morte gerou procedimentos administrativos e pedidos de depositário por parte de Antônio Francisco dos Santos Abreu.</note>
         </person>
         
         <person xml:id="bernardo_pires">
-            <persName>Bernardo Pires</persName>
+            <persName>Bernardo José Pires</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q16497994</idno>
-            <roleName>Major</roleName>
-            <roleName>Suplente de deputado à Assembléia Constituinte da República Rio-grandense.</roleName>
-            <note>Major que atuou como depositário dos bens da fazenda jacente de José Augusto Ledek, e posteriormente nomeado Curador substituto. Foi suplente de deputado à Assembléia Constituinte da República Rio-grandense. Considerado possível criador da bandeira da República.</note>
+            <birth when="1790"/>
+            <death when="1891"/>
+            <state type="roleInTime" xml:id="pires_major_rrg">
+                <roleName>Major</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <state type="roleInTime" xml:id="pires_suplente_constituinte_rrg_1843">
+                <roleName>Suplente de deputado à Assembleia Constituinte</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <date type="begin" when="1843"/>
+            </state>
+            <note>Militar farroupilha, major da República Rio-Grandense e suplente da Assembleia Constituinte de 1843. Atuou como depositário e posteriormente curador substituto do espólio de José Augusto Ledek, após nomeação judicial. É associado à criação de uma das versões da bandeira republicana.</note>
         </person>
         
         <person xml:id="freitas">
-            <persName>Freitas</persName>
-            <note>Juiz de Direito da Comarca de Piratini, responsável pelos despachos relativos à curadoria da fazenda jacente.</note>
+            <persName>Dr. Freitas</persName>
+            <idno type="project"></idno>
+            <note>Juiz de Direito da Comarca de Piratini, responsável pelos despachos relativos à arrecadação e curadoria do espólio de José Augusto Ledek.</note>
         </person>
         
         <person xml:id="guilherme_carvalho">
@@ -413,11 +437,6 @@
         <person xml:id="guilherme_schnepf">
             <persName>Guilherme Schnepf</persName>
             <note>Autor de um requerimento anexado por Abreu à carta; figura administrativa ativa no período.</note>
-        </person>
-        
-        <person xml:id="freitas">
-            <persName>Freitas</persName>
-            <note>Juiz de Direito em Piratini, responsável por decisões nos autos de arrecadação da herança de Ledek.</note>
         </person>
         
         <person xml:id="mateus">
@@ -539,16 +558,25 @@
         
         <person xml:id="gaspar_borges">
             <persName>Gaspar Borges</persName>
-            <note>Responsável pela condução de 207 cavalos destinados ao exército farroupilha, conforme mencionado nas contas analisadas.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="gaspar_borges_agente_rrg">
+                <roleName>Agente da República Rio-Grandense</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Agente da República Rio-Grandense mencionado na correspondência farroupilha.</note>
         </person>
         
-        <person xml:id="onofre">
-            <persName>Coronel Onofre</persName>
-            <note>Oficial citado como recebedor de recursos do Estado; identidade histórica específica não confirmada.</note>
-        </person>
         
-        <person xml:id="onofre_pires_silveira_canto">
+        <person xml:id="onofre_pires">
             <persName>Onofre Pires da Silveira Canto</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10341040</idno>
+            <birth when="1799-09-25">25 de setembro de 1799</birth>
+            <death when="1844-03-03">3 de março de 1844</death>
+            <state type="roleInTime" xml:id="onofre_pires_coronel_rrg">
+                <roleName>Coronel</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Militar farroupilha, coronel da República Rio-Grandense, atuante em operações militares no período da Revolução Farroupilha. Primo de Bento Gonçalves da Silva.</note>
         </person>
         
         <person xml:id="jose_carlos_pinto">
@@ -558,7 +586,7 @@
         
         <person xml:id="jaime_legris">
             <persName>Jaime Legris</persName>
-            <idno></idno>
+            <idno type="project"></idno>
             <note>Cidadão com dívida litigiosa mencionada nas contas analisadas pelo Procurador Fiscal. Credor de Almeida.</note>
         </person>
         
@@ -569,12 +597,8 @@
         
         <person xml:id="coronel_leberio">
             <persName>Coronel Lebério</persName>
-            <note>Parente do missivista mencionado na carta; nome grafado conforme aparece na fonte (sic).</note>
-        </person>
-        
-        <person xml:id="jose_mariano">
-            <persName>José Mariano</persName>
-            <note>Compadre de Antônio José de Abreu; guardava carta anterior enviada a Domingos José de Almeida.</note>
+            <idno type="project"></idno>
+            <note>Parente de Antônio Francisco dos Santos Abreu, citado na correspondência da Coleção Varela. A grafia do nome segue o registro original das cartas.</note>
         </person>
         
         <person xml:id="dona_joaquina_pavao">
@@ -589,10 +613,18 @@
         
         <person xml:id="antonio_belarmino_ribeiro">
             <persName>Antônio Belarmino Ribeiro</persName>
-            <idno></idno>
-            <roleName>O oficial-maior da Secretaria da República Riograndense</roleName>
-            <roleName>Escrivão de Órfãos e Ausentes da cidade de Piratini</roleName>
-            <note>Escrivão de Órfãos e Ausentes da cidade de Piratini; certificou oficialmente os atos relativos à curadoria da fazenda jacente.</note>
+            <idno type="project"></idno>
+            <birth when="unknown"/>
+            <death when="unknown"/>
+            <state type="roleInTime" xml:id="belarmino_oficial_maior_secretaria">
+                <roleName>Oficial-maior da Secretaria da República Rio-Grandense</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <state type="roleInTime" xml:id="belarmino_escrivao_orfaos_piratini">
+                <roleName>Escrivão de Órfãos e Ausentes</roleName>
+                <affiliation ref="#piratini"/>
+            </state>
+            <note>Autoridade administrativa farroupilha, atuando como oficial-maior da Secretaria da República e como Escrivão de Órfãos e Ausentes em Piratini. Certificou e formalizou atos relativos à curadoria do espólio de José Augusto Ledek.</note>
         </person>
         
         <person xml:id="barbosa_passo_pedras">
@@ -1172,15 +1204,29 @@
         <person xml:id="jose_mariano_matos">
             <persName>José Mariano de Matos</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10310051</idno>
-            <roleName>Deputado provincial eleito à 1.ª Legislatura da Assembleia Provincial.</roleName>
-            <roleName>Ministro da Guerra e da Marinha da República Rio-grandense</roleName>
-            <roleName>Vice-presidente da República Rio-grandense</roleName>
-            <roleName>Ministro da Guerra do Império (1864).</roleName>
-            <relation
-                name="foaf:knows"
-                active="#domingos_jose_almeida"
-                passive="#jose_mariano_matos"/>
-            <note>Político farroupilha, vice-presidente mais votado da República Rio-Grandense, que assumiu interinamente a administração civil em 1839. Autor do brasão que foi adotado para o Rio Grande do Sul pelos constituintes de 1891. </note>
+            <birth when="1801-06-19">19 de junho de 1801</birth>
+            <death when="1875-09-06">6 de setembro de 1875</death>
+            <state type="roleInTime" xml:id="jmm_deputado_provincial_rs_1835">
+                <roleName>Deputado provincial</roleName>
+                <affiliation ref="#assembleia_provincial_rs"/>
+                <date type="begin" when="1835"/>
+            </state>
+            <state type="roleInTime" xml:id="jmm_ministro_guerra_marinha_rrg">
+                <roleName>Ministro da Guerra e da Marinha</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <date type="begin" when="1838"/>
+            </state>
+            <state type="roleInTime" xml:id="jmm_vice_presidente_rrg">
+                <roleName>Vice-presidente da República Rio-Grandense</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <date type="begin" when="1839"/>
+            </state>
+            <state type="roleInTime" xml:id="jmm_ministro_guerra_imperio_1864">
+                <roleName>Ministro da Guerra do Império do Brasil</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1864"/>
+            </state>
+            <note>Político e militar farroupilha, vice-presidente mais votado da República Rio-Grandense e responsável pela condução administrativa interina em 1839. Também autor da proposta que originou o brasão oficial do Rio Grande do Sul adotado em 1891.</note>
         </person>
         
         <person xml:id="bernardino_rodrigues_barcelos_filho">

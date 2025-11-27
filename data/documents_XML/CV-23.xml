@@ -1,19 +1,115 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>CV-23 – Carta de Antônio Francisco dos Santos Abreu a Domingos José de Almeida</title>
                 <author>Antônio Francisco dos Santos Abreu</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-06-20">20 de junho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
-                <pubPlace>São Lourenço</pubPlace>
-                <date when="1843-05-29">29 de maio de 1843</date>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
             </publicationStmt>
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <p>Transcrição da carta CV-23 contida nos Anais do AHRS. Carta manuscrita preservada e transcrita para fins acadêmicos.</p>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName>
+                    <date when="1843-05-29">29 de maio de 1843</date>
+                    <placeName ref="#sao_lourenco"></placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-06-20">20/06/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-10-25">25/11/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     <text>
@@ -24,9 +120,16 @@
                     <placeName ref="#sao_lourenco">São Lourenço</placeName>, 
                     <date when="1843-05-29">29 de maio de 1843</date>.
                 </opener>
-                <p>Tenho recebido suas cartas de 14 e 29 do p.p. mês, e em resposta cumpre-me dizer-lhe que não deixando de reconhecer o quanto <persName ref="#almeida"><choice><abbr>V.Mcê</abbr><expan>Vossa Mercê</expan></choice></persName> se tem esforçado em servir-me, respectivamente às ordens que do governo tenho exigido para meu encontro, e ainda que em parte esteja remediada com a apresentação de suas cartas a alguns coletores, contudo não estou de todo tranquilo, sem que me venham as próprias ordens do governo; espero portanto o meu amigo não se esquecerá e menos perderá a ocasião, quando possível seja, de extrair-me arquivo as já mencionadas ordens.</p>
+                <p>Tenho recebido suas cartas de 14 e 29 do p.p. mês, e em resposta cumpre-me dizer-lhe que não deixando de 
+                    reconhecer o quanto <persName ref="#almeida"><choice><abbr>V.Mcê</abbr><expan>Vossa Mercê</expan></choice></persName> 
+                    se tem esforçado em servir-me, respectivamente às ordens que do governo tenho exigido para meu encontro, 
+                    e ainda que em parte esteja remediada com a apresentação de suas cartas a alguns coletores, contudo não 
+                    estou de todo tranquilo, sem que me venham as próprias ordens do governo; espero portanto o meu amigo não se 
+                    esquecerá e menos perderá a ocasião, quando possível seja, de extrair-me arquivo as já mencionadas ordens.</p>
                 
-                <p>Nesta ocasião remeto a meu mano em <placeName ref="#jaguarao">Jaguarão Chico</placeName> uma porção de papéis, para ele dali os remeter a <persName ref="#almeida"><choice><abbr>V.Mcê</abbr><expan>Vossa Mercê</expan></choice></persName>. Sempre grato a seus obséquios mostrarei ser</p>
+                <p>Nesta ocasião remeto a meu mano em <placeName ref="#jaguarao">Jaguarão Chico</placeName> uma porção de papéis, 
+                    para ele dali os remeter a <persName ref="#almeida"><choice><abbr>V.Mcê</abbr><expan>Vossa Mercê</expan></choice></persName>. 
+                    Sempre grato a seus obséquios mostrarei ser</p>
                 
                 <closer>
                     <salute>Seu antigo e obrigado amigo</salute>

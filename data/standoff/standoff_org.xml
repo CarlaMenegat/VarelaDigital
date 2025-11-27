@@ -49,6 +49,10 @@
             <note>Unidade de cavalaria composta majoritariamente por soldados negros, criada durante a Revolução Farroupilha e comandada por Joaquim Teixeira Nunes.</note>
         </org>
         
+        <org xml:id="estate_jose_augusto_ledek" type="estate">
+            <orgName>Espólio de José Augusto Ledek</orgName>
+        </org>
+        
         <org xml:id="secretaria_republica_riograndense">
             <orgName>Secretaria da República Riograndense</orgName>
             <note>Órgão administrativo do governo farroupilha.</note>
@@ -80,6 +84,16 @@
         <org xml:id="inspetoria">
             <orgName>Inspetoria</orgName>
             <note>Referência à Inspetoria responsável pela auditoria ou fiscalização contábil no Tesouro.</note>
+        </org>
+        
+        <org xml:id="contadoria_geral" type="governmentOffice">
+            <orgName>Contadoria Geral</orgName>
+            <note>Órgão financeiro da República Rio-Grandense responsável pelo exame de contas, pagamentos e registros fiscais.</note>
+        </org>
+        
+        <org xml:id="procuradoria_fiscal" type="governmentOffice">
+            <orgName>Procuradoria Fiscal</orgName>
+            <note>Órgão fiscal da República Rio-Grandense encarregado de pareceres, análises de contas e decisões financeiras.</note>
         </org>
         
         <org xml:id="contador">
