@@ -64,10 +64,10 @@
             <persName>Bento Manuel Ribeiro</persName>
             <idno type="viaf">https://viaf.org/en/viaf/86286479</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q3638335</idno>
-            <birth when="1783">1783</birth>
-            <death when="1855-04-28">28 de abril de 1855</death>
+            <birth when="1783"/>
+            <death when="1855-04-28"/>
             <state type="roleInTime" xml:id="bento_manoel_farroupilha_1835">
-                <roleName>Oficial farroupilha (tenente-coronel)</roleName>
+                <roleName>Tenente-coronel farroupilha</roleName>
                 <affiliation ref="#republica_rio_grandense"/>
                 <date type="begin" when="1835"/>
                 <date type="end" when="1836"/>
@@ -83,8 +83,7 @@
                 <affiliation ref="#republica_rio_grandense"/>
                 <date type="begin" when="1837"/>
             </state>
-            
-            <note>Militar e estancieiro rio-grandense, conhecido por suas mudanças de lealdade entre farroupilhas e legalistas. Em 1835 participou da eclosão da Revolução Farroupilha; em 1836 passou ao lado imperial, auxiliando na captura de Bento Gonçalves; em 1837 retornou aos farroupilhas, participando do combate do Espinilho.</note>
+            <note>Militar e estancieiro rio-grandense, notório por suas mudanças de lealdade entre legalistas e farroupilhas; envolveu-se diretamente em operações decisivas, incluindo a captura de Bento Gonçalves e o combate do Espinilho.</note>
         </person>
         
         <person xml:id="boaventura_rodrigues_barcelos">
@@ -546,49 +545,49 @@
         <person xml:id="candido_machado_sousa">
             <persName>Cândido Machado de Sousa</persName>
             <idno type="project"></idno>
-            <note>Prisioneiro legalista capturado na Capela e entregue aos presídios do Batalhão 11.</note>
+            <note>Combatente farroupilha capturado por forças legalistas na região da Capela.</note>
         </person>
         
         <person xml:id="sebastiao_gomes">
             <persName>Sebastião Gomes</persName>
             <idno type="project"></idno>
-            <note>Prisioneiro legalista capturado na Capela e entregue aos presídios do Batalhão 11.</note>
+            <note>Combatente farroupilha capturado por forças legalistas na região da Capela.</note>
         </person>
         
         <person xml:id="francisco_machado">
             <persName>Francisco Machado</persName>
             <idno type="project"></idno>
-            <note>Prisioneiro legalista capturado na Capela e entregue aos presídios do Batalhão 11.</note>
+            <note>Combatente farroupilha capturado por forças legalistas na região da Capela.</note>
         </person>
         
         <person xml:id="joao_rodrigues">
             <persName>João Rodrigues</persName>
             <idno type="project"></idno>
-            <note>Prisioneiro legalista capturado na Capela e entregue aos presídios do Batalhão 11.</note>
+            <note>Combatente farroupilha capturado por forças legalistas na região da Capela.</note>
         </person>
         
         <person xml:id="inacio_furtado">
             <persName>Inácio Furtado</persName>
             <idno type="project"></idno>
-            <note>Prisioneiro legalista capturado na Capela e entregue aos presídios do Batalhão 11.</note>
+            <note>Combatente farroupilha capturado por forças legalistas na região da Capela.</note>
         </person>
         
         <person xml:id="manuel_jose_santos">
             <persName>Manuel José dos Santos</persName>
             <idno type="project"></idno>
-            <note>Prisioneiro legalista capturado na Capela e entregue aos presídios do Batalhão 11.</note>
+            <note>Combatente farroupilha capturado por forças legalistas na região da Capela.</note>
         </person>
         
         <person xml:id="feliciano_francisco">
             <persName>Feliciano Francisco</persName>
             <idno type="project"></idno>
-            <note>Tenente rebelde capturado e entregue aos presídios do Batalhão 11.</note>
+            <note>Tenente farroupilha capturado por forças legalistas na região da Capela.</note>
         </person>
         
         <person xml:id="francisco_jose_nascimento_junior">
             <persName>Francisco José do Nascimento Júnior</persName>
             <idno type="project"></idno>
-            <note>Prisioneiro legalista capturado na Capela, posteriormente solto por ordem de Tomás José da Silva e entregue ao Dr. Fagundes.</note>
+            <note>Combatente farroupilha capturado na Capela e posteriormente liberado por ordem de Tomás José da Silva.</note>
         </person>
         
         <person xml:id="dr_fagundes">
@@ -1083,10 +1082,17 @@
         
         <person xml:id="joao_jose_damasceno">
             <persName>João José Damasceno</persName>
-            <idno></idno>
-            <roleName>Tenente-coronel</roleName>
-            <roleName>Coronel</roleName>
-            <note></note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="damasceno_tenente_coronel_rrg">
+                <roleName>Tenente-coronel</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <state type="roleInTime" xml:id="damasceno_coronel_rrg">
+                <roleName>Coronel</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            
+            <note>Oficial farroupilha morto em combate, mencionado em ação militar relatada por Francisco Pedro de Abreu.</note>
         </person>
         
         <person xml:id="jose_inacio_cunha">
@@ -1854,7 +1860,21 @@
         
         <person xml:id="jose_alves_morais">
             <persName>José Alves de Morais</persName>
-            <note>Tenente-coronel e Comandante da Guarnição de Caçapava.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="morais_tenente_coronel_rrg">
+                <roleName>Tenente-coronel</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <state type="roleInTime" xml:id="morais_comandante_cacapava">
+                <roleName>Comandante da Guarnição de Caçapava</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <state type="roleInTime" xml:id="morais_deputado_rrg">
+                <roleName>Deputado à Assembleia Constituinte</roleName>
+                <affiliation ref="#assembleia_geral"/>
+                <date when="1838"/>
+            </state>
+            <note>Oficial farroupilha, Tenente-coronel e Comandante da Guarnição de Caçapava. Eleito deputado à Assembleia Constituinte da República Rio-Grandense em 1838.</note>
         </person>
         
         <person xml:id="claudio_piedade">
@@ -3282,9 +3302,23 @@
             <note>Mencionado como envolvido na expedição de gado apartado.</note>
         </person>
         
-        <person xml:id="jose_amaral_ferrador">
-            <persName>José Amaral Ferrador</persName>
-            <note>Mencionado com posto de capitão na carta, solicitante de peça de chita para camisas.</note>
+        <person xml:id="amaral_ferrador">
+            <persName>José do Amaral Ferrador</persName>
+            <idno type="project"></idno>
+            <birth when="1801"/>
+            <death when="1879"/>
+            <state type="roleInTime" xml:id="amaral_ferrador_farroupilha">
+                <roleName>Capitão-tenente</roleName>
+                <roleName>Major</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <note>Oficial farroupilha, atuante durante a Revolução Farroupilha.</note>
+            </state>
+            <state type="roleInTime" xml:id="amaral_ferrador_imperial">
+                <roleName>Coronel honorário</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <note>Participou da Guerra do Paraguai servindo ao Exército Imperial.</note>
+            </state>
+            <note>Militar de longa carreira, serviu à República Rio-grandense e posteriormente ao Exército Imperial, alcançando o posto de coronel honorário.</note>
         </person>
         
         <person xml:id="evaristo">
@@ -3836,37 +3870,73 @@
         
         <person xml:id="joao_antonio">
             <persName>João Antônio</persName>
-            <note>Capitão do iate “Ventura Feliz”, mencionado como comandante da embarcação utilizada na operação.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="joao_antonio_capitao">
+                <roleName>Capitão do barco Ventura Feliz</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
         </person>
         
         <person xml:id="jose_ricardo">
             <persName>José Ricardo</persName>
-            <note>Tenente, comandante de uma escuna de guerra que acompanhou a operação descrita.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="jose_ricardo_tenente">
+                <roleName>Tenente e comandante da escuna de guerra</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
         </person>
         
         <person xml:id="joao_antonio_lopes">
             <persName>João Antônio Lopes</persName>
-            <note>Indivíduo referido como rebelde, proprietário do iate “São Manuel” apreendido na ação.</note>
+            <idno type="project"></idno>
+            <note>Farroupilha; proprietário do iate São Manoel; preso pelas forças legalistas e teve seu iate apreendido.</note>
         </person>
         
         <person xml:id="chico_rocha">
             <persName>Chico Rocha</persName>
-            <note>Homem citado como avisador dos anarquistas, responsável por alertar seus colegas e impedir prisões.</note>
+            <idno type="project"></idno>
+            <note>Farroupilha acusado de furtar cavalos e avisar outros farroupilhas para se esconderem.</note>
         </person>
         
         <person xml:id="miguel_barbosa">
             <persName>Miguel Barbosa</persName>
+            <idno type="project"></idno>
             <note>Proprietário do sítio onde foi tomada uma peça de bronze com seus reparos.</note>
         </person>
         
         <person xml:id="sebastiao_afonso_silva">
             <persName>Sebastião Afonso da Silva</persName>
-            <note>Portador da carta e designado como bombeiro para observação do inimigo.</note>
+            <idno type="project"></idno>
+            <note>Bombeiro enviado por Francisco Pedro de Abreu para vigiar os movimentos do inimigo, conforme carta ao marechal Antônio Elzeario de Miranda e Brito.</note>
         </person>
         
-        <person xml:id="antonio_elzeário_miranda_brito">
+        <person xml:id="jose_luis_silva">
+            <persName>José Luís da Silva</persName>
+            <idno type="project"></idno>
+            <note>Bombeiro destacado por Francisco Pedro de Abreu para monitorar passos do inimigo, conforme correspondência militar legalista.</note>
+        </person>
+        
+        <person xml:id="antonio_elzeario_miranda_brito">
             <persName>Antônio Elzeário de Miranda e Brito</persName>
-            <note>Destinatário da carta, identificado como Marechal-de-campo, Presidente da Província e Comandante das Armas.</note>
+            <idno type="viaf">https://viaf.org/viaf/57836106</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q9621570</idno>
+            <birth when="1784"/>
+            <death when="1869-04-23"/>
+            <state type="roleInTime" xml:id="miranda_brito_presidente_rs_1836">
+                <roleName>Presidente da Província do Rio Grande do Sul</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1836-06-03"/>
+                <date type="end" when="1837-01-04"/>
+            </state>
+            <state type="roleInTime" xml:id="miranda_brito_marechal_campo">
+                <roleName>Marechal-de-campo</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="miranda_brito_comandante_armas">
+                <roleName>Comandante das Armas da Província</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Oficial superior do Exército Imperial, marechal-de-campo e presidente da Província do Rio Grande do Sul durante os primeiros anos da Revolução Farroupilha. Figura central na organização militar e administrativa da resistência legalista.</note>
         </person>
         
         <person xml:id="tomas_jose_silva">
@@ -3885,125 +3955,204 @@
         
         <person xml:id="jose_cesario_abreu">
             <persName>José Cesário de Abreu</persName>
-            <note>Capitão identificado como encarregado do expediente e responsável pela autenticação da cópia.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="jose_cesario_abreu_capitao_expediente">
+                <roleName>Capitão Encarregado do Expediente</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Oficial legalista; autenticou cópias encaminhadas por Francisco Pedro de Abreu, exercendo função administrativa no comando imperial.</note>
         </person>
         
         <person xml:id="manuel_bento">
             <persName>Manuel Bento</persName>
-            <note>Responsável pelo contingente adicional de 24 praças citadas.</note>
+            <idno type="project"></idno>
+            <note>Oficial legalista responsável por um destacamento de 24 praças que integrou a operação comandada por Francisco Pedro de Abreu.</note>
         </person>
         
         <person xml:id="marianito_martins">
             <persName>Marianito Martins</persName>
+            <idno type="project"></idno>
+            <note>Capitão de cavalaria legalista atuante na operação naval e terrestre organizada por Francisco Pedro de Abreu.</note>
         </person>
         
         <person xml:id="vitor_neves">
             <persName>Vitor Neves</persName>
+            <idno type="project"></idno>
+            <note>Capitão legalista mencionado como participante voluntário da expedição contra forças farroupilhas.</note>
         </person>
         
         <person xml:id="paulo_jose_abreu">
             <persName>Paulo José de Abreu</persName>
+            <idno type="project"></idno>
+            <note>Tenente legalista que integrou a operação descrita em carta de Francisco Pedro de Abreu.</note>
         </person>
         
         <person xml:id="joaquim_rodrigues_jaques">
             <persName>Joaquim Rodrigues Jaques</persName>
+            <idno type="project"></idno>
+            <note>Alferes legalista participante da expedição fluvial e terrestre contra forças rebeldes.</note>
         </person>
         
         <person xml:id="godinho">
             <persName>Godinho</persName>
+            <idno type="project"></idno>
+            <note>Alferes legalista que atuou como parte dos oficiais embarcados na operação militar.</note>
         </person>
         
         <person xml:id="jose_joaquim_neves">
             <persName>José Joaquim Neves</persName>
+            <idno type="project"></idno>
+            <note>Major legalista que integrou a expedição destinada a interceptar carretas enviadas por Bento Manuel aos farroupilhas.</note>
         </person>
         
         <person xml:id="jose_inacio_ourives">
             <persName>José Inácio Ourives</persName>
+            <idno type="project"></idno>
+            <note>Capitão legalista mencionado entre os oficiais que participaram da operação sob comando de Salustiano.</note>
         </person>
         
         <person xml:id="jose_garcia">
             <persName>José Garcia</persName>
+            <idno type="project"></idno>
+            <note>Capitão legalista atuante na expedição organizada em resposta às ações de Bento Manuel Ribeiro.</note>
         </person>
         
         <person xml:id="demetrio_garcia">
             <persName>Demétrio Garcia</persName>
+            <idno type="project"></idno>
+            <note>Tenente legalista mencionado entre os participantes da operação militar combinada.</note>
         </person>
         
         <person xml:id="manuel_costa_guimaraes">
             <persName>Manuel da Costa Guimarães</persName>
+            <idno type="project"></idno>
+            <note>Alferes legalista que tomou parte na expedição relatada por Francisco Pedro de Abreu.</note>
         </person>
         
         <person xml:id="ferreira">
             <persName>Ferreira</persName>
+            <idno type="project"></idno>
+            <note>Alferes legalista listado entre os oficiais envolvidos na operação militar.</note>
         </person>
         
         <person xml:id="esteves">
             <persName>Esteves</persName>
+            <idno type="project"></idno>
+            <note>Particular legalista voluntário que acompanhou a expedição organizada por Francisco Pedro de Abreu.</note>
         </person>
         
         <person xml:id="rocha">
             <persName>Rocha</persName>
+            <idno type="project"></idno>
+            <note>Particular legalista voluntário participante da expedição contra forças rebeldes.</note>
         </person>
         
         <person xml:id="salustiano">
             <persName>Salustiano</persName>
+            <idno type="project"></idno>
+            <note>Coronel legalista sob cujas ordens marcharam as forças reunidas para apreender as carretas enviadas por Bento Manuel Ribeiro.</note>
         </person>
-
-        <person xml:id="jose_almeida_rebelde">
+        
+        <person xml:id="jose_almeida">
             <persName>José de Almeida</persName>
+            <idno type="project"></idno>
+            <note>Tenente ou capitão farroupilha mencionado como comandante de uma força rebelde derrotada em operação legalista.</note>
         </person>
-
-        <person xml:id="juca_leao">
-            <persName>Juca Leão</persName>
-        </person>
-
+        
         <person xml:id="eusebio">
             <persName>Eusébio</persName>
+            <idno type="project"></idno>
+            <note>Capataz farroupilha a serviço de Juca Leão; morto durante ação militar em Arroio dos Ratos.</note>
+        </person>
+        
+        <person xml:id="juca_leao">
+            <persName>Juca Leão</persName>
+            <idno type="project"></idno>
+            <note>Charqueador farroupilha da região de Arroio dos Ratos.</note>
         </person>
         
         <person xml:id="estevao">
             <persName>Estevão</persName>
-            <note>Indivíduo mencionado como voluntário para administrar e comandar peça em forte.</note>
-        </person>
-        
-        <person xml:id="cruz">
-            <persName>Cruz</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="estevao_oficial_imperial">
+                <roleName>Oficial</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <note>Oficial legalista que se ofereceu para administrar o forte durante a ausência de Francisco Pedro de Abreu.</note>
+            </state>
+            <note>Figura de atuação local, identificada apenas pelo prenome; colaborou com o comando imperial na administração do forte.</note>
         </person>
         
         <person xml:id="capitao_augusto">
             <persName>Capitão Augusto</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="capitao_augusto_oficial_imperial">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Oficial legalista mencionado em correspondência de Francisco Pedro de Abreu.</note>
         </person>
         
         <person xml:id="felisberto">
             <persName>Felisberto</persName>
-        </person>
-        
-        <person xml:id="simas">
-            <persName>Simas</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="felisberto_oficial_imperial">
+                <roleName>Oficial</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Oficial legalista mencionado por Francisco Pedro de Abreu.</note>
         </person>
         
         <person xml:id="jose_joao_castro">
             <persName>José João de Castro</persName>
-        </person>
-        
-        <person xml:id="major_simas">
-            <persName>Major Simas</persName>
+            <persName type="role">Furriel</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="castro_furriel_imperial">
+                <roleName>Furriel</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Furriel do Exército Imperial referido em operações conduzidas por Francisco Pedro de Abreu.</note>
         </person>
         
         <person xml:id="mombach">
-            <persName>Mombaque</persName>
+            <persName>Mombach</persName>
+            <persName type="variant">Mombaque</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="mombach_oficial_imperial">
+                <roleName>Oficial</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Oficial legalista cuja grafia varia como “Mombaque” nas fontes.</note>
         </person>
         
         <person xml:id="oliveira">
             <persName>Oliveira</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="oliveira_oficial_imperial">
+                <roleName>Oficial</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Oficial do Exército Imperial citado por Francisco Pedro de Abreu.</note>
         </person>
         
         <person xml:id="rodrigo_lamare">
             <persName>Rodrigo Antônio de Lamare</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="lamare_primeiro_tenente_imperial">
+                <roleName>1.º Tenente</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>1.º Tenente legalista mencionado em operações relatadas por Francisco Pedro de Abreu.</note>
         </person>
         
-        <person xml:id="juca_custodio">
-            <persName>Juca Custódio</persName>
+        <person xml:id="tenente_caldeira">
+            <persName>Tenente Caldeira</persName>
+            <persName type="variant">Juca Custódio</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="caldeira_tenente_rrg">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Tenente farroupilha ferido na caixa do corpo em confronto relatado por Francisco Pedro de Abreu.</note>
         </person>
         
         <person xml:id="visconde_castro">
@@ -4033,6 +4182,13 @@
         
         <person xml:id="francisco_felix_fonseca">
             <persName>Francisco Félix da Fonseca</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="fonseca_major_imperial">
+                <roleName>Major</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date when="1840"/>
+            </state>
+            <note>Major legalista e comandante do 8.º Batalhão, citado em correspondência de Francisco Pedro de Abreu.</note>
         </person>
 
         <person xml:id="eleuterio_jose_pereira">
@@ -4133,11 +4289,6 @@
         <person xml:id="julio_viana">
             <persName>Júlio Viana</persName>
             <note>Alferes legalista.</note>
-        </person>
-        
-        <person xml:id="alferes_cruz">
-            <persName>Cruz</persName>
-            <note>Alferes mencionado várias vezes em combate.</note>
         </person>
         
         <person xml:id="alferes_machado">
@@ -4958,7 +5109,12 @@
         
         <person xml:id="manuel_jose_simas">
             <persName>Manuel José de Simas</persName>
-            <note>Major referido como destinatário da ordem reservada emitida pelo Presidente Saturnino.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="manuel_simas_major_imperial">
+                <roleName>Major</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Major legalista, destinatário de ordem reservada emitida pelo Presidente Saturnino na correspondência militar.</note>
         </person>
         
         <person xml:id="luis_jose_ribeiro_barreto">

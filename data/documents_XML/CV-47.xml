@@ -1,31 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-47 – Relato de expedição militar</title>
                 <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-06-27">27 de junho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
-                    <placeName ref="#picada">Acampamento da Picada</placeName>
                     <date when="1838-11-09">9 de novembro de 1838</date>
                 </correspAction>
                 <correspAction type="received">
@@ -33,6 +97,18 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-06-27">27/06/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-10-26">26/11/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     <text>
@@ -43,20 +119,62 @@
                     <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Conforme as ordens de <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, no dia 4 do corrente, à meia-noite, segui embarcado em 4 iates e duas canhoneiras e 5 lanchões de guerra, com 60 praças de cavalaria do esquadrão de meu comando, com mais 24 praças de <persName ref="#manuel_bento">Manuel Bento</persName> fazem 84 de cavalaria, e os oficiais do mesmo esquadrão, o Capitão <persName ref="#marianito_martins">Marianito Martins</persName>, o Capitão <persName ref="#vitor_neves">Vitor Neves</persName>, o Tenente <persName ref="#paulo_jose_abreu">Paulo José de Abreu</persName>, o Alferes <persName ref="#joaquim_rodrigues_jaques">Joaquim Rodrigues Jaques</persName>, o Alferes <persName ref="#godinho">Godinho</persName> e outros oficiais de cavalaria que voluntariamente se ofereceram, assim como o Major <persName ref="#jose_joaquim_neves">José Joaquim Neves</persName>, o Capitão <persName ref="#jose_inacio_ourives">José Inácio Ourives</persName>, o Capitão <persName ref="#jose_garcia">José Garcia</persName>, o Tenente <persName ref="#demetrio_garcia">Demétrio Garcia</persName>, o Alferes <persName ref="#manuel_costa_guimaraes">Manuel da Costa Guimarães</persName>, o Alferes <persName ref="#ferreira">Ferreira</persName> e outros particulares, assim como <persName ref="#esteves">Esteves</persName> e <persName ref="#rocha">Rocha</persName>, e 450 praças de infantaria e artilharia com seus oficiais, tudo debaixo das ordens do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#salustiano">Salustiano</persName>, a fim de apresar uma porção de carretas importantes que o rebelde <persName ref="#bento_manuel">Bento Manuel Ribeiro</persName> havia mandado passar no <placeName ref="#rio_cai">rio do Caí</placeName>, a seguirem para <placeName ref="#piratini">Piratini</placeName>.</p>
+                <p>Conforme as ordens de <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, no dia 4 do corrente, 
+                    à meia-noite, segui embarcado em 4 iates e duas canhoneiras e 5 lanchões de guerra, com 60 praças de cavalaria 
+                    do esquadrão de meu comando, com mais 24 praças de <persName ref="#manuel_bento">Manuel Bento</persName> fazem 
+                    84 de cavalaria, e os oficiais do mesmo esquadrão, o Capitão <persName ref="#marianito_martins">Marianito Martins</persName>, 
+                    o Capitão <persName ref="#vitor_neves">Vitor Neves</persName>, o Tenente <persName ref="#paulo_jose_abreu">Paulo José de Abreu</persName>, 
+                    o Alferes <persName ref="#joaquim_rodrigues_jaques">Joaquim Rodrigues Jaques</persName>, 
+                    o Alferes <persName ref="#godinho">Godinho</persName> e outros oficiais de cavalaria que voluntariamente se ofereceram, 
+                    assim como o Major <persName ref="#jose_joaquim_neves">José Joaquim Neves</persName>, o Capitão <persName ref="#jose_inacio_ourives">José Inácio Ourives</persName>, 
+                    o Capitão <persName ref="#jose_garcia">José Garcia</persName>, 
+                    o Tenente <persName ref="#demetrio_garcia">Demétrio Garcia</persName>, 
+                    o Alferes <persName ref="#manuel_costa_guimaraes">Manuel da Costa Guimarães</persName>, 
+                    o Alferes <persName ref="#ferreira">Ferreira</persName> e outros particulares, assim como 
+                    <persName ref="#esteves">Esteves</persName> e <persName ref="#rocha">Rocha</persName>, e 450 praças de infantaria 
+                    e artilharia com seus oficiais, tudo debaixo das ordens do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel 
+                    <persName ref="#salustiano">Salustiano</persName>, a fim de apresar uma porção de carretas importantes que o rebelde 
+                    <persName ref="#bento_manoel">Bento Manuel Ribeiro</persName> havia mandado passar no 
+                    <placeName ref="#rio_cai">rio do Caí</placeName>, a seguirem para <placeName ref="#piratini">Piratini</placeName>.</p>
                 
-                <p>Chegando esta expedição no dia 5, às 10 horas do dia, na <placeName ref="#ponta_rasa">Ponta Rasa</placeName>, aonde havia destinado seu desembarque, aí teve notícia de as carretas já terem seguido; e assim seguiu a expedição para a vila do <placeName ref="#triunfo">Triunfo</placeName> e, por ordem do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#salustiano">Salustiano</persName>, no dia 6, às 6 horas da madrugada, desembarcou, abaixo da vila meia légua, a cavalaria e 170 homens de infantaria, e foi cercada a vila por terra e mar, e no fechar o cerco, se desviava da vila uma força de 40 e tantos homens, comandada por um tenente ou capitão rebelde <persName ref="#jose_almeida_rebelde">José de Almeida</persName>, o qual, perseguindo-o com a cavalaria, foi derrotado completamente na <placeName ref="#volta_sabino">Volta do Sabino</placeName>, aonde dos rebeldes ficaram 8 mortos e 6 prisioneiros, e outros deixando cavalos se arrojaram ao mar; e dos nossos só foram feridos levemente dois soldados, um por baixo do queixo e outro na mão, e com espada.</p>
+                <p>Chegando esta expedição no dia 5, às 10 horas do dia, na <placeName ref="#ponta_rasa">Ponta Rasa</placeName>, aonde 
+                    havia destinado seu desembarque, aí teve notícia de as carretas já terem seguido; e assim seguiu a expedição para a 
+                    vila do <placeName ref="#triunfo">Triunfo</placeName> e, por ordem do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    Coronel <persName ref="#salustiano">Salustiano</persName>, no dia 6, às 6 horas da madrugada, desembarcou, abaixo da 
+                    vila meia légua, a cavalaria e 170 homens de infantaria, e foi cercada a vila por terra e mar, e no fechar o cerco, 
+                    se desviava da vila uma força de 40 e tantos homens, comandada por um tenente ou capitão rebelde 
+                    <persName ref="#jose_almeida_rebelde">José de Almeida</persName>, o qual, perseguindo-o com a cavalaria, 
+                    foi derrotado completamente na Volta do Sabino, aonde dos rebeldes ficaram 
+                    8 mortos e 6 prisioneiros, e outros deixando cavalos se arrojaram ao mar; e dos nossos só foram feridos levemente 
+                    dois soldados, um por baixo do queixo e outro na mão, e com espada.</p>
                 
-                <p>Ficaram em nosso poder, do inimigo, 150 cavalos e 20 bois mansos, depois do que me retirei para a vila, aonde foram apreendidas 20 pipas de aguardente que os rebeldes tinham em depósito a seguir para <placeName ref="#piratini">Piratini</placeName>, bem como um bocado de farinha de mandioca; e como as carretas, no dia 4 do corrente, já tivessem passado o <placeName ref="#passo_taquari">passo de Taquari</placeName>, passei no dia 6 com a cavalaria para o outro lado da vila, e no dia 7, entre a charqueada de <persName ref="#juca_leao">Juca Leão</persName> e o <placeName ref="#arroio_ratos">arroio dos Ratos</placeName>, fiz destroçcar uma partida de rebeldes, ficando 6 ou 7 mortos e dois feridos gravemente prisioneiros, e dos mortos foi também o grande assassino <persName ref="#eusebio">Eusébio</persName>, capataz de <persName ref="#juca_leao">Juca Leão</persName>.</p>
+                <p>Ficaram em nosso poder, do inimigo, 150 cavalos e 20 bois mansos, depois do que me retirei para a vila, aonde foram 
+                    apreendidas 20 pipas de aguardente que os rebeldes tinham em depósito a seguir para 
+                    <placeName ref="#piratini">Piratini</placeName>, bem como um bocado de farinha de mandioca; e como as carretas, no 
+                    dia 4 do corrente, já tivessem passado o passo de <placeName ref="#taquari">Taquari</placeName>, passei no 
+                    dia 6 com a cavalaria para o outro lado da vila, e no dia 7, entre a charqueada de <persName ref="#juca_leao">Juca Leão</persName> 
+                    e o <placeName ref="#arroio_ratos">arroio dos Ratos</placeName>, fiz destroçcar uma partida de rebeldes, ficando 6 
+                    ou 7 mortos e dois feridos gravemente prisioneiros, e dos mortos foi também o grande assassino 
+                    <persName ref="#eusebio">Eusébio</persName>, capataz de <persName ref="#juca_leao">Juca Leão</persName>.</p>
                 
-                <p>E tanto nesta como na outra empresa na <placeName ref="#volta_sabino">Volta do Sabino</placeName>, se portaram todos os de cavalaria com desmarcado valor, sendo muito de louvar a boa vontade e coragem dos senhores oficiais já referidos, que todos eram empenhados em avançar primeiro e assim também os particulares que armados e de cavalo acompanharam a expedição.</p>
+                <p>E tanto nesta como na outra empresa na Volta do Sabino, se portaram todos os 
+                    de cavalaria com desmarcado valor, sendo muito de louvar a boa vontade e coragem dos senhores oficiais já referidos, 
+                    que todos eram empenhados em avançar primeiro e assim também os particulares que armados e de cavalo acompanharam a 
+                    expedição.</p>
                 
-                <p>No <placeName ref="#arroio_ratos">arroio dos Ratos</placeName> desembarcou o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#salustiano">Salustiano</persName> com 300 e tantas praças de infantaria e se reuniu à cavalaria do meu comando; e marchamos por terra, não só para bater <persName ref="#amaral_ferrador">Amaral Ferrador</persName>, no caso de ser encontrado, como também para juntar e conduzir algumas reses para fornecimento das tropas, como dos hospitais e povo da cidade; e não encontrando a força do rebelde <persName ref="#amaral_ferrador">Amaral Ferrador</persName>, reunimos 300 e tantas reses dos campos dos rebeldes, e com elas entramos na <placeName ref="#picada">Picada</placeName> no dia 9 do corrente com toda a referida cavalhada tomada do inimigo, reunindo-se assim em dito dia no acampamento da <placeName ref="#picada">Picada</placeName> toda a expedição de mar e terra, sem quebra de um homem.</p>
+                <p>No <placeName ref="#arroio_ratos">arroio dos Ratos</placeName> desembarcou o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    Coronel <persName ref="#salustiano">Salustiano</persName> com 300 e tantas praças de infantaria e se reuniu à cavalaria do meu 
+                    comando; e marchamos por terra, não só para bater <persName ref="#amaral_ferrador">Amaral Ferrador</persName>, no caso de ser 
+                    encontrado, como também para juntar e conduzir algumas reses para fornecimento das tropas, como dos hospitais e povo da cidade; 
+                    e não encontrando a força do rebelde <persName ref="#amaral_ferrador">Amaral Ferrador</persName>, reunimos 300 e tantas reses dos 
+                    campos dos rebeldes, e com elas entramos na <placeName ref="#picada">Picada</placeName> no dia 9 do corrente com toda a 
+                    referida cavalhada tomada do inimigo, reunindo-se assim em dito dia no acampamento da 
+                    <placeName ref="#picada">Picada</placeName> toda a expedição de mar e terra, sem quebra de um homem.</p>
                 
                 <p>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> por muitos anos.</p>
                 
                 <closer>
-                    <dateline><placeName ref="#picada">Acampamento da Picada</placeName>, <date when="1838-11-09">9 de novembro de 1838</date>.</dateline>
+                    <dateline>Acampamento da Picada, <date when="1838-11-09">9 de novembro de 1838</date>.</dateline>
                     <signed>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>,<br/>Major.</signed>
                 </closer>
                 

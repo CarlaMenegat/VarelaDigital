@@ -352,57 +352,63 @@ hrao:belongsToUnit a owl:ObjectProperty ;
     rdfs:range  prov:Agent .
 
 #################################################################
-# Property: hrao:sowedDiscordBetween
+# Property: hrao:hasKinAmong
 #################################################################
 
-hrao:sowedDiscordBetween a owl:ObjectProperty ;
-    rdfs:label "sowed discord between"@en ;
-    rdfs:comment "Indicates that an agent intentionally created conflict, intrigue, or discord between two other agents or authorities."@en ;
+hrao:hasKinAmong a owl:ObjectProperty, owl:SymmetricProperty ;
+    rdfs:label "has kin among"@en ;
+    rdfs:comment "Indicates that an agent has relatives among a group, faction, or set of agents, without specifying the exact degree of kinship."@en ;
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+    rdfs:domain prov:Agent ;
+    rdfs:range  prov:Agent .
+
+
+#################################################################
+# Property: hrao:hasChildrenAmong
+#################################################################
+
+hrao:hasChildrenAmong a owl:ObjectProperty ;
+    rdfs:label "has children among"@en ;
+    rdfs:comment "Indicates that an agent has one or more children within a particular group, faction, or set of agents."@en ;
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+    rdfs:domain prov:Agent ;
+    rdfs:range  prov:Agent .
+
+
+#################################################################
+# Property: hrao:inConflictWith
+#################################################################
+
+hrao:inConflictWith a owl:ObjectProperty, owl:SymmetricProperty ;
+    rdfs:label "in conflict with"@en ;
+    rdfs:comment "Indicates that two agents were in conflict, opposition, or antagonistic engagement within a historical context."@en ;
     rdfs:subPropertyOf prov:wasInfluencedBy ;
     rdfs:domain prov:Agent ;
     rdfs:range  prov:Agent .
 
 #################################################################
-# Property: hrao:heldPossessionOf
+# Property: hrao:hadPropertyConfiscatedBy
 #################################################################
 
-hrao:heldPossessionOf a owl:ObjectProperty ;
-    rdfs:label "held possession of"@en ;
-    rdfs:comment "Indicates that a person held long-term possession or occupation of a territory, estate, or land parcel."@en ;
-    rdfs:subPropertyOf prov:hadInfluenceOn .
+hrao:hadPropertyConfiscatedBy a owl:ObjectProperty ;
+    rdfs:label "had property confiscated by"@en ;
+    rdfs:comment "Indicates that a person or agent had their property confiscated, seized, or appropriated by another agent, typically in military or political conflict."@en ;
+
+    # Semantic anchoring
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+
+    # Domain and range
+    rdfs:domain prov:Agent ;
+    rdfs:range  prov:Agent .
 
 #################################################################
-# Property: hrao:receivedLandGrantFor
+# Property: hrao:requestedPaymentFor
 #################################################################
 
-hrao:receivedLandGrantFor a owl:ObjectProperty ;
-    rdfs:label "received land grant for"@en ;
-    rdfs:comment "Indicates that a person received a formal land grant (e.g., sesmaria) for a specific territory."@en ;
-    rdfs:subPropertyOf prov:wasInfluencedBy .
+hrao:requestedPaymentFor a owl:ObjectProperty ;
+    rdfs:label "requested payment for"@en ;
+    rdfs:comment "Indicates that an agent requested that another agent receive payment or financial compensation, typically in military or administrative contexts."@en ;
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+    rdfs:domain prov:Agent ;
+    rdfs:range prov:Agent .
 
-#################################################################
-# Property: hrao:petitionedTo
-#################################################################
-
-hrao:petitionedTo a owl:ObjectProperty ;
-    rdfs:label "petitioned to"@en ;
-    rdfs:comment "Indicates that an individual submitted a petition or formal request to an authority."@en ;
-    rdfs:subPropertyOf prov:wasInfluencedBy .
-
-#################################################################
-# Property: hrao:issuedAdministrativeDecision
-#################################################################
-
-hrao:issuedAdministrativeDecision a owl:ObjectProperty ;
-    rdfs:label "issued administrative decision"@en ;
-    rdfs:comment "Indicates that an authority issued an administrative judgment, dispatch, or directive affecting another agent."@en ;
-    rdfs:subPropertyOf prov:wasInfluencedBy .
-
-#################################################################
-# Property: hrao:redirectedToAuthority
-#################################################################
-
-hrao:redirectedToAuthority a owl:ObjectProperty ;
-    rdfs:label "redirected to authority"@en ;
-    rdfs:comment "Indicates that a petition or request was redirected to another competent authority."@en ;
-    rdfs:subPropertyOf prov:wasInfluencedBy .

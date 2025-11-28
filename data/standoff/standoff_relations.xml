@@ -613,175 +613,54 @@
             passive="#francisco_jose_nascimento_junior"/>
         
         <relation
-            name="hrao:receivedPrisoners"
-            active="#antonio_pedro_abreu"
-            passive="#candido_machado_sousa"/>
-        <relation
-            name="hrao:receivedPrisoners"
-            active="#antonio_pedro_abreu"
-            passive="#sebastiao_gomes"/>
-        <relation
-            name="hrao:receivedPrisoners"
-            active="#antonio_pedro_abreu"
-            passive="#francisco_machado"/>
-        <relation
-            name="hrao:receivedPrisoners"
-            active="#antonio_pedro_abreu"
-            passive="#joao_rodrigues"/>
-        <relation
-            name="hrao:receivedPrisoners"
-            active="#antonio_pedro_abreu"
-            passive="#inacio_furtado"/>
-        <relation
-            name="hrao:receivedPrisoners"
-            active="#antonio_pedro_abreu"
-            passive="#manuel_jose_santos"/>
-        <relation
-            name="hrao:receivedPrisoners"
-            active="#antonio_pedro_abreu"
-            passive="#feliciano_francisco"/>
-        <relation
-            name="hrao:receivedPrisoners"
-            active="#antonio_pedro_abreu"
-            passive="#francisco_jose_nascimento_junior"/>
-        
-        <relation
-            name="hrao:deliveredPrisoners"
-            active="#alferes_ferreira"
-            passive="#candido_machado_sousa"/>
-        <relation
-            name="hrao:deliveredPrisoners"
-            active="#alferes_ferreira"
-            passive="#sebastiao_gomes"/>
-        <relation
-            name="hrao:deliveredPrisoners"
-            active="#alferes_ferreira"
-            passive="#francisco_machado"/>
-        <relation
-            name="hrao:deliveredPrisoners"
-            active="#alferes_ferreira"
-            passive="#joao_rodrigues"/>
-        <relation
-            name="hrao:deliveredPrisoners"
-            active="#alferes_ferreira"
-            passive="#inacio_furtado"/>
-        <relation
-            name="hrao:deliveredPrisoners"
-            active="#alferes_ferreira"
-            passive="#manuel_jose_santos"/>
-        <relation
-            name="hrao:deliveredPrisoners"
-            active="#alferes_ferreira"
-            passive="#feliciano_francisco"/>
-        <relation
-            name="hrao:deliveredPrisoners"
-            active="#alferes_ferreira"
-            passive="#francisco_jose_nascimento_junior"/>
-        
-        <relation
-            name="hrao:wasImprisonedBy"
+            name="hrao:wasPrisonerOf"
             active="#candido_machado_sousa"
             passive="#imperio_brasil"/>
         
         <relation
-            name="hrao:wasImprisonedBy"
+            name="hrao:wasPrisonerOf"
             active="#sebastiao_gomes"
             passive="#imperio_brasil"/>
         
         <relation
-            name="hrao:wasImprisonedBy"
+            name="hrao:wasPrisonerOf"
             active="#francisco_machado"
             passive="#imperio_brasil"/>
         
         <relation
-            name="hrao:wasImprisonedBy"
+            name="hrao:wasPrisonerOf"
             active="#joao_rodrigues"
             passive="#imperio_brasil"/>
         
         <relation
-            name="hrao:wasImprisonedBy"
+            name="hrao:wasPrisonerOf"
             active="#inacio_furtado"
             passive="#imperio_brasil"/>
         
         <relation
-            name="hrao:wasImprisonedBy"
+            name="hrao:wasPrisonerOf"
             active="#manuel_jose_santos"
             passive="#imperio_brasil"/>
         
         <relation
-            name="hrao:wasImprisonedBy"
+            name="hrao:wasPrisonerOf"
             active="#feliciano_francisco"
             passive="#imperio_brasil"/>
         
         <relation
-            name="hrao:wasImprisonedBy"
+            name="hrao:wasPrisonerOf"
             active="#francisco_jose_nascimento_junior"
             passive="#imperio_brasil"/>
-        
-        <relation
-            name="hrao:transferredToCustodyOf"
-            active="#antonio_pedro_abreu"
-            passive="#dr_fagundes"/>
-        
-        <relation
-            name="hrao:wasTransferredTo"
-            active="#francisco_jose_nascimento_junior"
-            passive="#dr_fagundes"/>
         
         <relation
             name="hrao:commanded"
             active="#tomas_jose_silva"
             passive="#antonio_pedro_abreu"/>
         
-        <relation 
-            name="hrao:deliveredPrisoners"
+        <relation
+            name="hrao:belongsToUnit"
             active="#alferes_ferreira"
-            passive="#candido_machado_sousa"/>
-        
-        <relation 
-            name="hrao:deliveredPrisoners"
-            active="#alferes_ferreira"
-            passive="#sebastiao_gomes"/>
-        
-        <relation 
-            name="hrao:deliveredPrisoners"
-            active="#alferes_ferreira"
-            passive="#francisco_machado"/>
-        
-        <relation 
-            name="hrao:deliveredPrisoners"
-            active="#alferes_ferreira"
-            passive="#joao_rodrigues"/>
-        
-        <relation 
-            name="hrao:deliveredPrisoners"
-            active="#alferes_ferreira"
-            passive="#inacio_furtado"/>
-        
-        <relation 
-            name="hrao:deliveredPrisoners"
-            active="#alferes_ferreira"
-            passive="#manuel_jose_santos"/>
-        
-        <relation 
-            name="hrao:deliveredPrisoners"
-            active="#alferes_ferreira"
-            passive="#feliciano_francisco"/>
-        
-        <relation 
-            name="hrao:deliveredPrisoners"
-            active="#alferes_ferreira"
-            passive="#francisco_jose_nascimento_junior"/>
-        
-        <relation 
-            name="hrao:transferredToCustodyOf"
-            active="#alferes_ferreira"
-            passive="#imperio_brasil"/>
-        
-        <relation 
-            name="hrao:reportedTo"
-            active="#alferes_ferreira"
-            passive="#tomas_jose_silva"/>
+            passive="#guardas_nacionais_5corpo"/>
         
         <relation
             name="rel:uncleOf"
@@ -829,95 +708,64 @@
             passive="#guardas_nacionais_5corpo"/>
         
         <relation
-            name="hrao:sowedDiscordBetween"
+            name="hrao:hasKinAmong"
             active="#antonio_francisco_almeida"
-            passive="#comandante_canhoneira"/>
+            passive="#republica_rio_grandense"/>
         
         <relation
-            name="hrao:sowedDiscordBetween"
+            name="hrao:hasChildrenAmong"
             active="#antonio_francisco_almeida"
-            passive="#fernando_kersting"/>
+            passive="#republica_rio_grandense"/>
         
         <relation
-            name="hrao:providedIntelligenceTo"
-            active="#antonio_francisco_almeida"
-            passive="#rebeldes_parentes"/>
-        
-        <relation
-            name="hrao:committedViolenceAgainst"
+            name="hrao:alignedWith"
             active="#sete_pernas"
-            passive="#charqueadores_costa_jacui"/>
+            passive="#republica_rio_grandense"/>
         
-        <relation
-            name="hrao:orderedCaptureOf"
-            active="#antonio_pedro_abreu"
-            passive="#sete_pernas"/>
-        
-        <relation
-            name="hrao:commanded"
+        <relation 
+            name="hrao:belongsToUnit"
             active="#joaquim_rodrigues"
-            passive="#partida_legalista"/>
+            passive="#guardas_nacionais_5corpo"/>
         
-        <relation
-            name="hrao:led"
+        <relation 
+            name="schema:member"
             active="#manuel_alz"
-            passive="#forca_rebelde_rrg"/>
+            passive="#republica_rio_grandense"/>
         
-        <relation
-            name="hrao:retreatedTo"
-            active="#forca_rebelde_rrg"
-            passive="#charqueadas"/>
-        
-        <relation
-            name="hrao:engagedAgainst"
-            active="#forca_rebelde_rrg"
-            passive="#partida_legalista"/>
-        
-        <relation
-            name="hrao:wasPrisonerInEvent"
+        <relation 
+            name="schema:member"
             active="#jose_romao_taborda"
-            passive="#surtida_legalista"/>
+            passive="#republica_rio_grandense"/>
         
-        <relation
-            name="hrao:deliveredPrisoners"
-            active="#antonio_pedro_abreu"
-            passive="#jose_romao_taborda"/>
-        
-        <relation
-            name="hrao:transferredToCustodyOf"
+        <relation 
+            name="hrao:wasTakenPrisonerBy"
             active="#jose_romao_taborda"
-            passive="#fernando_kersting"/>
+            passive="#imperio_brasil"/>
         
-        <relation
+        <relation 
+            name="schema:member"
+            active="#claudio_abreu"
+            passive="#republica_rio_grandense"/>
+        
+        <relation 
             name="hrao:heldPossessionOf"
             active="#claudio_abreu"
-            passive="#inhandui_rincao"/>
+            passive="#inhanduí_rincao"/>
         
-        <relation
+        <relation 
             name="hrao:receivedLandGrantFor"
             active="#claudio_abreu"
-            passive="#inhandui_rincao"/>
+            passive="#inhanduí_rincao"/>
         
-        <relation
-            name="dcterms:spatial"
-            active="#inhandui_rincao"
+        <relation 
+            name="hrao:hasBorderWith"
+            active="#inhanduí_rincao"
             passive="#jose_antonio_siqueira"/>
         
-        <relation
+        <relation 
             name="hrao:petitionedTo"
             active="#claudio_abreu"
-            passive="#secretaria_interior"/>
-        
-        <relation
-            name="hrao:issuedAdministrativeDecision"
-            active="#sa_brito"
-            passive="#claudio_abreu"/>
-        
-        <relation
-            name="hrao:redirectedToAuthority"
-            active="#sa_brito"
-            passive="#assembleia_geral"/>
-        
+            passive="#sa_brito"/>
         <relation
             name="rel:childOf"
             active="#antonio_jose_goncalves_chaves_filho"
@@ -954,21 +802,6 @@
             passive="#domingos_vicente"/>
         
         <relation
-            name="hrao:wasTransferredTo"
-            active="#domingos_vicente"
-            passive="#oitavo_batalhao"/>
-        
-        <relation
-            name="hrao:transferredToCustodyOf"
-            active="#francisco_pedro_abreu"
-            passive="#oitavo_batalhao"/>
-        
-        <relation
-            name="hrao:reportedTo"
-            active="#francisco_pedro_abreu"
-            passive="#francisco_xavier_cunha"/>
-        
-        <relation
             name="hrao:reportedTo"
             active="#francisco_pedro_abreu"
             passive="#francisco_xavier_cunha"/>
@@ -978,6 +811,230 @@
             active="#francisco_pedro_abreu"
             passive="#francisco_xavier_cunha"/>
         
+        <relation 
+            name="schema:member"
+            active="#jose_ricardo"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#joao_antonio"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#joao_antonio_lopes"
+            passive="#republica_rio_grandense"/>
+        
+        <relation 
+            name="schema:member"
+            active="#chico_rocha"
+            passive="#republica_rio_grandense"/>
+        
+        <relation
+            name="hrao:wasImprisonedBy"
+            active="#joao_antonio_lopes"
+            passive="#francisco_pedro_abreu"/>
+        
+        <relation
+            name="hrao:hadPropertyConfiscatedBy"
+            active="#joao_antonio_lopes"
+            passive="#francisco_pedro_abreu"/>
+        
+        <relation 
+            name="hrao:requestedPaymentFor"
+            active="#francisco_pedro_abreu"
+            passive="#sebastiao_afonso_silva"/>
+        
+        <relation 
+            name="hrao:requestedPaymentFor"
+            active="#francisco_pedro_abreu"
+            passive="#jose_luis_silva"/>
+        
+        <relation 
+            name="hrao:requestedFrom"
+            active="#francisco_pedro_abreu"
+            passive="#antonio_elzeario_miranda_brito"/>
+        
+        <relation 
+            name="hrao:servedUnder"
+            active="#sebastiao_afonso_silva"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="hrao:servedUnder"
+            active="#jose_luis_silva"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="hrao:servedUnder"
+            active="#jose_cesario_abreu"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#manuel_bento"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#marianito_martins"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#vitor_neves"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#paulo_jose_abreu"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#joaquim_rodrigues_jaques"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#godinho"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#jose_joaquim_neves"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#jose_inacio_ourives"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#jose_garcia"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#demetrio_garcia"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#manuel_costa_guimaraes"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#ferreira"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#esteves"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#rocha"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#salustiano"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#jose_almeida"
+            passive="#republica_rio_grandense"/>
+        
+        <relation 
+            name="schema:member"
+            active="#eusebio"
+            passive="#republica_rio_grandense"/>
+        
+        <relation 
+            name="schema:member"
+            active="#juca_leao"
+            passive="#republica_rio_grandense"/>
+        
+        <relation
+            name="rel:employedBy"
+            active="#eusebio"
+            passive="#juca_leao"/>
+        
+        <relation 
+            name="schema:memberOf"
+            active="#amaral_ferrador"
+            passive="#republica_rio_grandense"/>
+        
+        <relation
+            name="schema:memberOf"
+            active="#estevao"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:memberOf"
+            active="#capitao_augusto"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:memberOf"
+            active="#manuel_jose_simas"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:memberOf"
+            active="#felisberto"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:memberOf"
+            active="#jose_joao_castro"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:memberOf"
+            active="#mombach"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:memberOf"
+            active="#oliveira"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:memberOf"
+            active="#francisco_felix_fonseca"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:memberOf"
+            active="#rodrigo_lamare"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:killed"
+            active="#imperio_brasil"
+            passive="#joao_jose_damasceno"/>
+        
+        <relation 
+            name="schema:memberOf"
+            active="#jose_alves_morais"
+            passive="#republica_rio_grandense"/>
+        
+        <relation 
+            name="schema:memberOf"
+            active="#jose_alves_morais"
+            passive="#assembleia_geral"/>
+        
+        <relation 
+            name="schema:memberOf"
+            active="#tenente_caldeira"
+            passive="#republica_rio_grandense"/>
     </standOff>
     
 </TEI>

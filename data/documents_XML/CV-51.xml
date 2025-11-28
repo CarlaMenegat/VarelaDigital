@@ -1,27 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-51 – Relato de operação militar fluvial</title>
                 <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-06-28">28 de junho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
@@ -33,6 +98,18 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-06-28">28/06/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-10-28">28/11/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     <text>
@@ -43,13 +120,32 @@
                     <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Em virtude das ordens de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>, embarquei no dia 27 do mês próximo passado, às 7 horas da tarde, com oitenta homens de cavalaria com seus oficiais e quarenta cavalos, e cento e tantas praças do 8.º Batalhão, ao mando do <persName ref="#francisco_felix_fonseca">Major Francisco Félix da Fonseca</persName>, na barca de vapor “Liberal”, e duas barcas de passar animais, e uma canhoneira do comando do 1.º Tenente <persName ref="#rodrigo_lamare">Rodrigo Antônio de Lamare</persName>.</p>
+                <p>Em virtude das ordens de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>, embarquei no dia 27 do mês 
+                    próximo passado, às 7 horas da tarde, com oitenta homens de cavalaria com seus oficiais e quarenta cavalos, e cento e 
+                    tantas praças do 8.º Batalhão, ao mando do <persName ref="#francisco_felix_fonseca">Major Francisco Félix da Fonseca</persName>, 
+                    na barca de vapor “Liberal”, e duas barcas de passar animais, e uma canhoneira do comando do 1.º Tenente 
+                    <persName ref="#rodrigo_lamare">Rodrigo Antônio de Lamare</persName>.</p>
                 
-                <p>E seguindo à <placeName ref="#triunfo">vila do Triunfo</placeName> e observando as instruções de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> desembarquei às quatro horas da madrugada no porto chamado do <placeName ref="#porto_carvalho">Carvalho</placeName>, com quarenta homens de cavalaria, seguindo as mais forças embarcadas a cercar a <placeName ref="#triunfo">vila do Triunfo</placeName> da parte do mar; seguindo eu repentinamente por terra encontrei uma partida rebelde comandada por um <persName ref="#morais">Tenente-coronel Morais</persName>; foi pelos legais derrotada, escapando-se o dito comandante, deixando cavalo arreado, mala e roupa; ficaram prisioneiros um cirurgião, um mulato e dois negros, e penso destes um ser cativo; ficaram mortos um tenente das partes da <placeName ref="#cachoeira">Cachoeira</placeName> chamado <persName ref="#damasceno">Damasceno</persName> e dois negros lanceiros; e um <persName ref="#tenente_caldeira">Tenente Caldeira</persName>, ou <persName ref="#juca_custodio">Juca Custódio</persName>, foi baleado na caixa do corpo; e nos legais não houve novidade alguma.</p>
+                <p>E seguindo à <placeName ref="#triunfo">vila do Triunfo</placeName> e observando as instruções de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> 
+                    desembarquei às quatro horas da madrugada no porto chamado do Carvalho, 
+                    com quarenta homens de cavalaria, seguindo as mais forças embarcadas a cercar a 
+                    <placeName ref="#triunfo">vila do Triunfo</placeName> 
+                    da parte do mar; seguindo eu repentinamente por terra encontrei uma partida rebelde comandada por um 
+                    <persName ref="#jose_alves_morais">Tenente-coronel Morais</persName>; foi pelos legais derrotada, escapando-se o dito 
+                    comandante, deixando cavalo arreado, mala e roupa; ficaram prisioneiros um cirurgião, um mulato e dois negros, e 
+                    penso destes um ser cativo; ficaram mortos um tenente das partes da <placeName ref="#cachoeira">Cachoeira</placeName> 
+                    chamado <persName ref="#joao_jose_damasceno">Damasceno</persName> e dois negros lanceiros; e um 
+                    <persName ref="#tenente_caldeira">Tenente Caldeira</persName>, ou <persName ref="#juca_custodio">Juca Custódio</persName>, 
+                    foi baleado na caixa do corpo; e nos legais não houve novidade alguma.</p>
                 
-                <p>Ficaram em nosso poder, dos rebeldes, sessenta e tantos cavalos, alguns arreadores e algum armamento; e seguindo depois imediatamente à <placeName ref="#triunfo">Yila do Triunfo</placeName> por terra, nada encontrei, porque o inimigo daquela polícia, por receoso, se tinha retirado com tudo; apanhei algum gado, que logo fiz passar e cavalos para a <placeName ref="#ilha_paciencia">ilhada Paciência</placeName>, e com tudo bem embarcar perto da barra do <placeName ref="#arroio_ratos">arroio dos Ratos</placeName>.</p>
+                <p>Ficaram em nosso poder, dos rebeldes, sessenta e tantos cavalos, alguns arreadores e algum armamento; e seguindo 
+                    depois imediatamente à <placeName ref="#triunfo">Yila do Triunfo</placeName> por terra, nada encontrei, porque 
+                    o inimigo daquela polícia, por receoso, se tinha retirado com tudo; apanhei algum gado, que logo fiz passar e 
+                    cavalos para a <placeName ref="#ilha_paciencia">ilhada Paciência</placeName>, e com tudo bem embarcar perto da barra do 
+                    <placeName ref="#arroio_ratos">arroio dos Ratos</placeName>.</p>
                 
-                <p>Todos os oficiais e oficiais inferiores e soldados e tripulações de mar e terra de que se compôs a expedição, se mostraram muito ativos.</p>
+                <p>Todos os oficiais e oficiais inferiores e soldados e tripulações de mar e terra de que se compôs a expedição, 
+                    se mostraram muito ativos.</p>
                 
                 <p>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>, muitos anos como havemos mister.</p>
                 

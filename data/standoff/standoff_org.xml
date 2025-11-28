@@ -130,29 +130,9 @@
             <note>Unidade militar da Guarda Nacional do Império do Brasil, atuante durante a Revolução Farroupilha.</note>
         </org>
         
-        <org xml:id="rebeldes_parentes">
-            <orgName>Rebeldes parentes de Antônio Francisco de Almeida</orgName>
-            <affiliation ref="#republica_rio_grandense"/>
-            <note>Grupo de combatentes farroupilhas aparentados a Antônio Francisco de Almeida, aos quais ele buscava repassar informações sobre surtidas legalistas.</note>
-        </org>
-        
-        <org xml:id="partida_legalista" type="militaryUnit">
-            <orgName>Partida legalista</orgName>
-            <affiliation ref="#imperio_brasil"/>
-            <note>Força móvel de tropas legalistas destacada pelo comando da guarnição de Triunfo para operações rápidas contra forças farroupilhas na região do rio Jacuí.</note>
-        </org>
-        
-        <event xml:id="surtida_legalista">
-            <desc>Surtida legalista anterior mencionada por Antônio Pedro de Abreu, na qual foi preso o rebelde José Romão Taborda.</desc>
-            <location>
-                <placeName ref="#triunfo"/>
-            </location>
-            <note>Operação militar de tropas legalistas na região de Triunfo; os detalhes exatos da data e circunstâncias não foram informados na carta.</note>
-        </event>
-        
         <org xml:id="assembleia_geral">
             <orgName>Assembléia Geral Constituinte e Legislativa do Estado</orgName>
-            <note>Órgão legislativo responsável por medidas relativas à concessão de sesmarias.</note>
+            <note>Órgão legislativo supremo da República Rio-Grandense, responsável por elaborar a constituição, legislar sobre matérias civis e administrativas, e deliberar sobre concessões como sesmarias e pedidos dependentes de medida legislativa.</note>
         </org>
         
         <org xml:id="secretaria_interior">
