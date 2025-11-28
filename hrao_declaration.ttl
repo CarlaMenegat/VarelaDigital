@@ -5,6 +5,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix san: <http://example.org/san#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 
 #################################################################
 # HRAO — Historical Relations and Agency Ontology
@@ -289,3 +290,119 @@ hrao:commanded a owl:ObjectProperty ;
     rdfs:subPropertyOf prov:wasInfluencedBy ;
     rdfs:domain prov:Agent ;
     rdfs:range prov:Agent .
+
+#################################################################
+# Property: hrao:coordinatedWith
+#################################################################
+
+hrao:coordinatedWith a owl:ObjectProperty ;
+    rdfs:label "coordinated with"@en ;
+    rdfs:comment "Indicates that two agents coordinated actions, decisions, or strategic movements in a historical context, especially in military or administrative settings."@en ;
+
+    # Coordination reflects mutual influence
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+
+    # Both sides are agents
+    rdfs:domain prov:Agent ;
+    rdfs:range  prov:Agent .
+
+#################################################################
+# Property: hrao:approached
+#################################################################
+
+hrao:approached a owl:ObjectProperty ;
+    rdfs:label "approached"@en ;
+    rdfs:comment "Indicates that an agent (often a military unit) moved toward or approached a specific place or strategic location."@en ;
+
+    # Movement toward a location still implies influence by conditions or leadership
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+
+    # Agent → Place
+    rdfs:domain prov:Agent ;
+    rdfs:range  dcterms:Location .
+
+#################################################################
+# Property: hrao:retreatedTo
+#################################################################
+
+hrao:retreatedTo a owl:ObjectProperty ;
+    rdfs:label "retreated to"@en ;
+    rdfs:comment "Indicates that an agent (often a military force) withdrew or moved away from a location toward another location as a strategic or defensive action."@en ;
+
+    # Also an influenced-by process (conditions → movement)
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+
+    # Agent → Place
+    rdfs:domain prov:Agent ;
+    rdfs:range  dcterms:Location .
+
+#################################################################
+# Property: hrao:belongsToUnit
+#################################################################
+
+hrao:belongsToUnit a owl:ObjectProperty ;
+    rdfs:label "belongs to military or administrative unit"@en ;
+    rdfs:comment "Indicates that a person or agent is a member of, or formally belongs to, a military or administrative unit, corps, regiment, or organizational subdivision."@en ;
+
+    # Semântica geral: pertencer a uma organização envolve influência estrutural
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+
+    # Domínio e alcance: agentes
+    rdfs:domain prov:Agent ;
+    rdfs:range  prov:Agent .
+
+#################################################################
+# Property: hrao:sowedDiscordBetween
+#################################################################
+
+hrao:sowedDiscordBetween a owl:ObjectProperty ;
+    rdfs:label "sowed discord between"@en ;
+    rdfs:comment "Indicates that an agent intentionally created conflict, intrigue, or discord between two other agents or authorities."@en ;
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+    rdfs:domain prov:Agent ;
+    rdfs:range  prov:Agent .
+
+#################################################################
+# Property: hrao:heldPossessionOf
+#################################################################
+
+hrao:heldPossessionOf a owl:ObjectProperty ;
+    rdfs:label "held possession of"@en ;
+    rdfs:comment "Indicates that a person held long-term possession or occupation of a territory, estate, or land parcel."@en ;
+    rdfs:subPropertyOf prov:hadInfluenceOn .
+
+#################################################################
+# Property: hrao:receivedLandGrantFor
+#################################################################
+
+hrao:receivedLandGrantFor a owl:ObjectProperty ;
+    rdfs:label "received land grant for"@en ;
+    rdfs:comment "Indicates that a person received a formal land grant (e.g., sesmaria) for a specific territory."@en ;
+    rdfs:subPropertyOf prov:wasInfluencedBy .
+
+#################################################################
+# Property: hrao:petitionedTo
+#################################################################
+
+hrao:petitionedTo a owl:ObjectProperty ;
+    rdfs:label "petitioned to"@en ;
+    rdfs:comment "Indicates that an individual submitted a petition or formal request to an authority."@en ;
+    rdfs:subPropertyOf prov:wasInfluencedBy .
+
+#################################################################
+# Property: hrao:issuedAdministrativeDecision
+#################################################################
+
+hrao:issuedAdministrativeDecision a owl:ObjectProperty ;
+    rdfs:label "issued administrative decision"@en ;
+    rdfs:comment "Indicates that an authority issued an administrative judgment, dispatch, or directive affecting another agent."@en ;
+    rdfs:subPropertyOf prov:wasInfluencedBy .
+
+#################################################################
+# Property: hrao:redirectedToAuthority
+#################################################################
+
+hrao:redirectedToAuthority a owl:ObjectProperty ;
+    rdfs:label "redirected to authority"@en ;
+    rdfs:comment "Indicates that a petition or request was redirected to another competent authority."@en ;
+    rdfs:subPropertyOf prov:wasInfluencedBy .

@@ -285,16 +285,45 @@
         </person>
         
         <person xml:id="francisco_pedro_abreu">
+            <persName>Francisco Pedro Brusque de Abreu</persName>
             <persName>Francisco Pedro de Abreu</persName>
-            <persName>Francisco Pedro Buarque de Abreu</persName>
             <persName type="popular">Chico Pedro</persName>
             <persName type="popular">Moringue</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q16917747</idno>
-            <idno type="viaf">https://viaf.org/en/viaf/24112810</idno>
-            <roleName>Barão do Jacuí</roleName>
-            <roleName>Capitão</roleName>
-            <roleName>Coronel</roleName>
-            <note>Militar legalista, famoso por suas operações consideradas ardilosas.</note>
+            <idno type="viaf">https://viaf.org/viaf/24112810</idno>
+            <birth when="1811"/>
+            <death when="1891-07-07"/>
+            <state type="roleInTime" xml:id="francisco_pedro_abreu_capitao">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="francisco_pedro_abreu_coronel">
+                <roleName>Coronel</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="francisco_pedro_abreu_barao_jacui">
+                <roleName>Barão do Jacuí</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <note>Título nobiliárquico concedido pelo Império do Brasil.</note>
+            </state>
+            <note>Militar legalista do Exército Imperial, conhecido por suas operações de inteligência e manobras táticas, apelidado de “Moringue”.</note>
+        </person>
+        
+        <person xml:id="francisco_xavier_cunha">
+            <persName>Francisco Xavier da Cunha</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10285240</idno>
+            <idno type="viaf">https://viaf.org/viaf/38479217</idno>
+            <birth when="1792"/>
+            <death when="1847"/>
+            <state type="roleInTime" xml:id="francisco_xavier_cunha_brigadeiro">
+                <roleName>Brigadeiro</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="francisco_xavier_cunha_comandante_porto_alegre">
+                <roleName>Comandante da Guarnição de Porto Alegre</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Oficial legalista, comandante da guarnição de Porto Alegre durante a Guerra Farroupilha.</note>
         </person>
         
         <person xml:id="francisco_xavier">
@@ -304,18 +333,10 @@
             <note>Comandante da guarnição de São José do Norte.</note>
         </person>
         
-        <person xml:id="francisco_pedro_abreu">
-            <persName>Francisco Pedro de Abreu</persName>
-            <persName type="alias">Moringe</persName>
-            <note>Militar e comandante legalista do Exército Imperial brasileiro durante a Revolução Farroupilha (1835–1845), atuando em oposição às forças da República Rio-Grandense. Suas comunicações e relatórios referem-se às atividades, disciplina e logística das tropas imperiais, nunca às forças farroupilhas.</note>
-            <affiliation>Exército do Império do Brasil</affiliation>
-            <role>Comandante militar</role>
-            <sex>m</sex>
-        </person> <!--id repetido-->
-        
         <person xml:id="domingos_vicente">
             <persName>Domingos Vicente</persName>
-            <note>Soldado submetido à prisão disciplinar devido à violação de normas capilares militares.</note>
+            <idno type="project"></idno>
+            <note>Soldado do Exército Imperial submetido a prisão disciplinar por insubordinação ao raspar o bigode.</note>
         </person>
         
         <person xml:id="alexandre_silveira">
@@ -512,14 +533,14 @@
             <note>Oficial legalista do Exército Imperial estacionado na Ilha do Corvo, onde comandava os presídios do Batalhão 11 durante a Revolução Farroupilha.</note>
         </person>
         
-        <person xml:id="tomas_jose_silva">
-            <persName>Tomás José da Silva</persName>
-            <note>Marechal e Comandante da Guarnição de Porto Alegre.</note>
-        </person>
-        
         <person xml:id="alferes_ferreira">
             <persName>Alferes Ferreira</persName>
-            <note>Oficial do 5.º Corpo de Guardas Nacionais responsável pela entrega de prisioneiros.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="ferreira_alferes_guardas_5corpo">
+                <roleName>Alferes</roleName>
+                <affiliation ref="#guardas_nacionais_5corpo"/>
+            </state>
+            <note>Oficial do 5.º Corpo de Guardas Nacionais responsável pela entrega de prisioneiros legalistas.</note>
         </person>
         
         <person xml:id="candido_machado_sousa">
@@ -572,7 +593,12 @@
         
         <person xml:id="dr_fagundes">
             <persName>Dr. Fagundes</persName>
-            <note>Autoridade que recebeu o prisioneiro libertado.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="fagundes_autoridade_legalista">
+                <roleName>Autoridade judicial</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Autoridade judicial legalista que recebeu a entrega de Francisco José do Nascimento Júnior por ordem de Tomás José da Silva.</note>
         </person>
         
         <person xml:id="gaspar_borges">
@@ -868,54 +894,143 @@
         
         <person xml:id="fernando_kersting">
             <persName>Fernando Kersting</persName>
-            <note>Major, Comandante do Município do Triunfo.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="kersting_comandante_triunfo">
+                <roleName>Major Comandante Municipal</roleName>
+                <affiliation ref="#triunfo"/>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Major legalista e comandante do município de Triunfo; atuou em cooperação direta com Antônio Pedro de Abreu durante ações contra forças farroupilhas em 1837.</note>
         </person>
         
         <person xml:id="antonio_rodrigues">
             <persName>Antônio Rodrigues</persName>
-            <note>Furriel que comandou a partida enviada à Costa.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="antonio_rodrigues_furriel">
+                <roleName>Furriel</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Furriel legalista encarregado de comandar uma partida enviada às charqueadas da Costa para interceptar uma força farroupilha.</note>
         </person>
         
         <person xml:id="manuel_antonio">
             <persName>Manuel Antônio</persName>
-            <note>Alferes do 5º Corpo de Cavalaria da Guarda Nacional, prejudicado pelos rebeldes.</note>
-            <note>Tenente farroupilha encarregado de deslocamento com tropas.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="manuel_antonio_alferes_5corpo">
+                <roleName>Alferes</roleName>
+                <affiliation ref="#guardas_nacionais_5corpo"/>
+            </state>
+            <note>Alferes pertencente ao 5.º Corpo de Cavalaria da Guarda Nacional, mencionado como proprietário de cavalos levados por uma força farroupilha não identificada.</note>
         </person>
         
         <person xml:id="antonio_francisco_almeida">
             <persName>Antônio Francisco de Almeida</persName>
-            <note>Indivíduo acusado de intrigas militares e de colaborar com rebeldes.</note>
+            <idno type="project"></idno>
+            <note>Indivíduo legalista acusado de fomentar intrigas entre autoridades militares e de tentar repassar informações estratégicas aos rebeldes farroupilhas, incluindo parentes seus envolvidos na guerra.</note>
         </person>
         
         <person xml:id="sete_pernas">
             <persName>Sete-Pernas</persName>
-            <note>Rebelde conhecido por apelido, alvo de perseguição militar.</note>
+            <idno type="project"></idno>
+            <note>Rebelde farroupilha identificado por apelido, acusado de cometer violências contra charqueadores da costa do rio Jacuí e alvo de perseguição e ordem de prisão expedida por Antônio Pedro de Abreu.</note>
         </person>
         
         <person xml:id="joaquim_rodrigues">
             <persName>Joaquim Rodrigues</persName>
-            <note>Furriel que comandou a partida enviada além do Jacuí.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="joaquim_rodrigues_furriel">
+                <roleName>Furriel</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Furriel legalista que comandou a partida enviada além do rio Jacuí para enfrentar uma força farroupilha, segundo relato de Antônio Pedro de Abreu.</note>
         </person>
-
+        
         <person xml:id="manuel_alz">
             <persName>Manuel Alz.</persName>
-            <note>Rebelde que comandou a força responsável por frustrar a operação de Joaquim Rodrigues.</note>
-            <persName type="role">Capitão</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="manuel_alz_capitao_rrg">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Capitão farroupilha mencionado como comandante da força rebelde que frustrou a operação legalista conduzida por Joaquim Rodrigues.</note>
         </person>
         
         <person xml:id="jose_romao_taborda">
             <persName>José Romão Taborda</persName>
-            <note>Rebelde preso em surtida militar anterior e entregue ao comando legalista.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="taborda_rebelde_rrg">
+                <roleName>Combatente</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Combatente farroupilha preso em surtida militar anterior e posteriormente entregue ao Major Comandante Geral do Município, Fernando Kersting.</note>
         </person>
         
         <person xml:id="claudio_abreu">
             <persName>Cláudio de Abreu</persName>
-            <note>Tenente-coronel e proprietário da sesmaria do Inhanduí.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="claudio_abreu_tenente_coronel_rrg">
+                <roleName>Tenente-coronel</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Tenente-coronel farroupilha que requereu nova Carta de Sesmaria para o rincão Inhanduí, alegando posse há quase trinta anos e benfeitorias substanciais.</note>
         </person>
         
         <person xml:id="sa_brito">
-            <persName>Sá Brito</persName>
-            <note>Funcionário da Secretaria do Interior responsável pelo despacho de 1843.</note>
+            <persName>Francisco Isidoro de Sá Brito</persName>
+            <idno type="viaf">https://viaf.org/viaf/38480450</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10285461</idno>
+            <birth when="1808-07-18"/>
+            <death when="1875-07-14"/>
+            <state type="roleInTime" xml:id="sa_brito_estudante_1827">
+                <roleName>Estudante de Direito</roleName>
+                <affiliation ref="#universidade_coimbra"/>
+                <date type="begin" when="1827"/>
+                <date type="end" when="1830"/>
+            </state>
+            <state type="roleInTime" xml:id="sa_brito_estudante_sao_francisco">
+                <roleName>Estudante de Direito</roleName>
+                <affiliation ref="#faculdade_direito_sao_francisco"/>
+                <date type="end" when="1832"/>
+            </state>
+            <state type="roleInTime" xml:id="sa_brito_juiz_alegrete">
+                <roleName>Juiz de Direito</roleName>
+                <affiliation ref="#alegrete"/>
+            </state>
+            <state type="roleInTime" xml:id="sa_brito_juiz_porto_alegre">
+                <roleName>Juiz de Direito</roleName>
+                <affiliation ref="#porto_alegre"/>
+            </state>
+            <state type="roleInTime" xml:id="sa_brito_deputado_1835">
+                <roleName>Deputado Provincial</roleName>
+                <affiliation ref="#assembleia_provincial_rs"/>
+                <date when="1835"/>
+            </state>
+            <state type="roleInTime" xml:id="sa_brito_jornalista_continentista">
+                <roleName>Jornalista e fundador</roleName>
+                <affiliation ref="#jornal_continentista"/>
+            </state>
+            <state type="roleInTime" xml:id="sa_brito_secretario_interior_rrg">
+                <roleName>Secretário do Interior</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <date type="begin" when="1836"/>
+                <date type="end" when="1845"/>
+            </state>
+            <state type="roleInTime" xml:id="sa_brito_constituinte_rrg_1838">
+                <roleName>Autor da Constituição</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <date when="1838"/>
+            </state>
+            <state type="roleInTime" xml:id="sa_brito_partenon_literario">
+                <roleName>Membro</roleName>
+                <affiliation ref="#partenon_literario"/>
+            </state>
+            <note>Magistrado, advogado, escritor, jornalista e político rio-grandense. Participou moderadamente da Revolução Farroupilha, alinhando-se a Bento Manuel Ribeiro em suas mudanças políticas. Teve atuação destacada na República Rio-Grandense como autor da constituição e como Secretário do Interior.</note>
+        </person>
+        
+        <person xml:id="jose_antonio_siqueira">
+            <persName>José Antônio de Siqueira</persName>
+            <idno type="project"></idno>
+            <note>Proprietário de terras lindeiras ao rincão Inhanduí, citado como confrontante nos limites descritos por Cláudio de Abreu.</note>
         </person>
         
         <person xml:id="bernardina_barcelos_almeida">
@@ -1829,7 +1944,13 @@
         
         <person xml:id="firmino_luis_gomes_de_abreu">
             <persName>Firmino Luís Gomes de Abreu</persName>
-            <note>Almoxarife do Arsenal de Guerra, responsável pela relação de materiais apreendidos.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="firmino_abreu_almoxarife_1840">
+                <roleName>Almoxarife</roleName>
+                <affiliation ref="#arsenal_guerra_imperial"/>
+                <date type="begin" when="1840"/>
+            </state>
+            <note>Oficial legalista, almoxarife do Arsenal de Guerra do Império do Brasil em 1840.</note>
         </person>
         
         <person xml:id="francisco_pinto_rangel">
@@ -2015,7 +2136,9 @@
         </person>
         
         <person xml:id="osorio">
-            <persName>Osório</persName>
+            <persName>Manuel Luís Osório</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10366884</idno>
+            <note>Militar brasileiro, futuro Marquês do Herval.</note>
         </person>
         
         <person xml:id="sebastiao_ribeiro">
@@ -2199,24 +2322,20 @@
         </person>
         
         <person xml:id="antonio_jose_goncalves_chaves">
-            <persName>Antonio José Gonçalves Chaves</persName>
+            <persName>Antônio José Gonçalves Chaves</persName>
             <idno type="viaf">https://viaf.org/en/viaf/30827526</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q16491671</idno>
-            <relation
-                name="foaf:knows"
-                active="#domingos_jose_almeida"
-                passive="#antonio_jose_goncalves_chaves"/>
-            <note>Sócio de Almeida e autor das Meórias Economo políticas. Morre em 1837. Tem um filho homônimo.</note>
+            <birth when="1781"/>
+            <death when="1837"/>
+            <note>Político, escritor e economista luso-brasileiro; autor das “Memórias Econômico-Políticas”. Morreu em 1837. Pai de Antônio José Gonçalves Chaves Filho.</note>
         </person>
         
         <person xml:id="antonio_jose_goncalves_chaves_filho">
             <persName>Antônio José Gonçalves Chaves</persName>
-            <persName type="role">Dr.</persName>
-            <relation
-                name="rel:childOf"
-                active="#antonio_jose_goncalves_chaves_filho"
-                passive="#antonio_jose_goncalves_chaves"/>
-            <note>Filho do homônimo acima; referido como responsável por ajustes contábeis da herança ou bens paternos.</note>
+            <persName type="honorific">Dr.</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q16491815</idno>
+            <affiliation ref="#faculdade_direito_sao_francisco"/>
+            <note>Filho de Antônio José Gonçalves Chaves; atuou na administração e ajuste de bens paternos e é referido como bacharel formado em Direito.</note>
         </person>
         
         

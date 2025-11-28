@@ -869,11 +869,7 @@
             <geo>-29.95472, -51.62528</geo>
             <note>Região produtora de charque na margem do Jacuí. </note>
         </place> <!--corrigir para id charqueadas-->
-        
-        <place xml:id="charqueadas_costa">
-            <placeName>Charqueadas da Costa</placeName>
-            <note>Região produtora de charque na margem do Jacuí.</note>
-        </place> <!--corrigir para id charqueadas-->
+
         
         <place xml:id="ponta_rasa">
             <placeName>Ponta Rasa</placeName>

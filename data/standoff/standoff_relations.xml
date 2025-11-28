@@ -733,7 +733,250 @@
             active="#tomas_jose_silva"
             passive="#antonio_pedro_abreu"/>
         
+        <relation 
+            name="hrao:deliveredPrisoners"
+            active="#alferes_ferreira"
+            passive="#candido_machado_sousa"/>
         
+        <relation 
+            name="hrao:deliveredPrisoners"
+            active="#alferes_ferreira"
+            passive="#sebastiao_gomes"/>
+        
+        <relation 
+            name="hrao:deliveredPrisoners"
+            active="#alferes_ferreira"
+            passive="#francisco_machado"/>
+        
+        <relation 
+            name="hrao:deliveredPrisoners"
+            active="#alferes_ferreira"
+            passive="#joao_rodrigues"/>
+        
+        <relation 
+            name="hrao:deliveredPrisoners"
+            active="#alferes_ferreira"
+            passive="#inacio_furtado"/>
+        
+        <relation 
+            name="hrao:deliveredPrisoners"
+            active="#alferes_ferreira"
+            passive="#manuel_jose_santos"/>
+        
+        <relation 
+            name="hrao:deliveredPrisoners"
+            active="#alferes_ferreira"
+            passive="#feliciano_francisco"/>
+        
+        <relation 
+            name="hrao:deliveredPrisoners"
+            active="#alferes_ferreira"
+            passive="#francisco_jose_nascimento_junior"/>
+        
+        <relation 
+            name="hrao:transferredToCustodyOf"
+            active="#alferes_ferreira"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="hrao:reportedTo"
+            active="#alferes_ferreira"
+            passive="#tomas_jose_silva"/>
+        
+        <relation
+            name="rel:uncleOf"
+            active="#tomas_jose_silva"
+            passive="#manuel_luis_osorio"/>
+        
+        <relation
+            name="hrao:coordinatedWith"
+            active="#antonio_pedro_abreu"
+            passive="#fernando_kersting"/>
+        
+        <relation
+            name="hrao:commanded"
+            active="#fernando_kersting"
+            passive="#triunfo"/>
+        
+        <relation
+            name="hrao:commanded"
+            active="#antonio_pedro_abreu"
+            passive="#antonio_rodrigues"/>
+        
+        <relation
+            name="hrao:approached"
+            active="#forca_rebelde_indeterminada"
+            passive="#charqueadas"/>
+        
+        <relation
+            name="hrao:approached"
+            active="#forca_rebelde_rrg"
+            passive="#charqueadas"/>
+        
+        <relation
+            name="hrao:retreatedTo"
+            active="#forca_rebelde_rrg"
+            passive="#ilha_paciencia"/>
+        
+        <relation
+            name="hrao:confiscatedPropertyFrom"
+            active="#forca_rebelde_rrg"
+            passive="#manuel_antonio"/>
+        
+        <relation
+            name="hrao:belongsToUnit"
+            active="#manuel_antonio"
+            passive="#guardas_nacionais_5corpo"/>
+        
+        <relation
+            name="hrao:sowedDiscordBetween"
+            active="#antonio_francisco_almeida"
+            passive="#comandante_canhoneira"/>
+        
+        <relation
+            name="hrao:sowedDiscordBetween"
+            active="#antonio_francisco_almeida"
+            passive="#fernando_kersting"/>
+        
+        <relation
+            name="hrao:providedIntelligenceTo"
+            active="#antonio_francisco_almeida"
+            passive="#rebeldes_parentes"/>
+        
+        <relation
+            name="hrao:committedViolenceAgainst"
+            active="#sete_pernas"
+            passive="#charqueadores_costa_jacui"/>
+        
+        <relation
+            name="hrao:orderedCaptureOf"
+            active="#antonio_pedro_abreu"
+            passive="#sete_pernas"/>
+        
+        <relation
+            name="hrao:commanded"
+            active="#joaquim_rodrigues"
+            passive="#partida_legalista"/>
+        
+        <relation
+            name="hrao:led"
+            active="#manuel_alz"
+            passive="#forca_rebelde_rrg"/>
+        
+        <relation
+            name="hrao:retreatedTo"
+            active="#forca_rebelde_rrg"
+            passive="#charqueadas"/>
+        
+        <relation
+            name="hrao:engagedAgainst"
+            active="#forca_rebelde_rrg"
+            passive="#partida_legalista"/>
+        
+        <relation
+            name="hrao:wasPrisonerInEvent"
+            active="#jose_romao_taborda"
+            passive="#surtida_legalista"/>
+        
+        <relation
+            name="hrao:deliveredPrisoners"
+            active="#antonio_pedro_abreu"
+            passive="#jose_romao_taborda"/>
+        
+        <relation
+            name="hrao:transferredToCustodyOf"
+            active="#jose_romao_taborda"
+            passive="#fernando_kersting"/>
+        
+        <relation
+            name="hrao:heldPossessionOf"
+            active="#claudio_abreu"
+            passive="#inhandui_rincao"/>
+        
+        <relation
+            name="hrao:receivedLandGrantFor"
+            active="#claudio_abreu"
+            passive="#inhandui_rincao"/>
+        
+        <relation
+            name="dcterms:spatial"
+            active="#inhandui_rincao"
+            passive="#jose_antonio_siqueira"/>
+        
+        <relation
+            name="hrao:petitionedTo"
+            active="#claudio_abreu"
+            passive="#secretaria_interior"/>
+        
+        <relation
+            name="hrao:issuedAdministrativeDecision"
+            active="#sa_brito"
+            passive="#claudio_abreu"/>
+        
+        <relation
+            name="hrao:redirectedToAuthority"
+            active="#sa_brito"
+            passive="#assembleia_geral"/>
+        
+        <relation
+            name="rel:childOf"
+            active="#antonio_jose_goncalves_chaves_filho"
+            passive="#antonio_jose_goncalves_chaves"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#antonio_jose_goncalves_chaves"/>
+        
+        <relation
+            name="pro:holdsRoleInTime"
+            active="#firmino_luis_gomes_de_abreu"
+            passive="#firmino_abreu_almoxarife_1840"/>
+        
+        <relation
+            name="hrao:commandedUnit"
+            active="#francisco_pedro_abreu"
+            passive="#esquadrao_barra"/>
+        
+        <relation
+            name="hrao:subordinateTo"
+            active="#francisco_pedro_abreu"
+            passive="#francisco_xavier_cunha"/>
+        
+        <relation
+            name="hrao:belongsToUnit"
+            active="#domingos_vicente"
+            passive="#esquadrao_barra"/>
+        
+        <relation
+            name="hrao:arrested"
+            active="#francisco_pedro_abreu"
+            passive="#domingos_vicente"/>
+        
+        <relation
+            name="hrao:wasTransferredTo"
+            active="#domingos_vicente"
+            passive="#oitavo_batalhao"/>
+        
+        <relation
+            name="hrao:transferredToCustodyOf"
+            active="#francisco_pedro_abreu"
+            passive="#oitavo_batalhao"/>
+        
+        <relation
+            name="hrao:reportedTo"
+            active="#francisco_pedro_abreu"
+            passive="#francisco_xavier_cunha"/>
+        
+        <relation
+            name="hrao:reportedTo"
+            active="#francisco_pedro_abreu"
+            passive="#francisco_xavier_cunha"/>
+        
+        <relation
+            name="hrao:requestedMilitaryDecisionFrom"
+            active="#francisco_pedro_abreu"
+            passive="#francisco_xavier_cunha"/>
         
     </standOff>
     

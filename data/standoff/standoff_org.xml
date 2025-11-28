@@ -53,6 +53,30 @@
             <orgName>Espólio de José Augusto Ledek</orgName>
         </org>
         
+        <org xml:id="forca_rebelde_rrg">
+            <orgName>Força rebelde não identificada da República Rio-Grandense</orgName>
+            <affiliation ref="#republica_rio_grandense"/>
+            <note>Unidade militar farroupilha mencionada na correspondência, sem identificação nominal dos comandantes ou subunidades.</note>
+        </org>
+        
+        <org xml:id="universidade_coimbra" type="educationalInstitution">
+            <orgName>Universidade de Coimbra</orgName>
+            <placeName ref="#coimbra">Coimbra</placeName>
+            <note>Instituição universitária portuguesa fundada no século XIII; destino comum de estudantes luso-brasileiros durante o período imperial.</note>
+        </org>
+        
+        <org xml:id="faculdade_direito_sao_francisco" type="educationalInstitution">
+            <orgName>Faculdade de Direito do Largo de São Francisco</orgName>
+            <placeName ref="#sao_paulo">São Paulo</placeName>
+            <note>Instituição de ensino jurídico fundada em 1827, uma das duas primeiras faculdades de direito do Brasil.</note>
+        </org>
+        
+        <org xml:id="assembleia_provincial_rs" type="government">
+            <orgName>Assembleia Provincial de São Pedro do Rio Grande do Sul</orgName>
+            <placeName ref="#porto_alegre">Porto Alegre</placeName>
+            <note>Órgão legislativo provincial instituído após o Ato Adicional de 1834, responsável pela legislação local do Rio Grande do Sul durante o período imperial.</note>
+        </org>
+        
         <org xml:id="secretaria_republica_riograndense">
             <orgName>Secretaria da República Riograndense</orgName>
             <note>Órgão administrativo do governo farroupilha.</note>
@@ -101,10 +125,30 @@
             <note>Setor contábil que respondeu à solicitação sobre a dívida não escriturada.</note>
         </org>
         
-        <org xml:id="guardas_nacionais_5corpo">
+        <org xml:id="guardas_nacionais_5corpo" type="militaryUnit">
             <orgName>5.º Corpo de Guardas Nacionais</orgName>
-            <note>Unidade militar da Guarda Nacional, força de caráter provincial e imperial atuante no período da Revolução Farroupilha.</note>
+            <note>Unidade militar da Guarda Nacional do Império do Brasil, atuante durante a Revolução Farroupilha.</note>
         </org>
+        
+        <org xml:id="rebeldes_parentes">
+            <orgName>Rebeldes parentes de Antônio Francisco de Almeida</orgName>
+            <affiliation ref="#republica_rio_grandense"/>
+            <note>Grupo de combatentes farroupilhas aparentados a Antônio Francisco de Almeida, aos quais ele buscava repassar informações sobre surtidas legalistas.</note>
+        </org>
+        
+        <org xml:id="partida_legalista" type="militaryUnit">
+            <orgName>Partida legalista</orgName>
+            <affiliation ref="#imperio_brasil"/>
+            <note>Força móvel de tropas legalistas destacada pelo comando da guarnição de Triunfo para operações rápidas contra forças farroupilhas na região do rio Jacuí.</note>
+        </org>
+        
+        <event xml:id="surtida_legalista">
+            <desc>Surtida legalista anterior mencionada por Antônio Pedro de Abreu, na qual foi preso o rebelde José Romão Taborda.</desc>
+            <location>
+                <placeName ref="#triunfo"/>
+            </location>
+            <note>Operação militar de tropas legalistas na região de Triunfo; os detalhes exatos da data e circunstâncias não foram informados na carta.</note>
+        </event>
         
         <org xml:id="assembleia_geral">
             <orgName>Assembléia Geral Constituinte e Legislativa do Estado</orgName>
@@ -362,22 +406,23 @@
             <note>Ramo militar terrestre que compunha as forças armadas durante a Revolução Farroupilha.</note>
         </org>
         
-        <org xml:id="arsenal_guerra">
-            <orgName>Arsenal de Guerra</orgName>
-            <note>Estabelecimento militar sob administração imperial, responsável pelo depósito, manutenção e reparo de materiais bélicos durante a Revolução Farroupilha.</note>
-            <affiliation>Exército do Império do Brasil</affiliation>
+        <org xml:id="arsenal_guerra_imperial" type="militaryFacility">
+            <orgName>Arsenal de Guerra do Império do Brasil</orgName>
+            <idno type="project"></idno>
+            <affiliation ref="#imperio_brasil"/>
+            <note>Instalação militar do Exército Imperial, sediada em Porto Alegre durante o período da Revolução Farroupilha.</note>
         </org>
         
-        <org xml:id="quartel_esquadrao_barra">
+        <org xml:id="esquadrao_barra">
             <orgName>Quartel do Esquadrão da Barra</orgName>
-            <note>Unidade militar do Exército Imperial, local de destacamento de forças legalistas sob comando de Francisco Pedro de Abreu (Moringe).</note>
-            <affiliation>Exército do Império do Brasil</affiliation>
+            <affiliation ref="#imperio_brasil"/>
+            <note>Unidade militar do Exército Imperial comandada por Francisco Pedro de Abreu.</note>
         </org>
         
         <org xml:id="oitavo_batalhao">
             <orgName>8.º Batalhão</orgName>
-            <note>Unidade militar legalista do Exército Imperial, responsável por prisões disciplinares e execução de ordens de comando.</note>
-            <affiliation>Exército do Império do Brasil</affiliation>
+            <affiliation ref="#imperio_brasil"/>
+            <note>Batalhão do Exército Imperial responsável por prisões militares.</note>
         </org>
         
         <org xml:id="corpo_provisorio">
@@ -470,7 +515,7 @@
         <org xml:id="assembleia_geral_legislativa_rs">
             <orgName>Assembléia</orgName>
             <note>Casa legislativa provincial do Rio Grande do Sul, mencionada no contexto de 1835.</note>
-        </org> <!--acho que tenho que mudar para id "assembleia_provincial"-->
+        </org> <!--trocar para id "assembleia_provincial_rs"-->
         
         <org xml:id="camara_rio_grande">
             <orgName>Câmara Municipal da Cidade do Rio Grande</orgName>
