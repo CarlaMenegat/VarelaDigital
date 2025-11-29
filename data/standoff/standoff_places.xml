@@ -119,22 +119,18 @@
             <note>São Lourenço do Sul, no sul do Rio Grande do Sul, Brasil.</note>
         </place>
         
-        <place xml:id="boqueirao">
-            <placeName type="historical">Santiago do Boqueirão</placeName>
-            <placeName type="historical">Boqueirão</placeName>
-            <placeName type="modern">Santiago</placeName>
-            <idno type="geonames">https://www.geonames.org/3449741/santiago.html</idno>
-            <location>
-                <geo>-29.1833 -54.8672</geo>
-            </location>
-            <note>Antigo nome de  Santiago, Rio Grande do Sul.</note>
-        </place> <!--errado é são lourenço!!!-->
-        
         <place xml:id="sao_joao_batista">
             <placeName type="historical">São João Batista</placeName>
             <idno type="geonames">https://www.geonames.org/13029720/sao-joao-batista.html</idno>
             <geo>-28.37188, -54.40057</geo>
             <note>Distrito. Corresponde à localidade de São João Batista na região das Missões no Rio Grande do Sul.</note>
+        </place>
+        
+        <place xml:id="inhamanda">
+            <placeName>Arroio Inhamandá</placeName>
+            <idno type="geonames">https://www.geonames.org/13034762/arroio-inhamanda.html</idno>
+            <geo>-29.68489 -54.16243</geo>
+            <note>Curso d’água localizado no atual município de São Pedro do Sul, Rio Grande do Sul.</note>
         </place>
         
         <place xml:id="bage">
@@ -1139,6 +1135,13 @@
             <note>Local de captura de Rafael Tobias de Aguiar durante sua tentativa de reorganização militar no contexto da Revolta Liberal de 1842.</note>
         </place>
         
+        <place xml:id="rincao_sao_pedro">
+            <placeName>Rincão de São Pedro</placeName>
+            <idno type="geonames">https://www.geonames.org/3448332/sao-pedro-do-sul.html</idno>
+            <geo>-29.62056 -54.17889</geo>
+            <note>Antiga localidade conhecida como Rincão de São Pedro, correspondente ao atual município de São Pedro do Sul, Rio Grande do Sul.</note>
+        </place>
+        
         <place xml:id="escuna_incorporacao">
             <placeName>Escuna Incorporação</placeName>
             <idno type="geonames"></idno>
@@ -1163,12 +1166,6 @@
         <place xml:id="aguas_mornas">
             <placeName>Águas Mornas</placeName>
             <note>Topônimo hidrotermal local; localização exata desconhecida, não correspondente ao município homônimo de SC.</note>
-        </place>
-        
-        <place xml:id="pavao"> <!--dúvida se é localidade em Capão do Leão ou a ilha do pavão-->
-            <placeName>Pavão</placeName>
-            <geo>-31.9709 -52.4472</geo>
-            <note>Localidade provável na região de Capão do Leão, RS; coordenadas aproximadas e passíveis de revisão histórica.</note>
         </place>
         
         <place xml:id="andrade">

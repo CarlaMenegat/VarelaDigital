@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -8,25 +8,88 @@
                     para <persName ref="#joao_paulo_santos_barreto">João Paulo dos Santos Barreto</persName>
                 </title>
                 <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
-            
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-06-28">28 de junho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
-            
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
@@ -38,6 +101,18 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-06-28">28/06/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-11-29">29/11/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     <text>
@@ -48,31 +123,31 @@
                     <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>No dia quatro do corrente marchei deste acampamento com 80 homens de cavalaria e o 3.º Batalhão, 
-                    conforme participei a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, e no dia 5 foi surpreendida uma guarda avançada do 
-                    <persName ref="#fructuoso_rivera">Frutuoso</persName>, aonde foi morto o comandante, que era o intitulado 
-                    <persName ref="#juca_jacinto">Comandante Juca Jacinto</persName>, o grande assassino 
+                <p>No dia quatro do corrente marchei deste acampamento com 80 homens de cavalaria e o <orgName ref="#terceiro_batalhao">3.º Batalhão</orgName>, 
+                    conforme participei a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, e no dia 5 foi surpreendida 
+                    uma guarda avançada do <persName ref="#frutuoso">Frutuoso</persName>, aonde foi morto o comandante, 
+                    que era o intitulado <persName ref="#juca_jacinto">Comandante Juca Jacinto</persName>, o grande assassino 
                     <persName ref="#pacheco">Pacheco</persName> e 5 prisioneiros, neste número um 
-                    <persName ref="#tenente_bento">Tenente Bento</persName> mui assassino, cujo remeto a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>; e sabendo que o 
-                    <persName ref="#fructuoso_rivera">Frutuoso</persName> se achava com 90 homens, marchei toda noite com a cavalaria e 
+                    <persName ref="#tenente_bento">Tenente Bento</persName> mui assassino, cujo remeto a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>; 
+                    e sabendo que o <persName ref="#frutuoso">Frutuoso</persName> se achava com 90 homens, marchei toda noite com a cavalaria e 
                     2 Companhias de Infantaria comandadas pelo <persName ref="#tenente_eduardo">Tenente Eduardo</persName> e 
                     <persName ref="#tenente_novas">Tenente Novas</persName>. e o 
-                    <persName ref="#tenente_coronel_melo">Tenente-coronel Melo</persName> ficou no 
-                    <placeName ref="#pavao">Pavão</placeName> com o Batalhão, e ao amanhecer foi descoberto o inimigo em distância de meia légua; 
+                    <persName ref="#melo">Tenente-coronel Melo</persName> ficou no 
+                    Pavão com o Batalhão, e ao amanhecer foi descoberto o inimigo em distância de meia légua; 
                     persegui-os mais de légua e meia debaixo de um fogo forte, e por causa de cansar quase todos os cavalos 
                     não se concluiu com o último rebelde; ficaram mais de 10 cavalos encilhados e quatro prisioneiros e um 
                     muito ferido, julgo que não escapa, por isso o deixei curando-se em uma casa.</p>
                 
                 <p>Da nossa parte tivemos o valente 
                     <persName ref="#claro_jose_sousa">Tenente Claro José de Sousa</persName> baleado em um braço e paleta, e de uma só bala teve quatro feridas, 
-                    o <persName ref="#sargento_fidelis_pais_silva">Sargento Fidélis Pais da Silva</persName> chumbeado na mão direita; fiz seguir um oficial com uma partida 
+                    o <persName ref="#fidelis_pais_silva">Sargento Fidélis Pais da Silva</persName> chumbeado na mão direita; fiz seguir um oficial com uma partida 
                     a <placeName ref="#rio_pardo">Rio Pardo</placeName> a levar os ofícios que eu trouxe, com os que <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> já me tinha mandado, porque os próprios 
                     voltaram do caminho por estarem todos os passos tomados; no dia 15 <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> pode mandar receber 200 alqueires 
-                    de farinha no <placeName ref="#toropi">passo do Toropi</placeName>: foi comprada e posta no dito passo a 48500 rs. o alqueire, e espero que 
+                    de farinha no passo do <placeName ref="#toropi">Toropi</placeName>: foi comprada e posta no dito passo a 48500 rs. o alqueire, e espero que 
                     <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> mande o dinheiro a entregar ao oficial da guarda, para eu mandar receber. Segue nesta ocasião o 
-                    <persName ref="#capitao_rafael_viana">Capitão Rafael Viana</persName>, que me pede para ir a <placeName ref="#piraju">Piraju</placeName>, e eu espero que <choice><abbr>V. Ex.</abbr><expan>Vossa Excelência</expan></choice>º lhe dê licença.</p>
+                    <persName ref="#capitao_rafael_jose_viana">Capitão Rafael Viana</persName>, que me pede para ir a <placeName ref="#piraju">Piraju</placeName>, e eu espero que <choice><abbr>V. Exª.</abbr><expan>Vossa Excelência</expan></choice> lhe dê licença.</p>
                 
-                <p>Deus guarde a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>. <placeName ref="#rincao_sao_pedro">Rincão de São Pedro</placeName>, 
+                <p>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>. <placeName ref="#rincao_sao_pedro">Rincão de São Pedro</placeName>, 
                     <date when="1841-08-10">10 de agosto de 1841</date>.</p>
                 
                 <closer>

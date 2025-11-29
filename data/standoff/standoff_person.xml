@@ -4764,29 +4764,60 @@
             <note>Comerciante português preso junto a José Manuel da Silveira; aparece em contexto de abastecimento das tropas legalistas durante a Revolução Farroupilha.</note>
         </person>
         
+        <person xml:id="frutuoso">
+            <persName>Frutuoso</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="frutuoso_comandante_rrg">
+                <roleName>Comandante de guarda avançada</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Chefe farroupilha que comandava uma guarda avançada com cerca de 90 homens.</note>
+        </person>
+        
         <person xml:id="juca_jacinto">
             <persName>Juca Jacinto</persName>
-            <note>Comandante rebelde morto na ação.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="juca_jacinto_comandante_rrg">
+                <roleName>Comandante</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Comandante farroupilha morto na ação de 5 de julho de 1840.</note>
         </person>
         
         <person xml:id="pacheco">
             <persName>Pacheco</persName>
-            <note>Mencionado como assassino aliado aos rebeldes.</note>
+            <idno type="project"></idno>
+            <note>Farroupilha citado como assassino e aliado de Juca Jacinto.</note>
         </person>
         
         <person xml:id="tenente_bento">
             <persName>Tenente Bento</persName>
-            <note>Oficial rebelde capturado.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="tenente_bento_rrg">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Tenente farroupilha capturado por forças legalistas.</note>
         </person>
         
         <person xml:id="tenente_eduardo">
             <persName>Tenente Eduardo</persName>
-            <note>Oficial de infantaria legalista.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="tenente_eduardo_imperial">
+                <roleName>Tenente de Infantaria</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Oficial do Exército Imperial que comandava companhia de infantaria na operação relatada.</note>
         </person>
         
         <person xml:id="tenente_novas">
             <persName>Tenente Novas</persName>
-            <note>Oficial de infantaria legalista.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="tenente_novas_imperial">
+                <roleName>Tenente de Infantaria</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Oficial do Exército Imperial que comandava companhia de infantaria na mesma operação.</note>
         </person>
         
         <person xml:id="capitao_lucas">

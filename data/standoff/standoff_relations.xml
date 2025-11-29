@@ -1285,6 +1285,36 @@
             name="hrao:servedUnder"
             active="#capitao_joao_ferreira"
             passive="#republica_rio_grandense"/>
+        
+        <relation 
+            name="hrao:servedUnder" 
+            active="#frutuoso" 
+            passive="#republica_rio_grandense"/>
+        
+        <relation 
+            name="hrao:servedUnder" 
+            active="#juca_jacinto" 
+            passive="#republica_rio_grandense"/>
+        
+        <relation 
+            name="hrao:servedUnder" 
+            active="#pacheco" 
+            passive="#republica_rio_grandense"/>
+        
+        <relation 
+            name="hrao:servedUnder" 
+            active="#tenente_bento" 
+            passive="#republica_rio_grandense"/>
+        
+        <relation 
+            name="hrao:servedUnder" 
+            active="#tenente_eduardo" 
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="hrao:servedUnder" 
+            active="#tenente_novas" 
+            passive="#imperio_brasil"/>
     </standOff>
     
 </TEI>

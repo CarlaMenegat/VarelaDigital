@@ -91,7 +91,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
-                    <placeName ref="#rincao_do_inhamanda">Rincão do Inhamandá</placeName>
+                    <placeName ref="#inhamanda">Rincão do Inhamandá</placeName>
                     <date when="1841-07-14">14 de julho de 1841</date>
                 </correspAction>
                 <correspAction type="received">
@@ -106,7 +106,7 @@
                     Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
                 </item>
                 <item>
-                    <date when="2025-10-28">29/11/2025</date>
+                    <date when="2025-11-29">29/11/2025</date>
                     Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
