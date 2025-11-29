@@ -1,27 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-58 – <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName> para <persName ref="#filipe_neri_oliveira">Filipe Neri de Oliveira</persName></title>
                 <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-06-28">28 de junho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
@@ -33,6 +98,18 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-06-28">28/06/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-10-28">29/11/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     <text>
@@ -43,17 +120,61 @@
                     <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Conforme as ordens de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> marchei no dia 21 do corrente do acampamento da ilha em frente à Picada, às 6 horas da tarde, com 158 praças de cavalaria do 5.º Corpo do meu comando e 12 do 3.º Corpo com os oficiais de cavalaria, o <persName ref="#capitao_belisario">Capitão Belisário</persName>, o <persName ref="#capitao_rafael_viana">Capitão Rafael Viana</persName>, o <persName ref="#tenente_isaias">Tenente Isaías</persName>, o <persName ref="#tenente_marcos">Tenente Marcos</persName> e o <persName ref="#antonio_pedro_abreu">Tenente da extinta 2.º Linha Antônio Pedro de Abreu</persName>, o <persName ref="#julio_viana">Alferes Júlio Viana</persName>, <persName ref="#alferes_ferreira">Alferes Ferreira</persName>, <persName ref="#alferes_cruz">Alferes Cruz</persName>, <persName ref="#alferes_machado">Alferes Machado</persName>; e seguindo todos rio acima embarcados nas barcas e lanchões de guerra à meia-noite desembarquei, da parte esquerda, em <placeName ref="#santa_cruz">Santa Cruz</placeName>; e seguindo de noite mesmo pelos matos do <placeName ref="#arroio_dos_ratos">arroio dos Ratos</placeName> acima, me embosquei em frente à olaria do finado <persName ref="#juca_leao">Juca Leão</persName>, até amanhecer o dia 22, em que abri nova picada em que passei, saindo daí às 9 horas do dia, direto ao passo da freguesia do <placeName ref="#triunfo">Triunfo</placeName>, apanhando alguns cavalos e pessoas de suspeita, e dali marchei toda a noite, indo amanhecer no <placeName ref="#cerro_do_roque">cerro do Roque</placeName> no dia 23.</p>
+                <p>Conforme as ordens de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> marchei no dia 21 do corrente 
+                    do acampamento da ilha em frente à Picada, às 6 horas da tarde, com 158 praças de cavalaria do <orgName ref="#guardas_nacionais_5corpo">5.º Corpo</orgName> do meu comando 
+                    e 12 do 3.º Corpo com os oficiais de cavalaria, o <persName ref="#capitao_belisario">Capitão Belisário</persName>, o 
+                    <persName ref="#capitao_rafael_jose_viana">Capitão Rafael Viana</persName>, o <persName ref="#isaias_antonio">Tenente Isaías</persName>, o 
+                    <persName ref="#tenente_marcos">Tenente Marcos</persName> e o <persName ref="#antonio_pedro_abreu">Tenente da extinta 2.º Linha Antônio Pedro de Abreu</persName>, 
+                    o <persName ref="#julio_viana">Alferes Júlio Viana</persName>, <persName ref="#alferes_ferreira">Alferes Ferreira</persName>, 
+                    <persName ref="#alferes_cruz">Alferes Cruz</persName>, <persName ref="#alferes_machado">Alferes Machado</persName>; e 
+                    seguindo todos rio acima embarcados nas barcas e lanchões de guerra à meia-noite desembarquei, da parte esquerda, em 
+                    <placeName ref="#santa_cruz">Santa Cruz</placeName>; e seguindo de noite mesmo pelos matos do <placeName ref="#arroio_dos_ratos">arroio dos Ratos</placeName> 
+                    acima, me embosquei em frente à olaria do finado <persName ref="#jose_manuel_de_leao">Juca Leão</persName>, até amanhecer o dia 22, 
+                    em que abri nova picada em que passei, saindo daí às 9 horas do dia, direto ao passo da freguesia do 
+                    <placeName ref="#triunfo">Triunfo</placeName>, apanhando alguns cavalos e pessoas de suspeita, e dali marchei toda a 
+                    noite, indo amanhecer no <placeName ref="#cerro_do_roque">cerro do Roque</placeName> no dia 23.</p>
                 
-                <p>E adiante do dito cerro, encontrei uma partida de rebeldes, de 40 a 50 homens, comandada pelo intitulado <persName ref="#tenente_coronel_silveira">Tenente-coronel Silveira</persName>, da <placeName ref="#encruzilhada">Encruzilhada</placeName>, o qual, apesar de os cavalos irem um tanto pesados, ataquei, mandando na frente comandando a guerrilha o <persName ref="#tenente_isaias">Tenente Isaías</persName> e o <persName ref="#julio_viana">Alferes Júlio</persName>, e comandando a proteção o <persName ref="#capitao_rafael_viana">Capitão Rafael Viana</persName>, e o <persName ref="#alferes_cruz">Alferes Cruz</persName> e eu com a mais gente em seguimento; e foi dita partida destroçada completamente, ficando-lhe quatro homens mortos no campo e cinco prisioneiros, e é de crer que muitos fossem feridos; deixando-nos alguns cavalos arreados com arreios ordinários; sendo o resto perseguido mais de duas léguas, até a entrada dos <placeName ref="#cerros_do_erval">cerros do Erval</placeName>; e nesse mesmo dia às 6 horas da tarde, me encaminhei à entrada da picada da serra geral do <placeName ref="#erval">Erval</placeName>, a qual pela sua extensidade e caminhos escabrosos, com bastante custo atravessei em duas noites e um dia e fui sair em <placeName ref="#sao_joao">São João</placeName> no dia 25 de madrugada.</p>
+                <p>E adiante do dito cerro, encontrei uma partida de rebeldes, de 40 a 50 homens, comandada pelo intitulado 
+                    <persName ref="#tenente_coronel_silveira">Tenente-coronel Silveira</persName>, da 
+                    <placeName ref="#encruzilhada">Encruzilhada</placeName>, o qual, apesar de os cavalos irem um tanto pesados, ataquei, 
+                    mandando na frente comandando a guerrilha o <persName ref="#isaias_antonio">Tenente Isaías</persName> e o 
+                    <persName ref="#julio_viana">Alferes Júlio</persName>, e comandando a proteção o <persName ref="#capitao_rafael_jose_viana">Capitão Rafael Viana</persName>, 
+                    e o <persName ref="#alferes_cruz">Alferes Cruz</persName> e eu com a mais gente em seguimento; e foi dita partida 
+                    destroçada completamente, ficando-lhe quatro homens mortos no campo e cinco prisioneiros, e é de crer que muitos fossem 
+                    feridos; deixando-nos alguns cavalos arreados com arreios ordinários; sendo o resto perseguido mais de duas léguas, até 
+                    a entrada dos cerros do <placeName ref="#erval">Erval</placeName>; e nesse mesmo dia às 6 horas da tarde, me 
+                    encaminhei à entrada da picada da serra geral do <placeName ref="#erval">Erval</placeName>, a qual pela sua extensidade 
+                    e caminhos escabrosos, com bastante custo atravessei em duas noites e um dia e fui sair em <placeName ref="#sao_joao_batista">São João</placeName> 
+                    no dia 25 de madrugada.</p>
                 
-                <p>E refazendo-me aí de alguns cavalos fiz sair o <persName ref="#antonio_pedro_abreu">Tenente Antônio Pedro de Abreu</persName> com 60 homens pelo passo do <placeName ref="#duro">Duro</placeName> abaixo, até o <placeName ref="#arroio_velhaco">arroio Velhaco</placeName>, a levantar as cavalhadas daquela costa; e eu segui com a mais força pela costa de <placeName ref="#camaqua">Camaquã</placeName> abaixo, recrutando as cavalhadas que apareciam e a fazer junção no dia 26 no <placeName ref="#butta">Butta</placeName> [sic], com o dito Tenente <persName ref="#antonio_pedro_abreu">Abreu</persName>, que aí, conforme as ordens, se achava com cento e tantos cavalos mansos; de onde de noite principiei a retirar-me direto à <placeName ref="#capela_das_dores">capela das Dores</placeName>, e daí ao passo do <placeName ref="#araca">Araçá</placeName>, aonde cheguei no dia 28, às 4 horas da madrugada, aonde esperei que amanhecesse o dia a fim de abrir uma picada; e passando nela às 6 horas do dito dia, tive notícia de uma partida rebelde que me esperava e, enquanto mudava cavalos, mandei em descoberta o <persName ref="#antonio_pedro_abreu">Tenente Antônio Pedro de Abreu</persName> com 6 homens, o qual, encontrando a descoberta do inimigo de 6 homens, comandada pelo <persName ref="#ricardo">Comandante da Polícia Ricardo</persName>, ressabiado, perverso rebelde, velozmente atacou, aprisionando cinco e matando um; o que observado pelos mais inimigos, velozmente se puseram em retirada não dando lugar de trabalhar à minha gente; e assim segui a fazer junção com <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> no mesmo dia 28 às onze horas do dia no passo do <placeName ref="#campo_das_eguas">campo das Éguas</placeName>, com quatrocentos e tantos cavalos mansos, dez prisioneiros entre os quais o célebre <persName ref="#ricardo">Ricardo</persName> e outro semelhante, filho de <persName ref="#bento_surdo">Bento Surdo</persName>, e <persName ref="#jacinto_roque">Jacinto Roque</persName>, juiz de paz dos rebeldes no <placeName ref="#cerro_do_roque">cerro do Roque</placeName>, e seis apresentados.</p>
+                <p>E refazendo-me aí de alguns cavalos fiz sair o <persName ref="#antonio_pedro_abreu">Tenente Antônio Pedro de Abreu</persName> 
+                    com 60 homens pelo passo do Duro abaixo, até o <placeName ref="#arroio_velhaco">arroio Velhaco</placeName>, 
+                    a levantar as cavalhadas daquela costa; e eu segui com a mais força pela costa de <placeName ref="#camaqua">Camaquã</placeName> abaixo, 
+                    recrutando as cavalhadas que apareciam e a fazer junção no dia 26 no <choice><sic>Butta</sic></choice>, 
+                    com o dito Tenente <persName ref="#antonio_pedro_abreu">Abreu</persName>, que aí, conforme as ordens, se achava com 
+                    cento e tantos cavalos mansos; de onde de noite principiei a retirar-me direto à capela das Dores, 
+                    e daí ao passo do Araçá, aonde cheguei no dia 28, às 4 horas da madrugada, aonde 
+                    esperei que amanhecesse o dia a fim de abrir uma picada; e passando nela às 6 horas do dito dia, tive notícia de uma 
+                    partida rebelde que me esperava e, enquanto mudava cavalos, mandei em descoberta o <persName ref="#antonio_pedro_abreu">Tenente Antônio Pedro de Abreu</persName> 
+                    com 6 homens, o qual, encontrando a descoberta do inimigo de 6 homens, comandada pelo <persName ref="#ricardo">Comandante da Polícia Ricardo</persName>, 
+                    ressabiado, perverso rebelde, velozmente atacou, aprisionando cinco e matando um; o que observado pelos mais inimigos, 
+                    velozmente se puseram em retirada não dando lugar de trabalhar à minha gente; e assim segui a fazer junção com 
+                    <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> no mesmo dia 28 às onze horas do dia no passo do 
+                    campo das Éguas, com quatrocentos e tantos cavalos mansos, dez 
+                    prisioneiros entre os quais o célebre <persName ref="#ricardo">Ricardo</persName> e outro semelhante, filho de 
+                    <persName ref="#bento_surdo">Bento Surdo</persName>, e <persName ref="#jacinto_roque">Jacinto Roque</persName>, 
+                    juiz de paz dos rebeldes no <placeName ref="#cerro_do_roque">cerro do Roque</placeName>, e seis apresentados.</p>
                 
-                <p>Não houve quebra alguma nas forças da legalidade, à exceção de um do 5.º Corpo que desertou. Preenchidas assim as minhas medidas, e cumpridas as ordens de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>, é muito de louvar a coragem, valor e constância com que me acompanharam todos os oficiais e oficiais inferiores e soldados nas empresas e marchas, de dia e de noite, por serras e caminhos escabrosos, faltos de descanso e provimento, mostrando assim a vontade com que defendem o trono do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Dom Pedro Segundo. Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muitos anos como havemos mister.</p>
+                <p>Não houve quebra alguma nas forças da legalidade, à exceção de um do 5.º Corpo que desertou. Preenchidas assim as minhas 
+                    medidas, e cumpridas as ordens de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>, é muito de louvar 
+                    a coragem, valor e constância com que me acompanharam todos os oficiais e oficiais inferiores e soldados nas empresas e 
+                    marchas, de dia e de noite, por serras e caminhos escabrosos, faltos de descanso e provimento, mostrando assim a 
+                    vontade com que defendem o trono do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#pedro_ii">Dom Pedro Segundo</persName>. 
+                    Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muitos anos como havemos mister.</p>
                 
                 <closer>
                     <dateline>Quartel em <placeName ref="#porto_alegre">Porto Alegre</placeName>, <date when="1839-12-31">31 de dezembro de 1839</date>.</dateline>
-                    <salute>Ilmo. e Exmo. Senhor <persName ref="#filipe_neri_oliveira">Filipe Neri de Oliveira</persName>. Digníssimo Brigadeiro e Comandante da 2a. Brigada.</salute>
+                    <salute>Ilmo. e Exmo. Senhor <persName ref="#filipe_neri">Filipe Neri de Oliveira</persName>. Digníssimo Brigadeiro e Comandante da 2a. Brigada.</salute>
                     <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
                     <signed>Tenente-coronel Comandante de 5.º Corpo de Guarda Nacional.</signed>
                 </closer>

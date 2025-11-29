@@ -1,27 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-55 – <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName> para <persName ref="#antonio_elzeario_brito">Antônio Elzeário de Miranda e Brito</persName></title>
                 <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-06-28">28 de junho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
@@ -33,6 +98,18 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-06-28">28/06/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-10-28">29/11/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     <text>
@@ -43,15 +120,84 @@
                     <salute>Ilmo. e Exmo. Senhor</salute>
                 </opener>
                 
-                <p>Na noite de sábado, 13 do corrente, conforme as ordens de <choice><abbr>V.Ex</abbr><expan>Vossa Excelência</expan></choice>º., segui do acampamento da Picada na barca de vapor “Liberal” para <placeName ref="#itapua">Itapuã</placeName> com 140 homens de cavalaria e 100 de infantaria e 40 cavalos e dezesseis reses, tudo embarcado no vapor, duas barcas e dois lanchões de guerra acompanhando o Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#sebastiao_rego_barros">Sebastião do Rego Barros</persName>, Ministro e Secretário de Estado dos Negócios da Guerra; do qual, fora de <placeName ref="#itapua">Itapuã</placeName>, a bordo da mesma barca de vapor, às 11 horas da noite, recebi as últimas ordens, na sua passagem do vapor para o brigue “Andorinha” que seguia a <placeName ref="#rio_grande">Rio Grande</placeName>; e eu a essas mesmas horas segui com a expedição à empresa de <placeName ref="#camaqua">Camaquã</placeName> a bem de derrotar aquela marinha de rebeldes; porém a inconstância de tempo e mares, fez tomar as barcas e lanchões alguma água, que me fez arribar na 2.ª-feira, às 8 horas do dia, na ponta da ilha dos Tapes, aonde desembarcando e dando pasto aos cavalos e carenando para a expedição, e esgotadas as embarcações, fiz embarcar tudo e seguir às duas horas da tarde ao ponto destinado; e chegando na 3.ª-feira à uma hora da madrugada entre as duas barras do Velhaco e Graxim, fiz desembarque da cavalaria, e dela fiz sair duas partidas, fingindo serem rebeldes, a diversos destinos a reunirem cavalos, e eu saí com outra, também na mesma diligência; e endireitando a uma casa erma, da família de <persName ref="#eleuterio_jose_pereira">Eleutério José Pereira</persName>, também membro do governo rebelde; a qual sendo cercada, aí encontrei um marinheiro dos lanchões dos rebeldes que tinha vindo com licença, e sendo este meu conhecido por ter sido meu peão, me informou do estado das coisas, que tudo era conforme o meu plano; reunidas as três partidas com 10 e tantos cavalos bons, fiz tornar toda a cavalaria, e destes, 20 com armas de infantaria, e deixando à dita casa cercada por uma partida de cinco homens, para não deixar aquela casa sair ninguém ou quem viesse ser preso; e eu segui com a cavalaria e o dito homem do lanchão que ia guiar a caminhar pela costa do <placeName ref="#brejo">Brejo</placeName> mais de oito léguas, por lugares bem custosos; acertei porém que na casa do Pereira na 3.ª-feira 4.º várias pessoas já houvera trazido a notícia dos grandes rebeldes o irem passar em cavalos parelheiros à casa cercada do dito Pereira; e sendo cercados na chegada, a cavalo mesmo pularam uma cerca e se escaparam e foram dar aviso à viúva D. <persName ref="#antonia_do_brejo">Antônia do Brejo</persName>, e esta imediatamente mandou, de noite mesmo, avisar o comandante da marinha farrapal <persName ref="#garibaldi">Garibaldi</persName> (*), que esteve a noite em alarme com toda a sua gente, que havia de andar por cinquenta e tantos rebeldes carcanamos e das mais classes...</p>
+                <p>Na noite de sábado, 13 do corrente, conforme as ordens de <choice><abbr>V.Exª</abbr><expan>Vossa Excelência</expan></choice>., 
+                    segui do acampamento da Picada na barca de vapor “Liberal” para <placeName ref="#itapua">Itapuã</placeName> com 140 
+                    homens de cavalaria e 100 de infantaria e 40 cavalos e dezesseis reses, tudo embarcado no vapor, duas barcas e dois 
+                    lanchões de guerra acompanhando o Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    <persName ref="#sebastiao_rego_barros">Sebastião do Rego Barros</persName>, Ministro e Secretário de Estado dos Negócios 
+                    da Guerra; do qual, fora de <placeName ref="#itapua">Itapuã</placeName>, a bordo da mesma barca de vapor, às 11 horas 
+                    da noite, recebi as últimas ordens, na sua passagem do vapor para o brigue “Andorinha” que seguia a 
+                    <placeName ref="#rio_grande">Rio Grande</placeName>; e eu a essas mesmas horas segui com a expedição à empresa de 
+                    <placeName ref="#camaqua">Camaquã</placeName> a bem de derrotar aquela marinha de rebeldes; porém a inconstância de 
+                    tempo e mares, fez tomar as barcas e lanchões alguma água, que me fez arribar na 2.ª-feira, às 8 horas do dia, na ponta 
+                    da ilha dos Tapes, aonde desembarcando e dando pasto aos cavalos e carenando para a expedição, e esgotadas as embarcações, 
+                    fiz embarcar tudo e seguir às duas horas da tarde ao ponto destinado; e chegando na 3.ª-feira à uma hora da madrugada 
+                    entre as duas barras do Velhaco e Graxim, fiz desembarque da cavalaria, e dela fiz sair duas partidas, fingindo serem 
+                    rebeldes, a diversos destinos a reunirem cavalos, e eu saí com outra, também na mesma diligência; e endireitando a uma 
+                    casa erma, da família de <persName ref="#eleuterio_jose_pereira">Eleutério José Pereira</persName>, também membro do 
+                    governo rebelde; a qual sendo cercada, aí encontrei um marinheiro dos lanchões dos rebeldes que tinha vindo com licença, 
+                    e sendo este meu conhecido por ter sido meu peão, me informou do estado das coisas, que tudo era conforme o meu plano; 
+                    reunidas as três partidas com 10 e tantos cavalos bons, fiz tornar toda a cavalaria, e destes, 20 com armas de infantaria, 
+                    e deixando à dita casa cercada por uma partida de cinco homens, para não deixar aquela casa sair ninguém ou quem viesse 
+                    ser preso; e eu segui com a cavalaria e o dito homem do lanchão que ia guiar a caminhar pela costa do 
+                    Brejo mais de oito léguas, por lugares bem custosos; acertei porém que na casa do 
+                    Pereira na 3.ª feira 4.º várias pessoas já houvera trazido a notícia dos grandes rebeldes o irem passar em cavalos 
+                    parelheiros à casa cercada do dito Pereira; e sendo cercados na chegada, a cavalo mesmo pularam uma cerca e se 
+                    escaparam e foram dar aviso à viúva <persName ref="#dona_antonia_brejo">D. Antônia do Brejo</persName>, e esta 
+                    imediatamente mandou, de noite mesmo, avisar o comandante da <orgName ref="#marinha_farroupilha">marinha farrapa</orgName> 
+                    <persName ref="#garibaldi"><choice><sic>Guarivalde</sic><corr>Garibaldi</corr></choice></persName> 
+                    que esteve a noite em alarme com toda a sua gente, que havia de andar por cinquenta e tantos rebeldes carcanamos 
+                    e das mais classes, dos quais na 4.ª-feira, às 7 horas do dia, os dispersou do alarme, ensarilhando as armas de 
+                    infantaria dentro de uma casa nova que tinham construído ao pé da praia, de tijolo e cal e paredes dobradas, e com o 
+                    telhado muito encalçado, para depósito de massas e trem de guerra, só com duas portas estreitas, uma para a praia e 
+                    outra para a banda de terra; e sendo no mesmo momento em que dispersaram atacados pelas forças do meu comando, pude 
+                    cortar-lhe vinte e tantos para a banda da praia, dos quais pereceram 14, e outros, feridos mesmo, se arrojaram ao rio, 
+                    e trinta e tantos ganharam a célebre casa, e calando as baionetas nas portas, embarçaram a entrada fazendo um vivo fogo 
+                    pelas portas, e muito principal sobre a praia aonde existiam os lanchões; à vista do que forçoso me era promover modo 
+                    de os fazer render, postando a gente em forma de não haver maior perigo; e no espaço de quase três horas lhe fiz viva 
+                    guerra não só de fogo de armas, como por duas vezes lhe mandei lançar resmas de lenha, de faxina e sebo em cima do 
+                    telhado, que ardendo em fogo violento não era possível pelo muito grosso encaliçamento arrebentarem as telhas e pegar 
+                    fogo na ripa de caibros que os obrigasse a desalojarem a casa; e quando se viram neste aperto deram de dentro vivas à 
+                    legalidade e eu lhes gritei que se entregassem que lhes salvava as vidas, mas o indigno comandante deles, a poder de 
+                    cacháça e pancadas, os fez virar de opinião dando logo vivas à república dizendo morrer sim, entregar não. À vista de 
+                    tal resolução apertei o esforço, e mandando botar 3.ª vez grande porção de faxina e lenha e muito sebo a ver se lhe 
+                    queimava a casa, porém eles, de dentro, com grande custo, puderam abrir buracos em roda da casa pelos quais sendo 
+                    superiores a nós nos faziam dano, sem proveito nas nossas descargas; e por isso investigava quanto antes o 3.º fogo em 
+                    cima do telhado a fim de rendê-los; nesta ocasião já o meu cavalo tinha sido morto de uma bala inimiga, e operando e 
+                    mandando a pé, com mais gente também a pé, por um dos tais buracos me meteram uma bala no braço direito logo abaixo do 
+                    ombro que partindo-me o braço ficou a bala abotoada na pele. Este infeliz sucesso causou algum desacorçoamento na tropa, 
+                    que achei prudente, visto que já tínhamos perdido quatro homens e já eram cinco feridos comigo, e eu assim em tal estado 
+                    tinha de caminhar para mais de oito léguas por terra aonde se achavam as embarcações, em desistir da empresa que já 
+                    contava vencida; e retirando-me na mesma 4.º-feira às dez horas e meia, e na minha marcha me seguiu uma partida de 
+                    cavalaria de sessenta a setenta rebeldes, que mais se aproximaram perto do embarque dos quais lhe pereceu um de um tiro 
+                    de metralha da barca de vapor. Nesse dia o nosso embarque foi trabalhoso em razão de a praia estar muito brava, e por 
+                    isso ainda ficou 30 e tantos homens em terra, e não se pôde, de tão boa cavalhada adquirida, embarcar mais de 25 
+                    cavalos, temendo que barcas, gente e cavalos fosse tudo ao fundo, como foi um lanchão de guerra que custou por baixo de 
+                    água a rebocá-lo para bordo, que salvando-se as peças, se perdeu algum trem, assim como arreios e armas; concluído o 
+                    embarque do resto das praças no dia 5.º-feira à uma hora da tarde, navegamos com tudo direito a <placeName ref="#itapua">Itapuã</placeName> 
+                    aonde chegamos na 6.º-feira de noite, e a esta cidade no dia 20, sábado de madrugada; colhi dos rebeldes em 
+                    <placeName ref="#camaqua">Camaquã</placeName>, na casa do comandante, as suas patentes de piratas, ofícios, e 
+                    detalhes da marinha e outros papéis e regulamentos que já enviei a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>. 
+                    Existiam em Camaquã quatro lanchões, dois em terra consertando com uma peça de calibre três, e duas peças sem aparelho 
+                    de calibre nove, e dois lanchões no rio, novos, ainda por aparelhar, nos quais eu já tinha mandado entrar legais, 
+                    que por não os sacrificar os mandei desembarcar; dos 14 rebeldes que pereceram, um era o chefe da peça; houve indícios 
+                    que também dos de dentro da casa morressem alguns, e outros fossem feridos. Tenho todo o pesar de que meu ferimento me 
+                    não deixasse concluir o vencimento, a fim de satisfazer a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> 
+                    e ao Exmo. Senhor Ministro da Guerra; os rebeldes ficaram bastantemente derrotados, e uma pronta expedição de 
+                    infantaria, que em vasos de guerra pequenos entrasse pela barra de Camaquã, sendo bem dirigida, e com poucos tiros de 
+                    peça que lançassem sobre a casa, os fazia desalojar e dava tempo sem perigo de tomar lanchões e as ditas peças. 
+                    Deus guarde a <choice><abbr>V.Exº.</abbr><expan>Vossa Excelência</expan></choice> muitos anos como havemos mister. 
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>, <date when="1839-04-20">20 de abril de 1839</date>. </p>
+                    
+                    <p>N.B. Todos os oficiais e oficiais inferiores e mais praças que me acompanharam, se portaram com grande valor em 
+                        todas as vezes que operaram.</p>
                 
-                <p>[continuação integral do texto mantida, sem supressões]</p>
                 
                 <closer>
                     <dateline><placeName ref="#porto_alegre">Porto Alegre</placeName>, <date when="1839-04-20">20 de abril de 1839</date>.</dateline>
                     <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
                     <note type="endorsement">Combateu a 17 sendo ferido. [Anotação a lápis na folha 1r.]</note>
-                    <note type="endorsement">(*) — No original Guarivalde</note>
+
                 </closer>
                 
             </div>

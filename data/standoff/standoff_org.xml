@@ -53,12 +53,6 @@
             <orgName>Espólio de José Augusto Ledek</orgName>
         </org>
         
-        <org xml:id="forca_rebelde_rrg">
-            <orgName>Força rebelde não identificada da República Rio-Grandense</orgName>
-            <affiliation ref="#republica_rio_grandense"/>
-            <note>Unidade militar farroupilha mencionada na correspondência, sem identificação nominal dos comandantes ou subunidades.</note>
-        </org>
-        
         <org xml:id="universidade_coimbra" type="educationalInstitution">
             <orgName>Universidade de Coimbra</orgName>
             <placeName ref="#coimbra">Coimbra</placeName>
@@ -77,6 +71,12 @@
             <note>Órgão legislativo provincial instituído após o Ato Adicional de 1834, responsável pela legislação local do Rio Grande do Sul durante o período imperial.</note>
         </org>
         
+        <org xml:id="marinha_farroupilha">
+            <orgName>Marinha Farroupilha</orgName>
+            <idno type="project"></idno>
+            <note>Força naval da República Rio-Grandense, responsável por operações fluviais e costeiras durante a Revolução Farroupilha.</note>
+        </org>
+        
         <org xml:id="secretaria_republica_riograndense">
             <orgName>Secretaria da República Riograndense</orgName>
             <note>Órgão administrativo do governo farroupilha.</note>
@@ -87,8 +87,9 @@
             <note>Governo insurgente estabelecido durante a Revolução Farroupilha.</note>
         </org>
         
-        <org xml:id="segundo_batalhao">
+        <org xml:id="segundo_batalhao" type="militaryUnit">
             <orgName>2.º Batalhão</orgName>
+            <note>Unidade do Exército Imperial, mencionada em operações sob comando do Brigadeiro Filipe Neri de Oliveira.</note>
         </org>
 
         
@@ -126,8 +127,44 @@
         </org>
         
         <org xml:id="guardas_nacionais_5corpo" type="militaryUnit">
-            <orgName>5.º Corpo de Guardas Nacionais</orgName>
+            <orgName>5.º Corpo de cavalaria dos Guardas Nacionais</orgName>
             <note>Unidade militar da Guarda Nacional do Império do Brasil, atuante durante a Revolução Farroupilha.</note>
+        </org>
+        
+        <org xml:id="infantaria_5batalhao" type="militaryUnit">
+            <orgName>5.º Batalhão de Infantaria</orgName>
+            <affiliation ref="#imperio_brasil"/>
+            <note>Batalhão de infantaria do Exército Imperial, atuante durante a Revolução Farroupilha.</note>
+        </org>
+        
+        <org xml:id="infantaria_5batalhao" type="militaryUnit">
+            <orgName>5.º Batalhão de Infantaria</orgName>
+            <affiliation ref="#imperio_brasil"/>
+            <note>Batalhão de infantaria do Exército Imperial, atuante durante a Revolução Farroupilha.</note>
+        </org>
+        
+        <org xml:id="cavalaria_2regimento" type="militaryUnit">
+            <orgName>2.º Regimento de Cavalaria de Linha</orgName>
+            <affiliation ref="#imperio_brasil"/>
+            <note>Regimento de Cavalaria de Linha do Exército Imperial, ativo durante a Revolução Farroupilha.</note>
+        </org>
+        
+        <org xml:id="cavalaria_3regimento" type="militaryUnit">
+            <orgName>3.º Regimento de Cavalaria de Linha</orgName>
+            <affiliation ref="#imperio_brasil"/>
+            <note>Regimento de Cavalaria de Linha do Exército Imperial, citado em operações militares na província.</note>
+        </org>
+        
+        <org xml:id="guardas_nacionais_3corpo" type="militaryUnit">
+            <orgName>3.º Corpo de cavalaria dos Guardas Nacionais</orgName>
+            <affiliation ref="#imperio_brasil"/>
+            <note>Unidade militar da Guarda Nacional do Império do Brasil, atuante durante a Revolução Farroupilha.</note>
+        </org>
+        
+        <org xml:id="terceiro_batalhao" type="militaryUnit">
+            <orgName>3.º Batalhão de Infantaria</orgName>
+            <affiliation ref="#imperio_brasil"/>
+            <note>Batalhão do Exército Imperial Brasileiro atuante durante a Revolução Farroupilha.</note>
         </org>
         
         <org xml:id="assembleia_geral">
@@ -194,7 +231,10 @@
         
         <org xml:id="exercito_farroupilha">
             <orgName>Exército Republicano Rio-Grandense</orgName>
-            <note>Força militar da República Rio-Grandense durante a Revolução Farroupilha.</note>
+            <orgName type="variant">Exército Republicano Rio-grandense</orgName>
+            <orgName type="alias">Exército Farroupilha</orgName>
+            <idno type="project"></idno>
+            <note>Força militar da República Rio-Grandense durante a Revolução Farroupilha, também conhecida como Exército Farroupilha.</note>
         </org>
         
         <org xml:id="jornal_oficial_republica">
@@ -393,16 +433,21 @@
             <note>Instalação militar do Exército Imperial, sediada em Porto Alegre durante o período da Revolução Farroupilha.</note>
         </org>
         
-        <org xml:id="esquadrao_barra">
-            <orgName>Quartel do Esquadrão da Barra</orgName>
+        <org xml:id="esquadrao_barra" type="militaryUnit">
+            <orgName>Esquadrão da Barra</orgName>
             <affiliation ref="#imperio_brasil"/>
             <note>Unidade militar do Exército Imperial comandada por Francisco Pedro de Abreu.</note>
         </org>
         
-        <org xml:id="oitavo_batalhao">
+        <org xml:id="oitavo_batalhao" type="militaryUnit">
             <orgName>8.º Batalhão</orgName>
             <affiliation ref="#imperio_brasil"/>
-            <note>Batalhão do Exército Imperial responsável por prisões militares.</note>
+            <state type="roleInTime" xml:id="oitavo_batalhao_comando_neri_1839">
+                <roleName>Comandado pelo Brigadeiro Filipe Neri de Oliveira</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1839"/>
+            </state>
+            <note>Batalhão do Exército Imperial responsável por prisões militares; em 1839 estava sob o comando do Brigadeiro Filipe Neri de Oliveira.</note>
         </org>
         
         <org xml:id="corpo_provisorio">

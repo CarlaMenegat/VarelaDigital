@@ -412,3 +412,18 @@ hrao:requestedPaymentFor a owl:ObjectProperty ;
     rdfs:domain prov:Agent ;
     rdfs:range prov:Agent .
 
+#################################################################
+# Property: hrao:heldPossessionOf
+#################################################################
+
+hrao:heldPossessionOf a owl:ObjectProperty ;
+    rdfs:label "held possession of"@en ;
+    rdfs:comment "Indicates that a person held long-term possession, use, or control of a property, land parcel, estate, or territorial unit in a historical context."@en ;
+
+    # semântica: posse implica relação de influência/controle
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+
+    # domínio e alcance: agentes (pessoas ou instituições)
+    rdfs:domain prov:Agent ;
+    rdfs:range  prov:Agent .
+

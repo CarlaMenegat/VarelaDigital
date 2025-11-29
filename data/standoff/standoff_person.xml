@@ -29,18 +29,30 @@
             <idno type="project"></idno>
             <note>Veterano da Revolução Farroupilha mencionado por Raul Abbott como testemunha de episódios militares.</note>
         </person>
-        
+
         <person xml:id="gomes_jardim">
             <persName>José Gomes de Vasconcelos Jardim</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q7274284</idno>
-            <roleName>Vice-presidente da República Rio-grandense</roleName>
-            <roleName>2° presidente da República Rio-grandense</roleName>
-            <note>Político farroupilha, Vice-presidente e depois Presidente da República Riograndense.</note>
-        </person> 
+            <idno type="viaf">https://viaf.org/viaf/306595508</idno>
+            <birth when="1796-01-01">01 de janeiro de 1773</birth>
+            <death when="1854-12-01">01 de dezembro de 1854</death>
+            <state type="roleInTime" xml:id="gomes_jardim_vice_presidente_rrg">
+                <roleName>Vice-presidente da República Rio-Grandense</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <date type="begin" when="1836"/>
+            </state>
+            <state type="roleInTime" xml:id="gomes_jardim_presidente_rrg">
+                <roleName>Presidente da República Rio-Grandense</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <date type="begin" when="1841"/>
+                <date type="end" when="1845"/>
+            </state>
+            <note>Estancieiro e político farroupilha. Vice-presidente da República Rio-Grandense e seu segundo presidente. Aliado de Bento Gonçalves e figura de liderança durante toda a Revolução Farroupilha.</note>
+        </person>
         
         <person xml:id="canabarro">
-            <persName type="popular">David Canabarro</persName>
             <persName>David José Martins</persName>
+            <persName type="popular">David Canabarro</persName>
             <idno type="viaf">https://viaf.org/en/viaf/48454698</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q17276409</idno>
             <birth when="1796-08-22">22 de agosto de 1796</birth>
@@ -50,7 +62,7 @@
                 <affiliation ref="#republica_rio_grandense"/>
                 <date type="begin" when="1837"/>
             </state>
-            <note>Militar farroupilha, comandante de diversas operações e reconhecido como General da República Rio-Grandense ao menos desde 1837.</note>
+            <note>Militar farroupilha, comandante de diversas operações e reconhecido como general da República Rio-Grandense ao menos desde 1837.</note>
         </person>
         
         <person xml:id="serafim_alencastre">
@@ -58,6 +70,25 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10370179</idno>
             <roleName>Ministro da Guerra e Marinha da República Rio-Grandense[</roleName>
             <note>Além de ser Ministro da Guerra, escreveu a primeira versão do Hino Rio-Grandense (hino farroupilha), depois substituída pela de Francisco Pinto da Fontoura. </note>
+        </person>
+        
+        <person xml:id="pedro_ii">
+            <persName>Dom Pedro II</persName>
+            <persName>Pedro de Alcântara João Carlos Leopoldo Salvador Bibiano Francisco Xavier de Paula Leocádio Miguel Gabriel Rafael Gonzaga</persName>
+            <idno type="viaf">https://viaf.org/viaf/41855030</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q46513</idno>
+            <birth when="1825-12-02">2 de dezembro de 1825</birth>
+            <death when="1891-12-05">5 de dezembro de 1891</death>
+            <state type="roleInTime" xml:id="pedro_ii_imperador_brasil">
+                <roleName>Imperador do Brasil</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1840"/>
+                <date type="end" when="1889"/>
+            </state>
+            <note>
+                Segundo e último imperador do Brasil, governou de 1840 a 1889, exercendo papel central na política,
+                diplomacia e modernização do país durante o Segundo Reinado.
+            </note>
         </person>
         
         <person xml:id="bento_manoel">
@@ -132,11 +163,6 @@
             <note>Inicia a farroupilha como Major. Se tornou Barão, Visconde e Conde de Porto Alegre.</note>
         </person>
         
-        <person xml:id="demetrio">
-            <persName>Demétrio</persName>
-            <note>Identificado com patente de Tenente-coronel.</note>
-        </person>
-        
         <person xml:id="roque_faustino">
             <persName>Roque Faustino</persName>
             <note>Capitão legalista do Exército do Império do Brasil, feito prisioneiro após o combate do Espinilho.</note>
@@ -180,7 +206,7 @@
             <note><note>Comerciante e fornecedor de gado dos farroupilhas, sobrinho de Bento Gonçalves da Silva.</note></note>
         </person>
         
-        <person xml:id="braga">
+        <person xml:id="fernandes_braga">
             <persName>Antônio Rodrigues Fernandes Braga</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q16492340</idno>
             <roleName>Presidente da Província do Rio Grande do Sul</roleName>
@@ -482,18 +508,18 @@
             <persName>Antônio de Sousa Neto</persName>
             <idno type="viaf">https://viaf.org/en/viaf/312881911</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q612105</idno>
-            <roleName>General da República Rio-Grandense</roleName>
-            <note>General farroupilha e líder militar destacado da República Rio-Grandense.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="neto_general_rrg">
+                <roleName>General da República Rio-Grandense</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <state type="roleInTime" xml:id="neto_general_em_chefe_1839">
+                <roleName>General-em-chefe do Exército Republicano Rio-Grandense</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+                <date type="begin" when="1839-04-11"/>
+            </state>
+            <note>General farroupilha e líder militar destacado da República Rio-Grandense; referido em 11 de abril de 1839 como general-em-chefe dos rebeldes.</note>
         </person>
-        
-        <person xml:id="general_neto">
-            <persName>Antônio de Sousa Neto</persName>
-        </person> <!--corrigir para id antonio_sousa_neto-->
-        
-        <person xml:id="antonio_neto">
-            <persName>Antônio Neto</persName>
-            <note>General e Chefe do Estado-maior do Exército.</note>
-        </person> <!--corrigir para id antonio_sousa_neto-->
         
         <person xml:id="jose_sousa_neto">
             <persName>José de Sousa Neto</persName>
@@ -505,31 +531,56 @@
             <note>Responsável pela compra de cavalos para o exército farroupilha.</note>
         </person>
         
-        <person xml:id="neto">
-            <persName>Neto</persName>
-            <note>Identificado como "velho Neto", possivelmente residente ou ponto de referência para deslocamento; identidade completa não especificada.</note>
-        </person> <!--pai de Antônio de Souza Neto-->
-        
-        <person xml:id="filipe_neri">
-            <persName>Filipe Neri</persName>
+        <person xml:id="fernandes">
+            <persName>Tenente-coronel Fernandes</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="fernandes_imperial_tc">
+                <roleName>Tenente-coronel</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <desc>Comandante destacado no Passo do Caí.</desc>
+            </state>
+            <note>Oficial legalista do Exército Imperial, mencionado como comandante no Passo do Caí.</note>
         </person>
         
-        <person xml:id="filipe_neri_oliveira">
+        <person xml:id="filipe_neri">
             <persName>Filipe Neri de Oliveira</persName>
-            <note>Brigadeiro e Comandante de Brigada Imperial.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="filipe_neri_brigadeiro_imperial">
+                <roleName>Brigadeiro</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <desc>Comandante de brigada e do 2.º Batalhão do Exército Imperial.</desc>
+            </state>
+            <note>Militar legalista de alta patente, atuou como Brigadeiro e comandante do 2.º Batalhão em operações durante a Revolução Farroupilha.</note>
+        </person>
+        
+        <person xml:id="filipe_de_oliveira_neri">
+            <persName>Filipe de Oliveira Néri</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10282296</idno>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="filipe_neri_filho_imperial">
+                <roleName>Oficial do Exército Imperial</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <desc>Serviu sob ordens de João Propício Menna Barreto.</desc>
+            </state>
+            <note>Oficial legalista, filho do Brigadeiro Filipe Neri de Oliveira. Atuou sob comando de João Propício Menna Barreto.</note>
         </person>
         
         <person xml:id="antonio_pedro_abreu">
             <persName>Antônio Pedro de Abreu</persName>
             <idno type="project"></idno>
-            <state type="roleInTime" xml:id="antonio_pedro_abreu_tenente_legalista">
-                <roleName>Tenente comandante dos presídios do Batalhão 11</roleName>
+            <state type="roleInTime" xml:id="antonio_pedro_abreu_tenente_2_linha">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <roleName>Oficial da extinta 2.º Linha</roleName>
+            </state>
+            <state type="roleInTime" xml:id="antonio_pedro_abreu_batalhao11">
+                <roleName>Comandante dos presídios do Batalhão 11</roleName>
                 <affiliation ref="#imperio_brasil"/>
                 <location>
                     <placeName ref="#ilha_corvo">Ilha do Corvo</placeName>
                 </location>
             </state>
-            <note>Oficial legalista do Exército Imperial estacionado na Ilha do Corvo, onde comandava os presídios do Batalhão 11 durante a Revolução Farroupilha.</note>
+            <note>Tenente legalista do Exército Imperial, oficial da extinta 2.º Linha e comandante dos presídios do Batalhão 11 na Ilha do Corvo durante a Revolução Farroupilha.</note>
         </person>
         
         <person xml:id="alferes_ferreira">
@@ -880,6 +931,7 @@
         
         <person xml:id="alferes_cruz">
             <persName>Alferes Cruz</persName>
+            <persName type="full">Antônio Joaquim da Cruz</persName>
             <idno type="project"></idno>
             <state type="roleInTime" xml:id="alferes_cruz_guarda_ilha_corvo">
                 <roleName>Comandante de guarda</roleName>
@@ -1292,11 +1344,6 @@
             <note>Oficial militar legalista atuante na Guerra Farroupilha.</note>
         </person>
         
-        <person xml:id="guedes">
-            <persName>Guedes</persName>
-            <note>Tenente-coronel citado como parte das forças legalistas.</note>
-        </person>
-        
         <person xml:id="felicissimo">
             <persName>Felicissimo</persName>
             <note>Tenente-coronel mencionado como comandante de 180 homens.</note>
@@ -1603,8 +1650,25 @@
         
         <person xml:id="garibaldi">
             <persName>Giuseppe Garibaldi</persName>
-            <note>Revolucionário italiano que atuou na Guerra Farroupilha liderando a marinha republicana.</note>
+            <persName type="popular">José Garibaldi</persName>
             <idno type="viaf">https://viaf.org/viaf/2460204</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q539</idno>
+            <birth when="1807-07-04">4 de julho de 1807</birth>
+            <death when="1882-06-02">2 de junho de 1882</death>
+            <state type="roleInTime" xml:id="garibaldi_marinha_farroupilha_1836_1841">
+                <roleName>Comandante naval</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <affiliation ref="#marinha_farroupilha"/>
+                <date type="begin" when="1836"/>
+                <date type="end" when="1841"/>
+            </state>
+            <state type="roleInTime" xml:id="garibaldi_montevideu_1841_1848">
+                <roleName>Comandante militar e político</roleName>
+                <affiliation ref="#montevideu"/>
+                <date type="begin" when="1841"/>
+                <date type="end" when="1848"/>
+            </state>
+            <note>Revolucionário italiano com papel decisivo na marinha da República Rio-Grandense entre 1836 e 1841. Atuou posteriormente em Montevidéu durante a Guerra Grande, antes de retornar à Itália, onde se tornou uma figura central do Risorgimento.</note>
         </person>
         
         <person xml:id="zambeccari">
@@ -1713,6 +1777,7 @@
             <persName>Coronel Crescêncio</persName>
             <note>Oficial militar farroupilha citado como comandante de divisão.</note>
         </person> <!--Corrigir para id domingos_crescecncio_carvalho-->
+
         
         <person xml:id="domingos_crescencio_carvalho">
             <persName>Domingos Crescêncio de Carvalho</persName>
@@ -2610,11 +2675,6 @@
         <person xml:id="francisco_jose">
             <persName>Francisco José</persName>
         </person>
-        
-        <person xml:id="alvares_machado">
-            <persName>Alvares Machado</persName>
-            <note>Deputado mencionado como enviado em missão política.</note>
-        </person>
 
         <person xml:id="jose_higino_morais_freitas">
             <persName>José Higino de Morais Freitas</persName>
@@ -3257,11 +3317,6 @@
             <note>Mencionado como ocupante de cargo após queda do Ministério Andrada.</note>
         </person>
         
-        <person xml:id="alvares_machado">
-            <persName>Álvares Machado</persName>
-            <note>Mencionado como autoridade substituída na narrativa epistolar.</note>
-        </person>
-        
         <person xml:id="conde_do_rio_pardo">
             <persName>Conde do Rio Pardo</persName>
             <note>Autoridade nomeada para cargo após mudança política referida.</note>
@@ -3582,7 +3637,13 @@
         
         <person xml:id="jose_gomes_portinho">
             <persName>José Gomes Portinho</persName>
-            <note>Identificado com patente de Tenente-coronel.</note>
+            <perName type="popular">General Portinho</perName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10309518</idno>
+            <state type="roleInTime" xml:id="portinho_tenente_coronel_rrg">
+                <roleName>Tenente-coronel</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Líder militar farroupilha. Atuou como tenente-coronel da República Rio-Grandense, participando de diversas operações militares durante a Revolução Farroupilha.</note>
         </person>
         
         <person xml:id="joaquim_de_sousa">
@@ -3859,10 +3920,6 @@
             <note>Indivíduo que recusou prosseguir no cargo em razão de perseguições e calúnias.</note>
         </person>
         
-        <person xml:id="isaias_antonio_alz">
-            <persName>Isaías Antônio Alz.</persName>
-        </person>
-        
         <person xml:id="joaquim_campos">
             <persName>Joaquim Campos</persName>
             <note>Comerciante encontrado na Vila de San Fructuoso.</note>
@@ -4007,8 +4064,18 @@
         
         <person xml:id="jose_inacio_ourives">
             <persName>José Inácio Ourives</persName>
+            <persName>José Inácio (Juca) Ourives</persName>
+            <persName type="alias">Ourives</persName>
             <idno type="project"></idno>
-            <note>Capitão legalista mencionado entre os oficiais que participaram da operação sob comando de Salustiano.</note>
+            <state type="roleInTime" xml:id="ourives_capitao_imperial">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="ourives_major_imperial">
+                <roleName>Major</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Oficial legalista do Exército Imperial, referido tanto como capitão quanto como major em diferentes documentos da Coleção Varela; aparece em operações de cavalaria e em comparações de serviços feitas por Francisco Pedro de Abreu.</note>
         </person>
         
         <person xml:id="jose_garcia">
@@ -4063,12 +4130,6 @@
             <persName>Eusébio</persName>
             <idno type="project"></idno>
             <note>Capataz farroupilha a serviço de Juca Leão; morto durante ação militar em Arroio dos Ratos.</note>
-        </person>
-        
-        <person xml:id="juca_leao">
-            <persName>Juca Leão</persName>
-            <idno type="project"></idno>
-            <note>Charqueador farroupilha da região de Arroio dos Ratos.</note>
         </person>
         
         <person xml:id="estevao">
@@ -4156,28 +4217,55 @@
         </person>
         
         <person xml:id="visconde_castro">
-            <persName>Visconde de Castro</persName>
-        </person>
-        
-        <person xml:id="claro">
-            <persName>Claro</persName>
+            <persName>João de Castro do Canto e Melo</persName>
+            <persName type="title">2.º Visconde de Castro</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10310764</idno>
+            <idno type="viaf">https://viaf.org/viaf/305373302</idno>
+            <idno type="project"></idno>
+            <birth when="1778"/>
+            <death when="1853-09-11"/>
+            <state type="roleInTime" xml:id="visconde_castro_brigadeiro_pa">
+                <roleName>Brigadeiro</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <location ref="#porto_alegre"/>
+            </state>
+            <state type="roleInTime" xml:id="visconde_castro_comandante_guarnicao_pa">
+                <roleName>Comandante da Guarnição da Capital</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <location ref="#porto_alegre"/>
+            </state>
+            <note>Militar e nobre brasileiro, comandante da guarnição de Porto Alegre durante a Revolução Farroupilha.</note>
         </person>
         
         <person xml:id="claro_jose_sousa">
             <persName>Claro José de Sousa</persName>
-            <note>Tenente ferido em combate.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="claro_jose_sousa_tenente_imperio">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Tenente legalista ferido em combate.</note>
         </person>
         
         <person xml:id="duarte_canabarro">
-            <persName>Duarte Martins Canabarro</persName>
-        </person>
-        
-        <person xml:id="david_canabarro">
-            <persName>David Canabarro</persName>
+            <persName>Duarte José Martins</persName>
+            <persName type="popular">Duarte Canabarro</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="duarte_canabarro_major_rrg">
+                <roleName>Major</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Major farroupilha, irmão de David Canabarro.</note>
         </person>
         
         <person xml:id="francisco_xavier">
             <persName>Francisco Xavier</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="francisco_xavier_tenente_rrg">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Tenente farroupilha, sobrinho de Bento Manuel Ribeiro.</note>
         </person>
         
         <person xml:id="francisco_felix_fonseca">
@@ -4190,261 +4278,490 @@
             </state>
             <note>Major legalista e comandante do 8.º Batalhão, citado em correspondência de Francisco Pedro de Abreu.</note>
         </person>
-
+        
         <person xml:id="eleuterio_jose_pereira">
             <persName>Eleutério José Pereira</persName>
-            <note>Identificado como membro do governo rebelde farroupilha.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="eleuterio_pereira_governo_rrg">
+                <roleName>Membro do governo farroupilha</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Figura política ligada ao governo da República Rio-Grandense, atuando como autoridade no movimento farroupilha.</note>
         </person>
         
-        <person xml:id="antonia_do_brejo">
-            <persName>Antônia do Brejo</persName>
-            <note>Viúva mencionada como informante da movimentação rebelde.</note>
+        <person xml:id="dona_antonia_brejo">
+            <persName>D. Antônia do Brejo</persName>
+            <idno type="project"></idno>
+            <note>Viúva mencionada como apoiadora dos farroupilhas; responsável por enviar aviso noturno ao comandante da marinha farroupilha, Giuseppe Garibaldi.</note>
         </person>
         
         <person xml:id="sebastiao_rego_barros">
-            <persName>Sebastião do Rego Barros</persName>
-            <note>Ministro e Secretário de Estado dos Negócios da Guerra do Império do Brasil.</note>
+            <persName>Sebastião do Rêgo Barros</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10369175</idno>
+            <idno type="viaf"></idno>
+            <birth when="1782-06-09">9 de junho de 1782</birth>
+            <death when="1843-08-21">21 de agosto de 1843</death>
+            <state type="roleInTime" xml:id="rego_barros_governador_pernambuco">
+                <roleName>Governador da Província de Pernambuco</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1836"/>
+                <date type="end" when="1839"/>
+            </state>
+            <state type="roleInTime" xml:id="rego_barros_ministro_guerra">
+                <roleName>Ministro e Secretário de Estado dos Negócios da Guerra</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1839"/>
+                <date type="end" when="1840"/>
+            </state>
+            <state type="roleInTime" xml:id="rego_barros_oficial_exercito">
+                <roleName>Oficial do Exército Imperial</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Militar e político do Império do Brasil; desempenhou papel central na administração militar durante a década de 1830. Serviu como Governador de Pernambuco (1836–1839) e posteriormente como Ministro da Guerra (1839–1840). Morreu no exercício de funções políticas em 1843.</note>
         </person>
         
-        <person xml:id="rocha">
+        <person xml:id="rocha_marinha">
             <persName>Rocha</persName>
-            <note>Tenente da Marinha, comandante de embarcações.</note>
+            <roleName>Tenente da Marinha Imperial</roleName>
+            <idno type="project"></idno>
+            <note>Oficial legalista da Marinha Imperial, mencionado como participante da operação naval sob comando de Francisco Pedro de Abreu.</note>
         </person>
         
         <person xml:id="capitao_christe">
             <persName>Christe</persName>
-            <note>Capitão, comandante da infantaria citada.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="christe_capitao_imperial">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Capitão legalista, comandante da infantaria mencionada nas operações de 1839.</note>
         </person>
         
         <person xml:id="jose_manuel_de_leao">
             <persName>José Manuel de Leão</persName>
-            <note>Coronel de Legião, morto no ataque relatado.</note>
+            <persName type="popular">Juca Leão</persName>
+            <idno type="project"></idno>
+            <birth when="1794"/>
+            <death when="1839-09">Setembro de 1839</death>
+            <state type="roleInTime" xml:id="leao_coronel_farroupilha">
+                <roleName>Coronel de Legião</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <date type="end" when="1839-09"/>
+            </state>
+            <note>Coronel farroupilha, comandante de legião. Morto em setembro de 1839 durante ataque legalista. Figura destacada no movimento rebelde, citado em diversas memórias do período.</note>
         </person>
         
         <person xml:id="antonio_turpim">
             <persName>Antônio Turpim</persName>
-            <note>Identificado como assassino, morto no ataque.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="turpim_farroupilha">
+                <roleName>Combatente farroupilha</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <death when="1839-09">Setembro de 1839</death>
+            <note>Farroupilha identificado como autor de homicídio em contexto anterior; morto no ataque legalista descrito na carta.</note>
         </person>
         
         <person xml:id="jeronimo">
             <persName>Jerônimo</persName>
-            <note>Tenente rebelde capturado.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="jeronimo_tenente_farroupilha">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Tenente farroupilha capturado pelas forças imperiais.</note>
         </person>
         
         <person xml:id="alferes_inocencio">
             <persName>Alferes Inocêncio</persName>
-            <note>Oficial rebelde capturado.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="inocencio_alferes_farroupilha">
+                <roleName>Alferes</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Alferes farroupilha capturado durante o ataque legalista.</note>
         </person>
         
-        <person xml:id="tenente_isaias">
-            <persName>Isaías</persName>
-            <note>Tenente mencionado como destacado no desempenho.</note>
-        </person>
-        
-        <person xml:id="tenente_isaias_antonio">
+        <person xml:id="isaias_antonio">
             <persName>Isaías Antônio Alz.</persName>
-            <note>Tenente sob comando de Francisco Pedro de Abreu.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="isaias_antonio_tenente_imperio">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Tenente legalista sob comando de Francisco Pedro de Abreu, mencionado em operações militares contra forças farroupilhas.</note>
         </person>
         
-        <person xml:id="antonio_jose_carvalho_2">
-            <persName>Antônio José de Carvalho</persName>
-            <note>Membro da tropa destacada; homônimo a outro já existente.</note>
+        <person xml:id="tomas_pereira">
+            <persName>Tomás Pereira</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="tomas_pereira_tenente_coronel_rrg">
+                <roleName>Tenente-coronel</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Tenente-coronel farroupilha, mencionado como comandante de uma partida da República Rio-Grandense.</note>
         </person>
         
         <person xml:id="tenente_nogueira">
             <persName>Nogueira</persName>
-            <note>Tenente rebelde comandante da guarda no Passo Fundo.</note>
+            <state type="roleInTime" xml:id="nogueira_tenente_rrg">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <idno type="project"></idno>
+            <note>Tenente farroupilha, comandante da guarda no Passo Fundo.</note>
         </person>
         
         <person xml:id="alferes_carvalho">
-            <persName>Carvalho</persName>
-            <note>Alferes citado como atuante com distinção.</note>
+            <persName>Antônio José de Carvalho</persName>
+            <state type="roleInTime" xml:id="carvalho_alferes">
+                <roleName>Alferes</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Alferes legalista, atuante com distinção; identificado também como “Carvalho” em outras cartas.</note>
         </person>
         
-        <person xml:id="cabo_fidelis">
+        <person xml:id="fidelis_pais_silva">
             <persName>Fidélis Pais da Silva</persName>
-            <note>Cabo destacado pelo valor em ação.</note>
-        </person>
-        
-        <person xml:id="sargento_fidelis_pais_silva">
-            <persName>Sargento Fidélis Pais da Silva</persName>
-            <note>Ferido durante a ação militar.</note>
+            <state type="roleInTime" xml:id="fidelis_cabo">
+                <roleName>Cabo</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="fidelis_sargento">
+                <roleName>Sargento</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Militar legalista destacado pelo valor em ação e posteriormente ferido em combate.</note>
         </person>
         
         <person xml:id="capitao_belisario">
             <persName>Belisário</persName>
-            <note>Capitão da cavalaria legalista.</note>
+            <state type="roleInTime">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Capitão da cavalaria legalista mencionado em operações militares.</note>
         </person>
         
-        <person xml:id="capitao_rafael_viana">
+        <person xml:id="capitao_rafael_jose_viana">
+            <persName>Rafael José Viana</persName>
             <persName>Rafael Viana</persName>
-            <note>Capitão da cavalaria legalista.</note>
+            <state type="roleInTime">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Capitão legalista, atuante no 5.º Corpo da Guarda Nacional.</note>
         </person>
-
+        
         <person xml:id="tenente_marcos">
             <persName>Marcos</persName>
-            <note>Tenente citado em operação militar.</note>
+            <state type="roleInTime">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Tenente legalista mencionado em operação militar.</note>
         </person>
         
         <person xml:id="julio_viana">
             <persName>Júlio Viana</persName>
-            <note>Alferes legalista.</note>
+            <state type="roleInTime">
+                <roleName>Alferes</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Alferes legalista citado em operações do 5.º Corpo.</note>
         </person>
         
         <person xml:id="alferes_machado">
             <persName>Machado</persName>
-            <note>Alferes legalista.</note>
+            <state type="roleInTime">
+                <roleName>Alferes</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Alferes legalista mencionado em ações militares.</note>
         </person>
         
         <person xml:id="tenente_coronel_silveira">
             <persName>Silveira</persName>
-            <note>Chefe rebelde, referido como tenente-coronel.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="silveira_tenente_coronel_rrg">
+                <roleName>Tenente-coronel</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <location>
+                    <placeName ref="#encruzilhada">Encruzilhada</placeName>
+                </location>
+            </state>
+            <note>Chefe farroupilha, referido como tenente-coronel e atuante na região de Encruzilhada.</note>
         </person>
         
         <person xml:id="ricardo">
             <persName>Ricardo</persName>
-            <note>Comandante da polícia do distrito, rebelde, capturado.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="ricardo_comandante_policia_farroupilha">
+                <roleName>Comandante da polícia do distrito</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Oficial farroupilha, comandante da polícia do distrito, posteriormente aprisionado pelas forças do Império do Brasil.</note>
         </person>
         
         <person xml:id="bento_surdo">
             <persName>Bento Surdo</persName>
-            <note>Identificado como pai de prisioneiro.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="bento_surdo_farroupilha">
+                <roleName>Estancieiro e aliado farroupilha</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Estancieiro identificado como farroupilha; seu filho foi preso pelas forças imperiais em operação militar.</note>
         </person>
         
         <person xml:id="jacinto_roque">
             <persName>Jacinto Roque</persName>
-            <note>Juiz de paz rebelde no cerro do Roque.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="jacinto_roque_juiz_paz_rrg">
+                <roleName>Juiz de paz</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <location>
+                    <placeName ref="#cerro_do_roque">Cerro do Roque</placeName>
+                </location>
+            </state>
+            <note>Juiz de paz farroupilha estabelecido no Cerro do Roque; preso pelas forças imperiais.</note>
         </person>
         
         <person xml:id="verissimo">
             <persName>Veríssimo</persName>
-            <note>Ferreiro identificado como produtor de lanças para rebeldes.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="verissimo_ferreiro_rrg">
+                <roleName>Ferreiro</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Ferreiro farroupilha responsável por fabricar lanças para as forças rebeldes, a mando do ajudante-general Joaquim Pedro Soares; fugiu ao perceber a aproximação das forças legais.</note>
         </person>
         
         <person xml:id="joaquim_pedro_soares">
             <persName>Joaquim Pedro Soares</persName>
-            <idno type="project"></idno>
-            <birth when="1774">1774</birth>
+            <idno type="project"/>
+            <birth when="1774"/>
             <death when="unknown"/>
             <state type="roleInTime" xml:id="joaquim_pedro_coronel_rrg">
                 <roleName>Coronel</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <state type="roleInTime" xml:id="joaquim_pedro_ajudante_general_rrg">
+                <roleName>Ajudante-general</roleName>
                 <affiliation ref="#republica_rio_grandense"/>
             </state>
             <state type="roleInTime" xml:id="joaquim_pedro_comandante_lanceiros_negros">
                 <roleName>Comandante do 1.º Corpo de Lanceiros Negros</roleName>
                 <affiliation ref="#corpo_lanceiros_negros"/>
             </state>
-            <note>Militar luso-brasileiro. Veterano da Guerra Peninsular e da Guerra da Cisplatina. Aderiu à Revolução Farroupilha, organizando e comandando o 1.º Corpo de Lanceiros Negros. Participou da Batalha do Seival (1836). Foi preso em Piratini em 1844 e deportado ao Rio de Janeiro ― destino final incerto.</note>
+            <note>Militar luso-brasileiro, veterano da Guerra Peninsular e da Guerra da Cisplatina. Aderiu à Revolução Farroupilha, organizando e comandando o 1.º Corpo de Lanceiros Negros. Participou da Batalha do Seival (1836). Preso em Piratini em 1844 e deportado ao Rio de Janeiro; destino posterior incerto.</note>
         </person>
         
         <person xml:id="manuel_jorge_rodrigues">
             <persName>Manuel Jorge Rodrigues</persName>
-            <note>Tenente-general e comandante-em-chefe das forças legalistas na província.</note>
-        </person>
-        
-        <person xml:id="capitao_rafael_jose_viana_2">
-            <persName>Rafael José Viana</persName>
-            <note>Capitão do 5.º Corpo; homônimo de Rafael Viana já citado anteriormente.</note>
+            <persName type="role">Tenente-general</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10324263</idno>
+            <birth when="1768-04-23">23 de abril de 1768</birth>
+            <death when="1847-01-06">6 de janeiro de 1847</death>
+            <state type="roleInTime" xml:id="mjr_comandante_legalista_rg">
+                <roleName>Comandante-em-chefe das forças legalistas no Rio Grande do Sul</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1836"/>
+            </state>
+            <note>
+                Militar português-brasileiro, tenente-general do Exército Imperial. Atuou como comandante-em-chefe 
+                das forças legalistas durante a Revolução Farroupilha, liderando operações contra a República Rio-grandense.
+            </note>
         </person>
         
         <person xml:id="alferes_prestes">
             <persName>Prestes</persName>
-            <note>Alferes do 3.º Corpo.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="prestes_alferes_3corpo">
+                <roleName>Alferes</roleName>
+                <affiliation ref="#guardas_nacionais_3corpo"/>
+            </state>
+            <note>Oficial legalista (alferes) pertencente ao 3.º Corpo de Cavalaria dos Guardas Nacionais.</note>
         </person>
         
         <person xml:id="capitao_antonio_fernando">
             <persName>Antônio Fernando</persName>
-            <note>Capitão comandante de destacamento mencionado.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="antonio_fernando_capitao_imperial">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Capitão legalista mencionado como comandante de um destacamento em operações do Exército Imperial durante a Guerra Farroupilha.</note>
         </person>
         
         <person xml:id="major_mariano_martins">
             <persName>Mariano Martins</persName>
-            <note>Major legalista mencionado em operações no interior.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="mariano_martins_major_imperial">
+                <roleName>Major</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Oficial legalista do Exército Imperial, mencionado em operações militares no interior da Província durante a Guerra Farroupilha.</note>
         </person>
         
         <person xml:id="capitao_boaventura">
             <persName>Boaventura</persName>
-            <note>Capitão enviado além da Encruzilhada.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="boaventura_capitao_imperial">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Capitão legalista enviado além da Encruzilhada para atacar a estância de Braga, onde se achava a invernada de Gomes Jardim.</note>
         </person>
         
         <person xml:id="braga">
             <persName>Braga</persName>
-            <note>Proprietário de estância citada.</note>
+            <idno type="project"></idno>
+            <note>Proprietário da estância onde, posteriormente, se estabeleceu a invernada de José Gomes Jardim.</note>
         </person>
         
         <person xml:id="coronel_loureiro">
-            <persName>Coronel Loureiro</persName>
-            <note>Oficial que requereu cavalos para a campanha.</note>
+            <persName>Manuel dos Santos Loureiro</persName>
+            <persName type="role">Coronel Loureiro</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10324710</idno>
+            <birth when="1798">1798</birth>
+            <death when="1862-08-28">28 de agosto de 1862</death>
+            <state type="roleInTime" xml:id="loureiro_coronel_imperio">
+                <roleName>Coronel</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Militar legalista, conhecido como Coronel Loureiro; atuou na repressão aos farroupilhas e requereu cavalhadas para as campanhas do Exército Imperial.</note>
         </person>
         
         <person xml:id="joao_silveira">
             <persName>João Silveira</persName>
-            <note>Identificado como amigo e informante.</note>
+            <idno type="project"></idno>
+            <note>Legalista, amigo e informante de Francisco Pedro de Abreu.</note>
         </person>
-
+        
         <person xml:id="anibal">
             <persName>Aníbal</persName>
-            <note>Chefe militar ou líder de tropas citado com 200 homens.</note>
+            <idno type="project"></idno>
+            <note>Chefe militar legalista mencionado como liderando 200 homens.</note>
         </person>
-
+        
         <person xml:id="guedes">
             <persName>Guedes</persName>
-            <note>Comandante rebelde com 500 homens segundo relato.</note>
+            <idno type="project"></idno>
+            <note>Comandante farroupilha, referido como liderando cerca de 500 homens.</note>
         </person>
-
+        
         <person xml:id="joao_ferreira">
             <persName>João Ferreira</persName>
-            <note>Tenente rebelde que se apresentou.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="joao_ferreira_tenente_farroupilha">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <state type="roleInTime" xml:id="joao_ferreira_capitao_farroupilha">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Tenente farroupilha que se apresentou às forças legalistas.</note>
         </person>
         
         <person xml:id="joao_frederico_caldwell">
             <persName>João Frederico Caldwell</persName>
-            <note>Tenente-coronel comandante de operações; grafado "Calvaro" no original impresso.</note>
+            <idno type="viaf">https://viaf.org/en/viaf/449150325562910090005</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10311526</idno>
+            <birth when="1785">1785</birth>
+            <death when="1842-02-12">12 de fevereiro de 1842</death>
+            <state type="roleInTime" xml:id="caldwell_tenente_coronel_imperio">
+                <roleName>Tenente-coronel</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="caldwell_general_imperio">
+                <roleName>General do Exército Imperial</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Militar luso-brasileiro, oficial do Exército Imperial, destacado em diversas campanhas no sul do Brasil. Na documentação da Revolução Farroupilha aparece atuando como comandante de operações legalistas; seu sobrenome é grafado como "Calvaro" no impresso consultado.</note>
         </person>
         
-        <person xml:id="major_ourives">
-            <persName>Ourives</persName>
-            <note>Oficial legalista citado como comandante de força de cavalaria.</note>
+        <person xml:id="joao_paulo_santos_barreto">
+            <persName>João Paulo dos Santos Barreto</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10312004</idno>
+            <birth when="1795">1795</birth>
+            <death when="1861-08-27">27 de agosto de 1861</death>
+            <state type="roleInTime" xml:id="barreto_brigadeiro">
+                <roleName>Brigadeiro</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="barreto_comandante_chefe">
+                <roleName>Comandante-em-chefe do Exército da Província de São Pedro</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1840"/>
+            </state>
+            <note>Militar legalista. João Paulo dos Santos Barreto foi brigadeiro do Exército Imperial e nomeado Comandante-em-chefe das forças da Província de São Pedro do Rio Grande do Sul durante a Revolução Farroupilha, exercendo papel importante na reorganização das forças leais ao Império.</note>
         </person>
         
         <person xml:id="major_rodrigues">
             <persName>Rodrigues</persName>
-            <note>Major atuando nas picadas das Três Forquilhas.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="major_rodrigues_major_imperial">
+                <roleName>Major</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Major legalista mencionado como atuante nas picadas das Três Forquilhas durante operações de vigilância e perseguição a forças farroupilhas.</note>
         </person>
         
         <person xml:id="jeronimo_de_barros">
             <persName>Jerônimo de Barros</persName>
-            <note>Soldado prisioneiro que escapou e forneceu informações.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="jeronimo_de_barros_soldado_farroupilha">
+                <roleName>Soldado</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Soldado farroupilha que foi preso pelas forças do Império, conseguiu escapar e forneceu informações estratégicas.</note>
         </person>
         
         <person xml:id="melo">
             <persName>Melo</persName>
-            <idno></idno>
-            <roleName>Major</roleName>
-            <roleName>Tenente-coronel</roleName>
-            <note>Oficial legalista mencionado como apoio logístico..</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="melo_major">
+                <roleName>Major</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="melo_tenente_coronel">
+                <roleName>Tenente-coronel</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Oficial legalista que atuou em funções de apoio logístico e coordenação operacional.</note>
         </person>
-        
-        <person xml:id="tenente_coronel_melo">
-            <persName>Tenente-coronel Melo</persName>
-            <note>Oficial legalista mencionado como apoio logístico.</note>
-        </person> <!--corrigir para id melo-->
         
         <person xml:id="capitao_joao_ferreira">
             <persName>João Ferreira</persName>
-            <note>Capitão mencionado como enviado para observação militar.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="joao_ferreira_capitao_rrg">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Capitão farroupilha enviado em missão de observação militar, mencionado em operações contra tropas imperiais.</note>
         </person>
         
         <person xml:id="carvalhinho">
             <persName>Carvalhinho</persName>
-            <note>Indivíduo citado como reforço à reunião em Santa Maria; identificação completa ainda indeterminada.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="carvalhinho_farroupilha">
+                <roleName>Integrante das forças farroupilhas</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Indivíduo farroupilha mencionado como reforço presente na reunião em Santa Maria; identidade civil e patente ainda indeterminadas.</note>
         </person>
         
         <person xml:id="miller">
-            <persName>Miller</persName>
             <persName>Luís Miller</persName>
-            <idno></idno>
-            <note>Português caixeiro preso com José Manuel da Silveira. Negociante mencionado no contexto de fornecimento de gêneros para o exército.</note>
+            <persName type="alias">Miller</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="miller_comerciante_imperio">
+                <roleName>Comerciante e fornecedor de gêneros</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <note>Atuava como caixeiro e negociante, fornecendo mantimentos e materiais às forças legais.</note>
+            </state>
+            <note>Comerciante português preso junto a José Manuel da Silveira; aparece em contexto de abastecimento das tropas legalistas durante a Revolução Farroupilha.</note>
         </person>
         
         <person xml:id="juca_jacinto">
@@ -4480,10 +4797,6 @@
         <person xml:id="capitao_cecas">
             <persName>Capitão Cecas</persName>
             <note>Mesma pessoa indicada como “Lucas” no início? Revisão prosopográfica futura.</note>
-        </person>
-        
-        <person xml:id="ricardo">
-            <persName>Ricardo</persName>
         </person>
         
         <person xml:id="major_queste">
@@ -4974,11 +5287,6 @@
         <person xml:id="oliveira">
             <persName>Oliveira</persName>
             <note>Destinatário da carta; identidade incompleta.</note>
-        </person>
-        
-        <person xml:id="jose_inacio_ourives">
-            <persName>José Inácio (Juca) Ourives</persName>
-            <note>Capitão mencionado como comparativo de serviços.</note>
         </person>
         
         <person xml:id="cunha">
@@ -5514,12 +5822,18 @@
         <person xml:id="januaria">
             <persName>D. Januária de Bragança</persName>
             <persName>Januária do Brasil</persName>
-            <persName>Januária Maria Joana Carlota Leopoldina Cândida Francisca Xavier de Paula Micaela Gabriela Rafaela Gonzaga</persName>
-            <idno type="viaf">https://viaf.org/en/viaf/41473384</idno>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q261802</idno>
+            <persName>Januária Maria Joana Carlota Leopoldina Cândida
+                Francisca Xavier de Paula Micaela Gabriela Rafaela Gonzaga
+            </persName>
             <roleName>Princesa do Brasil</roleName>
             <roleName>Condessa de Áquila</roleName>
-            <note>Januária do Brasil (Rio de Janeiro, 11 de março de 1822 – Nice, 13 de março de 1901), cognominada "a Princesa da Independência", foi a segunda filha do imperador Pedro I e da imperatriz consorte Maria Leopoldina, e, portanto, membro da família imperial brasileira. Era irmã do imperador Pedro II do Brasil e da rainha Maria II de Portugal. De 1835 a 1845, deteve o título de Princesa Imperial do Brasil, como herdeira presuntiva de seu irmão, o imperador Pedro II, que era então menor de idade, e considerou-se a possibilidade de declará-la regente, embora isso nunca tenha se concretizado.</note>
+            <roleName>Princesa Imperial do Brasil (1835–1845)</roleName>
+            <idno type="viaf">https://viaf.org/en/viaf/41473384</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q261802</idno>
+            <state type="roleInTime" xml:id="januaria_imperial_family">
+                <roleName>Membro da Família Imperial Brasileira</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
         </person>
         
         <person xml:id="manuel_francisco_andrade">

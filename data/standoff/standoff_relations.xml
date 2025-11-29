@@ -1035,6 +1035,256 @@
             name="schema:memberOf"
             active="#tenente_caldeira"
             passive="#republica_rio_grandense"/>
+        
+        <relation 
+            name="hrao:belongsToUnit"
+            active="#claro_jose_sousa"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="rel:siblingOf"
+            active="#duarte_canabarro"
+            passive="#canabarro"/>
+        
+        <relation 
+            name="rel:nephewOf"
+            active="#francisco_xavier"
+            passive="#bento_manoel"/>
+        
+        <relation 
+            name="hrao:servedUnder"
+            active="#tenente_isaias_antonio"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:servedUnder"
+            active="#tomas_pereira"
+            passive="#republica_rio_grandense"/>
+        
+        <relation 
+            name="schema:affiliation"
+            active="#sebastiao_rego_barros"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="schema:affiliation"
+            active="#eleuterio_jose_pereira"
+            passive="#republica_rio_grandense"/>
+        
+        <relation
+            name="hrao:deliveredMessageTo"
+            active="#dona_antonia_brejo"
+            passive="#garibaldi"/>
+        
+        <relation 
+            name="schema:memberOf"
+            active="#garibaldi"
+            passive="#republica_rio_grandense"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#garibaldi"
+            passive="#bento_goncalves"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#garibaldi"
+            passive="#domingos_jose_almeida"/>
+        
+        <relation 
+            name="hrao:killed"
+            active="#imperio_brasil"
+            passive="#jose_manuel_de_leao"/>
+        
+        <relation 
+            name="hrao:belongsToUnit"
+            active="#capitao_christe"
+            passive="#oitavo_batalhao"/>
+        
+        <relation 
+            name="schema:member"
+            active="#jose_manuel_de_leao"
+            passive="#republica_rio_grandense"/>
+        
+        <relation 
+            name="schema:member"
+            active="#antonio_turpim"
+            passive="#republica_rio_grandense"/>
+        
+        <relation 
+            name="schema:member"
+            active="#jeronimo"
+            passive="#republica_rio_grandense"/>
+        
+        <relation 
+            name="schema:member"
+            active="#alferes_inocencio"
+            passive="#republica_rio_grandense"/>
+        
+        <relation 
+            name="schema:member"
+            active="#capitao_christe"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#oitavo_batalhao"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="hrao:wasImprisonedBy"
+            active="#jeronimo"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="hrao:wasImprisonedBy"
+            active="#alferes_inocencio"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="hrao:killed"
+            active="#oitavo_batalhao"
+            passive="#antonio_turpim"/>
+        
+        <relation 
+            name="hrao:servedUnder"
+            active="#alferes_carvalho"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="hrao:servedUnder"
+            active="#fidelis_pais_silva"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:servedUnder"
+            active="#tenente_nogueira"
+            passive="#republica_rio_grandense"/>
+        
+        <relation 
+            name="rel:siblingOf"
+            active="#januaria"
+            passive="#pedro_ii"/>
+        
+        <relation 
+            name="schema:memberOf"
+            active="#pedro_ii"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:memberOf"
+            active="#januaria"
+            passive="#imperio_brasil"/>
+
+        <relation 
+            name="hrao:servedUnder"
+            active="#capitao_belisario"
+            passive="#francisco_pedro_abreu"/>
+
+        <relation 
+            name="hrao:servedUnder"
+            active="#capitao_rafael_jose_viana"
+            passive="#francisco_pedro_abreu"/>
+
+        <relation 
+            name="hrao:servedUnder"
+            active="#tenente_marcos"
+            passive="#francisco_pedro_abreu"/>
+
+        <relation 
+            name="hrao:servedUnder"
+            active="#antonio_pedro_abreu"
+            passive="#francisco_pedro_abreu"/>
+        
+        <relation 
+            name="hrao:servedUnder"
+            active="#julio_viana"
+            passive="#francisco_pedro_abreu"/>
+
+        <relation 
+            name="hrao:servedUnder"
+            active="#alferes_ferreira"
+            passive="#francisco_pedro_abreu"/>
+
+        <relation 
+            name="hrao:servedUnder"
+            active="#alferes_cruz"
+            passive="#francisco_pedro_abreu"/>
+
+        <relation 
+            name="hrao:servedUnder"
+            active="#alferes_machado"
+            passive="#francisco_pedro_abreu"/>
+        
+        <relation
+            name="hrao:wasImprisonedBy"
+            active="#ricardo"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:wasImprisonedBy"
+            active="#jacinto_roque"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:memberOf"
+            active="#verissimo"
+            passive="#republica_rio_grandense"/>
+        
+        <relation 
+            name="schema:member"
+            active="#alferes_prestes"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="schema:member"
+            active="#capitao_boaventura"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:heldPossessionOf"
+            active="#gomes_jardim"
+            passive="#braga"/>
+        
+        <relation
+            name="schema:member"
+            active="#gomes_jardim"
+            passive="#republica_rio_grandense"/>
+        
+        <relation
+            name="schema:memberOf"
+            active="#joao_ferreira"
+            passive="#republica_rio_grandense"/>
+        
+        <relation
+            name="hrao:reportedTo"
+            active="#joao_ferreira"
+            passive="#francisco_pedro_abreu"/>
+        
+        <relation 
+            name="hrao:wasImprisonedBy"
+            active="#jeronimo_de_barros"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="schema:memberOf"
+            active="#joao_paulo_santos_barreto"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:servedUnder"
+            active="#francisco_pedro_abreu"
+            passive="#joao_paulo_santos_barreto"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#capitao_joao_ferreira"
+            passive="#jose_gomes_portinho"/>
+        
+        <relation
+            name="hrao:servedUnder"
+            active="#capitao_joao_ferreira"
+            passive="#republica_rio_grandense"/>
     </standOff>
     
 </TEI>

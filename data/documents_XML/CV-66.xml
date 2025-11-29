@@ -1,38 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>
-                    Carta CV-66 – 
-                    <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName> 
-                    para 
-                    <persName ref="#joao_paulo_santos_barreto">João Paulo dos Santos Barreto</persName>
-                </title>
+                <title>Carta CV-66 – Francisco Pedro de Abreupara João Paulo dos Santos Barreto</title>
                 <author>
-                    <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
+                    Francisco Pedro de Abreu
                 </author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
-            
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-06-28">28 de junho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">
-                        CC BY 4.0
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
-            
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
@@ -44,6 +100,18 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-06-28">28/06/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-10-28">29/11/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     <text>
@@ -55,12 +123,13 @@
                 </opener>
                 
                 <p>
-                    Participo a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que tendo notícia que o <persName ref="#portinho">Portinho</persName> estava
+                    Participo a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que tendo notícia que o 
+                    <persName ref="#jose_gomes_portinho">Portinho</persName> estava
                     reunindo os extraviados em <placeName ref="#santa_maria">Santa Maria</placeName> e para coadjuvar a dita
                     reunião veio o <persName ref="#carvalhinho">Carvalhinho</persName>; hoje marcho com cento e tantos homens 
-                    de cavalaria e o 3.º Batalhão para proteção a um ponto no caso de ser preciso. 
+                    de cavalaria e o <orgName ref="#terceiro_batalhao">3.º Batalhão</orgName> para proteção a um ponto no caso de ser preciso. 
                     Fiz seguir as carretas de negócio do <persName ref="#miller">Miller</persName> que ainda não tinham seguido 
-                    por causa da chuva; quando eu cheguei já o <persName ref="#tenente_coronel_melo">Tenente-coronel Melo</persName> 
+                    por causa da chuva; quando eu cheguei já o <persName ref="#melo">Tenente-coronel Melo</persName> 
                     tinha comprado a maior parte dos algodõezinhos; hoje segue uma carreta com o resto da erva que cá estava; 
                     em eu voltando farei seguir 200 alqueires de farinha que se está acabando de aprontar; 
                     o <persName ref="#miller">Miller</persName> há de entregar 6 rolos de fumo comprados a 14$rs. cada uma arroba, 
@@ -68,7 +137,7 @@
                 </p>
                 
                 <p>
-                    Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>. <placeName ref="#sao_pedro">São Pedro</placeName>, 
+                    Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>. São Pedro, 
                     <date when="1841-08-04">4 de agosto de 1841</date>.
                 </p>
                 

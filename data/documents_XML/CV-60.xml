@@ -1,29 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-60 – <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName> para <persName ref="#manuel_jorge_rodrigues">Manuel Jorge Rodrigues</persName></title>
                 <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
-            
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-06-28">28 de junho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
-            
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
@@ -35,6 +98,18 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-06-28">28/06/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-10-28">29/11/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     <text>
@@ -45,15 +120,50 @@
                     <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Em virtude das ordens que recebi de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, fiz seguir o <persName ref="#capitao_rafael_jose_viana_2">Capitão Rafael José Viana</persName> no dia 21 com 50 homens do 5.º Corpo e o <persName ref="#alferes_prestes">Alferes Prestes</persName>, do 3.º Corpo, com 30 homens, para reunir as cavalhadas das imediações do <placeName ref="#cerro_do_roque">cerro do Roque</placeName> e <placeName ref="#erval">Erval</placeName>, para manter a força do meu mando que se achava a pé, o que o dito Capitão e Alferes Prestes reuniram trezentos e tantos; e eu marchando com cento e tantos homens do corpo do meu comando e 50 homens da 3.ª Brigada comandados pelo <persName ref="#capitao_antonio_fernando">Capitão Antônio Fernando</persName>, que ao todo fazia o cômputo de 230, e fazendo junção no <placeName ref="#cerro_do_roque">cerro do Roque</placeName>, fiz seguir o <persName ref="#major_mariano_martins">Major Mariano Martins</persName> com cento e tantos, atravessar a serra de <placeName ref="#sao_joao">São João</placeName> a correr a costa do <placeName ref="#velhaco">Velhaco</placeName> e <placeName ref="#camaqua">Camaquã</placeName>.</p>
+                <p>Em virtude das ordens que recebi de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, fiz seguir o 
+                    <persName ref="#capitao_rafael_jose_viana">Capitão Rafael José Viana</persName> no dia 21 com 50 homens do 
+                    <orgName ref="#guardas_nacionais_5corpo">5.º Corpo</orgName> e o <persName ref="#alferes_prestes">Alferes Prestes</persName>, 
+                    do <orgName ref="#guardas_nacionais_3corpo">3.º Corpo</orgName>, com 30 homens, para reunir as cavalhadas das imediações 
+                    do <placeName ref="#cerro_do_roque">cerro do Roque</placeName> e <placeName ref="#erval">Erval</placeName>, para manter 
+                    a força do meu mando que se achava a pé, o que o dito Capitão e Alferes Prestes reuniram trezentos e tantos; e eu 
+                    marchando com cento e tantos homens do corpo do meu comando e 50 homens da 3.ª Brigada comandados pelo 
+                    <persName ref="#capitao_antonio_fernando">Capitão Antônio Fernando</persName>, que ao todo fazia o cômputo de 230, e 
+                    fazendo junção no <placeName ref="#cerro_do_roque">cerro do Roque</placeName>, fiz seguir o 
+                    <persName ref="#major_mariano_martins">Major Mariano Martins</persName> com cento e tantos, atravessar a serra de 
+                    São João a correr a costa do <placeName ref="#velhaco">Velhaco</placeName> 
+                    e <placeName ref="#camaqua">Camaquã</placeName>.</p>
                 
-                <p>E eu marchei com o resto da força direito à freguesia da <placeName ref="#encruzilhada">Encruzilhada</placeName>, a que entrei no dia 26 de maio, sem encontrar resistência alguma; achando a freguesia deserta por se terem retirado os moradores espavoridos das notícias aterradoras que espalhavam os farrapos que andavam de coxilha em coxilha, ali fiz conhecer aos moradores o contrário, e dando-lhes as proclamações de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, dali fiz seguir o <persName ref="#capitao_boaventura">Capitão Boaventura</persName> com 40 homens além da <placeName ref="#encruzilhada">Encruzilhada</placeName>, e descer pela margem de <placeName ref="#camaqua">Camaquã</placeName>, o qual fez junção comigo em <placeName ref="#sao_jose">São José</placeName>, com 200 cavalos; passei ao outro lado de <placeName ref="#camaqua">Camaquã</placeName> e fiz seguir o <persName ref="#tenente_isaias_2">Tenente Isaías</persName> à capela do <placeName ref="#boqueirao">Boqueirão</placeName> com uma partida, e ali reuniu os cavalos que pôde e desceu para a estância do <persName ref="#braga">Braga</persName>, aonde é hoje invernada de <persName ref="#gomes_jardim">José Gomes Jardim</persName>, o vice-presidente da República, a fazer junção comigo, e repassando o <placeName ref="#camaqua">Camaquã</placeName> com 300 cavalos a fazer junção com o <persName ref="#major_mariano_martins">Major Mariano</persName> que tinha reunido 300 cavalos mansos e 200 e tantos potros e 40 mulas mansas e chucras.</p>
+                <p>E eu marchei com o resto da força direito à freguesia da <placeName ref="#encruzilhada">Encruzilhada</placeName>, a que 
+                    entrei no dia 26 de maio, sem encontrar resistência alguma; achando a freguesia deserta por se terem retirado os 
+                    moradores espavoridos das notícias aterradoras que espalhavam os farrapos que andavam de coxilha em coxilha, ali fiz 
+                    conhecer aos moradores o contrário, e dando-lhes as proclamações de 
+                    <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, dali fiz seguir o 
+                    <persName ref="#capitao_boaventura">Capitão Boaventura</persName> com 40 homens além da 
+                    <placeName ref="#encruzilhada">Encruzilhada</placeName>, e descer pela margem de 
+                    <placeName ref="#camaqua">Camaquã</placeName>, o qual fez junção comigo em 
+                    São José, com 200 cavalos; passei ao outro lado de <placeName ref="#camaqua">Camaquã</placeName> e fiz seguir o 
+                    <persName ref="#isaias_antonio">Tenente Isaías</persName> à capela do <placeName ref="#sao_lourenco">Boqueirão</placeName> 
+                    com uma partida, e ali reuniu os cavalos que pôde e desceu para a estância do <persName ref="#braga">Braga</persName>, 
+                    aonde é hoje invernada de <persName ref="#gomes_jardim">José Gomes Jardim</persName>, o vice-presidente da República, a 
+                    fazer junção comigo, e repassando o <placeName ref="#camaqua">Camaquã</placeName> com 300 cavalos a fazer junção com o 
+                    <persName ref="#major_mariano_martins">Major Mariano</persName> que tinha reunido 300 cavalos mansos e 200 e tantos 
+                    potros e 40 mulas mansas e chucras.</p>
                 
-                <p>Marchando para <placeName ref="#sao_jose">São José</placeName> fiz seguir o <persName ref="#capitao_antonio_fernando">Capitão Antônio Fernando</persName> com as praças das 2.º e 3.º Brigadas levando 400 cavalos dos melhores e 80 potros por me ter requisitado o Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#coronel_loureiro">Coronel Loureiro</persName>, que seguia para a campanha e que estava com falta de cavalos; e eu recolhendo-me para este lugar no dia 9 do corrente, com 800 cavalos mansos, 200 potros e 40 mulas mansas e chucras, não tendo encontrado reunião alguma senão pequenos grupos pelos matos, que destes foram mortos 3, e tomados arreios e armamento.</p>
+                <p>Marchando para São José fiz seguir o <persName ref="#capitao_antonio_fernando">Capitão Antônio Fernando</persName> com 
+                    as praças das 2.º e 3.º Brigadas levando 400 cavalos dos melhores e 80 potros por me ter requisitado o Ilmo. 
+                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#coronel_loureiro">Coronel Loureiro</persName>, 
+                    que seguia para a campanha e que estava com falta de cavalos; e eu recolhendo-me para este lugar no dia 9 do corrente, 
+                    com 800 cavalos mansos, 200 potros e 40 mulas mansas e chucras, não tendo encontrado reunião alguma senão pequenos 
+                    grupos pelos matos, que destes foram mortos 3, e tomados arreios e armamento.</p>
                 
-                <p>Achan-se os matos cheios de homens desertados das fileiras inimigas, dizendo que só a cabeça se reunirá; os grandes influentes acham-se muito desacorçoados, e dizem que, desde o momento em que souberam que os farrapos ficaram enchiqueirados da parte de dentro de <placeName ref="#taquari">Taquari</placeName>, julgaram a República perdida, e já muitos pedem anistia do Governo; eu, Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>, nunca vi os farrapos tão desacorçoados como agora.</p>
+                <p>Achan-se os matos cheios de homens desertados das fileiras inimigas, dizendo que só a cabeça se reunirá; os grandes 
+                    influentes acham-se muito desacorçoados, e dizem que, desde o momento em que souberam que os farrapos ficaram 
+                    enchiqueirados da parte de dentro de <placeName ref="#taquari">Taquari</placeName>, julgaram a República perdida, e já 
+                    muitos pedem anistia do Governo; eu, Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>, nunca vi os farrapos 
+                    tão desacorçoados como agora.</p>
                 
-                <p>É quanto tenho a honra de levar ao conhecimento de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, a quem Deus guarde por muitos anos. <placeName ref="#santo_amaro">Santo Amaro</placeName>, <date when="1840-06-12">12 de junho de 1840</date>.</p>
+                <p>É quanto tenho a honra de levar ao conhecimento de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, 
+                    a quem Deus guarde por muitos anos. <placeName ref="#santo_amaro">Santo Amaro</placeName>, <date when="1840-06-12">12 de junho de 1840</date>.</p>
                 
                 <closer>
                     <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#manuel_jorge_rodrigues">Manuel Jorge Rodrigues</persName>, Tenente-general Comandante-em-chefe do Exército em Operações nesta Província.</salute>

@@ -23,6 +23,13 @@
             <note>Cachoeira do Sul, Rio Grande do Sul, Brasil.</note>
         </place>
         
+        <place xml:id="morretes">
+            <placeName>Morretes</placeName>
+            <idno type="geonames">https://www.geonames.org/3456749</idno>
+            <geo>-29.9248 -51.2850</geo>
+            <note>Região rural histórica correspondente à área hoje integrada ao município de Nova Santa Rita (RS), citada em documentos da Revolução Farroupilha.</note>
+        </place>
+        
         <place xml:id="passo_fundo">
             <placeName>Passo Fundo</placeName>
             <idno type="geonames">https://www.geonames.org/3454857/passo-fundo.html</idno>
@@ -35,6 +42,21 @@
             <idno type="geonames">https://www.geonames.org/3458930/lages.html</idno>
             <geo>-27.8150 -50.3259</geo>
             <note>Localizado na Serra em Santa Catarina, Brasil.</note>
+        </place>
+        
+        <place xml:id="santa_cruz">
+            <placeName>Santa Cruz</placeName>
+            <placeName type="current">Santa Cruz do Sul</placeName>
+            <idno type="geonames">https://www.geonames.org/3450269/santa-cruz-do-sul.html</idno>
+            <geo>-29.7175 -52.42583</geo>
+            <note>Localidade histórica citada no século XIX, correspondente ao atual município de Santa Cruz do Sul, Rio Grande do Sul.</note>
+        </place>
+        
+        <place xml:id="santo_amaro">
+            <placeName>Santo Amaro</placeName>
+            <idno type="geonames">https://www.geonames.org/3449708/santo-amaro-do-sul.html</idno>
+            <geo>-29.93917 -51.89833</geo>
+            <note>Localidade histórica correspondente ao atual distrito de Santo Amaro do Sul, no município de General Câmara, Rio Grande do Sul.</note>
         </place>
         
         <place xml:id="rosario_do_sul">
@@ -1126,11 +1148,6 @@
         <place xml:id="santa_isabel">
             <placeName>Santa Isabel</placeName>
             <note></note>
-        </place>
-        
-        <place xml:id="rio_verde">
-            <placeName>Rio Verde</placeName>
-            <note>Talvez Vale verde?</note>
         </place>
         
         <place xml:id="passo_das_pedras">
