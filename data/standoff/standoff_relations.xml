@@ -1540,6 +1540,91 @@
             name="hrao:wasImprisonedBy"
             active="#jose_mariano_matos"
             passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:servedUnder"
+            active="#freire"
+            passive="#francisco_pedro_abreu"/>
+        
+        <relation
+            name="hrao:servedUnder"
+            active="#flor"
+            passive="#francisco_pedro_abreu"/>
+        
+        <relation 
+            name="hrao:servedUnder"
+            active="#batista"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:wasReprimandedBy"
+            active="#batista"
+            passive="#francisco_pedro_abreu"/>
+        
+        <relation 
+            name="hrao:servedUnder"
+            active="#carcerero"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:wasReprimandedBy"
+            active="#carcerero"
+            passive="#francisco_pedro_abreu"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#francisco_pedro_abreu"
+            passive="#domingos_jose_almeida"/>
+        
+        <relation 
+            name="rel:siblingOf"
+            active="#joao_pedro_abreu"
+            passive="#francisco_pedro_abreu"/>
+        
+        <relation
+            name="hrao:appointedBy"
+            active="#manuel_jose_alencastre"
+            passive="#jose_araujo_ribeiro"/>
+        
+        <relation
+            name="prov:wasInfluencedBy"
+            active="#jose_rodrigues_tavares"
+            passive="#joao_pedro_abreu"/>
+        
+        <relation
+            name="prov:reportedTo"
+            active="#joao_pedro_abreu"
+            passive="#jose_araujo_ribeiro"/>
+        
+        <relation
+            name="rel:parentOf"
+            active="#jose_antonio_araujo_ribeiro"
+            passive="#jose_araujo_ribeiro"/>
+        
+        <relation 
+            name="hrao:servedUnder"
+            active="#paulo_pereira_silva_alano"
+            passive="#francisco_pedro_abreu"/>
+        
+        <relation
+            name="schema:member"
+            active="#mariano_gloria"
+            passive="#republica_rio_grandense"/>
+        
+        <relation
+            name="hrao:inConflictWith"
+            active="#mariano_gloria"
+            passive="#francisco_pedro_abreu"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#joao_pedro_abreu"
+            passive="#francisco_chagas_santos"/>
+        
+        <relation
+            name="hrao:commanded"
+            active="#francisco_chagas_santos"
+            passive="#francisco_pedro_abreu"/>
     </standOff>
     
 </TEI>

@@ -546,9 +546,14 @@
             <note>Órgão do governo da República Rio-Grandense responsável pela administração militar.</note>
         </org>
         
-        <org xml:id="corpo_segundo">
-            <orgName>2.º Corpo</orgName>
-            <note>Unidade militar mencionada como responsável pelo envio de soldados para serviço de faxina.</note>
+        <org xml:id="segundo_corpo" type="militaryUnit">
+            <orgName>2.º Corpo do Exército Imperial</orgName>
+            <affiliation ref="#imperio_brasil"/>
+            <note>
+                Unidade militar integrante das forças do Exército do Império do Brasil, atuante 
+                durante a Revolução Farroupilha. Mencionado em documentos oficiais como parte das 
+                tropas de linha mobilizadas contra as forças da República Rio-Grandense.
+            </note>
         </org>
         
         <org xml:id="1_brigada_guarda_nacional">

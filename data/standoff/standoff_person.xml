@@ -1514,10 +1514,7 @@
                 <affiliation ref="#republica_rio_grandense"/>
             </state>
             <note>
-                Militar e administrador imperial. Coronel do Exército do Brasil, serviu na administração
-                política do Segundo Reinado como Presidente das Províncias de Mato Grosso (1859–1861)
-                e de São Paulo (1864–1865). Pertenceu à elite administrativa luso-brasileira e atuou em
-                contextos de reorganização militar e política no período pós-Farroupilha.
+                Militar farroupilha. Coronel da República Rio-grandense.
             </note>
         </person>
         
@@ -5211,84 +5208,191 @@
                 legais. Identificação histórica completa ainda não confirmada.
             </note>
         </person>
-
-        <person xml:id="antonio_manuel_amaral">
-            <persName>Antônio Manuel do Amaral</persName>
-            <note>Identificado como coronel rebelde, morto durante confronto em Jaguarão.</note>
-        </person>
         
         <person xml:id="freire">
             <persName>Freire</persName>
-            <note>Identificado apenas pelo sobrenome, citado como Major.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="freire_major_imperio">
+                <roleName>Major</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <affiliation ref="#primeiro_batalhao_fuzileiros"/>
+            </state>
+            <note>
+                Major legalista do Exército Imperial, mencionado em 8 de julho de 1844 como responsável
+                por assumir o comando de uma praça militar quando substituindo Francisco Pedro de Abreu.
+            </note>
         </person>
         
         <person xml:id="flor">
             <persName>Flor</persName>
-            <note>Citado como Alferes, mensageiro de ofícios.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="flor_alferes_imperio">
+                <roleName>Alferes</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>
+                Alferes legalista encarregado do transporte de ofícios entre unidades do Exército Imperial,
+                mencionado em comunicação de Francisco Pedro de Abreu.
+            </note>
         </person>
         
-        <person xml:id="batista2">
+        <person xml:id="batista">
             <persName>Batista</persName>
-            <note>Citado como Capitão do 2.º Corpo; identidade precisa não confirmada.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="batista_capitao_imperio">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#segundo_corpo"/>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>
+                Capitão do 2.º Corpo do Exército Imperial, citado em 1844 por recusar-se a cumprir ordem de marcha,
+                sendo por isso mandado prender por Francisco Pedro de Abreu.
+            </note>
         </person>
         
         <person xml:id="carcerero">
             <persName>Carcerero</persName>
-            <note>Citado como Capitão do 2.º Corpo; grafia e identidade ainda a confirmar.</note>
-        </person>
-        
-        <person xml:id="francisco_chagas">
-            <persName>Francisco das Chagas</persName>
-            <note>Tenente-general, comandante da força da guarnição de Porto Alegre.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="carcerero_capitao_imperio">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#segundo_corpo"/>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>
+                Capitão do 2.º Corpo do Exército Imperial. Grafia incerta ("Carcerero") preservada do impresso.
+                Recusou-se a cumprir ordem de marcha e foi mandado prender por Francisco Pedro de Abreu.
+            </note>
         </person>
         
         <person xml:id="francisco_chagas_santos">
             <persName>Francisco das Chagas Santos</persName>
-            <note>Tenente-general e autoridade governamental à época.</note>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q8962587</idno>
+            <birth when="1763-09-17">17 de setembro de 1763</birth>
+            <death when="1840-10-12">12 de outubro de 1840</death>
+            <state type="roleInTime" xml:id="fchagas_engenheiro_militar">
+                <roleName>Engenheiro militar</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="fchagas_tenente_general">
+                <roleName>Tenente-general</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="fchagas_comandante_porto_alegre">
+                <roleName>Comandante da guarnição de Porto Alegre</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <location>
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
+                </location>
+            </state>
+            <state type="roleInTime" xml:id="fchagas_deputado">
+                <roleName>Deputado da Assembleia Geral</roleName>
+                <affiliation ref="#assembleia_geral_império"/>
+                <date type="begin" when="1826"/>
+            </state>
+            <note>Engenheiro militar, cartógrafo e político do Império do Brasil. Atuou destacadamente 
+                no Rio Grande do Sul, participando da Guerra contra Artigas e, mais tarde, da Guerra 
+                dos Farrapos sempre ao lado das forças imperiais. Comandou a guarnição militar de 
+                Porto Alegre e exerceu mandato como deputado da Assembleia Geral durante o Primeiro 
+                Reinado.</note>
         </person>
         
         <person xml:id="jose_araujo_ribeiro">
             <persName>José de Araújo Ribeiro</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10310751</idno>
-            <roleName>Presidente da Província do Rio Grande do Sul</roleName>
-            <roleName>Barão do Rio Grande</roleName>
-            <roleName>Visconde do Rio Grande</roleName>
-            <note>Nomeado Presidente da Província pelo Império logo no início da Guerra dos Farrapos. Foi diplomata importante a serviço do Império.</note>
+            <idno type="viaf">https://viaf.org/viaf/57893016</idno>
+            <birth when="1800-07-20">20 de julho de 1800</birth>
+            <death when="1879-07-25">25 de julho de 1879</death>
+            <state type="roleInTime" xml:id="ribeiro_presidente_rs">
+                <roleName>Presidente da Província do Rio Grande do Sul</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1835"/>
+            </state>
+            <state type="roleInTime" xml:id="ribeiro_barao_rio_grande">
+                <roleName>Barão de Rio Grande</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="ribeiro_visconde_rio_grande">
+                <roleName>Visconde de Rio Grande</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Advogado, diplomata e político brasileiro. Primeiro e único Barão e Visconde de Rio Grande. Nomeado Presidente da Província do Rio Grande do Sul pelo Império durante a eclosão da Guerra dos Farrapos, desempenhando papel fundamental na reorganização administrativa e militar da província.</note>
         </person>
         
         <person xml:id="jose_antonio_araujo_ribeiro">
             <persName>José Antônio de Araújo Ribeiro</persName>
-            <note>Cunhado do autor; transmissor de informação militar. Pai de José Araújo Ribeiro.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="jose_antonio_charqueador_barra_ribeiro">
+                <roleName>Charqueador</roleName>
+                <affiliation ref="#barra_do_ribeiro"/>
+            </state>
+            <roleName>Comendador</roleName>
+            <note>Charqueador estabelecido na região da atual Barra do Ribeiro, figura de destaque econômico local. Pai de José de Araújo Ribeiro, futuro Presidente da Província, Barão e Visconde do Rio Grande.</note>
         </person>
         
         <person xml:id="manuel_jose_alencastre">
             <persName>Manuel José de Alencastre</persName>
-            <note>Capitão nomeado juiz de paz.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="alencastre_capitao_imperio">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="alencastre_juiz_paz_legalista">
+                <roleName>Juiz de Paz</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Oficial legalista nomeado Juiz de Paz do 8.º distrito da freguesia das Dores, empossado por João Pedro de Abreu após ter permanecido fugitivo devido à perseguição de forças farroupilhas.</note>
         </person>
         
         <person xml:id="jose_rodrigues_tavares">
             <persName>José Rodrigues Tavares</persName>
-            <note>Nomeado interinamente ao comando da polícia local.</note>
-        </person>
-        
-        <person xml:id="paulo_alano">
-            <persName>Paulo Alano</persName>
-            <note>Major citado como apoio militar.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="tavares_comandante_policia_interino">
+                <roleName>Comandante interino da polícia</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Cidadão legalista nomeado por João Pedro de Abreu para o comando interino da polícia dos distritos do termo de Vila Nova do Triunfo.</note>
         </person>
         
         <person xml:id="paulo_pereira_silva_alano">
-            <persName>Paulo Pereira da Silva Alano</persName>
-            <note>Sargento-mor encarregado; autor da carta.</note>
+            <persName>
+                <forename>Paulo</forename>
+                <surname>Pereira da Silva Alano</surname>
+            </persName>
+            <persName type="alias">Paulo Alano</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="paulo_alano_sargentomor">
+                <roleName>Sargento-mor</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="paulo_alano_major">
+                <roleName>Major</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Oficial legalista identificado como Sargento-mor e posteriormente Major. Mencionado em operações militares para guarnecer a costa do Camaquã durante a Revolução Farroupilha.</note>
         </person>
         
         <person xml:id="mariano_gloria">
             <persName>Mariano Glória</persName>
-            <note>Indicado como comandante rebelde.</note>
+            <state type="roleInTime" xml:id="mariano_gloria_comandante_rrg">
+                <roleName>Comandante de partida</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Chefe farroupilha mencionado como comandante de uma partida de cerca de 60 homens atuando
+                na região do arroio Camaquã, em movimentações militares de 1844 relatadas por Francisco Pedro de Abreu.</note>
         </person>
         
         <person xml:id="joao_pedro_abreu">
             <persName>João Pedro de Abreu</persName>
-            <note>Oficial militar farroupilha, atuando como major e comandante interino durante a Revolução Farroupilha.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="joao_pedro_abreu_tenente_policia_imperial">
+                <roleName>Tenente comandante da polícia</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <location>
+                    <placeName ref="#arroio_ratos">arroio dos Ratos</placeName>
+                    <placeName ref="#velhaco">arroio Velhaco</placeName>
+                </location>
+            </state>
+            <note>Oficial legalista do Exército Imperial, atuando como tenente comandante da polícia do arroio dos Ratos até o arroio Velhaco durante a Revolução Farroupilha; irmão de Francisco Pedro de Abreu.</note>
         </person>
         
         <person xml:id="francisco_antonio_da_silva_bitancourt">
