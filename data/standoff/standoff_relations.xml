@@ -1405,6 +1405,141 @@
             name="hrao:servedUnder"
             active="#francisco_pedro_abreu"
             passive="#jose_maria_betancourt"/>
+        
+        <relation
+            name="schema:memberOf"
+            active="#meneses"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="schema:memberOf"
+            active="#francisco_lima_silva"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="rel:siblingOf"
+            active="#francisco_lima_silva"
+            passive="#luis_alves_lima_silva"/>
+        
+        <relation
+            name="hrao:coordinatedWith"
+            active="#francisco_lima_silva"
+            passive="#francisco_pedro_abreu"/>
+        
+        <relation
+            name="rel:parentOf"
+            active="#francisco_lima_silva_pai"
+            passive="#luis_alves_lima_silva"/>
+        
+        <relation
+            name="rel:parentOf"
+            active="#francisco_lima_silva_pai"
+            passive="#francisco_lima_silva"/>
+        
+        <relation
+            name="rel:siblingOf"
+            active="#luis_alves_lima_silva"
+            passive="#francisco_lima_silva"/>
+        
+        <relation
+            name="rel:siblingOf"
+            active="#francisco_lima_silva"
+            passive="#luis_alves_lima_silva"/>
+        
+        <relation
+            name="rel:siblingOf"
+            active="#joao_manuel_lima_silva"
+            passive="#francisco_lima_silva_pai"/>
+        
+        <relation
+            name="schema:memberOf"
+            active="#francisco_lima_silva_pai"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="schema:memberOf"
+            active="#luis_alves_lima_silva"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="schema:memberOf"
+            active="#francisco_lima_silva"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#jose_alves_medeiros"
+            passive="#esquadrao_triunfo"/>
+        
+        <relation 
+            name="hrao:killed"
+            active="#jose_alves_medeiros"
+            passive="#farias"/>
+        
+        <relation
+            name="rel:hasKinshipWith"
+            active="#francisco_pedro_abreu"
+            passive="#urbano_soares_silva"/>
+        
+        <relation 
+            name="schema:member"
+            active="#luis_jose_ferreira"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="schema:member"
+            active="#luis_jose_ferreira"
+            passive="#oitavo_batalhao_cacadores"/>
+        
+        <relation
+            name="schema:member"
+            active="#emilio"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:servedUnder"
+            active="#emilio"
+            passive="#francisco_pedro_abreu"/>
+        
+        <relation
+            name="schema:member"
+            active="#luis_jose_ferreira"
+            passive="#oitavo_batalhao_cacadores"/>
+        
+        <relation
+            name="schema:member"
+            active="#oitavo_batalhao_cacadores"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="schema:member"
+            active="#bolilho"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:wasImprisonedBy"
+            active="#lucio_de_braga"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:servedUnder"
+            active="#bolilho"
+            passive="#francisco_pedro_abreu"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#joaquim_pedro_soares"
+            passive="#jose_mariano_matos"/>
+        
+        <relation
+            name="hrao:wasImprisonedBy"
+            active="#joaquim_pedro_soares"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:wasImprisonedBy"
+            active="#jose_mariano_matos"
+            passive="#imperio_brasil"/>
     </standOff>
     
 </TEI>

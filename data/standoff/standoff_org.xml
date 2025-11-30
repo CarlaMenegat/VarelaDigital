@@ -77,6 +77,23 @@
             <note>Força naval da República Rio-Grandense, responsável por operações fluviais e costeiras durante a Revolução Farroupilha.</note>
         </org>
         
+        <org xml:id="oitavo_batalhao_cacadores" type="militaryUnit">
+            <orgName>8.º Batalhão de Caçadores</orgName>
+            <affiliation ref="#imperio_brasil"/>
+            <note>
+                Unidade de infantaria do Exército Imperial do Brasil, atuante durante a 
+                Revolução Farroupilha. Em 1842 encontrava-se sob o comando do
+                tenente-coronel <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName>, 
+                responsável também pela guarnição de Pelotas.
+            </note>
+        </org>
+        
+        <org xml:id="primeiro_batalhao_fuzileiros" type="militaryUnit">
+            <orgName>1.º Batalhão de Fuzileiros</orgName>
+            <affiliation ref="#imperio_brasil"/>
+            <note>Unidade do Exército Imperial do Brasil, mencionada nas operações militares da Revolução Farroupilha.</note>
+        </org>
+        
         <org xml:id="secretaria_republica_riograndense">
             <orgName>Secretaria da República Riograndense</orgName>
             <note>Órgão administrativo do governo farroupilha.</note>
@@ -474,10 +491,17 @@
             <note>Barcaça mencionada como tendo sido tomada em Rio Pardo e da qual provinha a peça de bronze apreendida.</note>
         </org>
         
-        <org xml:id="esquadrao_triunfo">
+        <org xml:id="esquadrao_triunfo" type="militaryUnit">
             <orgName>Esquadrão do Triunfo</orgName>
-            <note>Unidade militar mencionada em 1842, comandada interinamente por José Alves de Medeiros.</note>
-            <affiliation>Exército do Império do Brasil</affiliation>
+            <affiliation ref="#imperio_brasil"/>
+            <location>
+                <placeName ref="#triunfo">Triunfo</placeName>
+            </location>
+            <note>
+                Unidade de cavalaria legalista sediada em Triunfo, atuante em operações 
+                de vigilância e repressão durante a Revolução Farroupilha. Em 1842, 
+                esteve sob o comando interino do Tenente José Alves de Medeiros.
+            </note>
         </org>
         
         <org xml:id="mesa_eleitoral">

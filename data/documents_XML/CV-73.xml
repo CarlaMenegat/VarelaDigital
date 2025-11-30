@@ -1,27 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-73 – Francisco Pedro de Abreu para Barão de Caxias</title>
-                <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
+                <author>Francisco Pedro de Abreu</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-06-30">30 de junho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
@@ -29,10 +94,22 @@
                     <placeName ref="#ponta_rasa">Ponta Rasa</placeName>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#barao_caxias">Barão de Caxias</persName>
+                    <persName ref="#luis_alves_lima_silva">Barão de Caxias</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-06-30">30/06/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-11-29">29/11/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     
@@ -44,15 +121,39 @@
                     <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Depois que da <placeName ref="#dores">capela das Dores</placeName>, para aquém de <placeName ref="#rio_camaqua">Camaquã</placeName>, em 20 do corrente mês participei a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> da força de 500 e tantas praças de cavalaria e infantaria de seus passos até ali decorridos, desde o dia 7 do corrente às 3 horas da madrugada, em que me pus em viagem nas quatro barcas de vapor e três de passar cavalos, a fazer desembarque na margem direita da lagoa, para além de <placeName ref="#rio_camaqua">Camaquã</placeName>, segundo as ordens e instruções de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, a bater partidas inimigas e a reunir cavalos, nos terrenos percorridos de terra de mais de 30 léguas não foi possível, como já lhe comuniquei na dita parte, encontrar partida alguma rebelde, e só com bastante diligência reunir os quatrocentos e tantos cavalos; acrescendo depois, quando se me reuniram as últimas partidas que tinha dirigido a certos esconderijos, me apresentarem mais cento e tantos cavalos, que ao todo montam em 520.</p>
+                <p>Depois que da capela das Dores, para aquém de <placeName ref="#rio_camaqua">Camaquã</placeName>, 
+                    em 20 do corrente mês participei a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> da força de 500 
+                    e tantas praças de cavalaria e infantaria de seus passos até ali decorridos, desde o dia <date when="1842-12-07">07 do corrente</date> às 3 horas da 
+                    madrugada, em que me pus em viagem nas quatro barcas de vapor e três de passar cavalos, a fazer desembarque na margem 
+                    direita da lagoa, para além de <placeName ref="#rio_camaqua">Camaquã</placeName>, segundo as ordens e instruções de 
+                    <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, a bater partidas inimigas e a reunir cavalos, nos 
+                    terrenos percorridos de terra de mais de 30 léguas não foi possível, como já lhe comuniquei na dita parte, encontrar 
+                    partida alguma rebelde, e só com bastante diligência reunir os quatrocentos e tantos cavalos; acrescendo depois, quando 
+                    se me reuniram as últimas partidas que tinha dirigido a certos esconderijos, me apresentarem mais cento e tantos cavalos, 
+                    que ao todo montam em 520.</p>
                 
-                <p>Segui então, no dia 21 do corrente, da dita <placeName ref="#dores">capela das Dores</placeName>, com toda a força de cavalaria e infantaria, direto às <placeName ref="#charqueadas_barra">charqueadas da Barra</placeName>, distância de dez léguas, e ali, no dia 22, embarcando a infantaria no vapor para a capital de <placeName ref="#porto_alegre">Porto Alegre</placeName>, segui no mesmo dia com a cavalaria e cavalos direto ao destacamento da <placeName ref="#ponta_rasa">Ponta Rasa</placeName>, distância para mais de oito léguas, aonde chegou a salvo no dia 23 e aonde se acha a seguir as ordens de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.</p>
+                <p>Segui então, no dia <date when="1842-12-21">21 do corrente</date>, da dita capela das Dores, com toda a força de 
+                    cavalaria e infantaria, direto às <placeName ref="#charqueadas">charqueadas da Barra</placeName>, distância de dez 
+                    léguas, e ali, no dia 22, embarcando a infantaria no vapor para a capital de <placeName ref="#porto_alegre">Porto Alegre</placeName>, 
+                    segui no mesmo dia com a cavalaria e cavalos direto ao destacamento da <placeName ref="#ponta_rasa">Ponta Rasa</placeName>, 
+                    distância para mais de oito léguas, aonde chegou a salvo no dia 23 e aonde se acha a seguir as ordens de 
+                    <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.</p>
                 
-                <p>Não devo ocultar o fervor, zelo e atividade que encontrei na viagem de mar, na adversidade dos tempos, no <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#meneses01">Capitão-tenente Meneses</persName> e mais comandantes das barcas de vapor, bem como nas viagens de terra e diligências, em toda a cavalaria e infantaria, sendo nesta ainda mais de louvar a subordinação e disciplina em que a traz o seu digno comandante, o Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#francisco_lima_silva">Major Francisco de Lima e Silva</persName>.</p>
+                <p>Não devo ocultar o fervor, zelo e atividade que encontrei na viagem de mar, na adversidade dos tempos, no 
+                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#meneses">Capitão-tenente Meneses</persName> e 
+                    mais comandantes das barcas de vapor, bem como nas viagens de terra e diligências, em toda a cavalaria e infantaria, 
+                    sendo nesta ainda mais de louvar a subordinação e disciplina em que a traz o seu digno comandante, o Ilmo. 
+                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#francisco_lima_silva">Major Francisco de Lima e Silva</persName>.</p>
                 
-                <p>Dos 520 cavalos reunidos de alguns passei recibo, dos quais, com a brevidade possível, remeterei a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> lista, advertindo que neste número de recibos entra um que no Estreito mandei passar ao <persName ref="#antonio_soares_paiva">Coronel Comandante da Guarnição da vila do Norte, Antônio Soares de Paiva</persName>, de 29 cavalos orelhanos, sendo a entrega de 32, mas três eram reúnos, e estes 32 cavalos não entram na conta dos 520.</p>
+                <p>Dos 520 cavalos reunidos de alguns passei recibo, dos quais, com a brevidade possível, remeterei a 
+                    <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> lista, advertindo que neste número de recibos entra 
+                    um que no Estreito mandei passar ao <persName ref="#antonio_soares_paiva">Coronel Comandante da Guarnição da vila do 
+                        Norte, Antônio Soares de Paiva</persName>, de 29 cavalos orelhanos, sendo a entrega de 32, mas três eram reúnos, e 
+                    estes 32 cavalos não entram na conta dos 520.</p>
                 
-                <p>Em toda a expedição não houve quebra alguma; as ordens de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> foram cumpridas e não se reuniu mais cavalos, nem se bateu partida inimiga, pela grande vigilância dos rebeldes e dos avisos que é de supor que tivessem.</p>
+                <p>Em toda a expedição não houve quebra alguma; as ordens de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> 
+                    foram cumpridas e não se reuniu mais cavalos, nem se bateu partida inimiga, pela grande vigilância dos rebeldes e dos 
+                    avisos que é de supor que tivessem.</p>
                 
                 <closer>
                     <dateline>Destacamento na <placeName ref="#ponta_rasa">Ponta Rasa</placeName>, 23 de dezembro de 1842.</dateline>

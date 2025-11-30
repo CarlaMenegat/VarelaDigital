@@ -177,22 +177,30 @@
             <note>Destinatário da carta, responsável pelo recibo solicitado.</note>
         </person>
         
-        <person xml:id="general_lima">
-            <persName>General Lima</persName>
-            <note>Mencionado como esposo de Maria Ângela Corte Real de Lima; identidade completa não fornecida.</note>
-        </person> <!--corrigir essa id para id joao_manuel_lima_silva-->
-        
         <person xml:id="joao_manuel_lima_silva">
             <persName>João Manuel de Lima e Silva</persName>
-            <idno type="viaf">https://viaf.org/en/viaf/70353959</idno>
+            <idno type="viaf">https://viaf.org/viaf/70353959</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10311815</idno>
-            <roleName>Major de Infantaria</roleName>
-            <roleName>General</roleName>
-            <relation
-                name="rel:siblingOf"
-                active="#francisco_lima_silva"
-                passive="#joao_manuel_lima_silva"/>
-            <note>General farroupilha falecido em 1839, homenageado com exéquias oficiais em Caçapava.</note>
+            <birth when="1793">1793</birth>
+            <death when="1839">1839</death>
+            <state type="roleInTime" xml:id="joao_manuel_major_imperio">
+                <roleName>Major de Infantaria</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="end" when="1835"/>
+            </state>
+            <state type="roleInTime" xml:id="joao_manuel_general_rrg">
+                <roleName>General</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <date type="begin" when="1836"/>
+                <date type="end" when="1839"/>
+            </state>
+            <note>
+                Militar brasileiro, irmão do marechal Francisco de Lima e Silva. 
+                Serviu inicialmente como oficial do Exército Imperial, atingindo o posto de 
+                Major de Infantaria. Aderiu aos farroupilhas após 1835, sendo reconhecido como 
+                General da República Rio-Grandense. Morreu em 1839 e recebeu exéquias oficiais 
+                em Caçapava, onde sua morte foi amplamente lamentada pelas lideranças da RRG.
+            </note>
         </person>
         
         <person xml:id="maria_angela_corte_real_de_lima">
@@ -1444,7 +1452,7 @@
             <idno type="viaf">https://viaf.org/viaf/23627851</idno>
             <note>Jornalista e político rio-grandense; importante ativista liberal do período.</note>
         </person>
-        
+
         <person xml:id="jose_mariano_matos">
             <persName>José Mariano de Matos</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10310051</idno>
@@ -1468,9 +1476,49 @@
             <state type="roleInTime" xml:id="jmm_ministro_guerra_imperio_1864">
                 <roleName>Ministro da Guerra do Império do Brasil</roleName>
                 <affiliation ref="#imperio_brasil"/>
-                <date type="begin" when="1864"/>
+                <date type="begin" when="1864-01-15"/>
+                <date type="end" when="1864-05-22"/>
             </state>
-            <note>Político e militar farroupilha, vice-presidente mais votado da República Rio-Grandense e responsável pela condução administrativa interina em 1839. Também autor da proposta que originou o brasão oficial do Rio Grande do Sul adotado em 1891.</note>
+            <state type="roleInTime" xml:id="jmm_brigadeiro_imperio">
+                <roleName>Brigadeiro</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1847"/>
+            </state>
+            <state type="roleInTime" xml:id="jmm_conselho_supremo_militar">
+                <roleName>Membro do Conselho Supremo Militar e de Justiça</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="jmm_ministro_guerra_imperio_1864">
+                <roleName>Ministro da Guerra do Império do Brasil</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1864-01-15"/>
+                <date type="end" when="1864-05-22"/>
+            </state>
+            <note>
+                Político e militar farroupilha, eleito vice-presidente da República Rio-Grandense 
+                (1839), exercendo papel administrativo central durante o conflito. 
+                Depois da farroupilha foi ajudante-geral de Caxias na Guerra contra Oribe e Rosas. 
+                É tradicionalmente associado à proposta que originou o brasão do Rio Grande do Sul 
+                adotado oficialmente em 1891.
+            </note>
+        </person>
+        
+        <person xml:id="antonio_manuel_amaral">
+            <persName>Antônio Manuel do Amaral</persName>
+            <persName type="full">Antônio Manuel do Amaral Sarmento Mena</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q16491960</idno>
+            <birth when="1810">1810</birth>
+            <death when="1844-06-21">21 de junho de 1844</death>
+            <state type="roleInTime" xml:id="amaral_coronel_imperio">
+                <roleName>Coronel</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>
+                Militar e administrador imperial. Coronel do Exército do Brasil, serviu na administração
+                política do Segundo Reinado como Presidente das Províncias de Mato Grosso (1859–1861)
+                e de São Paulo (1864–1865). Pertenceu à elite administrativa luso-brasileira e atuou em
+                contextos de reorganização militar e política no período pós-Farroupilha.
+            </note>
         </person>
         
         <person xml:id="bernardino_rodrigues_barcelos_filho">
@@ -4960,58 +5008,208 @@
         
         <person xml:id="francisco_lima_silva">
             <persName>Francisco de Lima e Silva</persName>
-            <note>Oficial do Exército Imperial, citado como Major em 1842, comandante de infantaria subordinada.</note>
+            <birth when="1818">1811</birth>
+            <death when="1873">1844</death>
+            <state type="roleInTime" xml:id="francisco_lima_silva_major_imperio">
+                <roleName>Major</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date when="1842"/>
+            </state>
+            <note>
+                Militar legalista, Major do Exército Imperial. Filho do marechal Francisco de Lima e Silva
+                (1772–1839) e irmão mais novo de Luís Alves de Lima e Silva (Duque de Caxias). 
+                Em 1842 comandava a infantaria sob a qual se encontrava destacada a tropa mencionada
+                por Francisco Pedro de Abreu, sendo elogiado pela disciplina e subordinação do seu corpo.
+            </note>
         </person>
-        
         <person xml:id="antonio_soares_paiva">
             <persName>Antônio Soares de Paiva</persName>
             <note>Coronel, comandante da guarnição da vila do Norte, citado em 1842.</note>
         </person>
         
-        <person xml:id="meneses01">
+        <person xml:id="francisco_lima_silva_pai">
+            <persName type="complete">Francisco de Lima e Silva</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1791019</idno>
+            <birth when="1785-07-05">05 de julho de 1785</birth>
+            <death when="1853-12-02">2 de dezembro de 1853</death>
+            <state type="roleInTime" xml:id="francisco_lima_silva_marechal">
+                <roleName>Marechal</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="francisco_lima_silva_ministro_guerra">
+                <roleName>Ministro da Guerra</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1821"/>
+            </state>
+            <state type="roleInTime" xml:id="francisco_lima_silva_regente">
+                <roleName>Integrante da Regência Trina Provisória</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date when="1831"/>
+            </state>
+            <note>
+                Marechal do Exército Imperial, ministro da Guerra e membro da Regência Trina Provisória 
+                após a abdicação de D. Pedro I. Patriarca da família Lima e Silva, pai de Luís Alves 
+                (Duque de Caxias) e de Francisco de Lima e Silva (Major em 1842). Figura central 
+                da transição política do Império na década de 1830.
+            </note>
+        </person>
+
+        <person xml:id="meneses">
             <persName>Capitão-tenente Meneses</persName>
-            <note>Oficial citado apenas pelo sobrenome; comandante de embarcação a vapor, 1842.</note>
+            <state type="roleInTime" xml:id="meneses_capitao_tenente_imperio">
+                <roleName>Capitão-tenente</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date when="1842"/>
+            </state>
+            <note>
+                Oficial da Marinha Imperial, identificado como comandante de barca(s) de vapor em
+                operação conjunta com Francisco Pedro de Abreu em 1842. Conhecido apenas pelo
+                sobrenome nas fontes consultadas.
+            </note>
         </person>
         
-        <person xml:id="barao_caxias">
-            <persName>Barão de Caxias</persName>
-            <note>Luís Alves de Lima e Silva, chefe supremo militar no período.</note>
+        <person xml:id="luis_alves_lima_silva">
+            <persName type="complete">Luís Alves de Lima e Silva</persName>
+            <persName type="nobleTitle">Duque de Caxias</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q712089</idno>
+            <idno type="viaf">https://viaf.org/viaf/6239659</idno>
+            <birth when="1803-08-25">25 de agosto de 1803</birth>
+            <death when="1880-05-07">7 de maio de 1880</death>
+            <state type="roleInTime" xml:id="caxias_general_imperio">
+                <roleName>General</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1840"/>
+            </state>
+            <state type="roleInTime" xml:id="caxias_barao">
+                <roleName>Barão de Caxias</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date when="1841"/>
+            </state>
+            <state type="roleInTime" xml:id="caxias_conde">
+                <roleName>Conde de Caxias</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date when="1845"/>
+            </state>
+            <state type="roleInTime" xml:id="caxias_marques">
+                <roleName>Marquês de Caxias</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date when="1866"/>
+            </state>
+            <state type="roleInTime" xml:id="caxias_marechal_imperio">
+                <roleName>Marechal</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="caxias_duque">
+                <roleName>Duque de Caxias</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date when="1869"/>
+            </state>
+            <note>
+                Militar, estadista e comandante máximo do Exército Imperial brasileiro. 
+                Filho do marechal Francisco de Lima e Silva e irmão mais velho de Francisco de Lima e Silva 
+                (Major em 1842). Notável pela pacificação de províncias, pela Guerra da Cisplatina, 
+                pela Balaiada e pela Guerra do Paraguai. Tornou-se Duque de Caxias em 1869, o mais alto título 
+                nobiliárquico concedido no Brasil Imperial.
+            </note>
         </person>
         
         <person xml:id="jose_alves_medeiros">
             <persName>José Alves de Medeiros</persName>
-            <note>Tenente, comandante interino do Esquadrão do Triunfo na data da carta (27/12/1842).</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="medeiros_tenente_comandante_interino_esquadrao_triunfo">
+                <roleName>Tenente, comandante interino do Esquadrão do Triunfo</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date when="1842-12-27"/>
+                <location>
+                    <placeName ref="#triunfo">Triunfo</placeName>
+                </location>
+            </state>
+            <state type="roleInTime" xml:id="medeiros_coronel_comandante_sjn">
+                <roleName>Coronel Comandante da Guarnição</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <location>
+                    <placeName ref="#sao_jose_norte">São José do Norte</placeName>
+                </location>
+            </state>
+            <note>
+                Oficial legalista do Exército Imperial. Em dezembro de 1842 atuava como 
+                comandante interino do Esquadrão do Triunfo. Posteriormente alcançou o 
+                posto de Coronel e comandou a guarnição da vila de São José do Norte, 
+                ponto estratégico de defesa imperial durante a Revolução Farroupilha.
+            </note>
         </person>
         
         <person xml:id="farias">
             <persName>Farias</persName>
-            <note>Indivíduo mencionado apenas pelo sobrenome, qualificado no documento como assassino. Identidade completa não confirmada; id provisório.</note>
+            <note>
+                Indivíduo identificado no documento como criminoso comum (“assassino”), 
+                morto durante ação repressiva conduzida pelo Tenente (depois Coronel) 
+                <persName ref="#jose_alves_medeiros">José Alves de Medeiros</persName>, 
+                comandante do <orgName ref="#esquadrao_triunfo">Esquadrão do Triunfo</orgName>. 
+                Identidade completa e filiação política desconhecidas.
+            </note>
         </person>
         
         <person xml:id="urbano_soares_silva">
             <persName>Urbano Soares da Silva</persName>
-            <note>Destinatário da carta CV-75; identificado como parente e residente na região de Canguçu no ano de 1843.</note>
+            <note>
+                Destinatário da carta CV-75; identificado como parente e próximo colaborador de 
+                Francisco Pedro de Abreu. Residia na região de Canguçu em 1843.
+            </note>
         </person>
         
-        <person xml:id="emilio_01">
+        <person xml:id="emilio">
             <persName>Emílio</persName>
-            <note>Alferes citado na CV-76; identidade a confirmar.</note>
+            <state type="roleInTime" xml:id="emilio_alferes_legalista">
+                <roleName>Alferes</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>
+                Alferes legalista citado na carta CV-76 como oficial destacado para operações 
+                conjuntas com forças comandadas por Francisco Pedro de Abreu. 
+                Identidade plena ainda não confirmada no corpus.
+            </note>
         </person>
         
         <person xml:id="luis_jose_ferreira">
             <persName>Luís José Ferreira</persName>
-            <idno></idno>
-            <note>Tenente-coronel, comandante do 8.º Batalhão de Caçadores. Também comandou a guarnição de Pelotas.</note>
+            <state type="roleInTime" xml:id="luis_jose_ferreira_ten_cel">
+                <roleName>Tenente-coronel</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <roleName>Comandante do 8.º Batalhão de Caçadores</roleName>
+            </state>
+            <state type="roleInTime" xml:id="luis_jose_ferreira_comandante_pelotas">
+                <roleName>Comandante da guarnição de Pelotas</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>
+                Oficial legalista. Tenente-coronel comandante do 8.º Batalhão de Caçadores, 
+                responsável também pela guarnição da cidade de Pelotas durante a Revolução Farroupilha.
+            </note>
         </person>
         
         <person xml:id="bolilho">
             <persName>Bolilho</persName>
-            <note>Identificado como Alferes; necessita confirmação e desambiguação nominal.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="bolilho_alferes_imperio">
+                <roleName>Alferes</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>
+                Oficial legalista (alferes) mencionado por Francisco Pedro de Abreu como responsável 
+                por entregar dois prisioneiros à guarda da guarnição. A leitura do sobrenome 
+                permanece incerta no original impresso.
+            </note>
         </person>
         
         <person xml:id="lucio_de_braga">
             <persName>Lúcio de Braga</persName>
-            <note>Prisioneiro citado na carta; sem identificação histórica confirmada.</note>
+            <idno type="project"/>
+            <note>
+                Prisioneiro farroupilha citado por Francisco Pedro de Abreu. Recebeu pena corporal 
+                e seria deportado para Rio Grande por ordem do Presidente e General-em-chefe das forças 
+                legais. Identificação histórica completa ainda não confirmada.
+            </note>
         </person>
 
         <person xml:id="antonio_manuel_amaral">
