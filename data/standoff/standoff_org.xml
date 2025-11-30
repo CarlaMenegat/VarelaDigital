@@ -130,12 +130,7 @@
             <orgName>5.º Corpo de cavalaria dos Guardas Nacionais</orgName>
             <note>Unidade militar da Guarda Nacional do Império do Brasil, atuante durante a Revolução Farroupilha.</note>
         </org>
-        
-        <org xml:id="infantaria_5batalhao" type="militaryUnit">
-            <orgName>5.º Batalhão de Infantaria</orgName>
-            <affiliation ref="#imperio_brasil"/>
-            <note>Batalhão de infantaria do Exército Imperial, atuante durante a Revolução Farroupilha.</note>
-        </org>
+
         
         <org xml:id="infantaria_5batalhao" type="militaryUnit">
             <orgName>5.º Batalhão de Infantaria</orgName>
@@ -456,10 +451,16 @@
             <affiliation>Exército do Império do Brasil</affiliation>
         </org>
         
-        <org xml:id="quinta_comp_cavalaria">
-            <orgName>5.º Companhia de Cavalaria</orgName>
-            <note>Unidade de cavalaria mencionada como componente do Esquadrão da Barra.</note>
-            <affiliation>Exército do Império do Brasil</affiliation>
+        <org xml:id="quinta_comp_cavalaria" type="militaryUnit">
+            <orgName>5.ª Companhia de Cavalaria</orgName>
+            <affiliation ref="#imperio_brasil"/>
+            <note>Unidade de cavalaria integrante das forças do Exército Imperial do Brasil, mencionada como parte do Esquadrão da Barra.</note>
+        </org>
+        
+        <org xml:id="primeira_brigada_cavalaria" type="militaryUnit">
+            <orgName>1.ª Brigada de Cavalaria</orgName>
+            <affiliation ref="#imperio_brasil"/>
+            <note>Unidade de cavalaria do Exército do Império do Brasil, mencionada no contexto das operações militares durante a Revolução Farroupilha.</note>
         </org>
         
         <org xml:id="esquadrao_barra">

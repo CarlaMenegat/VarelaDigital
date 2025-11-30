@@ -1,30 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-68 – <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName> 
-                    para <persName ref="#conde_rio_pardo">Conde do Rio Pardo</persName></title>
-                <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
+                <title>Carta CV-68 – Francisco Pedro de Abreu para Conde do Rio Pardo</title>
+                <author>Francisco Pedro de Abreu</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
-            
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-06-29">29 de junho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
-            
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
@@ -32,11 +94,23 @@
                     <date when="1842-01-29">29 de janeiro de 1842</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#conde_rio_pardo">Conde do Rio Pardo</persName>
+                    <persName ref="#general_valente">Conde do Rio Pardo</persName>
                     <roleName>General-em-chefe do Exército em Operações</roleName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-06-29">29/06/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-11-29">29/11/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     <text>
@@ -50,11 +124,10 @@
                 <p>Em cumprimento das ordens que tive de <choice><abbr>V. Exª.</abbr><expan>Vossa Excelência</expan></choice>, no dia 20
                     do corrente passei o <placeName ref="#sao_goncalo">São Gonçalo</placeName> com a força que trouxe de 
                     <placeName ref="#porto_alegre">Porto Alegre</placeName> e o <persName ref="#major_antunes">Major Antunes</persName> com vinte homens 
-                    entrando neste número alguns oficiais e o <persName ref="#capitao_lucas">Capitão Lucas</persName> (*1) com dois 
-                    camaradas que se me ofereceu para sair; e como corresse a notícia 
-                    que <persName ref="#neto">Neto</persName> já estivesse à minha espera com mais de mil homens, 
-                    requisitei ao Exmo. Comandante da Guarnição do 
-                    <placeName ref="#rio_grande">Rio Grande</placeName> o Batalhão 8.º para deixar num ponto de apoio para 
+                    entrando neste número alguns oficiais e o capitão<persName ref="#capitao_lucas">Lucas</persName> com dois
+                    camaradas que se me ofereceu para sair; e como corresse a notícia que <persName ref="#antonio_sousa_neto">Neto</persName> 
+                    já estivesse à minha espera com mais de mil homens, requisitei ao Exmo. Comandante da Guarnição do 
+                    <placeName ref="#rio_grande">Rio Grande</placeName> o <orgName ref="#oitavo_batalhao">Batalhão 8.º</orgName> para deixar num ponto de apoio para 
                     eu poder reconhecer a força, visto que não achei um homem para 
                     bombeiro; e marchando sobre a capela de <placeName ref="#cangucu">Canguçu</placeName>, aonde se achava 
                     <persName ref="#bento_goncalves">Bento Gonçalves</persName> com duzentos e tantos homens e alguns oficiais superiores
@@ -66,26 +139,25 @@
                     de dar de comer à minha gente e descansar os cavalos...</p>
                 
                 <p>...mandando retirar ao 8.º Batalhão que tinha deixado de apoio na 
-                    olaria do <persName ref="#ricardo">Ricardo</persName> para o <placeName ref="#passo_liscano">passo do Liscano</placeName> e voltar o 
-                    <persName ref="#major_antunes">Major Antunes</persName> e o <persName ref="#capitao_cecas">Capitão Cecas</persName> [sic] com as praças que 
+                    olaria do Ricardo para o passo do Liscano e voltar o 
+                    <persName ref="#major_antunes">Major Antunes</persName> e o <persName ref="#capitao_lucas">Capitão Lucas</persName> com as praças que 
                     trouxeram, e pondo-me eu em retirada, mostrando muito medo e 
-                    receio de <persName ref="#bento_goncalves">Bento Gonçalves</persName> e de <persName ref="#neto">Neto</persName>, marchando toda noite e de 
+                    receio de <persName ref="#bento_goncalves">Bento Gonçalves</persName> e de <persName ref="#antonio_sousa_neto">Neto</persName>, marchando toda noite e de 
                     madrugada, e na madrugada do dia 24 me alcançaram 
-                    <persName ref="#bento_goncalves">Bento Gonçalves</persName> nas picadas de <placeName ref="#guatimim">Guatimim</placeName>; deixando eu uma 
+                    <persName ref="#bento_goncalves">Bento Gonçalves</persName> nas picadas de Guatimim; deixando eu uma 
                     emboscada na retaguarda...</p>
                 
                 <p>...passei o <placeName ref="#arroio_grande">arroio Grande</placeName> e fiz adiantar o 
-                    <persName ref="#capitao_isaias">Capitão Isaías</persName> com 50 e tantos homens a reunir cavalos na margem 
+                    <persName ref="#isaias_antonio">Capitão Isaías</persName> com 50 e tantos homens a reunir cavalos na margem 
                     esquerda de <placeName ref="#rio_camaqua">Camaquã</placeName>... fiz constar pelos moradores que vinha com muito medo 
-                    de <persName ref="#neto">Neto</persName>... </p>
+                    de <persName ref="#antonio_sousa_neto">Neto</persName>... </p>
                 
-                <p>...emboscando-me perto do dito 
-                    <placeName ref="#passo_cordeiro">passo do Cordeiro</placeName> fiz emboscar a infantaria ao mando do 
-                    <persName ref="#major_queste"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Major Queste</persName> (*2) na picada determinando-lhe que deixasse passar 
+                <p>...emboscando-me perto do dito passo do Cordeiro fiz emboscar a infantaria ao mando do 
+                    <persName ref="#major_queste"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Major Queste</persName> na picada determinando-lhe que deixasse passar 
                     de 150 homens a 200 e lhe fizesse fogo...</p>
                 
                 <p>...deixando no campo 31 mortos e vinte prisioneiros, entrando 
-                    neste número um <persName ref="#tenente_coronel_morto">tenente-coronel</persName> e um <persName ref="#tenente_morto">tenente</persName>... é de lastimar a 
+                    neste número um tenente-coronel e um tenente... é de lastimar a 
                     perda do valente e honrado <persName ref="#capitao_antonio_candido_silva">Capitão Antônio Cândido da Silva</persName> e do bravo 
                     <persName ref="#alferes_pedro_antonio_iripi">Alferes Pedro Antônio Iripi</persName> e do valente 
                     <persName ref="#sargento_antonio_correia">Sargento Antônio Correia</persName>...</p>
@@ -97,13 +169,10 @@
                     <placeName ref="#capela_das_dores">Capela das Dores</placeName>, <date when="1842-01-29">29 de janeiro de 1842</date>.</p>
                 
                 <closer>
-                    <salute>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#conde_rio_pardo">Conde do Rio Pardo</persName></salute>
+                    <salute>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#general_valente">Conde do Rio Pardo</persName></salute>
                     <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
                     <signed>Tenente-coronel Comandante da Expedição</signed>
                 </closer>
-                
-                <note type="editorial">(*1) — original de difícil leitura; aqui lido como Lucas; adiante, lido como Cecas.</note>
-                <note type="editorial">(*2) — leitura possivelmente “Kersting”.</note>
                 
             </div>
         </body>

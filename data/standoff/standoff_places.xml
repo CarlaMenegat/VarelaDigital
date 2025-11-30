@@ -347,18 +347,6 @@
             <note>Região histórica das antigas reduções jesuíticas no Rio Grande do Sul.</note>
         </place>
         
-        <place xml:id="fronteira_missoes">
-            <placeName>Fronteira de Missões</placeName>
-            <note>Área militar e administrativa referida no contexto da República Rio-Grandense.</note>
-        </place> <!--Corrigir para o id "missoes"-->
-        
-        <place xml:id="dores">
-            <placeName>Distrito das Dores</placeName>
-            <idno type="geonames">https://www.geonames.org/maps/google_-29.6897_-53.7911.html</idno>
-            <geo precision="approximate">-29.6897, -53.7911</geo>
-            <note>Distrito de Santa Maria.</note>
-        </place>
-        
         <place xml:id="montevideu">
             <placeName xml:lang="es" type="attested">Montevideo</placeName>
             <placeName xml:lang="pt-BR" type="variant">Montevidéu</placeName>
@@ -1148,10 +1136,6 @@
             <note>Embarcação legalista onde Domingos José de Almeida esteve detido em 1835.</note>
         </place>
         
-        <place xml:id="santa_isabel">
-            <placeName>Santa Isabel</placeName>
-            <note></note>
-        </place>
         
         <place xml:id="passo_das_pedras">
             <placeName>Passo das Pedras</placeName>

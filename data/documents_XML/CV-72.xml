@@ -1,27 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-72 – Francisco Pedro de Abreu para José Maria da Silva Betancourt</title>
-                <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
+                <author>Francisco Pedro de Abreu</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-06-30">30 de junho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
@@ -33,6 +98,18 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-06-30">30/06/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-11-29">29/11/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     <text>
@@ -43,15 +120,45 @@
                     <salute>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Participo a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que em cumprimento das suas ordens e do que tínhamos tratado comuniquei ao Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente, o qual aprovou muito, e me disse que podia mandar os meus bombeiros e que tudo quanto fosse preciso para essa operação que eu requisitasse; mandei os meus bombeiros a <placeName ref="#piratini">Piratini</placeName>, trouxeram-me as notícias que <persName ref="#neto">Neto</persName> estava em <placeName ref="#piratini">Piratini</placeName> com um piquete de 50 homens aprontando-se para uma grande festa ao dia 20 de setembro; muitas carreiras atadas; uma invernada de mil cavalos; o <persName ref="#castilho01">Castilho</persName> e o <persName ref="#correia01">Major Correia</persName> com cento e cinquenta homens num rincão sobre o <placeName ref="#rio_camaqua">Camaquã</placeName>.</p>
+                <p>Participo a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que em cumprimento das suas ordens e do 
+                    que tínhamos tratado comuniquei ao Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente, o qual 
+                    aprovou muito, e me disse que podia mandar os meus bombeiros e que tudo quanto fosse preciso para essa operação que eu 
+                    requisitasse; mandei os meus bombeiros a <placeName ref="#piratini">Piratini</placeName>, trouxeram-me as notícias que 
+                    <persName ref="#antonio_sousa_neto">Neto</persName> estava em <placeName ref="#piratini">Piratini</placeName> com um 
+                    piquete de 50 homens aprontando-se para uma grande festa ao dia <date when="1842-09-20">20 de setembro</date>; muitas 
+                    carreiras atadas; uma invernada de mil cavalos; o <persName ref="#castilho">Castilho</persName> e o 
+                    <persName ref="#correia">Major Correia</persName> com cento e cinquenta homens num rincão sobre o 
+                    <placeName ref="#rio_camaqua">Camaquã</placeName>.</p>
                 
-                <p>Tendo o Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente ido para o <placeName ref="#rio_grande">Rio Grande</placeName>, escrevi-lhe dando-lhe parte das notícias, e se ele quisesse que se desse um golpe no inimigo, que parecia ser da muita vantagem este bote, mas que era preciso vir a "barca n.º 2" de cavalos que estava no <placeName ref="#rio_grande">Rio Grande</placeName> e um ou dois vapores; eu mandei outro bombeiro para me vir no dia 8 do corrente e fui-me aprontando para a expedição; chegando-me o bombeiro no dia 8 do corrente, dando-me as mesmas notícias dos grandes preparatórios para a festa e as carreiras, e que se juntava muita oficialada, e que além dos cavalos das invernadas ainda se podia reunir perto de mil cavalos pelos vizinhos.</p>
+                <p>Tendo o Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente ido para o <placeName ref="#rio_grande">Rio Grande</placeName>, 
+                    escrevi-lhe dando-lhe parte das notícias, e se ele quisesse que se desse um golpe no inimigo, que parecia ser da 
+                    muita vantagem este bote, mas que era preciso vir a "barca n.º 2" de cavalos que estava no <placeName ref="#rio_grande">Rio Grande</placeName> 
+                    e um ou dois vapores; eu mandei outro bombeiro para me vir no dia 8 do corrente e fui-me aprontando para a expedição; 
+                    chegando-me o bombeiro no dia <date when="1842-09-08">8 do corrente</date>, dando-me as mesmas notícias dos grandes 
+                    preparatórios para a festa e as carreiras, e que se juntava muita oficialada, e que além dos cavalos das invernadas 
+                    ainda se podia reunir perto de mil cavalos pelos vizinhos.</p>
                 
-                <p>E como o Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente não tivesse vindo do <placeName ref="#rio_grande">Rio Grande</placeName>, nem me desse resposta à minha participação, comuniquei ao Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante da Guarnição para me dar infantaria e o mais que necessitasse; logo me disse que estava tudo pronto e que eu falasse com o Exmo. Chefe do Mar para aprontar as embarcações; o que me disse que da sua parte estava tudo pronto e como esteve.</p>
+                <p>E como o Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente não tivesse vindo do 
+                    <placeName ref="#rio_grande">Rio Grande</placeName>, nem me desse resposta à minha participação, comuniquei ao Exmo. 
+                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante da Guarnição para me dar infantaria e o mais que 
+                    necessitasse; logo me disse que estava tudo pronto e que eu falasse com o Exmo. Chefe do Mar para aprontar as 
+                    embarcações; o que me disse que da sua parte estava tudo pronto e como esteve.</p>
                 
-                <p>Mas ao depois apareceram várias dúvidas da parte do Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante da Guarnição receando comprometimentos com o Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente por não me ter dado resposta à minha participação e ter mandado o vapor conduzir à 1.ª Brigada de Cavalaria; apesar de todos os meus esforços e de ter conseguido já ter embarcado trezentos e tantos homens de cavalaria, noventa cavalos em duas barcas e quarenta alemães de infantaria, prontos a marchar nessa mesma noite, tais foram os receios dos comprometimentos que foi malograda esta importantíssima operação, tendo de voltar nessa mesma noite do dia 16 do corrente com a minha gente e cavalhada já de <placeName ref="#porto_alegre">Porto Alegre</placeName> para o meu acampamento.</p>
+                <p>Mas ao depois apareceram várias dúvidas da parte do Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    Comandante da Guarnição receando comprometimentos com o Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    Presidente por não me ter dado resposta à minha participação e ter mandado o vapor conduzir à <orgName ref="#primeira_brigada_cavalaria">1.ª Brigada de Cavalaria</orgName>; 
+                    apesar de todos os meus esforços e de ter conseguido já ter embarcado trezentos e tantos homens de cavalaria, noventa 
+                    cavalos em duas barcas e quarenta alemães de infantaria, prontos a marchar nessa mesma noite, tais foram os receios dos 
+                    comprometimentos que foi malograda esta importantíssima operação, tendo de voltar nessa mesma noite do dia 16 do 
+                    corrente com a minha gente e cavalhada já de <placeName ref="#porto_alegre">Porto Alegre</placeName> para o meu 
+                    acampamento.</p>
                 
-                <p>Portanto, se <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> quiser que se faça alguma coisa de vantagem, pode mandar-me uma portaria igual a esta que junto vai por cópia, porque do contrário nada poderei fazer; logo que tenha de operar sujeito à vontade dos mais. As cavalhadas que tenho nas invernadas estão magras e só para fins de novembro ficarão prontas para qualquer operação; os cem reúnos amilhados estão capazes de qualquer empresa forte; é o que tenho de levar ao conhecimento de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> para determinar o que for servido.</p>
+                <p>Portanto, se <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> quiser que se faça alguma coisa de 
+                    vantagem, pode mandar-me uma portaria igual a esta que junto vai por cópia, porque do contrário nada poderei fazer; 
+                    logo que tenha de operar sujeito à vontade dos mais. As cavalhadas que tenho nas invernadas estão magras e só para 
+                    fins de novembro ficarão prontas para qualquer operação; os cem reúnos amilhados estão capazes de qualquer empresa 
+                    forte; é o que tenho de levar ao conhecimento de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> 
+                    para determinar o que for servido.</p>
                 
                 <closer>
                     <dateline>Acampamento na <placeName ref="#ponta_rasa">Ponta Rasa</placeName>, 17 de setembro de 1842.</dateline>

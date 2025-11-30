@@ -1315,6 +1315,96 @@
             name="hrao:servedUnder" 
             active="#tenente_novas" 
             passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:servedUnder"
+            active="#major_antunes"
+            passive="#francisco_pedro_abreu"/>
+        
+        <relation 
+            name="schema:member" 
+            active="#filipe_neri_oliveira" 
+            passive="#oitavo_batalhao"/>
+        
+        <relation 
+            name="schema:member"
+            active="#major_queste"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#major_antunes"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#capitao_lucas"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#capitao_antonio_candido_silva"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#alferes_pedro_antonio_iripi"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#sargento_antonio_correia"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#capitao_francisco_cabeleira"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="rel:siblingOf"
+            active="#jose_goncalves_silva"
+            passive="#bento_goncalves"/>
+        
+        <relation 
+            name="schema:member"
+            active="#jose_goncalves_silva"
+            passive="#republica_rio_grandense"/>
+        
+        <relation 
+            name="hrao:wasImprisonedBy"
+            active="#jose_goncalves_silva"
+            passive="#imperio_brasil"/>
+        
+        <relation 
+            name="schema:member"
+            active="#castilho"
+            passive="#republica_rio_grandense"/>
+        
+        <relation 
+            name="schema:member"
+            active="#correia"
+            passive="#republica_rio_grandense"/>
+        
+        <relation 
+            name="hrao:followedPoliticalAlignmentOf"
+            active="#castilho"
+            passive="#antonio_sousa_neto"/>
+        
+        <relation 
+            name="hrao:followedPoliticalAlignmentOf"
+            active="#correia"
+            passive="#antonio_sousa_neto"/>
+        
+        <relation
+            name="schema:memberOf"
+            active="#jose_maria_betancourt"
+            passive="#imperio_brasil"/>
+        
+        <relation
+            name="hrao:servedUnder"
+            active="#francisco_pedro_abreu"
+            passive="#jose_maria_betancourt"/>
     </standOff>
     
 </TEI>

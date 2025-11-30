@@ -1,32 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>
-                    Carta CV-69 – <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
-                    para <persName ref="#conde_rio_pardo">Conde de Rio Pardo</persName>
-                </title>
+                <title>Carta CV-69 – Francisco Pedro de Abreu para Conde de Rio Pardo</title>
                 <author><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
-            
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-06-29">29 de junho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
-            
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
@@ -39,6 +99,18 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-06-29">29/06/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-11-29">29/11/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     <text>
@@ -49,8 +121,8 @@
                     <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Conforme as ordens e instruções de <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> datadas de 29 do
-                    mês próximo passado fiz as competentes reuniões das forças e
+                <p>Conforme as ordens e instruções de <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> 
+                    datadas de 29 do mês próximo passado fiz as competentes reuniões das forças e
                     esquadrões de meu comando no destacamento da 
                     <placeName ref="#ponta_rasa">Ponta Rasa</placeName>, e no
                     dia 3 do corrente, às 5 horas da tarde, ultimei no 
@@ -65,26 +137,25 @@
                 
                 <p>...soube que as forças rebeldes que tinham passado para a margem esquerda do 
                     <placeName ref="#rio_camaqua">rio Camaquã</placeName> e as que tinham reunido já tinham passado para a margem direita 
-                    do mesmo rio; sem demora segui à capela de 
-                    <placeName ref="#sao_joao">São João</placeName> e daí dirigi, como convinha, algumas partidas...</p>
+                    do mesmo rio; sem demora segui à capela de São João e daí dirigi, como convinha, algumas partidas...</p>
                 
                 <p>...e no dito passo foi preso um rebelde camarada de outro rebelde oficial; e aí no dia 9 se 
                     reuniram todas as partidas com cento e cinquenta cavalos e quatro prisioneiros mais,
                     sendo um deles fulano de tal Lemos, intitulado tenente, e três soldados presos pelo 
                     <persName ref="#fidelis_pais_silva">Alferes Fidélis Pais da Silva</persName>...</p>
                 
-                <p>...oficiando no mesmo dia 9 ao <persName ref="#joao_frederico">Tenente-coronel João Frederico</persName>, comandante das forças que
+                <p>...oficiando no mesmo dia 9 ao <persName ref="#joao_frederico_caldwell">Tenente-coronel João Frederico</persName>, comandante das forças que
                     tinham saído de <placeName ref="#rio_pardo">Rio Pardo</placeName>, a fim de ele marchar com a força de seu mando a passar 
-                    <placeName ref="#rio_camaqua">Camaquã</placeName> direto à estância do <persName ref="#malaquias">Malaquias</persName>...</p>
+                    <placeName ref="#rio_camaqua">Camaquã</placeName> direto à estância do Malaquias...</p>
                 
                 <p>...Marchando eu com a força de meu mando, a passar o mesmo rio no 
-                    <placeName ref="#passo_mendonca">passo do Mendonça</placeName>, no <placeName ref="#cristal">Cristal</placeName>... no passo de 
-                    <placeName ref="#santa_isabel">Santa Isabel</placeName>, frenteando a capela do <placeName ref="#boqueirao">Boqueirão</placeName>...</p>
+                    passo do Mendonça, no <placeName ref="#cristal">Cristal</placeName>... no passo de 
+                    Santa Isabel, frenteando a capela do <placeName ref="#sao_lourenco">Boqueirão</placeName>...</p>
                 
-                <p>...saindo de <placeName ref="#santa_isabel">Santa Isabel</placeName> no dia 12 cheguei no dia 13; e feita a junção, no mesmo dia principiamos 
+                <p>...saindo de Santa Isabel no dia 12 cheguei no dia 13; e feita a junção, no mesmo dia principiamos 
                     nossa retirada, tornando a repassar o 
-                    <placeName ref="#rio_camaqua">rio Camaquã</placeName> no <placeName ref="#passo_armada">passo da Armada</placeName>, seguindo juntas todas as forças 
-                    até o lugar chamado a <placeName ref="#cordilheira">Cordilheira</placeName>, ... e do dito 
+                    <placeName ref="#rio_camaqua">rio Camaquã</placeName> no passo da Armada, seguindo juntas todas as forças 
+                    até o lugar chamado a Cordilheira, ... e do dito 
                     <placeName ref="#cerro_roque">cerro Roque</placeName> me encaminhei no dia à 
                     <placeName ref="#ponta_rasa">Ponta Rasa</placeName>, chegando na margem direita do rio no dia 22...</p>
                 
@@ -94,7 +165,7 @@
                 
                 <closer>
                     <salute>Ilmo. e Exmo. Senhor 
-                        <persName ref="#conde_rio_pardo">Conde de Rio Pardo</persName></salute>
+                        <persName ref="#general_valente">Conde de Rio Pardo</persName></salute>
                     <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
                     <signed>Tenente-coronel</signed>
                 </closer>

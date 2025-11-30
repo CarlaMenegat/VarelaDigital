@@ -3051,10 +3051,6 @@
             <note>Indivíduo ligado à família; identificação incompleta.</note>
         </person>
         
-        <person xml:id="malaquias">
-            <persName>Malaquias</persName>
-        </person>
-        
         <person xml:id="jose_nunes">
             <persName>José Nunes</persName>
         </person>
@@ -4821,68 +4817,145 @@
         </person>
         
         <person xml:id="capitao_lucas">
-            <persName>Capitão Lucas</persName>
-            <note>Nome incerto: leitura paleográfica sujeita a revisão.</note>
+            <persName>
+                <choice>
+                    <sic>Cecas</sic>
+                    <corr>Lucas</corr>
+                </choice>
+            </persName>
+            <note type="editorial">Original de difícil leitura no impresso; registrado como "Lucas" em um ponto e "Cecas" em outro.</note>
+            <state type="roleInTime" xml:id="capitao_lucas_capitao_legalista">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
         </person>
         
-        <person xml:id="capitao_cecas">
-            <persName>Capitão Cecas</persName>
-            <note>Mesma pessoa indicada como “Lucas” no início? Revisão prosopográfica futura.</note>
+        <person xml:id="major_antunes">
+            <persName>Major Antunes</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="major_antunes_major_legalista">
+                <roleName>Major</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Major legalista que atuava sob as ordens de <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</note>
         </person>
         
         <person xml:id="major_queste">
-            <persName>Major Queste</persName>
-            <note>Possível leitura alternativa “Kersting”.</note>
+            <persName>
+                <choice>
+                    <sic>Major Queste</sic>
+                    <corr>Major Kersting</corr>
+                </choice>
+            </persName>
+            <state type="roleInTime" xml:id="major_queste_imperio">
+                <roleName>Major</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Oficial legalista mencionado em operações militares. A forma correta do sobrenome é incerta no original, podendo corresponder a “Queste” ou “Kersting”.</note>
         </person>
         
         <person xml:id="capitao_antonio_candido_silva">
-            <persName>Capitão Antônio Cândido da Silva</persName>
+            <persName>Antônio Cândido da Silva</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="antonio_candido_silva_capitao_imperio">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Capitão legalista mencionado em operações no contexto da Revolução Farroupilha.</note>
         </person>
         
         <person xml:id="alferes_pedro_antonio_iripi">
-            <persName>Alferes Pedro Antônio Iripi</persName>
+            <persName>Pedro Antônio Iripi</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="pedro_antonio_iripi_alferes_imperio">
+                <roleName>Alferes</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Alferes das forças legalistas.</note>
         </person>
         
         <person xml:id="sargento_antonio_correia">
-            <persName>Sargento Antônio Correia</persName>
+            <persName>Antônio Correia</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="antonio_correia_sargento_imperio">
+                <roleName>Sargento</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Sargento legalista citado em operações militares.</note>
         </person>
         
         <person xml:id="capitao_francisco_cabeleira">
-            <persName>Capitão Francisco Cabeleira</persName>
-        </person>
-        
-        <person xml:id="conde_rio_pardo">
-            <persName>Conde do Rio Pardo</persName>
+            <persName>Francisco Cabeleira</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="francisco_cabeleira_capitao_imperio">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Capitão legalista atuante nas ações descritas por Francisco Pedro de Abreu.</note>
         </person>
         
         <person xml:id="jose_goncalves_silva">
             <persName>José Gonçalves da Silva</persName>
-            <note>Juiz de Paz dos rebeldes; irmão de Bento Gonçalves da Silva.</note>
+            <idno type="project"></idno>
+            <birth when="1792-06-16">16 de junho de 1792</birth>
+            <death when="1860-05-04">4 de maio de 1860</death>
+            <state type="roleInTime" xml:id="jose_goncalves_silva_juiz_paz">
+                <roleName>Juiz de Paz Tavares</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>
+                Irmão de Bento Gonçalves da Silva; atuou como Juiz de Paz vinculado ao governo farroupilha.
+                Foi preso por forças legalistas no distrito de Tavares.
+            </note>
         </person>
         
-        <person xml:id="joao_frederico">
-            <persName>João Frederico</persName>
-            <note>Tenente-coronel comandante das forças vindas de Rio Pardo.</note>
+        <person xml:id="tenente_lemos">
+            <persName>Lemos</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="tenente_lemos_farroupilha">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Tenente farroupilha mencionado em operações militares contra forças do Exército Imperial.</note>
         </person>
         
-        <person xml:id="malaquias">
-            <persName>Malaquias</persName>
-            <note>Estancieiro citado como referência geográfica e logística.</note>
-        </person> <!--corrigir para id malaquias_estancieiro-->
-        
-        <person xml:id="castilho01">
+        <person xml:id="castilho">
             <persName>Castilho</persName>
-            <note>Indivíduo não identificado com prenome; citado em Piratini em setembro de 1842, acompanhado de força armada.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="castilho_oficial_farroupilha">
+                <roleName>Oficial</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Oficial farroupilha mencionado como atuante ao lado de Antônio de Sousa Neto.</note>
         </person>
         
-        <person xml:id="correia01">
+        <person xml:id="correia">
             <persName>Major Correia</persName>
-            <note>Oficial referido apenas pelo sobrenome; contexto militar rebelde próximo ao rio Camaquã em 1842.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="correia_major_farroupilha">
+                <roleName>Major</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Major farroupilha que operava em conjunto com Castilho e Antônio de Sousa Neto.</note>
         </person>
         
         <person xml:id="jose_maria_betancourt">
-            <persName>José Maria da Silva Betancourt</persName>
-            <note>Brigadeiro e comandante-em-chefe do Exército Imperial no RS.</note>
+            <persName>José Maria da Silva Bittencourt</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10309989</idno>
+            <birth when="1789">1789</birth>
+            <death when="1857-04-13">13 de abril de 1857</death>
+            <state type="roleInTime" xml:id="bittencourt_brigadeiro">
+                <roleName>Brigadeiro</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <note>Oficial general do Exército Imperial.</note>
+            </state>
+            <state type="roleInTime" xml:id="bittencourt_comandante_em_chefe_rs">
+                <roleName>Comandante-em-chefe das forças imperiais no Rio Grande do Sul</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1841"/> 
+                <note>Assumiu o comando superior no RS após Manuel Jorge Rodrigues.</note>
+            </state>
+            <note>General do Exército Imperial, destacado por assumir o comando supremo das operações legais no Rio Grande do Sul durante a fase final da Revolução Farroupilha.</note>
         </person>
         
         <person xml:id="francisco_lima_silva">
