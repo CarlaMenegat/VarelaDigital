@@ -1,31 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-84 – <persName ref="#joao_pedro_abreu">João Pedro de Abreu</persName> para <persName ref="#francisco_antonio_da_silva_bitancourt">Francisco Antônio da Silva Bitancourt</persName></title>
-                <author><persName ref="#joao_pedro_abreu">João Pedro de Abreu</persName></author>
+                <title>Carta CV-84 – João Pedro de Abreu para Francisco Antônio da Silva Bitancourt</title>
+                <author>João Pedro de Abreu</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-06-30">30 de junho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#joao_pedro_abreu">João Pedro de Abreu</persName>
-                    <placeName ref="#aldeia_anjos">junto à Aldeia dos Anjos</placeName>
+                    <placeName ref="#aldeia_anjos">Aldeia dos Anjos</placeName>
                     <date when="1842-12-21">21 de dezembro de 1842</date>
                 </correspAction>
                 <correspAction type="received">
@@ -33,6 +98,18 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-06-30">30/06/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-11-30">30/11/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     <text>
@@ -43,12 +120,30 @@
                     <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Cumpre-me participar a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>, para que leve ao conhecimento do Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General e Comandante-em-chefe do Exército, que hoje me ponho em marcha com o resto do corpo do meu interino comando, que se contam 67 praças entrando os oficiais. Têm sido tão freqientes as deserções no meu corpo que ainda na véspera de minha saída, contando eu levar cento e tantas praças, ainda desertaram o Sargento-ajudante <persName ref="#jose_andre">José André</persName>, o 1.º Sargento <persName ref="#joao_marques">João Marques</persName> e o Furriel <persName ref="#luis_carlos">Luís Carlos</persName>, seduzindo mais de trinta soldados, e não é possível contar-se com semelhante gente para serviço algum que não seja ao pé de suas casas e fazendo enorme despesa à Nação!</p>
+                <p>Cumpre-me participar a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>, para que leve ao conhecimento 
+                    do Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General e Comandante-em-chefe do Exército, que hoje me 
+                    ponho em marcha com o resto do corpo do meu interino comando, que se contam 67 praças entrando os oficiais. Têm sido tão
+                    frequentes as deserções no meu corpo que ainda na véspera de minha saída, contando eu levar cento e tantas praças, 
+                    ainda desertaram o Sargento-ajudante <persName ref="#jose_andre">José André</persName>, o 1.º Sargento 
+                    <persName ref="#joao_marques">João Marques</persName> e o Furriel <persName ref="#luis_carlos">Luís Carlos</persName>, 
+                    seduzindo mais de trinta soldados, e não é possível contar-se com semelhante gente para serviço algum que não seja ao 
+                    pé de suas casas e fazendo enorme despesa à Nação!</p>
                 
-                <p>Eu protesto contra esta porção de anarquistas que assim se deve chamar, principalmente contra estes inferiores, motores desta última deserção, esperando em <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> faça subir esta minha representação ao conhecimento do Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General, que estes inferiores ainda que se apresentem ao depois que eu marche (como é provável e de costume sem que tenham castigo) eu protesto sempre contra eles pois que de nada servem ao Estado. Inda se me não reuniu uma companhia que se achava destacada em <placeName ref="#cima_serra">Cima da Serra</placeName>, a cujo comandante ordenei que se me não encontrasse neste ponto se fosse reunir comigo em <placeName ref="#taquari">Taquari</placeName>, e também duvido que este oficial chegue com gente naquele ponto. Faltam-me ainda alguns oficiais que mandei para a retaguarda reunir algumas praças, assim como um alferes que mandei para as <placeName ref="#torres">Torres</placeName> para marchar com a polícia daquele lugar e espero que antes de eu chegar ao <placeName ref="#cai">Caí</placeName> se me hão de reunir estes.</p>
+                <p>Eu protesto contra esta porção de anarquistas que assim se deve chamar, principalmente contra estes inferiores, motores 
+                    desta última deserção, esperando em <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> faça subir esta minha 
+                    representação ao conhecimento do Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General, que estes 
+                    inferiores ainda que se apresentem ao depois que eu marche (como é provável e de costume sem que tenham castigo) eu 
+                    protesto sempre contra eles pois que de nada servem ao Estado. Inda se me não reuniu uma companhia que se achava 
+                    destacada em Cima da Serra, a cujo comandante ordenei que se me não encontrasse 
+                    neste ponto se fosse reunir comigo em <placeName ref="#taquari">Taquari</placeName>, e também duvido que este oficial 
+                    chegue com gente naquele ponto. Faltam-me ainda alguns oficiais que mandei para a retaguarda reunir algumas praças, 
+                    assim como um alferes que mandei para as <placeName ref="#torres">Torres</placeName> para marchar com a polícia daquele 
+                    lugar e espero que antes de eu chegar ao <placeName ref="#cai">Caí</placeName> se me hão de reunir estes.</p>
                 
                 <closer>
-                    <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>. <placeName ref="#aldeia_anjos">Campo em marcha junto à Aldeia dos Anjos</placeName>, <date when="1842-12-21">21 de dezembro de 1842</date>.</p>
+                    <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> 
+                        Campo em marcha junto à <placeName ref="#aldeia_anjos">Aldeia dos Anjos</placeName>, 
+                        <date when="1842-12-21">21 de dezembro de 1842</date>.</p>
                     
                     <signed>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#francisco_antonio_da_silva_bitancourt">Francisco Antônio da Silva Bitancourt</persName>, Coronel e Ajudante-general.</signed>
                     

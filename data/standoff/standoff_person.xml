@@ -210,8 +210,22 @@
         
         <person xml:id="antonio_abreu">
             <persName>Antônio Francisco dos Santos Abreu</persName>
-            <idno type="project"></idno>
-            <note><note>Comerciante e fornecedor de gado dos farroupilhas, sobrinho de Bento Gonçalves da Silva.</note></note>
+            <idno type="project">antonio_abreu</idno>
+            <birth when="1806-08-25">25 de agosto de 1806</birth>
+            <death when="unknown"/>
+            <state type="roleInTime" xml:id="antonio_abreu_coletor_rrg">
+                <roleName>Coletor</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <location>
+                    <placeName ref="#sao_lourenco">São Lourenço (Boqueirão)</placeName>
+                </location>
+                <note>Atuou como coletor da República Rio-Grandense na região de São Lourenço.</note>
+            </state>
+            <note>
+                Comerciante e fornecedor de gado associado ao governo farroupilha, 
+                atuante como coletor em São Lourenço. Primo de Bento Gonçalves da Silva 
+                e irmão de Joaquim Francisco dos Santos Abreu.
+            </note>
         </person>
         
         <person xml:id="fernandes_braga">
@@ -318,28 +332,46 @@
         </person>
         
         <person xml:id="francisco_pedro_abreu">
-            <persName>Francisco Pedro Brusque de Abreu</persName>
             <persName>Francisco Pedro de Abreu</persName>
+            <persName>Francisco Pedro Buarque de Abreu</persName>
             <persName type="popular">Chico Pedro</persName>
             <persName type="popular">Moringue</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q16917747</idno>
             <idno type="viaf">https://viaf.org/viaf/24112810</idno>
             <birth when="1811"/>
             <death when="1891-07-07"/>
-            <state type="roleInTime" xml:id="francisco_pedro_abreu_capitao">
-                <roleName>Capitão</roleName>
+            <state type="roleInTime" xml:id="fpa_tenente_1836">
+                <roleName>Tenente da Guarda Nacional</roleName>
                 <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1836"/>
             </state>
-            <state type="roleInTime" xml:id="francisco_pedro_abreu_coronel">
-                <roleName>Coronel</roleName>
+            <state type="roleInTime" xml:id="fpa_capitao_1837">
+                <roleName>Capitão da Guarda Nacional</roleName>
                 <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1837"/>
             </state>
-            <state type="roleInTime" xml:id="francisco_pedro_abreu_barao_jacui">
+            <state type="roleInTime" xml:id="fpa_major_1838">
+                <roleName>Major da Guarda Nacional</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1838"/>
+            </state>
+            <state type="roleInTime" xml:id="fpa_tenente_coronel_1839">
+                <roleName>Tenente-Coronel da Guarda Nacional</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1839"/>
+            </state>
+            <state type="roleInTime" xml:id="fpa_coronel_1844">
+                <roleName>Coronel da Guarda Nacional</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1844"/>
+            </state>
+            <state type="roleInTime" xml:id="fpa_barao_jacui">
                 <roleName>Barão do Jacuí</roleName>
                 <affiliation ref="#imperio_brasil"/>
-                <note>Título nobiliárquico concedido pelo Império do Brasil.</note>
+                <date type="begin" when="1845"/>
+                <note>Título concedido pelo Império.</note>
             </state>
-            <note>Militar legalista do Exército Imperial, conhecido por suas operações de inteligência e manobras táticas, apelidado de “Moringue”.</note>
+            <note>Militar legalista, comandante do Esquadrão da Barra, figura decisiva na repressão aos farroupilhas.</note>
         </person>
         
         <person xml:id="francisco_xavier_cunha">
@@ -401,8 +433,24 @@
         
         <person xml:id="manuel_martins_silveira_lemos">
             <persName>Manuel Martins da Silveira Lemos</persName>
-            <idno type="project"></idno>
-            <note>Funcionário administrativo citado nas cartas da Coleção Varela, atuante em funções vinculadas à Coletoria e à Secretaria do Tesouro durante a Revolução Farroupilha.</note>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10324373</idno>
+            <birth when="1808-04-17">17 de abril de 1808</birth>
+            <death when="1876-05-06">6 de maio de 1876</death>
+            <state type="roleInTime" xml:id="mmsl_diretor_tesouro_rrg">
+                <roleName>Diretor do Tesouro</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <state type="roleInTime" xml:id="mmsl_deputado_assembleia_1842">
+                <roleName>Deputado da Assembleia Constituinte e Legislativa</roleName>
+                <affiliation ref="#assembleia_constituinte"/>
+                <date type="begin" when="1842"/>
+            </state>
+            <note>
+                Político e administrador farroupilha. Irmão do padre Francisco das Chagas 
+                Martins Ávila e Sousa. Exerceu papel central na administração financeira 
+                da República Rio-Grandense como Diretor do Tesouro e foi eleito deputado 
+                da Assembleia Constituinte e Legislativa em 1842.
+            </note>
         </person>
         
         <person xml:id="miguel_garcia">
@@ -576,19 +624,19 @@
         <person xml:id="antonio_pedro_abreu">
             <persName>Antônio Pedro de Abreu</persName>
             <idno type="project"></idno>
-            <state type="roleInTime" xml:id="antonio_pedro_abreu_tenente_2_linha">
-                <roleName>Tenente</roleName>
+            <birth when="unknown"/>
+            <death when="unknown"/>
+            <state type="roleInTime" xml:id="apa_tenente_milicias_1835">
+                <roleName>Tenente de Milícias</roleName>
                 <affiliation ref="#imperio_brasil"/>
-                <roleName>Oficial da extinta 2.º Linha</roleName>
+                <date type="begin" when="1835"/>
             </state>
-            <state type="roleInTime" xml:id="antonio_pedro_abreu_batalhao11">
-                <roleName>Comandante dos presídios do Batalhão 11</roleName>
+            <state type="roleInTime" xml:id="apa_major_gn_1843">
+                <roleName>Major da Guarda Nacional</roleName>
                 <affiliation ref="#imperio_brasil"/>
-                <location>
-                    <placeName ref="#ilha_corvo">Ilha do Corvo</placeName>
-                </location>
+                <date type="begin" when="1843"/>
             </state>
-            <note>Tenente legalista do Exército Imperial, oficial da extinta 2.º Linha e comandante dos presídios do Batalhão 11 na Ilha do Corvo durante a Revolução Farroupilha.</note>
+            <note>Irmão de Francisco Pedro, Paulo José e João Pedro de Abreu. Oficial legalista com carreira progressiva na Guarda Nacional.</note>
         </person>
         
         <person xml:id="alferes_ferreira">
@@ -768,18 +816,24 @@
         <person xml:id="padre_chagas">
             <persName>Francisco das Chagas Martins Ávila e Sousa</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10285293</idno>
-            <roleName>Vigário Apostólico da República</roleName>
+            <state type="roleInTime" xml:id="padre_chagas_vigario_rrg">
+                <roleName>Vigário Apostólico da República</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <state type="roleInTime" xml:id="padre_chagas_deputado">
+                <roleName>Deputado da Assembleia Constitucional</roleName>
+                <affiliation ref="#assembleia_constituinte"/>
+            </state>
             <relation
                 name="rel:siblingOf"
                 active="#padre_chagas"
-                passive="#martins"/>
-            <note>Sacerdote Católico, foi nomeado Vigário Apostólico da República. Foi o deputado mais votado da Assembléia Geral Legislativa da República Rio-grandense.</note>
+                passive="#manuel_martins_silveira_lemos"/>
+            <note>
+                Sacerdote católico farroupilha, Vigário Apostólico da República e deputado 
+                mais votado da Assembleia Geral Legislativa. Irmão de Manuel Martins da 
+                Silveira Lemos.
+            </note>
         </person>
-        
-        <person xml:id="francisco_chagas_martins_avila_sousa">
-            <persName>Francisco das Chagas Martins Ávila e Sousa</persName>
-            <note>Autoridade eclesiástica, tratada como "Exmo. prelado" e destinatário da carta; atuante no contexto da administração farroupilha.</note>
-        </person> <!--corrigir para a id padre_chagas-->
         
         <person xml:id="mingote">
             <persName type="popular">Mingote</persName>
@@ -1229,10 +1283,6 @@
             <persName>Vilaça</persName>
         </person>
         
-        <person xml:id="antonio_francisco_santos_abreu">
-            <persName>Antônio Francisco dos Santos Abreu</persName>
-        </person> <!--trocar pela id antonio_abreu-->
-        
         <person xml:id="silvano_monteiro_araujo">
             <persName>Silvano José Monteiro de Araújo e Paula</persName>
             <note>Tenente-coronel listado nos pagamentos.</note>
@@ -1389,18 +1439,63 @@
         
         <person xml:id="joaquim_prado_lima">
             <persName>Joaquim dos Santos Prado Lima</persName>
-            <note>Chefe de Polícia do Departamento de Alegrete; também Comandante Geral de Polícia do Departamento e Fronteira de Alegrete.</note>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10307510</idno>
+            <birth when="1802">1802</birth>
+            <death when="unknown"/>
+            <state type="roleInTime" xml:id="prado_lima_presidente_camara_alegrete">
+                <roleName>Presidente da Câmara Municipal de Alegrete</roleName>
+                <affiliation ref="#camara_alegrete"/>
+                <date type="begin" when="1837"/>
+                <note>Vereador e primeiro presidente da Câmara Municipal do Alegrete.</note>
+            </state>
+            <state type="roleInTime" xml:id="prado_lima_chefe_policia_alegrete">
+                <roleName>Chefe de Polícia do Departamento de Alegrete</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <state type="roleInTime" xml:id="prado_lima_cmd_geral_policia_alegrete">
+                <roleName>Comandante Geral de Polícia do Departamento e Fronteira de Alegrete</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <state type="roleInTime" xml:id="prado_lima_deputado_farroupilha">
+                <roleName>Deputado da Assembleia Constituinte e Legislativa Farroupilha</roleName>
+                <affiliation ref="#assembleia_geral"/>
+                <date type="begin" when="1842"/>
+            </state>
+            <note>
+                Político e administrador farroupilha. Natural de Rio Pardo, atuou em Alegrete onde foi 
+                vereador e primeiro presidente da Câmara Municipal, além de exercer chefias policiais e 
+                funções legislativas na República Rio-Grandense. Filho do cirurgião-mor Joaquim José do 
+                Prado Lima.
+            </note>
         </person>
         
         <person xml:id="joao_antonio_silveira">
             <persName>João Antônio da Silveira</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q16940348</idno>
-            <roleName>General</roleName>
-            <roleName>Comandante da Divisão da Direita</roleName>
-            <roleName>Coronel</roleName>
-            <roleName>Chefe do 1.º Corpo de Exército</roleName>
-            <affiliation><orgName ref="#farroupilhas">Farroupilhas</orgName></affiliation>
-            <note>Coronel e Comandante da Divisão da Direita do exército farroupilha.</note>
+            <idno type="viaf">https://viaf.org/viaf/310709267</idno>
+            <birth when="1790">1790</birth>
+            <death when="1857">1857</death>
+            <state type="roleInTime" xml:id="jas_coronel_rrg">
+                <roleName>Coronel</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <state type="roleInTime" xml:id="jas_general_rrg">
+                <roleName>General</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <state type="roleInTime" xml:id="jas_comandante_divisao_direita">
+                <roleName>Comandante da Divisão da Direita</roleName>
+                <affiliation ref="#divisao_direita"/>
+            </state>
+            <state type="roleInTime" xml:id="jas_chefe_primeiro_corpo">
+                <roleName>Chefe do 1.º Corpo de Exército</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>
+                Oficial farroupilha de alta patente, exerceu o comando da Divisão da Direita e do 1.º Corpo 
+                de Exército da República Rio-Grandense. Figura militar de grande prestígio e liderança dentro 
+                da estrutura estratégica farroupilha.
+            </note>
         </person>
         
         <person xml:id="jose_antonio_silva">
@@ -1411,8 +1506,18 @@
         <person xml:id="inacio_guimaraes">
             <persName>Inácio José de Oliveira Guimarães</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10303358</idno>
-            <note type="roles">Chefe de Polícia do Departamento do Boqueirão.</note>
-            <note>Autoridade policial atuante na região do Boqueirão (São Lourenço) durante a República Rio-Grandense.</note>
+            <state type="roleInTime" xml:id="inacio_guimaraes_chefe_policia_boqueirao">
+                <roleName>Chefe de Polícia</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <location>
+                    <placeName ref="#sao_lourenco">Boqueirão (São Lourenço)</placeName>
+                </location>
+                <note>Chefe de Polícia do Departamento do Boqueirão, exercendo funções administrativas e de segurança em nome da legalidade imperial.</note>
+            </state>
+            <note>
+                Figura central da administração imperial no Boqueirão durante a década de 1840, 
+                frequentemente consultado e mobilizado em comunicações militares e civis.
+            </note>
         </person>
         
         <person xml:id="ana_joaquina_santos">
@@ -2273,7 +2378,43 @@
         
         <person xml:id="sebastiao_ribeiro">
             <persName>Dr. Sebastião Ribeiro</persName>
-            <note>Ministro e Secretário de Estado dos Negócios da Justiça e Exterior da República Rio-Grandense, plenipotenciário e encarregado junto ao Estado Oriental do Uruguai.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="sebastiao_ribeiro_ministro_rrg">
+                <roleName>Ministro e Secretário de Estado dos Negócios da Justiça e Exterior</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <state type="roleInTime" xml:id="sebastiao_ribeiro_plenipotenciario">
+                <roleName>Plenipotenciário</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <location>
+                    <placeName ref="#estado_oriental">Estado Oriental do Uruguai</placeName>
+                </location>
+            </state>
+            <note>
+                Diplomata e ministro farroupilha, encarregado de missões oficiais junto ao 
+                Estado Oriental do Uruguai durante as negociações políticas da República Rio-Grandense.
+            </note>
+        </person>
+        
+        <person xml:id="jose_inacio_silva_abreu">
+            <persName>José Inácio da Silva Abreu</persName>
+            <birth when="1797-01-01">1 de janeiro de 1797</birth>
+            <death when="unknown"/>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="jisa_tenente_coronel_rrg">
+                <roleName>Tenente-coronel</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <state type="roleInTime" xml:id="jisa_cmd_interino_fronteira">
+                <roleName>Comandante Interino da Fronteira</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <note>Função mencionada em correspondência militar preservada na Coleção Varela.</note>
+            </state>
+            <note>
+                Oficial farroupilha, filho do marechal José de Abreu Menna Barreto e de Maria Josefa da 
+                Silveira Pires. Atuou em funções de comando, incluindo o cargo de Tenente-coronel 
+                Comandante Interino da Fronteira. Casou-se com Anna Josefina de Menezes de Bastos em 1824.
+            </note>
         </person>
         
         <person xml:id="juan_lavalle">
@@ -2490,18 +2631,41 @@
         
         <person xml:id="marciano_pereira_ribeiro">
             <persName>Marciano José Pereira Ribeiro</persName>
-            <persName type="popular">Dr. Marciano</persName>
+            <persName type="alias">Dr. Marciano</persName>
+            <birth when="1800-07-20">20 de julho de 1800</birth>
+            <death when="1879-07-25">25 de julho de 1879</death>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10325233</idno>
-            <roleName>Presidente Interino Província do Rio Grande do Sul</roleName>
-            <roleName>deputado provincial eleito à 1ª Legislatura da Assembleia Provincial do Rio Grande do Sul</roleName>
-            <roleName>Médico</roleName>
-            <note>Formado em medicina em Edimburgo. Foi deputado provincial eleito à 1ª Legislatura da Assembleia Provincial do Rio Grande do Sul. Era 3° vice-presidente da província do Rio Grande do Sul, ao estourar a Guerra dos Farrapos, quando Porto Alegre foi dominada pelos farroupilhas.</note>
+            <state type="roleInTime" xml:id="marciano_estudante_edimburgo">
+                <roleName>Estudante de Medicina</roleName>
+                <affiliation ref="#universidade_edimburgo"/>
+                <note>Formação médica na Universidade de Edimburgo, conforme documentação biográfica.</note>
+            </state>
+            <state type="roleInTime" xml:id="mpr_medico">
+                <roleName>Médico</roleName>
+            </state>
+            <state type="roleInTime" xml:id="mpr_deputado_1leg">
+                <roleName>Deputado provincial</roleName>
+                <affiliation ref="#assembleia_provincial_rs"/>
+                <date type="begin" when="1835"/>
+                <note>Eleito à 1.ª Legislatura da Assembleia Provincial do Rio Grande do Sul.</note>
+            </state>
+            <state type="roleInTime" xml:id="mpr_vice_presidente_rs">
+                <roleName>3.º Vice-presidente da Província</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1835"/>
+            </state>
+            <state type="roleInTime" xml:id="mpr_presidente_interino">
+                <roleName>Presidente Interino da Província do Rio Grande do Sul</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1835-09"/>
+                <note>Assumiu após a queda do governo legalista durante a tomada de Porto Alegre pelos farroupilhas.</note>
+            </state>
+            <note>
+                Médico, político e figura central na crise inicial da Guerra dos Farrapos. Como 
+                3.º vice-presidente, assumiu o governo provincial quando Porto Alegre foi tomada 
+                pelos farroupilhas, após a deposição do comandante legalista Sebastião Barreto Pereira Pinto.
+            </note>
         </person>
-        
-        <person xml:id="dr_marciano">
-            <persName>Dr. Marciano</persName>
-            <idno></idno>
-        </person> <!--corrigir para id marciano_pereira_ribeiro -->
         
         <person xml:id="americo_cabral_melo">
             <persName>Américo Cabral de Melo</persName>
@@ -2754,11 +2918,6 @@
         <person xml:id="antonio_goncalves">
             <persName>Antônio Gonçalves</persName>
             <note>Tenente, portador do ofício mencionado e informante de situação militar.</note>
-        </person>
-        
-        <person xml:id="loureiro">
-            <persName>Loureiro</persName>
-            <note>Indivíduo citado em relação à direção estratégica.</note>
         </person>
         
         <person xml:id="labatut">
@@ -3237,8 +3396,17 @@
             <persName>Felisberto Machado de Carvalho Ourique</persName>
         </person>
         
-        <person xml:id="agostinho_antonio_melo">
-            <persName>Agostinho Antônio de Melo</persName>
+        <person xml:id="agostinho_antonio_mello">
+            <persName>Agostinho Antônio de Mello</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="agostinho_coronel_rrg">
+                <roleName>Coronel</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>
+                Oficial farroupilha, atuante no norte da província em operações em Santo Amaro, Rio Pardo, Cachoeira e região
+                entre 1837 e 1841; comandou forças derrotadas em combate em novembro de 1841.
+            </note>
         </person>
         
         <person xml:id="manuel_goncalves_costa">
@@ -3257,11 +3425,6 @@
         
         <person xml:id="silva">
             <persName>Silva</persName>
-            <note>Identidade parcial — mencionado apenas pelo sobrenome.</note>
-        </person>
-        
-        <person xml:id="medeiros">
-            <persName>Medeiros</persName>
             <note>Identidade parcial — mencionado apenas pelo sobrenome.</note>
         </person>
         
@@ -4078,11 +4241,40 @@
             <idno type="project"></idno>
             <note>Capitão legalista mencionado como participante voluntário da expedição contra forças farroupilhas.</note>
         </person>
-        
+
         <person xml:id="paulo_jose_abreu">
             <persName>Paulo José de Abreu</persName>
             <idno type="project"></idno>
-            <note>Tenente legalista que integrou a operação descrita em carta de Francisco Pedro de Abreu.</note>
+            <birth when="1805"/>
+            <death when="unknown"/>
+            <state type="roleInTime" xml:id="pja_tenente_gn_1837">
+                <roleName>Tenente da Guarda Nacional</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1837"/>
+            </state>
+            <state type="roleInTime" xml:id="pja_capitao_gn_1839">
+                <roleName>Capitão da Guarda Nacional</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1839"/>
+            </state>
+            <state type="roleInTime" xml:id="pja_5corpo_gn_1841">
+                <roleName>Oficial do 5.º Corpo de Cavalaria da Guarda Nacional</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <location>
+                    <placeName ref="#barra">Esquadrão da Barra</placeName>
+                </location>
+                <note>Serviu sob comando direto do irmão Francisco Pedro de Abreu em 1841.</note>
+            </state>
+            <state type="roleInTime" xml:id="pja_capitao_policia_santo_amaro">
+                <roleName>Capitão Comandante da Polícia</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <location>
+                    <placeName ref="#santo_amaro">Santo Amaro</placeName>
+                </location>
+                <note>Função declarada em assinatura de documento: “Capitão Comandante da Polícia de Santo Amaro”.</note>
+            </state>
+            <note>Irmão de Francisco Pedro de Abreu, Antônio Pedro de Abreu e João Pedro de Abreu. Militar legalista, atuante na Guarda Nacional 
+                durante a Guerra dos Farrapos.</note>
         </person>
         
         <person xml:id="joaquim_rodrigues_jaques">
@@ -4685,12 +4877,6 @@
             <note>Chefe militar legalista mencionado como liderando 200 homens.</note>
         </person>
         
-        <person xml:id="guedes">
-            <persName>Guedes</persName>
-            <idno type="project"></idno>
-            <note>Comandante farroupilha, referido como liderando cerca de 500 homens.</note>
-        </person>
-        
         <person xml:id="joao_ferreira">
             <persName>João Ferreira</persName>
             <idno type="project"></idno>
@@ -4882,7 +5068,7 @@
                 <roleName>Major</roleName>
                 <affiliation ref="#imperio_brasil"/>
             </state>
-            <note>Major legalista que atuava sob as ordens de <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</note>
+            <note>Major legalista que atuava sob as ordens de Francisco Pedro de Abreu.</note>
         </person>
         
         <person xml:id="major_queste">
@@ -5289,6 +5475,15 @@
                 <affiliation ref="#assembleia_geral_império"/>
                 <date type="begin" when="1826"/>
             </state>
+            <state type="roleInTime" xml:id="fcs_presidente_comandante_armas_rs_1837">
+                <roleName>Presidente e Comandante das Armas da Província</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <location>
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
+                </location>
+                <date type="begin" when="1837"/>
+                <note>Designado pelo Império para comandar a repressão farroupilha a partir de 1837.</note>
+            </state>
             <note>Engenheiro militar, cartógrafo e político do Império do Brasil. Atuou destacadamente 
                 no Rio Grande do Sul, participando da Guerra contra Artigas e, mais tarde, da Guerra 
                 dos Farrapos sempre ao lado das forças imperiais. Comandou a guarnição militar de 
@@ -5384,190 +5579,581 @@
         <person xml:id="joao_pedro_abreu">
             <persName>João Pedro de Abreu</persName>
             <idno type="project"></idno>
-            <state type="roleInTime" xml:id="joao_pedro_abreu_tenente_policia_imperial">
-                <roleName>Tenente comandante da polícia</roleName>
+            <birth when="unknown"/>
+            <death when="unknown"/>
+            <state type="roleInTime" xml:id="jpa_tenente_milicias_1835">
+                <roleName>Tenente de Milícias</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1835"/>
+            </state>
+            <state type="roleInTime" xml:id="jpa_ajudante_ordens_1837">
+                <roleName>Ajudante de Ordens</roleName>
                 <affiliation ref="#imperio_brasil"/>
                 <location>
-                    <placeName ref="#arroio_ratos">arroio dos Ratos</placeName>
-                    <placeName ref="#velhaco">arroio Velhaco</placeName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
                 </location>
+                <date type="begin" when="1837"/>
             </state>
-            <note>Oficial legalista do Exército Imperial, atuando como tenente comandante da polícia do arroio dos Ratos até o arroio Velhaco durante a Revolução Farroupilha; irmão de Francisco Pedro de Abreu.</note>
+            <state type="roleInTime" xml:id="jpa_major_gn_1843">
+                <roleName>Major da Guarda Nacional</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1843"/>
+            </state>
+            <state type="roleInTime" xml:id="jpa_tenente_coronel_gn_1848">
+                <roleName>Tenente-Coronel da Guarda Nacional</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1848"/>
+            </state>
+            <note>Irmão de Francisco Pedro de Abreu; oficial legalista com longas atribuições policiais e militares na região de Triunfo.</note>
         </person>
         
         <person xml:id="francisco_antonio_da_silva_bitancourt">
             <persName>Francisco Antônio da Silva Bitancourt</persName>
-            <note>Coronel e ajudante-general das forças farroupilhas, destinatário de diversas comunicações militares.</note>
+            <idno type="project"></idno>
+            <birth when="1803-10-02">2 de outubro de 1803</birth>
+            <death when="1881-07-29">29 de julho de 1881</death>
+            <state type="roleInTime" xml:id="bitancourt_coronel_imperio">
+                <roleName>Coronel</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="bitancourt_ajudante_imperio">
+                <roleName>Ajudante-geral</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="bitancourt_marechal_imperio">
+                <roleName>Marechal</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="bitancourt_conselheiro_guerra_1875">
+                <roleName>Conselheiro de Guerra do Conselho Supremo Militar</roleName>
+                <affiliation ref="#conselho_supremo_militar"/>
+                <date type="begin" when="1875-12-20"/>
+            </state>
+            <note>
+                Oficial de carreira do Exército Imperial. Serviu como coronel e depois marechal, tendo 
+                desempenhado papel de destaque na repressão à Revolução Farroupilha. Nomeado Conselheiro 
+                de Guerra do Conselho Supremo Militar em 20 de dezembro de 1875. Figura de alto comando 
+                sempre alinhada ao Império do Brasil.
+            </note>
         </person>
         
         <person xml:id="jose_andre">
             <persName>José André</persName>
-            <note>Sargento-ajudante citado como desertor.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="jose_andre_sargento_ajudante_imperio">
+                <roleName>Sargento-ajudante</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="event" xml:id="jose_andre_desercao_1842">
+                <roleName>Desertor</roleName>
+                <date when="1842-12"/>
+                <desc>Desertou das forças legalistas sob comando interino de João Pedro de Abreu.</desc>
+            </state>
+            <note>Sargento-ajudante legalista que desertou em dezembro de 1842, acompanhando outros dois inferiores e contribuindo para a deserção de cerca de trinta soldados.</note>
         </person>
         
         <person xml:id="joao_marques">
             <persName>João Marques</persName>
-            <note>1.º Sargento citado como desertor.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="joao_marques_primeiro_sargento_imperio">
+                <roleName>1.º Sargento</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="event" xml:id="joao_marques_desercao_1842">
+                <roleName>Desertor</roleName>
+                <date when="1842-12"/>
+                <desc>Desertou das forças legalistas e atuou como um dos principais instigadores da deserção coletiva.</desc>
+            </state>
+            <note>1.º Sargento legalista que desertou em dezembro de 1842, sendo apontado como um dos motores da deserção de cerca de trinta soldados.</note>
         </person>
         
         <person xml:id="luis_carlos">
             <persName>Luís Carlos</persName>
-            <note>Furriel citado como desertor e aliciador de soldados.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="luis_carlos_furriel_imperio">
+                <roleName>Furriel</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="event" xml:id="luis_carlos_desercao_1842">
+                <roleName>Desertor</roleName>
+                <date when="1842-12"/>
+                <desc>Desertou das forças legalistas e aliciou outros soldados a acompanhá-lo.</desc>
+            </state>
+            <note>Furriel legalista que desertou em dezembro de 1842, citado por Francisco Pedro de Abreu como um dos que “seduziram” praças para desertar.</note>
         </person>
         
         <person xml:id="joaquim_francisco_santos_abreu">
             <persName>Joaquim Francisco dos Santos Abreu</persName>
-            <note>Médico e figura política rio-grandense, atuando como presidente de mesa eleitoral e dirigente local durante o período farroupilha.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="jfsa_medico_boqueirao">
+                <roleName>Médico</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <location>
+                    <placeName ref="#sao_lourenco">São Lourenço (Boqueirão)</placeName>
+                </location>
+                <note>Atuou como médico civil e militar a serviço da República Rio-Grandense.</note>
+            </state>
+            <state type="roleInTime" xml:id="jfsa_dirigente_rrg">
+                <roleName>Dirigente político local</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <note>Exerceu funções administrativas e eleitorais na região do Boqueirão durante o período farroupilha.</note>
+            </state>
+            <note>
+                Primo de Bento Gonçalves da Silva e figura relevante no Boqueirão (São Lourenço). 
+                Reconhecido por seu papel médico e político dentro das estruturas da República Rio-Grandense.
+            </note>
         </person>
         
-        <person xml:id="manuel_alves">
-            <persName>Manuel Alves</persName>
-            <note>Capitão destacado para deslocamento até Ibirocaí.</note>
+        <person xml:id="manuel_alvares">
+            <persName>Manuel Álvares</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="manuel_alvares_capitao_rrg">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>
+                Capitão farroupilha destacado por José Inácio da Silva Abreu para realizar 
+                junção de tropas na região do Ibirocaí durante operações de vigilância e choque.
+            </note>
         </person>
         
         <person xml:id="major_carneiro">
             <persName>Major Carneiro</persName>
-            <note>Oficial militar responsável por tropa de 50 homens em Ibirocaí.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="major_carneiro_major_rrg">
+                <roleName>Major</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>
+                Major farroupilha comandando destacamento de observação 
+                nas margens do Ibicuí e Ibirocaí, reportando diretamente a 
+                José Inácio da Silva Abreu.
+            </note>
         </person>
         
         <person xml:id="capitao_fortunato">
-            <persName>Fortunato</persName>
-            <note>Capitão responsável por guarnição em Santana do Livramento.</note>
+            <persName>Fortunato Francisco da Silva</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="capitao_fortunato_capitao_rrg">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>
+                Capitão farroupilha responsável pela guarnição 
+                estacionada em Santa Ana do Livramento.
+            </note>
         </person>
         
         <person xml:id="jacinto_guedes">
-            <persName>Jacinto Guedes</persName>
-            <note>Sargento-mor que conduziu reforços militares.</note>
-        </person>
-        
-        <person xml:id="mingote">
-            <persName>Mingote</persName>
-            <note>Indivíduo mencionado como alvo de ação militar.</note>
+            <persName>Jacinto Guedes da Luz</persName>
+            <birth when="1796-06-04">4 de junho de 1796</birth>
+            <death when="1851-02-26">26 de fevereiro de 1851</death>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="jacinto_guedes_tenente_rrg">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <state type="roleInTime" xml:id="jacinto_guedes_tenente_coronel_rrg">
+                <roleName>Tenente-coronel</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <state type="roleInTime" xml:id="jacinto_guedes_coronel_rrg">
+                <roleName>Coronel</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <note>Comandante farroupilha, atuando em operações de grande escala entre 1841 e 1843.</note>
+            </state>
+            <state type="roleInTime" xml:id="jacinto_guedes_estancieiro">
+                <roleName>Estancieiro</roleName>
+                <location>
+                    <placeName ref="#triunfo">Triunfo</placeName>
+                </location>
+            </state>
+            <note>
+                Líder militar farroupilha. Venceu o Tenente-coronel legalista José dos Santos Loureiro no 
+                combate do Rincão da Cruz (Itaqui) em 17 de janeiro de 1841, capturando cerca de 100 homens.
+                Em setembro de 1843 integrava a 2.ª Divisão de Bento Manuel Ribeiro, sem acompanhá-lo 
+                em suas dissidências para o Império. Figura militar de destaque no setor oeste da República.
+            </note>
         </person>
         
         <person xml:id="siqueira">
             <persName>Siqueira</persName>
-            <note>Indivíduo mencionado como alvo de ação militar.</note>
-        </person>
-        
-        <person xml:id="prado">
-            <persName>Prado</persName>
-            <note>Presidente da Câmara local; identificação completa não confirmada.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="siqueira_legalista">
+                <roleName>Indivíduo legalista</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>
+                Legalista mencionado como alvo de ação militar conduzida por forças farroupilhas
+                sob comando de José Inácio da Silva Abreu.
+            </note>
         </person>
         
         <person xml:id="sezefredo_nunes">
             <persName>Sezefredo Nunes</persName>
-            <note>Indivíduo remetido preso por ordem militar.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="sezefredo_nunes_farroupilha">
+                <roleName>Indivíduo farroupilha</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>
+                Farroupilha preso por ordem do Coronel Bento Manuel Ribeiro e enviado sob custódia
+                por José Inácio da Silva Abreu ao General João Antônio da Silveira.
+            </note>
         </person>
         
         <person xml:id="lope_chico">
             <persName>Lope Chico</persName>
-            <note>Citado como interlocutor político na província de Corrientes.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="lope_chico_corrientes">
+                <roleName>Interlocutor político</roleName>
+                <affiliation ref="#provincia_corrientes"/>
+                <note>
+                    Figura política não identificada com precisão, atuante na Província de Corrientes.
+                    Mencionado em comunicações diplomáticas mantidas por Bento Manuel Ribeiro.
+                </note>
+            </state>
+            <note>
+                Contato político de Bento Manoel Ribeiro na Província de Corrientes, citado como intermediário
+                ou negociador em correspondência referente às relações na fronteira rio-grandense-argentina.
+            </note>
         </person>
         
         <person xml:id="pedro_ribeiro">
             <persName>Pedro Ribeiro</persName>
-            <note>Mencionado em deslocamento militar com 40 homens.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="pedro_ribeiro_farroupilha">
+                <roleName>Combatente farroupilha</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <note>Atuou em operações táticas locais, deslocando-se com força de cerca de 40 homens.</note>
+            </state>
+            <note>Figura militar farroupilha citada em movimentação conjunta com Amaral Ferrador.</note>
         </person>
         
         <person xml:id="rafael_brandao">
             <persName>Rafael Brandão</persName>
-            <note>Comandante da força no arroio dos Ratos.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="rafael_brandao_comandante_ratos">
+                <roleName>Comandante militar</roleName>
+                <location>
+                    <placeName ref="#arroio_ratos">arroio dos Ratos</placeName>
+                </location>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Oficial farroupilha que comandou força estacionada no arroio dos Ratos e realizou junção operacional com oficiais Pedro Ribeiro e Amaral Ferrador.</note>
+        </person>
+        
+        <person xml:id="pedro_jose_gomes_abreu">
+            <persName>Pedro José Gomes de Abreu</persName>
+            <idno type="project"/>
+            <note>
+                Legalista. Cunhado de José Antônio de Araújo Ribeiro. 
+            </note>
+        </person>
+        
+        <person xml:id="joao_dias_castro">
+            <persName>João Dias de Castro</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10311408</idno>
+            <birth when="1807"/>
+            <death when="1878-08"/>
+            <state type="roleInTime" xml:id="joao_dias_castro_bacharel_1833">
+                <roleName>Bacharel em Direito</roleName>
+                <affiliation ref="#faculdade_direito_sao_francisco"/>
+                <date type="end" when="1833"/>
+            </state>
+            <state type="roleInTime" xml:id="joao_dias_castro_deputado_1835">
+                <roleName>Deputado provincial</roleName>
+                <affiliation ref="#assembleia_provincial_rs"/>
+            </state>
+            <state type="roleInTime" xml:id="joao_dias_castro_promotor">
+                <roleName>Promotor público</roleName>
+                <note>Responsável pela abertura do processo judicial contra os Farrapos.</note>
+            </state>
+            <state type="roleInTime" xml:id="joao_dias_castro_presidente_rs_1839">
+                <roleName>Presidente da Província do Rio Grande do Sul</roleName>
+                <date when="1839-06-12"/>
+            </state>
+            <state type="roleInTime" xml:id="joao_dias_castro_presidente_rs_1871">
+                <roleName>Presidente da Província do Rio Grande do Sul</roleName>
+                <date when="1871-09-12"/>
+            </state>
+            <state type="roleInTime" xml:id="joao_dias_castro_presidente_rs_1877">
+                <roleName>Presidente da Província do Rio Grande do Sul</roleName>
+                <date when="1877-02-05"/>
+            </state>
+            <note>
+                Político legalista, deputado provincial eleito à 1ª Legislatura,
+                bacharel em Direito pela Faculdade de Direito de São Paulo (1833)
+                e presidente da província do RS em três mandatos.
+            </note>
         </person>
         
         <person xml:id="antonio_jose_pires">
             <persName>Antônio José Pires</persName>
-            <note>Genro de João da Costa, responsável por enviar aviso preventivo.</note>
+            <idno type="project"/>
+            <note>
+                Lavrador/estancieiro legalista mencionado em comunicação de alerta durante as ações 
+                de Bento Manuel nas charqueadas da Freguesia Nova. Genro de João da Costa.
+            </note>
+        </person>
+        
+        <person xml:id="joao_da_costa">
+            <persName>João da Costa</persName>
+            <idno type="project"/>
+            <note>
+                Proprietário rural (charqueador/estancieiro) da região da Freguesia Nova e 
+                sogro de Antônio José Pires, mencionado indiretamente em uma rede legalista 
+                de proteção de escravizados durante movimentações militares de Bento Manuel.
+            </note>
         </person>
         
         <person xml:id="francisco_manuel_accioli">
             <persName>Francisco Manuel Accioli</persName>
-            <note>Capitão comandante interino, autor da carta.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="accioli_capitao_interino_restinga">
+                <roleName>Capitão Comandante Interino</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <location>
+                    <placeName ref="#restinga_seca">Restinga Seca</placeName>
+                </location>
+            </state>
+            <note>
+                Oficial legalista, atuando como Capitão Comandante Interino em Restinga Seca durante 
+                operações militares da década de 1840. Autor de uma das cartas presentes na Coleção Varela.
+            </note>
         </person>
         
         <person xml:id="antonio_correia_seara">
             <persName>Antônio Correia Seara</persName>
-            <note>Brigadeiro comandante interino das forças em operações.</note>
+            <idno type="project"/>
+            <birth when="1802-01-02">2 de janeiro de 1802</birth>
+            <death when="1858-05-20">20 de maio de 1858</death>
+            <state type="roleInTime" xml:id="seara_brigadeiro_interino">
+                <roleName>Brigadeiro Comandante Interino das Forças em Operações</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="seara_marechal_campo_1841">
+                <roleName>Marechal de Campo</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date when="1841"/>
+                <location>
+                    <placeName ref="#rio_grande_do_sul">Província de São Pedro do Rio Grande do Sul</placeName>
+                </location>
+                <note>Commandante das Armas da Província em 1841.</note>
+            </state>
+            <state type="roleInTime" xml:id="seara_conselheiro_guerra_1857">
+                <roleName>Conselheiro do Conselho Supremo Militar e de Justiça</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date when="1857"/>
+            </state>
+            <state type="roleInTime" xml:id="seara_deputado_para">
+                <roleName>Deputado Provincial</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <location>
+                    <placeName ref="#para">Província do Pará</placeName>
+                </location>
+                <note>Deputado nas 3ª e 9ª Legislaturas.</note>
+            </state>
+            <note>
+                Militar de alta patente do Exército Imperial, atuou como Brigadiero e posteriormente 
+                Marechal de Campo, exercendo o comando das Armas da Província de São Pedro do Rio Grande do Sul 
+                em 1841. Exerceu carreira política como deputado pelo Pará e serviu no STM como Conselheiro de Guerra.
+            </note>
         </person>
         
         <person xml:id="lucio_antonio_santa_ana">
             <persName>Lúcio Antônio de Santa Ana</persName>
-            <note>Soldado do Batalhão de Caçadores 3, feito prisioneiro e restituído.</note>
-        </person>
-        
-        <person xml:id="padre_feliciano">
-            <persName>Padre Feliciano</persName>
-            <note>Proprietário da estância onde o soldado adoeceu.</note>
-        </person>
-        
-        <person xml:id="agostinho">
-            <persName>Agostinho</persName>
-            <note>Líder rebelde citado sem sobrenome.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="lucio_soldado_batalhao3">
+                <roleName>Soldado</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <location>
+                    <orgName ref="#terceiro_batalhao_cacadores">3.º Batalhão de Caçadores</orgName>
+                </location>
+            </state>
+            <note>Soldado imperial que adoeceu durante deslocamento e caiu prisioneiro da República Rio-Grandense, sendo posteriormente restituído ao seu batalhão.</note>
         </person>
         
         <person xml:id="jose_antonio_ferreira_adrião">
             <persName>José Antônio Ferreira Adrião</persName>
-            <note>Tenente comandante da Polícia, autor do relatório.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="ja_adrião_tenente_policia_poa_1837">
+                <roleName>Tenente comandante da Polícia</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <location>
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
+                </location>
+                <date type="begin" when="1837"/>
+            </state>
+            <state type="roleInTime" xml:id="ja_adrião_alferes_1842">
+                <roleName>Alferes</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1842-11-28">28 de novembro de 1842</date>
+            </state>
+            <note>
+                Oficial legalista que ocupou o comando da polícia de Porto Alegre em 1837 e exerceu
+                funções administrativas e de segurança durante a Revolução Farroupilha. Autor do relatório
+                que menciona diversos oficiais e autoridades legalistas.
+            </note>
         </person>
         
         <person xml:id="camilo_maria_meneses">
             <persName>Camilo Maria de Meneses</persName>
-            <note>Ex-juiz de paz de São Gabriel, acusado de rebelião e desvio de bens militares.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="cmm_juiz_paz_sao_gabriel">
+                <roleName>Juiz de Paz</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <location>
+                    <placeName ref="#sao_gabriel">São Gabriel</placeName>
+                </location>
+                <note>Exerceu a função antes de ser acusado e deposto.</note>
+            </state>
+            <note>
+                Farroupilha atuante em São Gabriel; posteriormente deposto e 
+                preso pelas forças do Império do Brasil sob acusações de rebelião 
+                e desvio de bens militares.
+            </note>
         </person>
         
         <person xml:id="capitao_paula">
             <persName>Capitão Paula</persName>
-            <note>Oficial do 3.º Regimento de Cavalaria que entregou material militar sob ordens.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="capitao_paula_3regimento">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#cavalaria_3regimento"/>
+                <note>Oficial do Exército Imperial.</note>
+            </state>
+            <note>
+                Oficial do 3.º Regimento de Cavalaria do Exército Imperial que foi 
+                coagido por Camilo Maria de Meneses a entregar fardamento, 
+                armamento e munição de boca aos rebeldes farroupilhas.
+            </note>
         </person>
         
         <person xml:id="fabiano_pires_almeida">
             <persName>Fabiano Pires de Almeida</persName>
-            <note>Oficial mencionado em transferência de prisioneiros.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="fabiano_pires_almeida_oficial_legalista">
+                <roleName>Oficial</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <note>Atuante nas forças legalistas na região de São Borja.</note>
+            </state>
+            <note>
+                Oficial legalista mencionado no episódio de São Borja, quando foi seduzido 
+                a aclamar a República sob pressão farroupilha.
+            </note>
         </person>
         
         <person xml:id="major_boaventura_soares">
             <persName>Major Boaventura Soares</persName>
-            <note>Oficial citado entre os seduzidos ao levante.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="major_boaventura_soares_major_legalista">
+                <roleName>Major</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <note>Oficial das forças legalistas atuante em São Borja.</note>
+            </state>
+            <note>
+                Major das forças legalistas, um dos oficiais coagidos a proclamar vivas 
+                à República durante a agitação na vila de São Borja.
+            </note>
         </person>
         
         <person xml:id="domingos_da_silva">
             <persName>Domingos da Silva</persName>
-            <note>Tenente-coronel envolvido no episódio na vila de São Borja.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="domingos_da_silva_tenente_coronel_legalista">
+                <roleName>Tenente-coronel</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>
+                Tenente-coronel legalista envolvido no incidente de São Borja, quando 
+                oficiais do Império foram induzidos a aclamar a República.
+            </note>
         </person>
         
         <person xml:id="terencio">
             <persName>Terêncio</persName>
-            <note>Tenente, identificação incompleta.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="terencio_tenente_legalista">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>
+                Tenente legalista identificado apenas pelo prenome, presente entre os 
+                oficiais seduzidos a dar vivas à República em São Borja.
+            </note>
         </person>
         
         <person xml:id="matias">
             <persName>Matias</persName>
-            <note>Tenente, identificação incompleta.</note>
-        </person>
-        
-        <person xml:id="manuel_santos_loureiro">
-            <persName>Manuel dos Santos Loureiro</persName>
-            <note>Tenente-coronel que ordenou a transferência de Camilo.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="matias_tenente_legalista">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>
+                Tenente legalista citado no episódio de São Borja, igualmente induzido 
+                pelos farroupilhas a participar de aclamações republicanas.
+            </note>
         </person>
         
         <person xml:id="bernardino_jose_lopes">
             <persName>Bernardino José Lopes</persName>
-            <note>Juiz municipal da vila da Cruz Alta.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="bernardino_jose_lopes_juiz_municipal">
+                <roleName>Juiz municipal</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <location>
+                    <placeName ref="#cruz_alta">Cruz Alta</placeName>
+                </location>
+            </state>
+            <note>
+                Juiz municipal da vila de Cruz Alta; atuou como testemunha dos acontecimentos
+                em São Borja envolvendo oficiais legalistas seduzidos a aclamar a República.
+            </note>
         </person>
         
         <person xml:id="capitao_francisco_jose_anjo">
             <persName>Francisco José Anjo</persName>
-            <note>Capitão e testemunha mencionada.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="francisco_jose_anjo_capitao_legalista">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>
+                Capitão legalista citado como testemunha dos fatos ocorridos em São Borja,
+                mencionados em relatório militar.
+            </note>
         </person>
         
         <person xml:id="capitao_claudio">
             <persName>Capitão Cláudio</persName>
-            <note>Ajudante da praça, citado como testemunha.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="capitao_claudio_ajudante_praca">
+                <roleName>Capitão ajudante da praça</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>
+                Capitão e ajudante da praça; atuou como testemunha dos acontecimentos
+                envolvendo oficiais legalistas em São Borja.
+            </note>
         </person>
         
         <person xml:id="antonio_felix_lobo">
             <persName>Antônio Félix Lobo</persName>
-            <note>Major graduado e secretário do Comando das Armas, confirmou a cópia.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="antonio_felix_lobo_major_secretario">
+                <roleName>Major graduado</roleName>
+                <roleName>Secretário do Comando das Armas</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <location>
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
+                </location>
+            </state>
+            <note>
+                Major graduado e Secretário do Comando das Armas em Porto Alegre; responsável pela
+                autenticação (“está conforme”) da cópia do documento remetido por José Antônio Ferreira Adrião.
+            </note>
         </person>
         
         <person xml:id="urbano_jose_afonso">
@@ -6549,11 +7135,44 @@
         
         <person xml:id="marechal_barreto">
             <persName type="full">Sebastião Barreto Pereira Pinto</persName>
-            <idno type="viaf">https://viaf.org/en/viaf/9947173669188307660004</idno>
+            <birth when="1775">1775</birth>
+            <death when="1841">1841</death>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10369073</idno>
-            <roleName>Marechal</roleName>
-            <roleName>Deputado provincial eleito à 1ª Legislatura da Assembleia Legislativa Provincial do Rio Grande do Sul</roleName>
-            <note>(Porto Alegre, 1775 – Porto Alegre, 1841) foi um militar brasileiro. .</note>
+            <idno type="viaf">https://viaf.org/en/viaf/9947173669188307660004</idno>
+            <state type="roleInTime" xml:id="barreto_marechal">
+                <roleName>Marechal</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <location>
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
+                </location>
+            </state>
+            <state type="roleInTime" xml:id="barreto_comandante_armas_rs">
+                <roleName>Comandante de Armas da Província do Rio Grande do Sul</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1830"/>
+                <note>Exercia o comando militar no início da Guerra dos Farrapos.</note>
+            </state>
+            <state type="roleInTime" xml:id="barreto_deputado_provincial">
+                <roleName>Deputado provincial</roleName>
+                <affiliation ref="#assembleia_provincial_rs"/>
+                <date type="begin" when="1835"/>
+                <note>Eleito à 1.ª Legislatura da Assembleia Legislativa Provincial do Rio Grande do Sul.</note>
+            </state>
+            <state type="roleInTime" xml:id="barreto_exilio_uruguai">
+                <roleName>Refugiado político</roleName>
+                <location>
+                    <placeName ref="#uruguai">Uruguai</placeName>
+                </location>
+                <note>
+                    Destituído do comando militar após a posse do presidente Marciano Pereira Ribeiro, apoiado pelos farroupilhas, 
+                    refugiou-se no Uruguai para escapar da perseguição política.
+                </note>
+            </state>
+            <note>
+                Militar de carreira do Exército Imperial e figura central na defesa legalista 
+                durante as tensões que precederam a Guerra dos Farrapos. Sua destituição marcou 
+                a virada política inicial do conflito, resultando em sua retirada estratégica para o Uruguai.
+            </note>
         </person>
         
         <person xml:id="sebastiao_medeiros_camara">

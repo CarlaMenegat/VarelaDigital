@@ -1,27 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-88 – <persName ref="#jose_inacio_silva_abreu">José Inácio da Silva Abreu</persName> para destinatário não identificado</title>
-                <author><persName ref="#jose_inacio_silva_abreu">José Inácio da Silva Abreu</persName></author>
+                <title>Carta CV-88 – José Inácio da Silva Abreu para destinatário não identificado</title>
+                <author>José Inácio da Silva Abreu</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-07-01">01 de julho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#jose_inacio_silva_abreu">José Inácio da Silva Abreu</persName>
@@ -31,6 +96,18 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-07-01">01/07/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-01">01/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     <text>
@@ -41,9 +118,30 @@
                     <salute>Ilmo. amigo</salute>
                 </opener>
                 
-                <p>—Ontem recebemos carta do Doutor <persName ref="#sebastiao_ribeiro">Sebastião Ribeiro</persName>, escrita do outro lado de <placeName ref="#ibicui">Ibicuí</placeName>, em que dizia “chegamos hoje dia 18 em <placeName ref="#borore">Bororé</placeName> e hoje mesmo <persName ref="#loureiro">Loureiro</persName> levantou campo do <placeName ref="#santinho">Santinho</placeName> por <placeName ref="#ibicui">Ibicuí</placeName> abaixo e nós, à noite, pomos em marcha em seguimento dele"; hoje recebi, digo, agora mesmo, que serão 10 horas do dia, um aviso do <persName ref="#major_carneiro">Major Carneiro</persName> que tinha saído com 40 homens a observar pela costa de <placeName ref="#ibicui">Ibicuí</placeName> se acharem cem homens deste lado de <placeName ref="#ibicui">Ibicuí</placeName>, barra de <placeName ref="#ibirocai">Ibirocaí</placeName>, estes, inimigos; e neste mesmo momento mandei reunir tudo que pudesse pegar em armas para marchar comigo amanhã, assim como também ordenei ao <persName ref="#manuel_alvares">Capitão Manuel Álvares</persName>, para que subisse para cima a fazer junção por as pontas de <placeName ref="#ibirocai">Ibirocaí</placeName>, aonde se acha o <persName ref="#major_carneiro">Major Carneiro</persName>, a ver se os destroço antes que engrosse; mandei ficar o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#capitao_fortunato">Capitão Fortunato</persName> em <placeName ref="#santana_livramento">Santa Ana</placeName> com a guarnição; e como se trata muito de <persName ref="#medeiros">Medeiros</persName> por aqui, desse lado não te descuides em asseverar e manda-me dizer, assim como requisitar alguma coisa que falte a qualquer guarnição que haja por aí a nosso favor, e os que forem contra nós manda-lhes dar pau e vergalhadas.</p>
+                <p>—Ontem recebemos carta do Doutor <persName ref="#sebastiao_ribeiro">Sebastião Ribeiro</persName>, escrita do outro lado 
+                    de <placeName ref="#ibicui">Ibicuí</placeName>, em que dizia “chegamos hoje dia 18 em <placeName ref="#borore">Bororé</placeName> 
+                    e hoje mesmo <persName ref="#coronel_loureiro">Loureiro</persName> levantou campo do Santinho
+                    por <placeName ref="#ibicui">Ibicuí</placeName> abaixo e nós, à noite, pomos em marcha em seguimento dele"; hoje recebi, digo, 
+                    agora mesmo, que serão 10 horas do dia, um aviso do <persName ref="#major_carneiro">Major Carneiro</persName> que tinha saído com 40 
+                    homens a observar pela costa de <placeName ref="#ibicui">Ibicuí</placeName> se acharem cem homens deste lado de 
+                    <placeName ref="#ibicui">Ibicuí</placeName>, barra de <placeName ref="#ibirocai">Ibirocaí</placeName>, estes, inimigos; 
+                    e neste mesmo momento mandei reunir tudo que pudesse pegar em armas para marchar comigo amanhã, assim como também 
+                    ordenei ao <persName ref="#manuel_alvares">Capitão Manuel Álvares</persName>, para que subisse para cima a fazer junção 
+                    por as pontas de <placeName ref="#ibirocai">Ibirocaí</placeName>, aonde se acha o <persName ref="#major_carneiro">Major Carneiro</persName>, 
+                    a ver se os destroço antes que engrosse; mandei ficar o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    <persName ref="#capitao_fortunato">Capitão Fortunato</persName> em <placeName ref="#santana_livramento">Santa Ana</placeName> 
+                    com a guarnição; e como se trata muito de <persName ref="#jose_alves_medeiros">Medeiros</persName> por aqui, desse lado não te 
+                    descuides em asseverar e manda-me dizer, assim como requisitar alguma coisa que falte a qualquer guarnição que haja por 
+                    aí a nosso favor, e os que forem contra nós manda-lhes dar pau e vergalhadas.</p>
                 
-                <p>Se o compadre <persName ref="#guedes">Guedes</persName> estiver por aí ou alguma força, ainda que esteja para marchar, faz com que eles demorem porque podemos precisar deles se o inimigo pender para esse lado que está propenso; à vista dos enguiços, eu tenho varrido desta vila tudo quanto pode pegar em armas, e há 8 dias a esta parte aqui ninguém dorme senão com o cavalo por a rédea, porque eu não tenho medo dessa canalha, e só sim dos degenerados que estão entre nós com cara de bom homem e nos fazer alguma entrega. O nosso Tenente-coronel David diz que desceu a <placeName ref="#botucarai">Serra de Botucaraí</placeName> picando a retaguarda do <persName ref="#sebastiao_barreto">Sebastião Barreto</persName>; ele mandou-me dizer que os 500 e tantos homens do <persName ref="#loureiro">Loureiro</persName> não deram gostos aos 250 que ele levava; e sou seu amigo obrigado e criado.</p>
+                <p>Se o compadre <persName ref="#guedes">Guedes</persName> estiver por aí ou alguma força, ainda que esteja para marchar, 
+                    faz com que eles demorem porque podemos precisar deles se o inimigo pender para esse lado que está propenso; à vista 
+                    dos enguiços, eu tenho varrido desta vila tudo quanto pode pegar em armas, e há 8 dias a esta parte aqui ninguém dorme 
+                    senão com o cavalo por a rédea, porque eu não tenho medo dessa canalha, e só sim dos degenerados que estão entre nós 
+                    com cara de bom homem e nos fazer alguma entrega. O nosso Tenente-coronel David diz que desceu a <placeName ref="#botucarai">Serra de Botucaraí</placeName> 
+                    picando a retaguarda do <persName ref="#marechal_barreto">Sebastião Barreto</persName>; ele mandou-me dizer que os 500 
+                    e tantos homens do <persName ref="#coronel_loureiro">Loureiro</persName> não deram gostos aos 250 que ele levava; e sou seu 
+                    amigo obrigado e criado.</p>
                 
                 <closer>
                     <signed>(a) <persName ref="#jose_inacio_silva_abreu">José Inácio da Silva Abreu</persName>.</signed>

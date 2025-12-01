@@ -94,6 +94,20 @@
             <note>Unidade do Exército Imperial do Brasil, mencionada nas operações militares da Revolução Farroupilha.</note>
         </org>
         
+        <org xml:id="universidade_edimburgo" type="educationalInstitution">
+            <orgName>Universidade de Edimburgo</orgName>
+            <orgName xml:lang="en">University of Edinburgh</orgName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q160302</idno>
+            <idno type="viaf">https://viaf.org/en/viaf/126282670</idno>
+            <placeName>Edimburgo</placeName>
+            <geo>55.944 -3.188</geo>
+            <note>
+                Instituição de ensino superior fundada em 1582, uma das universidades mais antigas 
+                e prestigiadas do Reino Unido. Local onde diversos brasileiros da elite imperial 
+                estudaram medicina durante o século XIX.
+            </note>
+        </org>
+        
         <org xml:id="secretaria_republica_riograndense">
             <orgName>Secretaria da República Riograndense</orgName>
             <note>Órgão administrativo do governo farroupilha.</note>
@@ -117,30 +131,10 @@
         <org xml:id="3_corpo_lanceiros">
             <orgName>3.º Corpo de Lanceiros</orgName>
         </org>
-
-        <org xml:id="tesouro">
-            <orgName>Tesouro</orgName>
-            <note>Órgão estatal responsável pelas finanças públicas da República Rio-Grandense.</note>
-        </org>
         
         <org xml:id="inspetoria">
             <orgName>Inspetoria</orgName>
             <note>Referência à Inspetoria responsável pela auditoria ou fiscalização contábil no Tesouro.</note>
-        </org>
-        
-        <org xml:id="contadoria_geral" type="governmentOffice">
-            <orgName>Contadoria Geral</orgName>
-            <note>Órgão financeiro da República Rio-Grandense responsável pelo exame de contas, pagamentos e registros fiscais.</note>
-        </org>
-        
-        <org xml:id="procuradoria_fiscal" type="governmentOffice">
-            <orgName>Procuradoria Fiscal</orgName>
-            <note>Órgão fiscal da República Rio-Grandense encarregado de pareceres, análises de contas e decisões financeiras.</note>
-        </org>
-        
-        <org xml:id="contador">
-            <orgName>Contador</orgName>
-            <note>Setor contábil que respondeu à solicitação sobre a dívida não escriturada.</note>
         </org>
         
         <org xml:id="guardas_nacionais_5corpo" type="militaryUnit">
@@ -179,34 +173,9 @@
             <note>Batalhão do Exército Imperial Brasileiro atuante durante a Revolução Farroupilha.</note>
         </org>
         
-        <org xml:id="assembleia_geral">
-            <orgName>Assembléia Geral Constituinte e Legislativa do Estado</orgName>
-            <note>Órgão legislativo supremo da República Rio-Grandense, responsável por elaborar a constituição, legislar sobre matérias civis e administrativas, e deliberar sobre concessões como sesmarias e pedidos dependentes de medida legislativa.</note>
-        </org>
-        
         <org xml:id="secretaria_interior">
             <orgName>Secretaria do Interior</orgName>
             <note>Órgão administrativo da República Rio-grandense.</note>
-        </org>
-        
-        <org xml:id="secretaria_fazenda">
-            <orgName>Secretaria de Estado dos Negócios da Fazenda</orgName>
-            <note>Órgão do governo farroupilha responsável pela administração das finanças.</note>
-        </org>
-        
-        <org xml:id="secretaria_interior_fazenda">
-            <orgName>Secretaria do Interior e Fazenda</orgName>
-            <note>Órgão emissor da comunicação.</note>
-        </org>
-        
-        <org xml:id="ministerio_interior_fazenda">
-            <orgName>Ministério do Interior e Fazenda</orgName>
-            <note>Órgão superior mencionado no endosso.</note>
-        </org>
-        
-        <org xml:id="fazendas_nacionais">
-            <orgName>Fazendas Nacionais</orgName>
-            <note>Propriedades rurais pertencentes ao Estado, anteriormente administradas pelos jesuítas.</note>
         </org>
         
         <org xml:id="secretaria_interior">
@@ -214,17 +183,73 @@
             <note>Órgão administrativo da República Rio-Grandense responsável por assuntos internos.</note>
         </org>
         
-        <org xml:id="camara_alegrete">
+        <org xml:id="camara_alegrete" type="governmentBody">
             <orgName>Câmara de Alegrete</orgName>
-            <note>Corpo municipal composto pelo presidente e vereadores do município de Alegrete.</note>
+            <idno type="project"/>
+            <note>
+                Câmara municipal da Vila do Alegrete, composta por presidente e vereadores.
+                Funcionou durante a Guerra dos Farrapos exercendo funções civis locais
+                — incluindo eleições, polícia, arrecadação e representações administrativas —
+                sob autoridade formal do Império do Brasil, ainda que em determinados períodos
+                (como em 1837) tenha sido presidida por lideranças farroupilhas como 
+                Joaquim dos Santos Prado Lima.
+            </note>
         </org>
         
-        <org xml:id="ministerio_fazenda">
+        <org xml:id="ministerio_fazenda" type="governmentMinistry">
             <orgName>Ministério da Fazenda</orgName>
-            <note>Estrutura governamental superior à Secretaria da Fazenda.</note>
-            <note xml:id="ministro_fazenda">
-                Ministro da Fazenda
-            </note>
+            <note>Órgão superior responsável pela política financeira e fiscal da República Rio-Grandense.</note>
+        </org>
+        
+        
+        <org xml:id="secretaria_fazenda" type="governmentOffice">
+            <orgName>Secretaria de Estado dos Negócios da Fazenda</orgName>
+            <note>Órgão do governo farroupilha responsável pela administração cotidiana das finanças públicas.</note>
+        </org>
+        
+        <org xml:id="tesouro" type="governmentOffice">
+            <orgName>Tesouro</orgName>
+            <note>Órgão central responsável pelas finanças públicas da República Rio-Grandense, incluindo arrecadação, pagamentos e escrituração.</note>
+        </org>
+        
+        <org xml:id="secretaria_tesouro" type="governmentOffice">
+            <orgName>Secretaria do Tesouro</orgName>
+            <note>Departamento administrativo interno do Tesouro, responsável por registro, tramitação e organização das ordens financeiras.</note>
+        </org>
+        
+        <org xml:id="tribunal_tesouro" type="governmentOffice">
+            <orgName>Tribunal do Tesouro</orgName>
+            <note>Órgão de supervisão, auditoria e julgamento de contas do governo farroupilha.</note>
+        </org>
+        
+        <org xml:id="coletoria_bage" type="fiscalOffice">
+            <orgName>Coletoria de Bagé</orgName>
+            <note>Órgão encarregado da arrecadação de impostos na região de Bagé.</note>
+        </org>
+        
+        <org xml:id="coletoria_alegrete_sao_borja" type="fiscalOffice">
+            <orgName>Coletoria Geral dos Municípios de Alegrete e São Borja</orgName>
+            <note>Órgão fiscal da República Rio-Grandense responsável pela arrecadação em municípios da fronteira oeste.</note>
+        </org>
+        
+        <org xml:id="reparticao_fiscal_rio_uruguai" type="fiscalOffice">
+            <orgName>Repartição Fiscal do Rio Uruguai</orgName>
+            <note>Órgão responsável pela fiscalização fluvial e alfandegária na navegação do Rio Uruguai.</note>
+        </org>
+        
+        <org xml:id="contadoria_geral" type="governmentOffice">
+            <orgName>Contadoria Geral</orgName>
+            <note>Órgão financeiro da República Rio-Grandense responsável pelo exame de contas e pela escrituração fiscal.</note>
+        </org>
+        
+        <org xml:id="procuradoria_fiscal" type="governmentOffice">
+            <orgName>Procuradoria Fiscal</orgName>
+            <note>Órgão jurídico-fiscal encarregado de analisar contas, emitir pareceres e processar questões financeiras.</note>
+        </org>
+        
+        <org xml:id="fazendas_nacionais">
+            <orgName>Fazendas Nacionais</orgName>
+            <note>Propriedades rurais pertencentes ao Estado; remanescentes das antigas estâncias dos jesuítas e administradas pelo Tesouro.</note>
         </org>
         
         <org xml:id="departamento_boqueirao">
@@ -241,12 +266,18 @@
             <orgName>Presidência da República</orgName>
         </org>
         
-        <org xml:id="exercito_farroupilha">
+        <org xml:id="exercito_farroupilha" type="militaryOrganization">
             <orgName>Exército Republicano Rio-Grandense</orgName>
             <orgName type="variant">Exército Republicano Rio-grandense</orgName>
             <orgName type="alias">Exército Farroupilha</orgName>
             <idno type="project"></idno>
-            <note>Força militar da República Rio-Grandense durante a Revolução Farroupilha, também conhecida como Exército Farroupilha.</note>
+            <note>Força militar da República Rio-Grandense durante a Revolução Farroupilha.</note>
+        </org>
+        
+        <org xml:id="divisao_direita" type="militaryUnit">
+            <orgName>Divisão Direita</orgName>
+            <idno type="project"></idno>
+            <note>Grande unidade militar do Exército Republicano Rio-Grandense, atuante em operações estratégicas durante a Revolução Farroupilha.</note>
         </org>
         
         <org xml:id="jornal_oficial_republica">
@@ -257,36 +288,6 @@
         <org xml:id="policia_alegrete">
             <orgName>Comando Geral de Polícia de Alegrete</orgName>
             <note>Autoridade policial local durante o período farroupilha.</note>
-        </org>
-        
-        <org xml:id="divisao_direita">
-            <orgName>Divisão da Direita</orgName>
-            <note>Unidade militar farroupilha comandada por João Antônio da Silveira.</note>
-        </org>
-        
-        <org xml:id="coletoria_alegrete_sao_borja">
-            <orgName>Coletoria Geral dos Municípios de Alegrete e São Borja</orgName>
-            <note>Órgão fiscal encarregado da arrecadação em dois municípios da fronteira.</note>
-        </org>
-        
-        <org xml:id="tribunal_tesouro">
-            <orgName>Tribunal do Tesouro</orgName>
-            <note>Órgão de supervisão financeira do governo farroupilha.</note>
-        </org>
-        
-        <org xml:id="coletoria_bage">
-            <orgName>Coletoria de Bagé</orgName>
-            <note>Instância local encarregada da arrecadação de impostos.</note>
-        </org>
-        
-        <org xml:id="reparticao_fiscal">
-            <orgName>Repartição Fiscal</orgName>
-            <note>Órgão responsável pela fiscalização fluvial no Rio Uruguai.</note>
-        </org>
-
-        <org xml:id="coletoria_alegrete">
-            <orgName>Coletoria da vila de Alegrete</orgName>
-            <note>Instância fiscal responsável pela arrecadação local.</note>
         </org>
         
         <org xml:id="juiz_municipal">
@@ -303,8 +304,6 @@
             <orgName>Arsenal</orgName>
             <note>Estabelecimento militar destinado à produção e reparo de equipamento bélico e utensílios do exército farroupilha.</note>
         </org>
-        
-        
         
         <org xml:id="corpos_primeira_linha">
             <orgName>Corpos de 1ª Linha</orgName>
@@ -361,24 +360,16 @@
             <note>Órgão responsável pelas comunicações militares e administrativas da República Rio-Grandense.</note>
         </org>
         
-        <org xml:id="camara_municipal">
-            <orgName>Câmaras Municipais</orgName>
-            <note>Corpos administrativos locais da República Rio-Grandense, responsáveis por eleições e funções civis.</note>
-        </org>
-        
-        <org xml:id="coletorias">
-            <orgName>Coletorias da República Rio-Grandense</orgName>
-            <note>Órgãos responsáveis pela arrecadação de tributos e execução de pagamentos determinados pelo governo.</note>
-        </org>
-        
         <org xml:id="corpo_cruz_alta">
             <orgName>Corpo da Cruz Alta</orgName>
             <note>Unidade militar de Guardas Nacionais.</note>
         </org>
         
-        <org xml:id="batalhao_cacadores_3">
+        <org xml:id="terceiro_batalhao_cacadores" type="militaryUnit">
             <orgName>3.º Batalhão de Caçadores</orgName>
-            <note>Unidade militar à qual pertencia Antônio Maria Valadares.</note>
+            <affiliation ref="#imperio_brasil"/>
+            <idno type="project"/>
+            <note>Batalhão do Exército Imperial Brasileiro, atuante no Rio Grande do Sul durante a Guerra dos Farrapos.</note>
         </org>
         
         <org xml:id="ministerio_interior_justica">
@@ -421,11 +412,6 @@
         
         <org xml:id="4_batalhao">
             <orgName>4.º Batalhão</orgName>
-            <note>Unidade militar referida no contexto administrativo-logístico.</note>
-        </org>
-        
-        <org xml:id="terceiro_batalhao">
-            <orgName>3.º Batalhão</orgName>
             <note>Unidade militar referida no contexto administrativo-logístico.</note>
         </org>
         
@@ -515,8 +501,13 @@
         </org>
         
         <org xml:id="assembleia_constituinte">
-            <orgName>Assembléia Constituinte</orgName>
-            <note>Órgão deliberativo responsável pela elaboração constitucional.</note>
+            <orgName>Assembleia Geral Constituinte e Legislativa da República Rio-Grandense</orgName>
+            <note>
+                Órgão legislativo supremo da República Rio-Grandense, responsável pela 
+                elaboração da constituição, produção legislativa civil e administrativa, 
+                deliberação sobre concessões (como sesmarias) e definição de políticas 
+                de Estado entre 1836 e 1845.
+            </note>
         </org>
         
         <org xml:id="guarda_militar_policia">
@@ -566,11 +557,6 @@
             <orgName>Caramurus</orgName>
             <note>Facção política conservadora do período regencial e imperial, adversária dos farroupilhas.</note>
         </org>
-        
-        <org xml:id="assembleia_geral_legislativa_rs">
-            <orgName>Assembléia</orgName>
-            <note>Casa legislativa provincial do Rio Grande do Sul, mencionada no contexto de 1835.</note>
-        </org> <!--trocar para id "assembleia_provincial_rs"-->
         
         <org xml:id="camara_rio_grande">
             <orgName>Câmara Municipal da Cidade do Rio Grande</orgName>

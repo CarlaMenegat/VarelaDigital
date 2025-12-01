@@ -427,3 +427,70 @@ hrao:heldPossessionOf a owl:ObjectProperty ;
     rdfs:domain prov:Agent ;
     rdfs:range  prov:Agent .
 
+#################################################################
+# Property: hrao:hasKinship
+#################################################################
+
+hrao:hasKinship a owl:ObjectProperty ;
+    rdfs:label "has kinship with"@en ;
+    rdfs:comment "Indicates a family or kinship relation not covered by more specific relationship properties." ;
+    rdfs:subPropertyOf rel:associateOf ;
+    rdfs:domain foaf:Person ;
+    rdfs:range foaf:Person .
+
+#################################################################
+# Property: hrao:refusedToFollow
+#################################################################
+
+hrao:refusedToFollow a owl:ObjectProperty ;
+    rdfs:label "refused to follow orders of"@en ;
+    rdfs:comment "Indicates that an agent refused to comply with or obey the directives issued by another agent, particularly in a military or administrative context."@en ;
+
+    # semantic anchoring
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+
+    # domain and range: agents
+    rdfs:domain prov:Agent ;
+    rdfs:range  prov:Agent .
+
+#################################################################
+# Property: hrao:defeatedInBattle
+#################################################################
+
+hrao:defeatedInBattle a owl:ObjectProperty ;
+    rdfs:label "defeated in battle"@en ;
+    rdfs:comment "Indicates that one agent militarily defeated another agent in battle, skirmish, or engagement."@en ;
+
+    # semantic anchoring
+    rdfs:subPropertyOf prov:influenced ;
+
+    # domain and range: agents / military units
+    rdfs:domain prov:Agent ;
+    rdfs:range  prov:Agent .
+
+#################################################################
+# Property: hrao:wasReplacedBy
+#################################################################
+
+hrao:wasReplacedBy a owl:ObjectProperty ;
+    rdfs:label "was replaced by"@en ;
+    rdfs:comment "Indicates that an agent holding an office or command position was replaced by another agent, whether in military, political, or administrative contexts."@en ;
+
+    # semantic anchoring – no ontology has this exact concept,
+    # but this preserves causal/institutional lineage.
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+
+    # domain and range: Agents (individuals or institutions)
+    rdfs:domain prov:Agent ;
+    rdfs:range  prov:Agent .
+
+#################################################################
+# Property: hrao:hrao:coerced
+#################################################################
+
+hrao:coerced a rdf:Property ;
+    rdfs:label "coerced"@en ;
+    rdfs:comment "Indicates that the active agent coerced or forced the passive agent to comply with a military or political action."@en ;
+    rdfs:domain foaf:Agent ;
+    rdfs:range foaf:Agent ;
+    rdfs:isDefinedBy <http://example.org/hrao#> .
