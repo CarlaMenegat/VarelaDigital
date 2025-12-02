@@ -2130,6 +2130,320 @@
             passive="#francisco_chagas_santos"
             mutual="true"/>
         
+        <relation 
+            name="rel:childOf" 
+            active="#antonio_jose_afonso" 
+            passive="#urbano_jose_afonso"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#urbano_jose_afonso" 
+            passive="#juliao_castro"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#urbano_jose_afonso" 
+            passive="#antonio_jose_afonso"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#juliao_castro" 
+            passive="#antonio_jose_afonso"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#urbano_jose_afonso" 
+            passive="#nazario_verao"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#urbano_jose_afonso" 
+            passive="#valdomiro_sousa"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#urbano_jose_afonso" 
+            passive="#manuel_moreira_miranda"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#urbano_jose_afonso" 
+            passive="#filipe_rodrigues"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#urbano_jose_afonso" 
+            passive="#maria_moreira_silva"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#urbano_jose_afonso" 
+            passive="#manuel_ferreira_bica"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#urbano_jose_afonso" 
+            passive="#justino_bernardes_castro"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#juliao_castro" 
+            passive="#nazario_verao"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#juliao_castro" 
+            passive="#valdomiro_sousa"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#juliao_castro" 
+            passive="#manuel_moreira_miranda"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#juliao_castro" 
+            passive="#filipe_rodrigues"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#juliao_castro" 
+            passive="#maria_moreira_silva"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#juliao_castro" 
+            passive="#manuel_ferreira_bica"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#juliao_castro" 
+            passive="#justino_bernardes_castro"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#antonio_jose_afonso" 
+            passive="#nazario_verao"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#antonio_jose_afonso" 
+            passive="#valdomiro_sousa"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#antonio_jose_afonso" 
+            passive="#manuel_moreira_miranda"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#antonio_jose_afonso" 
+            passive="#filipe_rodrigues"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#antonio_jose_afonso" 
+            passive="#maria_moreira_silva"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#antonio_jose_afonso" 
+            passive="#manuel_ferreira_bica"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#antonio_jose_afonso" 
+            passive="#justino_bernardes_castro"
+            mutual="true"/>
+        
+        <relation 
+            name="hrao:beneficiaryOf"
+            active="#nazario_verao"
+            passive="#urbano_jose_afonso"/>
+        
+        <relation 
+            name="hrao:beneficiaryOf"
+            active="#valdomiro_sousa"
+            passive="#urbano_jose_afonso"/>
+        
+        <relation 
+            name="hrao:beneficiaryOf"
+            active="#manuel_moreira_miranda"
+            passive="#urbano_jose_afonso"/>
+        
+        <relation 
+            name="hrao:beneficiaryOf"
+            active="#filipe_rodrigues"
+            passive="#urbano_jose_afonso"/>
+        
+        <relation 
+            name="hrao:beneficiaryOf"
+            active="#maria_moreira_silva"
+            passive="#urbano_jose_afonso"/>
+        
+        <relation 
+            name="hrao:witnessed"
+            active="#manuel_ferreira_bica"
+            passive="#contrato_urbano_juliao"/>
+        
+        <relation 
+            name="hrao:witnessed"
+            active="#justino_bernardes_castro"
+            passive="#contrato_urbano_juliao"/>
+        
+        <relation 
+            name="hrao:witnessed"
+            active="#manuel_moreira_miranda"
+            passive="#contrato_urbano_juliao"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#felix_eduardo_aguiar"
+            passive="#camilo_campelo"
+            mutual="true"/>
+        
+        <relation
+            name="hrao:inConflictWith"
+            active="#felix_eduardo_aguiar"
+            passive="#dionisio_coronel"/>
+        
+        <relation
+            name="hrao:servedUnder"
+            active="#dionisio_coronel"
+            passive="#manuel_oribe"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#inacio_nobre"
+            passive="#camilo_campelo"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#inacio_nobre"
+            passive="#felix_eduardo_aguiar"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#joao_antonio_oliveira_aguiar" 
+            passive="#domingos_jose_almeida"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#joao_antonio_oliveira_aguiar" 
+            passive="#teixeira"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#atanasio_aguirre"
+            passive="#domingos_jose_almeida"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#atanasio_aguirre"
+            passive="#domingos_jose_almeida"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#atanasio_aguirre"
+            passive="#manuel_severino_xavier"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#atanasio_aguirre"
+            passive="#palacios"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#atanasio_aguirre"
+            passive="#vasco_madruga_bitancurt"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#paulo_pereira_silva_alano"
+            passive="#rodrigo_antonio_silva"
+            mutual="true"/>
+        
+        <relation 
+            name="hrao:servedUnder"
+            active="#paulo_pereira_silva_alano"
+            passive="#vicente_vilas_boas"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#jose_antonio_alferes"
+            passive="#rodrigo_antonio_silva"
+            mutual="true"/>
+        
+        <relation
+            name="hrao:servedUnder"
+            active="#paulo_pereira_silva_alano"
+            passive="#antonio_elzeario_miranda_brito"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#jose_joaquim_cabeleira"
+            passive="#paulo_pereira_silva_alano"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#jose_joaquim_cabeleira"
+            passive="#antonio_elzeario_miranda_brito"
+            mutual="true"/>
+        
+        <relation 
+            name="hrao:wasPrisonerOf"
+            active="#silva_tavares"
+            passive="#republica_rio_grandense"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#silva_tavares"
+            passive="#manuel_marques_sousa"
+            mutual="true"/>
+        
+        <relation 
+            name="hrao:servedUnder"
+            active="#silva_tavares"
+            passive="#francisco_chagas_santos"/>
+        
+        <relation 
+            name="hrao:commanded"
+            active="#silva_tavares"
+            passive="#fronteira_jaguarão"/>
+        
     </standOff>
     
 </TEI>

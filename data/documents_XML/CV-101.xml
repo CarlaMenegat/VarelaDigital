@@ -1,29 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-101 – <persName ref="#paulo_pereira_silva_alano">Paulo Pereira da Silva Alano</persName> para <persName ref="#antonio_elzeario_miranda_brito">Antônio Elzeário de Miranda e Brito</persName></title>
-                <author><persName ref="#paulo_pereira_silva_alano">Paulo Pereira da Silva Alano</persName></author>
+                <title>Carta CV-101 – Paulo Pereira da Silva Alano para Antônio Elzeário de Miranda e Brito</title>
+                <author>Antônio Elzeário de Miranda e Brito</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
-            
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-07-08">08 de julho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
-            
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#paulo_pereira_silva_alano">Paulo Pereira da Silva Alano</persName>
@@ -36,6 +99,18 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-07-08">08/07/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-02">02/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     <text>
@@ -46,13 +121,30 @@
                     <salute>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Achando-me autorizado pelo Comandante Superior do Comando das Forças da Vanguarda e guarnecendo os pontos das <placeName ref="#tres_forquilhas">Três Forquilhas</placeName>, <placeName ref="#rio_verde">Rio Verde</placeName> e <placeName ref="#torres">Torres</placeName>; e achando sendo de meu dever participar a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> o estado em que nos achamos para podermos operar quando <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> determina, faço-o ver a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, que o fazer deste vou fazer ver ao Comandante Superior que deve por todos os modos marchar até a ponte das <placeName ref="#torres">Torres</placeName> para melhor termos combinações com <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>; pois eu seguro ao Comandante Superior e a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> que posso pôr as peças que vêm na força na praia de Machado Gomes sem maior perigo;</p>
+                <p>Achando-me autorizado pelo Comandante Superior do Comando das Forças da Vanguarda e guarnecendo os pontos das 
+                    <placeName ref="#tres_forquilhas">Três Forquilhas</placeName>, Rio Verde e 
+                    <placeName ref="#torres">Torres</placeName>; e achando sendo de meu dever participar a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> 
+                    o estado em que nos achamos para podermos operar quando <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> 
+                    determina, faço-o ver a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, que o fazer deste vou 
+                    fazer ver ao Comandante Superior que deve por todos os modos marchar até a ponte das <placeName ref="#torres">Torres</placeName> 
+                    para melhor termos combinações com <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>; pois eu seguro 
+                    ao Comandante Superior e a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> que posso pôr as peças 
+                    que vêm na força na praia de Machado Gomes sem maior perigo; sendo de gosto e vontade de 
+                    <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> teremos combinação com 
+                    tiro de peça; chegar eu ou a força na <placeName ref="#ilha_santo_antonio">Ilha de Santo Antônio</placeName> dar cinco 
+                    tiros para que <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> me responda com outros tantos; e os 
+                    que se derem, <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> mandará dar outros tantos com os dias 
+                    que tem de se demorar para o fazer a junção, e isto tudo vou fazer ver ao Comandante Superior que se acha distante deste
+                    ponto vinte léguas.</p>
                 
-                <p>sendo de gosto e vontade de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> teremos combinação com tiro de peça; chegar eu ou a força na <placeName ref="#ilha_santo_antonio">Illa de Santo Antônio</placeName> dar cinco tiros para que <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> me responda com outros tantos; e os que se derem, <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> mandará dar outros tantos com os dias que tem de se demorar para o fazer a junção, e isto tudo vou fazer ver ao Comandante Superior que se acha distante deste ponto vinte léguas.</p>
+                <p>Tudo isso sendo vontade de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> e do Comandante Superior. 
+                    Disponho-me a levar a artilharia embarcada até a freguesia da Serra e tem-se a travessia de uma légua que poderá termos 
+                    algum embaraço do inimigo. Sobre o estado desta coluna o portador deste, que é o Tenente <persName ref="#jose_joaquim_cabeleira">José Joaquim Cabeleira</persName>, 
+                    é quem bem pode informar a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>, juntamente se é ou não 
+                    justo este meu plano.</p>
                 
-                <p>Tudo isso sendo vontade de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> e do Comandante Superior. Disponho-me a levar a artilharia embarcada até a freguesia da Serra e tem-se a travessia de uma légua que poderá termos algum embaraço do inimigo. Sobre o estado desta coluna o portador deste, que é o Tenente <persName ref="#jose_joaquim_cabeleira">José Joaquim Cabeleira</persName>, é quem bem pode informar a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>, juntamente se é ou não justo este meu plano.</p>
-                
-                <p>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>. <placeName ref="#tres_forquilhas">Acampamento nas Três Forquilhas</placeName> em <date when="1839-03-08">8 de março de 1839</date>.</p>
+                <p>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>. 
+                    Acampamento nas <placeName ref="#tres_forquilhas">Três Forquilhas</placeName> em <date when="1839-03-08">8 de março de 1839</date>.</p>
                 
                 <closer>
                     <salute>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Marechal <persName ref="#antonio_elzeario_miranda_brito">Antônio Elzeário de Miranda e Brito</persName>. Presidente da Província.</salute>

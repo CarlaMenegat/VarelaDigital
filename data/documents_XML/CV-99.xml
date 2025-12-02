@@ -1,29 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-99 – <persName ref="#atanasio_aguirre">Atanásio C. Aguirre</persName> para <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></title>
-                <author><persName ref="#atanasio_aguirre">Atanásio C. Aguirre</persName></author>
+                <title>Carta CV-99 – Atanásio C. Aguirre para Domingos José de Almeida</title>
+                <author>Atanásio C. Aguirre</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
-            
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-07-08">08 de julho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
-            
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#atanasio_aguirre">Atanásio C. Aguirre</persName>
@@ -35,6 +98,18 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-07-08">08/07/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-02">02/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     <text>
@@ -47,11 +122,29 @@
                     <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</salute>
                 </opener>
                 
-                <p>Tenho sido importuno na exigência dos trezentos trinta e dois e meio pesos que pela interposição e responsabilidade de V.Sº. deram por recebidos do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#manuel_severino_xavier">Manuel Severino Xavier</persName>, na Receitoria de <placeName ref="#tacuarembo">Taquarembó</placeName>, porque, como já disse a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> em diferentes ocasiões, o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#palacios">Palácios</persName>, quando entregou o documento de compromisso ao mesmo <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#manuel_severino_xavier">Xavier</persName> no ano passado, sacou sobre mim a importância dele e não tenho podido satisfazê-lo; esta falta deixa, como <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> o conhecerá, em mau ponto de vista o crédito do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#palacios">Palácios</persName> e o meu: o daquele <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>, por ter recebido aquela quantia em <placeName ref="#taquarembo">Taquarembó</placeName> para ser entregue aqui contando que já estaria efetuado o pagamento, e o meu, por ser a causa daquela falta desagradável.</p>
+                <p>Tenho sido importuno na exigência dos trezentos trinta e dois e meio pesos que pela interposição e responsabilidade de 
+                    <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> deram por recebidos do 
+                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#manuel_severino_xavier">Manuel Severino Xavier</persName>, 
+                    na Receitoria de <placeName ref="#tacuarembo">Taquarembó</placeName>, porque, como já disse a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> 
+                    em diferentes ocasiões, o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#palacios">Palácios</persName>, 
+                    quando entregou o documento de compromisso ao mesmo <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    <persName ref="#manuel_severino_xavier">Xavier</persName> no ano passado, sacou sobre mim a importância dele e não 
+                    tenho podido satisfazê-lo; esta falta deixa, como <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> o 
+                    conhecerá, em mau ponto de vista o crédito do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#palacios">Palácios</persName> 
+                    e o meu: o daquele <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>, por ter recebido aquela quantia em 
+                    <placeName ref="#taquarembo">Taquarembó</placeName> para ser entregue aqui contando que já estaria efetuado o 
+                    pagamento, e o meu, por ser a causa daquela falta desagradável.</p>
                 
-                <p>Se não fosse esta circunstância não falaria de há muito neste negócio; esperaria a que o verdadeiro devedor pusesse em mãos de <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> aquela soma; porém, instado pelo <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#palacios">Palácios</persName>, a quem o sujeito que devia receber o dinheiro aqui tem-lhe feito cargas, estou na impossibilidade de deixar de participar-lhe a causa de não ter satisfeito sua ordem, tanto mais que o mesmo <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#vasco_madruga_bitancurt">Vasco Madruga de Bitancurt</persName> asseverou ao <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#palacios">Palácios</persName> que tinha entregado os 332 1/2 pesos ao mesmo charqueador a quem <persName ref="#manuel_severino_xavier">Manuel Severino Xavier</persName> vendeu a tropa.</p>
+                <p>Se não fosse esta circunstância não falaria de há muito neste negócio; esperaria a que o verdadeiro devedor pusesse em 
+                    mãos de <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> aquela soma; porém, instado pelo 
+                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#palacios">Palácios</persName>, a quem o sujeito 
+                    que devia receber o dinheiro aqui tem-lhe feito cargas, estou na impossibilidade de deixar de participar-lhe a causa de 
+                    não ter satisfeito sua ordem, tanto mais que o mesmo <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    <persName ref="#vasco_madruga_bitancurt">Vasco Madruga de Bitancurt</persName> asseverou ao <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    <persName ref="#palacios">Palácios</persName> que tinha entregado os 332 1/2 pesos ao mesmo charqueador a quem 
+                    <persName ref="#manuel_severino_xavier">Manuel Severino Xavier</persName> vendeu a tropa.</p>
                 
-                <p>Deixando com esta explicação satisfeita a resposta à sua prezada de 19 do presente, fico</p>
+                <p>Deixando com esta explicação satisfeita a resposta à sua prezada de <date when="1849-10-19">19 do presente</date>, fico</p>
                 
                 <closer>
                     <signed>De <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> muito atento venerador e criado.</signed>

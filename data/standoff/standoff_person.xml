@@ -1387,19 +1387,55 @@
         
         <person xml:id="vasco_madruga_bitancurt">
             <persName>Vasco Madruga de Bitancurt</persName>
-            <note>Juiz de Paz do distrito do Erval.</note>
+            <idno type="project"/>
+            <note>
+                Juiz de Paz do distrito do Erval. Declarou ter entregue os 332½ pesos ao charqueador 
+                a quem Manuel Severino Xavier vendera a tropa, contribuindo para o litígio financeiro 
+                relatado por Atanásio Aguirre.
+            </note>
         </person>
         
         <person xml:id="silva_tavares">
-            <persName>Silva Tavares</persName>
+            <persName type="full">João da Silva Tavares</persName>
+            <persName type="alias">Silva Tavares</persName>
             <idno type="viaf">https://viaf.org/en/viaf/6208150325542510090005</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10312398</idno>
-            <roleName>Visconde de Cerro Alegre</roleName>
-            <roleName>Barão de Cerro Alegre</roleName>
-            <roleName>Juiz de paz em Herval</roleName>
-            <roleName>comandante militar da fronteira de Jaguarão</roleName>
-            <roleName>Deputado provincial na 1.ª Legislatura da Assembleia Legislativa Provincial </roleName>
-            <note>Oficial militar legalista atuante na Guerra Farroupilha.</note>
+            <birth when="1792-03-12">12 de março de 1792</birth>
+            <death when="1872-03-27">27 de março de 1872</death>
+            <state type="roleInTime" xml:id="silva_tavares_barao">
+                <roleName>Barão de Cerro Alegre</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="silva_tavares_visconde">
+                <roleName>Visconde de Cerro Alegre</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="silva_tavares_juiz_paz">
+                <roleName>Juiz de paz</roleName>
+                <location>
+                    <placeName ref="#herval">Herval</placeName>
+                </location>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="silva_tavares_deputado_provincial">
+                <roleName>Deputado provincial</roleName>
+                <affiliation ref="#assembleia_provincial_rs"/>
+                <date when="1835"/>
+                <note>Eleito para a 1.ª Legislatura da Assembleia Legislativa Provincial.</note>
+            </state>
+            <state type="roleInTime" xml:id="silva_tavares_comandante_jaguarao">
+                <roleName>Comandante militar da fronteira de Jaguarão</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>
+                Militar legalista do Império do Brasil. Comandante de distrito e juiz de paz em Herval; 
+                nomeado comandante da fronteira de Jaguarão em substituição a Bento Gonçalves, recusou 
+                convite para aderir à Revolução Farroupilha, declarando oposição ao movimento. Atuou em 
+                combate ao lado de Manuel Marques de Sousa na Batalha do Arroio Grande. Derrotado por 
+                Antônio de Sousa Neto na Batalha do Seival e posteriormente sitiado por Davi Canabarro, 
+                capitulou e foi feito prisioneiro. Fugiu do cativeiro em 5 de fevereiro de 1837, reorganizando 
+                sua brigada. Irmão de Serafim da Silva Tavares.
+            </note>
         </person>
         
         <person xml:id="felicissimo">
@@ -2568,7 +2604,23 @@
         
         <person xml:id="dionisio_coronel">
             <persName>Dionísio Coronel</persName>
-            <note>Capitão que forneceu tropa de gado cavalar.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="dionisio_coronel_oficial_blanco">
+                <roleName>Oficial militar</roleName>
+                <affiliation ref="#partido_blanco"/>
+                <affiliation ref="#manuel_oribe"/>
+                <location>
+                    <placeName ref="#cerro_largo_uy">Departamento de Cerro Largo (Uruguai)</placeName>
+                </location>
+            </state>
+            <note>
+                Militar uruguaio historicamente alinhado ao Partido Blanco e ao comando de 
+                Manuel Oribe. Atuou sempre no departamento de Cerro Largo e manteve oposição 
+                armada recorrente às forças brasileiras escravistas e, em termos gerais, 
+                à República Rio-Grandense. Em certos momentos, contudo, estabeleceu contatos 
+                táticos com farroupilhas, incluindo fornecimento de cavalos, conforme o 
+                relato de Félix Eduardo Aguiar.
+            </note>
         </person>
         
         <person xml:id="manoel_macedo_brum_silveira">
@@ -3039,9 +3091,20 @@
         
         <person xml:id="camilo_campelo">
             <persName>Camilo Campelo</persName>
-            <idno></idno>
-            <roleName>Tenente-coronel</roleName>
-            <note>Tenente-coronel e Comandante encarregado das operações além de Camaquã.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="camilo_campelo_tc_rrg">
+                <roleName>Tenente-coronel</roleName>
+                <roleName>Comandante encarregado das operações além de Camaquã</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <location>
+                    <placeName ref="#jaguarao">Fronteira do Jaguarão</placeName>
+                </location>
+            </state>
+            <note>
+                Oficial farroupilha que atuou como tenente-coronel e comandante em operações 
+                na região da fronteira do Jaguarão, sendo responsável pelas ações militares 
+                além de Camaquã durante a Revolução Farroupilha.
+            </note>
         </person>
         
         <person xml:id="belo_neto">
@@ -6158,102 +6221,223 @@
         
         <person xml:id="urbano_jose_afonso">
             <persName>Urbano José Afonso</persName>
-            <note>Vendedor e autor do contrato.</note>
+            <idno type="project"/>
+            <note>Estancieiro e vendedor no contrato de compra e venda de estabelecimento rural, marcas de gado e animais.</note>
         </person>
         
         <person xml:id="juliao_castro">
             <persName>Julião Castro</persName>
-            <note>Comprador do estabelecimento, marcas e gado.</note>
+            <idno type="project"/>
+            <note>Comprador do estabelecimento, marcas de gado e animais pertencentes a Urbano José Afonso.</note>
         </person>
         
         <person xml:id="antonio_jose_afonso">
             <persName>Antônio José Afonso</persName>
-            <note>Filho do vendedor, titular de uma das marcas.</note>
+            <idno type="project"/>
+            <note>Filho de Urbano José Afonso e titular de uma das marcas de gado incluídas no contrato.</note>
         </person>
         
         <person xml:id="nazario_verao">
             <persName>Nazário Verão</persName>
-            <note>Beneficiário de quatro animais por ordem reservada.</note>
+            <idno type="project"/>
+            <note>Beneficiário de quatro animais vacuns masculinos por ordem reservada no contrato firmado por Urbano José Afonso.</note>
         </person>
         
         <person xml:id="valdomiro_sousa">
             <persName>Valdomiro Sousa</persName>
-            <note>Beneficiário de dois animais por ordem reservada.</note>
+            <idno type="project"/>
+            <note>Beneficiário de dois animais vacuns conforme cláusula contratual estabelecida por Urbano José Afonso.</note>
         </person>
         
         <person xml:id="manuel_moreira_miranda">
             <persName>Manuel Moreira de Miranda</persName>
-            <note>Beneficiário de um potro conforme condição contratual.</note>
+            <idno type="project"/>
+            <note>Beneficiário de um potro segundo condição contratual; também atuou como testemunha que escreveu e assinou o documento.</note>
         </person>
         
         <person xml:id="filipe_rodrigues">
             <persName>Filipe Rodrigues</persName>
-            <note>Beneficiário de um animal conforme cláusula.</note>
+            <idno type="project"/>
+            <note>Beneficiário de um animal conforme cláusula reservada no contrato.</note>
         </person>
         
         <person xml:id="maria_moreira_silva">
             <persName>Maria Moreira da Silva</persName>
-            <note>Beneficiária de um potro da manada dos Baios.</note>
+            <idno type="project"/>
+            <note>Beneficiária de um potro baio oveiro da manada dos Baios, segundo disposição do contrato.</note>
         </person>
         
         <person xml:id="manuel_ferreira_bica">
             <persName>Manuel Ferreira Bica</persName>
-            <note>Testemunha do contrato.</note>
+            <idno type="project"/>
+            <note>Testemunha do contrato de compra e venda firmado entre Urbano José Afonso e Julião Castro.</note>
         </person>
         
         <person xml:id="justino_bernardes_castro">
             <persName>Justino Bernardes de Castro</persName>
-            <note>Testemunha do contrato.</note>
-        </person>
-        
-        <person xml:id="manuel_moreira_mirandu">
-            <persName>Manuel Moreira de Mirandu</persName>
-            <note>Testemunha e responsável pela redação final.</note>
+            <idno type="project"/>
+            <note>Testemunha do contrato firmado entre Urbano José Afonso e Julião Castro.</note>
         </person>
         
         <person xml:id="felix_eduardo_aguiar">
             <persName>Félix Eduardo Aguiar</persName>
-            <note>Autor da carta.</note>
+            <idno type="project"/>
+            
+            <state type="roleInTime" xml:id="felix_aguiar_fronteira_jaguarao_rrg">
+                <roleName>Comandante da fronteira do Jaguarão</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <location>
+                    <placeName ref="#jaguarao">Jaguarão</placeName>
+                    <placeName ref="#cerro_largo_uy">Departamento de Cerro Largo (Uruguai)</placeName>
+                </location>
+            </state>
+            <note>
+                Oficial farroupilha atuante na fronteira do Jaguarão, responsável pela 
+                coordenação de operações no limite com o Uruguai e pela articulação militar 
+                relativa ao departamento de Cerro Largo, conforme relato epistolar enviado 
+                a Camilo Campelo.
+            </note>
         </person>
         
         <person xml:id="inacio_nobre">
             <persName>Inácio Nobre</persName>
-            <note>Portador da correspondência para o destinatário.</note>
+            <idno type="project"/>
+            <note>Amigo comum de Félix Eduardo Aguiar e Camilo Campelo, atuou como portador da correspondência entre ambos.</note>
         </person>
         
         <person xml:id="joao_antonio_oliveira_aguiar">
             <persName>João Antônio de Oliveira Aguiar</persName>
-            <note>Autor da carta.</note>
+            <idno type="project"/>
+            <note>Autor de carta dirigida a Domingos José de Almeida.</note>
+        </person>
+        
+        <person xml:id="teixeira">
+            <persName>Teixeira</persName>
+            <idno type="project"/>
+            <note>Portador da carta enviada por João Antônio de Oliveira Aguiar a Domingos José de Almeida; identidade incompleta.</note>
         </person>
         
         <person xml:id="atanasio_aguirre">
-            <persName>Atanásio C. Aguirre</persName>
-            <note>Autor da carta; identificado como Coronel no endosso.</note>
+            <persName>Atanásio de la Cruz Aguirre Aguado</persName>
+            <persName type="abbrev">Atanásio C. Aguirre</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q753420</idno>
+            <birth when="1801-06-02">2 de junho de 1801</birth>
+            <death when="1875-09-28">28 de setembro de 1875</death>
+            <state type="roleInTime" xml:id="aguirre_partido_nacional">
+                <roleName>Membro do Partido Nacional (Blanco)</roleName>
+                <affiliation ref="#partido_nacional_uruguai"/>
+            </state>
+            <state type="roleInTime" xml:id="aguirre_deputado_1853">
+                <roleName>Deputado</roleName>
+                <affiliation ref="#camara_deputados_uruguai"/>
+                <date when="1853"/>
+            </state>
+            <state type="roleInTime" xml:id="aguirre_senador_1861">
+                <roleName>Senador</roleName>
+                <affiliation ref="#senado_uruguai"/>
+                <date when="1861"/>
+            </state>
+            <state type="roleInTime" xml:id="aguirre_presidente_uruguai_1864">
+                <roleName>Presidente Provisório do Uruguai</roleName>
+                <affiliation ref="#republica_oriental_uruguai"/>
+                <date from="1864" to="1865"/>
+            </state>
+            <note>
+                Político e militar uruguaio, figura central do Partido Nacional. Em 30 de outubro de 1849
+                escreveu a Domingos José de Almeida solicitando solução para dívida relacionada à Receitoria
+                de Taquarembó, envolvendo Manuel Severino Xavier, Palácios e Vasco Madruga de Bitancurt.
+            </note>
         </person>
         
         <person xml:id="manuel_severino_xavier">
             <persName>Manuel Severino Xavier</persName>
-            <note>Envolvido na obrigação financeira e recebedor da quantia em Taquarembó.</note>
+            <idno type="project"/>
+            <note>
+                Charqueador envolvido em operação financeira entre Taquarembó e Montevidéu, 
+                responsável por receber 332½ pesos destinados ao Sr. Palácios. Figura central no 
+                conflito de cobranças relatado por Atanásio Aguirre.
+            </note>
         </person>
         
         <person xml:id="palacios">
             <persName>Palácios</persName>
-            <note>Intermediário financeiro citado no documento.</note>
+            <idno type="project"/>
+            <note>
+                Comerciante e intermediário financeiro, credor da quantia de 332½ pesos cuja entrega 
+                não foi realizada, originando cobrança formal enviada a Domingos José de Almeida por 
+                Atanásio Aguirre.
+            </note>
         </person>
         
         <person xml:id="vicente_vilas_boas">
-            <persName>Vicente Paulo de Oliveira Vilas Boas</persName>
-            <note>Comandante Superior mencionado na ordem militar.</note>
+            <persName>Vicente Paulo de Oliveira Vilas-Boas</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q16941086</idno>
+            <birth when="1790-07-19">19 de julho de 1790</birth>
+            <death when="unknown"/>
+            <state type="roleInTime" xml:id="vvb_tenente_cavalaria_linha">
+                <roleName>Tenente de Cavalaria de Linha</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="vvb_secretario_barbacena">
+                <roleName>Secretário do Conde de Barbacena</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date when="1822"/>
+            </state>
+            <state type="roleInTime" xml:id="vvb_deputado_sc_2_leg">
+                <roleName>Deputado Provincial</roleName>
+                <affiliation ref="#assembleia_provincial_sc"/>
+                <date type="start" when="1838"/>
+                <date type="end" when="1839"/>
+                <note>Licenciado em 28 de março de 1838.</note>
+            </state>
+            <state type="roleInTime" xml:id="vvb_deputado_sc_3_leg">
+                <roleName>Deputado Provincial</roleName>
+                <affiliation ref="#assembleia_provincial_sc"/>
+                <date type="start" when="1840"/>
+                <date type="end" when="1841"/>
+                <note>Pediu licença em 3 de março de 1840 para combater os farroupilhas em Laguna.</note>
+            </state>
+            <state type="roleInTime" xml:id="vvb_comandante_superior_gn">
+                <roleName>Comandante Superior da Guarda Nacional</roleName>
+                <affiliation ref="#guarda_nacional"/>
+                <date when="1839"/>
+            </state>
+            <state type="roleInTime" xml:id="vvb_tenente_coronel">
+                <roleName>Tenente-coronel</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="vvb_cavaleiro_ordem_rosa">
+                <roleName>Cavaleiro da Imperial Ordem da Rosa</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date when="1860-03-14"/>
+            </state>
+            <note>
+                Militar e político brasileiro, nascido na Freguesia da Lagoa (Rio de Janeiro).  
+                Atuou contra os farroupilhas na região de Laguna/SC, sem sucesso, pouco antes da proclamação 
+                da República Juliana (1839). Filho do tenente-coronel de engenharia Joaquim de Oliveira e 
+                de Maria Weingarten.
+            </note>
         </person>
         
         <person xml:id="rodrigo_antonio_silva">
             <persName>Rodrigo Antônio da Silva</persName>
-            <note>Capitão destinatário da ordem.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="ras_capitao">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>Destinatário da ordem militar transmitida por Paulo Pereira da Silva Alana.</note>
         </person>
         
-        <person xml:id="paulo_pereira_silva_alana">
-            <persName>Paulo Pereira da Silva Alana</persName>
-            <note>Sargento-maior encarregado e autor da carta.</note>
+        <person xml:id="jose_antonio_alferes">
+            <persName>José Antônio</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="ja_alferes">
+                <roleName>Alferes</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <note>Oficial encarregado de remeter cavalos para o comando militar.</note>
+            </state>
+            <note>Alferes citado como responsável pelo envio de bons cavalos ao capitão Rodrigo Antônio da Silva.</note>
         </person>
         
         <person xml:id="antonio_elzeario_miranda_brito">
@@ -6263,17 +6447,24 @@
         
         <person xml:id="jose_joaquim_cabeleira">
             <persName>José Joaquim Cabeleira</persName>
-            <note>Tenente; portador da correspondência e informante sobre a coluna.</note>
-        </person>
-        
-        <person xml:id="teseu">
-            <persName>Teseu</persName>
-            <note>Autor da carta; pseudônimo maçônico (Thezeu).</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="jjc_tenente_coluna">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <note>Oficial legalista atuante como portador de correspondência e informante sobre o estado da coluna militar.</note>
+            </state>
+            <note>Responsável por levar informações estratégicas ao Comando Superior e por transmitir avaliação sobre o avanço da coluna.</note>
         </person>
         
         <person xml:id="melo">
-            <persName>Melo</persName>
-            <note>Nome usado na assinatura conjunta.</note>
+            <persName type="birth">Melo</persName>
+            <persName type="pseudonym" subtype="masonic">Teseu</persName>
+            <idno type="project"/>
+            <note type="editorial">
+                Assinava como “Teseu” em contexto maçônico; identificação
+                fornecida pelo editor dos *Anais do AHRS*, que indica tratar-se
+                de “Melo”.
+            </note>
         </person>
         
         <person xml:id="oliveira">

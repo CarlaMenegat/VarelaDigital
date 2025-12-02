@@ -1,30 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-100 – Ordem militar sobre junção de forças</title>
-                <author><persName ref="#paulo_pereira_silva_alana">Paulo Pereira da Silva Alana</persName></author>
+                <author>Paulo Pereira da Silva Alano</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-07-08">08 de julho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#paulo_pereira_silva_alana">Paulo Pereira da Silva Alana</persName>
+                    <persName ref="#paulo_pereira_silva_alano">Paulo Pereira da Silva Alano</persName>
                     <placeName ref="#passo_mampituba">Passo do Mampituba</placeName>
                     <date when="1839-02-07">7 de fevereiro de 1839</date>
                 </correspAction>
@@ -33,6 +98,18 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-07-08">08/07/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-02">02/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     <text>
@@ -43,18 +120,33 @@
                     <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Por ordem que tive do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante Superior <persName ref="#vicente_vilas_boas">Vicente Paulo de Oliveira Vilas Boas</persName>, ordeno a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> que o quanto antes marche a este ponto, a fazer junção com o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Capitão Silveira, aonde me acho, para dar todas as providências a bem da causa que defendemos.</p>
+                <p>Por ordem que tive do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante Superior 
+                    <persName ref="#vicente_vilas_boas">Vicente Paulo de Oliveira Vilas Boas</persName>, ordeno a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> 
+                    que o quanto antes marche a este ponto, a fazer junção com o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    Capitão Silveira, aonde me acho, para dar todas as providências a bem da causa que defendemos.</p>
                 
-                <p>Hoje mesmo seguem os cavalos do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Pelúcio [sic] e todos os que se têm reunido para poder seguir a coluna que por falta de cavalos não tem seguido para este ponto; <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> mandará reunir os cavalos que puder, sejam de quem for; na sua retaguarda deve <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> deixar uma pequena partida bem montada para dar as participações do que houver neste ponto de junção.</p>
+                <p>Hoje mesmo seguem os cavalos do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName><choice><sic>Pelúcio</sic><corr cert="low"></corr></choice></persName> e todos os que se 
+                    têm reunido para poder seguir a coluna que por falta de cavalos não tem seguido para este ponto; 
+                    <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> mandará reunir os cavalos que puder, sejam de quem for; 
+                    na sua retaguarda deve <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> deixar uma pequena partida bem 
+                    montada para dar as participações do que houver neste ponto de junção.</p>
                 
-                <p>O comandante manda agradecer ao Alferes José Antônio os bons cavalos que lhe tem mandado; advirto a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> que os cavalos devem vir, sejam vendidos, ou alugados, ou emprestados, para ver se assim o inimigo não pode varar, pois sem a proteção de <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> nada se pode fazer por estar tudo a pé; a demora da coluna é chegar estes cavalos que, hoje seguem, e logo que cheguem, se porá em marcha para este ponto; isto mesmo fará ver ao <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Alferes José Antônio e o Sargento Prestes; espero assim cumpra tanto <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> como o mesmo alferes e o Prestes, ficando <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> responsável por toda qualquer omissão que haja.</p>
+                <p>O comandante manda agradecer ao Alferes José Antônio os bons cavalos que lhe tem mandado; advirto a 
+                    <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> que os cavalos devem vir, sejam vendidos, ou alugados, 
+                    ou emprestados, para ver se assim o inimigo não pode varar, pois sem a proteção de <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> 
+                    nada se pode fazer por estar tudo a pé; a demora da coluna é chegar estes cavalos que, hoje seguem, e logo que cheguem, 
+                    se porá em marcha para este ponto; isto mesmo fará ver ao <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    Alferes José Antônio e o Sargento Prestes; espero assim cumpra tanto <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> 
+                    como o mesmo alferes e o Prestes, ficando <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> responsável 
+                    por toda qualquer omissão que haja.</p>
                 
-                <p>Deus guarde <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>. <placeName ref="#passo_mampituba">Passo do [Mampituba]</placeName>, <date when="1839-02-07">7 de fevereiro de 1839</date>.</p>
+                <p>Deus guarde <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>. 
+                    <placeName ref="#passo_mampituba">Passo do [Mampituba]</placeName>, <date when="1839-02-07">7 de fevereiro de 1839</date>.</p>
                 
                 <closer>
                     <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#rodrigo_antonio_silva">Rodrigo Antônio da Silva</persName>, capitão em diligência.</salute>
                     <note>N.B. — Os cavalos que <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> mandar é para tomar o ponto do passo da Lagoa que assim determina <choice><abbr>S.Ex.ª</abbr><expan>Sua Excelência</expan></choice>.</note>
-                    <signed>(a) <persName ref="#paulo_pereira_silva_alana">Paulo Pereira da Silva Alana</persName>, Sargento-maior encarregado.</signed>
+                    <signed>(a) <persName ref="#paulo_pereira_silva_alano">Paulo Pereira da Silva Alano</persName>, Sargento-maior encarregado.</signed>
                 </closer>
                 
             </div>

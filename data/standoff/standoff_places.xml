@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <standOff xmlns="http://www.tei-c.org/ns/1.0">
     <listPlace>
-        <place xml:id="rio-grande-do-sul">
+        <place xml:id="rio_grande_sul">
             <placeName>Rio Grande do Sul</placeName>
             <idno type="geonames">https://www.geonames.org/3451133/rio-grande-do-sul.html</idno>
-            <geo>-30.0346 -51.2177</geo>
-            <note>Província mais ao sul do Brasil.</note>
+            <geo>-30 -53.5</geo>
+            <note>Província do Império do Brasil e principal cenário da Revolução Farroupilha.</note>
         </place>
         
         <place xml:id="espinilho">
