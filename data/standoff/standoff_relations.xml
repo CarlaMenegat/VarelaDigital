@@ -2545,6 +2545,94 @@
             active="#joao_lourenco_vidal"
             passive="#tomas_jose_silva"/>
         
+        <relation 
+            name="foaf:knows" 
+            active="#antonio_melo_albuquerque" 
+            passive="#bento_manoel"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#antonio_melo_albuquerque" 
+            passive="#joao_paulo_santos_barreto"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#antonio_melo_albuquerque" 
+            passive="#vitorino_jose_carneiro_monteiro"
+            mutual="true"/>
+        
+        <relation
+            name="hrao:followedPoliticalAlignmentOf"
+            active="#oliverio_ortiz"
+            passive="#bento_manoel"/>
+        
+        <relation
+            name="hrao:hasKinship"
+            active="#oliverio_ortiz"
+            passive="#jose_pedroso_albuquerque"/>
     </standOff>
+    
+    <relation 
+        name="foaf:knows"
+        active="#francisco_chagas_avila_sousa"
+        passive="#jose_pedroso_albuquerque"
+        mutual= "true"/>
+    
+    <relation 
+        name="hrao:partOf"
+        active="#secretaria_justica"
+        passive="#ministerio_justica"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#jose_pedroso_albuquerque"
+        passive="#severino_antonio_silveira"
+        mutual="true"/>
+    
+    <relation
+        name="hrao:servedUnder"
+        active="#ministerio_justica"
+        passive="#presidencia_estado"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#inacio_guimaraes"
+        passive="#jose_pedroso_albuquerque"
+        mutual="true"/>
+    
+    <relation
+        name="hrao:servedUnder"
+        active="#ricardo_melo_albuquerque"
+        passive="#bento_manoel"/>
+    
+    <relation
+        name="hrao:servedUnder"
+        active="#capitao_lima"
+        passive="#tenente_coronel_aranha"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#ricardo_melo_albuquerque"
+        passive="#capitao_lima"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#ricardo_melo_albuquerque"
+        passive="#tenente_coronel_aranha"
+        mutual="true"/>
+    
+    <relation
+        name="hrao:servedUnder"
+        active="#capitao_lima"
+        passive="#agostinho_antonio_mello"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#agostinho_antonio_mello"
+        passive="#tenente_coronel_aranha"
+        mutual="true"/>
     
 </TEI>

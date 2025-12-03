@@ -403,9 +403,26 @@
             <note>Unidade militar da estrutura farroupilha, mencionada como subordinada ao comando da Divisão.</note>
         </org>
         
-        <org xml:id="secretaria_justica_eclesiasticos">
-            <orgName>Secretaria de Negócios da Justiça e Eclesiásticos</orgName>
-            <note>Órgão responsável pelos assuntos judiciais e religiosos da República Rio-Grandense.</note>
+        <org xml:id="secretaria_justica" type="governmentOffice">
+            <orgName>Secretaria da Justiça</orgName>
+            <idno type="project"/>
+            <affiliation ref="#ministerio_justica"/>
+            <note>
+                Órgão administrativo da República Rio-Grandense responsável pela tramitação,
+                expedição e organização dos negócios jurídicos, civis e eclesiásticos.
+                Funcionava subordinado ao Ministério da Justiça.
+            </note>
+        </org>
+        
+        <org xml:id="ministerio_justica" type="governmentMinistry">
+            <orgName>Ministério da Justiça</orgName>
+            <idno type="project"/>
+            <affiliation ref="#republica_rio_grandense"/>
+            <note>
+                Ministério responsável pelos assuntos jurídicos, administrativos e religiosos 
+                do governo farroupilha. Supervisonava a Secretaria da Justiça e coordenava 
+                a atuação de procuradores, juízes e autoridades eclesiásticas.
+            </note>
         </org>
         
         <org xml:id="secretaria_guerra">
@@ -433,10 +450,6 @@
             <affiliation ref="#imperio_brasil"/>
             <idno type="project"/>
             <note>Batalhão do Exército Imperial Brasileiro, atuante no Rio Grande do Sul durante a Guerra dos Farrapos.</note>
-        </org>
-        
-        <org xml:id="ministerio_interior_justica">
-            <orgName>Ministério do Interior e Justiça</orgName>
         </org>
         
         <org xml:id="procuradores_gerais">

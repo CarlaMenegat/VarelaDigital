@@ -1548,11 +1548,16 @@
                 <location>
                     <placeName ref="#sao_lourenco">Boqueirão (São Lourenço)</placeName>
                 </location>
-                <note>Chefe de Polícia do Departamento do Boqueirão, exercendo funções administrativas e de segurança em nome da legalidade imperial.</note>
+                <date type="end" when="1842-08-11"/> 
+                <note>
+                    Nomeado chefe de polícia do Departamento do Boqueirão, exercendo funções administrativas 
+                    e de segurança em nome da legalidade imperial até sua demissão em 11 de agosto de 1842.
+                </note>
             </state>
             <note>
-                Figura central da administração imperial no Boqueirão durante a década de 1840, 
-                frequentemente consultado e mobilizado em comunicações militares e civis.
+                Figura central da administração imperial no Departamento do Boqueirão, atuante até 1842.
+                Frequentemente consultado e mobilizado em comunicações militares e civis, incluindo relações
+                com autoridades locais e o comando superior.
             </note>
         </person>
         
@@ -1739,11 +1744,6 @@
         <person xml:id="luis_rossetti">
             <persName>Luís Rossetti</persName>
             <note>Redator do jornal oficial criado pelo Governo Farroupilha, "O Povo".</note>
-        </person>
-        
-        <person xml:id="general_joao_antonio_lima">
-            <persName>General Lima</persName>
-            <note>General João Antônio de Lima, oficial farroupilha citado como cedente da escrava.</note>
         </person>
         
         <person xml:id="joao_santos_quiminda">
@@ -6818,17 +6818,80 @@
         
         <person xml:id="jose_pedroso_albuquerque">
             <persName>José Pedroso de Albuquerque</persName>
-            <note>Autor da carta CV-112, ligado à Secretaria da Justiça em Alegrete.</note>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10310294</idno>
+            <birth when="1804-03-31"/>
+            <state type="roleInTime" xml:id="jpa_deputado_constituinte_1842">
+                <roleName>Deputado da Assembleia Constituinte e Legislativa Farroupilha</roleName>
+                <affiliation ref="#assembleia_constituinte"/>
+                <date when="1842"/>
+            </state>
+            <state type="roleInTime" xml:id="jpa_ministro_justica_rrg_1843">
+                <roleName>Ministro da Justiça</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <date when="1843"/>
+                <note>Participou das negociações preliminares de paz com o Império ao lado de Severino Antônio da Silveira.</note>
+            </state>
+            <note>
+                Político farroupilha nascido em Rio Pardo. Filho do sargento-mor João Pedroso de Albuquerque 
+                e de Maria Benedita de Camargo. Casado com Maria Josefa Ortiz, filha de Olivério José Ortiz.  
+                Atuou como deputado constituinte em 1842 e foi ministro da Justiça da República Rio-Grandense 
+                durante as tentativas diplomáticas de 1843. Autor da carta CV-112.
+            </note>
         </person>
         
         <person xml:id="padre_francisco_terroba">
             <persName>Francisco Terroba</persName>
-            <note>Padre que apresentou requerimento para ereção de uma capela no Passo do Itaqui.</note>
+            <idno type="project"/>
+            <persName type="honorific">Padre</persName>
+            <note>
+                Clérigo católico mencionado em petição enviada ao governo farroupilha,
+                solicitando a ereção de uma capela no Passo do Itaqui.
+            </note>
         </person>
         
         <person xml:id="ricardo_melo_albuquerque">
             <persName>Ricardo Antônio de Melo e Albuquerque</persName>
-            <note>Autor da carta CV-115, atuando na administração militar em Cruz Alta.</note>
+            <idno type="project"/>
+            
+            <state type="roleInTime" xml:id="ricardo_melo_servico_1839">
+                <roleName>Oficial sob comando de Bento Manuel Ribeiro</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date when="1839-12-07"/>
+                <note>Declarado na carta CV-115 como servindo sob ordens de Bento Manuel.</note>
+            </state>
+            
+            <note>
+                Atuava na administração militar em Cruz Alta e declara estar subordinado a 
+                Bento Manuel Ribeiro em dezembro de 1839.
+            </note>
+        </person>
+        
+        <person xml:id="capitao_lima">
+            <persName>Capitão Lima</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="lima_capitao_pass_fundo_1840">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <note>Comandou um contingente de 50 homens enviado a reunir-se ao Tenente-coronel Aranha; foi atacado e destroçado próximo à estância do Lara, escapando com poucos homens.</note>
+            </state>
+            <note>
+                Oficial mencionado apenas na carta de Ricardo Antônio de Melo e Albuquerque; 
+                não se conhece seu prenome. Atuava na região de Passo Fundo e Botucaraí.
+            </note>
+        </person>
+        
+        <person xml:id="tenente_coronel_aranha">
+            <persName>Tenente-coronel Aranha</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="aranha_ten_coronel_pass_fundo_1840">
+                <roleName>Tenente-coronel</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <note>Oficial legalista a quem o contingente do Capitão Lima deveria se reunir; supostamente batido após ataque inimigo relatado pelo Coronel Agostinho.</note>
+            </state>
+            <note>
+                Identidade completa desconhecida; aparece somente na correspondência entre 
+                Ricardo Antônio de Melo e Albuquerque e Bento Manuel Ribeiro.
+            </note>
         </person>
         
         <person xml:id="major_maximiano">
@@ -7008,11 +7071,40 @@
         <person xml:id="oliverio_ortiz">
             <persName>Olivério José Ortiz da Silva</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10340741</idno>
-            <note>Foi eleito deputado provincial, junto com seu irmão padre Fidêncio José Ortiz, para a 1ª Legislatura da Assembleia Legislativa Provincial do Rio Grande do Sul. Ao rebentar a Revolução Farroupilha era comandante da guarnição de São Gabriel, serviu à principio com as forças do governo, porém aderiu depois ao movimento revolucionário, até o dia em que Bento Manoel Ribeiro, foi incorporar-se às tropas do governo. </note>
-            <relation
-                name="hrao:followedPoliticalAlignmentOf"
-                active="#oliverio_ortiz"
-                passive="#bento_manoel"/>
+            <idno type="project"/>
+            <birth when="1789-09-30"/>
+            <death when="1869-01-10"/>
+            <state type="roleInTime" xml:id="oliverio_ortiz_dragao_rp">
+                <roleName>Oficial do Regimento de Dragões de Rio Pardo</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <note>Assentou praça muito jovem; atuou nas campanhas contra Artigas e na Guerra Cisplatina, alcançando o posto de coronel.</note>
+            </state>
+            <state type="roleInTime" xml:id="oliverio_ortiz_deputado_provincial">
+                <roleName>Deputado Provincial (1ª Legislatura)</roleName>
+                <affiliation ref="#assembleia_provincial_rs"/>
+                <note>Eleito juntamente com seu irmão, padre Fidêncio José Ortiz.</note>
+            </state>
+            <state type="roleInTime" xml:id="oliverio_ortiz_comandante_sao_gabriel">
+                <roleName>Comandante da guarnição de São Gabriel</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="approx" when="1835"/>
+            </state>
+            <state type="roleInTime" xml:id="oliverio_ortiz_aderencia_farroupilha">
+                <roleName>Aderente ao movimento farroupilha</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <date type="approx" when="1836"/>
+                <note>Aderiu ao movimento revolucionário após o início da Guerra dos Farrapos.</note>
+            </state>
+            <state type="roleInTime" xml:id="oliverio_ortiz_retirada_politica">
+                <roleName>Retirada da vida política</roleName>
+                <note>Recolheu-se à vida privada após a adesão de Bento Manoel às forças imperiais.</note>
+            </state>
+            <note>
+                Militar e político nascido em Caçapava do Sul. Filho de José Ortiz da Silva e Maria Josefa de Araújo,
+                casado com Febrônia Cândida da Cunha. Atuou no Regimento de Dragões de Rio Pardo e destacou-se nas 
+                campanhas contra Artigas e na Guerra Cisplatina. Foi deputado provincial e posteriormente eleito 
+                deputado à Constituinte rio-grandense, embora não tenha assumido o assento por desavenças políticas.
+            </note>
         </person>
         
         <person xml:id="hildebrando_freitas_pedroso">
