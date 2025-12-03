@@ -425,19 +425,33 @@
             </note>
         </org>
         
-        <org xml:id="secretaria_guerra">
+        <org xml:id="ministerio_guerra" type="governmentMinistry">
+            <orgName>Ministério da Guerra</orgName>
+            <idno type="project"/>
+            <affiliation ref="#republica_rio_grandense"/>
+            <note>
+                Ministério responsável pela direção geral das operações militares, organização 
+                das forças armadas e expedição de ordens estratégicas durante a República 
+                Rio-Grandense. Coordenava as secretarias internas e supervisionava os 
+                comandantes de divisão e chefes de destacamento.
+            </note>
+        </org>
+        
+        <org xml:id="secretaria_guerra" type="governmentSecretariat">
             <orgName>Secretaria dos Negócios da Guerra</orgName>
-            <note>Órgão administrativo do governo farroupilha responsável por expedir ordens militares, coordenar operações e comunicar instruções aos comandantes de divisão e autoridades locais. Frequentemente aparece nos cabeçalhos e fechos das cartas da Coleção Varela.</note>
+            <idno type="project"/>
+            <affiliation ref="#republica_rio_grandense"/>
+            <note>
+                Secretaria subordinada ao Ministério da Guerra da República Rio-Grandense, 
+                encarregada de redigir, registrar e expedir ordens militares; comunicar 
+                instruções aos comandantes de distrito; e gerenciar documentação operacional 
+                e administrativa relacionada às forças republicanas.
+            </note>
         </org>
         
         <org xml:id="periodico_povo">
             <orgName>Povo</orgName>
             <note>Periódico da República Rio-Grandense, utilizado para comunicados oficiais e notícias do governo.</note>
-        </org>
-        
-        <org xml:id="ministerio_guerra">
-            <orgName>Ministério da Guerra</orgName>
-            <note>Órgão responsável pelas comunicações militares e administrativas da República Rio-Grandense.</note>
         </org>
         
         <org xml:id="corpo_cruz_alta">

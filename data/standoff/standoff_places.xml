@@ -522,13 +522,19 @@
             <geo>-29.6868, -51.1328</geo>
             <note>Localizado próximo à Porto Alegre, nas margens do Rio Gravataí. Povoação começou com os indígenas trasnferidos das Missões após a Guerra Guaranítica.</note>
         </place>
-
         
         <place xml:id="arroio_ratos">
             <placeName>Arroio dos Ratos</placeName>
             <idno type="geonames">https://www.geonames.org/3471425/arroio-dos-ratos.html</idno>
             <geo>-30.0878, -51.7301</geo>
             <note>Município do Rio Grande do Sul, Brasil; corresponde ao topônimo citado na carta.</note>
+        </place>
+        
+        <place xml:id="dores_camaqua">
+            <placeName>Distrito das Dores / Capela das Dores</placeName>
+            <idno type="geonames">https://www.geonames.org/6318661/sentinela-do-sul.html</idno>
+            <geo>-30.61139, -51.57889</geo>
+            <note>Antigo Distrito de Dores de Camaquã (ou Capela de Nossa Senhora das Dores), fundado em 1819 com a doação de terras para a capela dedicada a Nossa Senhora das Dores; em 1831 passou a integrar a Vila de Bom Jesus do Triunfo e em 1833 foi elevado a freguesia; corresponde ao atual município de Sentinela do Sul, RS, Brasil, e ao topônimo citado em fontes históricas do século XIX, como documentos da Revolução Farroupilha [web:6][web:21][web:26].</note>
         </place>
         
         <place xml:id="barra_camaqua">
@@ -790,11 +796,12 @@
             <note>Ilha localizada na região da Laguna dos Patos, Rio Grande do Sul, Brasil.</note>
         </place>
         
-        <place xml:id="barra_velhaco">
-            <placeName>Barra do Velhaco</placeName>
-            <geo>-30.911074, -51.494969</geo> 
-            <note>Local da foz do Arroio Velhaco na Lagoa dos Patos, atualmente município de Arambaré (RS).</note>
-        </place> <!-- substituir isso por Arambaré-->
+        <place xml:id="arroio_velhaco">
+            <placeName>Arroio Velhaco</placeName>
+            <idno type="geonames">https://www.geonames.org/3445372</idno>
+            <geo>-30.91083, -51.49504</geo>
+            <note>Curso d’água que deságua na Lagoa dos Patos pela Barra do Velhaco, na região do atual município de Arambaré (RS).</note>
+        </place>
         
         <place xml:id="arambare">
             <placeName type="historical">Barra do Velhaco</placeName>

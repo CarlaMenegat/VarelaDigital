@@ -1724,7 +1724,7 @@
             passive="#republica_rio_grandense"/>
         
         <relation
-            name="schema:member"
+            name="schema:memberOf"
             active="#manuel_martins_silveira_lemos"
             passive="#assembleia_constituinte"/>
         
@@ -1942,7 +1942,7 @@
             passive="#divisao_direita"/>
         
         <relation
-            name="schema:member"
+            name="schema:memberOf"
             active="#joaquim_prado_lima"
             passive="#camara_alegrete"/>
         
@@ -2634,5 +2634,32 @@
         active="#agostinho_antonio_mello"
         passive="#tenente_coronel_aranha"
         mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#manuel_aleman"
+        passive="#joao_antonio_silveira"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows" 
+        active="#joao_evangelista_tavares" 
+        passive="#manuel_antonio_celebre"
+        mutual="true"/>
+    
+    <relation
+        name="schema:memberOf"
+        active="#serafim_alencastre"
+        passive="#assembleia_constituinte"/>
+    
+    <relation
+        name="schema:subOrganizationOf"
+        active="#secretaria_guerra"
+        passive="#ministerio_guerra"/>
+    
+    <relation
+        name="schema:subOrganizationOf"
+        active="#ministerio_guerra"
+        passive="#republica_rio_grandense"/>
     
 </TEI>

@@ -68,8 +68,32 @@
         <person xml:id="serafim_alencastre">
             <persName>Serafim Joaquim de Alencastre</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10370179</idno>
-            <roleName>Ministro da Guerra e Marinha da República Rio-Grandense[</roleName>
-            <note>Além de ser Ministro da Guerra, escreveu a primeira versão do Hino Rio-Grandense (hino farroupilha), depois substituída pela de Francisco Pinto da Fontoura. </note>
+            <birth when="1809"/> 
+            <state type="roleInTime" xml:id="alencastre_ministro_guerra_marinha">
+                <roleName>Ministro da Guerra e Marinha</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <note>Exerceu o ministério da Guerra e Marinha durante a Revolução Farroupilha.</note>
+            </state>
+            <state type="roleInTime" xml:id="alencastre_deputado_constituinte">
+                <roleName>Deputado Constituinte</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <note>Eleito para a Assembleia Geral Constituinte e Legislativa da República Rio-Grandense.</note>
+            </state>
+            <state type="roleInTime" xml:id="alencastre_militar_imperial">
+                <roleName>Militar</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <note>Serviu ao Exército Imperial antes e depois da Revolução Farroupilha.</note>
+            </state>
+            <note>
+                Militar e poeta rio-grandense, nascido em Rio Pardo em 1809. 
+                Serviu na Guerra da Cisplatina, sendo preso no combate de Sarandí e escapando 
+                durante o levante de prisioneiros ao cruzar o rio Paraná, retornando a Montevidéu 
+                em março de 1826. Durante a Revolução Farroupilha aderiu à causa republicana, 
+                atuando como deputado constituinte e Ministro da Guerra e Marinha da 
+                República Rio-Grandense. É autor da primeira versão do Hino Rio-Grandense, 
+                posteriormente substituída pela letra de Francisco Pinto da Fontoura. 
+                Após o conflito retornou às fileiras do Exército Imperial.
+            </note>
         </person>
         
         <person xml:id="pedro_ii">
@@ -3509,13 +3533,27 @@
             <note>Tenente-coronel farroupilha citado como comandante de brigada em 1841.</note>
         </person>
         
-        <person xml:id="aleman">
-            <persName>Aleman</persName>
-        </person>
-        
         <person xml:id="manuel_aleman">
             <persName>Manuel de Aleman</persName>
-            <note>Autor da carta CV-116, atuando em Cerro Largo (UY) no contexto da correspondência luso-oriental.</note>
+            <persName type="variant" xml:lang="es">Manuel Alemán</persName>
+            <idno type="project"/>
+            <note>
+                Correspondente ativo na fronteira oriental, autor da carta CV-116 enviada
+                desde Cerro Largo (Uruguai) em 9 de maio de 1839. Figura vinculada às redes
+                político-militares luso-orientais durante os conflitos da década de 1830.
+            </note>
+        </person>
+        
+        <person xml:id="manuel_la_hoz">
+            <persName>Manuel de la Hoz</persName>
+            <idno type="project"/>
+            <note>
+                Correspondente citado em endosso da carta CV-116; autor de carta
+                enviada em <date when="1842-10-02">2 de outubro de 1842</date>, à qual 
+                a correspondência de Manuel de Alemán estava anexada. Figura ativa 
+                na rede epistolar que envolvia Domingos José de Almeida e outros 
+                interlocutores no espaço luso-oriental durante a década de 1840.
+            </note>
         </person>
         
         <person xml:id="juan_antonio_silvera">
@@ -5687,16 +5725,24 @@
         
         <person xml:id="manuel_jose_alencastre">
             <persName>Manuel José de Alencastre</persName>
-            <idno type="project"></idno>
+            <idno type="project"/>
             <state type="roleInTime" xml:id="alencastre_capitao_imperio">
                 <roleName>Capitão</roleName>
                 <affiliation ref="#imperio_brasil"/>
             </state>
-            <state type="roleInTime" xml:id="alencastre_juiz_paz_legalista">
+            <state type="roleInTime" xml:id="alencastre_juiz_paz_dores_camaqua">
                 <roleName>Juiz de Paz</roleName>
                 <affiliation ref="#imperio_brasil"/>
+                <location>
+                    <placeName ref="#dores_camaqua">Capela das Dores de Camaquã</placeName>
+                </location>
             </state>
-            <note>Oficial legalista nomeado Juiz de Paz do 8.º distrito da freguesia das Dores, empossado por João Pedro de Abreu após ter permanecido fugitivo devido à perseguição de forças farroupilhas.</note>
+            <note>
+                Oficial legalista do Exército Imperial e Juiz de Paz da Capela das Dores de Camaquã.
+                Segundo correspondência contemporânea, esteve algum tempo fugitivo devido à perseguição 
+                de forças farroupilhas, sendo posteriormente empossado no cargo por 
+                <persName ref="#joao_pedro_abreu">João Pedro de Abreu</persName>.
+            </note>
         </person>
         
         <person xml:id="jose_rodrigues_tavares">
@@ -6702,6 +6748,28 @@
             </note>
         </person>
         
+        <person xml:id="manuel_antonio_celebre">
+            <persName>Manuel Antônio</persName>
+            <idno type="project"/>
+            <note>
+                Individuado em correspondência legalista como “célebre Manuel Antônio”, 
+                descrito como anarquista e ex-juiz de paz; identidade civil completa ainda não confirmada.
+            </note>
+        </person>
+        
+        <person xml:id="joao_evangelista_tavares">
+            <persName>João Evangelista Tavares</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="evangelista_tavares_juiz_paz">
+                <roleName>Juiz de Paz do 9.º distrito de Triunfo</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>
+                Identificado em correspondência legalista como juiz de paz do 9.º distrito de Triunfo; 
+                citado como participante do movimento anarquista segundo relato oficial.
+            </note>
+        </person>
+
         <person xml:id="joao_silva_machado">
             <persName>João da Silva Machado</persName>
             <persName type="noble">Barão de Antonina</persName>
