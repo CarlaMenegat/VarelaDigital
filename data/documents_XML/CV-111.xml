@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -7,31 +7,106 @@
                 <author>
                     <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName>
                 </author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
-            
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-07-12">12 de julho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
-            
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre, 1941.</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-07-12">12/07/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-03">03/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     <text>
@@ -49,7 +124,7 @@
                     finalmente, a campanha era toda dos rebeldes, e não havia a menor esperança de recursos; foi nesta mesma
                     época em que o Suplicante, ajudado de muitos cidadãos beneméritos, fez uma formal oposição aos anarquistas,
                     com os quais se conservou em continuadas guerrilhas e polêmicas sempre honrosas para a legalidade por tempo
-                    de 3 meses, até que o Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Marechal Barreto,
+                    de 3 meses, até que o Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Marechal <PersName ref="#joao_paulo_santos_barreto">Barreto</PersName>,
                     <del reason="erasure">cansado de sofrer</del>
                     se apresentou em campo e veio 
                     <del reason="erasure">dar alma — esperança — aos legalistas marchando a par de mil sacrifícios</del>
@@ -59,23 +134,23 @@
                     <del reason="erasure">experiente</del>
                     General tivesse tempo de reconhecer o terreno, o inimigo e a força que comandava, e providenciar a escassez
                     de armamentos e munições que havia, fomos atacados por uma força anarquista ao mando de 
-                    <persName ref="#bento_manuel">Bento Manuel Ribeiro</persName>
+                    <persName ref="#bento_manoel">Bento Manuel Ribeiro</persName>
                     de 700 homens, no dia 7 de julho 
                     <del reason="erasure">do corrente</del>, dia
-                    em que havíamos já sofrido muitas deserções e uma horrível traição feita por Evaristo dos Santos Robalo, que
+                    em que havíamos já sofrido muitas deserções e uma horrível traição feita por <persName ref="#evaristo_santos_robalo">Evaristo dos Santos Robalo</persName>, que
                     comandava um esquadrão 
                     <del reason="erasure">que não foi</del>, não sendo possível colocá-lo em seu lugar, por cuja causa, e outras, foi aquela força
-                    destroçada e o Suplicante preso e remetido para 
-                    <placeName ref="#sao_gabriel">São Gabriel</placeName>
+                    destroçada e o Suplicante preso e remetido para <placeName ref="#sao_gabriel">São Gabriel</placeName>
                     <del reason="erasure">(sendo o único oficial a quem tal aconteceu)</del>, onde se conservou até que
-                    entrando naquele lugar uma força legal, comandada pelo Alferes Juca Cipriano, o Suplicante lhe pediu socorro
+                    entrando naquele lugar uma força legal, comandada pelo Alferes <persName ref="#juca_cipriano">Juca Cipriano</persName>, o Suplicante lhe pediu socorro
                     de cavalos e gente, e com 6 homens que trouxe em sua companhia, e negros e peães que levava, atacou na sua
                     marcha para Cima da Serra uma partida de anarquistas que se achava nos Campestres, comandada pelo Tenente 
                     <del reason="erasure">Cabo</del> Juca, e destroçando-a tomou 
                     <del reason="erasure">dois</del> 
                     cavalos e arreios 
                     <del reason="erasure">com arreios</del>
-                    ao inimigo, e teve a satisfação de apresentar-se ao mesmo Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Marechal Barreto no dia 1.º de outubro,
+                    ao inimigo, e teve a satisfação de apresentar-se ao mesmo Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Marechal 
+                    <PersName ref="#joao_paulo_santos_barreto">Barreto</PersName> no dia 1.º de outubro,
                     quando o mesmo senhor já se achava promovendo a reunião que, secundada pelo Suplicante e outros cidadãos,
                     chegou ao número de 400 homens, à frente dos quais marchou 
                     <del reason="erasure">marchando para este ponto, sofrendo pelo caminho algumas deserções</del>;

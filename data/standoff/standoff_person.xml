@@ -2944,9 +2944,34 @@
         
         <person xml:id="juca_cipriano">
             <persName>Juca Cipriano</persName>
-            <persName>José Alves de Simas</persName>
-            <idno></idno>
-            <note>Caudilho legalista. </note>
+            <persName type="birthName">José Alves de Simas</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="juca_cipriano_alferes">
+                <roleName>Alferes</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>
+                Oficial legalista identificado como Alferes. Em petição de Antônio de Melo e Albuquerque, 
+                é mencionado como comandante de uma força que entrou em São Gabriel, fornecendo a 
+                Melo cavalos e homens para atacar uma partida rebelde nos Campestres. 
+                Também esteve envolvido no episódio de 28 de dezembro de 1838, quando uma 
+                partida imperial sob seu comando foi derrotada em Tacuarembó por forças farroupilhas 
+                comandadas por Vasco Marques de Sousa.
+            </note>
+        </person>
+        
+        <person xml:id="evaristo_santos_robalo">
+            <persName>Evaristo dos Santos Robalo</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="robalos_comandante_esquadrao">
+                <roleName>Comandante de esquadrão</roleName>
+            </state>
+            <note>
+                Mencionado em petição de Antônio de Melo e Albuquerque como responsável por 
+                uma traição ocorrida em 7 de julho, que contribuiu para a derrota da força 
+                em operação e para a captura do Suplicante. Nenhuma outra informação biográfica 
+                é conhecida a partir das fontes disponíveis.
+            </note>
         </person>
         
         <person xml:id="dedeco">
@@ -2973,8 +2998,55 @@
         </person>
         
         <person xml:id="labatut">
-            <persName>Labatut</persName>
-            <note>Referência a Pierre Labatut, comandante envolvido em operações militares no período.</note>
+            <persName xml:lang="pt-BR" type="variant">Pedro Labatut</persName>
+            <persName xml:lang="fr" type="attested">Pierre Labatut</persName>
+            <birth when="1776-11-18">18 de novembro de 1776</birth>
+            <death when="1849-09-04">4 de setembro de 1849</death>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3106302</idno>
+            <idno type="viaf">https://viaf.org/viaf/3106302</idno>
+            <state type="roleInTime" xml:id="labatut_marechal_campo">
+                <roleName>Marechal de Campo</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>
+                Militar francês, veterano das Guerras Napoleônicas
+                e comandante do chamado “Exército Pacificador” na Guerra da Independência da Bahia.
+                Atuou no Rio Grande do Sul durante a Revolução Farroupilha, sendo designado para
+                combater forças farroupilhas e tendo chegado com seu corpo de tropas a Passo Fundo
+                em 1840.
+            </note>
+        </person>
+        
+        <person xml:id="francisco_alvares_machado">
+            <persName type="full">Francisco Álvares Machado</persName>
+            <birth when="1791-12-21">21 de dezembro de 1791</birth>
+            <death when="1846-07-04">4 de julho de 1846</death>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10284570</idno>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="fam_presidente_rio_grande_sul">
+                <roleName>Presidente da Província do Rio Grande do Sul</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="start" when="1840-11-30"/>
+                <date type="end" when="1841-04-17"/>
+            </state>
+            <state type="roleInTime" xml:id="fam_deputado_geral">
+                <roleName>Deputado Geral</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <note>Mandatos nas 4ª, 6ª e 8ª legislaturas da Assembleia Geral.</note>
+            </state>
+            <state type="roleInTime" xml:id="fam_cirurgiao_1814">
+                <roleName>Cirurgião</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="start" when="1814"/>
+                <note>Nomeado cirurgião por Dom João VI; atuou como oculista e fabricava seus próprios instrumentos.</note>
+            </state>
+            <note>
+                Político e cirurgião brasileiro. Atuou em Itu, Porto Feliz e Campinas, onde integrou 
+                o Partido Liberal e o conselho da província. Foi presidente da província do Rio Grande 
+                do Sul (1840–1841), amplamente respeitado pelos farroupilhas por sua conduta conciliadora. 
+                Ofereceu anistia a Bento Gonçalves durante negociações de paz, mas recusou conferência direta, 
+                resultando na suspensão das tratativas. Agraciado como oficial da Imperial Ordem do Cruzeiro.
+            </note>
         </person>
         
         <person xml:id="manuel_rodrigues_barbosa">
@@ -3469,6 +3541,21 @@
             <note>
                 Oficial farroupilha, atuante no norte da província em operações em Santo Amaro, Rio Pardo, Cachoeira e região
                 entre 1837 e 1841; comandou forças derrotadas em combate em novembro de 1841.
+            </note>
+        </person>
+        
+        <person xml:id="pardo_fortunato">
+            <persName>Fortunato</persName>
+            <persName type="descriptor">pardo</persName>
+            <state type="roleInTime" xml:id="pardo_fortunato_camarada_agostinho">
+                <roleName>Camarada</roleName>
+                <affiliation ref="#agostinho_antonio_melo"/>
+                <note>Descrito como antigo camarada do Coronel Agostinho Antônio de Melo.</note>
+            </state>
+            <note>
+                Antigo camarada do Coronel Agostinho Antônio de Melo, enviado em diligência 
+                em direção a Rio Pardo; sua passagem era apoiada pelas autoridades legais por 
+                interessar à causa legal. Identificação incompleta.
             </note>
         </person>
         
@@ -4265,7 +4352,13 @@
         
         <person xml:id="tomas_jose_silva">
             <persName>Tomás José da Silva</persName>
-            <idno type="project"></idno>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="tomas_silva_coronel_1834">
+                <roleName>Coronel</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date when="1834"/>
+                <note>Exerceu o posto de coronel antes da eclosão da Revolução Farroupilha.</note>
+            </state>
             <state type="roleInTime" xml:id="tomas_silva_brigadeiro">
                 <roleName>Brigadeiro</roleName>
                 <affiliation ref="#imperio_brasil"/>
@@ -4273,8 +4366,13 @@
             <state type="roleInTime" xml:id="tomas_silva_comandante_guarnicao">
                 <roleName>Comandante da guarnição da capital</roleName>
                 <affiliation ref="#imperio_brasil"/>
+                <note>Responsável pela guarnição da capital da província durante o período da Revolução Farroupilha.</note>
             </state>
-            <note>Oficial superior legalista do Exército Imperial. Exerceu funções como brigadeiro e comandante da guarnição da capital. Destinatário de correspondência militar remetida por oficiais subordinados.</note>
+            <note>
+                Oficial superior legalista do Exército Imperial. Atuou como coronel em 1834, foi posteriormente 
+                promovido a brigadeiro e exerceu funções de comando na capital. É destinatário recorrente de 
+                correspondência militar remetida por oficiais subordinados.
+            </note>
         </person>
         
         <person xml:id="jose_cesario_abreu">
@@ -6462,7 +6560,7 @@
             <idno type="project"/>
             <note type="editorial">
                 Assinava como “Teseu” em contexto maçônico; identificação
-                fornecida pelo editor dos *Anais do AHRS*, que indica tratar-se
+                fornecida pelo editor dos Anais do AHRS, que indica tratar-se
                 de “Melo”.
             </note>
         </person>
@@ -6472,30 +6570,95 @@
             <note>Destinatário da carta; identidade incompleta.</note>
         </person>
         
-        <person xml:id="cunha">
-            <persName>Cunha</persName>
-            <note>Brigadeiro citado como protetor de José Inácio.</note>
+        <person xml:id="antero_ferreira_ribeiro">
+            <persName>Antero José Ferreira de Brito</persName>
+            <persName type="title">Barão de Tramandaí</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q9617113</idno>
+            <idno type="viaf">https://viaf.org/en/viaf/270150325562110090005</idno>
+            <birth when="1787-01-11">11 de janeiro de 1787</birth>
+            <death when="1856-02-05">5 de fevereiro de 1856</death>
+            <state type="roleInTime" xml:id="antero_presidente_rs_1837">
+                <roleName>Presidente da Província do Rio Grande do Sul</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1837-01-05"/>
+                <date type="end" when="1837-04-01"/>
+            </state>
+            <state type="roleInTime" xml:id="antero_presidente_sc_1840">
+                <roleName>Presidente da Província de Santa Catarina</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1840-06-26"/>
+                <date type="end" when="1848-12-26"/>
+            </state>
+            <state type="roleInTime" xml:id="antero_ministro_guerra">
+                <roleName>Ministro da Guerra</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="antero_comandante_armas_corte">
+                <roleName>Comandante de Armas da Corte</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="antero_brigadeiro">
+                <roleName>Brigadeiro</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="antero_tenente_general_1852">
+                <roleName>Tenente-general</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1852-03-03"/>
+            </state>
+            <state type="roleInTime" xml:id="antero_barao_tramandai">
+                <roleName>Barão de Tramandaí</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1855-03-14"/>
+            </state>
+            <note>
+                Militar e político legalista. Presidente do RS em 1837, capturado por Bento Manuel 
+                durante a Revolução Farroupilha e trocado em 1838. Posteriormente presidente de 
+                Santa Catarina, ministro da Guerra e conselheiro de Guerra. Recebeu o título de 
+                Barão de Tramandaí e diversas condecorações imperiais.
+            </note>
         </person>
         
-        
-        <person xml:id="antero">
-            <persName>Antero</persName>
-            <note>Pessoa mencionada em ofício.</note>
-        </person>
-        
-        <person xml:id="chagas">
-            <persName>Chagas</persName>
-            <note>Remetente de dois ofícios.</note>
-        </person>
-        
-        <person xml:id="carneiro">
-            <persName>Carneiro</persName>
-            <note>Brigadeiro citado.</note>
-        </person>
-        
-        <person xml:id="barreto">
-            <persName>Barreto</persName>
-            <note>Autor de carta elogiada.</note>
+        <person xml:id="vitorino_jose_carneiro_monteiro">
+            <persName>Vitorino José Carneiro Monteiro</persName>
+            <persName type="title">Barão de São Borja</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10392115</idno>
+            <birth when="1817">1817</birth>
+            <death when="1877-10-24">24 de outubro de 1877</death>
+            <state type="roleInTime" xml:id="vjcm_amanuense_recife_1836">
+                <roleName>Amanuense da Polícia</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <location>
+                    <placeName ref="#recife">Recife</placeName>
+                </location>
+                <date type="begin" when="1836"/>
+            </state>
+            <state type="roleInTime" xml:id="vjcm_major_farroupilha">
+                <roleName>Major</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <note>Serviu no Rio Grande do Sul durante a Revolução Farroupilha.</note>
+            </state>
+            <state type="roleInTime" xml:id="vjcm_tenente_coronel_uruguai_1854">
+                <roleName>Tenente-coronel</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <location>
+                    <placeName ref="#estado_oriental_uruguai">Estado Oriental</placeName>
+                </location>
+                <note>Comandante da 1.ª Brigada na campanha de 1854.</note>
+            </state>
+            <state type="roleInTime" xml:id="vjcm_brigadeiro_paraguai">
+                <roleName>Brigadeiro</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <note>Promovido durante a Guerra do Paraguai.</note>
+            </state>
+            <state type="roleInTime" xml:id="vjcm_barao_sao_borja">
+                <roleName>Barão de São Borja</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>
+                Militar e nobre legalista. Atuou na Revolução Farroupilha, na campanha do Uruguai 
+                e na Guerra do Paraguai. Genro do marechal Bento Manuel Ribeiro.
+            </note>
         </person>
         
         <person xml:id="elzeario">
@@ -6508,49 +6671,149 @@
             <note>Autor de carta remetida em anexo.</note>
         </person>
         
-        <person xml:id="almeida">
-            <persName>Almeida</persName>
-            <note>Ministro autor de carta mencionada.</note>
-        </person>
-        
         <person xml:id="antonio_melo_albuquerque">
             <persName>Antônio de Melo e Albuquerque</persName>
-            <note>Autor da carta CV-103.</note>
+            <persName type="popular">Melo Manso</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q16492071</idno>
+            <birth when="1803-12-04"/>
+            <death when="1869-03-20"/>
+            <state type="roleInTime" xml:id="melo_albuquerque_militar_imperial">
+                <roleName>Militar do Exército Imperial</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="melo_albuquerque_comandante_santo_antonio">
+                <roleName>Coronel Comandante Militar do Município de Santo Antônio</roleName>
+                <affiliation ref="#comando_militar_santo_antonio"/>
+                <date type="approx" when="1839"/>
+                <note>Cargo explicitado em sua assinatura na carta CV-103.</note>
+            </state>
+            <state type="roleInTime" xml:id="melo_albuquerque_comandante_1840">
+                <roleName>Comandante de destacamento</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date when="1840"/>
+                <note>Comandou a tropa responsável pela prisão de Anita Garibaldi em Curitibanos.</note>
+            </state>
+            <note>
+                Militar legalista brasileiro, ativo na Revolução Farroupilha. Atuou principalmente 
+                no planalto catarinense e no norte da província, especialmente na área de Passo Fundo 
+                e Santo Antônio da Patrulha. Autor da carta CV-103, na qual agradece gentilezas 
+                prestadas por Domingos José de Almeida em 1839. Em 1841 comandou a guarda local 
+                atacada por forças farroupilhas.
+            </note>
         </person>
         
         <person xml:id="joao_silva_machado">
             <persName>João da Silva Machado</persName>
-            <note>Comandante Superior das Legiões de Guarda Nacional do Sul da Província de São Paulo, do Rio Negro e de Lages.</note>
+            <persName type="noble">Barão de Antonina</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10312396</idno>
+            <birth when="1782-06-11"/>
+            <death when="1875-03-19"/>
+            <state type="roleInTime" xml:id="joao_silva_machado_comandante_superior">
+                <roleName>Comandante Superior das Legiões de Guarda Nacional</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <location>
+                    <placeName ref="#sao_paulo">São Paulo</placeName>
+                    <placeName ref="#rio_negro">Rio Negro</placeName>
+                    <placeName ref="#lages">Lages</placeName>
+                </location>
+                <note>Cargo desempenhado durante o período das cartas da Coleção Varela.</note>
+            </state>
+            <state type="roleInTime" xml:id="joao_silva_machado_tenente_coronel_milicias">
+                <roleName>Tenente-coronel de Milícias</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="joao_silva_machado_deputado_sp">
+                <roleName>Deputado Provincial por São Paulo</roleName>
+                <affiliation ref="#assembleia_provincial_sp"/>
+                <date type="range" from="1835" to="1843"/>
+            </state>
+            <state type="roleInTime" xml:id="joao_silva_machado_senador_pr">
+                <roleName>Senador pela Província do Paraná</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="from" when="1854"/>
+            </state>
+            <note>
+                Militar, político e tropeiro brasileiro, conhecido como Barão de Antonina.
+                Atuou na criação e articulação política que levaria à formação da Província do Paraná.
+                Responsável pela conservação da Estrada da Mata no início do século XIX.
+            </note>
         </person>
         
-        <person xml:id="hipolito">
+        <person xml:id="capitao_hipolito">
             <persName>Hipólito</persName>
-            <note>Capitão mencionado como comandante de 30 homens. Identidade incompleta.</note>
-        </person>
-        
-        <person xml:id="labatut">
-            <persName>Pedro Labatut</persName>
-            <note>Marechal e comandante militar; concedeu licença mencionada na carta.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="capitao_hipolito_comando_30_homens">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <note>Comandante de um destacamento de 30 homens, incluindo três subalternos.</note>
+            </state>
+            <note>Oficial mencionado por João da Silva Machado; identidade completa não estabelecida no corpus.</note>
         </person>
         
         <person xml:id="jose_antonio_oliveira">
             <persName>José Antônio de Oliveira</persName>
-            <note>Capitão que acompanha o autor na diligência.</note>
+            <idno type="project"/>
+            
+            <state type="roleInTime" xml:id="jao_capitao_diligencia_1842">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <location>
+                    <placeName ref="#vacaria">Vacaria</placeName>
+                    <placeName ref="#rio_antas">Rio Antas (Passo de Cima)</placeName>
+                </location>
+                <note>
+                    Acompanhou o comandante Antônio de Melo Albuquerque em diligência no distrito da Vacaria,
+                    permanecendo destacado sobre as Antas em agosto de 1842.
+                </note>
+            </state>
+            <note>
+                Oficial legalista em serviço na região da Vacaria durante as operações de 1842.
+            </note>
         </person>
         
         <person xml:id="francisco_fabiano_silva">
             <persName>Francisco Fabiano da Silva</persName>
-            <note>Soldado capturado como desertor e remetido às autoridades militares.</note>
+            <state type="militaryStatus" xml:id="francisco_fabiano_silva_1linha">
+                <roleName>Soldado de 1.º Linha</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <note>Soldado pertencente às tropas de 1.º Linha; não informou o batalhão específico.</note>
+            </state>
+            <state type="event" xml:id="francisco_fabiano_silva_captura_1842">
+                <roleName>Capturado e remetido às autoridades</roleName>
+                <date when="1842"/>
+                <note>Detido pelo comandante de polícia durante diligência contra desertores do 8.º Corpo de Guardas Nacionais.</note>
+            </state>
+            <note>Soldado imperial capturado no distrito durante diligências policiais e enviado ao comando superior.</note>
         </person>
         
         <person xml:id="pedro_jose">
             <persName>Pedro José</persName>
-            <note>Praça do exército, desertor que se apresentou ao Comando Militar de Santo Antônio.</note>
+            <persName type="alias">Alemão Pedro José</persName>
+            <note>
+                Praça do Exército Imperial, identificado como “o alemão Pedro José”. 
+                Apresentou-se ao comandante Antônio de Melo e Albuquerque após haver 
+                desertado recentemente. Segundo a carta, afirmou já ter se apresentado 
+                anteriormente ao superior hierárquico do remetente, que o enviara para 
+                aquele ponto.
+            </note>
+            <state type="roleInTime" xml:id="pedro_jose_praça">
+                <roleName>Praça</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <note>Integrante das tropas de linha do Exército Imperial.</note>
+            </state>
         </person>
         
         <person xml:id="joao_lourenco_vidal">
             <persName>João Lourenço Vidal</persName>
-            <note>Tenente enviado a apresentar-se ao comando superior.</note>
+            <state type="roleInTime" xml:id="vidal_tenente">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>
+                Oficial legalista do Exército Imperial. Enviado por Antônio de Melo e Albuquerque 
+                para apresentar-se ao Brigadeiro Tomás José da Silva, levando consigo a relação 
+                das praças aptas e não aptas para marchar.
+            </note>
         </person>
         
         <person xml:id="jose_pedroso_albuquerque">
@@ -6594,8 +6857,49 @@
         </person>
         
         <person xml:id="saturnino_sousa_oliveira">
-            <persName>Saturnino de Sousa e Oliveira</persName>
-            <note>Presidente da Província do Rio Grande do Sul durante o período da Revolução Farroupilha.</note>
+            <persName>Saturnino de Sousa e Oliveira Coutinho</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10368525</idno>
+            <idno type="viaf">https://viaf.org/en/viaf/43442790</idno>
+            <idno type="project"/>
+            <birth when="1803-11-29">29 de novembro de 1803</birth>
+            <death when="1848-04-18">18 de abril de 1848</death>
+            <state type="roleInTime" xml:id="saturnino_estudos_coimbra">
+                <roleName>Estudante de Direito</roleName>
+                <affiliation ref="#universidade_coimbra"/>
+                <date type="end" when="1825"/>
+            </state>
+            <state type="roleInTime" xml:id="saturnino_tenente_coronel_gn">
+                <roleName>Tenente-coronel da Guarda Nacional</roleName>
+                <affiliation ref="#guarda_nacional"/>
+                <date when="1831"/>
+            </state>
+            <state type="roleInTime" xml:id="saturnino_presidente_rgs_1">
+                <roleName>Presidente da Província do Rio Grande do Sul</roleName>
+                <affiliation ref="#rio_grande_sul"/>
+                <date from="1839-06-24" to="1840-07-27"/>
+            </state>
+            <state type="roleInTime" xml:id="saturnino_presidente_rgs_2">
+                <roleName>Presidente da Província do Rio Grande do Sul</roleName>
+                <affiliation ref="#rio_grande_sul"/>
+                <date from="1841-04-17" to="1842-11-09"/>
+            </state>
+            <state type="roleInTime" xml:id="saturnino_ministro_exteriores">
+                <roleName>Ministro dos Negócios Estrangeiros</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date when="1847-05-22"/>
+            </state>
+            <state type="roleInTime" xml:id="saturnino_senador">
+                <roleName>Senador do Império do Brasil</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date from="1847" to="1848"/>
+            </state>
+            <note>
+                Advogado, político e militar brasileiro. Formado em Direito pela Universidade de Coimbra; 
+                atuou como tenente-coronel da Guarda Nacional, deputado geral pela Corte e ministro dos 
+                Negócios Estrangeiros. Foi presidente da Província do Rio Grande do Sul em dois mandatos 
+                durante a Revolução Farroupilha (1839–1840 e 1841–1842). 
+                Dignitário da Imperial Ordem do Cruzeiro.
+            </note>
         </person>
         
         <person xml:id="manuel_jose_simas">

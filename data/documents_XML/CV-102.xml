@@ -60,6 +60,16 @@
                     <series>
                         <title>II Série</title>
                     </series>
+                    <msDesc>
+                        <physDesc>
+                            <provenance>
+                                Documento doado por 
+                                <persName ref="#martim_francisco_filho">Martim Francisco Filho</persName>,
+                                conforme nota de 
+                                <persName ref="#alfredo_varela">A. Varela</persName>.
+                            </provenance>
+                        </physDesc>
+                    </msDesc>
                 </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
@@ -99,6 +109,18 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-07-08">08/07/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-02">02/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     <text>
@@ -125,9 +147,9 @@
                 <p>Vós bem sabeis quais têm sido os meus serviços e trabalhos, e que enormes despesas tenho feito com as fortes reuniões 
                     que tenho feito que têm montado desde o princípio da luta a mais de 18700 [sic] homens, e o meu nome pouco tem 
                     aparecido, por eu não ter habilidade para fazer valer meus serviços. Remeto-vos também 2 ofícios de <persName ref="#jose_araujo_ribeiro">Araújo Ribeiro</persName>, 
-                    2 de <persName ref="#bento_manoel">Bento Manuel</persName>, 1 de <persName ref="#antero">Antero</persName>, 2 do 
+                    2 de <persName ref="#bento_manoel">Bento Manuel</persName>, 1 de <persName ref="#antero_ferreira_ribeiro">Antero</persName>, 2 do 
                     <persName ref="#francisco_chagas_santos">Chagas</persName>, 1 do Brigadeiro <persName ref="#carneiro">Carneiro</persName>, duas ordens 
-                    do dia que alguma coisa dizem em meu abono; e sobretudo uma carta do <persName ref="#barreto">Barreto</persName>, 
+                    do dia que alguma coisa dizem em meu abono; e sobretudo uma carta do <persName ref="#joao_paulo_santos_barreto">Barreto</persName>, 
                     que me parece não se pode dizer mais bem de homem algum; e não mando os mais por me parecerem suficientes, e necessitar 
                     dos outros documentos.</p>
                 
@@ -149,7 +171,11 @@
                     remeto e a do Ministro <persName ref="#almeida">Almeida</persName>, pedindo a representação que à Câmara dei, existe 
                     em vosso poder; por isso mandai-ma assim como as cartas de Almeida e Palmeiro que são para verdes.</note>
                 
-                <note type="endorsement">Doado pelo saudoso Martim Francisco Filho. (a) A. Varela.</note>
+                <note type="endorsement">
+                    Doado pelo saudoso 
+                    <persName ref="#martim_francisco_filho">Martim Francisco Filho</persName>. 
+                    (a) <persName ref="#alfredo_varela">A. Varela</persName>.
+                </note>
                 
             </div>
         </body>

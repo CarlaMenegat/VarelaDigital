@@ -3,6 +3,7 @@
     <listOrg>
         <org xml:id="colecao_varela" type="archiveCollection">
             <orgName>Coleção Varela</orgName>
+            <idno type="project"></idno>
             <note>Conjunto documental reunido por Alfredo Varela a partir do arquivo pessoal de Domingos José de Almeida e de adições posteriores. Publicado nos Anais do Arquivo Histórico do Rio Grande do Sul.</note>
         </org>
         
@@ -38,40 +39,68 @@
             </state>
             <note>Instituição criada em 1954 pelo governo estadual para custodiar e organizar documentos históricos originalmente depositados no Museu Júlio de Castilhos.</note>
         </org>
-
-        <org xml:id="republica_rio_grandense">
+        
+        <org xml:id="republica_rio_grandense" type="sovereignState">
             <orgName>República Rio-Grandense</orgName>
-            <note>Entidade política proclamada durante a Guerra dos Farrapos (1836–1845).</note>
+            <orgName type="variant">República Rio-grandense</orgName>
+            <orgName type="alias">República de Piratini</orgName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q162192</idno>
+            <idno type="viaf">https://viaf.org/viaf/7616163939459101160005</idno>
+            <note>
+                Entidade política proclamada em 11 de setembro de 1836, durante a Revolução Farroupilha 
+                (1835–1845). Estruturou governo próprio, com ministérios, forças armadas, assembleia 
+                legislativa e administração fiscal. Teve como capitais Piratini, Caçapava e Alegrete, 
+                sustentando oposição militar ao Império do Brasil até a assinatura do acordo de Ponche 
+                Verde, em 1845.
+            </note>
         </org>
         
-        <org xml:id="corpo_lanceiros_negros" type="militaryUnit">
-            <orgName>Corpo de Lanceiros Negros</orgName>
-            <note>Unidade de cavalaria composta majoritariamente por soldados negros, criada durante a Revolução Farroupilha e comandada por Joaquim Teixeira Nunes.</note>
-        </org>
-        
-        <org xml:id="estate_jose_augusto_ledek" type="estate">
-            <orgName>Espólio de José Augusto Ledek</orgName>
+        <org xml:id="imperio_brasil" type="sovereignState">
+            <orgName>Império do Brasil</orgName>
+            <orgName type="variant">Brazilian Empire</orgName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q217230</idno>
+            <note>
+                Estado soberano existente de 1822 a 1889, sucessor do Reino do Brasil e integrante da monarquia 
+                constitucional brasileira. Durante a Revolução Farroupilha (1835–1845), o governo imperial atuou 
+                na defesa da integridade territorial da província do Rio Grande do Sul, enviando presidentes 
+                provinciais, comandantes militares e unidades do Exército e da Guarda Nacional para enfrentar 
+                a República Rio-Grandense.
+            </note>
         </org>
         
         <org xml:id="universidade_coimbra" type="educationalInstitution">
             <orgName>Universidade de Coimbra</orgName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q368643</idno>
+            <idno type="viaf">https://viaf.org/en/viaf/138334548</idno>
             <placeName ref="#coimbra">Coimbra</placeName>
-            <note>Instituição universitária portuguesa fundada no século XIII; destino comum de estudantes luso-brasileiros durante o período imperial.</note>
+            <note>
+                Instituição universitária portuguesa fundada no século XIII, uma das mais antigas da Europa.
+                Destino frequente de estudantes luso-brasileiros durante o período colonial e imperial,
+                especialmente nas áreas de Direito, Filosofia e Medicina.
+            </note>
         </org>
         
         <org xml:id="faculdade_direito_sao_francisco" type="educationalInstitution">
             <orgName>Faculdade de Direito do Largo de São Francisco</orgName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2667184</idno>
+            <idno type="viaf">https://viaf.org/en/viaf/155891103</idno>
             <placeName ref="#sao_paulo">São Paulo</placeName>
-            <note>Instituição de ensino jurídico fundada em 1827, uma das duas primeiras faculdades de direito do Brasil.</note>
+            <note>
+                Instituição de ensino jurídico fundada em 1827, instalada no Largo de São Francisco.
+                Foi uma das duas primeiras faculdades de direito do Brasil e formou inúmeras figuras
+                políticas e intelectuais do período imperial e republicano.
+            </note>
         </org>
         
         <org xml:id="assembleia_provincial_rs" type="government">
             <orgName>Assembleia Provincial de São Pedro do Rio Grande do Sul</orgName>
+            <idno type="project"/>
+            <affiliation ref="#imperio_brasil"/>
             <placeName ref="#porto_alegre">Porto Alegre</placeName>
             <note>Órgão legislativo provincial instituído após o Ato Adicional de 1834, responsável pela legislação local do Rio Grande do Sul durante o período imperial.</note>
         </org>
         
-        <org xml:id="marinha_farroupilha">
+        <org xml:id="marinha_farroupilha" type="militaryOrganization">
             <orgName>Marinha Farroupilha</orgName>
             <idno type="project"></idno>
             <note>Força naval da República Rio-Grandense, responsável por operações fluviais e costeiras durante a Revolução Farroupilha.</note>
@@ -79,6 +108,7 @@
         
         <org xml:id="oitavo_batalhao_cacadores" type="militaryUnit">
             <orgName>8.º Batalhão de Caçadores</orgName>
+            <idno type="project"/>
             <affiliation ref="#imperio_brasil"/>
             <note>
                 Unidade de infantaria do Exército Imperial do Brasil, atuante durante a 
@@ -90,6 +120,7 @@
         
         <org xml:id="primeiro_batalhao_fuzileiros" type="militaryUnit">
             <orgName>1.º Batalhão de Fuzileiros</orgName>
+            <idno type="project"/>
             <affiliation ref="#imperio_brasil"/>
             <note>Unidade do Exército Imperial do Brasil, mencionada nas operações militares da Revolução Farroupilha.</note>
         </org>
@@ -122,7 +153,15 @@
             <orgName>2.º Batalhão</orgName>
             <note>Unidade do Exército Imperial, mencionada em operações sob comando do Brigadeiro Filipe Neri de Oliveira.</note>
         </org>
-
+        
+        <org xml:id="corpo_lanceiros_negros" type="militaryUnit">
+            <orgName>Corpo de Lanceiros Negros</orgName>
+            <note>Unidade de cavalaria composta majoritariamente por soldados negros, criada durante a Revolução Farroupilha e comandada por Joaquim Teixeira Nunes.</note>
+        </org>
+        
+        <org xml:id="estate_jose_augusto_ledek" type="estate">
+            <orgName>Espólio de José Augusto Ledek</orgName>
+        </org>
         
         <org xml:id="quarta_reparticao_interior">
             <orgName>4ª Repartição do Interior</orgName>
@@ -137,38 +176,54 @@
             <note>Referência à Inspetoria responsável pela auditoria ou fiscalização contábil no Tesouro.</note>
         </org>
         
+        <org xml:id="guardas_nacionais_8corpo" type="militaryUnit">
+            <orgName>8.º Corpo de cavalaria dos Guardas Nacionais</orgName>
+            <idno type="project"/>
+            <affiliation ref="#imperio_brasil"/>
+            <note>
+                Unidade militar da Guarda Nacional do Império do Brasil, atuante durante a 
+                Revolução Farroupilha.
+            </note>
+        </org>
+        
         <org xml:id="guardas_nacionais_5corpo" type="militaryUnit">
             <orgName>5.º Corpo de cavalaria dos Guardas Nacionais</orgName>
+            <idno type="project"/>
+            <affiliation ref="#imperio_brasil"/>
             <note>Unidade militar da Guarda Nacional do Império do Brasil, atuante durante a Revolução Farroupilha.</note>
         </org>
 
-        
         <org xml:id="infantaria_5batalhao" type="militaryUnit">
             <orgName>5.º Batalhão de Infantaria</orgName>
+            <idno type="project"/>
             <affiliation ref="#imperio_brasil"/>
             <note>Batalhão de infantaria do Exército Imperial, atuante durante a Revolução Farroupilha.</note>
         </org>
         
         <org xml:id="cavalaria_2regimento" type="militaryUnit">
             <orgName>2.º Regimento de Cavalaria de Linha</orgName>
+            <idno type="project"/>
             <affiliation ref="#imperio_brasil"/>
             <note>Regimento de Cavalaria de Linha do Exército Imperial, ativo durante a Revolução Farroupilha.</note>
         </org>
         
         <org xml:id="cavalaria_3regimento" type="militaryUnit">
             <orgName>3.º Regimento de Cavalaria de Linha</orgName>
+            <idno type="project"/>
             <affiliation ref="#imperio_brasil"/>
             <note>Regimento de Cavalaria de Linha do Exército Imperial, citado em operações militares na província.</note>
         </org>
         
         <org xml:id="guardas_nacionais_3corpo" type="militaryUnit">
             <orgName>3.º Corpo de cavalaria dos Guardas Nacionais</orgName>
+            <idno type="project"/>
             <affiliation ref="#imperio_brasil"/>
             <note>Unidade militar da Guarda Nacional do Império do Brasil, atuante durante a Revolução Farroupilha.</note>
         </org>
         
         <org xml:id="terceiro_batalhao" type="militaryUnit">
             <orgName>3.º Batalhão de Infantaria</orgName>
+            <idno type="project"/>
             <affiliation ref="#imperio_brasil"/>
             <note>Batalhão do Exército Imperial Brasileiro atuante durante a Revolução Farroupilha.</note>
         </org>
@@ -176,11 +231,6 @@
         <org xml:id="secretaria_interior">
             <orgName>Secretaria do Interior</orgName>
             <note>Órgão administrativo da República Rio-grandense.</note>
-        </org>
-        
-        <org xml:id="secretaria_interior">
-            <orgName>Secretaria do Interior</orgName>
-            <note>Órgão administrativo da República Rio-Grandense responsável por assuntos internos.</note>
         </org>
         
         <org xml:id="camara_alegrete" type="governmentBody">
@@ -198,57 +248,68 @@
         
         <org xml:id="ministerio_fazenda" type="governmentMinistry">
             <orgName>Ministério da Fazenda</orgName>
+            <idno type="project"/>
             <note>Órgão superior responsável pela política financeira e fiscal da República Rio-Grandense.</note>
         </org>
         
         
         <org xml:id="secretaria_fazenda" type="governmentOffice">
             <orgName>Secretaria de Estado dos Negócios da Fazenda</orgName>
+            <idno type="project"/>
             <note>Órgão do governo farroupilha responsável pela administração cotidiana das finanças públicas.</note>
         </org>
         
         <org xml:id="tesouro" type="governmentOffice">
             <orgName>Tesouro</orgName>
+            <idno type="project"/>
             <note>Órgão central responsável pelas finanças públicas da República Rio-Grandense, incluindo arrecadação, pagamentos e escrituração.</note>
         </org>
         
         <org xml:id="secretaria_tesouro" type="governmentOffice">
             <orgName>Secretaria do Tesouro</orgName>
+            <idno type="project"/>
             <note>Departamento administrativo interno do Tesouro, responsável por registro, tramitação e organização das ordens financeiras.</note>
         </org>
         
         <org xml:id="tribunal_tesouro" type="governmentOffice">
             <orgName>Tribunal do Tesouro</orgName>
+            <idno type="project"/>
             <note>Órgão de supervisão, auditoria e julgamento de contas do governo farroupilha.</note>
         </org>
         
         <org xml:id="coletoria_bage" type="fiscalOffice">
             <orgName>Coletoria de Bagé</orgName>
+            <idno type="project"/>
             <note>Órgão encarregado da arrecadação de impostos na região de Bagé.</note>
         </org>
         
         <org xml:id="coletoria_alegrete_sao_borja" type="fiscalOffice">
             <orgName>Coletoria Geral dos Municípios de Alegrete e São Borja</orgName>
+            <idno type="project"/>
             <note>Órgão fiscal da República Rio-Grandense responsável pela arrecadação em municípios da fronteira oeste.</note>
         </org>
         
         <org xml:id="reparticao_fiscal_rio_uruguai" type="fiscalOffice">
             <orgName>Repartição Fiscal do Rio Uruguai</orgName>
+            <idno type="project"/>
             <note>Órgão responsável pela fiscalização fluvial e alfandegária na navegação do Rio Uruguai.</note>
         </org>
         
         <org xml:id="contadoria_geral" type="governmentOffice">
             <orgName>Contadoria Geral</orgName>
+            <idno type="project"/>
             <note>Órgão financeiro da República Rio-Grandense responsável pelo exame de contas e pela escrituração fiscal.</note>
         </org>
         
         <org xml:id="procuradoria_fiscal" type="governmentOffice">
             <orgName>Procuradoria Fiscal</orgName>
+            <idno type="project"/>
             <note>Órgão jurídico-fiscal encarregado de analisar contas, emitir pareceres e processar questões financeiras.</note>
         </org>
         
         <org xml:id="fazendas_nacionais">
             <orgName>Fazendas Nacionais</orgName>
+            <idno type="project"/>
             <note>Propriedades rurais pertencentes ao Estado; remanescentes das antigas estâncias dos jesuítas e administradas pelo Tesouro.</note>
         </org>
         
@@ -271,12 +332,14 @@
             <orgName type="variant">Exército Republicano Rio-grandense</orgName>
             <orgName type="alias">Exército Farroupilha</orgName>
             <idno type="project"></idno>
+            <affiliation ref="#republica_rio_grandense"/>
             <note>Força militar da República Rio-Grandense durante a Revolução Farroupilha.</note>
         </org>
         
         <org xml:id="divisao_direita" type="militaryUnit">
             <orgName>Divisão Direita</orgName>
             <idno type="project"></idno>
+            <affiliation ref="#republica_rio_grandense"/>
             <note>Grande unidade militar do Exército Republicano Rio-Grandense, atuante em operações estratégicas durante a Revolução Farroupilha.</note>
         </org>
         
@@ -380,11 +443,6 @@
             <orgName>Procuradores Gerais</orgName>
         </org>
         
-        <org xml:id="imperio_brasil">
-            <orgName>Império do Brasil</orgName>
-            <note>Estado soberano brasileiro no período imperial.</note>
-        </org>
-        
         <org xml:id="conselho_investigacao">
             <orgName>Conselho de Investigação</orgName>
             <note>Instância preliminar responsável por formação da culpa.</note>
@@ -433,12 +491,14 @@
         
         <org xml:id="esquadrao_barra" type="militaryUnit">
             <orgName>Esquadrão da Barra</orgName>
+            <idno type="project"></idno>
             <affiliation ref="#imperio_brasil"/>
             <note>Unidade militar do Exército Imperial comandada por Francisco Pedro de Abreu.</note>
         </org>
         
         <org xml:id="oitavo_batalhao" type="militaryUnit">
             <orgName>8.º Batalhão</orgName>
+            <idno type="project"></idno>
             <affiliation ref="#imperio_brasil"/>
             <state type="roleInTime" xml:id="oitavo_batalhao_comando_neri_1839">
                 <roleName>Comandado pelo Brigadeiro Filipe Neri de Oliveira</roleName>
@@ -456,20 +516,23 @@
         
         <org xml:id="quinta_comp_cavalaria" type="militaryUnit">
             <orgName>5.ª Companhia de Cavalaria</orgName>
+            <idno type="project"></idno>
             <affiliation ref="#imperio_brasil"/>
             <note>Unidade de cavalaria integrante das forças do Exército Imperial do Brasil, mencionada como parte do Esquadrão da Barra.</note>
         </org>
         
         <org xml:id="primeira_brigada_cavalaria" type="militaryUnit">
             <orgName>1.ª Brigada de Cavalaria</orgName>
+            <idno type="project"></idno>
             <affiliation ref="#imperio_brasil"/>
             <note>Unidade de cavalaria do Exército do Império do Brasil, mencionada no contexto das operações militares durante a Revolução Farroupilha.</note>
         </org>
         
         <org xml:id="esquadrao_barra">
             <orgName>Esquadrão da Barra</orgName>
+            <idno type="project"></idno>
             <note>Esquadrão citado como estando sob o comando de Francisco Pedro de Abreu.</note>
-            <affiliation>Exército do Império do Brasil</affiliation>
+            <affiliation ref="#imperio_brasil"/>
         </org>
         
         <org xml:id="legalidade">
@@ -479,6 +542,7 @@
         
         <org xml:id="esquadrao_triunfo" type="militaryUnit">
             <orgName>Esquadrão do Triunfo</orgName>
+            <idno type="project"></idno>
             <affiliation ref="#imperio_brasil"/>
             <location>
                 <placeName ref="#triunfo">Triunfo</placeName>
@@ -500,13 +564,17 @@
             <note>Instância eleitoral de base, organizada para escolha de representantes.</note>
         </org>
         
-        <org xml:id="assembleia_constituinte">
+        <org xml:id="assembleia_constituinte" type="legislativeBody">
             <orgName>Assembleia Geral Constituinte e Legislativa da República Rio-Grandense</orgName>
+            <orgName type="variant">Assembleia Constituinte da República Rio-Grandense</orgName>
+            <idno type="project"/>
+            <affiliation ref="#republica_rio_grandense"/>
             <note>
-                Órgão legislativo supremo da República Rio-Grandense, responsável pela 
-                elaboração da constituição, produção legislativa civil e administrativa, 
-                deliberação sobre concessões (como sesmarias) e definição de políticas 
-                de Estado entre 1836 e 1845.
+                Órgão legislativo supremo da República Rio-Grandense, instalado em 1842 como 
+                Assembleia Geral Constituinte e Legislativa. Competia-lhe elaborar a constituição, 
+                legislar sobre matérias civis, administrativas e fiscais, deliberar sobre concessões 
+                como sesmarias, estruturar instituições do Estado republicano e regular a atuação do 
+                Executivo durante o período da Revolução Farroupilha (1835–1845).
             </note>
         </org>
         
@@ -514,22 +582,16 @@
             <orgName>Guarda Militar da Polícia</orgName>
         </org>
         
-        <org xml:id="bc8">
-            <orgName>8.º Batalhão de Caçadores</orgName>
-        </org>
-        
-        <org xml:id="rc3">
-            <orgName>3.º Regimento de Cavalaria</orgName>
-        </org>
-        
-        <org xml:id="caixa_militar">
-            <orgName>Caixa Militar</orgName>
-            <note>Órgão administrativo militar responsável por pagamentos e provimentos.</note>
-        </org>
-        
-        <org xml:id="comando_militar_santo_antonio">
-            <orgName>Comando Militar do município de Santo Antônio</orgName>
-            <note>Unidade militar responsável pelo distrito de Santo Antônio da Patrulha.</note>
+        <org xml:id="comando_militar_santo_antonio" type="militaryCommand">
+            <orgName>Comando Militar do Município de Santo Antônio</orgName>
+            <idno type="project"/>
+            <placeName ref="#santo_antonio_patrulha">Santo Antônio da Patrulha</placeName>
+            <affiliation ref="#imperio_brasil"/>
+            <note>
+                Comando militar legalista sediado no município de Santo Antônio da Patrulha, 
+                responsável pela organização das forças locais, diligências policiais e 
+                comunicações ao presidente da província durante a Revolução Farroupilha.
+            </note>
         </org>
         
         <org xml:id="ministerio_guerra_marinha">
@@ -539,6 +601,7 @@
         
         <org xml:id="segundo_corpo" type="militaryUnit">
             <orgName>2.º Corpo do Exército Imperial</orgName>
+            <idno type="project"/>
             <affiliation ref="#imperio_brasil"/>
             <note>
                 Unidade militar integrante das forças do Exército do Império do Brasil, atuante 
@@ -549,13 +612,9 @@
         
         <org xml:id="1_brigada_guarda_nacional">
             <orgName>1.º Brigada de Guarda Nacional</orgName>
-            <affiliation>Farroupilhas</affiliation>
+            <idno type="project"/>
+            <affiliation ref="#republica_rio_grandense"/>
             <note>Unidade militar da Guarda Nacional mencionada nas correspondências farroupilhas.</note>
-        </org>
-        
-        <org xml:id="caramurus">
-            <orgName>Caramurus</orgName>
-            <note>Facção política conservadora do período regencial e imperial, adversária dos farroupilhas.</note>
         </org>
         
         <org xml:id="camara_rio_grande">
@@ -574,14 +633,45 @@
             <orgName>12ª Companhia da Guarda Nacional</orgName>
         </org>
         
-        <org xml:id="camara_sao_jose_norte">
-            <orgName>Câmara da vila do Norte</orgName>
-            <note>Câmara Municipal de São José do Norte.</note>
+        <org xml:id="camara_sao_jose_norte" type="governmentBody">
+            <orgName>Câmara Municipal de São José do Norte</orgName>
+            <orgName type="variant">Câmara da Vila do Norte</orgName>
+            <placeName ref="#sao_jose_do_norte">São José do Norte</placeName>
+            <affiliation ref="#republica_rio_grandense"/>
+            <note>
+                Câmara municipal da Vila de São José do Norte. Entre 1836 e 1837 esteve 
+                sob controle administrativo farroupilha, exercendo funções civis 
+                (polícia, arrecadação e atos eleitorais) no território ocupado pela 
+                República Rio-Grandense.
+            </note>
         </org>
         
-        <org xml:id="partido_liberal">
+        <org xml:id="partido_liberal" type="politicalParty">
             <orgName>Partido Liberal</orgName>
-            <note>Partido político brasileiro do século XIX, ao qual pertenceram Feijó e Domingos José de Almeida.</note>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q2731720</idno>
+            <note>
+                Partido político brasileiro formado durante o período regencial e 
+                consolidado no Império do Brasil. Reunia líderes moderados e 
+                reformistas, como Diogo Antônio Feijó, e influenciou diretamente 
+                a atuação política de Domingos José de Almeida.
+            </note>
+        </org>
+        
+        <org xml:id="partido_blanco" type="politicalParty">
+            <orgName>Partido Nacional</orgName>
+            <orgName type="popular">Partido Blanco</orgName>
+            <orgName xml:lang="es" type="variant">Partido Nacional</orgName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q1549793</idno>
+            <placeName ref="#uruguai">Uruguai</placeName>
+            <note>
+                Partido político uruguaio formado na década de 1830, liderado inicialmente 
+                por Manuel Oribe. Atuou como uma das principais facções políticas do 
+                Uruguai durante o período das guerras civis rio-platinas, frequentemente 
+                alinhado com setores conservadores e com o governo imperial brasileiro. 
+                É citado nas cartas da Coleção Varela por sua participação militar e 
+                política na região fronteiriça durante a Revolução Farroupilha e a 
+                Guerra Grande.
+            </note>
         </org>
     </listOrg>
 </standOff>

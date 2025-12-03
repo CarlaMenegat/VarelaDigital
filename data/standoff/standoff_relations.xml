@@ -122,6 +122,16 @@
             active="#estado_recebe_colecao_1936"
             passive="#colecao_varela"/>
         
+        <relation 
+            name="prov:wasAttributedTo"
+            active="#documento_CV_102"
+            passive="#martim_francisco_filho"/>
+        
+        <relation 
+            name="prov:wasAttributedTo"
+            active="#processo_de_doacao"
+            passive="#alfredo_varela"/>
+        
         <relation
             name="rel:childOf"
             active="#abrilina_almeida"
@@ -2335,6 +2345,11 @@
             active="#dionisio_coronel"
             passive="#manuel_oribe"/>
         
+        <relation
+            name="foaf:affiliation"
+            active="#dionisio_coronel"
+            passive="#partido_blanco"/>
+        
         <relation 
             name="foaf:knows"
             active="#inacio_nobre"
@@ -2443,6 +2458,92 @@
             name="hrao:commanded"
             active="#silva_tavares"
             passive="#fronteira_jaguarão"/>
+        
+        <relation 
+            name="hrao:hasKinship" 
+            active="#vitorino_jose_carneiro_monteiro" 
+            passive="#bento_manoel" 
+            mutual="false"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#antonio_melo_albuquerque"
+            passive="#domingos_jose_almeida"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#pardo_fortunato"
+            passive="#agostinho_antonio_melo"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#pardo_fortunato"
+            passive="#antonio_melo_albuquerque"
+            mutual="true"/>|
+        
+        <relation 
+            name="foaf:knows" 
+            active="#joao_silva_machado" 
+            passive="#antonio_melo_albuquerque"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#joao_silva_machado" 
+            passive="#capitao_hipolito"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#antonio_melo_albuquerque" 
+            passive="#labatut"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#francisco_alvares_machado"
+            passive="#bento_goncalves"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#saturnino_sousa_oliveira"
+            passive="#antonio_melo_albuquerque"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#antonio_melo_albuquerque"
+            passive="#jose_antonio_oliveira"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#antonio_melo_albuquerque"
+            passive="#francisco_fabiano_silva"
+            mutual="true"/>
+        
+        <relation
+            name="hrao:commanded"
+            active="#antonio_melo_albuquerque"
+            passive="#comando_militar_santo_antonio"/>
+        
+        <relation
+            name="hrao:servedUnder"
+            active="#antonio_melo_albuquerque"
+            passive="#luis_alves_lima_silva"/>
+        
+        <relation
+            name="hrao:reportedTo"
+            active="#pedro_jose_alemao"
+            passive="#antonio_melo_albuquerque"/>
+        
+        <relation
+            name="hrao:deliveredMessageTo"
+            active="#joao_lourenco_vidal"
+            passive="#tomas_jose_silva"/>
         
     </standOff>
     
