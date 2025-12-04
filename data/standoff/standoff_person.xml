@@ -2121,8 +2121,93 @@
             <persName>Marcos Cristine</persName>
         </person>
         
+        <person xml:id="alexandre_pereira">
+            <persName>Alexandre Manuel Pereira</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="alexandre_pereira_capitao_gn">
+                <roleName>Capitão de Guardas Nacionais</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>
+                Oficial farroupilha atuante na região de Santa Maria. Autor de comunicação 
+                dirigida ao Ministro da Guerra Serafim Joaquim de Alencastre, na qual relata 
+                ataque inimigo e a morte do tenente José Jacinto em serviço de reconhecimento.
+            </note>
+        </person>
+        
+        <person xml:id="jose_jacinto">
+            <persName>José Jacinto</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="jose_jacinto_tenente">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>
+                Tenente farroupilha enviado em missão de reconhecimento pelo Capitão 
+                Alexandre Manuel Pereira, morto nos primeiros tiros durante ataque 
+                inimigo à capela de Santa Maria.
+            </note>
+        </person>
+        
         <person xml:id="vicente_ferrer_almeida">
-            <persName>Vicente Ferrer de Almeida</persName>
+            <persName>Vicente Ferrer d'Almeida</persName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10390245</idno>
+            <birth when="1810"/>
+            <state type="roleInTime" xml:id="vicente_ferrer_guerra_cisplatina">
+                <roleName>Alferes combatente na Guerra Cisplatina</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="period" from="1825" to="1828"/>
+                <note>
+                    Serviu como alferes nos conflitos da Guerra Cisplatina, antes da desmobilização do Exército do Sul.
+                </note>
+            </state>
+            <state type="roleInTime" xml:id="vicente_ferrer_lanceiros_negros">
+                <roleName>Comandante do Corpo de Lanceiros Negros</roleName>
+                <affiliation ref="#corpo_lanceiros_negros"/>
+                <affiliation ref="#republica_rio_grandense"/>
+                <note>
+                    Comandou o Corpo de Lanceiros Negros em múltiplos combates durante a 
+                    Revolução Farroupilha.
+                </note>
+            </state>
+            <state type="roleInTime" xml:id="vicente_ferrer_ministro_republica">
+                <roleName>Ministro da República Rio-Grandense</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <location>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                </location>
+                <note>
+                    Atuou como ministro durante o período em que Caçapava foi capital da República Rio-Grandense.
+                </note>
+            </state>
+            <state type="roleInTime" xml:id="vicente_ferrer_secretaria_guerra">
+                <roleName>Empregado / funcionário da Secretaria dos Negócios da Guerra</roleName>
+                <affiliation ref="#secretaria_guerra"/>
+                <affiliation ref="#republica_rio_grandense"/>
+                <note>
+                    Responsável por conferir documentos administrativos e militares, assinando 
+                    endossos com a fórmula “Está conforme”.
+                </note>
+            </state>
+            <state type="roleInTime" xml:id="vicente_ferrer_escrivao_cangucu">
+                <roleName>Escrivão da Câmara Municipal</roleName>
+                <affiliation ref="#camara_cangucu"/>
+                <location>
+                    <placeName ref="#cangucu">Canguçu</placeName>
+                </location>
+                <date when="1857"/>
+                <note>
+                    Primeiro escrivão da Câmara de Canguçu, tendo lavrado a ata de elevação da vila 
+                    a município.
+                </note>
+            </state>
+            <note>
+                Militar e funcionário público brasileiro, filho do oficial português José Maria de Almeida. 
+                Após combater na Guerra Cisplatina, fixou-se em Piratini, onde constituiu família. Durante 
+                a Revolução Farroupilha, teve destaque como comandante de Lanceiros Negros e como figura 
+                administrativa, inclusive atuando como ministro e como empregado da Secretaria da Guerra. 
+                No pós-guerra tornou-se escrivão em Canguçu, sendo o primeiro funcionário da Câmara local.
+            </note>
         </person>
         
         <person xml:id="joao_tomas_farinha">
@@ -3514,10 +3599,6 @@
         
         <person xml:id="fileno_carlos_morais">
             <persName>Fileno Carlos de Morais</persName>
-        </person>
-        
-        <person xml:id="jeronimo_jacinto">
-            <persName>Jerônimo Jacinto</persName>
         </person>
         
         <person xml:id="lucas">

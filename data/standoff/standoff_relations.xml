@@ -169,11 +169,6 @@
             passive="#combate_espinilho"/>
         
         <relation
-            name="pro:holdsRoleInTime"
-            active="#roque_faustino"
-            passive="#roque_faustino_capitao"/>
-        
-        <relation
             name="hrao:wasPrisonerInEvent"
             active="#roque_faustino"
             passive="#combate_espinilho"/>
@@ -182,11 +177,6 @@
             name="hrao:killed"
             active="#roque_faustino"
             passive="#joao_manuel_lima_silva"/>
-        
-        <relation
-            name="pro:holdsRoleInTime"
-            active="#canabarro"
-            passive="#canabarro_general_rrg"/>
         
         <relation
             name="hrao:followedPoliticalAlignmentOf"
@@ -207,39 +197,6 @@
             name="hrao:participatedInEvent"
             active="#bento_manoel"
             passive="#combate_espinilho"/>
-        
-        <relation 
-            name="pro:holdsRoleInTime"
-            active="#bento_manoel"
-            passive="#bento_manoel_farroupilha_1835"/>
-        
-        <relation 
-            name="pro:holdsRoleInTime"
-            active="#bento_manoel"
-            passive="#bento_manoel_imperial_1836"/>
-        
-        <relation 
-            name="pro:holdsRoleInTime"
-            active="#bento_manoel"
-            passive="#bento_manoel_farroupilha_1837"/>
-        
-        <relation 
-            name="pro:withRole" 
-            active="#bento_manoel_farroupilha_1835" 
-            passive="#pro:commander"/>
-        
-        <relation name="pro:withRole" 
-            active="#bento_manoel_imperial_1836" 
-            passive="#pro:commander"/>
-        
-        <relation name="pro:withRole" 
-            active="#bento_manoel_farroupilha_1837" 
-            passive="#pro:commander"/>
-        
-        <relation
-            name="hrao:followedPoliticalAlignmentOf"
-            active="#demetrio_ribeiro"
-            passive="#bento_manoel"/>
         
         <relation
             name="hrao:participatedInEvent"
@@ -280,11 +237,6 @@
             passive="#alexandre_silveira"/>
         
         <relation
-            name="pro:holdsRoleInTime"
-            active="#teixeira_nunes"
-            passive="#teixeira_nunes_coronel_lanceiros"/>
-        
-        <relation
             name="hrao:participatedInEvent"
             active="#teixeira_nunes"
             passive="#combate_espinilho"/>
@@ -298,11 +250,6 @@
             name="hrao:participatedInEvent"
             active="#teixeira_nunes"
             passive="#evento_porongos_1844"/>
-
-        <relation
-            name="pro:holdsRoleInTime"
-            active="#fontoura"
-            passive="#fontoura_ministro_fazenda_1841"/>
         
         <relation
             name="schema:memberOf"
@@ -363,26 +310,6 @@
             name="schema:interactsWith"
             active="#antonio_abreu"
             passive="#viana_contador"/>
-        
-        <relation
-            name="pro:holdsRoleInTime"
-            active="#domingos_jose_almeida"
-            passive="#domingos_quartel_mestre_general_rrg"/>
-        
-        <relation
-            name="pro:holdsRoleInTime"
-            active="#gaspar_borges"
-            passive="#gaspar_borges_agente_rrg"/>
-        
-        <relation
-            name="pro:holdsRoleInTime"
-            active="#gaspar_borges"
-            passive="#gaspar_borges_agente_rrg"/>
-        
-        <relation
-            name="pro:holdsRoleInTime"
-            active="#onofre_pires_silveira_canto"
-            passive="#onofre_pires_coronel_rrg"/>
         
         <relation
             name="rel:isCousinOf"
@@ -623,16 +550,6 @@
             passive="#imperio_brasil"/>
         
         <relation
-            name="hrao:reportedTo"
-            active="#antonio_pedro_abreu"
-            passive="#tomas_jose_silva"/>
-        
-        <relation
-            name="hrao:issuedOrderToFree"
-            active="#tomas_jose_silva"
-            passive="#francisco_jose_nascimento_junior"/>
-        
-        <relation
             name="hrao:wasPrisonerOf"
             active="#candido_machado_sousa"
             passive="#imperio_brasil"/>
@@ -693,9 +610,9 @@
             passive="#fernando_kersting"/>
         
         <relation
-            name="hrao:commanded"
+            name="pro:commader"
             active="#fernando_kersting"
-            passive="#triunfo"/>
+            passive="#esquadrao_triunfo"/>
         
         <relation
             name="hrao:commanded"
@@ -797,13 +714,8 @@
             passive="#antonio_jose_goncalves_chaves"
             mutual="true"/>
         
-        <relation
-            name="pro:holdsRoleInTime"
-            active="#firmino_luis_gomes_de_abreu"
-            passive="#firmino_abreu_almoxarife_1840"/>
-        
-        <relation
-            name="hrao:commandedUnit"
+        <relation 
+            name="pro:commander"
             active="#francisco_pedro_abreu"
             passive="#esquadrao_barra"/>
         
@@ -2455,7 +2367,7 @@
             passive="#francisco_chagas_santos"/>
         
         <relation 
-            name="hrao:commanded"
+            name="pro:commander"
             active="#silva_tavares"
             passive="#fronteira_jaguarão"/>
         
@@ -2526,7 +2438,7 @@
             mutual="true"/>
         
         <relation
-            name="hrao:commanded"
+            name="pro:cammander"
             active="#antonio_melo_albuquerque"
             passive="#comando_militar_santo_antonio"/>
         
@@ -2661,5 +2573,42 @@
         name="schema:subOrganizationOf"
         active="#ministerio_guerra"
         passive="#republica_rio_grandense"/>
+    
+    <relation
+        name="hrao:commanded"
+        active="#alexandre_pereira"
+        passive="#jose_jacinto"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#alexandre_pereira"
+        passive="#serafim_alencastre"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#alexandre_pereira"
+        passive="#joao_antonio_silveira"
+        mutual="true"/>
+    
+    <relation
+        name="hrao:reportedTo"
+        active="#vicente_ferrer_almeida"
+        passive="#serafim_alencastre"/>
+    
+    <relation
+        name="schema:memberOf"
+        active="#vicente_ferrer_almeida"
+        passive="#ministerio_guerra"/>
+    
+    <relation 
+        name="hrao:commanded"
+        active="#serafim_alencastre"
+        passive="#vicente_ferrer_almeida"/>
+    
+    <relation 
+        name="pro:commander"
+        active="#vicente_ferrer_almeida"
+        passive="#corpo_lanceiros_negros"/>
     
 </TEI>
