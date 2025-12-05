@@ -17,10 +17,28 @@
 
         <place xml:id="cachoeira">
             <placeName type="historical">Cachoeira</placeName>
+            <placeName type="historical">São João da Cachoeira</placeName>
             <placeName type="modern">Cachoeira do Sul</placeName>
             <idno type="geonames">https://www.geonames.org/3468436/cachoeira-do-sul.html</idno>
             <geo>-29.9456 -52.9234</geo>
             <note>Cachoeira do Sul, Rio Grande do Sul, Brasil.</note>
+        </place>
+        
+        <place xml:id="cima_serra">
+            <placeName type="historical">Cima da Serra</placeName>
+            <placeName type="historical">São Francisco de Paula de Cima da Serra</placeName>
+            <placeName type="regional">Campos de Cima da Serra</placeName>
+            <placeName type="modern">São Francisco de Paula</placeName>
+            <idno type="geonames">https://www.geonames.org/3449121/sao-francisco-de-paula.html</idno>
+            <geo>-29.44806 -50.58361</geo>
+            <note>
+                Topônimo utilizado no século XIX para designar o povoado de São Francisco 
+                de Paula de Cima da Serra e, de modo mais amplo, a região serrana ao 
+                nordeste da província — área de transição entre o planalto conhecido como 
+                Campos de Cima da Serra e a Depressão Central. O termo aparece na 
+                documentação farroupilha tanto como referência local quanto regional, 
+                indicando a zona serrana próxima às vacarias.
+            </note>
         </place>
         
         <place xml:id="morretes">

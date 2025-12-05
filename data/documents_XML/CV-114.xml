@@ -94,7 +94,7 @@
                     <date when="1839-12-07">7 de dezembro de 1839</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#bento_manuel">Bento Manuel Ribeiro</persName>
+                    <persName ref="#bento_manoel">Bento Manuel Ribeiro</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -122,13 +122,15 @@
                 
                 <p>O Coronel <persName ref="#agostinho_antonio_mello">Agostinho</persName> pede-me, em uma carta escrita com muita pressa, 
                     participe a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> que,
-                    mandando um contingente de 50 homens, ao mando do Capitão Lima, a reunir-se ao Tenente-coronel
-                    Aranha, no dia 5 pela manhã foi atacado para cá da estância do Lara por uma força inimiga,
-                    ficando o mesmo Lima destroçado, escapando com 2 oficiais mais e 8 soldados, ficando prisioneiro
+                    mandando um contingente de 50 homens, ao mando do <persName ref="#capitao_lima">Capitão Lima</persName>, a 
+                    reunir-se ao <persName ref="#tenente_coronel_aranha">Tenente-coronelAranha</persName>, no dia 5 pela manhã foi 
+                    atacado para cá da estância do Lara por uma força inimiga,
+                    ficando o mesmo <persName ref="#capitao_lima">Lima</persName> destroçado, escapando com 2 oficiais mais e 8 soldados, ficando prisioneiro
                     o Tenente Saraiva e outros mortos; e como o coronel, por este movimento, não só julga ter sido batido
-                    o Tenente-coronel Aranha, como estar com a comunicação cortada por aquela parte, marchou a reunir
+                    o <persName ref="#tenente_coronel_aranha">Tenente-coronelAranha</persName>, como estar com a comunicação cortada por aquela parte, marchou a reunir
                     em <placeName ref="#botucarai">Botucaraí</placeName>, visto ser provável que os prisioneiros confessariam a pouca força
-                    com que ficou no <placeName ref="#passo_fundo">Passo Fundo</placeName>; e afirma o mesmo Capitão Lima que o Candinho com os
+                    com que ficou no <placeName ref="#passo_fundo">Passo Fundo</placeName>; e afirma o mesmo 
+                    <persName ref="#capitao_lima">Capitão Lima</persName> que o <persName ref="#candinho">Candinho</persName> com os
                     emigrados é que o bateram.</p>
                 
                 <p>Pela carta adjunta verá <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> o acontecimento do <placeName ref="#rio_pardo">Rio Pardo</placeName>, afirmando demais

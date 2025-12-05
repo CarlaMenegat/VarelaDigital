@@ -98,6 +98,18 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-07-18">18/07/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-05">05/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     <text>
@@ -133,17 +145,18 @@
                 <p>A cópia junta informará a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> que o inimigo, 
                     ou parte de sua força, inda permanece pelas proximidades de <placeName ref="#santa_maria">Santa Maria</placeName>, 
                     e como o inimigo aparece aquém de <placeName ref="#sao_goncalo">São Gonçalo</placeName>, talvez haja alguma combinação, 
-                    e nesta hipótese preciso é que tudo se empreenda para baldar-lhe a junção que premeditam. O 2.º Corpo de Lanceiros 
+                    e nesta hipótese preciso é que tudo se empreenda para baldar-lhe a junção que premeditam. O <orgName ref="#corpo_lanceiros_2">2.º Corpo de Lanceiros</orgName> 
                     estará talvez disponível, e poderá engrossar a força de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                 
-                <p>O Coronel <persName ref="#agostinho">Agostinho</persName> deverá subir com alguma gente pela 
+                <p>O Coronel <persName ref="#agostinho_antonio_mello">Agostinho</persName> deverá subir com alguma gente pela 
                     <placeName ref="#picada_botucarai">Picada do Botucaraí</placeName> e o Major <persName ref="#fontoura">Fontoura</persName> 
                     me participou que se encaminhava para <placeName ref="#santa_maria">Santa Maria</placeName> e mui conveniente seria 
                     que obrassem de acordo e combinação. Se neste município se efetuar as reuniões a que se deram princípio, talvez 
                     será possível desprender-se alguma força para essa parte etc.</p>
                 
                 <p>O Furriel <persName ref="#teodoro_medeiros">Teodoro José de Medeiros</persName>, portador, será em parte satisfeito do 
-                    que requer, não podendo ser em tudo porque o Trem de Guerra se acha exausto de muitos gêneros principais.</p>
+                    que requer, não podendo ser em tudo porque o <orgName ref="#trem_guerra_farroupilha">Trem de Guerra</orgName> 
+                    se acha exausto de muitos gêneros principais.</p>
                 
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>

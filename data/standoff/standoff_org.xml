@@ -40,6 +40,22 @@
             <note>Instituição criada em 1954 pelo governo estadual para custodiar e organizar documentos históricos originalmente depositados no Museu Júlio de Castilhos.</note>
         </org>
         
+        <org xml:id="provincia_rio_grande_sul" type="administrativeRegion">
+            <orgName type="historical">Província de São Pedro do Rio Grande do Sul</orgName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q40030</idno>
+            <idno type="viaf">https://viaf.org/en/viaf/148530093</idno>
+            <state type="roleInTime" xml:id="provincia_rs_imperio">
+                <roleName>Província do Império do Brasil</roleName>
+                <affiliation ref="#imperio_brasileiro"/>
+            </state>
+            <note>
+                Unidade administrativa do Império do Brasil, formada após a Independência 
+                e dotada de governo provincial e Assembleia Legislativa própria. Durante a 
+                segunda metade do século XIX, foi palco de intensa atividade política, com 
+                predomínio do Partido Liberal e atuação de figuras como José Gomes Portinho.
+            </note>
+        </org>
+        
         <org xml:id="republica_rio_grandense" type="sovereignState">
             <orgName>República Rio-Grandense</orgName>
             <orgName type="variant">República Rio-grandense</orgName>
@@ -95,7 +111,7 @@
         <org xml:id="assembleia_provincial_rs" type="government">
             <orgName>Assembleia Provincial de São Pedro do Rio Grande do Sul</orgName>
             <idno type="project"/>
-            <affiliation ref="#imperio_brasil"/>
+            <affiliation ref="#provincia_rio_grande_sul"/>
             <placeName ref="#porto_alegre">Porto Alegre</placeName>
             <note>Órgão legislativo provincial instituído após o Ato Adicional de 1834, responsável pela legislação local do Rio Grande do Sul durante o período imperial.</note>
         </org>
@@ -156,7 +172,18 @@
         
         <org xml:id="corpo_lanceiros_negros" type="militaryUnit">
             <orgName>Corpo de Lanceiros Negros</orgName>
-            <note>Unidade de cavalaria composta majoritariamente por soldados negros, criada durante a Revolução Farroupilha e comandada por Joaquim Teixeira Nunes.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="corpo_lanceiros_negros_unidade">
+                <roleName>Unidade de cavalaria leve</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <note>
+                Contingente de cavalaria leve composto por lanceiros negros — homens livres e 
+                escravizados alistados — integrado ao Corpo de Lanceiros da República 
+                Rio-Grandense durante a Revolução Farroupilha (1835–1845). Teve atuação 
+                relevante em diversas operações e esteve subordinado ao comando geral do 
+                Coronel Joaquim Teixeira Nunes.
+            </note>
         </org>
         
         <org xml:id="estate_jose_augusto_ledek" type="estate">
@@ -358,9 +385,20 @@
             <note>Cargo judicial na administração local da República Rio-Grandense.</note>
         </org>
         
-        <org xml:id="trem_guerra">
+        <org xml:id="trem_guerra_farroupilha" type="militaryUnit">
             <orgName>Trem de Guerra</orgName>
-            <note>Corpo logístico responsável pelo fornecimento, transporte e manutenção de material bélico da República Rio-Grandense.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="trem_guerra_farroupilha_logistica">
+                <roleName>Aparelho logístico militar</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <note>
+                Estrutura logística do Exército Farroupilha, responsável pelo transporte e 
+                abastecimento de munição, víveres, fardamento, animais e materiais bélicos 
+                essenciais durante a Revolução Farroupilha (1835–1845). Operava com recursos 
+                escassos e dependia do apoio de estancieiros e de contribuições pessoais de 
+                líderes republicanos para suprir suas carências.
+            </note>
         </org>
         
         <org xml:id="arsenal">
@@ -373,9 +411,21 @@
             <note>Unidades militares regulares da República Rio-Grandense, equivalentes às tropas de linha do exército.</note>
         </org>
         
-        <org xml:id="guarda_nacional">
+        <org xml:id="guarda_nacional" type="militaryInstitution">
             <orgName>Guarda Nacional</orgName>
-            <note>Força militar cívica destinada à manutenção da ordem interna, presente tanto no Império do Brasil quanto na organização farroupilha.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="guarda_nacional_imperio">
+                <roleName>Força militar cidadã</roleName>
+                <affiliation ref="#imperio_brasileiro"/>
+            </state>
+            <note>
+                Corpo militar de cidadãos criado pelo Império do Brasil em 1831, com a 
+                finalidade de manter a ordem interna e auxiliar na defesa territorial. 
+                Organizada em unidades locais, era composta principalmente por proprietários 
+                rurais e servia como base de poder político nas províncias. Diversos 
+                oficiais farroupilhas e liberais integraram ou comandaram unidades da Guarda 
+                Nacional após a Revolução Farroupilha.
+            </note>
         </org>
         
         <org xml:id="divisao_auxiliadora">
@@ -642,6 +692,23 @@
             <idno type="project"/>
             <affiliation ref="#republica_rio_grandense"/>
             <note>Unidade militar da Guarda Nacional mencionada nas correspondências farroupilhas.</note>
+        </org>
+        
+        <org xml:id="corpo_lanceiros_2" type="militaryUnit">
+            <orgName>2.º Corpo de Lanceiros</orgName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="corpo_lanceiros_2_unidade">
+                <roleName>Unidade de cavalaria leve</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <note>
+                Unidade de cavalaria leve do Exército Farroupilha, distinta do contingente 
+                conhecido como Corpo de Lanceiros Negros. Composta majoritariamente por 
+                soldados brancos e mestiços, integrava a estrutura regular da cavalaria 
+                republicana durante a Revolução Farroupilha (1835–1845). Atuou em diversas 
+                operações de campanha e manteve organização e comando próprios no interior 
+                das forças de lanceiros.
+            </note>
         </org>
         
         <org xml:id="camara_rio_grande">

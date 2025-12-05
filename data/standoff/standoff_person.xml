@@ -349,11 +349,18 @@
                 <date type="begin" when="1841-09"/>
                 <date type="end" when="1845-03-01"/>
             </state>
+            <state type="roleInTime" xml:id="fontoura_major_legiao_1835">
+                <roleName>Major de Legião de Guardas Nacionais da Comarca de Rio Pardo</roleName>
+                <affiliation>Exército Farroupilha</affiliation>
+                <date type="begin" when="1835-09"/>
+                <date cert="unknown">Promoção durante o início da Revolução Farroupilha, tendo sido capitão da Guarda Nacional desde 1832.</date>
+            </state>
             <note>
                 Político e militar da Revolução Farroupilha, um dos líderes da chamada minoria.
                 Negociou a paz de Ponche Verde, que reintegrou o Rio Grande do Sul ao Brasil.
             </note>
         </person>
+
         
         <person xml:id="francisco_pedro_abreu">
             <persName>Francisco Pedro de Abreu</persName>
@@ -2210,6 +2217,21 @@
             </note>
         </person>
         
+        <person xml:id="teodoro_medeiros">
+            <persName>Teodoro José de Medeiros</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="teodoro_medeiros_furriel">
+                <roleName>Furriel</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>
+                Furriel mencionado em carta de Serafim Francisco de Alencastre a 
+                João Antônio da Silveira, onde aparece como portador do ofício e 
+                solicitante de provisões do Trem de Guerra. Não há outras informações
+                identificadas até o momento.
+            </note>
+        </person>
+        
         <person xml:id="joao_tomas_farinha">
             <persName>João Tomás Farinha</persName>
         </person>
@@ -3652,14 +3674,24 @@
         
         <person xml:id="agostinho_antonio_mello">
             <persName>Agostinho Antônio de Mello</persName>
+            <persName type="alt">Agostinho Antônio de Mello e Albuquerque</persName>
             <idno type="project"/>
             <state type="roleInTime" xml:id="agostinho_coronel_rrg">
                 <roleName>Coronel</roleName>
                 <affiliation ref="#republica_rio_grandense"/>
+                <date from="1837" to="1841"/>
+            </state>
+            <state type="roleInTime" xml:id="agostinho_botucarai_1839">
+                <roleName>Comandante em Botucaraí</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <date when="1839-12"/>
+                <note>Base de operações mencionada na carta CV-7583 de José Gomes Portinho a Serafim Alencastre.</note>
             </state>
             <note>
-                Oficial farroupilha, atuante no norte da província em operações em Santo Amaro, Rio Pardo, Cachoeira e região
-                entre 1837 e 1841; comandou forças derrotadas em combate em novembro de 1841.
+                Oficial farroupilha, filho de Ricardo Antônio de Melo e Albuquerque e irmão de Antônio de Melo Albuquerque (Melo Manso). 
+                Atuante no norte da província em operações em Santo Amaro, Rio Pardo, Cachoeira, Cruz Alta e região de Botucaraí 
+                entre 1837 e 1841; comandou forças derrotadas em combate em novembro de 1841. Recebia correspondência de sua esposa 
+                em Rio Pardo via soldado interceptado por José Gomes Portinho em dezembro de 1839.
             </note>
         </person>
         
@@ -4110,13 +4142,48 @@
         
         <person xml:id="jose_gomes_portinho">
             <persName>José Gomes Portinho</persName>
-            <perName type="popular">General Portinho</perName>
+            <persName type="popular">General Portinho</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10309518</idno>
+            <idno type="project"/>
+            <birth when="1814-09-01"/>
+            <death when="1886-08-08"/>
             <state type="roleInTime" xml:id="portinho_tenente_coronel_rrg">
                 <roleName>Tenente-coronel</roleName>
                 <affiliation ref="#republica_rio_grandense"/>
             </state>
-            <note>Líder militar farroupilha. Atuou como tenente-coronel da República Rio-Grandense, participando de diversas operações militares durante a Revolução Farroupilha.</note>
+            <state type="roleInTime" xml:id="portinho_guarda_nacional">
+                <roleName>Coronel comandante da Guarda Nacional</roleName>
+                <affiliation ref="#guarda_nacional"/>
+            </state>
+            <state type="roleInTime" xml:id="portinho_brigadeiro_honorario">
+                <roleName>Brigadeiro honorário</roleName>
+                <affiliation ref="#exercito_brasileiro"/>
+            </state>
+            <state type="roleInTime" xml:id="portinho_barao_cruz_alta">
+                <roleName>Barão de Cruz Alta</roleName>
+                <affiliation ref="#imperio_brasileiro"/>
+            </state>
+            <state type="roleInTime" xml:id="portinho_deputado_provincial">
+                <roleName>Deputado provincial</roleName>
+                <affiliation ref="#assembleia_provincial_rs"/>
+            </state>
+            <note>
+                Militar e político brasileiro, natural de Cachoeira do Sul. Ingressou na 
+                Revolução Farroupilha como tropeiro e alistado simples, ascendendo 
+                sucessivamente até o posto de tenente-coronel da República Rio-Grandense. 
+                Foi um dos signatários da paz em 1845 e participou da maioria das operações 
+                militares do conflito.
+                
+                Após a guerra, recusou inicialmente o comando da Guarda Nacional oferecido 
+                pelo general Andréa, aceitando-o apenas quando a província enfrentou a ameaça 
+                da campanha contra Rosas. Destacou-se mais tarde na Guerra do Paraguai, onde 
+                atuou no Cerco de Paysandu, na Batalha de Tuiuti e em diversas operações 
+                logísticas como a compra de cavalos e gado para o Exército Brasileiro. 
+                
+                Recebeu o título de barão de Cruz Alta em 1878, embora raramente o utilizasse. 
+                Foi ligado ao Partido Liberal e exerceu mandatos como deputado provincial 
+                nas legislaturas de 1862–63, 1866 e 1873–74. Morreu em Cachoeira do Sul em 1886.
+            </note>
         </person>
         
         <person xml:id="joaquim_de_sousa">
@@ -5411,7 +5478,7 @@
             <birth when="1792-06-16">16 de junho de 1792</birth>
             <death when="1860-05-04">4 de maio de 1860</death>
             <state type="roleInTime" xml:id="jose_goncalves_silva_juiz_paz">
-                <roleName>Juiz de Paz Tavares</roleName>
+                <roleName>Juiz de Paz de Tavares</roleName>
                 <affiliation ref="#republica_rio_grandense"/>
             </state>
             <note>
@@ -6821,11 +6888,10 @@
                 <note>Comandou a tropa responsável pela prisão de Anita Garibaldi em Curitibanos.</note>
             </state>
             <note>
-                Militar legalista brasileiro, ativo na Revolução Farroupilha. Atuou principalmente 
-                no planalto catarinense e no norte da província, especialmente na área de Passo Fundo 
-                e Santo Antônio da Patrulha. Autor da carta CV-103, na qual agradece gentilezas 
-                prestadas por Domingos José de Almeida em 1839. Em 1841 comandou a guarda local 
-                atacada por forças farroupilhas.
+                Militar legalista, filho de Ricardo Antônio de Melo e Albuquerque e irmão de Agostinho Antônio de Mello 
+                (coronel farroupilha). Ativo na Revolução Farroupilha principalmente no planalto catarinense e norte da província 
+                (Passo Fundo, Santo Antônio da Patrulha). Autor da carta CV-103 agradecendo Domingos José de Almeida. 
+                Em 1841 comandou guarda local atacada por farroupilhas. Mencionado na CV-7583 como "Tenente-coronel Antônio de Melo e Albuquerque".
             </note>
         </person>
         
@@ -7001,19 +7067,47 @@
         <person xml:id="ricardo_melo_albuquerque">
             <persName>Ricardo Antônio de Melo e Albuquerque</persName>
             <idno type="project"/>
-            
+            <birth when="1778"/>
             <state type="roleInTime" xml:id="ricardo_melo_servico_1839">
                 <roleName>Oficial sob comando de Bento Manuel Ribeiro</roleName>
                 <affiliation ref="#imperio_brasil"/>
                 <date when="1839-12-07"/>
                 <note>Declarado na carta CV-115 como servindo sob ordens de Bento Manuel.</note>
             </state>
-            
+            <state type="roleInTime" xml:id="ricardo_coletor_cruz_alta">
+                <roleName>Coletor interino</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date when="1839-12"/>
+                <note>Entregou fundos públicos para pagamento de 200 homens reunidos em Cruz Alta contra farroupilhas (CV-7583).</note>
+            </state>
             <note>
-                Atuava na administração militar em Cruz Alta e declara estar subordinado a 
-                Bento Manuel Ribeiro em dezembro de 1839.
+                Colonizador português radicado em Rio Pardo. Pai de Agostinho Antônio de Mello (farroupilha) e Antônio de Melo 
+                Albuquerque (Melo Manso, legalista). Atuava na administração militar imperial em Cruz Alta em dezembro de 1839, 
+                financiando resistências locais contra forças rebeldes lideradas por seu próprio filho Agostinho.
             </note>
         </person>
+        
+        <person xml:id="eustaquio_melo_brabo">
+            <persName>Eustáquio de Melo Brabo</persName>
+            <persName type="alt">Melo Brabo</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="melo_brabo_tenente_coronel">
+                <roleName>Tenente-coronel</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date from="1839" to="1841"/>
+            </state>
+            <state type="roleInTime" xml:id="melo_brabo_cruz_alta_1839">
+                <roleName>Comandante de forças legalistas</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date when="1839-12"/>
+                <note>Atacou a polícia de Cruz Alta, forçando extravio para estâncias do Cadeado e São Xavier (carta CV-7583).</note>
+            </state>
+            <note>
+                Oficial legalista do Exército Imperial, atuante na região de Cruz Alta durante 1839. Mencionado na carta CV-7583 
+                de José Gomes Portinho como responsável pelo ataque à polícia local farroupilha, dispersando as forças rebeldes.
+            </note>
+        </person>
+
         
         <person xml:id="capitao_lima">
             <persName>Capitão Lima</persName>
@@ -7043,14 +7137,88 @@
             </note>
         </person>
         
-        <person xml:id="major_maximiano">
-            <persName>Major Maximiano</persName>
-            <note>Oficial referido apenas pelo primeiro nome; comandante de corpo militar mencionado em contexto de deserções.</note>
+        <person xml:id="tenente_saraiva">
+            <persName>Saraiva</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="tenente_saraiva_tenente">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <note>
+                Oficial farroupilha mencionado em carta de Ricardo Melo de Albuquerque a 
+                Bento Manoel Ribeiro, onde é referido como Tenente Saraiva e aparece entre 
+                os prisioneiros em confronto ocorrido após o ataque a força comandada pelo 
+                Capitão Lima, próximo à estância do Lara, no contexto das operações militares 
+                em Botucaraí e Passo Fundo. Não há, até o momento, informações adicionais 
+                de identificação.
+            </note>
+        </person>
+
+        <person xml:id="candinho">
+            <persName>Candinho</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="candinho_comandante">
+                <roleName>Comandante de grupo militar</roleName>
+                <affiliation ref="#indefinido"/>
+            </state>
+            <note>
+                Figura mencionada apenas como “Candinho” em carta de Ricardo Melo de 
+                Albuquerque a Bento Manoel Ribeiro, onde aparece liderando o grupo 
+                denominado “os emigrados”, responsável pelo ataque à força comandada 
+                pelo Capitão Lima próximo à estância do Lara. Sua identidade completa, 
+                origem e filiação político-militar permanecem não determinadas.
+            </note>
         </person>
         
-        <person xml:id="teodoro_medeiros">
-            <persName>Teodoro José de Medeiros</persName>
-            <note>Furriel, portador da correspondência e solicitante de suprimentos.</note>
+        <person xml:id="padilha_alferes">
+            <persName>Padilha</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="padilha_alferes_funcao">
+                <roleName>Alferes</roleName>
+                <affiliation ref="#imperio_brasileiro"/>
+            </state>
+            <note>
+                Oficial legalista referido apenas como “Alferes Padilha” em carta de José 
+                Gomes Porto a Serafim Francisco de Alencastre, comandando força inimiga 
+                de cerca de cem homens procedente de Cima da Serra durante os combates 
+                ocorridos em dezembro de 1839. Não há, até o momento, dados adicionais 
+                sobre sua identidade completa.
+            </note>
+        </person>
+        
+        <person xml:id="tenente_bueno">
+            <persName>Bueno</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="tenente_bueno_funcao">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#imperio_brasileiro"/>
+            </state>
+            <note>
+                Oficial legalista referido apenas como “Tenente Bueno” em carta de José 
+                Gomes Porto a Serafim Francisco de Alencastre, onde aparece integrado à 
+                força comandada pelo Alferes Padilha, oriunda de Cima da Serra, durante 
+                os combates de dezembro de 1839. Não há, até o momento, identificação 
+                completa ou dados biográficos adicionais.
+            </note>
+        </person>
+        
+        <person xml:id="major_maximiano">
+            <persName>Maximiano</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="maximiano_major_farroupilha">
+                <roleName>Major</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <state type="roleInTime" xml:id="maximiano_desercao">
+                <roleName>Desertor</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <note>
+                Oficial identificado apenas como “Maximiano”, atuou como major no Exército 
+                Farroupilha e foi posteriormente mencionado como desertor do corpo sob seu 
+                comando. A documentação consultada não fornece seu nome completo nem 
+                detalhes adicionais de carreira.
+            </note>
         </person>
         
         <person xml:id="lino_brum">
@@ -7060,12 +7228,41 @@
         
         <person xml:id="vicente_paula_simoes_pires">
             <persName>Vicente de Paula Simões Pires</persName>
-            <note>Oficial farroupilha; autor da carta CV-126.</note>
+            <idno type="project"/>
+            <birth when="1807-08-19"/>
+            <death when="1887-06-08"/>
+            <state type="roleInTime" xml:id="vicente_paula_simoes_pires_major">
+                <roleName>Major</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <note>
+                Oficial farroupilha e major do Exército Republicano. Veterano das Guerras 
+                Cisplatinas, tendo combatido até a Batalha do Passo do Rosário (1827). 
+                Participou posteriormente da campanha contra Rosas na Argentina (1852). 
+                Estudou medicina no Rio de Janeiro até o quinto ano, retornando ao Rio 
+                Grande do Sul a pedido do pai e chegando a clinicar. Após a Revolução 
+                Farroupilha, exerceu cargos civis e foi o primeiro prefeito de São Sepé 
+                (1877–1881), período em que promoveu melhorias urbanas significativas, 
+                como o arruamento central e a abertura da Picada Grande até Restinga Sêca.
+            </note>
         </person>
         
         <person xml:id="gomes_porto">
-            <persName>Gomes Porto</persName>
-            <note>Juiz de Paz de Santa Maria mencionado em operações de segurança.</note>
+            <persName>José Gomes Porto</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="gomes_porto_vereador">
+                <roleName>Vereador suplente</roleName>
+                <affiliation ref="#camara_sao_joao_cachoeira"/>
+            </state>
+            <state type="roleInTime" xml:id="gomes_porto_juiz_paz">
+                <roleName>Juiz de Paz</roleName>
+                <affiliation ref="#santa_maria"/>
+            </state>
+            <note>
+                Vereador suplente na Câmara Municipal de São João da Cachoeira em 1833 e, 
+                dois anos depois, Juiz de Paz em Santa Maria. Mencionado em correspondência 
+                administrativa e operações de segurança no contexto da Revolução Farroupilha.
+            </note>
         </person>
         
         <person xml:id="saturnino_sousa_oliveira">

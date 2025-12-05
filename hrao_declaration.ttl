@@ -6,6 +6,7 @@
 @prefix san: <http://example.org/san#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rel: <http://purl.org/vocab/relationship/> .
 
 #################################################################
 # HRAO — Historical Relations and Agency Ontology

@@ -2611,4 +2611,111 @@
         active="#vicente_ferrer_almeida"
         passive="#corpo_lanceiros_negros"/>
     
+    <relation
+        name="foaf:knows"
+        active="#serafim_alencastre"
+        passive="#joao_antonio_silveira"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#serafim_alencastre"
+        passive="#jose_gomes_portinho"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#serafim_alencastre"
+        passive="#fontoura"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#serafim_alencastre"
+        passive="#agostinho_antonio_mello"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#serafim_alencastre"
+        passive="#teodoro_medeiros"
+        mutual="true"/>
+    
+    <!-- Relações envolvendo João Antônio da Silveira -->
+    
+    <relation
+        name="foaf:knows"
+        active="#joao_antonio_silveira"
+        passive="#jose_gomes_portinho"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#joao_antonio_silveira"
+        passive="#fontoura"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#joao_antonio_silveira"
+        passive="#agostinho_antonio_mello"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#joao_antonio_silveira"
+        passive="#teodoro_medeiros"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#jose_gomes_portinho"
+        passive="#fontoura"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#fontoura"
+        passive="#vicente_paula_simoes_pires"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#jose_gomes_portinho"
+        passive="#vicente_paula_simoes_pires"
+        mutual="true"/>
+    
+    <relation
+        name="hrao:servedUnder"
+        active="#gomes_porto"
+        passive="#serafim_alencastre"
+        />
+    
+    <relation
+        name="hrao:servedUnder"
+        active="#jose_jacinto"
+        passive="#gomes_porto"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#gomes_porto"
+        passive="#agostinho_antonio_mello"
+        mutual="true"/>
+    
+    <relation
+        name="rel:fatherOf"
+        active="#ricardo_melo_albuquerque"
+        passive="#agostinho_antonio_mello"/>
+    
+    <relation
+        name="rel:fatherOf"
+        active="#ricardo_melo_albuquerque"
+        passive="#antonio_melo_albuquerque"/>
+    
+    <relation
+        name="rel:siblingOf"
+        active="#agostinho_antonio_mello"
+        passive="#antonio_melo_albuquerque"
+        mutual="true"/>
+    
 </TEI>
