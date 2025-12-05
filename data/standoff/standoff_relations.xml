@@ -2718,4 +2718,9 @@
         passive="#antonio_melo_albuquerque"
         mutual="true"/>
     
+    <relation
+        name="hrao:servedUnder"
+        active="#inacio_guimaraes"
+        passive="#serafim_alencastre"/>
+    
 </TEI>

@@ -370,6 +370,19 @@
             <note>Grande unidade militar do Exército Republicano Rio-Grandense, atuante em operações estratégicas durante a Revolução Farroupilha.</note>
         </org>
         
+        <org xml:id="divisao_esquerda" type="militaryUnit">
+            <orgName>Divisão da Esquerda</orgName>
+            <idno type="project"/>
+            <affiliation ref="#republica_rio_grandense"/>
+            <note>
+                Grande unidade militar do Exército Republicano Rio-Grandense, atuante em 
+                operações coordenadas durante a Revolução Farroupilha. É mencionada em 
+                correspondência do Ministro da Guerra Serafim Francisco de Alencastre, 
+                que ordena ao chefe de polícia Inácio Guimarães que se reúna a esta 
+                divisão para integrar as forças republicanas em movimento.
+            </note>
+        </org>
+        
         <org xml:id="jornal_oficial_republica">
             <orgName>Jornal Oficial da República Rio-Grandense</orgName>
             <note>Periódico criado pelo governo farroupilha para divulgação de atos oficiais.</note>
@@ -441,11 +454,6 @@
         <org xml:id="governo_republica">
             <orgName>Governo da República Rio-Grandense</orgName>
             <note>Administração central do Estado republicano formado pelos farroupilhas a partir de 1836.</note>
-        </org>
-        
-        <org xml:id="divisao_esquerda">
-            <orgName>Divisão da Esquerda</orgName>
-            <note>Unidade militar integrante da estrutura militar da República Rio-Grandense.</note>
         </org>
         
         <org xml:id="corpo_1_linha">
