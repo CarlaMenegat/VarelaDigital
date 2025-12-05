@@ -1,33 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-133 – Serafim Joaquim de Alencastre para João Antônio da Silveira</title>
-                <author>
-                    <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
-                </author>
+                <author>Serafim Joaquim de Alencastre</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
-            
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-07-18">18 de julho de 2025</date>
+            </editionStmt>
+            <extent>
+                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
+                <measure type="words">xxx palavras</measure>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">
-                        CC BY 4.0
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
-            
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III (1941).</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
@@ -39,6 +98,18 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-07-18">18/07/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-05">05/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     <text>
@@ -50,21 +121,21 @@
                 </opener>
                 
                 <p>Havendo levado ao conhecimento do governo o ofício de <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>
-                    de 18 do que rege, no qual anuncia <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> a vinda de uma força
+                    de <date when="1839-12-18">18 do que rege</date>, no qual anuncia <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> a vinda de uma força
                     de <placeName ref="#sao_paulo">São Paulo</placeName> com quatro bocas de fogo, <choice><abbr>S.Ex.ª</abbr><expan>Sua Excelência</expan></choice>, o
                     <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Vice-presidente, além de não concordar com o seu número,
                     se faz esforços para pensar sobre a possibilidade de transitarem
                     quatro peças de artilharia por um caminho tão escabroso, no qual
-                    apenas podem atravessar cargueiros; todavia <choice><abbr>S.Ex.ª</abbr><expan>Sua Excelência</expan></choice> não deixa de dar
-                    todo o peso a esta notícia, e ao Exmo. General
-                    <persName ref="#bento_manuel">Bento Manuel Ribeiro</persName>
+                    apenas podem atravessar cargueiros; todavia <choice><abbr>S.Ex.ª</abbr><expan>Sua Excelência</expan></choice> 
+                    não deixa de dar todo o peso a esta notícia, e ao Exmo. General
+                    <persName ref="#bento_manoel">Bento Manuel Ribeiro</persName>
                     toca exclusivamente a iniciativa desse detalhe: ele está encarregado
                     das operações, não só no município da
                     <placeName ref="#cruz_alta">Cruz Alta</placeName>, mas também sobre o de
                     <placeName ref="#lages">Lages</placeName>.</p>
                 
                 <p>Pela cópia junta verá <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> que, estando nos interesses de
-                    Saturnino aumentar o número de suas forças para iludir a
+                    <persName ref="#saturnino_sousa_oliveira">Saturnino</persName> aumentar o número de suas forças para iludir a
                     credulidade cega do vulgo estúpido, dá 1200 homens vindos de
                     <placeName ref="#sao_paulo">São Paulo</placeName>, número com o qual também não simpatizo,
                     porque sabemos os embaraços, os tropeços que deveriam encontrar e
@@ -72,14 +143,14 @@
                     duvido, essa gente não está em estado de bater-se com a nossa.</p>
                 
                 <p>Quanto ao que <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> diz a respeito da gente deste município,
-                    hoje mesmo segue o Major Frutuoso, com o maior número que é
-                    possível, com direção à <placeName ref="#cachoeira_rs">Cachoeira</placeName>, para onde ordenou o
+                    hoje mesmo segue o Major <persName ref="#frutuoso">Frutuoso</persName>, com o maior número que é
+                    possível, com direção à <placeName ref="#cachoeira">Cachoeira</placeName>, para onde ordenou o
                     Exmo. General-em-chefe se fizessem convergir todas as forças e
                     cavalhadas para ele dar-lhes uma direção conveniente.</p>
                 
-                <p>Fica nesta capital o Capitão Laurindo com 40 homens somente,
+                <p>Fica nesta capital o <persName ref="#laurindo">Capitão Laurindo</persName> com 40 homens somente,
                     para garantir suas proximidades dos ladrões, pois apesar de que
-                    Dedeco foi batido por uma partida do Major Ismael, contudo sabemos
+                    <persName ref="#dedeco">Dedeco</persName> foi batido por uma partida do <persName ref="#major_ismael">Major Ismael</persName>, contudo sabemos
                     que ele já passou para este lado.</p>
                 
                 <p>A reunião de gente é geral hoje em todos os pontos do Estado,
@@ -92,22 +163,25 @@
                 
                 <p>Permita, porém, <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> que eu faça uma resenha das forças que
                     podem operar sobre essa, vindas de
-                    <placeName ref="#sao_paulo">São Paulo</placeName>. O Coronel Teixeira subiu pelas
+                    <placeName ref="#sao_paulo">São Paulo</placeName>. O Coronel <persName ref="#teixeira_nunes">Teixeira</persName> subiu pelas
                     <placeName ref="#torres_rs">Torres</placeName> com
                     <persName ref="#giuseppe_garibaldi">Garibaldi</persName> com 120 infantes e 80 homens de
-                    cavalaria; o Tenente-coronel Aranha, em todas as ocasiões
+                    cavalaria; o <persName ref="#tenente_coronel_aranha">Tenente-coronel Aranha</persName>, em todas as ocasiões
                     urgentes, reúne sempre perto de 300 homens; o Tenente-coronel
-                    Portinho deverá ter 200, segundo as participações que têm vindo ao
-                    governo; o Tenente-coronel Guedes, <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> melhor saberá que tem o
-                    2.º Corpo de Lanceiros, ao menos 100, além da força do município
-                    de <placeName ref="#sao_borja">São Borja</placeName>; e não contando com a gente que <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> tem,
-                    o Coronel Agostinho deverá contar ao certo 200 homens.</p>
+                    <persName ref="#jose_gomes_portinho">Portinho</persName> deverá ter 200, segundo as participações que têm vindo ao
+                    governo; o Tenente-coronel <persName ref="#jacinto_guedes">Guedes</persName>, 
+                    <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> melhor saberá que tem o
+                    <orgName ref="#corpo_lanceiros_2">2.º Corpo de Lanceiros</orgName>, ao menos 100, além da força do município
+                    de <placeName ref="#sao_borja">São Borja</placeName>; e não contando com a gente que 
+                    <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> tem,
+                    o Coronel <persName ref="#agostinho_antonio_mello">Agostinho</persName> deverá contar ao certo 200 homens.</p>
                 
                 <p>Todas estas forças reunidas ou de combinação ao mando do
-                    Exmo. General <persName ref="#bento_manuel">Bento Manuel Ribeiro</persName>, quando não sejam
+                    Exmo. General <persName ref="#bento_manoel">Bento Manuel Ribeiro</persName>, quando não sejam
                     suficientes para bater o inimigo, servirão para ir contemporizando,
                     até que possam ser aumentadas por outras que fiquem disponíveis.
-                    É tudo quanto tem o governo de dizer a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>, a quem Deus guarde.</p>
+                    É tudo quanto tem o governo de dizer a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>, 
+                    a quem Deus guarde.</p>
                 
                 <closer>
                     <dateline>Secretaria da Guerra em

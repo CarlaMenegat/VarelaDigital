@@ -2723,4 +2723,39 @@
         active="#inacio_guimaraes"
         passive="#serafim_alencastre"/>
     
+    <relation
+        name="hrao:servedUnder"
+        active="#laurindo_capitao"
+        passive="#serafim_alencastre"/>
+    
+    <relation
+        name="hrao:servedUnder"
+        active="#major_ismael"
+        passive="#serafim_alencastre"/>
+    
+    <relation
+        name="hrao:servedUnder"
+        active="#frutuoso"
+        passive="#serafim_alencastre"/>
+    
+    <relation
+        name="hrao:servedUnder"
+        active="#manuel_simas"
+        passive="#saturnino_sousa_oliveira"/>
+    
+    <relation
+        name="hrao:servedUnder"
+        active="#luis_barreto_legalista"
+        passive="#saturnino_sousa_oliveira"/>
+    
+    <relation
+        name="hrao:servedUnder"
+        active="#manuel_vieira_lima"
+        passive="#saturnino_sousa_oliveira"/>
+    
+    <relation
+        name="hrao:servedUnder"
+        active="#vicente_ferrer_almeida"
+        passive="#saturnino_sousa_oliveira"/>
+    
 </TEI>

@@ -2460,9 +2460,30 @@
             <note>Morador estabelecido dentro da fazenda de Candiota, indicado por Bento Gonçalves como arrendatário preferencial.</note>
         </person>
         
+        <person xml:id="dedeco">
+            <persName>Dedeco</persName>
+            <idno type="project"/>
+            <note>
+                Figura mencionada apenas como “Dedeco” em carta farroupilha, onde aparece 
+                como adversário derrotado por uma partida comandada pelo Major Ismael. 
+                Sua identidade completa, afiliação e papel nas operações não são 
+                determinados pela documentação disponível.
+            </note>
+        </person>
+        
         <person xml:id="major_ismael">
-            <persName>Major Ismael</persName>
-            <note>Oficial mencionado no documento; identidade completa não fornecida no texto.</note>
+            <persName>Ismael</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="ismael_major_farroupilha">
+                <roleName>Major</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <note>
+                Oficial farroupilha identificado apenas pelo prenome “Ismael”, mencionado 
+                como major em carta contemporânea. Comandava uma partida que derrotou 
+                o indivíduo referido como Dedeco. Não há informações adicionais sobre sua 
+                identidade completa ou trajetória militar.
+            </note>
         </person>
         
         <person xml:id="joao_b_gregg">
@@ -3103,12 +3124,6 @@
                 em operação e para a captura do Suplicante. Nenhuma outra informação biográfica 
                 é conhecida a partir das fontes disponíveis.
             </note>
-        </person>
-        
-        <person xml:id="dedeco">
-            <persName>Dedeco</persName>
-            <idno></idno>
-            <note>Indivíduo citado como envolvido em ações violentas.</note>
         </person>
         
         <person xml:id="januafio_torto">
@@ -7318,12 +7333,44 @@
                 <roleName>Major</roleName>
                 <affiliation ref="#imperio_brasil"/>
             </state>
-            <note>Major legalista, destinatário de ordem reservada emitida pelo Presidente Saturnino na correspondência militar.</note>
+            <state type="roleInTime" xml:id="manuel_simas_coronel">
+                <roleName>Coronel</roleName>
+                <affiliation ref="#imperio_brasileiro"/>
+            </state>
+            <note>Major legalista, destinatário de ordem reservada emitida pelo Presidente Saturnino na correspondência militar. 
+                Coronel legalista do Exército Imperial, mencionado como destinatário de 
+                circular assinada pelo presidente da província Saturnino de Sousa e 
+                Oliveira em 4 de dezembro de 1839. Pertencia a família reconhecida por 
+                sua atuação imperialista na região de Faxinal de São João, Montenegro.</note>
         </person>
         
-        <person xml:id="luis_jose_ribeiro_barreto">
+        <person xml:id="manuel_vieira_lima">
+            <persName>Manuel Vieira Lima</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="manuel_lima_major_imperial">
+                <roleName>Major</roleName>
+                <affiliation ref="#imperio_brasileiro"/>
+            </state>
+            <note>
+                Oficial legalista identificado como “Major às ordens” na certificação 
+                de conformidade anexada à circular enviada pelo presidente provincial 
+                Saturnino de Sousa e Oliveira em dezembro de 1839. Não há informações 
+                adicionais confirmadas sobre sua carreira.
+            </note>
+        </person>
+        
+        <person xml:id="luis_barreto">
             <persName>Luís José Ribeiro Barreto</persName>
-            <note>Assinante que autentica a cópia do documento, provavelmente oficial da administração provincial.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="luis_barreto_oficial_imperial">
+                <roleName>Oficial</roleName>
+                <affiliation ref="#imperio_brasileiro"/>
+            </state>
+            <note>
+                Oficial legalista que certifica a conformidade da circular encaminhada 
+                pelo presidente provincial Saturnino de Sousa e Oliveira em 4 de dezembro 
+                de 1839. Não deve ser confundido com homônimo farroupilha de mesmo nome. 
+            </note>
         </person>
         
         <person xml:id="felix_aires">
@@ -7331,9 +7378,19 @@
             <note>Capitão mencionado em operações militares no contexto da Revolução Farroupilha.</note>
         </person>
         
-        <person xml:id="laurindo">
+        <person xml:id="laurindo_capitao">
             <persName>Laurindo</persName>
-            <note>Capitão referido no contexto militar farroupilha.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="laurindo_capitao_funcao">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <note>
+                Oficial farroupilha referido nas cartas apenas como “Capitão Laurindo”. 
+                Encarregado da defesa da capital farroupilha em Caçapava, segundo 
+                correspondência do período. Não há, até o momento, identificação completa 
+                ou outros dados biográficos.
+            </note>
         </person>
         
         <person xml:id="reinecio">
