@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CV-18 — Cópia do documento CV-14</title>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-06-20">20 de junho de 2025</date>
+            </editionStmt>
+            
+            <extent>
+                <extent>1 documento</extent>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
+            </extent>
+            
+            <publicationStmt>
+                <publisher>Anais do Arquivo Histórico do Rio Grande do Sul, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do RS</title>
+                <biblScope type="volume">2</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            
+            <notesStmt>
+                <note type="catalogue">
+                    Documento registrado como CV-18 nos Anais (1978). Indicado como cópia literal de CV-14.
+                </note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>Documento identificado nos Anais como cópia de CV-14.  
+                    Nesta edição digital, registra-se sua existência documental, mas o texto não é transcrito novamente.  
+                    A relação com o documento original é explicitada via metadados e relações LOD.</p>
+            </projectDesc>
+        </encodingDesc>
+        
+        <profileDesc>
+            <listRelation>
+                <relation 
+                    name="dcterms:isVersionOf"
+                    active="#CV-18"
+                    passive="#CV-14"/>
+            </listRelation>
+        </profileDesc>
+        
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-12-05">05/12/2025</date>
+                    Criação do registro digital de CV-18 como cópia de CV-14.
+                </item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="copy" xml:id="CV-18">
+                <note type="editorial">
+                    Este documento é uma cópia literal de CV-14, conforme indicado na edição dos Anais.
+                    Para a transcrição integral, consulte o documento CV-14.
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -123,6 +123,26 @@
             passive="#colecao_varela"/>
         
         <relation 
+            name="dcterms:isVersionOf" 
+            active="#CV-17" 
+            passive="#CV-13"/>
+        
+        <relation 
+            name="dcterms:isVersionOf" 
+            active="#CV-18" 
+            passive="#CV-14"/>
+        
+        <relation 
+            name="dcterms:isVersionOf" 
+            active="#CV-19" 
+            passive="#CV-9"/>
+        
+        <relation 
+            name="dcterms:isVersionOf" 
+            active="#CV-20" 
+            passive="#CV-7"/>
+        
+        <relation 
             name="prov:wasAttributedTo"
             active="#documento_CV_102"
             passive="#martim_francisco_filho"/>

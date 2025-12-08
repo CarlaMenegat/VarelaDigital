@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CV-16 — Cópia do documento CV-12</title>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-06-17">17 de junho de 2025</date>
+            </editionStmt>
+            
+            <extent>
+                <extent>1 documento</extent>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
+            </extent>
+            
+            <publicationStmt>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            
+            <notesStmt>
+                <note type="catalogue">
+                    Documento listado como CV-16 nos Anais do Arquivo Histórico do RS (1978).
+                    Identificado como cópia literal do documento CV-12.
+                </note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do RS</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>Documento identificado como cópia de CV-12. 
+                    Não contém transcrição própria, mas sua existência material é registrada para 
+                    preservar a completude da série documental e permitir modelagem de relações 
+                    entre versões, cópias e testemunhos.</p>
+            </projectDesc>
+        </encodingDesc>
+        
+        <profileDesc>
+            <listRelation>
+                <relation 
+                    name="dcterms:isVersionOf"
+                    active="#CV-16"
+                    passive="#CV-12"/>
+            </listRelation>
+        </profileDesc>
+        
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-12-05">05/12/2025</date>
+                    Arquivo criado para registrar CV-16 como cópia do documento CV-12.
+                </item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="copy" xml:id="CV-16">
+                <note type="editorial">
+                    Este documento é uma cópia literal de CV-12, conforme indicado nos Anais.
+                    Seu conteúdo não foi transcrito novamente. Consulte CV-12 para o texto integral.
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>
