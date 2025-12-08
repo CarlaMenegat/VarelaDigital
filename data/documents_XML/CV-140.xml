@@ -1,43 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-140 – Serafim Joaquim de Alencastre para Inácio José de Oliveira Guimarães</title>
-                <author>
-                    <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
-                </author>
+                <author>Serafim Joaquim de Alencastre</author>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
-            
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-07-22">22 de julho de 2025</date>
+            </editionStmt>
+            <extent>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do Rio Grande do Sul</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
-            
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, vol. III (1941).</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
                     <placeName ref="#cacapava">Caçapava</placeName>
                     <date when="1840-03-09">9 de março de 1840</date>
                 </correspAction>
-                
                 <correspAction type="received">
                     <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-07-22">22/07/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-07">07/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     <text>
@@ -49,7 +122,8 @@
                 </opener>
                 
                 <p>O governo, inteirado suficientemente da essência do único ofício
-                    que de <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> hei recebido, com data de 6 do passado, me ordenou
+                    que de <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> hei recebido, com data de 
+                    <date when="1840-02-06">6 do passado</date>, me ordenou
                     que respondesse a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> que, quanto aos contrabandistas, <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> tolere
                     ou deixe de tolerar tal abuso, uma vez que lhe pareça útil ou perigoso
                     aos interesses do Estado, ou ao menos fazendo minorar esse tráfico,
@@ -57,12 +131,15 @@
                 
                 <p>Felizmente o governo reconhece quanto <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> relata em seguida
                     no seu mesmo ofício, e por isso, não podendo sancionar a reclamação
-                    de <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> a respeito do destacamento de 1.º Linha, autoriza <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>,
+                    de <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
+                    a respeito do destacamento de <orgName>1.º Linha</orgName>, autoriza 
+                    <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>,
                     como tem autorizado a outros, para criar um contingente de 20 praças
                     de 1.º Linha, as quais receberão aquele vestuário, munição e pagamento
                     que as circunstâncias permitirem, devendo, contudo, serem sempre mais
                     atendidos. Qualquer terá baixa ou passagem logo que a requeira, e no
-                    fim da luta terão todos demissão do serviço. <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> encarregará a um
+                    fim da luta terão todos demissão do serviço. 
+                    <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> encarregará a um
                     1.º tenente ou proporá um cidadão para os comandar, podendo aqui
                     mandar buscar o armamento e munição indispensável.</p>
                 
@@ -81,6 +158,7 @@
                     que lhe convenha e convenha ao bem do serviço da Pátria.</p>
                 
                 <closer>
+                    <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
                     <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                     <dateline>
                         <placeName ref="#cacapava">Secretaria da Guerra em Caçapava</placeName>,

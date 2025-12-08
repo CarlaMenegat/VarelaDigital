@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-146 – Secretaria da Guerra para João Antônio da Silveira</title>
                 <author>Serafim Joaquim de Alencastre</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-06-16">30 de junho de 2025</date>
+                <date when="2025-07-23">23 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -78,12 +84,14 @@
                 </application>
             </appInfo>
         </encodingDesc>
-        <encodingDesc>
-            <projectDesc>
-                <p>Edição digital em TEI P5 da Coleção Varela, com uso de standoff markup para entidades nomeadas e metadados completos.</p>
-            </projectDesc>
-        </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName>
@@ -95,12 +103,15 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
-        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-20">20/11/2025</date>
-                    Conversão TEI por Carla Menegat.
+                    <date when="2025-07-23">23/07/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-08">08/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
@@ -114,13 +125,24 @@
                     <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Deliberando o governo retrogradar para a capital, me ordenou fosse com antecedência tomar conta dela e ali restabelecer a ordem, e com ela evitar distúrbios e guardar a tranquilidade pública, mas tendo pouca gente à sua disposição, gente necessária para patrulhas, condução de ofícios, bombeações e carneação, não é pois possível, pois, que tudo isto se faça com os poucos elementos que conta.</p>
+                <p>Deliberando o governo retrogradar para a capital, me ordenou fosse com antecedência tomar conta dela e ali restabelecer 
+                    a ordem, e com ela evitar distúrbios e guardar a tranquilidade pública, mas tendo pouca gente à sua disposição, 
+                    gente necessária para patrulhas, condução de ofícios, bombeações e carneação, não é pois possível, pois, que tudo isto 
+                    se faça com os poucos elementos que conta.</p>
                 
-                <p>Em consequência deixa de marchar o <persName ref="#laurindo">Capitão Laurindo</persName> e <persName ref="#manuel_antonio">Tenente Manuel Antônio</persName>, que seguem comigo agora mesmo para <placeName ref="#cacapava">Caçapava</placeName>, havendo ficado com o <persName ref="#gomes_jardim">Vice-presidente</persName> o <persName ref="#januario">Tenente Januário</persName> em <placeName ref="#vacacai">Vacacaí</placeName>. Além destes motivos milita outra circunstância, de terem ficado, como dizem, <persName ref="#juca_cipriano">Juca Cipriano</persName>, <persName ref="#dedeco">Dedeco</persName>, <persName ref="#fialho">Fialho</persName> pelas imediações de <placeName ref="#sao_gabriel">São Gabriel</placeName>, assim como que somente mais vinte ou trinta homens não farão falta a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>, e que não deixará de operar por esta razão.</p>
-                
-                <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>. <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName> em <placeName ref="#joao_machado">João Machado</placeName>, <date when="1840-03-25">25, ao amanhecer, de março 1840</date>.</p>
+                <p>Em consequência deixa de marchar o <persName ref="#laurindo_capitao">Capitão Laurindo</persName> e 
+                    <persName ref="#manuel_antonio">Tenente Manuel Antônio</persName>, que seguem comigo agora mesmo para 
+                    <placeName ref="#cacapava">Caçapava</placeName>, havendo ficado com o <persName ref="#gomes_jardim">Vice-presidente</persName> 
+                    o <persName ref="#januario">Tenente Januário</persName> em <placeName ref="#vacacai">Vacacaí</placeName>. 
+                    Além destes motivos milita outra circunstância, de terem ficado, como dizem, 
+                    <persName ref="#juca_cipriano">Juca Cipriano</persName>, <persName ref="#dedeco">Dedeco</persName>, 
+                    <persName ref="#vicente_fialho">Fialho</persName> pelas imediações de <placeName ref="#sao_gabriel">São Gabriel</placeName>, 
+                    assim como que somente mais vinte ou trinta homens não farão falta a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>, e que não deixará de operar por esta razão.</p>
                 
                 <closer>
+                    <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
+                    <signed><orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName></signed>
+                    <dateline><placeName ref="#joao_machado">João Machado</placeName>, <date when="1840-03-25">25, ao amanhecer, de março 1840</date></dateline>
                     <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 

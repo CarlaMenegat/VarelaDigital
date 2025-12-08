@@ -19,8 +19,9 @@
                 <date when="2025-06-17">17 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -126,9 +127,7 @@
                     e a do <orgName ref="#contador">Contador</orgName>, o que por certo motivou não poder fazer lavrar 
                     uma ordem marcando a quantia que por conta do que lhe deve o Estado devia ser descontada; a que deu 
                     causa <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> levar os documentos e não ficar 
-                    a dívida escriturada como devia, e até como eu mesmo estava persuadido tivesse acontecido.</p>
-                
-                <p>Desejando porém não causar o menor inconveniente aos credores do Estado, poderá 
+                    a dívida escriturada como devia, e até como eu mesmo estava persuadido tivesse acontecido. Desejando porém não causar o menor inconveniente aos credores do Estado, poderá 
                     <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> despachar a tropa que me consta está 
                     fazendo em qualquer <orgName>Coletoria</orgName>, dando a letra da importância dos direitos ao Coletor 
                     na forma estabelecida, e logo mandar seus documentos a esta a seu procurador, ao qual dirá o valor do 
@@ -136,12 +135,14 @@
                     a importância da dita letra, o que terá lugar, e pelo <orgName ref="#tesouro">Tesouro</orgName> se expedirá 
                     a ordem ao coletor.</p>
                 
+                <seg type="folio">[1v.]</seg>
+
                 <p>Ora, para isto há muito tempo, porque nunca pode ser menos de 30 dias o prazo de sobredita letra, e assim fica 
                     efetuando o encontro que pretende <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                 
                 <closer>
                     <salute>Seu</salute>
-                    <signed>(a) Antônio Vicente da Fontoura.</signed>
+                    <signed>Antônio Vicente da Fontoura.</signed>
                 </closer>
                 
                 <postscript>
@@ -153,6 +154,15 @@
                         se fará dos primeiros dinheiros a entrarem, ou mesmo por despachos, na forma que já indiquei, de gêneros 
                         a exportar ou importar.</p>
                 </postscript>
+                
+                <note type="endorsement">
+                    <date when="1842">1842</date>
+                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName>
+                    <seg type="folio">[No verso]</seg>
+                </note>
+                
+                <note type="editorial">Anexo ao documento CV-6.</note>
             </div>
         </body>
     </text>

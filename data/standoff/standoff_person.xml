@@ -258,12 +258,6 @@
             <roleName>Presidente da Província do Rio Grande do Sul</roleName>
             <note>Presidente da Província do Rio Grande do Sul quando estoura a Guerra dos Farrapos.</note>
         </person>
-
-        
-        <person xml:id="domingos_almeida">
-            <persName>Domingos José de Almeida</persName>
-            <note>Político e figura importante na Revolução Farroupilha; Ministro da Fazenda da República Rio-Grandense.</note>
-        </person> <!--corrigir id para domingos_jose_almeida-->
         
         <person xml:id="domingos_jose_almeida">
             <persName>Domingos José de Almeida</persName>
@@ -1850,6 +1844,21 @@
             <persName>Joaquim Pereira</persName>
         </person>
         
+        <person xml:id="correia">
+            <persName>Correia</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="correia_juiz_paz">
+                <roleName>Juiz de Paz</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>
+                Oficial civil identificado apenas pelo sobrenome “Correia”, mencionado 
+                como Juiz de Paz de São Gabriel em 1839 no contexto da administração 
+                farroupilha. Não há, até o momento, dados adicionais de identificação 
+                ou trajetória pessoal.
+            </note>
+        </person>
+        
         <person xml:id="antonio_jose_bonilha">
             <persName>Antônio José Bonilha</persName>
             <note>Cidadão encarregado de transportar farinha apreendida na sumaca “Mineira”.</note>
@@ -1990,22 +1999,12 @@
             <note>Referência histórica mencionada como exemplo de medida política após a abdicação de D. Pedro I.</note>
         </person>
         
-        <person xml:id="crescencio"> 
-            <persName>Coronel Crescêncio</persName>
-            <note>Oficial militar farroupilha citado como comandante de divisão.</note>
-        </person> <!--Corrigir para id domingos_crescecncio_carvalho-->
-
-        
         <person xml:id="domingos_crescencio_carvalho">
             <persName>Domingos Crescêncio de Carvalho</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10268042</idno>
             <roleName>Coronel</roleName>
             <roleName>General</roleName>
             <note>Coronel farroupilha, comandante da Divisão da Esquerda durante a Revolução Farroupilha.</note>
-        </person> <!--Corrigir para id domingos_crescecncio_carvalho-->
-        
-        <person xml:id="general_crescencio">
-            <persName>General Crescêncio</persName>
         </person> 
         
         <person xml:id="joao_manuel_araujo_pinto">
@@ -2680,12 +2679,6 @@
             <persName>João Antunes</persName>
             <idno></idno>
             <note>Participou na condução de tropas.</note>
-        </person>
-        
-        <person xml:id="felix_vieira">
-            <persName>Félix Vieira</persName>
-            <note>Conduziu tropas e entregas para diferentes destinatários.</note>
-            <note>Mencionado com posto de Major.</note>
         </person>
         
         <person xml:id="francisco_carlos_da_costa">
@@ -3894,6 +3887,19 @@
                 <note>Participou da Guerra do Paraguai servindo ao Exército Imperial.</note>
             </state>
             <note>Militar de longa carreira, serviu à República Rio-grandense e posteriormente ao Exército Imperial, alcançando o posto de coronel honorário.</note>
+        </person>
+        
+        <person xml:id="jose_antonio_faria">
+            <persName>José Antônio de Faria</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="jose_antonio_faria_tenente">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <note>
+                Oficial farroupilha mencionado em operações logísticas e de diligência militar, 
+                incumbido de cumprir requisições e transportar materiais conforme ordens superiores.
+            </note>
         </person>
         
         <person xml:id="evaristo">
@@ -6913,9 +6919,13 @@
         <person xml:id="manuel_antonio_celebre">
             <persName>Manuel Antônio</persName>
             <idno type="project"/>
+            <state type="roleInTime" xml:id="manuel_antonio_celebre_tenente">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
             <note>
-                Individuado em correspondência legalista como “célebre Manuel Antônio”, 
-                descrito como anarquista e ex-juiz de paz; identidade civil completa ainda não confirmada.
+                Tenente farroupilha identificado em documentos legais e militares, mencionado em correspondência 
+                legalista como o “célebre Manuel Antônio”, descrito por adversários como anarquista e ex-juiz de paz. 
             </note>
         </person>
         
@@ -6980,6 +6990,18 @@
             <note>Oficial mencionado por João da Silva Machado; identidade completa não estabelecida no corpus.</note>
         </person>
         
+        <person xml:id="hipolito_pereira_dutra">
+            <persName>Hipólito José Pereira Dutra</persName>
+            <idno type="project"/>
+            <note>
+                Indivíduo detido por autoridades farroupilhas e enviado escoltado ao 
+                General-em-chefe, conforme correspondência de 29 de dezembro de 1839. 
+                Sua condição (civil ou militar) e eventual filiação política não são 
+                explicitadas nos documentos, sendo conhecido apenas pela referência à 
+                “crônica” que motivou sua prisão.
+            </note>
+        </person>
+
         <person xml:id="jose_antonio_oliveira">
             <persName>José Antônio de Oliveira</persName>
             <idno type="project"/>
@@ -7218,7 +7240,7 @@
         </person>
         
         <person xml:id="major_maximiano">
-            <persName>Maximiano</persName>
+            <persName>Maximiano Rodrigues Fernandes</persName>
             <idno type="project"/>
             <state type="roleInTime" xml:id="maximiano_major_farroupilha">
                 <roleName>Major</roleName>
@@ -7233,6 +7255,19 @@
                 Farroupilha e foi posteriormente mencionado como desertor do corpo sob seu 
                 comando. A documentação consultada não fornece seu nome completo nem 
                 detalhes adicionais de carreira.
+            </note>
+        </person>
+        
+        <person xml:id="fileno_oliveira_santos">
+            <persName>Fileno de Oliveira Santos</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="fileno_oliveira_santos_capitao">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <note>
+                Capitão farroupilha que enviou ofício ao Major 
+                Maximiano Rodrigues Fernandes.
             </note>
         </person>
         
@@ -7375,7 +7410,17 @@
         
         <person xml:id="felix_aires">
             <persName>Félix Aires</persName>
-            <note>Capitão mencionado em operações militares no contexto da Revolução Farroupilha.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="felix_aires_capitao">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <note>
+                Oficial farroupilha com posto de capitão, mencionado em operações militares e 
+                comunicações oficiais durante a Revolução Farroupilha. Embora frequentemente citado 
+                em situações de deslocamento e comando intermediário, sua trajetória civil e datações 
+                biográficas ainda não estão plenamente estabelecidas.
+            </note>
         </person>
         
         <person xml:id="laurindo_capitao">
@@ -7395,24 +7440,71 @@
         
         <person xml:id="reinecio">
             <persName>Reinécio</persName>
-            <note>Tenente mencionado como acompanhando Manuel Antônio.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="reinecio_tenente">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <note>
+                Tenente farroupilha mencionado em correspondência militar. 
+                Sua grafia aparece com dúvida na edição dos Anais (“Reinécio?”), 
+                não havendo confirmação documental sobre a forma exata do nome.
+            </note>
         </person>
         
-        <person xml:id="fialho">
-            <persName>Fialho</persName>
-            <note>Indivíduo mencionado entre os que permaneceram na retaguarda.</note>
+        <person xml:id="vicente_fialho">
+            <persName>Vicente José Fialho</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="vicente_jose_fialho_tenente">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>
+                Tenente legalista residente em São Gabriel, mencionado em correspondência militar 
+                como integrante das forças imperiais durante a Revolução Farroupilha.
+            </note>
         </person>
         
         <person xml:id="pedro_vieira">
             <persName>Pedro José Vieira</persName>
             <persName type="popular" xml:lang="es">Perico el Bailarín</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q5658905</idno>
-            <roleName>Coronel</roleName>
-            <relation
-                name="rel:siblingOf"
-                active="#pedro_vieira"
-                passive="#felix_vieira"/>
-            <note>Coronel farroupilha, possivelmente irmão de Félix Vieira.</note>
+            <state type="roleInTime" xml:id="pedro_vieira_coronel">
+                <roleName>Coronel</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <note>
+                Coronel farroupilha, identificado em fontes brasileiras e uruguaias; conhecido 
+                pelo apelido “Perico el Bailarín”. Irmão de 
+                Félix Vieira.
+            </note>
+        </person>
+        
+        <person xml:id="felix_vieira">
+            <persName>Félix Vieira</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="felix_vieira_major">
+                <roleName>Major</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <note>
+                Major farroupilha mencionado em correspondência militar, responsável por conduzir tropas 
+                e realizar entregas em operações da República Rio-Grandense. Aparece em fontes irmão do coronel Pedro José Vieira.
+            </note>
+        </person>
+        
+        <person xml:id="januario">
+            <persName>Januário</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="januario_tenente">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <note>
+                Tenente farroupilha mencionado em correspondência militar, destacado em serviço 
+                junto ao Vice-presidente Gomes Jardimna região de Vacacaí.
+                Sua identidade civil completa ainda não foi estabelecida.
+            </note>
         </person>
         
         <person xml:id="jose_coutinho_almeida">

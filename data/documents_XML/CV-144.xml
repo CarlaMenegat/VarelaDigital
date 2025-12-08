@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-144 – Secretaria da Guerra para João Antônio da Silveira</title>
                 <author>Serafim Joaquim de Alencastre</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-06-16">30 de junho de 2025</date>
+                <date when="2025-07-23">23 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -78,13 +84,14 @@
                 </application>
             </appInfo>
         </encodingDesc>
-        <encodingDesc>
-            <projectDesc>
-                <p>Edição digital em TEI P5 da Coleção Varela, com uso de standoff markup para entidades nomeadas e metadados completos.</p>
-            </projectDesc>
-        </encodingDesc>
         
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <orgName ref="#ministerio_guerra">Secretaria dos Negócios da Guerra</orgName>
@@ -96,12 +103,15 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
-        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-20">20/11/2025</date>
-                    Conversão para TEI P5 por Carla Menegat.
+                    <date when="2025-07-23">23/07/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-07">07/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
@@ -114,48 +124,32 @@
                     <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>O governo viu o ofício que 
-                    <choice>
-                        <abbr>V. S.ª</abbr>
-                        <expan>Vossa Senhoria</expan>
-                    </choice> 
+                <p>O governo viu o ofício que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
                     dirigiu ao <persName ref="#felix_aires">Capitão Félix Aires</persName>, e por notícias verbais consta que 
-                    <choice>
-                        <abbr>V. S.ª</abbr>
-                        <expan>Vossa Senhoria</expan>
-                    </choice>, 
-                    a esta hora, está no <placeName ref="#jacu">Jacu</placeName>. Muito convém pois que 
-                    <choice>
-                        <abbr>V. S.ª</abbr>
-                        <expan>Vossa Senhoria</expan>
-                    </choice> 
-                    faça todo o empenho, uma vez que por fortuna há tomado essa direção, de fazer junção com o <persName ref="#joaquim_pedro">Coronel Joaquim Pedro</persName>, adiantando-lhe um próprio, pois se conseguir essa operação, ela será suficiente para malograr o plano do inimigo, mas para esse efeito não deve 
-                    <choice>
-                        <abbr>V. S.ª</abbr>
-                        <expan>Vossa Senhoria</expan>
-                    </choice> 
+                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>, 
+                    a esta hora, está no Jacu. Muito convém pois que 
+                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>
+                    faça todo o empenho, uma vez que por fortuna há tomado essa direção, de fazer junção com o 
+                    <persName ref="#joaquim_pedro_soares">Coronel Joaquim Pedro</persName>, adiantando-lhe um próprio, pois se 
+                    conseguir essa operação, ela será suficiente para malograr o plano do inimigo, mas para esse efeito não deve 
+                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>
                     trepidar um momento, porque é factível que o inimigo tenha alguns dias de demora na capital.
                 </p>
                 
-                <p>Faço seguir o <persName ref="#manuel_antonio">Tenente Manuel Antônio</persName> com a gente que aqui há disponível. O <persName ref="#laurindo">Capitão Laurindo</persName> deverá estar no <placeName ref="#jacu">Jacu</placeName>, o <persName ref="#felix_aires">Capitão Félix</persName> em <placeName ref="#joao_machado">João Machado</placeName>, e o <persName ref="#reinecio">Tenente Reinécio</persName> seguirá com o <persName ref="#manuel_antonio">Tenente Manuel Antônio</persName>. 
-                    <choice>
-                        <abbr>V. S.ª</abbr>
-                        <expan>Vossa Senhoria</expan>
-                    </choice> 
+                <p>Faço seguir o <persName ref="#manuel_antonio_celebre">Tenente Manuel Antônio</persName> com a gente que aqui há disponível. 
+                    O <persName ref="#laurindo_capitao">Capitão Laurindo</persName> deverá estar no Jacu, 
+                    o <persName ref="#felix_aires">Capitão Félix</persName> em João Machado, e o 
+                    <persName ref="#reinecio"><choice><orig>Reinécio?</orig><reg cert="low">Reinécio</reg></choice>
+                    </persName> seguirá com o 
+                    <persName ref="#manuel_antonio_celebre">Tenente Manuel Antônio</persName>. 
+                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>
                     preste somente sua atenção sobre o inimigo, o qual unicamente lhe deve merecer suas solicitudes.
                 </p>
                 
-                <p>Deus guarde a 
-                    <choice>
-                        <abbr>V. S.ª</abbr>
-                        <expan>Vossa Senhoria</expan>
-                    </choice>, 
-                    <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName> em 
-                    <placeName ref="#vacacai">Vacacaí</placeName>, 
-                    <date when="1840-03-23">23 de março 1840</date>.
-                </p>
-                
                 <closer>
+                    <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
+                    <signed><orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName></signed>
+                    <dateline><placeName ref="#vacacai">Vacacaí</placeName>, <date when="1840-03-23">23 de março 1840</date></dateline>
                     <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
@@ -164,14 +158,7 @@
                     (a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>.<br/>
                     
                     <note type="endorsement">
-                        <choice>
-                            <abbr>S. da R.</abbr>
-                            <expan>
-                                <orgName ref="#secretaria_presidencia_republica">
-                                    Secretaria da Presidência da República
-                                </orgName>
-                            </expan>
-                        </choice>
+                        <choice><abbr>S. da R.</abbr><expan><orgName ref="#secretaria_presidencia_republica">Secretaria da Presidência da República</orgName></expan></choice>
                     </note>
                     
                     <note type="source">[No verso]</note><br/>

@@ -19,8 +19,9 @@
                 <date when="2025-06-17">17 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -129,18 +130,29 @@
                 
                 <p>Quando aqui esteve o <persName ref="#antonio_abreu">Abreu</persName>, apresentou uns documentos de gados
                     a ele tirados para munício de forças, e os levou por faltarem neles alguns quesitos; não sei em quanto
-                    montavam; ele ainda deve uma letra que passou na Coletoria do <placeName ref="#erval">Erval</placeName>, 
+                    montavam; ele ainda deve uma letra que passou na <orgName ref="#coletoria_erval">Coletoria do Erval</orgName>, 
                     há pouco apresentada pelo coletor dali.</p>
-                
-                <p>Os documentos, o <persName ref="#antonio_abreu">Abreu</persName> tornou a levá-los; por isso não ficaram
-                    escriturados. A quantia que pela Coletoria do <placeName ref="#erval">Erval</placeName> se acha debitada,
-                    não me lembra qual é; e assim mais acha-se-lhe debitada uma outra quantia, que recebeu por ordem do 
-                    Ministério da Fazenda pela Coletoria a seu cargo, quando Coletor.</p>
                 
                 <closer>
                     <signed>De <choice><abbr>V.Exª</abbr><expan>Vossa Excelência</expan></choice> Patrício e afetuoso<br/>(a)
                         <persName ref="#manuel_martins_silveira_lemos">Martins</persName></signed>
                 </closer>
+                
+                <seg type="folio">[1v.]</seg>
+                
+                <p>Os documentos, o <persName ref="#antonio_abreu">Abreu</persName> tornou a levá-los; por isso não ficaram
+                    escriturados. A quantia que pela Coletoria do <placeName ref="#erval">Erval</placeName> se acha debitada,
+                    não me lembra qual é; e assim mais acha-se-lhe debitada uma outra quantia, que recebeu por ordem do 
+                    <orgName ref="#ministerio_fazenda">Ministério da Fazenda</orgName> pela Coletoria a seu cargo, quando Coletor.</p>
+                
+                <note type="editorial">
+                    Letra de <persName ref="#manuel_martins_silveira_lemos">Manuel Martins da Silveira Lemos</persName>, 
+                    no verso.
+                </note>
+                
+                <note type="editorial">
+                    Anexo ao documento CV-6.
+                </note>
             </div>
         </body>
     </text>

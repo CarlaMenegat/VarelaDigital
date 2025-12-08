@@ -19,8 +19,9 @@
                 <date when="2025-06-16">16 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -116,29 +117,41 @@
     <text>
         <body>
             <div type="letter" xml:id="CV-3">
+                
                 <opener>
                     <salute>Amigo e Senhor Almeida,</salute>
                     <dateline>
                         <placeName ref="#sao_lourenco">São Lourenço</placeName>, <date when="1841-11-13">13 de novembro de 1841</date>
                     </dateline>
                 </opener>
+
                 <p>Verá <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> o resultado do seu despacho, eu sinto sobremaneira
                     que as ordens superiores não sejam religiosamente respeitadas, muito principalmente por autoridades inferiores, que 
                     deveriam ser essas as primeiras a darem o exemplo, e assim provarem as capacidades que temos para possuirmos o governo 
-                    que felizmente procuramos estabelecer.</p>
-                <p>O requerimento é inexato, e como diz o próprio agressor que para uma força, outra força, e será isto requisição amigável? 
+                    que felizmente procuramos estabelecer. O requerimento é inexato, e como diz o próprio agressor que para uma força, outra força, e será isto requisição amigável? 
                     Bastante sinto que esse infeliz Juiz de Paz do distrito de <placeName ref="#sao_joao_batista">São João Batista</placeName> 
                     não se alargasse, com o temor de ofender a alguns que se empenham em tirar o direito desse pobre 
-                    <persName ref="#jose_sousa">José de Sousa</persName>, e dar ao europeu <persName ref="#joao_costa">João José da Costa</persName>.</p>
-                <p>Enfim, meu amigo, estou certo <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> não se renderá com as relações 
-                    de nossa amizade, e sim com os deveres de Ministro, e muito principalmente com os de justiça, privando-me assim de me deixar 
+                    <persName ref="#jose_sousa">José de Sousa</persName>, e dar ao europeu <persName ref="#joao_costa">João José da Costa</persName>. 
+                    Enfim, meu amigo, estou certo <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> não se renderá com as relações 
+                    de nossa 
+                    
+                    <seg type="folio">[1v.]</seg>
+
+                    amizade, e sim com os deveres de Ministro, e muito principalmente com os de justiça, privando-me assim de me deixar 
                     possuir de medonhas futuras ideias.</p>
+                
                 <closer>
                     <salute>Sempre o mesmo<br/>Seu grato e antigo amigo</salute>
                     <signed>
                         <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName>
                     </signed>
                 </closer>
+                    
+                <note type="endorsement">
+                    Repondida a <date when="1841-11-30">30 de novembro de 1841.</date>
+                    Letra de <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName> 
+                    na <seg type="folio">folha 1r</seg>.
+                </note>
             </div>
         </body>
     </text>

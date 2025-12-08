@@ -21,8 +21,9 @@
                 <date when="2025-07-18">18 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -138,13 +139,18 @@
                 </closer>
                 
                 <note type="endorsement">
-                    Ofício do Exmo. <persName ref="#serafim_alencastre">Ministro da Guerra</persName> de <date when="1839-12-20">20 de dezembro</date>, recebido a <date when="1839-12-27">27 do mesmo</date>.  
-                    <choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice> logo, logo.  
-                    Ao cidadão <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>, 
-                    Chefe de Polícia do departamento do Boqueirão.  
-                    Do Ministério da Guerra.
+                    <p>Ofício do Exmo. <persName ref="#serafim_alencastre">Ministro da Guerra</persName> 
+                        de <date when="1839-12-20">20 de dezembro</date>, recebido a 
+                        <date when="1839-12-27">27 do mesmo</date>.<br/>
+                        <choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice> 
+                        logo, logo.</p>
+                    <p>Ao cidadão <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>, 
+                        Chefe de Polícia do Departamento do Boqueirão.<br/>
+                        Do Ministério da Guerra.</p>
+                    
+                    <seg type="folio">[No verso]</seg>
+                    
                 </note>
-                
             </div>
         </body>
     </text>

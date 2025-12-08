@@ -304,45 +304,102 @@
             <note>Órgão de supervisão, auditoria e julgamento de contas do governo farroupilha.</note>
         </org>
         
-        <org xml:id="coletoria_bage" type="fiscalOffice">
+        <org xml:id="coletoria_jaguarao" type="administrativeUnit">
+            <orgName>Coletoria de Jaguarão</orgName>
+            <idno type="project"/>
+            <affiliation ref="#ministerio_fazenda"/>
+            <note>
+                Órgão fiscal responsável pela arrecadação local em Jaguarão durante o 
+                período farroupilha; mencionada em correspondência oficial entre autoridades 
+                da República Rio-Grandense.
+            </note>
+        </org>
+        
+        <org xml:id="coletoria_piratini" type="administrativeUnit">
+            <orgName>Coletoria de Piratini</orgName>
+            <idno type="project"/>
+            <affiliation ref="#ministerio_fazenda"/>
+            <note>
+                Órgão fiscal sediado em Piratini, primeira capital farroupilha, responsável 
+                pela arrecadação de tributos e controle financeiro local.
+            </note>
+        </org>
+        
+        <org xml:id="coletoria_pelotas" type="administrativeUnit">
+            <orgName>Coletoria de Pelotas</orgName>
+            <idno type="project"/>
+            <affiliation ref="#ministerio_fazenda"/>
+            <note>
+                Unidade administrativa encarregada da coleta de rendas em Pelotas durante 
+                o governo farroupilha, citada em correspondência oficial da época.
+            </note>
+        </org>
+        
+        <org xml:id="coletoria_erval" type="administrativeUnit">
+            <orgName>Coletoria do Erval</orgName>
+            <idno type="project"/>
+            <affiliation ref="#ministerio_fazenda"/>
+            <note>
+                Órgão fiscal localizado no distrito do Erval (Herval), então vinculado ao município de Jaguarão, 
+                responsável pela arrecadação de rendas durante o governo da República Rio-Grandense.
+            </note>
+        </org>
+        
+        <org xml:id="coletoria_bage" type="administrativeUnit">
             <orgName>Coletoria de Bagé</orgName>
             <idno type="project"/>
-            <note>Órgão encarregado da arrecadação de impostos na região de Bagé.</note>
+            <affiliation ref="#ministerio_fazenda"/>
+            <note>
+                Órgão fiscal local subordinado ao Ministério da Fazenda da República Rio-Grandense, 
+                responsável pela arrecadação de tributos no município de Bagé.
+            </note>
         </org>
-        
-        <org xml:id="coletoria_alegrete_sao_borja" type="fiscalOffice">
+
+        <org xml:id="coletoria_alegrete_sao_borja" type="administrativeUnit">
             <orgName>Coletoria Geral dos Municípios de Alegrete e São Borja</orgName>
             <idno type="project"/>
-            <note>Órgão fiscal da República Rio-Grandense responsável pela arrecadação em municípios da fronteira oeste.</note>
+            <affiliation ref="#ministerio_fazenda"/>
+            <note>
+                Unidade fiscal subordinada ao Ministério da Fazenda, encarregada da arrecadação 
+                e fiscalização tributária nos municípios de Alegrete e São Borja, região da fronteira oeste.
+            </note>
         </org>
-        
-        <org xml:id="reparticao_fiscal_rio_uruguai" type="fiscalOffice">
+
+        <org xml:id="reparticao_fiscal_rio_uruguai" type="administrativeUnit">
             <orgName>Repartição Fiscal do Rio Uruguai</orgName>
             <idno type="project"/>
-            <note>Órgão responsável pela fiscalização fluvial e alfandegária na navegação do Rio Uruguai.</note>
+            <affiliation ref="#ministerio_fazenda"/>
+            <note>
+                Repartição fiscal subordinada ao Ministério da Fazenda, responsável pela 
+                fiscalização tributária, aduaneira e fluvial na navegação do Rio Uruguai.
+            </note>
         </org>
-        
-        <org xml:id="contadoria_geral" type="governmentOffice">
+
+        <org xml:id="contadoria_geral" type="administrativeUnit">
             <orgName>Contadoria Geral</orgName>
             <idno type="project"/>
-            <note>Órgão financeiro da República Rio-Grandense responsável pelo exame de contas e pela escrituração fiscal.</note>
+            <affiliation ref="#ministerio_fazenda"/>
+            <note>
+                Órgão financeiro da República Rio-Grandense encarregado do exame de contas, 
+                escrituração fiscal e controle contábil central, subordinado ao Ministério da Fazenda.
+            </note>
         </org>
         
-        <org xml:id="procuradoria_fiscal" type="governmentOffice">
+        <org xml:id="procuradoria_fiscal" type="administrativeUnit">
             <orgName>Procuradoria Fiscal</orgName>
             <idno type="project"/>
-            <note>Órgão jurídico-fiscal encarregado de analisar contas, emitir pareceres e processar questões financeiras.</note>
+            <affiliation ref="#tribunal_tesouro"/>
+            <note>
+                Órgão jurídico-fiscal subordinado ao Tribunal do Tesouro, responsável por emitir 
+                pareceres, examinar contas, acompanhar processos financeiros e representar o 
+                interesse fiscal do Estado.
+            </note>
         </org>
         
         <org xml:id="fazendas_nacionais">
             <orgName>Fazendas Nacionais</orgName>
             <idno type="project"/>
             <note>Propriedades rurais pertencentes ao Estado; remanescentes das antigas estâncias dos jesuítas e administradas pelo Tesouro.</note>
-        </org>
-        
-        <org xml:id="departamento_boqueirao">
-            <orgName>Departamento do Boqueirão</orgName>
-            <note>Divisão de chefia de polícia sob a chefia de Inácio José de Oliveira Guimarães.</note>
         </org>
 
         <org xml:id="presidencia_estado">
@@ -367,7 +424,8 @@
             <orgName>Divisão Direita</orgName>
             <idno type="project"></idno>
             <affiliation ref="#republica_rio_grandense"/>
-            <note>Grande unidade militar do Exército Republicano Rio-Grandense, atuante em operações estratégicas durante a Revolução Farroupilha.</note>
+            <note>Grande unidade militar do Exército Republicano Rio-Grandense, atuante 
+                em operações estratégicas durante a Revolução Farroupilha.</note>
         </org>
         
         <org xml:id="divisao_esquerda" type="militaryUnit">

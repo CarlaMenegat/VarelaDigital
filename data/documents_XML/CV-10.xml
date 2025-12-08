@@ -19,8 +19,9 @@
                 <date when="2025-06-18">18 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -94,7 +95,7 @@
                     <date when="1842-12-18">18 de dezembro de 1842</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#almeida">Domingos José de Almeida</persName>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -117,7 +118,7 @@
             <div type="letter" xml:id="CV-10">
                 <opener>
                     <salute>Amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
-                        <persName ref="#almeida">Almeida</persName></salute>
+                        <persName ref="#domingos_jose_almeida">Almeida</persName></salute>
                     <date when="1842-12-18">Salso, 18 de dezembro 1842 anos</date>
                 </opener>
                 
@@ -131,9 +132,7 @@
                     ordem que o tio <persName ref="#bento_goncalves">Bento</persName> me havia dado para eu passar letras dos 
                     direitos que tivesse a pagar, cuja ordem foi agora contrariada na Coletoria do 
                     <placeName ref="#erval">Erval</placeName> não sei se pelo Ministro ou se pelo Inspetor, e que nada se me 
-                    levasse em conta sem ordem positiva do governo.</p>
-                
-                <p>Portanto, meu amigo, que está, como eu estou, com a minha pouca fortuna sacrificada, e 
+                    levasse em conta sem ordem positiva do governo. Portanto, meu amigo, que está, como eu estou, com a minha pouca fortuna sacrificada, e 
                     <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> não ignora, veja o que poderá fazer vendendo carne 
                     a 600 rs. fracos, couros 140 rs. e o mais em proporção pagando 350 rs. de frete a cada iate, 800 rs. fortes de 
                     direitos, e o mais que <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> melhor do que eu sabe; enfim, 
@@ -154,6 +153,9 @@
                     <p><choice><abbr>P.S.</abbr><expan>Post scriptum</expan></choice> Muito lhe rogo a prontidão deste meu 
                         negócio pois que breve me será preciso apresentar a ordem ou pagar os direitos a dinheiro.</p>
                 </postscript>
+                
+                Letra de <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName> 
+                na <seg type="folio">folha 1r</seg>.
             </div>
         </body>
     </text>

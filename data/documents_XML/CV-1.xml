@@ -138,7 +138,10 @@
                     <persName ref="#canabarro">Canabarro</persName>. Comandava o corpo (batalhão) o 
                     <persName ref="#teixeira_nunes">Coronel Joaquim Teixeira Nunes</persName> e o esquadrão, 
                     <persName ref="#demetrio_ribeiro">Demétrio Ribeiro</persName>. Neste ataque foi prisioneiro o 
-                    <persName ref="#roque">capitão legalista Roque</persName> sendo em marcha fuzilado. Esse capitão foi o 
+                    <persName ref="#roque">capitão legalista Roque</persName> sendo em marcha fuzilado. Esse capitão 
+                    
+                    <seg type="folio">[2r.]</seg>
+                    foi o 
                     assassino do <persName ref="#joao_manuel_lima_silva">General Lima</persName>, em uma casa da fronteira.”</p>
                 
                 <p>Aqui termina o velho o que sabia, dizendo estar pronto a mais esclarecimentos dar, quando necessários, 
@@ -153,6 +156,11 @@
                     <signed>Raul</signed>
                     <placeName ref="#cachoeira">Cachoeira</placeName>, <date when="1896-04-27">27-4-96</date>.
                 </closer>
+                
+                <note type="endorsement">
+                    <persName ref="#raul_abbott">Raul Abbott</persName>
+                    <seg type="folio">[No verso, a lápis]</seg>
+                </note>
             </div>
         </body>
     </text>

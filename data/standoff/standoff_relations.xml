@@ -2641,8 +2641,6 @@
         passive="#teodoro_medeiros"
         mutual="true"/>
     
-    <!-- Relações envolvendo João Antônio da Silveira -->
-    
     <relation
         name="foaf:knows"
         active="#joao_antonio_silveira"
@@ -2757,5 +2755,87 @@
         name="hrao:servedUnder"
         active="#vicente_ferrer_almeida"
         passive="#saturnino_sousa_oliveira"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#joao_antonio_silveira"
+        passive="#bento_manoel"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#serafim_alencastre"
+        passive="#bento_manoel"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#serafim_alencastre"
+        passive="#inacio_guimaraes"
+        mutual="true"/>
+    
+    <relation
+        name="hrao:servedUnder"
+        active="#jose_antonio_faria"
+        passive="#serafim_alencastre"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#joao_antonio_silveira"
+        passive="#felix_aires"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#joao_antonio_silveira"
+        passive="#joaquim_pedro_soares"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#joao_antonio_silveira"
+        passive="#laurindo_capitao"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#joao_antonio_silveira"
+        passive="#reinecio"
+        mutual="true"/>
+    
+    <relation
+        name="hrao:servedUnder"
+        active="#manuel_antonio_celebre"
+        passive="#joao_antonio_silveira"/>
+
+    <relation
+        name="foaf:knows"
+        active="#juca_cipriano"
+        passive="#dedeco"
+        mutual="true"/>
+
+    <relation
+        name="foaf:knows"
+        active="#juca_cipriano"
+        passive="#vicente_jose_fialho"
+        mutual="true"/>
+
+    <relation
+        name="foaf:knows"
+        active="#dedeco"
+        passive="#vicente_jose_fialho"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#januario"
+        passive="#gomes_jardim"
+        mutual="true"/>
+    
+    <relation
+        name="rel:siblingOf"
+        active="#pedro_vieira"
+        passive="#felix_vieira"
+        mutual="true"/>
     
 </TEI>

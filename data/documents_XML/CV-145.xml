@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-145 – Secretaria da Guerra para João Antônio da Silveira</title>
                 <author>Serafim Joaquim de Alencastre</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-06-16">30 de junho de 2025</date>
+                <date when="2025-07-23">23 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -78,12 +84,14 @@
                 </application>
             </appInfo>
         </encodingDesc>
-        <encodingDesc>
-            <projectDesc>
-                <p>Edição digital em TEI P5 da Coleção Varela, com uso de standoff markup para entidades nomeadas e metadados completos.</p>
-            </projectDesc>
-        </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName>
@@ -95,12 +103,15 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
-        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-20">20/11/2025</date>
-                    Conversão para TEI P5 por Carla Menegat.
+                    <date when="2025-07-23">23/07/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-08">08/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
@@ -114,55 +125,36 @@
                     <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>O governo recebeu seu ofício de 23 do corrente e fica certo do que 
-                    <choice>
-                        <abbr>V. S.ª</abbr>
-                        <expan>Vossa Senhoria</expan>
-                    </choice> 
+                <p>O governo recebeu seu ofício de <date when="1840-03-23">23 do corrente</date> e fica certo do que 
+                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
                     participa, e em referência de tudo quanto comunica o 
                     <persName ref="#felix_aires">Capitão Félix</persName> com respeito aos movimentos do inimigo.
                 </p>
                 
-                <p>O governo nada tem que acrescentar ao que lhe ordenou em data de ontem, mas espera que comunique freqientemente de tudo quanto for ocorrendo, tanto de sua marcha e do 
+                <p>O governo nada tem que acrescentar ao que lhe ordenou em data de ontem, mas espera que comunique 
+                    frequentemente de tudo quanto for ocorrendo, tanto de sua marcha e do 
                     <persName ref="#domingos_crescencio_carvalho">Coronel Crescêncio</persName>, 
                     como dos movimentos do inimigo. Ontem fez seguir o 
-                    <persName ref="#manuel_antonio">Tenente Manuel Antônio</persName> com todos os homens de fileira e a cavalhada que foi possível arranjar-se, a ponto de ficarmos só com alguns homens para carnear.
+                    <persName ref="#manuel_antonio_celebre">Tenente Manuel Antônio</persName> com todos os homens 
+                    de fileira e a cavalhada que foi possível arranjar-se, a ponto de ficarmos só com alguns homens para carnear.
                 </p>
                 
-                <p>Se 
-                    <choice>
-                        <abbr>V. S.ª</abbr>
-                        <expan>Vossa Senhoria</expan>
-                    </choice> 
-                    tiver certeza que com efeito <persName ref="#juca_cipriano">Juca Cipriano</persName>, <persName ref="#fialho">Fialho</persName> e etc. ficaram para a retaguarda, o governo espera que prontamente o comunique a fim de tomar as medidas que forem convenientes.
-                </p>
-                
-                <p>Deus guarde a 
-                    <choice>
-                        <abbr>V. S.ª</abbr>
-                        <expan>Vossa Senhoria</expan>
-                    </choice>, 
-                    <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName> em 
-                    <placeName ref="#vacacai">Vacacaí</placeName>, 
-                    <date when="1840-03-24">24 de março de 1840</date>.
+                <p>Se <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
+                    tiver certeza que com efeito <persName ref="#juca_cipriano">Juca Cipriano</persName>, 
+                    <persName ref="#vicente_fialho">Fialho</persName> e etc. ficaram para a retaguarda, o governo espera 
+                    que prontamente o comunique a fim de tomar as medidas que forem convenientes.
                 </p>
                 
                 <closer>
+                    <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
+                    <signed><orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName></signed>
+                    <dateline><placeName ref="#vacacai">Vacacaí</placeName>, <date when="1840-03-24">24 de março de 1840</date></dateline>
                     <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
                 <note type="endorsement">
-                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>.<br/>
-                    (a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>.<br/>
                     
-                    <choice>
-                        <abbr>S. da R.</abbr>
-                        <expan>
-                            <orgName ref="#secretaria_presidencia_republica">Secretaria da Presidência da República</orgName>
-                        </expan>
-                    </choice>
-                    
-                    <note type="source">[No verso]</note><br/>
+                    <note type="editorial">[No verso]</note><br/>
                     
                     Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>,<br/>
                     Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.<br/>

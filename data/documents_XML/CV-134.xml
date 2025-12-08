@@ -19,8 +19,9 @@
                 <date when="2025-07-18">18 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -132,27 +133,34 @@
                     sua força toda reunida e pronta para executar as ordens que lhe serão 
                     transmitidas; e previno-o de ora em diante lhe serão tais ordens 
                     escritas de meu próprio punho, e nenhuma cumprirá que tenha só 
-                    a minha assinatura, por ter aparecido uma falsificada e muito semelhante.
+                    a minha assinatura, por ter aparecido uma falsificada e muito semelhante. 
                 </p>
-                
+
+
                 <closer>
-                    <signed>
-                        <persName ref="#saturnino_sousa_oliveira">Saturnino de Sousa e Oliveira</persName>
-                    </signed>
+                    Deus Guarde a <choice><abbr>V. Mcê.</abbr><expan>Vossa Mercê</expan></choice>
                     <dateline>
-                        <placeName ref="#porto_alegre">Palácio do Governo em Porto Alegre</placeName>,
+                        Palácio do Governo em <placeName ref="#porto_alegre">Porto Alegre</placeName>,
                         <date when="1839-12-04">4 de dezembro de 1839</date>
                     </dateline>
                     <signed>
-                        <persName ref="#manuel_simas">Manuel José de Simas</persName>
+                        <persName ref="#saturnino_sousa_oliveira">Saturnino de Sousa e Oliveira</persName>
                     </signed>
                 </closer>
                 
                 <note type="endorsement">
-                    Está conforme. <persName ref="#luis_barreto">Luís José Ribeiro Barreto</persName>.<br/>
-                    Está conforme. <persName ref="#manuel_lima">Manuel Vieira Lima</persName>, Major às ordens.<br/>
-                    Está conforme. O oficial-maior interino, 
-                    <persName ref="#vicente_ferrer_almeida">Vicente Ferrer de Almeida</persName>.
+                    <p>
+                        <choice><orig>Sr. Ma-</orig><reg>Sr. Major</reg></choice>
+                        <seg type="folio">[1v.]</seg>
+                        jor 
+                        <persName ref="#manuel_jose_simas">Manuel José Simas</persName>.
+                        Está conforme. 
+                        <persName ref="#luis_barreto">Luís José Ribeiro Barreto</persName>.
+                        Está conforme. 
+                        <persName ref="#manuel_vieira_lima">Manuel Vieira Lima</persName>
+                        O oficial-maior interino. 
+                        (a) <persName ref="#vicente_ferrer_almeida">Vicente Ferrer de Almeida</persName>.
+                    </p>
                 </note>
                 
                 <note type="editorial">[Anexo ao documento CV-133]</note>

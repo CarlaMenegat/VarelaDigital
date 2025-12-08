@@ -19,8 +19,9 @@
                 <date when="2025-06-16">16 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -128,6 +129,15 @@
                     <salute>Seu amigo obrigadíssimo criado</salute>
                     <signed>Antônio Francisco dos Santos Abreu</signed>
                 </closer>
+                
+                <note type="endorsement">
+                    Ao cidadão Ministro <persName ref="#domingos_jose_almeida">Domingos José de Alemida.</persName>
+                    <placeName ref="#bage">Bagé</placeName>. 
+                    <seg type="folio">[No verso]</seg>
+                    Repondida a <date when="1841-11-30">30 de novembro de 1841</date>.
+                    Letra de <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName> 
+                    na <seg type="folio">folha 1r</seg>.
+                </note>
             </div>
         </body>
     </text>

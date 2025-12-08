@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-149 – Circular da Secretaria da Guerra para Inácio José de Oliveira Guimarães</title>
-                <author>Serafim Joaquim de Alencastre</author>
+                <title>Circular CV-149 – Circular da Secretaria da Guerra para Inácio José de Oliveira Guimarães</title>
+                <author><orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName></author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-06-16">30 de junho de 2025</date>
+                <date when="2025-07-24">24 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 circular</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -78,24 +84,24 @@
                 </application>
             </appInfo>
         </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sent">
-                    <orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName>
-                    <placeName ref="#cacapava">Caçapava</placeName>
-                    <date when="1840-05-20">20 de maio de 1840</date>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
         
+        <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
+        </profileDesc>
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-07-24">24/07/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-08">08/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
@@ -103,25 +109,43 @@
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-149">
+            <div type="circular" xml:id="CV-149">
                 
                 <opener>
-                    <salute>Circular. Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Achando-se o <persName ref="#camilo_campelo">Tenente-coronel Camilo</persName> encarregado pelo governo das operações além de <placeName ref="#camaqua">Camaquã</placeName>, durante a ausência do Comandante da <orgName ref="#divisao_esquerda">Divisão da Esquerda</orgName>, claro fica que a ele só compete a segurança e tranquilidade da fronteira que lhe foi confiada; e por isso é da rigorosa obrigação de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> prestar-se por todos os meios ao seu alcance às suas reclamações.</p>
+                <p>Achando-se o <persName ref="#camilo_campelo">Tenente-coronel Camilo</persName> encarregado pelo governo das 
+                    operações além de <placeName ref="#camaqua">Camaquã</placeName>, durante a ausência do Comandante da 
+                    <orgName ref="#divisao_esquerda">Divisão da Esquerda</orgName>, claro fica que a ele só compete a segurança e 
+                    tranquilidade da fronteira que lhe foi confiada; e por isso é da rigorosa obrigação de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
+                    prestar-se por todos os meios ao seu alcance às suas reclamações.</p>
                 
-                <p>Mister é pois coadjuvá-lo, remetendo-lhe <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> os contingentes que for possível e até reunindo-se a ele quando urjam as circunstâncias. Para defender e evitar-se as frequentes invasões do inimigo, deve haver uma massa, e jamais com pequenas frações nos respectivos municípios se poderá conseguir bons resultados, como desgraçadamente tem acontecido segundo faz sentir aquele comandante.</p>
-                
-                <p>Confia o governo que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> será exato observador de suas ordens. Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>. <orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, <date when="1840-05-20">20 de maio de 1840</date>.</p>
+                <p>Mister é pois coadjuvá-lo, remetendo-lhe <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> os 
+                    contingentes que for possível e até reunindo-se a ele quando urjam as circunstâncias. Para defender e evitar-se as 
+                    frequentes invasões do inimigo, deve haver uma massa, e jamais com pequenas frações nos respectivos municípios se 
+                    poderá conseguir bons resultados, como desgraçadamente tem acontecido segundo faz sentir aquele comandante.</p>
                 
                 <closer>
+                    <salute>
+                        Confia o governo que 
+                        <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>
+                        será exato observador de suas ordens.
+                        Deus guarde a 
+                        <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.
+                    </salute>
+                    
+                    <signed>
+                        <orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName>
+                    </signed>
+                    
+                    <dateline>
+                        <placeName ref="#cacapava">Caçapava</placeName>,
+                        <date when="1840-05-20">20 de maio de 1840</date>
+                    </dateline>
                     <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
-                
-                <closer>
-                    <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
-                </closer>
+
                 
                 <note type="endorsement">
                     Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>, 
@@ -130,7 +154,7 @@
                     
                     <placeName ref="#cacapava">Caçapava</placeName>.  
                     <placeName ref="#piratini">Piratini</placeName>.  
-                    <note type="source">[Carimbos no verso]</note>
+                    <note type="editorial">[Carimbos no verso]</note>
                     
                     Circular do Exmo. Ministro da Guerra de 
                     <date when="1840-05-20">20 de maio</date>, recebida a 

@@ -19,8 +19,9 @@
                 <date when="2025-07-18">18 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">3</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -142,7 +143,11 @@
                     vencer em tão longo trajeto; e se de fato veio esse número, como
                     duvido, essa gente não está em estado de bater-se com a nossa.</p>
                 
-                <p>Quanto ao que <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> diz a respeito da gente deste município,
+                <p>Quanto ao que <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> diz a respeito da gente 
+                    
+                    <seg type="folio">[1v.]</seg>
+
+                    deste município,
                     hoje mesmo segue o Major <persName ref="#frutuoso">Frutuoso</persName>, com o maior número que é
                     possível, com direção à <placeName ref="#cachoeira">Cachoeira</placeName>, para onde ordenou o
                     Exmo. General-em-chefe se fizessem convergir todas as forças e
@@ -163,11 +168,16 @@
                 
                 <p>Permita, porém, <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> que eu faça uma resenha das forças que
                     podem operar sobre essa, vindas de
-                    <placeName ref="#sao_paulo">São Paulo</placeName>. O Coronel <persName ref="#teixeira_nunes">Teixeira</persName> subiu pelas
+                    <placeName ref="#sao_paulo">São Paulo</placeName>. </p>
+                    
+                <p>O Coronel <persName ref="#teixeira_nunes">Teixeira</persName> subiu pelas
                     <placeName ref="#torres_rs">Torres</placeName> com
                     <persName ref="#giuseppe_garibaldi">Garibaldi</persName> com 120 infantes e 80 homens de
-                    cavalaria; o <persName ref="#tenente_coronel_aranha">Tenente-coronel Aranha</persName>, em todas as ocasiões
-                    urgentes, reúne sempre perto de 300 homens; o Tenente-coronel
+                    cavalaria; o <persName ref="#tenente_coronel_aranha">Tenente-coronel Aranha</persName>, 
+                    
+                    <seg type="folio">[2r.]</seg>
+
+                    em todas as ocasiões urgentes, reúne sempre perto de 300 homens; o Tenente-coronel
                     <persName ref="#jose_gomes_portinho">Portinho</persName> deverá ter 200, segundo as participações que têm vindo ao
                     governo; o Tenente-coronel <persName ref="#jacinto_guedes">Guedes</persName>, 
                     <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> melhor saberá que tem o
@@ -179,11 +189,11 @@
                 <p>Todas estas forças reunidas ou de combinação ao mando do
                     Exmo. General <persName ref="#bento_manoel">Bento Manuel Ribeiro</persName>, quando não sejam
                     suficientes para bater o inimigo, servirão para ir contemporizando,
-                    até que possam ser aumentadas por outras que fiquem disponíveis.
-                    É tudo quanto tem o governo de dizer a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>, 
-                    a quem Deus guarde.</p>
+                    até que possam ser aumentadas por outras que fiquem disponíveis.</p>
                 
                 <closer>
+                    <salute>É tudo quanto tem o governo de dizer a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>, 
+                    a quem Deus guarde.</salute>
                     <dateline>Secretaria da Guerra em
                         <placeName ref="#cacapava">Caçapava</placeName>,
                         <date when="1839-12-22">22 de dezembro de 1839</date>.
