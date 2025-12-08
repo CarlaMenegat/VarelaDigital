@@ -19,8 +19,9 @@
                 <date when="2025-06-20">20 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 circular</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -89,7 +90,7 @@
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#almeida">Domingos José de Almeida</persName>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     <placeName ref="#bage">Bagé</placeName>
                     <date when="1842-02-20">20 de fevereiro de 1842</date>
                 </correspAction>
@@ -131,8 +132,11 @@
                     a respeito, como devolver-me a carta que cito se lhe não for precisa.</p>
                 
                 <closer>
+                    <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
+                    Ilmo. Exmno. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#fontoura">Antônio Vicente da Fontoura</persName>
+                    Ministro da Fazenda. 
                     <signed>Domingos José de Almeida</signed>
-                    <note>Está conforme. (a) Domingos José de Almeida.</note>
+                    <note>Está conforme. Domingos José de Almeida.</note>
                 </closer>
             </div>
         </body>

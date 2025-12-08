@@ -194,7 +194,7 @@
                 <closer>
                     <salute>É tudo quanto tem o governo de dizer a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>, 
                     a quem Deus guarde.</salute>
-                    <dateline>Secretaria da Guerra em
+                    <dateline><orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName> em
                         <placeName ref="#cacapava">Caçapava</placeName>,
                         <date when="1839-12-22">22 de dezembro de 1839</date>.
                     </dateline>
