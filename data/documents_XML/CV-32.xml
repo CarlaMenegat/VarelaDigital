@@ -19,8 +19,9 @@
                 <date when="2025-06-22">22 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -89,7 +90,7 @@
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#antonio_abreu">Antônio José de Abreu</persName>
+                    <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>
                     <placeName ref="#piratini">Piratini</placeName>
                     <date when="1841-10-24">24 de outubro de 1841</date>
                 </correspAction>
@@ -160,14 +161,14 @@
                 <closer>
                     <salute>De <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice></salute>
                     <signed>
-                        <persName ref="#antonio_abreu">Compadre amigo muito obrigado<br/>Antônio José de Abreu</persName>
+                        <persName ref="#antonio_jose_abreu">Compadre amigo muito obrigado<br/>Antônio José de Abreu</persName>
                     </signed>
                 </closer>
                 
                 <note type="endorsement">
                     Torna o ofício de <persName ref="#freitas">Freitas</persName>.<br/>
-                    Respondida a 5 de novembro de 1841. [Na folha 1r., letra de
-                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>]
+                    Respondida a 5 de novembro de 1841. <note type="editorial">[Na folha 1r. letra de
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>]</note> 
                 </note>
             </div>
         </body>

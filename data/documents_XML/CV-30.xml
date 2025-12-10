@@ -19,8 +19,9 @@
                 <date when="2025-06-20">20 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -89,7 +90,7 @@
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#antonio_abreu">Antônio José de Abreu</persName>
+                    <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>
                     <placeName ref="#piratini">Piratini</placeName>
                     <date when="1841-10-01">1.º de outubro de 1841</date>
                 </correspAction>
@@ -120,7 +121,7 @@
                 </opener>
                 
                 <p>
-                    Diz o cidadão <persName ref="#antonio_abreu">Antônio José de Abreu</persName> que ele foi nomeado
+                    Diz o cidadão <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName> que ele foi nomeado
                     e juramentado por <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
                     para servir de Curador à fazenda jacente do ab intestato
                     <persName ref="#jose_augusto_ledek">
@@ -142,21 +143,22 @@
                     respectivos.
                 </p>
                 
-                <p>
-                    <choice>
+                <closer>
+                    <salute><choice>
                         <abbr>E.R.Mcê.</abbr>
                         <expan>Estimo receber a Vossa Mercê</expan>
                     </choice>
-                </p>
-                
+                </salute>
+                </closer>
+
                 <note type="endorsement">
                     Está o Suplicante desonerado da curadoria que assinou, à vista do meu despacho
                     de hoje, exarado nos autos respectivos.
                     <placeName ref="#piratini">Piratini</placeName>,
                     <date when="1841-10-01">1.º de outubro de 1841</date>.<br/>
                     <signed><persName ref="#freitas">Freitas</persName></signed><br/>
-                    [Na folha 1r.]<br/>
-                    n.º 2 — Anexo ao documento CV-29.
+                    <note type="editorial">[Na folha 1r.]</note><br/>
+                    <note type="editorial">[n.º 2 — Anexo ao documento CV-29.]</note><br/>
                 </note>
             </div>
         </body>

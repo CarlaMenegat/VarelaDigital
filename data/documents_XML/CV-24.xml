@@ -19,8 +19,9 @@
                 <date when="2025-06-20">20 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -116,39 +117,39 @@
         <body>
             <div type="letter" xml:id="CV-24">
                 <opener>
-                    <salute>Amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#almeida">Almeida</persName>,</salute>
+                    <salute>Amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Almeida</persName>,</salute>
                     <placeName ref="#sao_lourenco">São Lourenço</placeName>, 
                     <date when="1845-04-20">20 de abril de 1845</date>.
                 </opener>
                 
-                <p>Que <persName ref="#almeida"><choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice></persName> e sua família 
+                <p>Que <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> e sua família 
                     passem bem estimarei, nós passamos bem. Fui sabedor por próprio vindo de <placeName ref="#sao_gabriel">São Gabriel</placeName> 
                     ao <placeName ref="#cristal">Cristal</placeName>, que a comissão liquidadora findava no dia 8 de maio, e que todos 
                     os documentos que fossem legalizados seriam pagos, e para o que não havia quantia limitada; outrossim que tais 
                     documentos para bem serem legalizados dependem da assinatura de um dos generais, ou do chefe.</p>
                 
-                <p>Portanto os dois meus passados por <persName ref="#almeida"><choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice></persName> 
+                <p>Portanto os dois meus passados por <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> 
                     terão de sofrer alguma dificuldade, visto faltar-lhes tal quesito; por isso se puder por esse lado, ou mesmo 
                     por cá dar alguma providência seria bom, escrevendo mesmo ao <persName ref="#viana_contador">Viana</persName> 
-                    fazendo-lhe <persName ref="#almeida"><choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice></persName> 
+                    fazendo-lhe <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice>
                     observar alguma coisa, ainda que se gaste algum dinheiro, e se lhe parecer que terá bom êxito tal negócio podia 
-                    <persName ref="#almeida"><choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice></persName> mandar-me uns 
+                    <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> mandar-me uns 
                     outros documentos de igual valor aos que o <persName ref="#viana_contador">Viana</persName> levou, eu aqui os faria 
                     rubricar por <persName ref="#bento_goncalves">Bento</persName>, e os remeteria pelo próprio que dali deve seguir no 
                     dia 26 do corrente; ficando finalmente sem efeito os dois documentos que já o mesmo 
                     <persName ref="#viana_contador">Viana</persName> levou, quando se verifique o que acima lhe passo.</p>
                 
                 <p>Assim mais lhe rogo diga-me alguma coisa se souber a respeito de tal cobrança. Nos recomendamos à sua família; 
-                    e a <persName ref="#almeida"><choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice></persName> a certeza de</p>
+                    e a <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> a certeza de</p>
                 
                 <closer>
                     <salute>Seu amigo e obrigado criado,</salute>
-                    <signed>(a) <persName ref="#abreu">Antônio Francisco dos Santos Abreu</persName>.</signed>
+                    <signed><persName ref="#abreu">Antônio Francisco dos Santos Abreu</persName>.</signed>
                 </closer>
                 
                 <postscript>
                     <p><choice><abbr>P.D.</abbr><expan>Post Data</expan></choice>: Os documentos que <persName ref="#viana_contador">Viana</persName> 
-                        levou passados por <persName ref="#almeida"><choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice></persName> são:</p>
+                        levou passados por <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> são:</p>
                     <list>
                         <item>Um em 15 de março de 1835 — Importe do iate: 4:000$000</item>
                         <item>Idem 12 de outubro de 1836 — Idem de 5 escravos da fazenda de Jaguarão:</item>
@@ -160,10 +161,10 @@
                     </list>
                 </postscript>
                 
-                <address>
+                <note type="endorsement">
                     <p><placeName ref="#sao_lourenco">São Lourenço</placeName>, 20 de abril de 1845.  
                         Recebida a 24 de junho de 1845. Respondida a 27 de junho de 1845.</p>
-                </address>
+                    </note>
             </div>
         </body>
     </text>

@@ -2872,4 +2872,16 @@
         name="foaf:knows"
         active="#manuel_lucas_oliveira"
         passive="#onofre_pires"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#antonio_jose_abreu"
+        passive="#domingos_jose_almeida"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#antonio_jose_abreu"
+        passive="#jose_mariano_matos"
+        mutual="true"/>
 </TEI>

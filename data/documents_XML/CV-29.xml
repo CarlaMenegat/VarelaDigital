@@ -19,8 +19,9 @@
                 <date when="2025-06-22">22 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -89,7 +90,7 @@
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#antonio_abreu">Antônio José de Abreu</persName>
+                    <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>
                     <placeName ref="#piratini">Piratini</placeName>
                     <date when="1841-10-02">2 de outubro de 1841</date>
                 </correspAction>
@@ -122,7 +123,7 @@
                 
                 <p>
                     Perante <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> recorre o cidadão 
-                    <persName ref="#antonio_abreu">Antônio José de Abreu</persName>,
+                    <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>,
                     confiado que se lhe faça reta e imparcial justiça, à vista da arbitrária deliberação
                     proferida contra o recorrente pelo atual Juiz de Direito da Comarca de
                     <placeName ref="#piratini">Piratini</placeName>, como passa a demonstrar.
@@ -167,15 +168,15 @@
                     do recorrente.
                 </p>
                 
-                <p>E.R. Justiça</p>
-                
                 <closer>
-                    <p><placeName ref="#piratini">Piratini</placeName>, 
+                    <salute><choice><abbr>E.R.</abbr><expan>Estimo receber</expan></choice> Justiça <br/></salute>
+                    <dateline>
+                        <placeName ref="#piratini">Piratini</placeName>, 
                         <date when="1841-10-02">2 de outubro de 1841</date>.
-                    </p>
+                    </dateline>
                     
                     <signed>
-                        <persName ref="#antonio_abreu">Antônio José de Abreu</persName>
+                        <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>
                     </signed>
                 </closer>
             </div>

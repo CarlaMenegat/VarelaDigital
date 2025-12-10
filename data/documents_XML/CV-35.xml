@@ -19,8 +19,9 @@
                 <date when="2025-06-23">23 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -94,7 +95,7 @@
                     <date when="1842-09-05">5 de setembro de 1842</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#domingos_almeida">Domingos José de Almeida</persName>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -161,27 +162,29 @@
                     <persName ref="#tobias">Tobias</persName> fugido, etc.
                 </p>
                 
-                <p>
-                    Sua comadre muito se recomenda a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> e sua comadre e o mesmo faz sua afilhada pedindo igualmente
-                    lhe botar sua benção. É como sempre,
-                </p>
-                
                 <closer>
+                    <salute>
+                        Sua comadre muito se recomenda a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> 
+                        e sua comadre e o mesmo faz sua afilhada pedindo igualmente
+                        lhe botar sua benção. É como sempre, <br/>
+                        Seu compadre e amigo sincero<br/>
+                    </salute>
                     <signed>
-                        <persName ref="#antonio_abreu">Seu compadre e amigo sincero<br/>Antônio José de Abreu</persName>
+                        <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>
                     </signed>
-                    <p>N.B.— Faça o favor remeter-me a carta de <placeName ref="#santa_isabel">Santa Isabel</placeName> para 
+                    <p><choice><abbr>N.B.</abbr><expan>Nota Bene</expan></choice> — 
+                        Faça o favor remeter-me a carta de <placeName ref="#santa_isabel">Santa Isabel</placeName> para 
                         <placeName ref="#alegrete">Alegrete</placeName>; ele se me queixa de não receber letras suas porque diz
                         que é seu amigo, ainda que sem préstimo, e que não sabe se recebeu os papéis que lhe enviou.</p>
                 </closer>
                 
                 <note type="endorsement">
                     Ao cidadão <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>. 
-                    <placeName ref="#bage">Bagé</placeName>. [No verso]
+                    <placeName ref="#bage">Bagé</placeName>. <note type="editorial">[No verso]</note><br/><br/>
                 </note>
                 
                 <note type="endorsement">
-                    Acompanha uma carta para <placeName ref="#santa_isabel">Santa Isabel</placeName>. [No verso]
+                    Acompanha uma carta para <placeName ref="#santa_isabel">Santa Isabel</placeName>. <note type="editorial">[No verso]</note><br/><br/>
                 </note>
             </div>
         </body>

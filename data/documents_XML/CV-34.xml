@@ -19,8 +19,9 @@
                 <date when="2025-06-22">22 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -89,7 +90,7 @@
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#antonio_abreu">Antônio José de Abreu</persName>
+                    <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>
                     <placeName ref="#piratini">Piratini</placeName>
                     <date when="1841-11-20">20 de novembro de 1841</date>
                 </correspAction>
@@ -154,9 +155,10 @@
                 </p>
                 
                 <closer>
-                    <salute>Disponha com franqueza de quem tem a satisfação de ser</salute>
+                    <salute>Disponha com franqueza de quem tem a satisfação de ser <br/>
+                        De <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> compadre e amigo fiel<br/></salute>
                     <signed>
-                        <persName ref="#antonio_abreu">De <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> compadre e amigo fiel<br/>Antônio José de Abreu</persName>
+                        <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>
                     </signed>
                 </closer>
                 

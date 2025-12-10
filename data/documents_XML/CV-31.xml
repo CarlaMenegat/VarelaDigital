@@ -19,8 +19,9 @@
                 <date when="2025-06-22">22 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -89,10 +90,10 @@
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#antonio_abreu">Antônio José de Abreu</persName>
+                    <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Juiz de Direito interino</persName>
+                    <persName ref="#antonio_belarmino_ribeiro">Antônio Belarmino Ribeiro</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -118,7 +119,7 @@
                 </opener>
                 
                 <p>
-                    Diz o cidadão <persName ref="#antonio_abreu">Antônio José de Abreu</persName> que se lhe torna
+                    Diz o cidadão <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName> que se lhe torna
                     necessário que o escrivão respectivo, em vista dos autos de arrecadação dos bens
                     do finado ab intestato <persName ref="#jose_augusto_ledek">José Augusto Ledek</persName>, lhe dê por
                     certidão o despacho em que o Suplicante foi nomeado Curador à fazenda jacente
@@ -132,34 +133,48 @@
                     Pede a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> se digne mandar passar a certidão requerida.
                 </p>
                 
-                <p>E.R.M.</p>
-                
+                <closer>
+                    <salute><choice>
+                            <abbr>E.R.Mcê.</abbr>
+                            <expan>Estimo receber a Vossa Mercê</expan>
+                        </choice>
+                    </salute>
+                </closer>
+
                 <note type="endorsement">
                     Passe. <placeName ref="#piratini">Piratini</placeName>,
                     <date when="1841-10-02">2 de Outubro de 1841</date>.<br/>
                     <signed><persName ref="#freitas">Freitas</persName></signed><br/>
-                    n.º 2 [Na folha 1r]
                 </note>
                 
-                <note type="endorsement">
-                    O cidadão <persName ref="#antonio_belarmino_ribeiro">Antônio Belarmino Ribeiro</persName>, Escrivão de
-                    Órfãos e Ausentes da cidade de <placeName ref="#piratini">Piratini</placeName> e seu termo.
-                    <br/><br/>
-                    Em virtude do despacho retro: certifico que os bens de que trata o peticionário
-                    foram depositados em poder do cidadão <persName ref="#bernardo_pires">Major Bernardo Pires</persName>,
-                    a vinte quatro de setembro próximo pretérito, como consta dos autos respectivos a
-                    folhas onze.
-                    <br/><br/>
-                    Assim mais certifico e consta dos mesmos autos a folhas quatorze, ter sido o
-                    peticionário nomeado Curador e prestado juramento a vinte cinco do citado mês de
-                    setembro.
-                    <br/><br/>
-                    Certifico, finalmente, que dos preditos autos a folhas vinte um verso consta haver
-                    sido o peticionário desonerado de tal curadoria, no dia primeiro do corrente mês de
-                    outubro, e substituído pelo supradito cidadão <persName ref="#bernardo_pires">Major Bernardo Pires</persName>.
-                    <br/><br/>
-                    <placeName ref="#piratini">Piratini</placeName>, <date when="1841-10-02">2 de outubro de 1841</date>.<br/>
-                    <signed><persName ref="#antonio_belarmino_ribeiro">Antônio Belarmino Ribeiro</persName></signed>
+                <note type="dispatch">
+                    
+                    <seg type="folio">[Despacho na folha 1r]</seg>
+                    
+                    <p>
+                        n.º 2 <seg type="folio">[folha 1r]</seg>  
+                        O cidadão <persName ref="#antonio_belarmino_ribeiro">Antônio Belarmino Ribeiro</persName>, 
+                        Escrivão de Órfãos e Ausentes da cidade de <placeName ref="#piratini">Piratini</placeName> e seu termo.
+                        Em virtude do despacho retro: certifico que os bens de que trata o peticionário
+                        foram depositados em poder do cidadão <persName ref="#bernardo_pires">Major Bernardo Pires</persName>,
+                        a vinte quatro de setembro próximo pretérito, como consta dos autos respectivos a folhas onze.
+                        Assim mais certifico, e consta dos mesmos autos a folhas quatorze, ter sido o peticionário
+                        nomeado Curador e prestado juramento a vinte cinco do citado mês de setembro.
+                        Certifico, finalmente, que dos preditos autos a folhas vinte um verso consta haver
+                        sido o peticionário desonerado de tal curadoria, no dia primeiro do corrente mês de
+                        outubro, e substituído pelo supradito cidadão 
+                        <persName ref="#bernardo_pires">Major Bernardo Pires</persName>.
+                    </p>
+                    
+                    <dateline>
+                        <placeName ref="#piratini">Piratini</placeName>, 
+                        <date when="1841-10-02">2 de outubro de 1841</date>.
+                    </dateline>
+                    
+                    <signed>
+                        <persName ref="#antonio_belarmino_ribeiro">Antônio Belarmino Ribeiro</persName>
+                    </signed>
+                    
                 </note>
             </div>
         </body>

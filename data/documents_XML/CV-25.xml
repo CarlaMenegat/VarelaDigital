@@ -19,8 +19,9 @@
                 <date when="2025-06-21">21 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -94,7 +95,7 @@
                 </correspAction>
                 
                 <correspAction type="received">
-                    <persName ref="#afonso_corte_real">Afonso José de Almeida Corte Real</persName>
+                    <persName ref="#afonso_jose_corte_real">Afonso José de Almeida Corte Real</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -122,7 +123,7 @@
                 <p>
                     Incumbido por <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> 
                     a interpor meu parecer acerca das contas apresentadas pelo
-                    cidadão <persName ref="#domingos_almeida">Domingos José de Almeida</persName>,
+                    cidadão <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>,
                     outrora Quartel-mestre-general e Ministro da Fazenda, suposto elas me mereçam todo o crédito;
                     contudo em cumprimento de meu dever, me não posso conformar, atenta a falta de solenidade
                     de que elas devem ser revestidas, porquanto a sua validade existe na autenticidade dos documentos,
@@ -163,19 +164,22 @@
                 </p>
                 
                 <closer>
-                    <p>
+                    <addressee>
                         Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
                         <persName ref="#afonso_corte_real">Afonso José de Almeida Corte Real</persName>,
                         Ministro e Secretário dos Negócios da Fazenda.
-                    </p>
+                    </addressee>
                     
                     <signed>
                         <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>
+                        Procurador Fiscal.
                     </signed>
-                    <p>Procurador Fiscal.</p>
                 </closer>
                 
-                <note type="endorsement">Resposta de Antônio José de Abreu quando Procurador Fiscal. [No verso, letra de Domingos José de Almeida]</note>
+                <note type="endorsement">
+                    Resposta de <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName> quando Procurador Fiscal. 
+                    <note type="editorial">[No verso, letra de Domingos José de Almeida]</note>
+                </note>
             </div>
         </body>
     </text>

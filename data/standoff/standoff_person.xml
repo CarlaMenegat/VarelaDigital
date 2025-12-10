@@ -234,7 +234,7 @@
         
         <person xml:id="antonio_abreu">
             <persName>Antônio Francisco dos Santos Abreu</persName>
-            <idno type="project">antonio_abreu</idno>
+            <idno type="project"></idno>
             <birth when="1806-08-25">25 de agosto de 1806</birth>
             <death when="unknown"/>
             <state type="roleInTime" xml:id="antonio_abreu_coletor_rrg">
@@ -249,6 +249,26 @@
                 Comerciante e fornecedor de gado associado ao governo farroupilha, 
                 atuante como coletor em São Lourenço. Primo de Bento Gonçalves da Silva 
                 e irmão de Joaquim Francisco dos Santos Abreu.
+            </note>
+        </person>
+        
+        <person xml:id="antonio_jose_abreu">
+            <persName>Antônio José Abreu</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="abreu_promotor_piratini">
+                <roleName>Promotor Público</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <placeName ref="#piratini"/>
+                <note>Atuação documentada em Piratini.</note>
+            </state>
+            <state type="roleInTime" xml:id="abreu_procurador_fiscal">
+                <roleName>Procurador Fiscal</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <note>Exerceu funções de fiscalização e representação jurídica da República Rio-Grandense.</note>
+            </state>
+            <note>
+                Oficial jurídico da República Rio-Grandense, atuante como Promotor Público em Piratini e posteriormente como Procurador Fiscal. 
+                Suas funções incluíam procedimentos legais, exames de contas e representação fiscal perante órgãos administrativos republicanos.
             </note>
         </person>
         

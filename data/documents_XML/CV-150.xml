@@ -23,7 +23,7 @@
                 <date when="2025-07-24">24 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <extent>1 circular</extent>
+                <extent>1 carta</extent>
                 <measure type="pages">2</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
@@ -140,7 +140,7 @@
                         <orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName> em
                         <placeName ref="#cacapava">Caçapava</placeName>, <date when="1840-05-27">27 de maio de 1840</date>
                     </dateline>
-                    <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
+                    <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                     
                     <addressee>
                         Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio Silveira</persName>.
