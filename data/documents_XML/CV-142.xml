@@ -147,8 +147,8 @@
                         <placeName ref="#cacapava">Secretaria de Guerra em Caçapava</placeName>,
                         <date when="1840-03-19">19 de março de 1840</date>.
                     </dateline>
-                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira.</persName>
-                    <signed>(a) Serafim Joaquim de Alencastre.</signed>
+                    <addressee>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>.</addressee>
+                    <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>.</signed>
                 </closer>
                 
             </div>

@@ -191,6 +191,8 @@
                     suficientes para bater o inimigo, servirão para ir contemporizando,
                     até que possam ser aumentadas por outras que fiquem disponíveis.</p>
                 
+                <addressee>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</addressee>
+                
                 <closer>
                     <salute>É tudo quanto tem o governo de dizer a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>, 
                     a quem Deus guarde.</salute>
@@ -198,9 +200,7 @@
                         <placeName ref="#cacapava">Caçapava</placeName>,
                         <date when="1839-12-22">22 de dezembro de 1839</date>.
                     </dateline>
-                    <signed>
-                        (a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
-                    </signed>
+                    <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
             </div>

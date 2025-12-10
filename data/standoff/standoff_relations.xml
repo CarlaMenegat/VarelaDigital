@@ -2858,4 +2858,18 @@
         passive="#felix_vieira"
         mutual="true"/>
     
+    <relation 
+        name="foaf:knows"
+        active="#manuel_lucas_oliveira"
+        passive="#joao_antonio_silveira"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#manuel_lucas_oliveira"
+        passive="#serafim_alencastre"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#manuel_lucas_oliveira"
+        passive="#onofre_pires"/>
 </TEI>

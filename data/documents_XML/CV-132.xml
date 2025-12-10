@@ -128,20 +128,15 @@
                     imediatamente serão remetidas ao Juiz de Paz de
                     <placeName ref="#sao_gabriel">São Gabriel</placeName>, bem como os cartuchos que se julgue precisos.</p>
                 
-                
-                
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
+                    <addressee>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>, 
+                        Comandadnte da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</addressee>
                     <dateline>Secretaria dos Negócios da Guerra em 
                         <placeName ref="#cacapava">Caçapava</placeName>, <date when="1839-12-22">22 de dezembro de 1839</date>.
                     </dateline>
-                    <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
+                    <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
-                
-                <note type="endorsement">
-                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.  
-                    Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.
-                </note>
                 
             </div>
         </body>

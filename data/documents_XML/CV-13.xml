@@ -135,8 +135,8 @@
                     <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
                     Ilmo. Exmno. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#fontoura">Antônio Vicente da Fontoura</persName>
                     Ministro da Fazenda. 
-                    <signed>Domingos José de Almeida</signed>
-                    <note>Está conforme. Domingos José de Almeida.</note>
+                    <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                    <note>Está conforme. <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed></note>
                 </closer>
             </div>
         </body>

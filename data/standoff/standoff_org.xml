@@ -777,6 +777,23 @@
             </note>
         </org>
         
+        <org xml:id="corpo_cavalaria_2" type="militaryUnit">
+            <orgName>2.º Corpo de Cavalaria</orgName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="corpo_cavalaria_2_unidade">
+                <roleName>Unidade de cavalaria</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <note>
+                Unidade integrante do Exército Farroupilha, organizada como o 2.º Corpo de 
+                Cavalaria na estrutura militar republicana. Atuou em operações de campanha 
+                ao longo da Revolução Farroupilha (1835–1845), desempenhando funções de 
+                mobilidade, escolta, reconhecimento e combate. Distinguia-se das formações 
+                de lanceiros, compondo a cavalaria regular farroupilha em diferentes frentes 
+                de batalha.
+            </note>
+        </org>
+        
         <org xml:id="camara_rio_grande">
             <orgName>Câmara Municipal da Cidade do Rio Grande</orgName>
         </org>

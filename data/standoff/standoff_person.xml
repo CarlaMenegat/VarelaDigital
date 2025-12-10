@@ -3680,26 +3680,46 @@
             <persName>Felisberto Machado de Carvalho Ourique</persName>
         </person>
         
-        <person xml:id="agostinho_antonio_mello">
-            <persName>Agostinho Antônio de Mello</persName>
-            <persName type="alt">Agostinho Antônio de Mello e Albuquerque</persName>
-            <idno type="project"/>
-            <state type="roleInTime" xml:id="agostinho_coronel_rrg">
-                <roleName>Coronel</roleName>
+        <person xml:id="manuel_lucas_oliveira">
+            <persName>Manuel Lucas de Oliveira Filho</persName>
+            <persName type="alias">Manuel Lucas de Oliveira</persName>
+            <birth when="1795-04-28"/>
+            <death when="1874"/>
+            <idno type="viaf">https://viaf.org/viaf/14095044</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10324329</idno>
+            <state type="roleInTime" xml:id="mlucas_tenente_coronel">
+                <roleName>Tenente-coronel</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <date from="1836" to="1845"/>
+            </state>
+            <state type="roleInTime" xml:id="mlucas_comandante_brigada">
+                <roleName>Comandante da 1ª Brigada de Guardas Nacionais</roleName>
                 <affiliation ref="#republica_rio_grandense"/>
                 <date from="1837" to="1841"/>
             </state>
-            <state type="roleInTime" xml:id="agostinho_botucarai_1839">
-                <roleName>Comandante em Botucaraí</roleName>
+            <state type="roleInTime" xml:id="mlucas_ministro_guerra">
+                <roleName>Ministro da Guerra</roleName>
                 <affiliation ref="#republica_rio_grandense"/>
-                <date when="1839-12"/>
-                <note>Base de operações mencionada na carta CV-7583 de José Gomes Portinho a Serafim Alencastre.</note>
+                <date from="1843" to="1844"/>
+            </state>
+            <state type="roleInTime" xml:id="mlucas_coronel">
+                <roleName>Coronel</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <date when="1845"/>
+            </state>
+            <state type="roleInTime" xml:id="mlucas_deputado_1848">
+                <roleName>Deputado provincial</roleName>
+                <date when="1848"/>
+                <affiliation ref="#assembleia_provincial_rs"/>
             </state>
             <note>
-                Oficial farroupilha, filho de Ricardo Antônio de Melo e Albuquerque e irmão de Antônio de Melo Albuquerque (Melo Manso). 
-                Atuante no norte da província em operações em Santo Amaro, Rio Pardo, Cachoeira, Cruz Alta e região de Botucaraí 
-                entre 1837 e 1841; comandou forças derrotadas em combate em novembro de 1841. Recebia correspondência de sua esposa 
-                em Rio Pardo via soldado interceptado por José Gomes Portinho em dezembro de 1839.
+                Importante líder farroupilha. Participou de várias batalhas decisivas, incluindo 
+                a vitória do Seival (1836), onde contribuiu para convencer Antônio de Sousa Neto a 
+                proclamar a República Rio-Grandense. Foi capturado em 25 de março de 1840, perto da 
+                Quinta do Bibiano, junto com Onofre Pires e Francisco Pedro de Abreu. Assinou a 
+                declaração de paz de 28 de fevereiro de 1845 em nome do presidente Gomes Jardim. 
+                Após a guerra, organizou o primeiro corpo de Voluntários da Pátria para a Guerra 
+                do Paraguai, em 1865.
             </note>
         </person>
         
@@ -7509,42 +7529,91 @@
         
         <person xml:id="jose_coutinho_almeida">
             <persName>José Coutinho de Almeida</persName>
-            <idno></idno>
+            <state type="roleInTime" xml:id="jose_coutinho_almeida_praca_2cav">
+                <roleName>Praça</roleName>
+                <affiliation ref="#corpo_cavalaria_2"/>
+            </state>
+            <note>
+                Praça do 2.º Corpo de Cavalaria do Exército Farroupilha, dispensado do serviço da 1.ª Linha
+                ao completar o tempo de engajamento.
+            </note>
         </person>
         
         <person xml:id="jeremias_jose_pinho">
             <persName>Jeremias José Pinho</persName>
-            <idno></idno>
+            <state type="roleInTime" xml:id="jeremias_jose_pinho_praca_2cav">
+                <roleName>Praça</roleName>
+                <affiliation ref="#corpo_cavalaria_2"/>
+            </state>
+            <note>
+                Praça farroupilha do 2.º Corpo de Cavalaria, desligado da 1.ª Linha por cumprimento do período de engajamento.
+            </note>
         </person>
         
         <person xml:id="antonio_soares_oliveira">
             <persName>Antônio Soares de Oliveira</persName>
-            <idno></idno>
+            <state type="roleInTime" xml:id="antonio_soares_oliveira_praca_2cav">
+                <roleName>Praça</roleName>
+                <affiliation ref="#corpo_cavalaria_2"/>
+            </state>
+            <note>
+                Praça do 2.º Corpo de Cavalaria do Exército Farroupilha; transferido para a Guarda Nacional após baixa regular.
+            </note>
         </person>
         
         <person xml:id="francisco_quevedo">
             <persName>Francisco de Quevedo</persName>
-            <idno></idno>
+            <state type="roleInTime" xml:id="francisco_quevedo_praca_2cav">
+                <roleName>Praça</roleName>
+                <affiliation ref="#corpo_cavalaria_2"/>
+            </state>
+            <note>
+                Praça farroupilha desligado da 1.ª Linha ao concluir o tempo de serviço no 2.º Corpo de Cavalaria.
+            </note>
         </person>
         
         <person xml:id="francisco_rodrigues_morais">
             <persName>Francisco Rodrigues de Morais</persName>
-            <idno></idno>
+            <state type="roleInTime" xml:id="francisco_rodrigues_morais_praca_2cav">
+                <roleName>Praça</roleName>
+                <affiliation ref="#corpo_cavalaria_2"/>
+            </state>
+            <note>
+                Praça do 2.º Corpo de Cavalaria do Exército Farroupilha; dispensado após período completo de engajamento.
+            </note>
         </person>
         
         <person xml:id="joao_antonio_granada">
             <persName>João Antônio Granada</persName>
-            <idno></idno>
+            <state type="roleInTime" xml:id="joao_antonio_granada_praca_2cav">
+                <roleName>Praça</roleName>
+                <affiliation ref="#corpo_cavalaria_2"/>
+            </state>
+            <note>
+                Praça farroupilha do 2.º Corpo de Cavalaria, cuja baixa motivou sua integração à Guarda Nacional local.
+            </note>
         </person>
         
         <person xml:id="daniel_jose_araujo">
             <persName>Daniel José de Araújo</persName>
-            <idno></idno>
+            <state type="roleInTime" xml:id="daniel_jose_araujo_praca_2cav">
+                <roleName>Praça</roleName>
+                <affiliation ref="#corpo_cavalaria_2"/>
+            </state>
+            <note>
+                Integrante do 2.º Corpo de Cavalaria, dispensado da 1.ª Linha após cumprir tempo de engajamento.
+            </note>
         </person>
         
         <person xml:id="jose_bernardino_oliveira">
             <persName>José Bernardino de Oliveira</persName>
-            <idno></idno>
+            <state type="roleInTime" xml:id="jose_bernardino_oliveira_praca_2cav">
+                <roleName>Praça</roleName>
+                <affiliation ref="#corpo_cavalaria_2"/>
+            </state>
+            <note>
+                Praça farroupilha do 2.º Corpo de Cavalaria; após baixa, deveria ser considerado Guarda Nacional no departamento.
+            </note>
         </person>
         
         <person xml:id="serafim_silva_ribeiro">

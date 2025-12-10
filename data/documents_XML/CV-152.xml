@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-152 – Serafim Joaquim de Alencastre para o Comandante Geral de Polícia do Boqueirão</title>
                 <author>Serafim Joaquim de Alencastre</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-06-16">30 de junho de 2025</date>
+                <date when="2025-07-25">25 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 circular</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -78,7 +84,14 @@
                 </application>
             </appInfo>
         </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
@@ -90,16 +103,20 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
-        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-07-25">25/07/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-08">08/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
     </teiHeader>
+
     <text>
         <body>
             <div type="letter" xml:id="CV-152">
@@ -108,28 +125,39 @@
                     <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Havendo obtido escusas do serviço da 1.º Linha, por terem preenchido seu tempo de engajamento as praças seguintes do 2.º Corpo de Cavalaria <persName ref="#jose_coutinho_almeida">José Coutinho de Almeida</persName>, <persName ref="#jeremias_jose_pinho">Jeremias José Pinho</persName>, <persName ref="#antonio_soares_oliveira">Antônio Soares de Oliveira</persName>, <persName ref="#francisco_quevedo">Francisco de Quevedo</persName>, <persName ref="#francisco_rodrigues_morais">Francisco Rodrigues de Morais</persName>, <persName ref="#joao_antonio_granada">João Antônio Granada</persName>, <persName ref="#daniel_jose_araujo">Daniel José de Araújo</persName> e <persName ref="#jose_bernardino_oliveira">José Bernardino de Oliveira</persName>; e como todos vão residir nesse departamento, sirva-se <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>, de ordem do <persName ref="#bento_goncalves"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General-em-chefe do Exército</persName>, considerá-los como Guardas Nacionais desse Corpo, fazendo-os reunir como tais às fileiras quando for necessário.</p>
-                
-                <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>. Quartel-general em <placeName ref="#bage">Bagé</placeName>, <date when="1841-10-04">4 de outubro 1841</date>.</p>
-                
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Comandante Geral de Polícia</persName> do <placeName ref="#sao_lourenco">Departamento do Boqueirão</placeName>.</p>
+                <p>Havendo obtido escusas do serviço da 1.º Linha, por terem preenchido seu tempo de engajamento as praças seguintes do 
+                    <orgName ref="#corpo_cavalaria_2">2.º Corpo de Cavalaria</orgName> 
+                    <persName ref="#jose_coutinho_almeida">José Coutinho de Almeida</persName>, 
+                    <persName ref="#jeremias_jose_pinho">Jeremias José Pinho</persName>, 
+                    <persName ref="#antonio_soares_oliveira">Antônio Soares de Oliveira</persName>, 
+                    <persName ref="#francisco_quevedo">Francisco de Quevedo</persName>, 
+                    <persName ref="#francisco_rodrigues_morais">Francisco Rodrigues de Morais</persName>, 
+                    <persName ref="#joao_antonio_granada">João Antônio Granada</persName>, 
+                    <persName ref="#daniel_jose_araujo">Daniel José de Araújo</persName> e 
+                    <persName ref="#jose_bernardino_oliveira">José Bernardino de Oliveira</persName>; e como todos vão residir nesse 
+                    departamento, sirva-se <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>, de ordem do 
+                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General-em-chefe do Exército, 
+                    considerá-los como Guardas Nacionais desse Corpo, fazendo-os reunir como tais às fileiras quando for necessário.</p>
                 
                 <closer>
-                    <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
-                    <signed>1.º Deputado do <persName ref="#bento_goncalves">General Chefe do Estado-maior do Exército</persName></signed>
+                    <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
+                    <addressee>
+                        <persName ref="#inacio_guimaraes">Comandante Geral de Polícia</persName> 
+                        do Departamento do <placeName ref="#sao_lourenco">Boqueirão</placeName>.
+                    </addressee>
+                    <dateline>Quartel-general em <placeName ref="#bage">Bagé</placeName>, 
+                        <date when="1841-10-04">4 de outubro 1841</date>.</dateline>
+                    <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName> 1.º Deputado do <persName ref="#bento_goncalves">General Chefe do Estado-maior do Exército</persName></signed>
                 </closer>
                 
                 <note type="endorsement">
-                    <choice>
-                        <abbr>S. da R.</abbr>
-                        <expan><orgName ref="#secretaria_presidencia_republica">Secretaria da Presidência da República</orgName></expan>
-                    </choice>
+                    <choice><abbr>S. da R.</abbr><expan><orgName ref="#secretaria_presidencia_republica">Secretaria da Presidência da República</orgName></expan></choice>
                     
                     <note type="source">[No verso]</note>
                     
                     Ao cidadão <persName ref="#inacio_guimaraes">Chefe Geral de Polícia</persName> do 
-                    <placeName ref="#sao_lourenco">departamento do Boqueirão</placeName>,  
-                    do 1.º Deputado do <persName ref="#bento_goncalves">General Chefe do Estado-maior</persName>.  
+                    departamento do <placeName ref="#sao_lourenco">Boqueirão</placeName>,  
+                    do 1.º Deputado do General Chefe do Estado-maior.  
                     
                     Ofício do 1.º Deputado do <persName ref="#bento_goncalves">General Chefe do Estado-maior</persName>, de 
                     <date when="1841-10-04">4 de outubro</date>, recebido a 

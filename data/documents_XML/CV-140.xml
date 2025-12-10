@@ -159,11 +159,13 @@
                 
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
-                    <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                     <dateline>
                         <placeName ref="#cacapava">Secretaria da Guerra em Caçapava</placeName>,
                         <date when="1840-03-09">9 de março de 1840</date>.
                     </dateline>
+                    <addressee>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>, 
+                        Chefe de Polícia do Departamento do <placeName ref="#sao_lourenco">Boqueirão</placeName>. </addressee>
+                    <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
             </div>

@@ -119,6 +119,7 @@
             <div type="letter" xml:id="CV-15">
                 <opener>
                     <salute>Amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Almeida,</salute>
+                    <dateline><placeName ref="#sao_lourenco">São Lourenço</placeName>, <date when="1843-03-01">1.º de março de 1843</date>.</dateline>
                 </opener>
                 
                 <p>Em dezembro lhe escrevi e remeti todos os meus documentos por um próprio que aí mandei, para 
@@ -131,7 +132,6 @@
                 <closer>
                     <salute>Seu antigo e obrigado amigo</salute>
                     <signed>Antônio Francisco dos Santos Abreu</signed>
-                    <placeName ref="#sao_lourenco">São Lourenço</placeName>, <date when="1843-03-01">1.º de março de 1843</date>.
                 </closer>
                 
                 <note type="endorsemente">

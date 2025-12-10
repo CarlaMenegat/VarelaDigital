@@ -136,7 +136,7 @@
                 <closer>
                     <signed>Seu sincero e obrigado amigo<br/>(a) 
                         <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName></signed>
-                    <date when="1842-02-09">São Lourenço, 9 de fevereiro de 1842</date>
+                    <dateline><placeName ref="#sao_lourenco">São Lourenço</placeName><date when="1842-02-09">9 de fevereiro de 1842</date></dateline>
                 </closer>
             </div>
         </body>

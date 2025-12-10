@@ -135,9 +135,16 @@
                     
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
-                    <signed><orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName></signed>
-                    <dateline><placeName ref="#cacapava">Caçapava</placeName>, <date when="1840-05-27">27 de maio de 1840</date></dateline>
+                    <addressee>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName></addressee>
+                    <dateline> 
+                        <orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName> em
+                        <placeName ref="#cacapava">Caçapava</placeName>, <date when="1840-05-27">27 de maio de 1840</date>
+                    </dateline>
                     <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
+                    
+                    <addressee>
+                        Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio Silveira</persName>.
+                    </addressee>
                 </closer>
                 
             </div>

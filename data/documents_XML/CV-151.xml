@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-151 – Serafim Joaquim de Alencastre para João Antônio da Silveira</title>
                 <author>Serafim Joaquim de Alencastre</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-06-16">30 de junho de 2025</date>
+                <date when="2025-07-25">25 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 circular</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -78,7 +84,14 @@
                 </application>
             </appInfo>
         </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
@@ -91,18 +104,20 @@
                         <note type="phys">Ano “1841” adicionado em letra e tinta diferentes do original.</note>
                     </date>
                 </correspAction>
-                
                 <correspAction type="received">
                     <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
-        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-07-25">25/07/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-08">08/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
@@ -110,14 +125,24 @@
     <text>
         <body>
             <div type="letter" xml:id="CV-151">
-                
+                <dateline type="rubric" hand="#m2">
+                    <placeName ref="#santa_maria_boca_monte">Santa Maria da Boca do Monte</placeName>,
+                    <date when="1840-01-30">30 de janeiro</date>.
+                </dateline>
+
                 <opener>
                     <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio</persName></salute>
                 </opener>
                 
-                <p>O <persName ref="#manuel_lucas_oliveira">Tenente-coronel Manuel Lucas de Oliveira</persName>, que se acha em marcha com a brigada de seu mando para o município de <placeName ref="#piratini">Piratini</placeName>; e que amanhã ou depois estará deste lado da Picada, me recomendou que pedisse a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> que o fornecesse com gado para munício de sua gente e alguns cavalos, potros ou éguas, e que isto mesmo lhe ordenou o <persName ref="#bento_goncalves">General-em-chefe</persName> o exigisse de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
+                <p>O <persName ref="#manuel_lucas_oliveira">Tenente-coronel Manuel Lucas de Oliveira</persName>, que se acha em marcha com 
+                    a brigada de seu mando para o município de <placeName ref="#piratini">Piratini</placeName>; e que amanhã ou depois 
+                    estará deste lado da Picada, me recomendou que pedisse a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
+                    que o fornecesse com gado para munício de sua gente e alguns cavalos, potros ou éguas, e que isto mesmo lhe ordenou o
+                    <persName ref="#bento_goncalves">General-em-chefe</persName> o exigisse de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                 
-                <p>Aproveito a ocasião para saudar a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> com a amizade que lhe tributo e ao mesmo tempo congratular-me com <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> pelo progresso de nossa causa devido às forças de seu mando.</p>
+                <p>Aproveito a ocasião para saudar a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> com a amizade que 
+                    lhe tributo e ao mesmo tempo congratular-me com <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> pelo 
+                    progresso de nossa causa devido às forças de seu mando.</p>
                 
                 <p>Sou com estima e consideração de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> patrício e amigo.</p>
                 
@@ -126,12 +151,10 @@
                 </closer>
                 
                 <note type="phys">
-                    <choice>
-                        <abbr>N.B.</abbr>
-                        <expan>Nota bene</expan>
-                    </choice>
+                    <choice><abbr>N.B.</abbr><expan>Nota bene</expan></choice>
                     Espero me recomende ao amigo <persName ref="#leite">Leite</persName>.
-                    Eu sigo para <placeName ref="#piratini">Piratini</placeName> e forçoso me é encaminhar-me por esse lado para mais segurança.
+                    Eu sigo para <placeName ref="#piratini">Piratini</placeName> e forçoso me é encaminhar-me por esse lado para mais 
+                    segurança.
                 </note>
                 
             </div>
