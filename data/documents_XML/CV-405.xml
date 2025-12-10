@@ -46,12 +46,12 @@
             <div xml:id="CV-405" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Requisitando o Exmo. Vigário Apostólico um camarada para tratar do seu cavalo, e o mesmo pedindo 
+                <p>Requisitando o <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Vigário Apostólico um camarada para tratar do seu cavalo, e o mesmo pedindo 
                     <persName ref="#jose_vaz_viana">José Vaz Viana</persName>, almoxarife, haja <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> de mandar que da 
-                    <orgName ref="#companhia_artifices">Companhia de Artífices</orgName> se forneça ao dito Exmo. Vigário o soldado 
+                    <orgName ref="#companhia_artifices">Companhia de Artífices</orgName> se forneça ao dito <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Vigário o soldado 
                     <persName ref="#oliverio_rodrigues_pereira">Olivério Rodrigues Pereira</persName>, e ao almoxarife o soldado 
                     <persName ref="#francisco_rosario">Francisco do Rosário</persName> para o fim indicado.</p>
                 
@@ -64,12 +64,12 @@
                 
                 <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</signed>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.<br/>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.<br/>
                     Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</p>
                 
                 <note type="endorsement">
                     <choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice> [No verso]<br/>
-                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.<br/>
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.<br/>
                     Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.<br/>
                     Do <orgName ref="#ministerio_guerra">Ministério da Guerra</orgName>.
                 </note>

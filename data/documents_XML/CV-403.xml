@@ -47,7 +47,7 @@
             <div xml:id="CV-403" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Pensando eu que em virtude do meu ofício de 24 do corrente estaria o Comandante do 
@@ -68,11 +68,11 @@
                 
                 <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</signed>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</p>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</p>
                 
                 <note type="endorsement">
                     <choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice> [No verso]<br/>
-                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName><br/>
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName><br/>
                     Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.<br/>
                     Do <orgName ref="#ministerio_interior_fazenda">Ministério do Interior e Fazenda</orgName> 
                     encarregada do expediente da Guerra.

@@ -118,7 +118,7 @@
             <div type="letter" xml:id="CV-198a">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Desde que aqui cheguei em 5 do corrente mês, que assiduamente
@@ -159,7 +159,7 @@
                     </signed>
                 </closer>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#antonio_sousa_neto">Antônio de Sousa Neto</persName><br/>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#antonio_sousa_neto">Antônio de Sousa Neto</persName><br/>
                     Coronel Comandante da 1.º Divisão Liberal</p>
                 
             </div>

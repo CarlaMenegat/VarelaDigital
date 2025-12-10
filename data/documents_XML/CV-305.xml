@@ -49,7 +49,7 @@
             <div type="letter" xml:id="CV-305">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Acusando a recepção do ofício que <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> me dirigiu a 9 do corrente, cumpre-me em resposta dizer-lhe que os requerimentos do cidadão <persName ref="#augusto_siqueira_leitao">Augusto de Siqueira Pereira Leitão</persName> vão ser tomados na devida consideração.</p>
@@ -60,7 +60,7 @@
                     <signed>Domingos José de Almeida</signed>
                 </closer>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>. Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</p>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>. Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</p>
                 
             </div>
         </body>

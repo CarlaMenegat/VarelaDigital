@@ -138,18 +138,25 @@
                 <affiliation ref="#republica_rio_grandense"/>
                 <date type="begin" when="1837"/>
             </state>
-            <note>Militar e estancieiro rio-grandense, notório por suas mudanças de lealdade entre legalistas e farroupilhas; envolveu-se diretamente em operações decisivas, incluindo a captura de Bento Gonçalves e o combate do Espinilho.</note>
+            <note>Militar e estancieiro rio-grandense, notório por suas mudanças de lealdade entre legalistas e farroupilhas; envolveu-se 
+                diretamente em operações decisivas, incluindo a captura de Bento Gonçalves e o combate do Espinilho.</note>
         </person>
         
         <person xml:id="boaventura_rodrigues_barcelos">
             <persName>Boaventura Rodrigues Barcelos</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q136892737</idno>
-            <roleName>Comendador</roleName>
-            <relation
-                name="rel:uncleOf"
-                active="#boaventura_rodrigues_barcelos"
-                passive="#bernardina_barcelos_almeida"/>
-            <note>Charqueador e comerciante de grosso, importante em Pelotas. Tio de Bernardina Rodrigues Almeida, legalista.</note>
+            <state type="roleInTime" xml:id="boaventura_commendador">
+                <roleName>Comendador</roleName>
+            </state>
+            <state type="roleInTime" xml:id="boaventura_charqueador">
+                <roleName>Charqueador e comerciante de grosso trato</roleName>
+                <affiliation ref="#imperio_do_brasil"/>
+            </state>
+            <note>
+                Importante charqueador e comerciante de Pelotas, ligado ao partido 
+                legalista durante a Revolução Farroupilha. Tio materno de Bernardina 
+                Barcelos de Almeida.
+            </note>
         </person>
         
         <person xml:id="teixeira_nunes">
@@ -275,21 +282,57 @@
         <person xml:id="fernandes_braga">
             <persName>Antônio Rodrigues Fernandes Braga</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q16492340</idno>
-            <roleName>Presidente da Província do Rio Grande do Sul</roleName>
-            <note>Presidente da Província do Rio Grande do Sul quando estoura a Guerra dos Farrapos.</note>
+            <birth when="1805"/>
+            <death when="1875-02-26"/>
+            <state type="roleInTime" xml:id="braga_presidente_rs_1834_1835">
+                <roleName>Presidente da Província do Rio Grande do Sul</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date from="1834-05-02" to="1835-09-21"/>
+            </state>
+            <state type="roleInTime" xml:id="braga_deputado_geral">
+                <roleName>Deputado Geral do Império</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="braga_desembargador">
+                <roleName>Desembargador</roleName>
+                <affiliation ref="#justica_imperial"/>
+            </state>
+            <state type="roleInTime" xml:id="braga_ministro_stj">
+                <roleName>Ministro do Supremo Tribunal de Justiça</roleName>
+                <affiliation ref="#justica_imperial"/>
+            </state>
+            <state type="roleInTime" xml:id="braga_senador_1870_1875">
+                <roleName>Senador do Império</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date from="1870" to="1875"/>
+            </state>
+            <note>
+                Magistrado e político brasileiro; atuou como juiz, ouvidor, desembargador, deputado geral e senador do Império. 
+                Presidente da Província do Rio Grande do Sul no início da Revolução Farroupilha, refugiou-se em Rio Grande após 
+                a marcha de Bento Gonçalves sobre Porto Alegre em 20 de setembro de 1835, estabelecendo ali a base legalista. 
+                Integrava uma influente família ligada à elite imperial, com vínculos com os barões de Quaraim, Nioaque, Andaraí 
+                e os viscondes de Santa Vitória e São Clemente.
+            </note>
         </person>
         
         <person xml:id="domingos_jose_almeida">
             <persName>Domingos José de Almeida</persName>
-            <birth when="1797-12-05"/>
-            <death when="1871-06-16"/>
+            <birth when="1797-12-05">5 de dezembro de 1797</birth>
+            <death when="1871-06-16">16 de junho de 1871</death>
             <idno type="viaf">https://viaf.org/en/viaf/13747991</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10268073</idno>
-            <note type="roles">
-                Coronel Chefe de Legião;
-                Ministro da Justiça da República Rio-Grandense;
-                Secretário da República Rio-Grandense.
-            </note>
+            <state type="roleInTime" xml:id="dja_coronel_chefe_legiao">
+                <roleName>Coronel Chefe de Legião</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <state type="roleInTime" xml:id="dja_ministro_justica_rrg">
+                <roleName>Ministro da Justiça</roleName>
+                <affiliation ref="#ministerio_justica_rrg"/>
+            </state>
+            <state type="roleInTime" xml:id="dja_secretario_rrg">
+                <roleName>Secretário da República Rio-Grandense</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
             <state type="roleInTime" xml:id="domingos_quartel_mestre_general_rrg">
                 <roleName>Quartel-mestre-general</roleName>
                 <affiliation ref="#republica_rio_grandense"/>
@@ -306,7 +349,13 @@
                 <date type="begin" when="1836-09"/>
                 <date type="end" when="1841-09"/>
             </state>
-            <note>Ministro e Secretário de Estado da República Rio-Grandense, responsável pelos expedientes da Fazenda, do Interior e da Justiça, além da Secretaria da República.</note>
+            <state type="roleInTime" xml:id="dja_deputado_assembleia_provincial_rs">
+                <roleName>Deputado provincial</roleName>
+                <affiliation ref="#assembleia_provincial_rs"/>
+                <date when="1835"/>
+            </state>
+            <note>Figura central da República Rio-Grandense e responsável pelos expedientes da Fazenda, do Interior, da Justiça e 
+                da Secretaria da República.</note>
         </person>
         
         <person xml:id="dionisio_amaro">
@@ -457,17 +506,33 @@
         
         <person xml:id="bento_goncalves">
             <persName>Bento Gonçalves da Silva</persName>
-            <idno type="viaf">https://viaf.org/en/viaf/3272801</idno>
+            <idno type="viaf">https://viaf.org/viaf/3272801</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q1789375</idno>
             <birth when="1788-09-23">23 de setembro de 1788</birth>
             <death when="1847-07-18">18 de julho de 1847</death>
+            <state type="roleInTime" xml:id="bento_goncalves_general">
+                <roleName>General</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+                <note>Reconhecido como oficial-general pelas forças republicanas durante a Guerra dos Farrapos.</note>
+            </state>
+            <state type="roleInTime" xml:id="bento_goncalves_general_em_chefe">
+                <roleName>General Chefe do Estado-maior do Exército</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+                <date from="1836" to="1843"/>
+                <note>Chefe militar máximo da República Rio-Grandense, comandando operações e forças em campanha.</note>
+            </state>
             <state type="roleInTime" xml:id="bento_goncalves_presidente_rrg">
                 <roleName>Presidente da República Rio-Grandense</roleName>
                 <affiliation ref="#republica_rio_grandense"/>
                 <date type="begin" when="1836-11-06"/>
                 <date type="end" when="1843-03-01"/>
             </state>
-            <note>Líder militar e político da Revolução Farroupilha, primeiro presidente da República Rio-Grandense (1836–1843).</note>
+            <note>
+                Líder militar e político da Revolução Farroupilha (1835–1845).  
+                Comandou as forças rebeldes como General-em-Chefe, organizou o Estado-maior do Exército 
+                e presidiu a República Rio-Grandense entre 1836 e 1843. Figura central na estrutura militar 
+                e administrativa do movimento farrapo.
+            </note>
         </person>
         
         <person xml:id="hilario_amaro_junior">
@@ -548,7 +613,6 @@
             <idno type="project"></idno>
             <birth when="unknown"/>
             <death when="unknown"/>
-            
             <note>Indivíduo de origem estrangeira falecido ab intestato, cuja herança foi colocada sob custódia do governo da República Rio-Grandense. Sua morte gerou procedimentos administrativos e pedidos de depositário por parte de Antônio Francisco dos Santos Abreu.</note>
         </person>
         
@@ -586,12 +650,6 @@
             <idno type="project"></idno>
             <note>Requerente mencionado por Antônio Abreu, em cujo favor foi solicitado um favor político a Domingos José de Almeida.</note>
         </person>
-        
-        <person xml:id="mateus">
-            <persName>Mateus</persName>
-            <idno type="project"></idno>
-            <note>Indivíduo mencionado como procurador nomeado por Antônio Francisco dos Santos Abreu. Citado como conhecido de Domingos José de Almeida.</note>
-        </person> <!--descobrir se não é mateus_gomes-->
         
         <person xml:id="shemit">
             <persName>Shemit</persName>
@@ -829,11 +887,6 @@
             <note>Indivíduo identificado como “Barbosa, do Passo das Pedras”, mensageiro de carta enviada ao General Neto.</note>
         </person>
         
-        <person xml:id="macedo_1">
-            <persName>Macedo</persName>
-            <idno></idno>
-        </person>
-        
         <person xml:id="dutra">
             <persName>Dutra</persName>
             <idno type="project"></idno>
@@ -861,110 +914,97 @@
         <person xml:id="padre_chagas">
             <persName>Francisco das Chagas Martins Ávila e Sousa</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10285293</idno>
+            <birth><date when="1788"/></birth>
+            <death><date when="1865-03-17"/></death>
             <state type="roleInTime" xml:id="padre_chagas_vigario_rrg">
-                <roleName>Vigário Apostólico da República</roleName>
+                <roleName>Vigário Apostólico da República Rio-Grandense</roleName>
                 <affiliation ref="#republica_rio_grandense"/>
             </state>
             <state type="roleInTime" xml:id="padre_chagas_deputado">
-                <roleName>Deputado da Assembleia Constitucional</roleName>
+                <roleName>Deputado da Assembleia Constituinte</roleName>
                 <affiliation ref="#assembleia_constituinte"/>
             </state>
-            <relation
-                name="rel:siblingOf"
-                active="#padre_chagas"
-                passive="#manuel_martins_silveira_lemos"/>
             <note>
                 Sacerdote católico farroupilha, Vigário Apostólico da República e deputado 
-                mais votado da Assembleia Geral Legislativa. Irmão de Manuel Martins da 
-                Silveira Lemos.
+                mais votado da Assembleia Constituinte da República Rio-Grandense. 
+                Irmão de <persName ref="#manuel_martins_silveira_lemos">Manuel Martins da Silveira Lemos</persName>. 
+                Faleceu em 17 de março de 1865.
+            </note>
+        </person>
+        
+        <person xml:id="tenente_ferreira">
+            <persName>Ferreira</persName>
+            <roleName type="uncertain">Tenente</roleName>
+            
+            <note>
+                Ex-tenente farroupilha mencionado em correspondência militar; identidade civil completa 
+                ainda não confirmada. Enquadrado no contexto do Exército da República Rio-Grandense.
             </note>
         </person>
         
         <person xml:id="mingote">
-            <persName type="popular">Mingote</persName>
             <persName>Domingos Almeida Filho</persName>
-            <idno></idno>
-            <relation
-                name="rel:childOf"
-                active="#mingote"
-                passive="#domingos_jose_almeida"/>
-            <relation
-                name="rel:childOf"
-                active="#mingote"
-                passive="#bernardina_barcelos_almeida"/>
-            <note>Primogênito de Domingos José de Almeida e Bernardina. Faleceu ainda criança.</note>
+            <persName type="popular">Mingote</persName>
+            <idno type="project"/>
+            <note>
+                Primogênito de Domingos José de Almeida e Bernardina Barcelos de Almeida; 
+                aparece referido pelo apelido “Mingote”. Faleceu ainda criança.
+            </note>
         </person>
         
         <person xml:id="bernardino_almeida">
-            <persName>Bernardino</persName>
-            <idno></idno>
-            <relation
-                name="rel:childOf"
-                active="#bernardino_almeida"
-                passive="#domingos_jose_almeida"/>
-            <relation
-                name="rel:childOf"
-                active="#bernardino_almeida"
-                passive="#bernardina_barcelos_almeida"/>
-            <note>Filho de Domingos José de Almeida.</note>
+            <persName>Bernardino Almeida</persName>
+            <idno type="project"/>
+            <note>
+                Filho de Domingos José de Almeida e Bernardina Barcelos de Almeida.
+            </note>
         </person>
         
         <person xml:id="custodia_almeida">
             <persName>D. Custódia</persName>
-            <idno></idno>
-            <relation
-                name="rel:childOf"
-                active="#custodia_almeida"
-                passive="#domingos_jose_almeida"/>
-            <relation
-                name="rel:childOf"
-                active="#custodia_almeida"
-                passive="#bernardina_barcelos_almeida"/>
-            <note>Filha de Domingos José de Almeida</note>
+            <idno type="project"/>
+            <note>
+                Filha de <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName> 
+                e <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.
+                Mencionada em diversas cartas familiares da Coleção Varela.
+            </note>
         </person>
         
         <person xml:id="pelopidas_almeida">
             <persName>Pelópidas Almeida</persName>
-            <idno></idno>
-            <relation
-                name="rel:childOf"
-                active="#pelopidas_almeida"
-                passive="#domingos_jose_almeida"/>
-            <relation
-                name="rel:childOf"
-                active="#pelopidas_almeida"
-                passive="#bernardina_barcelos_almeida"/>
-            <note>Filho de Domingos José de Almeida e Bernardina.</note>
+            <idno type="project"/>
+            <note>
+                Filho de <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName> 
+                e <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.
+                Citado em correspondência familiar no contexto da Revolução Farroupilha.
+            </note>
         </person>
         
         <person xml:id="bruto_almeida">
             <persName>Bruto</persName>
-            <idno></idno>
-            <relation
-                name="rel:childOf"
-                active="#bruto_almeida"
-                passive="#domingos_jose_almeida"/>
-            <relation
-                name="rel:childOf"
-                active="#bruto_almeida"
-                passive="#bernardina_barcelos_almeida"/>
-            <note>Filho de Domingos José de Almeida.</note>
+            <idno type="project"/>
+            <note>
+                Filho de Domingos José de Almeida e Bernardina Barcelos de Almeida; citado em 
+                correspondência familiar da Coleção Varela. Nome completo ainda não identificado 
+                nos registros disponíveis.
+            </note>
         </person>
         
         <person xml:id="abrilina_almeida">
             <persName>Abrilina Barcelos de Almeida</persName>
-            <idno></idno>
-            <state type="roleInTime" xml:id="abrilina_transfere_arquivo_dja">
-                <roleName>Transferência de custódia do arquivo familiar</roleName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="abrilina_transferencia_arquivo">
+                <roleName>Responsável pela transferência de custódia do arquivo familiar</roleName>
                 <affiliation ref="#arquivo_dja"/>
+                <note>
+                    Transferiu o acervo documental de seu pai, Domingos José de Almeida, a Alfredo Varela, 
+                    permitindo a constituição da Coleção Varela.
+                </note>
             </state>
-            <note>Filha de Domingos José de Almeida e Bernardina Barcelos de Almeida. Responsável pela transferência da custódia do arquivo familiar para Alfredo Varela, que o utilizou na constituição da Coleção Varela.</note>
-        </person>
-        
-        <person xml:id="capitao_miguel">
-            <persName>Capitão Miguel</persName>
-            <idno type="project"></idno>
-            <note>Oficial mencionado como portador de comunicação enviada por Antônio Francisco dos Santos Abreu a Domingos José de Almeida.</note>
+            <note>
+                Filha de Domingos José de Almeida e Bernardina Barcelos de Almeida; personagem 
+                essencial para a preservação do arquivo familiar.
+            </note>
         </person>
         
         <person xml:id="feijo">
@@ -1194,11 +1234,10 @@
         <person xml:id="bernardina_barcelos_almeida">
             <persName>Bernardina Barcelos de Almeida</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q136892558</idno>
-            <relation
-                name="rel:spouseOf"
-                active="#domingos_jose_almeida"
-                passive="#bernardina_barcelos_almeida"/>
-            <note>Esposa de Domingos José de Almeida.</note>
+            <note>
+                Esposa de Domingos José de Almeida, mencionada recorrentemente na correspondência. 
+                Figura central da vida familiar e administrativa durante o período farroupilha.
+            </note>
         </person>
         
         <person xml:id="dom_lourenco">
@@ -1225,12 +1264,8 @@
         
         <person xml:id="joao_cunha">
             <persName>João da Cunha</persName>
-            <idno></idno>
-            <relation
-                name="prov:actedOnBehalfOf"
-                active="#joao_da_cunha"
-                passive="#domingos_jose_almeida"/>
-            <note>Homem de confiança de Domingos José de Almeida.</note>
+            <idno type="project"/>
+            <note>Homem de confiança de Domingos José de Almeida, frequentemente agindo como seu representante em tarefas administrativas.</note>
         </person>
         
         <person xml:id="granja">
@@ -1250,7 +1285,6 @@
                 <roleName>Coronel</roleName>
                 <affiliation ref="#republica_rio_grandense"/>
             </state>
-            
             <note>Oficial farroupilha morto em combate, mencionado em ação militar relatada por Francisco Pedro de Abreu.</note>
         </person>
         
@@ -1276,15 +1310,15 @@
         
         <person xml:id="joao_jose_victorica">
             <persName xml:lang="pt-BR" type="variant">João José Victorica</persName>
-            <persName xml:lang="es" type="attested">Juan Jose Victorica</persName>
-            <idno></idno>
-            <note>Comerciante de Montevidéu. Credor de Domingos José de Almeida</note>
+            <persName xml:lang="es" type="attested">Juan José Victorica</persName>
+            <idno type="project"/>
+            <note>
+                Comerciante estabelecido em Montevidéu, atuante no circuito comercial platino
+                durante a década de 1830–1840. Aparece na correspondência como credor de
+                <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>,
+                indicando vínculos econômicos regulares entre ambos.
+            </note>
         </person>
-        
-        <person xml:id="victorica">
-            <persName>Victorica</persName>
-            <note>Identidade parcial; provável sobrenome hispânico platino.</note>
-        </person> <!--corrigir para id joao jose victorica-->
         
         <person xml:id="d_pedro">
             <persName>D. Pedro</persName>
@@ -1379,10 +1413,15 @@
         
         <person xml:id="mariano_gloria">
             <persName>Mariano Glória</persName>
-            <idno></idno>
-            <roleName>Major</roleName>
-            <affiliation>Farrapos</affiliation>
-            <note></note>
+            <state type="roleInTime" xml:id="mariano_gloria_major">
+                <roleName>Major</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <note>
+                Oficial farroupilha citado com o posto de Major. 
+                Dados biográficos completos ainda não confirmados; identificado apenas 
+                no contexto documental da correspondência militar da República Rio-Grandense.
+            </note>
         </person>
         
         <person xml:id="epaminondas_almeida">
@@ -1711,32 +1750,32 @@
         
         <person xml:id="bernardino_rodrigues_barcelos_filho">
             <persName>Bernardino Rodrigues Barcelos Filho</persName>
-            <idno></idno>
-            <relation
-                name="rel:siblingOf"
-                active="#bernardina_barcelos_almeida"
-                passive="#bernardino_rodrigues_barcelo_filho"/>
-            <note>Irmão de Bernardina Rodrigues Barcelos. É homonimo de seu pai.</note>
+            <idno type="project"/>
+            <note>
+                Filho de Bernardino Rodrigues Barcelos e irmão de 
+                <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>. 
+                É homônimo de seu pai e aparece na documentação em contexto familiar e administrativo.
+            </note>
         </person>
         
         <person xml:id="bernardino_rodrigues_barcelos_pai">
             <persName>Bernardino Rodrigues Barcelos</persName>
-            <idno></idno>
-            <relation
-                name="rel:parentOf"
-                active="#bernardino_rodrigues_barcelos_pai"
-                passive="#bernardina_barcelos_almeida"/>
-            <note>Pai de Bernardina Barcelos de Almeida. Tem filho homônimo.</note>
+            <idno type="project"/>
+            <note>
+                Pai de <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName> 
+                e charqueador atuante na região de Pelotas. Figura presente no núcleo familiar dos Barcelos 
+                e associado às atividades pecuárias e da indústria do charque no sul da província.
+            </note>
         </person>
         
         <person xml:id="joaquim_barcelos">
             <persName>Joaquim Rodrigues Barcelos</persName>
-            <idno></idno>
-            <relation
-                name="rel:siblingOf"
-                active="#bernardina_barcelos_almeida"
-                passive="#joaquim_barcelos"/>
-            <note>Irmão de Bernardina.</note>
+            <idno type="project"/>
+            <note>
+                Irmão de <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.
+                Atuava na região da campanha sul-rio-grandense em atividades ligadas à criação e comércio de gado,
+                prática comum na família Barcelos e presente em várias referências documentais da época.
+            </note>
         </person>
 
         <person xml:id="joao_barcelos">
@@ -1751,13 +1790,43 @@
         
         <person xml:id="fructuoso_rivera">
             <persName>Fructuoso Rivera</persName>
-            <persName type="full">José Fructuoso Rivera</persName> 
+            <persName type="full">José Fructuoso Rivera</persName>
+            <persName type="alias">Don Frutos</persName>
             <idno type="viaf">https://viaf.org/en/viaf/305409628</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q467976</idno>
-            <roleName>Presidente do Uruguai</roleName>
-            <roleName>Líder do Partido Colorado</roleName>
-            <roleName>General</roleName>
-            <note>Militar e político uruguaio, primeiro presidente do Uruguai.</note>
+            <birth when="1784-10-17"/>
+            <death when="1854-01-13"/>
+            <state type="roleInTime" xml:id="rivera_general">
+                <roleName>General</roleName>
+                <affiliation ref="#uruguai_estado_oriental"/>
+            </state>
+            <state type="roleInTime" xml:id="rivera_presidente_1">
+                <roleName>Presidente da República Oriental do Uruguai</roleName>
+                <affiliation ref="#uruguai_estado_oriental"/>
+                <date from="1830-11-06" to="1834-10-24"/>
+            </state>
+            <state type="roleInTime" xml:id="rivera_presidente_2">
+                <roleName>Presidente da República Oriental do Uruguai</roleName>
+                <affiliation ref="#uruguai_estado_oriental"/>
+                <date from="1839-03-01" to="1843-03-01"/>
+            </state>
+            <state type="roleInTime" xml:id="rivera_lider_colorado">
+                <roleName>Líder do Partido Colorado</roleName>
+                <affiliation ref="#partido_colorado"/>
+            </state>
+            <state type="roleInTime" xml:id="rivera_coronel_portugues">
+                <roleName>Coronel</roleName>
+                <affiliation ref="#imperio_do_brasil"/>
+                <note>Serviu no exército luso-brasileiro durante o período da ocupação da Banda Oriental.</note>
+            </state>
+            <note>
+                Militar e político uruguaio, primeiro presidente constitucional do Uruguai. 
+                Figura central das guerras civis platinas, alternou alianças com Artigas, Lavalleja 
+                e Oribe. Liderou os colorados contra os blancos e exerceu dois mandatos presidenciais. 
+                Manteve vínculos estreitos com lideranças farroupilhas — incluindo apoio militar e 
+                acolhimento político — e atuou diversas vezes a partir do exílio no Brasil. Ajudou 
+                os republicanos rio-grandenses durante a Revolução Farroupilha.
+            </note>
         </person>
         
         <person xml:id="manuel_oribe">
@@ -2000,13 +2069,11 @@
         
         <person xml:id="rolino_pereira_barros">
             <persName>Rolino Pereira de Barros</persName>
-            <note>Cidadão do Departamento, doador de novilhos à administração farroupilha. Indicado como compadre de Domingos José de Almeida.</note>
-        </person>
-        
-        <person xml:id="rolino">
-            <persName>Rolino</persName>
-            <idno></idno>
-            <note>Compadre de Almeida, responsável pela administração da charqueada enquanto o mesmo estava na Assembleia Provincial.</note>
+            <idno type="project"/>
+            <note>
+                Morador do Departamento, citado como doador de novilhos à administração 
+                farroupilha e identificado como compadre de Domingos José de Almeida.
+            </note>
         </person>
         
         <person xml:id="napoleone_castellini">
@@ -2022,10 +2089,44 @@
         <person xml:id="domingos_crescencio_carvalho">
             <persName>Domingos Crescêncio de Carvalho</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10268042</idno>
-            <roleName>Coronel</roleName>
-            <roleName>General</roleName>
-            <note>Coronel farroupilha, comandante da Divisão da Esquerda durante a Revolução Farroupilha.</note>
-        </person> 
+            <birth when="1780"/>
+            <death when="1840"/>
+            <state type="roleInTime" xml:id="dcc_soldado_1801">
+                <roleName>Soldado</roleName>
+                <affiliation ref="#imperio_brasileiro"/>
+                <date from="1801" to="1828"/>
+                <note>Participação na Guerra Cisplatina, iniciando como soldado.</note>
+            </state>
+            <state type="roleInTime" xml:id="dcc_capitao_1828">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#imperio_brasileiro"/>
+                <date when="1828"/>
+                <note>Concluiu a Guerra Cisplatina no posto de capitão.</note>
+            </state>
+            <state type="roleInTime" xml:id="dcc_coronel_rrg">
+                <roleName>Coronel</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <note>Atuação destacada como comandante de cavalaria em Jaguarão e campanhas no sul da província.</note>
+            </state>
+            <state type="roleInTime" xml:id="dcc_comandante_4_brigada">
+                <roleName>Comandante da 4.ª Brigada do Exército</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+                <note>A brigada abrangia a região entre o rio Jaguarão e o rio Camaquã.</note>
+            </state>
+            <state type="roleInTime" xml:id="dcc_nomeado_general">
+                <roleName>General nomeado (não efetivado)</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <note>Estava prevista sua promoção ao posto de general após a campanha contra Pedro Labatut.</note>
+            </state>
+            <note>
+                Militar brasileiro natural da fronteira sul, atuante desde a Guerra Cisplatina (1801–1828). 
+                Amigo e parente de Bento Gonçalves da Silva, destacou-se na Revolução Farroupilha como líder 
+                da cavalaria em Jaguarão e comandante da 4.ª Brigada. Participou de diversos combates ao lado 
+                do General David Canabarro e derrotou o General Pedro Labatut durante a invasão imperial. 
+                Morreu em 1840, aos 60 anos, alvejado por atirador oculto durante a marcha do Exército 
+                Farroupilha entre Viamão e a campanha.
+            </note>
+        </person>
         
         <person xml:id="joao_manuel_araujo_pinto">
             <persName>João Manuel de Araújo Pinto</persName>
@@ -2402,8 +2503,14 @@
         <person xml:id="manuel_antunes_porciuncula">
             <persName>Manuel Antunes da Porciúncula</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q136892590</idno>
-            <roleName>Capitão dos Guardas Nacionais</roleName>
-            <note>Capitão farroupilha e cunhado de Bento Gonçalves.</note>
+            <state type="roleInTime" xml:id="porciuncula_capitao_gn">
+                <roleName>Capitão dos Guardas Nacionais</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>
+                Oficial farroupilha, Capitão dos Guardas Nacionais e cunhado de Bento Gonçalves, 
+                com atuação relevante durante a Revolução Farroupilha.
+            </note>
         </person>
         
         <person xml:id="antonio_antunes_porciuncula">
@@ -2815,15 +2922,92 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q16491671</idno>
             <birth when="1781"/>
             <death when="1837"/>
-            <note>Político, escritor e economista luso-brasileiro; autor das “Memórias Econômico-Políticas”. Morreu em 1837. Pai de Antônio José Gonçalves Chaves Filho.</note>
+            <state type="roleInTime" xml:id="chaves_charqueador_1810">
+                <roleName>Proprietário rural e charqueador</roleName>
+                <affiliation ref="#pelotas"/>
+                <date when="1810"/>
+                <note>Fundou a Charqueada São João em Pelotas.</note>
+            </state>
+            <state type="roleInTime" xml:id="chaves_autor_1822">
+                <roleName>Autor de “Memórias econômico-políticas”</roleName>
+                <date when="1822"/>
+                <note>Propôs a abolição gradual da escravidão, o fim imediato do tráfico e reformas administrativas e agrárias.</note>
+            </state>
+            <state type="roleInTime" xml:id="chaves_conselho_admin_1824">
+                <roleName>Membro do Conselho Administrativo da Província</roleName>
+                <date when="1824"/>
+            </state>
+            <state type="roleInTime" xml:id="chaves_conselho_geral_1828_1832">
+                <roleName>Deputado do Conselho Geral da Província</roleName>
+                <date from="1828" to="1832"/>
+            </state>
+            <state type="roleInTime" xml:id="chaves_vereador_1832">
+                <roleName>Vereador da Câmara Municipal de Pelotas</roleName>
+                <date when="1832"/>
+            </state>
+            <state type="roleInTime" xml:id="chaves_vapor_1832">
+                <roleName>Pioneiro da navegação a vapor no Rio Grande do Sul</roleName>
+                <date when="1832"/>
+                <note>Cogestor, com Domingos José de Almeida, da construção da barca a vapor “Liberal”, primeira embarcação a vapor fabricada no Brasil.</note>
+            </state>
+            <state type="roleInTime" xml:id="chaves_deputado_1835">
+                <roleName>Deputado da Assembleia Provincial</roleName>
+                <date when="1835"/>
+                <note>Segundo deputado mais votado da 1.ª Legislatura.</note>
+            </state>
+            <state type="roleInTime" xml:id="chaves_farroupilha_1835_1837">
+                <roleName>Aderente à Revolução Farroupilha</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <date from="1835" to="1837"/>
+            </state>
+            <state type="roleInTime" xml:id="chaves_charqueada_uruguai">
+                <roleName>Charqueador no Uruguai</roleName>
+                <affiliation ref="#uruguai"/>
+                <date from="1835" to="1837"/>
+                <note>Estabeleceu uma charqueada em Punta Rodeo após o assassinato do professor de suas filhas.</note>
+            </state>
+            <note>
+                Fazendeiro, comerciante e intelectual luso-brasileiro. Autor das “Memórias econômico-políticas” (1822), 
+                uma das primeiras propostas sistemáticas de abolição da escravidão no Brasil, defendendo fim do tráfico em 18 meses 
+                e abolição gradual. Pioneiro da navegação a vapor no RS ao construir, com Domingos José de Almeida, 
+                a barca “Liberal” (1832). Exerceu cargos nos conselhos provinciais e na Câmara Municipal de Pelotas. 
+                Aderiu à Revolução Farroupilha em 1835, exilando-se depois no Uruguai. Morreu em naufrágio nas águas do Rio da Prata em 1837.
+            </note>
         </person>
         
         <person xml:id="antonio_jose_goncalves_chaves_filho">
-            <persName>Antônio José Gonçalves Chaves</persName>
+            <persName>Antônio José Gonçalves Chaves Filho</persName>
             <persName type="honorific">Dr.</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q16491815</idno>
-            <affiliation ref="#faculdade_direito_sao_francisco"/>
-            <note>Filho de Antônio José Gonçalves Chaves; atuou na administração e ajuste de bens paternos e é referido como bacharel formado em Direito.</note>
+            <birth when="1813">1813</birth>
+            <death when="1871-08-04">4 de agosto de 1871</death>
+            <state type="roleInTime" xml:id="chaves_filho_formacao_1836">
+                <roleName>Bacharel em Direito</roleName>
+                <affiliation ref="#faculdade_direito_sao_francisco"/>
+                <date when="1836"/>
+                <note>Graduado pela Faculdade de Direito de São Paulo.</note>
+            </state>
+            <state type="roleInTime" xml:id="chaves_filho_deputado_1846">
+                <roleName>Deputado Provincial</roleName>
+                <affiliation ref="#assembleia_provincial_rs"/>
+                <date when="1846"/>
+            </state>
+            <state type="roleInTime" xml:id="chaves_filho_deputado_1852">
+                <roleName>Deputado Provincial</roleName>
+                <affiliation ref="#assembleia_provincial_rs"/>
+                <date when="1852"/>
+            </state>
+            <state type="roleInTime" xml:id="chaves_filho_deputado_1860">
+                <roleName>Deputado Provincial</roleName>
+                <affiliation ref="#assembleia_provincial_rs"/>
+                <date when="1860"/>
+            </state>
+            <note>
+                Político brasileiro, natural de Pelotas. Filho de Antônio José Gonçalves Chaves 
+                e Maria do Carmo Secco. Formado em Direito em 1836, exerceu diversas vezes o cargo 
+                de deputado provincial do Rio Grande do Sul (1846, 1852, 1860). Atuou na administração 
+                e regularização dos bens paternos após a morte do pai em 1837.
+            </note>
         </person>
         
         
@@ -3595,8 +3779,13 @@
         
         <person xml:id="prudencio">
             <persName>Prudêncio</persName>
-            <idno></idno>
-            <note>Pessoa próxima da família de Domingos José de Almeida.</note>
+            <idno type="project"/>
+            <note>
+                Homem livre de condição modesta, mencionado em diversas cartas como auxiliar de 
+                confiança da família Almeida, responsável por tarefas domésticas e de apoio 
+                logístico. Mantinha convivência próxima com Domingos José de Almeida e Bernardina 
+                Barcelos de Almeida, sendo parte do círculo cotidiano da casa.
+            </note>
         </person>
         
         <person xml:id="benito">
@@ -3641,10 +3830,6 @@
         
         <person xml:id="major_simao">
             <persName>Major Simão</persName>
-        </person>
-        
-        <person xml:id="baltasar">
-            <persName>Baltasar</persName>
         </person>
         
         <person xml:id="fileno_carlos_morais">
@@ -3742,6 +3927,39 @@
                 do Paraguai, em 1865.
             </note>
         </person>
+        
+        <person xml:id="agostinho_antonio_melo">
+            <persName>Agostinho Antônio de Mello</persName>
+            <persName type="alt">Agostinho Antônio de Mello e Albuquerque</persName>
+            <idno type="project"/>
+            <birth when="1802-04-08"/>
+            <state type="roleInTime" xml:id="agostinho_major_1835">
+                <roleName>Major</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <date when="1835"/>
+                <note>Graduado como Major no início da Revolução Farroupilha.</note>
+            </state>
+            <state type="roleInTime" xml:id="agostinho_coronel_rrg">
+                <roleName>Coronel</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <date from="1837" to="1841"/>
+            </state>
+            <state type="roleInTime" xml:id="agostinho_botucarai_1839">
+                <roleName>Comandante em Botucaraí</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <date when="1839-12"/>
+                <note>Base de operações mencionada na carta CV-7583 de José Gomes Portinho a Serafim Alencastre.</note>
+            </state>
+            <note>
+                Oficial farroupilha, filho de Ricardo Antônio de Melo e Albuquerque e irmão
+                de Antônio de Melo Albuquerque (Melo Manso). Atuante no norte da província
+                em operações em Santo Amaro, Rio Pardo, Cachoeira, Cruz Alta e região de
+                Botucaraí entre 1837 e 1841; comandou forças derrotadas em combate em
+                novembro de 1841. Recebia correspondência de sua esposa em Rio Pardo via
+                soldado interceptado por José Gomes Portinho em dezembro de 1839.
+            </note>
+        </person>
+        
         
         <person xml:id="pardo_fortunato">
             <persName>Fortunato</persName>
@@ -3860,11 +4078,6 @@
             <note>Indivíduo mencionado como encarregado de deslocamento e envio de recados ou serviços.</note>
         </person>
         
-        <person xml:id="joao_da_cunha">
-            <persName>João da Cunha</persName>
-            <note>Indivíduo citado como acompanhante de viagem a Montevidéu.</note>
-        </person>
-        
         <person xml:id="saturnino">
             <persName>Saturnino</persName>
             <note>Mencionado como ocupante de cargo após queda do Ministério Andrada.</note>
@@ -3959,9 +4172,12 @@
         
         <person xml:id="luis_machado_teixeira">
             <persName>Luís Machado Teixeira</persName>
-            <idno></idno>
-            <roleName>Coletor</roleName>
-            <note>Exerceu o cargo de coletor da República.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="luis_machado_teixeira_coletor">
+                <roleName>Coletor da República Rio-Grandense</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>Funcionário da República Rio-Grandense, exercendo o cargo de coletor responsável pela arrecadação e escrituração de valores públicos.</note>
         </person>
         
         <person xml:id="jose_alves_de_morais">
@@ -4001,8 +4217,10 @@
         
         <person xml:id="jose_de_assis_candall">
             <persName>José de Assis Candall</persName>
-            <idno></idno>
-            <note>Destinatário da ordem de fornecimento, envolvido em transações têxteis.</note>
+            <idno type="project"/>
+            <note>
+                Comerciante mencionado em ordens de fornecimento de gêneros têxteis; foi credor da República Rio-Grandense.
+            </note>
         </person>
         
         <person xml:id="morais_pereira">
@@ -4186,11 +4404,6 @@
         <person xml:id="albino_jose_monte">
             <persName>Albino José do Monte</persName>
             <note>Identificado com o título Capitão.</note>
-        </person>
-        
-        <person xml:id="luis_machado_teixeira">
-            <persName>Luís Machado Teixeira</persName>
-            <note>Coletor da povoação, conforme carta CV-510.</note>
         </person>
         
         <person xml:id="francisco_jose_bueno">
@@ -4385,47 +4598,33 @@
         
         <person xml:id="cipriano_rodrigues_barcelos">
             <persName>Cipriano Rodrigues Barcelos</persName>
-            <idno></idno>
-            <relation
-                name="rel:uncleOf"
-                active="#cipriano_joaquim_rodrigues_barcelos"
-                passive="#bernardina_barcelos_almeida"/>
+            <idno type="project"/>
             <roleName>Comendador</roleName>
-            <note>Tio de Bernardina Barcelos de Almeida. Tinha charqueada muito próxima a de Domingos José de Almeida. Também era comerciante de gado e escravos.</note>
+            <note>Charqueador e comerciante de grande porte em Pelotas; proprietário de charqueada vizinha à de Domingos José de Almeida. Tio de Bernardina Barcelos de Almeida e figura influente na economia do gado e na circulação de escravizados na região.</note>
         </person>
         
         <person xml:id="cipriano_joaquim_rodrigues_barcelos">
             <persName>Cipriano Joaquim Rodrigues Barcelos</persName>
-            <idno></idno>
-            <relation
-                name="rel:relativeOf"
-                active="#bernardina_barcelos_almeida"
-                passive="#cipriano_joaquim_rodrigues_barcelos"/>
-            <relation
-                name="rel:parentOf"
-                active="#joaquim_rodrigues_barcelos"
-                passive="#cipriano_joaquim_rodrigues_barcelos"/>
-            <note>Primo de Bernardina Barcelos de Almeida; filho de Joaquim Rodrigues Barcelos. Figura ativa na administração doméstica e rural durante as ausências de Domingos José de Almeida, frequentemente citado nas cartas da Coleção Varela.</note>
+            <idno type="project"/>
+            <note>Filho de Joaquim Rodrigues Barcelos e primo de Bernardina Barcelos de Almeida. Atuou no apoio à administração rural e doméstica do casal Almeida, frequentemente citado nas cartas da Coleção Varela como pessoa de confiança nos períodos de ausência de Domingos José de Almeida.</note>
         </person>
         
         <person xml:id="luis_rodrigues_barcelos">
             <persName>Luís Rodrigues Barcelos</persName>
-            <idno></idno>
-            <relation
-                name="rel:relativeOf"
-                active="#bernardina_barcelos_almeida"
-                passive="#luis_rodrigues_barcelos"/>
-            <note>Tio de Bernardina Barcelos de Almeida. Residia em Bagé.</note>
+            <idno type="project"/>
+            <note>
+                Fazendeiro e comerciante de gado estabelecido na região de <placeName ref="#bage">Bagé</placeName>.
+                Tio materno de <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>,
+                aparece na correspondência como figura de confiança da família Barcelos, especialmente em assuntos
+                ligados a criação e movimentação de gado.
+            </note>
         </person>
         
         <person xml:id="francisco_rodrigues_barcelos">
             <persName>Francisco Rodrigues Barcelos</persName>
-            <idno></idno>
-            <relation
-                name="rel:relativeOf"
-                active="#bernardina_barcelos_almeida"
-                passive="#francisco_rodrigues_barcelos"/>
-            <note>Tio de Bernardina Barcelos de Almeida, residente na região de Viamão.</note>
+            <idno type="project"/>
+            <note>Tio de Bernardina Barcelos de Almeida, residente na região de Viamão e integrante da extensa rede 
+                familiar Rodrigues Barcelos.</note>
         </person>
         
         <person xml:id="eugenio_vidie">
@@ -4471,8 +4670,22 @@
         
         <person xml:id="leao_prospero_chastan">
             <persName>Leão Próspero Chastan</persName>
-            <idno></idno>
-            <note>foi um coronel, líder farroupilha e charqueador com importante atuação histórica na Revolução Farroupilha no Rio Grande do Sul.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="chastan_coronel_farrapos">
+                <roleName>Coronel</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <note>Líder militar farroupilha.</note>
+            </state>
+            <state type="roleInTime" xml:id="chastan_charqueador">
+                <roleName>Charqueador</roleName>
+                <affiliation ref="#rio_grande_sul"/>
+            </state>
+            
+            <note>
+                Coronel farroupilha e importante charqueador da região sul da província. 
+                Atuou em diversos momentos estratégicos da Revolução Farroupilha (1835–1845), 
+                exercendo influência militar, econômica e política.
+            </note>
         </person>
         
         <person xml:id="joao_cunha_pecanha">
@@ -4735,12 +4948,6 @@
             <persName>Manuel da Costa Guimarães</persName>
             <idno type="project"></idno>
             <note>Alferes legalista que tomou parte na expedição relatada por Francisco Pedro de Abreu.</note>
-        </person>
-        
-        <person xml:id="ferreira">
-            <persName>Ferreira</persName>
-            <idno type="project"></idno>
-            <note>Alferes legalista listado entre os oficiais envolvidos na operação militar.</note>
         </person>
         
         <person xml:id="esteves">
@@ -7637,13 +7844,54 @@
         </person>
         
         <person xml:id="serafim_silva_ribeiro">
-            <persName>Serafim da Silva Ribeiro</persName>
-            <idno></idno>
+            <persName>Serafim Silva Ribeiro</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="serafim_farrapos_tenente">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+                <date from="1835" to="1845"/>
+                <note>Oficial farroupilha atuante durante a Revolução Farroupilha.</note>
+            </state>
+            <state type="roleInTime" xml:id="serafim_farrapos_capitao">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+                <date from="1840" to="1845"/>
+            </state>
+            <state type="roleInTime" xml:id="serafim_uruguai_1851">
+                <roleName>Oficial atuante na Campanha do Uruguai</roleName>
+                <affiliation ref="#exercito_imperial"/>
+                <date from="1851" to="1852"/>
+            </state>
+            <state type="roleInTime" xml:id="serafim_paraguai_1865">
+                <roleName>Oficial da Guerra do Paraguai</roleName>
+                <affiliation ref="#exercito_imperial"/>
+                <date from="1865" to="1870"/>
+                <note>Recebeu o cognome “Serafim Bravo” por bravura em combate.</note>
+            </state>
+            <state type="roleInTime" xml:id="serafim_coronel_honorario">
+                <roleName>Coronel Honorário</roleName>
+                <affiliation ref="#exercito_imperial"/>
+                <note>Condecorado com a Ordem Imperial da Rosa.</note>
+            </state>
+            <note>
+                Militar farroupilha que progrediu a oficial superior no pós-guerra, 
+                destacando-se também nas campanhas platinas e na Guerra do Paraguai. 
+                Pai de Vasco Ribeiro da Silva.
+            </note>
         </person>
         
         <person xml:id="vasco_ribeiro_silva">
             <persName>Vasco Ribeiro da Silva</persName>
-            <idno></idno>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="vasco_farroupilha_servico">
+                <roleName>Praça</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+                <note>Serviu como militar da República Rio-Grandense.</note>
+            </state>
+            <note>
+                Farroupilha pertencente ao Exército Republicano, filho de Serafim Silva Ribeiro. 
+                Encontrado em documentos do governo farroupilha como praça ou auxiliar militar.
+            </note>
         </person>
         
         <person xml:id="francisco_pinto_silva">
@@ -7694,40 +7942,72 @@
         <person xml:id="hildebrando_freitas_pedroso">
             <persName>Hildebrando de Freitas Pedroso</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10295559</idno>
-            <roleName>deputado na Assembleia Constituinte e Legislativa Farroupilha</roleName>
-            <roleName>presidente da Assembleia Constituinte da República Rio-grandense</roleName>
-            <note>Sacerdote, foi eleito deputado na Assembleia Constituinte e Legislativa Farroupilha, em 1842, sendo dela presidente. </note>
+            <state type="roleInTime" xml:id="hildebrando_deputado_1842">
+                <roleName>Deputado da Assembleia Constituinte e Legislativa Farroupilha</roleName>
+                <affiliation ref="#assembleia_constituinte"/>
+                <date when="1842"/>
+            </state>
+            <state type="roleInTime" xml:id="hildebrando_presidente_assembleia">
+                <roleName>Presidente da Assembleia Constituinte da República Rio-Grandense</roleName>
+                <affiliation ref="#assembleia_constituinte"/>
+            </state>
+            <note>
+                Sacerdote farroupilha, eleito deputado constituinte em 1842 e presidente da Assembleia 
+                Constituinte e Legislativa da República Rio-Grandense. Figura política influente no 
+                governo farroupilha.
+            </note>
         </person>
         
         <person xml:id="joao_alexandre">
             <persName>João Alexandre da Rosa</persName>
-            <idno></idno>
-            <roleName>Comandante de Polícia da Serra dos Tapes</roleName>
-            <note>Comandante de Polícia da Serra dos Tapes.</note>
+            <state type="roleInTime" xml:id="joao_alexandre_policia_tapes">
+                <roleName>Comandante de Polícia da Serra dos Tapes</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <note>Atuante no policiamento e segurança local durante a Revolução Farroupilha.</note>
+            </state>
+            <note>
+                Oficial farroupilha identificado em correspondência administrativa como responsável pela
+                Polícia da Serra dos Tapes. Sua atuação sugere posição de confiança nas estruturas 
+                regionais de comando da República Rio-Grandense.
+            </note>
         </person>
         
         <person xml:id="joao_alexandre_rosa_jr">
             <persName>João Alexandre da Rosa Jr.</persName>
             <note>Segundo escriturário responsável pela publicação e registro do decreto.</note>
-        </person> <!--conferir se não é id joao_alexandre-->
+        </person> 
         
         <person xml:id="serafim_rosa">
             <persName>Serafim Pereira Rosa</persName>
-            <idno></idno>
-            <note>Morador da região da serra dos Tapes, citado como detentor de instruções entregues ao autor.</note>
+            <state type="roleInTime" xml:id="serafim_rosa_farroupilha">
+                <roleName>Militante farroupilha</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <note>Atuante na região da Serra dos Tapes.</note>
+            </state>
+            <note>
+                Morador da Serra dos Tapes, citado como responsável por transmitir ou guardar 
+                instruções enviadas por Domingos José de Almeida ao comandante João Alexandre da Rosa.
+                Sua atuação sugere integração às redes logísticas e de comunicação farroupilhas.
+            </note>
         </person>
         
         <person xml:id="batista_fernandes">
             <persName>Batista Fernandes</persName>
-            <idno></idno>
-            <note>Compadre de Bernardina Barcelos de Almeida, citado como envolvido com os Caramurus.</note>
-            <affiliation>Império do Brasil</affiliation>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="batista_legalista">
+                <roleName>Simpatizante / colaborador caramuru</roleName>
+                <affiliation ref="#caramurus"/>
+            </state>
+            <note>
+                Compadre de Bernardina Barcelos de Almeida. É citado como envolvido com os 
+                Caramurus, grupo legalista que apoiava o Império do Brasil na Revolução Farroupilha.
+            </note>
         </person>
         
         <person xml:id="jose_felix">
             <persName>José Félix</persName>
-            <idno></idno>
-            <note>Compadre da família, mencionado por Bernardina.</note>
+            <idno type="project"/>
+            <note>Compadre de Domingos José de Almeida e Bernardina Barcelos de Almeida, mencionado na correspondência familiar como parte da rede de sociabilidade doméstica e comunitária.</note>
         </person>
         
         <person xml:id="ribas">
@@ -7744,16 +8024,15 @@
         
         <person xml:id="luis_azevedo">
             <persName>Luís de Azevedo</persName>
-            <idno></idno>
-            <relation
-                name="family"
-                mutual="false"
-                active="#luis_azevedo"
-                passive="#boaventura_rodrigues_barcelos"
-                ref="https://www.wikidata.org/wiki/Q16658574"> 
-                <desc>Cunhados</desc>
-            </relation>
-            <note>Legalista.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="luis_azevedo_legalista">
+                <roleName>Legalista</roleName>
+                <affiliation ref="#imperio_brasileiro"/>
+            </state>
+            <note>
+                Cidadão legalista vinculado ao círculo familiar de Boaventura Rodrigues Barcelos, 
+                atuante no contexto político da Revolução Farroupilha.
+            </note>
         </person>
         
         <person xml:id="dr_joao">
@@ -7762,107 +8041,250 @@
             <note>Amigo de Domingos José de Almeida, mencionado criticamente.</note>
         </person>
         
-        <person xml:id="joao_antonio">
+        <person xml:id="joao_antonio_compa">
             <persName>João Antônio</persName>
-            <idno></idno>
-            <note>Compadre da família Almeida, citado em contexto de cuidados com cavalos.</note>
+            <idno type="project"/>
+            <note>
+                Compadre da família Almeida, mencionado em correspondência de Domingos José de Almeida
+                como responsável por auxiliar em tarefas práticas, incluindo o cuidado de cavalos.
+                Figura provavelmente pertencente ao círculo de sociabilidade doméstica e comunitária
+                dos Almeida durante o período da Revolução Farroupilha.
+            </note>
         </person>
         
         <person xml:id="merenciana">
             <persName>Merenciana</persName>
-            <idno></idno>
-            <note>Mulata mencionada como envolvida em disputa doméstica e tutelar.</note>
+            <idno type="project"/>
+            <note>
+                Mulher identificada como “mulata” nas cartas, mencionada em contexto de disputa 
+                doméstica e tutela envolvendo membros da família Barcelos e pessoas próximas 
+                aos Almeida. Sua presença aparece ligada a conflitos familiares e de autoridade.
+            </note>
         </person>
         
         <person xml:id="augusto">
             <persName>Augusto</persName>
-            <idno></idno>
+            <idno type="project"/>
+            <note>
+                Mencionado em correspondência familiar em vínculo próximo a Merenciana e 
+                aos Barcelos, possivelmente membro jovem da casa ou agregado doméstico.
+            </note>
         </person>
         
         <person xml:id="jose_rodrigues_barcelos">
-            <persName>José</persName>
-            <idno></idno>
-            <relation
-                name="rel:uncleOf"
-                active="#jose_rodrigues_barcelos"
-                passive="#bernardina_barcelos_almeida"/>
-            <roleName>Comendador</roleName>
-            <roleName>Capitão do Exército Imperial</roleName>
-            <roleName>provedor da Santa Casa de Misericórdia de Pelotas</roleName>
-            <note>Tio de Bernardina Barcelos de Almeida. Aderiu a causa farroupilha.</note>
+            <persName>José Rodrigues Barcelos</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="jrb_capitao_imperial">
+                <roleName>Capitão do Exército Imperial</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="jrb_comendador">
+                <roleName>Comendador</roleName>
+            </state>
+            <state type="roleInTime" xml:id="jrb_provedor_santacasa">
+                <roleName>Provedor da Santa Casa de Misericórdia de Pelotas</roleName>
+                <affiliation ref="#santacasa_pelotas"/>
+            </state>
+            <note>
+                Importante figura pública de Pelotas. Tio de 
+                Bernardina Barcelos de Almeida.  
+                Apesar de sua posição inicial vinculada ao Império, fontes da edição dos Anais 
+                o indicam como aderente ao movimento farroupilha. Envolvido em questões 
+                tutelares e domésticas mencionadas em cartas a Domingos José de Almeida.
+            </note>
         </person>
         
         <person xml:id="genuino">
             <persName>Genuíno</persName>
-            <idno></idno>
+            <idno type="project"/>
+            <note>Indivíduo citado como devedor de Domingos José de Almeida e relacionado a redes locais de dependência econômica.</note>
         </person>
         
         <person xml:id="mateus_gomes">
-            <persName>[Mateus?] Gomes</persName>
-            <idno></idno>
-            <note>Nome lido com dúvida no manuscrito.</note>
-        </person> <!-- provavelmente Mateus Gomes Viana, que começou como farroupilha e terminou como legalista-->
+            <persName>Mateus Gomes Viana</persName>
+            <persName type="attested">Mateus Gomes</persName>
+            <birth when="1809-09-14">14 de setembro de 1809</birth>
+            <death when="1839">1839</death>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="mateus_gomes_tenente_gn">
+                <roleName>Tenente-secretário da Guarda Nacional</roleName>
+                <affiliation ref="#guarda_nacional"/>
+                <date when="1834"/>
+                <note>Registrado como tenente-secretário em 10 de novembro de 1834 em <hi rend="italic">O Noticiador</hi>.</note>
+            </state>
+            <state type="roleInTime" xml:id="mateus_gomes_major_farroupilha">
+                <roleName>Major</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+                <date when="1835"/>
+                <note>Convocado por Bento Gonçalves e Antônio de Sousa Neto para servir entre os revolucionários.</note>
+            </state>
+            <state type="roleInTime" xml:id="mateus_gomes_vereador">
+                <roleName>Vereador</roleName>
+                <affiliation ref="#camara_pelotas"/>
+                <note>Eleito por vários mandatos e chegou a presidir a Câmara Municipal de Pelotas.</note>
+            </state>
+            <state type="roleInTime" xml:id="mateus_gomes_promotor">
+                <roleName>Promotor Público</roleName>
+                <affiliation ref="#justica_provincial"/>
+                <date when="1835"/>
+                <note>Apontado como o primeiro promotor público de Pelotas, segundo Simões Lopes Neto.</note>
+            </state>
+            <state type="roleInTime" xml:id="mateus_gomes_advogado">
+                <roleName>Advogado</roleName>
+                <note>Atuou no foro local; recebeu o apelido “Mateusinho das leis”.</note>
+            </state>
+            <state type="roleInTime" xml:id="mateus_gomes_sociedade_defensora">
+                <roleName>1.º Secretário</roleName>
+                <affiliation ref="#sociedade_defensora_pelotas"/>
+                <date from="1832" to="1835"/>
+                <note>Membro fundador, inicialmente 2.º secretário, eleito por vários anos entre os mais votados.</note>
+            </state>
+            <state type="roleInTime" xml:id="mateus_gomes_secretario_provincia">
+                <roleName>Secretário do Presidente da Província</roleName>
+                <affiliation ref="#governo_provincial_rs"/>
+                <note>Apresentou-se como monarquista a José de Araújo Ribeiro e passou a servir como seu secretário.</note>
+            </state>
+            <state type="roleInTime" xml:id="mateus_gomes_redator_liberal">
+                <roleName>Redator</roleName>
+                <affiliation ref="#jornal_o_liberal_riograndense"/>
+                <date from="1835" to="1836"/>
+                <note>Principal redator do jornal pró-Araújo Ribeiro.</note>
+            </state>
+            <state type="roleInTime" xml:id="mateus_gomes_fundador_correio_pa">
+                <roleName>Fundador e redator</roleName>
+                <affiliation ref="#correio_porto_alegre"/>
+                <date when="1837"/>
+                <note>Fundou e dirigiu o jornal <hi rend="italic">Correio de Porto Alegre</hi>, que circulou por menos de um ano.</note>
+            </state>
+            <note>
+                Filho do tenente Baltazar Gomes Viana e de Joana Margarida da Silveira, natural de 
+                São Francisco de Paula (Pelotas). Educado pelos professores Padre Felício e Francisco 
+                Condal. Antes de ingressar na política e no serviço militar, dedicou-se ao comércio.
+                Foi provavelmente o primeiro pelotense a publicar poesia, tendo composto um poema 
+                em honra a Bento Manuel Ribeiro e seus comandados, no qual enaltecia os farroupilhas 
+                como heróis. Posteriormente aderiu ao campo monarquista. Morreu jovem, em Rio Grande, 
+                em 1839, aos 30 anos.
+            </note>
+        </person>
         
         <person xml:id="xavier_ferreira">
             <persName>Francisco Xavier Ferreira</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q8962581</idno>
-            <roleName>Deputado provincial na 1ª Legislatura da Assembléia Legislativa Provincial do Rio Grande do Sul</roleName>
-            <note>Deputado provincial na 1ª Legislatura da Assembléia Legislativa Provincial do Rio Grande do Sul, era republicano, porém não separatista. Foi preso na Presiganga e depois enviado ao Rio de Janeiro, onde faleceu no calabouço da Fortaleza de Nossa Senhora da Conceição da Ilha de Villegagnon, em 1838.</note>
+            <state type="roleInTime" xml:id="xavier_deputado_1leg_rs">
+                <roleName>Deputado provincial</roleName>
+                <affiliation ref="#assembleia_provincial_rs"/>
+                <date when="1835"/>
+            </state>
+            <note>
+                Republicano não separatista. Preso na Presiganga e posteriormente remetido ao Rio de Janeiro, 
+                onde faleceu no calabouço da Fortaleza de Nossa Senhora da Conceição, na Ilha de Villegagnon, em 1838.
+            </note>
         </person>
         
         <person xml:id="manuel_barcelos">
             <persName>Manuel Barcelos</persName>
-            <idno></idno>
-            <note>Portador da carta enviada a Bernardina.</note>
+            <idno type="project"/>
+            <note>Portador de correspondência entre Domingos José de Almeida e Bernardina Barcelos de Almeida; figura operacional 
+                das redes familiares e logísticas da campanha.</note>
         </person>
         
         <person xml:id="angelo">
             <persName>Ângelo</persName>
-            <idno></idno>
-            <note>Membro da família que visita Almeida em Porto Alegre, acompanhando Francisco Rodrigues Barcelos.</note>
+            <idno type="project"/>
+            <note>Membro da família Rodrigues Barcelos, mencionado como acompanhante de Francisco Rodrigues Barcelos em visita a 
+                Domingos José de Almeida em Porto Alegre.</note>
         </person>
         
         <person xml:id="jose_pedro">
             <persName>José Pedro</persName>
-            <idno></idno>
-            <note>Parente de Bernardina mencionado na correspondência.</note>
+            <idno type="project"/>
+            <note>Parente de Bernardina Barcelos de Almeida mencionado na correspondência.</note>
         </person>
         
         <person xml:id="jose_vieira_viana">
             <persName>José Vieira Viana</persName>
-            <idno></idno>
-            <note>Foi charqueador, um dos construtores da primeira barca a vapor do Estado junto com Domingos José de Almeida.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="vieira_viana_charqueador">
+                <roleName>Charqueador</roleName>
+            </state>
+            <state type="roleInTime" xml:id="vieira_viana_constructor_liberal_1832">
+                <roleName>Construtor da barca a vapor Liberal</roleName>
+                <affiliation ref="#empreendimento_liberal"/>
+                <date when="1832"/>
+                <note>Construtor, junto de Domingos José de Almeida, da primeira barca a vapor do Rio Grande do Sul.</note>
+            </state>
+            <note>Charqueador pelotense e associado de Domingos José de Almeida em empreendimentos navais e comerciais, 
+                incluindo a construção da barca a vapor Liberal em 1832.</note>
         </person>
         
         <person xml:id="belchior">
             <persName>Belchior</persName>
-            <idno></idno>
-            <note>Compadre de Almeida.</note>
+            <idno type="project"/>
+            <note>Compadre de Domingos José de Almeida, mencionado em contexto de confiança familiar e epistolar.</note>
         </person>
         
         <person xml:id="travassos">
             <persName>Travassos</persName>
-            <idno></idno>
-            <note>Indivíduo encarregado de receber a roupa de Almeida.</note>
+            <idno type="project"/>
+            <note>Indivíduo de confiança de Domingos José de Almeida, encarregado de receber e custodiar sua roupa.</note>
         </person>
         
         <person xml:id="baltasar">
             <persName>Baltasar</persName>
-            <idno></idno>
-            <note>Contato mencionado por Almeida para obter uma carta.</note>
-        </person> <!--id duplicada.-->
+            <idno type="project"/>
+            <note>Contato de Domingos José de Almeida, encarregado de obter uma carta enviada ao compadre Belchior.</note>
+        </person>
+        
+        <person xml:id="pimenta">
+            <persName>Pimenta</persName>
+            <idno type="project"/>
+            <note>Contato próximo da família Almeida, indicado como pessoa de confiança para suprir Domingos José de Almeida com dinheiro e auxiliar na administração doméstica.</note>
+        </person>
         
         <person xml:id="luis_alves_santos_marques">
             <persName>Luís Alves dos Santos Marques</persName>
-            <idno></idno>
-            <roleName>Segundo-Tenent</roleName>
-            <note>Comandante que tratou Almeida durante a prisão a bordo da escuna Incorporação, em 1835.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="luis_alves_marinha_imperial">
+                <roleName>Oficial da Marinha Imperial</roleName>
+                <affiliation ref="#imperio_brasileiro"/>
+            </state>
+            <state type="roleInTime" xml:id="luis_alves_segundo_tenente">
+                <roleName>Segundo-Tenente</roleName>
+                <affiliation ref="#marinha_imperial_brasileira"/>
+            </state>
+            <note>Oficial da Marinha Imperial que comandou a escuna 19 de outubro e tratou Domingos José de Almeida durante sua prisão em 1835.</note>
         </person>
         
         <person xml:id="israel_soares_paiva">
             <persName>Israel Soares de Paiva</persName>
-            <idno></idno>
-            <note>Comandante legalista.</note>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q17414120</idno>
+            <idno type="project"/>
+            <birth when="circa-1790"/>
+            <death when="1859-03-21">21 de março de 1859</death>
+            <state type="roleInTime" xml:id="israel_paiva_comerciante">
+                <roleName>Comerciante</roleName>
+            </state>
+            <state type="roleInTime" xml:id="israel_paiva_politico">
+                <roleName>Político provincial</roleName>
+                <affiliation ref="#assembleia_provincial_rs"/>
+                <date when="1835"/>
+                <note>Elegeu-se suplente à 1ª Legislatura da Assembleia Provincial do Rio Grande do Sul.</note>
+            </state>
+            <state type="roleInTime" xml:id="israel_paiva_legalista">
+                <roleName>Comandante legalista</roleName>
+                <affiliation ref="#imperio_brasileiro"/>
+            </state>
+            <state type="roleInTime" xml:id="israel_paiva_comendador">
+                <roleName>Comendador</roleName>
+                <note>Agraciado comendador do Império.</note>
+            </state>
+            <note>
+                Comerciante e político da província do Rio Grande do Sul, proprietário de chácara em Porto Alegre e construtor do Solar do Conde de Porto Alegre (c. 1820–1830). 
+                Filho do capitão Antônio Soares de Paiva e de Bernardina de Azevedo Lima; tio e tutor de Bernardina Soares de Paiva, condessa de Porto Alegre. 
+                Parente de figuras destacadas como o visconde de Jaguari e o barão de Tramandaí. 
+                Casado com Belmira da Silva Lima e Paiva, madrinha de Luciana de Abreu. 
+                Envolveu-se em disputa financeira com Joaquim Antônio Pinheiro em 1842.
+            </note>
         </person>
         
         <person xml:id="joao_jose_gomes">

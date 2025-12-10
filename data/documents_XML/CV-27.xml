@@ -115,7 +115,7 @@
         <body>
             <div type="letter" xml:id="CV-27">
                 <opener>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
@@ -155,7 +155,7 @@
                 </note>
                 
                 <note type="endorsement">
-                    Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>. [No verso]<br/>
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>. [No verso]<br/>
                     <placeName ref="#alegrete">Alegrete</placeName>.<br/>
                     <seg type="folio">folha 1r</seg>
                     Recebida e respondida a <date when="1840-08-28">28 de agosto de 1840</date>.

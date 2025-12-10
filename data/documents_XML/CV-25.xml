@@ -93,7 +93,6 @@
                     <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>
                     <date when="1837-11-20">20 de novembro de 1837</date>
                 </correspAction>
-                
                 <correspAction type="received">
                     <persName ref="#afonso_jose_corte_real">Afonso José de Almeida Corte Real</persName>
                 </correspAction>
@@ -117,7 +116,7 @@
         <body>
             <div type="letter" xml:id="CV-25">
                 <opener>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
@@ -165,7 +164,7 @@
                 
                 <closer>
                     <addressee>
-                        Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
                         <persName ref="#afonso_corte_real">Afonso José de Almeida Corte Real</persName>,
                         Ministro e Secretário dos Negócios da Fazenda.
                     </addressee>

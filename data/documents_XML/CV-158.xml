@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-158 – Serafim Joaquim de Alencastre para Manuel Lucas de Oliveira</title>
                 <author>Serafim Joaquim de Alencastre</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-06-16">30 de junho de 2025</date>
+                <date when="2025-07-28">28 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -78,7 +84,14 @@
                 </application>
             </appInfo>
         </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
@@ -90,16 +103,20 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
-        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-07-28">28/07/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-10">10/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
     </teiHeader>
+
     <text>
         <body>
             <div type="letter" xml:id="CV-158">
@@ -112,25 +129,29 @@
                     </dateline>
                 </opener>
                 
-                <p>Tive o prazer de receber a vossa estimável carta de 7 do corrente, em a qual, conjurando-me pelo bem da Pátria, solicitais minha cooperação na importante missão que vos foi conferida; sinto entranhavelmente, cidadão e amigo, que meus incômodos de saúde e mil outras circunstâncias que me não é dado referir, me proibam de empregar-me presentemente em serviço algum.</p>
+                <p>Tive o prazer de receber a vossa estimável carta de <date when="1843-04-07">7 do corrente</date>, em a qual, 
+                    conjurando-me pelo bem da Pátria, solicitais minha cooperação na importante missão que vos foi conferida; 
+                    sinto entranhavelmente, cidadão e amigo, que meus incômodos de saúde e mil outras circunstâncias que me não é dado 
+                    referir, me proibam de empregar-me presentemente em serviço algum.</p>
                 
-                <p>Firme nas minhas resoluções por princípios certos, eu tenho determinado submeter-me voluntariamente à minha própria nulidade, e suposto não saiba ter inveja daqueles que fazem sacrifícios em favor de seu país, todavia eu felizmente conheço que minha coadjuvação não vos pode ser útil em coisa alguma.</p>
+                <p>Firme nas minhas resoluções por princípios certos, eu tenho determinado submeter-me voluntariamente à minha própria 
+                    nulidade, e suposto não saiba ter inveja daqueles que fazem sacrifícios em favor de seu país, todavia eu felizmente 
+                    conheço que minha coadjuvação não vos pode ser útil em coisa alguma.</p>
                 
-                <p>Não obstante, o bem de minha Pátria é um objeto de tamanha dedicação para mim, que logo que possa não vacilarei em prestar-lhe todas as minhas solicitudes. Entretanto eu vos agradeço cordialmente a vossa lembrança como uma prova da alta consideração que vos mereço e com a qual também sou com estima e respeito</p>
+                <p>Não obstante, o bem de minha Pátria é um objeto de tamanha dedicação para mim, que logo que possa não vacilarei 
+                    em prestar-lhe todas as minhas solicitudes. Entretanto eu vos agradeço cordialmente a vossa lembrança como uma prova 
+                    da alta consideração que vos mereço e com a qual também sou com estima e respeito</p>
                 
                 <closer>
                     <salute>Vosso patrício e amigo muito obrigado</salute>
-                    <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
+                    <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
-                <!-- ENDO<choice><abbr>SS</abbr><expan>Sua Senhoria</expan></choice>O -->
-                <note type="endorsement">
+                <note type="endorsement" place="verso">
                     <choice>
                         <abbr>S. da R.</abbr>
                         <expan><orgName ref="#secretaria_presidencia_republica">Secretaria da Presidência da República</orgName></expan>
                     </choice>
-                    
-                    <note type="source">[No verso]</note>
                     
                     Ao cidadão <persName ref="#manuel_lucas_oliveira">Tenente-coronel Manuel Lucas de Oliveira</persName>,  
                     Comandante da <orgName ref="#1_brigada_guarda_nacional">1.º Brigada de Guarda Nacional</orgName>.  

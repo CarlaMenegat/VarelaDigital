@@ -51,7 +51,7 @@
             <div xml:id="CV-424" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Para poder resolver acerca da demissão que pelo ofício junto impetra o cidadão Antônio Gonçalves Pereira Duarte, cumpre que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> me informe o que convier.</p>
@@ -66,7 +66,7 @@
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.
                 </signed>
                 
-                <note type="endorsement">Ofício do Exmo. Ministro da Guerra de 24 de dezembro, recebido a 27, e respondido no mesmo dia, sobre a demissão do capitão ajudante.</note>
+                <note type="endorsement">Ofício do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Ministro da Guerra de 24 de dezembro, recebido a 27, e respondido no mesmo dia, sobre a demissão do capitão ajudante.</note>
                 
                 <note type="endorsement"><choice><abbr>S.R.</abbr><expan>Secretaria da Presidência da República</expan></choice> Ao cidadão <persName ref="#inacio_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>, Chefe Geral de Polícia do departamento do Boqueirão. Do Ministério da Guerra.</note>
                 

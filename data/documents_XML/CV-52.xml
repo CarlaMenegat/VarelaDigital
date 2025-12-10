@@ -116,10 +116,10 @@
             <div type="letter" xml:id="CV-52">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Conforme as ordens e instruções do Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente 
+                <p>Conforme as ordens e instruções do <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente 
                     da Província e Comandante das Armas da mesma, em o 1.º do corrente, às 7 horas da tarde, marchei do acampamento da 
                     Picada com 120 praças do 5.º Corpo de Cavalaria de Guarda Nacional do meu comando e 24 praças do esquadrão do 
                     <persName ref="#manuel_jose_simas">Major Simas</persName> comandadas pelo <persName ref="#demetrio_garcia">Tenente Demétrio</persName> 
@@ -148,7 +148,7 @@
                 
                 <closer>
                     <dateline>Acampamento da Picada, <date when="1839-04-03">3 de abril de 1839</date>.</dateline>
-                    <signed>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#visconde_castro">Visconde de Castro</persName>, Brigadeiro e Comandante da Guarnição da Capital da cidade de <placeName ref="#porto_alegre">Porto Alegre</placeName>.<br/>
+                    <signed><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#visconde_castro">Visconde de Castro</persName>, Brigadeiro e Comandante da Guarnição da Capital da cidade de <placeName ref="#porto_alegre">Porto Alegre</placeName>.<br/>
                         <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.<br/>
                         Major Comandante interino do 5.º Corpo.</signed>
                 </closer>

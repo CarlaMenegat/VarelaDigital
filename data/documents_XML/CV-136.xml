@@ -118,7 +118,7 @@
             <div type="letter" xml:id="CV-136">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Agora mesmo faço seguir para <placeName ref="#sao_gabriel">São Gabriel</placeName>, a entregar ao Juiz
@@ -129,17 +129,16 @@
                 
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
-                    <addressee>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</addressee>
+                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</addressee>
                     <signed><orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName></signed>
                     <dateline><placeName ref="#cacapava">Caçapava</placeName>, <date when="1839-12-26">26 de dezembro de 1839</date></dateline>
                     <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
-                <note type="endorsement">
+                <note type="endorsement" place="verso">
                     <choice><abbr>S.R.</abbr><expan>Secretaria da Presidência da República</expan></choice> — Ao cidadão <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>,
                     Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>, onde se achar.  
                     <placeName ref="#sao_gabriel">S. Gabriel</placeName> 
-                    <seg type="folio">[No verso]</seg>
                     <stamp>
                         Carimbo na <seg type="folio">folha 1v</seg>.
                     </stamp>

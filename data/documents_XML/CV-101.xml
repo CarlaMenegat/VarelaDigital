@@ -118,7 +118,7 @@
             <div type="letter" xml:id="CV-101">
                 
                 <opener>
-                    <salute>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Achando-me autorizado pelo Comandante Superior do Comando das Forças da Vanguarda e guarnecendo os pontos das 
@@ -147,7 +147,7 @@
                     Acampamento nas <placeName ref="#tres_forquilhas">Três Forquilhas</placeName> em <date when="1839-03-08">8 de março de 1839</date>.</p>
                 
                 <closer>
-                    <salute>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Marechal <persName ref="#antonio_elzeario_miranda_brito">Antônio Elzeário de Miranda e Brito</persName>. Presidente da Província.</salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Marechal <persName ref="#antonio_elzeario_miranda_brito">Antônio Elzeário de Miranda e Brito</persName>. Presidente da Província.</salute>
                     <signed>(a) <persName ref="#paulo_pereira_silva_alano">Paulo Pereira da Silva Alano</persName>.</signed>
                 </closer>
                 

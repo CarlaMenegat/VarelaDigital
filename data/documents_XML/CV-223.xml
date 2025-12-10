@@ -107,7 +107,7 @@
             <div type="letter" xml:id="CV-223">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>:</salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>:</salute>
                 </opener>
                 
                 <p>De ordem do governo passo às mãos de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> o decreto e proclamação
@@ -132,7 +132,7 @@
                 </closer>
                 
                 <note type="endorsement" place="verso">
-                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>,<br/>
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>,<br/>
                     Comandante da Coluna do Centro.<br/>
                     Aonde se achar.<br/>
                     Do Ministério do Interior, Fazenda e Guerra.

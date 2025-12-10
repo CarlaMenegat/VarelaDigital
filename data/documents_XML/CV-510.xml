@@ -45,7 +45,7 @@
             <div type="letter" xml:id="CV-510">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Tendo vindo de <placeName ref="#cerro_largo">Cerro Largo</placeName> para o gasto de minha família a barrica de farinha e dita de açúcar de que trata a carta junta de <persName ref="#francisco_truebas">D. Francisco Truebas</persName> com data de 24 do passado, e de presente as quatro peças de paninho, oito varas de merinó e o barril de vinho de que trata a carta do cidadão <persName ref="#joao_antonio_martins">João Antônio Martins</persName> de 8 do corrente, bem como a raspadeira, escova e saca de café inclusas, haja <choice><abbr>V.S.</abbr><expan>Vossa Senhoria</expan></choice>º de mandar despachar e dizer-me qual o importe dos direitos para lho remeter.</p>
@@ -54,7 +54,7 @@
                 
                 <closer>
                     <placeName ref="#bage">Bagé</placeName>, <date when="1841-09-23">23 de setembro de 1841</date>.
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#luis_machado_teixeira">Luís Machado Teixeira</persName>.</salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#luis_machado_teixeira">Luís Machado Teixeira</persName>.</salute>
                     <note>Coletor desta povoação.</note>
                 </closer>
                 

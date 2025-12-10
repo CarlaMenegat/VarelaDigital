@@ -118,7 +118,7 @@
             <div type="letter" xml:id="CV-132">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Em resposta a seu ofício de <date when="1839-12-18">18 do corrente</date>, em que requisita
@@ -130,7 +130,7 @@
                 
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
-                    <addressee>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>, 
+                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>, 
                         Comandadnte da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</addressee>
                     <dateline>Secretaria dos Negócios da Guerra em 
                         <placeName ref="#cacapava">Caçapava</placeName>, <date when="1839-12-22">22 de dezembro de 1839</date>.

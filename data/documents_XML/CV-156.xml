@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-156 – Serafim Joaquim de Alencastre para João Antônio da Silveira</title>
                 <author>Serafim Joaquim de Alencastre</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-06-16">30 de junho de 2025</date>
+                <date when="2025-07-28">28 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -78,7 +84,14 @@
                 </application>
             </appInfo>
         </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
@@ -90,47 +103,51 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
-        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-07-28">28/07/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-10">10/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
     </teiHeader>
+
     <text>
         <body>
             <div type="letter" xml:id="CV-156">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Passo às mãos de <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> a adjunta ordem do dia de hoje, sob n.º 83, que <choice><abbr>S. Ex.ª</abbr><expan>Sua Excelência</expan></choice> o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Ministro Encarregado do Expediente do Governo manda remeter, a fim de ser publicada no Corpo de Exército ao mando de <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.</p>
+                <p>Passo às mãos de <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> a adjunta ordem do dia de <date when="1842-01-01">hoje</date>, 
+                    sob n.º 83, que <choice><abbr>S. Ex.ª</abbr><expan>Sua Excelência</expan></choice> o 
+                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Ministro Encarregado do Expediente do Governo manda remeter, a 
+                    fim de ser publicada no Corpo de Exército ao mando de <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.</p>
                 
-                <p>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>. Quartel-general em <placeName ref="#bage">Bagé</placeName>, <date when="1842-01-01">1.º de janeiro de 1842</date>.</p>
-                
-                <p>Ao cidadão <persName ref="#joao_antonio_silveira">General Silveira</persName>, Comandante do 1.º Corpo de Exército.</p>
+                <salute>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.</salute>
+                <dateline>Quartel-general em <placeName ref="#bage">Bagé</placeName>, <date when="1842-01-01">1.º de janeiro de 1842</date>.</dateline>
+                <addressee>Ao cidadão <persName ref="#joao_antonio_silveira">General Silveira</persName>, Comandante do <orgName ref="#corpo_exercito_1">1.º Corpo de Exército</orgName></addressee>
                 
                 <closer>
-                    <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
-                    <signed>1.º Deputado do <persName ref="#bento_goncalves">General Chefe do Estado-maior do Exército</persName></signed>
+                    <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
+                    <signed>1.º Deputado do General Chefe do Estado-maior do Exército</signed>
                 </closer>
                 
-                <note type="endorsement">
+                <note type="endorsement" place="verso">
                     <choice>
                         <abbr>S. R.</abbr>
                         <expan><orgName ref="#secretaria_presidencia_republica">Secretaria da Presidência da República</orgName></expan>
                     </choice>
-                    
-                    <note type="source">[No verso]</note>
-                    
                     Ao cidadão <persName ref="#joao_antonio_silveira">General João Antônio da Silveira</persName>,  
-                    Chefe do 1.º Corpo de Exército.  
+                    Chefe do <orgName ref="#corpo_exercito_1">1.º Corpo de Exército</orgName>.  
                     Aonde se achar.  
-                    Do 1.º Deputado do <persName ref="#bento_goncalves">General Chefe do Estado-maior do Exército</persName>.
+                    Do 1.º Deputado do General Chefe do Estado-maior do Exército.
                 </note>
                 
             </div>

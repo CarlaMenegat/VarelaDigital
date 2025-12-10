@@ -122,7 +122,7 @@
             <div type="letter" xml:id="CV-145">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>O governo recebeu seu ofício de <date when="1840-03-23">23 do corrente</date> e fica certo do que 
@@ -149,15 +149,12 @@
                     <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
                     <signed><orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName></signed>
                     <dateline><placeName ref="#vacacai">Vacacaí</placeName>, <date when="1840-03-24">24 de março de 1840</date></dateline>
-                    <addressee>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>.</addressee>
+                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>.</addressee>
                     <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
-                <note type="endorsement">
-                    
-                    <note type="editorial">[No verso]</note><br/>
-                    
-                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>,<br/>
+                <note type="endorsement" place="verso">
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>,<br/>
                     Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.<br/>
                     Aonde se achar.<br/>
                     Do <orgName ref="#ministerio_guerra">Ministério da Guerra</orgName>.

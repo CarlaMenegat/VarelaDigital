@@ -57,7 +57,7 @@
                 
                 <!-- Parte de Domingos José de Almeida -->
                 <opener>
-                    <salute>Meu Exmo. Presidente</salute>
+                    <salute>Meu <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Presidente</salute>
                 </opener>
                 
                 <p>Acabo de falar a <persName ref="#jose_leandro">José Leandro</persName> acerca do negócio em que <choice><abbr>V. Exª.</abbr><expan>Vossa Excelência</expan></choice> se interessa, e ele insiste em nada anuir acerca do recebimento da mulher, pedindo-me insistentemente para ordenar a tirada dos filhos. Diga-me <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> o que devo fazer a tal respeito.</p>
@@ -80,7 +80,7 @@
                     <signed>B. G. Silva</signed>
                 </closer>
                 
-                <note type="endorsement">Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente do Estado. [No verso]</note>
+                <note type="endorsement"><choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente do Estado. [No verso]</note>
                 <note type="endorsement">Com resposta. Em sua residência.</note>
                 
             </div>

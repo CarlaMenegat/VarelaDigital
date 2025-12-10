@@ -117,7 +117,7 @@
             <div type="letter" xml:id="CV-63">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>No dia 10 do corrente se concluiu a passagem no Passo Real do <placeName ref="#rio_dos_sinos">Rio dos Sinos</placeName>, 
@@ -159,7 +159,7 @@
                     <placeName ref="#porto_alegre">Porto Alegre</placeName>, <date when="1840-12-17">17 de dezembro de 1840</date>.</p>
                 
                 <closer>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_paulo_santos_barreto">
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_paulo_santos_barreto">
                                                                                                     <choice>
                                                                                                         <sic>João Paulo dos Sousa Barreto</sic>
                                                                                                         <corr>João Paulo dos Santos Barreto</corr>

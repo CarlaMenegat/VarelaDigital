@@ -116,7 +116,7 @@
             <div type="letter" xml:id="CV-47">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Conforme as ordens de <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, no dia 4 do corrente, 
@@ -175,7 +175,7 @@
                 
                 <closer>
                     <dateline>Acampamento da Picada, <date when="1838-11-09">9 de novembro de 1838</date>.</dateline>
-                    <signed>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>,<br/>Major.</signed>
+                    <signed><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>,<br/>Major.</signed>
                 </closer>
                 
             </div>

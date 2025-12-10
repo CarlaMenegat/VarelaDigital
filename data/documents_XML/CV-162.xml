@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-162 – Bernardina Barcelos para Domingos José de Almeida</title>
                 <author>Bernardina Barcelos de Almeida</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-06-16">30 de junho de 2025</date>
+                <date when="2025-07-30">30 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -78,7 +84,14 @@
                 </application>
             </appInfo>
         </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#bernardina_barcelos_almeida">Bernardina</persName>
@@ -89,12 +102,15 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
-        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-07-30">30/07/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-10">10/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
@@ -109,21 +125,31 @@
                     <dateline><date when="1836-01-13">13 de janeiro de 1836</date>.</dateline>
                 </opener>
                 
-                <p>Todos os dias temos aqui notícias novas, não sei se todas verdadeiras, porém para mim incomodativas; tenho esta boa ocasião, vou a participar-te a última que ontem me veio pelo <persName ref="#leao_prospero_chastan">Leão Próspero</persName>, a saber: que o Presidente não vai aí tomar a posse, mas sim aqui, nesta ou seguinte semana, e que logo que ele a tome, estão os nossos credores de tenção formada a virem tomar conta de tudo que é nosso, o que acontecendo, teremos grande prejuízo; se daí mesmo se puder dar alguma providência, serei mais contente do que nesta ocasião aqui apareceres, porque os tais Srs. <orgName ref="#caramurus">Caramurus</orgName> estão no maior desaforo; consta-me ser um dos mais empenhados o nosso grande compadre <persName ref="#batista_fernandes">Batista Fernandes</persName>.</p>
+                <p>Todos os dias temos aqui notícias novas, não sei se todas verdadeiras, porém para mim incomodativas; tenho esta 
+                    boa ocasião, vou a participar-te a última que ontem me veio pelo <persName ref="#leao_prospero_chastan">Leão Próspero</persName>, 
+                    a saber: que o Presidente não vai aí tomar a posse, mas sim aqui, nesta ou seguinte semana, e que logo que ele a tome, 
+                    estão os nossos credores de tenção formada a virem tomar conta de tudo que é nosso, o que acontecendo, teremos grande 
+                    prejuízo; se daí mesmo se puder dar alguma providência, serei mais contente do que nesta ocasião aqui apareceres, 
+                    porque os tais <choice><abbr>Srs.</abbr><expan>Senhores</expan></choice> Caramurus estão no maior desaforo; consta-me 
+                    ser um dos mais empenhados o nosso grande compadre <persName ref="#batista_fernandes">Batista Fernandes</persName>.</p>
                 
-                <p>Já há uma grande subscrição para os festejos depois da posse do Presidente; contudo, como considero todas estas coisas de costa acima, resta-me alguma desconfiança, e vou dando tempo ao tempo, e irei avisando-te do que houver.</p>
+                <p>Já há uma grande subscrição para os festejos depois da posse do Presidente; contudo, como considero todas estas coisas 
+                    de costa acima, resta-me alguma desconfiança, e vou dando tempo ao tempo, e irei avisando-te do que houver.</p>
                 
-                <p>A proclamação do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#bento_goncalves">Bento Gonçalves</persName> não foi lida na frente dos Guardas Nacionais; <persName ref="#manuel_antunes_porciuncula">Antunes</persName> ficou muito escandalizado de se lhe não ter mandado a ele, como capitão, e o outro, talvez com medo, a não publicou; eis aqui como anda tudo por aqui; o mais na outra, que te escrevo nesta ocasião, saberás etc.</p>
+                <p>A proclamação do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#bento_goncalves">Bento Gonçalves</persName> 
+                    não foi lida na frente dos <orgName ref="#guarda_nacional">Guardas Nacionais</orgName>; 
+                    <persName ref="#manuel_antunes_porciuncula">Antunes</persName> ficou 
+                    muito escandalizado de se lhe não ter mandado a ele, como capitão, e o outro, talvez com medo, a não publicou; eis aqui 
+                    como anda tudo por aqui; o mais na outra, que te escrevo nesta ocasião, saberás etc.</p>
                 
                 <closer>
                     <salute>Tua muito amante</salute>
-                    <signed>(a) <persName ref="#bernardina_barcelos_almeida">Bernardina</persName></signed>
+                    <signed><persName ref="#bernardina_barcelos_almeida">Bernardina</persName></signed>
                 </closer>
                 
-                <note type="endorsement">
-                    <note type="source">[No verso]</note>
+                <note type="endorsement" place="verso">
                     Aceita lembranças de <persName ref="#jose_felix">José F.</persName> que recebeu ontem a proclamação que lhe mandastes.
-                    <note type="source">[No verso]</note>
+                    <note type="editorial">[No verso]</note>
                     <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName> — Porto Alegre.
                 </note>
                 

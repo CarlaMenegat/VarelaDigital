@@ -49,7 +49,7 @@
                 <head>Reservado</head>
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>A bem de serviço do Estado cumpre que os senhores Prados, oficiais da distinta Divisão ao marido de <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>, me digam, por escrito e por este próprio, se com efeito o preso <persName ref="#manuel_jose_ferreira">Manuel José Ferreira</persName> há tentado a sedução de soldados, que me dizem eles asseveram a pessoas nesta residentes.</p>
@@ -60,7 +60,7 @@
                     <signed>Domingos José de Almeida</signed>
                 </closer>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>, Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</p>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>, Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</p>
                 
             </div>
         </body>

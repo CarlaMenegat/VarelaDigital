@@ -117,7 +117,7 @@
             <div type="letter" xml:id="CV-112">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Foi presente ao Governo o ofício de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> datado de 20 do 
@@ -135,7 +135,7 @@
                 </dateline>
                 
                 <closer>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
                         <persName ref="#francisco_chagas_avila_sousa">Padre Francisco das Chagas Martins Ávila e Sousa</persName>, Vigário Apostólico.</salute>
                     <signed>(a) <persName ref="#jose_pedroso_albuquerque">José Pedroso de Albuquerque</persName>.</signed>
                 </closer>

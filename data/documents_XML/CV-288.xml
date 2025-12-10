@@ -57,7 +57,7 @@
                 
                 <!-- Primeira parte (Almeida) -->
                 <opener>
-                    <salute>Meu Exmo. Presidente e respeitável amigo</salute>
+                    <salute>Meu <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Presidente e respeitável amigo</salute>
                 </opener>
                 
                 <p>Parece-me de justiça o que se pede no requerimento incluso; mas <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> me dirá o que devo fazer a respeito.</p>
@@ -83,7 +83,7 @@
                     <signed>B. G. Silva</signed>
                 </closer>
                 
-                <note type="endorsement">Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente do Estado. [No verso]</note>
+                <note type="endorsement"><choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente do Estado. [No verso]</note>
                 <note type="endorsement">Sua Casa.</note>
                 
             </div>

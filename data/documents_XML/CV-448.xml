@@ -46,7 +46,7 @@
             <div xml:id="CV-448" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Inteirado de quanto <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> me diz em seu ofício de 28 do passado, respondo. Fica aprovado o cidadão <persName ref="#luis_teixeira_machado">Luís Teixeira Machado</persName> no emprego de Coletor da vila da <placeName ref="#cruz_alta">Cruz Alta</placeName>. Sobremaneira estima o governo a compra de fazendas por <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> efetuada para vestir a <orgName ref="#divisao_centro">Divisão do Centro</orgName>; e para seu pronto pagamento, além das ordens já transmitidas, fica <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> autorizado a lançar mão pesada sobre as ervas e objetos comerciáveis dos dissidentes de <placeName ref="#sao_borja">São Borja</placeName> e <placeName ref="#cruz_alta">Cruz Alta</placeName>.</p>
@@ -63,7 +63,7 @@
                 
                 <closer>
                     <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>. Secretaria da Fazenda em <placeName ref="#piratini">Piratini</placeName>, 10 de fevereiro de 1841.</p>
-                    <signed>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>.</signed>
+                    <signed><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>.</signed>
                     <signed>Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</signed>
                     <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
                 </closer>

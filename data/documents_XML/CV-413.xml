@@ -48,7 +48,7 @@
             <div xml:id="CV-413" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Tendo fugado na noite de ontem para hoje ao cidadão 
@@ -70,16 +70,16 @@
                 
                 <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</signed>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>.</p>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>.</p>
                 
                 <note type="endorsement">
-                    Ofício do Exmo. Ministro da Justiça e Interior de 12 de dezembro, recebido a 17 do mesmo, sobre 10 escravos fugidos de 
+                    Ofício do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Ministro da Justiça e Interior de 12 de dezembro, recebido a 17 do mesmo, sobre 10 escravos fugidos de 
                     <persName ref="#manuel_rodrigues_barbosa">Manuel Rodrigues Barbosa</persName>.
                 </note>
                 
                 <note type="endorsement">
                     <choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice> [No verso]<br/>
-                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>. 
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>. 
                     Comandante Geral de Polícia do departamento do 
                     <placeName ref="#boqueirao">Boqueirão</placeName>.<br/>
                     Do <orgName ref="#ministerio_interior_justiça">Ministério do Interior e Justiça</orgName>.<br/>

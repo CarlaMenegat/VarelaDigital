@@ -117,7 +117,7 @@
             <div type="letter" xml:id="CV-103">
                 
                 <opener>
-                    <salute>Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <dateline>
@@ -140,7 +140,7 @@
                 <note type="endorsement">Recebida e respondida a <date when="1839-07-18">18</date>.</note>
                 
                 <note type="endorsement">
-                    Ao cidadão Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>. 
+                    Ao cidadão <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>. 
                     Digmo. Ministro da Fazenda. 
                     <placeName ref="#cacapava">Caçapava</placeName>.
                 </note>

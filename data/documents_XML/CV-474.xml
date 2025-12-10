@@ -45,7 +45,7 @@
             <div xml:id="CV-474" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Inteirado de quanto <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> me diz no ofício que me dirigiu a 9 do corrente acerca das licenças para a exportação de gado de corte, respondo.</p>
@@ -63,7 +63,7 @@
                 </closer>
                 
                 <signed>
-                    <persName ref="#joao_antonio_da_silveira">Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel João Antônio da Silveira</persName>.<br/>
+                    <persName ref="#joao_antonio_da_silveira"><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel João Antônio da Silveira</persName>.<br/>
                     <persName ref="#domingos_jose_almeida">(a) Domingos José de Almeida</persName>
                 </signed>
                 

@@ -117,7 +117,7 @@
             <div type="letter" xml:id="CV-90">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Por ter andado bastante atrapalhado tenho faltado a meu dever em responder ofício que de <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> 
@@ -153,7 +153,7 @@
                 <closer>
                     <p><placeName ref="#ibirapuita">Campo em Ibirapuitã</placeName>, <date when="1837-12-02">2 de dezembro de 1837</date>.</p>
                     
-                    <signed>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</signed>
+                    <signed><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</signed>
                     <signed>Coronel Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</signed>
                     
                     <signed>(a) <persName ref="#jose_inacio_silva_abreu">José Inácio da Silva Abreu</persName>.</signed>

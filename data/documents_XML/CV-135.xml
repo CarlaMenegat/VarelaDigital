@@ -118,7 +118,7 @@
             <div type="letter" xml:id="CV-135">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Foram apresentados ao governo os dois ofícios de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> de
@@ -133,7 +133,7 @@
                 
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
-                    <addressee>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</addressee>
+                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</addressee>
                     <signed><orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName></signed>
                     <dateline><placeName ref="#cacapava">Caçapava</placeName>, <date when="1839-12-25">25 de dezembro de 1839</date></dateline>
                     <signed>

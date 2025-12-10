@@ -48,7 +48,7 @@
             <div xml:id="CV-430" type="letter">
                 
                 <opener>
-                    <salute>Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Matos</salute>
+                    <salute><choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Matos</salute>
                 </opener>
                 
                 <p>Enquanto está com a mão na massa: tome mais estes papéis para seu tabaco.</p>
@@ -86,7 +86,7 @@
                     <signed>Seu amigo<br/>(a) <persName ref="#jose_mariano_matos">Matos</persName>.</signed>
                 </closer>
                 
-                <note type="endorsement">Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Matos. Sua casa.</note>
+                <note type="endorsement"><choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Matos. Sua casa.</note>
                 
             </div>
         </body>

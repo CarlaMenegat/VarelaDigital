@@ -45,7 +45,7 @@
             <div type="letter" xml:id="CV-357">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Convido ou fomentar-se a fábrica de lombilhos a cargo do Capitão <persName ref="#pedro_rodrigues_de_quevedo">Pedro Rodrigues de Quevedo</persName>, ou dissolvê-la por improficua, <choice><abbr>S.Exª</abbr><expan>Sua Excelência</expan></choice>, o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Vice-presidente da República <persName ref="#gomes_jardim">Gomes Jardim</persName> autoriza a <choice><abbr>V.Sª</abbr><expan>Vossa Senhoria</expan></choice> para deliberar acerca de uma ou de outra coisa, devendo no primeiro caso empenhar seus esforços e levar a dita fábrica ao pé que se faz mister, indicando ao Governo quanto para isso for necessário a fim de dar as providências para o efeito indispensáveis.</p>
@@ -56,11 +56,11 @@
                         (a) <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>.</signed>
                 </closer>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_jose_de_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>. Chefe Geral de Polícia do departamento do <placeName ref="#boqueirao">Boqueirão</placeName>. S. da BR.</p>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_jose_de_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>. Chefe Geral de Polícia do departamento do <placeName ref="#boqueirao">Boqueirão</placeName>. S. da BR.</p>
                 
                 <note type="endorsement">[No verso] Ao cidadão <persName ref="#inacio_jose_de_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>. Chefe Geral de Polícia do departamento do <placeName ref="#boqueirao">Boqueirão</placeName>. Do Ministério da Fazenda.</note>
                 
-                <note type="endorsement">Ofício do Exmo. Ministro da Fazenda de 28 de dezembro, recebido a 7 de janeiro de 1840. Sobre a fábrica de arreios. Respondido a 20 de janeiro de 1840.</note>
+                <note type="endorsement">Ofício do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Ministro da Fazenda de 28 de dezembro, recebido a 7 de janeiro de 1840. Sobre a fábrica de arreios. Respondido a 20 de janeiro de 1840.</note>
                 
             </div>
         </body>

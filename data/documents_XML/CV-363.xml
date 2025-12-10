@@ -45,7 +45,7 @@
             <div type="letter" xml:id="CV-363">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Se for possível, e sem o mínimo constrangimento, a entrega do resto do gado que <choice><abbr>V.Sª</abbr><expan>Vossa Senhoria</expan></choice> há oferecido ao cidadão <persName ref="#jose_mariano_da_cunha">José Mariano da Cunha</persName>, expedirá suas ordens a respeito.</p>
@@ -58,7 +58,7 @@
                         (a) <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>.</signed>
                 </closer>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Cel. <persName ref="#joao_antonio_da_silveira">João Antônio da Silveira</persName>, Comandante da Divisão da Direita.</p>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Cel. <persName ref="#joao_antonio_da_silveira">João Antônio da Silveira</persName>, Comandante da Divisão da Direita.</p>
                 
             </div>
         </body>

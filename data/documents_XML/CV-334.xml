@@ -47,7 +47,7 @@
             <div type="letter" xml:id="CV-334">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Participo a <choice><abbr>V.Sª</abbr><expan>Vossa Senhoria</expan></choice> que desertaram no dia 13 do corrente os soldados 
@@ -70,7 +70,7 @@
                     <p>Quartel em Caçapava</p>
                 </closer>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#jose_alves_morais">José Alves de Morais</persName>, Tenente-coronel Comandante da Guarnição.</p>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#jose_alves_morais">José Alves de Morais</persName>, Tenente-coronel Comandante da Guarnição.</p>
                 
             </div>
         </body>

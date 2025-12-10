@@ -117,7 +117,7 @@
         <body>
             <div type="letter" xml:id="CV-13">
                 <opener>
-                    <salute>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>,</salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>,</salute>
                 </opener>
                 
                 <p>O <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_silva">João Agostinho da Silva</persName>, 
@@ -133,7 +133,7 @@
                 
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
-                    Ilmo. Exmno. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#fontoura">Antônio Vicente da Fontoura</persName>
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> Exmno. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#fontoura">Antônio Vicente da Fontoura</persName>
                     Ministro da Fazenda. 
                     <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
                     <note>Está conforme. <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed></note>

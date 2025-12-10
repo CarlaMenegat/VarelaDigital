@@ -117,7 +117,7 @@
             <div type="letter" xml:id="CV-43">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Tendo o soldado <persName ref="#domingos_vicente">Domingos Vicente</persName>, do esquadrão de meu comando, 
@@ -134,7 +134,7 @@
                     <signed><persName ref="#francisco_pedro_abreu">(a) Francisco Pedro de Abreu</persName><br/>Capitão Comandante.</signed>
                 </closer>
                 
-                <note type="endorsement">Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#francisco_xavier_cunha">Francisco Xavier da Cunha</persName>. Brigadeiro Comandante da Guarnição.</note>
+                <note type="endorsement"><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#francisco_xavier_cunha">Francisco Xavier da Cunha</persName>. Brigadeiro Comandante da Guarnição.</note>
                 <note type="endorsement">Já foi respondido no 1.º de setembro de 1837. [No verso]</note>
                 
             </div>

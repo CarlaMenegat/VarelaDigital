@@ -186,8 +186,37 @@
             </note>
         </org>
         
+        <org xml:id="corpo_exercito_1" type="militaryUnit">
+            <orgName>1.º Corpo do Exército Farroupilha</orgName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="corpo_exercito_1_unidade">
+                <roleName>Corpo do Exército</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+                <note>Grande unidade militar da República Rio-Grandense.</note>
+            </state>
+            <note>
+                Principal corpo militar de linha do Exército Farroupilha (1835–1845), 
+                composto por tropas regulares, praças engajadas e contingentes 
+                de cavalaria e infantaria. Atuou nas frentes centrais da campanha, 
+                participando de operações estratégicas nas regiões de Piratini, 
+                Bagé, São Gabriel e na zona de fronteira sul. Em distintos momentos 
+                esteve sob comando de oficiais superiores farroupilhas, integrando 
+                a estrutura militar organizada pelo governo republicano.
+            </note>
+        </org>
+        
         <org xml:id="estate_jose_augusto_ledek" type="estate">
             <orgName>Espólio de José Augusto Ledek</orgName>
+            <state type="roleInTime" xml:id="curadoria_estate_ledek">
+                <roleName>Curador dos bens</roleName>
+                <persName ref="#antonio_jose_abreu"/>
+                <date when="1841"/>
+                <note>
+                    Antônio José Abreu atuou como curador do espólio de José Augusto Ledek,
+                    conforme certificado e despachos anexados a documentos da correspondência
+                    administrativa da República Rio-Grandense em 1841.
+                </note>
+            </state>
         </org>
         
         <org xml:id="quarta_reparticao_interior">

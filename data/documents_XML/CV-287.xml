@@ -47,7 +47,7 @@
             <div type="letter" xml:id="CV-287">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Este lhe será apresentado pelo negociante <persName ref="#natalio_rusca">Natálio Rusca</persName> para quem o Governo destina todo o gado de corte cujo aparte há cometido a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>, para pagamento das fazendas e mais objetos de guerra que com ele e <persName ref="#napoleone_castellini">Napoleone Castellini</persName>, de <placeName ref="#montevideo">Montevidéu</placeName>, contratou para o exército.</p>
@@ -60,12 +60,12 @@
                     <signed>Domingos José de Almeida</signed>
                 </closer>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>. Comandante Geral de Polícia do Departamento de <placeName ref="#alegrete">Alegrete</placeName>.</p>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>. Comandante Geral de Polícia do Departamento de <placeName ref="#alegrete">Alegrete</placeName>.</p>
                 
                 <note type="endorsement">Fevereiro — li — 39. Almeida. [No verso]</note>
                 <note type="endorsement"><choice><abbr>SR.</abbr><expan>Secretaria da Presidência da República</expan></choice> [No verso]</note>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>, Comandante Geral de Polícia do Município de <placeName ref="#alegrete">Alegrete</placeName>. Do <orgName ref="#ministerio_fazenda">Ministério da Fazenda</orgName>.</p>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>, Comandante Geral de Polícia do Município de <placeName ref="#alegrete">Alegrete</placeName>. Do <orgName ref="#ministerio_fazenda">Ministério da Fazenda</orgName>.</p>
             </div>
         </body>
     </text>

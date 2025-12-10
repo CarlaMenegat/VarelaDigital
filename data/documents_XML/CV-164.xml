@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-164 – Bernardina Barcelos para Domingos José de Almeida</title>
                 <author>Bernardina Barcelos de Almeida</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-07-30">30 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -80,6 +86,12 @@
         </encodingDesc>
         
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#bernardina_barcelos_almeida">Bernardina</persName>
@@ -91,12 +103,15 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
-        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-07-30">30/07/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-10">10/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
@@ -114,15 +129,30 @@
                     </dateline>
                 </opener>
                 
-                <p>Agora, pelas 5 horas da tarde, com grande prazer, recebi a que me escreveste de <placeName ref="#pedras_brancas">Pedras Brancas</placeName> a 2 do corrente, por me certificares a tua boa saúde, em que mais que tudo me interesso; eu à exceção de trazer sempre o meu espírito agitado com estas desordens, vou vivendo com saúde e nossos filhos da mesma forma, a quem de tua parte abraço e peço as bençãos.</p>
+                <p>Agora, pelas 5 horas da tarde, com grande prazer, recebi a que me escreveste de 
+                    <placeName ref="#pedras_brancas">Pedras Brancas</placeName> a <date when="1836-02-02">2 do corrente</date>, por me 
+                    certificares a tua boa saúde, em que mais que tudo me interesso; eu à exceção de trazer sempre o meu espírito 
+                    agitado com estas desordens, vou vivendo com saúde e nossos filhos da mesma forma, a quem de tua parte abraço e 
+                    peço as bençãos.</p>
                 
-                <p><persName ref="#jose_araujo_ribeiro">Araújo Ribeiro</persName>, dizem de certo que vai aí tomar posse, ele hoje de certo saiu na barca de vapor para o <placeName ref="#rio_grande">Rio Grande</placeName>, onde apesar dos muitos conselheiros, assim como os daqui, se resolverá a ir, Deus assim o permita, para ver se sossegamos e não haja maior desordem.</p>
+                <p><persName ref="#jose_araujo_ribeiro">Araújo Ribeiro</persName>, dizem de certo que vai aí tomar posse, ele hoje de 
+                    certo saiu na barca de vapor para o <placeName ref="#rio_grande">Rio Grande</placeName>, onde apesar dos muitos 
+                    conselheiros, assim como os daqui, se resolverá a ir, Deus assim o permita, para ver se sossegamos e não haja 
+                    maior desordem.</p>
                 
-                <p>O que ele assentou com o <persName ref="#manuel_antunes_porciuncula">Capitão Antunes</persName>, melhor por ele já saberás e por isso nada digo a respeito. No caso que as coisas tomem melhor figura, bom; porém sempre sou de parecer que não devemos desprezar o negócio que tens entre mãos, pois esse é todo o meu desejo, portanto, caso que o sossego se restabeleça, assento que ou deves logo aqui vir, ou mandar quem em teu nome faça os arranjos à tua vontade; conta com a minha vontade que é toda em ver-te sossegado e livre de semelhantes barulhos.</p>
+                <p>O que ele assentou com o <persName ref="#manuel_antunes_porciuncula">Capitão Antunes</persName>, melhor por ele já 
+                    saberás e por isso nada digo a respeito. No caso que as coisas tomem melhor figura, bom; porém sempre sou de parecer 
+                    que não devemos desprezar o negócio que tens entre mãos, pois esse é todo o meu desejo, portanto, caso que o 
+                    sossego se restabeleça, assento que ou deves logo aqui vir, ou mandar quem em teu nome faça os arranjos à tua vontade; 
+                    conta com a minha vontade que é toda em ver-te sossegado e livre de semelhantes barulhos.</p>
                 
-                <p>O <persName ref="#boaventura_rodrigues_barcelos">tio Boaventura</persName>, que se jacta de ser aquele que mais se empenhou para <persName ref="#jose_araujo_ribeiro">Araújo Ribeiro</persName> ir aí tomar a posse, hoje, digo, ontem saiu com a sua família embarcado em um 
-                    <note type="source">[1v.]</note>
-                    iate não sei para onde — talvez com medo de algum insulto; o mesmo dizem vai a fazer <persName ref="#luis_azevedo">Luís de Azevedo</persName>.
+                <p>O <persName ref="#boaventura_rodrigues_barcelos">tio Boaventura</persName>, que se jacta de ser aquele que mais se 
+                    empenhou para <persName ref="#jose_araujo_ribeiro">Araújo Ribeiro</persName> ir aí tomar a posse, hoje, digo, ontem 
+                    saiu com a sua família embarcado em um 
+                    <pb n="1v"/>
+                    <seg type="folio">[1v.]</seg>
+                    iate não sei para onde — talvez com medo de algum insulto; o mesmo dizem vai a fazer 
+                    <persName ref="#luis_azevedo">Luís de Azevedo</persName>.
                 </p>
                 
                 <p>Irei observando e ouvindo alguma coisa de novo, para na primeira ocasião te participar. Determinei a <persName ref="#joao_da_cunha">João da Cunha</persName> que nesta mesma ocasião te escrevesse sobre os negócios da nossa casa, e por isso nada digo a esse respeito. Aceita lembranças do compadre <persName ref="#jose_felix">José Félix</persName>. Deus te dê saúde e guarde como te deseja tua amante</p>
@@ -131,10 +161,9 @@
                     <signed>(a) <persName ref="#bernardina_barcelos_almeida">Bernardina</persName></signed>
                 </closer>
                 
-                <!-- ENDO<choice><abbr>SS</abbr><expan>Sua Senhoria</expan></choice>O -->
-                <note type="endorsement">
-                    <note type="source">[No verso]</note>
-                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>. Porto Alegre.
+                <note type="endorsement" place="verso">
+                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>. 
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>.
                 </note>
                 
             </div>

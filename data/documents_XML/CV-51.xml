@@ -117,7 +117,7 @@
             <div type="letter" xml:id="CV-51">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Em virtude das ordens de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>, embarquei no dia 27 do mês 
@@ -151,7 +151,7 @@
                 
                 <closer>
                     <dateline><placeName ref="#porto_alegre">Porto Alegre</placeName>, <date when="1839-03-01">1.º de março de 1839</date>.</dateline>
-                    <signed>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#antonio_elzeario_brito">Antônio Elzeário de Miranda e Brito</persName>.<br/>
+                    <signed><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#antonio_elzeario_brito">Antônio Elzeário de Miranda e Brito</persName>.<br/>
                         <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.<br/>
                         Major.</signed>
                 </closer>

@@ -119,7 +119,7 @@
             <div type="circular" xml:id="CV-139">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>O governo de novo reitera a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> a pontual execução
@@ -137,12 +137,12 @@
                         <placeName ref="#cacapava">Caçapava</placeName>,
                         <date when="1840-03-06">6 de março de 1840</date>
                     </dateline>
-                    <addressee>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</addressee>
+                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</addressee>
                     <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
-                <note type="endorsement">
-                    Ofício do Exmo. Ministro da Guerra de <date when="1840-03-06">6 de março,</date>
+                <note type="endorsement" place="verso">
+                    Ofício do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Ministro da Guerra de <date when="1840-03-06">6 de março,</date>
                     recebido a <date when="1840-03-20">20 do mesmo</date>.  
                     Ao cidadão <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>,
                     Comandante Geral de Polícia do departamento do

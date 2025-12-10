@@ -117,7 +117,7 @@
             <div type="letter" xml:id="CV-58">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Conforme as ordens de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> marchei no dia 21 do corrente 
@@ -174,7 +174,7 @@
                 
                 <closer>
                     <dateline>Quartel em <placeName ref="#porto_alegre">Porto Alegre</placeName>, <date when="1839-12-31">31 de dezembro de 1839</date>.</dateline>
-                    <salute>Ilmo. e Exmo. Senhor <persName ref="#filipe_neri">Filipe Neri de Oliveira</persName>. Digníssimo Brigadeiro e Comandante da 2a. Brigada.</salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Senhor <persName ref="#filipe_neri">Filipe Neri de Oliveira</persName>. Digníssimo Brigadeiro e Comandante da 2a. Brigada.</salute>
                     <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
                     <signed>Tenente-coronel Comandante de 5.º Corpo de Guarda Nacional.</signed>
                 </closer>

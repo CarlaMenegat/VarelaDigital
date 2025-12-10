@@ -52,7 +52,7 @@
             <div type="carta" xml:id="CV-277">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                     <dateline>
                         <placeName ref="#piratini">Piratini</placeName>,
                         <date when="1838-12-27">27 de dezembro de 1838</date>.
@@ -73,7 +73,7 @@
                 </closer>
                 
                 <note type="verso">
-                    Destinatário: Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel João Antônio da Silveira,
+                    Destinatário: <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel João Antônio da Silveira,
                     Comandante da Divisão da Direita.
                 </note>
                 

@@ -495,3 +495,50 @@ hrao:coerced a rdf:Property ;
     rdfs:domain foaf:Agent ;
     rdfs:range foaf:Agent ;
     rdfs:isDefinedBy <http://example.org/hrao#> .
+
+#################################################################
+# Property: hrao:socialKinship
+#################################################################
+
+hrao:socialKinship a owl:ObjectProperty ;
+    rdfs:label "has social kinship with"@en ;
+    rdfs:comment """
+Represents non-biological, non-marital kinship created through ritual,
+social, or customary bonds such as compadrio (godparenthood), ritual
+parenthood, fraternity bonds or other historically relevant forms of 
+fictive kinship. The property is symmetric because these relations are
+mutually acknowledged in historical records.
+"""@en ;
+
+    # Kinship is a social relation → map to REL
+    rdfs:subPropertyOf rel:relatedTo ;
+
+    # symmetric
+    owl:SymmetricProperty true ;
+
+    # domain and range: historical persons (agents)
+    rdfs:domain <http://www.w3.org/ns/prov#Agent> ;
+    rdfs:range  <http://www.w3.org/ns/prov#Agent> .
+
+#################################################################
+# Property: hrao:brotherInLawOf
+#################################################################
+
+hrao:brotherInLawOf a owl:ObjectProperty ;
+    rdfs:label "is brother-in-law of"@en ;
+    rdfs:comment """
+Represents an affinal kinship relation — brother-in-law — indicating that
+two persons are related through marriage (e.g., spouse’s sibling or
+sibling’s spouse). The property is symmetric because the relation holds
+equally in both directions.
+"""@en ;
+
+    # Kinship → REL vocabulary superclass
+    rdfs:subPropertyOf rel:relatedTo ;
+
+    # symmetric, as cunhados are mutual
+    owl:SymmetricProperty true ;
+
+    # domain and range: persons (agents)
+    rdfs:domain <http://www.w3.org/ns/prov#Agent> ;
+    rdfs:range  <http://www.w3.org/ns/prov#Agent> .

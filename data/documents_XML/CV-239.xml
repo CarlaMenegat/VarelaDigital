@@ -57,7 +57,7 @@
             <div type="officialDocument" xml:id="CV-239">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
@@ -87,7 +87,7 @@
                 </closer>
                 
                 <note type="endorsement">
-                    Ofício do Exmo. Ministro da Fazenda de 
+                    Ofício do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Ministro da Fazenda de 
                     <date when="1838-04-11">11 de abril</date>, recebido a 
                     <date when="1838-04-19">19 do mesmo</date>.<br/>
                     <persName ref="#inacio_jose_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>, 

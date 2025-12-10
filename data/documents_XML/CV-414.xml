@@ -47,7 +47,7 @@
             <div xml:id="CV-414" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Das quatro onças que de minha conta <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> recebeu do 
@@ -64,7 +64,7 @@
                 
                 <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</signed>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#jose_ferreira_gomes_roque">José Ferreira Gomes Roque</persName></p>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#jose_ferreira_gomes_roque">José Ferreira Gomes Roque</persName></p>
                 
             </div>
         </body>

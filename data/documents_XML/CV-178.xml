@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-178 – Domingos José de Almeida para Bernardina</title>
                 <author>Domingos José de Almeida</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-08-02">02 de agostode 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -80,13 +86,17 @@
         </encodingDesc>
         
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
-                    <placeName ref="#escuna_incorporacao">Bordo</placeName>
                     <date when="1835-10-16">16 de outubro de 1835</date>
                 </correspAction>
-                
                 <correspAction type="received">
                     <persName ref="#bernardina_barcelos_de_almeida">Bernardina Barcelos de Almeida</persName>
                     <placeName ref="#pelotas">Pelotas</placeName>
@@ -96,8 +106,12 @@
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-08-02">02/08/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-10">10/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
@@ -111,30 +125,26 @@
                 <opener>
                     <salute>Minha saudosa Bernardina</salute>
                     <dateline>
-                        <placeName ref="#escuna_incorporacao">Bordo</placeName>,
-                        <date when="1835-10-16">16 de outubro de 1835</date>.
+                        Bordo, <date when="1835-10-16">16 de outubro de 1835</date>.
                     </dateline>
                 </opener>
                 
                 <p>De posse da tua apreciável de ontem, agradeço ao céu por ter-te dado
                     forças para suportar o golpe que a sorte nos descarregou; e de novo te rogo
                     a mais estrita conformidade e constância nos trabalhos deste mundo, porque
-                    não de outra forma se poderá vencer os obstáculos de que estamos rodeados.</p>
-                
-                <p>Eu sinto na verdade a direção que tomou a opinião pública a meu
+                    não de outra forma se poderá vencer os obstáculos de que estamos rodeados.
+                    Eu sinto na verdade a direção que tomou a opinião pública a meu
                     respeito, julgando-me criminoso e imputando-me tudo quanto ideias
                     esquentadas e malévolas lhes têm sugerido; mas tudo isto é nada em
                     comparação às tuas aflições, que é sobretudo o que me acabrunha. E se pois
                     me estimas e me queres ver contente, mesmo na presença da morte, faze
                     porque me conste que vives tranqúuila e tratando da educação de nossos
-                    filhos.</p>
-                
-                <p>Considerai que outros têm estado numa condição ainda mais desesperada
+                    filhos.
+                    Considerai que outros têm estado numa condição ainda mais desesperada
                     que a nossa, e que por uma resignação constante aos decretos da providência
                     venceram dificuldades que pareciam insuperáveis, e foram depois restituídos
-                    à posição que haviam perdido.</p>
-                
-                <p>Eu me não queixo de ninguém, e nem pretendo a mais pequena vingança,
+                    à posição que haviam perdido.
+                    Eu me não queixo de ninguém, e nem pretendo a mais pequena vingança,
                     e somente retirar-me com horror de tudo que me ligue a homens. Só assim
                     viverei contente no meio de minha querida família.</p>
                 
@@ -153,25 +163,19 @@
                     por isso à desesperação, que Deus não desampara a ninguém. Eu já sabia
                     deste expediente, que mo douraram com deixar-te 10% e mesmo promoverem
                     uma subscrição; mas desde logo desconfiei de tanta fortuna, de tanta
-                    generosidade, com aquele a quem… etc…</p>
-                
-                <p>Enfim, sobre isto escrevo ao amigo 
+                    generosidade, com aquele a quem… etc…Enfim, sobre isto escrevo ao amigo 
                     <persName ref="#antonio_jose_goncalves_chaves">Chaves</persName>
                     e ao primo 
                     <persName ref="#cipriano_joaquim_rodrigues_barcelos">Cipriano</persName>,
-                    e estou que eles farão o que puderem a nosso benefício.</p>
-                
-                <p>Persisto ainda no projeto de ir para o Rio até que, destruídas estas
+                    e estou que eles farão o que puderem a nosso benefício.Persisto ainda no projeto de ir para o Rio até que, destruídas estas
                     impressões a meu respeito, possa voltar a teus braços; isto é um sacrifício
                     que faço por amor de ti mesma, mas antes de partir inda tenciono ver-te aí.</p>
                 
-                <p>Noutra serei mais extenso. Abraços a nossos filhos e visitas a todos os
-                    nossos, recebendo tu o coração do</p>
-                
                 <closer>
-                    <signed>Teu marido do coração<br/>
-                        (a) <persName ref="#domingos_jose_almeida">Almeida</persName>.
-                    </signed>
+                    <salute>Noutra serei mais extenso. Abraços a nossos filhos e visitas a todos os
+                    nossos, recebendo tu o coração do<br/>
+                    Teu marido do coração<br/></salute>
+                    <signed><persName ref="#domingos_jose_almeida">Almeida</persName>.</signed>
                 </closer>
                 
                 <postscript>
@@ -192,7 +196,7 @@
                         da Comissão sobre a concordata e todos os ofícios e papéis não
                         pertencentes a negócio da casa.</p>
                     
-                    <p>O amigo <persName ref="#cantonio_jose_goncalves_chaves">Chaves</persName> e o primo 
+                    <p>O amigo <persName ref="#antonio_jose_goncalves_chaves">Chaves</persName> e o primo 
                         <persName ref="#cipriano_joaquim_rodrigues_barcelos">Cipriano</persName> que me mandem carta de recomendação para o Rio; 
                         e o primo <persName ref="#cipriano_joaquim_rodrigues_barcelos">Cipriano</persName> que me mande dar algum dinheiro, se puder, no Rio.</p>
                 </postscript>

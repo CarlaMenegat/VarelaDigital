@@ -42,7 +42,7 @@
             <div type="oficio" xml:id="CV-353">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Suposto no ofício da cópia inclusa assevere <choice><abbr>S.Exª.</abbr><expan>Sua Excelência</expan></choice>, o General <persName ref="#bento_goncalves">Bento Gonçalves</persName>, tem ordenado a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> marchasse para o lugar que indica caso não tivesse o General <persName ref="#bento_manuel">Bento Manuel</persName> marcado outro destino, por ordem de <choice><abbr>S.Exª.</abbr><expan>Sua Excelência</expan></choice> o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Vice-presidente lhe remeto a referida cópia para sua inteligência.</p>
@@ -57,7 +57,7 @@
                 </note>
                 
                 <note type="endorsement">
-                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel João Antônio da Silveira, Comandante da Divisão da Direita.
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel João Antônio da Silveira, Comandante da Divisão da Direita.
                 </note>
                 
             </div>

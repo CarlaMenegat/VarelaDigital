@@ -117,7 +117,7 @@
                 <div type="letter" xml:id="CV-49">
                     
                     <opener>
-                        <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                        <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                     </opener>
                     
                     <p>Ontem veio o <persName ref="#alferes_cruz">Cruz</persName> e diz que <persName ref="#bento_manoel">Bento Manuel</persName> 
@@ -138,7 +138,7 @@
                     
                     <closer>
                         <dateline><placeName ref="#picada">Acampamento da Picada</placeName>, <date when="1838-11-18">18 de novembro de 1838</date>.</dateline>
-                        <signed>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/>
+                        <signed><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/>
                             <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.<br/>
                             Major Comandante do Destacamento da Picada.</signed>
                     </closer>

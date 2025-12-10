@@ -47,7 +47,7 @@
             <div type="letter" xml:id="CV-295">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Tendo o Coronel <persName ref="#joaquim_jose_silva">Joaquim José da Silva</persName> e o cidadão <persName ref="#rolino_pereira_barros">Rolino Pereira de Barros</persName>, ambos moradores nesse Departamento, oferecido, por empréstimo aquele e este gratuitamente, cem novilhos de corte cada um, haja <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> de mandar unir ditos novilhos à 1a. tropa que dirigir a <persName ref="#napoleone_castellini">Napoleone Castellini</persName>.</p>
@@ -58,12 +58,12 @@
                     <signed>Domingos José de Almeida</signed>
                 </closer>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>, Chefe Geral de Polícia do Departamento e Fronteira de <placeName ref="#alegrete">Alegrete</placeName>.</p>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>, Chefe Geral de Polícia do Departamento e Fronteira de <placeName ref="#alegrete">Alegrete</placeName>.</p>
                 
                 <note type="endorsement">Março — 23 — 39. Almeida. [No verso]</note>
                 <note type="endorsement"><choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice> [No verso]</note>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>. Coletor Geral e Chefe de Polícia do Departamento e Fronteira de <placeName ref="#alegrete">Alegrete</placeName>. Inspetor interino do Tesouro Público Nacional.</p>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>. Coletor Geral e Chefe de Polícia do Departamento e Fronteira de <placeName ref="#alegrete">Alegrete</placeName>. Inspetor interino do Tesouro Público Nacional.</p>
                 
             </div>
         </body>

@@ -92,7 +92,7 @@
                     <persName ref="#jose_inacio_silva_abreu">José Inácio da Silva Abreu</persName>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Ilmo. amigo</persName>
+                    <persName><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> amigo</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -115,7 +115,7 @@
             <div type="letter" xml:id="CV-88">
                 
                 <opener>
-                    <salute>Ilmo. amigo</salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> amigo</salute>
                 </opener>
                 
                 <p>—Ontem recebemos carta do Doutor <persName ref="#sebastiao_ribeiro">Sebastião Ribeiro</persName>, escrita do outro lado 

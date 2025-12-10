@@ -47,7 +47,7 @@
             <div type="letter" xml:id="CV-329">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Para se não malograrem as importantes vantagens por nossas armas obtidas no Estado Catarinense, vantagens que de per si nos segura o próximo reconhecimento de nossa independência, faz-se mister o concurso de todas as autoridades e os esforços de todos os cidadãos da república, a fim de não vermos por uma terceira vez desprezados os mimos da providência, como sucedera depois dos triunfos desta capital em <date when="1837-04-07">7 de abril de 1837</date> e em <placeName ref="#rio_pardo">Rio Pardo</placeName> a <date when="1838-04-30">30 de abril de 1838</date>.</p>
@@ -65,7 +65,7 @@
                     <signed>Domingos José de Almeida</signed>
                 </closer>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_jose_guimaraes">Inácio José de Oliveira Guimarães</persName>.</p>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_jose_guimaraes">Inácio José de Oliveira Guimarães</persName>.</p>
                 
                 <note type="endorsement"><choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice></note>
                 <note type="endorsement">Ao cidadão Chefe Geral de Polícia do departamento do Boqueirão.</note>

@@ -54,7 +54,7 @@
             <div type="letter" xml:id="CV-284">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
@@ -88,7 +88,7 @@
                 </closer>
                 
                 <note type="verso">
-                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Joaquim dos Santos Prado Lima, Comandante Geral de 
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Joaquim dos Santos Prado Lima, Comandante Geral de 
                     Polícia do Município de <placeName ref="#alegrete">Alegrete</placeName>.
                 </note>
                 

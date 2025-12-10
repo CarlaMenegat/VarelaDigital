@@ -117,7 +117,7 @@
             <div type="letter" xml:id="CV-109">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Aqui se me apresentou o alemão <persName ref="#pedro_jose">Pedro José</persName>, praça que desertou modernamente do 
@@ -139,7 +139,7 @@
                 </dateline>
                 
                 <closer>
-                    <salute>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Marechal-de-campo Tomás José da Silva</persName>,<br/>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Marechal-de-campo Tomás José da Silva</persName>,<br/>
                         Digmo. Comandante da Guarnição de <placeName ref="#porto_alegre">Porto Alegre</placeName>.</salute>
                     <signed>(a) <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName><br/>
                         Coronel Comandante Militar do município de Santo Antônio.</signed>

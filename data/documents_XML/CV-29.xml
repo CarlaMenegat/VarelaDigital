@@ -96,7 +96,7 @@
                 </correspAction>
                 
                 <correspAction type="received">
-                    <persName>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></persName>
+                    <persName><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -118,7 +118,7 @@
         <body>
             <div type="letter" xml:id="CV-29">
                 <opener>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>

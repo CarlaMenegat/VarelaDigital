@@ -120,7 +120,7 @@
             <div type="letter" xml:id="CV-138">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Para conhecimento de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> e devida execução na parte que
@@ -132,7 +132,7 @@
                 
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
-                    <addressee>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</addressee>
+                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</addressee>
                     <dateline>
                         Secretaria da Guerra em <placeName ref="#cacapava">Caçapava</placeName>,
                         <date when="1840-02-29">29 de fevereiro de 1840</date>.
@@ -142,12 +142,10 @@
                     </signed>
                 </closer>
                 
-                <note type="endorsement">
-                    Ofício do Exmo. Ministro da Guerra de <date when="1840-02-29">29 de fevereiro</date>, recebido
+                <note type="endorsement" place="verso">
+                    Ofício do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Ministro da Guerra de <date when="1840-02-29">29 de fevereiro</date>, recebido
                     a <date when="1840-03-12">12 de março</date>, mandando executar de pronto o disposto sobre
-                    passaportes.
-                
-                    <seg type="folio">No verso</seg>.
+                    passaportes.<br/>
                     
                     <choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice><br/>
                     Ao cidadão 

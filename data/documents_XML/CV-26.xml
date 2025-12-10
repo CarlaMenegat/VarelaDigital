@@ -116,7 +116,7 @@
         <body>
             <div type="letter" xml:id="CV-26">
                 <opener>
-                    <salute>Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
@@ -143,7 +143,7 @@
                     Mais 2 patacões a 28.<br/>
                     Mais 10 ditos a 30 do corrente.<br/>
                     Carregado ao Hospital.<br/>
-                    Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>. 
                     <note type="editorial">[No verso]</note><br/>
                     <date when="1840-04-30">1840 Abril 30</date>

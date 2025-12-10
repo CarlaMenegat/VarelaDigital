@@ -63,7 +63,7 @@
             <div type="letter" xml:id="CV-315">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_jose_damasceno">João José Damasceno</persName></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_jose_damasceno">João José Damasceno</persName></salute>
                     <dateline><placeName ref="#cacapava">Caçapava</placeName>, <date when="1839-07-02">2 de julho de 1839</date></dateline>
                     <salute>Amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
@@ -93,7 +93,7 @@
             <!-- RECIBO -->
             <div type="receipt" xml:id="CV-315-recibo">
                 
-                <p>Recebi por mão do Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Ministro da Fazenda <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName> a quantia acima mencionada de três onças de ouro pertencente ao cidadão <persName ref="#antonio_agostinho_nascimento">Antônio Agostinho do Nascimento</persName>. E para clareza passo o presente que assino.</p>
+                <p>Recebi por mão do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Ministro da Fazenda <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName> a quantia acima mencionada de três onças de ouro pertencente ao cidadão <persName ref="#antonio_agostinho_nascimento">Antônio Agostinho do Nascimento</persName>. E para clareza passo o presente que assino.</p>
                 
                 <closer>
                     <signed>Vicente Ferrer de Almeida</signed>

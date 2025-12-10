@@ -122,7 +122,7 @@
             <div type="letter" xml:id="CV-153">
                     
                 <opener>
-                    <salute>Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                     
                 <p>De ordem de <choice><abbr>S. Ex.ª</abbr><expan>Sua Excelência</expan></choice> o 
@@ -130,13 +130,13 @@
                     envio a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> a ordem do dia junta de n.º 78 para ser 
                     público nas forças de seu mando.</p>
                 
-                <!-- Dateline + fórmula final vão dentro de <closer> -->
+                
                 <closer>
                     <salute>Deus guarde a 
                         <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.
                     </salute>
                     <addressee>
-                        Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                        <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
                         <persName ref="#joao_antonio_silveira">General João Antônio da Silveira</persName>.
                     </addressee>
                     <dateline>Quartel-general em 
@@ -147,15 +147,12 @@
                         1.º Deputado do General Chefe do Estado-maior do Exército
                     </signed>
                 </closer>
-
-                <note type="endorsement">
+                
+                <note type="endorsement" place="verso">
                     <choice>
                         <abbr>S. da R.</abbr>
                         <expan><orgName ref="#secretaria_presidencia_republica">Secretaria da Presidência da República</orgName></expan>
-                    </choice>
-                        
-                    <note type="editorial">[No verso]</note>
-                        
+                    </choice>    
                     <p>Ao cidadão <persName ref="#joao_antonio_silveira">General João Antônio da Silveira</persName>,  
                         Comandante do 1.º Corpo de Exército. Onde se achar.  
                         Do 1.º Deputado do General Chefe do Estado-maior do Exército.</p>

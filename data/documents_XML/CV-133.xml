@@ -118,7 +118,7 @@
             <div type="letter" xml:id="CV-133">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Havendo levado ao conhecimento do governo o ofício de <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>
@@ -128,7 +128,7 @@
                     se faz esforços para pensar sobre a possibilidade de transitarem
                     quatro peças de artilharia por um caminho tão escabroso, no qual
                     apenas podem atravessar cargueiros; todavia <choice><abbr>S.Ex.ª</abbr><expan>Sua Excelência</expan></choice> 
-                    não deixa de dar todo o peso a esta notícia, e ao Exmo. General
+                    não deixa de dar todo o peso a esta notícia, e ao <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> General
                     <persName ref="#bento_manoel">Bento Manuel Ribeiro</persName>
                     toca exclusivamente a iniciativa desse detalhe: ele está encarregado
                     das operações, não só no município da
@@ -145,12 +145,13 @@
                 
                 <p>Quanto ao que <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> diz a respeito da gente 
                     
-                    <seg type="folio">[1v.]</seg>
+                    <pb n="1v"/>
+<seg type="folio">[1v.]</seg>
 
                     deste município,
                     hoje mesmo segue o Major <persName ref="#frutuoso">Frutuoso</persName>, com o maior número que é
                     possível, com direção à <placeName ref="#cachoeira">Cachoeira</placeName>, para onde ordenou o
-                    Exmo. General-em-chefe se fizessem convergir todas as forças e
+                    <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> General-em-chefe se fizessem convergir todas as forças e
                     cavalhadas para ele dar-lhes uma direção conveniente.</p>
                 
                 <p>Fica nesta capital o <persName ref="#laurindo">Capitão Laurindo</persName> com 40 homens somente,
@@ -164,7 +165,7 @@
                     <placeName ref="#sao_goncalo">São Gonçalo</placeName>, segundo se vê de seus
                     movimentos, outras para marcharem para
                     <placeName ref="#rio_pardo">Rio Pardo</placeName> em consequência dos detalhes e
-                    combinações do Exmo. General-em-chefe.</p>
+                    combinações do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> General-em-chefe.</p>
                 
                 <p>Permita, porém, <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> que eu faça uma resenha das forças que
                     podem operar sobre essa, vindas de
@@ -187,11 +188,11 @@
                     o Coronel <persName ref="#agostinho_antonio_mello">Agostinho</persName> deverá contar ao certo 200 homens.</p>
                 
                 <p>Todas estas forças reunidas ou de combinação ao mando do
-                    Exmo. General <persName ref="#bento_manoel">Bento Manuel Ribeiro</persName>, quando não sejam
+                    <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> General <persName ref="#bento_manoel">Bento Manuel Ribeiro</persName>, quando não sejam
                     suficientes para bater o inimigo, servirão para ir contemporizando,
                     até que possam ser aumentadas por outras que fiquem disponíveis.</p>
                 
-                <addressee>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</addressee>
+                <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</addressee>
                 
                 <closer>
                     <salute>É tudo quanto tem o governo de dizer a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>, 

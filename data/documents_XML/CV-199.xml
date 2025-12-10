@@ -120,7 +120,7 @@
             <div type="letter" xml:id="CV-199a">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Inconvenientes insuperáveis têm demorado nossas operações em
@@ -152,7 +152,7 @@
                     <date when="1836-07-22">22 de julho de 1836</date>.
                 </dateline>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.</p>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.</p>
                 
                 <closer>
                     <signed>
@@ -163,7 +163,7 @@
                 
                 <note type="endorsement" place="verso">
                     Serviço Público.<br/>
-                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.<br/>
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.<br/>
                     Do coronel Chefe da Legião da Comarca de Rio Grande.
                 </note>
                 
@@ -174,12 +174,12 @@
             <div type="letter" xml:id="CV-199b">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>De posse do ofício que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> me endereçou em 22 do presente,
                     cumpre-me dizer-lhe que bem a meu pesar não posso concorrer com o
-                    empréstimo que de mim <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> reclama por ordem do Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                    empréstimo que de mim <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> reclama por ordem do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
                     Comandante Interino das Armas, por não me achar munido de dinheiro
                     algum, o que não deve ser estranho a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> este meu dizer, pois bem
                     sabe que as minhas transações todas são efetuadas na cidade de
@@ -203,7 +203,7 @@
                     <date when="1836-07-24">24 de julho de 1836</date>.
                 </dateline>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>,
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>,
                     Coronel Chefe de Legião.</p>
                 
                 <closer>

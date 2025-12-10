@@ -117,7 +117,7 @@
             <div type="letter" xml:id="CV-80">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Vão uns oficiais do batalhão de seu comando buscar as suas bagagens e as dos outros oficiais, as quais <choice><abbr>V.Sᵃ.</abbr><expan>Vossa Senhoria</expan></choice> as mandará 
@@ -130,7 +130,7 @@
                 
                 <p>Deus guarde a <choice><abbr>V.Sᵃ.</abbr><expan>Vossa Senhoria</expan></choice> Campo junto a <placeName ref="#cangucu">Canguçu</placeName>, <date when="1844-07-01">1.º de julho de 1844</date>.</p>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName>.<br/>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName>.<br/>
                     Tenente-coronel Comandante da Guarnição da cidade de <placeName ref="#pelotas">Pelotas</placeName>.</p>
                 
                 <closer>

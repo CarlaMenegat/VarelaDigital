@@ -117,7 +117,7 @@
             <div type="letter" xml:id="CV-115">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>O Coronel <persName ref="#agostinho_antonio_mello">Agostinho</persName> pede-me, em uma carta escrita com muita pressa, 
@@ -144,7 +144,7 @@
                 </dateline>
                 
                 <closer>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General <persName ref="#bento_manuel">Bento Manuel Ribeiro</persName>.</salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General <persName ref="#bento_manuel">Bento Manuel Ribeiro</persName>.</salute>
                     <signed>(a) <persName ref="#ricardo_melo_albuquerque">Ricardo Antônio de Melo e Albuquerque</persName>.</signed>
                 </closer>
                 

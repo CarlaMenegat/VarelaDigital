@@ -117,7 +117,7 @@
             <div type="letter" xml:id="CV-129">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
@@ -158,7 +158,7 @@
                 </closer>
                 
                 <note type="endorsement">
-                    Ofício do Exmo. Ministro da Guerra de 19 de dezembro recebido a <date when="1839-12-25">25 do mesmo</date>.  
+                    Ofício do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Ministro da Guerra de 19 de dezembro recebido a <date when="1839-12-25">25 do mesmo</date>.  
                     Circular.  
                     Ao cidadão <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>,
                     Chefe Geral de Polícia.

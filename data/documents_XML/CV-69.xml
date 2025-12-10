@@ -118,7 +118,7 @@
             <div type="letter" xml:id="CV-69">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Conforme as ordens e instruções de <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> 
@@ -164,7 +164,7 @@
                     <date when="1842-05-24">24 de maio de 1842</date>.</p>
                 
                 <closer>
-                    <salute>Ilmo. e Exmo. Senhor 
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Senhor 
                         <persName ref="#general_valente">Conde de Rio Pardo</persName></salute>
                     <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
                     <signed>Tenente-coronel</signed>

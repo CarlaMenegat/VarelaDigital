@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-180 – Domingos José de Almeida a Guilherme Rodrigo de Carvalho</title>
                 <author>Domingos José de Almeida</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-08-02">02 de agostode 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -80,6 +86,12 @@
         </encodingDesc>
         
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
@@ -94,18 +106,23 @@
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-08-02">02/08/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-10">10/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
     </teiHeader>
+
     <text>
         <body>
             <div type="letter" xml:id="CV-180">
                 
                 <opener>
-                    <salute>Ilmo. <persName ref="#guilherme_carvalho"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Guilherme Rodrigo de Carvalho</persName></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <persName ref="#guilherme_carvalho"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Guilherme Rodrigo de Carvalho</persName></salute>
                 </opener>
                 
                 <p>
@@ -118,9 +135,6 @@
                     além de não achar quem os demandasse, seriam eles reputados por tão 
                     diminutos valores que isso equivaleria a perda total, provindo, 
                     portanto, prejuízo grave a meus credores e a mim em particular.
-                </p>
-                
-                <p>
                     À vista de tantos motivos, ouso rogar a 
                     <choice><abbr>V. S.º</abbr><expan>Vossa Senhoria</expan></choice>, 
                     à semelhança do que já de outros tenho obtido, 
@@ -128,9 +142,6 @@
                     cujo prazo será contado de 15 de setembro próximo passado, 
                     porque, findo ele, se até então não me vir solvido, 
                     dispor-ei de tudo, e por esse modo, de um só jato, embolsarei meus credores.
-                </p>
-                
-                <p>
                     Sendo que 
                     <choice><abbr>V. S.º</abbr><expan>Vossa Senhoria</expan></choice> 
                     anúa a esta proposição, se servirá dizê-lo por escrito no verso 
@@ -138,20 +149,21 @@
                 </p>
                 
                 <closer>
-                    <signed>De 
-                        <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
-                        muito atento venerador e obrigado criado<br/>
-                        (a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.
+                    <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> muitos anos.<br/>
+                        <dateline>
+                            <placeName ref="#pelotas">Pelotas</placeName>, 
+                            <date when="1835-11-16">16 de novembro de 1835</date>.
+                        </dateline><br/>
+                        De <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
+                        muito atento venerador e obrigado criado<br/></salute>
+                        <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.
                     </signed>
-                    <dateline>
-                        <placeName ref="#pelotas">Pelotas</placeName>, 
-                        <date when="1835-11-16">16 de novembro de 1835</date>.
-                    </dateline>
+                    
                 </closer>
                 
                 <div type="reply">
                     <opener>
-                        <salute>Ilmo. <persName ref="#domingos_jose_almeida"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Domingos José de Almeida</persName>.</salute>
+                        <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <persName ref="#domingos_jose_almeida"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Domingos José de Almeida</persName>.</salute>
                     </opener>
                     
                     <p>
@@ -160,9 +172,8 @@
                     </p>
                     
                     <closer>
-                        <signed>Seu muito atento venerador criado<br/>
-                            (a) <persName ref="#guilherme_carvalho">Guilherme Rodrigo de Carvalho</persName>.
-                        </signed>
+                        <salute>Seu muito atento venerador criado<br/></salute>
+                            <signed><persName ref="#guilherme_carvalho">Guilherme Rodrigo de Carvalho</persName>.</signed>
                         <dateline>
                             <placeName ref="#pelotas">Pelotas</placeName>, 
                             <date when="1835-11-24">24 de novembro de 1835</date>.
@@ -171,7 +182,7 @@
                 </div>
                 
                 <note type="endorsement" place="verso">
-                    Ilmo. <persName ref="#guilherme_carvalho"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Guilherme Rodrigo de Carvalho</persName>. [No verso]<br/>
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <persName ref="#guilherme_carvalho"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Guilherme Rodrigo de Carvalho</persName>. [No verso]<br/>
                     <placeName ref="#pelotas">Cidade de Pelotas</placeName>.<br/>
                     Respondida. [No verso]
                 </note>

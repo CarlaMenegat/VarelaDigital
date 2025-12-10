@@ -117,7 +117,7 @@
                 <div type="letter" xml:id="CV-45">
                     
                     <opener>
-                        <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                        <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                     </opener>
                     
                     <p>Os portadores deste são <persName ref="#sebastiao_afonso_silva">Sebastião Afonso da Silva</persName> e
@@ -135,7 +135,7 @@
                     
                     <note type="endorsement">Ordem à Pagadoria. [Na folha 1r.]</note>
                     <note type="endorsement">Foi ordem à Pagadoria em 14 dito. [Na folha 1v.]</note>
-                    <note type="endorsement">Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente da Província e Comandante das Armas da mesma e Marechal-de-campo <persName ref="#antonio_elzeário_miranda_brito">Antônio Elzeário de Miranda e Brito</persName>. Do Major <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>. [No verso]</note>
+                    <note type="endorsement"><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente da Província e Comandante das Armas da mesma e Marechal-de-campo <persName ref="#antonio_elzeário_miranda_brito">Antônio Elzeário de Miranda e Brito</persName>. Do Major <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>. [No verso]</note>
                     
                 </div>
             </body>

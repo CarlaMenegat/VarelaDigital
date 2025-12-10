@@ -112,7 +112,7 @@
             <div type="circular" xml:id="CV-149">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Achando-se o <persName ref="#camilo_campelo">Tenente-coronel Camilo</persName> encarregado pelo governo das 
@@ -134,7 +134,7 @@
                         Deus guarde a 
                         <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.
                     </salute>
-                    <addresse>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice><persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName></addresse>
+                    <addresse><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice><persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName></addresse>
                     
                     <dateline>
                         <orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName> em
@@ -143,10 +143,14 @@
                     </dateline>
                     <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
-
                 
-                <note type="endorsement">
-                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>, 
+                
+                <note type="endorsement" place="verso">
+                    <choice>
+                        <abbr>S. da R.</abbr>
+                        <expan><orgName ref="#secretaria_presidencia_republica">Secretaria da Presidência da República</orgName></expan>
+                    </choice>
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>, 
                     Comandante Geral de Polícia do <placeName ref="#boqueirao">Departamento do Boqueirão</placeName>.  
                     Do <orgName ref="#ministerio_guerra">Ministério da Guerra</orgName>.  
                     
@@ -154,7 +158,7 @@
                     <placeName ref="#piratini">Piratini</placeName>.  
                     <note type="editorial">[Carimbos no verso]</note>
                     
-                    Circular do Exmo. Ministro da Guerra de 
+                    Circular do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Ministro da Guerra de 
                     <date when="1840-05-20">20 de maio</date>, recebida a 
                     <date when="1840-06-03">3 de junho</date>, reiterando tudo reunir-se ao 
                     <persName ref="#camilo">Coronel Camilo</persName>, quando ele assim o exija, etc., etc.

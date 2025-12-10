@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-157 – Serafim Joaquim de Alencastre para João Antônio da Silveira</title>
                 <author>Serafim Joaquim de Alencastre</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-06-16">30 de junho de 2025</date>
+                <date when="2025-07-28">28 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -78,7 +84,14 @@
                 </application>
             </appInfo>
         </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
@@ -90,44 +103,54 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
-        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-07-28">28/07/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-10">10/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
     </teiHeader>
+
     <text>
         <body>
             <div type="letter" xml:id="CV-157">
                 
                 <opener>
-                    <salute>Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">General João Antônio</persName></salute>
+                    <salute><choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                        <persName ref="#joao_antonio_silveira">General João Antônio</persName></salute>
                     <dateline><placeName ref="#bage">Bagé</placeName>, <date when="1842-01-28">28 de janeiro 1842</date>.</dateline>
                 </opener>
                 
-                <p>Esta tem por objeto prevenir a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> sobre um fato que teve lugar entre mim e <persName ref="#jose_mariano_matos">José Mariano de Matos</persName>, a fim de que <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> não se guie sobre as primeiras informações, suspenda o seu juízo a tal respeito, e não me repute criminoso sem me ouvir.</p>
-                
-                <p>Na primeira ocasião remeterei a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> a correspondência que houve, e então farei as ponderações convenientes. Direi agora somente que me acho com voz de prisão e ordem para responder a Conselho de Guerra.</p>
-                
-                <p>Sem atender ao seu resultado, porque enfim a corda sempre se quebra pelo mais fraco, eu estou resolvido a tudo porque o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#jose_mariano_matos">José Mariano</persName> assim o quer, e bom será que ele me não obrigue a mais terrível contingência.</p>
-                
-                <p>Nas circunstâncias em que me acho, só a consideração e amizade de meus patrícios poderão dulcificar o azedume de minha situação. Creia <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que eu sou com estima e respeito, de <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, patrício e amigo obrigado.</p>
+                <p>Esta tem por objeto prevenir a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> sobre um fato que 
+                    teve lugar entre mim e <persName ref="#jose_mariano_matos">José Mariano de Matos</persName>, a fim de que 
+                    <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> não se guie sobre as primeiras informações, 
+                    suspenda o seu juízo a tal respeito, e não me repute criminoso sem me ouvir.
+                    Na primeira ocasião remeterei a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> a correspondência 
+                    que houve, e então farei as ponderações convenientes. Direi agora somente que me acho com voz de prisão e ordem para 
+                    responder a Conselho de Guerra. Sem atender ao seu resultado, porque enfim a corda sempre se quebra pelo mais fraco, 
+                    eu estou resolvido a tudo porque o 
+                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#jose_mariano_matos">José Mariano</persName> 
+                    assim o quer, e bom será que ele me não obrigue a mais terrível contingência.
+                    Nas circunstâncias em que me acho, só a consideração e amizade de meus patrícios poderão dulcificar o azedume de minha 
+                    situação.</p>
                 
                 <closer>
-                    <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
+                    <salute>Creia <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que eu sou com estima e respeito, 
+                    de <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, patrício e amigo obrigado.</salute>
+                    <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
-
-                <note type="endorsement">
-                    <note type="source">[No verso]</note>
-                    
-                    Ao cidadão <persName ref="#joao_antonio_silveira">General João Antônio da Silveira</persName>. Onde se achar.  
+                
+                <note type="endorsement" place="verso">
+                    Ao cidadão General <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>. Onde se achar.  
                     De seu amigo e patrício <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>.
                     
-                    <note type="source">[No verso]</note>
+                    <note type="editorial">[No verso]</note>
                     Respondido a <date when="1842-03-07">7 de março de 1842</date>.
                 </note>
                 

@@ -45,7 +45,7 @@
             <div type="letter" xml:id="CV-333">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Tendo desertado no dia 14 do presente mês e na noite de ontem para hoje os onze indivíduos constantes das relações inclusas com os objetos de que tratam os ofícios que as acompanham, haja <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> de dar as providências ao seu alcance para que os mesmos sejam capturados se por acaso nesse distrito forem ter, e enviá-los com segurança a esta capital.</p>
@@ -55,7 +55,7 @@
                     <signed>Domingos José de Almeida</signed>
                 </closer>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_jose_guimaraes">Inácio José de Oliveira Guimarães</persName>, Chefe Geral de Polícia do departamento do Boqueirão.</p>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_jose_guimaraes">Inácio José de Oliveira Guimarães</persName>, Chefe Geral de Polícia do departamento do Boqueirão.</p>
                 
             </div>
         </body>

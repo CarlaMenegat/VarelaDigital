@@ -42,7 +42,7 @@
             <div type="letter" xml:id="CV-541">
                 
                 <opener>
-                    <salute>Meu Exmo. e honrado amigo <persName ref="#fontoura"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Fontoura</persName>.</salute>
+                    <salute>Meu <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> e honrado amigo <persName ref="#fontoura"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Fontoura</persName>.</salute>
                     <dateline><placeName ref="#bage">Bagé</placeName>, <date when="1841-11-18">18 de novembro de 1841</date>.</dateline>
                 </opener>
                 

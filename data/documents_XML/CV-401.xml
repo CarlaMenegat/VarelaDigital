@@ -45,11 +45,11 @@
             <div xml:id="CV-401" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Para pagamento de porção de fazendas que se acham no 
-                    <placeName ref="#salto">Salto</placeName>, por pedido do Exmo. General 
+                    <placeName ref="#salto">Salto</placeName>, por pedido do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> General 
                     <persName ref="#bento_manuel_ribeiro">Bento Manuel Ribeiro</persName>, para vestuário do 
                     <orgName ref="#exercito">exército</orgName>, <choice><abbr>S. Ex.ª</abbr><expan>Sua Excelência</expan></choice> o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Vice-presidente da 
                     <orgName ref="#republica_farroupilha">República</orgName> pede a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> ocorra por empréstimo com 
@@ -74,7 +74,7 @@
                 
                 <signed>Assinado <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</signed>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Tenente <persName ref="#gaspar_nunes">Gaspar Nunes</persName>.</p>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Tenente <persName ref="#gaspar_nunes">Gaspar Nunes</persName>.</p>
                 
                 <note type="endorsement">[Cópia]</note>
                 

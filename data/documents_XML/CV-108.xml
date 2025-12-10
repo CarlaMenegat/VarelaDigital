@@ -117,7 +117,7 @@
             <div type="letter" xml:id="CV-108">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Andando o comandante de polícia deste distrito na diligência de prender alguns desertores do 
@@ -134,7 +134,7 @@
                 </dateline>
                 
                 <closer>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#luis_alves_lima_silva">Barão de Caxias</persName>,<br/>Digmo. Presidente e General-em-chefe do Exército.</salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#luis_alves_lima_silva">Barão de Caxias</persName>,<br/>Digmo. Presidente e General-em-chefe do Exército.</salute>
                     <signed>(a) <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName><br/>
                         Coronel Comandante Militar do município de Santo Antônio.</signed>
                 </closer>

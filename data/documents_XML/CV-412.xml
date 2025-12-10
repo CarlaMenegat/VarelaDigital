@@ -48,7 +48,7 @@
             <div xml:id="CV-412" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Neste momento, seis da tarde, me veio às mãos o ofício incluso que a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> dirige o Coronel Comandante da 
@@ -75,7 +75,7 @@
                     (a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.
                 </signed>
                 
-                <p>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General <persName ref="#antonio_neto">Antônio Neto</persName><br/>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General <persName ref="#antonio_neto">Antônio Neto</persName><br/>
                     Chefe dio <orgName ref="#estado_maior">Estado-maior do Exército</orgName>.</p>
                 
             </div>

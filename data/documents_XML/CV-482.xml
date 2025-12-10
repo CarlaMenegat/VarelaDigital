@@ -49,10 +49,10 @@
                 <note type="heading">(Reservado)</note>
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Anuindo <choice><abbr>S. Ex.ª</abbr><expan>Sua Excelência</expan></choice> o <persName ref="#presidente_republica"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente</persName> à proposição por <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> oferecida por parte de um negociante do <placeName ref="#rio_grande">Rio Grande</placeName>, que se compromete fornecer-nos de dois a quatro mil côvados de pano ordinário a dois mil réis ao côvado; igual porção de baetas a setecentos réis; belbutinas a quinhentos réis; e algodão americano a duzentos e cinquenta réis a vara com o prêmio de sessenta por cento, para ser pago da importância de tudo em novilhos de corte pelo preço de três patacões prata cada um nos rodeios, que deverão ser beneficiados na charqueada de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>, me determina lhe diga que quanto antes faça vir os gêneros indicados, ou maior porção se for possível e os envie ao <persName ref="#general_chefe_estado_maior">Exmo. General Chefe do Estado-maior</persName>, certo de que a importância dos mesmos lhe será enviada em novilhos imediatamente que sejam exigidos, e que os efeitos provenientes de tais novilhos serão exportados livres de direitos na conformidade do disposto no § 8 do art. 37 do regulamento das coletorias, e bem assim o sal que introduzir para benefício de tais novilhos.</p>
+                <p>Anuindo <choice><abbr>S. Ex.ª</abbr><expan>Sua Excelência</expan></choice> o <persName ref="#presidente_republica"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente</persName> à proposição por <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> oferecida por parte de um negociante do <placeName ref="#rio_grande">Rio Grande</placeName>, que se compromete fornecer-nos de dois a quatro mil côvados de pano ordinário a dois mil réis ao côvado; igual porção de baetas a setecentos réis; belbutinas a quinhentos réis; e algodão americano a duzentos e cinquenta réis a vara com o prêmio de sessenta por cento, para ser pago da importância de tudo em novilhos de corte pelo preço de três patacões prata cada um nos rodeios, que deverão ser beneficiados na charqueada de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>, me determina lhe diga que quanto antes faça vir os gêneros indicados, ou maior porção se for possível e os envie ao <persName ref="#general_chefe_estado_maior"><choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> General Chefe do Estado-maior</persName>, certo de que a importância dos mesmos lhe será enviada em novilhos imediatamente que sejam exigidos, e que os efeitos provenientes de tais novilhos serão exportados livres de direitos na conformidade do disposto no § 8 do art. 37 do regulamento das coletorias, e bem assim o sal que introduzir para benefício de tais novilhos.</p>
                 
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
@@ -61,7 +61,7 @@
                 </closer>
                 
                 <address>
-                    <persName ref="#inacio_jose_de_oliveira_guimaraes">Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Inácio José de Oliveira Guimarães</persName>
+                    <persName ref="#inacio_jose_de_oliveira_guimaraes"><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Inácio José de Oliveira Guimarães</persName>
                 </address>
                 
                 <note type="endorsement">

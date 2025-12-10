@@ -51,7 +51,7 @@
             <div type="officialDocument" xml:id="CV-249">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
@@ -60,7 +60,7 @@
                     <persName ref="#guiomar_soares">D. Guiomar Maria Soares</persName>, 
                     <persName ref="#julio_centeno">Júlio César Centeno</persName> e 
                     <persName ref="#joaquim_braga">Joaquim Vieira Braga</persName>, que o acompanhou, as quais 
-                    levarei à presença do Exmo. Presidente do Estado, e o que se resolver 
+                    levarei à presença do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Presidente do Estado, e o que se resolver 
                     afinal sobre o assunto de que tratam ditas respostas levarei ao seu 
                     conhecimento.
                 </p>
@@ -76,7 +76,7 @@
                 </closer>
                 
                 <note type="endorsement">
-                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>, 
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>, 
                     Chefe de Polícia do <orgName ref="#departamento_boqueirao">Departamento do Boqueirão</orgName>.  
                     Do <orgName ref="#ministerio_fazenda">Ministério da Fazenda</orgName>.  
                     Ofício recebido a 30 do mesmo mês.

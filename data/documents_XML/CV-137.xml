@@ -118,13 +118,13 @@
             <div type="letter" xml:id="CV-137">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Nesta data se oficia ao chefe de Polícia de <placeName ref="#alegrete">Alegrete</placeName>, para desarmar
                     aos emigrados do Exército Unido, com exceção dos oficiais, e fazer marchar
                     todos para <placeName ref="#sao_gabriel">São Gabriel</placeName>, para cujo ponto diz o
-                    Exmo. General <persName ref="#bento_manoel">Bento Manuel</persName> fizera seguir a
+                    <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> General <persName ref="#bento_manoel">Bento Manuel</persName> fizera seguir a
                     <persName ref="#joao_silveira"><choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice></persName>, 
                     a fim de se pôr à testa dos mesmos emigrados;
                     em consequência, pois, ordena o governo a <persName ref="#joao_silveira"><choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice></persName> que ali os conserve
@@ -140,7 +140,7 @@
                     <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
                     <signed><orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName></signed>
                     <datelin><placeName ref="#cacapava">Caçapava</placeName>, <date when="1840-01-19">19 de janeiro de 1840</date></datelin>
-                    <addressee>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</addressee>
+                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</addressee>
                     <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 

@@ -1,84 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-155 – Serafim Joaquim de Alencastre para João Antônio da Silveira</title>
                 <author>Serafim Joaquim de Alencastre</author>
                 <respStmt>
-                    <resp>Edição digital</resp>
-                    <name>Carla Menegat</name>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
-                <respStmt>
-                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
-                    <name>Carla Menegat</name>
-                </respStmt>
-                <date when="2025-06-16">30 de junho de 2025</date>
-            </editionStmt>
-            <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
-            </extent>
-            <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
-                <pubPlace>Porto Alegre</pubPlace>
-                <availability status="free">
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
-                <biblScope type="volume">Vol. II</biblScope>
-                <biblScope type="series">II Série</biblScope>
-            </seriesStmt>
-            <notesStmt>
-                <note type="catalogue">
-                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
-                </note>
-                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
-                <note type="processo">
-                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
-                </note>
-            </notesStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
-                        <author>Arquivo Histórico do Rio Grande do Sul</author>
-                        <imprint>
-                            <pubPlace>Porto Alegre</pubPlace>
-                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
-                            <date when="1978">1978</date>
-                            <biblScope type="volume">2</biblScope>
-                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
-                            <measure type="extent">23 cm</measure>
-                        </imprint>
-                    </monogr>
-                    <series>
-                        <title>II Série</title>
-                    </series>
-                </biblStruct>
-                <ptr target="data/standoff/standoff-persons.xml"/>
-                <ptr target="data/standoff/standoff-places.xml"/>
-                <ptr target="data/standoff/standoff-events.xml"/>
-                <ptr target="data/standoff/standoff-orgs.xml"/>
-            </sourceDesc>
-        </fileDesc>
-        
-        <encodingDesc>
-            <projectDesc>
-                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
-            </projectDesc>
-            <appInfo>
-                <application ident="Python_OCR_Tools" version="2.1">
-                    <label>Ferramenta de OCR utilizada na transcrição</label>
-                </application>
-            </appInfo>
-        </encodingDesc>
-        <profileDesc>
+                <resp>Transcrição e codificação TEI</resp>
+                <name>Carla Menegat</name>
+            </respStmt>
+            <respStmt>
+                <resp>Edição digital</resp>
+                <name>Carla Menegat</name>
+            </respStmt>
+        </titleStmt>
+        <editionStmt>
+            <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+            <respStmt>
+                <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                <name>Carla Menegat</name>
+            </respStmt>
+            <date when="2025-07-28">28 de julho de 2025</date>
+        </editionStmt>
+        <extent>
+            <extent>1 carta</extent>
+            <measure type="pages">2</measure>
+            <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
+        </extent>
+        <publicationStmt>
+            <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+            <pubPlace>Porto Alegre</pubPlace>
+            <availability status="free">
+                <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+            </availability>
+        </publicationStmt>
+        <seriesStmt>
+            <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+            <biblScope type="volume">Vol. II</biblScope>
+            <biblScope type="series">II Série</biblScope>
+        </seriesStmt>
+        <notesStmt>
+            <note type="catalogue">
+                Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+            </note>
+            <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+            <note type="processo">
+                Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+            </note>
+        </notesStmt>
+        <sourceDesc>
+            <biblStruct>
+                <monogr>
+                    <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                    <author>Arquivo Histórico do Rio Grande do Sul</author>
+                    <imprint>
+                        <pubPlace>Porto Alegre</pubPlace>
+                        <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                        <date when="1978">1978</date>
+                        <biblScope type="volume">2</biblScope>
+                        <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                        <measure type="extent">23 cm</measure>
+                    </imprint>
+                </monogr>
+                <series>
+                    <title>II Série</title>
+                </series>
+            </biblStruct>
+            <ptr target="data/standoff/standoff-persons.xml"/>
+            <ptr target="data/standoff/standoff-places.xml"/>
+            <ptr target="data/standoff/standoff-events.xml"/>
+            <ptr target="data/standoff/standoff-orgs.xml"/>
+            <ptr target="data/standoff/standoff-relations.xml"/>
+        </sourceDesc>
+    </fileDesc>
+    
+    <encodingDesc>
+        <projectDesc>
+            <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+        </projectDesc>
+        <appInfo>
+            <application ident="Python_OCR_Tools" version="2.1">
+                <label>Ferramenta de OCR utilizada na transcrição</label>
+            </application>
+        </appInfo>
+    </encodingDesc>
+    
+    <profileDesc>
+        <langUsage>
+            <language ident="pt-BR">Português do Brasil</language>
+            <language ident="pt-BR">
+                Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+            </language>
+        </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
@@ -90,48 +103,58 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
-        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-07-28">28/07/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-10">10/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
     </teiHeader>
+
     <text>
         <body>
             <div type="letter" xml:id="CV-155">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Foi presente a <choice><abbr>S. Ex.ª</abbr><expan>Sua Excelência</expan></choice>, o <persName ref="#gomes_jardim"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Vice-Presidente do Estado</persName>, o ofício que <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> dirigiu ao <persName ref="#bento_goncalves"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General-em-chefe</persName>, com data de 20 do corrente, do qual ficou <choice><abbr>S. Ex.ª</abbr><expan>Sua Excelência</expan></choice> inteirado.</p>
-                
-                <p>Foram entregues os quatro infantes e as quatorze armas descompostas que trouxe o <persName ref="#francisco_pinto_silva">Tenente Francisco Pinto da Silva</persName>, o qual regressa conduzindo, a entregar a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, 50 peças de belbute, 80 ditas de chitão, 100 ditas de morim, 60 ditas de algodão, 4 ditas de panos finos, 10 ditas de brim e 16 ditas de baetas, 45 libras de linhas, 36 clavinas, 9870 cartuchos embalados e 100 pederneiras, não indo as espadas que requisita por não haver nenhuma.</p>
-                
-                <p>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>. Quartel-general em <placeName ref="#bage">Bagé</placeName>, <date when="1841-12-25">25 de dezembro de 1841</date>.</p>
-                
-                <p>Ao cidadão <persName ref="#joao_antonio_silveira">General João Antônio da Silveira</persName>,  
-                    Chefe do 1.º Corpo de Exército.</p>
+                <p>Foi presente a <choice><abbr>S. Ex.ª</abbr><expan>Sua Excelência</expan></choice>, 
+                    o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Vice-Presidente do Estado, 
+                    o ofício que <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> dirigiu ao 
+                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General-em-chefe, 
+                    com data de <date when="1841-12-20">20 do corrente</date>, do qual ficou 
+                    <choice><abbr>S. Ex.ª</abbr><expan>Sua Excelência</expan></choice> inteirado.
+                    Foram entregues os quatro infantes e as quatorze armas descompostas que trouxe o 
+                    <persName ref="#francisco_pinto_silva">Tenente Francisco Pinto da Silva</persName>, o qual regressa conduzindo, 
+                    a entregar a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, 50 peças de belbute, 80 ditas de 
+                    chitão, 100 ditas de morim, 60 ditas de algodão, 4 ditas de panos finos, 10 ditas de brim e 16 ditas de baetas, 
+                    45 libras de linhas, 36 clavinas, 9870 cartuchos embalados e 100 pederneiras, não indo as espadas que requisita por 
+                    não haver nenhuma.</p>
                 
                 <closer>
-                    <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
-                    <signed>1.º Deputado do <persName ref="#bento_goncalves">General Chefe do Estado-maior do Exército</persName></signed>
+                    <salute>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.</salute>
+                    <dateline>Quartel-general em <placeName ref="#bage">Bagé</placeName>, <date when="1841-12-25">25 de dezembro de 1841</date>.</dateline>
+                    <addressee>Ao cidadão <persName ref="#joao_antonio_silveira">General João Antônio da Silveira</persName>,  
+                        Chefe do <orgName ref="#corpo_exercito_1">1.º Corpo de Exército</orgName>.</addressee>
+                    <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
+                        1.º Deputado do General Chefe do Estado-maior do Exército</signed>
                 </closer>
 
-                <note type="endorsement">
+                <note type="endorsement" place="verso">
                     <choice>
                         <abbr>S. R.</abbr>
                         <expan><orgName ref="#secretaria_presidencia_republica">Secretaria da Presidência da República</orgName></expan>
                     </choice>
                     
-                    <note type="source">[No verso]</note>
-                    
                     Ao cidadão <persName ref="#joao_antonio_silveira">General João Antônio da Silveira</persName>,  
-                    Chefe do 1.º Corpo de Exército.  
+                    Chefe do <orgName ref="#corpo_exercito_1">1.º Corpo de Exército</orgName>.  
                     <placeName ref="#rosario_do_sul">Rosário</placeName>.  
                     Do 1.º Deputado do <persName ref="#bento_goncalves">General Chefe do Estado-maior do Exército</persName>.
                 </note>

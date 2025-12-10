@@ -117,7 +117,7 @@
             <div type="letter" xml:id="CV-61">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Em virtude das ordens de <choice><abbr>V.Ex.</abbr><expan>Vossa Excelência</expan></choice>º, fiz seguir hoje o 
@@ -133,7 +133,7 @@
                 
                 <closer>
                     <dateline><placeName ref="#santo_amaro">Santo Amaro</placeName>, <date when="1840-06-13">13 de junho de 1840</date>.</dateline>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#manuel_jorge_rodrigues">Manuel Jorge Rodrigues</persName>, Tenente-general Comandante-em-chefe do Exército.</salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#manuel_jorge_rodrigues">Manuel Jorge Rodrigues</persName>, Tenente-general Comandante-em-chefe do Exército.</salute>
                     <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
                     <signed>Tenente-coronel.</signed>
                 </closer>

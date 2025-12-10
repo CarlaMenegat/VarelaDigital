@@ -47,7 +47,7 @@
             <div xml:id="CV-485" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Por virtude de sua oficiosa de 15 do corrente, incluso lhe remeto uma portaria para, na apresentação dela ao cidadão <persName ref="#comissario_geral_exercito">Comissário Geral do Exército</persName>, serem entregues ao negociante <persName ref="#francisco_nault">Francisco Nault</persName> os quarenta couros que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> requisitou, a fim de continuar a ser sua família socorrida pelo dito negociante, e marchar <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> sem demora para este campo.</p>
@@ -59,7 +59,7 @@
                 </closer>
                 
                 <address>
-                    <persName ref="#jose_amancio_jambeiro">Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Capitão José Amâncio Jambeiro</persName><br/>
+                    <persName ref="#jose_amancio_jambeiro"><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Capitão José Amâncio Jambeiro</persName><br/>
                     <placeName ref="#piratini">Piratini</placeName>
                 </address>
                 

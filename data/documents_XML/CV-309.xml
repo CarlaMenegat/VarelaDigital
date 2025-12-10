@@ -49,7 +49,7 @@
             <div type="letter" xml:id="CV-309">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Da autêntica junta tem <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> solução de seu ofício de 9 do corrente, e logo que se exare a reclamação da tropa sequestrada em <placeName ref="#sao_frutuoso">S. Frutuoso</placeName> lhe enviarei cópia para sua inteligência. Outra vez reitero o pedido da informação acerca do lugar apto para a criação de uma só <orgName ref="#mesa_fiscal">mesa fiscal</orgName> em todo o <placeName ref="#uruguai_regiao">Uruguai</placeName>.</p>
@@ -60,10 +60,10 @@
                     <signed>Domingos José de Almeida</signed>
                 </closer>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>, Chefe Geral de Polícia do município de <placeName ref="#alegrete">Alegrete</placeName>.</p>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>, Chefe Geral de Polícia do município de <placeName ref="#alegrete">Alegrete</placeName>.</p>
                 
                 <note type="endorsement"><choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice></note>
-                <note type="endorsement">Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Joaquim dos Santos Prado Lima. Chefe Geral de Polícia do município de Alegrete. Do Ministério da Fazenda.</note>
+                <note type="endorsement"><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Joaquim dos Santos Prado Lima. Chefe Geral de Polícia do município de Alegrete. Do Ministério da Fazenda.</note>
                 <note type="endorsement">Respondido a 29 de maio de 1839. Almeida.</note>
                 <note type="endorsement">Caçapava — São Gabriel.</note>
                 

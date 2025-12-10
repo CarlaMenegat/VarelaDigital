@@ -117,7 +117,7 @@
             <div type="letter" xml:id="CV-100">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Por ordem que tive do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante Superior 
@@ -144,7 +144,7 @@
                     <placeName ref="#passo_mampituba">Passo do [Mampituba]</placeName>, <date when="1839-02-07">7 de fevereiro de 1839</date>.</p>
                 
                 <closer>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#rodrigo_antonio_silva">Rodrigo Antônio da Silva</persName>, capitão em diligência.</salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#rodrigo_antonio_silva">Rodrigo Antônio da Silva</persName>, capitão em diligência.</salute>
                     <note>N.B. — Os cavalos que <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> mandar é para tomar o ponto do passo da Lagoa que assim determina <choice><abbr>S.Ex.ª</abbr><expan>Sua Excelência</expan></choice>.</note>
                     <signed>(a) <persName ref="#paulo_pereira_silva_alano">Paulo Pereira da Silva Alano</persName>, Sargento-maior encarregado.</signed>
                 </closer>

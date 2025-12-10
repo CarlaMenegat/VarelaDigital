@@ -395,7 +395,7 @@
         <relation
             name="hrao:compadreOf"
             active="#jose_mariano_matos"
-            passive="#antonio_abreu"
+            passive="#antonio_jose_abreu"
             mutual="true"/>
         
         <relation
@@ -2883,5 +2883,569 @@
         name="foaf:knows"
         active="#antonio_jose_abreu"
         passive="#jose_mariano_matos"
+        mutual="true"/>
+    
+    <relation
+        name="rel:childOf"
+        active="#vasco_ribeiro_silva"
+        passive="#serafim_silva_ribeiro"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#serafim_silva_ribeiro"
+        passive="#inacio_guimaraes"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#joao_antonio_silveira"
+        passive="#francisco_pinto_silva"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#francisco_pinto_silva"
+        passive="#serafim_alencastre"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#jose_mariano_matos"
+        passive="#joao_antonio_silveira"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#serafim_alencastre"
+        passive="#jose_mariano_matos"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows" 
+        active="#serafim_alencastre" 
+        passive="#oliverio_ortiz"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows" 
+        active="#serafim_alencastre" 
+        passive="#hildebrando_freitas_pedroso"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows" 
+        active="#serafim_alencastre" 
+        passive="#chagas"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows" 
+        active="#serafim_alencastre" 
+        passive="#tenente_ferreira"
+        mutual="true"/>
+    
+    <relation 
+        name="rel:childOf" 
+        active="#bruto_almeida" 
+        passive="#domingos_jose_almeida"/>
+    
+    <relation 
+        name="rel:childOf" 
+        active="#bruto_almeida" 
+        passive="#bernardina_barcelos_almeida"/>
+    
+    <relation 
+        name="rel:childOf" 
+        active="#abrilina_almeida" 
+        passive="#domingos_jose_almeida"/>
+    
+    <relation 
+        name="rel:childOf" 
+        active="#abrilina_almeida" 
+        passive="#bernardina_barcelos_almeida"/>
+    
+    <relation 
+        name="rel:spouseOf" 
+        active="#domingos_jose_almeida" 
+        passive="#bernardina_barcelos_almeida" 
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows" 
+        active="#manuel_antunes_porciuncula" 
+        passive="#bento_goncalves"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows" 
+        active="#batista_fernandes" 
+        passive="#bernardina_barcelos_almeida"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows" 
+        active="#leao_prospero_chastan" 
+        passive="#bento_goncalves"
+        mutual="true"/>
+    
+    <relation
+        name="hrao:socialKinship"
+        active="#batista_fernandes"
+        passive="#bernardina_barcelos_almeida"/>
+    
+    <relation
+        name="hrao:brotherInLawOf"
+        active="#manuel_antunes_porciuncula"
+        passive="#bento_goncalves"/>
+    
+    <relation 
+        name="hrao:compadreOf" 
+        active="#bernardina_barcelos_almeida" 
+        passive="#jose_felix"/>
+    
+    <relation 
+        name="hrao:compadreOf" 
+        active="#jose_felix" 
+        passive="#bernardina_barcelos_almeida"/>
+    
+    <relation 
+        name="hrao:compadreOf" 
+        active="#bernardina_barcelos_almeida" 
+        passive="#rolino_pereira_barros"/>
+    
+    <relation 
+        name="hrao:compadreOf" 
+        active="#rolino_pereira_barros" 
+        passive="#bernardina_barcelos_almeida"/>
+    
+    <relation
+        name="hrao:hasKinship"
+        type="maternalUncle"
+        active="#boaventura_rodrigues_barcelos"
+        passive="#bernardina_barcelos_almeida"/>
+    
+    <relation
+        name="hrao:hasKinship"
+        type="niece"
+        active="#bernardina_barcelos_almeida"
+        passive="#boaventura_rodrigues_barcelos"/>
+    
+    <relation
+        name="hrao:hasKinship"
+        active="#luis_azevedo"
+        passive="#boaventura_rodrigues_barcelos"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#luis_azevedo"
+        passive="#domingos_jose_almeida"
+        mutual="true"/>
+    
+    <relation
+        name="hrao:hasKinship"
+        active="#luis_azevedo"
+        passive="#bernardina_barcelos_almeida"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows" 
+        active="#bernardina_barcelos_almeida" 
+        passive="#bento_manoel"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows" 
+        active="#bento_manoel" 
+        passive="#bernardina_barcelos_almeida"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows" 
+        active="#bento_goncalves" 
+        passive="#antonio_jose_goncalves_chaves" 
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#domingos_jose_almeida"
+        passive="#antonio_sousa_neto"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#domingos_jose_almeida"
+        passive="#domingos_crescencio_carvalho"
+        mutual="true"/>
+    
+    <relation 
+        name="hrao:hasSocialKinship"
+        active="#bernardina_barcelos_almeida"
+        passive="#bento_goncalves"
+        mutual="true">
+        <desc>Compadres</desc>
+    </relation>
+    
+    <relation 
+        name="hrao:hasSocialKinship"
+        active="#domingos_jose_almeida"
+        passive="#bento_goncalves"
+        mutual="true">
+        <desc>Compadres</desc>
+    </relation>
+    
+    <relation
+        name="foaf:knows"
+        active="#joao_jose_victorica"
+        passive="#domingos_jose_almeida"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#fructuoso_rivera"
+        passive="#domingos_jose_almeida"
+        mutual="true"/>
+    
+    <relation 
+        name="prov:actedOnBehalfOf"
+        active="#joao_cunha"
+        passive="#domingos_jose_almeida"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#domingos_jose_almeida"
+        passive="#bernardo_pires"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#bernardo_pires"
+        passive="#bernardina_barcelos_almeida"
+        mutual="true"/>
+    
+    <relation
+        name="hrao:hasSocialKinship"
+        active="#joao_antonio_compa"
+        passive="#domingos_jose_almeida"
+        mutual="true">
+        <desc>Compadres</desc>
+    </relation>
+    
+    <relation
+        name="hrao:hasSocialKinship"
+        active="#joao_antonio_compa"
+        passive="#bernardina_barcelos_almeida"
+        mutual="true">
+        <desc>Compadres</desc>
+    </relation>
+    
+    <relation
+        name="hrao:hasKinship"
+        active="#luis_rodrigues_barcelos"
+        passive="#bernardina_barcelos_almeida">
+        <desc>Tio de Bernardina Barcelos de Almeida</desc>
+    </relation>
+    
+    <relation 
+        name="hrao:hasKinship"
+        active="#joaquim_barcelos"
+        passive="#bernardina_barcelos_almeida"
+        mutual="true">
+        <desc>Irmãos</desc>
+    </relation>
+    
+    <relation 
+        name="rel:childOf"
+        active="#custodia_almeida"
+        passive="#domingos_jose_almeida"/>
+    
+    <relation 
+        name="rel:childOf"
+        active="#custodia_almeida"
+        passive="#bernardina_barcelos_almeida"/>
+    
+    <relation 
+        name="rel:childOf"
+        active="#pelopidas_almeida"
+        passive="#domingos_jose_almeida"/>
+    
+    <relation 
+        name="rel:childOf"
+        active="#pelopidas_almeida"
+        passive="#bernardina_barcelos_almeida"/>
+    
+    <relation 
+        name="hrao:hasKinship"
+        active="#jose_rodrigues_barcelos"
+        passive="#bernardina_barcelos_almeida"
+        mutual="true">
+        <desc>Tio e sobrinha</desc>
+    </relation>
+    
+    <relation 
+        name="foaf:knows"
+        active="#merenciana"
+        passive="#augusto"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#merenciana"
+        passive="#jose_rodrigues_barcelos"
+        mutual="true"/>
+    
+    <relation 
+        name="hrao:hasKinship"
+        active="#bernardino_rodrigues_barcelos_filho"
+        passive="#bernardina_barcelos_almeida"
+        mutual="true">
+        <desc>Irmãos</desc>
+    </relation>
+    
+    <relation 
+        name="rel:parentOf"
+        active="#bernardino_rodrigues_barcelos_pai"
+        passive="#bernardina_barcelos_almeida"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#bernardina_barcelos_almeida"
+        passive="#hildebrando_freitas_pedroso"
+        mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#bernardina_barcelos_almeida"
+        passive="#prudencio"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#prudencio"
+        passive="#domingos_jose_almeida"
+        mutual="true"/>
+    
+    <relation 
+        name="rel:childOf"
+        active="#mingote"
+        passive="#domingos_jose_almeida"/>
+    
+    <relation 
+        name="rel:childOf"
+        active="#mingote"
+        passive="#bernardina_barcelos_almeida"/>
+    
+    <relation 
+        name="rel:childOf"
+        active="#bernardino_almeida"
+        passive="#domingos_jose_almeida"/>
+    
+    <relation 
+        name="rel:childOf"
+        active="#bernardino_almeida"
+        passive="#bernardina_barcelos_almeida"/>
+
+    <relation
+        name="foaf:knows"
+        active="#joao_antonio_compa"
+        passive="#domingos_jose_almeida"
+        mutual="true"/>
+
+    <relation
+        name="foaf:knows"
+        active="#joao_antonio_compa"
+        passive="#bernardina_barcelos_almeida"
+        mutual="true"/>
+    
+    <relation
+        name="schema:creditor"
+        active="#domingos_jose_almeida"
+        passive="#joao_alexandre"/>
+    
+    <relation
+        name="schema:creditor"
+        active="#domingos_jose_almeida"
+        passive="#republica_rio_grandense"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#domingos_jose_almeida"
+        passive="#mateus_gomes"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#antonio_jose_goncalves_chaves"
+        passive="#mateus_gomes"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        mutual="true"
+        active="#xavier_ferreira"
+        passive="#domingos_jose_almeida"/>
+    
+    <relation 
+        name="hrao:hasSocialKinship"
+        mutual="true"
+        active="#rolino_pereira_barros"
+        passive="#domingos_jose_almeida">
+        <desc>Compadres</desc>
+    </relation>
+    
+    <relation 
+        name="hrao:hasSocialKinship"
+        mutual="true"
+        active="#rolino_pereira_barros"
+        passive="#bernardina_barcelos_almeida">
+        <desc>Compadres</desc>
+    </relation>
+    
+    <relation 
+        name="foaf:knows"
+        active="#filipe_funcionario"
+        passive="#domingos_jose_almeida"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#filipe_funcionario"
+        passive="#bernardina_barcelos_almeida"
+        mutual="true"/>
+    
+    <relation
+        name="hrao:hasKinship"
+        active="#cipriano_rodrigues_barcelos"
+        passive="#bernardina_barcelos_almeida">
+        <desc>Tio</desc>
+    </relation>
+    
+    <relation
+        name="hrao:hasKinship"
+        active="#cipriano_joaquim_rodrigues_barcelos"
+        passive="#bernardina_barcelos_almeida">
+        <desc>Primos</desc>
+    </relation>
+    
+    <relation
+        name="rel:parentOf"
+        active="#joaquim_rodrigues_barcelos"
+        passive="#cipriano_joaquim_rodrigues_barcelos"/>
+    
+    <relation 
+        name="hrao:hasSocialKinship"
+        active="#jose_felix"
+        passive="#domingos_jose_almeida"
+        mutual="true">
+        <desc>Compadres</desc>
+    </relation>
+    
+    <relation 
+        name="hrao:hasSocialKinship"
+        active="#jose_felix"
+        passive="#bernardina_barcelos_almeida"
+        mutual="true">
+        <desc>Compadres</desc>
+    </relation>
+    
+    <relation 
+        name="foaf:knows"
+        active="#manuel_barcelos"
+        passive="#domingos_jose_almeida"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#manuel_barcelos"
+        passive="#bernardina_barcelos_almeida"
+        mutual="true"/>
+    
+    <relation 
+        name="hrao:hasKinship"
+        active="#francisco_rodrigues_barcelos"
+        passive="#bernardina_barcelos_almeida"
+        mutual="true">
+        <desc>Tio e sobrinha</desc>
+    </relation>
+    
+    <relation 
+        name="foaf:knows"
+        active="#domingos_jose_almeida"
+        passive="#leao_prospero_chastan"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#jose_pedro"
+        passive="#bernardina_barcelos_almeida"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#jose_pedro"
+        passive="#domingos_jose_almeida"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#jose_vieira_viana"
+        passive="#domingos_jose_almeida"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#domingos_jose_almeida"
+        passive="#jose_vieira_viana"
+        mutual="true"/>
+    
+    <relation 
+        name="schema:businessPartner"
+        active="#domingos_jose_almeida"
+        passive="#jose_vieira_viana"
+        mutual="true"/>
+    
+    <relation 
+        name="hrao:hasSocialKinship"
+        active="#belchior"
+        passive="#domingos_jose_almeida"
+        mutual="true">
+        <desc>Compadres</desc>
+    </relation>
+    
+    <relation 
+        name="foaf:knows"
+        active="#belchior"
+        passive="#bernardina_barcelos_almeida"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#travassos"
+        passive="#domingos_jose_almeida"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#baltasar"
+        passive="#domingos_jose_almeida"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#baltasar"
+        passive="#belchior"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#pimenta"
+        passive="#cipriano_joaquim_rodrigues_barcelos"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#pimenta"
+        passive="#domingos_jose_almeida"
         mutual="true"/>
 </TEI>

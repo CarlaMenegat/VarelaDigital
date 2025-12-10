@@ -47,7 +47,7 @@
                 
                 <!-- Ofício -->
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Para <persName ref="#luis_francisco_cunha">Luís Francisco da Cunha</persName>, cabo do <orgName ref="#4_batalhao">4.º Batalhão</orgName> e ordenança desta Secretaria, andar com mais alguma decência, mande <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> dar-lhe duas camisas, duas calças e duas ceroulas, ou fazendas para tais objetos.</p>
@@ -57,7 +57,7 @@
                     <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
                 </closer>
                 
-                <signed>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#bernardo_jose_rodrigues_filho">Bernardo José Rodrigues Filho</persName>, 1.º Deputado do Quartel-mestre-general.</signed>
+                <signed><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#bernardo_jose_rodrigues_filho">Bernardo José Rodrigues Filho</persName>, 1.º Deputado do Quartel-mestre-general.</signed>
                 
                 <!-- Recibo anexo -->
                 <div type="receipt">
@@ -67,7 +67,7 @@
                 </div>
                 
                 <note type="endorsement">
-                    <choice><abbr>S. R.</abbr><expan>Secretaria da Presidência da República</expan></choice> — Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#bernardo_jose_rodrigues_filho">Bernardo José Rodrigues Filho</persName>, 1.º Deputado do Quartel-mestre-general. S/Q — Do Ministério da Fazenda.
+                    <choice><abbr>S. R.</abbr><expan>Secretaria da Presidência da República</expan></choice> — <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#bernardo_jose_rodrigues_filho">Bernardo José Rodrigues Filho</persName>, 1.º Deputado do Quartel-mestre-general. S/Q — Do Ministério da Fazenda.
                 </note>
                 
                 <note type="endorsement">

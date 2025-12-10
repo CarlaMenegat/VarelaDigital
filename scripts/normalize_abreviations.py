@@ -39,6 +39,14 @@ ABBREVIATIONS = [
     # Secretaria da Presidência da República (já usávamos)
     (re.compile(r'(?<!<abbr>)(S\.?\s*da\s*R\.?|S\.?\s*R\.)(?!</abbr>)'), 
      "Secretaria da Presidência da República"),
+    
+    # Ilmo. → Ilustríssimo
+    (re.compile(r'(?<!<abbr>)(Ilmo\.)(?!</abbr>)'),
+        "Ilustríssimo"),
+
+    # Exmo. → Excelentíssimo
+    (re.compile(r'(?<!<abbr>)(Exmo\.)(?!</abbr>)'),
+        "Excelentíssimo"),
 ]
 
 def make_choice(abbr, expan):

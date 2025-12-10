@@ -117,10 +117,10 @@
             <div type="letter" xml:id="CV-91">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Tive ordem do Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Brigadeiro <persName ref="#bento_manoel">Bento Manuel Ribeiro</persName>, 
+                <p>Tive ordem do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Brigadeiro <persName ref="#bento_manoel">Bento Manuel Ribeiro</persName>, 
                     bocalmente, para remeter preso <persName ref="#sezefredo_nunes">Sezefredo Nunes</persName> à brigada de 
                     <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>, dizendo-me que a parte já tinha seguido e por isso é 
                     que não acompanha o preso, que remeto a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> nesta ocasião 
@@ -141,13 +141,13 @@
                     Quartel em <placeName ref="#alegrete">Alegrete</placeName>, <date when="1837-12-16">16 de dezembro de 1837</date>.</p>
                 
                 <closer>
-                    <signed>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</signed>
+                    <signed><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</signed>
                     <signed>Coronel Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</signed>
                     <signed>(a) <persName ref="#jose_inacio_silva_abreu">José Inácio da Silva Abreu</persName>.</signed>
                     <signed>Tenente-coronel Comandante Interino da Fronteira.</signed>
                 </closer>
                 
-                <note type="endorsement">Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>, Coronel Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>. Do Tenente-coronel Comandante Interino da Fronteira. Respondido.</note>
+                <note type="endorsement"><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>, Coronel Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>. Do Tenente-coronel Comandante Interino da Fronteira. Respondido.</note>
                 
             </div>
         </body>

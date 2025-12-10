@@ -45,7 +45,7 @@
             <div type="letter" xml:id="CV-362">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Depois de minha chegada nesta é que recebi os dois ofícios que <choice><abbr>V.Sª</abbr><expan>Vossa Senhoria</expan></choice> a 18 do corrente me dirigiu da <placeName ref="#boca_do_monte">Boca do Monte</placeName>; e a eles vou responder.</p>
@@ -62,7 +62,7 @@
                         (a) <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>.</signed>
                 </closer>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Cel. <persName ref="#joao_antonio_da_silveira">João Antônio da Silveira</persName>. Comandante da Divisão da Direita.</p>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Cel. <persName ref="#joao_antonio_da_silveira">João Antônio da Silveira</persName>. Comandante da Divisão da Direita.</p>
                 
             </div>
         </body>

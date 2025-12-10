@@ -117,7 +117,7 @@
             <div type="letter" xml:id="CV-78">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Achando-se a polícia de <placeName ref="#jaguarao">Jaguarão</placeName> sitiada pelos rebeldes, cumpre que <choice><abbr>V.Sᵃ.</abbr><expan>Vossa Senhoria</expan></choice> mande 
@@ -132,7 +132,7 @@
                 <p>Deus guarde a V.Sᵃ.. <placeName ref="#passo_maria_gomes">Passo da Maria Gomes</placeName>, 
                     <date when="1844-06-23">23 de junho de 1844</date>.</p>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName>.<br/>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName>.<br/>
                     Tenente-coronel Comandante da Guarnição de <placeName ref="#pelotas">Pelotas</placeName>.</p>
                 
                 <p>A infantaria deve ficar em <placeName ref="#jaguarao">Jaguarão</placeName> até segunda ordem ou que cheguem as praças que o vá render.</p>

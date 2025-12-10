@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Declaração pública CV-179 – O cidadão Domingos José de Almeida aos seus compatriotas</title>
                 <author>Domingos José de Almeida</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-08-02">02 de agostode 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 manifesto</extent>
+                <measure type="pages">13</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -80,6 +86,12 @@
         </encodingDesc>
         
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <textClass>
                 <keywords scheme="genre">
                     <term>manifesto político</term>
@@ -92,121 +104,121 @@
                     <term>denúncia pública</term>
                 </keywords>
             </textClass>
-            
             <creation>
                 <date when="1835">1835</date>
                 <placeName ref="#porto_alegre">Porto Alegre</placeName>
             </creation>
-            
-            <langUsage>
-                <language ident="pt">Português</language>
-            </langUsage>
         </profileDesc>
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-08-02">02/08/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-10">10/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
     </teiHeader>
-<text>
-    <body>
-        
-        <div type="public-declaration" xml:id="CV-179">
+
+    <text>
+        <body>
             
-            <head>O cidadão Domingos José de Almeida a seus compatriotas</head>
-            
-            <docImprint>
-                Porto Alegre, 1835: Tipografia de V. F. de Andrade, Rua da Ponte.
-            </docImprint>
-            
-            <p><hi rend="bold">RIO-GRANDENSES!</hi> Para que nossos irmãos das mais províncias do
-                Império possam avaliar a índole desse partido feroz e perverso que sustentava
-                e dirigia a administração do 
-                <persName ref="#braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Antônio Rodrigues Fernandes Braga</persName>,
-                que vossas virtudes e vosso patriotismo acaba de suplantar, vou patentear os
-                motivos que originaram minha prisão e quanto ocorreu nos tormentosos
-                dezessete dias que jazi encerrado na estreita câmara da escuna de guerra
-                <placeName ref="#escuna_19_outubro">“19 de Outubro”</placeName>,
-                a fim de verdes com horror a sorte que vos esperava, se o gênio tutelar do Brasil
-                desamparasse a Santa Causa que defendeis.</p>
-            
-            <p>Assaz conhecedor de vossa justa indignação contra uma administração
-                anti-nacional, despótica, turbulenta e dissipadora, qual a do 
-                <persName ref="#braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Braga</persName>, apenas
-                soube dos movimentos de 
-                <date when="1835-09-20">20 de setembro</date>
-                na capital, me alistei nas vossas fileiras,
-                protestando morrer convosco, ou salvar a Pátria dos monstros que a oprimiam.</p>
-            
-            <p>Firme neste propósito e seguro dos sentimentos dos oficiais e guardas nacionais
-                do meu comando, do patriotismo dos beneméritos 
-                <persName ref="#major_pinto">Major Pinto</persName>,
-                <persName ref="#capitao_pinto">Capitão Pinto</persName>,
-                <persName ref="#tenente_pinto">Tenente Pinto</persName>,
-                e 
-                <persName ref="#alferes_felizardo">Alferes Felizardo</persName>,
-                da infantaria da cidade de 
-                <placeName ref="#pelotas">Pelotas</placeName>,
-                e mais que tudo do brasileirismo do 
-                <persName ref="#jose_jeronimo_amaral">Major José Jerônimo do Amaral</persName>,
-                oficiais e guardas nacionais do esquadrão do seu comando, lançara os primeiros
-                traços do plano a seguir, para embotar de pronto as insídias do 
-                <persName ref="#braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Braga</persName>,
-                caso no inútil esforço de resistência nos quisesse envolver nos horrores da
-                anarquia, quando, encorajado o dito 
-                <persName ref="#braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Braga</persName> por conselhos recebidos no
-                <placeName ref="#rio_grande">Rio Grande</placeName>,
-                se apresenta na cidade de 
-                <placeName ref="#pelotas">Pelotas</placeName>,
-                digna colônia dos retrógados de nossa Província, desenrolando o estandarte da
-                guerra civil.</p>
-            
-            <p>Os morras rusguentos dados por… no desembarque do 
-                <persName ref="#braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Braga</persName>,
-                extremou no momento os partidos; e quando eu pensava nos meios de evitar
-                prematuros rompimentos, se me apresenta, pelas onze horas da noite, parte do
-                esquadrão do meu comando requisitando minha assistência para prenderem o
-                <persName ref="#braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Braga</persName>.</p>
-            
-            <p>Nada mais fácil na ocasião; porém também nada mais desairoso a liberais.
-                O caso se tornou sério à vista de razões que opus, e forçoso foi seguir um
-                arbítrio para prevenir desaguisados. Ocorreu-me a ideia de apresentar-me na
-                cidade com aquela força, e empenhar a Câmara para, com tal pretexto, rogar ao
-                <persName ref="#braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Braga</persName> a desistência de seus nulos projetos de resistência à vontade
-                da maioria da Província. Com estas vistas coloco-me à frente da força e apareço
-                na cidade…</p>
-            
-            <p>… onde logo se me reuniu parte da infantaria, major e oficiais da 
-                <orgName ref="#12_companhia_gn">12ª Companhia da Guarda Nacional</orgName>,
-                respirando também os desejos da prisão do 
-                <persName ref="#braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Braga</persName>.
-                Apareceu o juiz de direito enfadado demais, com gente armada, o
-                que lhe produziu vários — foras — que iria a mais, se eu não atalhasse, dando
-                vivas aos objetos da veneração dos brasileiros.</p>
-            
-            <p>Depois de mais acalmado o dito juiz, pude convencê-lo da necessidade de
-                uma conferência entre ele e mais algumas pessoas de conceito da cidade, a qual
-                teve lugar na sua própria casa. Nesta conferência se assentou que nada se
-                fizesse de representações ao 
-                <persName ref="#braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Braga</persName>,
-                que se tratasse somente da polícia do
-                município, para evitar desordens na crise em que nos achávamos, conservando-se
-                a cidade na expectativa, sem bandear-se a partidos para se não comprometer
-                ou chamar sobre si o ódio do vencedor…</p>
-            
-            <p>… e nada mais aspirando eu, por ter desta forma salvado vítimas, voltei
-                com meus companheiros, que fiz destroçar uma légua fora da cidade. Nesse
-                mesmo dia tive de arrepender-me de minha credulidade, pois me constou que se
-                projetava minha prisão e de meus camaradas, ao tempo que se preparavam,
-                fanaticamente, os da 
-                <hi rend="italic">boa ordem</hi>
-                <note type="sourceNote">Grifado no original.</note>
-                para engrossarem as fileiras do 
-                <persName ref="#major_marques">Major Marques</persName>,
-                primeira avançada do legalismo.</p>
+            <div type="public-declaration" xml:id="CV-179">
+                
+                <head>O cidadão Domingos José de Almeida a seus compatriotas</head>
+                
+                <docImprint>
+                    Porto Alegre, 1835: Tipografia de V. F. de Andrade, Rua da Ponte.
+                </docImprint>
+                
+                <p><hi rend="bold">RIO-GRANDENSES!</hi> Para que nossos irmãos das mais províncias do
+                    Império possam avaliar a índole desse partido feroz e perverso que sustentava
+                    e dirigia a administração do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                    <persName ref="#fernandes_braga"> Antônio Rodrigues Fernandes Braga</persName>,
+                    que vossas virtudes e vosso patriotismo acaba de suplantar, vou patentear os
+                    motivos que originaram minha prisão e quanto ocorreu nos tormentosos
+                    dezessete dias que jazi encerrado na estreita câmara da escuna de guerra
+                    <objectName ref="#escuna_19_outubro">“19 de Outubro”</objectName>,
+                    a fim de verdes com horror a sorte que vos esperava, se o gênio tutelar do Brasil
+                    desamparasse a Santa Causa que defendeis.</p>
+                
+                <p>Assaz conhecedor de vossa justa indignação contra uma administração
+                    anti-nacional, despótica, turbulenta e dissipadora, qual a do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    <persName ref="#fernandes_braga"> Braga</persName>, apenas
+                    soube dos movimentos de 
+                    <date when="1835-09-20">20 de setembro</date>
+                    na capital, me alistei nas vossas fileiras,
+                    protestando morrer convosco, ou salvar a Pátria dos monstros que a oprimiam.</p>
+                
+                <p>Firme neste propósito e seguro dos sentimentos dos oficiais e guardas nacionais
+                    do meu comando, do patriotismo dos beneméritos 
+                    <persName ref="#major_pinto">Major Pinto</persName>,
+                    <persName ref="#capitao_pinto">Capitão Pinto</persName>,
+                    <persName ref="#tenente_pinto">Tenente Pinto</persName>,
+                    e 
+                    <persName ref="#alferes_felizardo">Alferes Felizardo</persName>,
+                    da infantaria da cidade de 
+                    <placeName ref="#pelotas">Pelotas</placeName>,
+                    e mais que tudo do brasileirismo do 
+                    <persName ref="#jose_jeronimo_amaral">Major José Jerônimo do Amaral</persName>,
+                    oficiais e guardas nacionais do esquadrão do seu comando, lançara os primeiros
+                    traços do plano a seguir, para embotar de pronto as insídias do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    <persName ref="#fernandes_braga">Braga</persName>,
+                    caso no inútil esforço de resistência nos quisesse envolver nos horrores da
+                    anarquia, quando, encorajado o dito 
+                    <persName ref="#fernandes_braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Braga</persName> por conselhos recebidos no
+                    <placeName ref="#rio_grande">Rio Grande</placeName>,
+                    se apresenta na cidade de 
+                    <placeName ref="#pelotas">Pelotas</placeName>,
+                    digna colônia dos retrógados de nossa Província, desenrolando o estandarte da
+                    guerra civil.</p>
+                
+                <p>Os morras rusguentos dados por… no desembarque do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    <persName ref="#fernandes_braga">Braga</persName>,
+                    extremou no momento os partidos; e quando eu pensava nos meios de evitar
+                    prematuros rompimentos, se me apresenta, pelas onze horas da noite, parte do
+                    esquadrão do meu comando requisitando minha assistência para prenderem o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    <persName ref="#fernandes_braga">Braga</persName>.</p>
+                
+                <p>Nada mais fácil na ocasião; porém também nada mais desairoso a liberais.
+                    O caso se tornou sério à vista de razões que opus, e forçoso foi seguir um
+                    arbítrio para prevenir desaguisados. Ocorreu-me a ideia de apresentar-me na
+                    cidade com aquela força, e empenhar a Câmara para, com tal pretexto, rogar ao <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    <persName ref="#fernandes_braga">Braga</persName> a desistência de seus nulos projetos de resistência à vontade
+                    da maioria da Província. Com estas vistas coloco-me à frente da força e apareço
+                    na cidade…</p>
+                
+                <p>… onde logo se me reuniu parte da infantaria, major e oficiais da 
+                    <orgName ref="#12_companhia_gn">12ª Companhia da Guarda Nacional</orgName>,
+                    respirando também os desejos da prisão do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    <persName ref="#fernandes_braga">Braga</persName>.
+                    Apareceu o juiz de direito enfadado demais, com gente armada, o
+                    que lhe produziu vários — foras — que iria a mais, se eu não atalhasse, dando
+                    vivas aos objetos da veneração dos brasileiros.</p>
+                
+                <p>Depois de mais acalmado o dito juiz, pude convencê-lo da necessidade de
+                    uma conferência entre ele e mais algumas pessoas de conceito da cidade, a qual
+                    teve lugar na sua própria casa. Nesta conferência se assentou que nada se
+                    fizesse de representações ao <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    <persName ref="#fernandes_braga">Braga</persName>,
+                    que se tratasse somente da polícia do
+                    município, para evitar desordens na crise em que nos achávamos, conservando-se
+                    a cidade na expectativa, sem bandear-se a partidos para se não comprometer
+                    ou chamar sobre si o ódio do vencedor…</p>
+                
+                <p>… e nada mais aspirando eu, por ter desta forma salvado vítimas, voltei
+                    com meus companheiros, que fiz destroçar uma légua fora da cidade. Nesse
+                    mesmo dia tive de arrepender-me de minha credulidade, pois me constou que se
+                    projetava minha prisão e de meus camaradas, ao tempo que se preparavam,
+                    fanaticamente, os da 
+                    <hi rend="italic">boa ordem</hi>
+                    <note type="sourceNote">Grifado no original.</note>
+                    para engrossarem as fileiras do 
+                    <persName ref="#major_marques">Major Marques</persName>,
+                    primeira avançada do legalismo.</p>
                 
                 <p>Meus companheiros segunda vez me procuram, queixando-se de traição;
                     eu exijo explicações de um dos conferentes; esta se me dá desmentindo o
@@ -221,7 +233,7 @@
                     moço meu fâmulo, que dirigi ao 
                     <placeName ref="#arroio_grande">Arroio Grande</placeName>
                     quando concebi o plano de fazer com que o 
-                    <persName ref="#braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Braga</persName> desistisse da tentativa de resistências à vontade geral da
+                    <persName ref="#fernandes_braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Braga</persName> desistisse da tentativa de resistências à vontade geral da
                     Província, para fazer retirar a força nacional ali destacada, a fim de evitar
                     derramamento de sangue caso se topasse com a do 
                     <persName ref="#major_marques">Major Marques</persName>, estava
@@ -306,7 +318,7 @@
                     <hi rend="italic">boa ordem</hi>
                     <note type="sourceNote">Grifado no original.</note>,
                     defensores da administração do estultíssimo 
-                    <persName ref="#braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Braga</persName>!!!</p>
+                    <persName ref="#fernandes_braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Braga</persName>!!!</p>
                 
                 <p>Como assombrado, só de mim dei acordo quando metido no centro de uma
                     crescida reunião de gente boa e armada, que no largo do 
@@ -321,7 +333,7 @@
                         General Pantaleão Sotelo
                     </persName>
                     quando vendido para despojá-lo em 1820 — que pela do 
-                    <persName ref="#braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente</persName>.</p>
+                    <persName ref="#fernandes_braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente</persName>.</p>
                 
                 <p>Circulado de armas, ao primeiro conhecido com quem deparei, o 
                     <persName ref="#gerena"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Gerena</persName>,
@@ -404,7 +416,7 @@
                     <measure type="currency">50 patacões</measure>:
                     socorros que aceitei, prevendo já o destino que tinha a correr debaixo da
                     sanha do mais idiota e mau dos caudilhos, qual o 
-                    <persName ref="#braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Antônio Rodrigues Fernandes Braga</persName>.</p>
+                    <persName ref="#fernandes_braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Antônio Rodrigues Fernandes Braga</persName>.</p>
                 
                 <p>Pouco depois que largamos, os guardas nacionais da infantaria que me
                     custodiavam me participaram que o 
@@ -465,7 +477,7 @@
                 
                 <p>Todas, ou quase todas as conversações que comigo teve, rolaram sobre o
                     estado próspero dos defensores do 
-                    <persName ref="#braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Braga</persName>,
+                    <persName ref="#fernandes_braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Braga</persName>,
                     e qualquer poderá ajuizar do interesse que eu tomaria por essa horda indômita
                     e feroz.</p>
                 
@@ -519,7 +531,7 @@
                     <placeName ref="#pelotas">Pelotas</placeName>
                     outro fim não teve que ver se atalhava os horrores da anarquia, fazendo
                     conhecer ao 
-                    <persName ref="#braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente Braga</persName>
+                    <persName ref="#fernandes_braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente Braga</persName>
                     que sua tenacidade contra a opinião da maioria da Província, além de irrisória,
                     iria comprometer cidadãos pacíficos e acender rivalidades intermináveis e
                     ruinosas.</p>
@@ -538,7 +550,7 @@
                 <p>Enjoado de um diálogo alheio da questão, posto que suficiente a demonstrar-me
                     qual a causa de meus crimes e porque tanto se me oprimia, contestei que bastante
                     cego era todo aquele que, seguindo passo a passo a tortuosa administração do 
-                    <persName ref="#braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Braga</persName>,
+                    <persName ref="#fernandes_braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Braga</persName>,
                     não visse as raias a esbarrar, chamando contra si a vingança dos habitantes
                     de uma Província inteira, cansados de o sofrer e dispostos a resistir-lhe, se
                     indômito continuasse em desatinos…</p>
@@ -584,7 +596,7 @@
                 <p>No quinto dia de uma existência ali quase desanimada, pelas vivas expressões
                     de ver-me arrancado de minha casa, tratado de modo tão opressivo e vil,
                     e conduzido como troféu do 
-                    <persName ref="#braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Braga</persName>,
+                    <persName ref="#fernandes_braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Braga</persName>,
                     apareceu o 
                     <persName ref="#manuel_marques_sousa">
                         Major Manuel Marques de Sousa
@@ -630,7 +642,7 @@
                     expôs-me que, tendo o 
                     <persName ref="#manuel_gomes_silva"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Gomes</persName>
                     a indiscrição de dizer ao 
-                    <persName ref="#braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Braga</persName> 
+                    <persName ref="#fernandes_braga"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Braga</persName> 
                     que grande porção de cidadãos da cidade, e tropa, e o coronel, se achavam
                     impacientes à minha espera no trapiche, ordenara bocalmente ao comandante
                     para me não deixar seguir com o 

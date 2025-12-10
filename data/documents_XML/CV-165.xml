@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-165 – Bernardina Barcelos para Domingos José de Almeida</title>
                 <author>Bernardina Barcelos de Almeida</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-07-30">30 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -80,6 +86,12 @@
         </encodingDesc>
         
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#bernardina_barcelos_almeida">Bernardina</persName>
@@ -89,13 +101,15 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
-
-        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-07-30">30/07/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-10">10/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
@@ -105,21 +119,36 @@
         <body>
             <div type="letter" xml:id="CV-165">
                 
-                <p>À vista dos documentos juntos, que nos custou bastante a pilhar, verá o que ocorre por cá; é inútil sermos extensos em lhe manifestar o contentamento e alegria de toda esta gente quando receberam os ofícios do <persName ref="#bento_manoel">General Bento Manuel</persName>: houve suas iluminações por 15 ou 16 casas, foguetes, etc.; hoje um jantarão em casa de <persName ref="#boaventura_rodrigues_barcelos">B.R.B.</persName> em ações de graça, e da boa chegada de <persName ref="#melo">Major Melo</persName>: enfim, pouco a pouco, todos se chegam para combinar talvez novos planos; o que é certo é que [ilegível], o <persName ref="#antonio_jose_goncalves_chaves"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Chaves</persName>, o <persName ref="#bento_goncalves">Coronel Bento Gonçalves</persName> são da mesma panela, que este último é chefe de S...., etc. e outros epítetos agradáveis.</p>
+                <p>À vista dos documentos juntos, que nos custou bastante a pilhar, verá o que ocorre por cá; é inútil sermos extensos 
+                    em lhe manifestar o contentamento e alegria de toda esta gente quando receberam os ofícios do 
+                    <persName ref="#bento_manoel">General Bento Manuel</persName>: houve suas iluminações por 15 ou 16 casas, 
+                    foguetes, etc.; hoje um jantarão em casa de B.R.B. em 
+                    ações de graça, e da boa chegada de <persName ref="#agostinho_antonio_melo">Major Melo</persName>: enfim, pouco a pouco, todos se 
+                    chegam para combinar talvez novos planos; o que é certo é que <gap reason="illegible"/>, o 
+                    <persName ref="#antonio_jose_goncalves_chaves"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Chaves</persName>, 
+                    o Coronel <persName ref="#bento_goncalves">Bento Gonçalves</persName> são da mesma panela, que este último é chefe de S...., 
+                    etc. e outros epítetos agradáveis. A Câmara reuniu-se extraordinariamente ontem para abrir os ditos ofícios, porém por 
+                    ora não os fizeram públicos.</p>
                 
-                <p>A Câmara reuniu-se extraordinariamente ontem para abrir os ditos ofícios, porém por ora não os fizeram públicos.</p>
-                
-                <p>Afinal Vs. Mcês. são todos (na opinião desta gente) os que instigam para proclamar a República: porém que assim o querem porque não têm nada a perder, e outras invectivas sem fim. O seu amigo o <persName ref="#dr_joao">Doutor João</persName> teve a imprudência de dizer, em presença de várias pessoas, e mesmo do <persName ref="#joao_da_cunha"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> João da Cunha</persName>, que tinha esperanças de ver que, quando alguns regressassem para suas casas, achariam os seus bens em praça.</p>
-                
-                <p>Enfim falam com um gás que dá gosto. Tudo isto é assaz fastidioso, porém que lhe sirva de governo. Creia que cá lhes ficam poucos amigos sinceros.</p>
+                <p>Afinal Vs. Mcês. são todos (na opinião desta gente) os que instigam para proclamar a República: porém que assim o 
+                    querem porque não têm nada a perder, e outras invectivas sem fim. O seu amigo o Doutor 
+                    <pb n="1v"/>
+                    <seg type="folio">[1v.]</seg> 
+                    <persName ref="#dr_joao">João</persName> 
+                    teve a imprudência de dizer, em presença de várias pessoas, e mesmo do <persName ref="#joao_da_cunha"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> João da Cunha</persName>, 
+                    que tinha esperanças de ver que, quando alguns regressassem para suas casas, achariam os seus bens em praça. Enfim 
+                    falam com um gás que dá gosto. Tudo isto é assaz fastidioso, porém que lhe sirva de governo. Creia que cá lhes ficam 
+                    poucos amigos sinceros.</p>
                 
                 <p>Eu lhe peço que não volte por cá senão quando vir toda a segurança para o fazer.</p>
                 
-                <p>Segundo dizem, <persName ref="#domingos_crescencio_carvalho">Crescêncio</persName> e <persName ref="#antonio_sousa_neto">Neto</persName> são firmes.</p>
+                <p>Segundo dizem, <persName ref="#domingos_crescencio_carvalho">Crescêncio</persName> e 
+                    <persName ref="#antonio_sousa_neto">Neto</persName> são firmes.</p>
                 
                 <closer>
-                    <signed>(a) <persName ref="#bernardina_barcelos_almeida">Bernardina</persName></signed>
+                    <signed><persName ref="#bernardina_barcelos_almeida">Bernardina</persName></signed>
                 </closer>
+                
                 
             </div>
         </body>

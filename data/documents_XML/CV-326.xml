@@ -45,7 +45,7 @@
             <div type="letter" xml:id="CV-326">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Com demora extrema recebi seu ofício de 8 do corrente em que participa o desembarque de 200 infantes na <placeName ref="#barra_camaqua">barra do Camaquã</placeName>, e que sobre eles haviam saído o Tenente-coronel <persName ref="#teodoro_jose_ribeiro">Teodoro José Ribeiro</persName> e Major <persName ref="#urbano_soares">Urbano Soares</persName>; e como não tenha tido notícia alguma mais a tal respeito no decurso de 18 dias, presumo que eles terão regressado, e por isso deixo de tomar providências a respeito; contando porém que todas as ocorrências dessa parte <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> me participará sem demora e com as cautelas precisas para me chegarem às mãos com rapidez.</p>
@@ -55,7 +55,7 @@
                     <signed>Domingos José de Almeida</signed>
                 </closer>
                 
-                <note type="endorsement">Ofício do Exmo. Ministro da Guerra de 25 de agosto. Recebido a 17 de setembro e respondido a 19 do mesmo.</note>
+                <note type="endorsement">Ofício do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Ministro da Guerra de 25 de agosto. Recebido a 17 de setembro e respondido a 19 do mesmo.</note>
                 
             </div>
         </body>

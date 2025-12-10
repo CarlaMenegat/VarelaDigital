@@ -117,7 +117,7 @@
             <div type="letter" xml:id="CV-56">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>No dia 17 do corrente, às 4 horas da tarde, saí desta cidade com 90 homens de cavalaria e 60 e tantos de infantaria, 
@@ -154,7 +154,7 @@
                     Quartel em <placeName ref="#porto_alegre">Porto Alegre</placeName>, <date when="1839-09-21">21 de setembro de 1839</date>.</p>
                 
                 <closer>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#filipe_neri">Filipe Neri de Oliveira</persName>, Brigadeiro e Comandante da Brigada.</salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#filipe_neri">Filipe Neri de Oliveira</persName>, Brigadeiro e Comandante da Brigada.</salute>
                     <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
                     <note type="endorsement">Morte do Coronel José Manuel de Leão. [Apontamento a lápis na folha 1r.]</note>
                 </closer>

@@ -54,7 +54,7 @@
             <div type="letter" xml:id="CV-254">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                     <dateline>
                         <placeName ref="#piratini">Piratini</placeName>,
                         <date when="1838-09-04">4 de setembro de 1838</date>.
@@ -85,7 +85,7 @@
                 </closer>
                 
                 <note type="endorsement">
-                    Ofício do Exmo. Ministro da Fazenda de 4 de setembro, recebido a 
+                    Ofício do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Ministro da Fazenda de 4 de setembro, recebido a 
                     10 do mesmo, sobre o periódico.  
                     (Letra de <persName ref="#inacio_jose_guimaraes">Inácio José de Oliveira Guimarães</persName>)
                 </note>

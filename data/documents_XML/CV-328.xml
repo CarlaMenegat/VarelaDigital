@@ -48,7 +48,7 @@
             <div type="letter" xml:id="CV-328">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>O cidadão <persName ref="#silverio_jose_santos">Silvério José dos Santos</persName>, Tenente Quartel-mestre do <orgName ref="#guarda_nacional">Corpo de Guardas Nacionais</orgName> deste município, no entanto que não seja necessário ao dito Corpo fica empregado na <orgName ref="#comandancia_geral_policia">Secretaria da Comandância Geral de Polícia</orgName> deste mesmo município, em virtude de requisição que dele fez o respectivo Chefe Geral; o que comunico a <choice><abbr>V.Sª</abbr><expan>Vossa Senhoria</expan></choice> para sua inteligência.</p>
@@ -58,7 +58,7 @@
                     <signed>Domingos José de Almeida</signed>
                 </closer>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>. Comandante da Divisão da Direita.</p>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>. Comandante da Divisão da Direita.</p>
                 
             </div>
         </body>

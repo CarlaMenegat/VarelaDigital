@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-169 – Domingos José de Almeida para Bernardina</title>
                 <author>Domingos José de Almeida</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-08-01">01 de agostode 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -80,6 +86,12 @@
         </encodingDesc>
         
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
@@ -91,12 +103,15 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
-        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-08-01">01/08/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-10">10/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
@@ -108,22 +123,26 @@
                 
                 <p>Tenho passado sem maior novidade, apesar de grandes dores de cabeça ontem e hoje.</p>
                 
-                <p>Amanhã suponho se findam os nossos trabalhos eleitorais, e podendo ser pretendo regressar 5.º ou 6.º feira. Um abraço a nosso <persName ref="#mingote">Mingote</persName> e <persName ref="#bernardino_almeida">Bernardino</persName>, de quem tenho tido muitas saudades e tomara já apertar ao meu <persName ref="#mingote">Mingote</persName>.</p>
+                <p>Amanhã suponho se findam os nossos trabalhos eleitorais, e podendo ser pretendo regressar 
+                    5.º ou 6.º feira. Um abraço a nosso <persName ref="#mingote">Mingote</persName> e 
+                    <persName ref="#bernardino_almeida">Bernardino</persName>, de quem tenho tido muitas saudades e tomara 
+                    já apertar ao meu <persName ref="#mingote">Mingote</persName>.</p>
                 
                 <p>Recomendações à comadre, compadres e a todos em geral.</p>
                 
                 <closer>
-                    <signed>Teu velho do coração<br/>
-                        (a) <persName ref="#domingos_jose_almeida">Almeida</persName>.</signed>
+                    <salute>Teu velho do coração<br/></salute>
+                    <signed>
+                        <persName ref="#domingos_jose_almeida">Almeida</persName>.</signed>
                 </closer>
-                
-                <dateline>
-                    <placeName ref="#rio_grande">Rio Grande</placeName>,
-                    <date when="1828-10-21">21 de outubro de 1828</date>.
-                </dateline>
-                
+
                 <note type="endorsement" place="verso">
-                    <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> D. <persName ref="#bernardina_barcelos">Bernardina Barcelos de Almeida</persName>. Pelotas. [No verso]
+                    <dateline>
+                        <placeName ref="#rio_grande">Rio Grande</placeName>,
+                        <date when="1828-10-21">21 de outubro de 1828</date>.
+                    </dateline>
+                    <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> D. <persName ref="#bernardina_barcelos">Bernardina Barcelos de Almeida</persName>. 
+                    <placeName ref="#pelotas">Pelotas</placeName>.
                 </note>
                 
             </div>

@@ -51,7 +51,7 @@
             <div type="carta" xml:id="CV-275">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                     <dateline>
                         <placeName ref="#piratini">Piratini</placeName>,
                         <date when="1838-12-14">14 de dezembro de 1838</date>.
@@ -100,7 +100,7 @@
                 </closer>
                 
                 <note type="verso">
-                    Destinatário: Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General Bento Gonçalves da Silva,
+                    Destinatário: <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General Bento Gonçalves da Silva,
                     Presidente do Estado.
                 </note>
                 

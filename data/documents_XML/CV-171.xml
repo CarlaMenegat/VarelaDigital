@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-171 – Domingos José de Almeida para Bernardina</title>
                 <author>Domingos José de Almeida</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-08-01">01 de agostode 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -80,13 +86,18 @@
         </encodingDesc>
         
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     <placeName ref="#porto_alegre">Porto Alegre</placeName>
                     <date when="1835-04-19">19 de abril de 1835</date>
                 </correspAction>
-                
                 <correspAction type="received">
                     <persName ref="#bernardina_barcelos_de_almeida">Bernardina Barcelos de Almeida</persName>
                 </correspAction>
@@ -95,12 +106,17 @@
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-08-01">01/08/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-10">10/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
     </teiHeader>
+
         <text>
             <body>
                 <div type="letter" xml:id="CV-171">
@@ -117,24 +133,20 @@
                         que à meia-noite me dirigi para esta embarcado em um grande escaler,
                         no qual, a bom rumar, aqui aportei na madrugada de hoje, e logo pelas
                         nove horas me reuni à casa destinada para as sessões da 
-                        <orgName ref="#assembleia_geral_legislativa_rs">Assembléia</orgName>, 
-                        que hoje teve princípio.</p>
-                    
-                    <p>A cidade parece-me boa, mas eu suponho que pouco aqui me demorarei,
+                        <orgName ref="#assembleia_provincial_rs">Assembléia</orgName>, 
+                        que hoje teve princípio. A cidade parece-me boa, mas eu suponho que pouco aqui me demorarei,
                         e até já me arrependo de ter feito regressar os cavalos sem primeiro
                         sondar estes negócios, etc., etc..
                         Estou em uma famosa e grande casa por mim e por
-                        <persName ref="#xavier_ferreira">Xavier Ferreira</persName> somente habitada.</p>
-                    
-                    <p>Recomenda-me a todos os nossos, a quem inda não escrevo por não ter
-                        tempo, mas o farei pelo 
-                        <choice><abbr>[iate?]</abbr><expan>[iate?]</expan></choice>.
-                        Abraços aos nossos caros filhos e recebas o coração do</p>
+                        <persName ref="#xavier_ferreira">Xavier Ferreira</persName> somente habitada.
+                        Recomenda-me a todos os nossos, a quem inda não escrevo por não ter
+                        tempo, mas o farei pelo iate.
+                    </p>
                     
                     <closer>
-                        <signed>Teu velho que muito te ama<br/>(a) 
-                            <persName ref="#domingos_jose_almeida">Almeida</persName>
-                        </signed>
+                        <salute>Abraços aos nossos caros filhos e recebas o coração do <br/>
+                        Teu velho que muito te ama<br/></salute>
+                        <signed><persName ref="#domingos_jose_almeida">Almeida</persName></signed>
                     </closer>
                     
                 </div>

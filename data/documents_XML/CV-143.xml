@@ -121,7 +121,7 @@
         <body>
             <div type="letter" xml:id="CV-143">
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
@@ -149,11 +149,11 @@
                         <placeName ref="#cacapava">Caçapava</placeName>,
                         <date when="1840-03-21">21 de março de 1840</date>
                     </dateline>
-                    <addressee>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>.</addressee>
+                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>.</addressee>
                     <signed><persName ref="#alencastre">(a) Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
-                <note type="endorsement">
+                <note type="endorsement" place="verso">
                     <seg type="folio">[No verso]</seg>
                     
                     <p><choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice></p>
@@ -162,12 +162,12 @@
                         <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>,
                         Comandante da <orgName ref="#divisao_direita">Divisão Direita</orgName>.
                         Onde se achar.</p>
-                    
-                    <note type="editorial">
-                        Anexo a esse documento encontrava-se o ofício de <date when="1840-03-20">20 de março de 1840</date>
-                        do Capitão <persName ref="#fileno_oliveira_santos">Fileno de Oliveira Santos</persName> ao 
-                        <persName ref="#major_maximiano">Maximiano Rodrigues Fernandes</persName>.
-                    </note>
+                </note>
+                
+                <note type="editorial">
+                    Anexo a esse documento encontrava-se o ofício de <date when="1840-03-20">20 de março de 1840</date>
+                    do Capitão <persName ref="#fileno_oliveira_santos">Fileno de Oliveira Santos</persName> ao 
+                    <persName ref="#major_maximiano">Maximiano Rodrigues Fernandes</persName>.
                 </note>
                 
             </div>

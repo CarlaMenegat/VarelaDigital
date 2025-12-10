@@ -117,7 +117,7 @@
             <div type="letter" xml:id="CV-94">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p><persName ref="#lucio_antonio_santa_ana">Lúcio Antônio de Santa Ana</persName>, soldado do 
@@ -133,7 +133,7 @@
                     Acampamento na <placeName ref="#restinga_seca">Restinga Seca</placeName>, <date when="1841-12-08">8 de dezembro 1841</date>.</p>
                 
                 <closer>
-                    <signed>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#antonio_correia_seara">Antônio Correia Seara</persName>.</signed>
+                    <signed><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#antonio_correia_seara">Antônio Correia Seara</persName>.</signed>
                     <signed>Brigadeiro Comandante Interino das Forças em Operações.</signed>
                     <signed>(a) <persName ref="#francisco_manuel_accioli">Francisco Manuel Accioli</persName>.</signed>
                     <signed>Capitão Comandante Interino.</signed>

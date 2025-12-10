@@ -57,7 +57,7 @@
             <div type="officialDocument" xml:id="CV-246">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
@@ -82,7 +82,7 @@
                 </closer>
                 
                 <note type="endorsement">
-                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_prado_lima">Joaquim dos Santos Prado Lima</persName> — 
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_prado_lima">Joaquim dos Santos Prado Lima</persName> — 
                     Comandante Geral da Polícia do Município e Fronteira de 
                     <placeName ref="#alegrete">Alegrete</placeName>.
                 </note>

@@ -49,7 +49,7 @@
                 <head>Circular</head>
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Para a devida execução na parte que lhe toca, incluso lhe remeto 8 exemplares do decreto de 12 de dezembro próximo passado, pelo qual <choice><abbr>S.Ex.ª</abbr><expan>Sua Excelência</expan></choice>, o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Vice-presidente do Estado, para cortar a continuação dos males que tem reportado à República o trânsito livre de nossos inimigos, houve por bem ordenar que de 12 de abril próximo vindouro em diante, à exceção dos indivíduos do exército, ninguém mais a percorra sem passaportes impressos.</p>
@@ -60,9 +60,9 @@
                         (a) <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName></signed>
                 </closer>
                 
-                <p>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>, Chefe de Polícia do departamento do Boqueirão.</p>
+                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_oliveira_guimaraes">Inácio José de Oliveira Guimarães</persName>, Chefe de Polícia do departamento do Boqueirão.</p>
                 
-                <note type="endorsement">Ofício do Exmo. Ministro do Interior de 27 de fevereiro, recebido a 5 de março, sobre passaportes.</note>
+                <note type="endorsement">Ofício do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Ministro do Interior de 27 de fevereiro, recebido a 5 de março, sobre passaportes.</note>
                 
                 <note type="endorsement">[Circular impressa]</note>
                 

@@ -121,7 +121,7 @@
         <body>
             <div type="letter" xml:id="CV-147a">
                 
-                <opener><salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute></opener>
+                <opener><salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute></opener>
                 
                 <p>Foi presente ao Governo o ofício que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>
                 me dirigiu em data de 29 do passado, e com ele me <gap reason="damage">rasgado</gap> preso 
@@ -140,12 +140,9 @@
                     <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
-                <note type="endorsement">
-                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.  
-                    
-                    <note type="editorial">[No verso]</note>
-                    
-                    Ofício do Exmo. <persName ref="#serafim_alencastre">Ministro da Guerra</persName> de 
+                <note type="endorsement" place="verso">
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.  
+                    Ofício do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <persName ref="#serafim_alencastre">Ministro da Guerra</persName> de 
                     <date when="1840-05-09">9 de maio</date>, recebido a <date when="1840-05-15">15 do mesmo</date>,  
                     acusando o recebimento do preso <persName ref="#hipolito_pereira_dutra">Hipolito</persName>.
                     <persName ref="#pedro_vieira">Coronel Vieira</persName>.

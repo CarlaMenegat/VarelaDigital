@@ -118,7 +118,7 @@
         <body>
             <div type="letter" xml:id="CV-5">
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 <p>Para dar cumprimento ao que exige em seu ofício de 16 do presente me é mister que 
                     <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> me devolva, para
@@ -126,7 +126,7 @@
                 
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
-                    <addressee>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães.</persName>
+                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães.</persName>
                     Chefe de Polícia do Departamento.</addressee>
                     <signed>Antônio Francisco dos Santos Abreu</signed>
                     <placeName ref="#salso">Residência do Juiz de Paz do departamento</placeName>, <date when="1841-11-20">20 de novembro de 1841</date>.

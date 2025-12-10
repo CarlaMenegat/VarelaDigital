@@ -46,7 +46,7 @@
             <div xml:id="CV-440" type="letter">
                 
                 <opener>
-                    <salute>Exmo. amigo <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Matos</salute>
+                    <salute><choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> amigo <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Matos</salute>
                 </opener>
                 
                 <p>Veja o requerimento de <persName ref="#manuel_jose_xavier">Manuel José Xavier</persName>, e diga-me o que fazer a respeito. O falecido filho foi camelo, depois farrapo onde foi promovido a tenente: era mui bom como diz <persName ref="#guedes">Guedes</persName>; depois o <persName ref="#tenente_leite">Tenente Leite</persName>, quando mandado de <placeName ref="#cacapava">Caçapava</placeName> rebanhar cavalos, tirou-lhe todos estando ele em serviço.</p>
@@ -69,7 +69,7 @@
                 </add>
                 
                 <address>
-                    <persName ref="#jose_mariano_matos">Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Matos.</persName><br/>
+                    <persName ref="#jose_mariano_matos"><choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Matos.</persName><br/>
                     <note>Sua casa.</note>
                 </address>
             </div>

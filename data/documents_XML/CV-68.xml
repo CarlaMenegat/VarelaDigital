@@ -118,7 +118,7 @@
             <div type="letter" xml:id="CV-68">
                 
                 <opener>
-                    <salute>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Em cumprimento das ordens que tive de <choice><abbr>V. Exª.</abbr><expan>Vossa Excelência</expan></choice>, no dia 20
@@ -126,7 +126,7 @@
                     <placeName ref="#porto_alegre">Porto Alegre</placeName> e o <persName ref="#major_antunes">Major Antunes</persName> com vinte homens 
                     entrando neste número alguns oficiais e o capitão<persName ref="#capitao_lucas">Lucas</persName> com dois
                     camaradas que se me ofereceu para sair; e como corresse a notícia que <persName ref="#antonio_sousa_neto">Neto</persName> 
-                    já estivesse à minha espera com mais de mil homens, requisitei ao Exmo. Comandante da Guarnição do 
+                    já estivesse à minha espera com mais de mil homens, requisitei ao <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Comandante da Guarnição do 
                     <placeName ref="#rio_grande">Rio Grande</placeName> o <orgName ref="#oitavo_batalhao">Batalhão 8.º</orgName> para deixar num ponto de apoio para 
                     eu poder reconhecer a força, visto que não achei um homem para 
                     bombeiro; e marchando sobre a capela de <placeName ref="#cangucu">Canguçu</placeName>, aonde se achava 
@@ -169,7 +169,7 @@
                     <placeName ref="#dores_camaqua">Capela das Dores</placeName>, <date when="1842-01-29">29 de janeiro de 1842</date>.</p>
                 
                 <closer>
-                    <salute>Ilmo. Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#general_valente">Conde do Rio Pardo</persName></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#general_valente">Conde do Rio Pardo</persName></salute>
                     <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
                     <signed>Tenente-coronel Comandante da Expedição</signed>
                 </closer>

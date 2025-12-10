@@ -95,7 +95,7 @@
                     <date when="1841-10-01">1.º de outubro de 1841</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Juiz de Direito</persName>
+                    <persName><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Juiz de Direito</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -117,7 +117,7 @@
         <body>
             <div type="letter" xml:id="CV-30">
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Juiz de Direito</salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Juiz de Direito</salute>
                 </opener>
                 
                 <p>

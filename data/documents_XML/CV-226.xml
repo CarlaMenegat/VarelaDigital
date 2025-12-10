@@ -106,7 +106,7 @@
             <div type="letter" xml:id="CV-226">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Certo o governo de seu acrisolado patriotismo e distinta adesão à causa
@@ -130,7 +130,7 @@
                 </closer>
                 
                 <note type="endorsement" place="verso">
-                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>,<br/>
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>,<br/>
                     Boqueirão.<br/>
                     Do Ministério do Interior e Fazenda.<br/>
                     Recebida a 28 de setembro de 1837.

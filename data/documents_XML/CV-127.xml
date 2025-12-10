@@ -117,7 +117,7 @@
             <div xml:id="CV-127" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
@@ -132,7 +132,7 @@
                 <p>
                     A portaria e o mesmo ofício mostram concludentemente quem são
                     os influentes, e quase todos têm sido anistiados pelo governo.
-                    Ao Exmo. General <persName ref="#bento_manoel">Bento Manuel</persName> 
+                    Ao <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> General <persName ref="#bento_manoel">Bento Manuel</persName> 
                     e a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> cumpre mais principalmente
                     tomarem as medidas convenientes para impedir que esse fermento,
                     a que já se pode dar o nome de força, tenha maior incremento,

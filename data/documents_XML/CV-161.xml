@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-161 – João Alexandre para Domingos José de Almeida</title>
                 <author>João Alexandre</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-01">01 de julho de 2025</date>
+                <date when="2025-07-30">30 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -78,7 +84,14 @@
                 </application>
             </appInfo>
         </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#joao_alexandre">João Alexandre</persName>
@@ -90,13 +103,15 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
-
-        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-07-30">30/07/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-10">10/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
@@ -107,24 +122,29 @@
             <div type="letter" xml:id="CV-161">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>No dia 6 do corrente, com data do mesmo, recebi ofício de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> pelo qual me encarregava o comando de Polícia da <placeName ref="#serra_tapes">serra dos Tapes</placeName>, à esquerda do <placeName ref="#arroio_pelotas">arroio de Pelotas</placeName>, e, para cumprimento de suas ordens, passei no dia 7 à casa da residência do cidadão <persName ref="#serafim_rosa">Serafim Pereira Rosa</persName>, e este dúvida alguma se ofereceu a entregar-me as instruções existentes hoje em meu poder; e desta forma julgo ter feito o que devera, evitando assim violências sobre os pais de família, cortando a intriga que nada faltava para se pôr no seu auge.</p>
-                
-                <p>As instruções que vejo não as posso pôr em execução em alguns artigos, pela impossibilidade dos habitantes existentes no distrito, e este é preciso que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> o marque para poder pôr em listas seus moradores e esta feita irei beijar as mãos de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> e então verbalmente trataremos o melhor possível para que eu possa desempenhar os meus deveres.</p>
-                
-                <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> por muitos anos.</p>
-                
-                <dateline>
-                    <placeName ref="#andrade">Andrade</placeName>,
-                    <date when="1836-07-08">8 de julho de 1836</date>.
-                </dateline>
+                <p>No dia 6 do corrente, com data do mesmo, recebi ofício de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
+                    pelo qual me encarregava o comando de Polícia da <placeName ref="#serra_tapes">serra dos Tapes</placeName>, à esquerda 
+                    do <placeName ref="#arroio_pelotas">arroio de Pelotas</placeName>, e, para cumprimento de suas ordens, passei no dia 
+                    <date when="1836-07-07">7</date> à casa da residência do cidadão <persName ref="#serafim_rosa">Serafim Pereira Rosa</persName>, 
+                    e este dúvida alguma se ofereceu a entregar-me as instruções existentes hoje em meu poder; e desta forma julgo ter 
+                    feito o que devera, evitando assim violências sobre os pais de família, cortando a intriga que nada faltava para se 
+                    pôr no seu auge. As instruções que vejo não as posso pôr em execução em alguns artigos, pela impossibilidade dos 
+                    habitantes existentes no distrito, e este é preciso que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
+                    o marque para poder pôr em listas seus moradores e esta feita irei beijar as mãos de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
+                    e então verbalmente trataremos o melhor possível para que eu possa desempenhar os meus deveres.</p>
                 
                 <closer>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>,  
-                        Coronel Chefe de Legião.</salute>
-                    <signed>(a) <persName ref="#joao_alexandre">João Alexandre</persName></signed>
+                    <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> por muitos anos.</salute>
+                    <dateline>
+                        <placeName ref="#andrade">Andrade</placeName>,
+                        <date when="1836-07-08">8 de julho de 1836</date>.
+                    </dateline>
+                    <addresse><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>,  
+                        Coronel Chefe de Legião.</addresse>
+                    <signed><persName ref="#joao_alexandre">João Alexandre</persName></signed>
                 </closer>
                 
             </div>

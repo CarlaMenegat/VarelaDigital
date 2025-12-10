@@ -120,7 +120,7 @@
         <body>
             <div type="letter" xml:id="CV-150">
                 
-                <opener><salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute></opener>
+                <opener><salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute></opener>
                 
                 <p>Passo às mãos de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> a cópia junta da qual verá 
                     <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> os movimentos do inimigo. É mui provável que, 
@@ -135,7 +135,7 @@
                     
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
-                    <addressee>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName></addressee>
+                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName></addressee>
                     <dateline> 
                         <orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName> em
                         <placeName ref="#cacapava">Caçapava</placeName>, <date when="1840-05-27">27 de maio de 1840</date>
@@ -143,7 +143,7 @@
                     <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                     
                     <addressee>
-                        Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio Silveira</persName>.
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio Silveira</persName>.
                     </addressee>
                 </closer>
                 

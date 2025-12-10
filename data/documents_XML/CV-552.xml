@@ -42,7 +42,7 @@
             <div type="letter" xml:id="CV-552">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#jose_luis_bustamante">Dom José Luís Bustamante</persName>.</salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#jose_luis_bustamante">Dom José Luís Bustamante</persName>.</salute>
                     <dateline><placeName ref="#bage">Bagé</placeName>, <date when="1841-12-02">2 de dezembro de 1841</date>.</dateline>
                 </opener>
                 

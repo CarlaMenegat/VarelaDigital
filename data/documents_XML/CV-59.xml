@@ -117,7 +117,7 @@
             <div type="letter" xml:id="CV-59">
                 
                 <opener>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>No dia 23 do corrente mês saí do acampamento da Picada às 6 horas da tarde com 40 praças de cavalaria do 
@@ -135,7 +135,7 @@
                     Quartel em <placeName ref="#porto_alegre">Porto Alegre</placeName>, <date when="1840-01-25">25 de janeiro de 1840</date>.</p>
                 
                 <closer>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#filipe_neri_oliveira">Brigadeiro Filipe Neri de Oliveira</persName>, Digníssimo Comandante da 2a. Brigada.</salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#filipe_neri_oliveira">Brigadeiro Filipe Neri de Oliveira</persName>, Digníssimo Comandante da 2a. Brigada.</salute>
                     <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
                     <signed>Tenente-coronel.</signed>
                     <note type="endorsement">Remeteu-se cópias aos Srs. Presidente e General Comandante-em-chefe. [No verso]</note>

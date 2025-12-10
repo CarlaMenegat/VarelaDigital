@@ -46,7 +46,7 @@
             <div xml:id="CV-441" type="letter">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Ainda ontem é que recebi o ofício que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> me dirigiu a 22 do passado, comunicando as providências que há dado para pôr em arrecadação todos os objetos pertencentes ao Estado e que ficaram em <placeName ref="#sao_gabriel">São Gabriel</placeName>, ao qual respondo.</p>
@@ -63,7 +63,7 @@
                 </closer>
                 
                 <address>
-                    <persName ref="#joao_antonio_silveira">Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel João Antônio da Silveira</persName><br/>
+                    <persName ref="#joao_antonio_silveira"><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel João Antônio da Silveira</persName><br/>
                     <note>Comandante da Divisão da Direita.</note>
                 </address>
                 

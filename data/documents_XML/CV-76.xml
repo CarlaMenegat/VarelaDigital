@@ -118,7 +118,7 @@
                 
                 <opener>
                     <dateline>Acampamento junto a <placeName ref="#cangucu">Canguçu</placeName>, 16 de maio de 44.</dateline>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Cumpre que <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> mande do batalhão de seu comando cinquenta 
@@ -138,7 +138,7 @@
                     <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></signed>
                 </closer>
                 
-                <fw type="recipient">Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName>. Tenente-coronel Comandante do 8.º Batalhão de Caçadores.</fw>
+                <fw type="recipient"><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName>. Tenente-coronel Comandante do 8.º Batalhão de Caçadores.</fw>
                 
             </div>
         </body>

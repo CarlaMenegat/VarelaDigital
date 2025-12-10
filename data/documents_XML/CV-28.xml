@@ -118,7 +118,7 @@
         <body>
             <div type="letter" xml:id="CV-28">
                 <opener>
-                    <salute>Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></salute>
                     <p><placeName ref="#piratini">Piratini</placeName>, <date when="1841-03-21">21 de março de 1841</date>.</p>
                 </opener>
                 
@@ -153,7 +153,7 @@
                 </closer>
                 
                 <note type="endorsement">
-                    Ilmo. e Exmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>,
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>,
                     Ministro dos Negócios da Fazenda. [No verso]<br/>
                     <placeName ref="#sao_gabriel">São Gabriel</placeName>.<br/>
                     Respondida a <date when="1841-04-11">11 de abril</date>. 

@@ -44,7 +44,7 @@
             <div type="letter" xml:id="CV-286">
                 
                 <opener>
-                    <salute>Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
@@ -66,7 +66,7 @@
                 </closer>
                 
                 <address>
-                    Ilmo. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
                     <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>.<lb/>
                     Comandante da Divisão da Direita.
                 </address>

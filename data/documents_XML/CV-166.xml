@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-166 – Bernardina para Domingos José de Almeida</title>
                 <author>Bernardina Barcelos de Almeida</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-07-30">30 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -80,6 +86,12 @@
         </encodingDesc>
         
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#bernardina_barcelos_almeida">Bernardina</persName>
@@ -91,17 +103,20 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
-        
-        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-07-30">30/07/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-10">10/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
     </teiHeader>
+
     <text>
         <body>
             <div type="letter" xml:id="CV-166">
@@ -114,22 +129,40 @@
                     <salute>Meu querido marido do coração.</salute>
                 </opener>
                 
-                <p>Recebi a tua carta de 14 que bastante satisfação tive que não te posso privar do grande contentamento que tive do <persName ref="#fontoura">Fontoura</persName> ir abaixo e toda a pandilha dele, pois, meu marido, eu andava muito agoniada pelos negócios da Assembleia ir tomando um aspecto ruim, segundo corria por aqui, por teu respeito, conhecendo eu que aquele cachorrão era teu inimigo e do compadre <persName ref="#bento_goncalves">Bento</persName>; vê tu como não andaria eu.</p>
+                <p>Recebi a tua carta de <date when="1842-12-14">14</date> que bastante satisfação tive que não te posso privar do grande 
+                    contentamento que tive do <persName ref="#fontoura">Fontoura</persName> ir abaixo e toda a pandilha dele, pois, 
+                    meu marido, eu andava muito agoniada pelos negócios da Assembleia ir tomando um aspecto ruim, segundo corria por aqui, 
+                    por teu respeito, conhecendo eu que aquele cachorrão era teu inimigo e do compadre 
+                    <persName ref="#bento_goncalves">Bento</persName>; vê tu como não andaria eu.</p>
                 
-                <p>Assim mesmo te recomendo que tenhas toda a cautela com a tua pessoa, pois toda cautela é pouca; o <persName ref="#joao_jose_victorica">Victorica</persName> aqui chegou noje; a notícia do <persName ref="#fructuoso_rivera">Fructo</persName> já por aqui se sabia; vê tu em que ocasião haveria acontecer contra nós; isto me aflige por causa de ti, de não podermos ir para aquela província.</p>
+                <p>Assim mesmo te recomendo que tenhas toda a cautela com a tua pessoa, pois toda cautela é pouca; o 
+                    <persName ref="#joao_jose_victorica">Victorica</persName> aqui chegou <date when="1842-12-18">hoje</date>; a notícia do 
+                    <persName ref="#fructuoso_rivera">Fructo</persName> já por aqui se sabia; vê tu em que ocasião haveria acontecer 
+                    contra nós; isto me aflige por causa de ti, de não podermos ir para aquela província.</p>
                 
-                <p>Eu não recebi nada do que pedi ao <persName ref="#joao_da_cunha">João da Cunha</persName> e quanto aos papéis, já te remeti. Deus queira que lá chegue em salvo o cavalo; <note type="endorsed" place="verso">[1v.]</note> hei de te mandar por o <persName ref="#bernardo_pires">Major Pires</persName> se aqui passar; enquanto à xerga que tu me falas que meu mano trouxe, é engano do meu escrivão, é uma seringa de nova invenção.</p>
+                <p>Eu não recebi nada do que pedi ao <persName ref="#joao_da_cunha">João da Cunha</persName> e quanto aos papéis, já te 
+                    remeti. Deus queira que lá chegue em salvo o cavalo; 
+                    <pb n="1v"/>
+                    <seg type="folio">[1v.]</seg> 
+                    hei de te mandar por o <persName ref="#bernardo_pires">Major Pires</persName> se aqui passar; enquanto à xerga 
+                    que tu me falas que meu mano trouxe, é engano do meu escrivão, é uma seringa de nova invenção.</p>
                 
-                <p>Eu te remeto resposta que tive do <persName ref="#joao_da_cunha">João da Cunha</persName>, os teus cavalos que o compadre <persName ref="#joao_antonio">João Antônio</persName> <sic/> eu já recomendei ao <persName ref="#luis_rodrigues_barcelos">tio Luís</persName>; agora mesmo tive portador, mandei dizer ao meu mano <persName ref="#joaquim_barcelos">Joaquim</persName> a derrota do <persName ref="#fructo">Fructo</persName>, pois quando ele por aqui passou já me tinha feito ver que haveria acontecer isto mesmo.</p>
-                
-                <p>Os meninos te mandam muitas lembranças e te pedem a bênção.</p>
+                <p>Eu te remeto resposta que tive do <persName ref="#joao_da_cunha">João da Cunha</persName>, os teus cavalos que o 
+                    compadre <persName ref="#joao_antonio_compa">João Antônio</persName> <sic/> eu já recomendei ao 
+                    <persName ref="#luis_rodrigues_barcelos">tio Luís</persName>; agora mesmo tive portador, mandei dizer ao meu mano 
+                    <persName ref="#joaquim_barcelos">Joaquim</persName> a derrota do <persName ref="#fructoso_rivera">Fructo</persName>, 
+                    pois quando ele por aqui passou já me tinha feito ver que haveria acontecer isto mesmo.</p>
                 
                 <closer>
-                    <signed>Desta tua mulher que muito te estima e te pede que tenhas todo o cuidado<br/>
-                        (a) <persName ref="#bernardina_barcelos_almeida">Bernardina Almeida</persName>.</signed>
+                    <salute>Os meninos te mandam muitas lembranças e te pedem a bênção.<br/>
+                        Desta tua mulher que muito te estima e te pede que tenhas todo o cuidado
+                    </salute><br/>
+                    <signed><persName ref="#bernardina_barcelos_almeida">Bernardina Almeida</persName>.</signed>
                 </closer>
                 
-                <note type="endorsement" place="margin">Respondida a 28 de dezembro de 1842. [Na folha 1r.]</note>
+                <note type="endorsement" place="1r.">
+                    Respondida a <date when="1842-12-1842">28 de dezembro de 1842</date>.
+                </note>
                 
             </div>
         </body>
