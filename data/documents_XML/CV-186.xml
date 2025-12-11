@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-186 – Domingos José de Almeida a Bernardina Barcelos de Almeida</title>
                 <author>Domingos José de Almeida</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-08-03">03 de agosto de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -80,6 +86,12 @@
         </encodingDesc>
         
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
@@ -94,8 +106,12 @@
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-08-03">03/08/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-11">11/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
@@ -119,50 +135,40 @@
                     te escrevi dando-te conta de minha viagem até ali, e agora o faço pelo 
                     prazer que me acompanha sempre que me entretenho contigo, embora mesmo 
                     por escrito.
-                </p>
-                
-                <p>
                     Ontem resolveu a 
-                    <orgName ref="#assembleia_provincial">Assembleia Provincial</orgName> 
+                    <orgName ref="#assembleia_provincial_rs">Assembleia Provincial</orgName> 
                     dar posse ao Presidente 
                     <persName ref="#jose_araujo_ribeiro">Araújo Ribeiro</persName>, 
                     no que quanto pude concorri, e por isso desafiei contra mim alguma 
                     indisposição; mas não importa, porque prefiro o bem da Província a essa 
                     popularidade efêmera num tempo como o que atravessamos, e assim se 
                     convenceram os retrógrados de que seus embustes nada valeram por esta vez.
-                </p>
-                
-                <p>
                     Eu ainda fico até a posse do Presidente, não só para que se não pense 
                     que me retiro por esse motivo, como também porque estou resolvido seguir 
                     daqui até <placeName ref="#santana_livramento">Santa Ana</placeName> 
                     a ver se promovo a cobrança do que me devem naquele ponto e 
                     <placeName ref="#sao_gabriel">São Gabriel</placeName>.
-                </p>
-                
-                <p>
                     Para este fim ordeno a 
                     <persName ref="#joao_cunha">João da Cunha</persName> 
                     que me tire as contas que lhe peço e mas envie para 
                     <placeName ref="#bage">Bagé</placeName> 
                     ao compadre <persName ref="#rafael">Rafael</persName>, 
                     a fim de que eu as ache quando por ali passar.
-                </p>
-                
-                <p>
                     A cidade fica tranquila e tudo promete sossego, apesar da poeira 
                     que se tem levantado por toda a parte contra repúblicas que existem nas 
                     cabeças das pessoas da boa ordem, mas que não produzem o efeito que eles 
                     desejavam.
                 </p>
                 
-                <p>
-                    Recomendações a todos os nossos e abraços ternos a nossos filhos, 
-                    recebendo tu o coração saudoso de
-                </p>
+                
                 
                 <closer>
-                    <signed>Teu marido do coração<br/>(a) 
+                    <salute>
+                    Recomendações a todos os nossos e abraços ternos a nossos filhos, 
+                    recebendo tu o coração saudoso de <br/>
+                    Teu marido do coração<br/>
+                </salute>
+                    <signed>
                         <persName ref="#domingos_jose_almeida">Almeida</persName>.
                     </signed>
                 </closer>

@@ -3448,4 +3448,57 @@
         active="#pimenta"
         passive="#domingos_jose_almeida"
         mutual="true"/>
+    
+    <relation
+        name="foaf:knows"
+        mutual="true"
+        active="#antonio_antunes_porciuncula"
+        passive="#domingos_jose_almeida"/>
+    
+    <relation
+        name="foaf:knows"
+        mutual="true"
+        active="#domingos_jose_almeida"
+        passive="#felizardo_rodrigues_braga"/>
+    
+    <relation
+        name="foaf:knows"
+        mutual="true"
+        active="#rafael"
+        passive="#domingos_jose_almeida"/>
+    
+    <relation 
+        name="rel:antagonistOf" 
+        active="#domingos_jose_almeida" 
+        passive="#jose_araujo_ribeiro"/>
+    
+    <relation 
+        name="rel:antagonistOf" 
+        active="#domingos_jose_almeida" 
+        passive="#silva_tavares"/>
+    
+    <relation 
+        name="foaf:knows" 
+        active="#chevalier" 
+        passive="#domingos_jose_almeida"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#vicente"
+        passive="#domingos_jose_almeida"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#domingos_jose_almeida"
+        passive="#vicente"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#vicente"
+        passive="#rolino_pereira_barros"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#rolino_pereira_barros"
+        passive="#vicente"/>
 </TEI>

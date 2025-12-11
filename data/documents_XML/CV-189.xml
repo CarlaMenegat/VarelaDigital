@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-189 – Domingos José de Almeida a Bernardina Barcelos de Almeida</title>
                 <author>Domingos José de Almeida</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-08-03">03 de agosto de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -80,6 +86,12 @@
         </encodingDesc>
         
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
@@ -97,8 +109,12 @@
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-08-03">03/08/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-11">11/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
@@ -126,18 +142,15 @@
                     e de
                     <placeName ref="#sao_jose_norte">Norte</placeName>
                     haviam conjurado contra esta bela Província, chega pelo correio a notícia de que
-                    longe de vir Araújo, dava ele todas as providências para atiçar a mais
+                    longe de vir <persName ref="#jose_araujo_ribeiro">Araújo</persName>, dava ele todas as providências para atiçar a mais
                     feroz anarquia, sacudindo o brandão da guerra civil; e logo após semelhantes
                     notícias chegam proclamações e ofícios que se interceptaram, confirmando
-                    quanto se nos disse de <placeName ref="#rio_grande">Rio Grande</placeName> e <placeName ref="#sao_jose_norte">Norte</placeName>; e ainda mais, que de
-                    <placeName ref="#santa_catarina">Santa Catarina</placeName>
-                    e da
+                    quanto se nos disse de <placeName ref="#rio_grande">Rio Grande</placeName> e 
+                    <placeName ref="#sao_jose_norte">Norte</placeName>; e ainda mais, que de
+                    <placeName ref="#santa_catarina">Santa Catarina</placeName> e da
                     <placeName ref="#uruguai">Cisplatina</placeName>,
                     com <persName ref="#silva_tavares">Silva Tavares</persName>, espera esse monstro tropas
                     para derramar nosso sangue.
-                </p>
-                
-                <p>
                     Mestre pela experiência, eu lamento uma luta que tem de tingir nossos
                     campos e povoações, pela exaltação dos partidos que não conhecerão limites...
                     E posto que em armas tenhamos já mais de quatro mil bravos decididos a
@@ -146,26 +159,17 @@
                     há de trazer em contínuas aflições, pelas ciladas que me podem armar essa
                     gente, que pensando de diverso modo, tanto me fazem guerra, como tu melhor
                     que ninguém o sabes.
-                </p>
-                
-                <p>
                     Também a ti não é desconhecido, que aí nossa fortuna jamais pode avançar
                     um pequeno passo, pelo desvio que dão até aos gados que me querem dar de
                     costeio. Em tais circunstâncias o estado atual das coisas, nossos negócios,
                     teu sossego e outras muitas considerações prudentemente aconselham que
                     devemos sem hesitação largar, ao menos por alguns anos, esse lugar.
-                </p>
-                
-                <p>
                     Tu sabes quanto amo este estabelecimento, que olho como filho meu que vi
                     nascer e desenvolver; mas devo sacrificar aflições, e olhar tão somente
                     para ti e para nossos filhos, etc., etc.. Segundo minhas ordens devo supor-te
                     em marcha para esta; porém, se incidentes a têm demorado quero que a
                     verifiques na primeira ocasião oportuna, trazendo em tua companhia tudo
                     quanto puder, para o que fretarás os iates precisos.
-                </p>
-                
-                <p>
                     Deixarás na chácara um escravo somente para tratar dos valos, capinar os pés
                     dos arvoredos, conservar em pé não só aqueles tapumes, como os mais dos
                     potreiros e daí de casa, a fim de se não danificarem. Os utensílios da
@@ -173,23 +177,26 @@
                     <persName ref="#chevalier">Chevalier</persName>
                     que o conserve; a cavalhada e gado manso que venha por terra a ser possível;
                     e o compadre
-                    <persName ref="#rolino">Rolino</persName>
+                    <persName ref="#rolino_pereira_barros">Rolino</persName>
                     se pudesse cá vir mesmo para capataz, seria famoso.
-                </p>
-                
-                <p>
                     Tua mãe e teu pai também deviam vir, para se não angustiarem com as cenas
                     que têm infalivelmente de ocorrer nesse lugar, como é de esperar-se, ao menos
                     enquanto definitivamente nossa Província não toma marcha regular.
-                </p>
-                
-                <p>
                     A graxeira pode arrendar-se ao
-                    <persName ref="#lopes">Lopes</persName>; mas
+                    Lopes; mas
                     <persName ref="#chevalier">Chevalier</persName> que arranje isso, para responder pelo arrendamento.
                     A charqueada e casa talvez que
                     <persName ref="#felizardo">Felizardo</persName>, ou o primo
                     <persName ref="#cipriano_joaquim_rodrigues_barcelos">Cipriano</persName> queira arrendar.
+                </p>
+                
+                <p>
+                    Como disse, aí podemos fazer fortuna; porque não se me deixando coalhar vintém, não posso comprar
+                    gados de conta, e não se me dando costeios, não pode trabalhar a charqueada; e aqui ao menos se faz 
+                    muita telha e tijolo, talvez depares com meios para matar constantemente de conta de costeio logo
+                    que conste ser minha fábrica bem montada e que pode matar a toda hora, por ter escravos, o que 
+                    não sucede com as outras charqueadas, que sendo costeadas com índios, estes as mais das vezes falham, e agora com estes
+                    movimentos se acham em armas, etc., etc..
                 </p>
                 
                 <p>
@@ -199,16 +206,18 @@
                     queridos; e achar estar aberta para, no retiro, resvalar-me do mundo político.
                 </p>
                 
-                <p>
-                    Adeus minha querida Bernardina. Abraços a nossos filhos, ao compadre
-                    <persName ref="#jose_felix">José Félix</persName> e teus pais, lembranças a
-                    <persName ref="#jose_pedro">José Pedro</persName>, a teus irmãos, ao compadre
-                    <persName ref="#rolino">Rolino</persName> e a
-                    <persName ref="#joao_da_cunha">João da Cunha</persName>, recebendo tu o coração do
-                </p>
+                
                 
                 <closer>
-                    <signed>Teu<br/>(a)
+                    <salute>
+                        Adeus minha querida Bernardina. Abraços a nossos filhos, ao compadre
+                        <persName ref="#jose_felix">José Félix</persName> e teus pais, lembranças a
+                        <persName ref="#jose_pedro">José Pedro</persName>, a teus irmãos, ao compadre
+                        <persName ref="#rolino_pereira_barros">Rolino</persName> e a
+                        <persName ref="#joao_da_cunha">João da Cunha</persName>, recebendo tu o coração do <br/>
+                        Teu<br/>
+                    </salute>
+                    <signed>
                         <persName ref="#domingos_jose_almeida">Almeida</persName>
                     </signed>
                 </closer>

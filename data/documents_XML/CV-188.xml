@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-188 – Domingos José de Almeida a Bernardina Barcelos de Almeida</title>
                 <author>Domingos José de Almeida</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-08-03">03 de agosto de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -80,6 +86,12 @@
         </encodingDesc>
         
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
@@ -95,8 +107,12 @@
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-08-03">03/08/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-11">11/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
@@ -122,9 +138,6 @@
                     santa gente, que tanto tem promovido o bem da Província, e por
                     consequência o nosso e de nossos filhos, cujo pagamento Deus por nós lhes
                     fará.
-                </p>
-                
-                <p>
                     Por aqui gozamos de muito sossego depois que se dispersaram os cabanos;
                     mas a tormenta que o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
                     <persName ref="#jose_araujo_ribeiro">Araújo Ribeiro</persName>
@@ -140,29 +153,30 @@
                     consultando-me por próprio, antes de tudo, se te parecer preciso.
                 </p>
                 
-                <p>
-                    Saudades a nossos pais, compadre
-                    <persName ref="#jose_felix">José Félix</persName>, manos e a todos
-                    de casa; abraços a nossos filhos, e tu recebe o coração do
-                </p>
-                
                 <closer>
-                    <signed>Teu fiel<br/>(a)
+                    <salute>
+                        Saudades a nossos pais, compadre
+                        <persName ref="#jose_felix">José Félix</persName>, manos e a todos
+                        de casa; abraços a nossos filhos, e tu recebe o coração do <br/>
+                        Teu fiel<br/>
+                    </salute>
+                    <signed>
                         <persName ref="#domingos_jose_almeida">Almeida</persName>.
                     </signed>
                 </closer>
                 
-                <p>
+                <postscript>
                     <persName ref="#leao_prospero_chastan"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Chastan</persName>,
                     <persName ref="#chevalier">Chevalier</persName> e
                     <persName ref="#david">David</persName> que hajam esta por sua.
-                </p>
+                </postscript>
                 
                 <note type="endorsement" place="verso">
                     <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> D.
                     <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.<br/>
                     <placeName ref="#pelotas">Pelotas</placeName>.<br/>
-                    <placeName ref="#porto_alegre">Porto Alegre</placeName> [Carimbo].
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>.
+                    <seal type="stamp" place="verso">[Carimbo no verso]</seal>
                 </note>
                 
             </div>

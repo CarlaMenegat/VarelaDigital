@@ -2515,10 +2515,14 @@
         
         <person xml:id="antonio_antunes_porciuncula">
             <persName>Antônio Antunes de Porciúncula</persName>
-            <idno></idno>
-            <role>Capitão Commandante Interino da Fronteira e Linha de São Gonçalo</role>
-            <roleName>Capitão Ajudante de Ordens do Commando Interino das Armas</roleName>
-            <note>Amigo de Almeida citado em sua proclamaçao de 1835.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="porciuncula_comandante_sao_goncalo">
+                <roleName>Capitão Comandante Interino da Fronteira e Linha de São Gonçalo</roleName>
+            </state>
+            <state type="roleInTime" xml:id="porciuncula_ajudante_ordens">
+                <roleName>Capitão Ajudante de Ordens do Comando Interino das Armas</roleName>
+            </state>
+            <note>Amigo de Domingos José de Almeida, citado em sua proclamação de 1835.</note>
         </person>
         
         <person xml:id="faustino_lima">
@@ -3129,8 +3133,12 @@
         
         <person xml:id="felizardo_rodrigues_braga">
             <persName>Felizardo Rodrigues Braga</persName>
-            <idno></idno>
-            <note>Primo do autor, responsável por cobranças antes de falecer.</note>
+            <idno type="project"/>
+            <birth when="1804"/>
+            <note>
+                Parente de Domingos José de Almeida, atuou em tarefas de cobrança e administração 
+                antes de seu falecimento, sendo mencionado em correspondência familiar.
+            </note>
         </person>
         
         <person xml:id="francisco_paula_aurora">
@@ -4634,8 +4642,12 @@
         
         <person xml:id="chevalier">
             <persName>Fulgêncio Chevalier</persName>
-            <idno></idno>
-            <note>Responsável pela máquina de graxa na charqueada de Almeida.</note>
+            <idno type="project"/>
+            <note>
+                Técnico ou responsável pela operação da máquina de fazer graxa instalada 
+                na charqueada de Domingos José de Almeida. Mencionado em contexto de 
+                administração de equipamentos e bens industriais.
+            </note>
         </person>
         
         <person xml:id="augusto">
@@ -8007,7 +8019,15 @@
         <person xml:id="jose_felix">
             <persName>José Félix</persName>
             <idno type="project"/>
-            <note>Compadre de Domingos José de Almeida e Bernardina Barcelos de Almeida, mencionado na correspondência familiar como parte da rede de sociabilidade doméstica e comunitária.</note>
+            <state type="roleInTime" xml:id="jose_felix_tutor_almeida">
+                <roleName>Tutor dos filhos de Domingos José de Almeida</roleName>
+                <affiliation ref="#familia_almeida"/>
+            </state>
+            <note>
+                Compadre de Domingos José de Almeida e Bernardina Barcelos de Almeida, 
+                atuou como tutor (professor particular) dos filhos do casal, integrando 
+                sua rede doméstica e comunitária.
+            </note>
         </person>
         
         <person xml:id="ribas">
@@ -8369,16 +8389,13 @@
             <note>Membro da Câmara de Rio Grande em 1835.</note>
         </person>
         
-        <person xml:id="felizardo">
-            <persName>Felizardo</persName>
-            <idno></idno>
-            <note>Parente próximo de Almeida.</note>
-        </person> <!--confirmar se não é id felizardo_rodrigues_braga-->
-        
         <person xml:id="rafael">
             <persName>Rafael</persName>
-            <idno></idno>
-            <note>Compadre de Almeida em Bagé.</note> <!--confirmar se não é algum primo de Bernardina-->
+            <idno type="project"/>
+            <note>
+                Compadre de Domingos José de Almeida, residente em Bagé, citado em contexto de 
+                relações de vizinhança e confiança familiar.
+            </note>
         </person>
         
         <person xml:id="david">
@@ -8446,8 +8463,13 @@
         
         <person xml:id="vicente">
             <persName>Vicente</persName>
-            <idno></idno>
-            <note>Indivíduo mencionado junto ao compadre Rolino no contexto da administração de escravos.</note>
+            <idno type="project"/>
+            <note>
+                Indivíduo mencionado na correspondência doméstica do casal Almeida, citado em 
+                conjunto com o compadre Rolino Pereira de Barros em assuntos relacionados à 
+                administração cotidiana de escravizados na casa e na charqueada. Sua identidade 
+                completa e vínculos familiares permanecem desconhecidos.
+            </note>
         </person>
         
         <person xml:id="goularte">

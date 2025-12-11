@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-191 – Domingos José de Almeida para Bernardina Barcelos de Almeida</title>
                 <author>Domingos José de Almeida</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-08-03">03 de agosto de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -78,7 +84,14 @@
                 </application>
             </appInfo>
         </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
@@ -94,8 +107,12 @@
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-08-03">03/08/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-11">11/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
@@ -113,7 +130,7 @@
                     </dateline>
                 </opener>
                 
-                <p>As tuas de 3 e 6 deste mês, que ainda ontem recebi, não me dissiparam
+                <p>As tuas de <date when="1836-02-03">3</date> e <date when="1836-02-06">6</date> deste mês, que ainda ontem recebi, não me dissiparam
                     os cuidados e aflições que me tem causado ver-te no meio de uma horda 
                     desenfreada, qual a que com braço armado tenta, sob pretexto da posse 
                     de um frenético faccioso, derribar os virtuosos patriotas que em vinte 
@@ -147,7 +164,7 @@
                     da Pátria de nossos filhos pesa sobretudo em minhas considerações.</p>
                 
                 <p>Manda-me, imediatamente que esta receberes, o compadre 
-                    <persName ref="#rolino">Rolino</persName>, 
+                    <persName ref="#rolino_pereira_barros">Rolino</persName>, 
                     que muito necessito falar-lhe antes de partir. Por ele pode vir-me 
                     alguns cavalos do meu andar se estiverem gordos, a manta do meu selim 
                     e o Catraio, porque talvez o leve também.</p>
@@ -167,19 +184,21 @@
                 
                 <p>Pode ser que ainda se revogue minha ida, e por isso não te aflijas por ora muito.</p>
                 
-                <p>Dando mil abraços a nossos filhos, por mim os abençoa em nome do Criador: 
+                <closer>
+                    <salute>Dando mil abraços a nossos filhos, por mim os abençoa em nome do Criador: 
                     o compadre <persName ref="#jose_felix">José Félix</persName> 
                     que haja esta por sua, e tua mãe um abraço bem apertado, 
-                    e adeus que já não pode.</p>
+                    e adeus que já não pode.<br/>
+                    O teu<br/>
+                </salute>
                 
-                <closer>
-                    <signed>O teu<br/>(a) 
+                    <signed>
                         <persName ref="#domingos_jose_almeida">Almeida</persName>.
                     </signed>
                 </closer>
                 
-                <p>Ontem acabei de fechar o trato do arrendamento do estabelecimento em 
-                    que te falei por causa do que me disseste na tua de 6 do presente mês.</p>
+                <postscript>Ontem acabei de fechar o trato do arrendamento do estabelecimento em 
+                    que te falei por causa do que me disseste na tua de <date when="1836-02-06">6 do presente mês</date>.</postscript>
                 
                 <note type="endorsement" place="verso">
                     <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.<br/>
