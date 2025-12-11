@@ -19,8 +19,9 @@
                 <date when="2025-06-27">27 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -129,13 +130,21 @@
                     <p>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> muitos anos como há mister.</p>
                     
                     <closer>
+                        <salute>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> muitos anos como há mister.</salute>
+                        <addresse>
+                            <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                            <persName ref="#antonio_elzeário_miranda_brito">Antônio Elzeário de Miranda e Brito</persName>
+                            Marechal de Campo e Presidente da Província e Comandante das Armas da mesma.
+                        </addresse>
                         <dateline><placeName ref="#porto_alegre">Porto Alegre</placeName>, <date when="1838-09-13">13 de setembro de 1838</date>.</dateline>
                         <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName><br/>Major</signed>
                     </closer>
                     
-                    <note type="endorsement">Ordem à Pagadoria. [Na folha 1r.]</note>
-                    <note type="endorsement">Foi ordem à Pagadoria em 14 dito. [Na folha 1v.]</note>
-                    <note type="endorsement"><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente da Província e Comandante das Armas da mesma e Marechal-de-campo <persName ref="#antonio_elzeário_miranda_brito">Antônio Elzeário de Miranda e Brito</persName>. Do Major <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>. [No verso]</note>
+                    <note type="endorsement" place="1r.">Ordem à Pagadoria.</note>
+                    <note type="endorsement" place="1v.">Foi ordem à Pagadoria em 14 dito.</note>
+                    <note type="endorsement" place="verso"><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                        Presidente da Província e Comandante das Armas da mesma e Marechal-de-campo <persName ref="#antonio_elzeário_miranda_brito">Antônio Elzeário de Miranda e Brito</persName>. 
+                        Do Major <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>. </note>
                     
                 </div>
             </body>

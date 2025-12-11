@@ -19,8 +19,9 @@
                 <date when="2025-06-25">25 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -131,17 +132,19 @@
                 
                 <p>
                     O rebelde <persName ref="#jose_romao_taborda">José Romão Taborda</persName>, preso na surtida antecedente, 
-                    foi entregue à ordem de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> ao Major Comandante Geral do Município.
+                    foi entregue à ordem de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> 
+                    ao Major Comandante Geral do Município.
                 </p>
                 
                 <closer>
-                    <p>Deus guarde a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>. Quartel na 
-                        <placeName ref="#triunfo">vila do Triunfo</placeName>,
-                        <date when="1845-02-16">16 de fevereiro de 1845</date>.</p>
+                    <salute>Deus guarde a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.</salute> 
+                    <dateline>Quartel na vila do 
+                        <placeName ref="#triunfo">Triunfo</placeName>,
+                        <date when="1845-02-16">16 de fevereiro de 1845</date>.</dateline>
                     
                     <signed>
                         <persName ref="#antonio_pedro_abreu">Antônio Pedro de Abreu</persName><br/>
-                        Major encarregado da reunião dos praças da 8ª Brigada.
+                        Major encarregado da reunião dos praças da <orgName ref="#brigada_8">8.ª Brigada</orgName>.
                     </signed>
                 </closer>
                 

@@ -19,8 +19,9 @@
                 <date when="2025-06-24">24 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -137,9 +138,6 @@
                     tanto por terra como por mar, tomadas pelo referido Major Kersting, os rebeldes não 
                     só não puderam levar toda a cavalhada da ilha, como também se puderam evadir 
                     dois moços irmãos do mencionado alferes que tinham sido presos pelos rebeldes.
-                </p>
-                
-                <p>
                     A partida comandada pelo citado Furriel Rodrigues prendeu um rebelde e baleou outro.
                 </p>
                 
@@ -151,11 +149,11 @@
                     <persName ref="#antonio_francisco_almeida">Antônio Francisco de Almeida</persName>, que, como tem dizem, 
                     quatro filhos nos rebeldes, deseja saber das surtidas para avisar aos mesmos rebeldes, 
                     que em grande parte são parentes dele.
-                </p>
-                
-                <p>
                     Este Almeida, vendo que foram malogradas as intrigas que ele tinha feito no exército 
-                    contra Kersting, agora se apura em fazê-las com a marinha.
+                    contra Kersting, agora se apura 
+                    <pb n="1v"/>
+                    <seg type="folio">[1v.]</seg>
+                    em fazê-las com a marinha.
                 </p>
                 
                 <p>
@@ -164,9 +162,6 @@
                     uma barca de cavalos à disposição do Comandante Geral do Município. Com esta 
                     medida de absoluta necessidade lucra muito a Nação e ficam frustrados os planos 
                     de Almeida.
-                </p>
-                
-                <p>
                     Eu agora mandei uma partida com ordem de prender o rebelde 
                     <persName ref="#sete_pernas">Sete-Pernas</persName>, que por falta de uma barca tem podido fazer toda a 
                     qualidade de violência aos charqueadores da costa do 
@@ -174,18 +169,17 @@
                 </p>
                 
                 <closer>
-                    <p>Deus guarde a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, <placeName ref="#triunfo">Vila do Triunfo</placeName> em 
-                        <date when="1845-02-15">15 de fevereiro de 1845</date>.</p>
+                    <salute>Deus guarde a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>,</salute>
+                        <dateline><placeName ref="#triunfo">Vila do Triunfo</placeName> em 
+                        <date when="1845-02-15">15 de fevereiro de 1845</date>.</dateline>
+                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>, 
+                    Marechal e Comandante da Guarnição de <placeName ref="#porto_alegre">Porto Alegre</placeName>.</addressee>
                     <signed>
                         <persName ref="#antonio_pedro_abreu">Antônio Pedro de Abreu</persName><br/>
-                        Major Comandante do Esquadrão do Triunfo e reunião.
+                        Major Comandante do <orgName ref="#esquadrao_triunfo">Esquadrão do Triunfo e reunião</orgName>.
                     </signed>
                 </closer>
-                
-                <note type="endorsement">
-                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>, 
-                    Marechal e Comandante da Guarnição de <placeName ref="#porto_alegre">Porto Alegre</placeName>.
-                </note>
+
                 
             </div>
         </body>

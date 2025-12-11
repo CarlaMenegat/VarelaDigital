@@ -19,8 +19,9 @@
                 <date when="2025-06-28">28 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -136,23 +137,25 @@
                     penso destes um ser cativo; ficaram mortos um tenente das partes da <placeName ref="#cachoeira">Cachoeira</placeName> 
                     chamado <persName ref="#joao_jose_damasceno">Damasceno</persName> e dois negros lanceiros; e um 
                     <persName ref="#tenente_caldeira">Tenente Caldeira</persName>, ou <persName ref="#juca_custodio">Juca Custódio</persName>, 
-                    foi baleado na caixa do corpo; e nos legais não houve novidade alguma.</p>
-                
-                <p>Ficaram em nosso poder, dos rebeldes, sessenta e tantos cavalos, alguns arreadores e algum armamento; e seguindo 
+                    foi baleado na caixa do corpo; e nos legais não houve novidade alguma. Ficaram em nosso poder, dos rebeldes, sessenta e tantos cavalos, alguns arreadores e algum armamento; e seguindo 
                     depois imediatamente à <placeName ref="#triunfo">Yila do Triunfo</placeName> por terra, nada encontrei, porque 
                     o inimigo daquela polícia, por receoso, se tinha retirado com tudo; apanhei algum gado, que logo fiz passar e 
                     cavalos para a <placeName ref="#ilha_paciencia">ilhada Paciência</placeName>, e com tudo bem embarcar perto da barra do 
                     <placeName ref="#arroio_ratos">arroio dos Ratos</placeName>.</p>
                 
-                <p>Todos os oficiais e oficiais inferiores e soldados e tripulações de mar e terra de que se compôs a expedição, 
+                <p>Todos os oficiais e oficiais inferiores e soldados e tripulações de mar e terra de que 
+                    <pb n="1v"/>
+                    <seg type="folio">[1v.]</seg>
+                    se compôs a expedição, 
                     se mostraram muito ativos.</p>
                 
-                <p>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>, muitos anos como havemos mister.</p>
-                
                 <closer>
+                    <salute>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>, muitos anos como havemos mister.</salute>
                     <dateline><placeName ref="#porto_alegre">Porto Alegre</placeName>, <date when="1839-03-01">1.º de março de 1839</date>.</dateline>
-                    <signed><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#antonio_elzeario_brito">Antônio Elzeário de Miranda e Brito</persName>.<br/>
-                        <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.<br/>
+                    <addressee>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#antonio_elzeario_brito">Antônio Elzeário de Miranda e Brito</persName>.<br/>
+                    </addressee>
+                    <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.<br/>
                         Major.</signed>
                 </closer>
                 

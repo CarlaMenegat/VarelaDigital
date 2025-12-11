@@ -19,8 +19,9 @@
                 <date when="2025-06-28">28 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -122,16 +123,20 @@
                 <p>Previno a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> não esqueça virem iates para marchar 
                     a infantaria; pois cá só tem uma canoa que levará cento e tantos homens.</p>
                 
-                <p>Deus guarde a <choice><abbr>V.Exª</abbr><expan>Vossa Excelência</expan></choice>, muitos anos.</p>
-                
                 <closer>
+                    <salute>Deus guarde a <choice><abbr>V.Exª</abbr><expan>Vossa Excelência</expan></choice>, muitos anos.</salute>
                     <dateline>Acampamento da Picada, <date when="1838-12-09">9 de dezembro de 1838</date>.</dateline>
-                    <signed><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/>
-                        <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName><br/>
+                    <addressee>
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/>
+                    </addressee>
+                    <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName><br/>
                         Major.</signed>
                 </closer>
                 
-                <note type="editorial">Vide atrás na de 1839, do mesmo. [Atribuído a Alfredo Varela, na folha 1r.]</note>
+                <note type="endorsement" place="verso">
+                    Vide atrás na de <date when="1839">1839</date>, do mesmo.
+                    <note type="editorial">[Atribuído a Alfredo Varela, na folha 1r.]</note>
+                </note>
                 
             </div>
         </body>

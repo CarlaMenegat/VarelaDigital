@@ -19,8 +19,9 @@
                 <date when="2025-06-24">24 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -138,20 +139,21 @@
                     com data de ontem.
                 </p>
                 
-                <p>Deus guarde a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.</p>
+                <salute>Deus guarde a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.</salute>
                 
                 <closer>
                     <p>Quartel nos Presídios do Batalhão 11, 
                         <date when="1840-11-26">26 de novembro de 1840</date>.
                     </p>
                     
-                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.</salute>
-                    <salute>Marechal Comandante da Guarnição.</salute>
+                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/>
+                        Marechal Comandante da Guarnição.</addressee>
                     
                     <signed>
                         <persName ref="#antonio_pedro_abreu">Antônio Pedro de Abreu</persName>
                     </signed>
-                    <p>Tenente Comandante dos Presídios do Batalhão 11.</p>
+                    <p>Tenente Comandante dos Presídios do
+                        <orgName ref="#batalhao_11">Batalhão 11</orgName>.</p>
                 </closer>
             </div>
         </body>

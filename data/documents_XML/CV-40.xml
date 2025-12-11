@@ -18,10 +18,11 @@
                     </respStmt>
                     <date when="2025-06-25">25 de junho de 2025</date>
                 </editionStmt>
-                <extent>
-                    <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                    <measure type="words">xxx palavras</measure>
-                </extent>
+            <extent>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
+            </extent>
                 <publicationStmt>
                     <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
                     <pubPlace>Porto Alegre</pubPlace>
@@ -127,31 +128,38 @@
                     légua de frente e três de fundos, dividindo-se pelo Norte com a barra onde se 
                     junta o <placeName ref="#ibirapuita">Ibirapuitã</placeName> com o <placeName ref="#inhanduí">Inhanduí</placeName>, e fazem frente pelo Sul com 
                     uma coxilha, e pelo Este com um banhado que serve de divisa aos campos de 
-                    <persName ref="#jose_antonio_siqueira">José Antônio de Siqueira</persName>, desaguando no <placeName ref="#ibirapuita">Ibirapuitã</placeName>.
+                    <persName ref="#jose_antonio_siqueira">José Antônio de Siqueira</persName>, 
+                    deságua no <placeName ref="#ibirapuita">Ibirapuitã</placeName>, e também pelo Leste
+                    e pelo Oeste se divide com o mesmo <placeName ref="#inhanduí">Inhanduí</placeName> até sua barra;
+                    e porque estes campos ainda não fossem medidos e demarcados, e o Suplicante 
+                    presuma que dentro das supracitadas confrontações haja sobras daquela sesmaria, 
+                    temendo-se que outro qualquer as requeira em dano do Suplicante em razão de não poder
+                    admitir outro morador por ser um só rincão, motivos porque<br/>
+                    pede a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que se digne em atenção ao exposto <br/> 
+                    haver por bem conceder ao Suplicante 
+                    por Carta de Sesmaria as sobras <br/>
+                    existentes que houver no mencionado rincão, <br />
+                    a fim de acutelar o dano que mencionou.
                 </p>
                 
-                <p>
-                    Porque estes campos ainda não fossem medidos e demarcados, e o Suplicante 
-                    presuma que dentro das supracitadas confrontações haja sobras daquela sesmaria, 
-                    temendo-se que outro qualquer as requeira em dano seu, pede a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que se 
-                    digne conceder por Carta de Sesmaria as sobras existentes no referido rincão.
-                </p>
+                
                 
                 <closer>
+                    <salute><choice><abbr>E.R.J.</abbr><expan>Espero Receber Justiça</expan></choice></salute>
+                    <dateline><placeName ref="#alegrete">Alegrete</placeName>, 
+                        <date when="1843-02-21">21 de fevereiro de 1843</date>.</dateline>
                     <signed>
                         <persName ref="#claudio_abreu">Cláudio de Abreu</persName>
                     </signed>
-                    <p><placeName ref="#alegrete">Alegrete</placeName>, 
-                        <date when="1843-02-21">21 de fevereiro de 1843</date>.</p>
                 </closer>
                 
-                <note type="endorsement">
+                <note type="endorsement" place="1r.">
                     Dependendo a pretensão do peticionário de medida legislativa, recorra à 
-                    <orgName ref="#assembleia_geral">Assembléia Geral Constituinte e Legislativa do Estado</orgName>.<br/>
+                    <orgName ref="#assembleia_constituinte">Assembléia Geral Constituinte e Legislativa do Estado</orgName>.<br/>
                     <orgName ref="#secretaria_interior">Secretaria do Interior</orgName>, 
-                    <placeName ref="#alegrete">Alegrete</placeName>, 
+                    em <placeName ref="#alegrete">Alegrete</placeName>, 
                     <date when="1843-02-25">25 de fevereiro de 1843</date>.<br/>
-                    (a) <persName ref="#sa_brito">Sá Brito</persName>.
+                    <persName ref="#sa_brito">Sá Brito</persName>.
                 </note>
                 
             </div>

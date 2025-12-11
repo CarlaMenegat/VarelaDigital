@@ -19,8 +19,9 @@
                 <date when="2025-06-23">23 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -139,8 +140,8 @@
                 <closer>
                     <salute>Teu súdito, camarada e amigo</salute>
                     <signed><persName ref="#antonio_pedro_abreu">Antônio Pedro de Abreu</persName></signed>
-                    <p><placeName ref="#ilha_corvo">Ilha do Corvo</placeName>, 
-                        <date when="1839-05-19">19 de maio de 1839</date>.</p>
+                    <dateline><placeName ref="#ilha_corvo">Ilha do Corvo</placeName>, 
+                        <date when="1839-05-19">19 de maio de 1839</date>.</dateline>
                 </closer>
             </div>
         </body>

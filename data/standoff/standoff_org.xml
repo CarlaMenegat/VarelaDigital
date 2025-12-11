@@ -700,16 +700,21 @@
             <note>Unidade de cavalaria do Exército do Império do Brasil, mencionada no contexto das operações militares durante a Revolução Farroupilha.</note>
         </org>
         
+        <org xml:id="brigada_8" type="militaryUnit">
+            <orgName>8.ª Brigada</orgName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="brigada_8_exercito_imperial">
+                <roleName>Brigada do Exército Imperial</roleName>
+                <affiliation ref="#exercito_imperial"/>
+            </state>
+            <note>Unidade militar imperial mencionada em contexto de mobilização de praças sob comando de um major.</note>
+        </org>
+        
         <org xml:id="esquadrao_barra">
             <orgName>Esquadrão da Barra</orgName>
             <idno type="project"></idno>
             <note>Esquadrão citado como estando sob o comando de Francisco Pedro de Abreu.</note>
             <affiliation ref="#imperio_brasil"/>
-        </org>
-        
-        <org xml:id="legalidade">
-            <orgName>Legalidade</orgName>
-            <note>Barcaça mencionada como tendo sido tomada em Rio Pardo e da qual provinha a peça de bronze apreendida.</note>
         </org>
         
         <org xml:id="esquadrao_triunfo" type="militaryUnit">
@@ -724,6 +729,16 @@
                 de vigilância e repressão durante a Revolução Farroupilha. Em 1842, 
                 esteve sob o comando interino do Tenente José Alves de Medeiros.
             </note>
+        </org>
+        
+        <org xml:id="batalhao_11" type="militaryUnit">
+            <orgName>11.º Batalhão</orgName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="batalhao_11_exercito_imperial">
+                <roleName>Unidade de infantaria de linha</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <note>Unidade do Exército Imperial do Brasil, mencionada em contexto de comando de presídios.</note>
+            </state>
         </org>
         
         <org xml:id="mesa_eleitoral">

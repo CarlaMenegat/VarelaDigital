@@ -19,8 +19,9 @@
                 <date when="2025-06-28">28 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -134,12 +135,14 @@
                     está pronto à espera dos ofícios para seguir; é o que por ora tenho de informar a 
                     <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>.</p>
                     
-                    <p>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> por muitos anos.</p>
-                    
                     <closer>
+                        <salute>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> por muitos anos.</salute>
                         <dateline><placeName ref="#picada">Acampamento da Picada</placeName>, <date when="1838-11-18">18 de novembro de 1838</date>.</dateline>
-                        <signed><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/>
-                            <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.<br/>
+                        <addressee>
+                            <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> 
+                            <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/>
+                        </addressee>
+                        <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.<br/>
                             Major Comandante do Destacamento da Picada.</signed>
                     </closer>
                     

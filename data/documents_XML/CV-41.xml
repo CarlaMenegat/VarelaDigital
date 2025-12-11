@@ -19,8 +19,9 @@
                 <date when="2025-06-25">25 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -122,15 +123,12 @@
                 <p>
                     O Suplicante <persName ref="#claudio_abreu">Tenente-coronel Cláudio de Abreu</persName> vem de novo ante 
                     <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> ponderar que, devendo ser morosa a medida legislativa da 
-                    <orgName ref="#assembleia_geral">Assembléia Geral do Estado</orgName>, com a qual 
+                    <orgName ref="#assembleia_constituinte">Assembléia Geral do Estado</orgName>, com a qual 
                     <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> deferiu a 
                     súplica inclusa a respeito da sesmaria que requereu das sobras dos seus campos, 
                     não só por motivo da guerra atual como por se achar a mesma Assembléia a 
                     concluir seus trabalhos, receia o Suplicante que outro qualquer súdito da 
                     República intente a concessão pretendida.
-                </p>
-                
-                <p>
                     Por isso recorre novamente a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> 
                     para que se digne ordenar que o Suplicante 
                     possa continuar na posse em que se acha das sobras de sua sesmaria, até que 
@@ -142,19 +140,20 @@
                 </p>
                 
                 <closer>
-                    <p>R.J.</p>
+                    <salute><choice><abbr>R.J.</abbr><expan>Receber Justiça</expan></choice></salute>
                 </closer>
                 
-                <note type="endorsement">
+                <note type="endorsement" place="1r.">
                     Sim, salvo o direito de terceiro.<br/>
                     <orgName ref="#secretaria_interior">Secretaria do Interior</orgName> em 
                     <placeName ref="#alegrete">Alegrete</placeName>, 
                     <date when="1843-03-18">18 de março de 1843</date>.<br/>
-                    (a) <persName ref="#sa_brito">Sá Brito</persName>.
+                    <persName ref="#sa_brito">Sá Brito</persName>.
                 </note>
                 
-                <note type="endorsement">
-                    Maio 18, 1843.<br/>
+                <note type="endorsement" place="verso">
+                    1
+                    <date when="1843-05-18">Maio 18, 1843.</date><br/>
                     Despacho das sobras do campo de <placeName ref="#inhanduí_rincao">Inhanduí</placeName>.
                 </note>
                 

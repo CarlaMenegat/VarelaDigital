@@ -19,8 +19,9 @@
                 <date when="2025-06-25">25 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -126,11 +127,12 @@
                     <item>Lemes de conteiras</item>
                 </list>
                 
-                <p>É o que devo relacionar porque é somente o que acho.</p>
+                
                 
                 <closer>
+                    <salute>É o que devo relacionar porque é somente o que acho.</salute>
                     <dateline><orgName ref="#arsenal_guerra">Arsenal de Guerra</orgName>, <date when="1840-12-26">26 de dezembro de 1840</date>.</dateline>
-                    <signed>O Almoxarife<br/>(a) <persName ref="#firmino_luis_gomes_abreu">Firmino Luís Gomes de Abreu</persName></signed>
+                    <signed>O Almoxarife<br/> <persName ref="#firmino_luis_gomes_abreu">Firmino Luís Gomes de Abreu</persName></signed>
                 </closer>
                 
             </div>
