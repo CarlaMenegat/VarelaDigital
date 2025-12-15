@@ -699,6 +699,8 @@
             <note>Unidade de cavalaria integrante das forças do Exército Imperial do Brasil, mencionada como parte do Esquadrão da Barra.</note>
         </org>
         
+        
+        
         <org xml:id="primeira_brigada_cavalaria" type="militaryUnit">
             <orgName>1.ª Brigada de Cavalaria</orgName>
             <idno type="project"></idno>
@@ -757,14 +759,18 @@
             </state>
         </org>
         
-        <org xml:id="mesa_eleitoral">
-            <orgName>Mesa Eleitoral</orgName>
-            <note>Órgão responsável pela administração de processo eleitoral local.</note>
-        </org>
-        
-        <org xml:id="assembleia_primaria">
-            <orgName>Assembléia Primária</orgName>
-            <note>Instância eleitoral de base, organizada para escolha de representantes.</note>
+        <org xml:id="mesa_primaria" type="electoralBody">
+            <orgName>Mesa Primária</orgName>
+            <orgName type="alt">Mesa Eleitoral</orgName>
+            <idno type="project"/>
+            <affiliation ref="#republica_rio_grandense"/>
+            <note>
+                Mesa eleitoral de âmbito municipal, responsável pela condução dos atos eleitorais
+                primários, incluindo a organização da votação, a recepção dos votos e a lavratura
+                dos respectivos ofícios e comunicações. As Mesas Primárias constituíam instâncias
+                locais do processo eleitoral da República Rio-Grandense durante a Revolução
+                Farroupilha (1835–1845).
+            </note>
         </org>
         
         <org xml:id="assembleia_constituinte" type="legislativeBody">
@@ -830,6 +836,16 @@
             <note>Unidade militar da Guarda Nacional mencionada nas correspondências farroupilhas.</note>
         </org>
         
+        <org xml:id="esquadrao_faxinal" type="militaryUnit">
+            <orgName>Esquadrão do Faxinal</orgName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="esquadrao_faxinal_imperial">
+                <roleName>Unidade de cavalaria do Exército Imperial</roleName>
+                <affiliation ref="#exercito_imperial"/>
+            </state>
+            <note>Unidade militar imperial mencionada em contexto de operações e deslocamentos de tropas durante a Guerra dos Farrapos.</note>
+        </org>
+        
         <org xml:id="corpo_lanceiros_2" type="militaryUnit">
             <orgName>2.º Corpo de Lanceiros</orgName>
             <idno type="project"/>
@@ -845,6 +861,16 @@
                 operações de campanha e manteve organização e comando próprios no interior 
                 das forças de lanceiros.
             </note>
+        </org>
+        
+        <org xml:id="corpo_5_farroupilhas" type="militaryUnit">
+            <orgName>5.º Corpo dos rebeldes</orgName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="corpo_5_rebeldes_farroupilha">
+                <roleName>Unidade militar do Exército Farroupilha</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <note>Unidade militar rebelde mencionada em contexto de operações durante a Guerra dos Farrapos.</note>
         </org>
         
         <org xml:id="corpo_cavalaria_2" type="militaryUnit">

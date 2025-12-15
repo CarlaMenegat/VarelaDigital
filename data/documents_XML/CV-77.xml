@@ -19,8 +19,9 @@
                 <date when="2025-06-30">30 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -97,6 +98,11 @@
                     <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -128,11 +134,22 @@
                     <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> mandará entregar a bordo de uma canhoneira e mandará 
                     pedir ao comandante para lhe pôr um par de machos até segunda ordem minha.</p>
                 
-                <p>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>. 
-                    <placeName ref="#campo_cangucu">Campo junto a Canguçu</placeName>, <date when="1844-05-16">16 de maio de 1844</date>.</p>
+                <salute>
+                    Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>. 
+                </salute>
+                <dateline>Campo junto a <placeName ref="#cangucu">Canguçu</placeName>, <date when="1844-05-16">16 de maio de 1844</date>.</dateline>
                 
                 <closer>
-                    <signed><persName ref="#francisco_pedro_abreu">(a) Francisco Pedro de Abreu</persName></signed>
+                    <salute>
+                        Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>. 
+                    </salute>
+                    <dateline>Campo junto a <placeName ref="#cangucu">Canguçu</placeName>, <date when="1844-05-16">16 de maio de 1844</date>.</dateline>
+                    <addressee>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                        <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName> <br/>
+                        Tenente-coronel Comandante do <orgName ref="#oitavo_batalhao_cacadores">8.º Batalhão de Caçadores</orgName>.
+                    </addressee>
+                    <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></signed>
                 </closer>
                 
             </div>

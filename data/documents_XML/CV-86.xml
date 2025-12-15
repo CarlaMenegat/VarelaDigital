@@ -19,8 +19,9 @@
                 <date when="2025-06-30">30 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -97,6 +98,11 @@
                     <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -139,20 +145,37 @@
                     providenciar o arranjo da sala; espero que conhecendo a justiça do expendido me desculpará.</p>
                 
                 <closer>
-                    <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>. <placeName ref="#sao_lourenco">São Lourenço</placeName>, 
-                        <date when="1840-03-01">1.º de março de 1840</date>.</p>
-                    
-                    <signed><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.</signed>
-                    <signed>Chefe de Polícia do <placeName ref="#boqueirao">Boqueirão</placeName>.</signed>
-                    
-                    <signed>(a) <persName ref="#joaquim_francisco_santos_abreu">Joaquim Francisco dos Santos Abreu</persName>.</signed>
+                    <salute>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>. </salute>
+                    <dateline><placeName ref="#sao_lourenco">São Lourenço</placeName>, <date when="1840-03-01">1.º de março de 1840</date>.</dateline>
+                    <addressee>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>. <br/>
+                        Chefe de Polícia do <placeName ref="#boqueirao">Boqueirão</placeName>.
+                    </addressee>
+                    <signed><persName ref="#joaquim_francisco_santos_abreu">Joaquim Francisco dos Santos Abreu</persName>.</signed>
                 </closer>
                 
-                <note type="endorsement">Segueue com toda a brevidade possível. [No verso]</note>
+                <note type="endorsement" place="2v">
+                    Segue com toda a brevidade possível.
+                </note>
                 
-                <note type="endorsement">Ofício do Presidente da <orgName ref="#assembleia_primaria">Mesa Primária</orgName> das eleições do 1.º de março; recebido a 2 e respondido no mesmo dia. <choice><abbr>S. da R</abbr><expan>Secretaria da Presidência da República</expan></choice>ep.</note>
+                <note type="endorsement" place="2v">
+                    Ofício do Presidente da 
+                    <orgName ref="#mesa_primaria">Mesa Primária</orgName> 
+                    das eleições de <date when="1840-03-01">1.º de março</date>; 
+                    recebido a <date when="1840-03-02">2</date> 
+                    e respondido no mesmo dia. 
+                    <choice>
+                        <abbr>S. da R.</abbr>
+                        <expan>Secretaria da Presidência da República</expan>
+                    </choice>
+                </note>
                 
-                <note type="endorsement">Ao cidadão <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>, Chefe de Polícia do <placeName ref="#boqueirao">Boqueirão</placeName>. Do Presidente da <orgName ref="#assembleia_primaria">Mesa Primária</orgName>.</note>
+                <note type="endorsement" place="2v">
+                    Ao cidadão 
+                    <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>, 
+                    Chefe de Polícia do <placeName ref="#boqueirao">Boqueirão</placeName>. 
+                    Do Presidente da <orgName ref="#_primaria">Mesa Primária</orgName>.
+                </note>
                 
             </div>
         </body>

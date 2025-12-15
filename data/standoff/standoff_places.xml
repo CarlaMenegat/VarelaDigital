@@ -269,6 +269,8 @@
         
         <place xml:id="porto_alegre">
             <placeName>Porto Alegre</placeName>
+            <placeName type="historical">Leal e Valerosa Cidade de Porto Alegre</placeName>
+            <placeName type="historical">Madre de Deus de Porto Alegre</placeName>
             <idno type="geonames">https://www.geonames.org/3452925/porto-alegre.html</idno>
             <geo>-30.0346, -51.2177</geo>
             <note>Capital da Província do Rio Grande do Sul.</note>

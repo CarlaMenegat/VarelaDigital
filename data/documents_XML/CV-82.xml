@@ -19,8 +19,9 @@
                 <date when="2025-06-30">30 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -94,6 +95,11 @@
                     <date when="1844-09-30">30 de setembro de 1844</date>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -117,11 +123,12 @@
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>; só em caso de muita necessidade; então 
                     lhe pedirão, que o mesmo senhor será franco em prestar-se.</p>
                 
-                <p><placeName ref="#pelotas">Cidade de Pelotas</placeName>, <date when="1844-09-30">30 de setembro de 1844</date>.</p>
-                
                 <closer>
-                    <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></signed><br/>
-                    <signed>Coronel Comandante deste Departamento.</signed>
+                    <dateline><placeName ref="#pelotas">Cidade de Pelotas</placeName>, <date when="1844-09-30">30 de setembro de 1844</date>.</dateline>
+                    <signed>
+                        <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName><br/>
+                        Coronel Comandante deste Departamento.
+                    </signed>
                 </closer>
                 
             </div>

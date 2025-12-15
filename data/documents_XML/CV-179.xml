@@ -108,6 +108,11 @@
                 <date when="1835">1835</date>
                 <placeName ref="#porto_alegre">Porto Alegre</placeName>
             </creation>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>

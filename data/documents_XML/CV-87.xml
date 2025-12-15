@@ -19,8 +19,9 @@
                 <date when="2025-07-01">01 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -98,6 +99,11 @@
                     <persName ref="#antonio_francisco_santos_abreu">Antônio Francisco dos Santos Abreu</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -129,15 +135,16 @@
                     Câmaras Municipais, ou pelos chefes de polícia na falta delas.</p>
                 
                 <closer>
-                    <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>. 
+                    <salute>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>. </salute>
+                    <dateline>
                         <orgName ref="#secretaria_tesouro">Secretaria do Tesouro</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 
-                        <date when="1840-02-13">13 de fevereiro de 1840</date>.</p>
-                    
+                        <date when="1840-02-13">13 de fevereiro de 1840</date>.
+                    </dateline>
                     <signed><persName ref="#manuel_martins_silveira_lemos">Manuel Martins da Silveira Lemos</persName>.</signed>
-                    <signed>Ao cidadão <persName ref="#antonio_francisco_santos_abreu">Antônio Francisco dos Santos Abreu</persName>, <orgName ref="#coletoria">Coletor</orgName> do <placeName ref="#boqueirao">Boqueirão</placeName>.</signed>
+                    <addressee>Ao cidadão <persName ref="#antonio_francisco_santos_abreu">Antônio Francisco dos Santos Abreu</persName>, <orgName ref="#coletoria">Coletor</orgName> do <placeName ref="#boqueirao">Boqueirão</placeName>.</addressee>
                 </closer>
                 
-                <note type="endorsement">[Cópia anexa ao Doc. CV-86]</note>
+                <note type="editorial">Cópia anexa ao Doc. CV-86</note>
                 
             </div>
         </body>

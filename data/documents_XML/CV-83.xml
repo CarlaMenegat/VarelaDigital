@@ -19,8 +19,9 @@
                 <date when="2025-06-30">30 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -97,6 +98,11 @@
                     <persName ref="#francisco_chagas">Francisco das Chagas</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -127,15 +133,16 @@
                     23 do corrente feito empossar do cargo do juizado de paz o Capitão <persName ref="#manuel_jose_alencastre">Manuel José de Alencastre</persName>, 
                     que até este dia achava-se fugitivo pelas brenhas dos desertos por ter sido muito perseguido pelos anarquistas e, 
                     igualmente, empossei do comando da polícia, interinamente, o cidadão <persName ref="#jose_rodrigues_tavares">José Rodrigues Tavares</persName>, 
-                    pessoa de quem confio por ser muito fidedigno e pertencer ao partido da legalidade.</p>
-                
-                <p>Tenho feito todos os esforços a fim de reunir por boas maneiras os desertores das fileiras dos rebeldes, e não tenho 
+                    pessoa de quem confio por ser muito fidedigno e pertencer ao partido da legalidade. 
+                    Tenho feito todos os esforços a fim de reunir por boas maneiras os desertores das fileiras dos rebeldes, e não tenho 
                     feito por ora prisões nos mesmos por estar ainda muito perto o inimigo e desconfiar que se principiar a prender alguns, 
                     os outros, noticiosos, fujam a reforçarem as fileiras dos rebeldes, o que guardo para quando vier o Major 
-                    <persName ref="#paulo_pereira_silva_alano">Paulo Alano</persName> com forças para guarnecer a costa de <placeName ref="#camaqua">Camaquã</placeName>.</p>
-                
-                <p>Os três distritos acham-se cheios de anarquistas e de ladrões facinorosos; os cidadãos pacíficos e amigos da ordem legal 
-                    me suplicam com lágrimas e me impedem a minha retirada deste lugar sem que eu lhes deixe uma força dos soldados de meu 
+                    <persName ref="#paulo_pereira_silva_alano">Paulo Alano</persName> com forças para guarnecer a costa de 
+                    <placeName ref="#camaqua">Camaquã</placeName>. Os três distritos acham-se cheios de anarquistas e de ladrões facinorosos; 
+                    os cidadãos pacíficos e amigos da ordem legal me suplicam com lágrimas e me impedem a minha retirada 
+                    <pb n="1v"/>
+                    <seg type="folio">[1v.]</seg>
+                    deste lugar sem que eu lhes deixe uma força dos soldados de meu 
                     mando para os guardar dos muitos malfeitores que existem pelos matos amalocados, o que faço por não deixá-los expostos 
                     aos rebeldes que já existem no 8.º distrito e as famílias e cidadãos amigos da ordem, deixando por este motivo de não 
                     poder voltar aos 6.º e 7.º distritos para neles executar a mesma ordem, por ter só debaixo de meu mando 30 praças e, 
@@ -146,30 +153,37 @@
                     <choice><abbr>V.Ex</abbr><expan>Vossa Excelência</expan></choice>ᵃ, por sua benignidade, e a bem do serviço legal, 
                     me mande quando menos 30 homens que sejam bons e bem armados para assim poder policiar os distritos de que fui 
                     encarregado pelo <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Presidente da Província, que contém este departamento de mais de 25 léguas, para poder conservar 
-                    a paz e tranquilidade dos cidadãos pacíficos.</p>
-                
-                <p>Junto verá <choice><abbr>V.Ex</abbr><expan>Vossa Excelência</expan></choice>ᵃ a representação que hoje recebo do juiz de 
-                    paz e mais cidadãos para fazer reter-me neste lugar até que <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> dê as 
+                    a paz e tranquilidade dos cidadãos pacíficos.
+                    Junto verá <choice><abbr>V.Ex</abbr><expan>Vossa Excelência</expan></choice>ᵃ a representação que hoje recebo do juiz de 
+                    paz e mais cidadãos para fazer reter-me neste lugar até 
+                    <pb n="2r"/>
+                    <seg type="folio">[2r.]</seg>
+                    que <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> dê as 
                     providências que achar mais conveniente. A muito custo tenho reunido duzentos e tantos cavalos e estes acham-se quase 
                     todos incapazes de poder servir no presente por estarem bastante magros; nestes mesmos vou fazendo o serviço até juntar 
                     mais alguns. O inimigo retirou-se para o outro lado de <placeName ref="#camaqua">Camaquã</placeName>, ficando do lado de 
                     cá deste arroio uma partida, que me dizem ser de mais de 60 homens, comandada pelo rebelde 
                     <persName ref="#mariano_gloria">Mariano Glória</persName>, e o inimigo levou na sua retirada tudo quanto foi cavalo que 
-                    havia nestes distritos fazendo seguir alguns moradores pacíficos com seus cavalos e até éguas mansas.</p>
-                
-                <p>Eu fico neste lugar mais arriscado dos distritos por ser aonde suponho ser mais ameaçado dos inimigos, e do que se passar 
+                    havia nestes distritos fazendo seguir alguns moradores pacíficos com seus cavalos e até éguas mansas.
+                    Eu fico neste lugar mais arriscado dos distritos por ser aonde suponho ser mais ameaçado dos inimigos, e do que se passar 
                     de ora em diante farei pronta participação; é o quanto tenho a honra de levar ao respeitável conhecimento de 
-                    <choice><abbr>V.Exª</abbr><expan>Vossa Excelência</expan></choice>. Deus guarde a <choice><abbr>V.Exª</abbr><expan>Vossa Excelência</expan></choice> 
-                    por muitos anos. Acampamento volante nas imediações do <placeName ref="#velhaco">arroio do Velhaco</placeName>, 
-                    <date when="1836-10-27">27 de outubro de 1836</date>.</p>
-                
-                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#francisco_chagas_santos">Francisco das Chagas</persName>.<br/>
-                    Comandante da Força da Guarnição da <placeName ref="#porto_alegre">cidade de Porto Alegre</placeName>.</p>
+                    <choice><abbr>V.Exª</abbr><expan>Vossa Excelência</expan></choice>.</p>
                 
                 <closer>
-                    <signed>(a) <persName ref="#joao_pedro_abreu">João Pedro de Abreu</persName></signed><br/>
-                    <signed>Tenente Comandante da Polícia do <placeName ref="#arroio_ratos">arroio dos Ratos</placeName> até o 
-                        <placeName ref="#velhaco">arroio Velhaco</placeName>.</signed>
+                    <salute>Deus guarde a <choice><abbr>V.Exª</abbr><expan>Vossa Excelência</expan></choice> por muitos anos.</salute>
+                    <dateline> 
+                        Acampamento volante nas imediações do <placeName ref="#velhaco">arroio do Velhaco</placeName>, 
+                        <date when="1836-10-27">27 de outubro de 1836</date>.
+                    </dateline>
+                    <addressee>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#francisco_chagas_santos">Francisco das Chagas</persName>.<br/>
+                        Comandante da Força da Guarnição da <placeName ref="#porto_alegre">cidade de Porto Alegre</placeName>.
+                    </addressee>
+                    <signed>
+                        <persName ref="#joao_pedro_abreu">João Pedro de Abreu</persName><br/>
+                        Tenente Comandante da Polícia do <placeName ref="#arroio_ratos">arroio dos Ratos</placeName> até o 
+                        <placeName ref="#velhaco">arroio Velhaco</placeName>.
+                    </signed>
                 </closer>
                 
             </div>

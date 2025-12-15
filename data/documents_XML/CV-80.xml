@@ -19,8 +19,9 @@
                 <date when="2025-06-30">30 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -97,6 +98,11 @@
                     <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -128,13 +134,15 @@
                     por cá que lhe comunique, senão cada vez grassar mais com toda certeza o destroço do <persName ref="#canabarro">Canabarro</persName> 
                     e que ele mesmo fora prisioneiro e muito ferido; se assim é estamos com a guerra acabada.</p>
                 
-                <p>Deus guarde a <choice><abbr>V.Sᵃ.</abbr><expan>Vossa Senhoria</expan></choice> Campo junto a <placeName ref="#cangucu">Canguçu</placeName>, <date when="1844-07-01">1.º de julho de 1844</date>.</p>
-                
-                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName>.<br/>
-                    Tenente-coronel Comandante da Guarnição da cidade de <placeName ref="#pelotas">Pelotas</placeName>.</p>
-                
                 <closer>
-                    <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></signed>
+                    <salute>Deus guarde a <choice><abbr>V.Sᵃ.</abbr><expan>Vossa Senhoria</expan></choice></salute>
+                    <dateline>Campo junto a <placeName ref="#cangucu">Canguçu</placeName>, <date when="1844-07-01">1.º de julho de 1844</date>.</dateline>
+                    
+                    <addressee>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName>.<br/>
+                        Tenente-coronel Comandante da Guarnição da cidade de <placeName ref="#pelotas">Pelotas</placeName>.
+                    </addressee>
+                    <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></signed>
                 </closer>
                 
             </div>

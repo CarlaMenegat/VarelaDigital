@@ -19,8 +19,9 @@
                 <date when="2025-06-29">29 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -98,6 +99,11 @@
                     <roleName>General-em-chefe do Exército em Operações</roleName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -121,8 +127,8 @@
                     <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Em cumprimento das ordens que tive de <choice><abbr>V. Exª.</abbr><expan>Vossa Excelência</expan></choice>, no dia 20
-                    do corrente passei o <placeName ref="#sao_goncalo">São Gonçalo</placeName> com a força que trouxe de 
+                <p>Em cumprimento das ordens que tive de <choice><abbr>V. Exª.</abbr><expan>Vossa Excelência</expan></choice>, no dia 
+                    <date when="1842-01-20">20 do corrente</date> passei o <placeName ref="#sao_goncalo">São Gonçalo</placeName> com a força que trouxe de 
                     <placeName ref="#porto_alegre">Porto Alegre</placeName> e o <persName ref="#major_antunes">Major Antunes</persName> com vinte homens 
                     entrando neste número alguns oficiais e o capitão<persName ref="#capitao_lucas">Lucas</persName> com dois
                     camaradas que se me ofereceu para sair; e como corresse a notícia que <persName ref="#antonio_sousa_neto">Neto</persName> 
@@ -136,44 +142,87 @@
                     que <persName ref="#bento_goncalves">Bento Gonçalves</persName> teve a notícia da minha marcha para aquela povoação 
                     reuniu tudo e pôs-se em retirada; vendo eu que nada podia fazer por 
                     ele já estar prevenido e a minha cavalhada ser muito péssima tratei 
-                    de dar de comer à minha gente e descansar os cavalos...</p>
-                
-                <p>...mandando retirar ao 8.º Batalhão que tinha deixado de apoio na 
+                    de dar de comer à minha gente e descansar os cavalos mandando retirar ao 8.º Batalhão que tinha deixado de apoio na 
                     olaria do Ricardo para o passo do Liscano e voltar o 
                     <persName ref="#major_antunes">Major Antunes</persName> e o <persName ref="#capitao_lucas">Capitão Lucas</persName> com as praças que 
                     trouxeram, e pondo-me eu em retirada, mostrando muito medo e 
                     receio de <persName ref="#bento_goncalves">Bento Gonçalves</persName> e de <persName ref="#antonio_sousa_neto">Neto</persName>, marchando toda noite e de 
                     madrugada, e na madrugada do dia 24 me alcançaram 
                     <persName ref="#bento_goncalves">Bento Gonçalves</persName> nas picadas de Guatimim; deixando eu uma 
-                    emboscada na retaguarda...</p>
-                
-                <p>...passei o <placeName ref="#arroio_grande">arroio Grande</placeName> e fiz adiantar o 
+                    emboscada na retaguarda a reconhecer força viu-se uma força grande que vinha nas ditas picadas; perdi nesse 
+                    reconhecimento um soldado morto e um ferido mortalmente; tornei a retirar-me a ver se podia regular o número da força e  
+                    como não
+                    <pb n="1v"/>
+                    <seg type="folio">[1v.]</seg>
+                    pudesse por causa de virem muito retirados acampei-me para carnear e e descansar os cavalos
+                    quando pelas 4 horas da tarde ameaçaram-me um ataque falso sobre o acampamento; logo me pus em retirada
+                    mostrando-lhes que tinha medo de ser atacado; marchando toda a noite 
+                    passei o <placeName ref="#arroio_grande">arroio Grande</placeName> e fiz adiantar o 
                     <persName ref="#isaias_antonio">Capitão Isaías</persName> com 50 e tantos homens a reunir cavalos na margem 
-                    esquerda de <placeName ref="#rio_camaqua">Camaquã</placeName>... fiz constar pelos moradores que vinha com muito medo 
-                    de <persName ref="#antonio_sousa_neto">Neto</persName>... </p>
-                
-                <p>...emboscando-me perto do dito passo do Cordeiro fiz emboscar a infantaria ao mando do 
-                    <persName ref="#major_queste"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Major Queste</persName> na picada determinando-lhe que deixasse passar 
-                    de 150 homens a 200 e lhe fizesse fogo...</p>
-                
-                <p>...deixando no campo 31 mortos e vinte prisioneiros, entrando 
-                    neste número um tenente-coronel e um tenente... é de lastimar a 
-                    perda do valente e honrado <persName ref="#capitao_antonio_candido_silva">Capitão Antônio Cândido da Silva</persName> e do bravo 
+                    esquerda de <placeName ref="#rio_camaqua">Camaquã</placeName> aver se podia fazer alguma coisa 
+                    visto que a minha cavalhada não me dava coragem a empreender nada; 
+                    vindo amanhecer no passo do <placeName ref="#rio_camaqua">Camaquã</placeName> no Mendonça, percebi que o inimigo 
+                    vinha com receio por ter deixado parte das cavalhadas;
+                    passei <placeName ref="#rio_camaqua">Camaquã</placeName> para este lado, 
+                    fiz constar pelos moradores que vinha com muito medo 
+                    de <persName ref="#antonio_sousa_neto">Neto</persName>
+                    que eles espalharam que vinha na retaguarda, e plas 6 horas da tarde pus-me em retirada;
+                    logo que escureceu fiz seguir as cavalhadas com 60 homens para o passo do Cordeiro e eu com a mais força 
+                    contramarchei para trás e emboscando-me perto do dito passo fiz emboscar a infantaria ao mando do 
+                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#major_queste">Major Queste</persName> 
+                    na picada determinando-lhe que deixasse passar 
+                    de 150 homens a 200 e lhe fizesse fogo na retaguarda para eu carregar pela frente; o que logo que na madrugada do
+                    dia <date when="1842-01-26">26</date> pôs-se o <persName ref="#bento_goncalves">Bento Gonçalves</persName>
+                    em marcha pela picada do dito passo , o Sr. Major, deixando passar a força indicada, lhe fez fogo pel retaguarda,
+                    mas como tivesse chovido a toda noitee estivessem as armas molhadas
+                    tornaram a passar para o outro lado deixando 5 mortos e perto de
+                    quarenta cavalos encilhados. Vendo eu que eles estavam forma-
+                    dos do outro lado fiz passar a infantaria adiante e passei com a ca-
+                    valaria atrás; vendo <persName ref="#bento_goncalves">Bento Gonçalves</persName> que eu não passava com mais
+                    de duzentos homens de cavalaria tratou de me atacar e logo que
+                    me viu separar da infantaria carregou-me com trezentos e tantos
+                    homens; mas não lhe valeu a superioridade da força para ser derrotado completamente, 
+                    deixando no campo 31 mortos e vinte priioneiros, entrando neste número um tenente-coronel e um tenente,
+                    estes no número dos mortos, e duzentos cavalos e destes mais de
+                    oitenta arreados, muitas 
+                    <pb n="2r"/>
+                    <seg type="folio">[2r.]</seg>
+                    lanças, bagagem toda, e da nossa par-
+                    te é de latismar a perda do valente e honrado
+                    <persName ref="#capitao_antonio_candido_silva">Capitão Antônio Cândido da Silva</persName> e do bravo 
                     <persName ref="#alferes_pedro_antonio_iripi">Alferes Pedro Antônio Iripi</persName> e do valente 
-                    <persName ref="#sargento_antonio_correia">Sargento Antônio Correia</persName>...</p>
-                
-                <p>...deixei de proteção 
-                    à cavalhada e mesmo de observação ao passo o 
-                    <persName ref="#capitao_francisco_cabeleira">Capitão Francisco Cabeleira</persName>... vou-me retirando pela costa da 
-                    <placeName ref="#lagoa_patos">lagoa dos Patos</placeName> a dissolver as reuniões... Deus guarde a <choice><abbr>V. Exª.</abbr><expan>Vossa Excelência</expan></choice> 
-                    <placeName ref="#dores_camaqua">Capela das Dores</placeName>, <date when="1842-01-29">29 de janeiro de 1842</date>.</p>
+                    <persName ref="#sargento_antonio_correia">Sargento Antônio Correia</persName> que foram imortos no combate, e
+                    sete soldados feridos, quatro gravemente e três levemente, sendo
+                    dois da infantaria dos que se acham feridos gravemente; o proce-
+                    dimento com que se prestou o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#major_queste">Major Queste</persName> e seus oficiais e
+                    praças de seu mando é digno de todo o louvor assim como dos ofi-
+                    ciais e inferiores e praças do <orgName ref="#corpo_5_gn">5.º Corpo</orgName> e do <orgName ref="#esquadrao_faxinal">Esquadrão do Faxinal</orgName>,
+                    que a não ser a coragem e entusiasmo com que todos avançaram
+                    ao inimigo teríamos de sofrer algum revés porque não só o inimigo
+                    atacou com mais cem homens como pela superioridade da cava-
+                    lhada que por causa do mau estado dos nossos cavalos não acabei
+                    com o último rebelde; o 
+                    <persName ref="#capitao_francisco_cabeleira">Capitão Francisco Cabeleira</persName>.
+                    com a gente de seu mando deixei de proteção à cavalhada e mesmo de observa-
+                    ção ao passo; os dois oficiais que morreram são casados e pobres
+                    e eu espero que <choice><abbr>V. Exª.</abbr><expan>Vossa Excelência</expan></choice>  recomende suas mulheres para o nosso 
+                    <PersName ref="#pedro_ii">Augusto Imperador </PersName>a ver se lhe concede o soldo de seus maridos que
+                    tantas vezes arriscaram suas vidas em defesa do trono de Sua Majestade Imperador; vou-me retirando pela costa da <placeName ref="#lagoa_patos">lagoa dos Patos</placeName>
+                    a dissolver as reuniões que já se estarão fazendo por ordem de
+                    <persName ref="#bento_goncalves">Bento Gonçalves</persName> para me atacar quando extraviado. 
+                </p>
                 
                 <closer>
-                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#general_valente">Conde do Rio Pardo</persName></salute>
-                    <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
-                    <signed>Tenente-coronel Comandante da Expedição</signed>
+                    <salute>Deus guarde a <choice><abbr>V. Exª.</abbr><expan>Vossa Excelência</expan></choice> </salute>
+                    <dateline><placeName ref="#dores_camaqua">Capela das Dores</placeName>, <date when="1842-01-29">29 de janeiro de 1842</date>.</dateline>
+                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> 
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#general_valente">Conde do Rio Pardo</persName>
+                    </addressee>
+                    <signed>
+                        <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.<br/>
+                        Tenente-coronel Comandante da Expedição <br/>
+                    </signed>
                 </closer>
-                
             </div>
         </body>
     </text>

@@ -19,8 +19,9 @@
                 <date when="2025-06-30">30 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -97,6 +98,11 @@
                     <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -128,17 +134,18 @@
                     vaqueano mais quatro homens de cavalaria desembaraçados; nessa cidade deverá chegar cem homens e cavalaria vindos de 
                     <placeName ref="#porto_alegre">Porto Alegre</placeName>, os quais <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
                     os mandará aquartelar no armazém da praia perto do sobrado do Prº Ribas até segunda ordem minha e deles 
-                    <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice></p>
-                
-                <p>poderá dispor de alguns para algumas diligências se forem precisos. Eu hoje sigo a operar sobre o inimigo e por isso por 
+                    <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> poderá dispor de alguns para algumas 
+                    diligências se forem precisos. Eu hoje sigo a operar sobre o inimigo e por isso por 
                     ora não mande comunicação nenhuma para mim sem ter exata notícia aonde eu estou.</p>
                 
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
+                    <addressee>
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName>. <br/>
+                        Tenente-coronel Comandante do <orgName ref="#oitavo_batalhao_cacadores">8.º Batalhão de Caçadores</orgName>.
+                    </addressee>
                     <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></signed>
                 </closer>
-                
-                <fw type="recipient"><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#luis_jose_ferreira">Luís José Ferreira</persName>. Tenente-coronel Comandante do 8.º Batalhão de Caçadores.</fw>
                 
             </div>
         </body>

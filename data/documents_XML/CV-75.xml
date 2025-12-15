@@ -19,8 +19,9 @@
                 <date when="2025-06-30">30 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -97,6 +98,11 @@
                     <persName ref="#urbano_soares_silva">Urbano Soares da Silva</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -141,18 +147,18 @@
                     como para tratarmos dos interesses de nossa pátria que me parece dever-lhe merecer isto muita atenção; disponha deste 
                     que se preza ser seu parente e amigo.</p>
                 
-                <p>
-                    <note type="postscript">Me fará o obséquio fazer este mesmo convite ao meu patrício e seu cunhado Paulo, pois que 
-                        também tenho muitos desejos de o conhecer.</note>
-                </p>
+                <note type="postscript">
+                    <choice>
+                        <abbr>N.B.</abbr>
+                        <expan>Nota Bene</expan>
+                    </choice>
+                    Me fará o obséquio fazer este mesmo convite ao meu patrício e seu cunhado
+                    Paulo, pois que também tenho muitos desejos de o conhecer.
+                </note>
                 
                 <closer>
                     <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName></signed>
                 </closer>
-                
-                <note type="editorial">
-                    O nome correto do destinatário é Urbano Soares da Silva.
-                </note>
                 
             </div>
         </body>

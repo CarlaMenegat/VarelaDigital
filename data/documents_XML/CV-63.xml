@@ -126,7 +126,7 @@
                     <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>No dia 10 do corrente se concluiu a passagem no Passo Real do <placeName ref="#rio_dos_sinos">Rio dos Sinos</placeName>, 
+                <p>No dia <date when="1840-12-10">10 do corrente</date> se concluiu a passagem no Passo Real do <placeName ref="#rio_dos_sinos">Rio dos Sinos</placeName>, 
                     pelas 10 horas do dia, do <orgName ref="#infantaria_5batalhao">5.º Batalhão de Infantaria</orgName> e 
                     <orgName ref="#infantaria_11batalhao">11.º da mesma arma</orgName> e 
                     <orgName ref="#guardas_nacionais_5corpo">5.º Corpo de Cavalaria de Guarda Nacional</orgName>; e no dia 11, pelas 2 horas 
@@ -150,7 +150,10 @@
                     <persName ref="#major_rodrigues">Major Rodrigues</persName> tiveram de retroceder os rebeldes precipitadamente para 
                     <placeName ref="#torres">Torres</placeName>, para passarem na picada do rio Verde, tendo já perdido mais de 200 homens 
                     desertados e de 800 a 1000 cavalos pela precipitação da marcha.
-                    E disto fui informado por um soldado prisioneiro de nome <persName ref="#jeronimo_de_barros">Jerônimo de Barros</persName>, 
+                    E disto 
+                    <pb n="1v"/>
+                    <seg type="folio">[1v.]</seg>
+                    fui informado por um soldado prisioneiro de nome <persName ref="#jeronimo_de_barros">Jerônimo de Barros</persName>, 
                     da força do <persName ref="#jose_inacio_ourives">Major Ourives</persName>, que pôde escapar-lhe meio dia antes da entrada da 
                     Picada, afiançando dito soldado que o inimigo, pela desmoralização em que ia, não vence subir a Serra com mais de 200 
                     homens e 500 cavalos. E isto logo participei ao <persName ref="#jose_inacio_ourives">Major Ourives</persName>.</p>
@@ -161,12 +164,12 @@
                     <placeName ref="#porto_alegre">Porto Alegre</placeName>, <date when="1840-12-17">17 de dezembro de 1840</date>.</p>
                 
                 <closer>
-                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e 
+                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e 
                         <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> 
                         <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
                         <persName ref="#joao_paulo_santos_barreto"><choice><sic>João Paulo dos Sousa Barreto</sic><corr>João Paulo dos Santos Barreto</corr></choice></persName>
                         Digníssimo Comandante-em-chefe do Exército desta Província.
-                    </salute>
+                    </addressee>
                     <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>. Tenente-coronel</signed>
                 </closer>
                 

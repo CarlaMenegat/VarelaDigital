@@ -19,8 +19,9 @@
                 <date when="2025-06-30">30 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -97,6 +98,15 @@
                     <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+                <handNote xml:id="hand_varela_pencil" medium="pencil">
+                    <persName ref="#alfredo_varela">Alfredo Varela</persName>
+                    <desc>Anotações posteriores a lápis feitas por Alfredo Varela no exemplar consultado.</desc>
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -130,20 +140,53 @@
                     sobre este tópico, o mais breve me é necessário, e mandando-me dizer qual a sala para cujo fim.</p>
                 
                 <closer>
-                    <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>. <placeName ref="#sao_lourenco">São Lourenço</placeName>, 
-                        <date when="1840-02-26">26 de fevereiro de 1840</date>.</p>
+                    <salute>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
+                    <dateline>
+                        <placeName ref="#sao_lourenco">São Lourenço</placeName>, 
+                        <date when="1840-02-26">26 de fevereiro de 1840</date>.
+                    </dateline>
                     
-                    <signed><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.</signed>
-                    <signed>Chefe Geral da Polícia.</signed>
+                    <addressee>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>. <br/>
+                        Chefe Geral da Polícia.
+                    </addressee>
                     
-                    <signed>(a) <persName ref="#joaquim_francisco_santos_abreu">Joaquim Francisco dos Santos Abreu</persName>.</signed>
-                    <signed>Presidente da <orgName ref="#assembleia_primaria">Assembléia Primária</orgName>.</signed>
+                    <signed>
+                        <persName ref="#joaquim_francisco_santos_abreu">Joaquim Francisco dos Santos Abreu</persName>.<br/>
+                        Presidente da <orgName ref="#assembleia_primaria">Assembléia Primária</orgName>.
+                    </signed>
                 </closer>
                 
-                <note type="endorsement">Ofício do Dr. <persName ref="#joaquim_francisco_santos_abreu">Joaquim Francisco dos Santos Abreu</persName>, Presidente da <orgName ref="#assembleia_primaria">Assembléia Primária</orgName>, de 26 de fevereiro, recebido a 28 e respondido no mesmo dia. <choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice></note>
+                <note type="endorsement" place="1v">
+                    <p>
+                        Ofício do Dr. 
+                        <persName ref="#joaquim_francisco_santos_abreu">Joaquim Francisco dos Santos Abreu</persName>, 
+                        Presidente da <orgName ref="#assembleia_primaria">Assembleia Primária</orgName>, 
+                        de <date when="1840-02-26">26 de fevereiro</date>, 
+                        recebido a <date when="1840-02-28">28</date> 
+                        e respondido no mesmo dia. 
+                        <choice>
+                            <abbr>S. da R.</abbr>
+                            <expan>Secretaria da Presidência da República</expan>
+                        </choice>
+                    </p>
+                    <p>
+                        Ao cidadão <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>, 
+                        Chefe Geral de Polícia do <placeName ref="#boqueirao">Boqueirão</placeName>. 
+                        Do cidadão Dr. 
+                        <persName ref="#joaquim_francisco_santos_abreu">Joaquim Francisco dos Santos Abreu</persName>. 
+                        Eleição da <orgName ref="#assembleia_constituinte">Assembleia Constituinte</orgName>.
+                    </p>
+                </note>
                 
-                <note type="endorsement">Ao cidadão <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>, Chefe Geral de Polícia do <placeName ref="#boqueirao">Boqueirão</placeName>. Do cidadão Dr. <persName ref="#joaquim_francisco_santos_abreu">Joaquim Francisco dos Santos Abreu</persName>. Eleição da <orgName ref="#assembleia_constituinte">Assembléia Constituinte</orgName>. [Anotação a lápis de Alfredo Varela]</note>
-                
+                <note type="endorsement" place="1v" hand="#hand_varela_pencil">
+                    Ao cidadão <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>, 
+                    Chefe Geral de Polícia do <placeName ref="#boqueirao">Boqueirão</placeName>. 
+                    Do cidadão Dr. 
+                    <persName ref="#joaquim_francisco_santos_abreu">Joaquim Francisco dos Santos Abreu</persName>. 
+                    Eleição da <orgName ref="#assembleia_constituinte">Assembleia Constituinte</orgName>.
+                </note>
+
             </div>
         </body>
     </text>

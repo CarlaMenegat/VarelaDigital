@@ -19,8 +19,9 @@
                 <date when="2025-06-29">29 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -98,6 +99,11 @@
                     <roleName>General-em-chefe do Exército</roleName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -122,7 +128,7 @@
                 </opener>
                 
                 <p>Conforme as ordens e instruções de <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> 
-                    datadas de 29 do mês próximo passado fiz as competentes reuniões das forças e
+                    datadas de <date when="1842-04-29">29 do mês próximo passado</date> fiz as competentes reuniões das forças e
                     esquadrões de meu comando no destacamento da 
                     <placeName ref="#ponta_rasa">Ponta Rasa</placeName>, e no
                     dia 3 do corrente, às 5 horas da tarde, ultimei no 
@@ -133,41 +139,86 @@
                     <placeName ref="#erval">Erval</placeName>, a qual atravessei em 3 noites, saindo nos faxinais chamados
                     do <placeName ref="#tavares">Tavares</placeName>, aonde foi preso o Juiz de Paz dos rebeldes 
                     <persName ref="#jose_goncalves_silva">José Gonçalves da Silva</persName>, irmão do chefe dos mesmos 
-                    <persName ref="#bento_goncalves">Bento Gonçalves da Silva</persName>...</p>
-                
-                <p>...soube que as forças rebeldes que tinham passado para a margem esquerda do 
+                    <persName ref="#bento_goncalves">Bento Gonçalves da Silva</persName>
+                    e fazendo aí as indagações necessárias,
+                    soube que as forças rebeldes que tinham passado para a margem esquerda do 
                     <placeName ref="#rio_camaqua">rio Camaquã</placeName> e as que tinham reunido já tinham passado para a margem direita 
-                    do mesmo rio; sem demora segui à capela de São João e daí dirigi, como convinha, algumas partidas...</p>
-                
-                <p>...e no dito passo foi preso um rebelde camarada de outro rebelde oficial; e aí no dia 9 se 
+                    do mesmo rio; sem demora segui à capela de São João e daí dirigi, como convinha, algumas partidaspartidas a diversas partes, não só
+                    a reunir cavalos como a observar e examinar as idéias do inimigo,
+                    todas com ordem de fazer junção comigo no passo do Cordeiro, para
+                    onde seguia comr a mais força;
+                    e no dito passo foi preso um rebelde camarada de outro rebelde oficial; e aí no dia 9 se 
                     reuniram todas as partidas com cento e cinquenta cavalos e quatro prisioneiros mais,
                     sendo um deles fulano de tal Lemos, intitulado tenente, e três soldados presos pelo 
-                    <persName ref="#fidelis_pais_silva">Alferes Fidélis Pais da Silva</persName>...</p>
-                
-                <p>...oficiando no mesmo dia 9 ao <persName ref="#joao_frederico_caldwell">Tenente-coronel João Frederico</persName>, comandante das forças que
+                    <persName ref="#fidelis_pais_silva">Alferes Fidélis Pais da Silva</persName>
+                    Feitan esta junção, à vista do que tinha colhido, tendo certeza física de
+                    todo o inimigo estar do outro lado de Camaquã e de antemão prevenido, segui as medidas de meu alcance,
+                    oficiando no mesmo dia 9 ao <persName ref="#joao_frederico_caldwell">Tenente-coronel João Frederico</persName>, comandante das forças que
                     tinham saído de <placeName ref="#rio_pardo">Rio Pardo</placeName>, a fim de ele marchar com a força de seu mando a passar 
-                    <placeName ref="#rio_camaqua">Camaquã</placeName> direto à estância do Malaquias...</p>
-                
-                <p>...Marchando eu com a força de meu mando, a passar o mesmo rio no 
+                    <placeName ref="#rio_camaqua">Camaquã</placeName> direto à estância do Malaquias
+                    a fazer ali ponto de espera e observação ao que se descobrisse.
+                    <pb n="1v"/>
+                    <seg type="folio">[1v.]</seg>
+                    Marchando eu com a força de meu mando, a passar o mesmo rio no 
                     passo do Mendonça, no <placeName ref="#cristal">Cristal</placeName>... no passo de 
-                    Santa Isabel, frenteando a capela do <placeName ref="#sao_lourenco">Boqueirão</placeName>...</p>
-                
-                <p>...saindo de Santa Isabel no dia 12 cheguei no dia 13; e feita a junção, no mesmo dia principiamos 
+                    Santa Isabel, frenteando a capela do <placeName ref="#sao_lourenco">Boqueirão</placeName>
+                    cuja passagem efetuei na noite do mesmo dia <date when="1842-05-09">9</date>; e logo dirigi várias
+                    partidas com instruções, por diversas partes, não só a reunir cavalos,
+                    prender rebeldes e a examinar os passos do inimigo, todas com ordem
+                    de seu reunirem comigo no passo de Santa Isabel, frenteando a ca-
+                    pela do <placeName ref="#sao_lourenco">Boqueirão</placeName>, para onde eu caminhava, 
+                    e aonde no dia <date when="1842-05-12">12</date> fizemos todos junção; e aí se contaram mais trezentos 
+                    cavalos reunidos; e se não fosse uma pesada cerração de neblina do dia <date when="1842-05-11">11</date> à
+                    meia-noite, que durou até às dez horas do dia <date when="1842-05-12">12</date>, que privou de
+                    se poder apanhar-se de surpresa mais duzentos e tantos que os rebeldes tinham em arrinconados, e a escuridão da cerração da noite
+                    nc: não deixou cerca-los e o dia nos manifestou para poderem fu
+                    gir com eles; neste ponto de Santa Isabel, combinando as minha
+                    idéias, e vendo que já tinha marchado mais de 40 léguas à pesca
+                    do inimigo, este bem prevenido se tinha retirado para o centro, e
+                    não havendo mais cavalos a reunir, e vendo a minha cavalhada 
+                    bastante puxada pelas violentas marchas, e tendo de fazer uma longa
+                    retirada, determinei então de ir com a minha força fazer junção com
+                    as forças vindas de Rio Pardo, ao mando do Tenente-coronel 
+                    <persName ref="#joao_frederico_caldwell">João Frederico</persName>, 
+                    no ponto destinado na estância do dito Malaquias, aonde
+                    saindo de Santa Isabel no dia <date when="1842-05-12">12</date> cheguei 
+                    no dia <date when="1842-05-13">13</date>; e feita a junção, no mesmo dia principiamos 
                     nossa retirada, tornando a repassar o 
                     <placeName ref="#rio_camaqua">rio Camaquã</placeName> no passo da Armada, seguindo juntas todas as forças 
-                    até o lugar chamado a Cordilheira, ... e do dito 
-                    <placeName ref="#cerro_roque">cerro Roque</placeName> me encaminhei no dia à 
-                    <placeName ref="#ponta_rasa">Ponta Rasa</placeName>, chegando na margem direita do rio no dia 22...</p>
-                
-                <p>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> muitos anos. 
-                    <placeName ref="#porto_alegre">Leal e Valerosa Cidade de Porto Alegre</placeName>, 
-                    <date when="1842-05-24">24 de maio de 1842</date>.</p>
+                    até o lugar chamado a Cordilheira, da onde nos separamos, caminhando 
+                    aquela a Rio Pardo e eu direto aos <placeName ref="#cerro_roque">cerros do Roque</placeName>, passando
+                    revista pelos moradores dos distritos; e do dito 
+                    <placeName ref="#cerro_roque">cerro do Roque</placeName> me encaminhei no dia <date when="1842-05-20">20</date> à 
+                    <placeName ref="#ponta_rasa">Ponta Rasa</placeName>, chegando na margem direita do 
+                    <pb n="2r"/>
+                    <seg type="folio">[2r.]</seg>
+                    rio no dia <date when="1842-05-22">22</date> sem quebra alguma, com os preditos
+                    seis prisioneiros e quatrocentos e cinquenta cavalos reunidos, que
+                    tudo passou para o destacamento da Ponta Rasa do lado esquerdo
+                    do rio; e dali foram os prisioneiros remetidos a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> a esta capi-
+                    tal e os cavalos, aonde possam guarnecer místicos ao mesmo desta-
+                    camento da Ponta Rasa, de onde- também mandei as forças destina-
+                    das por <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> cobrir as polícias dos distritos; e desta forma rela-
+                    ciono a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> os efeitos da comissão de que fui encarregado, as-
+                    severando a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que todas as forças de que se compunha a co-
+                    missão se prestavam com vontade, ficando todos pesarosos de não
+                    poderem medir as suas espadas com inimigo. E eu não menos, por
+                    satisfazer a vontade de <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> e do Exmo, Sr. Presidente.</p>
                 
                 <closer>
-                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Senhor 
-                        <persName ref="#general_valente">Conde de Rio Pardo</persName></salute>
-                    <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
-                    <signed>Tenente-coronel</signed>
+                    <salute>
+                        Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> muitos anos. 
+                    </salute>
+                    <dateline>
+                        <placeName ref="#porto_alegre">Leal e Valerosa Cidade de Porto Alegre</placeName>, 
+                        <date when="1842-05-24">24 de maio de 1842</date>.
+                    </dateline>
+                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Senhor 
+                        <persName ref="#general_valente">Conde de Rio Pardo</persName></addressee>
+                    <signed>
+                        <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.<br/>
+                        Tenente-coronel. <br/>
+                    </signed>
                 </closer>
                 
             </div>

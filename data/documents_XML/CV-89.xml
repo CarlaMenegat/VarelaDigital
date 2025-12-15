@@ -19,8 +19,9 @@
                 <date when="2025-07-01">01 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -97,6 +98,11 @@
                     <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -129,21 +135,27 @@
                     espera disto mesmo, deixando o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#capitao_fortunato">Capitão Fortunato</persName> 
                     com 20 homens em <placeName ref="#santana_livramento">Santa Ana</placeName>, e até hoje nada se tem dado cumprimento; 
                     também oficiei aos comandantes que tinham reuniões, também para se reunir ao mesmo major, oficial este que pela 
-                    necessidade que tive lancei mão dele, não ficando ele isento de responder sobre o crime que cometeu;</p>
-                
-                <p>e como até agora ainda não chegou nenhuma, e à vista do ofício, deberei a marchar já com as pessoas que pude reunir, que 
-                    andarão por 40 homens e à vista disto mandará <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> aquilo 
+                    necessidade que tive lancei mão dele, não ficando ele isento de responder sobre o crime que cometeu;
+                    e como até agora ainda não chegou nenhuma, e à vista do ofício, deberei a marchar já com as pessoas que pude reunir, 
+                    que andarão 
+                    <pb n="1v"/>
+                    <seg type="folio">[1v.]</seg>
+                    por 40 homens e à vista disto mandará <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> aquilo 
                     que for servido, determinando-me as suas ordens.</p>
                 
                 <closer>
-                    <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> muitos anos. 
-                        <placeName ref="#alegrete">Quartel em Alegrete</placeName>, <date when="1837-11-22">22 de novembro de 1837</date>.</p>
+                    <salute>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> muitos anos. </salute>
+                    <dateline><placeName ref="#alegrete">Quartel em Alegrete</placeName>, <date when="1837-11-22">22 de novembro de 1837</date>.</dateline>
+                    <addressee>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                        <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>. <br/>
+                        Coronel e Comandante da <orgName ref="#divisao_direita">Divisão Direita</orgName>.<br/>
+                    </addressee>
                     
-                    <signed><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</signed>
-                    <signed>Coronel e Comandante da <orgName ref="#divisao_direita">Divisão Direita</orgName>.</signed>
-                    
-                    <signed>(a) <persName ref="#jose_inacio_silva_abreu">José Inácio da Silva Abreu</persName>.</signed>
-                    <signed>Tenente-coronel Comandante Interino da Fronteira.</signed>
+                    <signed>
+                        <persName ref="#jose_inacio_silva_abreu">José Inácio da Silva Abreu</persName>.<br/>
+                        Tenente-coronel Comandante Interino da Fronteira.
+                    </signed>
                 </closer>
                 
             </div>
