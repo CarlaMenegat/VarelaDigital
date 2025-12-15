@@ -97,6 +97,11 @@
                     <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -133,8 +138,8 @@
                         Major.</signed>
                 </closer>
                 
-                <note type="endorsement" place="verso">
-                    Vide atrás na de <date when="1839">1839</date>, do mesmo.
+                <note type="endorsement" place="1v">
+                    Vide atrás na de <date when="1839">1839</date> do mesmo.
                     <note type="editorial">[Atribuído a Alfredo Varela, na folha 1r.]</note>
                 </note>
                 

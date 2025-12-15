@@ -94,11 +94,19 @@
                     <placeName ref="#piratini">Piratini</placeName>
                     <date when="1841-03-21">21 de março de 1841</date>
                 </correspAction>
-                
                 <correspAction type="received">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+                <handNote xml:id="hand_dja" medium="ink">
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                    <desc>Letra identificada em notas e endossos do documento.</desc>
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -152,12 +160,15 @@
                     </signed>
                 </closer>
                 
-                <note type="endorsement">
+                <note type="endorsement" place="1v">
                     <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>,
                     Ministro dos Negócios da Fazenda. [No verso]<br/>
                     <placeName ref="#sao_gabriel">São Gabriel</placeName>.<br/>
+                </note>
+                
+                <note type="endorsement" place="1r">
                     Respondida a <date when="1841-04-11">11 de abril</date>. 
-                    <note type="editorial">[Na folha 1r.]</note><br/>
+                    <handShift new="#hand_dja"/>
                 </note>
             </div>
         </body>

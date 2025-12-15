@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
@@ -62,11 +62,11 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
-                <ptr target="data/standoff/standoff-persons.xml"/>
-                <ptr target="data/standoff/standoff-places.xml"/>
-                <ptr target="data/standoff/standoff-events.xml"/>
-                <ptr target="data/standoff/standoff-orgs.xml"/>
-                <ptr target="data/standoff/standoff-relations.xml"/>
+                <ptr target="data/standoff/standoff-persons.xml" />
+                <ptr target="data/standoff/standoff-places.xml" />
+                <ptr target="data/standoff/standoff-events.xml" />
+                <ptr target="data/standoff/standoff-orgs.xml" />
+                <ptr target="data/standoff/standoff-relations.xml" />
             </sourceDesc>
         </fileDesc>
         
@@ -99,6 +99,11 @@
                     <placeName ref="#piratini">Piratini</placeName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         
         <revisionDesc>
@@ -114,7 +119,7 @@
             </list>
         </revisionDesc>
     </teiHeader>
-    
+
     <text>
         <body>
             <div type="letter" xml:id="CV-2">
@@ -132,8 +137,8 @@
                     (talvez de cem bois), tenho portanto de rogar-lhe o ver se é ou não possível pagar tais direitos em gado, 
                     ou encontrar-se-me em um documento que tenho de 120 reses gordas supridas para o consumo do exército.</p>
                 
-                <pb n="1v"/>
-<seg type="folio">[1v.]</seg>
+                <pb n="1v" />
+                <seg type="folio">[1v.]</seg>
                 
                 <p>Sendo finalmente que se consigo o que desejo tanto mais moverá a gratidão do</p>
                 
@@ -144,10 +149,9 @@
                     </signed>
                 </closer>
                 
-                <note type="endorsement">
-                    Ao cidadão Domingos José de Almeida.<br/>
+                <note type="endorsement" place="2v">
+                    Ao cidadão Domingos José de Almeida.<br />
                     Piratini.
-                    <seg type="folio">[No verso]</seg>
                 </note>
             </div>
         </body>

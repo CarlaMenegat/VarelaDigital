@@ -98,6 +98,11 @@
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -118,6 +123,7 @@
             <div type="letter" xml:id="CV-12">
                 <opener>
                     <salute>Amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Almeida,</salute>
+                    <dateline><placeName ref="#sao_lourenco">São Lourenço</placeName><date when="1842-02-09">9 de fevereiro de 1842</date></dateline>
                 </opener>
                 
                 <p>O portador desta é o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
@@ -134,10 +140,17 @@
                     <placeName ref="#jaguarao">Jaguarão</placeName>, assim também a do pobre <persName ref="#alexandre_silveira">Alexandre Silveira</persName>.</p>
                 
                 <closer>
-                    <signed>Seu sincero e obrigado amigo<br/>(a) 
-                        <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName></signed>
-                    <dateline><placeName ref="#sao_lourenco">São Lourenço</placeName><date when="1842-02-09">9 de fevereiro de 1842</date></dateline>
+                    <salute>Seu sincero e obrigado amigo<br/></salute>
+                    <signed><persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName></signed>
                 </closer>
+                
+                <note type="endorsement" place="1r">
+                    Respondida a <date when="1842-02-23">23 de fevereiro de 1842</date>.
+                </note>
+                
+                <note type="editorial">
+                    Anexo 1 ao documento CV-11.
+                </note>
             </div>
         </body>
     </text>

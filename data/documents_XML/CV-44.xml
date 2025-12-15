@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
@@ -62,11 +62,11 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
-                <ptr target="data/standoff/standoff-persons.xml"/>
-                <ptr target="data/standoff/standoff-places.xml"/>
-                <ptr target="data/standoff/standoff-events.xml"/>
-                <ptr target="data/standoff/standoff-orgs.xml"/>
-                <ptr target="data/standoff/standoff-relations.xml"/>
+                <ptr target="data/standoff/standoff-persons.xml" />
+                <ptr target="data/standoff/standoff-places.xml" />
+                <ptr target="data/standoff/standoff-events.xml" />
+                <ptr target="data/standoff/standoff-orgs.xml" />
+                <ptr target="data/standoff/standoff-relations.xml" />
             </sourceDesc>
         </fileDesc>
         
@@ -98,6 +98,11 @@
                     <persName>Brigadeiro e Comandante da Guarnição desta Capital</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -113,7 +118,7 @@
         </revisionDesc>
     </teiHeader>
     
-    <text>
+    <facsimile><surface xml:id="CV-44_1v"><graphic url="images/CV-44_1v.jpg" /></surface><surface xml:id="CV-44_2r"><graphic url="images/CV-44_2r.jpg" /></surface></facsimile><text>
         <body>
             <div type="letter" xml:id="CV-44">
                 
@@ -143,7 +148,7 @@
                 
                 <p>Contudo, centralmente em distância de três e meia léguas, no sítio de <persName ref="#miguel_barbosa">Miguel Barbosa</persName>, 
                     tomei uma peça de bronze com seus reparos, que da barcaça da 
-                    <pb n="1v"/>
+                    <pb n="1v" />
                     <seg type="folio">[1v.]</seg> 
                     <quote>Legalidade</quote>
                     nova se tinha tomado em <placeName ref="#rio_pardo">Rio Pardo</placeName> no dia 30 de abril do corrente ano, 
@@ -161,7 +166,7 @@
                     para esta capital aonde se acham ancoradas, gastando na volta quase 8 dias, por falta de vento.
                     Foi apreendido ao dito rebelde <persName ref="#joao_antonio_lopes">João Antônio Lopes</persName> o iate <quote>São Manuel</quote>, 
                     dois negros que dele andam no iate, 1500 arrobas de erva de mate ensurroada, 
-                    <pb n="2r"/>
+                    <pb n="2r" />
                     <seg type="folio">[2r.]</seg> 
                     pouco mais ou menos, em couros de 
                     alguns legais que existem nesta cidade e, assim mais, perto de duzentos couros, também alguns de marcas de legalistas 
@@ -175,7 +180,7 @@
                         <persName ref="#francisco_xavier_cunha">Francisco Xavier da Cunha</persName>. Brigadeiro Comandante da Guarnição desta capital 
                         <placeName ref="#porto_alegre">Porto Alegre</placeName>
                     </addressee>
-                    <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName><br/>Capitão</signed>
+                    <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName><br />Capitão</signed>
                 </closer>
                 
             </div>

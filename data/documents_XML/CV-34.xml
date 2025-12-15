@@ -98,6 +98,15 @@
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+                <handNote xml:id="hand_dja" medium="ink">
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                    <desc>Letra identificada em notas e endossos do documento.</desc>
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -162,10 +171,17 @@
                     </signed>
                 </closer>
                 
-                <note type="endorsement">
-                    Respondida a 30 de novembro de 1841. [Na folha 1r.]<br/>
-                    Ao cidadão <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>. 
-                    <placeName ref="#bage">Bagé</placeName>. [No verso]
+                <note type="endorsement" place="1r">
+                    <p>Respondida a <date when="1841-11-30">30 de novembro de 1841</date>.</p>
+                    <handShift new="#hand_dja"/>
+                </note>
+                
+                <note type="endorsement" place="1v">
+                    <p>
+                        Ao cidadão <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>.
+                        <placeName ref="#bage">Bagé</placeName>.
+                    </p>
+                    <handShift new="#hand_dja"/>
                 </note>
             </div>
         </body>

@@ -97,6 +97,11 @@
                     <persName ref="#alfredo_varela">Alfredo Varela</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         
         <revisionDesc>
@@ -112,7 +117,13 @@
             </list>
         </revisionDesc>
     </teiHeader>
-
+    
+    <facsimile>
+        <surface xml:id="CV-1_1r" n="1r"/>
+        <surface xml:id="CV-1_1v" n="1v"/>
+        <surface xml:id="CV-1_2r" n="2r"/>
+        <surface xml:id="CV-1_2v" n="2v"/>
+    </facsimile>
     
     <text>
         <body>
@@ -139,7 +150,7 @@
                     <persName ref="#teixeira_nunes">Coronel Joaquim Teixeira Nunes</persName> e o esquadrão, 
                     <persName ref="#demetrio_ribeiro">Demétrio Ribeiro</persName>. Neste ataque foi prisioneiro o 
                     <persName ref="#roque">capitão legalista Roque</persName> sendo em marcha fuzilado. Esse capitão 
-                    
+                    <pb n="2r" />
                     <seg type="folio">[2r.]</seg>
                     foi o 
                     assassino do <persName ref="#joao_manuel_lima_silva">General Lima</persName>, em uma casa da fronteira.”</p>
@@ -157,9 +168,8 @@
                     <placeName ref="#cachoeira">Cachoeira</placeName>, <date when="1896-04-27">27-4-96</date>.
                 </closer>
                 
-                <note type="endorsement">
+                <note type="endorsement" place="2v">
                     <persName ref="#raul_abbott">Raul Abbott</persName>
-                    <seg type="folio">[No verso, a lápis]</seg>
                 </note>
             </div>
         </body>

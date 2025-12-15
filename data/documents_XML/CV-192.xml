@@ -1,10 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-192 – Domingos José de Almeida para Bernardina Barcelos de Almeida</title>
                 <author>Domingos José de Almeida</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-08-03">03 de agosto de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -61,10 +66,11 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
-                <ptr target="data/standoff/standoff-persons.xml"/>
-                <ptr target="data/standoff/standoff-places.xml"/>
-                <ptr target="data/standoff/standoff-events.xml"/>
-                <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-persons.xml" />
+                <ptr target="data/standoff/standoff-places.xml" />
+                <ptr target="data/standoff/standoff-events.xml" />
+                <ptr target="data/standoff/standoff-orgs.xml" />
+                <ptr target="data/standoff/standoff-relations.xml" />
             </sourceDesc>
         </fileDesc>
         
@@ -78,31 +84,41 @@
                 </application>
             </appInfo>
         </encodingDesc>
+        
         <profileDesc>
-            <profileDesc>
-                <correspDesc>
-                    <correspAction type="sent">
-                        <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
-                        <placeName ref="#pedras_brancas">Pedras Brancas</placeName>
-                        <date when="1836-03-06">6 de março de 1836</date>
-                    </correspAction>
-                    <correspAction type="received">
-                        <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
-                        <placeName ref="#pelotas">Pelotas</placeName>
-                    </correspAction>
-                </correspDesc>
-            </profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <placeName ref="#pedras_brancas">Pedras Brancas</placeName>
+                    <date when="1836-03-06">6 de março de 1836</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
+                    <placeName ref="#pelotas">Pelotas</placeName>
+                </correspAction>
+            </correspDesc>
         </profileDesc>
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-08-03">03/08/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-11">11/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
     </teiHeader>
-    <text>
+
+    <facsimile><surface xml:id="CV-192_1v"><graphic url="images/CV-192_1v.jpg" /></surface></facsimile><text>
         <body>
             <div type="letter" xml:id="CV-192">
                 
@@ -123,33 +139,31 @@
                     não perderão tão oportuna ocasião de fazerem o que descaradamente pretenderam
                     quando fui preso. Seja porém o que for, tem constância, e desprezai as indignidades
                     desses escravos, que jamais me verão (assim o confio de Deus) reduzido ao estado
-                    que me desejam etc., etc...
-                </p>
-                
-                <p>Vamos ao que serve. Manda-me na primeira ocasião um próprio dando-me
+                    que me desejam etc., etc... Vamos ao que serve. Manda-me na primeira ocasião um próprio dando-me
                     parte de ti, de nossos filhos e de nossa casa, não me ocultando a mais insignificante
-                    circunstância que tenha havido, desde a declaração de guerra do <persName ref="ceroula">Ceroula</persName>Ceroula e seus
-                    sequazes; e o compadre <persName ref="#jose_felix">José Félix</persName> que me faça este favor.
-                    O compadre <persName ref="#rolino">Rolino</persName> que venha também como já lhe ordenei, 
+                    circunstância que tenha havido, desde a declaração de guerra do 
+                    Ceroula e seus sequazes; e o compadre <persName ref="#jose_felix">José Félix</persName> que me faça este favor.
+                    O compadre <persName ref="#rolino_pereira_barros">Rolino</persName> que venha também como já lhe ordenei, 
                     e por ora suspende tu tua vinda.
                 </p>
                 
                 <p>Já ultimei o arrendamento do estabelecimento em que te falei, e é para
-                    deixá-lo em ordem e em andamento que careço falar ao compadre Rolino.</p>
+                    deixá-lo em ordem e em andamento que careço falar ao compadre <persName ref="#rolino_pereira_barros">Rolino</persName>.</p>
                 
-                <p>Sem remédio sigo para o Rio a fim de impor ao Regente do estado de nossa
+                <p>Sem remédio sigo para o <placeName ref="#rio_de_janeiro">Rio</placeName> a fim de impor ao Regente do estado de nossa
                     Província e do que ela carece para não ser perdida para o Brasil e para si talvez:
                     tu podes julgar da violência que me faço em me apartar de ti e de nossos caros
                     filhinhos, e de ir-me embrenhar na horda dos patifes idos daqui; mas quando a
-                    Pátria reclama nossos serviços, tudo fica de parte. Valha-me Deus. Tem paciência
-                    Bernardina: isto não há de aturar sempre, e um dia gozaremos de sossego.
-                </p>
-                
-                <p>Manda-me um próprio seja como for, ou por este mesmo da maneira seguinte.
+                    Pátria reclama nossos serviços, tudo fica de parte. Valha-me Deus. Tem paciência 
+                    <persName ref="#bernardina_barcelos_almeida">Bernardina</persName>: isto não há 
+                    de aturar sempre, e um dia gozaremos de sossego.
+                    <pb n="1v" />
+                    <seg type="folio">[1v.]</seg>
+                    Manda-me um próprio seja como for, ou por este mesmo da maneira seguinte.
                     A minha carta seja fechada dentro de outra, e como ofício remetida ao Inspetor 
                     de <placeName ref="#sao_lourenço">São Lourenço</placeName>, a quem pedirás para enviar a 
                     <persName ref="#joao_goncalves_da_silva">João Gonçalves da Silva</persName>
-                    a quem deves semelhantemente escrever; dali ao Juiz de Paz das <plaName ref="#dores">Dores</plaName>;
+                    a quem deves semelhantemente escrever; dali ao Juiz de Paz das <plaName ref="#dores_camaqua">Dores</plaName>;
                     deste a <persName ref="#gomes_jardim">José Gomes de Vasconcelos Jardim</persName>,
                     de forma que este último me envie a carta para mim; creio que já entendeste,
                     suposto me explicasse mal. Eu vivo desesperado por falta de notícias de casa,
@@ -172,7 +186,7 @@
                     e a todos os mais.</p>
                 
                 <closer>
-                    <signed>Teu<br/>(a) 
+                    <signed>Teu<br />(a) 
                         <persName ref="#domingos_jose_almeida">Almeida</persName>
                     </signed>
                 </closer>

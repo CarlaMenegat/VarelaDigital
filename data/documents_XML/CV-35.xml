@@ -98,6 +98,15 @@
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+                <handNote xml:id="hand_dja" medium="ink">
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                    <desc>Letra identificada em notas e endossos do documento.</desc>
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -178,13 +187,19 @@
                         que é seu amigo, ainda que sem préstimo, e que não sabe se recebeu os papéis que lhe enviou.</p>
                 </closer>
                 
-                <note type="endorsement">
-                    Ao cidadão <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>. 
-                    <placeName ref="#bage">Bagé</placeName>. <note type="editorial">[No verso]</note><br/><br/>
+                <note type="endorsement" place="1v">
+                    <p>
+                        Ao cidadão <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>.
+                        <placeName ref="#bage">Bagé</placeName>.
+                    </p>
+                    <handShift new="#hand_dja"/>
                 </note>
                 
-                <note type="endorsement">
-                    Acompanha uma carta para <placeName ref="#santa_isabel">Santa Isabel</placeName>. <note type="editorial">[No verso]</note><br/><br/>
+                <note type="endorsement" place="1v">
+                    <p>
+                        Acompanha uma carta para <placeName ref="#santa_isabel">Santa Isabel</placeName>.
+                    </p>
+                    <handShift new="#hand_dja"/>
                 </note>
             </div>
         </body>

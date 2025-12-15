@@ -1,10 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-195 – Domingos José de Almeida para Bernardina Barcelos de Almeida</title>
                 <author>Domingos José de Almeida</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-06">06 de julho de 2025</date>
+                <date when="2025-08-06">06 de agosto de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -61,10 +66,11 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
-                <ptr target="data/standoff/standoff-persons.xml"/>
-                <ptr target="data/standoff/standoff-places.xml"/>
-                <ptr target="data/standoff/standoff-events.xml"/>
-                <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-persons.xml" />
+                <ptr target="data/standoff/standoff-places.xml" />
+                <ptr target="data/standoff/standoff-events.xml" />
+                <ptr target="data/standoff/standoff-orgs.xml" />
+                <ptr target="data/standoff/standoff-relations.xml" />
             </sourceDesc>
         </fileDesc>
         
@@ -78,7 +84,14 @@
                 </application>
             </appInfo>
         </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
@@ -94,14 +107,18 @@
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">22/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-08-06">06/08/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-15">15/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
     </teiHeader>
 
-    <text>
+    <facsimile><surface xml:id="CV-195_1v"><graphic url="images/CV-195_1v.jpg" /></surface><surface xml:id="CV-195_2r"><graphic url="images/CV-195_2r.jpg" /></surface></facsimile><text>
         <body>
             <div type="letter" xml:id="CV-195">
                 
@@ -114,7 +131,7 @@
                 </opener>
                 
                 <p>Depois de acerbas aflições, cuidados e receios recebi anteontem as tuas
-                    apreciáveis de 23 do mês passado, e qual minha satisfação podes ajuizar.
+                    apreciáveis de <date when="1836-02-23">23 do mês passado</date>, e qual minha satisfação podes ajuizar.
                     Sim, amestrado pela experiência da índole brutal e feroz dessa gente,
                     que seguindo outrora o partido de Braga faz hoje o que defende
                     <persName ref="#jose_araujo_ribeiro">Araújo Ribeiro</persName>, eu não podia suportar minha existência, quando te
@@ -146,10 +163,11 @@
                     caso eu tenha seguido. Logo que as coisas aí melhorem, ou por terra
                     possam vir, manda-me os escravos constantes da lista junta, a entregar
                     ao mesmo <persName ref="#gomes_jardim">José Gomes de Vasconcelos Jardim</persName>; e se já estiver em casa o
-                    <persName ref="#rolino">compadre Rolino</persName> ele mesmo que venha nessa condução, a fim de não haver
-                    algum transtorno na viagem.</p>
-                
-                <p>Se as coisas prometerem demora na expulsão dos anarquistas de
+                    <persName ref="#rolino_pereira_barros">compadre Rolino</persName> ele mesmo que venha nessa condução, a fim de não haver
+                    algum transtorno na viagem.
+                    <pb n="1v" />
+                    <seg type="folio">[1v.]</seg>
+                    Se as coisas prometerem demora na expulsão dos anarquistas de
                     <placeName ref="#rio_grande">Rio Grande</placeName>, penso que seria prudente vir tu e toda a família, como já tinha eu
                     deliberado: porém se estas apresentarem outra face, suponho te deverás
                     aí conservar até meu regresso do <placeName ref="#rio_de_janeiro">Rio</placeName>, que pretendo seja com a maior
@@ -162,7 +180,7 @@
                     <persName ref="#antonio_jose_goncalves_chaves">Chaves</persName> se puder ser, etc., etc....</p>
                 
                 <p><persName ref="#joao_da_cunha">João da Cunha</persName> me avisa do exaltamento dos escravos, pela razão de
-                    terem saído o <persName ref="#rolino">compadre Rolino</persName> e o <persName ref="#vicente">Vicente</persName>: manda falar ao
+                    terem saído o <persName ref="#rolino_pereira_barros">compadre Rolino</persName> e o <persName ref="#vicente">Vicente</persName>: manda falar ao
                     <persName ref="#joao_grande">João Grande</persName> para administrá-los, pois na verdade não é prudente tê-los
                     altaneiros em semelhante conjuntura; e teu pai que de vez em quando
                     olhe para isso como para coisa sua, a fim de prevenir desaguisados e
@@ -180,33 +198,36 @@
                     trabalhar na olaria, que façam um terceiro potreiro no terreno que decorre
                     do fim do que está feito ao logradouro [...].</p>
                 
-                <p>Como o <persName ref="#cipriano_joaquim_rodrigues_barcelos">compadre Cipriano</persName> me não escreve desde que daqui saiu,
+                <p>Como o compadre <persName ref="#cipriano_joaquim_rodrigues_barcelos">Cipriano</persName> me não escreve desde que daqui saiu,
                     também lhe não escrevo, dê-me tu notícias dele, do grande
-                    <persName ref="#mateus">Mateus</persName>, de <persName ref="#candido_fernandes_lima">Cândido Fernandes Lima</persName>, de teu primo
-                    <persName ref="#jose_moreira">José Moreira</persName>, do redator do “Liberal”
+                    <persName ref="#mateus_gomes">Mateus</persName>, de <persName ref="#candido_fernandes_lima">Cândido Fernandes Lima</persName>, de teu primo
+                    <pb n="2r" />
+                    <seg type="folio">[2r.]</seg>
+                    <persName ref="#jose_moreira">José Moreira</persName>, do redator do <objectName ref="#liberal_jornal">Liberal</objectName>
                     <persName ref="#domingues">Domingues</persName>, do <persName ref="#goularte">Goularte</persName>, e
                     <persName ref="#espindola">Espíndola</persName> de <placeName ref="#rio_grande">Rio Grande</placeName>; como de tudo o mais que por aí se tenha
                     passado, digno de memorar-se, etc., etc....</p>
                 
-                <p>O compadre e comadre, nossos pais, que hajam esta por sua como também
+                
+                
+                <closer>
+                    <salute>O compadre e comadre, nossos pais, que hajam esta por sua como também
                     compadres <persName ref="#jose_felix">José Félix</persName>, <persName ref="#joaquim_barcelos">Joaquim</persName>, <persName ref="#joao_barcelos">João</persName>,
                     <persName ref="#antonio_jose_goncalves_chaves">Chaves</persName>, <persName ref="#leao_prospero_chastan">Chastan</persName>,
                     <persName ref="#chevalier">Chevalier</persName> e <persName ref="#david">David</persName>. Abraços a nossos filhos, um beijo a
-                    <persName ref="#custodia_almeida">Custódia</persName>, e tu recebe o coração do</p>
-                
-                <closer>
-                    <signed>Teu<br/>(a)
-                        <persName ref="#domingos_jose_almeida">Almeida</persName>.
-                    </signed>
+                    <persName ref="#custodia_almeida">Custódia</persName>, e tu recebe o coração do <br />
+                    Teu<br />
+                </salute>
+                    <signed><persName ref="#domingos_jose_almeida">Almeida</persName>.</signed>
                 </closer>
                 
-                <p>As que me escreves podem ser remetidas a
+                <postscript>As que me escreves podem ser remetidas a
                     <persName ref="#joao_goncalves_da_silva">João Gonçalves da Silva</persName>,
                     que ele mas envia; e quando tiver pressa manda por próprio, pois que
-                    não mora muito longe.</p>
+                    não mora muito longe.</postscript>
                 
-                <note type="endorsement" place="verso">
-                    <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.<br/>
+                <note type="endorsement" place="2 verso">
+                    <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.<br />
                     <placeName ref="#pelotas">Pelotas</placeName>.
                 </note>
                 

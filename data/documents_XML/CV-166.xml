@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
@@ -66,11 +66,11 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
-                <ptr target="data/standoff/standoff-persons.xml"/>
-                <ptr target="data/standoff/standoff-places.xml"/>
-                <ptr target="data/standoff/standoff-events.xml"/>
-                <ptr target="data/standoff/standoff-orgs.xml"/>
-                <ptr target="data/standoff/standoff-relations.xml"/>
+                <ptr target="data/standoff/standoff-persons.xml" />
+                <ptr target="data/standoff/standoff-places.xml" />
+                <ptr target="data/standoff/standoff-events.xml" />
+                <ptr target="data/standoff/standoff-orgs.xml" />
+                <ptr target="data/standoff/standoff-relations.xml" />
             </sourceDesc>
         </fileDesc>
         
@@ -142,21 +142,21 @@
                 
                 <p>Eu não recebi nada do que pedi ao <persName ref="#joao_da_cunha">João da Cunha</persName> e quanto aos papéis, já te 
                     remeti. Deus queira que lá chegue em salvo o cavalo; 
-                    <pb n="1v"/>
+                    <pb n="1v" />
                     <seg type="folio">[1v.]</seg> 
                     hei de te mandar por o <persName ref="#bernardo_pires">Major Pires</persName> se aqui passar; enquanto à xerga 
                     que tu me falas que meu mano trouxe, é engano do meu escrivão, é uma seringa de nova invenção.</p>
                 
                 <p>Eu te remeto resposta que tive do <persName ref="#joao_da_cunha">João da Cunha</persName>, os teus cavalos que o 
-                    compadre <persName ref="#joao_antonio_compa">João Antônio</persName> <sic/> eu já recomendei ao 
+                    compadre <persName ref="#joao_antonio_compa">João Antônio</persName> <sic /> eu já recomendei ao 
                     <persName ref="#luis_rodrigues_barcelos">tio Luís</persName>; agora mesmo tive portador, mandei dizer ao meu mano 
                     <persName ref="#joaquim_barcelos">Joaquim</persName> a derrota do <persName ref="#fructoso_rivera">Fructo</persName>, 
                     pois quando ele por aqui passou já me tinha feito ver que haveria acontecer isto mesmo.</p>
                 
                 <closer>
-                    <salute>Os meninos te mandam muitas lembranças e te pedem a bênção.<br/>
+                    <salute>Os meninos te mandam muitas lembranças e te pedem a bênção.<br />
                         Desta tua mulher que muito te estima e te pede que tenhas todo o cuidado
-                    </salute><br/>
+                    </salute><br />
                     <signed><persName ref="#bernardina_barcelos_almeida">Bernardina Almeida</persName>.</signed>
                 </closer>
                 

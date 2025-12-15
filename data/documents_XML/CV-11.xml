@@ -98,6 +98,11 @@
                     <orgName ref="#tribunal_tesouro">Tribunal do Tesouro</orgName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -140,6 +145,10 @@
                     <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
                     <date when="1842-03-19">Bagé, 19 de março de 1842</date>
                 </closer>
+                
+                <note type="editorial">
+                    Anexo ao documento CV-10.
+                </note>
             </div>
         </body>
     </text>

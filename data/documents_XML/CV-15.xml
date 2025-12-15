@@ -99,6 +99,11 @@
                     <placeName ref="#alegrete">Alegrete</placeName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -134,14 +139,13 @@
                     <signed>Antônio Francisco dos Santos Abreu</signed>
                 </closer>
                 
-                <note type="endorsemente">
-                    <seg type="folio">No verso</seg>.
-                    
+                <note type="endorsemente" place="1v">
                     <choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice><br/>
                     Ao deputado <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     <placeName ref="#alegrete">Alegrete</placeName>.
-                    
-                    <seg type="folio">Na folha 1r.</seg>
+                </note>
+                
+                <note type="endorsement" place="1r.">
                     Respondida a <date when="1843-04-14">14 de abril de 1843</date>
                 </note>
             </div>

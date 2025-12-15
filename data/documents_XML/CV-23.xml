@@ -98,6 +98,15 @@
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+                <handNote xml:id="hand_dja" medium="ink">
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                    <desc>Letra identificada em notas e endossos do documento.</desc>
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -118,17 +127,19 @@
             <div type="letter">
                 <opener>
                     <salute>Amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Almeida</persName>.</salute>
-                    <placeName ref="#sao_lourenco">São Lourenço</placeName>, 
-                    <date when="1843-05-29">29 de maio de 1843</date>.
+                    <dateline>
+                        <placeName ref="#sao_lourenco">São Lourenço</placeName>, 
+                        <date when="1843-05-29">29 de maio de 1843</date>.
+                    </dateline>
                 </opener>
-                <p>Tenho recebido suas cartas de 14 e 29 do p.p. mês, e em resposta cumpre-me dizer-lhe que não deixando de 
+                <p>Tenho recebido suas cartas de <date when="1843-04-14">14</date> e <date when="1843-04-29">29 do p.p. mês</date>, 
+                    e em resposta cumpre-me dizer-lhe que não deixando de 
                     reconhecer o quanto <choice><abbr>V.Mcê</abbr><expan>Vossa Mercê</expan></choice>
                     se tem esforçado em servir-me, respectivamente às ordens que do governo tenho exigido para meu encontro, 
                     e ainda que em parte esteja remediada com a apresentação de suas cartas a alguns coletores, contudo não 
                     estou de todo tranquilo, sem que me venham as próprias ordens do governo; espero portanto o meu amigo não se 
-                    esquecerá e menos perderá a ocasião, quando possível seja, de extrair-me arquivo as já mencionadas ordens.</p>
-                
-                <p>Nesta ocasião remeto a meu mano em <placeName ref="#jaguarao">Jaguarão Chico</placeName> uma porção de papéis, 
+                    esquecerá e menos perderá a ocasião, quando possível seja, de extrair-me arquivo as já mencionadas ordens.
+                    Nesta ocasião remeto a meu mano em <placeName ref="#jaguarao">Jaguarão Chico</placeName> uma porção de papéis, 
                     para ele dali os remeter a <choice><abbr>V.Mcê</abbr><expan>Vossa Mercê</expan></choice>. 
                     Sempre grato a seus obséquios mostrarei ser</p>
                 
@@ -137,14 +148,16 @@
                     <signed><persName ref="#abreu">Antônio Francisco dos Santos Abreu</persName>.</signed>
                 </closer>
                 
-                <note type="endorsement">
-                    <p>Respondida a 29 de junho de 1843. [Letra de <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName> na fl. 1r.]</p>
+                <note type="endorsement" place="1r">
+                    <p>Respondida a 29 de junho de 1843. 
+                        <note type="hand">Letra de <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName> na <seg type="folio">folha 1r</seg>.</note>
+                    </p>
                 </note>
                 
-                <note type="endorsement">
-                    <p>Ao cidadão <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>. 
-                        <placeName ref="#bage">Bagé</placeName>. [No verso]</p>
-                    </note>
+                <note type="endorsement" place="1r">
+                    <p>Respondida a 29 de junho de 1843.</p>
+                    <handShift new="#hand_dja"/>
+                </note>
                 
             </div>
         </body>

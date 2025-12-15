@@ -97,6 +97,15 @@
                     <persName ref="#afonso_jose_corte_real">Afonso José de Almeida Corte Real</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+                <handNote xml:id="hand_dja" medium="ink">
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                    <desc>Letra identificada em notas e endossos do documento.</desc>
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -129,16 +138,10 @@
                     porém é o que se não encontra, porque nelas se mencionam parcelas despendidas a favor do Estado,
                     que não estando documentadas, não lhe podem ser acreditadas, cujas parcelas indicadas a folhas 2
                     montam à quantia de Rs. 446$560.
-                </p>
-                
-                <p>
                     E pela mesma forma, e em igual circunstância, considero a adição que se encontra a folhas 10,
                     na qual se faz certa a remessa de 207 cavalos conduzidos para o exército por
                     <persName ref="#gaspar_borges">Gaspar Borges</persName>; pois que de 84 documentos que se
                     acham juntos às contas apresentadas, se não realiza a entrega a esse Borges, e nem deste ao exército.
-                </p>
-                
-                <p>
                     As quantias demonstradas na conta a folhas 7, à exceção da quantia dada ao
                     <persName ref="#onofre_pires">Coronel Onofre</persName> e
                     <persName ref="#jose_carlos_pinto">José Carlos Pinto</persName>, por se achar ele constituído
@@ -146,6 +149,8 @@
                     porquanto, de umas se não encontra documento, e de outras, as que se apresentam, não as julgo
                     suficientes para merecerem o crédito que se pretende, e ainda mesmo a dívida de
                     <persName ref="#jaime_legris">Jaime Legris</persName> para se haver atenção, se fazia mister
+                    <pb n="1v" />
+                    <seg type="folio">[1v.]</seg>
                     que se fizesse certo por documentos que ela se achava litigiosa.
                 </p>
                 
@@ -157,12 +162,11 @@
                     pela considerar legalmente despendida.
                 </p>
                 
-                <p>
-                    Deus guarde a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>. Cidade de Piratini,
-                    <date when="1837-11-20">20 de novembro de 1837</date>.
-                </p>
-                
                 <closer>
+                    <salute>
+                        Deus guarde a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>. Cidade de Piratini,
+                        <date when="1837-11-20">20 de novembro de 1837</date>.
+                    </salute>
                     <addressee>
                         <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
                         <persName ref="#afonso_corte_real">Afonso José de Almeida Corte Real</persName>,
@@ -175,9 +179,9 @@
                     </signed>
                 </closer>
                 
-                <note type="endorsement">
-                    Resposta de <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName> quando Procurador Fiscal. 
-                    <note type="editorial">[No verso, letra de Domingos José de Almeida]</note>
+                <note type="endorsement" place="1v">
+                    <p>Resposta de <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName> quando Procurador Fiscal.</p>
+                    <handShift new="#hand_dja"/>
                 </note>
             </div>
         </body>

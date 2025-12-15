@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Documento CV-197 – Correspondência entre Domingos José de Almeida e João Manuel de Lima e Silva</title>
                 <author>Domingos José de Almeida; João Manuel de Lima e Silva</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-08-06">06 de agosto de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -78,38 +84,54 @@
                 </application>
             </appInfo>
         </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc xml:id="cv197a-corresp">
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
-                    <placeName ref="#arsenal_porto_alegre">Arsenal, em Porto Alegre</placeName>
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
                     <date when="1836-05-13">13 de maio de 1836</date>
                 </correspAction>
                 <correspAction type="received">
                     <persName ref="#joao_manuel_lima_silva">João Manuel de Lima e Silva</persName>
                 </correspAction>
             </correspDesc>
-
             <correspDesc xml:id="cv197b-corresp">
                 <correspAction type="sent">
                     <persName ref="#joao_manuel_lima_silva">João Manuel de Lima e Silva</persName>
-                    <placeName ref="#arsenal_porto_alegre">Arsenal, em Porto Alegre</placeName>
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
                 </correspAction>
                 <correspAction type="received">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
-            </correspDesc>
-            
+            </correspDesc>   
         </profileDesc>
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-08-06">06/08/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-15">15/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
     </teiHeader>
+    
+    <facsimile>
+        <surface xml:id="CV-197_f1" n="Folha 1">
+            <zone xml:id="CV-197_f1_recto" n="1r"/>
+            <zone xml:id="CV-197_f1_verso" n="1v"/>
+        </surface>
+    </facsimile>
     
     <text>
         <body>
@@ -124,30 +146,30 @@
                     seguirem na canoa que para tal fim se fretou, ao conduto do
                     <persName ref="#malaquias_faria_lobato"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Malaquias de Faria Lobato</persName>, seria famoso.</p>
                 
-                <p>De <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> venerador e criado amigo<br/>
-                    (a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</p>
+                <closer>
+                    <salute>De <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> venerador e criado amigo<br/></salute>
+                    <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</signed>
+                    <dateline>
+                        Arsenal, em <placeName ref="#porto_alegre">Porto Alegre</placeName>,
+                        <date when="1836-05-13">13 de maio de 1836</date>.
+                    </dateline>    
+                </closer>
                 
             </div>
             
 
             <div type="letter" xml:id="CV-197b">
                 
-                <opener>
-                    <dateline>
-                        Arsenal, em <placeName ref="#porto_alegre">Porto Alegre</placeName>,
-                        <date when="1836-05-13">13 de maio de 1836</date>.
-                    </dateline>
-                </opener>
-                
                 <p>Vão 50 que são as que se acham recolhidas; e esta nota serve de guia.</p>
                 
                 <closer>
-                    <signed>Seu (a)
+                    <salute>Seu</salute>
+                    <signed>
                         <persName ref="#joao_manuel_lima_silva">Lima</persName>
                     </signed>
                 </closer>
-
-                <note type="endorsement" place="verso">
+                
+                <note type="endorsement" place="verso" facs="#CV-197_f1_verso">
                     [Na mesma folha do documento CV-197]
                 </note>
                 

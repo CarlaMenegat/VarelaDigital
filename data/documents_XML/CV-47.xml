@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
@@ -62,11 +62,11 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
-                <ptr target="data/standoff/standoff-persons.xml"/>
-                <ptr target="data/standoff/standoff-places.xml"/>
-                <ptr target="data/standoff/standoff-events.xml"/>
-                <ptr target="data/standoff/standoff-orgs.xml"/>
-                <ptr target="data/standoff/standoff-relations.xml"/>
+                <ptr target="data/standoff/standoff-persons.xml" />
+                <ptr target="data/standoff/standoff-places.xml" />
+                <ptr target="data/standoff/standoff-events.xml" />
+                <ptr target="data/standoff/standoff-orgs.xml" />
+                <ptr target="data/standoff/standoff-relations.xml" />
             </sourceDesc>
         </fileDesc>
         
@@ -97,6 +97,11 @@
                     <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -143,7 +148,7 @@
                     Coronel <persName ref="#salustiano">Salustiano</persName>, no dia 6, às 6 horas da madrugada, desembarcou, abaixo da 
                     vila meia légua, a cavalaria e 170 homens de infantaria, e foi cercada a vila por terra e mar, e no fechar o cerco, 
                     se desviava da vila uma força de 40 e tantos homens,
-                    <pb n="1v"/>
+                    <pb n="1v" />
                     <seg type="folio">[1v.]</seg>
                     comandada por um tenente ou capitão rebelde 
                     <persName ref="#jose_almeida_rebelde">José de Almeida</persName>, o qual, perseguindo-o com a cavalaria, 
@@ -162,7 +167,7 @@
                     E tanto nesta como na outra empresa na Volta do Sabino, se portaram todos os 
                     de cavalaria com desmarcado valor, sendo muito de louvar a boa vontade e coragem dos senhores oficiais já referidos, 
                     que todos eram empenhados em avançar primeiro e assim também os particulares que armados e de cavalo 
-                    <pb n="2r"/>
+                    <pb n="2r" />
                     <seg type="folio">[2r.]</seg>
                     acompanharam a 
                     expedição. No <placeName ref="#arroio_ratos">arroio dos Ratos</placeName> desembarcou o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
@@ -180,9 +185,9 @@
                     <addresse>
                         <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e 
                         <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
-                        <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/>
+                        <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br />
                     </addresse>
-                    <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>,<br/>Major.</signed>
+                    <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>,<br />Major.</signed>
                 </closer>
                 
             </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
@@ -62,11 +62,11 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
-                <ptr target="data/standoff/standoff-persons.xml"/>
-                <ptr target="data/standoff/standoff-places.xml"/>
-                <ptr target="data/standoff/standoff-events.xml"/>
-                <ptr target="data/standoff/standoff-orgs.xml"/>
-                <ptr target="data/standoff/standoff-relations.xml"/>
+                <ptr target="data/standoff/standoff-persons.xml" />
+                <ptr target="data/standoff/standoff-places.xml" />
+                <ptr target="data/standoff/standoff-events.xml" />
+                <ptr target="data/standoff/standoff-orgs.xml" />
+                <ptr target="data/standoff/standoff-relations.xml" />
             </sourceDesc>
         </fileDesc>
         
@@ -113,7 +113,7 @@
         </revisionDesc>
     </teiHeader>
     
-    <text>
+    <facsimile><surface xml:id="CV-134_1v"><graphic url="images/CV-134_1v.jpg" /></surface></facsimile><text>
         <body>
             <div type="letter" subtype="copy" xml:id="CV-134">
                 
@@ -151,7 +151,7 @@
                 <note type="endorsement">
                     <p>
                         <choice><orig>Sr. Ma-</orig><reg>Sr. Major</reg></choice>
-                        <pb n="1v"/>
+                        <pb n="1v" />
 <seg type="folio">[1v.]</seg>
                         jor 
                         <persName ref="#manuel_jose_simas">Manuel José Simas</persName>.

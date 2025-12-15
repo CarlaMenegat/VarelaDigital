@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
@@ -62,11 +62,11 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
-                <ptr target="data/standoff/standoff-persons.xml"/>
-                <ptr target="data/standoff/standoff-places.xml"/>
-                <ptr target="data/standoff/standoff-events.xml"/>
-                <ptr target="data/standoff/standoff-orgs.xml"/>
-                <ptr target="data/standoff/standoff-relations.xml"/>
+                <ptr target="data/standoff/standoff-persons.xml" />
+                <ptr target="data/standoff/standoff-places.xml" />
+                <ptr target="data/standoff/standoff-events.xml" />
+                <ptr target="data/standoff/standoff-orgs.xml" />
+                <ptr target="data/standoff/standoff-relations.xml" />
             </sourceDesc>
         </fileDesc>
         
@@ -98,6 +98,11 @@
                     <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -135,8 +140,8 @@
                     a importância da dita letra, o que terá lugar, e pelo <orgName ref="#tesouro">Tesouro</orgName> se expedirá 
                     a ordem ao coletor.</p>
                 
-                <pb n="1v"/>
-<seg type="folio">[1v.]</seg>
+                <pb n="1v" />
+                <seg type="folio">[1v.]</seg>
 
                 <p>Ora, para isto há muito tempo, porque nunca pode ser menos de 30 dias o prazo de sobredita letra, e assim fica 
                     efetuando o encontro que pretende <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
@@ -156,11 +161,10 @@
                         a exportar ou importar.</p>
                 </postscript>
                 
-                <note type="endorsement">
+                <note type="endorsement" place="1v">
                     <date when="1842">1842</date>
                     <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
                     <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName>
-                    <seg type="folio">[No verso]</seg>
                 </note>
                 
                 <note type="editorial">Anexo ao documento CV-6.</note>

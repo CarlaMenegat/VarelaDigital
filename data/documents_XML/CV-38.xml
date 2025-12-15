@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
@@ -62,11 +62,11 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
-                <ptr target="data/standoff/standoff-persons.xml"/>
-                <ptr target="data/standoff/standoff-places.xml"/>
-                <ptr target="data/standoff/standoff-events.xml"/>
-                <ptr target="data/standoff/standoff-orgs.xml"/>
-                <ptr target="data/standoff/standoff-relations.xml"/>
+                <ptr target="data/standoff/standoff-persons.xml" />
+                <ptr target="data/standoff/standoff-places.xml" />
+                <ptr target="data/standoff/standoff-events.xml" />
+                <ptr target="data/standoff/standoff-orgs.xml" />
+                <ptr target="data/standoff/standoff-relations.xml" />
             </sourceDesc>
         </fileDesc>
         
@@ -98,6 +98,11 @@
                     <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -112,7 +117,7 @@
             </list>
         </revisionDesc>
     </teiHeader>
-    
+
     <text>
         <body>
             <div type="letter" xml:id="CV-38">
@@ -151,7 +156,7 @@
                     que em grande parte são parentes dele.
                     Este Almeida, vendo que foram malogradas as intrigas que ele tinha feito no exército 
                     contra Kersting, agora se apura 
-                    <pb n="1v"/>
+                    <pb n="1v" />
                     <seg type="folio">[1v.]</seg>
                     em fazê-las com a marinha.
                 </p>
@@ -175,11 +180,10 @@
                     <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>, 
                     Marechal e Comandante da Guarnição de <placeName ref="#porto_alegre">Porto Alegre</placeName>.</addressee>
                     <signed>
-                        <persName ref="#antonio_pedro_abreu">Antônio Pedro de Abreu</persName><br/>
-                        Major Comandante do <orgName ref="#esquadrao_triunfo">Esquadrão do Triunfo e reunião</orgName>.
+                        <persName ref="#antonio_pedro_abreu">Antônio Pedro de Abreu</persName><br />
+                        Major Comandante do <orgName ref="#esquadrao_triunfo">Esquadrão do Triunfo</orgName> e reunião.
                     </signed>
                 </closer>
-
                 
             </div>
         </body>

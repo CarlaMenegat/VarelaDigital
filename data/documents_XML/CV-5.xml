@@ -99,6 +99,11 @@
                     <placeName ref="#boqueirao">Boqueirão</placeName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -132,13 +137,12 @@
                     <placeName ref="#salso">Residência do Juiz de Paz do departamento</placeName>, <date when="1841-11-20">20 de novembro de 1841</date>.
                 </closer>
                 
-                <note type="endorsement">
+                <note type="endorsement" place="1v">
                     Ao cidadão <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães.</persName>
                     Chefe de Polícia do departamento do <placeName ref="#sao_lourenco">Boqueirão</placeName> - <placeName ref="#salso">Salso</placeName>. 
                     Do juiz de Paz do mesmo.
                     Ofício do Juiz de Paz do departamento de <date when="1841-11-20">20 de novembro</date>
                     recebido a <date when="1841-11-22">22 do mesmo</date> e respondido no mesmo dia.
-                    <seg type="folio">[No verso]</seg>
                 </note>
             </div>
         </body>

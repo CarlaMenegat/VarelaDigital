@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
@@ -62,11 +62,11 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
-                <ptr target="data/standoff/standoff-persons.xml"/>
-                <ptr target="data/standoff/standoff-places.xml"/>
-                <ptr target="data/standoff/standoff-events.xml"/>
-                <ptr target="data/standoff/standoff-orgs.xml"/>
-                <ptr target="data/standoff/standoff-relations.xml"/>
+                <ptr target="data/standoff/standoff-persons.xml" />
+                <ptr target="data/standoff/standoff-places.xml" />
+                <ptr target="data/standoff/standoff-events.xml" />
+                <ptr target="data/standoff/standoff-orgs.xml" />
+                <ptr target="data/standoff/standoff-relations.xml" />
             </sourceDesc>
         </fileDesc>
         
@@ -98,6 +98,11 @@
                     <persName ref="#domingos_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         
         <revisionDesc>
@@ -113,7 +118,7 @@
             </list>
         </revisionDesc>
     </teiHeader>
-    
+
     <text>
         <body>
             <div type="letter" xml:id="CV-3">
@@ -135,23 +140,22 @@
                     Enfim, meu amigo, estou certo <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> não se renderá com as relações 
                     de nossa 
                     
-                    <pb n="1v"/>
+                    <pb n="1v" />
                     <seg type="folio">[1v.]</seg>
 
                     amizade, e sim com os deveres de Ministro, e muito principalmente com os de justiça, privando-me assim de me deixar 
                     possuir de medonhas futuras ideias.</p>
                 
                 <closer>
-                    <salute>Sempre o mesmo<br/>Seu grato e antigo amigo</salute>
+                    <salute>Sempre o mesmo<br />Seu grato e antigo amigo</salute>
                     <signed>
                         <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName>
                     </signed>
                 </closer>
                     
-                <note type="endorsement">
+                <note type="endorsement" place="1r">
                     Repondida a <date when="1841-11-30">30 de novembro de 1841.</date>
-                    Letra de <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName> 
-                    na <seg type="folio">folha 1r</seg>.
+                    Letra de <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>.
                 </note>
             </div>
         </body>

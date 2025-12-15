@@ -98,6 +98,11 @@
                     <persName ref="#antonio_elzeário_miranda_brito">Antônio Elzeário de Miranda e Brito</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -140,12 +145,13 @@
                         <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName><br/>Major</signed>
                     </closer>
                     
-                    <note type="endorsement" place="1r.">Ordem à Pagadoria.</note>
-                    <note type="endorsement" place="1v.">Foi ordem à Pagadoria em 14 dito.</note>
-                    <note type="endorsement" place="verso"><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
-                        Presidente da Província e Comandante das Armas da mesma e Marechal-de-campo <persName ref="#antonio_elzeário_miranda_brito">Antônio Elzeário de Miranda e Brito</persName>. 
-                        Do Major <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>. </note>
-                    
+                    <note type="endorsement" place="1r">Ordem à Pagadoria.</note>
+                    <note type="endorsement" place="1v">Foi ordem à Pagadoria em 14 dito.</note>
+                    <note type="endorsement" place="2v">
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                            Presidente da Província e Comandante das Armas da mesma e Marechal-de-campo <persName ref="#antonio_elzeário_miranda_brito">Antônio Elzeário de Miranda e Brito</persName>. 
+                            Do Major <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>. 
+                    </note>  
                 </div>
             </body>
         </text>

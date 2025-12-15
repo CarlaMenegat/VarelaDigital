@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
@@ -20,7 +20,7 @@
             </editionStmt>
             <extent>
                 <extent>1 carta</extent>
-                <measure type="pages">3</measure>
+                <measure type="pages">2</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
@@ -62,11 +62,11 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
-                <ptr target="data/standoff/standoff-persons.xml"/>
-                <ptr target="data/standoff/standoff-places.xml"/>
-                <ptr target="data/standoff/standoff-events.xml"/>
-                <ptr target="data/standoff/standoff-orgs.xml"/>
-                <ptr target="data/standoff/standoff-relations.xml"/>
+                <ptr target="data/standoff/standoff-persons.xml" />
+                <ptr target="data/standoff/standoff-places.xml" />
+                <ptr target="data/standoff/standoff-events.xml" />
+                <ptr target="data/standoff/standoff-orgs.xml" />
+                <ptr target="data/standoff/standoff-relations.xml" />
             </sourceDesc>
         </fileDesc>
         
@@ -98,6 +98,10 @@
                     <persName ref="#antonio_elzeario_brito">Antônio Elzeário de Miranda e Brito</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="ink">Mão original do documento (reproduzida via edição impressa).</handNote>
+                <handNote xml:id="hand_pencil" medium="pencil">Anotação posterior a lápis no exemplar consultado.</handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -113,7 +117,7 @@
         </revisionDesc>
     </teiHeader>
     
-    <text>
+    <facsimile><surface xml:id="CV-55_1v"><graphic url="images/CV-55_1v.jpg" /></surface><surface xml:id="CV-55_2r"><graphic url="images/CV-55_2r.jpg" /></surface><surface xml:id="CV-55_2v"><graphic url="images/CV-55_2v.jpg" /></surface></facsimile><text>
         <body>
             <div type="letter" xml:id="CV-55">
                 
@@ -142,7 +146,7 @@
                     e deixando à dita casa cercada por uma partida de cinco homens, para não deixar aquela casa sair ninguém ou quem viesse 
                     ser preso; e eu segui com a cavalaria e o dito homem do lanchão que ia guiar a caminhar pela costa do 
                     Brejo mais de oito léguas, por 
-                    <pb n="1v"/>
+                    <pb n="1v" />
                     <seg type="folio">[1v.]</seg>
                     lugares bem custosos; acertei porém que na casa do 
                     Pereira na 3.ª feira 4.º várias pessoas já houvera trazido a notícia dos grandes rebeldes o irem passar em cavalos 
@@ -164,7 +168,7 @@
                     fogo na ripa de caibros que os obrigasse a desalojarem a casa; e quando se viram neste aperto deram de dentro vivas à 
                     legalidade e eu lhes gritei que se entregassem que lhes salvava as vidas, mas o indigno comandante deles, a poder de 
                     cacháça e pancadas, os fez virar de opinião dando logo vivas à república dizendo morrer sim, entregar não. À vista 
-                    <pb n="2r"/>
+                    <pb n="2r" />
                     <seg type="folio">[2r.]</seg>
                     de tal resolução apertei o esforço, e mandando botar 3.ª vez grande porção de faxina e lenha e muito sebo a ver se lhe 
                     queimava a casa, porém eles, de dentro, com grande custo, puderam abrir buracos em roda da casa pelos quais sendo 
@@ -184,7 +188,7 @@
                     aonde chegamos na 6.º-feira de noite, e a esta cidade no dia 20, sábado de madrugada; colhi dos rebeldes em 
                     <placeName ref="#camaqua">Camaquã</placeName>, na casa do comandante, as suas patentes de piratas, ofícios, e 
                     detalhes da 
-                    <pb n="2v"/>
+                    <pb n="2v" />
                     <seg type="folio">[2v.]</seg>
                     marinha e outros papéis e regulamentos que já enviei a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>. 
                     Existiam em Camaquã quatro lanchões, dois em terra consertando com uma peça de calibre três, e duas peças sem aparelho 
@@ -207,13 +211,13 @@
                         <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Senhor
                         <persName ref="#antonio_elzeario_brito">Antônio Elzeário de Miranda e Brito</persName>
                         Presidente da Província e Comandante das Armas da Província do <placeName ref="#rio_grande_sul">Rio Grande do Sul</placeName>
-                        <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
                     </addressee>
+                    
+                    <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
                 </closer>
                 
-                <note type="endorsement" place="recto">
-                    Combateu a <date when="17">17</date>, sendo ferido.
-                    <note type="editorial">[Anotação a lápis na folha 1r.]</note>
+                <note type="endorsement" place="1r" hand="#hand_pencil">
+                    Combateu a <date when="1839-04-17">17</date>, sendo ferido.
                 </note>
 
             </div>

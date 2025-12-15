@@ -98,6 +98,11 @@
                     <persName><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -143,7 +148,7 @@
                     <salute><choice><abbr>R.J.</abbr><expan>Receber Justiça</expan></choice></salute>
                 </closer>
                 
-                <note type="endorsement" place="1r.">
+                <note type="dispatch" place="1r.">
                     Sim, salvo o direito de terceiro.<br/>
                     <orgName ref="#secretaria_interior">Secretaria do Interior</orgName> em 
                     <placeName ref="#alegrete">Alegrete</placeName>, 
@@ -151,7 +156,7 @@
                     <persName ref="#sa_brito">Sá Brito</persName>.
                 </note>
                 
-                <note type="endorsement" place="verso">
+                <note type="endorsement" place="1v">
                     1
                     <date when="1843-05-18">Maio 18, 1843.</date><br/>
                     Despacho das sobras do campo de <placeName ref="#inhanduí_rincao">Inhanduí</placeName>.

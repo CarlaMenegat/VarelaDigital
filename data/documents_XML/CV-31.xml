@@ -3,13 +3,14 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-31 – Requerimento de Antônio José de Abreu ao Juiz de Direito interino</title>
+                <title>Petição CV-31 – Requerimento de Antônio José de Abreu ao Juiz de Direito interino</title>
                 <author>Antônio José de Abreu</author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
                 <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
                 <respStmt>
@@ -18,11 +19,13 @@
                 </respStmt>
                 <date when="2025-06-22">22 de junho de 2025</date>
             </editionStmt>
+            
             <extent>
-                <extent>1 carta</extent>
+                <extent>1 petição</extent>
                 <measure type="pages">2</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
+            
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
                 <pubPlace>Porto Alegre</pubPlace>
@@ -30,11 +33,13 @@
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            
             <seriesStmt>
                 <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
                 <biblScope type="volume">Vol. II</biblScope>
                 <biblScope type="series">II Série</biblScope>
             </seriesStmt>
+            
             <notesStmt>
                 <note type="catalogue">
                     Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
@@ -44,6 +49,7 @@
                     Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
                 </note>
             </notesStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -62,6 +68,7 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
+                
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
@@ -84,19 +91,15 @@
         <profileDesc>
             <langUsage>
                 <language ident="pt-BR">Português do Brasil</language>
-                <language ident="pt-BR">
-                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
-                </language>
+                <language ident="pt-BR">Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.</language>
             </langUsage>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="#antonio_belarmino_ribeiro">Antônio Belarmino Ribeiro</persName>
-                </correspAction>
-            </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -113,9 +116,14 @@
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-31">
+            <div type="petition" xml:id="CV-31">
+                
                 <opener>
-                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Juiz de Direito interino</salute>
+                    <salute>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice>
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                        Juiz de Direito interino
+                    </salute>
                 </opener>
                 
                 <p>
@@ -134,13 +142,14 @@
                 </p>
                 
                 <closer>
-                    <salute><choice>
+                    <salute>
+                        <choice>
                             <abbr>E.R.Mcê.</abbr>
                             <expan>Estimo receber a Vossa Mercê</expan>
                         </choice>
                     </salute>
                 </closer>
-
+                
                 <note type="endorsement">
                     Passe. <placeName ref="#piratini">Piratini</placeName>,
                     <date when="1841-10-02">2 de Outubro de 1841</date>.<br/>
@@ -148,34 +157,29 @@
                 </note>
                 
                 <note type="dispatch">
-                    
-                    <seg type="folio">[Despacho na folha 1r]</seg>
-                    
                     <p>
-                        n.º 2 <seg type="folio">[folha 1r]</seg>  
+                        n.º 2<br/>
                         O cidadão <persName ref="#antonio_belarmino_ribeiro">Antônio Belarmino Ribeiro</persName>, 
                         Escrivão de Órfãos e Ausentes da cidade de <placeName ref="#piratini">Piratini</placeName> e seu termo.
                         Em virtude do despacho retro: certifico que os bens de que trata o peticionário
-                        foram depositados em poder do cidadão <persName ref="#bernardo_pires">Major Bernardo Pires</persName>,
-                        a vinte quatro de setembro próximo pretérito, como consta dos autos respectivos a folhas onze.
+                        foram depositados em poder do cidadão <persName ref="#bernardo_pires">Major Bernardo Pires</persName>
+                        a vinte e quatro de setembro próximo pretérito, como consta dos autos a folhas onze.
                         Assim mais certifico, e consta dos mesmos autos a folhas quatorze, ter sido o peticionário
-                        nomeado Curador e prestado juramento a vinte cinco do citado mês de setembro.
-                        Certifico, finalmente, que dos preditos autos a folhas vinte um verso consta haver
+                        nomeado Curador e prestado juramento a vinte e cinco do citado mês de setembro.
+                        Certifico, finalmente, que dos preditos autos a folhas vinte e um verso consta haver
                         sido o peticionário desonerado de tal curadoria, no dia primeiro do corrente mês de
                         outubro, e substituído pelo supradito cidadão 
                         <persName ref="#bernardo_pires">Major Bernardo Pires</persName>.
                     </p>
                     
-                    <dateline>
-                        <placeName ref="#piratini">Piratini</placeName>, 
-                        <date when="1841-10-02">2 de outubro de 1841</date>.
-                    </dateline>
-                    
-                    <signed>
-                        <persName ref="#antonio_belarmino_ribeiro">Antônio Belarmino Ribeiro</persName>
-                    </signed>
-                    
+                    <closer>
+                        <signed>
+                            O referido é verdade e aos autos concernentes me reporto.
+                            <persName ref="#antonio_belarmino_ribeiro">Antônio Belarmino Ribeiro</persName>
+                        </signed>
+                    </closer>
                 </note>
+                
             </div>
         </body>
     </text>

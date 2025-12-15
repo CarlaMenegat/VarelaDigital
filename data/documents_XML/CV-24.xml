@@ -98,6 +98,11 @@
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -161,7 +166,7 @@
                     </list>
                 </postscript>
                 
-                <note type="endorsement">
+                <note type="endorsement" place="1v">
                     <p><placeName ref="#sao_lourenco">São Lourenço</placeName>, 20 de abril de 1845.  
                         Recebida a 24 de junho de 1845. Respondida a 27 de junho de 1845.</p>
                     </note>

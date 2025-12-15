@@ -147,6 +147,11 @@
             active="#documento_CV_102"
             passive="#martim_francisco_filho"/>
         
+        <relation
+            name="schema:subOrganizationOf"
+            active="#secretaria_interior"
+            passive="#ministerio_interior"/>
+        
         <relation 
             name="prov:wasAttributedTo"
             active="#processo_de_doacao"
@@ -3501,4 +3506,112 @@
         name="foaf:knows"
         active="#rolino_pereira_barros"
         passive="#vicente"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#domingos_jose_almeida"
+        passive="#marciano_pereira_ribeiro"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#marciano_pereira_ribeiro"
+        passive="#domingos_jose_almeida"/>
+    
+    <relation 
+        name="rel:spouseOf"
+        active="#d_caetana"
+        passive="#bento_goncalves"
+        mutual="true"/>
+    
+    <relation 
+        name="hrao:hasKinship"
+        active="#joao_goncalves_silva"
+        passive="#bento_goncalves"
+        mutual="true"/>
+    
+    <relation 
+        name="hrao:hasKinship"
+        active="#manuel_goncalves_silva"
+        passive="#bento_goncalves"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#domingos_jose_almeida"
+        passive="#joao_goncalves_silva"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#domingos_jose_almeida"
+        passive="#manuel_goncalves_silva"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#manuel_francisco_andrade"
+        passive="#domingos_jose_almeida"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#manuel_francisco_andrade"
+        passive="#diogo_antonio_feijo"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#diogo_antonio_feijo"
+        passive="#domingos_jose_almeida"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#candido_fernandes_lima"
+        passive="#domingos_jose_almeida"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#manuel_domigues_moreira"
+        passive="#domingos_jose_almeida"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#goularte"
+        passive="#domingos_jose_almeida"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#jose_moreira"
+        passive="#domingos_jose_almeida"
+        mutual="true"/>
+    
+    <relation 
+        name="hrao:hasKinship"
+        active="#jose_moreira"
+        passive="#bernardina_barcelos_almeida"
+        mutual="true">
+        <desc>Primos</desc>
+    </relation>
+    
+    <relation 
+        name="foaf:knows" 
+        active="#espindola" 
+        passive="#domingos_jose_almeida"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#casaca"
+        passive="#domingos_jose_almeida"
+        mutual="true"/>
+    
+    <relation 
+        name="foaf:knows"
+        active="#casaca"
+        passive="#bernardina_barcelos_almeida"
+        mutual="true"/>
 </TEI>

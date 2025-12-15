@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
@@ -62,11 +62,11 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
-                <ptr target="data/standoff/standoff-persons.xml"/>
-                <ptr target="data/standoff/standoff-places.xml"/>
-                <ptr target="data/standoff/standoff-events.xml"/>
-                <ptr target="data/standoff/standoff-orgs.xml"/>
-                <ptr target="data/standoff/standoff-relations.xml"/>
+                <ptr target="data/standoff/standoff-persons.xml" />
+                <ptr target="data/standoff/standoff-places.xml" />
+                <ptr target="data/standoff/standoff-events.xml" />
+                <ptr target="data/standoff/standoff-orgs.xml" />
+                <ptr target="data/standoff/standoff-relations.xml" />
             </sourceDesc>
         </fileDesc>
         
@@ -97,6 +97,11 @@
                     <persName ref="#antonio_elzeario_brito">Antônio Elzeário de Miranda e Brito</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -139,7 +144,7 @@
                     algum armamento, 18 cavalos arreados e mais de 80 cavalos, dos quais escolhi cinquenta que mandei botar nas ilhas, 
                     e sessenta reses que as barcas puderam conduzir.
                     Da legalidade não houve ferimento algum. Na minha retirada encontrei 
-                    <pb n="1v"/>
+                    <pb n="1v" />
                     <seg type="folio">[1v.]</seg>
                     desembarcados nos <placeName ref="#morretes">Morretes</placeName>, 
                     em boa ordem, 230 infantes comandados pelo <persName ref="#francisco_felix_fonseca">Major Francisco Félix da Fonseca</persName>, 
@@ -157,9 +162,9 @@
                         <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e 
                         <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
                         Presidente da Província e Marechal Comandante das Armas da mesma,
-                        <persName ref="#antonio_elzeario_brito">Antônio Elzeário de Miranda e Brito</persName>.<br/>
+                        <persName ref="#antonio_elzeario_brito">Antônio Elzeário de Miranda e Brito</persName>.<br />
                     </addressee>
-                    <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.<br/>
+                    <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.<br />
                         Major Comandante interino do 5.º Corpo.</signed>
                 </closer>
                 

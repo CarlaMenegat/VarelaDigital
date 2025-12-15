@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
@@ -66,11 +66,11 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
-                <ptr target="data/standoff/standoff-persons.xml"/>
-                <ptr target="data/standoff/standoff-places.xml"/>
-                <ptr target="data/standoff/standoff-events.xml"/>
-                <ptr target="data/standoff/standoff-orgs.xml"/>
-                <ptr target="data/standoff/standoff-relations.xml"/>
+                <ptr target="data/standoff/standoff-persons.xml" />
+                <ptr target="data/standoff/standoff-places.xml" />
+                <ptr target="data/standoff/standoff-events.xml" />
+                <ptr target="data/standoff/standoff-orgs.xml" />
+                <ptr target="data/standoff/standoff-relations.xml" />
             </sourceDesc>
         </fileDesc>
         
@@ -118,7 +118,7 @@
         </revisionDesc>
     </teiHeader>
     
-    <text>
+    <facsimile><surface xml:id="CV-191_1v"><graphic url="images/CV-191_1v.jpg" /></surface></facsimile><text>
         <body>
             <div type="letter" xml:id="CV-191">
                 
@@ -159,7 +159,10 @@
                     e oxalá que meus esforços sejam coroados à medida de meus desejos. 
                     Conforta-te, Bernardina, com a lembrança das puras intenções que nutro 
                     e me obrigam a uma viagem tão prolongada e incômoda; a uma viagem 
-                    senão arriscada, ao menos espinhosa pelas ciladas que tenho a esperar 
+                    senão arriscada, ao menos espinhosa pelas ciladas 
+                    <pb n="1v" />
+                    <seg type="folio">[1v.]</seg>
+                    que tenho a esperar 
                     dos regressivos idos desta: contudo de nada receio, e o amor pelo bem 
                     da Pátria de nossos filhos pesa sobretudo em minhas considerações.</p>
                 
@@ -188,8 +191,8 @@
                     <salute>Dando mil abraços a nossos filhos, por mim os abençoa em nome do Criador: 
                     o compadre <persName ref="#jose_felix">José Félix</persName> 
                     que haja esta por sua, e tua mãe um abraço bem apertado, 
-                    e adeus que já não pode.<br/>
-                    O teu<br/>
+                    e adeus que já não pode.<br />
+                    O teu<br />
                 </salute>
                 
                     <signed>
@@ -201,7 +204,7 @@
                     que te falei por causa do que me disseste na tua de <date when="1836-02-06">6 do presente mês</date>.</postscript>
                 
                 <note type="endorsement" place="verso">
-                    <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.<br/>
+                    <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.<br />
                     <placeName ref="#pelotas">Pelotas</placeName>.
                 </note>
                 

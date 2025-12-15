@@ -19,8 +19,9 @@
                 <date when="2025-06-28">28 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">3</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -97,6 +98,11 @@
                     <persName ref="#filipe_neri_oliveira">Filipe Neri de Oliveira</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -149,6 +155,8 @@
                 
                 <p>E refazendo-me aí de alguns cavalos fiz sair o <persName ref="#antonio_pedro_abreu">Tenente Antônio Pedro de Abreu</persName> 
                     com 60 homens pelo passo do Duro abaixo, até o <placeName ref="#arroio_velhaco">arroio Velhaco</placeName>, 
+                    <pb n="1v" />
+                    <seg type="folio">[1v.]</seg>
                     a levantar as cavalhadas daquela costa; e eu segui com a mais força pela costa de <placeName ref="#camaqua">Camaquã</placeName> abaixo, 
                     recrutando as cavalhadas que apareciam e a fazer junção no dia 26 no <choice><sic>Butta</sic></choice>, 
                     com o dito Tenente <persName ref="#antonio_pedro_abreu">Abreu</persName>, que aí, conforme as ordens, se achava com 
@@ -170,13 +178,24 @@
                     a coragem, valor e constância com que me acompanharam todos os oficiais e oficiais inferiores e soldados nas empresas e 
                     marchas, de dia e de noite, por serras e caminhos escabrosos, faltos de descanso e provimento, mostrando assim a 
                     vontade com que defendem o trono do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#pedro_ii">Dom Pedro Segundo</persName>. 
-                    Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muitos anos como havemos mister.</p>
+                </p>
                 
                 <closer>
+                    <salute>Deus 
+                        <pb n="2r" />
+                        <seg type="folio">[2r.]</seg>
+                        guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muitos anos como havemos mister.
+                    </salute>
                     <dateline>Quartel em <placeName ref="#porto_alegre">Porto Alegre</placeName>, <date when="1839-12-31">31 de dezembro de 1839</date>.</dateline>
-                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Senhor <persName ref="#filipe_neri">Filipe Neri de Oliveira</persName>. Digníssimo Brigadeiro e Comandante da 2a. Brigada.</salute>
-                    <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
-                    <signed>Tenente-coronel Comandante de 5.º Corpo de Guarda Nacional.</signed>
+                    <addresee>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> 
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#filipe_neri">Filipe Neri de Oliveira</persName>, 
+                        Brigadeiro Comandante da <orgName ref="#brigada_2">2a. Brigada</orgName>.
+                    </addresee>
+                    <signed>
+                        <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.Tenente-coronel Comandante de 
+                        <orgName ref="#corpo_5_gn">5.º Corpo de Guarda Nacional.</orgName>
+                    </signed>
                 </closer>
                 
             </div>

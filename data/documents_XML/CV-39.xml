@@ -98,6 +98,11 @@
                     <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -138,22 +143,19 @@
                 
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.</salute> 
+                    <addressee>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/>
+                        Marechal e Comandante da Guarnição de 
+                        <placeName ref="#porto_alegre">Porto Alegre</placeName>.
+                    </addressee>
                     <dateline>Quartel na vila do 
                         <placeName ref="#triunfo">Triunfo</placeName>,
                         <date when="1845-02-16">16 de fevereiro de 1845</date>.</dateline>
-                    
                     <signed>
                         <persName ref="#antonio_pedro_abreu">Antônio Pedro de Abreu</persName><br/>
                         Major encarregado da reunião dos praças da <orgName ref="#brigada_8">8.ª Brigada</orgName>.
                     </signed>
                 </closer>
-                
-                <note type="endorsement">
-                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/>
-                    Marechal e Comandante da Guarnição de 
-                    <placeName ref="#porto_alegre">Porto Alegre</placeName>.
-                </note>
-                
             </div>
         </body>
     </text>

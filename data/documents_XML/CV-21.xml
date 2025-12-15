@@ -99,6 +99,11 @@
                     <placeName ref="#bage">Bagé</placeName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -117,6 +122,9 @@
     <text>
         <body>
             <div type="letter" xml:id="CV-21">
+                
+                <pb n="3r" />
+                <seg type="folio">[3r.]</seg>
 
                 <p>Diz o cidadão <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName> que devendo-lhe
                     o Estado a importância dos gados constantes do documento junto, e que, pela presente 
@@ -134,24 +142,43 @@
                     <placeName ref="#bage">Bagé</placeName>, <date when="1842-01-22">22 de janeiro de 1842</date>.
                 </closer>
                 
-                <note type="endorsement">Liquidada a importância do documento junto na repartição competente. Fiat Justitia. 
-                    Bagé, janeiro de 1842. O Procurador Fiscal <persName ref="#silva_procurador">Silva</persName>.</note>
+                <note type="endorsement" place="3r.">
+                    Ao <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Procurador Fiscal. 
+                    Liquidada a importância do documento junto na repartição competente. Fiat Justitia. 
+                    <dateline>
+                        <orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName>, <placeName ref="#bage">Bagé</placeName>, 
+                        <date when="1842-01-??">
+                            <damage type="tear">[rasgado]</damage> janeiro de 1842
+                        </date>.
+                    </dateline> 
+                    O Procurador Fiscal <persName ref="#silva_procurador">Silva</persName>.
+                </note>
                 
-                <note type="endorsement">
+                <note type="endorsement" place="3v">
+                    À Contadoria. Lemos.
                     Verificado o documento junto na quantia de 5:326$500 rs.:
                     <list>
                         <item>197 novilhos — 4$500 = 886$500</item>
                         <item>247 vacas — 3$200 = 796$800</item>
                         <item>3036 reses de criar — 1$200 = 3:643$200</item>
                     </list>
-                    <persName ref="#viana_contador">Contador interino Viana</persName>, Bagé, 25 de janeiro de 1842.
+                    <dateline>Contadoria Geral do Tesouro em<placeName ref="#bage">Bagé</placeName>, <date when="1842-01-25">25 de janeiro de 1842</date>.</dateline>
+                    <persName ref="#viana_contador">Contador interino Viana</persName>
                 </note>
                 
-                <note type="endorsement">
-                    Tendo de fazer cessar o sistema de transações pelas Coletorias, e desejando conciliar o bem particular com as 
-                    exigências públicas, será atendido oportunamente o Suplicante, sendo verificado no <orgName ref="#tesouro">Tesouro</orgName>, 
-                    e não já mais em Coletoria alguma.
-                    <persName ref="#fontoura">Ministro Fontoura</persName>, Bagé, 26 de janeiro de 1842.
+                <note type="endorsement" place="">
+                    Tendo de fazer cessar o sistema de transações pelas Coletorias, cujos os resultados tão horrivelmente pesam
+                    hoje sobre o <orgName ref="#tesouro">Tesouro</orgName>; achando-se mais o governo na colisão de pagar de pronto
+                    dívidas já há muito contraídas, de gêneros consumidos no exército, bem como a urgente necessidade de continuar 
+                    na compra dos mesmos gêneros; não é possível atender de pronto ao Suplicante pois o pagamento exigido em descontos
+                    dos direitos de gêneros que projeta despachar não é tão moroso como pretende imaginar, visto que ele se pode verificar
+                    por muitos modos, como tem acontecido, e sendo avultada a soma pelo Suplicante exigida, seria isso acumular um novo
+                    embaraço aos muitos que atualmente entorpecem nosso estado financeiro; porém desejando o governo consiliar quanto é 
+                    possível o bem particular com as exigências públicas, será atendido oportunamente o Suplicante, dando-lhe em desconto
+                    uma parte desses despachos que julga fazer o que será veri- 
+                    ficado no <orgName ref="#tesouro">Tesouro</orgName> e não já mais em Coletoria alguma.
+                    <dateline><orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName>, <placeName ref="#bage">Bagé</placeName>, <date when="1842-01-26">26 de janeiro de 1842</date>.</dateline>
+                    <signed><persName ref="#fontoura">Fontoura</persName>.</signed>
                 </note>
             </div>
         </body>

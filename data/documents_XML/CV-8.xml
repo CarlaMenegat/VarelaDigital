@@ -91,6 +91,11 @@
                     Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
                 </language>
             </langUsage>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -143,7 +148,7 @@
                 
                 <note type="endorsement">
                     <seg>Está conforme.</seg>
-                    <signed>(a) <persName ref="#hilario_amaro_junior">Hilário Amaro Júnior</persName></signed>
+                    <signed><persName ref="#hilario_amaro_junior">Hilário Amaro Júnior</persName></signed>
                 </note>
                 
                 <note type="editorial">Anexo ao documento CV-6.</note>

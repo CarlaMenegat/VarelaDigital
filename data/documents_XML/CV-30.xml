@@ -3,13 +3,14 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-30 – Requerimento de Antônio José de Abreu ao Juiz de Direito</title>
+                <title>Petição CV-30 – Requerimento de Antônio José de Abreu ao Juiz de Direito</title>
                 <author>Antônio José de Abreu</author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
                 <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
                 <respStmt>
@@ -18,11 +19,13 @@
                 </respStmt>
                 <date when="2025-06-20">20 de junho de 2025</date>
             </editionStmt>
+            
             <extent>
-                <extent>1 carta</extent>
+                <extent>1 petição</extent>
                 <measure type="pages">2</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
+            
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
                 <pubPlace>Porto Alegre</pubPlace>
@@ -30,11 +33,13 @@
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            
             <seriesStmt>
                 <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
                 <biblScope type="volume">Vol. II</biblScope>
                 <biblScope type="series">II Série</biblScope>
             </seriesStmt>
+            
             <notesStmt>
                 <note type="catalogue">
                     Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
@@ -44,6 +49,7 @@
                     Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
                 </note>
             </notesStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -62,6 +68,7 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
+                
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
@@ -84,21 +91,15 @@
         <profileDesc>
             <langUsage>
                 <language ident="pt-BR">Português do Brasil</language>
-                <language ident="pt-BR">
-                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
-                </language>
+                <language ident="pt-BR">Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.</language>
             </langUsage>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>
-                    <placeName ref="#piratini">Piratini</placeName>
-                    <date when="1841-10-01">1.º de outubro de 1841</date>
-                </correspAction>
-                <correspAction type="received">
-                    <persName><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Juiz de Direito</persName>
-                </correspAction>
-            </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -115,9 +116,14 @@
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-30">
+            <div type="petition" xml:id="CV-30">
+                
                 <opener>
-                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Juiz de Direito</salute>
+                    <salute>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice>
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                        Juiz de Direito
+                    </salute>
                 </opener>
                 
                 <p>
@@ -131,35 +137,32 @@
                         </choice>
                     </persName>, e porque, na conformidade
                     do § 1.º do artigo 90 da ordem do Livro 1.º e deliberação de 9 de maio de 1834, ao
-                    Suplicante compete receber e administrar os bens da herança, por isso que ele fica
-                    responsável como a isso o obriga a precitada lei, e é por isso que requer à 
-                    <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>
-                    se digne mandar que se lhe faça a competente carga para o Suplicante assinar e
-                    recebê-los como lhe é ordenado.
+                    Suplicante compete receber e administrar os bens da herança, [...].
                 </p>
                 
                 <p>
-                    Pede a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> se digne deferir-lhe na forma requerida, juntando-se esta aos autos
-                    respectivos.
+                    Pede a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>
+                    se digne deferir-lhe na forma requerida, juntando-se esta aos autos respectivos.
                 </p>
                 
                 <closer>
-                    <salute><choice>
-                        <abbr>E.R.Mcê.</abbr>
-                        <expan>Estimo receber a Vossa Mercê</expan>
-                    </choice>
-                </salute>
+                    <salute>
+                        <choice>
+                            <abbr>E.R.Mcê.</abbr>
+                            <expan>Estimo receber a Vossa Mercê</expan>
+                        </choice>
+                    </salute>
                 </closer>
-
-                <note type="endorsement">
+                
+                <note type="dispatch" place="1r">
                     Está o Suplicante desonerado da curadoria que assinou, à vista do meu despacho
                     de hoje, exarado nos autos respectivos.
                     <placeName ref="#piratini">Piratini</placeName>,
                     <date when="1841-10-01">1.º de outubro de 1841</date>.<br/>
                     <signed><persName ref="#freitas">Freitas</persName></signed><br/>
-                    <note type="editorial">[Na folha 1r.]</note><br/>
                     <note type="editorial">[n.º 2 — Anexo ao documento CV-29.]</note><br/>
                 </note>
+                
             </div>
         </body>
     </text>

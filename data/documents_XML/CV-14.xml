@@ -99,6 +99,11 @@
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -134,9 +139,7 @@
                     <dateline><placeName ref="#bage">Bagé</placeName>, <date when="1842-02-21">21 de fevereiro de 1842</date></dateline>.
                 </closer>
                 
-                <note type="endorsemente">
-                    <seg type="folio">No verso</seg>.
-                    
+                <note type="endorsemente" place="1v.">
                     <choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice><br/>
                     Ao cidadão <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     Sua Residência.

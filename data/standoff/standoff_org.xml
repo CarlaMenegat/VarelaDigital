@@ -284,11 +284,6 @@
             <note>Batalhão do Exército Imperial Brasileiro atuante durante a Revolução Farroupilha.</note>
         </org>
         
-        <org xml:id="secretaria_interior">
-            <orgName>Secretaria do Interior</orgName>
-            <note>Órgão administrativo da República Rio-grandense.</note>
-        </org>
-        
         <org xml:id="camara_alegrete" type="governmentBody">
             <orgName>Câmara de Alegrete</orgName>
             <idno type="project"/>
@@ -302,12 +297,23 @@
             </note>
         </org>
         
+        <org xml:id="ministerio_interior" type="ministry">
+            <orgName>Ministério dos Negócios do Interior</orgName>
+            <idno type="project"/>
+            <note>Órgão superior da estrutura administrativa da República Rio-grandense, ao qual estava subordinada a Secretaria de Estado dos Negócios do Interior.</note>
+        </org>
+        
+        <org xml:id="secretaria_interior" type="governmentOffice">
+            <orgName>Secretaria de Estado dos Negócios do Interior</orgName>
+            <idno type="project"/>
+            <note>Órgão do governo farroupilha responsável pela administração das questões internas do Estado.</note>
+        </org>
+        
         <org xml:id="ministerio_fazenda" type="governmentMinistry">
             <orgName>Ministério da Fazenda</orgName>
             <idno type="project"/>
             <note>Órgão superior responsável pela política financeira e fiscal da República Rio-Grandense.</note>
         </org>
-        
         
         <org xml:id="secretaria_fazenda" type="governmentOffice">
             <orgName>Secretaria de Estado dos Negócios da Fazenda</orgName>
@@ -700,6 +706,16 @@
             <note>Unidade de cavalaria do Exército do Império do Brasil, mencionada no contexto das operações militares durante a Revolução Farroupilha.</note>
         </org>
         
+        <org xml:id="brigada_2" type="militaryUnit">
+            <orgName>2.ª Brigada</orgName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="brigada_2_exercito_imperial">
+                <roleName>Brigada do Exército Imperial</roleName>
+                <affiliation ref="#exercito_imperial"/>
+            </state>
+            <note>Unidade militar do Exército Imperial brasileiro mencionada no contexto da Guerra dos Farrapos.</note>
+        </org>
+        
         <org xml:id="brigada_8" type="militaryUnit">
             <orgName>8.ª Brigada</orgName>
             <idno type="project"/>
@@ -795,6 +811,16 @@
                 durante a Revolução Farroupilha. Mencionado em documentos oficiais como parte das 
                 tropas de linha mobilizadas contra as forças da República Rio-Grandense.
             </note>
+        </org>
+        
+        <org xml:id="corpo_5_gn" type="militaryUnit">
+            <orgName>5.º Corpo da Guarda Nacional</orgName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="corpo_5_gn_imperial">
+                <roleName>Unidade da Guarda Nacional do Império do Brasil</roleName>
+                <affiliation ref="#guarda_nacional_imperial"/>
+            </state>
+            <note>Unidade da Guarda Nacional imperial mencionada em contexto de mobilização e operações durante a Guerra dos Farrapos.</note>
         </org>
         
         <org xml:id="1_brigada_guarda_nacional">

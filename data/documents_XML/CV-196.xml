@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-196 – Domingos José de Almeida para Bernardina Barcelos de Almeida</title>
                 <author>Domingos José de Almeida</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-08-06">06 de agosto de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -65,6 +70,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -78,7 +84,14 @@
                 </application>
             </appInfo>
         </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
@@ -94,8 +107,12 @@
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-08-06">06/08/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2025-12-15">15/12/2025</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
@@ -114,7 +131,8 @@
                 
                 <p>Manda-me pelo <persName ref="#vicente">Vicente</persName> 2 peças de pano amarelo. Saudades a
                     todos os nossos e abraços a nossos filhos. Fica descansada, que não
-                    sigo para o <placeName ref="#rio_de_janeiro">Rio</placeName>, e que logo seguirei para a <orgName ref="#assembleia_geral_legislativa_rs">Assembléia</orgName>; adeus, até breve.</p>
+                    sigo para o <placeName ref="#rio_de_janeiro">Rio</placeName>, e que logo seguirei 
+                    para a <orgName ref="#assembleia_provincial_rs">Assembléia</orgName>; adeus, até breve.</p>
                 
                 <closer>
                     <signed>Teu:<br/>(a)
@@ -127,10 +145,12 @@
                     <date when="1836-04-14">14 de abril de 1836</date>.
                 </dateline>
                 
-                <p>
-                    <note><choice><abbr>P.S.</abbr><expan>Post scriptum</expan></choice> Os escravos daquela relação que te mandei de
-                        <placeName ref="#porto_alegre">Porto Alegre</placeName>, manda vir para aí a estarem prontos.</note>
-                </p>
+                <postscript>
+                    <label><choice><abbr>P.S.</abbr><expan>Post scriptum</expan></choice></label>
+                    <p>Os escravos daquela relação que te mandei de 
+                        <placeName ref="#porto_alegre">Porto Alegre</placeName>, 
+                        manda vir para aí a estarem prontos.</p>
+                </postscript>
                 
             </div>
         </body>

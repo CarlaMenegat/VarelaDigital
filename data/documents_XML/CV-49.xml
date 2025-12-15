@@ -97,8 +97,13 @@
                 <correspAction type="received">
                     <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>
                 </correspAction>
-                </correspDesc>
-            </profileDesc>
+            </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
+        </profileDesc>
         <revisionDesc>
             <list>
                 <item>

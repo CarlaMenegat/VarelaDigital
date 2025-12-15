@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
@@ -62,11 +62,11 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
-                <ptr target="data/standoff/standoff-persons.xml"/>
-                <ptr target="data/standoff/standoff-places.xml"/>
-                <ptr target="data/standoff/standoff-events.xml"/>
-                <ptr target="data/standoff/standoff-orgs.xml"/>
-                <ptr target="data/standoff/standoff-relations.xml"/>
+                <ptr target="data/standoff/standoff-persons.xml" />
+                <ptr target="data/standoff/standoff-places.xml" />
+                <ptr target="data/standoff/standoff-events.xml" />
+                <ptr target="data/standoff/standoff-orgs.xml" />
+                <ptr target="data/standoff/standoff-relations.xml" />
             </sourceDesc>
         </fileDesc>
         
@@ -96,6 +96,15 @@
                     <persName ref="#manuel_martins_silveira_lemos">Manuel Martins da Silveira Lemos</persName>
                 </correspAction>
             </correspDesc>
+            <handNotes>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+                <handNote xml:id="hand_mmsl">
+                    <persName ref="#manuel_martins_silveira_lemos">Manuel Martins da Silveira Lemos</persName>
+                    <desc>Letra identificada no post scriptum do documento.</desc>
+                </handNote>
+            </handNotes>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -125,7 +134,7 @@
                     na forma do mesmo parecer e circular.</p>
                 
                 <closer>
-                    <signed>Seu amigo e patrício<br/>(a) <persName ref="#fontoura">Fontoura</persName></signed>
+                    <signed>Seu amigo e patrício<br />(a) <persName ref="#fontoura">Fontoura</persName></signed>
                 </closer>
                 
                 <p>Quando aqui esteve o <persName ref="#antonio_abreu">Abreu</persName>, apresentou uns documentos de gados
@@ -134,22 +143,23 @@
                     há pouco apresentada pelo coletor dali.</p>
                 
                 <closer>
-                    <signed>De <choice><abbr>V.Exª</abbr><expan>Vossa Excelência</expan></choice> Patrício e afetuoso<br/>(a)
+                    <signed>De <choice><abbr>V.Exª</abbr><expan>Vossa Excelência</expan></choice> Patrício e afetuoso<br />(a)
                         <persName ref="#manuel_martins_silveira_lemos">Martins</persName></signed>
                 </closer>
                 
                 <pb n="1v"/>
-<seg type="folio">[1v.]</seg>
+                <seg type="folio">[1v.]</seg>
                 
-                <p>Os documentos, o <persName ref="#antonio_abreu">Abreu</persName> tornou a levá-los; por isso não ficaram
+                <postscript>
+                    Os documentos, o <persName ref="#antonio_abreu">Abreu</persName> tornou a levá-los; por isso não ficaram
                     escriturados. A quantia que pela Coletoria do <placeName ref="#erval">Erval</placeName> se acha debitada,
                     não me lembra qual é; e assim mais acha-se-lhe debitada uma outra quantia, que recebeu por ordem do 
-                    <orgName ref="#ministerio_fazenda">Ministério da Fazenda</orgName> pela Coletoria a seu cargo, quando Coletor.</p>
-                
-                <note type="editorial">
-                    Letra de <persName ref="#manuel_martins_silveira_lemos">Manuel Martins da Silveira Lemos</persName>, 
-                    no verso.
-                </note>
+                    <orgName ref="#ministerio_fazenda">Ministério da Fazenda</orgName> pela Coletoria a seu cargo, quando Coletor.
+                    
+                    <note type="endorsement" place="2v">
+                        <handShift new="#hand_mmsl"/>
+                    </note>
+                </postscript>
                 
                 <note type="editorial">
                     Anexo ao documento CV-6.

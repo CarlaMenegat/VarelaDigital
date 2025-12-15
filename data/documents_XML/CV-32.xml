@@ -98,6 +98,15 @@
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+                <handNote xml:id="hand_dja" medium="ink">
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                    <desc>Letra identificada em notas e endossos do documento.</desc>
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -130,45 +139,39 @@
                     a <persName ref="#shemit">Shemit</persName> e que este dera ordem a <persName ref="#fayete">Fayete</persName> para o fazer
                     recolher no Tesouro, sendo o portador o filho do
                     <persName ref="#bernardo_pires">Major Pires</persName> que daqui saiu para essa no dia 21; enfim, paciência.
-                </p>
-                
-                <p>
                     Todos os recursos por <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> administrados me têm sido frustrados pois a mesma
                     ordem que me mandou não tem sido possível recebê-la e menos transferi-la pelo
                     obstáculo que se lhe opõe no decreto de 30 de agosto deste ano, enquanto que eu e
                     minha família jazemos na necessidade por falta de meios, porque como <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> não
                     ignora o não ocupar-me no Foro tem cessado todos os meios de minha subsistência,
                     porque na verdade esse único recurso se acha em total abandono.
-                </p>
-                
-                <p>
                     Junto achará <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> um requerimento de
                     <persName ref="#guilherme_schnepf">Guilherme Schnepf</persName>; penso ter toda a justiça; <choice><abbr>V.
                     Ex.ª</abbr><expan>Vossa Excelência</expan></choice> porém deliberará como melhor entender. 
                     Ele já seguiu disposto a passar letra
                     quando o obriguem a pagar os direitos, dando por esse modo espaço a receber pronto
                     remédio de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.
-                </p>
-                
-                <p>
                     Eu por aqui fico bastante incomodado de meus achaques, sua comadre alguma saúde
                     goza e sua afilhada a maior moléstia que tem é o comer muito para engordar
                     depressa. Nós nos recomendamos a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> 
                     e à nossa comadre e um abraço lhe envia
-                    a pequena. A saúde de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> é a que mais aprecio por ser
+                    a pequena. 
                 </p>
                 
                 <closer>
-                    <salute>De <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice></salute>
+                    <salute>A saúde de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> é a que mais aprecio por ser</salute>
                     <signed>
+                        De <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>
                         <persName ref="#antonio_jose_abreu">Compadre amigo muito obrigado<br/>Antônio José de Abreu</persName>
                     </signed>
                 </closer>
                 
-                <note type="endorsement">
-                    Torna o ofício de <persName ref="#freitas">Freitas</persName>.<br/>
-                    Respondida a 5 de novembro de 1841. <note type="editorial">[Na folha 1r. letra de
-                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>]</note> 
+                <note type="endorsement" place="1r">
+                    <p>
+                        Torna o ofício de <persName ref="#freitas">Freitas</persName>.<br/>
+                        Respondida a <date when="1841-11-05">5 de novembro de 1841</date>.
+                    </p>
+                    <handShift new="#hand_dja"/>
                 </note>
             </div>
         </body>

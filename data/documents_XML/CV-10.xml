@@ -98,6 +98,15 @@
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+                <handNote xml:id="hand_dja" medium="ink">
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                    <desc>Letra identificada em notas e endossos do documento.</desc>
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -150,12 +159,19 @@
                 </closer>
                 
                 <postscript>
-                    <p><choice><abbr>P.S.</abbr><expan>Post scriptum</expan></choice> Muito lhe rogo a prontidão deste meu 
-                        negócio pois que breve me será preciso apresentar a ordem ou pagar os direitos a dinheiro.</p>
+                    <handShift new="#hand_dja"/>
+                    <label>
+                        <choice>
+                            <abbr>P.S.</abbr>
+                            <expan>Post scriptum</expan>
+                        </choice>
+                    </label>
+                    <p>
+                        Muito lhe rogo a prontidão deste meu negócio, pois que breve me será preciso apresentar
+                        a ordem ou pagar os direitos a dinheiro.
+                    </p>
                 </postscript>
                 
-                Letra de <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName> 
-                na <seg type="folio">folha 1r</seg>.
             </div>
         </body>
     </text>

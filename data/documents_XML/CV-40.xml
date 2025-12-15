@@ -98,6 +98,11 @@
                     <persName ref="#sa_brito">Sá Brito</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -153,7 +158,7 @@
                     </signed>
                 </closer>
                 
-                <note type="endorsement" place="1r.">
+                <note type="dispatch" place="1r.">
                     Dependendo a pretensão do peticionário de medida legislativa, recorra à 
                     <orgName ref="#assembleia_constituinte">Assembléia Geral Constituinte e Legislativa do Estado</orgName>.<br/>
                     <orgName ref="#secretaria_interior">Secretaria do Interior</orgName>, 

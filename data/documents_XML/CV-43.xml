@@ -98,6 +98,11 @@
                     <persName ref="#francisco_xavier_cunha">Francisco Xavier da Cunha</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -137,10 +142,17 @@
                     <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName><br/>Capitão Comandante.</signed>
                 </closer>
                 
-                <note type="endorsement"><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e 
-                    <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
-                    <persName ref="#francisco_xavier_cunha">Francisco Xavier da Cunha</persName>. Brigadeiro Comandante da Guarnição.</note>
-                <note type="endorsement" place="verso">Já foi respondido no <date when="1837-09-01">1.º de setembro de 1837</date>.</note>
+                <note type="endorsement">
+                    <addressee>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e 
+                        <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                        <persName ref="#francisco_xavier_cunha">Francisco Xavier da Cunha</persName>. Brigadeiro Comandante da Guarnição.
+                    </addressee>
+                </note>
+
+                <note type="endorsement" place="1v">
+                    Já foi respondido no <date when="1837-09-01">1.º de setembro de 1837</date>.
+                </note>
                 
             </div>
         </body>

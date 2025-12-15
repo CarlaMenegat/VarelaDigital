@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
@@ -66,11 +66,11 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
-                <ptr target="data/standoff/standoff-persons.xml"/>
-                <ptr target="data/standoff/standoff-places.xml"/>
-                <ptr target="data/standoff/standoff-events.xml"/>
-                <ptr target="data/standoff/standoff-orgs.xml"/>
-                <ptr target="data/standoff/standoff-relations.xml"/>
+                <ptr target="data/standoff/standoff-persons.xml" />
+                <ptr target="data/standoff/standoff-places.xml" />
+                <ptr target="data/standoff/standoff-events.xml" />
+                <ptr target="data/standoff/standoff-orgs.xml" />
+                <ptr target="data/standoff/standoff-relations.xml" />
             </sourceDesc>
         </fileDesc>
         
@@ -124,7 +124,7 @@
                     <persName ref="#bento_manoel">General Bento Manuel</persName>: houve suas iluminações por 15 ou 16 casas, 
                     foguetes, etc.; hoje um jantarão em casa de B.R.B. em 
                     ações de graça, e da boa chegada de <persName ref="#agostinho_antonio_melo">Major Melo</persName>: enfim, pouco a pouco, todos se 
-                    chegam para combinar talvez novos planos; o que é certo é que <gap reason="illegible"/>, o 
+                    chegam para combinar talvez novos planos; o que é certo é que <gap reason="illegible" />, o 
                     <persName ref="#antonio_jose_goncalves_chaves"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Chaves</persName>, 
                     o Coronel <persName ref="#bento_goncalves">Bento Gonçalves</persName> são da mesma panela, que este último é chefe de S...., 
                     etc. e outros epítetos agradáveis. A Câmara reuniu-se extraordinariamente ontem para abrir os ditos ofícios, porém por 
@@ -132,7 +132,7 @@
                 
                 <p>Afinal Vs. Mcês. são todos (na opinião desta gente) os que instigam para proclamar a República: porém que assim o 
                     querem porque não têm nada a perder, e outras invectivas sem fim. O seu amigo o Doutor 
-                    <pb n="1v"/>
+                    <pb n="1v" />
                     <seg type="folio">[1v.]</seg> 
                     <persName ref="#dr_joao">João</persName> 
                     teve a imprudência de dizer, em presença de várias pessoas, e mesmo do <persName ref="#joao_da_cunha"><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> João da Cunha</persName>, 

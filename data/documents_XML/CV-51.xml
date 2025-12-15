@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
@@ -62,11 +62,11 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
-                <ptr target="data/standoff/standoff-persons.xml"/>
-                <ptr target="data/standoff/standoff-places.xml"/>
-                <ptr target="data/standoff/standoff-events.xml"/>
-                <ptr target="data/standoff/standoff-orgs.xml"/>
-                <ptr target="data/standoff/standoff-relations.xml"/>
+                <ptr target="data/standoff/standoff-persons.xml" />
+                <ptr target="data/standoff/standoff-places.xml" />
+                <ptr target="data/standoff/standoff-events.xml" />
+                <ptr target="data/standoff/standoff-orgs.xml" />
+                <ptr target="data/standoff/standoff-relations.xml" />
             </sourceDesc>
         </fileDesc>
         
@@ -98,6 +98,11 @@
                     <persName ref="#antonio_elzeario_brito">Antônio Elzeário de Miranda e Brito</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -144,7 +149,7 @@
                     <placeName ref="#arroio_ratos">arroio dos Ratos</placeName>.</p>
                 
                 <p>Todos os oficiais e oficiais inferiores e soldados e tripulações de mar e terra de que 
-                    <pb n="1v"/>
+                    <pb n="1v" />
                     <seg type="folio">[1v.]</seg>
                     se compôs a expedição, 
                     se mostraram muito ativos.</p>
@@ -153,9 +158,9 @@
                     <salute>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>, muitos anos como havemos mister.</salute>
                     <dateline><placeName ref="#porto_alegre">Porto Alegre</placeName>, <date when="1839-03-01">1.º de março de 1839</date>.</dateline>
                     <addressee>
-                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#antonio_elzeario_brito">Antônio Elzeário de Miranda e Brito</persName>.<br/>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#antonio_elzeario_brito">Antônio Elzeário de Miranda e Brito</persName>.<br />
                     </addressee>
-                    <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.<br/>
+                    <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.<br />
                         Major.</signed>
                 </closer>
                 

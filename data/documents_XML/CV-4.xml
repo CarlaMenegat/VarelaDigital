@@ -99,6 +99,15 @@
                     <placeName ref="#bage">Bagé</placeName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+                <handNote xml:id="hand_dja" medium="ink">
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                    <desc>Letra identificada em notas e endossos do documento.</desc>
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -130,13 +139,11 @@
                     <signed><persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName></signed>
                 </closer>
                 
-                <note type="endorsement">
-                    Ao cidadão Ministro <persName ref="#domingos_jose_almeida">Domingos José de Alemida.</persName>
-                    <placeName ref="#bage">Bagé</placeName>. 
-                    <seg type="folio">[No verso]</seg>
-                    Repondida a <date when="1841-11-30">30 de novembro de 1841</date>.
-                    Letra de <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName> 
-                    na <seg type="folio">folha 1r</seg>.
+                <note type="endorsement" place="1r">
+                    <p>Ao cidadão Ministro <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>. 
+                        <placeName ref="#bage">Bagé</placeName>.  
+                        Respondida a <date when="1841-11-30">30 de novembro de 1841</date>.</p>
+                    <handShift new="#hand_dja"/>
                 </note>
             </div>
         </body>

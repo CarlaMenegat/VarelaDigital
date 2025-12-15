@@ -97,6 +97,11 @@
                     <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -139,12 +144,11 @@
                     com data de ontem.
                 </p>
                 
-                <salute>Deus guarde a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.</salute>
-                
                 <closer>
-                    <p>Quartel nos Presídios do Batalhão 11, 
+                    <salute>Deus guarde a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>.</salute>
+                    <dateline>Quartel nos Presídios do Batalhão 11, 
                         <date when="1840-11-26">26 de novembro de 1840</date>.
-                    </p>
+                    </dateline>
                     
                     <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/>
                         Marechal Comandante da Guarnição.</addressee>

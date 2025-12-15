@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
@@ -62,11 +62,11 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
-                <ptr target="data/standoff/standoff-persons.xml"/>
-                <ptr target="data/standoff/standoff-places.xml"/>
-                <ptr target="data/standoff/standoff-events.xml"/>
-                <ptr target="data/standoff/standoff-orgs.xml"/>
-                <ptr target="data/standoff/standoff-relations.xml"/>
+                <ptr target="data/standoff/standoff-persons.xml" />
+                <ptr target="data/standoff/standoff-places.xml" />
+                <ptr target="data/standoff/standoff-events.xml" />
+                <ptr target="data/standoff/standoff-orgs.xml" />
+                <ptr target="data/standoff/standoff-relations.xml" />
             </sourceDesc>
         </fileDesc>
         
@@ -113,7 +113,7 @@
         </revisionDesc>
     </teiHeader>
     
-    <text>
+    <facsimile><surface xml:id="CV-133_1v"><graphic url="images/CV-133_1v.jpg" /></surface></facsimile><text>
         <body>
             <div type="letter" xml:id="CV-133">
                 
@@ -145,7 +145,7 @@
                 
                 <p>Quanto ao que <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> diz a respeito da gente 
                     
-                    <pb n="1v"/>
+                    <pb n="1v" />
 <seg type="folio">[1v.]</seg>
 
                     deste município,

@@ -97,6 +97,15 @@
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+                <handNote xml:id="hand_dja" medium="ink">
+                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                    <desc>Letra identificada em notas e endossos do documento.</desc>
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -138,15 +147,19 @@
                     <p>S.C., <date when="1840-04-21">21 de abril de 1840</date>.</p>
                 </closer>
                 
-                <note type="endorsement">
-                    Mandei três patacões. (a) Almeida. [Na folha 1r.]<br/>
-                    Mais 2 patacões a 28.<br/>
-                    Mais 10 ditos a 30 do corrente.<br/>
-                    Carregado ao Hospital.<br/>
-                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
-                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>. 
-                    <note type="editorial">[No verso]</note><br/>
-                    <date when="1840-04-30">1840 Abril 30</date>
+                <note type="endorsement" place="1v">
+                    <p>
+                        Mandei três patacões. (a) Almeida.<br/>
+                        Mais 2 patacões a 28.<br/>
+                        Mais 10 ditos a 30 do corrente.<br/>
+                        Carregado ao Hospital.<br/>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e 
+                        <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> 
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                        <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>.
+                        <date when="1840-04-30">1840 Abril 30</date>.
+                    </p>
+                    <handShift new="#hand_dja"/>
                 </note>
             </div>
         </body>

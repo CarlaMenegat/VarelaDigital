@@ -4082,8 +4082,8 @@
         
         <person xml:id="casaca">
             <persName>Casaca</persName>
-            <idno></idno>
-            <note>Indivíduo mencionado como encarregado de deslocamento e envio de recados ou serviços.</note>
+            <idno type="project"/>
+            <note>Indivíduo citado na correspondência como encarregado de recados, serviços e deslocamentos para a família Almeida.</note>
         </person>
         
         <person xml:id="saturnino">
@@ -4511,10 +4511,17 @@
             <persName>Dom Pablo Ramón</persName>
         </person>
         
+        <person xml:id="joao_goncalves_silva">
+            <persName>João Gonçalves da Silva</persName>
+            <idno type="project"/>
+            <note>Irmão de Bento Gonçalves da Silva. Figura presente na correspondência de Domingos José de Almeida 
+                e envolvido nas redes de apoio político e logístico dos farroupilhas.</note>
+        </person>
+        
         <person xml:id="manuel_goncalves_silva">
             <persName>Manuel Gonçalves da Silva</persName>
-            <idno></idno>
-            <note>Responsável pelo envio de cavalos, segundo rumores.</note>
+            <idno type="project"/>
+            <note>Irmão de Bento Gonçalves da Silva. Mencionado no contexto de fornecimento de cavalos e apoio às movimentações militares durante a Revolução Farroupilha.</note>
         </person>
         
         <person xml:id="jose_ilidoro_figueiredo">
@@ -8345,8 +8352,11 @@
         
         <person xml:id="candido_fernandes_lima">
             <persName>Cândido Fernandes Lima</persName>
-            <idno></idno>
-            <note>Juiz de Paz do 2.º Distrito de Pelotas.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="candido_fernandes_lima_juiz_paz_pelotas">
+                <roleName>Juiz de Paz do 2.º Distrito de Pelotas</roleName>
+            </state>
+            <note>Juiz de Paz do 2.º Distrito de Pelotas, citado em documentos ligados à administração judicial e às redes de sociabilidade de Domingos José de Almeida.</note>
         </person>
         
         <person xml:id="gerena">
@@ -8415,12 +8425,6 @@
             <idno></idno>
         </person>
         
-        <person xml:id="joao_goncalves_da_silva">
-            <persName>João Gonçalves da Silva</persName>
-            <idno></idno>
-            <note>Contato de Domingos José de Almeida através do Inspetor de São José do Norte</note>
-        </person>
-        
         <person xml:id="januaria">
             <persName>D. Januária de Bragança</persName>
             <persName>Januária do Brasil</persName>
@@ -8440,25 +8444,9 @@
         
         <person xml:id="manuel_francisco_andrade">
             <persName>Pe. Manuel Francisco de Andrade</persName>
-            <idno></idno>
-            <affiliation>Partido Liberal</affiliation>
-            <relation
-                xml:id="rel_andrade_almeida"
-                name="friend"
-                mutual="true"
-                active="#manuel_francisco_andrade"
-                passive="#domingos_jose_almeida">
-            </relation>
-            
-            <relation
-                xml:id="rel_andrade_feijo"
-                name="friendship"
-                mutual="true"
-                active="#manuel_francisco_andrade"
-                passive="#diogo_antonio_feijo">
-                ref="https://www.wikidata.org/wiki/Q491"
-            </relation>
-            <note>Padre amigo de Domingos José de Almeida e de Feijó. Provavelmente membro do Partido Liberal.</note>
+            <idno type="project"/>
+            <affiliation ref="#partido_liberal"/>
+            <note>Padre, amigo de Domingos José de Almeida e de Diogo Antônio Feijó; figura ligada ao Partido Liberal.</note>
         </person>
         
         <person xml:id="vicente">
@@ -8472,16 +8460,23 @@
             </note>
         </person>
         
+        <person xml:id="manuel_domigues_moreira">
+            <persName>Manuel Domingues Moreira</persName>
+            <persName type="variant">Manuel Domigues Moreira</persName>
+            <idno type="project"/>
+            <note>Fornecedor citado em transações comerciais registradas no verso do documento CV-198, ligado ao circuito de crédito e abastecimento de Domingos José de Almeida.</note>
+        </person>
+        
         <person xml:id="goularte">
             <persName>Goularte</persName>
-            <idno></idno>
-            <note>Correspondente de Rio Grande citado por Almeida.</note>
+            <idno type="project"/>
+            <note>Correspondente de Domingos José de Almeida em Rio Grande, provavelmente envolvido em negócios de comércio e troca de informações.</note>
         </person>
         
         <person xml:id="espindola">
             <persName>Espíndola</persName>
-            <idno></idno>
-            <note>Morador de Rio Grande citado por Almeida.</note>
+            <idno type="project"/>
+            <note>Morador de Rio Grande citado por Domingos José de Almeida em contexto de correspondência e redes de informação.</note>
         </person>
         
         <person xml:id="malaquias_faria_lobato">
@@ -8689,14 +8684,19 @@
         
         <person xml:id="d_caetana">
             <persName>D. Caetana</persName>
-            <persName type="full">Cayetana Juana Francisca García González </persName>
+            <persName type="full">Cayetana Juana Francisca García González</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q136955549</idno>
-            <roleName>1.ª Primeira-Dama da República Rio-Grandense</roleName>
-            <relation
-                name="rel:spouseOf"
-                active="#bento_goncalves"
-                passive="#d_caetana"/>
-            <note>Foi a esposa de Bento Gonçalves da Silva.</note>
+            <state type="roleInTime" xml:id="d_caetana_primeira_dama_rrg">
+                <roleName>Primeira-dama da República Rio-Grandense</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <date from="1836" to="1843"/>
+            </state>
+            <note>
+                Esposa de Bento Gonçalves da Silva, acompanhou o líder farroupilha durante 
+                parte do conflito e exerceu papel social relevante como primeira-dama da 
+                República Rio-Grandense (1836–1843). Figura ativa nas redes familiares e 
+                políticas do movimento farroupilha.
+            </note>
         </person>
         
         <person xml:id="torquato">

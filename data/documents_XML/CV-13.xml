@@ -98,6 +98,11 @@
                     <persName ref="#fontoura">Antônio Vicente da Fontoura</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -133,11 +138,19 @@
                 
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
-                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> Exmno. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#fontoura">Antônio Vicente da Fontoura</persName>
-                    Ministro da Fazenda. 
+                    <addressee>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> Exmno. <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#fontoura">Antônio Vicente da Fontoura</persName>
+                        Ministro da Fazenda.
+                    </addressee>
                     <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
-                    <note>Está conforme. <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed></note>
                 </closer>
+                <note type="endorsement">
+                    Está conforme. <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                </note>
+                
+                <note type="editorial">
+                    Anexo 2 ao documento CV-11.
+                </note>
             </div>
         </body>
     </text>

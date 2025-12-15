@@ -19,8 +19,9 @@
                 <date when="2025-06-28">28 de junho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -97,6 +98,11 @@
                     <persName ref="#joao_paulo_santos_barreto">João Paulo dos Santos Barreto</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -128,27 +134,23 @@
                     <orgName ref="#cavalaria_3regimento">3.º Regimento de Cavalaria de Linha</orgName>; e às 5 da tarde, se pôs tudo em 
                     marchas ao mando do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
                     <persName ref="#joao_frederico_caldwell"> João Frederico <choice><sic>Calvaro</sic><corr>Caldwell</corr></choice></persName>
-                    e, marchando toda a noite, fomos sestear no dia 12 no passo da Cateira, além da Aldeia légua e meia.</p>
-                
-                <p>E tendo ali notícia que o inimigo tinha levantado o campo da Capela Grande e Boa Vista com toda a força de 400 e tantos 
+                    e, marchando toda a noite, fomos sestear no dia 12 no passo da Cateira, além da Aldeia légua e meia.
+                    E tendo ali notícia que o inimigo tinha levantado o campo da Capela Grande e Boa Vista com toda a força de 400 e tantos 
                     homens de cavalaria e 100 e tantos de infantaria e 3 bocas de fogo e muita bagagem e mais de <choice><sic>2000 mil</sic><corr>2000</corr></choice> cavalos, 
                     marchando em direitura à freguesia da Serra, para por ali subir a 
                     Serra; mas o <persName ref="#jose_inacio_ourives">Major Ourives</persName>, com a força 
                     de cavalaria de seu mando e o 5.º Batalhão de Artilharia, pôde tomar-lhe a frente e os rebeldes retrocederam para o 
-                    passo de <placeName ref="#rio_tramandai">rio Tramandaí</placeName>.</p>
-                
-                <p>E em virtude da notícia deste retrocedimento marchou o 5.º Corpo de Cavalaria de Guarda Nacional e 30 praças do 3.º 
+                    passo de <placeName ref="#rio_tramandai">rio Tramandaí</placeName>.
+                    E em virtude da notícia deste retrocedimento marchou o 5.º Corpo de Cavalaria de Guarda Nacional e 30 praças do 3.º 
                     Regimento em seguimento com marchas forçadas a picar-lhe a retaguarda; e 3 léguas antes de chegar no dito passo, tive 
                     notícia que ditos rebeldes tinham passado dito passo precipitadamente, perdendo nele 4 praças afogadas e algum armamento 
-                    e 150 e tantos cavalos, dos quais degolaram 50 e tantos.</p>
-                
-                <p>E passando além de <placeName ref="#rio_tramandai">rio Tramandaí</placeName> tentaram passar nas picadas das 
+                    e 150 e tantos cavalos, dos quais degolaram 50 e tantos.
+                    E passando além de <placeName ref="#rio_tramandai">rio Tramandaí</placeName> tentaram passar nas picadas das 
                     <placeName ref="#tres_forquilhas">Três Forquilhas</placeName>, e estando já estas atacadas pelo 
                     <persName ref="#major_rodrigues">Major Rodrigues</persName> tiveram de retroceder os rebeldes precipitadamente para 
                     <placeName ref="#torres">Torres</placeName>, para passarem na picada do rio Verde, tendo já perdido mais de 200 homens 
-                    desertados e de 800 a 1000 cavalos pela precipitação da marcha.</p>
-                
-                <p>E disto fui informado por um soldado prisioneiro de nome <persName ref="#jeronimo_de_barros">Jerônimo de Barros</persName>, 
+                    desertados e de 800 a 1000 cavalos pela precipitação da marcha.
+                    E disto fui informado por um soldado prisioneiro de nome <persName ref="#jeronimo_de_barros">Jerônimo de Barros</persName>, 
                     da força do <persName ref="#jose_inacio_ourives">Major Ourives</persName>, que pôde escapar-lhe meio dia antes da entrada da 
                     Picada, afiançando dito soldado que o inimigo, pela desmoralização em que ia, não vence subir a Serra com mais de 200 
                     homens e 500 cavalos. E isto logo participei ao <persName ref="#jose_inacio_ourives">Major Ourives</persName>.</p>
@@ -159,15 +161,13 @@
                     <placeName ref="#porto_alegre">Porto Alegre</placeName>, <date when="1840-12-17">17 de dezembro de 1840</date>.</p>
                 
                 <closer>
-                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_paulo_santos_barreto">
-                                                                                                    <choice>
-                                                                                                        <sic>João Paulo dos Sousa Barreto</sic>
-                                                                                                        <corr>João Paulo dos Santos Barreto</corr>
-                                                                                                    </choice>
-                                                                                                </persName>
-                    Digníssimo Comandante-em-chefe do Exército desta Província.</salute>
-                    <signed>(a) <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.</signed>
-                    <signed>Tenente-coronel</signed>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e 
+                        <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> 
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                        <persName ref="#joao_paulo_santos_barreto"><choice><sic>João Paulo dos Sousa Barreto</sic><corr>João Paulo dos Santos Barreto</corr></choice></persName>
+                        Digníssimo Comandante-em-chefe do Exército desta Província.
+                    </salute>
+                    <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>. Tenente-coronel</signed>
                 </closer>
                 
             </div>
