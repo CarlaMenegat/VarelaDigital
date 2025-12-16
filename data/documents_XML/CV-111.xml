@@ -21,8 +21,9 @@
                 <date when="2025-07-12">12 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 documento</extent>
+                <measure type="pages">4</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -94,6 +95,18 @@
                     <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+                <handNote xml:id="hand_alfredo_varela" medium="ink">
+                    <persName ref="#alfredo_varela">Alfredo Varela</persName>
+                    <desc>
+                        Letra manuscrita, atribuída a Alfredo Varela, presente em endossos,
+                        anotações marginais e notas de procedência dos documentos da Coleção Varela.
+                    </desc>
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -139,7 +152,10 @@
                     <del reason="erasure">do corrente</del>, dia
                     em que havíamos já sofrido muitas deserções e uma horrível traição feita por <persName ref="#evaristo_santos_robalo">Evaristo dos Santos Robalo</persName>, que
                     comandava um esquadrão 
-                    <del reason="erasure">que não foi</del>, não sendo possível colocá-lo em seu lugar, por cuja causa, e outras, foi aquela força
+                    <del reason="erasure">que não foi</del>, não sendo possível colocá-lo em seu lugar, por cuja 
+                    <pb n="1v"/>
+                    <seg type="folio">[1v.]</seg>
+                    causa, e outras, foi aquela força
                     destroçada e o Suplicante preso e remetido para <placeName ref="#sao_gabriel">São Gabriel</placeName>
                     <del reason="erasure">(sendo o único oficial a quem tal aconteceu)</del>, onde se conservou até que
                     entrando naquele lugar uma força legal, comandada pelo Alferes <persName ref="#juca_cipriano">Juca Cipriano</persName>, o Suplicante lhe pediu socorro
@@ -157,9 +173,7 @@
                     teve a glória de acompanhar ao mesmo 
                     <del reason="erasure"><choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></del>, na qualidade de comandante daquela brigada 
                     <del reason="erasure">que hoje se acha acampada na Picada; o que tudo é patente à ilustre Comissão.</del>.
-                </p>
-                
-                <p>O Suplicante 
+                    O Suplicante 
                     <del reason="erasure">Exmos.</del>
                     Srs., bem poderia ter feito 
                     <del reason="erasure">poderá patente fazer</del>
@@ -167,14 +181,15 @@
                     <del reason="erasure">a vossas vistas que padecendo</del>
                     para escusar-se do serviço, uma moléstia crônica e temível 
                     <del reason="erasure">não duvidou :</del>, mas desprezando a vida para acudir às exigências da pátria,
-                    em um tempo em que não poderia ser notado sem injustiça, em um tempo em que toda a Província ficou 
+                    em um tempo em que não poderia ser notado sem injustiça, em um tempo em que toda a 
+                    <pb n="2r"/>
+                    <seg type="folio">[2r.]</seg>
+                    Província ficou 
                     <del reason="erasure">extasiada, se não conhecesse que não deverão, sem dúvida escapar às vossas perspicácias tais circunstâncias. Vós, senhores, sois todos testemunhas deste relatório, por serem todos estes fatos praticados à face da Província e que, sem dúvida, chegariam à vossa notícia aqueles que vós não presenciastes. Eu poderia, senhores, apresentar-vos tudo bem documentado; porém, como havê-los (os documentos), achando-nos a uma distância de perto de 100 léguas do lugar em que se acham, e o trânsito embaraçado pelo inimigo?</del>
                     aterrada com a horrível traição que sofreu, pelo contrário procurou fazer os mais relevantes e valiosos serviços os
                     quais são de notoriedade pública, e comprovados pelos documentos juntos; e outros muitos poderia apresentar se
                     não fosse a distância de mais de 100 léguas em que se acham, estando o trânsito embaraçado pelo inimigo.
-                </p>
-                
-                <p>Além do exposto, resta ao Suplicante 
+                    Além do exposto, resta ao Suplicante 
                     <del reason="erasure">informar-vos</del>
                     ponderar a S.M.I. que não tendo tido tempo de formar seu estabelecimento e procurar meios de subsistência
                     para sua família, tem, de mais a mais, sido 
@@ -195,16 +210,31 @@
                     espera igual prêmio e…
                 </p>
                 
-                <p>R.M.</p>
+                <salute>
+                    <choice>
+                        <abbr>R.M.</abbr>
+                        <expan>Requer Mercê</expan>
+                    </choice>
+                </salute>
                 
-                <note type="editorial">Depois de feito este requerimento à Comissão, marchamos para o forte dos rebeldes, junto a 
+                <postscript place="margin 1v.">
+                    <choice>
+                        <abbr>N.B.</abbr>
+                        <expan>Nota Bene</expan>
+                    </choice>
+                    Depois de feito este requerimento à Comissão, marchamos para o forte dos rebeldes, junto a 
                     <placeName ref="#porto_alegre">Porto Alegre</placeName>, e os derrotamos e, em seguida, a 
                     <placeName ref="#rio_pardo">Rio Pardo</placeName>.
+                </postscript>
+                
+                <note type="endorsement" place="2v">
+                    <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName>
                 </note>
                 
-                <signed>
-                    <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName>
-                </signed>
+                <note type="endorsement" place="margin 1v" hand="#hand_alfredo_varela">
+                    <p>Doado pelo saudoso <persName ref="#martim_francisco_filho">Martim Francisco Filho</persName>.</p>
+                    <signed><persName ref="#alfredo_varela">A. Varela</persName></signed>
+                </note>
                 
             </div>
         </body>

@@ -97,6 +97,11 @@
                     <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -157,13 +162,19 @@
                     </signed>
                 </closer>
                 
-                <note type="endorsement">
+                <note type="endorsement" place="1v">
                     Ofício do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Ministro da Guerra de 19 de dezembro recebido a <date when="1839-12-25">25 do mesmo</date>.  
                     Circular.  
+                </note>
+                
+                <note type="endorsement" place="1v">
+                    <choice>
+                        <abbr>S. da R.</abbr>
+                        <expan>Secretaria da República</expan>
+                    </choice>
                     Ao cidadão <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>,
                     Chefe Geral de Polícia.
                 </note>
-                
             </div>
         </body>
     </text>

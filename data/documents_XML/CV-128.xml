@@ -19,8 +19,9 @@
                 <date when="2025-07-18">18 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -97,6 +98,11 @@
                     <persName ref="#serafim_alencastre">Ministro e Secretário de Estado dos Negócios da Guerra</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -143,23 +149,19 @@
                     o <persName ref="#tenente_bueno">Tenente Bueno</persName> e o comandante de Polícia de São Martinho, todos de
                     <placeName ref="#cima_serra">Cima da Serra</placeName>, que Padilha tinha escondidos, cuja reunião feita pelo
                     dito comandante de polícia e o tal <persName ref="#joao_batista_oliveira">Oliveira</persName>.
-                </p>
-                
-                <p>
                     E hoje aparece-me aqui um soldado do cidadão Coronel <persName ref="#agostinho_antonio_mello">Agostinho</persName> com
                     uma carta aberta de sua mulher para o dito coronel que fazem estar
                     por <placeName ref="#rio_pardo">Rio Pardo</placeName>, cujo soldado trazia uma portaria,
                     que junto remeto a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, e por ela verá o novo chefe de Polícia do
                     município da <placeName ref="#cruz_alta">Cruz Alta</placeName>, contando-me o camarada indicado do
                     resultado da Cruz Alta que indo conduzindo ofícios para o Coronel <persName ref="#agostinho_antonio_mello">Agostinho</persName>
+                    <pb n="1v"/>
+                    <seg type="folio">[1v.]</seg>
                     em <placeName ref="#botucarai">Botucaraí</placeName>, e que o referido na portaria mandara
                     adiante cassar-lhe os ofícios que levava, e que vendo o <persName ref="#eustaquio_melo_brabo">Melo Brabo</persName>
                     atacar a Polícia da <placeName ref="#cruz_alta">Cruz Alta</placeName>, extraviaram a dita polícia e passaram
                     os extraviados pela estância do Cadeado, e que levantaram a cavalhada
                     toda, em seguida a <placeName ref="#sao_xavier">São Xavier</placeName>.
-                </p>
-                
-                <p>
                     Diz o mesmo soldado que <persName ref="#ricardo_melo_albuquerque">Melo</persName>, 
                     pai do Tenente-coronel <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName>,
                     tinha entregado o dinheiro da Coletoria e fizeram
@@ -172,23 +174,31 @@
                     parte; foram à casa do coletor desta capela, três vezes a cercaram,
                     para que a mulher lhes desse conta do dinheiro e papéis pertencentes
                     à coletoria, o que nada acharam porque o dito coletor se retirou com
-                    tudo.
+                    tudo. É tudo quanto por esta parte tem ocorrido.
                 </p>
                 
-                <p>
-                    É tudo quanto por esta parte tem ocorrido. Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>
+                <salute>
+                    Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>
                     muitos anos como à pátria é mister.
-                </p>
+                </salute>
                 
                 <closer>
                     <dateline>
-                        <placeName ref="#santa_maria">Capela de Santa Maria</placeName>,
+                        Capela de <placeName ref="#santa_maria_da_boca_do_monte">Santa Maria</placeName>,
                         <date when="1839-12-16">16 de dezembro de 1839</date>
                     </dateline>
-                    <signed>(a) <persName ref="#gomes_porto">José Gomes Porto</persName>, juiz de paz.</signed>
+                    <addressee>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Ministro da Guerra.
+                    </addressee>
+                    <signed><persName ref="#gomes_porto">José Gomes Porto</persName>, juiz de paz.</signed>
                 </closer>
                 
-                <note type="endorsement">[Cópia anexa ao documento]</note>
+                <note type="endorsement">
+                    Está conforme. 
+                    <signed><persName ref="serafim_alencastre">Alencastre</persName></signed>
+                </note>
+                
+                <note type="editorial">Cópia anexa ao documento CV-127.</note>
                 
             </div>
         </body>

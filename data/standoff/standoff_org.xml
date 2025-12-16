@@ -46,7 +46,7 @@
             <idno type="viaf">https://viaf.org/en/viaf/148530093</idno>
             <state type="roleInTime" xml:id="provincia_rs_imperio">
                 <roleName>Província do Império do Brasil</roleName>
-                <affiliation ref="#imperio_brasileiro"/>
+                <affiliation ref="#imperio_brasil"/>
             </state>
             <note>
                 Unidade administrativa do Império do Brasil, formada após a Independência 
@@ -155,14 +155,18 @@
             </note>
         </org>
         
-        <org xml:id="secretaria_republica_riograndense">
-            <orgName>Secretaria da República Riograndense</orgName>
-            <note>Órgão administrativo do governo farroupilha.</note>
-        </org>
-        
-        <org xml:id="republica_farrapa">
-            <orgName>República Rio-Grandense</orgName>
-            <note>Governo insurgente estabelecido durante a Revolução Farroupilha.</note>
+        <org xml:id="secretaria_republica_riograndense" type="governmentOffice">
+            <orgName>Secretaria da República Rio-Grandense</orgName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="secretaria_republica_riograndense_funcao">
+                <roleName>Órgão administrativo central</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>
+                Órgão administrativo central do governo da República Rio-Grandense, responsável
+                pela tramitação de ofícios, despachos, registros e comunicações oficiais durante
+                o período da Revolução Farroupilha (1835–1845).
+            </note>
         </org>
         
         <org xml:id="segundo_batalhao" type="militaryUnit">
@@ -522,7 +526,7 @@
             <idno type="project"/>
             <state type="roleInTime" xml:id="guarda_nacional_imperio">
                 <roleName>Força militar cidadã</roleName>
-                <affiliation ref="#imperio_brasileiro"/>
+                <affiliation ref="#imperio_brasil"/>
             </state>
             <note>
                 Corpo militar de cidadãos criado pelo Império do Brasil em 1831, com a 

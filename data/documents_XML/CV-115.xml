@@ -19,8 +19,9 @@
                 <date when="2025-07-12">12 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -97,6 +98,11 @@
                     <persName ref="#bento_manoel">Bento Manuel Ribeiro</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -120,30 +126,35 @@
                     <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>O Coronel Agostinho pede-me, em uma carta escrita com muita pressa, participe a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> que,
-                    mandando um contingente de 50 homens, ao mando do Capitão Lima, a reunir-se ao Tenente-coronel
-                    Aranha, no dia 5 pela manhã foi atacado para cá da estância do Lara por uma força inimiga,
-                    ficando o mesmo Lima destroçado, escapando com 2 oficiais mais e 8 soldados, ficando prisioneiro
+                <p>O Coronel <persName ref="#agostinho_antonio_mello">Agostinho</persName> pede-me, em uma carta escrita com muita pressa, 
+                    participe a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> que,
+                    mandando um contingente de 50 homens, ao mando do <persName ref="#capitao_lima">Capitão Lima</persName>, a 
+                    reunir-se ao <persName ref="#tenente_coronel_aranha">Tenente-coronelAranha</persName>, no dia 5 pela manhã foi 
+                    atacado para cá da estância do Lara por uma força inimiga,
+                    ficando o mesmo <persName ref="#capitao_lima">Lima</persName> destroçado, escapando com 2 oficiais mais e 8 soldados, ficando prisioneiro
                     o Tenente Saraiva e outros mortos; e como o coronel, por este movimento, não só julga ter sido batido
-                    o Tenente-coronel Aranha, como estar com a comunicação cortada por aquela parte, marchou a reunir
+                    o <persName ref="#tenente_coronel_aranha">Tenente-coronelAranha</persName>, como estar com a comunicação cortada por aquela parte, marchou a reunir
                     em <placeName ref="#botucarai">Botucaraí</placeName>, visto ser provável que os prisioneiros confessariam a pouca força
-                    com que ficou no <placeName ref="#passo_fundo">Passo Fundo</placeName>; e afirma o mesmo Capitão Lima que o Candinho com os
+                    com que ficou no <placeName ref="#passo_fundo">Passo Fundo</placeName>; e afirma o mesmo 
+                    <persName ref="#capitao_lima">Capitão Lima</persName> que o <persName ref="#candinho">Candinho</persName> com os
                     emigrados é que o bateram.</p>
                 
                 <p>Pela carta adjunta verá <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> o acontecimento do <placeName ref="#rio_pardo">Rio Pardo</placeName>, afirmando demais
                     a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> que este município está sem armas, sem força e na maior agitação.</p>
                 
-                <p>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muitos anos.</p>
-                
-                <dateline>
-                    <placeName ref="#cruz_alta">Vila da Cruz Alta</placeName>,
-                    <date when="1839-12-07">7 de dezembro de 1839</date>.
-                </dateline>
-                
                 <closer>
-                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General <persName ref="#bento_manoel">Bento Manuel Ribeiro</persName>.</salute>
-                    <signed>(a) <persName ref="#ricardo_melo_albuquerque">Ricardo Antônio de Melo e Albuquerque</persName>.</signed>
+                    <salute>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muitos anos.</salute>
+                    <dateline>
+                        <placeName ref="#cruz_alta">Vila da Cruz Alta</placeName>,
+                        <date when="1839-12-07">7 de dezembro de 1839</date>.
+                    </dateline>
+                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General <persName ref="#bento_manuel">Bento Manuel Ribeiro</persName>.</addressee>
+                    <signed><persName ref="#ricardo_melo_albuquerque">Ricardo Antônio de Melo e Albuquerque</persName>.</signed>
                 </closer>
+                
+                <note type="endorsement" place="1v">
+                    Do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Dr. 
+                </note>
                 
             </div>
         </body>

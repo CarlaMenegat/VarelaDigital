@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-106 – Antônio de Melo e Albuquerque para o General-em-chefe</title>
+                <title>Petição CV-106 – Petição de Antônio de Melo e Albuquerque para o General-em-chefe</title>
                 <author><persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName></author>
                 <respStmt>
                     <resp>Edição digital</resp>
@@ -19,8 +19,9 @@
                 <date when="2025-07-09">09 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 documento</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -94,9 +95,15 @@
                     <date when="1842-05-24">24 de maio de 1842</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#general_valente">General-em-chefe</persName>
+                    <persName ref="#general_valente">Conde do Rio Pardo</persName>
+                    <roleName>General-em-chefe</roleName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -114,7 +121,8 @@
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-106">
+            <div type="petition" xml:id="CV-106">
+                <head>Petição de Antônio de Melo e Albuquerque ao General-em-chefe</head>
                 
                 <opener>
                     <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#general_valente">General-em-chefe</persName></salute>
@@ -128,45 +136,44 @@
                     <persName ref="#labatut">Labatut</persName> licença para ir à sua casa na vila da <placeName ref="#cruz_alta">Cruz Alta</placeName>, 
                     imediata ao mesmo lugar, foi-lhe esta concedida, e logo nos mesmos dias da marcha do Suplicante, por uma ordem do dia 
                     daquele general de <date when="1840-12-08">8 de dezembro de 1840</date> foi a brigada ao mando do Suplicante dissolvida,
-                    criando-se dela um corpo, sem que se desse destino ao Suplicante, e nem se lhe formasse a mais leve culpa!</p>
-                
-                <p>Surpreendido ficou o Suplicante à vista de tal procedimento, emanado de ridículas intrigas tramadas por covardes 
+                    criando-se dela um corpo, sem que se desse destino ao Suplicante, e nem se lhe formasse a mais leve culpa!
+                    Surpreendido ficou o Suplicante à vista de tal procedimento, emanado de ridículas intrigas tramadas por covardes 
                     invejosos; e visto não ter já emprego naquela divisão, se dirigiu a este lugar e se apresentou sucessivamente não só 
                     ao <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente <persName ref="#francisco_alvares_machado">Alvares Machado</persName>, 
                     como ao <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <persName ref="#saturnino_sousa_oliveira">Presidente atual</persName> e a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>, porque estava 
                     desempregado e desejava continuar a ser útil à pátria; e lembrado deverá estar <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> 
                     que em uma exposição de serviços, que teve a honra de dirigir por escrito a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>, 
-                    se oferecia o Suplicante para ir a Cima da Serra e promover ali uma nova reação, a que 
+                    se oferecia o Suplicante para ir a <placeName ref="#cima_da_serra">Cima da Serra</placeName> e promover ali uma nova reação, a que 
                     <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> não se dignou anuir, ou por julgar conveniente, 
-                    ou porque não precisava.</p>
-                
-                <p>Mas parece de justiça, <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>, (como se tem praticado com muitos) 
+                    ou porque não precisava.
+                    <pb n="1v"/>
+                    <seg type="folio">[1v.]</seg>
+                    Mas parece de justiça, <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>, (como se tem praticado com muitos) 
                     que se mandem abonar ao Suplicante os mesmos vencimentos que percebiam todos os oficiais desempregados, isto é soldo, 
                     gratificação adicional, 3a. parte, e etapas; porque a nação, <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>, 
                     está para com o Suplicante e com outros (enquanto o merecerem) na rigorosa obrigação de dar-lhe subsistência enquanto durar a 
                     luta (pelo menos), porque o Suplicante por ela sacrificou, não só sua vida, como abandonou sua esposa, tenros filhos e 
-                    quanto possuía, como é constante e prova com documentos, dos quais não apresenta os originais por se acharem na Corte.</p>
-                
-                <p>Se o Suplicante estava criminoso, devia responder a conselho de guerra, provar-se-lhe suas faltas e incapacidade, e ser 
+                    quanto possuía, como é constante e prova com documentos, dos quais não apresenta os originais por se acharem na Corte.
+                    Se o Suplicante estava criminoso, devia responder a conselho de guerra, provar-se-lhe suas faltas e incapacidade, e ser 
                     despedido formalmente do serviço e punido; porém visto que nada disto houve e que o Suplicante tem procurado empregar-se, 
                     é por isso que mui submisso vem requerer a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> para que
                     se digne mandar-lhe abonar os vencimentos que julgar competirem ao Suplicante desde <date when="1840-12-09">9 de dezembro de 1840</date> 
-                    até <date when="1840-03-17">17 de março de 1842</date>, em que por <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> 
+                    até <date when="1842-03-17">17 de março de 1842</date>, em que por <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> 
                     foi empregado nesta guarnição; portanto,</p>
                 
                 <p>Pede a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> se sirva assim o mandar.</p>
                 
                 <closer>
-                    <salute>E.R.Mcê.</salute>
+                    <salute><choice><abbr>E.R.Mcê.</abbr><expan>Espera Receber Mercê</expan></choice></salute>
                     <dateline><placeName ref="#porto_alegre">Porto Alegre</placeName>, <date when="1842-05-24">24 de maio de 1842</date>.</dateline>
-                    <signed>(a) <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName>
+                    <signed><persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName>
                         <br/>Coronel Honorário</signed>
                 </closer>
                 
-                <note type="endorsement">
+                <note type="dispatch" place="1r">
                     Informe a Caixa Militar, Quartel-general em <placeName ref="#porto_alegre">Porto Alegre</placeName>, 
                     <date when="1842-05-24">24 de maio de 1842</date>. 
-                    (a) <persName ref="#general_valente">Conde do Rio Pardo</persName>.
+                    <signed><persName ref="#general_valente">Conde do Rio Pardo</persName>.</signed>
                 </note>
                 
             </div>

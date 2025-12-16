@@ -19,8 +19,9 @@
                 <date when="2025-07-09">09 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -97,6 +98,11 @@
                     <persName ref="#jose_maria_betancourt">José Maria da Silva Betancourt</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -128,23 +134,26 @@
                     sobre as <placeName ref="#rio_antas">Antas</placeName>, no passo de Cima, neste distrito, até minha volta de 
                     <placeName ref="#lages">Lages</placeName> para onde sigo hoje, que pude obter alguns cavalos em muito mau estado, 
                     para ir vagarosamente marchando; e dali, com melhores informações, participarei a 
-                    <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> miudamente quanto ocorrer.</p>
-                
-                <p>Tanto o distrito de Cima da Serra, como este, se acham no mais lastimoso estado que é possível, tanto de cavalos, 
+                    <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> miudamente quanto ocorrer.
+                    Tanto o distrito de <placeName ref="#cima_serra">Cima da Serra</placeName>, como este, se acham no mais lastimoso estado que é possível, tanto de cavalos, 
                     como de gados, que só em poucas partes os há. Os cavalos e mulas que <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> 
                     me mandou dar não subiram a Serra por causa da estação e má qualidade dos mesmos, pois que todos cansaram, restando-me 
                     o desgosto de participar a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> que minha volta será 
-                    bastante demorada por esta razão.</p>
-                
-                <p>É quanto me cumpre levar ao respeitável conhecimento de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>. Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muitos anos.</p>
-                
-                <dateline>Distrito da <placeName ref="#vacaria">Vacaria</placeName>, 
-                    <date when="1842-08-07">7 de agosto de 1842</date>.
-                </dateline>
+                    bastante demorada por esta razão. É quanto me cumpre levar ao respeitável conhecimento de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>.</p>
                 
                 <closer>
-                    <signed>(a) <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName></signed>
-                    <signed>Coronel em comissão na Serra.</signed>
+                    <salute>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muitos anos.</salute>
+                    
+                    <dateline>Distrito da <placeName ref="#vacaria">Vacaria</placeName>, 
+                        <date when="1842-08-07">7 
+                            <pb n="1v"/>
+                            <seg type="folio">[1v.]</seg>
+                            de agosto de 1842</date>.
+                    </dateline>
+                    <signed>
+                        <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName><br/>
+                        Coronel em comissão na Serra.
+                    </signed>
                 </closer>
                 
             </div>

@@ -19,8 +19,9 @@
                 <date when="2025-07-08">08 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -98,6 +99,11 @@
                     <note>Presidente da Província.</note>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -135,20 +141,24 @@
                     tiros para que <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> me responda com outros tantos; e os 
                     que se derem, <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> mandará dar outros tantos com os dias 
                     que tem de se demorar para o fazer a junção, e isto tudo vou fazer ver ao Comandante Superior que se acha distante deste
-                    ponto vinte léguas.</p>
-                
-                <p>Tudo isso sendo vontade de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> e do Comandante Superior. 
+                    ponto vinte léguas. Tudo isso sendo 
+                    <pb n="1v"/>
+                    <seg type="folio">[1v.]</seg>
+                    vontade de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> e do Comandante Superior. 
                     Disponho-me a levar a artilharia embarcada até a freguesia da Serra e tem-se a travessia de uma légua que poderá termos 
                     algum embaraço do inimigo. Sobre o estado desta coluna o portador deste, que é o Tenente <persName ref="#jose_joaquim_cabeleira">José Joaquim Cabeleira</persName>, 
                     é quem bem pode informar a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>, juntamente se é ou não 
                     justo este meu plano.</p>
                 
-                <p>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>. 
-                    Acampamento nas <placeName ref="#tres_forquilhas">Três Forquilhas</placeName> em <date when="1839-03-08">8 de março de 1839</date>.</p>
+                <salute>
+                    Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>. 
+                </salute>
+                
+                <dateline>Acampamento nas <placeName ref="#tres_forquilhas">Três Forquilhas</placeName> em <date when="1839-03-08">8 de março de 1839</date>.</dateline>
                 
                 <closer>
-                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Marechal <persName ref="#antonio_elzeario_miranda_brito">Antônio Elzeário de Miranda e Brito</persName>. Presidente da Província.</salute>
-                    <signed>(a) <persName ref="#paulo_pereira_silva_alano">Paulo Pereira da Silva Alano</persName>.</signed>
+                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Marechal <persName ref="#antonio_elzeario_miranda_brito">Antônio Elzeário de Miranda e Brito</persName>. Presidente da Província.</addressee>
+                    <signed><persName ref="#paulo_pereira_silva_alano">Paulo Pereira da Silva Alano</persName>.</signed>
                 </closer>
                 
             </div>

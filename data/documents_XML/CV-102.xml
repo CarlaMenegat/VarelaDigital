@@ -19,8 +19,9 @@
                 <date when="2025-07-08">08 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">4</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -108,6 +109,18 @@
                     <persName ref="#oliveira">Oliveira</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+                <handNote xml:id="hand_alfredo_varela" medium="ink">
+                    <persName ref="#alfredo_varela">Alfredo Varela</persName>
+                    <desc>
+                        Letra manuscrita, atribuída a Alfredo Varela, presente em endossos,
+                        anotações marginais e notas de procedência dos documentos da Coleção Varela.
+                    </desc>
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -140,41 +153,52 @@
                 <p>Remeto-lhe a cópia do requerimento que fiz à Comissão em <placeName ref="#porto_alegre">Porto Alegre</placeName>, 
                     Comissão que me parece não teve andamento pelas desordens de <placeName ref="#rio_pardo">Rio Pardo</placeName>; e vos 
                     mando para dela se extrair o que for necessário para o requerimento na Corte, devendo advertir-vos que o Capitão <persName ref="#jose_inacio_ourives">José Inácio</persName>, 
-                    por antonomasia o Juca Ourives, não tem a metade dos meus serviços e tem 400$000 rs. de pensão anual, porque teve 
+                    por antonomasia o Juca Ourives, não tem a metade dos meus serviços e tem 400$000 rs. de pensão 
+                    <pb n="1v"/>
+                    <seg type="folio">[1v.]</seg>
+                    anual, porque teve 
                     protetor o Brigadeiro <persName ref="#francisco_xavier_cunha">Cunha</persName>, <persName ref="#silva_tavares">Silva Tavares</persName> 
-                    e outros e etc....</p>
-                
-                <p>Vós bem sabeis quais têm sido os meus serviços e trabalhos, e que enormes despesas tenho feito com as fortes reuniões 
+                    e outros e etc.... Vós bem sabeis quais têm sido os meus serviços e trabalhos, e que enormes despesas tenho feito com as fortes reuniões 
                     que tenho feito que têm montado desde o princípio da luta a mais de 18700 [sic] homens, e o meu nome pouco tem 
                     aparecido, por eu não ter habilidade para fazer valer meus serviços. Remeto-vos também 2 ofícios de <persName ref="#jose_araujo_ribeiro">Araújo Ribeiro</persName>, 
                     2 de <persName ref="#bento_manoel">Bento Manuel</persName>, 1 de <persName ref="#antero_ferreira_ribeiro">Antero</persName>, 2 do 
                     <persName ref="#francisco_chagas_santos">Chagas</persName>, 1 do Brigadeiro <persName ref="#carneiro">Carneiro</persName>, duas ordens 
-                    do dia que alguma coisa dizem em meu abono; e sobretudo uma carta do <persName ref="#joao_paulo_santos_barreto">Barreto</persName>, 
+                    do dia que alguma coisa dizem em meu abono; e sobretudo uma carta 
+                    <pb n="2r"/>
+                    <seg type="folio">[2r.]</seg>
+                    do <persName ref="#joao_paulo_santos_barreto">Barreto</persName>, 
                     que me parece não se pode dizer mais bem de homem algum; e não mando os mais por me parecerem suficientes, e necessitar 
-                    dos outros documentos.</p>
-                
-                <p>Uma das ordens do dia é para mostrar que comandei uma brigada quando me apresentei de prisioneiro, cuja foi reunida 
+                    dos outros documentos. Uma das ordens do dia é para mostrar que comandei uma brigada quando me apresentei de prisioneiro, cuja foi reunida 
                     também por mim. E a outra para mostrar a distinção com que o Presidente <persName ref="#antonio_elzeario_miranda_brito">Elzeário</persName> 
                     trata de mim ali, etc.. Enfim, vós melhor sabeis o que deveis fazer à vista dos fracos apontamentos que vos faço, e 
                     do que vós mesmo sabeis; peço-vos porém encarecidamente, trateis deste arranjo com a maior brevidade e energia que vos 
-                    merecem nossa amizade e necessidade minha.</p>
-                
-                <p>Vossa prosperidade muito ambiciona quem é e será sempre vosso sincero e obrigado <choice><abbr>Ir∴</abbr><expan>Irmão</expan></choice> e amigo :</p>
+                    merecem 
+                    <pb n="2v"/>
+                    <seg type="folio">[2v.]</seg>
+                    nossa amizade e necessidade minha.</p>
                 
                 <closer>
+                    <salute>Vossa prosperidade muito ambiciona quem é e será sempre vosso sincero e obrigado <choice><abbr>Ir∴</abbr><expan>Irmão</expan></choice> e amigo :</salute>
                     <signed>
                         <persName type="pseudonym" subtype="masonic" ref="#melo">Teseu</persName>
                     </signed>
                 </closer>
                 
-                <note type="endorsement">N.B. — O <persName ref="#luis_palmeiro">Luís Palmeiro</persName> me escreve a carta que junto vos 
-                    remeto e a do Ministro <persName ref="#almeida">Almeida</persName>, pedindo a representação que à Câmara dei, existe 
-                    em vosso poder; por isso mandai-ma assim como as cartas de Almeida e Palmeiro que são para verdes.</note>
+                <postscript>
+                    <p>
+                        <choice>
+                            <abbr>N.B.</abbr>
+                            <expan>Nota Bene</expan>
+                        </choice>
+                        — O <persName ref="#luis_palmeiro">Luís Palmeiro</persName> me escreve a carta que junto vos 
+                        remeto e a do Ministro <persName ref="#almeida">Almeida</persName>, pedindo a representação que à Câmara dei, existe 
+                        em vosso poder; por isso mandai-ma assim como as cartas de Almeida e Palmeiro que são para verdes.
+                    </p>
+                </postscript>
                 
-                <note type="endorsement">
-                    Doado pelo saudoso 
-                    <persName ref="#martim_francisco_filho">Martim Francisco Filho</persName>. 
-                    (a) <persName ref="#alfredo_varela">A. Varela</persName>.
+                <note type="endorsement" place="1r" hand="#hand_alfredo_varela">
+                    <p>Doado pelo saudoso <persName ref="#martim_francisco_filho">Martim Francisco Filho</persName>.</p>
+                    <signed><persName ref="#alfredo_varela">A. Varela</persName></signed>
                 </note>
                 
             </div>

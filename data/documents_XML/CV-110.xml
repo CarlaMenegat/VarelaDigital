@@ -21,8 +21,9 @@
                 <date when="2025-07-09">09 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -99,6 +100,11 @@
                     <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -135,27 +141,31 @@
                     que com eles não despendesse, porém tudo foi inútil, nem ao menos à revista quiseram vir; porém lembrando-me que
                     seus mesmos chefes e oficiais não gozam para com eles de prestígio suficiente para os levar e conservar, nada mais
                     há de estranhar, restando-me a protestar a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> que 
-                    não descansarão mais as polícias do município sem que agarre
+                    não descansarão mais as polícias 
+                    <pb n="1v"/>
+                    <seg type="folio">[1v.]</seg>
+                    do município sem que agarre
                     a maior parte, pois que eles não se ausentam daqui acoutando-se na serra, obstáculo terrível, que favorece tal
-                    patifaria.</p>
-                
-                <p>Pelo mesmo tenente remeto a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> um desertor do depósito de nome João Carneiro, que foi preso por esta polícia
-                    no Pinhal; não sei se será este o seu verdadeiro nome. Agora mesmo acabo de receber o ofício de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> em que me
+                    patifaria. Pelo mesmo tenente remeto a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> 
+                    um desertor do depósito de nome João Carneiro, que foi preso por esta polícia
+                    no Pinhal; não sei se será este o seu verdadeiro nome. Agora mesmo acabo de receber o ofício de 
+                    <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> em que me
                     ordena a prisão de 12 praças recrutas que daí fugiram, em cumprimento do qual faço avisar a todos os comandantes
-                    para providenciar os meios de suas prisões.</p>
+                    para providenciar os meios de suas prisões. É o quanto me cumpre levar ao superior conhecimento de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>.</p>
                 
-                <p>É o quanto me cumpre levar ao superior conhecimento de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>. Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muitos anos.</p>
-                
-                <dateline>
-                    Quartel do <orgName ref="#comando_militar_santo_antonio">Comando Militar do município de Santo Antônio</orgName>,
-                    <placeName ref="#santo_antonio_patrulha">Santo Antônio</placeName>,
-                    <date when="1844-02-09">9 de fevereiro de 1844</date>.
-                </dateline>
                 
                 <closer>
-                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Marechal de Campo Tomás José da Silva</persName>,<br/>
-                        Digmo. Comandante da Guarnição de <placeName ref="#porto_alegre">Porto Alegre</placeName>.</salute>
-                    <signed>(a) <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName><br/>
+                    <salute>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muitos anos.</salute>
+                    <dateline>
+                        Quartel do <orgName ref="#comando_militar_santo_antonio">Comando Militar do município de Santo Antônio</orgName>,
+                        <placeName ref="#santo_antonio_patrulha">Santo Antônio</placeName>,
+                        <date when="1844-02-09">9 de fevereiro de 1844</date>.
+                    </dateline>
+                    <addressee>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Marechal de Campo Tomás José da Silva</persName>,<br/>
+                        Digmo. Comandante da Guarnição de <placeName ref="#porto_alegre">Porto Alegre</placeName>.
+                    </addressee>
+                    <signed><persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName><br/>
                         Coronel Comandante Militar do município de Santo Antônio.</signed>
                 </closer>
                 

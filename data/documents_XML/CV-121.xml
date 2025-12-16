@@ -19,8 +19,9 @@
                 <date when="2025-07-12">12 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -98,6 +99,11 @@
                     <note>Coronel e Comandante da Divisão da Direita.</note>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -133,27 +139,30 @@
                     ordem do serviço do Estado.
                 </p>
                 
-                <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>. 
-                    <dateline><orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 
-                    <date when="1839-12-14">14 de dezembro de 1839</date>.</dateline></p>
-                
                 <closer>
+                    <salute>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>.</salute> 
+                    <dateline><orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 
+                        <date when="1839-12-14">14 de dezembro de 1839</date>.</dateline>
                     <signed>
                         <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
                     </signed>
                 </closer>
                 
-                <postscript>
-                    <p>
-                        <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> que, com franqueza, aprove ou desaprove a minha resolução.
-                        Sou com estima, respeito e consideração de <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> patrício e amigo
-                        afetuoso e obrigado.
-                    </p>
-                    <signed>
-                        <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
-                    </signed>
-                </postscript>
+                <note type="endorsement" place="1v">
+                    <choice>
+                        <abbr>S. da R.</abbr>
+                        <expan>Secretaria da República</expan>
+                    </choice>
+                    Ao cidadão Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>, 
+                    Comandante da <orgName ref="#divisao_direita">Divisão Direita</orgName>.<br/>
+                    Onde se achar.<br/>
+                    Do <orgName ref="#ministerio_guerra">Ministério da Guerra</orgName>. <br/>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                </note>
                 
+                <seal place="1v">
+                    <desc>Carimbo no verso do documento.</desc>
+                </seal>
             </div>
         </body>
     </text>

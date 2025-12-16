@@ -19,8 +19,9 @@
                 <date when="2025-07-18">18 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -96,6 +97,11 @@
                     <persName ref="#serafim_alencastre">Ministro e Secretário de Estado dos Negócios da Guerra</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -113,18 +119,20 @@
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-126">
+            <div type="letter" subtype="copy" xml:id="CV-126">
                 
-                <p>Cópia — <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>. Ontem à tarde mandei o Tenente
+                <opener>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>.</salute>
+                </opener>
+                
+                <p>Ontem à tarde mandei o Tenente
                     <persName ref="#jose_gomes_portinho">Gomes</persName> ao outro lado de 
                     <placeName ref="#vacacai">Vacacaí</placeName> a saber notícias do inimigo, de onde pôde
                     saber bocalmente, de um camarada do Capitão Alexandre que me enviava
                     a participar que quase ao escurecer subiam uns esquadrões à Coxilha do
                     Durasnal próximo a <placeName ref="#santa_maria">Santa Maria</placeName> e que seriam como 100 homens, tendo
                     de tarde sido incendiados os campos em volta da mesma capela e sem
-                    saber-se quem o fez.</p>
-                
-                <p>Dizem os bombeiros do Capitão Alexandre que, além desta força,
+                    saber-se quem o fez. Dizem os bombeiros do Capitão Alexandre que, além desta força,
                     souberam notícia de haver outra, mas que eles não puderam descobrir por
                     ser já tarde; torno a fazer sair o Tenente <persName ref="#jose_gomes_portinho">Gomes</persName> 
                     para <placeName ref="#vacacai">Vacacaí</placeName>
@@ -133,20 +141,19 @@
                     <persName ref="#fontoura">Fontoura</persName>, segundo a ordem que tive do mesmo, dezenove homens mal
                     armados, entrando neste número alguns bem velhos e mocinhos de 14 anos,
                     onde se acham 2 filhos do falecido Capitão Lino de Brum, que sua mãe mos
-                    enviou.</p>
-                
-                <p>Toda a atividade de minha parte conservarei, porém sempre lembro a
+                    enviou. Toda a atividade de minha parte conservarei, porém sempre lembro a
                     <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, a eles passarem o <placeName ref="#vacacai">Vacacaí</placeName>, serão mais demoradas minhas partes,
                     porque têm então de caminharem por Santa Bárbara em baixo na estrada
-                    das tropas, se também me não cortarem.</p>
-                
-                <p>Lembra-me dizer a <choice><abbr>V.Ex.</abbr><expan>Vossa Excelência</expan></choice>º que dei ordem ao Tenente Gomes que,
+                    das tropas, se também me não cortarem. Lembra-me dizer a <choice><abbr>V.Ex.</abbr><expan>Vossa Excelência</expan></choice>º que dei ordem ao Tenente Gomes que,
                     caso eles passem o <placeName ref="#vacacai">Vacacaí</placeName> em direção a esse ponto, dos quatro homens
-                    que tem fizesse disparar um direito ao <placeName ref="#jacui">Jacuí</placeName> a avisar, e que será talvez
+                    que tem fizesse 
+                    <pb n="1v"/>
+                    <seg type="folio">[1v.]</seg>
+                    disparar um direito ao <placeName ref="#jacui">Jacuí</placeName> a avisar, e que será talvez
                     aviso vocal.</p>
                 
                 <closer>
-                    <p>Deus guarde a <choice><abbr>V.Ex.</abbr><expan>Vossa Excelência</expan></choice>º muitos anos.</p>
+                    <salute>Deus guarde a <choice><abbr>V.Ex.</abbr><expan>Vossa Excelência</expan></choice>º muitos anos.</salute>
                     <dateline>
                         Campo na Fazenda do Meio,
                         <date when="1839-12-18">18 de dezembro de 1839</date>.
@@ -158,7 +165,9 @@
                     </signed>
                 </closer>
                 
-                <note type="endorsement">[Cópia anexa ao documento]</note>
+                <note type="endorsement">Está conforme. <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed></note>
+                
+                <note type="endorsement">Cópia anexa ao documento CV-125</note>
                 
             </div>
         </body>

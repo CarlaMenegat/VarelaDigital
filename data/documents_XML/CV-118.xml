@@ -19,8 +19,9 @@
                 <date when="2025-07-12">12 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -95,9 +96,14 @@
                     <date when="1841-08-12">12 de agosto de 1841</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#domingos_almeida">Domingos José de Almeida</persName>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -118,14 +124,14 @@
             <div type="letter" xml:id="CV-118">
                 
                 <opener>
-                    <salute>Señor Don Domingo José de Almeida</salute>
+                    <salute><choice><abbr>Sõr</abbr><expan>Señor</expan></choice>Don Domingo José de Almeida</salute>
                     <dateline>
                         <placeName ref="#melo">Villa de Melo</placeName>,
                         <date when="1841-08-12">12 de agosto de 1841</date>
                     </dateline>
                 </opener>
                 
-                <p>Señor ministro y mi amigo:</p>
+                <p><choice><abbr>Sõr</abbr><expan>Señor</expan></choice> ministro y mi amigo:</p>
                 
                 <p>Considerando que precisamente debe de haber llegado muy a pie
                     a ese punto y que no se podrá tan pronto hacerse de un
@@ -134,16 +140,19 @@
                     de los de mi andar que tengo, en la inteligencia de que manso
                     y bueno no le repare la figura, mientras yo me encargo de
                     buscar otro que sea mejor y a propósito para <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice></p>
-                
-                <p>Sin más, mande a su amigo que besa sus manos.</p>
-                
+
                 <closer>
-                    <signed>(a) <persName ref="#manuel_aleman">Manuel de Aleman</persName></signed>
+                    <salute>Sin más, mande a su amigo que besa sus manos.</salute>
+                    <signed><persName ref="#manuel_aleman">Manuel de Aleman</persName></signed>
                 </closer>
                 
-                <note type="editorial">
+                <note type="endorsement" place="1r">
                     Respondida a <date when="1841-08-19">19 de agosto de 1841</date>.  
-                    Menção marginal:
+                </note>
+                
+                <note type="endorsement" place="1v">
+                    Respondida a <date when="1841-08-19">19 de agosto de 1841</date>.  
+                    <choice><abbr>Sõr</abbr><expan>Señor</expan></choice> Don <persName ref="#domingos_jose_almeida">Domingos Jose de Almeida</persName>
                     <placeName ref="#bage_rs">
                         <choice>
                             <orig>Bayes</orig>
@@ -151,7 +160,6 @@
                         </choice>
                     </placeName>.
                 </note>
-                
             </div>
         </body>
     </text>

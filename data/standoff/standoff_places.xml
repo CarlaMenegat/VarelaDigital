@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <standOff xmlns="http://www.tei-c.org/ns/1.0">
     <listPlace>
+        <place xml:id="brasil">
+            <placeName>Brasil</placeName>
+            <idno type="geonames">https://www.geonames.org/3469034/brazil.html</idno>
+            <geo>-10 -55</geo>
+            <note>
+                Estado soberano na América do Sul. No contexto dos documentos da Coleção Varela,
+                refere-se ao Império do Brasil durante o período da Revolução Farroupilha (1835–1845).
+            </note>
+        </place>
+        
         <place xml:id="rio_grande_sul">
             <placeName>Rio Grande do Sul</placeName>
             <idno type="geonames">https://www.geonames.org/3451133/rio-grande-do-sul.html</idno>
@@ -338,11 +348,6 @@
             <note>Cidade no centro do Rio Grande do Sul.</note>
         </place>
         
-        <place xml:id="estado_oriental">
-            <placeName>Estado Oriental</placeName>
-            <note>Denominação histórica do atual Uruguai.</note>
-        </place> <!--Corrigir para id uruguai-->
-        
         <place xml:id="uruguai">
             <placeName type="historical">Estado Oriental</placeName>
             <placeName type="historical">Cisplatina</placeName>
@@ -448,6 +453,30 @@
             <note>Rio que delimita parte da fronteira do Rio Grande do Sul, importante via de navegação.</note>
         </place>
         
+        <place xml:id="japeju">
+            <placeName>Japeju</placeName>
+            <idno type="geonames">https://www.geonames.org/3460134/coxilha-do-japeju.html</idno>
+            <geo>-30.08333 -56.13333</geo>
+            <note>
+                Coxilha do Japeju, localidade referenciada no contexto das Missões Jesuíticas. 
+                Região situada no espaço que corresponde ao atual território do Rio Grande do Sul,
+                associada a rotas e contatos missioneiros entre povos indígenas e jesuítas durante 
+                o período colonial.
+            </note>
+        </place>
+        
+        <place xml:id="sao_tome">
+            <placeName>São Tomé</placeName>
+            <idno type="geonames">https://www.geonames.org/3835793/santo-tome.html</idno>
+            <geo>-31.66274 -60.7653</geo>
+            <note>
+                São Tomé, localidade referenciada no contexto das Missões Jesuíticas. Região do 
+                entorno do atual município de Santo Tomé (na fronteira entre o Rio Grande do Sul 
+                e a Argentina), associada à presença missioneira e à vida social das reduções 
+                durante o período colonial.
+            </note>
+        </place>
+        
         <place xml:id="sao_fructuoso">
             <placeName type="historical">São Fructuoso</placeName>
             <placeName type="modern">Tacuarembó</placeName>
@@ -455,16 +484,6 @@
             <geo>-31.7200, -55.9800</geo>
             <note>Nome histórico da atual cidade de Tacuarembó, capital do Departamento de Tacuarembó no Uruguai.</note>
         </place>
-        
-        <place xml:id="tacuarembo">
-            <placeName>Tacuarembó</placeName>
-            <note>Cidade situada na região centro-norte do Uruguai, amplamente ocupada por brasileiros no século XIX.</note>
-        </place> <!--decidir por uma denominação para a id-->
-        
-        <place xml:id="uruguai_regiao">
-            <placeName>Uruguai</placeName>
-            <note>Região jurisdicional relacionada à instalação de órgão fiscal.</note>
-        </place> <!--trocar pela id "uruguai ou esclarecer se é a região do rio"-->
         
         <place xml:id="cruz_alta">
             <placeName>Cruz Alta</placeName>

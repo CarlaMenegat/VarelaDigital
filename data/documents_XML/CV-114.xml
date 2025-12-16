@@ -3,8 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-115 – Ricardo Antônio de Melo e Albuquerque para Bento Manuel Ribeiro</title>
-                <author>Ricardo Antônio de Melo e Albuquerque</author>
+                <title>Carta CV-114 – José Pedroso de Albuquerque para Domingos José de Almeida</title>
+                <author>José Pedroso de Albuquerque</author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -19,8 +19,9 @@
                 <date when="2025-07-12">12 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -89,14 +90,19 @@
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#ricardo_melo_albuquerque">Ricardo Antônio de Melo e Albuquerque</persName>
-                    <placeName ref="#cruz_alta">Cruz Alta</placeName>
-                    <date when="1839-12-07">7 de dezembro de 1839</date>
+                    <persName ref="#jose_pedroso_albuquerque">José Pedroso de Albuquerque</persName>
+                    <placeName ref="#alegrete">Alegrete</placeName>
+                    <date when="1860-09-16">16 de setembro de 1860</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#bento_manoel">Bento Manuel Ribeiro</persName>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -114,39 +120,48 @@
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-115">
+            <div type="letter" xml:id="CV-114">
                 
                 <opener>
-                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></salute>
                 </opener>
                 
-                <p>O Coronel <persName ref="#agostinho_antonio_mello">Agostinho</persName> pede-me, em uma carta escrita com muita pressa, 
-                    participe a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> que,
-                    mandando um contingente de 50 homens, ao mando do <persName ref="#capitao_lima">Capitão Lima</persName>, a 
-                    reunir-se ao <persName ref="#tenente_coronel_aranha">Tenente-coronelAranha</persName>, no dia 5 pela manhã foi 
-                    atacado para cá da estância do Lara por uma força inimiga,
-                    ficando o mesmo <persName ref="#capitao_lima">Lima</persName> destroçado, escapando com 2 oficiais mais e 8 soldados, ficando prisioneiro
-                    o Tenente Saraiva e outros mortos; e como o coronel, por este movimento, não só julga ter sido batido
-                    o <persName ref="#tenente_coronel_aranha">Tenente-coronelAranha</persName>, como estar com a comunicação cortada por aquela parte, marchou a reunir
-                    em <placeName ref="#botucarai">Botucaraí</placeName>, visto ser provável que os prisioneiros confessariam a pouca força
-                    com que ficou no <placeName ref="#passo_fundo">Passo Fundo</placeName>; e afirma o mesmo 
-                    <persName ref="#capitao_lima">Capitão Lima</persName> que o <persName ref="#candinho">Candinho</persName> com os
-                    emigrados é que o bateram.</p>
+                <p>
+                    Foi para mim de satisfação plena o recebimento da muito apreciável carta de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>
+                    com data de <date when="1860-06-21">21 de junho próximo findo</date>, e, em virtude do nela exige, junto remeto por cópia as 
+                    repostas dadas pelo Governo da <orgName ref="#republica_rio_grandense">República Rio-Grandense</orgName> e pelos seus Generais
+                    <persName ref="#canabarro">David Canabarro</persName> e <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
+                    por ocasião do convite pelo <persName ref="#luis_alves_lima_silva">Barão de Caxias</persName> feito para a proposição das bases 
+                    sobre as quais assentasse a cessação da guerra que então se sustentava contra o <orgName ref="#imperio_brasil">Imperio</orgName>
+                    Quanto ao povos do <placeName ref="#japeju">Japeju</placeName> e <placeName ref="#sao_tome">São Tomé</placeName>, diz meu sogro que pertencem
+                    às Missões ao ocidente do <placeName ref="#rio_uruguai">Uruguai</placeName>, e estão situados na margem direita deste rio.
+                    Estimarei que por este modo fique satisfeita a exigência de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>, pois que 
+                    além dos bons desejos que nutro em servir a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> acompanha-me 
+                    o interesse de ainda ver publicada a verdade dos fatos durante a revolução, que pois sem dúvida deve sair de sua pena; 
+                    verdades que no meu entender só podem honrar-nos; e máxime a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>
+                    cuja probidade e bons serviços só ingratos poderão desconhecer. 
+                </p>
                 
-                <p>Pela carta adjunta verá <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> o acontecimento do <placeName ref="#rio_pardo">Rio Pardo</placeName>, afirmando demais
-                    a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> que este município está sem armas, sem força e na maior agitação.</p>
-                
-                <p>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muitos anos.</p>
-                
-                <dateline>
-                    <placeName ref="#cruz_alta">Vila da Cruz Alta</placeName>,
-                    <date when="1839-12-07">7 de dezembro de 1839</date>.
-                </dateline>
+                <p>
+                    Meu filho <persName ref="#antonio_pedroso_albuquerquer">Antônio Pedroso de Albuquerque</persName> é o portador da presente; segue a 
+                    <placeName ref="#sao_paulo">S. Paulo</placeName> para ali ultimar a sua formatura em Direito, e como seja difícil 
+                    avistar-me com <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> vai encarragado de por mim abraçá-lo. 
+                    Digne-se aceitar esse testemunho de minha consideração e sincera amizade que lhe voto por ser de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>.
+                </p>
                 
                 <closer>
-                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> General <persName ref="#bento_manuel">Bento Manuel Ribeiro</persName>.</salute>
-                    <signed>(a) <persName ref="#ricardo_melo_albuquerque">Ricardo Antônio de Melo e Albuquerque</persName>.</signed>
+                    <signed><persName ref="#jose_pedroso_albuquerque">José Pedroso de Albuquerque</persName>.</signed>
                 </closer>
+                
+                <note type="endorsement" place="1v">
+                    <dateline>
+                        <placeName ref="#alegrete">Alegrete</placeName>
+                    <date when="1860-09-16">16 de setembro de 1860</date>
+                    </dateline>
+                    Do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Dr. <persName ref="#jose_pedroso_albuquerque">José Pedroso de Albuquerque</persName>.
+                    Recebida a <date when="1860-09-26">26 de setembro de 1860</date>.
+                    Respondida a <date when="1860-09-26">26 de setembro de 1860</date>
+                </note>
                 
             </div>
         </body>

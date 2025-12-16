@@ -18,8 +18,9 @@
                 <date when="2025-07-12">12 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -96,6 +97,11 @@
                     <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -137,9 +143,6 @@
                     que acarretam os elevados empregos que ora gravitam sobre mim,
                     bem que felizmente eu reconheço que não são elas o único perigo
                     a que estou exposto.
-                </p>
-                
-                <p>
                     Contra minha vontade e modo de pensar, me acho onerado com
                     o honroso cargo de Ministro da Guerra e Marinha; é tarefa demasiado
                     árdua e superior às minhas forças, porém resta-me a satisfação
@@ -157,13 +160,13 @@
                     que se formem a meu respeito, constituindo-me porventura o alvo de
                     juízos certamente infundados, atentos meu desinteresse, minha conduta
                     e minhas afeições sociais.
-                </p>
-                
-                <p>
                     Uma opinião mal concebida a meu respeito e sem um fundamento legítimo
                     tornou de nenhum peso todas as minhas escusas, e eis porque me submeti
                     somente à lei da necessidade, lei que assaz impera sobre o espírito humano.
-                    Eu lastimarei sumamente se não satisfizer as esperanças dos bons patriotas
+                    Eu lastimarei su-
+                    <pb n="1v"/>
+                    <seg type="folio">[1v.]</seg>
+                    mamente se não satisfizer as esperanças dos bons patriotas
                     e a espectação do vulgo, que nem sempre é justo a respeito de nossas ações.
                     Espero a resposta de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
                     e que, com franqueza, aprove
@@ -171,7 +174,10 @@
                 </p>
                 
                 <closer>
-                    <salute>Sou com estima, respeito e consideração,</salute>
+                    <salute>
+                        Sou com estima, respeito e consideração,<br/>
+                        de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> patrício e amigo afetuoso e obrigado.
+                    </salute>
                     <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 

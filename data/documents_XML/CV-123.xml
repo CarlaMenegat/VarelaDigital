@@ -3,8 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-119 – Manuel de Aleman para Domingos José de Almeida</title>
-                <author>Manuel de Aleman</author>
+                <title>Carta CV-123 – Carta de Serafim Joaquim de Alencastre para João Antônio da Silveira</title>
+                <author>Serafim Joaquim de Alencastre</author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -19,8 +19,9 @@
                 <date when="2025-07-12">12 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -85,19 +86,23 @@
                 <language ident="pt-BR">Português do Brasil</language>
                 <language ident="pt-BR">
                     Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
-                </language>
-                <language ident="es">Español</language>
+                </language>>
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#manuel_aleman">Manuel de Aleman</persName>
-                    <placeName ref="#cerro_largo">Cerro Largo</placeName>
-                    <date when="1842-10-03">3 de octubre de 1842</date>
+                    <persName ref="#serafim_alencastre">Ministro da Guerra e Marinha</persName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1839-12-16">16 de dezembro de 1839</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#domingos_almeida">Domingo José de Almeida</persName>
+                    <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -113,39 +118,73 @@
         </revisionDesc>
     </teiHeader>
     
-    <text xml:lang="es">
+    <text>
         <body>
-            <div type="letter" xml:id="CV-119">
+            <div type="letter" xml:id="CV-123">
                 
                 <opener>
-                    <salute>Illustríssimo Señor Don Domingo José de Almeida</salute>
-                    <dateline>
-                        <placeName ref="#cerro_largo">Cerro Largo</placeName>,
-                        <date when="1842-10-03">3 de octubre de 1842</date>
-                    </dateline>
+                    <salute>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> 
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                    </salute>
                 </opener>
                 
-                <p>Estimado amigo. Movido por la amistad que ha tenido a bien
-                    dispensarme y que aprecio en el grado que merece, y deseoso
-                    por otra parte de servir a un amigo, me dirijo a usted
-                    importunando su atención, a fin de que se digne instruirme
-                    sobre los puntos a que la adjunta se refiere, con la brevedad
-                    que le sea posible.</p>
-                
-                <p>Con este motivo me repito como siempre su verdadero amigo,
-                    deseando tener la satisfacción de que ocupe la inutilidad de
-                    su seguro servidor que besa sus manos,</p>
+                <p>
+                    Passo às mãos de 
+                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>, 
+                    por cópia, a parte junta, da qual se depreende com todos os visos 
+                    de realidade o ingresso de uma força inimiga de cento e tantos 
+                    homens na freguesia de 
+                    <placeName ref="#santa_maria">Santa Maria</placeName>, 
+                    para que 
+                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
+                    tome suas medidas a fim de ver se são batidos antes de verificarem 
+                    sua fuga, para o que combinará 
+                    <choice><abbr>V. S.º</abbr><expan>Vossa Senhoria</expan></choice> 
+                    com os chefes de forças mais imediatas e Comandantes Gerais de 
+                    Polícia dos Municípios.
+                </p>
                 
                 <closer>
-                    <signed>(a) <persName ref="#manuel_aleman">Manuel de Aleman</persName></signed>
+                    <salute>
+                        Deus guarde a 
+                        <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.
+                    </salute>
+                    <dateline>
+                        <orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName> 
+                        em <placeName ref="#cacapava">Caçapava</placeName>, 
+                        <date when="1839-12-16">16 de dezembro de 1839</date>.
+                    </dateline>
+                    <signed>
+                        (a) <persName ref="#serafim_joaquim_alencastre">Serafim Joaquim de Alencastre</persName>
+                    </signed>
                 </closer>
                 
-                <note type="endorsement">
-                    Ilustríssimo ciudadano Don Domingo José de Almeida.  
-                    <placeName ref="#bage_rs">Bagé</placeName>.  
-                    Respondida a <date when="1842-10-22">22 de outubro de 1842</date>.  
-                    Encontrava-se anexa à carta de Manuel de la Hoz de <date when="1842-10-02">02 de outubro de 1842</date>.
+                <!-- Endossos / Verso -->
+                <note type="endorsement" place="1v">
+                    <choice>
+                        <abbr>S. da R.</abbr>
+                        <expan>Secretaria da República</expan>
+                    </choice>
                 </note>
+                
+                <note type="endorsement" place="1v">
+                    <address>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> 
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                        <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>, 
+                        Comandante da Divisão da Direita.<br/>
+                        Aonde se achar.
+                    </address>
+                    <p>
+                        Do <orgName ref="#ministerio_guerra">Ministério da Guerra</orgName>.
+                        <placeName ref="#cacapava">Caçapava</placeName>.
+                    </p>
+                </note>
+
+                <seal type="stamp" place="1v">
+                    <desc>Carimbo no verso.</desc>
+                </seal>
                 
             </div>
         </body>

@@ -19,8 +19,9 @@
                 <date when="2025-07-12">12 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -97,6 +98,18 @@
                     <persName ref="#francisco_chagas_avila_sousa">Francisco das Chagas Martins Ávila e Sousa</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+                <handNote xml:id="hand_alfredo_varela" medium="ink">
+                    <persName ref="#alfredo_varela">Alfredo Varela</persName>
+                    <desc>
+                        Letra manuscrita, atribuída a Alfredo Varela, presente em endossos,
+                        anotações marginais e notas de procedência dos documentos da Coleção Varela.
+                    </desc>
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -127,20 +140,21 @@
                     respeito. Manda responder a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> que é conveniente 
                     espaçar o deferimento de semelhante pretensão, até que pelos respectivos habitantes seja reclamada essa medida.</p>
                 
-                <p>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>.</p>
-                
-                <dateline>
-                    <placeName ref="#alegrete">Secretaria da Justiça em Alegrete</placeName>,
-                    <date when="1842-09-26">26 de setembro de 1842</date>.
-                </dateline>
-                
                 <closer>
-                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
-                        <persName ref="#francisco_chagas_avila_sousa">Padre Francisco das Chagas Martins Ávila e Sousa</persName>, Vigário Apostólico.</salute>
-                    <signed>(a) <persName ref="#jose_pedroso_albuquerque">José Pedroso de Albuquerque</persName>.</signed>
+                    <salute>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>.</salute>
+                    
+                    <dateline>
+                        <placeName ref="#alegrete">Secretaria da Justiça em Alegrete</placeName>,
+                        <date when="1842-09-26">26 de setembro de 1842</date>.
+                    </dateline>
+                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                        <persName ref="#francisco_chagas_avila_sousa">Padre Francisco das Chagas Martins Ávila e Sousa</persName>, Vigário Apostólico.</addressee>
+                    <signed><persName ref="#jose_pedroso_albuquerque">José Pedroso de Albuquerque</persName>.</signed>
                 </closer>
                 
-                <note type="editorial">Segue-se carta com a opinião de Barbacena sobre meios de acabar a guerra.</note>
+                <note type="endorsement" place="1v" hand="#hand_alfredo_varela">
+                    Segue-se carta com a opinião de Barbacena sobre meios de acabar a guerra.
+                </note>
                 
             </div>
         </body>

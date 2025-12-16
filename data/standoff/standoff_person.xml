@@ -23,6 +23,16 @@
             </state>
             <note>Jornalista e memorialista gaúcho, autor de "A Epopéia Farrapa", responsável por organizar a Coleção Varela com base no arquivo de Domingos José de Almeida e documentos adicionais coletados no fim do século XIX.</note>
         </person>
+        
+        <person xml:id="martim_francisco_filho">
+            <persName>Martim Francisco Filho</persName>
+            <idno type="project"></idno>
+            <note>
+                Doador de documentos posteriormente incorporados à Coleção Varela. 
+                Mencionado em endosso manuscrito de <persName ref="#alfredo_varela">Alfredo Varela</persName> 
+                como responsável pela doação do documento.
+            </note>
+        </person>
 
         <person xml:id="coritiba">
             <persName>Coritiba</persName>
@@ -7354,6 +7364,26 @@
                 e de Maria Benedita de Camargo. Casado com Maria Josefa Ortiz, filha de Olivério José Ortiz.  
                 Atuou como deputado constituinte em 1842 e foi ministro da Justiça da República Rio-Grandense 
                 durante as tentativas diplomáticas de 1843. Autor da carta CV-112.
+            </note>
+        </person>
+        
+        <person xml:id="antonio_pedroso_albuquerque">
+            <persName>Antônio Pedroso de Albuquerque</persName>
+            <birth when="1842-02">
+                Fevereiro de 1842
+            </birth>
+            <placeName ref="#alegrete">Alegrete</placeName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="apa_estudante_direito_sp">
+                <roleName>Estudante de Direito</roleName>
+                <affiliation ref="#faculdade_direito_sao_francisco"/>
+                <note>
+                    Formação jurídica na Faculdade de Direito do Largo de São Francisco, em São Paulo.
+                </note>
+            </state>
+            <note>
+                Jurista natural de Alegrete, filho de José Pedroso de Albuquerque. Pertence a uma família
+                inserida nas redes políticas e administrativas do Rio Grande do Sul oitocentista.
             </note>
         </person>
         

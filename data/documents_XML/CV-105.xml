@@ -19,8 +19,9 @@
                 <date when="2025-07-09">09 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -112,6 +113,18 @@
                     <persName ref="#joao_silva_machado">João da Silva Machado</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+                <handNote xml:id="hand_alfredo_varela" medium="ink">
+                    <persName ref="#alfredo_varela">Alfredo Varela</persName>
+                    <desc>
+                        Letra manuscrita, atribuída a Alfredo Varela, presente em endossos,
+                        anotações marginais e notas de procedência dos documentos da Coleção Varela.
+                    </desc>
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -128,9 +141,8 @@
     </teiHeader>
     
     <text>
-        <fw type="copy">Cópia</fw>
         <body>
-            <div type="letter" xml:id="CV-105">
+            <div type="letter" subtype="copy" xml:id="CV-105">
                 
                 <opener>
                     <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
@@ -147,35 +159,32 @@
                     é a de <placeName ref="#sao_paulo_provincia">São Paulo</placeName>, e que conta perto de 400.000 habitantes, não tenha 
                     meios de nos coadjúvar com o limitado socorro de 1.000 homens para fortuna do Sul, e que tudo depende de ordens 
                     superiores, e que nestas desculpas se nos vá o tempo, até que o inimigo (que não dorme) se reúna das mais longínquas 
-                    partes em que se acham e nos bata em nossa apatia.</p>
-                
-                <p>Este lugar, <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>, está inteiramente falto até daqueles meios 
+                    partes em que se acham e nos bata em nossa apatia. Este lugar, <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>, está inteiramente falto até daqueles meios 
                     necessários para conservar a existência; nele tudo é desolação e miséria, e não é possível portanto que eu me possa 
                     conservar com esta força sem ser socorrido por mais de 20 dias ou um mês o mais tarde; portanto, ou hei de sacrificar-me 
                     com a força avançando para a frente, ou pôr-me na mais triste e intempestiva retirada; retirada que talvez seja funesta 
-                    a essa Província e à causa legal pelo gás que vai dar aos anarquistas.</p>
-                
-                <p>O inimigo em número de 400 se acha em <placeName ref="#lages">Lages</placeName>, blasonando de maiores socorros, e de 
+                    a essa Província e à causa legal pelo gás que vai dar aos anarquistas.
+                    O inimigo em número de 400 se acha em <placeName ref="#lages">Lages</placeName>, blasonando de maiores socorros, e de 
                     intentarem até a invasão dessa Província. Eu não creio que tal aconteça, porém, à vista do que observo, da falta de 
-                    patriotismo e nenhum recurso enviado até o presente, quase que não duvido disso.</p>
-                
-                <p><choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>, eu não tenho crédito algum nessa Província, por isso me 
+                    patriotismo e nenhum recurso enviado até o presente, quase que não duvido disso. <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>, eu não tenho crédito algum nessa Província, por isso me 
                     não dirijo ao <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Presidente dela; porém conservo uma forte esperança em <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>, 
                     que nos auxiliará e proverá todos os meios para a comum felicidade, e lembre-se <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> 
-                    que perdida a minha Província, perdido está o resto do Brasil; <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> 
-                    bem o conhece.</p>
-                
-                <p>Agora se há um plano oculto, que não convenha por isso o completo triunfo da lei, então eu desejava também saber a fim 
+                    que perdida a minha Província, perdido está o resto do <placeName ref="#brasil">Brasil</placeName>; 
+                    <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> 
+                    bem o conhece. Agora se há um plano oculto, que não convenha 
+                    <pb n="1v"/>
+                    <seg type="folio">[1v.]</seg>
+                    por isso o completo triunfo da lei, então eu desejava também saber a fim 
                     de tomar providências para a salvação destes sinceros que me acompanham cheios da melhor fé do mundo. De 
                     <placeName ref="#santa_catarina">Santa Catarina</placeName> até o presente nada sei, apesar de já ter oficiado ao 
-                    <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Presidente dela.</p>
-                
-                <p>Minha força se acha nua, sem soldo, sem fumo, sem armamento e munições; enfim, cheia de fome e quanto se necessita; 
+                    <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Presidente dela. Minha força se acha nua, 
+                    sem soldo, sem fumo, sem armamento e munições; enfim, cheia de fome e quanto se necessita; 
                     <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> bem sabe o que é um povo nestas circunstâncias. 
                     É quanto tenho a honra de levar ao alto conhecimento de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>. 
-                    Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muitos anos.</p>
+                    </p>
                 
                 <closer>
+                    <salute>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muitos anos.</salute>
                     <signed><persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName>,<br/>
                         Coronel Comandante da Imperial Brigada Cruz-altense.</signed>
                 </closer>
@@ -183,10 +192,9 @@
                 <note type="endorsement"><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
                     <persName ref="#joao_silva_machado">João da Silva Machado</persName>. Comandante Superior das Legiões de G.N. do Sul da Província de São Paulo e da Divisão do Rio Negro e Lages.</note>
                 
-                <note type="endorsement">
-                    Doado pelo saudoso 
-                    <persName ref="#martim_francisco_filho">Martim Francisco Filho</persName>. 
-                    (a) <persName ref="#alfredo_varela">A. Varela</persName>.
+                <note type="endorsement" place="margin 1v" hand="#hand_alfredo_varela">
+                    <p>Doado pelo saudoso <persName ref="#martim_francisco_filho">Martim Francisco Filho</persName>.</p>
+                    <signed><persName ref="#alfredo_varela">A. Varela</persName></signed>
                 </note>
                 
             </div>

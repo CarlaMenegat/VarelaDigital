@@ -3614,4 +3614,20 @@
         active="#casaca"
         passive="#bernardina_barcelos_almeida"
         mutual="true"/>
+    
+    <relation
+        name="schema:subOrganizationOf"
+        active="#secretaria_republica_riograndense"
+        passive="#republica_rio_grandense"/>
+    
+    <relation
+        name="rel:childOf"
+        active="#antonio_pedroso_albuquerque"
+        passive="#jose_pedroso_albuquerque"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#jose_pedroso_albuquerque"
+        passive="#domingos_jose_almeida"
+        mutual="true"/>
 </TEI>

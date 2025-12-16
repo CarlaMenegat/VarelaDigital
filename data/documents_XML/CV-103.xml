@@ -19,8 +19,9 @@
                 <date when="2025-07-09">09 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -97,6 +98,11 @@
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -133,21 +139,25 @@
                     <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que sou:</p>
                 
                 <closer>
-                    <signed>De <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> amigo e muito obrigado criado.</signed>
-                    <signed>(a) <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName></signed>
+                    <salute>De <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> amigo e muito obrigado criado.</salute>
+                    <signed><persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName></signed>
                 </closer>
                 
-                <note type="endorsement">Recebida e respondida a <date when="1839-07-18">18</date>.</note>
+                <note type="endorsement" place="1r.">Recebida e respondida a <date when="1839-07-18">18</date>.</note>
                 
-                <note type="endorsement">
+                <note type="endorsement" place="1v.">
                     Ao cidadão <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>. 
                     Digmo. Ministro da Fazenda. 
                     <placeName ref="#cacapava">Caçapava</placeName>.
                 </note>
                 
-                <note type="endorsement">
-                    <placeName ref="#santa_maria">Santa Maria</placeName> ...... [Carimbo no verso]
+                <note type="endorsement" place="1v.">
+                    <placeName ref="#santa_maria">Santa Maria</placeName> 
                 </note>
+                
+                <seal place="1v">
+                    <desc>Carimbo institucional no verso do documento.</desc>
+                </seal>
                 
             </div>
         </body>

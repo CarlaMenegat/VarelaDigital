@@ -19,8 +19,9 @@
                 <date when="2025-07-12">12 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -98,6 +99,11 @@
                     <persName ref="#joao_antonio_silveira">Juan Antonio de Silvera</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -119,14 +125,14 @@
             <div type="letter" xml:id="CV-116">
                 
                 <opener>
-                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Don <persName ref="#joao_antonio_silveira">Juan Antonio de Silvera</persName></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sõr</abbr><expan>Señor</expan></choice> Don <persName ref="#joao_antonio_silveira">Juan Antonio de Silvera</persName></salute>
                     <dateline>
                         <placeName ref="#cerro_largo">Cerro Largo</placeName>,
                         <date when="1839-05-09">Mayo 9 de 1839</date>
                     </dateline>
                 </opener>
                 
-                <p>Respetable Señor y amigo:</p>
+                <p>Respetable <choice><abbr>Sõr</abbr><expan>Señor</expan></choice> y amigo:</p>
                 
                 <p>Con el mayor placer he recibido la apreciable carta de <choice><abbr>V.S.</abbr><expan>Vossa Senhoria</expan></choice>
                     de fecha 16 del mes pasado, en la que se digna felicitarme por
@@ -140,7 +146,7 @@
                     servidor que besa las manos de <choice><abbr>V.S.</abbr><expan>Vossa Senhoria</expan></choice></p>
                 
                 <closer>
-                    <signed>(a) <persName ref="#manuel_aleman">Manuel de Aleman</persName></signed>
+                    <signed><persName ref="#manuel_aleman">Manuel de Aleman</persName></signed>
                 </closer>
                 
             </div>

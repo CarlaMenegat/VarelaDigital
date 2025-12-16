@@ -19,8 +19,9 @@
                 <date when="2025-07-15">15 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -108,6 +109,11 @@
                     <persName ref="#serafim_alencastre">Ministro da Guerra e Marinha</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -155,6 +161,10 @@
                 <note type="endorsement">
                     Está conforme. O capitão empregado na <orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName>.  
                     (a) <persName ref="#vicente_ferrer_almeida">Vicente Ferrer de Almeida</persName>.
+                </note>
+                
+                <note type="editorial">
+                    Anexo ao documento CV-123.
                 </note>
                 
             </div>
