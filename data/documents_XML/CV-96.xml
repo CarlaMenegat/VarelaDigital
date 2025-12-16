@@ -3,8 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Contrato particular de compra e venda — CV-96</title>
-                <author><persName ref="#urbano_jose_afonso">Urbano José Afonso</persName></author>
+                <title>Contrato particular de compra e venda de estabelecimento e marcas — CV-96</title>
+                <author>Urbano José Afonso</author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -19,8 +19,9 @@
                 <date when="2025-07-06">06 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 documento jurídico</extent>
+                <measure type="pages">4</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -97,6 +98,11 @@
                     <persName ref="#juliao_castro">Julião Castro</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -112,6 +118,13 @@
         </revisionDesc>
     </teiHeader>
     
+    <facsimile>
+        <surface xml:id="CV-96_1v" n="1v">
+            <zone xml:id="brand_1" type="cattleBrand"/>
+            <zone xml:id="brand_2" type="cattleBrand"/>
+        </surface>
+    </facsimile>
+    
     <text>
         <body>
             <div type="legal" subtype="private_contract" xml:id="CV-96">
@@ -125,31 +138,57 @@
                     apossado, debaixo das condições abaixo mencionadas:</p>
                 
                 <list type="ordered">
-                    <item>Desde hoje em diante ficará o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    <item n="1">Desde hoje em diante ficará o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
                         <persName ref="#juliao_castro">Julião Castro</persName> como comprador, senhor e possuidor das marcas pertencentes 
                         a meu estabelecimento e de minha propriedade aqui e em qualquer parte onde se encontre qualquer animal pertencente 
                         às ditas marcas debaixo da seguridade da venda que delas lhe fiz.</item>
                     
-                    <item>Que, a mim, como vendedor e morador no Brasil, terei o direito e faculdade de recrutar os animais pertencentes 
+                    <item n="2">Que, a mim, como vendedor e morador no Brasil, terei o direito e faculdade de recrutar os animais pertencentes 
                         às ditas marcas existentes na província do <placeName ref="#rio_grande_sul">Rio Grande do Sul</placeName>, por espaço 
-                        de seis meses, e fazê-los contramarcar, e quando assim o não cumpra, findo o dito prazo, lhe perderei o direito.</item>
+                        de seis meses, e fazê-los 
+                        <pb n="1v"/>
+                        <seg type="folio">[1v.]</seg>
+                        contramarcar, e quando assim o não cumpra, findo o dito prazo, lhe perderei o direito.</item>
                     
-                    <item>Que as marcas de que faço venda são as seguintes, a saber: a de minha propriedade a seguinte MTIM e a de meu 
-                        filho <persName ref="#antonio_jose_afonso">Antônio José Afonso</persName> a que se segue Ã, ficando eu responsável 
-                        pela marca de meu filho, no caso que a isto ponha a menor dúvida.</item>
+                    <item n="3" facs="#brand_1 #brand_2">
+                        Que as marcas de que faço venda são as seguintes, a saber: 
+                        a de minha propriedade e a de meu filho 
+                        <persName ref="#antonio_jose_afonso">Antônio José Afonso</persName>, 
+                        ficando eu responsável pela marca de meu filho, no caso que a isto ponha 
+                        a menor dúvida.
+                    </item>
                     
-                    <item>Que a venda das marcas e todos os animais a elas pertencentes foi tratada por oitocentos pesos prata, pelo cunho, 
+                    <figure type="cattleBrand" xml:id="brands_cv_96_item_3" facs="#CV-96_1v">
+                        <head>Marcas de gado mencionadas no item 3</head>
+                        
+                        <graphic url="assets/images/CV-96_marca_gado_1.jpeg"/>
+                        <graphic url="assets/images/CV-96_marca_gado_2.jpeg"/>
+                        
+                        <figDesc>
+                            Desenhos das marcas de gado pertencentes a 
+                            <persName ref="#urbano_jose_afonso">Urbano José Afonso</persName> 
+                            e a seu filho 
+                            <persName ref="#antonio_jose_afonso">Antônio José Afonso</persName>, 
+                            impressos na folha <seg type="folio">1v</seg> do contrato particular 
+                            de compra e venda (CV-96).
+                        </figDesc>
+                    </figure>
+                    
+                    <item n="4">Que a venda das marcas e todos os animais a elas pertencentes foi tratada por oitocentos pesos prata, pelo cunho, 
                         obrigando-se o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#juliao_castro">Julião Castro</persName>, 
                         como comprador, a fazer o primeiro pagamento à vista da quantia de quatrocentos e vinte e três pesos, os quais já 
                         recebi ao fazer deste, e trezentos setenta e sete, ao prazo de cinco meses, por uma letra por si firmada ao dito 
                         prazo.</item>
                     
-                    <item>Que se por acaso o comprador <persName ref="#juliao_castro">Julião Castro</persName> tem ocasião de fazer algum 
+                    <item n="5">Que se por acaso o comprador <persName ref="#juliao_castro">Julião Castro</persName> tem ocasião de fazer algum 
                         desfrute de gados por venda que deles faça para a charqueada ou para outra qualquer parte que se entenda com o 
                         mesmo fim, será obrigado à exceção do prazo que lhe dou a cumprir o dito pagamento, embora não esteja vencido o 
                         dito prazo.</item>
                     
-                    <item>Fica o comprador <persName ref="#juliao_castro">Julião Castro</persName> obrigado a cumprir com exatidão as 
+                    <item n="6">Fica o comprador <persName ref="#juliao_castro">Julião Castro</persName> obrigado 
+                        <pb n="2r"/>
+                        <seg type="folio">[2r.]</seg>
+                        a cumprir com exatidão as 
                         disposições abaixo mencionadas, a saber: entregar a mim ou à minha ordem seis animais muares de marca para cima, 
                         bem como doze éguas na mesma conformidade, quando eu ou minha ordem as procure, assim como seis potros incluindo 
                         nestes um pastor baio sebruno; assim como dará por minha ordem, de que faço reserva, o seguinte: a 
@@ -160,7 +199,10 @@
                         idem, de que lançará mão quando bem lhe pareça, bem como a <persName ref="#maria_moreira_silva">D. Maria Moreira da Silva</persName> 
                         um potro baio oveiro, da manada dos Baios conhecidos.</item>
                     
-                    <item>Que, desde hoje em diante, perco como vendedor o direito dos haveres de que por este trato faço venda ao 
+                    <item n="7">Que, desde hoje em diante, perco como vendedor o direito dos haveres 
+                        <pb n="2v"/>
+                        <seg type="folio">[2v.]</seg>
+                        de que por este trato faço venda ao 
                         <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#juliao_castro">Julião Castro</persName>, 
                         ficando ele obrigado a responder com sua pessoa e bens havidos e por haver, para o pronto pagamento e execução 
                         do referido, bem como eu a fazer-lhe firme e valiosa a venda, tanto em juízo como fora dele, sem embargo de 
@@ -174,15 +216,15 @@
                 <p>Feito em <placeName ref="#arapey_chico">Arapey Chico</placeName>, aos <date when="1848-09-18">18 de setembro de 1848</date>.</p>
                 
                 <closer>
-                    <signed>(a) <persName ref="#urbano_jose_afonso">Urbano José Afonso</persName></signed>
-                    <signed>(a) <persName ref="#juliao_castro">Julião Castro</persName></signed>
+                    <signed><persName ref="#urbano_jose_afonso">Urbano José Afonso</persName></signed>
+                    <signed><persName ref="#juliao_castro">Julião Castro</persName></signed>
                     
                     <label>Como testemunhas</label>
-                    <signed>(a) <persName ref="#manuel_ferreira_bica">Manuel Ferreira Bica</persName></signed>
-                    <signed>(a) <persName ref="#justino_bernardes_castro">Justino Bernardes de Castro</persName></signed>
+                    <signed><persName ref="#manuel_ferreira_bica">Manuel Ferreira Bica</persName></signed>
+                    <signed><persName ref="#justino_bernardes_castro">Justino Bernardes de Castro</persName></signed>
                     
                     <label>Como testemunha que este fiz e assinei</label>
-                    <signed>(a) <persName ref="#manuel_moreira_miranda">Manuel Moreira de Miranda</persName></signed>
+                    <signed><persName ref="#manuel_moreira_miranda">Manuel Moreira de Miranda</persName></signed>
                 </closer>
                 
             </div>

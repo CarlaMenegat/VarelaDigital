@@ -19,8 +19,9 @@
                 <date when="2025-07-08">08 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -98,6 +99,11 @@
                     <placeName ref="#piratini">Piratini</placeName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -119,9 +125,8 @@
                 
                 <opener>
                     <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</salute>
+                    <dateline><placeName ref="#pelotas">Pelotas</placeName>, <date when="1843-06-02">2 de junho de 1843</date>.</dateline>
                 </opener>
-                
-                <dateline><placeName ref="#pelotas">Pelotas</placeName>, <date when="1843-06-02">2 de junho de 1843</date>.</dateline>
                 
                 <p>Com bastante satisfação vi uma carta de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> escrita a meu 
                     sogro na qual vi as recomendações com que memoriava do que lhe fico muito obrigado, assim como pelo favor de suprir a 
@@ -133,12 +138,18 @@
                     de tudo quanto vir lhe possa prestar neste lugar pois nisso me dará gosto e sou</p>
                 
                 <closer>
-                    <signed>De <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muito amigo, criado e obrigado.</signed>
-                    <signed>(a) <persName ref="#joao_antonio_oliveira_aguiar">João Antônio de Oliveira Aguiar</persName>.</signed>
+                    <salute>De <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muito amigo, criado e obrigado.</salute>
+                    <signed><persName ref="#joao_antonio_oliveira_aguiar">João Antônio de Oliveira Aguiar</persName>.</signed>
                 </closer>
                 
-                <note type="endorsement">Respondida a 29 de junho de 1843.</note>
-                <note type="endorsement"><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Domingos José de Almeida — <placeName ref="#piratini">Piratini</placeName>.</note>
+                <note type="endorsement" place="1r.">
+                    Respondida a 29 de junho de 1843.
+                </note>
+                <note type="endorsement">
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> 
+                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Domingos José de Almeida — 
+                    <placeName ref="#piratini">Piratini</placeName>.
+                </note>
                 
             </div>
         </body>

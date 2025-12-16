@@ -19,8 +19,9 @@
                 <date when="2025-07-06">06 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -97,6 +98,11 @@
                     <persName ref="#antonio_correia_seara">Antônio Correia Seara</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -129,14 +135,24 @@
                     e agora apresento-o a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> para resolver como 
                     julgar queira.</p>
                 
-                <p>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>. 
-                    Acampamento na <placeName ref="#restinga_seca">Restinga Seca</placeName>, <date when="1841-12-08">8 de dezembro 1841</date>.</p>
                 
                 <closer>
-                    <signed><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#antonio_correia_seara">Antônio Correia Seara</persName>.</signed>
-                    <signed>Brigadeiro Comandante Interino das Forças em Operações.</signed>
-                    <signed>(a) <persName ref="#francisco_manuel_accioli">Francisco Manuel Accioli</persName>.</signed>
-                    <signed>Capitão Comandante Interino.</signed>
+                    <salute>
+                        Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>. 
+                    </salute>
+                    <dateline>
+                        Acampamento na <placeName ref="#restinga_seca">Restinga Seca</placeName>, <date when="1841-12-08">8 de dezembro 1841</date>.
+                    </dateline>
+                    <addressee>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#antonio_correia_seara">Antônio Correia Seara</persName>.<br/>
+                        Brigadeiro Comandante Interino das Forças em Operações.    
+                    </addressee>
+                    
+                    <signed>
+                        <persName ref="#francisco_manuel_accioli">Francisco Manuel Accioli</persName>.<br/>
+                        Capitão Comandante Interino.
+                    </signed>
+                    
                 </closer>
                 
             </div>

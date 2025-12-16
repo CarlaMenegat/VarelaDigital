@@ -19,8 +19,9 @@
                 <date when="2025-07-02">02 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -96,6 +97,11 @@
                     <persName ref="#joao_dias_castro">João Dias de Castro</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -138,11 +144,12 @@
                     eu participo o que me disseram e <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> lhe dará a importância 
                     que julgar necessária.</p>
                 
-                <p>E mande como pode a quem é, com respeito, seu súdito venerador criado, <lb/>
-                    S.C., <date when="1839-01-22">22 de janeiro de 1839</date>.</p>
-                
                 <closer>
-                    <signed>(a) <persName ref="#pedro_jose_gomes_abreu">Pedro José Gomes de Abreu</persName>.</signed>
+                    <salute>
+                        E mande como pode a quem é, com respeito, seu súdito venerador criado.<br/>
+                    </salute>
+                    <dateline>S.C., <date when="1839-01-22">22 de janeiro de 1839</date>.</dateline>
+                    <signed><persName ref="#pedro_jose_gomes_abreu">Pedro José Gomes de Abreu</persName>.</signed>
                 </closer>
                 
             </div>

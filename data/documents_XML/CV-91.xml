@@ -19,8 +19,9 @@
                 <date when="2025-07-01">01 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -97,6 +98,11 @@
                     <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -124,30 +130,36 @@
                     bocalmente, para remeter preso <persName ref="#sezefredo_nunes">Sezefredo Nunes</persName> à brigada de 
                     <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>, dizendo-me que a parte já tinha seguido e por isso é 
                     que não acompanha o preso, que remeto a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> nesta ocasião 
-                    escoltado por um inferior e 4 soldados.</p>
-                
-                <p>Aqui se apresentou o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#capitao_fortunato">Capitão Fortunato Francisco da Silva</persName> 
+                    escoltado por um inferior e 4 soldados.
+                    Aqui se apresentou o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#capitao_fortunato">Capitão Fortunato Francisco da Silva</persName> 
                     para exercer o seu emprego das forças do 2.º e 3.º distritos, nomeado por <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>; 
                     e mandando eu ordem ao mesmo capitão, me respondeu que estava nomeado pelo <persName ref="#bento_manoel">Brigadeiro Bento Manuel</persName> 
                     para ir à província de <placeName ref="#corrientes">Corrientes</placeName> a tratar com <persName ref="#lope_chico">Lope Chico</persName> 
-                    negócios políticos.</p>
-                
-                <p>O mesmo capitão diz que se acham 50 cavalos de sua encomenda à espera de ordens de <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> 
+                    negócios políticos.
+                    O mesmo capitão diz que se acham 50 cavalos de sua encomenda à espera de ordens de <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> 
                     para seguir para o lugar que <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> ache conveniente. 
                     Desta prisão nada digo a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> porque nada sei senão de que 
                     lhe remetesse, o que cumpri.</p>
                 
-                <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> por muitos anos. 
-                    Quartel em <placeName ref="#alegrete">Alegrete</placeName>, <date when="1837-12-16">16 de dezembro de 1837</date>.</p>
-                
+                <salute>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> por muitos anos.</salute>
+                <dateline> 
+                    Quartel em <placeName ref="#alegrete">Alegrete</placeName>, <date when="1837-12-16">16 de dezembro de 1837</date>.
+                </dateline>
                 <closer>
-                    <signed><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</signed>
-                    <signed>Coronel Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.</signed>
-                    <signed>(a) <persName ref="#jose_inacio_silva_abreu">José Inácio da Silva Abreu</persName>.</signed>
-                    <signed>Tenente-coronel Comandante Interino da Fronteira.</signed>
+                    <addressee>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>. <br/>
+                        Coronel Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>.
+                    </addressee>
+                    <signed><persName ref="#jose_inacio_silva_abreu">José Inácio da Silva Abreu</persName>.<br/>
+                        Tenente-coronel Comandante Interino da Fronteira.</signed><br/>
                 </closer>
                 
-                <note type="endorsement"><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>, Coronel Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>. Do Tenente-coronel Comandante Interino da Fronteira. Respondido.</note>
+                <note type="endorsement" place="1v">
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>, 
+                    Coronel Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>. 
+                    Do Tenente-coronel Comandante Interino da Fronteira. Respondido.
+                </note>
                 
             </div>
         </body>

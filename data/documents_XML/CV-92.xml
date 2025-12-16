@@ -19,8 +19,9 @@
                 <date when="2025-07-02">02 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -95,6 +96,14 @@
                     <persName ref="#antonio_pedro_abreu">Antônio Pedro de Abreu</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+                <handNote xml:id="hand_pencil" medium="pencil">
+                    <desc>Anotações posteriores a lápis no exemplar consultado.</desc>
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -127,17 +136,20 @@
                     tempo de questão eu fui à fala com <persName ref="#tenente_caldeira">Juca Custódio</persName>, aonde estive por espaço de 
                     uma hora com ele.</p>
                 
-                <p>É quanto tenho a participar a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> a quem Deus guarde.</p>
-                
                 <closer>
-                    <signed><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#antonio_pedro_abreu">Antônio Pedro de Abreu</persName>.</signed>
-                    <signed>Tenente e Comandante da Polícia de <placeName ref="#triunfo">Triunfo</placeName>.</signed>
-                    
-                    <signed>(a) <persName ref="#paulo_jose_abreu">Paulo José de Abreu</persName>.</signed>
-                    <signed>Capitão Comandante da Polícia de <placeName ref="#santo_amaro">Santo Amaro</placeName>.</signed>
+                    <salute>É quanto tenho a participar a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> a quem Deus guarde.</salute>
+                    <addressee>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#antonio_pedro_abreu">Antônio Pedro de Abreu</persName>.<br/>
+                        Tenente e Comandante da Polícia de <placeName ref="#triunfo">Triunfo</placeName>.<br/>
+                    </addressee>
+                    <signed><persName ref="#paulo_jose_abreu">Paulo José de Abreu</persName>. <br/>
+                        Capitão Comandante da Polícia de <placeName ref="#santo_amaro">Santo Amaro</placeName>.
+                    </signed>
                 </closer>
                 
-                <note type="endorsement">Visto e cópia para a imprensa. [Anotação a lápis na fl. 1r.]</note>
+                <note type="endorsement" place="1r" hand="#hand_pencil">
+                    Visto e cópia para a imprensa.
+                </note>
                 
             </div>
         </body>

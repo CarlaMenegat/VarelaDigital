@@ -19,8 +19,9 @@
                 <date when="2025-07-08">08 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -97,6 +98,11 @@
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -140,21 +146,29 @@
                     <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#palacios">Palácios</persName>, a quem o sujeito 
                     que devia receber o dinheiro aqui tem-lhe feito cargas, estou na impossibilidade de deixar de participar-lhe a causa de 
                     não ter satisfeito sua ordem, tanto mais que o mesmo <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
-                    <persName ref="#vasco_madruga_bitancurt">Vasco Madruga de Bitancurt</persName> asseverou ao <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    <persName ref="#vasco_madruga_bitancurt">Vasco Madruga de 
+                        <pb n="1v"/>
+                        <seg type="folio">[1v.]</seg>
+                        Bitancurt</persName> asseverou ao <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
                     <persName ref="#palacios">Palácios</persName> que tinha entregado os 332 1/2 pesos ao mesmo charqueador a quem 
                     <persName ref="#manuel_severino_xavier">Manuel Severino Xavier</persName> vendeu a tropa.</p>
                 
                 <p>Deixando com esta explicação satisfeita a resposta à sua prezada de <date when="1849-10-19">19 do presente</date>, fico</p>
                 
                 <closer>
-                    <signed>De <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> muito atento venerador e criado.</signed>
-                    <signed>(a) <persName ref="#atanasio_aguirre">Atanásio C. Aguirre</persName></signed>
+                    <salute>De <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> muito atento venerador e criado.</salute>
+                    <signed><persName ref="#atanasio_aguirre">Atanásio C. Aguirre</persName></signed>
                 </closer>
                 
-                <note type="endorsement">Recebida a 4 de novembro de 1849.</note>
-                <note type="endorsement"><placeName ref="#rio_grande">Rio Grande</placeName>, 30 de outubro de 1849.</note>
-                <note type="endorsement">Do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#atanasio_aguirre">Atanásio Aguirre</persName>.</note>
-                <note type="endorsement">Respondida a 22 de novembro de 1849.</note>
+                <note type="endorsement" place="1r.">Recebida a 4 de novembro de 1849.</note>
+                <note type="endorsement" place="2v">
+                    <placeName ref="#rio_grande">Rio Grande</placeName>, <date when="1849-10-30">30 de outubro de 1849</date>. 
+                    Do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#atanasio_aguirre">Atanásio Aguirre</persName>.
+                </note>
+                <note type="endorsement" place="2v">
+                    <p>Recebida a 4 de novembro de 1849.</p>
+                    <p>Respondida a 22 de novembro de 1849.</p>
+                </note>
                 
             </div>
         </body>

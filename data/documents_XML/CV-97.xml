@@ -19,8 +19,9 @@
                 <date when="2025-07-06">06 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -97,6 +98,11 @@
                     <persName ref="#camilo_campelo">Dr. Camilo dos Santos Campelo</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -114,38 +120,43 @@
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-97">
+            <div type="letter" subtype="copy" xml:id="CV-97">
                 
                 <opener>
-                    <salute>Cópia. <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Dr. <persName ref="#camilo_campelo">Camilo dos Santos Campelo</persName>.</salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Dr. <persName ref="#camilo_campelo">Camilo dos Santos Campelo</persName>.</salute>
                 </opener>
                 
                 <p>Querido amigo; Suas apreciáveis, que me entregou <persName ref="#inacio_nobre">D. Inácio Nobre</persName>, me hão servido
                     de uma satisfação, pois por uma delas vejo que <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> está 
                     ocupado em a grande causa da liberdade, e como deste sentimento não posso prescindir, tampouco não posso menos que 
-                    felicitá-lo e felicitar-nos.</p>
-                
-                <p>A <date when="1843-09-20">20</date>, às 9 da noite, teve lugar uma sublevação de uns santafesinos, em mui pequeno número, os quais deveram sua salvação 
+                    felicitá-lo e felicitar-nos.
+                    A <date when="1843-09-20">20</date>, às 9 da noite, teve lugar uma sublevação de uns santafesinos, em mui pequeno número, os quais deveram sua salvação 
                     à obscuridade da noite. Segundo todas as instruções, eles hão marchado para essa parte donde espero que 
                     <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> não omitirá meio para escarmentar esses malvados 
-                    rebeldes, advertindo-lhe que é mais crível a sua direção para <placeName ref="#bage">Bagé</placeName>.</p>
-                
-                <p>À minha entrada neste departamento, o cabecilha <persName ref="#dionisio_coronel">Dionísio Coronel</persName>, com 200 
+                    rebeldes, advertindo-lhe que é mais crível a sua direção para <placeName ref="#bage">Bagé</placeName>.
+                    À minha entrada neste departamento, o cabecilha <persName ref="#dionisio_coronel">Dionísio Coronel</persName>, com 200 
                     rebeldes, passou o <placeName ref="#jaguarao">Jaguarão</placeName> no Francisquito; 
                     e como é consequente, se preparará, do outro lado, para incomodar-nos novamente quando estamos ocupados de um forte 
                     exército à nossa frente, e como esta ocorrência atrasará o serviço a que eu e <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> 
                     estamos destinados, lhe advirto, para seu conhecimento e demais fins, advertindo-lhe que, em caso necessário, passe a 
                     este lado de <placeName ref="#jaguarao">Jaguarão</placeName> com sua força, donde encontrará gado e cavalos, sendo eu 
                     responsável pelos resultados desta operação, com tal que nem <persName ref="#dionisio_coronel">Dionísio</persName>, 
-                    nem Borges passem por aqui quando chegue o caso de eu ausentar-me, que talvez não demorara.</p>
-                
-                <p>Celebro esta ocasião para repetir-me de <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> afetíssimo 
-                    amigo e seguro servidor que beija suas mãos.</p>
+                    nem Borges passem por aqui 
+                    <pb n="1v"/>
+                    <seg type="folio">[1v.]</seg>
+                    quando chegue o caso de eu ausentar-me, que talvez não demorara.</p>
                 
                 <closer>
+                    <salute>
+                        Celebro esta ocasião para repetir-me de <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> afetíssimo 
+                        amigo e seguro servidor que beija suas mãos.
+                    </salute>
                     <signed><persName ref="#felix_eduardo_aguiar">Félix Eduardo Aguiar</persName></signed>
-                    <signed>Está conforme. (a) <persName ref="#camilo_campelo">Camilo Campelo</persName></signed>
                 </closer>
+                
+                <note type="endorsement">
+                    Está conforme. <persName ref="#camilo_campelo">Camilo Campelo</persName>
+                </note>
                 
             </div>
         </body>
