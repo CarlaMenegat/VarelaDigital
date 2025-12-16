@@ -98,6 +98,11 @@
                     <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -144,10 +149,8 @@
                     duvido, essa gente não está em estado de bater-se com a nossa.</p>
                 
                 <p>Quanto ao que <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> diz a respeito da gente 
-                    
                     <pb n="1v" />
-<seg type="folio">[1v.]</seg>
-
+                    <seg type="folio">[1v.]</seg>
                     deste município,
                     hoje mesmo segue o Major <persName ref="#frutuoso">Frutuoso</persName>, com o maior número que é
                     possível, com direção à <placeName ref="#cachoeira">Cachoeira</placeName>, para onde ordenou o
@@ -175,9 +178,8 @@
                     <placeName ref="#torres_rs">Torres</placeName> com
                     <persName ref="#giuseppe_garibaldi">Garibaldi</persName> com 120 infantes e 80 homens de
                     cavalaria; o <persName ref="#tenente_coronel_aranha">Tenente-coronel Aranha</persName>, 
-                    
+                    <pb n="2r" />
                     <seg type="folio">[2r.]</seg>
-
                     em todas as ocasiões urgentes, reúne sempre perto de 300 homens; o Tenente-coronel
                     <persName ref="#jose_gomes_portinho">Portinho</persName> deverá ter 200, segundo as participações que têm vindo ao
                     governo; o Tenente-coronel <persName ref="#jacinto_guedes">Guedes</persName>, 
@@ -192,7 +194,6 @@
                     suficientes para bater o inimigo, servirão para ir contemporizando,
                     até que possam ser aumentadas por outras que fiquem disponíveis.</p>
                 
-                <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</addressee>
                 
                 <closer>
                     <salute>É tudo quanto tem o governo de dizer a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>, 
@@ -201,6 +202,7 @@
                         <placeName ref="#cacapava">Caçapava</placeName>,
                         <date when="1839-12-22">22 de dezembro de 1839</date>.
                     </dateline>
+                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</addressee>
                     <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 

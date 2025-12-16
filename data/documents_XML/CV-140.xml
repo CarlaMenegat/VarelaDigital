@@ -98,6 +98,11 @@
                     <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -124,7 +129,8 @@
                 <p>O governo, inteirado suficientemente da essência do único ofício
                     que de <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> hei recebido, com data de 
                     <date when="1840-02-06">6 do passado</date>, me ordenou
-                    que respondesse a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> que, quanto aos contrabandistas, <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> tolere
+                    que respondesse a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> que, quanto aos contrabandistas, 
+                    <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> tolere
                     ou deixe de tolerar tal abuso, uma vez que lhe pareça útil ou perigoso
                     aos interesses do Estado, ou ao menos fazendo minorar esse tráfico,
                     com os meios que estejam em sua alçada.</p>
@@ -132,7 +138,7 @@
                 <p>Felizmente o governo reconhece quanto <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> relata em seguida
                     no seu mesmo ofício, e por isso, não podendo sancionar a reclamação
                     de <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
-                    a respeito do destacamento de <orgName>1.º Linha</orgName>, autoriza 
+                    a respeito do destacamento de <orgName ref="#corpos_primeira_linha">1.º Linha</orgName>, autoriza 
                     <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>,
                     como tem autorizado a outros, para criar um contingente de 20 praças
                     de 1.º Linha, as quais receberão aquele vestuário, munição e pagamento
@@ -141,26 +147,29 @@
                     fim da luta terão todos demissão do serviço. 
                     <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> encarregará a um
                     1.º tenente ou proporá um cidadão para os comandar, podendo aqui
-                    mandar buscar o armamento e munição indispensável.</p>
-                
-                <p>Desta sorte fica <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> bem servido, porque todos devem ser de sua
-                    escolha. Se fosse possível <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> verificar uma subscrição para lhes dar
-                    um socorro pecuniário, creia <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> que muito adiantaria e o número
+                    mandar buscar o armamento e munição indispensável. 
+                    Desta sorte fica <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> bem servido, porque todos devem ser de sua
+                    escolha. Se 
+                    <pb n="1v" />
+                    <seg type="folio">[1v.]</seg>
+                    fosse possível <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
+                    verificar uma subscrição para lhes dar
+                    um socorro pecuniário, creia <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
+                    que muito adiantaria e o número
                     marcado mais depressa se completaria. Não digo que a subscrição seja
                     para sempre, mas sim pela primeira vez, para os atrair.</p>
                 
-                <p>Um destacamento dos corpos de 1.º Linha não pode de modo algum
+                <p>Um destacamento dos <orgName ref="#corpos_primeira_linha">corpos de 1.º Linha</orgName> não pode de modo algum
                     ser útil. O soldado fora de sua corporação perde o hábito militar, esquece-se
                     da disciplina e contrai o vício da insubordinação, além de que, quando chegam
-                    a desmoralizar-se, são os piores membros da sociedade.</p>
-                
-                <p>Se ainda a medida indicada não agradar a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>, haja de apontar outra
+                    a desmoralizar-se, são os piores membros da sociedade.
+                    Se ainda a medida indicada não agradar a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>, haja de apontar outra
                     que lhe convenha e convenha ao bem do serviço da Pátria.</p>
                 
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
                     <dateline>
-                        <placeName ref="#cacapava">Secretaria da Guerra em Caçapava</placeName>,
+                        <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>,
                         <date when="1840-03-09">9 de março de 1840</date>.
                     </dateline>
                     <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>, 
@@ -168,7 +177,7 @@
                     <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
-                <note type="endorsement" place="verso">
+                <note type="endorsement" place="2v">
                     Ofício do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Ministro da Guerra 
                     de <date when="1840-03-09">9 de março,</date>
                     recebido a <date when="1840-03-22">22 do mesmo</date>, sobre as polícias, contrabandistas, etc..

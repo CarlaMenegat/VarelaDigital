@@ -511,14 +511,34 @@
             </note>
         </org>
         
-        <org xml:id="arsenal">
+        <org xml:id="arsenal" type="militaryFacility">
             <orgName>Arsenal</orgName>
-            <note>Estabelecimento militar destinado à produção e reparo de equipamento bélico e utensílios do exército farroupilha.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="arsenal_farroupilha">
+                <roleName>Estabelecimento militar</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <note>
+                Estabelecimento militar da República Rio-Grandense destinado à fabricação, 
+                manutenção e reparo de armamentos, munições, equipamentos bélicos e utensílios 
+                necessários às operações do exército farroupilha durante a Revolução Farroupilha 
+                (1835–1845).
+            </note>
         </org>
         
-        <org xml:id="corpos_primeira_linha">
-            <orgName>Corpos de 1ª Linha</orgName>
-            <note>Unidades militares regulares da República Rio-Grandense, equivalentes às tropas de linha do exército.</note>
+        <org xml:id="corpos_primeira_linha" type="militaryUnit">
+            <orgName>Corpos de 1.ª Linha</orgName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="corpos_primeira_linha_farroupilha">
+                <roleName>Tropas regulares de linha</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <note>
+                Conjunto de unidades militares regulares da República Rio-Grandense, 
+                correspondentes às tropas de linha do exército, em oposição às milícias 
+                e corpos irregulares. Atuaram como força permanente durante a Revolução 
+                Farroupilha (1835–1845).
+            </note>
         </org>
         
         <org xml:id="guarda_nacional" type="militaryInstitution">

@@ -102,6 +102,11 @@
                     <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -153,11 +158,8 @@
                     <signed><persName ref="#alencastre">(a) Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
-                <note type="endorsement" place="verso">
-                    <seg type="folio">[No verso]</seg>
-                    
-                    <p><choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice></p>
-                    
+                <note type="endorsement" place="1v">
+                    <p><choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice></p><br/>
                     <p>Ao cidadão 
                         <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>,
                         Comandante da <orgName ref="#divisao_direita">Divisão Direita</orgName>.

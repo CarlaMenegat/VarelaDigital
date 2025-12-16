@@ -98,6 +98,11 @@
                     <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -135,13 +140,16 @@
                     <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
-                <note type="endorsement" place="verso">
-                    <choice><abbr>S.R.</abbr><expan>Secretaria da Presidência da República</expan></choice> — Ao cidadão <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>,
+                <note type="endorsement" place="1v">
+                    <choice><abbr>S.R.</abbr><expan>Secretaria da República</expan></choice> <br/>
+                    Ao cidadão <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>,
                     Comandante da <orgName ref="#divisao_direita">Divisão da Direita</orgName>, onde se achar.  
                     <placeName ref="#sao_gabriel">S. Gabriel</placeName> 
-                    <stamp>
-                        Carimbo na <seg type="folio">folha 1v</seg>.
-                    </stamp>
+                    <seal type="stamp">
+                        <desc>
+                            Carimbo na <seg type="folio">folha 1v</seg>.
+                        </desc>
+                    </seal>
                 </note>
                 
             </div>

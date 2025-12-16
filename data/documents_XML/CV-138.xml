@@ -100,6 +100,11 @@
                     </persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -134,7 +139,7 @@
                     <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
                     <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</addressee>
                     <dateline>
-                        Secretaria da Guerra em <placeName ref="#cacapava">Caçapava</placeName>,
+                        <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>,
                         <date when="1840-02-29">29 de fevereiro de 1840</date>.
                     </dateline>
                     <signed>
@@ -142,17 +147,27 @@
                     </signed>
                 </closer>
                 
-                <note type="endorsement" place="verso">
+                <note type="endorsement" place="1v">
                     Ofício do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Ministro da Guerra de <date when="1840-02-29">29 de fevereiro</date>, recebido
                     a <date when="1840-03-12">12 de março</date>, mandando executar de pronto o disposto sobre
                     passaportes.<br/>
-                    
-                    <choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice><br/>
+                </note>
+                
+                <note type="endorsement" place="1v">
+                    <choice><abbr>S. da R.</abbr><expan>Secretaria da República</expan></choice><br/>
                     Ao cidadão 
                     <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>, 
                     Comandante Geral de Polícia do Departamento do Boqueirão.<br/>
                     Do Ministro da Guerra<br/>.
                     <placeName ref="#cacapava">Caçapava</placeName>.
+                </note>
+                
+                <note type="endorsement" place="1v">
+                    <seal type="stamp">
+                        <desc>
+                            Carimbo na <seg type="folio">folha 1v.</seg>.
+                        </desc>
+                    </seal>
                 </note>
                 
                 <note type="editorial">Exemplar impresso de um decreto anexo ao documento CV-138.</note>

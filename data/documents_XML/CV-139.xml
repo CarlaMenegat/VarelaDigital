@@ -99,6 +99,11 @@
                     <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -141,12 +146,26 @@
                     <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
-                <note type="endorsement" place="verso">
+                <note type="endorsement" place="1v">
                     Ofício do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Ministro da Guerra de <date when="1840-03-06">6 de março,</date>
                     recebido a <date when="1840-03-20">20 do mesmo</date>.  
+                </note>
+                
+                <note type="endorsement" place="1v">
+                    <choice><abbr>S. da R.</abbr><expan>Secretaria da República</expan></choice><br/> 
                     Ao cidadão <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>,
                     Comandante Geral de Polícia do departamento do
                     <placeName ref="#sao_lourenco">Boqueirão</placeName>.
+                    Do <orgName ref="#ministerio_guerra">Ministério da Guerra.</orgName>. 
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                </note>
+                
+                <note type="endorsement" place="1v">
+                    <seal type="stamp">
+                        <desc>
+                            Carimbo na <seg type="folio">folha 1v.</seg>.
+                        </desc>
+                    </seal>
                 </note>
                 
             </div>

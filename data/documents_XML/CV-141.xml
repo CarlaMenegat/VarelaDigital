@@ -98,6 +98,11 @@
                     <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -124,24 +129,24 @@
                 <p>
                     Foi presente ao governo o ofício de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
                     de <date when="1840-03-17">17</date> incluindo a 
-                    cópia da participação do Capitão <persName ref="#fileno">Fileno</persName>; 
+                    cópia da participação do Capitão <persName ref="#fileno_oliveira_santos">Fileno</persName>; 
                     e inteirado do que contém, nada tem que acumular em contestação 
                     ao mesmo do que reiterar as ordens expedidas em 17 e 18 do corrente. 
                     Da força que apareceu em <placeName ref="#taquari">Taquari</placeName> nenhuma comunicação 
                     tem vindo, por onde se pode suspeitar, ou que ali se acha estacionada, 
                     ou que retrocedeu, o que não será possível à vista da marcha daquela 
-                    que se encaminhou a <placeName ref="#bage_rs">Bagé</placeName>.
+                    que se encaminhou a <placeName ref="#bage">Bagé</placeName>.
                 </p>
                 
                 
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
                     <dateline>
-                        <placeName ref="#cacapava">Secretaria de Guerra em Caçapava</placeName>,
+                        <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>,
                         <date when="1840-03-19">19 de março de 1840</date>.
                     </dateline>
                     <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>.</addressee>
-                    <signed>(a) Serafim Joaquim de Alencastre.</signed>
+                    <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>.</signed>
                 </closer>
             </div>
         </body>
