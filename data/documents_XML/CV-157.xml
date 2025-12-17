@@ -102,6 +102,11 @@
                     <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -146,11 +151,12 @@
                     <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
-                <note type="endorsement" place="verso">
+                <note type="endorsement" place="1v">
                     Ao cidadão General <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>. Onde se achar.  
                     De seu amigo e patrício <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>.
-                    
-                    <note type="editorial">[No verso]</note>
+                </note>
+                
+                <note type="endorsement" place="1v">
                     Respondido a <date when="1842-03-07">7 de março de 1842</date>.
                 </note>
                 

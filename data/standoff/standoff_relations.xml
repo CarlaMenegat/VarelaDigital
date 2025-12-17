@@ -3630,4 +3630,64 @@
         active="#jose_pedroso_albuquerque"
         passive="#domingos_jose_almeida"
         mutual="true"/>
+    
+    <relation 
+        name="rel:antagonistOf" 
+        active="#domingos_jose_almeida" 
+        passive="#fernandes_braga"/>
+    
+    <relation
+        name="hrao:servedUnder"
+        active="#major_pinto"
+        passive="#domingos_jose_almeida"/>
+    
+    <relation
+        name="hrao:servedUnder"
+        active="#capitao_pinto"
+        passive="#domingos_jose_almeida"/>
+    
+    <relation
+        name="hrao:servedUnder"
+        active="#tenente_pinto"
+        passive="#domingos_jose_almeida"/>
+    
+    <relation
+        name="hrao:servedUnder"
+        active="#alferes_felizardo"
+        passive="#domingos_jose_almeida"/>
+    
+    <relation
+        name="hrao:servedUnder"
+        active="#jose_jeronimo_amaral"
+        passive="#domingos_jose_almeida"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#domingos_jose_almeida"
+        passive="#gerena"/>
+    
+    <relation
+        name="foaf:knows"
+        active="#jose_maria"
+        passive="#domingos_jose_almeida"/>
+    
+    <relation
+        name="rel:antagonistOf"
+        active="#basilio_ferreira_bica"
+        passive="#domingos_jose_almeida"/>
+    
+    <relation
+        name="rel:antagonistOf"
+        active="#melo_pacheco_resende"
+        passive="#domingos_jose_almeida"/>
+    
+    <relation 
+        name="rel:antagonistOf" 
+        active="#domingos_jose_almeida" 
+        passive="#manuel_marques_sousa"/>
+    
+    <relation
+        name="schema:creditor"
+        active="#guilherme_carvalho"
+        passive="#domingos_jose_almeida"/>
 </TEI>

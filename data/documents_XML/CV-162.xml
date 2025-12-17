@@ -101,6 +101,11 @@
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -147,10 +152,13 @@
                     <signed><persName ref="#bernardina_barcelos_almeida">Bernardina</persName></signed>
                 </closer>
                 
-                <note type="endorsement" place="verso">
+                <note type="endorsement" place="1v">
                     Aceita lembranças de <persName ref="#jose_felix">José F.</persName> que recebeu ontem a proclamação que lhe mandastes.
-                    <note type="editorial">[No verso]</note>
-                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName> — Porto Alegre.
+                </note>
+                
+                <note type="endorsement" place="1v">
+                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName> — <br/>
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>.
                 </note>
                 
             </div>

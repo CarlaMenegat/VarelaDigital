@@ -110,6 +110,20 @@
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_dja" medium="ink">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <desc>
+                        Letra identificada no corpo da carta original (CV-175a).
+                    </desc>
+                </handNote>
+                <handNote xml:id="hand_jvv" medium="ink">
+                    <persName ref="#jose_vieira_viana">José Vieira Viana</persName>
+                    <desc>
+                        Letra identificada na resposta lançada no mesmo documento (CV-175b).
+                    </desc>
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -127,7 +141,7 @@
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-175_a">
+            <div type="letter" xml:id="CV-175a" hand="#hand_dja">
                 
                 <opener>
                     <salute>Amigo <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
@@ -138,15 +152,13 @@
                 <p>Constando agora mesmo, 6 horas da tarde, que se pretendia prender-me
                     e a todos os indivíduos que se acharam hoje de manhã nessa cidade, têm
                     alguns deles corrido e participar-me da pouca sinceridade com que afiancei
-                    estar tudo arranjado da maneira que desejávamos.</p>
-                
-                <p>Eu não posso acreditar que fosse traída uma confidência, que servia de
+                    estar tudo arranjado da maneira que desejávamos.
+                    Eu não posso acreditar que fosse traída uma confidência, que servia de
                     farol para livrar-nos dos furores de partidos; e por isso lhe rogo me diga,
                     com franqueza, para ocultar-me, a fim de não ser responsável, em tempo
                     algum, pelas consequências que podem seguir-se, vista a deliberação em que
-                    vejo a muitos que expus o que se passou na conferência.</p>
-                
-                <p>Estou como fora de mim e desejo me oriente hoje mesmo sobre o
+                    vejo a muitos que expus o que se passou na conferência.
+                    Estou como fora de mim e desejo me oriente hoje mesmo sobre o
                     particular.</p>
                 
                 <closer>
@@ -161,7 +173,7 @@
                 
             </div>
             
-            <div type="letter" xml:id="CV-175_b">
+            <div type="letter" xml:id="CV-175b" hand="#hand_jvv">
                 
                 <opener>
                     <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>.</salute>
@@ -171,10 +183,12 @@
                     como o portador lhe dirá, e posso asseverar-lhe, com a franqueza que me é
                     própria, que eu não só ignoro como estranho que tal procedimento se
                     pratique, e que desta maneira se corresponda à muito conveniente
-                    condescendência que <choice><abbr>V. S.</abbr><expan>Vossa Senhoria</expan></choice>º se serviu ter hoje conosco.</p>
-                
-                <p>E como o caso é muito sério, tratarei de avisar-lhe do que puder alcançar
-                    a tal respeito, certificando-lhe que desejo corresponder à sua boa fé e não
+                    condescendência que <choice><abbr>V. S.</abbr><expan>Vossa Senhoria</expan></choice>º se serviu ter hoje conosco.
+                    E como o caso é muito sério, tratarei de avisar-lhe do que puder alcançar
+                    a tal respeito, certificando-lhe que desejo 
+                    <pb n="1v" />
+                    <seg type="folio">[1v.]</seg>
+                    corresponder à sua boa fé e não
                     desmentir o conceito que lhe mereceu sempre o</p>
                 
                 <closer>
@@ -186,13 +200,15 @@
                     </dateline>
                 </closer>
                 
-                <note type="endorsement" place="verso">
+                <note type="endorsement" place="2v">
                     <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
                     <persName ref="#jose_vieira_viana">José Vieira Viana</persName>.<br/>
                     <choice><abbr>S.C.</abbr><expan>sua casa</expan></choice>.<br/>
-                    Respondeu. [No verso]
                 </note>
                 
+                <note type="endorsement" place="2v">
+                    Respondeu. 
+                </note>
             </div>
             
         </body>

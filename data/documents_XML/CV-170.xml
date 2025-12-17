@@ -102,6 +102,22 @@
                     <persName ref="#antonio_jose_goncalves_chaves">Chaves</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_dja" medium="ink">
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    <desc>
+                        Letra identificada no corpo da carta original (CV-170a).
+                    </desc>
+                </handNote>
+                <handNote xml:id="hand_ajgc" medium="ink">
+                    <persName ref="#antonio_jose_goncalves_chaves">
+                        Antônio José Gonçalves Chaves
+                    </persName>
+                    <desc>
+                        Letra identificada na resposta lançada no mesmo documento (CV-170b).
+                    </desc>
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -120,7 +136,7 @@
     <text>
         <body>
             
-            <div type="letter" xml:id="CV-170_a">
+            <div type="letter" xml:id="CV-170a" hand="#hand_dja">
                 <opener>
                     <salute>Amigo <persName ref="#antonio_jose_goncalves_chaves">Chaves</persName></salute>
                 </opener>
@@ -144,8 +160,8 @@
                     </dateline>
                 </closer>
             </div>
-
-            <div type="letter" xml:id="CV-170_b">
+            
+            <div type="letter" xml:id="CV-170b" hand="#hand_ajgc">
                 
                 <opener>
                     <salute>Meu amigo e <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
@@ -159,7 +175,7 @@
                 
                 <p>Guarde-me alguma coisa para jantar, mas não espere.</p>
                 
-                <note type="endorsement" place="verso">
+                <note type="endorsement" place="1v">
                     <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> 
                     <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#antonio_jose_goncalves_chaves">Chaves</persName>.<br/>
                     <choice>
@@ -167,10 +183,13 @@
                         <expan>sua casa</expan>
                     </choice> Casa.<br/>
                     Com resposta.<br/>
+                </note>
+                
+                <note type="endorsement" place="1v">
                     <date when="1834-09-18">Setembro, 18 de 1834</date>.<br/>
                     <persName ref="#antonio_jose_goncalves_chaves">Chaves</persName><br/>
-                    Recebida a …<br/>
-                    Respondida a …
+                    Recebida a <br/>
+                    Respondida a 
                 </note>
             </div>
         </body>

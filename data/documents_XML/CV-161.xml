@@ -102,6 +102,11 @@
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -144,7 +149,10 @@
                     </dateline>
                     <addresse><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>,  
                         Coronel Chefe de Legião.</addresse>
-                    <signed><persName ref="#joao_alexandre">João Alexandre</persName></signed>
+                    <signed>
+                        <persName ref="#joao_alexandre">João Alexandre</persName><br/>
+                        Encarregado de Polícia.
+                    </signed>
                 </closer>
                 
             </div>

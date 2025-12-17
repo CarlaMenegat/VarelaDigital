@@ -914,12 +914,29 @@
             </note>
         </org>
         
-        <org xml:id="camara_rio_grande">
+        <org xml:id="camara_rio_grande" type="municipalCouncil">
             <orgName>Câmara Municipal da Cidade do Rio Grande</orgName>
+            <idno type="project"/>
+            <affiliation ref="#imperio_brasil"/>
+            <note>
+                Órgão do governo municipal da cidade do Rio Grande durante o período imperial, 
+                responsável pela administração local, deliberações civis e representação política 
+                do município. Figura recorrentemente mencionada na documentação da década de 1830 
+                em contexto administrativo e político anterior e durante a Revolução Farroupilha.
+            </note>
         </org>
         
-        <org xml:id="12_companhia_gn">
-            <orgName>12ª Companhia da Guarda Nacional</orgName>
+        <org xml:id="12_companhia_gn" type="militaryUnit">
+            <orgName>12.ª Companhia da Guarda Nacional</orgName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="12_companhia_gn_imperial">
+                <roleName>Companhia da Guarda Nacional do Império do Brasil</roleName>
+                <affiliation ref="#guarda_nacional_imperial"/>
+            </state>
+            <note>
+                Companhia da Guarda Nacional imperial, mencionada em contexto de mobilização
+                e operações militares no início da Revolução Farroupilha.
+            </note>
         </org>
         
         <org xml:id="quartel_permanentes">

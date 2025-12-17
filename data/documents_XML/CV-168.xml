@@ -102,6 +102,11 @@
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -154,8 +159,12 @@
                 
                 <p>Torno a te recomendar que tenhas todo o cuidado; é melhor que venhas com o Reverendo Padre.</p>
                 
-                <note type="endorsement" place="verso">Ao Senhor <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName> — Alegrete.</note>
-                <note type="endorsement" place="1r.">Respondida a 5 de março de 1843.</note>
+                <note type="endorsement" place="1v">
+                    Ao Senhor <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName> — 
+                    <placeName ref="#alegrete">Alegrete.</placeName>
+                </note>
+
+                <note type="endorsement" place="1r">Respondida a 5 de março de 1843.</note>
                 
             </div>
         </body>

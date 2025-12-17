@@ -102,6 +102,11 @@
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -160,7 +165,7 @@
                     <signed><persName ref="#bernardina_barcelos_almeida">Bernardina Almeida</persName>.</signed>
                 </closer>
                 
-                <note type="endorsement" place="1r.">
+                <note type="endorsement" place="1r">
                     Respondida a <date when="1842-12-1842">28 de dezembro de 1842</date>.
                 </note>
                 

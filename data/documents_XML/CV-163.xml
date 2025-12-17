@@ -102,6 +102,11 @@
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -152,16 +157,16 @@
                 
                 <closer>
                     <salute>Tua esposa muito amante do coração</salute>
-                <note type="editorial">
+                    <signed><persName ref="#bernardina_barcelos_almeida">Bernardina</persName></signed>  
+                </closer>
+                
+                <postscript>
                     <choice>
                         <abbr>N.B.</abbr>
                         <expan>Nota bene</expan>
-                    </choice>
-                    — O <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente ficou de dar a resposta por estes 2 dias.
-                </note>
-                <signed><persName ref="#bernardina_barcelos_almeida">Bernardina</persName></signed>
-                    
-                </closer>
+                    </choice> — 
+                    O <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente ficou de dar a resposta por estes 2 dias.
+                </postscript>
             </div>
         </body>
     </text>

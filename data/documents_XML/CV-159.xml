@@ -99,6 +99,11 @@
                     <date when="1843-07-23">23 de julho de 1843</date>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -163,20 +168,23 @@
                     o general que mandou vir mais, contudo desejo que mandeis vir as que vos peço. Vai a carta para o 
                     <persName ref="#tenente_ferreira">ex-Tenente Ferreira</persName>.</p>
                 
-                <p>Mandai com franqueza a quem se preza ser com fidelidade.</p>
+                <p></p>
                 
                 <closer>
-                    <salute>Vosso amigo e patrício obrigado</salute>
-                    <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
+                    <salute>
+                        Mandai com franqueza a quem se preza ser com fidelidade <br/>
+                        Vosso amigo e patrício obrigado
+                    </salute>
+                    <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
-                <note type="endorsement">
+                <postscript>
                     <choice>
                         <abbr>N.B.</abbr>
                         <expan>Nota bene</expan>
                     </choice>
                     — Os livros me são mui precisos, e talvez se pudesse arranjar com alguma prontidão.
-                </note>
+                </postscript>
                 
             </div>
         </body>

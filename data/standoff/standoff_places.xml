@@ -174,6 +174,7 @@
         
         <place xml:id="pelotas">
             <placeName>Pelotas</placeName>
+            <placeName type="historical">São Francisco de Paula</placeName>
             <idno type="geonames">https://www.geonames.org/3454244/pelotas.html</idno>
             <location>
                 <geo>-31.7649 -52.3371</geo>
@@ -409,14 +410,6 @@
             <geo>-31.7800, -52.3500</geo>
             <note>Canal que liga a Lagoa dos Patos à Lagoa Mirim, situado em Pelotas, Rio Grande do Sul.</note>
         </place>
-        
-        <place xml:id="sao_goncalo_pelotas">
-            <placeName>Rio São Gonçalo</placeName>
-            <location>
-                <geo>-31.7700 -52.3500</geo>
-            </location>
-            <note>Curso d’água que liga a Lagoa Mirim à Lagoa dos Patos; conhecido historicamente como Canal São Gonçalo, atravessando a região de Pelotas (RS).</note>
-        </place> <!--substituir por id sao_goncalo-->
         
         <place xml:id="cerro_largo">
             <placeName>Cerro Largo</placeName>
@@ -1063,13 +1056,6 @@
                 <geo>-30.0819 -51.0232</geo>
             <note>Primeira capital do Rio Grande do Sul.</note>
         </place>
-        
-        <place xml:id="sao_francisco_paula">
-            <placeName>São Francisco de Paula</placeName>
-            <idno type="geonames">https://www.geonames.org/3454244/pelotas.html</idno>
-            <geo></geo> 
-            <note>Nome da vila no atual centrod e Pelotas.</note>
-        </place> <!--trocar por pelotas-->
         
         <place xml:id="estreito">
             <placeName>Estreito</placeName>

@@ -108,6 +108,17 @@
                     <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+                <handNote xml:id="hand_ink_later" medium="ink">
+                    <desc>
+                        Acréscimo manuscrito posterior, em tinta e letra distintas,
+                        consistente na indicação do ano “1841” junto à dateline inicial.
+                    </desc>
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -127,7 +138,10 @@
             <div type="letter" xml:id="CV-151">
                 <dateline type="rubric" hand="#m2">
                     <placeName ref="#santa_maria_boca_monte">Santa Maria da Boca do Monte</placeName>,
-                    <date when="1840-01-30">30 de janeiro</date>.
+                    <date when="1840-01-30">
+                        30 de janeiro
+                        <add place="inline" hand="#hand_ink_later">1841</add>
+                    </date>
                 </dateline>
 
                 <opener>
@@ -143,19 +157,26 @@
                 <p>Aproveito a ocasião para saudar a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> com a amizade que 
                     lhe tributo e ao mesmo tempo congratular-me com <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> pelo 
                     progresso de nossa causa devido às forças de seu mando.</p>
-                
-                <p>Sou com estima e consideração de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> patrício e amigo.</p>
-                
+
                 <closer>
-                    <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
+                    <salute>
+                        Sou com estima e consideração <br/>
+                        de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> patrício e amigo.
+                    </salute>
+                    <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
-                <note type="phys">
-                    <choice><abbr>N.B.</abbr><expan>Nota bene</expan></choice>
-                    Espero me recomende ao amigo <persName ref="#leite">Leite</persName>.
-                    Eu sigo para <placeName ref="#piratini">Piratini</placeName> e forçoso me é encaminhar-me por esse lado para mais 
-                    segurança.
-                </note>
+                <postscript>
+                    <p>
+                        <choice>
+                            <abbr>N.B.</abbr>
+                            <expan>Nota bene</expan>
+                        </choice>
+                        Espero me recomende ao amigo <persName ref="#leite">Leite</persName>.
+                        Eu sigo para <placeName ref="#piratini">Piratini</placeName> e forçoso me é
+                        encaminhar-me por esse lado para mais segurança.
+                    </p>
+                </postscript>
                 
             </div>
         </body>

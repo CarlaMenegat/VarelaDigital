@@ -651,8 +651,11 @@
         
         <person xml:id="guilherme_carvalho">
             <persName>Guilherme Rodrigo de Carvalho</persName>
-            <idno></idno>
-            <note>Credor a quem Almeida solicita dilação de prazo.</note>
+            <idno type="project"/>
+            <note>
+                Credor mencionado na correspondência de Domingos José de Almeida, a quem este solicita
+                dilação de prazo para cumprimento de obrigações financeiras.
+            </note>
         </person>
         
         <person xml:id="guilherme_schnepf">
@@ -8071,8 +8074,11 @@
         
         <person xml:id="joao_rodrigues_ribas">
             <persName>João Rodrigues Ribas</persName>
-            <idno></idno>
-            <note>Membro da Assembleia provincial de 1835.</note>
+            <idno type="project"></idno>
+            <note>
+                Membro da Assembleia Provincial do Rio Grande do Sul em 1835, 
+                mencionado em contexto político no início da Revolução Farroupilha.
+            </note>
         </person>
         
         <person xml:id="luis_azevedo">
@@ -8348,32 +8354,74 @@
         
         <person xml:id="major_pinto">
             <persName>Major Pinto</persName>
-            <idno></idno>
-            <note>Oficial da Guarda Nacional de Pelotas ao início da farroupilha.</note>
+            <idno type="project"></idno>
+            <note>
+                Oficial da Guarda Nacional de Pelotas no início da Revolução Farroupilha.
+            </note>
         </person>
         
         <person xml:id="capitao_pinto">
             <persName>Capitão Pinto</persName>
-            <idno></idno>
-            <note>Oficial da Guarda Nacional de Pelotas ao início da farroupilha.</note>
+            <idno type="project"></idno>
+            <note>
+                Oficial da Guarda Nacional de Pelotas no início da Revolução Farroupilha.
+            </note>
         </person>
         
         <person xml:id="tenente_pinto">
             <persName>Tenente Pinto</persName>
-            <idno></idno>
-            <note>Oficial da Guarda Nacional de Pelotas ao início da farroupilha.</note>
+            <idno type="project"></idno>
+            <note>
+                Oficial da Guarda Nacional de Pelotas no início da Revolução Farroupilha.
+            </note>
         </person>
         
         <person xml:id="alferes_felizardo">
             <persName>Alferes Felizardo</persName>
-            <idno></idno>
-            <note>Oficial da Guarda Nacional de Pelotas ao início da farroupilha.</note>
+            <idno type="project"></idno>
+            <note>
+                Oficial da Guarda Nacional de Pelotas no início da Revolução Farroupilha.
+            </note>
         </person>
         
         <person xml:id="jose_jeronimo_amaral">
             <persName>José Jerônimo do Amaral</persName>
-            <idno></idno>
-            <note>Major da Guarda Nacional ao início da farroupilha.</note>
+            <idno type="project"></idno>
+            <note>
+                Major da Guarda Nacional no início da Revolução Farroupilha.
+            </note>
+        </person>
+        
+        <person xml:id="antonio_oliveira_nico">
+            <persName>Antônio de Oliveira Nico</persName>
+            <persName type="alias">Nico Oliveira</persName>
+            <persName type="variant">Antônio José de Oliveira Nico</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="nico_capitao_milicias_piratini">
+                <roleName>Capitão de milícias em Piratini</roleName>
+                <affiliation ref="#milicias_piratini"/>
+                <note>Comandou cerca de cem homens na deflagração do movimento farroupilha na Vila de Piratini, rendendo e destituindo as autoridades imperiais, em outubro de 1835.</note>
+            </state>
+            <state type="roleInTime" xml:id="nico_oficial_farroupilha">
+                <roleName>Oficial farroupilha (major e tenente-coronel)</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+                <note>Registrado em narrativas da Guerra dos Farrapos como major promovido a tenente-coronel na reorganização das forças farroupilhas, integrando o quadro de comandantes regionais da República Rio-Grandense.</note>
+            </state>
+            <note>Oficial farroupilha de atuação destacada na região de Piratini, identificado como Antônio (ou Antônio José) de Oliveira Nico, também referido como Nico Oliveira; liderou o levante local de 8 de outubro de 1835 e progrediu na hierarquia militar farroupilha até o posto de tenente-coronel.</note>
+        </person>
+        
+        <person xml:id="major_marques">
+            <persName>Major Marques</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime">
+                <roleName>Major</roleName>
+                <affiliation ref="#exercito_imperial"/>
+            </state>
+            <note>
+                Oficial identificado apenas pelo posto de major, mencionado no manifesto de 
+                Domingos José de Almeida como comandante de força nacional destacada em 
+                Arroio Grande, no contexto inicial da Revolução Farroupilha.
+            </note>
         </person>
         
         <person xml:id="candido_fernandes_lima">
@@ -8385,44 +8433,115 @@
             <note>Juiz de Paz do 2.º Distrito de Pelotas, citado em documentos ligados à administração judicial e às redes de sociabilidade de Domingos José de Almeida.</note>
         </person>
         
+        <person xml:id="pantaleao_sutelo">
+            <persName>General Pantaleão Sutelo</persName>
+            <idno type="project"></idno>
+            <note>
+                Militar identificado pelo posto de general, mencionado por Domingos José de Almeida
+                como vítima de assassinato em 1820. Não há, no corpus, outras informações seguras
+                sobre sua identidade ou trajetória.
+            </note>
+        </person>
+        
         <person xml:id="gerena">
-            <persName>Sr. Gerena</persName>
-            <idno></idno>
+            <persName>Gerena</persName>
+            <idno type="project"></idno>
+            <note>
+                Indivíduo identificado apenas pelo sobrenome, mencionado no manifesto de
+                Domingos José de Almeida como conhecido pessoal que lhe prestou auxílio
+                durante sua prisão, levando recado à esposa e providenciando vestimentas.
+            </note>
         </person>
         
         <person xml:id="joaquim_jose_sousa">
             <persName>Joaquim José de Sousa</persName>
-            <idno></idno>
-            <roleName>Oficial carpinteiro</roleName>
-            <note>Oficial carpinteiro; preso por solidariedade a Almeida.</note>
+            <idno type="project"></idno>
+            <note>
+                Oficial carpinteiro mencionado no contexto das prisões associadas a
+                Domingos José de Almeida, detido por solidariedade a este.
+            </note>
         </person>
         
         <person xml:id="jose_maria">
             <persName>José Maria</persName>
-            <idno></idno>
+            <idno type="project"></idno>
+            <note>
+                Indivíduo identificado apenas pelo prenome, mencionado como detido
+                por solidariedade a Domingos José de Almeida.
+            </note>
         </person>
         
         <person xml:id="maldonado">
             <persName>Maldonado</persName>
-            <idno></idno>
+            <idno type="project"></idno>
+            <note>
+                Indivíduo identificado apenas pelo sobrenome, mencionado no manifesto de
+                Domingos José de Almeida como antagonista político, descrito de forma
+                crítica e irônica como figura proeminente do grupo opositor.
+            </note>
         </person>
-
+        
+        <person xml:id="basilio_ferreira_bica">
+            <persName>Basílio Ferreira Bica</persName>
+            <idno type="project"></idno>
+            <birth when="1825-11-20">
+                <placeName ref="#sao_gabriel">São Gabriel</placeName>
+            </birth>
+            <death when="1892-06-14">
+                <placeName ref="#sao_gabriel">São Gabriel</placeName>
+            </death>
+            <note>
+                Natural de São Gabriel, mencionado por Domingos José de Almeida como antigo
+                amigo que, ao aderir à chamada “boa ordem”, tornou-se seu apreensor e
+                antagonista político no contexto da Revolução Farroupilha.
+                Filho do alferes Basílio Ferreira Bica e de Rozaura Cândida Ferreira do Valle.
+            </note>
+        </person>
+        
         <person xml:id="melo_pacheco_resende">
             <persName>José de Melo Pacheco de Resende</persName>
-            <idno></idno>
-            <note>Major legalista.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="mpr_capitao_guerra_paraguai">
+                <roleName>Capitão</roleName>
+                <note>
+                    Oficial do Exército Imperial durante a Guerra do Paraguai (1864–1870).
+                </note>
+            </state>
+            <note>
+                Militar legalista mencionado em contexto de antagonismo político e militar 
+                em relação a Domingos José de Almeida.
+            </note>
         </person>
         
         <person xml:id="jose_vieira_braga">
             <persName>José Vieira Braga</persName>
-            <idno></idno>
-            <note>Juiz instrutor do processo de Almeida em 1835.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="jvb_juiz_instrutor_1835">
+                <roleName>Juiz instrutor</roleName>
+                <date when="1835"/>
+                <note>
+                    Atuou como juiz instrutor no processo movido contra Domingos José de Almeida 
+                    no início da Revolução Farroupilha.
+                </note>
+            </state>
+            <note>
+                Magistrado mencionado em contexto judicial relacionado à repressão inicial 
+                aos líderes farroupilhas em 1835.
+            </note>
         </person>
         
         <person xml:id="manuel_gomes_silva">
             <persName>Manuel Gomes da Silva</persName>
-            <idno></idno>
-            <note>Membro da Câmara de Rio Grande em 1835.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="mgs_camara_rio_grande_1835">
+                <roleName>Membro da Câmara Municipal</roleName>
+                <affiliation ref="#camara_rio_grande"/>
+                <date when="1835"/>
+            </state>
+            <note>
+                Vereador da Câmara Municipal da cidade do Rio Grande em 1835, atuando no contexto
+                político imediatamente anterior à eclosão da Revolução Farroupilha.
+            </note>
         </person>
         
         <person xml:id="rafael">

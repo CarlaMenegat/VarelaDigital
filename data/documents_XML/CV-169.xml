@@ -102,6 +102,11 @@
                     <persName ref="#bernardina_barcelos">Bernardina Barcelos de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -134,13 +139,13 @@
                     <salute>Teu velho do coração<br/></salute>
                     <signed>
                         <persName ref="#domingos_jose_almeida">Almeida</persName>.</signed>
-                </closer>
-
-                <note type="endorsement" place="verso">
                     <dateline>
                         <placeName ref="#rio_grande">Rio Grande</placeName>,
                         <date when="1828-10-21">21 de outubro de 1828</date>.
                     </dateline>
+                </closer>
+
+                <note type="endorsement" place="1v">
                     <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> D. <persName ref="#bernardina_barcelos">Bernardina Barcelos de Almeida</persName>. 
                     <placeName ref="#pelotas">Pelotas</placeName>.
                 </note>

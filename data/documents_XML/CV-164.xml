@@ -102,6 +102,11 @@
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -161,7 +166,7 @@
                     <signed>(a) <persName ref="#bernardina_barcelos_almeida">Bernardina</persName></signed>
                 </closer>
                 
-                <note type="endorsement" place="verso">
+                <note type="endorsement" place="1v">
                     <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>. 
                     <placeName ref="#porto_alegre">Porto Alegre</placeName>.
                 </note>
