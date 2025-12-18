@@ -53,78 +53,73 @@
         </nav>
 
         <!-- Letter navigation -->
-        <div class="container mt-3 text-center">
-            <div class="letter-nav d-inline-flex align-items-center gap-3">
-            <button id="prev-letter" class="btn btn-outline-secondary btn-sm">&laquo; Previous</button>
-            <div id="letter-date" class="fw-bold text-uppercase small px-2"></div>
-            <button id="next-letter" class="btn btn-outline-secondary btn-sm">Next &raquo;</button>
-            </div>
+        <div class="letter-nav d-inline-flex align-items-center gap-3">
+            <button id="prev-letter" class="btn btn-outline-secondary btn-sm">
+                &laquo; Previous
+            </button>
+            <div id="letter-info" class="fw-bold small px-2 text-center"></div>
+            <button id="next-letter" class="btn btn-outline-secondary btn-sm">
+                Next &raquo;
+            </button>
         </div>
 
-        <div class="main-content">
+        <div class="main-content d-flex">
 
-            <!-- Sidebar Metadata (fixed) -->
-            <div id="metadata-sidebar" class="open">
-            <div class="sidebar-header">
+            <!-- Sidebar Metadata (LEFT, fixed) -->
+            <aside id="metadata-sidebar" class="open">
+                <div class="sidebar-header">
                 <h5>Metadata</h5>
-            </div>
-            <div id="metadata-content" class="sidebar-content"></div>
-            </div>
+                </div>
+                <div id="metadata-content" class="sidebar-content"></div>
+            </aside>
 
-            <div class="content-wrapper d-flex w-100">
+            <!-- Main document area -->
+            <div class="content-wrapper d-flex flex-grow-1">
 
-            <!-- Left column: facsimile placeholder -->
-            <div class="xml-image-placeholder text-center px-4 py-4">
-                <p style="font-size: 1.2rem; font-weight: 600; margin-bottom: 1rem;">
-                    Image unavailable
-                </p>
-
-                <p style="font-size: 0.95rem; line-height: 1.5;">
-                    As a consequence of the 2024 floods, the building housing the<br>
-                    <strong>Rio Grande do Sul Historical Archive (AHRS)</strong> is currently under restoration,<br>
-                    and the documents could not be photographed for this project.
-                </p>
-
-                <p style="font-size: 0.95rem; line-height: 1.5; margin-top: 0.75rem;">
-                    This digital edition is therefore based on the printed transcription<br>
-                    published in the <em>Anais do Arquivo Histórico do Rio Grande do Sul</em>, Volume II.
-                </p>
-            </div>
-
-            <!-- Right column: transcription -->
-            <div class="col-6 right-column d-flex flex-column">
+                <!-- LEFT column: transcription (now main reading area) -->
+                <div class="col-6 left-column d-flex flex-column">
 
                 <div class="transcription-box">
 
-                <div class="surface-selector-wrapper mb-2">
+                    <div class="surface-selector-wrapper mb-2">
                     <label for="surface-selector" class="form-label mb-0">Surface</label>
-                    <select id="surface-selector"
-                            class="form-select form-select-sm w-auto d-inline-block"></select>
-                </div>
+                    <select
+                        id="surface-selector"
+                        class="form-select form-select-sm w-auto d-inline-block">
+                    </select>
+                    </div>
 
-                <div id="transcription-content" class="px-2 py-1"></div>
-                </div>
+                    <div id="transcription-content" class="px-2 py-1"></div>
 
-                <!-- Translation placeholder -->
-                <div class="px-2 pt-2">
-                <button class="btn btn-sm btn-outline-secondary mb-2" disabled
+                    <!-- Translation placeholder (below transcription) -->
+                    <div class="pt-3 d-flex justify-content-end">
+                    <button
+                        class="btn btn-sm btn-outline-secondary"
+                        disabled
                         title="Planned feature: AI-assisted translation">
-                    AI-assisted translation (planned)
-                </button>
+                        AI-assisted translation (planned)
+                    </button>
+                    </div>
+
                 </div>
+            </div>
 
+            <!-- RIGHT column: annotations -->
+            <div class="col-6 right-column d-flex flex-column">
 
-                <div class="annotations-box d-none" id="annotations-box">
+            <div class="annotations-box" id="annotations-box">
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                    <h5 class="mb-0">Annotations</h5>
-                    <button id="close-annotations"
-                            class="btn btn-sm btn-outline-secondary">×</button>
+                <h5 class="mb-0">Annotations</h5>
+                <button
+                    id="close-annotations"
+                    class="btn btn-sm btn-outline-secondary">×</button>
                 </div>
                 <div id="annotations-content"></div>
-                </div>
+            </div>
 
             </div>
-            </div>
+
+        </div>
         </div>
 
         <!-- Footer -->

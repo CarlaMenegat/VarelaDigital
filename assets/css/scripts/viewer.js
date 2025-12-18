@@ -58,7 +58,37 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 function renderViewer(teiDoc, fileName) {
   renderMetadataSidebar(teiDoc, fileName);
+  renderLetterNavInfo(teiDoc); 
   renderText(teiDoc);
+}
+
+/* =========================================================
+   Letter navigation (title + date)
+   ========================================================= */
+
+function renderLetterNavInfo(teiDoc) {
+  const infoContainer = document.getElementById('letter-info');
+  if (!infoContainer) return;
+
+  const title =
+    teiDoc.querySelector('titleStmt > title')?.textContent || '';
+
+  const date =
+    teiDoc
+      .querySelector('correspAction[type="sent"] date')
+      ?.getAttribute('when') || '';
+
+  let html = '';
+
+  if (title) {
+    html += `<div class="letter-title">${title}</div>`;
+  }
+
+  if (date) {
+    html += `<div class="letter-date">${date}</div>`;
+  }
+
+  infoContainer.innerHTML = html;
 }
 
 /* =========================================================
