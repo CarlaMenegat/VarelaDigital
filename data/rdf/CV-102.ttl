@@ -1,0 +1,126 @@
+@prefix base: <https://vareladigital.github.io/resource/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doco: <http://purl.org/spar/doco/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix pro: <http://purl.org/spar/pro/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix san: <http://www.ontologydesignpatterns.org/cp/owl/semanticannotation.owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+base:CV-102 a fabio:Letter ;
+    dcterms:creator base:melo,
+        base:teseu ;
+    dcterms:date "1838-10-11"^^xsd:date ;
+    dcterms:references base:alfredo_varela,
+        base:antero_ferreira_ribeiro,
+        base:antonio_elzeario_miranda_brito,
+        base:bento_manoel,
+        base:carneiro,
+        base:cruz_alta,
+        base:domingos_jose_almeida,
+        base:francisco_chagas_santos,
+        base:francisco_xavier_cunha,
+        base:joao_paulo_santos_barreto,
+        base:jose_araujo_ribeiro,
+        base:jose_inacio_ourives,
+        base:luis_palmeiro,
+        base:martim_francisco_filho,
+        base:melo,
+        base:oliveira,
+        base:porto_alegre,
+        base:rio_pardo,
+        base:silva_tavares,
+        base:teseu ;
+    dcterms:spatial base:cruz_alta ;
+    pro:addressee base:oliveira ;
+    frbr:part base:CV-102_chunk_1,
+        base:CV-102_chunk_2,
+        base:CV-102_chunk_3,
+        base:CV-102_chunk_4,
+        base:CV-102_chunk_5,
+        base:CV-102_chunk_6 .
+
+base:CV-102_chunk_1 a doco:TextChunk ;
+    dcterms:type "paragraph" ;
+    c4o:hasContent """Recebi a sua de 9 a qual contesto, que muito certo de seus sentimentos a meu respeito, lhos retribuo com igualdade, 
+                    podendo capacitar-se que bem sensível me é sua retirada em uma crise tão cruel como esta em que nos deixa; porém 
+                    é grande sua razão e Deus muito maior... etc..""" .
+
+base:CV-102_chunk_2 a doco:TextChunk ;
+    dcterms:type "paragraph" ;
+    c4o:hasContent """Remeto-lhe a cópia do requerimento que fiz à Comissão em Porto Alegre, 
+                    Comissão que me parece não teve andamento pelas desordens de Rio Pardo; e vos 
+                    mando para dela se extrair o que for necessário para o requerimento na Corte, devendo advertir-vos que o Capitão José Inácio, 
+                    por antonomasia o Juca Ourives, não tem a metade dos meus serviços e tem 400$000 rs. de pensão 
+                    
+                    [1v.]
+                    anual, porque teve 
+                    protetor o Brigadeiro Cunha, Silva Tavares 
+                    e outros e etc.... Vós bem sabeis quais têm sido os meus serviços e trabalhos, e que enormes despesas tenho feito com as fortes reuniões 
+                    que tenho feito que têm montado desde o princípio da luta a mais de 18700 [sic] homens, e o meu nome pouco tem 
+                    aparecido, por eu não ter habilidade para fazer valer meus serviços. Remeto-vos também 2 ofícios de Araújo Ribeiro, 
+                    2 de Bento Manuel, 1 de Antero, 2 do 
+                    Chagas, 1 do Brigadeiro Carneiro, duas ordens 
+                    do dia que alguma coisa dizem em meu abono; e sobretudo uma carta 
+                    
+                    [2r.]
+                    do Barreto, 
+                    que me parece não se pode dizer mais bem de homem algum; e não mando os mais por me parecerem suficientes, e necessitar 
+                    dos outros documentos. Uma das ordens do dia é para mostrar que comandei uma brigada quando me apresentei de prisioneiro, cuja foi reunida 
+                    também por mim. E a outra para mostrar a distinção com que o Presidente Elzeário 
+                    trata de mim ali, etc.. Enfim, vós melhor sabeis o que deveis fazer à vista dos fracos apontamentos que vos faço, e 
+                    do que vós mesmo sabeis; peço-vos porém encarecidamente, trateis deste arranjo com a maior brevidade e energia que vos 
+                    merecem 
+                    
+                    [2v.]
+                    nossa amizade e necessidade minha.""" ;
+    san:refersTo base:antero_ferreira_ribeiro,
+        base:antonio_elzeario_miranda_brito,
+        base:bento_manoel,
+        base:carneiro,
+        base:francisco_chagas_santos,
+        base:francisco_xavier_cunha,
+        base:joao_paulo_santos_barreto,
+        base:jose_araujo_ribeiro,
+        base:jose_inacio_ourives,
+        base:porto_alegre,
+        base:rio_pardo,
+        base:silva_tavares .
+
+base:CV-102_chunk_3 a doco:TextChunk ;
+    dcterms:type "paragraph" ;
+    c4o:hasContent """N.B.
+                            Nota Bene
+                        
+                        — O Luís Palmeiro me escreve a carta que junto vos 
+                        remeto e a do Ministro Almeida, pedindo a representação que à Câmara dei, existe 
+                        em vosso poder; por isso mandai-ma assim como as cartas de Almeida e Palmeiro que são para verdes.""" ;
+    san:refersTo base:domingos_jose_almeida,
+        base:luis_palmeiro .
+
+base:CV-102_chunk_4 a doco:TextChunk ;
+    dcterms:type "paragraph" ;
+    c4o:hasContent "Doado pelo saudoso Martim Francisco Filho." ;
+    san:refersTo base:martim_francisco_filho .
+
+base:CV-102_chunk_5 a doco:TextChunk ;
+    dcterms:type "postscript" ;
+    c4o:hasContent """N.B.
+                            Nota Bene
+                        
+                        — O Luís Palmeiro me escreve a carta que junto vos 
+                        remeto e a do Ministro Almeida, pedindo a representação que à Câmara dei, existe 
+                        em vosso poder; por isso mandai-ma assim como as cartas de Almeida e Palmeiro que são para verdes.""" ;
+    san:refersTo base:domingos_jose_almeida,
+        base:luis_palmeiro .
+
+base:CV-102_chunk_6 a doco:TextChunk ;
+    dcterms:type "endorsement" ;
+    c4o:hasContent """Doado pelo saudoso Martim Francisco Filho.
+                    A. Varela""" ;
+    san:refersTo base:alfredo_varela,
+        base:martim_francisco_filho ;
+    prov:wasAttributedTo base:hand_alfredo_varela .
+
