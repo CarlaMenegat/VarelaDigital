@@ -138,12 +138,32 @@ if __name__ == "__main__":
         print(f"[ERROR] Folder not found: {folder}")
         sys.exit(1)
 
-    # Adjust range as needed for the Coleção Varela
-    for i in range(1, 559):
-        carta_id = f"CV-{i}"
-        xml_file = folder / f"{carta_id}.xml"
+# ============================================================
+# 5. CLI — iterate over existing files, including suffixes
+#     (e.g. CV-132a.xml, CV-147b.xml)
+# ============================================================
+    if __name__ == "__main__":
+        if len(sys.argv) < 2:
+            print("Usage: python generate_facsimile.py <folder_path>")
+            sys.exit(1)
 
-        if xml_file.exists():
-            generate_facsimile_if_missing(xml_file, carta_id)
-        else:
-            print(f"[!] File not found: {xml_file}")
+        folder = Path(sys.argv[1])
+
+        if not folder.exists():
+            print(f"[ERROR] Folder not found: {folder}")
+            sys.exit(1)
+
+        # Regex: CV-<number><optional letters>.xml
+        pattern = re.compile(r"CV-(\d+)([a-z]*)\.xml$", re.IGNORECASE)
+
+        for xml_file in sorted(folder.glob("CV-*.xml")):
+            match = pattern.match(xml_file.name)
+            if not match:
+                continue
+
+            base_number = int(match.group(1))
+            carta_id = xml_file.stem  # keeps CV-147a exactly
+
+            # Process only CV-1 to CV-150 (including suffixed files)
+            if 1 <= base_number <= 150:
+                generate_facsimile_if_missing(xml_file, carta_id)

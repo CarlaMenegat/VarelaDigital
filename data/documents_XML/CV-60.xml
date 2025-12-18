@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-60 – Francisco Pedro de Abreupara Manuel Jorge Rodrigues</title>
+                <title>Carta CV-60 – Francisco Pedro de Abreu para Manuel Jorge Rodrigues</title>
                 <author>Francisco Pedro de Abreu</author>
                 <respStmt>
                     <resp>Edição digital</resp>
@@ -117,6 +117,12 @@
             </list>
         </revisionDesc>
     </teiHeader>
+
+    <facsimile>
+        <surface xml:id="CV-60_1r" n="1r"/>
+        <surface xml:id="CV-60_1v" n="1v"/>
+    </facsimile>
+
     
     <text>
         <body>

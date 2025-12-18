@@ -117,13 +117,17 @@
             </list>
         </revisionDesc>
     </teiHeader>
-    
+
     <facsimile>
+        <surface xml:id="CV-96_1r" n="1r"/>
         <surface xml:id="CV-96_1v" n="1v">
             <zone xml:id="brand_1" type="cattleBrand"/>
             <zone xml:id="brand_2" type="cattleBrand"/>
         </surface>
+        <surface xml:id="CV-96_2r" n="2r"/>
+        <surface xml:id="CV-96_2v" n="2v"/>
     </facsimile>
+
     
     <text>
         <body>

@@ -118,6 +118,16 @@
             </list>
         </revisionDesc>
     </teiHeader>
+
+    <facsimile>
+        <surface xml:id="CV-21_1r" n="1r"/>
+        <surface xml:id="CV-21_1v" n="1v"/>
+        <surface xml:id="CV-21_2r" n="2r"/>
+        <surface xml:id="CV-21_2v" n="2v"/>
+        <surface xml:id="CV-21_3r" n="3r"/>
+        <surface xml:id="CV-21_3v" n="3v"/>
+    </facsimile>
+
     
     <text>
         <body>

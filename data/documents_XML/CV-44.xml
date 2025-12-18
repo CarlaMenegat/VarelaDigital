@@ -117,8 +117,16 @@
             </list>
         </revisionDesc>
     </teiHeader>
+
+    <facsimile>
+        <surface xml:id="CV-44_1r" n="1r"/>
+        <surface xml:id="CV-44_1v" n="1v"/>
+        <surface xml:id="CV-44_2r" n="2r"/>
+        <surface xml:id="CV-44_2v" n="2v"/>
+    </facsimile>
+
     
-    <facsimile><surface xml:id="CV-44_1v"><graphic url="images/CV-44_1v.jpg" /></surface><surface xml:id="CV-44_2r"><graphic url="images/CV-44_2r.jpg" /></surface></facsimile><text>
+    <text>
         <body>
             <div type="letter" xml:id="CV-44">
                 

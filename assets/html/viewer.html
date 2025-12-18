@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Varela Digital – Letters Viewer</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+
+    <body>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Varela Digital</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Homepage</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="lettersDropdown"
+                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Letters
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="lettersDropdown">
+                    <li><a class="dropdown-item" href="assets/html/letters-index.html">Letters Index</a></li>
+                    <li><a class="dropdown-item" href="assets/html/viewer.html">Viewer</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="assets/html/project_discussion.html">Theoretical Framework</a>
+                </li>
+
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+        <!-- Letter navigation -->
+        <div class="container mt-3 text-center">
+            <div class="letter-nav d-inline-flex align-items-center gap-3">
+            <button id="prev-letter" class="btn btn-outline-secondary btn-sm">&laquo; Previous</button>
+            <div id="letter-date" class="fw-bold text-uppercase small px-2"></div>
+            <button id="next-letter" class="btn btn-outline-secondary btn-sm">Next &raquo;</button>
+            </div>
+        </div>
+
+        <div class="main-content">
+
+            <!-- Sidebar Metadata (fixed) -->
+            <div id="metadata-sidebar" class="open">
+            <div class="sidebar-header">
+                <h5>Metadata</h5>
+            </div>
+            <div id="metadata-content" class="sidebar-content"></div>
+            </div>
+
+            <div class="content-wrapper d-flex w-100">
+
+            <!-- Left column: facsimile placeholder -->
+            <div class="col-6 left-column">
+                <div class="xml-image-placeholder">
+                <strong>Facsimile unavailable</strong><br>
+                Documents are currently under restoration at AHRS.<br>
+                This digital edition is based on the printed transcription.
+                </div>
+            </div>
+
+            <!-- Right column: transcription -->
+            <div class="col-6 right-column d-flex flex-column">
+
+                <!-- Translation placeholder -->
+                <div class="px-2 pt-2">
+                <button class="btn btn-sm btn-outline-secondary mb-2" disabled
+                        title="Planned feature: AI-assisted translation">
+                    AI-assisted translation (planned)
+                </button>
+                </div>
+
+                <div class="transcription-box">
+
+                <div class="surface-selector-wrapper mb-2">
+                    <label for="surface-selector" class="form-label mb-0">Surface</label>
+                    <select id="surface-selector"
+                            class="form-select form-select-sm w-auto d-inline-block"></select>
+                </div>
+
+                <div id="transcription-content" class="px-2 py-1"></div>
+                </div>
+
+                <div class="annotations-box d-none" id="annotations-box">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h5 class="mb-0">Annotations</h5>
+                    <button id="close-annotations"
+                            class="btn btn-sm btn-outline-secondary">×</button>
+                </div>
+                <div id="annotations-content"></div>
+                </div>
+
+            </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center py-4">
+            <p>
+            This project was developed by <strong>Carla Menegat</strong> |
+            <a href="mailto:carla.menegat@studio.unibo.it">carla.menegat@studio.unibo.it</a> |
+            <a href="https://github.com/CarlaMenegat" target="_blank">GitHub</a> |
+            Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+            </p>
+
+            <p>
+            Final Examination project for the
+            <a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge"
+                target="_blank">
+                Master Degree in Digital Humanities and Digital Knowledge (DHDK)
+            </a>,
+            University of Bologna.
+            </p>
+
+            <p><a href="assets/html/documentation.html">Project Documentation</a></p>
+        </footer>
+
+        <script src="assets/scripts/viewer.js"></script>
+    </body>
+</html>
