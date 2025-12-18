@@ -1,135 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Varela Digital</title>
-    <link rel="stylesheet" href="assets/css/styles.css" />
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body class="homepage">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+
+  <body class="homepage">
 
     <!-- Navbar -->
-<nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Varela Digital</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Homepage</a>
-          </li>
-  
-          <!-- Dropdown for Letters -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="lettersDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Letters
-            </a>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Varela Digital</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Homepage</a>
+            </li>
+
             <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="exploreDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Explore
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="exploreDropdown">
-                            <li><a class="dropdown-item" href="explore-senders.html">Senders</a></li>
-                            <li><a class="dropdown-item" href="explore-addressees.html">Addressees</a></li>
-                            <li><a class="dropdown-item" href="explore-places.html">Places</a></li>
-                            <li><a class="dropdown-item" href="explore-dates.html">Dates</a></li>
-                            <li><a class="dropdown-item" href="explore-themes.html">Themes</a></li>
-                        </ul>
-                    </li>
+              <a class="nav-link dropdown-toggle" href="#" id="lettersDropdown"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Letters
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="lettersDropdown">
+                <li><a class="dropdown-item" href="assets/html/letters-index.html">Letters Index</a></li>
+                <li><a class="dropdown-item" href="assets/html/viewer.html">Viewer</a></li>
+              </ul>
+            </li>
 
-                    <!-- Visualizations -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="visualizations.html">Data Visualization</a>
-                    </li>
+            <li class="nav-item">
+              <a class="nav-link" href="assets/html/project_discussion.html">Theoretical Framework</a>
+            </li>
 
-                    <li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle"
-     href="#"
-     id="editionDropdown"
-     role="button"
-     data-bs-toggle="dropdown"
-     data-bs-offset="-20,0"  
-     aria-expanded="false">
-    Digital Edition
-  </a>
-
-  <ul class="dropdown-menu" aria-labelledby="editionDropdown">
-    <li><a class="dropdown-item" href="digital_edition.html#edition">The Edition</a></li>
-    <li><a class="dropdown-item" href="digital_edition.html#markup">Markup & Hypertext</a></li>
-    <li><a class="dropdown-item" href="digital_edition.html#commentary">Text Commentary</a></li>
-    <li><a class="dropdown-item" href="digital_edition.html#annotation-levels">Annotation Levels</a></li>
-    <li><a class="dropdown-item" href="digital_edition.html#knowledge-base">Knowledge Base</a></li>
-    <li><a class="dropdown-item" href="digital_edition.html#datasets">Datasets & Ontologies</a></li>
-    <li><a class="dropdown-item" href="digital_edition.html#reproducibility">Reproducibility</a></li>
-    <li><a class="dropdown-item" href="digital_edition.html#documentation">Documentation</a></li>
-  </ul>
-</li>
-
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-    <!-- Hero section -->
-    <section class="hero"
-        style="background-image: url('assets/images/Carga_de_Cavalaria_by_Guilherme_Litran.jpg');">
-        <div class="hero-content text-center">
-        <h1>Varela Digital</h1>
-            <p class="lead">A knowledge website for the Varela Collection</p>
-            <a href="" class="btn btn-light btn-lg mt-3">Explore Documents</a>
+          </ul>
         </div>
+      </div>
+    </nav>
+
+    <!-- Full-width contextual image -->
+    <section class="context-image">
+      <img
+        src="assets/images/Carga_de_Cavalaria_by_Guilherme_Litran.jpg"
+        alt="Illustration of a cavalry charge during the Farroupilha Revolution"
+      />
+      <div class="context-caption">
+        Cavalry Charge, oil on canvas, Guilherme Litran, 1893.
+      </div>
     </section>
 
-    <!-- Main Content -->
-    <section id="project" class="section container">
-        <h2>The Project</h2>
+    <!-- Main textual content -->
+    <main class="page-text">
 
+      <div class="intro-box">
         <p>
-            <em>Varela Digital</em> is a digital edition and knowledge website dedicated to the letters of the
-            Varela Collection, a group of documents written and received by Domingos José de Almeida and other figures
-            involved in the Farroupilha Revolution (1835–1845) and organized by the historian Alfredo Varela. The pilot corpus is based on the letters published in
-            volume II of the <em>Anais do Arquivo Histórico do Rio Grande do Sul</em>, encoded in TEI–XML and enriched
-            with semantic annotation layers.
+          <em>Varela Digital</em> is a digital scholarly edition and knowledge website
+          dedicated to the correspondence preserved in the Varela Collection,
+          documenting political, military, and social networks during the
+          Farroupilha Revolution (1835–1845).
         </p>
 
         <p>
-            The edition offers a faceted navigation system enabling users to explore the corpus through key analytical
-            categories: sender, addressee, place, date, and theme. Each transcription is accompanied by rich contextual
-            metadata and editorial notes, deepening understanding of the political, geographic, and interpersonal networks  
-            represented in the documents.
+          The pilot corpus is based on the letters published in Volume II of the
+          <em>Anais do Arquivo Histórico do Rio Grande do Sul</em>. All documents are
+          encoded in TEI–XML and enriched through structured metadata, standoff
+          annotation, and linked data modeling.
         </p>
+      </div>
 
-        <p>
-            Beyond textual representation, Varela Digital develops a structured knowledge base involving correspondents,
-            institutions, events, places, and manuscript traditions. These datasets are made available as interoperable  
-            RDF/LOD resources that facilitate reuse, citation, and integration with external knowledge platforms.
-        </p>
+      <div class="explore-box">
 
-        <p>
-            The project also includes interactive visualizations such as maps and network graphs that reveal spatial
-            dynamics and social patterns in the circulation of letters. Full documentation of the editorial workflow
-            ensures academic transparency and reproducibility.
-        </p>
-    </section>
+        <h2>What you can explore</h2>
+
+        <ul>
+          <li>Critical transcriptions of letters and related documents</li>
+          <li>Rich correspondence metadata (sender, addressee, place, date)</li>
+          <li>Named entities and semantic relations extracted from the texts</li>
+          <li>A reproducible editorial workflow from TEI to HTML and RDF</li>
+        </ul>
+
+        <div class="mt-4 d-flex gap-3 flex-wrap">
+          <a href="index.html" class="btn btn-outline-secondary">
+            Browse the Letters
+          </a>
+
+          <a href="assets/html/viewer.html" class="btn btn-outline-secondary">
+            Open the Viewer
+          </a>
+
+          <a href="assets/html/project_discussion.html" class="btn btn-outline-secondary">
+            Read the Editorial Framework
+          </a>
+        </div>
+
+      </div>
+
+    </main>
 
     <!-- Footer -->
-    <footer>
-        <p>
-            Developed by <strong>Carla Menegat</strong> —
-            <a href="mailto:carla.menegat@studio.unibo.it">carla.menegat@studio.unibo.it</a> —
-            <a href="https://github.com/CarlaMenegat" target="_blank">GitHub</a>
-        </p>
-        <p>
-            Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
-        </p>
+    <footer class="text-center py-4 mt-5">
+      <p>
+        Developed by <strong>Carla Menegat</strong> |
+        <a href="mailto:carla.menegat@studio.unibo.it">carla.menegat@studio.unibo.it</a> |
+        <a href="https://github.com/CarlaMenegat" target="_blank">GitHub</a> |
+        Licensed under
+        <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+      </p>
+
+      <p>
+        Final examination project for the
+        <a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge" target="_blank">
+          Master Degree in Digital Humanities and Digital Knowledge (DHDK)
+        </a>,
+        University of Bologna.
+      </p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>

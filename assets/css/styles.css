@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
 
+/* =========================
+   BASE
+========================= */
+
 html, body {
   height: 100%;
   margin: 0;
@@ -7,33 +11,30 @@ html, body {
   scroll-behavior: smooth;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #F8F5EF;
+  color: #2f2f2f;
 }
 
-/* === NAVBAR === */
+/* =========================
+   NAVBAR
+========================= */
 
 .navbar {
   background-color: rgba(122, 31, 41, 0.75) !important;
   backdrop-filter: blur(4px);
 }
 
-body.homepage .navbar {
-  background-color: rgba(248, 245, 239, 0.9) !important;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
 .navbar-brand {
   font-family: 'Playfair Display', serif;
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: #5E121A !important;
 }
 
 .navbar-nav .nav-link {
   color: #5E121A !important;
-  font-size: 1.05rem;
   font-family: 'Playfair Display', serif;
+  font-size: 1.05rem;
   position: relative;
-  transition: color 0.3s ease;
 }
 
 .navbar-nav .nav-link::after {
@@ -47,48 +48,97 @@ body.homepage .navbar {
   transition: width 0.3s ease;
 }
 
-.navbar-nav .nav-link:hover {
-  color: #7A1F29 !important;
-}
-
 .navbar-nav .nav-link:hover::after {
   width: 100%;
 }
 
-.navbar-nav .dropdown-menu {
-  font-family: 'Playfair Display', serif;
-  font-size: 1rem;
+/* =========================
+   INDEX — FULL-WIDTH IMAGE
+========================= */
+
+.context-image {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  margin-top: 63px; /* navbar offset */
   background-color: #F8F5EF;
+}
+
+.context-image img {
+  width: 100%;
+  height: auto; /* CRUCIAL: no crop, no distortion */
+  display: block;
+}
+
+.context-caption {
+  text-align: right;
+  margin: 0.4rem auto 0 auto;
+  font-size: 0.75rem;
+  color: rgba(94, 18, 26, 0.7);
+  margin: 0.4rem 0 0 0;
+  font-style: italic;
+  letter-spacing: 0.02em;
+}
+
+/* =========================
+   INDEX — TEXT AREA
+========================= */
+
+.page-text {
+  width: 90vw;          /* what you asked for */
+  max-width: 1100px;
+  margin: 3rem auto 4rem auto;
+  padding: 0 1rem;
+}
+
+/* Intro box */
+
+.intro-box {
+  background-color: #FFFFFF;
   border: 1px solid #D9D6CE;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 14px;
+  padding: 2rem 2.25rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
 }
 
-.dropdown-menu .dropdown-item {
-  color: #5E121A !important;
-  padding: 0.5rem 1rem;
+.intro-box p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  margin-bottom: 1rem;
 }
 
-.dropdown-menu .dropdown-item:hover {
-  background-color: #EDE8DF;
+.intro-box p:last-child {
+  margin-bottom: 0;
 }
 
-/* === LETTER NAVIGATION === */
+/* Explore box */
 
-.letter-nav {
-  background-color: #F8F5EF;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+.explore-box {
+  background-color: rgba(122, 31, 41, 0.45);
+  border-radius: 16px;
+  padding: 2.2rem 2.4rem;
+  border: 1px solid #C4B3B2;
+  margin-top: 3rem;
 }
 
-#letter-date {
-  min-width: 200px;
-  text-align: center;
-  font-size: 0.95rem;
-  color: #5E121A;
+.explore-box h2 {
+  font-family: 'Playfair Display', serif;
+  margin-top: 0;
+  margin-bottom: 1.2rem;
 }
 
-/* === MAIN LAYOUT === */
+.explore-box ul {
+  padding-left: 1.3rem;
+  margin-bottom: 1.8rem;
+}
+
+.explore-box li {
+  margin-bottom: 0.6rem;
+}
+
+/* =========================
+   VIEWER — MAIN LAYOUT
+========================= */
 
 .main-content {
   display: flex;
@@ -96,9 +146,7 @@ body.homepage .navbar {
   overflow: hidden;
 }
 
-.content-wrapper {
-  order: 1;
-}
+/* Columns */
 
 .left-column,
 .right-column {
@@ -112,17 +160,17 @@ body.homepage .navbar {
   overflow: hidden;
 }
 
-/* === SIDEBAR (FIXED) === */
+/* =========================
+   METADATA SIDEBAR (RIGHT)
+========================= */
 
 #metadata-sidebar {
   width: 300px;
   padding: 1rem;
   background-color: #F8F5EF;
   border-left: 1px solid #D9D6CE;
-  font-family: sans-serif;
   color: #5E121A;
   overflow-y: auto;
-  order: 3;
 }
 
 .metadata-entry {
@@ -131,23 +179,16 @@ body.homepage .navbar {
   line-height: 1.4;
 }
 
-#metadata-sidebar a {
-  color: #5E121A;
-  text-decoration: underline dotted;
-}
-
-#metadata-sidebar a:hover {
-  color: #7A1F29;
-}
-
-/* === FACSIMILE PLACEHOLDER === */
+/* =========================
+   FACSIMILE PLACEHOLDER
+========================= */
 
 .xml-image-placeholder {
   background: #EDE8DF;
   height: 100%;
   border: 1px dashed #C4B3B2;
   margin: 0.5rem;
-  padding: 1rem;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -158,7 +199,9 @@ body.homepage .navbar {
   font-style: italic;
 }
 
-/* === TRANSCRIPTION & ANNOTATIONS === */
+/* =========================
+   TRANSCRIPTION & NOTES
+========================= */
 
 .transcription-box,
 .annotations-box {
@@ -172,26 +215,9 @@ body.homepage .navbar {
   overflow-y: auto;
 }
 
-.surface-selector-wrapper {
-  position: absolute;
-  top: 0.75rem;
-  right: 1rem;
-  background-color: rgba(255,255,255,0.95);
-  padding: 0.25rem 0.5rem;
-  border-radius: 0.4rem;
-}
-
-/* === ANNOTATIONS === */
-
-.annotation-box {
-  padding: 0.5rem;
-  border-radius: 6px;
-  background-color: #F8F5EF;
-  border: 1px solid #D9D6CE;
-  margin-top: 0.5rem;
-}
-
-/* === CLICKABLE TEXT === */
+/* =========================
+   CLICKABLE TEXT
+========================= */
 
 .annotated {
   position: relative;
@@ -211,19 +237,9 @@ body.homepage .navbar {
   background-color: rgba(122, 31, 41, 0.15);
 }
 
-.tei-document.letter h2 {
-  font-style: italic;
-}
-
-.tei-document.legal h2 {
-  text-transform: uppercase;
-}
-
-.tei-document.legal ol {
-  margin-left: 2rem;
-}
-
-/* === FOOTER === */
+/* =========================
+   FOOTER
+========================= */
 
 footer {
   background-color: #E5D8D6;
