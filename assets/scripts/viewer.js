@@ -9,7 +9,7 @@ const BASE_XML_PATH = '../../data/documents_XML/';
 const STANDOFF_BASE_PATH = '../../data/standoff/';
 
 const STANDOFF_FILES = {
-  person: STANDOFF_BASE_PATH + 'standoff-person.xml',
+  persons: STANDOFF_BASE_PATH + 'standoff-persons.xml',
   places: STANDOFF_BASE_PATH + 'standoff-places.xml',
   orgs: STANDOFF_BASE_PATH + 'standoff-orgs.xml'
 };
