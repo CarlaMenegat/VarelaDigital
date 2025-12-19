@@ -53,17 +53,25 @@ document.addEventListener('DOMContentLoaded', async () => {
   try {
     const teiDoc = await fetchXML(BASE_XML_PATH + fileParam);
 
-    window.CURRENT_TEI_DOC = teiDoc;   // ← ADD THIS
+    // Make TEI globally available for re-rendering
+    window.CURRENT_TEI_DOC = teiDoc;
 
     renderViewer(teiDoc, fileParam);
-    setupViewTabs();                   // ← ADD THIS
+    setupViewTabs();
+
   } catch (err) {
     console.error(err);
   }
 });
 
+/* =========================================================
+   View tabs (Reading / Encoded / Diplomatic)
+   ========================================================= */
+
 function setupViewTabs() {
   const tabs = document.querySelectorAll('.tab-button');
+
+  if (!tabs.length) return;
 
   tabs.forEach(tab => {
     tab.addEventListener('click', () => {
@@ -85,7 +93,7 @@ function setupViewTabs() {
         }
       });
 
-      // Re-render text according to mode
+      // Re-render text
       renderText(window.CURRENT_TEI_DOC);
     });
   });
@@ -97,7 +105,7 @@ function setupViewTabs() {
 
 function renderViewer(teiDoc, fileName) {
   renderMetadataSidebar(teiDoc, fileName);
-  renderLetterNavInfo(teiDoc); 
+  renderLetterNavInfo(teiDoc);
   renderText(teiDoc);
 }
 
@@ -131,35 +139,29 @@ function renderLetterNavInfo(teiDoc) {
 }
 
 /* =========================================================
-   Metadata sidebar (from teiHeader only)
+   Metadata sidebar
    ========================================================= */
 
 function renderMetadataSidebar(teiDoc, fileName) {
   const sidebar = document.getElementById('metadata-sidebar');
   const content = sidebar.querySelector('.sidebar-content');
 
+  if (!content) return;
+
   content.innerHTML = '';
 
   const title =
     teiDoc.querySelector('titleStmt > title')?.textContent || '';
   const sender =
-    teiDoc.querySelector('correspAction[type="sent"] persName')?.textContent ||
-    '';
+    teiDoc.querySelector('correspAction[type="sent"] persName')?.textContent || '';
   const receiver =
-    teiDoc.querySelector(
-      'correspAction[type="received"] persName'
-    )?.textContent || '';
+    teiDoc.querySelector('correspAction[type="received"] persName')?.textContent || '';
   const place =
-    teiDoc.querySelector(
-      'correspAction[type="sent"] placeName'
-    )?.textContent || '';
+    teiDoc.querySelector('correspAction[type="sent"] placeName')?.textContent || '';
   const date =
-    teiDoc
-      .querySelector('correspAction[type="sent"] date')
-      ?.getAttribute('when') || '';
+    teiDoc.querySelector('correspAction[type="sent"] date')?.getAttribute('when') || '';
   const publisher =
-    teiDoc.querySelector('publicationStmt > publisher')?.textContent ||
-    '';
+    teiDoc.querySelector('publicationStmt > publisher')?.textContent || '';
   const edition =
     teiDoc.querySelector('editionStmt > edition')?.textContent || '';
 
@@ -190,8 +192,14 @@ function renderMetadataSidebar(teiDoc, fileName) {
 
 function renderText(teiDoc) {
   const container = document.querySelector(
-  `.transcription-layer[data-view="${VIEW_MODE}"]`
+    `.transcription-layer[data-view="${VIEW_MODE}"]`
   );
+
+  if (!container) {
+    console.warn(`No transcription layer for view: ${VIEW_MODE}`);
+    return;
+  }
+
   container.innerHTML = '';
 
   const textDiv = teiDoc.querySelector('text > body > div');
@@ -201,7 +209,6 @@ function renderText(teiDoc) {
     return;
   }
 
-  /* Fallback: no surface-based rendering yet */
   container.appendChild(renderNode(textDiv));
 }
 
@@ -210,6 +217,7 @@ function renderText(teiDoc) {
    ========================================================= */
 
 function renderNode(node) {
+
   // Text nodes
   if (node.nodeType === Node.TEXT_NODE) {
     return document.createTextNode(node.textContent);
@@ -224,10 +232,7 @@ function renderNode(node) {
 
   switch (node.tagName) {
 
-    /* ===============================
-       Structural elements
-       =============================== */
-
+    /* Structural */
     case 'p':
       el = document.createElement('p');
       break;
@@ -253,10 +258,7 @@ function renderNode(node) {
       el = document.createElement('div');
       break;
 
-    /* ===============================
-       Editorial alternation
-       =============================== */
-
+    /* Editorial alternation */
     case 'choice':
       if (VIEW_MODE === 'reading') {
         const expan = node.querySelector('expan');
@@ -264,48 +266,33 @@ function renderNode(node) {
           ? renderNode(expan)
           : document.createDocumentFragment();
       }
-
-      // encoded / diplomatic
       el = document.createElement('span');
       break;
 
-    /* ===============================
-       Page breaks
-       =============================== */
-
+    /* Page breaks */
     case 'pb':
       el = document.createElement('span');
       el.className = 'page-break';
-
-      if (VIEW_MODE === 'encoded' || VIEW_MODE === 'diplomatic') {
-        el.textContent = `[pb ${node.getAttribute('n')}]`;
-      } else {
-        // reading view
-        el.textContent = `[${node.getAttribute('n')}]`;
-      }
+      el.textContent =
+        VIEW_MODE === 'encoded' || VIEW_MODE === 'diplomatic'
+          ? `[pb ${node.getAttribute('n')}]`
+          : `[${node.getAttribute('n')}]`;
       break;
 
     case 'seg':
       if (node.getAttribute('type') === 'folio') {
         if (VIEW_MODE === 'reading') {
-          // In reading view, suppress editorial folio
-          // when pb already signals page change
           return document.createDocumentFragment();
         }
-
         el = document.createElement('span');
         el.className = 'page-break';
         el.textContent = node.textContent;
         break;
       }
-
       el = document.createElement('span');
       break;
 
-    /* ===============================
-       Named entities
-       =============================== */
-
+    /* Named entities */
     case 'persName':
     case 'placeName':
     case 'orgName':
@@ -314,15 +301,10 @@ function renderNode(node) {
       el.className = 'annotated';
       break;
 
-    /* ===============================
-       Fallback
-       =============================== */
-
     default:
       el = document.createElement('span');
   }
 
-  // Recursive rendering
   for (const child of node.childNodes) {
     el.appendChild(renderNode(child));
   }
