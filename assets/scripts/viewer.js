@@ -2,40 +2,34 @@
    Varela Digital – TEI Viewer
    ========================================================= */
 
-/* Paths are relative to assets/html/viewer.html */
+console.log('viewer.js loaded');
+
+/* Paths relative to assets/html/viewer.html */
 const BASE_XML_PATH = '../../data/documents_XML/';
 const STANDOFF_BASE_PATH = '../../data/standoff/';
 
 const STANDOFF_FILES = {
   persons: STANDOFF_BASE_PATH + 'standoff-persons.xml',
   places: STANDOFF_BASE_PATH + 'standoff-places.xml',
-  events: STANDOFF_BASE_PATH + 'standoff-events.xml',
-  orgs: STANDOFF_BASE_PATH + 'standoff-orgs.xml',
-  relations: STANDOFF_BASE_PATH + 'standoff-relations.xml'
+  orgs: STANDOFF_BASE_PATH + 'standoff-orgs.xml'
 };
 
-/* =========================================================
-   View mode control
-   ========================================================= */
-
-let VIEW_MODE = 'reading'; // 'reading' | 'encoded' | 'diplomatic'
+let VIEW_MODE = 'reading';
+let STANDOFF_INDEX = {};
 
 /* =========================================================
    Utilities
    ========================================================= */
 
 function getQueryParam(name) {
-  const params = new URLSearchParams(window.location.search);
-  return params.get(name);
+  return new URLSearchParams(window.location.search).get(name);
 }
 
 async function fetchXML(path) {
-  const response = await fetch(path);
-  if (!response.ok) {
-    throw new Error(`Failed to load XML: ${path}`);
-  }
-  const text = await response.text();
-  return new DOMParser().parseFromString(text, 'application/xml');
+  const res = await fetch(path);
+  if (!res.ok) throw new Error(`Failed to load ${path}`);
+  const txt = await res.text();
+  return new DOMParser().parseFromString(txt, 'application/xml');
 }
 
 /* =========================================================
@@ -44,20 +38,17 @@ async function fetchXML(path) {
 
 document.addEventListener('DOMContentLoaded', async () => {
   const fileParam = getQueryParam('file');
-
-  if (!fileParam) {
-    console.warn('No file parameter provided (?file=CV-XXX.xml)');
-    return;
-  }
+  if (!fileParam) return;
 
   try {
     const teiDoc = await fetchXML(BASE_XML_PATH + fileParam);
-
-    // Make TEI globally available for re-rendering
     window.CURRENT_TEI_DOC = teiDoc;
+
+    await loadStandoffFiles();
 
     renderViewer(teiDoc, fileParam);
     setupViewTabs();
+    setupAnnotationBehaviour();
 
   } catch (err) {
     console.error(err);
@@ -65,77 +56,50 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 /* =========================================================
-   View tabs (Reading / Encoded / Diplomatic)
+   Load standoff files
    ========================================================= */
 
-function setupViewTabs() {
-  const tabs = document.querySelectorAll('.tab-button');
+async function loadStandoffFiles() {
+  for (const path of Object.values(STANDOFF_FILES)) {
+    const xml = await fetchXML(path);
+    indexStandoff(xml);
+  }
+}
 
-  if (!tabs.length) return;
-
-  tabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      if (tab.disabled) return;
-
-      const view = tab.dataset.view;
-      VIEW_MODE = view;
-
-      // Toggle active tab
-      tabs.forEach(t => t.classList.remove('active'));
-      tab.classList.add('active');
-
-      // Toggle transcription layers
-      document.querySelectorAll('.transcription-layer').forEach(layer => {
-        if (layer.dataset.view === view) {
-          layer.classList.remove('d-none');
-        } else {
-          layer.classList.add('d-none');
-        }
-      });
-
-      // Re-render text
-      renderText(window.CURRENT_TEI_DOC);
-    });
+function indexStandoff(xml) {
+  xml.querySelectorAll('[xml\\:id]').forEach(el => {
+    const id = el.getAttribute('xml:id');
+    STANDOFF_INDEX[id] = el;
   });
 }
 
 /* =========================================================
-   Main rendering
+   Viewer rendering
    ========================================================= */
 
 function renderViewer(teiDoc, fileName) {
-  renderMetadataSidebar(teiDoc, fileName);
   renderLetterNavInfo(teiDoc);
+  renderMetadataSidebar(teiDoc, fileName);
   renderText(teiDoc);
 }
 
 /* =========================================================
-   Letter navigation (title + date)
+   Letter navigation
    ========================================================= */
 
 function renderLetterNavInfo(teiDoc) {
-  const infoContainer = document.getElementById('letter-info');
-  if (!infoContainer) return;
+  const box = document.getElementById('letter-info');
+  if (!box) return;
 
-  const title =
-    teiDoc.querySelector('titleStmt > title')?.textContent || '';
+  const title = teiDoc.querySelector('titleStmt > title')?.textContent || '';
+  const date = teiDoc
+    .querySelector('correspAction[type="sent"] date')
+    ?.getAttribute('when') || '';
 
-  const date =
-    teiDoc
-      .querySelector('correspAction[type="sent"] date')
-      ?.getAttribute('when') || '';
-
-  let html = '';
-
-  if (title) {
-    html += `<div class="letter-title">${title}</div>`;
-  }
-
-  if (date) {
-    html += `<div class="letter-date">${date}</div>`;
-  }
-
-  infoContainer.innerHTML = html;
+  box.innerHTML = `
+    <div class="letter-title">${title}</div>
+    <div class="letter-date">${date}</div>
+  `;
 }
 
 /* =========================================================
@@ -143,47 +107,22 @@ function renderLetterNavInfo(teiDoc) {
    ========================================================= */
 
 function renderMetadataSidebar(teiDoc, fileName) {
-  const sidebar = document.getElementById('metadata-sidebar');
-  const content = sidebar.querySelector('.sidebar-content');
+  const c = document.getElementById('metadata-content');
+  if (!c) return;
 
-  if (!content) return;
+  const q = s => teiDoc.querySelector(s)?.textContent || '';
+  const qa = (s, a) => teiDoc.querySelector(s)?.getAttribute(a) || '';
 
-  content.innerHTML = '';
-
-  const title =
-    teiDoc.querySelector('titleStmt > title')?.textContent || '';
-  const sender =
-    teiDoc.querySelector('correspAction[type="sent"] persName')?.textContent || '';
-  const receiver =
-    teiDoc.querySelector('correspAction[type="received"] persName')?.textContent || '';
-  const place =
-    teiDoc.querySelector('correspAction[type="sent"] placeName')?.textContent || '';
-  const date =
-    teiDoc.querySelector('correspAction[type="sent"] date')?.getAttribute('when') || '';
-  const publisher =
-    teiDoc.querySelector('publicationStmt > publisher')?.textContent || '';
-  const edition =
-    teiDoc.querySelector('editionStmt > edition')?.textContent || '';
-
-  content.innerHTML = `
-    <div class="metadata-entry"><strong>Title:</strong> ${title}</div>
-    <div class="metadata-entry"><strong>From:</strong> ${sender}</div>
-    <div class="metadata-entry"><strong>To:</strong> ${receiver}</div>
-    <div class="metadata-entry"><strong>Place:</strong> ${place}</div>
-    <div class="metadata-entry"><strong>Date:</strong> ${date}</div>
-    <div class="metadata-entry"><strong>Source:</strong> ${publisher}</div>
-    <div class="metadata-entry"><strong>Digital edition:</strong> ${edition}</div>
+  c.innerHTML = `
+    <div class="metadata-entry"><strong>Title:</strong> ${q('titleStmt > title')}</div>
+    <div class="metadata-entry"><strong>From:</strong> ${q('correspAction[type="sent"] persName')}</div>
+    <div class="metadata-entry"><strong>To:</strong> ${q('correspAction[type="received"] persName')}</div>
+    <div class="metadata-entry"><strong>Place:</strong> ${q('correspAction[type="sent"] placeName')}</div>
+    <div class="metadata-entry"><strong>Date:</strong> ${qa('correspAction[type="sent"] date','when')}</div>
     <div class="metadata-entry">
-      <a href="${BASE_XML_PATH + fileName}" target="_blank">
-        Download TEI XML
-      </a>
-    </div>
-    <div class="metadata-entry">
-      <em>RDF version (coming soon)</em>
+      <a href="${BASE_XML_PATH + fileName}" target="_blank">Download TEI XML</a>
     </div>
   `;
-
-  sidebar.classList.add('open');
 }
 
 /* =========================================================
@@ -191,64 +130,119 @@ function renderMetadataSidebar(teiDoc, fileName) {
    ========================================================= */
 
 function renderText(teiDoc) {
-  const container = document.querySelector(
+  const layer = document.querySelector(
     `.transcription-layer[data-view="${VIEW_MODE}"]`
   );
+  if (!layer) return;
 
-  if (!container) {
-    console.warn(`No transcription layer for view: ${VIEW_MODE}`);
-    return;
-  }
-
-  container.innerHTML = '';
-
-  const textDiv = teiDoc.querySelector('text > body > div');
-
-  if (!textDiv) {
-    console.warn('No text division found');
-    return;
-  }
-
-  container.appendChild(renderNode(textDiv));
+  layer.innerHTML = '';
+  const div = teiDoc.querySelector('text > body > div');
+  if (div) layer.appendChild(renderNode(div));
 }
 
 /* =========================================================
-   Recursive TEI → HTML rendering
+   View tabs
+   ========================================================= */
+
+function setupViewTabs() {
+  document.querySelectorAll('.tab-button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      if (btn.disabled) return;
+
+      VIEW_MODE = btn.dataset.view;
+
+      document.querySelectorAll('.tab-button')
+        .forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      document.querySelectorAll('.transcription-layer')
+        .forEach(l => l.classList.toggle(
+          'd-none',
+          l.dataset.view !== VIEW_MODE
+        ));
+
+      renderText(window.CURRENT_TEI_DOC);
+    });
+  });
+}
+
+/* =========================================================
+   Annotation behaviour (standoff integration)
+   ========================================================= */
+
+function setupAnnotationBehaviour() {
+  const box = document.getElementById('annotations-box');
+  const content = document.getElementById('annotations-content');
+  const closeBtn = document.getElementById('close-annotations');
+
+  if (!box || !content) return;
+
+  box.classList.add('d-none');
+
+  document.addEventListener('click', e => {
+    const span = e.target.closest('.annotated');
+    if (!span) return;
+
+    const ref = span.dataset.ref;
+    if (!ref) return;
+
+    const id = ref.replace('#', '');
+    const entry = STANDOFF_INDEX[id];
+
+    document.body.classList.add('annotations-open');
+    box.classList.remove('d-none');
+
+    if (!entry) {
+      content.innerHTML = `
+        <p class="text-muted small">
+          No annotation available for this entity.
+        </p>`;
+      return;
+    }
+
+    const label =
+      entry.querySelector('persName, placeName, orgName')?.textContent || id;
+    const note =
+      entry.querySelector('note')?.textContent || '';
+
+    content.innerHTML = `
+      <h6>${label}</h6>
+      <p class="small">${note}</p>
+    `;
+  });
+
+  closeBtn.addEventListener('click', () => {
+    box.classList.add('d-none');
+    document.body.classList.remove('annotations-open');
+    content.innerHTML = '';
+  });
+}
+
+/* =========================================================
+   TEI → HTML rendering
    ========================================================= */
 
 function renderNode(node) {
 
-  // Text nodes
   if (node.nodeType === Node.TEXT_NODE) {
     return document.createTextNode(node.textContent);
   }
 
-  // Ignore non-element nodes
   if (node.nodeType !== Node.ELEMENT_NODE) {
     return document.createDocumentFragment();
   }
 
+  const tag = node.tagName.toLowerCase();
   let el;
 
-  switch (node.tagName) {
+  switch (tag) {
 
-    /* Structural */
     case 'p':
       el = document.createElement('p');
       break;
 
     case 'head':
       el = document.createElement('h3');
-      break;
-
-    case 'list':
-      el = document.createElement(
-        node.getAttribute('type') === 'ordered' ? 'ol' : 'ul'
-      );
-      break;
-
-    case 'item':
-      el = document.createElement('li');
       break;
 
     case 'opener':
@@ -258,7 +252,6 @@ function renderNode(node) {
       el = document.createElement('div');
       break;
 
-    /* Editorial alternation */
     case 'choice':
       if (VIEW_MODE === 'reading') {
         const expan = node.querySelector('expan');
@@ -269,14 +262,13 @@ function renderNode(node) {
       el = document.createElement('span');
       break;
 
-    /* Page breaks */
     case 'pb':
       el = document.createElement('span');
       el.className = 'page-break';
       el.textContent =
-        VIEW_MODE === 'encoded' || VIEW_MODE === 'diplomatic'
-          ? `[pb ${node.getAttribute('n')}]`
-          : `[${node.getAttribute('n')}]`;
+        VIEW_MODE === 'reading'
+          ? `[${node.getAttribute('n')}]`
+          : `[pb ${node.getAttribute('n')}]`;
       break;
 
     case 'seg':
@@ -292,22 +284,25 @@ function renderNode(node) {
       el = document.createElement('span');
       break;
 
-    /* Named entities */
-    case 'persName':
-    case 'placeName':
-    case 'orgName':
+    case 'persname':
+    case 'placename':
+    case 'orgname':
     case 'date':
       el = document.createElement('span');
       el.className = 'annotated';
+      el.dataset.type = tag.replace('name', '');
+      if (node.getAttribute('ref')) {
+        el.dataset.ref = node.getAttribute('ref');
+      }
       break;
 
     default:
       el = document.createElement('span');
   }
 
-  for (const child of node.childNodes) {
+  node.childNodes.forEach(child => {
     el.appendChild(renderNode(child));
-  }
+  });
 
   return el;
 }
