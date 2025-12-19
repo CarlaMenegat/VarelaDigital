@@ -9,9 +9,9 @@ const BASE_XML_PATH = '../../data/documents_XML/';
 const STANDOFF_BASE_PATH = '../../data/standoff/';
 
 const STANDOFF_FILES = {
-  persons: STANDOFF_BASE_PATH + 'standoff-persons.xml',
-  places: STANDOFF_BASE_PATH + 'standoff-places.xml',
-  orgs: STANDOFF_BASE_PATH + 'standoff-orgs.xml'
+  persons: STANDOFF_BASE_PATH + 'standoff_persons.xml',
+  places: STANDOFF_BASE_PATH + 'standoff_places.xml',
+  orgs: STANDOFF_BASE_PATH + 'standoff_orgs.xml'
 };
 
 let VIEW_MODE = 'reading';
