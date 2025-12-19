@@ -191,7 +191,7 @@ html, body {
 }
 
 #letter-info .letter-title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 0.95rem;
   color: #5E121A;
 }
