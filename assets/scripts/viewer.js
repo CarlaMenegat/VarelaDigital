@@ -55,16 +55,21 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 /* =========================================================
-   Standoff loading
+   Standoff loading (FIXED)
    ========================================================= */
 
 async function loadStandoffFiles() {
   for (const path of Object.values(STANDOFF_FILES)) {
     const xml = await fetchXML(path);
-    xml.querySelectorAll('[xml\\:id]').forEach(el => {
-      STANDOFF_INDEX[el.getAttribute('xml:id')] = el;
-    });
+
+    xml.querySelectorAll('person[xml\\:id], place[xml\\:id], org[xml\\:id]')
+      .forEach(el => {
+        const id = el.getAttribute('xml:id');
+        STANDOFF_INDEX[id] = el;
+      });
   }
+
+  console.log('STANDOFF INDEX LOADED:', Object.keys(STANDOFF_INDEX));
 }
 
 /* =========================================================
@@ -192,13 +197,6 @@ function setupAnnotationBehaviour() {
     content.innerHTML = '';
   });
 }
-
-document.addEventListener('click', e => {
-  const span = e.target.closest('.annotated');
-  if (!span) return;
-
-  console.log('ANNOTATED CLICK:', span.textContent, span.dataset.ref);
-});
 
 /* =========================================================
    Standoff renderer
