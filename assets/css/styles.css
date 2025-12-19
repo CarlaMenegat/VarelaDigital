@@ -66,16 +66,15 @@ html, body {
 
 .context-image img {
   width: 100%;
-  height: auto; /* CRUCIAL: no crop, no distortion */
+  height: auto;
   display: block;
 }
 
 .context-caption {
   text-align: right;
-  margin: 0.4rem auto 0 auto;
+  margin: 0.4rem 1rem 0 0; /* espaço da barra de rolagem */
   font-size: 0.75rem;
   color: rgba(94, 18, 26, 0.7);
-  margin: 0.4rem 0 0 0;
   font-style: italic;
   letter-spacing: 0.02em;
 }
@@ -85,13 +84,11 @@ html, body {
 ========================= */
 
 .page-text {
-  width: 90vw;          /* what you asked for */
+  width: 90vw;
   max-width: 1100px;
   margin: 3rem auto 4rem auto;
   padding: 0 1rem;
 }
-
-/* Intro box */
 
 .intro-box {
   background-color: #FFFFFF;
@@ -110,8 +107,6 @@ html, body {
 .intro-box p:last-child {
   margin-bottom: 0;
 }
-
-/* Explore box */
 
 .explore-box {
   background-color: rgba(122, 31, 41, 0.45);
@@ -147,18 +142,33 @@ html, body {
   align-items: stretch;
 }
 
-/* Columns */
+/* content-wrapper contém transcription + annotations */
+.content-wrapper {
+  display: flex;
+  flex: 1 1 auto;
+  min-width: 0; /* ESSENCIAL para não “espremer” tudo */
+  gap: 1rem;
+  padding: 1rem;
+}
 
-.left-column,
-.right-column {
-  width: calc(50% - 150px);
+/* =========================
+   COLUMNS (TRANSCRIPTION + ANNOTATIONS)
+========================= */
+
+/* mesmo com flex-grow-1 no HTML, a gente controla o tamanho aqui */
+.left-column {
+  flex: 2 1 0;        /* transcrição maior */
+  min-width: 0;
   display: flex;
   flex-direction: column;
 }
 
-.col-6 {
-  flex: 1;
-  overflow: hidden;
+/* annotations-column existe no teu HTML atual */
+.annotations-column {
+  flex: 1 1 0;        /* anotações menor que transcrição */
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 /* =========================
@@ -166,23 +176,25 @@ html, body {
 ========================= */
 
 #metadata-sidebar {
-  width: 300px;
-  min-width: 300px; 
-  max-width: 300px;   
-  padding: 1rem;
+  /* mais largo, sem duplicar width */
+  width: 420px;
+  min-width: 380px;
+  max-width: 32vw;
 
+  padding: 1rem;
   background-color: #F8F5EF;
   border-left: 1px solid #D9D6CE;
   color: #5E121A;
 
   overflow-y: auto;
-  flex-shrink: 0;   
+  flex-shrink: 0;
 }
 
 .metadata-entry {
   font-size: 0.95rem;
   margin-bottom: 1rem;
-  line-height: 1.4;
+  line-height: 1.45;
+  word-break: break-word;
 }
 
 /* =========================
@@ -206,19 +218,61 @@ html, body {
 }
 
 /* =========================
-   TRANSCRIPTION & NOTES
+   TRANSCRIPTION & ANNOTATIONS BOXES
 ========================= */
 
+/* Caixa principal: ocupa a altura disponível */
+.transcription-box {
+  flex: 1 1 auto;
+  min-height: 0;      /* ESSENCIAL para scroll interno funcionar */
+}
+
+.annotations-box {
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+/* Estilo comum */
 .transcription-box,
 .annotations-box {
   position: relative;
-  height: 100%;
   padding: 1rem;
-  margin: 0.5rem;
   border-radius: 12px;
   background-color: #FFFFFF;
   border: 1px solid #C4B3B2;
   overflow-y: auto;
+}
+
+/* Camadas: evita “sumir” por colapso */
+.transcription-layer {
+  min-height: 1px;
+}
+
+/* Tabs (simples, mas coerente) */
+.transcription-tabs {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.tab-button {
+  border: 1px solid #C4B3B2;
+  background: #F8F5EF;
+  color: #5E121A;
+  border-radius: 6px;
+  padding: 0.25rem 0.55rem;
+  font-size: 0.9rem;
+}
+
+.tab-button.active {
+  background: rgba(122, 31, 41, 0.12);
+  border-color: rgba(122, 31, 41, 0.45);
+}
+
+/* Botão de tradução: fica abaixo e não empurra a caixa pra fora */
+.left-column > .pt-3 {
+  flex: 0 0 auto;
+  padding-top: 0.75rem !important;
 }
 
 /* =========================
@@ -254,4 +308,26 @@ footer {
   text-align: center;
   border-top: 1px solid #C4B3B2;
   font-size: 0.9rem;
+}
+
+/* =========================
+   SMALL SCREENS
+========================= */
+
+@media (max-width: 992px) {
+  .main-content {
+    height: auto;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+  }
+
+  #metadata-sidebar {
+    max-width: none;
+    width: 100%;
+    min-width: 0;
+    border-left: none;
+    border-top: 1px solid #D9D6CE;
+  }
 }
