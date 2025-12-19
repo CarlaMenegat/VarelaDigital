@@ -166,14 +166,17 @@ html, body {
 ========================= */
 
 #metadata-sidebar {
+  width: 300px;
+  min-width: 300px; 
+  max-width: 300px;   
   padding: 1rem;
+
   background-color: #F8F5EF;
   border-left: 1px solid #D9D6CE;
   color: #5E121A;
+
   overflow-y: auto;
-  width: 300px;        
-  max-width: 30vw;     
-  flex-shrink: 0;
+  flex-shrink: 0;   
 }
 
 .metadata-entry {
