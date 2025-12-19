@@ -103,6 +103,11 @@
                     <placeName ref="#pelotas">Pelotas</placeName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -118,7 +123,7 @@
         </revisionDesc>
     </teiHeader>
     
-    <facsimile><surface xml:id="CV-190_1v"><graphic url="images/CV-190_1v.jpg" /></surface><surface xml:id="CV-190_2r"><graphic url="images/CV-190_2r.jpg" /></surface></facsimile><text>
+    <text>
         <body>
             <div type="letter" xml:id="CV-190">
                 
@@ -159,7 +164,7 @@
                     animais do serviço da charqueada e da olaria: ali se mata a laço, mas um guindaste ficará em conta havendo tijolo de 
                     casa, caibros e madeiras miúdas. A lenha para a olaria é em abundância; e está quase dentro da mesma. O porto da parte 
                     da Lagoa é que não é bom; porque além de os iates ficarem afastados de terra, carecendo por isso carregá-los em 
-                    batelões ou champões, sofrem muito com Nordestes, Lestes e Suestes: porém não consta de perdas.
+                    batelões ou champões, sofrem muito com Nordestes, Lestes e Suestes: porém não consta de perdas, etc...
                     <pb n="1v" />
                     <seg type="folio">[1v.]</seg>
                     Os vizinhos desta casa é o de que falei achar-se na frente da alfândega, um novo estabelecimento de charqueada e 
@@ -219,7 +224,7 @@
                     </signed>
                 </closer>
                 
-                <note type="endorsement" place="verso">
+                <note type="endorsement" place="1v">
                     <address>
                         <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.
                         <placeName ref="#pelotas">Pelotas</placeName>. Por especial mercê do
