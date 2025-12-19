@@ -4,7 +4,7 @@
 
 console.log('viewer.js loaded');
 
-/* Paths relative to assets/html/viewer.html */
+/* Paths */
 const BASE_XML_PATH = '../../data/documents_XML/';
 const STANDOFF_BASE_PATH = '../../data/standoff/';
 
@@ -16,6 +16,7 @@ const STANDOFF_FILES = {
 
 let VIEW_MODE = 'reading';
 let STANDOFF_INDEX = {};
+let CURRENT_TEI_DOC = null;
 
 /* =========================================================
    Utilities
@@ -41,12 +42,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (!fileParam) return;
 
   try {
-    const teiDoc = await fetchXML(BASE_XML_PATH + fileParam);
-    window.CURRENT_TEI_DOC = teiDoc;
-
+    CURRENT_TEI_DOC = await fetchXML(BASE_XML_PATH + fileParam);
     await loadStandoffFiles();
 
-    renderViewer(teiDoc, fileParam);
+    renderViewer(CURRENT_TEI_DOC, fileParam);
     setupViewTabs();
     setupAnnotationBehaviour();
 
@@ -56,21 +55,16 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 /* =========================================================
-   Load standoff files
+   Standoff loading
    ========================================================= */
 
 async function loadStandoffFiles() {
   for (const path of Object.values(STANDOFF_FILES)) {
     const xml = await fetchXML(path);
-    indexStandoff(xml);
+    xml.querySelectorAll('[xml\\:id]').forEach(el => {
+      STANDOFF_INDEX[el.getAttribute('xml:id')] = el;
+    });
   }
-}
-
-function indexStandoff(xml) {
-  xml.querySelectorAll('[xml\\:id]').forEach(el => {
-    const id = el.getAttribute('xml:id');
-    STANDOFF_INDEX[id] = el;
-  });
 }
 
 /* =========================================================
@@ -161,13 +155,13 @@ function setupViewTabs() {
           l.dataset.view !== VIEW_MODE
         ));
 
-      renderText(window.CURRENT_TEI_DOC);
+      renderText(CURRENT_TEI_DOC);
     });
   });
 }
 
 /* =========================================================
-   Annotation behaviour (standoff integration)
+   Annotation behaviour
    ========================================================= */
 
 function setupAnnotationBehaviour() {
@@ -181,34 +175,15 @@ function setupAnnotationBehaviour() {
 
   document.addEventListener('click', e => {
     const span = e.target.closest('.annotated');
-    if (!span) return;
+    if (!span || !span.dataset.ref) return;
 
-    const ref = span.dataset.ref;
-    if (!ref) return;
-
-    const id = ref.replace('#', '');
+    const id = span.dataset.ref.replace('#', '');
     const entry = STANDOFF_INDEX[id];
 
     document.body.classList.add('annotations-open');
     box.classList.remove('d-none');
 
-    if (!entry) {
-      content.innerHTML = `
-        <p class="text-muted small">
-          No annotation available for this entity.
-        </p>`;
-      return;
-    }
-
-    const label =
-      entry.querySelector('persName, placeName, orgName')?.textContent || id;
-    const note =
-      entry.querySelector('note')?.textContent || '';
-
-    content.innerHTML = `
-      <h6>${label}</h6>
-      <p class="small">${note}</p>
-    `;
+    content.innerHTML = renderStandoffEntry(entry);
   });
 
   closeBtn.addEventListener('click', () => {
@@ -219,11 +194,73 @@ function setupAnnotationBehaviour() {
 }
 
 /* =========================================================
+   Standoff renderer
+   ========================================================= */
+
+function renderStandoffEntry(entry) {
+  if (!entry) {
+    return `<p class="text-muted small">No annotation available.</p>`;
+  }
+
+  const tag = entry.tagName.toLowerCase();
+  const getText = sel =>
+    entry.querySelector(sel)?.textContent.trim() || '';
+
+  const idnos = Array.from(entry.querySelectorAll('idno'))
+    .filter(id => id.getAttribute('type') !== 'project')
+    .map(id => `
+      <div class="annotation-idno small">
+        <strong>${id.getAttribute('type')}:</strong>
+        <a href="${id.textContent}" target="_blank">${id.textContent}</a>
+      </div>
+    `)
+    .join('');
+
+  let html = '';
+
+  if (tag === 'person') {
+    const name = getText('persName');
+    const birth = entry.querySelector('birth')?.getAttribute('when');
+    const death = entry.querySelector('death')?.getAttribute('when');
+    const note = getText('note');
+
+    html += `<h6>${name}</h6>`;
+    if (birth || death) {
+      html += `<div class="small text-muted mb-1">
+        ${birth || '?'} – ${death || '?'}
+      </div>`;
+    }
+    html += idnos;
+    if (note) html += `<p class="small">${note}</p>`;
+  }
+
+  else if (tag === 'place') {
+    const name =
+      getText('placeName[type="historical"]') || getText('placeName');
+    const note = getText('note');
+
+    html += `<h6>${name}</h6>`;
+    html += idnos;
+    if (note) html += `<p class="small">${note}</p>`;
+  }
+
+  else if (tag === 'org') {
+    const name = getText('orgName');
+    const note = getText('note');
+
+    html += `<h6>${name}</h6>`;
+    html += idnos;
+    if (note) html += `<p class="small">${note}</p>`;
+  }
+
+  return html;
+}
+
+/* =========================================================
    TEI → HTML rendering
    ========================================================= */
 
 function renderNode(node) {
-
   if (node.nodeType === Node.TEXT_NODE) {
     return document.createTextNode(node.textContent);
   }
@@ -232,35 +269,22 @@ function renderNode(node) {
     return document.createDocumentFragment();
   }
 
-  const tag = node.tagName.toLowerCase();
   let el;
 
-  switch (tag) {
+  switch (node.tagName) {
 
     case 'p':
-      el = document.createElement('p');
-      break;
+      el = document.createElement('p'); break;
 
     case 'head':
-      el = document.createElement('h3');
-      break;
-
-    case 'opener':
-    case 'closer':
-    case 'postscript':
-    case 'note':
-      el = document.createElement('div');
-      break;
+      el = document.createElement('h3'); break;
 
     case 'choice':
       if (VIEW_MODE === 'reading') {
         const expan = node.querySelector('expan');
-        return expan
-          ? renderNode(expan)
-          : document.createDocumentFragment();
+        return expan ? renderNode(expan) : document.createDocumentFragment();
       }
-      el = document.createElement('span');
-      break;
+      el = document.createElement('span'); break;
 
     case 'pb':
       el = document.createElement('span');
@@ -272,37 +296,34 @@ function renderNode(node) {
       break;
 
     case 'seg':
-      if (node.getAttribute('type') === 'folio') {
-        if (VIEW_MODE === 'reading') {
-          return document.createDocumentFragment();
-        }
-        el = document.createElement('span');
-        el.className = 'page-break';
-        el.textContent = node.textContent;
-        break;
+      if (node.getAttribute('type') === 'folio' && VIEW_MODE === 'reading') {
+        return document.createDocumentFragment();
       }
       el = document.createElement('span');
+      el.className = 'page-break';
       break;
 
-    case 'persname':
-    case 'placename':
-    case 'orgname':
+    case 'persName':
+    case 'placeName':
+    case 'orgName':
     case 'date':
       el = document.createElement('span');
       el.className = 'annotated';
-      el.dataset.type = tag.replace('name', '');
       if (node.getAttribute('ref')) {
         el.dataset.ref = node.getAttribute('ref');
       }
       break;
 
+    case 'opener':
+    case 'closer':
+    case 'postscript':
+    case 'note':
+      el = document.createElement('div'); break;
+
     default:
       el = document.createElement('span');
   }
 
-  node.childNodes.forEach(child => {
-    el.appendChild(renderNode(child));
-  });
-
+  node.childNodes.forEach(ch => el.appendChild(renderNode(ch)));
   return el;
 }
