@@ -193,6 +193,13 @@ function setupAnnotationBehaviour() {
   });
 }
 
+document.addEventListener('click', e => {
+  const span = e.target.closest('.annotated');
+  if (!span) return;
+
+  console.log('ANNOTATED CLICK:', span.textContent, span.dataset.ref);
+});
+
 /* =========================================================
    Standoff renderer
    ========================================================= */
