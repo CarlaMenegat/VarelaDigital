@@ -103,6 +103,11 @@
                     <placeName ref="#pelotas">Pelotas</placeName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -171,14 +176,13 @@
                     <persName ref="#david">David</persName> que hajam esta por sua.
                 </postscript>
                 
-                <note type="endorsement" place="verso">
+                <note type="endorsement" place="1v">
                     <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> D.
                     <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.<br/>
                     <placeName ref="#pelotas">Pelotas</placeName>.<br/>
                     <placeName ref="#porto_alegre">Porto Alegre</placeName>.
-                    <seal type="stamp" place="verso">[Carimbo no verso]</seal>
                 </note>
-                
+                <seal type="stamp" place="1v">[Carimbo no verso]</seal>
             </div>
             
         </body>

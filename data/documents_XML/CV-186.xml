@@ -102,6 +102,11 @@
                     <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -175,14 +180,22 @@
                 
                 <postscript>
                     <p>
-                        P.<choice><abbr>S. S</abbr><expan>Sua Senhoria</expan></choice>audades ao <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                        <choice>
+                            <abbr>P.S.</abbr>
+                            <expan>Post scriptum</expan>
+                        </choice>
+                        Saudades ao 
+                        <choice>
+                            <abbr>Sr.</abbr>
+                            <expan>Senhor</expan>
+                        </choice> 
                         <persName ref="#leao_prospero_chastan">Chastan</persName>, 
                         e que se não descuide da cobrança do 
                         <persName ref="#granja">Granja</persName>.
                     </p>
                 </postscript>
                 
-                <note type="endorsement" place="verso">
+                <note type="endorsement" place="1v">
                     <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.<br/>
                     <placeName ref="#pelotas">Pelotas</placeName>.
                 </note>
