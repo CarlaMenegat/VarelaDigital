@@ -15,6 +15,12 @@ const STANDOFF_FILES = {
 };
 
 /* =========================================================
+   View mode control
+   ========================================================= */
+
+let VIEW_MODE = 'reading'; // 'reading' | 'encoded' | 'diplomatic'
+
+/* =========================================================
    Utilities
    ========================================================= */
 
@@ -46,11 +52,44 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   try {
     const teiDoc = await fetchXML(BASE_XML_PATH + fileParam);
+
+    window.CURRENT_TEI_DOC = teiDoc;   // ← ADD THIS
+
     renderViewer(teiDoc, fileParam);
+    setupViewTabs();                   // ← ADD THIS
   } catch (err) {
     console.error(err);
   }
 });
+
+function setupViewTabs() {
+  const tabs = document.querySelectorAll('.tab-button');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      if (tab.disabled) return;
+
+      const view = tab.dataset.view;
+      VIEW_MODE = view;
+
+      // Toggle active tab
+      tabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+
+      // Toggle transcription layers
+      document.querySelectorAll('.transcription-layer').forEach(layer => {
+        if (layer.dataset.view === view) {
+          layer.classList.remove('d-none');
+        } else {
+          layer.classList.add('d-none');
+        }
+      });
+
+      // Re-render text according to mode
+      renderText(window.CURRENT_TEI_DOC);
+    });
+  });
+}
 
 /* =========================================================
    Main rendering
@@ -150,7 +189,9 @@ function renderMetadataSidebar(teiDoc, fileName) {
    ========================================================= */
 
 function renderText(teiDoc) {
-  const container = document.getElementById('transcription-content');
+  const container = document.querySelector(
+  `.transcription-layer[data-view="${VIEW_MODE}"]`
+  );
   container.innerHTML = '';
 
   const textDiv = teiDoc.querySelector('text > body > div');
@@ -169,28 +210,102 @@ function renderText(teiDoc) {
    ========================================================= */
 
 function renderNode(node) {
+  // Text nodes
   if (node.nodeType === Node.TEXT_NODE) {
     return document.createTextNode(node.textContent);
   }
 
+  // Ignore non-element nodes
   if (node.nodeType !== Node.ELEMENT_NODE) {
-    return document.createTextNode('');
+    return document.createDocumentFragment();
   }
 
   let el;
 
   switch (node.tagName) {
+
+    /* ===============================
+       Structural elements
+       =============================== */
+
     case 'p':
       el = document.createElement('p');
       break;
+
     case 'head':
       el = document.createElement('h3');
       break;
+
+    case 'list':
+      el = document.createElement(
+        node.getAttribute('type') === 'ordered' ? 'ol' : 'ul'
+      );
+      break;
+
+    case 'item':
+      el = document.createElement('li');
+      break;
+
+    case 'opener':
+    case 'closer':
+    case 'postscript':
+    case 'note':
+      el = document.createElement('div');
+      break;
+
+    /* ===============================
+       Editorial alternation
+       =============================== */
+
+    case 'choice':
+      if (VIEW_MODE === 'reading') {
+        const expan = node.querySelector('expan');
+        return expan
+          ? renderNode(expan)
+          : document.createDocumentFragment();
+      }
+
+      // encoded / diplomatic
+      el = document.createElement('span');
+      break;
+
+    /* ===============================
+       Page breaks
+       =============================== */
+
     case 'pb':
       el = document.createElement('span');
       el.className = 'page-break';
-      el.textContent = `[${node.getAttribute('n')}]`;
+
+      if (VIEW_MODE === 'encoded' || VIEW_MODE === 'diplomatic') {
+        el.textContent = `[pb ${node.getAttribute('n')}]`;
+      } else {
+        // reading view
+        el.textContent = `[${node.getAttribute('n')}]`;
+      }
       break;
+
+    case 'seg':
+      if (node.getAttribute('type') === 'folio') {
+        if (VIEW_MODE === 'reading') {
+          // In reading view, suppress editorial folio
+          // when pb already signals page change
+          return document.createDocumentFragment();
+        }
+
+        el = document.createElement('span');
+        el.className = 'page-break';
+        el.textContent = node.textContent;
+        break;
+      }
+
+      el = document.createElement('span');
+      break;
+
+    /* ===============================
+       Named entities
+       =============================== */
+
     case 'persName':
     case 'placeName':
     case 'orgName':
@@ -198,24 +313,16 @@ function renderNode(node) {
       el = document.createElement('span');
       el.className = 'annotated';
       break;
-    case 'list':
-      el = document.createElement(
-        node.getAttribute('type') === 'ordered' ? 'ol' : 'ul'
-      );
-      break;
-    case 'item':
-      el = document.createElement('li');
-      break;
-    case 'opener':
-    case 'closer':
-    case 'postscript':
-    case 'note':
-      el = document.createElement('div');
-      break;
+
+    /* ===============================
+       Fallback
+       =============================== */
+
     default:
       el = document.createElement('span');
   }
 
+  // Recursive rendering
   for (const child of node.childNodes) {
     el.appendChild(renderNode(child));
   }

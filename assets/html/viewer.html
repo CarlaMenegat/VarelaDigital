@@ -79,26 +79,71 @@
                 <!-- LEFT column: transcription (now main reading area) -->
                 <div class="col-6 left-column d-flex flex-column">
 
-                <div class="transcription-box">
+                    <div class="transcription-box">
 
-                    <div class="surface-selector-wrapper mb-2">
-                    <label for="surface-selector" class="form-label mb-0">Surface</label>
-                    <select
-                        id="surface-selector"
-                        class="form-select form-select-sm w-auto d-inline-block">
-                    </select>
-                    </div>
+                        <!-- View mode tabs -->
+                        <div class="transcription-tabs mb-2">
+                            <button
+                                class="tab-button active"
+                                data-view="reading">
+                                Reading
+                            </button>
 
-                    <div id="transcription-content" class="px-2 py-1"></div>
+                            <button
+                                class="tab-button"
+                                data-view="encoded">
+                                Encoded
+                            </button>
 
-                    <!-- Translation placeholder (below transcription) -->
-                    <div class="pt-3 d-flex justify-content-end">
-                    <button
-                        class="btn btn-sm btn-outline-secondary"
-                        disabled
-                        title="Planned feature: AI-assisted translation">
-                        AI-assisted translation (planned)
-                    </button>
+                            <button
+                                class="tab-button"
+                                data-view="diplomatic"
+                                disabled
+                                title="Diplomatic view will be available in a future phase">
+                                Diplomatic
+                            </button>
+                        </div>
+
+                        <div class="surface-selector-wrapper mb-2">
+                            <label for="surface-selector" class="form-label mb-0">Surface</label>
+                            <select
+                                id="surface-selector"
+                                class="form-select form-select-sm w-auto d-inline-block">
+                            </select>
+                        </div>
+
+                        <!-- Reading view -->
+                        <div
+                            id="transcription-reading"
+                            class="transcription-layer px-2 py-1"
+                            data-view="reading">
+                        </div>
+
+                        <!-- Encoded view -->
+                        <div
+                            id="transcription-encoded"
+                            class="transcription-layer px-2 py-1 d-none"
+                            data-view="encoded">
+                        </div>
+
+                        <!-- Diplomatic view (future) -->
+                        <div
+                            id="transcription-diplomatic"
+                            class="transcription-layer px-2 py-1 d-none"
+                            data-view="diplomatic">
+                            <p class="text-muted small">
+                                Diplomatic transcription of the manuscripts will be implemented in a future phase of the project.
+                            </p>
+                        </div>
+
+                        <!-- Translation placeholder (below transcription) -->
+                        <div class="pt-3 d-flex justify-content-end">
+                            <button
+                                class="btn btn-sm btn-outline-secondary"
+                                disabled
+                                title="Planned feature: AI-assisted translation">
+                                AI-assisted translation (planned)
+                            </button>
                     </div>
 
                 </div>
@@ -107,19 +152,19 @@
             <!-- RIGHT column: annotations -->
             <div class="col-6 right-column d-flex flex-column">
 
-            <div class="annotations-box" id="annotations-box">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                <h5 class="mb-0">Annotations</h5>
-                <button
-                    id="close-annotations"
-                    class="btn btn-sm btn-outline-secondary">×</button>
+                <div class="annotations-box" id="annotations-box">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="mb-0">Annotations</h5>
+                        <button
+                            id="close-annotations"
+                            class="btn btn-sm btn-outline-secondary">×</button>
+                    </div>
+                    <div id="annotations-content"></div>
                 </div>
-                <div id="annotations-content"></div>
-            </div>
+
+                </div>
 
             </div>
-
-        </div>
         </div>
 
         <!-- Footer -->
@@ -143,6 +188,6 @@
             <p><a href="assets/html/documentation.html">Project Documentation</a></p>
         </footer>
 
-        <script src="../scripts/viewer.js"></script>
+        <script src="/assets/scripts/viewer.js"></script>
     </body>
 </html>
