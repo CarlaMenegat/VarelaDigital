@@ -177,8 +177,8 @@ html, body {
 
 #metadata-sidebar {
   /* mais largo, sem duplicar width */
-  width: 420px;
-  min-width: 380px;
+  width: 300px;
+  min-width: 300px;
   max-width: 32vw;
 
   padding: 1rem;
