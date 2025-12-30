@@ -625,7 +625,7 @@
             passive="#guardas_nacionais_5corpo"/>
         
         <relation
-            name="rel:uncleOf"
+            name="hrao:hasKinship"
             active="#tomas_jose_silva"
             passive="#manuel_luis_osorio"/>
         
@@ -1006,7 +1006,7 @@
             mutual="true"/>
         
         <relation 
-            name="rel:nephewOf"
+            name="hrao:hasKinship"
             active="#francisco_xavier"
             passive="#bento_manoel"/>
         
@@ -1609,17 +1609,17 @@
             passive="#imperio_brasil"/>
 
         <relation 
-            name="schema:knows" 
+            name="foaf:knows" 
             active="#jose_andre" 
             passive="#joao_marques"/>
         
         <relation 
-            name="schema:knows" 
+            name="foaf:knows" 
             active="#jose_andre" 
             passive="#luis_carlos"/>
         
         <relation 
-            name="schema:knows" 
+            name="foaf:knows" 
             active="#joao_marques" 
             passive="#luis_carlos"/>
 

@@ -21,51 +21,6 @@
             <note>Emboscada ocorrida durante a fase final da Revolução Farroupilha, resultando na morte de Joaquim Teixeira Nunes e na desmobilização forçada do Corpo de Lanceiros Negros.</note>
         </event>
         
-        <event xml:id="decreto_1839_02_04">
-            <desc>Decreto de 4 de fevereiro de 1839 que determina pena de morte a invasores hostis vindos do Estado Oriental.</desc>
-            <date when="1839-02-04">4 de fevereiro de 1839</date>
-        </event>
-        
-        <event xml:id="operacao_tapes_1838">
-            <desc>Operação militar legalista na costa da Lagoa dos Patos, incluindo apreensão de embarcação rebelde e confronto armado.</desc>
-            <date from="1838-07-03" to="1838-07-16">3–16 de julho de 1838</date>
-            <location>
-                <placeName ref="#lagoa_patos"/>
-                <placeName ref="#tapes"/>
-                <placeName ref="#porto_alegre"/>
-            </location>
-        </event>
-        
-        <event xml:id="operacao_santa_cruz_1839">
-            <desc>Operação militar com desembarque em Santa Cruz e ataque coordenado na região de Arroio dos Ratos.</desc>
-            <date when="1839-09-17">17 de setembro de 1839</date>
-            <location>
-                <placeName ref="#santa_cruz"/>
-                <placeName ref="#arroio_dos_ratos"/>
-            </location>
-        </event>
-        
-        <event xml:id="ataque_passo_fundo_1839">
-            <desc>Ataque legalista à guarda rebelde situada no Passo Fundo.</desc>
-            <date when="1839-12-16">16 de dezembro de 1839</date>
-            <location>
-                <placeName ref="#passo_fundo"/>
-            </location>
-        </event>
-        
-        <event xml:id="viagem_rio_cv191">
-            <desc>Decisão da Assembleia Provincial de enviar Domingos José de Almeida e o Dr. Marciano ao Rio de Janeiro em missão política.</desc>
-            <date when="1836-02-23"/>
-        </event>
-        
-        <event xml:id="subs_boqueirao_1837">
-            <desc>Subscrição financeira mensal promovida no Distrito do Boqueirão para apoiar a República Rio-Grandense, iniciada em 1 de outubro de 1837.</desc>
-            <date when="1837-10-01"/>
-            <location>
-                <placeName xml:id="boqueirao"/>
-            </location>
-        </event>
-        
         <event xml:id="revolta_liberal_1842">
             <desc>Revolta Liberal de 1842</desc>
             <date when="1842">1842</date>

@@ -1,4 +1,4 @@
-@prefix hrao: <http://example.org/hrao#> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -7,32 +7,16 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rel: <http://purl.org/vocab/relationship/> .
-
-#################################################################
-# HRAO — Historical Relations and Agency Ontology
-# Carla Menegat (Varela Digital Project)
-# Initial release: 2026
-#
-# This ontology defines additional interpersonal and inter-agent
-# relations commonly found in historical corpora, especially those
-# related to leadership, strategic alignment, influence, loyalty,
-# and non-institutional forms of political/military agency.
-#
-# The ontology is designed to be globally reusable and not tied
-# to any specific geographic region, period, or historical context.
-# It complements existing vocabularies such as PROV-O, FOAF,
-# and the Relationship Ontology (REL).
-#################################################################
-
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
 #################################################################
 # Ontology header
 #################################################################
 
 hrao: a owl:Ontology ;
+    owl:versionIRI <https://carlamenegat.github.io/VarelaDigital/hrao/1.0/> ;
     rdfs:label "Historical Relations and Agency Ontology"@en ;
-    rdfs:comment "An ontology for representing historical interpersonal and inter-agent relations, including strategic alignment, influence, and other social relations not fully covered by existing vocabularies."@en ;
-    owl:versionInfo "1.0 (2025-11)" .
+    owl:versionInfo "1.0 (Varela Digital, 2026)" .
 
 
 #################################################################
@@ -42,26 +26,20 @@ hrao: a owl:Ontology ;
 hrao:followedPoliticalAlignmentOf a owl:ObjectProperty ;
     rdfs:label "followed the political alignment of"@en ;
     rdfs:comment "Indicates that an agent followed or aligned themselves with the political or strategic orientation of another agent, especially in contexts of shifting loyalties, leadership, or factional dynamics in historical settings."@en ;
-
-    # semantic relationship with PROV-O
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-
-    # domain and range (agents)
-    rdfs:domain <http://www.w3.org/ns/prov#Agent> ;
-    rdfs:range  <http://www.w3.org/ns/prov#Agent> .
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:landDisputeWith
 #################################################################
 
-hrao:landDisputeWith a owl:ObjectProperty ;
+hrao:landDisputeWith a owl:ObjectProperty, owl:SymmetricProperty ;
     rdfs:label "land dispute with"@en ;
     rdfs:comment "Indicates that two historical agents were engaged in a dispute over land, property boundaries, or territorial rights."@en ;
-    rdfs:domain prov:Agent ;
-    rdfs:range prov:Agent ;
-    rdf:type owl:SymmetricProperty ;
-    rdfs:subPropertyOf prov:wasInfluencedBy .
-
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:requestedPoliticalFavorFrom
@@ -70,9 +48,9 @@ hrao:landDisputeWith a owl:ObjectProperty ;
 hrao:requestedPoliticalFavorFrom a owl:ObjectProperty ;
     rdfs:label "requested a political favor from"@en ;
     rdfs:comment "Indicates that an agent requested a political favor, intercession, or informal influence from another agent in a historical or political context."@en ;
-    rdfs:domain prov:Agent ;
-    rdfs:range prov:Agent ;
-    rdfs:subPropertyOf prov:wasInfluencedBy .
+    rdfs:subPropertyOf prov:wasInfluencedBy ;
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:participatedInEvent
@@ -82,9 +60,8 @@ hrao:participatedInEvent a owl:ObjectProperty ;
     rdfs:label "participated in event"@en ;
     rdfs:comment "Indicates that an agent participated in a historical event, such as a battle, encounter, campaign, or gathering."@en ;
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-    rdfs:domain prov:Agent ;
-    rdfs:range san:Event .
-
+    rdfs:domain foaf:Agent ;
+    rdfs:range  san:Event .
 
 #################################################################
 # Property: hrao:wasPrisonerInEvent
@@ -94,9 +71,8 @@ hrao:wasPrisonerInEvent a owl:ObjectProperty ;
     rdfs:label "was taken prisoner in event"@en ;
     rdfs:comment "Indicates that an agent was taken prisoner during a particular historical event."@en ;
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-    rdfs:domain prov:Agent ;
-    rdfs:range san:Event .
-
+    rdfs:domain foaf:Agent ;
+    rdfs:range  san:Event .
 
 #################################################################
 # Property: hrao:killed
@@ -106,8 +82,8 @@ hrao:killed a owl:ObjectProperty ;
     rdfs:label "killed"@en ;
     rdfs:comment "Indicates that an agent caused the death of another agent, based on historical sources."@en ;
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-    rdfs:domain prov:Agent ;
-    rdfs:range prov:Agent .
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:wasKilledInEvent
@@ -117,8 +93,8 @@ hrao:wasKilledInEvent a owl:ObjectProperty ;
     rdfs:label "was killed in event"@en ;
     rdfs:comment "Indicates that an agent died as a direct consequence of a historical event, such as a battle, ambush, or other violent occurrence."@en ;
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-    rdfs:domain prov:Agent ;
-    rdfs:range san:Event .
+    rdfs:domain foaf:Agent ;
+    rdfs:range  san:Event .
 
 #################################################################
 # Property: hrao:servedUnder
@@ -128,8 +104,8 @@ hrao:servedUnder a owl:ObjectProperty ;
     rdfs:label "served under"@en ;
     rdfs:comment "Indicates that an agent held an office, function, or role under the authority or leadership of another agent."@en ;
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-    rdfs:domain prov:Agent ;
-    rdfs:range prov:Agent .
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:compadreOf
@@ -149,13 +125,9 @@ hrao:compadreOf a owl:ObjectProperty, owl:SymmetricProperty ;
 hrao:requestedCustodianshipFrom a owl:ObjectProperty ;
     rdfs:label "requested custodianship from"@en ;
     rdfs:comment "Indicates that an agent formally requested to be appointed as custodian or depositary of goods, estates or documents, typically in administrative or legal contexts."@en ;
-
-    # alinhamento semântico
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-
-    # domínio e alcance: agentes
-    rdfs:domain prov:Agent ;
-    rdfs:range  prov:Agent .
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:appointedCuratorOf
@@ -164,13 +136,9 @@ hrao:requestedCustodianshipFrom a owl:ObjectProperty ;
 hrao:appointedCuratorOf a owl:ObjectProperty ;
     rdfs:label "appointed as curator"@en ;
     rdfs:comment "Indicates that an agent with administrative or legal authority appointed another agent as curator or custodian of an estate, property, or goods, typically in probate or inheritance contexts."@en ;
-
-    # semantic anchoring
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-
-    # domain and range
-    rdfs:domain prov:Agent ;
-    rdfs:range  prov:Agent .
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:deliveredMessageTo
@@ -179,13 +147,9 @@ hrao:appointedCuratorOf a owl:ObjectProperty ;
 hrao:deliveredMessageTo a owl:ObjectProperty ;
     rdfs:label "delivered message to"@en ;
     rdfs:comment "Indicates that an agent acted as a messenger or courier by delivering a written message, letter, or communication to another agent, typically in historical or military correspondence contexts."@en ;
-
-    # semantic anchoring
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-
-    # domain and range: agents
-    rdfs:domain prov:Agent ;
-    rdfs:range  prov:Agent .
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:wasCapturedIn
@@ -195,8 +159,8 @@ hrao:wasCapturedIn a owl:ObjectProperty ;
     rdfs:label "was captured in"@en ;
     rdfs:comment "Indicates the place where an agent was captured in a historical context."@en ;
     rdfs:subPropertyOf prov:atLocation ;
-    rdfs:domain prov:Agent ;
-    rdfs:range <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+    rdfs:domain foaf:Agent ;
+    rdfs:range  geo:SpatialThing .
 
 #################################################################
 # Property: hrao:wasImprisonedBy
@@ -206,8 +170,8 @@ hrao:wasImprisonedBy a owl:ObjectProperty ;
     rdfs:label "was imprisoned by"@en ;
     rdfs:comment "Indicates that an agent was imprisoned by another agent, typically a government, military authority, or institution."@en ;
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-    rdfs:domain prov:Agent ;
-    rdfs:range prov:Agent .
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:reportedTo
@@ -217,9 +181,8 @@ hrao:reportedTo a owl:ObjectProperty ;
     rdfs:label "reported to"@en ;
     rdfs:comment "Indicates that an agent reported information, orders, or status updates to another agent in a hierarchical or administrative context."@en ;
     rdfs:subPropertyOf prov:communicatedWith ;
-    rdfs:domain prov:Agent ;
-    rdfs:range prov:Agent .
-
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:issuedOrderToFree
@@ -229,9 +192,8 @@ hrao:issuedOrderToFree a owl:ObjectProperty ;
     rdfs:label "issued order to free"@en ;
     rdfs:comment "Indicates that an agent issued an order to release a prisoner or detainee."@en ;
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-    rdfs:domain prov:Agent ;
-    rdfs:range prov:Agent .
-
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:receivedPrisoners
@@ -241,9 +203,8 @@ hrao:receivedPrisoners a owl:ObjectProperty ;
     rdfs:label "received prisoners"@en ;
     rdfs:comment "Indicates that an agent received custody of one or more prisoners."@en ;
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-    rdfs:domain prov:Agent ;
-    rdfs:range prov:Agent .
-
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:deliveredPrisoners
@@ -253,9 +214,8 @@ hrao:deliveredPrisoners a owl:ObjectProperty ;
     rdfs:label "delivered prisoners"@en ;
     rdfs:comment "Indicates that an agent transferred prisoners to another agent or authority."@en ;
     rdfs:subPropertyOf prov:actedOnBehalfOf ;
-    rdfs:domain prov:Agent ;
-    rdfs:range prov:Agent .
-
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:transferredToCustodyOf
@@ -265,9 +225,8 @@ hrao:transferredToCustodyOf a owl:ObjectProperty ;
     rdfs:label "transferred to custody of"@en ;
     rdfs:comment "Indicates that an agent transferred a person or entity into the custody of another agent."@en ;
     rdfs:subPropertyOf prov:actedOnBehalfOf ;
-    rdfs:domain prov:Agent ;
-    rdfs:range prov:Agent .
-
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:wasTransferredTo
@@ -277,9 +236,8 @@ hrao:wasTransferredTo a owl:ObjectProperty ;
     rdfs:label "was transferred to"@en ;
     rdfs:comment "Indicates that an agent was transferred to the custody or authority of another agent."@en ;
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-    rdfs:domain prov:Agent ;
-    rdfs:range prov:Agent .
-
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:commanded
@@ -289,8 +247,8 @@ hrao:commanded a owl:ObjectProperty ;
     rdfs:label "commanded"@en ;
     rdfs:comment "Indicates that an agent exercised military or organizational command over another agent."@en ;
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-    rdfs:domain prov:Agent ;
-    rdfs:range prov:Agent .
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:coordinatedWith
@@ -299,13 +257,9 @@ hrao:commanded a owl:ObjectProperty ;
 hrao:coordinatedWith a owl:ObjectProperty ;
     rdfs:label "coordinated with"@en ;
     rdfs:comment "Indicates that two agents coordinated actions, decisions, or strategic movements in a historical context, especially in military or administrative settings."@en ;
-
-    # Coordination reflects mutual influence
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-
-    # Both sides are agents
-    rdfs:domain prov:Agent ;
-    rdfs:range  prov:Agent .
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:approached
@@ -314,12 +268,8 @@ hrao:coordinatedWith a owl:ObjectProperty ;
 hrao:approached a owl:ObjectProperty ;
     rdfs:label "approached"@en ;
     rdfs:comment "Indicates that an agent (often a military unit) moved toward or approached a specific place or strategic location."@en ;
-
-    # Movement toward a location still implies influence by conditions or leadership
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-
-    # Agent → Place
-    rdfs:domain prov:Agent ;
+    rdfs:domain foaf:Agent ;
     rdfs:range  dcterms:Location .
 
 #################################################################
@@ -329,12 +279,8 @@ hrao:approached a owl:ObjectProperty ;
 hrao:retreatedTo a owl:ObjectProperty ;
     rdfs:label "retreated to"@en ;
     rdfs:comment "Indicates that an agent (often a military force) withdrew or moved away from a location toward another location as a strategic or defensive action."@en ;
-
-    # Also an influenced-by process (conditions → movement)
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-
-    # Agent → Place
-    rdfs:domain prov:Agent ;
+    rdfs:domain foaf:Agent ;
     rdfs:range  dcterms:Location .
 
 #################################################################
@@ -344,13 +290,9 @@ hrao:retreatedTo a owl:ObjectProperty ;
 hrao:belongsToUnit a owl:ObjectProperty ;
     rdfs:label "belongs to military or administrative unit"@en ;
     rdfs:comment "Indicates that a person or agent is a member of, or formally belongs to, a military or administrative unit, corps, regiment, or organizational subdivision."@en ;
-
-    # Semântica geral: pertencer a uma organização envolve influência estrutural
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-
-    # Domínio e alcance: agentes
-    rdfs:domain prov:Agent ;
-    rdfs:range  prov:Agent .
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:hasKinAmong
@@ -360,9 +302,8 @@ hrao:hasKinAmong a owl:ObjectProperty, owl:SymmetricProperty ;
     rdfs:label "has kin among"@en ;
     rdfs:comment "Indicates that an agent has relatives among a group, faction, or set of agents, without specifying the exact degree of kinship."@en ;
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-    rdfs:domain prov:Agent ;
-    rdfs:range  prov:Agent .
-
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:hasChildrenAmong
@@ -372,9 +313,8 @@ hrao:hasChildrenAmong a owl:ObjectProperty ;
     rdfs:label "has children among"@en ;
     rdfs:comment "Indicates that an agent has one or more children within a particular group, faction, or set of agents."@en ;
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-    rdfs:domain prov:Agent ;
-    rdfs:range  prov:Agent .
-
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:inConflictWith
@@ -384,8 +324,8 @@ hrao:inConflictWith a owl:ObjectProperty, owl:SymmetricProperty ;
     rdfs:label "in conflict with"@en ;
     rdfs:comment "Indicates that two agents were in conflict, opposition, or antagonistic engagement within a historical context."@en ;
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-    rdfs:domain prov:Agent ;
-    rdfs:range  prov:Agent .
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:hadPropertyConfiscatedBy
@@ -394,13 +334,9 @@ hrao:inConflictWith a owl:ObjectProperty, owl:SymmetricProperty ;
 hrao:hadPropertyConfiscatedBy a owl:ObjectProperty ;
     rdfs:label "had property confiscated by"@en ;
     rdfs:comment "Indicates that a person or agent had their property confiscated, seized, or appropriated by another agent, typically in military or political conflict."@en ;
-
-    # Semantic anchoring
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-
-    # Domain and range
-    rdfs:domain prov:Agent ;
-    rdfs:range  prov:Agent .
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:requestedPaymentFor
@@ -410,8 +346,8 @@ hrao:requestedPaymentFor a owl:ObjectProperty ;
     rdfs:label "requested payment for"@en ;
     rdfs:comment "Indicates that an agent requested that another agent receive payment or financial compensation, typically in military or administrative contexts."@en ;
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-    rdfs:domain prov:Agent ;
-    rdfs:range prov:Agent .
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:heldPossessionOf
@@ -420,13 +356,9 @@ hrao:requestedPaymentFor a owl:ObjectProperty ;
 hrao:heldPossessionOf a owl:ObjectProperty ;
     rdfs:label "held possession of"@en ;
     rdfs:comment "Indicates that a person held long-term possession, use, or control of a property, land parcel, estate, or territorial unit in a historical context."@en ;
-
-    # semântica: posse implica relação de influência/controle
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-
-    # domínio e alcance: agentes (pessoas ou instituições)
-    rdfs:domain prov:Agent ;
-    rdfs:range  prov:Agent .
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:hasKinship
@@ -434,10 +366,10 @@ hrao:heldPossessionOf a owl:ObjectProperty ;
 
 hrao:hasKinship a owl:ObjectProperty ;
     rdfs:label "has kinship with"@en ;
-    rdfs:comment "Indicates a family or kinship relation not covered by more specific relationship properties." ;
+    rdfs:comment "Indicates a family or kinship relation not covered by more specific relationship properties."@en ;
     rdfs:subPropertyOf rel:associateOf ;
     rdfs:domain foaf:Person ;
-    rdfs:range foaf:Person .
+    rdfs:range  foaf:Person .
 
 #################################################################
 # Property: hrao:refusedToFollow
@@ -446,13 +378,9 @@ hrao:hasKinship a owl:ObjectProperty ;
 hrao:refusedToFollow a owl:ObjectProperty ;
     rdfs:label "refused to follow orders of"@en ;
     rdfs:comment "Indicates that an agent refused to comply with or obey the directives issued by another agent, particularly in a military or administrative context."@en ;
-
-    # semantic anchoring
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-
-    # domain and range: agents
-    rdfs:domain prov:Agent ;
-    rdfs:range  prov:Agent .
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:defeatedInBattle
@@ -461,13 +389,9 @@ hrao:refusedToFollow a owl:ObjectProperty ;
 hrao:defeatedInBattle a owl:ObjectProperty ;
     rdfs:label "defeated in battle"@en ;
     rdfs:comment "Indicates that one agent militarily defeated another agent in battle, skirmish, or engagement."@en ;
-
-    # semantic anchoring
     rdfs:subPropertyOf prov:influenced ;
-
-    # domain and range: agents / military units
-    rdfs:domain prov:Agent ;
-    rdfs:range  prov:Agent .
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
 # Property: hrao:wasReplacedBy
@@ -476,31 +400,26 @@ hrao:defeatedInBattle a owl:ObjectProperty ;
 hrao:wasReplacedBy a owl:ObjectProperty ;
     rdfs:label "was replaced by"@en ;
     rdfs:comment "Indicates that an agent holding an office or command position was replaced by another agent, whether in military, political, or administrative contexts."@en ;
-
-    # semantic anchoring – no ontology has this exact concept,
-    # but this preserves causal/institutional lineage.
     rdfs:subPropertyOf prov:wasInfluencedBy ;
-
-    # domain and range: Agents (individuals or institutions)
-    rdfs:domain prov:Agent ;
-    rdfs:range  prov:Agent .
+    rdfs:domain foaf:Agent ;
+    rdfs:range  foaf:Agent .
 
 #################################################################
-# Property: hrao:hrao:coerced
+# Property: hrao:coerced
 #################################################################
 
-hrao:coerced a rdf:Property ;
+hrao:coerced a owl:ObjectProperty ;
     rdfs:label "coerced"@en ;
     rdfs:comment "Indicates that the active agent coerced or forced the passive agent to comply with a military or political action."@en ;
     rdfs:domain foaf:Agent ;
-    rdfs:range foaf:Agent ;
-    rdfs:isDefinedBy <http://example.org/hrao#> .
+    rdfs:range  foaf:Agent ;
+    rdfs:isDefinedBy hrao: .
 
 #################################################################
 # Property: hrao:socialKinship
 #################################################################
 
-hrao:socialKinship a owl:ObjectProperty ;
+hrao:socialKinship a owl:ObjectProperty, owl:SymmetricProperty ;
     rdfs:label "has social kinship with"@en ;
     rdfs:comment """
 Represents non-biological, non-marital kinship created through ritual,
@@ -509,22 +428,15 @@ parenthood, fraternity bonds or other historically relevant forms of
 fictive kinship. The property is symmetric because these relations are
 mutually acknowledged in historical records.
 """@en ;
-
-    # Kinship is a social relation → map to REL
     rdfs:subPropertyOf rel:relatedTo ;
-
-    # symmetric
-    owl:SymmetricProperty true ;
-
-    # domain and range: historical persons (agents)
-    rdfs:domain <http://www.w3.org/ns/prov#Agent> ;
-    rdfs:range  <http://www.w3.org/ns/prov#Agent> .
+    rdfs:domain foaf:Person ;
+    rdfs:range  foaf:Person .
 
 #################################################################
 # Property: hrao:brotherInLawOf
 #################################################################
 
-hrao:brotherInLawOf a owl:ObjectProperty ;
+hrao:brotherInLawOf a owl:ObjectProperty, owl:SymmetricProperty ;
     rdfs:label "is brother-in-law of"@en ;
     rdfs:comment """
 Represents an affinal kinship relation — brother-in-law — indicating that
@@ -532,13 +444,6 @@ two persons are related through marriage (e.g., spouse’s sibling or
 sibling’s spouse). The property is symmetric because the relation holds
 equally in both directions.
 """@en ;
-
-    # Kinship → REL vocabulary superclass
     rdfs:subPropertyOf rel:relatedTo ;
-
-    # symmetric, as cunhados are mutual
-    owl:SymmetricProperty true ;
-
-    # domain and range: persons (agents)
-    rdfs:domain <http://www.w3.org/ns/prov#Agent> ;
-    rdfs:range  <http://www.w3.org/ns/prov#Agent> .
+    rdfs:domain foaf:Person ;
+    rdfs:range  foaf:Person .
