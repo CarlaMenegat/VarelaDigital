@@ -6,6 +6,10 @@
                 <title>Carta CV-203 – Cópia atribuída a Domingos José de Almeida para o Comandante da força marítima na barra de São Gonçalo</title>
                 <author>Domingos José de Almeida (atribuição provável)</author>
                 <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">07 de julho de 2025</date>
+                <date when="2025-09-10">10 de setembro de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">4</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -54,6 +59,7 @@
                             <date when="1978">1978</date>
                             <biblScope type="volume">2</biblScope>
                             <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <biblScope unit="page" from="176" to="181">176-181</biblScope>
                             <measure type="extent">23 cm</measure>
                         </imprint>
                     </monogr>
@@ -65,6 +71,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -78,47 +85,42 @@
                 </application>
             </appInfo>
         </encodingDesc>
+        
         <profileDesc>
-            <correspDesc xml:id="cv200-corresp">
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
+            <correspDesc xml:id="cv203-corresp">
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
-                    <date when="1836-08-09">9 de agosto de 1836</date>
+                    <date when="1836-08-21">21 de agosto de 1836</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#joaquim_jose_freitas">Joaquim José de Freitas</persName>
-                    <placeName ref="#mostardas">Mostardas</placeName>
+                    Comandante da força marítima surta na barra de São Gonçalo
+                    <placeName ref="#sao_goncalo">Barra de São Gonçalo</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
-        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-23">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-09-10">10/09/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2026-01-01">01/01/2026</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
     </teiHeader>
     
-    <profileDesc>
-        <correspDesc xml:id="cv203-corresp">
-            <correspAction type="sent">
-                <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
-                <date when="1836-08-21">21 de agosto de 1836</date>
-            </correspAction>
-            <correspAction type="received">
-                <orgName>Comando da força marítima surta na barra de São Gonçalo</orgName>
-                <placeName ref="#sao_goncalo">Barra de São Gonçalo</placeName>
-            </correspAction>
-        </correspDesc>
-    </profileDesc>
-    
     <text>
         <body>
-
-
-            <div type="letter" xml:id="CV-203">
+            <div type="letter" subtype="copy" xml:id="CV-203">
 
                 <opener>
                     <salute>Cópia — <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
@@ -134,59 +136,58 @@
                 <placeName ref="#pelotas">Pelotas</placeName> cobre a esquerda do forte, situado à esquerda do rio do
                 mesmo nome; ao escurecer 100 homens de infantaria saem do forte e
                 pernoitam nas imediações daquela fazenda, levando as duas peças de 9 e 6
-                que tiraram da escuna de <persName ref="#junqueira">Junqueira</persName>, e ali persistem com parelhas para
-                acudirem ao ponto de desembarque.</p>
-
-                <p>Está determinado que ao romper do fogo em qualquer destas partes,
+                que tiraram da escuna de Junqueira, e ali persistem com parelhas para
+                acudirem ao ponto de desembarque. Está determinado que ao romper do fogo em qualquer destas partes,
                 atravessem 40 infantes, que fazem a polícia da cidade, o
                 passo dos Negros, para guarnecerem o lado do
                 Assunção, e unidos defendam a corrente que apressadamente se pôs
                 no rio; estes infantes são quase todos mulatos e negros da cidade, que
                 com a escolta de 15 homens de cavalo do outro lado do Assunção têm de
-                acudir àquele ponto.</p>
-
-                <p>Agora mesmo chega de volta um esquadrão de 86 praças, que indo por
-                <placeName ref="#cangucu">Canguçu</placeName> para a divisão de <persName ref="#antonio_sousa_neto">Neto</persName> regressara por ter aquele seguido
-                a <persName ref="#silva_tavares">Silva Tavares</persName>, que fugiu na direção de <placeName ref="#bage">Bagé</placeName>; o esquadrão foi
+                acudir àquele ponto.
+                Agora mesmo chega de volta um esquadrão de 86 praças, que indo por
+                <placeName ref="#cangucu">Canguçu</placeName> para a divisão de 
+                <persName ref="#antonio_sousa_neto">Neto</persName> regressara por ter aquele seguido
+                a <persName ref="#silva_tavares">Silva Tavares</persName>, que fugiu na direção de 
+                <placeName ref="#bage">Bagé</placeName>; o esquadrão foi
                 passar no <placeName ref="#retiro">Retiro</placeName>, suponho, não só para encobrir o ponto que vai
                 ocupar indo aliás para <placeName ref="#pelotas">Pelotas</placeName>, como para poupar o nado aos cavalos
-                que mal podem consigo.</p>
-
-                <p>A brigada de <persName ref="#antonio_sousa_neto">Neto</persName> foi reforçada com 130 homens vindos do
-                <placeName ref="#uruguai">Estado Oriental</placeName> ao mando do <persName ref="#bernardino_gomes">Tenente Bernardino Gomes</persName>,
-                trazendo 800 cavalos gordos.</p>
-
-                <p>Na participação desta reunião se acrescente que
-                <persName ref="#paulino_fontoura">Paulino Fontoura</persName> passou o <placeName ref="#uruguai">Uruguai</placeName> com 300 e tantos homens
+                que mal podem consigo. A brigada de <persName ref="#antonio_sousa_neto">Neto</persName> 
+                foi reforçada com 130 homens vindos do
+                <placeName ref="#uruguai">Estado Oriental</placeName> ao mando do 
+                <persName ref="#bernardino_gomes">Tenente Bernardino Gomes</persName>,
+                trazendo 800 cavalos gordos. Na participação desta reunião se acrescente que
+                <persName ref="#paulino_fontoura">Paulino Fontoura</persName> passou o 
+                <placeName ref="#uruguai">Uruguai</placeName> com 300 e tantos homens
                 entrerrianos e correntinos; foi ordem para também reunir-se a
                 <persName ref="#antonio_sousa_neto">Neto</persName>. Na mesma ocasião entrou o famoso
-                <persName ref="#lavalleja">Lavalleja</persName> em socorro de <persName ref="#manuel_oribe">Oribe</persName> com 700 homens, dizem que daqueles
-                mesmos lugares.</p>
-
-                <p><persName ref="#manuel_oribe">Oribe</persName>, em ofício cuja data ignoro, diz que entre esta Província e
+                <persName ref="#lavalleja">Lavalleja</persName> em socorro de 
+                <persName ref="#manuel_oribe">Oribe</persName> com 700 homens, dizem que daqueles
+                mesmos lugares. <persName ref="#manuel_oribe">Oribe</persName>, em ofício cuja data ignoro, 
+                diz que entre esta Província e
                 aquele Estado as linhas serão comuns para que passem os de cá contra os
                 infelizes emigrados, e os de lá contra os fructistas; por tal motivo
                 apressadamente têm saído imensas partidas na colheita de cavalos dos
                 infelizes emigrados, e deles 170 cavalos se acham no
-                <placeName ref="#passo_negros">passo dos Negros</placeName>, remetidos pelo <persName ref="#serafico">Seráfico</persName>, alferes improvisado
-                da fronteira de <placeName ref="#chui">Chuí</placeName>.</p>
-
-                <p>Duas peças de 36 e 24 que se achavam em <placeName ref="#arroyocebolati">Cebolati</placeName>, pelo
+                <placeName ref="#passo_negros">passo dos Negros</placeName>, 
+                remetidos pelo <persName ref="#serafico">Seráfico</persName>, alferes improvisado
+                da fronteira de <placeName ref="#chui">Chuí</placeName>.
+                Duas peças de 36 e 24 que se achavam em <placeName ref="#arroyocebolati">Cebolati</placeName>, pelo
                 <persName ref="#julian_calderon">Major Julian Calderon</persName> foram mandadas para o
-                passo do Liscano, e dali, dizem, virão em carretas, ignoro ainda para
+                passo do Liscano, e dali, 
+                <pb n="1v"/>
+                <seg type="folio">[1v.]</seg>
+                dizem, virão em carretas, ignoro ainda para
                 que ponto; mas já se aprontam reparos para elas; na mesma ocasião
-                vieram 12 arrobas de pólvora e um saco com espoletas.</p>
-
-                <p>Ontem daqui saíram para <placeName ref="#rio_grande">Rio Grande</placeName> 35 imaginários cúmplices
+                vieram 12 arrobas de pólvora e um saco com espoletas.
+                Ontem daqui saíram para <placeName ref="#rio_grande">Rio Grande</placeName> 35 imaginários cúmplices
                 de uma rebelião, creio que para saquearem, como saquearam suas casas,
                 e desgraçadamente acharam 63 armas de infantaria, pistolas, espadas e
                 mais de 15 arrobas de pólvora. A pequena escolta que acompanhou a
                 estas vítimas da rapacidade foi comandada por
                 <persName ref="#pedro_pinto">Pedro Pinto</persName>; <persName ref="#joaquim_marques">Joaquim Marques</persName> escapou ocultando-se, e Deus
                 permita não seja apanhado, pois as diligências se multiplicam, como
-                aquelas de malograr-se qualquer desembarque; pelo que vos suplico que
-                desistais dessa empresa...</p>
-                            <p>...pelo que vos suplico que desistais dessa empresa, retirando-vos já,
+                aquelas de malograr-se qualquer desembarque;
+                pelo que vos suplico que desistais dessa empresa, retirando-vos já,
                 a ver se com o desaparecimento dessas embarcações renasce a
                 relaxação e eu levo a efeito o plano da compra dos soldados com o fim
                 de prenderem os oficiais, para o que já tenho despendido bastante e não
@@ -195,20 +196,17 @@
                 acham as coisas. A lealdade de minhas intenções e serviços já de
                 antemão adiantados, me moveram a fazer-vos este aviso debaixo mesmo
                 do risco que podeis imaginar, e a pureza de meus sentimentos são tais,
-                que nem exijo resposta, salvo se entenderdes necessária.</p>
-
-                <p>Um lanchão deverá ficar na ponta da
+                que nem exijo resposta, salvo se entenderdes necessária.Um lanchão deverá ficar na ponta da
                 <placeName ref="#sarangonha">Sarangonha</placeName> em frente a
                 <placeName ref="#torotama">Torotama</placeName>, para eu comunicar o que for ocorrendo e que daí não se
                 afaste, para não ser percebido pelas canoas que vêm e vão para
-                <placeName ref="#rio_grande">Rio Grande</placeName>, <placeName ref="#estreito">Estreito</placeName>, etc., etc. e tomarem-se novas
+                <placeName ref="#rio_grande">Rio Grande</placeName>, <placeName ref="#estreito">Estreito</placeName>, etc., etc. 
+                e tomarem-se novas
                 precauções. Todos os dias vos dirigirei avisos por aquele lado,
                 acreditando que pouco vos mortificarei, pela brevidade com que tenho
                 de levar a efeito quanto premedito; e ultimamente vos rogo, em nome da
                 pátria, que não arrisqueis essa gente e nem obstruais meu bem
-                combinado plano.</p>
-
-                <p><persName ref="#lima">Lima</persName> ainda se acha no Almeida e trabalha para armar os
+                combinado plano. <persName ref="#joao_manuel_lima_silva">Lima</persName> ainda se acha no Almeida e trabalha para armar os
                 negros, tendo já dado ordem que os 70 que trabalham no forte sejam
                 nelas empregados caso se verifique o vosso desembarque. Hoje arrasou-se
                 o reduto em frente à barra de <placeName ref="#pelotas">Pelotas</placeName>, e na cidade se aprontam 400 lanças,
@@ -220,192 +218,91 @@
                 </dateline>
 
                 <p>Esta tinha de seguir ontem, e depois de fechada foi mister abrir para
-                acrescentar que o <persName ref="#alemao">Alemão</persName>, que daí foi mandado, foi preso esta manhã,
+                acrescentar que o Alemão, que daí foi mandado, foi preso esta manhã,
                 e deu conta da comissão a que vinha: não sei a sorte que terá este
                 infeliz. Ele disse que vinha a bombear e seduzir a seus patrícios; e a
                 proposta a fazer-lhes era passarem-se para o partido da legalidade, pelo
                 que ganhariam 4$ de gratificação, 500 rs. diários, o valor do
+                <pb n="2r"/>
+                <seg type="folio">[2r.]</seg>
                 armamento que levassem; ganhando ele 200 rs. pelo seu trabalho logo que
                 regressasse a <placeName ref="#rio_grande">Rio Grande</placeName>. Vede, <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante, em que estado de
                 atividade se acham os negócios nesta; pois não podendo um só homem
-                escapar-se no mato, o que será no desembarque de uma força?</p>
-
-                <p>O esquadrão de que falei já se acha acantonado na fazenda de
+                escapar-se no mato, o que será no desembarque de uma força? 
+                O esquadrão de que falei já se acha acantonado na fazenda de
                 <placeName ref="#pelotas">Pelotas</placeName>. À vista de tudo isto pela última vez vos peço que vos
                 retireis quanto antes, deixando o lanchão no lugar indicado, e isto
                 mesmo por estar meu plano tão adiantado que já não é possível
-                retroceder, a fim de receberes diariamente as notícias que tenho de dar.</p>
-
-                <p>Não demores a resposta do recebimento desta um só momento, porque
+                retroceder, a fim de receberes diariamente as notícias que tenho de dar.
+                Não demores a resposta do recebimento desta um só momento, porque
                 onde me acho à espera posso ser descoberto e agarrado.</p>
 
                 <p><date when="1836-08-23">Dia 23</date> — Nada tem hoje ocorrido de extraordinário, e só dizem-me
-                que o <persName ref="#alemao">Alemão</persName> que foi preso, pertencente a essa escuna, declarou que tinha
+                que o Alemão que foi preso, pertencente a essa escuna, declarou que tinha
                 vindo também com ele um moço de nome <persName ref="#jose_manuel_silveira">José Manuel da Silveira</persName>,
                 que partira para a cidade para obter notícias e comunicações dos
                 legalistas para levá-las a bordo; inúmeras escoltas saíram para o
                 prenderem e é impossível que se escape. Reparai, <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante, nos
                 transtornos que me tendes causado na ultimação de meu plano: outra
                 vez, em nome da pátria, eu vos rogo que vos retireis, deixando o
-                lanchão como tenho repetidas vezes insinuado.</p>
-
-                <p>Despedi ao portador com acusação do recebimento deste. Continuando,
+                lanchão como tenho repetidas vezes insinuado.
+                Despedi ao portador com acusação do recebimento deste. Continuando,
                 <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante, a comunicar-vos quanto se vai passando nesta, como
                 prometi, direi, segundo as notas que tenho tomado, que na noite de 23,
                 depois que vos enviei a minha primeira, foi preso o tal moço
                 <persName ref="#jose_manuel_silveira">José Manuel</persName> e um português caixeiro de
                 <persName ref="#miller">Luís Miller</persName>. Fortes tratos lhes foram dados, e ignorando o que
                 porventura depunham, sei todavia que o primeiro se acha em ferros e o
-                2.º com praça na infantaria, indo o <persName ref="#alemao">Alemão</persName> para a divisão de
+                2.º com praça na infantaria, indo o Alemão para a divisão de
                 <persName ref="#antonio_sousa_neto">Neto</persName>, por ser perigosa sua estada nesta; e quem sabe o destino que lhe
-                darão?</p>
-
-                <p>Há toda a certeza que <persName ref="#antonio_sousa_neto">Neto</persName> corre para a direção de
-                <placeName ref="#bage">Bagé</placeName> fugindo de <persName ref="#silva">Silva</persName>, que de perto o acossa; mas isto se encobre com
+                darão? Há toda a certeza que <persName ref="#antonio_sousa_neto">Neto</persName> corre para a direção de
+                <placeName ref="#bage">Bagé</placeName> fugindo de <persName ref="#silva_tavares">Silva</persName>, 
+                que de perto o acossa; mas isto se encobre com
                 a maior cautela. Uma partida de ambos se bateram e a de
                 <persName ref="#antonio_sousa_neto">Neto</persName> completamente destroçada. Chegaram a 27 seis feridos mortalmente,
                 porém são curados debaixo de sentinela, e ninguém sabe a quem
                 pertencem, posto que seja claro pelo recato com que os tratam, etc.,
-                etc.</p>
-
-                <p>Misteriosas são hoje aqui todas as coisas: 400 cavalos que há pouco
+                etc. Misteriosas são hoje aqui todas as coisas: 400 cavalos que há pouco
                 chegaram e foram para <persName ref="#domingos_crescencio_carvalho">Crescêncio</persName>, dizem uns vieram remetidos por
-                <persName ref="#manuel_goncalves_silva">Manuel Gonçalves da Silva</persName>, e outros pelo
-                <persName ref="#capitao_teixeira">Capitão Teixeira</persName>; contudo a queda dos malvados se aproxima, a
-                sua palidez e desalento assim o anunciam.</p>
-                                
-                <p>...pelo que vos suplico que desistais dessa empresa, retirando-vos já,
-                a ver se com o desaparecimento dessas embarcações renasce a
-                relaxação e eu levo a efeito o plano da compra dos soldados com o fim
-                de prenderem os oficiais, para o que já tenho despendido bastante e não
-                pouparei quantia; mas tudo está parado com a chegada dessa força, que
-                não podia vir em pior ocasião, pelas cautelas e atividade em que se
-                acham as coisas. A lealdade de minhas intenções e serviços já de
-                antemão adiantados, me moveram a fazer-vos este aviso debaixo mesmo
-                do risco que podeis imaginar, e a pureza de meus sentimentos são tais,
-                que nem exijo resposta, salvo se entenderdes necessária.</p>
-
-                <p>Um lanchão deverá ficar na ponta da
-                <placeName ref="#sarangonha">Sarangonha</placeName> em frente a
-                <placeName ref="#torotama">Torotama</placeName>, para eu comunicar o que for ocorrendo e que daí não se
-                afaste, para não ser percebido pelas canoas que vêm e vão para
-                <placeName ref="#rio_grande">Rio Grande</placeName>, <placeName ref="#estreito">Estreito</placeName>, etc., etc. e tomarem-se novas
-                precauções. Todos os dias vos dirigirei avisos por aquele lado,
-                acreditando que pouco vos mortificarei, pela brevidade com que tenho
-                de levar a efeito quanto premedito; e ultimamente vos rogo, em nome da
-                pátria, que não arrisqueis essa gente e nem obstruais meu bem
-                combinado plano.</p>
-
-                <p><persName ref="#lima">Lima</persName> ainda se acha no Almeida e trabalha para armar os
-                negros, tendo já dado ordem que os 70 que trabalham no forte sejam
-                nelas empregados caso se verifique o vosso desembarque. Hoje arrasou-se
-                o reduto em frente à barra de <placeName ref="#pelotas">Pelotas</placeName>, e na cidade se aprontam 400 lanças,
-                suponho para os negros; que desgraça!!! A ninguém dareis a ler este
-                aviso, porque algum desertor ainda pode tudo transtornar.</p>
-
-                <dateline>
-                    <date when="1836-08-21">Agosto, 21 de 1836</date>.
-                </dateline>
-
-                <p>Esta tinha de seguir ontem, e depois de fechada foi mister abrir para
-                acrescentar que o <persName ref="#alemao">Alemão</persName>, que daí foi mandado, foi preso esta manhã,
-                e deu conta da comissão a que vinha: não sei a sorte que terá este
-                infeliz. Ele disse que vinha a bombear e seduzir a seus patrícios; e a
-                proposta a fazer-lhes era passarem-se para o partido da legalidade, pelo
-                que ganhariam 4$ de gratificação, 500 rs. diários, o valor do
-                armamento que levassem; ganhando ele 200 rs. pelo seu trabalho logo que
-                regressasse a <placeName ref="#rio_grande">Rio Grande</placeName>. Vede, <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante, em que estado de
-                atividade se acham os negócios nesta; pois não podendo um só homem
-                escapar-se no mato, o que será no desembarque de uma força?</p>
-
-                <p>O esquadrão de que falei já se acha acantonado na fazenda de
-                <placeName ref="#pelotas">Pelotas</placeName>. À vista de tudo isto pela última vez vos peço que vos
-                retireis quanto antes, deixando o lanchão no lugar indicado, e isto
-                mesmo por estar meu plano tão adiantado que já não é possível
-                retroceder, a fim de receberes diariamente as notícias que tenho de dar.</p>
-
-                <p>Não demores a resposta do recebimento desta um só momento, porque
-                onde me acho à espera posso ser descoberto e agarrado.</p>
-
-                <p><date when="1836-08-23">Dia 23</date> — Nada tem hoje ocorrido de extraordinário, e só dizem-me
-                que o <persName ref="#alemao">Alemão</persName> que foi preso, pertencente a essa escuna, declarou que tinha
-                vindo também com ele um moço de nome <persName ref="#jose_manuel_silveira">José Manuel da Silveira</persName>,
-                que partira para a cidade para obter notícias e comunicações dos
-                legalistas para levá-las a bordo; inúmeras escoltas saíram para o
-                prenderem e é impossível que se escape. Reparai, <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante, nos
-                transtornos que me tendes causado na ultimação de meu plano: outra
-                vez, em nome da pátria, eu vos rogo que vos retireis, deixando o
-                lanchão como tenho repetidas vezes insinuado.</p>
-
-                <p>Despedi ao portador com acusação do recebimento deste. Continuando,
-                <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante, a comunicar-vos quanto se vai passando nesta, como
-                prometi, direi, segundo as notas que tenho tomado, que na noite de 23,
-                depois que vos enviei a minha primeira, foi preso o tal moço
-                <persName ref="#jose_manuel_silveira">José Manuel</persName> e um português caixeiro de
-                <persName ref="#luis_miller">Luís Miller</persName>. Fortes tratos lhes foram dados, e ignorando o que
-                porventura depunham, sei todavia que o primeiro se acha em ferros e o
-                2.º com praça na infantaria, indo o <persName ref="#alemao">Alemão</persName> para a divisão de
-                <persName ref="#antonio_sousa_neto">Neto</persName>, por ser perigosa sua estada nesta; e quem sabe o destino que lhe
-                darão?</p>
-
-                <p>Há toda a certeza que <persName ref="#antonio_sousa_neto">Neto</persName> corre para a direção de
-                <placeName ref="#bage">Bagé</placeName> fugindo de <persName ref="#silva">Silva</persName>, que de perto o acossa; mas isto se encobre com
-                a maior cautela. Uma partida de ambos se bateram e a de
-                <persName ref="#antonio_sousa_neto">Neto</persName> completamente destroçada. Chegaram a 27 seis feridos mortalmente,
-                porém são curados debaixo de sentinela, e ninguém sabe a quem
-                pertencem, posto que seja claro pelo recato com que os tratam, etc.,
-                etc.</p>
-
-                <p>Misteriosas são hoje aqui todas as coisas: 400 cavalos que há pouco
-                chegaram e foram para <persName ref="#domingos_crescencio_carvalho">Crescêncio</persName>, dizem uns vieram remetidos por
-                <persName ref="#manuel_goncalves_silva">Manuel Gonçalves da Silva</persName>, e outros pelo
-                <persName ref="#capitao_teixeira">Capitão Teixeira</persName>; contudo a queda dos malvados se aproxima, a
-                sua palidez e desalento assim o anunciam.</p>
-                                
-                <p>Estão prontas as 400 lanças e o recrutamento de negros é falado às
+                <persName ref="#manuel_goncalves_silva">Manuel Gonçalves da Silva</persName>, e outros pelo Capitão 
+                <persName ref="#teixeira_nunes">Teixeira</persName>; contudo a queda dos malvados se aproxima, a
+                sua palidez e desalento assim o anunciam.
+                Estão prontas as 400 lanças e o recrutamento de negros é falado às
                 escâncaras. De <persName ref="#bento_goncalves">Bento Gonçalves</persName> nada se sabe, e é por isso de presumir
-                o fim que o diabo lhe destina.</p>
-
-                <p>Eis as notícias que vos posso transmitir até hoje,
+                o fim que o diabo lhe destina. Eis as notícias que vos posso transmitir até hoje,
                 <date when="1836-08-29">29</date>, pelas oito da manhã, e que vivo no maior tormento por não saber se
-                fostes entregue da que vos dirigi: valha-me Deus!</p>
-
-                <p>No entanto que o temor e a pátria lutam em meu coração, a execução
+                fostes entregue da que vos dirigi: valha-me Deus! nNo entanto que o temor e a pátria lutam em meu coração, a execução
                 de meu plano marcha a passos largos, e estaria concluído se a presença
                 dessa força não pusesse os malvados em tanta precaução. Não detalho os
                 meus trabalhos por temer que esta seja apreendida e eu descoberto; mas
                 satisfaça-se com saber que os alemães estão quase de nossa parte;
                 [restam?] os outros para o momento de descuido; pelo que vos peço que
-                vos retireis pelo bem desta pátria querida.</p>
-
-                <p>Todas as minhas comunicações exijo que sejam religiosamente guardadas
+                vos retireis pelo bem desta pátria querida.
+                Todas as minhas comunicações exijo que sejam religiosamente guardadas
                 para minha defesa a todo o tempo, aparentando eu crimes quando trabalho
-                talvez mais que desejo a todo o tempo mostrá-lo.</p>
-
-                <p>Neste momento, oito e meia, graças ao céu tenho o conforto de receber
+                talvez mais que desejo a todo o tempo mostrá-lo.
+                Neste momento, oito e meia, graças ao céu tenho o conforto de receber
                 a que me dirigistes em resposta à minha. Já nos podemos combinar, já um
-                mesmo fim guiará nossos passos: vou mostrar a........ <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante:
+                mesmo fim 
+                <pb n="2v"/>
+                <seg type="folio">[2v.]</seg>
+                guiará nossos passos: vou mostrar a........ <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante:
                 Viva a integridade do Império! De nada mais necessito que saber da
-                vossa ida: completai meus desejos e deixai tudo sobre mim.</p>
-
-                <p>Vou já e já mandar-vos esta com a fausta notícia da derrota de
+                vossa ida: completai meus desejos e deixai tudo sobre mim.
+                Vou já e já mandar-vos esta com a fausta notícia da derrota de
                 <persName ref="#antonio_sousa_neto">Neto</persName>, que julgo certíssima por estar em perfeito descuido, segundo se
                 conta: ele escapou-se a pé dentro do cercado das lavouras do velho
-                <persName ref="#pires">Pires</persName> perto do Veleda; porém seus sequazes espiaram tantos
+                Pires perto do Veleda; porém seus sequazes espiaram tantos
                 delitos como é de supor, pois que nem um só por aqui veio dar. Suores,
-                raiva, temor, etc., etc., é o que vejo. Enfim o gênio tutelar do Brasil é
-                conosco. O que ocorrer até noite vos direi.</p>
-
-                <p>Mande-me quanto antes 5 ou 6 proclamações do nosso Presidente,
+                raiva, temor, etc., etc., é o que vejo. Enfim o gênio tutelar do <orgName ref="imperio_brasil">Brasil</orgName> é
+                conosco. O que ocorrer até noite vos direi.
+                Mande-me quanto antes 5 ou 6 proclamações do nosso Presidente,
                 escritas por letra de mão, nas quais se prometa perdão do passado, salvo
                 as exceções que julgar convenientes. E se aí houver quem para isso
                 esteja autorizado, tanto melhor, pela brevidade e disposição em que
-                tenho posto as coisas, etc., etc.</p>
-
-                <p>As proclamações impressas passam os negócios a 3.º e eu tremo só com
-                essa licença.</p>
-
-                <p>Esta foi aberta para pôr este artigo.</p>
+                tenho posto as coisas, etc., etc.
+                As proclamações impressas passam os negócios a 3.º e eu tremo só com
+                essa licença. Esta foi aberta para pôr este artigo.</p>
 
                 <p><choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante. O preto, pelo qual a <date when="1836-08-29">29 do p.p.</date> vos enviei a minha
                 última comunicação, até hoje, <date when="1836-09-08">8 do corrente setembro</date>, não tem aparecido. Não
@@ -417,44 +314,46 @@
                 presente, não só para dizer o que tem ocorrido, como também para instar
                 que vos retireis quanto antes e vos apresenteis sem falta no dia 20 à
                 noite nessa Barra, tempo que se faz indispensável vossa presença, e não
-                agora, que de novo tudo transtornou.</p>
-
-                <p>As coisas estão dispostas para a noite de <date when="1836-09-20">20</date>, no meio mesmo do grande
+                agora, que de novo tudo transtornou.
+                As coisas estão dispostas para a noite de <date when="1836-09-20">20</date>, no meio mesmo do grande
                 festejo que se vai fazer no forte, e não há como falhar, salvo se
                 continuardes aí a permanecer; porque há avisos de
                 <placeName ref="#rio_grande">Rio Grande</placeName> que se projeta um desembarque, e este já ontem se julgou
-                certo com a chegada de 10 vasos, o que fez tudo andar em passo de cão.</p>
-
-                <p>Mande-me as proclamações que tanto pedi, e ficai descansado que o
+                certo com a chegada de 10 vasos, o que fez tudo andar em passo de cão.
+                Mande-me as proclamações que tanto pedi, e ficai descansado que o
                 resultado não pode falhar! Mande-me dizer se com efeito foi tomada
-                <placeName ref="#itapua">Itapuã</placeName>, ou se foi evacuada como eles dizem, etc., etc.</p>
-
-                <p><persName ref="#silva_tavares">Silva Tavares</persName>,
+                <placeName ref="#itapua">Itapuã</placeName>, ou se foi evacuada como eles dizem, etc., etc.
+                    <persName ref="#silva_tavares">Silva Tavares</persName>,
                 <persName ref="#mazarredo">Mazarredo</persName> e
                 <persName ref="#julian_calderon">Calderon</persName> se acham em
                 <placeName ref="#pirai">Piraí</placeName>, junto a <placeName ref="#bage">Bagé</placeName>, à espera de
-                <persName ref="#fructo_rivera">Fructo Rivera</persName> que se lhe vem unir, o que tem dado que fazer a estes
+                <persName ref="#fructoso_rivera">Fructo Rivera</persName> que se lhe vem unir, o que tem dado que fazer a estes
                 amigos etc., etc.</p>
 
                 <p>As novidades do <placeName ref="#uruguai">Estado Oriental</placeName>, de
                 <persName ref="#antonio_sousa_neto">Neto</persName> e de <persName ref="#domingos_crescencio_carvalho">Crescêncio</persName>, têm parado e
                 de <persName ref="#bento_goncalves">Bento Gonçalves</persName> nada se diz. Cuida-se num arsenal, em fatura de
                 roupa, balas, etc. e tudo conspira para o meu fim. Os doentes de que
-                vos falei vieram do <persName ref="#antonio_sousa_neto">Neto</persName>, mas da partida que se havia batido.</p>
-
-                <p>Nada mais ocorrendo concluo a presente para despachar o próprio.</p>
-
-                <p><hi rend="italic">NB. — Exijo tão somente saber do recebimento desta.</hi></p>
-                                
-                <note type="endorsement" place="margin">
-                    [Na margem direita da folha 1v.]
+                vos falei vieram do <persName ref="#antonio_sousa_neto">Neto</persName>, mas da partida que se havia batido.
+                Nada mais ocorrendo concluo a presente para despachar o próprio.</p>
+                
+                <add place="margin 1v">
+                    <postscript>
+                        <p>
+                            <choice>
+                                <abbr>NB.</abbr>
+                                <expan>Nota Bene</expan>
+                            </choice>
+                            — Exijo tão somente saber do recebimento desta.
+                        </p>
+                        <note type="editorial">Na margem direita da folha 1v.</note>
+                    </postscript>
+                </add>
+                
+                <note type="editorial">
+                    Sem assinatura; cópia de atribuição provável a
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.
                 </note>
-
-                <note type="endorsement" place="verso">
-                    [Sem assinatura; cópia de atribuição provável a
-                    <persName ref="#domingos_jose_almeida">D. J. de Almeida</persName>]
-                </note>
-
             </div>
         </body>
     </text>

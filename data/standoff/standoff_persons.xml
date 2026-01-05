@@ -331,41 +331,47 @@
             <death when="1871-06-16">16 de junho de 1871</death>
             <idno type="viaf">https://viaf.org/en/viaf/13747991</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10268073</idno>
-            <state type="roleInTime" xml:id="dja_coronel_chefe_legiao">
+            <state type="roleInTime" xml:id="dja_coronel_chefe_legiao_1836">
                 <roleName>Coronel Chefe de Legião</roleName>
+                <date when="1836"/>
+            </state>
+            <state type="roleInTime" xml:id="dja_secretario_rrg_1836">
+                <roleName>Secretário da República Rio-Grandense</roleName>
                 <affiliation ref="#republica_rio_grandense"/>
+                <date type="begin" when="1836-09-11"/>
             </state>
             <state type="roleInTime" xml:id="dja_ministro_justica_rrg">
                 <roleName>Ministro da Justiça</roleName>
                 <affiliation ref="#ministerio_justica_rrg"/>
-            </state>
-            <state type="roleInTime" xml:id="dja_secretario_rrg">
-                <roleName>Secretário da República Rio-Grandense</roleName>
-                <affiliation ref="#republica_rio_grandense"/>
+                <date type="begin" when="1836-09-11"/>
             </state>
             <state type="roleInTime" xml:id="domingos_quartel_mestre_general_rrg">
                 <roleName>Quartel-mestre-general</roleName>
                 <affiliation ref="#republica_rio_grandense"/>
+                <date type="begin" when="1836-09-11"/>
             </state>
             <state type="roleInTime" xml:id="dja_ministro_fazenda_1836_1841">
                 <roleName>Ministro da Fazenda</roleName>
                 <affiliation ref="#ministerio_fazenda"/>
-                <date type="begin" when="1836-09"/>
+                <date type="begin" when="1836-09-11"/>
                 <date type="end" when="1841-09"/>
             </state>
             <state type="roleInTime" xml:id="dja_ministro_interior_1836_1841">
                 <roleName>Ministro do Interior</roleName>
                 <affiliation ref="#ministerio_interior"/>
-                <date type="begin" when="1836-09"/>
+                <date type="begin" when="1836-09-11"/>
                 <date type="end" when="1841-09"/>
             </state>
-            <state type="roleInTime" xml:id="dja_deputado_assembleia_provincial_rs">
+            <state type="roleInTime" xml:id="dja_deputado_assembleia_provincial_rs_1835">
                 <roleName>Deputado provincial</roleName>
                 <affiliation ref="#assembleia_provincial_rs"/>
                 <date when="1835"/>
             </state>
-            <note>Figura central da República Rio-Grandense e responsável pelos expedientes da Fazenda, do Interior, da Justiça e 
-                da Secretaria da República.</note>
+            <note>
+                Liderança central do movimento farroupilha. Antes da proclamação da República
+                Rio-Grandense, atuou como coronel e chefe de legião no contexto insurrecional;
+                após 11 de setembro de 1836, ocupou cargos centrais na administração republicana.
+            </note>
         </person>
         
         <person xml:id="dionisio_amaro">
@@ -393,44 +399,41 @@
         </person>
         
         <person xml:id="paulino_fontoura">
-            <persName type="popular">Paulino</persName>
             <persName>Antônio Paulo da Fontoura</persName>
+            <persName type="popular">Paulino</persName>
+            <idno type="project"/>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q9622579</idno>
-            <relation
-                name="rel:siblingOf"
-                active="#fontoura"
-                passive="#paulino_fontoura"/>
-            <roleName>Vice-presidente da República Rio-grandense.</roleName>
-            <note>Irmão de Antônio vicente da Fontoura, foi morto no contexto da tensão política na Assembleia Constituinte da República em 13 de fevereiro de 1843.</note>
+            <state type="roleInTime" xml:id="paulino_fontoura_vice_presidente_rrg">
+                <roleName>Vice-presidente da República Rio-Grandense</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <note>
+                Irmão de Antônio Vicente da Fontoura; morto no contexto das tensões políticas
+                na Assembleia Constituinte da República Rio-Grandense em 13 de fevereiro de 1843.
+            </note>
         </person>
         
         <person xml:id="fontoura">
             <persName>Antônio Vicente da Fontoura</persName>
             <birth when="1807-06-16"/>
             <death when="1860-10-20"/>
+            <idno type="project"/>
             <idno type="viaf">https://viaf.org/en/viaf/4964150325584210090000</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q4777674</idno>
-            <note type="roles">
-                Chefe de polícia da comarca de Rio Pardo durante a República Rio-Grandense;
-                Coletor-geral de impostos da República Rio-Grandense;
-                Chefe da missão diplomática da República Rio-Grandense;
-                Deputado à Assembleia Constituinte da República Rio-Grandense.
-            </note>
+            <state type="roleInTime" xml:id="fontoura_major_legiao_1835">
+                <roleName>Major da Legião da Guarda Nacional da Comarca de Rio Pardo</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+                <date type="begin" when="1835-09"/>
+            </state>
             <state type="roleInTime" xml:id="fontoura_ministro_fazenda_1841">
                 <roleName>Ministro da Fazenda</roleName>
                 <affiliation ref="#ministerio_fazenda"/>
                 <date type="begin" when="1841-09"/>
                 <date type="end" when="1845-03-01"/>
             </state>
-            <state type="roleInTime" xml:id="fontoura_major_legiao_1835">
-                <roleName>Major de Legião de Guardas Nacionais da Comarca de Rio Pardo</roleName>
-                <affiliation>Exército Farroupilha</affiliation>
-                <date type="begin" when="1835-09"/>
-                <date cert="unknown">Promoção durante o início da Revolução Farroupilha, tendo sido capitão da Guarda Nacional desde 1832.</date>
-            </state>
             <note>
-                Político e militar da Revolução Farroupilha, um dos líderes da chamada minoria.
-                Negociou a paz de Ponche Verde, que reintegrou o Rio Grande do Sul ao Brasil.
+                Político e militar da Revolução Farroupilha; integrante da chamada minoria
+                farroupilha e um dos negociadores da Paz de Ponche Verde.
             </note>
         </person>
 
@@ -497,9 +500,14 @@
         
         <person xml:id="francisco_xavier">
             <persName>Francisco Xavier</persName>
-            <idno></idno>
-            <roleName>Capitão</roleName>
-            <note>Comandante da guarnição de São José do Norte.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="francisco_xavier_capitao">
+                <roleName>Capitão</roleName>
+            </state>
+            <state type="roleInTime" xml:id="francisco_xavier_comandante_sao_jose_norte_1836">
+                <roleName>Comandante</roleName>
+            </state>
+            <note>Capitão; comandante das forças que sitiam São José do Norte, citado na carta CV-200.</note>
         </person>
         
         <person xml:id="domingos_vicente">
@@ -1844,13 +1852,21 @@
         
         <person xml:id="manuel_oribe">
             <persName>Manuel Oribe</persName>
-            <persName type="full">Manuel Ceferino Oribe y Viana </persName>
+            <persName type="full">Manuel Ceferino Oribe y Viana</persName>
+            <idno type="project"/>
             <idno type="viaf">https://viaf.org/en/viaf/53704608</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q467987</idno>
-            <roleName>Presidente do Uruguai</roleName>
-            <roleName>Líder do Partido Blanco</roleName>
-            <note>(Montevidéu, 26 de agosto de 1792 — Montevidéu, 12 de novembro de 1857) foi um caudilho, militar, político e segundo presidente da República Oriental do Uruguai.Presidente uruguaio deposto por Rivera em 1838.</note>
-            
+            <state type="roleInTime" xml:id="oribe_presidente_uruguai">
+                <roleName>Presidente do Uruguai</roleName>
+                <date when="1835"/>
+            </state>
+            <state type="roleInTime" xml:id="oribe_lider_partido_blanco">
+                <roleName>Líder do Partido Blanco</roleName>
+            </state>
+            <note>
+                Militar e político oriental, caudilho e segundo presidente da República Oriental
+                do Uruguai; deposto por Fructuoso Rivera em 1838.
+            </note>
         </person>
         
         <person xml:id="jose_rodrigues_chaves">
@@ -4003,13 +4019,16 @@
         
         <person xml:id="jose_manuel_silveira">
             <persName>José Manuel da Silveira</persName>
-            <idno></idno>
-            <note>Citado como enviado para obter informações em Pelotas; posteriormente preso.</note>
-        </person>
-        
-        <person xml:id="silva">
-            <persName>Silva</persName>
-            <note>Identidade parcial — mencionado apenas pelo sobrenome.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="jose_manuel_silveira_informante">
+                <roleName>Informante</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+                <note>Enviado para obter notícias e comunicações dos legalistas.</note>
+            </state>
+            <note>
+                Agente aliado aos farroupilhas, citado como responsável por obter informações
+                em Pelotas para transmissão a uma embarcação; foi preso e submetido a maus-tratos.
+            </note>
         </person>
         
         <person xml:id="fayete">
@@ -4530,7 +4549,16 @@
         <person xml:id="manuel_goncalves_silva">
             <persName>Manuel Gonçalves da Silva</persName>
             <idno type="project"/>
-            <note>Irmão de Bento Gonçalves da Silva. Mencionado no contexto de fornecimento de cavalos e apoio às movimentações militares durante a Revolução Farroupilha.</note>
+            <state type="roleInTime" xml:id="manuel_goncalves_silva_apoio_logistico">
+                <roleName>Apoio logístico</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+                <note>Envolvido no fornecimento de cavalos e apoio às movimentações militares.</note>
+            </state>
+            <note>
+                Irmão de <persName ref="#bento_goncalves">Bento Gonçalves da Silva</persName>;
+                citado no contexto de fornecimento de cavalos e apoio às operações militares
+                durante a Revolução Farroupilha.
+            </note>
         </person>
         
         <person xml:id="jose_ilidoro_figueiredo">
@@ -5625,13 +5653,16 @@
         <person xml:id="miller">
             <persName>Luís Miller</persName>
             <persName type="alias">Miller</persName>
-            <idno type="project"></idno>
-            <state type="roleInTime" xml:id="miller_comerciante_imperio">
-                <roleName>Comerciante e fornecedor de gêneros</roleName>
-                <affiliation ref="#imperio_brasil"/>
-                <note>Atuava como caixeiro e negociante, fornecendo mantimentos e materiais às forças legais.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="miller_comerciante">
+                <roleName>Comerciante</roleName>
+                <note>Empregador de caixeiros e negociante atuante na região durante a Revolução Farroupilha.</note>
             </state>
-            <note>Comerciante português preso junto a José Manuel da Silveira; aparece em contexto de abastecimento das tropas legalistas durante a Revolução Farroupilha.</note>
+            <note>
+                Comerciante português citado indiretamente em correspondência como empregador
+                de um caixeiro preso juntamente com José Manuel da Silveira; aparece no contexto
+                de redes de abastecimento e informação ligadas às forças legalistas.
+            </note>
         </person>
         
         <person xml:id="frutuoso">
@@ -8605,13 +8636,6 @@
             </note>
         </person>
         
-        <person xml:id="manuel_domigues_moreira">
-            <persName>Manuel Domingues Moreira</persName>
-            <persName type="variant">Manuel Domigues Moreira</persName>
-            <idno type="project"/>
-            <note>Fornecedor citado em transações comerciais registradas no verso do documento CV-198, ligado ao circuito de crédito e abastecimento de Domingos José de Almeida.</note>
-        </person>
-        
         <person xml:id="goularte">
             <persName>Goularte</persName>
             <idno type="project"/>
@@ -8632,170 +8656,233 @@
         
         <person xml:id="jose_marques_cunha">
             <persName>José Marques da Cunha</persName>
-            <note>Fornecedor citado nas contas no verso da carta CV-198.</note>
+            <idno type="project"/>
+            <note>Fornecedor citado nas contas registradas no verso da carta CV-198.</note>
         </person>
         
         <person xml:id="manuel_domigues_moreira">
             <persName>Manuel Domingues Moreira</persName>
-            <note>Fornecedor citado em transações registradas no verso da CV-198.</note>
+            <idno type="project"/>
+            <note>Fornecedor mencionado em transações de cobertores no verso da CV-198.</note>
         </person>
         
-        <person xml:id="isidoro_filipe">
-            <persName>Isidoro Filipe</persName>
-            <note>Fornecedor relacionado a cobertores mencionados na CV-198.</note>
+        <person xml:id="isidoro_filipe_duarte">
+            <persName>Isidoro Filipe Duarte</persName>
+            <idno type="project"/>
+            <note>Fornecedor de cobertores citado duas vezes nas contas do verso da CV-198.</note>
         </person>
         
         <person xml:id="antonio_inacio_santos">
             <persName>Antônio Inácio dos Santos</persName>
-            <note>Fornecedor citado no verso da CV-198.</note>
+            <idno type="project"/>
+            <note>Fornecedor de cobertores mencionado nas contas da CV-198.</note>
         </person>
         
         <person xml:id="antonio_lima_pinto">
             <persName>Antônio de Lima e Pinto</persName>
-            <note>Fornecedor citado nas contas da CV-198.</note>
+            <idno type="project"/>
+            <note>Fornecedor citado nas contas do verso da CV-198.</note>
         </person>
         
         <person xml:id="joao_batista_silva">
             <persName>João Batista da Silva</persName>
-            <note>Fornecedor de panos citado na CV-198.</note>
+            <idno type="project"/>
+            <note>Fornecedor de panos (côvados) citado nas contas da CV-198.</note>
         </person>
         
         <person xml:id="jose_francisco_guimaraes">
             <persName>José Francisco Guimarães</persName>
-            <note>Fornecedor de cobertores citado na CV-198.</note>
+            <idno type="project"/>
+            <note>Fornecedor de cobertores mencionado no verso da CV-198.</note>
         </person>
         
         <person xml:id="jose_joaquim_leite_guimaraes">
             <persName>José Joaquim Leite Guimarães</persName>
-            <note>Fornecedor de panos e cobertores citado diversas vezes na CV-198.</note>
+            <idno type="project"/>
+            <note>Fornecedor de panos e cobertores citado repetidamente nas contas da CV-198.</note>
         </person>
         
         <person xml:id="nelson_aveline">
             <persName>Nelson Aveline</persName>
-            <note>Fornecedor de cobertores e panos citado na CV-198.</note>
+            <idno type="project"/>
+            <note>Fornecedor de panos e cobertores mencionado no verso da CV-198.</note>
         </person>
         
         <person xml:id="eulalio_antonio_muniz">
             <persName>Eulálio Antônio Muniz</persName>
-            <note>Fornecedor de cobertores e barreganas citado na CV-198.</note>
+            <idno type="project"/>
+            <note>Fornecedor de cobertores e barreganas citado nas contas da CV-198.</note>
         </person>
         
         <person xml:id="joaquim_jose_mendes_ribeiro">
             <persName>Joaquim José Mendes Ribeiro</persName>
-            <note>Credor cujas contas são mencionadas na CV-198.</note>
+            <idno type="project"/>
+            <note>Credor cujas contas são mencionadas no verso da carta CV-198.</note>
         </person>
         
         <person xml:id="leite_rocha">
             <persName>Leite e Rocha</persName>
-            <note>Casa comercial ou sociedade citada no verso da CV-198.</note>
+            <idno type="project"/>
+            <note>Casa comercial mencionada como credora nas contas do verso da CV-198.</note>
         </person>
         
         <person xml:id="manuel_joaquim_paula">
             <persName>Manuel Joaquim de Paula</persName>
-            <note>Fornecedor citado no verso da CV-198.</note>
+            <idno type="project"/>
+            <note>Fornecedor citado nas contas do verso da CV-198.</note>
         </person>
         
         <person xml:id="jorge_taylor">
             <persName>Jorge Taylor</persName>
-            <note>Fornecedor de mercadorias mencionado na CV-198.</note>
+            <idno type="project"/>
+            <note>Fornecedor mencionado nas contas do verso da CV-198.</note>
         </person>
         
         <person xml:id="jose_ribeiro_pinto_costa">
             <persName>José Ribeiro Pinto Costa</persName>
-            <note>Credor mencionado na CV-198.</note>
+            <idno type="project"/>
+            <note>Credor mencionado nas contas do verso da CV-198.</note>
         </person>
         
         <person xml:id="antonio_maria_sousa">
             <persName>Antônio Maria de Sousa</persName>
-            <note>Fornecedor mencionado no verso da CV-198.</note>
+            <idno type="project"/>
+            <note>Fornecedor citado nas contas do verso da CV-198.</note>
         </person>
         
         <person xml:id="joao_pedro_costa_freire">
             <persName>João Pedro da Costa Freire</persName>
-            <note>Fornecedor citado na CV-198.</note>
+            <idno type="project"/>
+            <note>Fornecedor mencionado nas contas da CV-198.</note>
         </person>
         
         <person xml:id="antonio_rodrigues_filho">
             <persName>Antônio Rodrigues Filho</persName>
-            <note>Fornecedor citado na CV-198.</note>
+            <idno type="project"/>
+            <note>Fornecedor citado nas contas do verso da CV-198.</note>
         </person>
         
         <person xml:id="joaquim_jose_freitas">
             <persName>Joaquim José de Freitas</persName>
-            <idno></idno>
-            <note>Juiz de Paz da Freguesia de Mostardas.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="joaquim_jose_freitas_juiz_de_paz">
+                <roleName>Juiz de Paz</roleName>
+            </state>
+            <note>Juiz de Paz da Freguesia de Mostardas; destinatário das ordens administrativas na carta CV-200.</note>
         </person>
         
         <person xml:id="manuel_rodrigues_cordeiro">
             <persName>Manuel Rodrigues Cordeiro</persName>
-            <idno></idno>
-            <note>Responsável pelo envio de ferragem, massame e chumbo ao comando superior.</note>
-        </person>
-        
-        <person xml:id="junqueira">
-            <persName>Junqueira</persName>
-            <idno></idno>
-            <note>Proprietário da escuna de onde foram retiradas peças de artilharia.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="manuel_rodrigues_cordeiro_agente_remessa_1836">
+                <roleName>Agente de remessa</roleName>
+            </state>
+            <note>Responsável por receber e remeter ferragem, massame e chumbo ao Comandante Superior (Bento Gonçalves) na carta CV-200.</note>
         </person>
         
         <person xml:id="bernardino_gomes">
             <persName>Bernardino Gomes</persName>
-            <idno></idno>
-            <note>Tenente vindo do Estado Oriental, reforçando a brigada de Neto.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="bernardino_gomes_tenente">
+                <roleName>Tenente</roleName>
+            </state>
+            <note>
+                Oficial militar vindo do Estado Oriental, incorporado como reforço à brigada de
+                <persName ref="#antonio_sousa_neto">Antônio de Sousa Neto</persName>.
+            </note>
         </person>
         
         <person xml:id="lavalleja">
-            <persName type="popular">Juan Antonio Lavalleja</persName>
+            <persName>Juan Antonio Lavalleja</persName>
             <persName type="full">Juan Antonio Lavalleja y de la Torre</persName>
+            <idno type="project"/>
             <idno type="viaf">https://viaf.org/en/viaf/56987781</idno>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q649615</idno>
-            <roleName>Dragão no Regimento de Dragões da União em Montevidéu</roleName>
-            <roleName>Capitão de Artigas</roleName>
-            <roleName>general de Sarandí</roleName>
-            <roleName>Presidente do Uruguai</roleName>
-            <note>Juan Antonio Lavalleja y de la Torre (Minas, 24 de junho de 1784 – Montevidéu, 22 de outubro de 1853) foi um militar e político uruguaio, que liderou os Trinta e Três Orientais, e presidiu o Uruguai no Triunvirato de Gobierno de 1853, junto a Venancio Flores e a Fructuoso Rivera. </note>
+            <state type="roleInTime" xml:id="lavalleja_dragao_montevideu">
+                <roleName>Dragão no Regimento de Dragões da União</roleName>
+                <placeName ref="#montevideu"/>
+            </state>
+            <state type="roleInTime" xml:id="lavalleja_capitao_artigas">
+                <roleName>Capitão</roleName>
+                <note>Oficial sob o comando de José Artigas.</note>
+            </state>
+            <state type="roleInTime" xml:id="lavalleja_general_sarandi">
+                <roleName>General vitorioso na batalha de Sarandí</roleName>
+                <date when="1825"/>
+            </state>
+            <state type="roleInTime" xml:id="lavalleja_presidente_uruguai_1853">
+                <roleName>Presidente do Uruguai</roleName>
+                <date when="1853"/>
+            </state>
+            <note>
+                Militar e político oriental; líder dos Trinta e Três Orientais e figura central
+                da independência uruguaia.
+            </note>
         </person>
         
         <person xml:id="serafico">
             <persName>Seráfico</persName>
-            <idno></idno>
-            <note>Alferes improvisado da fronteira do Chuí.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="serafico_alferes_fronteira_chui">
+                <roleName>Alferes</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+                <placeName ref="#chui"/>
+                <note>Oficial improvisado.</note>
+            </state>
+            <note>
+                Militar aliado ao movimento farroupilha, responsável pela remessa de cavalos
+                recolhidos na fronteira do Chuí, conforme mencionado em correspondência da
+                Revolução Farroupilha.
+            </note>
         </person>
         
         <person xml:id="julian_calderon">
             <persName>Julian Calderón</persName>
-            <idno></idno>
-            <note>Major citado como responsável pela movimentação de peças de artilharia.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="julian_calderon_major_artilharia">
+                <roleName>Major</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+                <note>Responsável pela movimentação de peças de artilharia.</note>
+            </state>
+            <note>
+                Oficial aliado ao movimento farroupilha, citado como responsável pelo envio de
+                peças de artilharia e munições a partir de Cebolati, no contexto da Revolução
+                Farroupilha.
+            </note>
         </person>
         
         <person xml:id="pedro_pinto">
             <persName>Pedro Pinto</persName>
-            <idno></idno>
-            <note>Comandante de escolta em operação repressiva.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="pedro_pinto_comandante_escolta">
+                <roleName>Comandante de escolta</roleName>
+            </state>
+            <note>
+                Militar citado como comandante de escolta envolvida em ação repressiva,
+                com apreensão de armas e condução de presos para Rio Grande. Possível legalista.
+            </note>
         </person>
         
         <person xml:id="joaquim_marques">
             <persName>Joaquim Marques</persName>
-            <idno></idno>
-            <note>Cidadão que se ocultou para fugir de captura.</note>
-        </person>
-        
-        <person xml:id="capitao_teixeira">
-            <persName>Capitão Teixeira</persName>
-            <idno></idno>
-            <note>Citado como remetente de cavalos a Crescêncio.</note>
-        </person> <!--Descobrir qual dos militares com esse sobrenome pode ser.-->
-        
-        <person xml:id="pires">
-            <persName>Pires</persName>
-            <idno></idno>
-            <note>Proprietário das lavouras onde Neto teria se ocultado.</note>
+            <idno type="project"/>
+            <note>
+                Civil citado como alvo de diligências repressivas; ocultou-se para evitar
+                captura no contexto de operações militares.
+            </note>
         </person>
         
         <person xml:id="mazarredo">
             <persName>Jorge Mazarredo</persName>
-            <idno></idno>
-            <note>Era o comandante do 8º Batalhão, uma unidade do Exército Imperial, e foi morto em combate durante os eventos iniciais da Revolução Farroupilha.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="mazarredo_comandante_8_batalhao">
+                <roleName>Comandante do 8.º Batalhão</roleName>
+                <affiliation ref="#exercito_imperial"/>
+            </state>
+            <note>
+                Oficial do Exército Imperial; comandante do 8.º Batalhão, morto em combate
+                durante os eventos iniciais da Revolução Farroupilha.
+            </note>
         </person>
         
         <person xml:id="silvano">

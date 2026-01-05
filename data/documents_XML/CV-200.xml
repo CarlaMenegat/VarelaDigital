@@ -6,22 +6,30 @@
                 <title>Carta CV-200 – Domingos José de Almeida para Joaquim José de Freitas</title>
                 <author>Domingos José de Almeida; Inácio José de Oliveira Guimarães</author>
                 <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
                 <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
                 <respStmt>
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-09-10">10 de setembro de 2025</date>
             </editionStmt>
+            
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
+            
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
                 <pubPlace>Porto Alegre</pubPlace>
@@ -29,6 +37,7 @@
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            
             <seriesStmt>
                 <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
                 <biblScope type="volume">Vol. II</biblScope>
@@ -54,6 +63,7 @@
                             <date when="1978">1978</date>
                             <biblScope type="volume">2</biblScope>
                             <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <biblScope unit="page" from="175" to="176">175-176</biblScope>
                             <measure type="extent">23 cm</measure>
                         </imprint>
                     </monogr>
@@ -61,13 +71,14 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
+                
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
-        
         <encodingDesc>
             <projectDesc>
                 <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
@@ -79,6 +90,10 @@
             </appInfo>
         </encodingDesc>
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.</language>
+            </langUsage>
             <correspDesc xml:id="cv200-corresp">
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
@@ -90,12 +105,15 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
-        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-09-10">10/09/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2026-01-01">01/01/2026</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
@@ -104,62 +122,62 @@
     <text>
         <body>
             
-            <div type="letter" xml:id="CV-200">
+            <div type="letter" subtype="copy" xml:id="CV-200">
                 
                 <opener>
-                    <salute>Cópia — <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Na qualidade de Coronel Chefe da Legião de Guardas Nacionais desta
                     Comarca e competentemente autorizado pelo <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante
                     Interino das Armas desta Província para em seu nome poder obrar em
                     tudo concernente ao triunfo da liberdade em que nos achamos
-                    empenhados, requisito de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> a mais pronta execução dos parágrafos
-                    seguintes:</p>
-                
-                <p>1.º — “Todos os ponches bicharás, denominados — de
-                    Mostardas —, que se acharem prontos no seu distrito, <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> fará recolher
+                    empenhados, requisito de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
+                    a mais pronta execução dos parágrafos
+                    seguintes: 1.º — Todos os ponches bicharás, denominados — de
+                    Mostardas —, que se acharem prontos no seu distrito, 
+                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> fará recolher
                     ao depósito que vou criar sob a direção do
                     <persName ref="#francisco_xavier">Capitão Francisco Xavier</persName>,
                     comandante das forças que sitiam a vila de
                     <placeName ref="#sao_jose_norte">São José do Norte</placeName>, a fim de que não só se previna a que deles se
                     apossem os inimigos, mas também para fornecer-se nossas divisões de
-                    tal artigo, caso lhes sejam mister.</p>
-                
-                <p>2.º — A todas as pessoas que se tirarem ditos ponches <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> passará
+                    tal artigo, caso lhes sejam mister. 2.º — A todas as pessoas que se tirarem ditos ponches 
+                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> passará
                     documento, no valor cada ponche de mil e oitocentos réis, em atenção
                     à demora que seus proprietários possam ter no recebimento de sua
                     importância, posto que de presente o preço corrente seja para menos de
                     mil e seiscentos réis. Pode suceder que se não lance mão de sobreditos
                     ponches para as divisões, e nesse caso serão intactos restituídos a seus
-                    donos, a quem <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> fará ver que pela Tesouraria Provincial serão
+                    donos, a quem <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
+                    fará ver que pela Tesouraria Provincial serão
                     satisfeitos da importância daqueles que se tirar para a tropa,
-                    imediatamente que se restaurar a capital.</p>
-                
-                <p>3.º — <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> fará avaliar por dois ou três peritos toda a ferragem e
+                    imediatamente que se restaurar a capital. 3.º — <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
+                    fará avaliar por dois ou três peritos toda a ferragem e
                     massame de linho que exista no seu distrito de embarcações dadas à
                     costa, como também de todo o chumbo, tanto em grão, barra e pesos
                     que juntamente exista, e com a maior brevidade enviará ao cidadão
-                    <persName ref="#manuel_rodrigues_cordeiro">Manuel Rodrigues Cordeiro</persName> para este remeter ao <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
-                    Comandante Superior <persName ref="#bento_goncalves">Bento Gonçalves da Silva</persName>. Desde já fique <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> na
+                    <persName ref="#manuel_rodrigues_cordeiro">Manuel Rodrigues Cordeiro</persName> 
+                    para este remeter ao <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                    Comandante Superior <persName ref="#bento_goncalves">Bento Gonçalves da Silva</persName>. 
+                    Desde já fique <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> na
                     inteligência de que rigorosamente será responsabilizado por qualquer
                     omissão ou desleixo com que se portar nesta comissão, e que cópias
                     deste tenho já expedido aos Exmos. Srs. Comandante Interino das Armas
                     e Comandante Superior da Guarda Nacional.</p>
                 
-                <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> muitos anos.</p>
-                
-                <dateline>
-                    Fazenda do Pântano Grande,
-                    <date when="1836-08-09">9 de agosto de 1836</date>.
-                </dateline>
-                
-                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_jose_freitas">Joaquim José de Freitas</persName><br/>
-                    Juiz de Paz da Freguesia de <placeName ref="#mostardas">Mostardas</placeName>.</p>
-                
                 <closer>
+                    <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> muitos anos.</salute>
+                    <dateline>
+                        Fazenda do Pântano Grande,
+                        <date when="1836-08-09">9 de agosto de 1836</date>.
+                    </dateline>
+                    <addressee>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_jose_freitas">Joaquim José de Freitas</persName><br/>
+                        Juiz de Paz da Freguesia de <placeName ref="#mostardas">Mostardas</placeName>.
+                    </addressee>
                     <signed>
-                        (a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName><br/>
+                        <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName><br/>
                         Coronel Chefe de Legião da Comarca de <placeName ref="#rio_grande">Rio Grande</placeName>.
                     </signed>
                 </closer>

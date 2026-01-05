@@ -6,21 +6,27 @@
                 <title>Documento CV-199 – Correspondência entre Domingos José de Almeida e Inácio José de Oliveira Guimarães</title>
                 <author>Domingos José de Almeida; Inácio José de Oliveira Guimarães</author>
                 <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
                 <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
                 <respStmt>
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-09-10">10 de setembro de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -54,6 +60,7 @@
                             <date when="1978">1978</date>
                             <biblScope type="volume">2</biblScope>
                             <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <biblScope unit="page" from="173" to="175">173-175</biblScope>
                             <measure type="extent">23 cm</measure>
                         </imprint>
                     </monogr>
@@ -61,13 +68,14 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
+                
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
-        
         <encodingDesc>
             <projectDesc>
                 <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
@@ -79,7 +87,10 @@
             </appInfo>
         </encodingDesc>
         <profileDesc>
-
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.</language>
+            </langUsage>
             <correspDesc xml:id="cv199a-corresp">
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
@@ -100,14 +111,16 @@
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </correspAction>
             </correspDesc>
-            
         </profileDesc>
-        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-09-10">10/09/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2026-01-01">01/01/2026</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
@@ -115,8 +128,6 @@
     
     <text>
         <body>
-            
-            <!-- ===================== CV-199a — Carta de Almeida ===================== -->
             <div type="letter" xml:id="CV-199a">
                 
                 <opener>
@@ -145,23 +156,17 @@
                     a quantia pedida, obtendo recibo nesta a fim de ser resgatado quando o
                     documento em forma lhe for dirigido.</p>
                 
-                <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> muitos anos.</p>
-                
-                <dateline>
-                    <placeName ref="#pelotas">Pelotas</placeName>,
-                    <date when="1836-07-22">22 de julho de 1836</date>.
-                </dateline>
-                
-                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.</p>
-                
                 <closer>
-                    <signed>
-                        (a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName><br/>
-                        Coronel Chefe de Legião.
-                    </signed>
+                    <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> muitos anos.</salute>
+                    <dateline>
+                        <placeName ref="#pelotas">Pelotas</placeName>,
+                        <date when="1836-07-22">22 de julho de 1836</date>.
+                    </dateline>
+                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.</addressee>
+                    <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName><br/>Coronel Chefe de Legião.</signed>
                 </closer>
                 
-                <note type="endorsement" place="verso">
+                <note type="endorsement" place="1v">
                     Serviço Público.<br/>
                     <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.<br/>
                     Do coronel Chefe da Legião da Comarca de Rio Grande.
@@ -169,9 +174,7 @@
                 
             </div>
             
-            
-            <!-- ===================== CV-199b — Resposta de Inácio ===================== -->
-            <div type="letter" xml:id="CV-199b">
+            <div type="letter" xml:id="CV-199b" place="1v">
                 
                 <opener>
                     <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
@@ -186,9 +189,7 @@
                     <placeName ref="#rio_grande">Rio Grande</placeName>, e que mesmo para fazer face a algumas pequenas
                     despesas tenho sido suprido por
                     <persName ref="#baltasar_rodrigues_soares_filho">Baltasar José Rodrigues Filho</persName>
-                    e por outros desta mesma freguesia.</p>
-                
-                <p>Eu não me pouparia a esse pequeno desembolso se com efeito houvesse
+                    e por outros desta mesma freguesia. Eu não me pouparia a esse pequeno desembolso se com efeito houvesse
                     meios por onde tal quantia se pudesse conseguir, mas isto por aqui é de
                     tal forma, que muitas vezes nem cem patacões se conseguem por
                     empréstimo. <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> deve conhecer e ser sabedor que não tenho tratado
@@ -196,26 +197,17 @@
                     primeiro aceno de qualquer autoridade que por estes lugares tem
                     transitado.</p>
                 
-                <p>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> muitos anos.</p>
-                
-                <dateline>
-                    <placeName ref="#sao_lourenco">Fazenda em São Lourenço</placeName>,
-                    <date when="1836-07-24">24 de julho de 1836</date>.
-                </dateline>
-                
-                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>,
-                    Coronel Chefe de Legião.</p>
                 
                 <closer>
-                    <signed>
-                        (a) <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>
-                    </signed>
+                    <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> muitos anos.</salute>
+                    <dateline>
+                        <placeName ref="#sao_lourenco">Fazenda em São Lourenço</placeName>,
+                        <date when="1836-07-24">24 de julho de 1836</date>.
+                    </dateline>
+                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>,
+                        Coronel Chefe de Legião.</addressee>
+                    <signed><persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName></signed>
                 </closer>
-                
-                <note type="endorsement" place="verso">
-                    [No verso do documento CV-199]
-                </note>
-                
             </div>
             
         </body>
