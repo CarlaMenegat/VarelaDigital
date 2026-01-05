@@ -23,6 +23,7 @@
         
         <event xml:id="revolta_liberal_1842">
             <desc>Revolta Liberal de 1842</desc>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q9068547</idno>
             <date when="1842">1842</date>
             <location>
                 <placeName ref="#sao_paulo">São Paulo</placeName>
