@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-214 – Inácio José de Oliveira Guimarães para Domingos José de Almeida</title>
                 <author>Inácio José de Oliveira Guimarães</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-09-11">11 de setembro de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -54,17 +59,22 @@
                             <date when="1978">1978</date>
                             <biblScope type="volume">2</biblScope>
                             <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <biblScope unit="page" from="188" to="188">188</biblScope>
                             <measure type="extent">23 cm</measure>
                         </imprint>
                     </monogr>
                     <series>
                         <title>II Série</title>
                     </series>
+                    <relatedItem type="replyTo">
+                        <ref target="#CV-212">CV-212</ref>
+                    </relatedItem>
                 </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -78,33 +88,45 @@
                 </application>
             </appInfo>
         </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
-                
                 <correspAction type="sent">
                     <persName ref="#inacio_guimaraes">
                         Inácio José de Oliveira Guimarães
                     </persName>
                     <date when="1837-07-01">1º de julho de 1837</date>
                 </correspAction>
-                
                 <correspAction type="received">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     <placeName ref="#piratini">Piratini</placeName>
                 </correspAction>
-                
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-09-11">11/09/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2026-01-03">03/01/2026</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
     </teiHeader>
-    
     <text>
         <body>
             <div type="letter" xml:id="CV-214">
@@ -118,27 +140,29 @@
                     em resposta ao mesmo dizer que ninguém melhor que <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> conhece
                     o estado em que me acho respeito a finanças, pois que já em 24 de
                     julho do ano p.p., <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> mesmo me fez igual requisição por ordem
-                    do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_manuel_lima_silva">
-                        João Manuel de Lima e Silva</persName>, a qual, com o mesmo pesar
+                    do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> 
+                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_manuel_lima_silva">
+                    João Manuel de Lima e Silva</persName>, a qual, com o mesmo pesar
                     que agora me acompanha, me vi na precisão de negar-me a semelhante
-                    requisição, que tão justa se faz para a seguridade do sistema proclamado.</p>
-                
-                <p>Tenho bens dos quais já alguns tenho prestado, como
+                    requisição, que tão justa se faz para a seguridade do sistema proclamado.
+                    Tenho bens dos quais já alguns tenho prestado, como
                     <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> não ignora, e iguais desejos inda são de mim inseparáveis, e tudo
                     que for útil para sustentar a nossa causa, gratuitamente ofereço.</p>
                 
-                <p>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> muitos anos.
-                    Fazenda do Salso,
-                    <date when="1837-07-01">1.º de julho de 1837</date>.</p>
                 
                 <closer>
+                    <salute>Deus guarde a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> muitos anos.</salute>
+                    <dateline>
+                        Fazenda do Salso,
+                        <date when="1837-07-01">1.º de julho de 1837</date>.
+                    </dateline>
                     <signed>
                         <persName ref="#inacio_guimaraes">
                             Inácio José de Oliveira Guimarães</persName>
                     </signed>
                 </closer>
                 
-                <note type="endorsement" place="verso">
+                <note type="endorsement" place="1v">
                     [Na folha 1v. do documento CV-212]
                 </note>
                 

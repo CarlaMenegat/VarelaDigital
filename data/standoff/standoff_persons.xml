@@ -1268,6 +1268,78 @@
             </note>
         </person>
         
+        <person xml:id="florisbelo_dos_santos_pereira">
+            <persName>Florisbelo dos Santos Pereira</persName>
+            <idno type="project"/>
+            <note>
+                Proprietário de casa indicada como local de acolhimento temporário de
+                Bernardina Barcelos de Almeida durante deslocamentos.
+            </note>
+        </person>
+        
+        <person xml:id="sebastiao_medeiros_camara">
+            <persName>Sebastião José de Medeiros Câmara</persName>
+            <idno type="project"/>
+            <note>
+                Indivíduo encarregado de conduzir Bernardina Barcelos de Almeida até local
+                considerado seguro, conforme instruções em carta.
+            </note>
+        </person>
+        
+        <person xml:id="madruga">
+            <persName>Madruga</persName>
+            <idno type="project"/>
+            <note>
+                Indivíduo citado como responsável por fornecer bois para a continuação da
+                viagem; identificação incompleta.
+            </note>
+        </person>
+        
+        <person xml:id="joao_antunes">
+            <persName>João Antunes</persName>
+            <idno type="project"/>
+            <note>
+                Indivíduo citado como colaborador no fornecimento de bois e apoio à
+                condução de deslocamentos.
+            </note>
+        </person>
+        
+        <person xml:id="jacinta">
+            <persName>D. Jacinta</persName>
+            <idno type="project"/>
+            <note>
+                Parente de Bernardina Barcelos de Almeida, mencionada em contexto familiar
+                e de hospitalidade; identificação incompleta.
+            </note>
+        </person>
+        
+        <person xml:id="petrona">
+            <persName>D. Petrona</persName>
+            <idno type="project"/>
+            <note>
+                Parente de Bernardina Barcelos de Almeida, mencionada em contexto familiar
+                e de hospitalidade; identificação incompleta.
+            </note>
+        </person>
+        
+        <person xml:id="juca_da_costa">
+            <persName>Juca da Costa</persName>
+            <idno type="project"/>
+            <note>
+                Proprietário de local onde bois poderiam permanecer temporariamente
+                durante o deslocamento.
+            </note>
+        </person>
+        
+        <person xml:id="sampaio">
+            <persName>Sampaio</persName>
+            <idno type="project"/>
+            <note>
+                Indivíduo citado como possível responsável por acolher bois durante o
+                deslocamento; identificação incompleta.
+            </note>
+        </person>
+        
         <person xml:id="dom_lourenco">
             <persName>Dom Lourenço</persName>
             <note>Indivíduo mencionado em relação à encomenda de açúcar.</note>
@@ -2792,9 +2864,17 @@
         
         <person xml:id="tito_teixeira_pinto">
             <persName>Tito Teixeira Pinto</persName>
-            <idno></idno>
-            <note>Destinatário do ofício relativo ao empréstimo solicitado pelo governo provincial.</note>
-        </person> <!--descobrir se é o mesmo que martiniano_teixeira_pinto-->
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="tito_teixeira_pinto_destinatario_fazenda_1837">
+                <roleName>Destinatário de expediente do Ministério da Fazenda</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <date when="1837"/>
+            </state>
+            <note>
+                Indivíduo citado como destinatário de ofício relativo a empréstimo solicitado
+                pelo governo provincial, conforme anotação no verso do documento.
+            </note>
+        </person>
         
         <person xml:id="felix_baxero">
             <persName>Felix Baxero</persName>
@@ -2874,12 +2954,6 @@
         <person xml:id="ana_ferreira_antunes">
             <persName>Ana Ferreira Antunes</persName>
             <note>Viúva de João Antunes, citada na transferência da estância do Butiá.</note>
-        </person>
-        
-        <person xml:id="joao_antunes">
-            <persName>João Antunes</persName>
-            <idno></idno>
-            <note>Participou na condução de tropas.</note>
         </person>
         
         <person xml:id="francisco_carlos_da_costa">
@@ -3173,12 +3247,6 @@
         
         <person xml:id="tenente_rangel">
             <persName>Tenente Rangel</persName>
-        </person>
-        
-        <person xml:id="florisbelo_dos_santos_pereira">
-            <idno></idno>
-            <persName>Florisbelo dos Santos Pereira</persName>
-            <note>Proprietário de casa onde Bernardina deveria permanecer.</note>
         </person>
         
         <person xml:id="alexandre_simoes">
@@ -3493,9 +3561,16 @@
         
         <person xml:id="manuel_rodrigues_barbosa">
             <persName>Manuel Rodrigues Barbosa</persName>
-            <idno></idno>
-            <note>Cidadão requerente da captura dos escravizados.</note>
-            <note>Enviou 30 onças de ouro para as despesas do Estado; envolvido em conflito administrativo.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="manuel_rodrigues_barbosa_contribuinte_estado_1837">
+                <roleName>Contribuinte das despesas do Estado</roleName>
+                <date when="1837-07"/>
+            </state>
+            <note>
+                Indivíduo citado como responsável pelo envio de 30 onças de ouro destinadas
+                às despesas do Estado; envolvido em conflito administrativo quanto à entrega
+                e aplicação desse valor.
+            </note>
         </person>
         
         <person xml:id="joaquim">
@@ -9065,8 +9140,11 @@
         
         <person xml:id="juca_neto">
             <persName>Juca Neto</persName>
-            <idno></idno>
-            <note>Indivíduo citado como tendo informado compras de cavalos no Taim.</note>
+            <idno type="project"/>
+            <note>
+                Indivíduo citado como tendo informado a compra de cavalos no Taim,
+                justificando a destinação de recursos financeiros.
+            </note>
         </person>
         
         <person xml:id="marechal_barreto">
@@ -9109,42 +9187,6 @@
                 durante as tensões que precederam a Guerra dos Farrapos. Sua destituição marcou 
                 a virada política inicial do conflito, resultando em sua retirada estratégica para o Uruguai.
             </note>
-        </person>
-        
-        <person xml:id="sebastiao_medeiros_camara">
-            <persName>Sebastião José de Medeiros Câmara</persName>
-            <idno></idno>
-            <note>Encarregado de buscar Bernardina e conduzi-la a local seguro.</note>
-        </person>
-        
-        <person xml:id="jacinta">
-            <persName>D. Jacinta</persName>
-            <idno></idno>
-            <note>Parente de Bernardina; identificação incompleta.</note>
-        </person>
-        
-        <person xml:id="petrona">
-            <persName>D. Petrona</persName>
-            <idno></idno>
-            <note>Parente de Bernardina; identificação incompleta.</note>
-        </person>
-        
-        <person xml:id="juca_da_costa">
-            <persName>Juca da Costa</persName>
-            <idno></idno>
-            <note>Proprietário de local onde bois poderiam ser deixados.</note>
-        </person>
-        
-        <person xml:id="madruga">
-            <persName>Madruga</persName>
-            <idno></idno>
-            <note>Indivíduo que deveria fornecer bois para a viagem; identificação incompleta.</note>
-        </person>
-        
-        <person xml:id="mingote_2">
-            <persName>Mingote</persName>
-            <idno></idno>
-            <note>Receberia lombilhos encomendados; identificação incompleta.</note>
         </person>
         
         <person xml:id="renovato">

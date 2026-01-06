@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-216 – Resposta dirigida a Domingos José de Almeida</title>
                 <author>Autor não identificado (assinatura: T.J.T. de A.G.)</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-09-11">11 de setembro de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -54,17 +59,23 @@
                             <date when="1978">1978</date>
                             <biblScope type="volume">2</biblScope>
                             <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <biblScope unit="page" from="189" to="189">189</biblScope>
                             <measure type="extent">23 cm</measure>
                         </imprint>
                     </monogr>
                     <series>
                         <title>II Série</title>
                     </series>
+                    <relatedItem type="host">
+                        <ref target="#CV-215">CV-215</ref>
+                        <note>Documento anexo.</note>
+                    </relatedItem>
                 </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -78,58 +89,75 @@
                 </application>
             </appInfo>
         </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
-                
                 <correspAction type="sent">
                     <persName ref="#t_j_t_a_g">T.J.T. de A.G.</persName>
                     <placeName ref="#pedregal">Pedregal</placeName>
                     <date when="1837-07-19">19 de julho de 1837</date>
                 </correspAction>
-                
                 <correspAction type="received">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     <placeName ref="#piratini">Piratini</placeName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
-        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-09-11">11/09/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2026-01-03">03/01/2026</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
     </teiHeader>
-    
     <text>
         <body>
-            <div type="letter" xml:id="CV-216">
+            <div type="letter" subtype="copy" xml:id="CV-216">
                 
                 <opener>
-                    <salute>Cópia – <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>Respondendo ao respeitável ofício de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>, cumpre-me dizer que
                     pela relação dos bens que estes dias dei, verá <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> que os réditos não
                     alcançam a quantia que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> pede; em moeda não tenho vintém, porém
-                    se os meus teres servem, estão prontos para o serviço da pátria; é o quanto
-                    tenho a pôr na respeitável presença de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>, a quem Deus guarde por muitos
-                    anos.</p>
-                
-                <p><placeName ref="#pedregal">Pedregal</placeName>,
-                    <date when="1837-07-19">19 de julho de 1837</date>.<br/>
-                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
-                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>,
-                    Secretário de Estado dos Negócios da Fazenda.</p>
-                
+                    se os meus teres servem, estão prontos para o serviço da pátria; </p>
+                    
                 <closer>
-                    <signed>(a) <abbr>T.J.T. de A.G.</abbr></signed>
+                    <salute>
+                        é o quanto tenho a pôr na respeitável presença de 
+                        <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>, a quem Deus guarde por muitos
+                        anos.
+                    </salute>
+                    <dateline><placeName ref="#pedregal">Pedregal</placeName>,
+                        <date when="1837-07-19">19 de julho de 1837</date>.
+                    </dateline>
+                    <addressee>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                        <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>,
+                        Secretário de Estado dos Negócios da Fazenda.
+                    </addressee>
+                    <signed><abbr>T.J.T. de A.G.</abbr></signed>
                 </closer>
                 
-                <note type="endorsement" place="verso">
+                <note type="editorial" place="1v">
                     [Anexo ao documento CV-215]
                 </note>
                 

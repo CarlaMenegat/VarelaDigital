@@ -3847,5 +3847,38 @@
             active="#benito"
             passive="#domingos_jose_almeida"/>
         
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#inacio_guimaraes"
+            mutual="true"/>
+        
+        <relation
+            name="dcterms:hasPart"
+            active="#CV-212"
+            passive="#CV-213"/>
+        
+        <relation
+            name="dcterms:isPartOf"
+            active="#CV-213"
+            passive="#CV-212"/>
+        
+        <relation
+            name="dcterms:isPartOf"
+            active="#CV-213"
+            passive="#CV-212"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#manuel_rodrigues_barbosa"
+            passive="#domingos_jose_almeida"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#juca_neto"
+            passive="#domingos_jose_almeida"
+            mutual="true"/>
+        
     </standOff>
 </TEI>
