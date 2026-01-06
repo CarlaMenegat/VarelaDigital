@@ -703,12 +703,16 @@
         
         <person xml:id="jose_sousa_neto">
             <persName>José de Sousa Neto</persName>
-            <idno></idno>
-            <relation
-                name="rel:parentOf"
-                active="#jose_sousa_neto"
-                passive="#antonio_sousa_neto"/>
-            <note>Responsável pela compra de cavalos para o exército farroupilha.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="jose_sousa_neto_comprador_cavalos">
+                <roleName>Comprador de cavalos</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+                <note>Responsável pela compra de cavalos para o exército farroupilha.</note>
+            </state>
+            <note>
+                Citado como responsável pela compra de cavalos para o exército farroupilha,
+                com pagamentos ordenados em carta de Antônio de Sousa Neto.
+            </note>
         </person>
         
         <person xml:id="fernandes">
@@ -861,8 +865,11 @@
         
         <person xml:id="jaime_legris">
             <persName>Jaime Legris</persName>
-            <idno type="project"></idno>
-            <note>Cidadão com dívida litigiosa mencionada nas contas analisadas pelo Procurador Fiscal. Credor de Almeida.</note>
+            <idno type="project"/>
+            <note>
+                Credor citado em contas examinadas pelo Procurador Fiscal; envolvido em
+                dívida litigiosa relacionada a Domingos José de Almeida.
+            </note>
         </person>
         
         <person xml:id="joao_goncalves_padilha">
@@ -1375,8 +1382,20 @@
         
         <person xml:id="anacleto_jose_matos">
             <persName>Anacleto José de Matos</persName>
-            <idno></idno>
-            <note>Tenente-coronel e pagador do exército farroupilha.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="anacleto_jose_matos_tenente_coronel">
+                <roleName>Tenente-coronel</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <state type="roleInTime" xml:id="anacleto_jose_matos_pagador_exercito">
+                <roleName>Pagador do exército</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+                <note>Responsável por efetuar pagamentos com dinheiro em caixa.</note>
+            </state>
+            <note>
+                Oficial farroupilha citado como pagador do exército, encarregado de entregar
+                valores referentes à compra de cavalos.
+            </note>
         </person>
         
         <person xml:id="vilaca">
@@ -1550,8 +1569,11 @@
         
         <person xml:id="jose_rodrigues_chaves">
             <persName>José Rodrigues Chaves</persName>
-            <idno></idno>
-            <note>Morador de Bom Retiro; hospedava Bernardina.</note>
+            <idno type="project"/>
+            <note>
+                Proprietário rural mencionado como ponto de apoio durante deslocamentos;
+                sua casa é indicada como possível local de hospedagem no planejamento da viagem.
+            </note>
         </person>
         
         <person xml:id="zeferino">
@@ -1773,9 +1795,8 @@
             <persName>Bernardino Rodrigues Barcelos Filho</persName>
             <idno type="project"/>
             <note>
-                Filho de Bernardino Rodrigues Barcelos e irmão de 
-                <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>. 
-                É homônimo de seu pai e aparece na documentação em contexto familiar e administrativo.
+                Irmão de <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>;
+                aparece na documentação em contexto familiar e de apoio.
             </note>
         </person>
         
@@ -1783,9 +1804,9 @@
             <persName>Bernardino Rodrigues Barcelos</persName>
             <idno type="project"/>
             <note>
-                Pai de <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName> 
-                e charqueador atuante na região de Pelotas. Figura presente no núcleo familiar dos Barcelos 
-                e associado às atividades pecuárias e da indústria do charque no sul da província.
+                Pai de <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>;
+                charqueador atuante na região de Pelotas, ligado às atividades pecuárias
+                da família Barcelos.
             </note>
         </person>
         
@@ -1793,20 +1814,18 @@
             <persName>Joaquim Rodrigues Barcelos</persName>
             <idno type="project"/>
             <note>
-                Irmão de <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.
-                Atuava na região da campanha sul-rio-grandense em atividades ligadas à criação e comércio de gado,
-                prática comum na família Barcelos e presente em várias referências documentais da época.
+                Irmão de <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>;
+                atuava em atividades ligadas à criação e comércio de gado na campanha sul-rio-grandense.
             </note>
         </person>
-
+        
         <person xml:id="joao_barcelos">
             <persName>João Rodrigues Barcelos</persName>
-            <idno></idno>
-            <relation
-                name="rel:siblingOf"
-                active="#bernardina_barcelos_almeida"
-                passive="#joao_barcelos"/>
-            <note>Irmão de Bernardina.</note>
+            <idno type="project"/>
+            <note>
+                Parente e compadre de Domingos José de Almeida; citado na correspondência
+                em contexto familiar e de apoio logístico.
+            </note>
         </person>
         
         <person xml:id="fructuoso_rivera">
@@ -1867,11 +1886,6 @@
                 Militar e político oriental, caudilho e segundo presidente da República Oriental
                 do Uruguai; deposto por Fructuoso Rivera em 1838.
             </note>
-        </person>
-        
-        <person xml:id="jose_rodrigues_chaves">
-            <persName>José Rodrigues Chaves</persName>
-            <note>Senhor da casa onde Bernardina residia temporariamente.</note>
         </person>
         
         <person xml:id="carlota">
@@ -2047,8 +2061,12 @@
         
         <person xml:id="joao_pedro_ramirez">
             <persName>João Pedro Ramirez</persName>
-            <idno></idno>
-            <note>Fornecedor e agente político ligado ao Estado Oriental (Uruguai), responsável por gêneros fornecidos ao exército farroupilha. É proprietário de uma fazenda chamada Palmar onde Bernardina Almeida se hospeda.</note>
+            <idno type="project"/>
+            <note>
+                Proprietário rural no Estado Oriental (Uruguai), dono de fazenda mencionada
+                como possível local de estada; citado em contexto de apoio logístico e circulação
+                de couros na fronteira.
+            </note>
         </person>
         
         <person xml:id="roberto_bisley">
@@ -2787,9 +2805,32 @@
         </person>
         
         <person xml:id="alexandre_bresque">
-            <persName>Dom Alexandre Bresque</persName>
-            <idno></idno>
-            <note>Indivíduo que enviou quantia em dinheiro a Bernardina; identificação incompleta.</note>
+            <persName>Bresque</persName>
+            <idno type="project"/>
+            <persName type="full">Dom Alexandre Bresque</persName>
+            <note>
+                Indivíduo citado como responsável por pagamento (808 rs.) relacionado à
+                correspondência de Domingos José de Almeida; identificação incompleta.
+            </note>
+        </person>
+        
+        <person xml:id="tavares">
+            <persName>Tavares</persName>
+            <idno type="project"/>
+            <note>
+                Indivíduo citado como responsável por quantias a serem entregues; identificação
+                incompleta.
+            </note>
+        </person>
+        
+        <person xml:id="benito">
+            <persName>Benito</persName>
+            <idno type="project"/>
+            <note>
+                Indivíduo citado como responsável por quantias a serem entregues; identificação
+                incompleta. Em nota editorial da edição impressa, possivelmente o juiz de paz
+                de Jaguarão.
+            </note>
         </person>
         
         <person xml:id="luis_joaquim_luz">
@@ -2882,9 +2923,30 @@
         </person>
         
         <person xml:id="joao_simplicio">
-            <persName>João Antonio Simplício</persName>
-            <idno></idno>
-            <note>Tenente farroupilha.</note>
+            <persName>João Antônio Simplício</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="joao_simplicio_tenente">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <note>
+                Oficial farroupilha citado como comandante de força que atacou e derrotou
+                tropas adversárias nas pontas do Chasqueiro em setembro de 1836.
+            </note>
+        </person>
+        
+        <person xml:id="cirilo">
+            <persName>Cirilo</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="cirilo_comandante_forca_chasqueiro_1836">
+                <roleName>Comandante de força</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>
+                Militar legalista citado como comandante de força estacionada nas pontas do
+                Chasqueiro, pertencente à divisão de Silva Tavares; sua tropa foi derrotada por
+                forças farroupilhas em setembro de 1836, escapando apenas ele e dois homens.
+            </note>
         </person>
         
         <person xml:id="jose_luis_correa_camara">
@@ -3762,8 +3824,20 @@
         
         <person xml:id="quinzio">
             <persName>Quínzio</persName>
-            <idno></idno>
-            <note>Indivíduo ligado à família; identificação incompleta.</note>
+            <idno type="project"/>
+            <note>
+                Indivíduo citado em contexto familiar e de sociabilidade; identificado como
+                compadre de Domingos José de Almeida; identificação incompleta.
+            </note>
+        </person>
+        
+        <person xml:id="maria_jose">
+            <persName>Maria José</persName>
+            <idno type="project"/>
+            <note>
+                Mulher referida como comadre de Domingos José de Almeida, mencionada em
+                contexto familiar e de deslocamento; identificação incompleta.
+            </note>
         </person>
         
         <person xml:id="jose_nunes">
@@ -4665,10 +4739,10 @@
             <persName>Luís Rodrigues Barcelos</persName>
             <idno type="project"/>
             <note>
-                Fazendeiro e comerciante de gado estabelecido na região de <placeName ref="#bage">Bagé</placeName>.
-                Tio materno de <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>,
-                aparece na correspondência como figura de confiança da família Barcelos, especialmente em assuntos
-                ligados a criação e movimentação de gado.
+                Fazendeiro e comerciante de gado na região de Bagé; tio materno de
+                <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>,
+                figura de confiança da família Barcelos em assuntos ligados à criação
+                e circulação de gado.
             </note>
         </person>
         
@@ -8887,25 +8961,25 @@
         
         <person xml:id="silvano">
             <persName>Silvano</persName>
-            <idno></idno>
-            <note>Indivíduo mencionado como preso junto a Marciano; identificação incompleta.</note>
-        </person>
-        
-        <person xml:id="cirilo">
-            <persName>Cirilo</persName>
-            <note>Comandante de força estacionada no Chasqueiro; legalista.</note>
-        </person>
-        
-        <person xml:id="manuel_goncalves">
-            <persName>Manuel Gonçalves</persName>
-            <idno></idno>
-            <note>Proprietário rural mencionado como possível destino de Bernardina.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="silvano_individuo_prisao_porto_alegre_1836">
+                <roleName>Indivíduo preso</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date when="1836-06-26"/>
+            </state>
+            <note>
+                Indivíduo mencionado como preso em Porto Alegre, junto a Marciano e outros
+                companheiros; identificação incompleta.
+            </note>
         </person>
         
         <person xml:id="raimundo_senandes">
             <persName>Raimundo Senandes</persName>
-            <idno></idno>
-            <note>Ofereceu auxílio a Bernardina durante deslocamento.</note>
+            <idno type="project"/>
+            <note>
+                Indivíduo citado como oferecendo auxílio e apoio durante deslocamentos
+                planejados no contexto da correspondência.
+            </note>
         </person>
         
         <person xml:id="paraguai">
@@ -8933,8 +9007,19 @@
         
         <person xml:id="torquato">
             <persName>Torquato</persName>
-            <idno></idno>
-            <note>Responsável por levar escravos de Domingos José de Almeida a Montevidéu.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="torquato_responsavel_transporte">
+                <roleName>Responsável por transporte</roleName>
+                <note>
+                    Encarregado de conduzir pessoas escravizadas e mercadorias entre
+                    Pelotas e Montevidéu.
+                </note>
+            </state>
+            <note>
+                Indivíduo citado como responsável por levar pessoas escravizadas de
+                Domingos José de Almeida a Montevidéu e por providenciar o transporte
+                de gêneros e bagagens.
+            </note>
         </person>
         
         <person xml:id="sousa">
@@ -8957,8 +9042,12 @@
         
         <person xml:id="luis_vieira">
             <persName>Luís Vieira</persName>
-            <idno></idno>
-            <note>Indivíduo que hospeda Bernardina Barcelos de Almeida no Chuí; identificação incompleta.</note>
+            <idno type="project"/>
+            <note>
+                Indivíduo citado como responsável por hospedar
+                <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
+                na região do Chuí; identificação incompleta.
+            </note>
         </person>
         
         <person xml:id="bernardino_vieira">

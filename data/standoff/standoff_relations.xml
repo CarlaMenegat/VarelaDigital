@@ -3722,5 +3722,130 @@
             active="#lavalleja"
             passive="#exercito_farroupilha"/>
         
+        <relation
+            name="foaf:knows"
+            active="#silvano"
+            passive="#marciano_pereira_ribeiro"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#joao_pedro_ramirez"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#raimundo_senandes"
+            mutual="true"/>
+        
+        <relation
+            name="hrao:hasKinship"
+            active="#luis_rodrigues_barcelos"
+            passive="#bernardina_barcelos_almeida"/>
+        
+        <relation
+            name="rel:siblingOf"
+            active="#bernardino_rodrigues_barcelos_filho"
+            passive="#bernardina_barcelos_almeida"
+            mutual="true"/>
+        
+        <relation
+            name="rel:childOf"
+            active="#bernardina_barcelos_almeida"
+            passive="#bernardino_rodrigues_barcelos_pai"/>
+        
+        <relation
+            name="rel:siblingOf"
+            active="#joaquim_barcelos"
+            passive="#bernardina_barcelos_almeida"
+            mutual="true"/>
+        
+        <relation
+            name="rel:siblingOf"
+            active="#joao_barcelos"
+            passive="#bernardina_barcelos_almeida"
+            mutual="true"/>
+        
+        <relation
+            name="hrao:compadreOf"
+            active="#joao_barcelos"
+            passive="#domingos_jose_almeida"
+            mutual="true"/>
+        
+        <relation
+            name="schema:creditor"
+            active="#jaime_legris"
+            passive="#domingos_jose_almeida"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#joao_manuel_lima_silva"
+            passive="#domingos_jose_almeida"
+            mutual="true"/>
+        
+        <relation
+            name="rel:parentOf"
+            active="#jose_sousa_neto"
+            passive="#antonio_sousa_neto"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#antonio_sousa_neto"
+            passive="#anacleto_jose_matos"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#antonio_sousa_neto"
+            passive="#jose_sousa_neto"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#anacleto_jose_matos"
+            passive="#jose_sousa_neto"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#bernardina_rodrigues_barcelos"
+            passive="#d_caetana"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#torquato"
+            passive="#domingos_jose_almeida"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#luis_vieira"
+            passive="#domingos_jose_almeida"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#gomes_jardim"
+            mutual="true"/>
+        
+        <relation
+            name="schema:creditor"
+            active="#alexandre_bresque"
+            passive="#domingos_jose_almeida"/>
+        
+        <relation
+            name="schema:creditor"
+            active="#tavares"
+            passive="#domingos_jose_almeida"/>
+        
+        <relation
+            name="schema:creditor"
+            active="#benito"
+            passive="#domingos_jose_almeida"/>
+        
     </standOff>
 </TEI>

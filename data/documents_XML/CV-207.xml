@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-207 – Domingos José de Almeida para Bernardino Rodrigues Barcelos Filho</title>
                 <author>Domingos José de Almeida</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-09-11">11 de setembro de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -54,6 +59,7 @@
                             <date when="1978">1978</date>
                             <biblScope type="volume">2</biblScope>
                             <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <biblScope unit="page" from="183" to="183">183</biblScope>
                             <measure type="extent">23 cm</measure>
                         </imprint>
                     </monogr>
@@ -65,6 +71,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -78,7 +85,14 @@
                 </application>
             </appInfo>
         </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
@@ -91,12 +105,15 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
-        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-09-11">11/09/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2026-01-02">02/01/2026</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
@@ -112,36 +129,40 @@
                     serviços à causa da liberdade, se conserva na mais criminosa indiferença.
                     Todavia inclino-me a crer que esta apatia provém de não saber <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>
                     nosso estado atual, e que sabendo-o voará em defesa da pátria ameaçada
-                    dos ferros da escravidão.</p>
-                
-                <p>É portanto que dirijo a presente, cientificando de que nosso exército
+                    dos ferros da escravidão.
+                    É portanto que dirijo a presente, cientificando de que nosso exército
                     em número de 1500 bravos se acha no passo geral de
                     <placeName ref="#candiotinha">Candiotinha</placeName> sobre a estrada, e 
-                    <persName ref="#bento_manuel">Bento Manuel</persName> logo abaixo, do lado 
+                    <persName ref="#bento_manoel">Bento Manuel</persName> logo abaixo, do lado 
                     oposto, no campo da Conceição, com igual força, e sem atrever-se
-                    avançar um passo.</p>
-                
-                <p>Para fazermos junção com a Brigada do Coronel
+                    avançar um passo.
+                    Para fazermos junção com a Brigada do Coronel
                     <persName ref="#joao_antonio_silveira">João Antônio</persName> suponho que virá nosso exército para as pontas de
-                    <placeName ref="#jaguarao">Jaguarão</placeName> onde <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>, com todos os rio-grandenses que puder reunir,
-                    cumpre que voe a engrossar suas filas.</p>
-                
-                <p>Por objeto do serviço aqui me acho há três dias e só espero por
+                    <placeName ref="#jaguarao">Jaguarão</placeName> onde <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>, 
+                    com todos os rio-grandenses que puder reunir,
+                    cumpre que voe a engrossar suas filas.
+                    Por objeto do serviço aqui me acho há três dias e só espero por
                     <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> e seus bravos companheiros para regressar. Seu reconhecido
                     patriotismo e amor à liberdade me afiançam que pouco me demorarei à
                     sua espera.</p>
                 
+                <salute>Deus guarde muitos anos.</salute>
                 <dateline>
-                    <placeName ref="#jaguarao_chico">Fazenda do Neto em Jaguarão Chico</placeName>,
+                    <placeName ref="#jaguarao_chico">Fazenda do <PersName ref="antonio_sousa_neto">Neto</PersName> em Jaguarão Chico</placeName>,
                     <date when="1836-11-26">26 de novembro de 1836</date>.
                 </dateline>
                 
                 <closer>
-                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.<br/>
+                    <salute>Deus guarde muitos anos.</salute>
+                    <dateline>
+                        <placeName ref="#jaguarao_chico">Fazenda do <PersName ref="antonio_sousa_neto">Neto</PersName> em Jaguarão Chico</placeName>,
+                        <date when="1836-11-26">26 de novembro de 1836</date>.
+                    </dateline>
+                    <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.<br/>
                         Coronel Quartel-mestre General.</signed>
                 </closer>
                 
-                <note type="endorsement" place="verso">
+                <note type="endorsement" place="1v">
                     <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Alferes <persName ref="#bernardino_rodrigues_barcelos_filho">Bernardino Rodrigues Barcelos Filho</persName>.<br/>
                     <placeName ref="#cerro_largo">Cerro Largo</placeName>.<br/>
                     Do Coronel Quartel-mestre General.

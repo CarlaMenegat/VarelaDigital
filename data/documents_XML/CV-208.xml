@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-208 – Antônio de Sousa Neto e Domingos José de Almeida</title>
                 <author>Antônio de Sousa Neto e Domingos José de Almeida</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-09-11">11 de setembro de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">1</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -54,6 +59,7 @@
                             <date when="1978">1978</date>
                             <biblScope type="volume">2</biblScope>
                             <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <biblScope unit="page" from="184" to="184">184</biblScope>
                             <measure type="extent">23 cm</measure>
                         </imprint>
                     </monogr>
@@ -65,6 +71,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -78,7 +85,14 @@
                 </application>
             </appInfo>
         </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#antonio_sousa_neto">Antônio de Sousa Neto</persName>
@@ -91,12 +105,15 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
-        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-09-11">11/09/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2026-01-02">02/01/2026</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
@@ -106,31 +123,29 @@
         <body>
             <div type="letter" xml:id="CV-208">
                 
-                <p>O <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Tenente-coronel <persName ref="#anacleto_jose_matos">Anacleto José de Matos</persName>, pagador do
+                <p>O <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Tenente-coronel 
+                    <persName ref="#anacleto_jose_matos">Anacleto José de Matos</persName>, pagador do
                     exército, do dinheiro em caixa, entregará ao cidadão
-                    <persName ref="#jose_sousa_neto">José de Sousa Neto</persName> ou à sua ordem Rs. 3:986$120, três contos novecentos
+                    <persName ref="#jose_sousa_neto">José de Sousa Neto</persName> 
+                    ou à sua ordem Rs. 3:986$120, três contos novecentos
                     oitenta e seis mil cento e vinte, importância de trezentos e setenta e um
-                    cavalos que por ordem do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante-em-chefe, por mim
+                    cavalos que por ordem do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> 
+                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Comandante-em-chefe, por mim
                     transmitida, comprou para o referido exército em 29 de novembro e 27
                     de dezembro próximos passados: o que cumprirá.</p>
                 
-                <dateline>
-                    Campo à esquerda de <placeName ref="#jaguarao">Jaguarão</placeName>,
-                    <date when="1837-01-13">13 de janeiro de 1837</date>.
-                </dateline>
-                
                 <closer>
-                    <signed>
+                    <dateline>
+                        Campo à esquerda de <placeName ref="#jaguarao">Jaguarão</placeName>,
+                        <date when="1837-01-13">13 de janeiro de 1837</date>.
+                    </dateline>
+                    <addressee>
                         <persName ref="#antonio_sousa_neto">Antônio de Sousa Neto</persName><br/>
                         Comandante Interino do Exército
-                    </signed>
-                </closer>
-                
-                <closer>
-                    <signed>(a) <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.<br/>
+                    </addressee>
+                    <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.<br/>
                         Coronel Quartel-mestre General.</signed>
                 </closer>
-                
             </div>
         </body>
     </text>
