@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Petição CV-30 – Requerimento de Antônio José de Abreu ao Juiz de Direito</title>
+                <title>CV-30 — Requerimento de Antônio José de Abreu ao Juiz de Direito</title>
                 <author>Antônio José de Abreu</author>
                 <respStmt>
                     <resp>Edição digital</resp>
@@ -21,7 +21,7 @@
             </editionStmt>
             
             <extent>
-                <extent>1 petição</extent>
+                <extent>1 documento administrativo</extent>
                 <measure type="pages">2</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
@@ -42,11 +42,16 @@
             
             <notesStmt>
                 <note type="catalogue">
-                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm.
+                    (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
                 </note>
-                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note>
+                    Conteúdo: 2. Coleção de Alfredo Varela – documentos CV-1 a CV-558.
+                    Ficha catalográfica impressa consultada.
+                </note>
                 <note type="processo">
-                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python,
+                    txt gerado e convertido com marcação TEI P5 por Carla Menegat.
                 </note>
             </notesStmt>
             
@@ -68,6 +73,10 @@
                     <series>
                         <title>II Série</title>
                     </series>
+                    
+                    <relatedItem type="appendix" target="#CV-29">
+                        <note>Documento anexo.</note>
+                    </relatedItem>
                 </biblStruct>
                 
                 <ptr target="data/standoff/standoff-persons.xml"/>
@@ -92,8 +101,8 @@
         <profileDesc>
             <langUsage>
                 <language ident="pt-BR">Português do Brasil</language>
-                <language ident="pt-BR">Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.</language>
             </langUsage>
+            
             <handDesc>
                 <handNote xml:id="hand_main" medium="print">
                     Texto conforme edição impressa dos Anais.
@@ -109,7 +118,7 @@
                 </item>
                 <item>
                     <date when="2025-11-25">25/11/2025</date>
-                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                    Inclusão de metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
@@ -122,7 +131,7 @@
     
     <text>
         <body>
-            <div type="petition" xml:id="CV-30">
+            <div type="officialDocument" xml:id="CV-30">
                 
                 <opener>
                     <salute>

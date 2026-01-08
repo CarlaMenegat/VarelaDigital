@@ -223,6 +223,26 @@
             </state>
         </org>
         
+        <org xml:id="3cia_esquadrao_pelotas" type="militaryUnit">
+            <orgName>3.ª Companhia do Esquadrão de Pelotas</orgName>
+            <idno type="project"/>
+            <affiliation ref="#exercito_farroupilha"/>
+            <note>
+                Subunidade militar mencionada em atestado redigido por Domingos José de Almeida (após 4 de janeiro de 1837),
+                ao identificar a graduação de Domingos José de Silveira Filho como 2.º sargento desta companhia.
+            </note>
+        </org>
+        
+        <org xml:id="4corpo_1brigada" type="militaryUnit">
+            <orgName>4.º Corpo da 1.ª Brigada</orgName>
+            <idno type="project"/>
+            <affiliation ref="#exercito_farroupilha"/>
+            <note>
+                Unidade militar mencionada em atestado redigido por Domingos José de Almeida (após 4 de janeiro de 1837),
+                indicando que a 3.ª Companhia do Esquadrão de Pelotas integrava o 4.º Corpo da 1.ª Brigada.
+            </note>
+        </org>
+        
         <org xml:id="quarta_reparticao_interior">
             <orgName>4ª Repartição do Interior</orgName>
         </org>
@@ -733,8 +753,6 @@
             <affiliation ref="#imperio_brasil"/>
             <note>Unidade de cavalaria integrante das forças do Exército Imperial do Brasil, mencionada como parte do Esquadrão da Barra.</note>
         </org>
-        
-        
         
         <org xml:id="primeira_brigada_cavalaria" type="militaryUnit">
             <orgName>1.ª Brigada de Cavalaria</orgName>

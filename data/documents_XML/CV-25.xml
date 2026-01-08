@@ -103,7 +103,7 @@
                     Texto conforme edição impressa dos Anais.
                 </handNote>
                 <handNote xml:id="hand_dja" medium="ink">
-                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     <desc>Letra identificada em notas e endossos do documento.</desc>
                 </handNote>
             </handDesc>
@@ -111,7 +111,7 @@
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-06-20">21/06/2025</date>
+                    <date when="2025-06-21">21/06/2025</date>
                     Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
                 </item>
                 <item>
@@ -176,7 +176,7 @@
                     </salute>
                     <addressee>
                         <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
-                        <persName ref="#afonso_corte_real">Afonso José de Almeida Corte Real</persName>,
+                        <persName ref="#afonso_jose_corte_real">Afonso José de Almeida Corte Real</persName>,
                         Ministro e Secretário dos Negócios da Fazenda.
                     </addressee>
                     

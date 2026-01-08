@@ -3,47 +3,86 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-21 – Solicitação de Antônio Francisco dos Santos Abreu ao Procurador Fiscal</title>
-                <author>Antônio Francisco dos Santos Abreu</author>
+                <title>
+                    Documento CV-21 — Petição de Antônio Francisco dos Santos Abreu
+                    sobre quitação de dívida por descontos de direitos
+                </title>
+                
+                <respStmt>
+                    <resp>Requerente</resp>
+                    <name>
+                        <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName>
+                    </name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
-                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <edition>
+                    Varela Digital – Edição digital revisada da Coleção Varela, vol. II
+                    (Anais do Arquivo Histórico do RS)
+                </edition>
                 <respStmt>
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
                 <date when="2025-06-20">20 de junho de 2025</date>
             </editionStmt>
+            
             <extent>
-                <extent>1 carta</extent>
-                <measure type="pages">2</measure>
-                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
+                <extent>1 documento administrativo</extent>
+                <measure type="pages">3</measure>
+                <note type="project">
+                    Integra o conjunto CV-1 a CV-558 da Coleção Varela.
+                </note>
             </extent>
+            
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <publisher>
+                    Coleção Varela – Anais do Arquivo Histórico do RS, vol. II
+                </publisher>
                 <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
                 </availability>
             </publicationStmt>
+            
             <seriesStmt>
                 <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
                 <biblScope type="volume">Vol. II</biblScope>
                 <biblScope type="series">II Série</biblScope>
             </seriesStmt>
+            
             <notesStmt>
                 <note type="catalogue">
-                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais.
+                    Porto Alegre, 1978. 23 cm.
+                    (Coleção Varela, v. 2, t. 1).
+                    Publicado pelo Instituto Estadual do Livro DAC/SEC.
                 </note>
-                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note>
+                    Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa:
+                    documentos CV-1 a CV-558.
+                    Ficha catalográfica impressa consultada.
+                </note>
                 <note type="processo">
-                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                    Imagem digitalizada em alta resolução a partir do volume impresso,
+                    OCR realizado em Python, texto convertido e marcado em TEI P5
+                    por Carla Menegat.
                 </note>
             </notesStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -55,7 +94,7 @@
                             <date when="1978">1978</date>
                             <biblScope type="volume">2</biblScope>
                             <biblScope type="part">Coleção Varela, t. 1</biblScope>
-                            <biblScope unit="page" from="24" to="25">24-25</biblScope>
+                            <biblScope unit="page" from="24" to="25">24–25</biblScope>
                             <measure type="extent">23 cm</measure>
                         </imprint>
                     </monogr>
@@ -63,6 +102,7 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
+                
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
@@ -73,48 +113,39 @@
         
         <encodingDesc>
             <projectDesc>
-                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+                <p>
+                    O projeto Varela Digital realiza a digitalização, OCR em Python
+                    e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir
+                    das transcrições do volume II dos Anais do Arquivo Histórico do
+                    Rio Grande do Sul. As entidades nomeadas são tratadas via standoff
+                    markup, garantindo interoperabilidade e pesquisa avançada.
+                </p>
             </projectDesc>
-            <appInfo>
-                <application ident="Python_OCR_Tools" version="2.1">
-                    <label>Ferramenta de OCR utilizada na transcrição</label>
-                </application>
-            </appInfo>
         </encodingDesc>
         
         <profileDesc>
             <langUsage>
                 <language ident="pt-BR">Português do Brasil</language>
-                <language ident="pt-BR">
-                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
-                </language>
             </langUsage>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName>
-                    <placeName ref="#bage">Bagé</placeName>
-                    <date when="1842-01-22">22 de janeiro de 1842</date>
-                </correspAction>
-                <correspAction type="received">
-                    <orgName ref="#procuradoria_fiscal">Procurador Fiscal</orgName>
-                    <placeName ref="#bage">Bagé</placeName>
-                </correspAction>
-            </correspDesc>
+            
             <handDesc>
                 <handNote xml:id="hand_main" medium="print">
                     Texto conforme edição impressa dos Anais.
                 </handNote>
             </handDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
                     <date when="2025-06-20">20/06/2025</date>
-                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                    Digitalização, transcrição e revisão inicial do documento
+                    por Carla Menegat.
                 </item>
                 <item>
                     <date when="2025-11-25">25/11/2025</date>
-                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                    Inclusão de notas históricas, metadados catalográficos
+                    e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
@@ -132,7 +163,7 @@
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-21">
+            <div type="officialDocument" xml:id="CV-21">
                 
                 <pb n="3r" />
                 <seg type="folio">[3r.]</seg>
@@ -199,7 +230,7 @@
                     </signed>
                 </note>
                 
-                <note type="endorsement" place="">
+                <note type="endorsement">
                     Tendo de fazer cessar o sistema de transações pelas Coletorias, cujos os resultados tão horrivelmente pesam
                     hoje sobre o <orgName ref="#tesouro">Tesouro</orgName>; achando-se mais o governo na colisão de pagar de pronto
                     dívidas já há muito contraídas, de gêneros consumidos no exército, bem como a urgente necessidade de continuar 

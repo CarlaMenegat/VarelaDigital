@@ -1666,8 +1666,18 @@
         </person>
         
         <person xml:id="felicissimo">
-            <persName>Felicissimo</persName>
-            <note>Tenente-coronel mencionado como comandante de 180 homens.</note>
+            <persName>Felicíssimo</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="felicissimo_tenente_coronel_rrg">
+                <roleName>Tenente-coronel</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <note>Comandava uma força de cerca de 180 homens, conforme correspondência de contexto militar.</note>
+            </state>
+            <note>
+                Oficial farroupilha mencionado em contexto de concentração de forças para enfrentar 
+                Silva Tavares, atuando em coordenação com outros comandantes republicanos.
+                Identidade incompleta na documentação disponível.
+            </note>
         </person>
         
         <person xml:id="jose_rodrigues_chaves">
@@ -1683,14 +1693,34 @@
             <persName>Capitão Zeferino</persName>
             <note>Oficial militar citado por Domingos José de Almeida.</note>
         </person>
+        
         <person xml:id="domingos_jose_silveira_filho">
             <persName>Domingos José de Silveira Filho</persName>
-            <note>2º sargento da 3ª Companhia do Esquadrão de Pelotas do 4º Corpo da 1ª Brigada.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="djsf_2_sargento_3cia_esquadrao_pelotas">
+                <roleName>2.º sargento</roleName>
+                <affiliation ref="#3cia_esquadrao_pelotas"/>
+                <note>Mencionado por Almeida como 2.º sargento da 3.ª Companhia do Esquadrão de Pelotas.</note>
+            </state>
+            <note>
+                Militar citado em atestado redigido por <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                após 4 de janeiro de 1837, apresentado no Estado Oriental e empregado em serviços de pastoreio,
+                recrutamento e condução de cavalhada para o exército. Identificação biográfica incompleta.
+            </note>
         </person>
         
         <person xml:id="antonio_carlos_soveral">
             <persName>Antônio Carlos de Soveral</persName>
-            <note>Major sob cujas ordens se encontrava força militar no Estado Oriental.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="soveral_major_1brigada_4corpo">
+                <roleName>Major</roleName>
+                <affiliation ref="#4corpo_1brigada"/>
+                <note>Mencionado como oficial sob cujas ordens esteve força destacada no Estado Oriental.</note>
+            </state>
+            <note>
+                Oficial citado em documento redigido por <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>,
+                relacionado a operações no Estado Oriental; identidade ainda não confirmada por fontes externas.
+            </note>
         </person>
         
         <person xml:id="quincoze">
@@ -1700,7 +1730,12 @@
         
         <person xml:id="forte_gatto">
             <persName>Forte Gatto</persName>
-            <note>Pessoa citada como destinatária de pagamento em patacões.</note>
+            <idno type="project"/>
+            <note>
+                Pessoa mencionada como destinatária de pagamento em prata e cobre,
+                por ordem de <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>,
+                conforme a carta CV-244 (18 de julho de 1838).
+            </note>
         </person>
         
         <person xml:id="joaquim_prado_lima">
@@ -1897,9 +1932,11 @@
         <person xml:id="bernardino_rodrigues_barcelos_filho">
             <persName>Bernardino Rodrigues Barcelos Filho</persName>
             <idno type="project"/>
+            <death when="1838"/>
             <note>
-                Irmão de <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>;
-                aparece na documentação em contexto familiar e de apoio.
+                Irmão de <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.
+                Sua morte é mencionada em carta datada de 7 de maio de 1838, em contexto de forte 
+                impacto emocional para a família.
             </note>
         </person>
         
@@ -4000,10 +4037,6 @@
             <persName>Joaquim Carlos</persName>
         </person>
         
-        <person xml:id="marucas_mateus">
-            <persName>Marucas do Mateus</persName>
-        </person> <!--Maria Francisca Antunes Maciel, casada com Mateus Gomes Viana-->
-        
         <person xml:id="marucas_zeferino">
             <persName>Marucas do Zeferino</persName>
         </person>
@@ -4568,11 +4601,6 @@
         <person xml:id="florentino_sousa_leite">
             <persName>Florentino de Sousa Leite</persName>
             <note>Mencionado como Tenente-coronel incumbido de receber e enviar materiais.</note>
-        </person>
-        
-        <person xml:id="sarasin">
-            <persName>Sarasin</persName>
-            <note>Mencionado como destinatário indireto para pagamento; não identificado com mais detalhes.</note>
         </person>
         
         <person xml:id="jose_douglas_pimentel">
@@ -6815,6 +6843,27 @@
             </note>
         </person>
         
+        <person xml:id="d_francisca">
+            <persName>D. Francisca</persName>
+            <persName>Chiquinha</persName>
+            <idno type="project"/>
+            <note>
+                Mulher referida em contexto familiar e afetivo em carta de 1838.
+                Possivelmente esposa de <persName ref="#joao_da_costa">João da Costa</persName>,
+                hipótese baseada na proximidade textual, sem confirmação documental direta.
+            </note>
+        </person>
+        
+        <person xml:id="sarasin">
+            <persName>Sarasin</persName>
+            <idno type="project"/>
+            <note>
+                Francês mencionado em correspondência como intermediário no envio de remédios
+                destinados aos filhos de <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.
+                Identificação incompleta.
+            </note>
+        </person>
+        
         <person xml:id="francisco_manuel_accioli">
             <persName>Francisco Manuel Accioli</persName>
             <idno type="project"/>
@@ -8480,6 +8529,17 @@
                 em honra a Bento Manuel Ribeiro e seus comandados, no qual enaltecia os farroupilhas 
                 como heróis. Posteriormente aderiu ao campo monarquista. Morreu jovem, em Rio Grande, 
                 em 1839, aos 30 anos.
+            </note>
+        </person>
+        
+        <person xml:id="maria_francisca_antunes_maciel">
+            <persName>Maria Francisca Antunes Maciel</persName>
+            <persName type="alias">Marucas</persName>
+            <idno type="project"/>
+            <note>
+                Conhecida como “Marucas do Mateus”. Esposa de 
+                <persName ref="#mateus_gomes">Mateus Gomes Viana</persName>, 
+                aparece em correspondência em contexto familiar e afetivo.
             </note>
         </person>
         

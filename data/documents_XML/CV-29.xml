@@ -3,13 +3,14 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-29 – Antônio José de Abreu para autoridade superior</title>
+                <title>CV-29 — Recurso administrativo de Antônio José de Abreu</title>
                 <author>Antônio José de Abreu</author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
                 <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
                 <respStmt>
@@ -18,11 +19,13 @@
                 </respStmt>
                 <date when="2025-06-22">22 de junho de 2025</date>
             </editionStmt>
+            
             <extent>
-                <extent>1 carta</extent>
+                <extent>1 documento administrativo</extent>
                 <measure type="pages">2</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
+            
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
                 <pubPlace>Porto Alegre</pubPlace>
@@ -30,20 +33,29 @@
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            
             <seriesStmt>
                 <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
                 <biblScope type="volume">Vol. II</biblScope>
                 <biblScope type="series">II Série</biblScope>
             </seriesStmt>
+            
             <notesStmt>
                 <note type="catalogue">
-                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm.
+                    (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
                 </note>
-                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note>
+                    Conteúdo: 2. Coleção de Alfredo Varela – documentos CV-1 a CV-558.
+                    Ficha catalográfica impressa consultada.
+                </note>
                 <note type="processo">
-                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                    Imagem digitalizada em alta resolução a partir do volume impresso,
+                    OCR realizado em Python, txt gerado e convertido com marcação TEI P5
+                    por Carla Menegat.
                 </note>
             </notesStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -55,7 +67,7 @@
                             <date when="1978">1978</date>
                             <biblScope type="volume">2</biblScope>
                             <biblScope type="part">Coleção Varela, t. 1</biblScope>
-                            <biblScope unit="page" from="30" to="31">30-31</biblScope>
+                            <biblScope unit="page" from="30" to="31">30–31</biblScope>
                             <measure type="extent">23 cm</measure>
                         </imprint>
                     </monogr>
@@ -63,6 +75,7 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
+                
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
@@ -73,7 +86,13 @@
         
         <encodingDesc>
             <projectDesc>
-                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+                <p>
+                    O projeto Varela Digital realiza a digitalização, OCR em Python e
+                    marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das
+                    transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande
+                    do Sul. As entidades nomeadas são tratadas via standoff markup,
+                    garantindo interoperabilidade e pesquisa avançada.
+                </p>
             </projectDesc>
             <appInfo>
                 <application ident="Python_OCR_Tools" version="2.1">
@@ -85,26 +104,15 @@
         <profileDesc>
             <langUsage>
                 <language ident="pt-BR">Português do Brasil</language>
-                <language ident="pt-BR">
-                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
-                </language>
             </langUsage>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="#antonio_jose_abreu">Antônio José de Abreu</persName>
-                    <placeName ref="#piratini">Piratini</placeName>
-                    <date when="1841-10-02">2 de outubro de 1841</date>
-                </correspAction>
-                <correspAction type="received">
-                    <persName><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></persName>
-                </correspAction>
-            </correspDesc>
+            
             <handDesc>
                 <handNote xml:id="hand_main" medium="print">
                     Texto conforme edição impressa dos Anais.
                 </handNote>
             </handDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -113,7 +121,7 @@
                 </item>
                 <item>
                     <date when="2025-11-26">26/11/2025</date>
-                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                    Inclusão de metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
@@ -126,7 +134,7 @@
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-29">
+            <div type="officialDocument" xml:id="CV-29">
                 <opener>
                     <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
@@ -169,10 +177,10 @@
                 <p>
                     É pois à vista das razões ponderadas que o recorrente considera ter-lhe aquele juiz
                     feito manifesta injustiça, e não tendo o recorrente para onde recorra senão para a
-                    autoridade de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, 
+                    autoridade de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>,
                     por ser em tais casos competente pela necessidade de pronto
-                    recurso, espera o recorrente que <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> s
-                    e dignará mandar aquele juiz faça subsistir
+                    recurso, espera o recorrente que <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>
+                    se dignará mandar aquele juiz faça subsistir
                     aquela curadoria na pessoa do recorrente, havendo-se de nenhum efeito o despacho que
                     o desonerou, por ir de encontro à marcha judiciária, e com grave ofensa do direito
                     do recorrente.

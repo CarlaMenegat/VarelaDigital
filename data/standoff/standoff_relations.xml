@@ -4167,5 +4167,105 @@
             name="dcterms:isPartOf"
             active="#CV-9"
             passive="#CV-6"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#vasco_madruga_bitancurt"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#silva_tavares"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#jacinto_guedes"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#felicissimo"
+            mutual="true"/>
+        
+        <relation
+            name="rel:spouseOf"
+            active="#maria_francisca_antunes_maciel"
+            passive="#mateus_gomes"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#maria_francisca_antunes_maciel"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#mateus_gomes"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#d_francisca"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#joao_da_costa"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#sarasin"
+            mutual="true"/>
+        
+        <relation
+            name="dcterms:isPartOf"
+            active="#CV-30"
+            passive="#CV-29"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#domingos_jose_silveira_filho"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#antonio_carlos_soveral"
+            mutual="true"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#domingos_jose_silveira_filho"
+            passive="#3cia_esquadrao_pelotas"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#antonio_carlos_soveral"
+            passive="#4corpo_1brigada"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#forte_gatto"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#quincoze"
+            passive="#forte_gatto"
+            mutual="true"/>
+        
     </standOff>
 </TEI>

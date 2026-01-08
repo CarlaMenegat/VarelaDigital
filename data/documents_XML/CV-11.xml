@@ -3,13 +3,22 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-11 – Domingos José de Almeida para o Tesouro</title>
-                <author>Domingos José de Almeida</author>
+                <title>Documento CV-11 — Requerimento ao Tribunal do Tesouro (inscrição de dívida de Antônio Francisco dos Santos Abreu)</title>
+                
+                <author>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                </author>
+                
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
                 <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
                 <respStmt>
@@ -18,11 +27,13 @@
                 </respStmt>
                 <date when="2025-06-18">18 de junho de 2025</date>
             </editionStmt>
+            
             <extent>
-                <extent>1 circular</extent>
+                <extent>1 documento administrativo</extent>
                 <measure type="pages">2</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
+            
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
                 <pubPlace>Porto Alegre</pubPlace>
@@ -30,20 +41,25 @@
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            
             <seriesStmt>
                 <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
                 <biblScope type="volume">Vol. II</biblScope>
                 <biblScope type="series">II Série</biblScope>
             </seriesStmt>
+            
             <notesStmt>
                 <note type="catalogue">
-                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm.
+                    (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
                 </note>
                 <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
                 <note type="processo">
-                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python,
+                    txt gerado e convertido com marcação TEI P5 por Carla Menegat.
                 </note>
             </notesStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -63,6 +79,11 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
+                
+                <relatedItem type="appendix" target="#CV-10">
+                    <note>Documento anexo.</note>
+                </relatedItem>
+                
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
@@ -85,26 +106,15 @@
         <profileDesc>
             <langUsage>
                 <language ident="pt-BR">Português do Brasil</language>
-                <language ident="pt-BR">
-                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
-                </language>
             </langUsage>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="#domingos_jose_almeidaalmeida">Domingos José de Almeida</persName>
-                    <placeName ref="#bage">Bagé</placeName>
-                    <date when="1842-03-19">19 de março de 1842</date>
-                </correspAction>
-                <correspAction type="received">
-                    <orgName ref="#tribunal_tesouro">Tribunal do Tesouro</orgName>
-                </correspAction>
-            </correspDesc>
+            
             <handDesc>
                 <handNote xml:id="hand_main" medium="print">
                     Texto conforme edição impressa dos Anais.
                 </handNote>
             </handDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -118,12 +128,7 @@
             </list>
         </revisionDesc>
     </teiHeader>
-
-    <facsimile>
-        <surface xml:id="CV-11_1r" n="1r"/>
-    </facsimile>
-
-
+    
     <text>
         <body>
             <div type="letter" xml:id="CV-11">
