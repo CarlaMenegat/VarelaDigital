@@ -1340,26 +1340,49 @@
             </note>
         </person>
         
-        <person xml:id="dom_lourenco">
-            <persName>Dom Lourenço</persName>
-            <note>Indivíduo mencionado em relação à encomenda de açúcar.</note>
+        <person xml:id="carlota">
+            <persName>Carlota</persName>
+            <idno type="project"/>
+            <note>
+                Parente (prima) mencionada em correspondência de Domingos José de Almeida,
+                em contexto de cumprimentos familiares; identificação incompleta.
+            </note>
         </person>
         
         <person xml:id="varejao">
             <persName>Varejão</persName>
-            <idno></idno>
-            <note>Responsável por remessas de alimentos mencionadas na carta.</note>
+            <idno type="project"/>
+            <note>
+                Indivíduo mencionado como intermediário no recebimento e remessa de bens,
+                citado em correspondência de Domingos José de Almeida; identificação incompleta.
+            </note>
+        </person>
+        
+        <person xml:id="dom_lourenco">
+            <persName>Dom Lourenço</persName>
+            <idno type="project"/>
+            <note>
+                Indivíduo mencionado em correspondência de Domingos José de Almeida
+                no contexto do pagamento de uma encomenda de açúcar; identificação incompleta.
+            </note>
         </person>
         
         <person xml:id="jose_joaquim_silva_maia">
             <persName>José Joaquim da Silva Maia</persName>
-            <idno></idno>
-            <note>Comerciante. Genro de D. Clara. </note>
+            <idno type="project"/>
+            <note>
+                Indivíduo mencionado como portador de mercadorias remetidas por Varejão,
+                citado em correspondência de Domingos José de Almeida. Almeida tinha uma conta-corrente com ele.
+            </note>
         </person>
         
         <person xml:id="pedro_lopes">
             <persName>Pedro Lopes</persName>
-            <note>Responsável pelo envio de sacos de farinha.</note>
+            <idno type="project"/>
+            <note>
+                Indivíduo mencionado como portador no envio de sacos de farinha,
+                citado em correspondência de Domingos José de Almeida.
+            </note>
         </person>
         
         <person xml:id="joao_cunha">
@@ -1370,8 +1393,11 @@
         
         <person xml:id="granja">
             <persName>Granja</persName>
-            <idno></idno>
-            <note>Credor de Almeida.</note>
+            <idno type="project"/>
+            <note>
+                Indivíduo mencionado como proprietário ou morador da casa onde foram
+                depositados trastes enviados por João da Cunha; identificação incompleta.
+            </note>
         </person>
         
         <person xml:id="joao_jose_damasceno">
@@ -1390,17 +1416,17 @@
         
         <person xml:id="jose_inacio_cunha">
             <persName>José Inácio da Cunha</persName>
-            <note>Indivíduo mencionado como destinatário do “conhecimento” enviado por Almeida.</note>
+            <idno type="project"/>
+            <note>
+                Indivíduo mencionado em correspondência de Domingos José de Almeida
+                como destinatário de um “conhecimento” (documento de remessa ou recibo);
+                identificação incompleta.
+            </note>
         </person>
         
         <person xml:id="jose_rodrigues">
             <persName>José Rodrigues</persName>
             <note>Indivíduo mencionado como chefe de família conhecida dos remetentes.</note>
-        </person>
-        
-        <person xml:id="carlota">
-            <persName>Carlota</persName>
-            <note>Prima mencionada no aditamento de Peçanha.</note>
         </person>
         
         <person xml:id="pecanha">
@@ -1538,38 +1564,43 @@
         
         <person xml:id="epaminondas_almeida">
             <persName>Epaminondas</persName>
-            <note>Filho do casal Almeida; aparece em diversas cartas em contexto de doença.</note>
+            <idno type="project"/>
+            <note>
+                Filho de <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName> 
+                e <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>;
+                aparece em diversas cartas em contexto de doença.
+            </note>
         </person>
         
-        <person xml:id="arisrides_almeida">
+        <person xml:id="aristides_almeida">
             <persName>Aristides</persName>
-            <note>Filho do casal Almeida.</note>
+            <idno type="project"/>
+            <note>
+                Filho de <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName> 
+                e <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>;
+                mencionado em correspondência familiar.
+            </note>
         </person>
         
         <person xml:id="catraio">
             <persName>Catraio</persName>
-            <note>Indivíduo encarregado de trazer um cavalo (“tordilho”).</note>
+            <idno type="project"/>
+            <note>
+                Indivíduo identificado apenas por alcunha; mencionado em carta de 
+                <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName> 
+                como encarregado de trazer um cavalo (“tordilho”) e deslocar-se com animal de carga.
+                Identidade civil desconhecida.
+            </note>
         </person>
-        
-        <person xml:id="bernardino">
-            <persName>Bernardino</persName>
-            <note>Parente próximo da família; aparece em outras cartas.</note>
-        </person>
-        
-        <person xml:id="jose">
-            <persName>José</persName>
-            <note>Indivíduo mencionado no aditamento; sua identidade não é especificada.</note>
-        </person>
-        
-        <person xml:id="cadete">
-            <persName>Cadete</persName>
-            <note>Portador que transporta remédios; não é possível identificar nome civil.</note>
-        </person>
-        
         
         <person xml:id="militao">
             <persName>Militão</persName>
-            <note>Portador despachado para levar correspondência.</note>
+            <idno type="project"/>
+            <note>
+                Portador encarregado de levar correspondência, mencionado em carta de 
+                <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>. 
+                Identidade incompleta.
+            </note>
         </person>
         
         <person xml:id="pedro_rodrigues_quevedo">
@@ -2135,9 +2166,9 @@
             <persName>João Pedro Ramirez</persName>
             <idno type="project"/>
             <note>
-                Proprietário rural no Estado Oriental (Uruguai), dono de fazenda mencionada
-                como possível local de estada; citado em contexto de apoio logístico e circulação
-                de couros na fronteira.
+                Proprietário rural no Estado Oriental (Uruguai), citado em correspondência
+                no contexto de relações financeiras com o Estado e de circulação de bens
+                (especialmente couros) na fronteira sul.
             </note>
         </person>
         
@@ -3072,13 +3103,59 @@
         <person xml:id="antonio_vicente_siqueira_pereira_leitao">
             <persName>Antônio Vicente de Siqueira Pereira Leitão</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q9623076</idno>
-            <roleName>Ministro e Secretário de Estado dos Negócios da Justiça da República Rio-grandense.</roleName>
-            <roleName>Ministro e Secretário de Estado dos Negócios da Fazenda da República Rio-grandense.</roleName>
-            <roleName>Ministro e Secretário de Estado dos Negócios da Guerra da República Rio-grandense.</roleName>
-            <roleName>Deputado à assembléia provincial do Rio Grande do Sul</roleName>
-            <roleName>Promotor</roleName>
-            <roleName>funcionário da repartição de terras</roleName>
-            <note>Ministro e Secretário de Estado dos Negócios da Justiça. Antônio Vicente de Siqueira Pereira Leitão (Rio Pardo, 17 de janeiro de 1809 — Porto Alegre, 23 de dezembro de 1888) foi um advogado e magistrado brasileiro. </note>
+            <birth when="1809-01-17">17 de janeiro de 1809</birth>
+            <death when="1888-12-23">23 de dezembro de 1888</death>
+            <state type="roleInTime" xml:id="avspl_advogado">
+                <roleName>Advogado</roleName>
+                <note>Formou-se em Direito em 1834 e estabeleceu banca de advocacia no Rio Grande do Sul.</note>
+            </state>
+            <state type="roleInTime" xml:id="avspl_comandante_coluna_centro_1837_08_31">
+                <roleName>Comandante da Coluna do Centro</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+                <date when="1837-08-31">31 de agosto de 1837</date>
+            </state>
+            <state type="roleInTime" xml:id="avspl_ministro_justica_rrg">
+                <roleName>Ministro e Secretário de Estado dos Negócios da Justiça</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <note>Atuou no governo farroupilha durante a Guerra dos Farrapos.</note>
+            </state>
+            <state type="roleInTime" xml:id="avspl_ministro_fazenda_rrg">
+                <roleName>Ministro e Secretário de Estado dos Negócios da Fazenda</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <note>Atuou no governo farroupilha durante a Guerra dos Farrapos.</note>
+            </state>
+            <state type="roleInTime" xml:id="avspl_ministro_guerra_rrg">
+                <roleName>Ministro e Secretário de Estado dos Negócios da Guerra</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <note>Atuou no governo farroupilha durante a Guerra dos Farrapos.</note>
+            </state>
+            <state type="roleInTime" xml:id="avspl_promotor_publico">
+                <roleName>Promotor público</roleName>
+                <note>Nomeado após o fim da Guerra dos Farrapos.</note>
+            </state>
+            <state type="roleInTime" xml:id="avspl_funcionario_reparticao_terras">
+                <roleName>Funcionário da repartição de terras</roleName>
+                <note>Nomeado após o fim da Guerra dos Farrapos.</note>
+            </state>
+            <state type="roleInTime" xml:id="avspl_deputado_assembleia_provincial_rs">
+                <roleName>Deputado provincial</roleName>
+                <affiliation ref="#assembleia_provincial_rs"/>
+                <note>Exerceu mandatos em diferentes legislaturas.</note>
+            </state>
+            <state type="roleInTime" xml:id="avspl_juiz">
+                <roleName>Juiz</roleName>
+                <note>
+                    Atuou como juiz em diferentes localidades (incluindo Guarapuava/PR,
+                    Santo Antônio da Patrulha e Rio Pardo) e foi posteriormente desembargador
+                    em Porto Alegre.
+                </note>
+            </state>
+            <note>
+                Advogado e magistrado brasileiro (Rio Pardo, 17 de janeiro de 1809 — Porto Alegre,
+                23 de dezembro de 1888). Republicano, aderiu ao movimento farroupilha e integrou
+                seu governo, exercendo pastas ministeriais. Após a anistia, retornou à advocacia
+                e seguiu carreira na magistratura e administração pública.
+            </note>
         </person>
         
         <person xml:id="joaquim_jose_cruz">
@@ -3295,7 +3372,7 @@
             <idno type="project"/>
             <birth when="1804"/>
             <note>
-                Parente de Domingos José de Almeida, atuou em tarefas de cobrança e administração 
+                Primo de Domingos José de Almeida, atuou em tarefas de cobrança e administração 
                 antes de seu falecimento, sendo mencionado em correspondência familiar.
             </note>
         </person>
@@ -9097,22 +9174,250 @@
             </note>
         </person>
         
+        <person xml:id="joao_nunes_silva">
+            <persName>João Nunes da Silva</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="joaquim_antunes_fagundes">
+            <persName>Joaquim Antunes Fagundes</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="aleixo_goncalves_moreira">
+            <persName>Aleixo Gonçalves Moreira</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="jeronimo_ribeiro_silva">
+            <persName>Jerônimo Ribeiro da Silva</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="joao_manuel_fernandes">
+            <persName>João Manuel Fernandes</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="americo_pereira_silva">
+            <persName>Américo Pereira da Silva</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="simao_jose_silva">
+            <persName>Simão José da Silva</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="jose_bernardes_rodrigues_martins">
+            <persName>José Bernardes Rodrigues Martins</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="antonio_jose_vale">
+            <persName>Antônio José do Vale</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="joao_batista_barbosa">
+            <persName>João Batista Barbosa</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="luis_pimenta_sampaio">
+            <persName>Luís Pimenta de Sampaio</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="antonio_manuel_rodrigues_carvalho">
+            <persName>Antônio Manuel Rodrigues de Carvalho</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="tomas_cardoso_osorio">
+            <persName>Tomás Cardoso Osório</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
         <person xml:id="sousa">
             <persName>Velho Sousa</persName>
             <idno></idno>
             <note>Destinatário de carta mencionada; identificação incompleta.</note>
         </person>
         
-        <person xml:id="maria_jose">
-            <persName>María José</persName>
-            <idno></idno>
-            <note>Comadre de Bernardina mencionada na carta.</note>
+        <person xml:id="baltasar_jose_rodrigues_soares">
+            <persName>Baltasar José Rodrigues Soares</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
         </person>
         
-        <person xml:id="florisbelo_avila">
-            <persName>Florisbelo Antonio de Ávila</persName>
-            <idno></idno>
-            <note>Tenente-Coronel comandante da Guarda Nacional de Jaguarão, legalista.</note>
+        <person xml:id="francisco_jose_vargas">
+            <persName>Francisco José de Vargas</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="joao_batista_vitor">
+            <persName>João Batista Vitor</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="albertino_lopes_soares">
+            <persName>Albertino Lopes Soares</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="antonio_cardoso_osorio">
+            <persName>Antônio Cardoso Osório</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="antonio_francisco_pinto_oliveira">
+            <persName>Antônio Francisco Pinto de Oliveira</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="francisco_jose_araujo">
+            <persName>Francisco José de Araújo</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="francisco_tomas_cunha">
+            <persName>Francisco Tomás da Cunha</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="francisco_vilela_moreira">
+            <persName>Francisco Vilela Moreira</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="manoel_martins_porto">
+            <persName>Manoel Martins Porto</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="melchior_cardoso_osorio">
+            <persName>Melchior Cardoso Osório</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="manuel_rodrigues_mendes">
+            <persName>Manuel Rodrigues Mendes</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="felicio_soares_silva">
+            <persName>Felício Soares da Silva</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="bernardino_soares_silva">
+            <persName>Bernardino Soares da Silva</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="guiomar_maria_soares">
+            <persName>Guiomar Maria Soares</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="manoel_soares_silva">
+            <persName>Manoel Soares da Silva</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
+        </person>
+        
+        <person xml:id="inacio_jose_mendonca">
+            <persName>Inácio José de Mendonça</persName>
+            <idno type="project"/>
+            <note>
+                Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
+            </note>
         </person>
         
         <person xml:id="luis_vieira">
@@ -9123,6 +9428,12 @@
                 <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
                 na região do Chuí; identificação incompleta.
             </note>
+        </person>
+        
+        <person xml:id="florisbelo_avila">
+            <persName>Florisbelo Antonio de Ávila</persName>
+            <idno></idno>
+            <note>Tenente-Coronel comandante da Guarda Nacional de Jaguarão, legalista.</note>
         </person>
         
         <person xml:id="bernardino_vieira">
@@ -9197,329 +9508,29 @@
         
         <person xml:id="jose_escravo">
             <persName>José</persName>
-            <idno></idno>
-            <note>Escravo pertencente à família Almeida, mencionado como possível servidor do vigário geral.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="jose_pessoa_escravizada">
+                <roleName>Pessoa escravizada</roleName>
+                <note>
+                    Mencionado como possível pessoa a ser destacada para servir ao vigário geral.
+                </note>
+            </state>
+            <note>
+                Pessoa escravizada vinculada ao núcleo doméstico de Domingos José de Almeida,
+                citada em correspondência no contexto de rearranjos de serviço.
+            </note>
         </person>
         
         <person xml:id="belem">
             <persName>Belém</persName>
-            <idno></idno>
-            <note>Indivíduo mencionado de forma direta no contexto das relações com Ramirez; identidade incompleta.</note>
+            <idno type="project"/>
+            <note>
+                Indivíduo mencionado de forma indireta em correspondência, no contexto
+                de comentários sobre relações financeiras envolvendo João Pedro Ramirez;
+                identificação incompleta.
+            </note>
         </person>
         
-        <person xml:id="joao_nunes_silva">
-            <persName>João Nunes da Silva</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#joao_nunes_silva"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
         
-        <person xml:id="joaquim_antunes_fagundes">
-            <persName>Joaquim Antunes Fagundes</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#joaquim_antunes_fagundes"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-        
-        <person xml:id="aleixo_goncalves_moreira">
-            <persName>Aleixo Gonçalves Moreira</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#aleixo_goncalves_moreira"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="jeronimo_ribeiro_silva">
-            <persName>Jerônimo Ribeiro da Silva</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#jeronimo_ribeiro_silva"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-        
-        <person xml:id="joao_manuel_fernandes">
-            <persName>João Manuel Fernandes</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#joao_manuel_fernandes"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="americo_pereira_silva">
-            <persName>Américo Pereira da Silva</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#americo_pereira_silva"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="joao_pereira_silva">
-            <persName>João Pereira da Silva</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#joao_pereira_silva"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="simao_jose_silva">
-            <persName>Simão José da Silva</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#simao_jose_silva"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="jose_bernardes_rodrigues_martins">
-            <persName>José Bernardes Rodrigues Martins</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#jose_bernardes_rodrigues_martins"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="antonio_jose_vale">
-            <persName>Antônio José do Vale</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#antonio_jose_vale"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="joao_batista_barbosa">
-            <persName>João Batista Barbosa</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#joao_batista_barbosa"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="luis_pimenta_sampaio">
-            <persName>Luís Pimenta de Sampaio</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#luis_pimenta_sampaio"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="antonio_manuel_rodrigues_carvalho">
-            <persName>Antônio Manuel Rodrigues de Carvalho</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#antonio_manuel_rodrigues_carvalho"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="tomas_cardoso_osorio">
-            <persName>Tomás Cardoso Osório</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#tomas_cardoso_osorio"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="baltasar_jose_rodrigues_soares">
-            <persName>Baltasar José Rodrigues Soares</persName>
-            <idno></idno>
-            <relation
-                name="rel:parentOf"
-                active="#baltasar_jose_rodrigues_soares"
-                passive="#baltasar_jose_rodrigues_soares_filho"/>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#baltasar_jose_rodrigues_soares"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-        
-        <person xml:id="francisco_jose_vargas">
-            <persName>Francisco José de Vargas</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#francisco_jose_vargas"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="joao_batista_vitor">
-            <persName>João Batista Vitor</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#joao_batista_vitor"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="albertino_lopes_soares">
-            <persName>Albertino Lopes Soares</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#albertino_lopes_soares"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="antonio_cardoso_osorio">
-            <persName>Antônio Cardoso Osório</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#ntonio_cardoso_osorio"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="antonio_francisco_pinto_oliveira">
-            <persName>Antônio Francisco Pinto de Oliveira</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#antonio_francisco_pinto_oliveira"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="francisco_jose_araujo">
-            <persName>Francisco José de Araújo</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#francisco_jose_araujo"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="francisco_tomas_cunha">
-            <persName>Francisco Tomás da Cunha</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#francisco_tomas_cunha"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="francisco_vilela_moreira">
-            <persName>Francisco Vilela Moreira</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#francisco_vilela_moreira"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="manoel_martins_porto">
-            <persName>Manoel Martins Porto</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#manoel_martins_porto"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="melchior_cardoso_osorio">
-            <persName>Melchior Cardoso Osório</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#melchior_cardoso_osorio"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="manuel_rodrigues_mendes">
-            <persName>Manuel Rodrigues Mendes</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="manuel_rodrigues_mendes"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="felicio_soares_silva">
-            <persName>Felício Soares da Silva</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#felicio_soares_silva"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="bernardino_soares_silva">
-            <persName>Bernardino Soares da Silva</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#bernardino_soares_silva"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="guiomar_maria_soares">
-            <persName>Guiomar Maria Soares</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#guiomar_maria_soares"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="manoel_soares_silva">
-            <persName>Manoel Soares da Silva</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#manoel_soares_silva"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
-        <person xml:id="inacio_jose_mendonca">
-            <persName>Inácio José de Mendonça</persName>
-            <idno></idno>
-            <relation
-                name="prov:wasAssociatedWith"
-                active="#subs_boqueirao_1837"
-                passive="#inacio_jose_mendonca"/>
-            <note>Participou da subscrição em Boqueirão para financiar a farroupilha.</note>
-        </person>
-
     </listPerson>
 </standOff>

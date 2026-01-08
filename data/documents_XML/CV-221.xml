@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-221 – Domingos José de Almeida para Antônio José Gonçalves Chaves</title>
                 <author>Domingos José de Almeida</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-09-11">11 de setembro de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">3</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -54,6 +59,7 @@
                             <date when="1978">1978</date>
                             <biblScope type="volume">2</biblScope>
                             <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <biblScope unit="page" from="192" to="193">192-193</biblScope>
                             <measure type="extent">23 cm</measure>
                         </imprint>
                     </monogr>
@@ -65,6 +71,7 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -78,7 +85,14 @@
                 </application>
             </appInfo>
         </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
@@ -92,18 +106,25 @@
                     <placeName ref="#montevideo">Montevidéu</placeName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
-        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-09-11">11/09/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2026-01-03">03/01/2026</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
     </teiHeader>
-    
     <text>
         <body>
             <div type="letter" xml:id="CV-221">
@@ -118,7 +139,7 @@
                 
                 <p>Anteontem recebi duas suas de 9 do passado mês, e tendo de
                     contestá-las principiarei pela primeira. Mandei dar 1.500 pesos para a
-                    compra de um artigo que se fazia mister ao Estado e bem assim os 600$
+                    compra de um artigo que se fazia mister ao Estado e bem assim os <measure type="currency" unit="BRL-réis" quantity="6000000">600$</measure>
                     a <persName ref="#renovato">Renovato</persName>: e posto não achar fundamento na ordem de meu
                     cunhado, todavia foi bom; porque a Renovato devo somente quatrocentos
                     e sessenta mil réis, que <choice><abbr>V. Mcê.</abbr><expan>Vossa Mercê</expan></choice> entregará ao apresentante de minha
@@ -138,7 +159,7 @@
                     ordens para lhe irem os escravos se bem tê-los tratados a 16 pesos uns
                     por outros, e tanto no inverno como no verão. Passarei agora à sua 2.ª
                     carta. Os escravos, como lhe disse, pertencem ao cunhado
-                    <persName ref="#joao_rodrigues_barcelos">João Rodrigues Barcelos</persName>;
+                    <persName ref="#joao_barcelos">João Rodrigues Barcelos</persName>;
                     isto mesmo fiz ver a <persName ref="#joao_jose_victorica">Victorica</persName>,
                     inteligenciando-o de que se ele não aprovasse ou os mandasse buscar, que
                     reporia o dinheiro que lhe pedi adiantado, o qual, por fortuna, ainda minha
@@ -163,7 +184,7 @@
                 
                 <signed>(a) <persName ref="#domingos_jose_almeida">Almeida</persName>.</signed>
                 
-                <note type="endorsement" place="verso">
+                <note type="endorsement" place="1v">
                     <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#antonio_jose_goncalves_chaves">Antônio José Gonçalves Chaves</persName>,<br/>
                     <placeName ref="#montevideo">Montevidéu</placeName>. 
                 </note>

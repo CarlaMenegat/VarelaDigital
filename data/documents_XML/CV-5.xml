@@ -6,10 +6,15 @@
                 <title>Carta CV-5 – Antônio Francisco dos Santos Abreu para Inácio José de Oliveira Guimarães</title>
                 <author>Antônio Francisco dos Santos Abreu</author>
                 <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
                 <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
                 <respStmt>
@@ -70,7 +75,6 @@
                 <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
-        
         <encodingDesc>
             <projectDesc>
                 <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
@@ -81,13 +85,9 @@
                 </application>
             </appInfo>
         </encodingDesc>
-        
         <profileDesc>
             <langUsage>
                 <language ident="pt-BR">Português do Brasil</language>
-                <language ident="pt-BR">
-                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
-                </language>
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
@@ -113,7 +113,7 @@
                     Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
                 </item>
                 <item>
-                    <date when="2025-11-20">24/11/2025</date>
+                    <date when="2025-11-24">24/11/2025</date>
                     Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>

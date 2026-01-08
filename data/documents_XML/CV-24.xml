@@ -160,16 +160,52 @@
                 </closer>
                 
                 <postscript>
-                    <p><choice><abbr>P.D.</abbr><expan>Post Data</expan></choice>: Os documentos que <persName ref="#viana_contador">Viana</persName> 
-                        levou passados por <choice><abbr>V.Mcê.</abbr><expan>Vossa Mercê</expan></choice> são:</p>
-                    <list>
-                        <item>Um em 15 de março de 1835 — Importe do iate: 4:000$000</item>
-                        <item>Idem 12 de outubro de 1836 — Idem de 5 escravos da fazenda de Jaguarão:</item>
-                        <item>José, campeiro — 800$000</item>
-                        <item>Joaquim, dito — 700$000</item>
-                        <item>Alberto, dito — 600$000</item>
-                        <item>Pedro, dito — 700$000</item>
-                        <item>Fermiano — 800$000</item>
+                    <p>
+                        <choice>
+                            <abbr>P.D.</abbr>
+                            <expan>Post Data</expan>
+                        </choice>:
+                        Os documentos que <persName ref="#viana_contador">Viana</persName>
+                        levou passados por 
+                        <choice>
+                            <abbr>V.Mcê.</abbr>
+                            <expan>Vossa Mercê</expan>
+                        </choice> são:
+                    </p>
+                    
+                    <list type="financialReference">
+                        <item>
+                            Um em <date when="1835-03-15">15 de março de 1835</date> —
+                            Importe do iate:
+                            <measure type="currency" unit="BRL-réis" quantity="4000000">4:000$000</measure>
+                        </item>
+                        
+                        <item>
+                            Idem <date when="1836-10-12">12 de outubro de 1836</date> —
+                            Idem de 5 escravos da fazenda de
+                            <placeName ref="#jaguarao">Jaguarão</placeName>:
+                        </item>
+                        
+                        <item>
+                            <persName ref="#jose_escravo">José</persName>, campeiro —
+                            <measure type="currency" unit="BRL-réis" quantity="800000">800$000</measure>
+                        </item>
+                        <item>
+                            <persName ref="#joaquim_escravo">Joaquim</persName>, dito —
+                            <measure type="currency" unit="BRL-réis" quantity="700000">700$000</measure>
+                        </item>
+                        <item>
+                            <persName ref="#alberto_escravo">Alberto</persName>, dito —
+                            <measure type="currency" unit="BRL-réis" quantity="600000">600$000</measure>
+                        </item>
+                        <item>
+                            <persName ref="#pedro_escravo">Pedro</persName>, dito —
+                            <measure type="currency" unit="BRL-réis" quantity="700000">700$000</measure>
+                        </item>
+                        <item>
+                            <persName ref="#fermiano_escravo">Fermiano</persName> —
+                            <measure type="currency" unit="BRL-réis" quantity="800000">800$000</measure>
+                        </item>
                     </list>
                 </postscript>
                 

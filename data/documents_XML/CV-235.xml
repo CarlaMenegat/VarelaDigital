@@ -1,125 +1,382 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Conta – CV-235</title>
-                <author>
-                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
-                </author>
+                <title>CV-235 - Conta de despesas e pagamentos</title>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
-            
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-09-13">13 de setembro de 2025</date>
+            </editionStmt>
+            <extent>
+                <extent>1 documento contábil</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
-            
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>
-                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
-                    <ptr target="data/standoff/standoff-persons.xml"/>
-                    <ptr target="data/standoff/standoff-places.xml"/>
-                    <ptr target="data/standoff/standoff-events.xml"/>
-                    <ptr target="data/standoff/standoff-orgs.xml"/>
-                </bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <biblScope unit="page" from="202" to="203">202-203</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sent">
-                    <placeName ref="#piratini">Piratini</placeName>
-                    <date when="1838-03-18">18 de março de 1838</date>
-                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
-                </correspAction>
-                
-                <correspAction type="received">
-                    <persName ref="#jose_joaquim_silva_maia">José Joaquim da Silva Maia</persName>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
         
+        <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-09-13">13/09/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2026-01-07">07/01/2026</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
-    
-    
     
     <text>
         <body>
             <div type="account" xml:id="CV-235">
                 
                 <dateline>
-                    <placeName ref="#piratini">Piratini</placeName>, 
+                    <placeName ref="#piratini">Piratini</placeName>,
                     <date when="1838-03-18">18 de março de 1838</date>.
                 </dateline>
                 
                 <head>
-                    Conta entre <persName ref="#jose_joaquim_silva_maia">José Joaquim da Silva Maia</persName> 
-                    e <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    Conta entre
+                    <persName ref="#jose_joaquim_silva_maia">José Joaquim da Silva Maia</persName>
+                    e
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                 </head>
                 
-                <p>
-                    — Importância do que tinha a dar por ordem de 
-                    <persName ref="#joao_jose_victorica">João José Victorica</persName> ............... 308$720<br/>
-                    — Dinheiro que dei ao ex-sócio de <persName ref="#d_pedro">D. Pedro</persName> ................. 4$480<br/>
-                    — Dinheiro que de sua conta dei a 
-                    <persName ref="#jose_maria_olave">José Maria Olave</persName> 
-                    (101 pesos) ..................................... 80$800<br/>
-                    Total parcial ........................................................ 116$000<br/>
-                    — Câmbio corrente de 75% ........................................ 87$000<br/>
-                    Total ................................................................. 203$000
-                </p>
+                <list type="account">
+                    <label>Deve</label>
+                    
+                    <!-- Lançamentos iniciais -->
+                    <item type="lineItem">
+                        <desc>
+                            Importância do que tinha a dar por ordem de
+                            <persName ref="#joao_jose_victorica">João José Victorica</persName>.
+                        </desc>
+                        <measure type="currency" unit="BRL-réis" quantity="30720">30$720</measure>
+                    </item>
+                    
+                    <item type="lineItem">
+                        <desc>
+                            Dinheiro que dei ao ex-sócio de
+                            <persName ref="#d_pedro">D. Pedro</persName>.
+                        </desc>
+                        <measure type="currency" unit="BRL-réis" quantity="4480">4$480</measure>
+                    </item>
+                    
+                    <item type="lineItem">
+                        <desc>
+                            Dinheiro que de sua conta dei a
+                            <persName ref="#jose_maria_olave">José Maria Olave</persName>.
+                        </desc>
+                        <note type="accountNote">(101 pesos)</note>
+                        <measure type="currency" unit="BRL-réis" quantity="80800">80$800</measure>
+                    </item>
+                    
+                    <!-- Subtotal -->
+                    <item type="summary" subtype="partialTotal">
+                        <label>Total parcial</label>
+                        <measure type="currency" unit="BRL-réis" quantity="116000">116$000</measure>
+                    </item>
+                    
+                    <!-- Câmbio -->
+                    <item type="summary" subtype="exchange">
+                        <label>Câmbio corrente</label>
+                        <measure type="rate" unit="percent" quantity="75">75%</measure>
+                        <measure type="currency" unit="BRL-réis" quantity="87000">87$000</measure>
+                    </item>
+                    
+                    <item type="summary" subtype="total">
+                        <label>Total</label>
+                        <measure type="currency" unit="BRL-réis" quantity="203000">203$000</measure>
+                    </item>
+                    
+                    <!-- Encontro -->
+                    <item type="summary" subtype="encontro">
+                        <label>Encontro</label>
+                    </item>
+                    
+                    <item type="lineItem">
+                        <desc>
+                            Importância da conta do ex-sócio de
+                            <persName ref="#d_pedro">D. Pedro</persName>.
+                        </desc>
+                        <measure type="currency" unit="BRL-réis" quantity="52920">52$920</measure>
+                    </item>
+                    
+                    <item type="lineItem">
+                        <desc>
+                            Importância do que por minha ordem deu a
+                            <persName ref="#roberto_bare">Roberto Bare</persName>.
+                        </desc>
+                        <measure type="currency" unit="BRL-réis" quantity="62820">62$820</measure>
+                    </item>
+                    
+                    <item type="summary" subtype="total">
+                        <label>Total</label>
+                        <measure type="currency" unit="BRL-réis" quantity="115740">115$740</measure>
+                    </item>
+                    
+                    <item type="summary" subtype="resta">
+                        <label>Resta</label>
+                        <measure type="currency" unit="BRL-réis" quantity="87260">87$260</measure>
+                    </item>
+                    
+                    <!-- Pagamentos por pessoa -->
+                    <item type="lineItem">
+                        <desc>
+                            <persName ref="#joaquim_santos_faria">Joaquim dos Santos de Faria</persName>.
+                        </desc>
+                        <note type="accountNote"><seg type="status">pg.</seg></note>
+                        <measure type="currency" unit="BRL-réis" quantity="18920">18$920</measure>
+                    </item>
+                    
+                    <item type="lineItem">
+                        <desc>
+                            C. <persName ref="#gaspar_gomes_dias">Gaspar Gomes Dias</persName>.
+                        </desc>
+                        <measure type="currency" unit="BRL-réis" quantity="49200">49$200</measure>
+                    </item>
+                    
+                    <item type="lineItem">
+                        <desc>
+                            <persName ref="#joaquim_maximo_lobato">Tenente Joaquim Máximo Lobato</persName>.
+                        </desc>
+                        <measure type="currency" unit="BRL-réis" quantity="12000">12$000</measure>
+                    </item>
+                    
+                    <item type="lineItem">
+                        <desc>
+                            C. <persName ref="#pedro_jose_lima">Pedro José de Lima</persName>.
+                        </desc>
+                        <note type="accountNote">(20 patacões prata)</note>
+                        <measure type="currency" unit="BRL-réis" quantity="33600">33$600</measure>
+                    </item>
+                    
+                    <item type="lineItem">
+                        <desc>
+                            C. <persName ref="#anacleto_jose_matos">Anacleto José de Matos</persName>.
+                        </desc>
+                        <note type="accountNote">(4 patacões prata)</note>
+                        <measure type="currency" unit="BRL-réis" quantity="6720">6$720</measure>
+                    </item>
+                    
+                    <item type="lineItem">
+                        <desc>
+                            C. <persName ref="#vilaca">Vilaça</persName>.
+                        </desc>
+                        <note type="accountNote">(4 patacões prata)</note>
+                        <measure type="currency" unit="BRL-réis" quantity="6720">6$720</measure>
+                    </item>
+                    
+                    <item type="lineItem">
+                        <desc>
+                            <persName ref="#antonio_francisco_santos_abreu">Antônio Francisco dos Santos Abreu</persName>.
+                        </desc>
+                        <measure type="currency" unit="BRL-réis" quantity="11160">11$160</measure>
+                    </item>
+                    
+                    <item type="lineItem">
+                        <desc>
+                            <persName ref="#silvano_monteiro_araujo">
+                                Tenente-coronel Silvano José Monteiro de Araújo e Paula
+                            </persName>.
+                        </desc>
+                        <note type="accountNote">(27 patacões prata) <seg type="status">pg.</seg></note>
+                        <measure type="currency" unit="BRL-réis" quantity="45360">45$360</measure>
+                    </item>
+                    
+                    <item type="lineItem">
+                        <desc>
+                            <persName ref="#bento_joaquim_chaves">Alferes Bento Joaquim de Chaves</persName>.
+                        </desc>
+                        <note type="accountNote">(48 pesos emp.)</note>
+                        <measure type="currency" unit="BRL-réis" quantity="67200">67$200</measure>
+                    </item>
+                    
+                    <item type="lineItem">
+                        <desc>
+                            <persName ref="#leandro_jose_costa">Tenente Leandro José da Costa</persName>.
+                        </desc>
+                        <note type="accountNote">(5 patacões prata)</note>
+                        <measure type="currency" unit="BRL-réis" quantity="8400">8$400</measure>
+                    </item>
+                    
+                    <item type="lineItem">
+                        <desc>
+                            <persName ref="#francisco_goncalves_meireles">Francisco Gonçalves Meireles</persName>.
+                        </desc>
+                        <note type="accountNote">(20 patacões prata)</note>
+                        <measure type="currency" unit="BRL-réis" quantity="33600">33$600</measure>
+                    </item>
+                    
+                    <item type="lineItem">
+                        <desc>
+                            <persName ref="#jose_gomes_ferreira_guimaraes_cabeca">
+                                José Gomes Ferreira Guimarães Cabeça
+                            </persName>.
+                        </desc>
+                        <note type="accountNote">(6 patacões prata)</note>
+                        <measure type="currency" unit="BRL-réis" quantity="10080">10$080</measure>
+                    </item>
+                    
+                    <item type="lineItem">
+                        <desc>
+                            <persName ref="#joaquim_francisco_botelho">Tenente Joaquim Francisco Botelho</persName>.
+                        </desc>
+                        <measure type="currency" unit="BRL-réis" quantity="5040">5$040</measure>
+                    </item>
+                    
+                    <item type="lineItem">
+                        <desc>
+                            <persName ref="#tomas_silva_ramos">Tenente Tomás da Silva Ramos</persName>.
+                        </desc>
+                        <note type="accountNote">(3 patacões)</note>
+                        <measure type="currency" unit="BRL-réis" quantity="5040">5$040</measure>
+                    </item>
+                    
+                    <item type="lineItem">
+                        <desc>
+                            <persName ref="#luis_briano_matos">Luís Briano de Matos</persName>.
+                        </desc>
+                        <measure type="currency" unit="BRL-réis" quantity="12800">12$800</measure>
+                    </item>
+                    
+                    <item type="summary" subtype="subtotal">
+                        <label>Subtotal</label>
+                        <measure type="currency" unit="BRL-réis" quantity="413100">413$100</measure>
+                    </item>
+                    
+                    <item type="lineItem">
+                        <desc>
+                            <date when="1838-04-06">Abril 6</date>,
+                            <persName ref="#isaias_antonio_silva">Isaías Antônio da Silva</persName>.
+                        </desc>
+                        <note type="accountNote">(6 patacões prata)</note>
+                        <measure type="currency" unit="BRL-réis" quantity="10560">10$560</measure>
+                    </item>
+                    
+                    <item type="lineItem">
+                        <desc>
+                            <persName ref="#jose_manoel_leao">Coronel José Manoel de Leão</persName>.
+                        </desc>
+                        <note type="accountNote">
+                            64$rs prata <seg type="status">pg.</seg>
+                        </note>
+                        <measure type="currency" unit="BRL-réis" quantity="117120">117$120</measure>
+                    </item>
+                    
+                    <item type="summary" subtype="total">
+                        <label>Total</label>
+                        <measure type="currency" unit="BRL-réis" quantity="540780">540$780</measure>
+                    </item>
+                    
+                    <item type="lineItem">
+                        <desc>
+                            <persName ref="#mariano_gloria">Major Mariano Glória</persName>.
+                        </desc>
+                        <note type="accountNote">uma onça</note>
+                        <measure type="currency" unit="BRL-réis" quantity="28000">28$000</measure>
+                    </item>
+                    
+                    <item type="summary" subtype="totalGeral">
+                        <label>Total geral</label>
+                        <measure type="currency" unit="BRL-réis" quantity="568780">568$780</measure>
+                    </item>
+                    
+                </list>
                 
-                <p>
-                    — Encontro —<br/>
-                    — Importância da conta do ex-sócio de <persName ref="#d_pedro">D. Pedro</persName> ............ 52$920<br/>
-                    — Importância do que por minha ordem deu a 
-                    <persName ref="#roberto_bare">Roberto Bare</persName> ...................... 62$820<br/>
-                    Total ................................................................. 115$740<br/>
-                    Resta ................................................................. 87$260
-                </p>
-                
-                <p>
-                    — <persName ref="#joaquim_santos_faria">Joaquim dos Santos de Faria</persName> .................. 184$920<br/>
-                    — <persName ref="#gaspar_gomes_dias">Gaspar Gomes Dias</persName> ............................ 49$200<br/>
-                    — <persName ref="#joaquim_maximo_lobato">Tenente Joaquim Máximo Lobato</persName> ................. 12$000<br/>
-                    — <persName ref="#pedro_jose_lima">Pedro José de Lima</persName> (20 patacões prata) ............. 33$600<br/>
-                    — <persName ref="#anacleto_jose_matos">Anacleto José de Matos</persName> (4 patacões prata) .......... 6$720<br/>
-                    — <persName ref="#vilaca">Vilaça</persName> (4 patacões prata) ............................... 6$720<br/>
-                    — <persName ref="#antonio_francisco_santos_abreu">Antônio Francisco dos Santos Abreu</persName> ............ 11$160<br/>
-                    — <persName ref="#silvano_monteiro_araujo">Ten.-cel. Silvano José Monteiro de Araújo e Paula</persName> (27 patacões prata) .... 45$360<br/>
-                    — <persName ref="#bento_joaquim_chaves">Alferes Bento Joaquim de Chaves</persName> (48 pesos emp.) ..... 67$200<br/>
-                    — <persName ref="#leandro_jose_costa">Tenente Leandro José da Costa</persName> (5 patacões prata) ..... 8$400<br/>
-                    — <persName ref="#francisco_goncalves_meireles">Francisco Gonçalves Meireles</persName> (20 patacões prata) .... 33$600<br/>
-                    — <persName ref="#jose_gomes_ferreira_guimaraes_cabeca">José Gomes Ferreira Guimarães Cabeça</persName>
-                    (6 patacões prata) .............................................. 10$080<br/>
-                    — <persName ref="#joaquim_francisco_botelho">Tenente Joaquim Francisco Botelho</persName> ............... 5$040<br/>
-                    — <persName ref="#tomas_silva_ramos">Tenente Tomás da Silva Ramos</persName> (3 patacões) ...... 9$040<br/>
-                    — <persName ref="#luis_briano_matos">Luís Briano de Matos</persName> ............................ 12$800
-                </p>
-                
-                <p>
-                    — <date when="1838-04-06">Abril 6</date> 
-                    <persName ref="#isaias_antonio_silva">Isaias Antônio da Silva</persName> 
-                    (6 patacões prata) ...................... 10$560<br/>
-                    — <persName ref="#jose_manoel_leao">Coronel José Manoel de Leão</persName> 
-                    (64$rs prata) .................... 117$120<br/>
-                    Total ................................................................. 540$780
-                </p>
-                
-                <p>
-                    — <persName ref="#mariano_gloria">Major Mariano Glória</persName> (uma onça) ................. 28$000<br/>
-                    Total geral ......................................................... 568$780
-                </p>
-                
-                <note type="endorsement">
-                    Conta com o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#jose_joaquim_silva_maia">José Joaquim da Silva Maia</persName> e outros.
+                <note type="endorsement" place="verso">
+                    Conta com o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                    <persName ref="#jose_joaquim_silva_maia">José Joaquim da Silva Maia</persName> e outros.
                 </note>
                 
             </div>
         </body>
     </text>
-    
 </TEI>

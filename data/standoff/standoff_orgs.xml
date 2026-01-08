@@ -480,6 +480,17 @@
             </note>
         </org>
         
+        <org xml:id="coluna_centro" type="militaryUnit">
+            <orgName>Coluna do Centro</orgName>
+            <idno type="project"/>
+            <affiliation ref="#exercito_farroupilha"/>
+            <note>
+                Unidade militar do Exército Farroupilha, mencionada em correspondência de
+                31 de agosto de 1837, na qual Antônio Vicente de Siqueira Pereira Leitão
+                aparece como comandante desta coluna.
+            </note>
+        </org>
+        
         <org xml:id="jornal_oficial_republica">
             <orgName>Jornal Oficial da República Rio-Grandense</orgName>
             <note>Periódico criado pelo governo farroupilha para divulgação de atos oficiais.</note>

@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-228 – Relação de subscrição do Distrito do Boqueirão</title>
                 <author>Inácio José de Oliveira Guimarães</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -16,11 +20,12 @@
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-07-02">02 de julho de 2025</date>
+                <date when="2025-09-11">11 de setembro de 2025</date>
             </editionStmt>
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
@@ -54,6 +59,7 @@
                             <date when="1978">1978</date>
                             <biblScope type="volume">2</biblScope>
                             <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <biblScope unit="page" from="197" to="198">197-198</biblScope>
                             <measure type="extent">23 cm</measure>
                         </imprint>
                     </monogr>
@@ -65,6 +71,11 @@
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
+                <relatedItem type="host">
+                    <ref target="#CV-227">CV-227</ref>
+                    <note>Documento anexo.</note>
+                </relatedItem>
             </sourceDesc>
         </fileDesc>
         
@@ -78,7 +89,14 @@
                 </application>
             </appInfo>
         </encodingDesc>
+        
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>
@@ -88,274 +106,289 @@
                     <note>Documento interno da administração; sem destinatário epistolar.</note>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
-        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-11-21">21/11/2025</date>
-                    Conversão TEI realizada por Carla Menegat.
+                    <date when="2025-09-11">11/09/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2026-01-03">03/01/2026</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>
     </teiHeader>
-    <text>
-        <body>
-            <div type="letter" xml:id="CV-228">
-                
-                <opener>
-                    <salute>Cópia dada em 12 de outubro 1837.</salute>
-                </opener>
-                
-                <p>Subscrição com que gratuitamente concorrem os moradores do
-                    Distrito do <placeName ref="#sao_lourenco">Boqueirão</placeName>, para as exigências da presente luta da nossa
-                    independência, sendo por ações mensalmente, e estas não menos cada uma
-                    de um mil réis, tendo princípio no 1.º de outubro de 1837 e pelo tempo
-                    de três anos.</p>
-                
-                <table>
-                    <row>
-                        <cell>Ações</cell>
-                        <cell>Total</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName></cell>
-                        <cell>5</cell>
-                        <cell>5$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#joaquim_vieira_braga">Joaquim Vieira Braga</persName></cell>
-                        <cell>2</cell>
-                        <cell>2$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#joao_nunes_silva">João Nunes da Silva</persName></cell>
-                        <cell>1</cell>
-                        <cell>1$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#joaquim_antonio_fagundes">Joaquim Antônio Fagundes</persName></cell>
-                        <cell>1</cell>
-                        <cell>1$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#aleixo_goncalves_moreira">Aleixo Gonçalves Moreira</persName></cell>
-                        <cell>1</cell>
-                        <cell>1$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#jeronimo_ribeiro_silva">Jerônimo Ribeiro da Silva</persName></cell>
-                        <cell>1</cell>
-                        <cell>1$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#joao_manuel_fernandes">João Manuel Fernandes</persName></cell>
-                        <cell>1</cell>
-                        <cell>1$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#americo_pereira_silva">Américo Pereira da Silva</persName></cell>
-                        <cell>2</cell>
-                        <cell>2$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#joao_pereira_silva">João Pereira da Silva</persName></cell>
-                        <cell>1</cell>
-                        <cell>1$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#simao_jose_silva">Simão José da Silva</persName></cell>
-                        <cell>2</cell>
-                        <cell>2$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#jose_bernardes_rodrigues_martins">José Bernardes Rodrigues Martins</persName></cell>
-                        <cell>4</cell>
-                        <cell>4$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#antonio_jose_vale">Antônio José do Vale</persName></cell>
-                        <cell>1</cell>
-                        <cell>1$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#joao_batista_barbosa">João Batista Barbosa</persName></cell>
-                        <cell>2</cell>
-                        <cell>2$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#luis_pimenta_sampaio">Luís Pimenta de Sampaio</persName></cell>
-                        <cell>2</cell>
-                        <cell>2$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#antonio_manuel_rodrigues_carvalho">Antônio Manuel Rodrigues de Carvalho</persName></cell>
-                        <cell>2</cell>
-                        <cell>2$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#tomas_cardoso_osorio">Tomás Cardoso Osório</persName></cell>
-                        <cell>1</cell>
-                        <cell>1$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#baltasar_jose_rodrigues_soares">Baltasar José Rodrigues Soares</persName></cell>
-                        <cell>1</cell>
-                        <cell>1$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell>Transporte</cell>
-                        <cell>30</cell>
-                        <cell>30$000</cell>
-                    </row>
-                </table>
-                <table>
-                    
-                    <row>
-                        <cell><persName ref="#ana_joaquina_silva_santos">Ana Joaquina da Silva Santos</persName></cell>
-                        <cell>2</cell>
-                        <cell>2$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#francisco_jose_vargas">Francisco José de Vargas</persName></cell>
-                        <cell>1</cell>
-                        <cell>1$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#joao_batista_vitor">João Batista Vitor</persName></cell>
-                        <cell>1</cell>
-                        <cell>1$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#albertino_lopes_soares">Albertino Lopes Soares</persName></cell>
-                        <cell>1</cell>
-                        <cell>1$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#antonio_cardoso_osorio">Antônio Cardoso Osório</persName></cell>
-                        <cell>1</cell>
-                        <cell>1$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#baltasar_jose_rodrigues_soares_filho">Baltasar José Rodrigues Soares Filho</persName></cell>
-                        <cell>1</cell>
-                        <cell>1$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#antonio_francisco_pinto_oliveira">Antônio Francisco Pinto de Oliveira</persName></cell>
-                        <cell>1</cell>
-                        <cell>1$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#francisco_jose_araujo">Francisco José de Araújo</persName></cell>
-                        <cell>4</cell>
-                        <cell>4$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#francisco_tomas_cunha">Francisco Tomás da Cunha</persName></cell>
-                        <cell>1</cell>
-                        <cell>1$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#francisco_vilela_moreira">Francisco Vilela Moreira</persName></cell>
-                        <cell>1</cell>
-                        <cell>1$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#manoel_martins_porto">Manoel Martins Porto</persName></cell>
-                        <cell>1</cell>
-                        <cell>1$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#melchior_cardoso_osorio">Melchior Cardoso Osório</persName></cell>
-                        <cell>1</cell>
-                        <cell>1$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#manuel_rodrigues_mendes">Manuel Rodrigues Mendes</persName></cell>
-                        <cell>1</cell>
-                        <cell>1$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#felicio_soares_silva">Felício Soares da Silva</persName></cell>
-                        <cell>2</cell>
-                        <cell>2$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#bernardino_soares_silva">Bernardino Soares da Silva</persName></cell>
-                        <cell>2</cell>
-                        <cell>2$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#guiomar_maria_soares">Guiomar Maria Soares</persName></cell>
-                        <cell>5</cell>
-                        <cell>5$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#manoel_soares_silva">Manoel Soares da Silva</persName></cell>
-                        <cell>3</cell>
-                        <cell>3$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#david_silveira_duarte">David Silveira Duarte</persName></cell>
-                        <cell>1</cell>
-                        <cell>1$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell><persName ref="#inacio_jose_mendonca">Inácio José de Mendonça</persName></cell>
-                        <cell>1</cell>
-                        <cell>1$000</cell>
-                    </row>
-                    
-                    <row>
-                        <cell>Total</cell>
-                        <cell>57</cell>
-                        <cell>57$000</cell>
-                    </row>
-                </table>
-                
-                <closer>
-                    <dateline>Fazenda do Salso, 12 de outubro de 1837.</dateline>
-                    <signed>(a) <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName></signed>
-                </closer>
-                
-            </div>
-        </body>
-    </text>
+    
+    <div type="subscription" xml:id="CV-228">
+        
+        <note type="editorial">
+            Cópia dada em <date when="1837-10-12">12 de outubro de 1837</date>.
+        </note>
+        
+        <p>
+            Subscrição com que gratuitamente concorrem os moradores do
+            Distrito do <placeName ref="#sao_lourenco">Boqueirão</placeName>,
+            para as exigências da presente luta da nossa independência,
+            sendo por ações mensalmente, e estas não menos cada uma de
+            <measure type="shareValue" unit="BRL-réis" quantity="1000">1$000</measure>,
+            tendo princípio no <date when="1837-10-01">1.º de outubro de 1837</date>
+            e pelo tempo de três anos.
+        </p>
+        
+        <table>
+            <row>
+                <cell>Subscritor</cell>
+                <cell>Ações</cell>
+                <cell>Total</cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName></cell>
+                <cell><num value="5">5</num></cell>
+                <cell><measure type="subscriptionTotal" unit="BRL-réis" quantity="5000">5$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#joaquim_vieira_braga">Joaquim Vieira Braga</persName></cell>
+                <cell><num value="2">2</num></cell>
+                <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#joao_nunes_silva">João Nunes da Silva</persName></cell>
+                <cell><num value="1">1</num></cell>
+                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#joaquim_antonio_fagundes">Joaquim Antônio Fagundes</persName></cell>
+                <cell><num value="1">1</num></cell>
+                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#aleixo_goncalves_moreira">Aleixo Gonçalves Moreira</persName></cell>
+                <cell><num value="1">1</num></cell>
+                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#jeronimo_ribeiro_silva">Jerônimo Ribeiro da Silva</persName></cell>
+                <cell><num value="1">1</num></cell>
+                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#joao_manuel_fernandes">João Manuel Fernandes</persName></cell>
+                <cell><num value="1">1</num></cell>
+                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#americo_pereira_silva">Américo Pereira da Silva</persName></cell>
+                <cell><num value="2">2</num></cell>
+                <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#joao_pereira_silva">João Pereira da Silva</persName></cell>
+                <cell><num value="1">1</num></cell>
+                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#simao_jose_silva">Simão José da Silva</persName></cell>
+                <cell><num value="2">2</num></cell>
+                <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#jose_bernardes_rodrigues_martins">José Bernardes Rodrigues Martins</persName></cell>
+                <cell><num value="4">4</num></cell>
+                <cell><measure unit="BRL-réis" quantity="4000">4$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#antonio_jose_vale">Antônio José do Vale</persName></cell>
+                <cell><num value="1">1</num></cell>
+                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#joao_batista_barbosa">João Batista Barbosa</persName></cell>
+                <cell><num value="2">2</num></cell>
+                <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#luis_pimenta_sampaio">Luís Pimenta de Sampaio</persName></cell>
+                <cell><num value="2">2</num></cell>
+                <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#antonio_manuel_rodrigues_carvalho">Antônio Manuel Rodrigues de Carvalho</persName></cell>
+                <cell><num value="2">2</num></cell>
+                <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#tomas_cardoso_osorio">Tomás Cardoso Osório</persName></cell>
+                <cell><num value="1">1</num></cell>
+                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#baltasar_jose_rodrigues_soares">Baltasar José Rodrigues Soares</persName></cell>
+                <cell><num value="1">1</num></cell>
+                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+            </row>
+            
+            <row role="subtotal">
+                <cell>Transporte</cell>
+                <cell><num value="30">30</num></cell>
+                <cell><measure type="subscriptionSubtotal" unit="BRL-réis" quantity="30000">30$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#ana_joaquina_silva_santos">Ana Joaquina da Silva Santos</persName></cell>
+                <cell><num value="2">2</num></cell>
+                <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#francisco_jose_vargas">Francisco José de Vargas</persName></cell>
+                <cell><num value="1">1</num></cell>
+                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#joao_batista_vitor">João Batista Vitor</persName></cell>
+                <cell><num value="1">1</num></cell>
+                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#albertino_lopes_soares">Albertino Lopes Soares</persName></cell>
+                <cell><num value="1">1</num></cell>
+                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#antonio_cardoso_osorio">Antônio Cardoso Osório</persName></cell>
+                <cell><num value="1">1</num></cell>
+                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#baltasar_jose_rodrigues_soares_filho">Baltasar José Rodrigues Soares Filho</persName></cell>
+                <cell><num value="1">1</num></cell>
+                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#antonio_francisco_pinto_oliveira">Antônio Francisco Pinto de Oliveira</persName></cell>
+                <cell><num value="1">1</num></cell>
+                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#francisco_jose_araujo">Francisco José de Araújo</persName></cell>
+                <cell><num value="4">4</num></cell>
+                <cell><measure unit="BRL-réis" quantity="4000">4$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#francisco_tomas_cunha">Francisco Tomás da Cunha</persName></cell>
+                <cell><num value="1">1</num></cell>
+                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#francisco_vilela_moreira">Francisco Vilela Moreira</persName></cell>
+                <cell><num value="1">1</num></cell>
+                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#manoel_martins_porto">Manoel Martins Porto</persName></cell>
+                <cell><num value="1">1</num></cell>
+                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#melchior_cardoso_osorio">Melchior Cardoso Osório</persName></cell>
+                <cell><num value="1">1</num></cell>
+                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#manuel_rodrigues_mendes">Manuel Rodrigues Mendes</persName></cell>
+                <cell><num value="1">1</num></cell>
+                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#felicio_soares_silva">Felício Soares da Silva</persName></cell>
+                <cell><num value="2">2</num></cell>
+                <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#bernardino_soares_silva">Bernardino Soares da Silva</persName></cell>
+                <cell><num value="2">2</num></cell>
+                <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#guiomar_maria_soares">Guiomar Maria Soares</persName></cell>
+                <cell><num value="5">5</num></cell>
+                <cell><measure unit="BRL-réis" quantity="5000">5$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#manoel_soares_silva">Manoel Soares da Silva</persName></cell>
+                <cell><num value="3">3</num></cell>
+                <cell><measure unit="BRL-réis" quantity="3000">3$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#david_silveira_duarte">David Silveira Duarte</persName></cell>
+                <cell><num value="1">1</num></cell>
+                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+            </row>
+            
+            <row>
+                <cell><persName ref="#inacio_jose_mendonca">Inácio José de Mendonça</persName></cell>
+                <cell><num value="1">1</num></cell>
+                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+            </row>
+            
+            <row role="total">
+                <cell>Total</cell>
+                <cell><num value="57">57</num></cell>
+                <cell><measure type="subscriptionTotal" unit="BRL-réis" quantity="57000">57$000</measure></cell>
+            </row>
+        </table>
+        
+        <closer>
+            <dateline>
+                Fazenda do Salso,
+                <date when="1837-10-12">12 de outubro de 1837</date>.
+            </dateline>
+            <signed>(a) <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName></signed>
+        </closer>
+        
+        <note type="editorial">
+            Este documento está anexo ao <ref target="#CV-227">CV-227</ref>.
+        </note>
+        
+    </div>
 </TEI>

@@ -63,6 +63,9 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
+                <relatedItem type="host" target="#CV-6">
+                    <note>Documento anexo.</note>
+                </relatedItem>
                 <ptr target="data/standoff/standoff-persons.xml" />
                 <ptr target="data/standoff/standoff-places.xml" />
                 <ptr target="data/standoff/standoff-events.xml" />

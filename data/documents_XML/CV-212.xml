@@ -66,16 +66,15 @@
                     <series>
                         <title>II Série</title>
                     </series>
-                    <relatedItem type="host">
-                        <ref target="#CV-212">CV-212</ref>
-                        <note>Documento ao qual este anexo pertence.</note>
-                    </relatedItem>
                 </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
                 <ptr target="data/standoff/standoff-relations.xml"/>
+                <relatedItem type="appendix">
+                    <ref target="#CV-213">CV-213</ref>
+                </relatedItem>
             </sourceDesc>
         </fileDesc>
         
@@ -147,7 +146,7 @@
                     decreto junto de 29 de maio próximo passado.</p>
                 
                 <p>Por semelhante motivo me dirijo a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> rogando-lhe queira
-                    prestar-se com a quantia de 1:000$000 rs. em prata ou ouro, que lhe
+                    prestar-se com a quantia de <measure type="currency" unit="BRL-réis" quantity="1000000">1:000$000 rs.</measure> em prata ou ouro, que lhe
                     será paga no prazo marcado pelo referido decreto com o prêmio de
                     um e meio por cento ao mês, que principiará a correr desde o dia
                     que nesta Secretaria se lhe entregar o documento em forma.</p>

@@ -63,6 +63,9 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
+                <relatedItem type="host" target="#CV-6">
+                    <note>Documento anexo.</note>
+                </relatedItem>
                 <ptr target="data/standoff/standoff-persons.xml" />
                 <ptr target="data/standoff/standoff-places.xml" />
                 <ptr target="data/standoff/standoff-events.xml" />
@@ -134,7 +137,7 @@
                 </opener>
                 
                 <p>Querendo contestar a que dirigiu <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
-                    a seu amigo <persName ref="#domingos_almeida">Almeida</persName>, e que me foi por ele confiada, 
+                    a seu amigo <persName ref="#domingos_jose_almeida">Almeida</persName>, e que me foi por ele confiada, 
                     dirigi a inclusa ao <orgName ref="#inspetoria">Inspetor</orgName>, a qual verá com a resposta deste 
                     e a do <orgName ref="#contador">Contador</orgName>, o que por certo motivou não poder fazer lavrar 
                     uma ordem marcando a quantia que por conta do que lhe deve o Estado devia ser descontada; a que deu 

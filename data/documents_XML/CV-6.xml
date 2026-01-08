@@ -1,9 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Petição CV-6 – Procurador de Antônio Francisco dos Santos Abreu ao Tribunal do Tesouro</title>
-                <author>Domingos José de Almeida (procurador)</author>
+                <title>Petição CV-6 – Antônio Francisco dos Santos Abreu ao Tribunal do Tesouro</title>
+                <respStmt>
+                    <resp>Requerente</resp>
+                    <name>
+                        <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Procurador</resp>
+                    <name>
+                        <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    </name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -11,25 +23,34 @@
             </titleStmt>
             
             <editionStmt>
-                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <edition>
+                    Varela Digital – Edição digital revisada da Coleção Varela, vol. II
+                    (Anais do Arquivo Histórico do RS)
+                </edition>
                 <respStmt>
                     <resp>Transcrição, anotação, pesquisa e revisão</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
-                <date when="2025-06-16">17 de junho de 2025</date>
+                <date when="2025-06-17">17 de junho de 2025</date>
             </editionStmt>
             
             <extent>
                 <extent>1 petição</extent>
                 <measure type="pages">2</measure>
-                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
+                <note type="project">
+                    Integra o conjunto CV-1 a CV-558 da Coleção Varela.
+                </note>
             </extent>
             
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <publisher>
+                    Coleção Varela – Anais do Arquivo Histórico do RS, vol. II
+                </publisher>
                 <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
                 </availability>
             </publicationStmt>
             
@@ -41,11 +62,20 @@
             
             <notesStmt>
                 <note type="catalogue">
-                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais.
+                    Porto Alegre, 1978. 23 cm.
+                    (Coleção Varela, v. 2, t. 1).
+                    Publicado pelo Instituto Estadual do Livro DAC/SEC.
                 </note>
-                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note>
+                    Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa:
+                    documentos CV-1 a CV-558.
+                    Ficha catalográfica impressa consultada.
+                </note>
                 <note type="processo">
-                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                    Imagem digitalizada em alta resolução a partir do volume impresso,
+                    OCR realizado em Python, texto convertido e marcado em TEI P5
+                    por Carla Menegat.
                 </note>
             </notesStmt>
             
@@ -79,15 +109,21 @@
         
         <encodingDesc>
             <projectDesc>
-                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+                <p>
+                    O projeto Varela Digital realiza a digitalização, OCR em Python
+                    e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir
+                    das transcrições do volume II dos Anais do Arquivo Histórico do
+                    Rio Grande do Sul. As entidades nomeadas são tratadas por standoff
+                    markup, garantindo interoperabilidade e pesquisa avançada.
+                </p>
             </projectDesc>
         </encodingDesc>
         
         <profileDesc>
             <langUsage>
                 <language ident="pt-BR">Português do Brasil</language>
-                <language ident="pt-BR">Texto editorial, notas, cabeçalhos e descrições produzidos na edição digital.</language>
             </langUsage>
+            
             <handDesc>
                 <handNote xml:id="hand_main" medium="print">
                     Texto conforme edição impressa dos Anais.
@@ -99,11 +135,13 @@
             <list>
                 <item>
                     <date when="2025-06-17">17/06/2025</date>
-                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                    Digitalização, transcrição e revisão inicial do documento
+                    por Carla Menegat.
                 </item>
                 <item>
                     <date when="2025-11-24">24/11/2025</date>
-                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                    Inclusão de notas históricas, metadados catalográficos
+                    e validação da ficha impressa.
                 </item>
             </list>
         </revisionDesc>

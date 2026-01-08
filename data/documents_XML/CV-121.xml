@@ -4,12 +4,19 @@
         <fileDesc>
             <titleStmt>
                 <title>CV-121 — Ofício sobre deserções no corpo do Major Maximiano</title>
-                <author>Serafim Joaquim de Alencastre</author>
+                <author>
+                    <orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName>
+                </author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
                 <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
                 <respStmt>
@@ -18,11 +25,13 @@
                 </respStmt>
                 <date when="2025-07-12">12 de julho de 2025</date>
             </editionStmt>
+            
             <extent>
-                <extent>1 carta</extent>
+                <extent>1 ofício</extent>
                 <measure type="pages">2</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
+            
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
                 <pubPlace>Porto Alegre</pubPlace>
@@ -30,11 +39,13 @@
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            
             <seriesStmt>
                 <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
                 <biblScope type="volume">Vol. II</biblScope>
                 <biblScope type="series">II Série</biblScope>
             </seriesStmt>
+            
             <notesStmt>
                 <note type="catalogue">
                     Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
@@ -44,6 +55,7 @@
                     Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
                 </note>
             </notesStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,7 +70,7 @@
                             <biblScope unit="page" from="106" to="106">106</biblScope>
                             <biblScope unit="page" from="120" to="120">120</biblScope>
                             <note type="editorial">
-                                Devido a um erro de impressão na edição de 1978, esta carta aparece
+                                Devido a um erro de impressão na edição de 1978, este documento aparece
                                 parcialmente na página 106 e tem sua continuação impressa na página 120,
                                 fora da sequência normal de paginação.
                             </note>
@@ -91,27 +103,15 @@
         <profileDesc>
             <langUsage>
                 <language ident="pt-BR">Português do Brasil</language>
-                <language ident="pt-BR">
-                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
-                </language>
             </langUsage>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
-                    <placeName ref="#cacapava">Caçapava</placeName>
-                    <date when="1839-12-14">14 de dezembro de 1839</date>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
-                    <note>Coronel e Comandante da Divisão da Direita.</note>
-                </correspAction>
-            </correspDesc>
+            
             <handDesc>
                 <handNote xml:id="hand_main" medium="print">
                     Texto conforme edição impressa dos Anais.
                 </handNote>
             </handDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -134,7 +134,7 @@
     
     <text>
         <body>
-            <div type="letter" xml:id="cv_121">
+            <div type="officialDocument" xml:id="CV-121">
                 <opener>
                     <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></p>
                 </opener>

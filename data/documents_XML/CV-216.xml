@@ -66,16 +66,16 @@
                     <series>
                         <title>II Série</title>
                     </series>
-                    <relatedItem type="host">
-                        <ref target="#CV-215">CV-215</ref>
-                        <note>Documento anexo.</note>
-                    </relatedItem>
                 </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
                 <ptr target="data/standoff/standoff-relations.xml"/>
+                <relatedItem type="host">
+                    <ref target="#CV-215">CV-215</ref>
+                    <note>Documento anexo.</note>
+                </relatedItem>
             </sourceDesc>
         </fileDesc>
         

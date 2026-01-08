@@ -3151,14 +3151,6 @@
         </relation>
         
         <relation 
-            name="hrao:hasKinship"
-            active="#joaquim_barcelos"
-            passive="#bernardina_barcelos_almeida"
-            mutual="true">
-            <desc>Irmãos</desc>
-        </relation>
-        
-        <relation 
             name="rel:childOf"
             active="#custodia_almeida"
             passive="#domingos_jose_almeida"/>
@@ -3880,5 +3872,300 @@
             passive="#domingos_jose_almeida"
             mutual="true"/>
         
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#florisbelo_dos_santos_pereira"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#sebastiao_medeiros_camara"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#madruga"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#joao_antunes"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#juca_da_costa"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#sampaio"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#antonio_vicente_siqueira_pereira_leitao"
+            passive="#domingos_jose_almeida"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#belem"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#jose_escravo"
+            mutual="true"/>
+        
+        <relation
+            name="dcterms:isPartOf"
+            active="#CV-228"
+            passive="#CV-227"/>
+        
+        <relation
+            name="hrao:compadreOf"
+            active="#domingos_jose_almeida"
+            passive="#joaquim_barcelos"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#varejao"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#granja"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#pedro_lopes"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#jose_joaquim_silva_maia"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#dom_lourenco"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#joao_jose_damasceno"
+            passive="#jose_inacio_cunha"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#jose_inacio_cunha"
+            mutual="true"/>
+        
+        <relation
+            name="hrao:hasKinship"
+            active="#bernardina_barcelos_almeida"
+            passive="#carlota"
+            mutual="true"/>
+        
+        <relation
+            name="rel:parentOf"
+            active="#baltasar_jose_rodrigues_soares"
+            passive="#baltasar_jose_rodrigues_soares_filho"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#joao_nunes_silva"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#joaquim_antunes_fagundes"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#aleixo_goncalves_moreira"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#jeronimo_ribeiro_silva"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#joao_manuel_fernandes"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#americo_pereira_silva"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#joao_pereira_silva"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#simao_jose_silva"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#jose_bernardes_rodrigues_martins"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#antonio_jose_vale"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#joao_batista_barbosa"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#luis_pimenta_sampaio"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#antonio_manuel_rodrigues_carvalho"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#tomas_cardoso_osorio"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#baltasar_jose_rodrigues_soares"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#francisco_jose_vargas"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#joao_batista_vitor"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#albertino_lopes_soares"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#antonio_cardoso_osorio"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#antonio_francisco_pinto_oliveira"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#francisco_jose_araujo"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#francisco_tomas_cunha"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#francisco_vilela_moreira"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#manoel_martins_porto"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#melchior_cardoso_osorio"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#manuel_rodrigues_mendes"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#felicio_soares_silva"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#bernardino_soares_silva"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#guiomar_maria_soares"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#manoel_soares_silva"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="prov:wasAssociatedWith"
+            active="#inacio_jose_mendonca"
+            passive="#subs_boqueirao_1837"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#catraio"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#militao"
+            mutual="true"/>
+        
+        <relation
+            name="dcterms:isPartOf"
+            active="#CV-8"
+            passive="#CV-6"/>
+        
+        <relation
+            name="dcterms:isPartOf"
+            active="#CV-9"
+            passive="#CV-6"/>
     </standOff>
 </TEI>

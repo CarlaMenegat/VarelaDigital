@@ -185,66 +185,269 @@
             
             <div type="account" xml:id="CV-198b" place="1v">
                 
-                                                                                                                                                                    <p>10:867$023</p>
+                <!-- valor no topo do fólio / página (como impresso) -->
+                <fw type="sum" place="top">
+                    <measure unit="BRL-réis" quantity="10867023">10:867$023</measure>
+                </fw>
                 
-                <p>
-                    (*)
-                    8 Cobertores a <persName ref="#jose_marques_cunha">José Marques da Cunha</persName> ..................8$000,                    64$000<br/>
-                    9 Cobertores a <persName ref="#manuel_domigues_moreira">Manuel Domingues Moreira</persName> ..........4$800,                    43$200<br/>
-                    20 Cobertores a <persName ref="#isidoro_filipe_duarte">Isidoro Filipe Duarte</persName> ..............9$000,                   180$000<br/>
-                    14 Cobertores <persName ref="#isidoro_filipe_duarte">dito dito</persName> ............................7$500,                   285$000<br/>
-                    8 Cobertores a <persName ref="#antonio_inacio_santos">Antônio Inácio dos Santos</persName> ...........6$400,                    51$200<br/>
-                    28 Cobertores a <persName ref="#antonio_lima_pinto">Antônio de Lima e Pinto</persName> ...............6$400,                   179$200<br/>
-                    103 côvados de pano a <persName ref="#joao_batista_silva">João Batista da Silva</persName> ...........4$200,                   432$600<br/>
-                    4 Cobertores a <persName ref="#jose_francisco_guimaraes">José Francisco Guimarães</persName> .........8$500,                    34$000         1:269$200<br/>
-                                                                                                                                                _______________
-                    348 côvados e 1/4 de pano a 
-                        <persName ref="#jose_joaquim_leite_guimaraes">José Joaquim Leite Guimarães</persName> .............                      1:297$333<br/>
-                    190 3/4 côvados de dito e 140 cobertores a 
-                    <persName ref="#nelson_aveline">Nelson Aveline</persName> .............................................                      2:037$450<br/>
-                    19 cobertores e 24 peças de barreganas a 
-                        <persName ref="#eulalio_antonio_muniz">Eulálio Antônio Muniz</persName> ...........................                      1:728$400<br/>
-                    A <persName ref="#joaquim_jose_mendes_ribeiro">Joaquim José Mendes Ribeiro</persName>, 
-                        sua conta .........................................................................................                      1:158$930<br/>
-                    A <persName ref="#leite_rocha">Leite e Rocha</persName> ...............................................                        178$560<br/>
-                    A <persName ref="#jose_joaquim_leite_guimaraes">José Joaquim Leite Guimarães</persName> ...............                        221$500<br/>
-                        12 côvados de pelúcia ........................................................................... 22$880,                   34$560<br/>
-                    A <persName ref="#manuel_joaquim_paula">Manuel Joaquim de Paula</persName> 
-                        como de sua conta.................................................................................                         502$720<br/>
-                    A <persName ref="#jorge_taylor">Jorge Taylor</persName> ..............................................                         327$950.         7:477$403<br/>
-                                                                                                                                                _______________                   
-                    A <persName ref="#jose_ribeiro_pinto_costa">José Ribeiro Pinto Costa</persName> ......................                         408$480<br/>
-                    <persName ref="#antonio_maria_sousa">Antônio Maria de Sousa</persName> ...............................                         618$160<br/>
-                    <persName ref="#joao_pedro_costa_freire">João Pedro da Costa Freire</persName> .......................                         626$580<br/>
-                    <persName ref="#antonio_rodrigues_filho">Antônio Rodrigues Filho</persName> ..........................                         637$200           2:290$420<br/>
-                </p>
+                <!-- =========================
+                     BLOCO 1 (itens + subtotal)
+                     ========================= -->
+                <note type="editorial" n="*">(*)</note>
                 
-                                                                                                                                                    <p>$.             10:544$303</p>
-                <p>
-                    Carretas ......................................<br/>
-                                                87<br/>
-                                                 4<br/>
-                    1:089.200                  140                       186.480<br/>
-                          180                   19                       272.370<br/>
-                    _________                 _____                       18.000<br/>
-                    1:269.200                  250                       178.000<br/>
-                                                                         221.500<br/>
-                                                                        ________<br/>
-                                                                         876.430<br/>
+                <list type="account">
                     
-                    (*)contas das erncomendas das pessoas abaixo declaradas para o SR. <persName ref="">João Gonçalves da silva</persName>
+                    <item>
+                        <measure type="qty" unit="unit" quantity="8">8</measure>
+                        <seg>Cobertores</seg>
+                        <seg>a</seg>
+                        <persName ref="#jose_marques_cunha">José Marques da Cunha</persName>
+                        <measure type="unitPrice" unit="BRL-réis" quantity="8000">8$000</measure>
+                        <measure type="lineTotal" unit="BRL-réis" quantity="64000">64$000</measure>
+                    </item>
                     
+                    <item>
+                        <measure type="qty" unit="unit" quantity="9">9</measure>
+                        <seg>Cobertores</seg>
+                        <seg>a</seg>
+                        <persName ref="#manuel_domigues_moreira">Manuel Domingues Moreira</persName>
+                        <measure type="unitPrice" unit="BRL-réis" quantity="4800">4$800</measure>
+                        <measure type="lineTotal" unit="BRL-réis" quantity="43200">43$200</measure>
+                    </item>
                     
-                                                                                56:880<br/>
-                                                                                    38<br/>
-                                                                                ___________
+                    <item>
+                        <measure type="qty" unit="unit" quantity="20">20</measure>
+                        <seg>Cobertores</seg>
+                        <seg>a</seg>
+                        <persName ref="#isidoro_filipe_duarte">Isidoro Filipe Duarte</persName>
+                        <measure type="unitPrice" unit="BRL-réis" quantity="9000">9$000</measure>
+                        <measure type="lineTotal" unit="BRL-réis" quantity="180000">180$000</measure>
+                    </item>
+                    
+                    <item>
+                        <measure type="qty" unit="unit" quantity="14">14</measure>
+                        <seg>Cobertores</seg>
+                        <persName ref="#isidoro_filipe_duarte">dito dito</persName>
+                        <measure type="unitPrice" unit="BRL-réis" quantity="7500">7$500</measure>
+                        <measure type="lineTotal" unit="BRL-réis" quantity="285000">285$000</measure>
+                    </item>
+                    
+                    <item>
+                        <measure type="qty" unit="unit" quantity="8">8</measure>
+                        <seg>Cobertores</seg>
+                        <seg>a</seg>
+                        <persName ref="#antonio_inacio_santos">Antônio Inácio dos Santos</persName>
+                        <measure type="unitPrice" unit="BRL-réis" quantity="6400">6$400</measure>
+                        <measure type="lineTotal" unit="BRL-réis" quantity="51200">51$200</measure>
+                    </item>
+                    
+                    <item>
+                        <measure type="qty" unit="unit" quantity="28">28</measure>
+                        <seg>Cobertores</seg>
+                        <seg>a</seg>
+                        <persName ref="#antonio_lima_pinto">Antônio de Lima e Pinto</persName>
+                        <measure type="unitPrice" unit="BRL-réis" quantity="6400">6$400</measure>
+                        <measure type="lineTotal" unit="BRL-réis" quantity="179200">179$200</measure>
+                    </item>
+                    
+                    <item>
+                        <measure type="qty" unit="covado" quantity="103">103</measure>
+                        <seg>côvados de pano</seg>
+                        <seg>a</seg>
+                        <persName ref="#joao_batista_silva">João Batista da Silva</persName>
+                        <measure type="unitPrice" unit="BRL-réis" quantity="4200">4$200</measure>
+                        <measure type="lineTotal" unit="BRL-réis" quantity="432600">432$600</measure>
+                    </item>
+                    
+                    <item>
+                        <measure type="qty" unit="unit" quantity="4">4</measure>
+                        <seg>Cobertores</seg>
+                        <seg>a</seg>
+                        <persName ref="#jose_francisco_guimaraes">José Francisco Guimarães</persName>
+                        <measure type="unitPrice" unit="BRL-réis" quantity="8500">8$500</measure>
+                        <measure type="lineTotal" unit="BRL-réis" quantity="34000">34$000</measure>
+                    </item>
+                    
+                </list>
                 
-                    2 arrobas de açúcar .........12$800               25$600    18:880<br/>
-                    1 saco para o mesmo ........ $
-                </p>
+                <ab type="subtotal">
+                    <measure unit="BRL-réis" quantity="1269200">1:269$200</measure>
+                </ab>
+                
+                <!-- =========================
+                     BLOCO 2 (totais por pessoa)
+                     ========================= -->
+                <list type="account">
+                    
+                    <item>
+                        <measure type="qty" unit="covado" quantity="348.25">348</measure>
+                        <seg>côvados e</seg>
+                        <seg>1/4</seg>
+                        <seg>de pano a</seg>
+                        <persName ref="#jose_joaquim_leite_guimaraes">José Joaquim Leite Guimarães</persName>
+                        <measure type="lineTotal" unit="BRL-réis" quantity="1297333">1:297$333</measure>
+                    </item>
+                    
+                    <item>
+                        <measure type="qty" unit="covado" quantity="190.75">190</measure>
+                        <seg>3/4</seg>
+                        <seg>côvados de dito e</seg>
+                        <measure type="qty" unit="unit" quantity="140">140</measure>
+                        <seg>cobertores a</seg>
+                        <persName ref="#nelson_aveline">Nelson Aveline</persName>
+                        <measure type="lineTotal" unit="BRL-réis" quantity="2037450">2:037$450</measure>
+                    </item>
+                    
+                    <item>
+                        <measure type="qty" unit="unit" quantity="19">19</measure>
+                        <seg>cobertores e</seg>
+                        <measure type="qty" unit="unit" quantity="24">24</measure>
+                        <seg>peças de barreganas a</seg>
+                        <persName ref="#eulalio_antonio_muniz">Eulálio Antônio Muniz</persName>
+                        <measure type="lineTotal" unit="BRL-réis" quantity="1728400">1:728$400</measure>
+                    </item>
+                    
+                    <item>
+                        <seg>A</seg>
+                        <persName ref="#joaquim_jose_mendes_ribeiro">Joaquim José Mendes Ribeiro</persName>
+                        <seg>, sua conta</seg>
+                        <measure type="lineTotal" unit="BRL-réis" quantity="1158930">1:158$930</measure>
+                    </item>
+                    
+                    <item>
+                        <seg>A</seg>
+                        <persName ref="#leite_rocha">Leite e Rocha</persName>
+                        <measure type="lineTotal" unit="BRL-réis" quantity="178560">178$560</measure>
+                    </item>
+                    
+                    <item>
+                        <seg>A</seg>
+                        <persName ref="#jose_joaquim_leite_guimaraes">José Joaquim Leite Guimarães</persName>
+                        <measure type="lineTotal" unit="BRL-réis" quantity="221500">221$500</measure>
+                    </item>
+                    
+                    <item>
+                        <measure type="qty" unit="covado" quantity="12">12</measure>
+                        <seg>côvados de pelúcia</seg>
+                        <measure type="unitPrice" unit="BRL-réis" quantity="2880">2$880</measure>
+                        <measure type="lineTotal" unit="BRL-réis" quantity="34560">34$560</measure>
+                    </item>
+                    
+                    <item>
+                        <seg>A</seg>
+                        <persName ref="#manuel_joaquim_paula">Manuel Joaquim de Paula</persName>
+                        <seg>como de sua conta</seg>
+                        <measure type="lineTotal" unit="BRL-réis" quantity="502720">502$720</measure>
+                    </item>
+                    
+                    <item>
+                        <seg>A</seg>
+                        <persName ref="#jorge_taylor">Jorge Taylor</persName>
+                        <measure type="lineTotal" unit="BRL-réis" quantity="327950">327$950</measure>
+                    </item>
+                    
+                </list>
+                
+                <ab type="subtotal">
+                    <measure unit="BRL-réis" quantity="7477403">7:477$403</measure>
+                </ab>
+                
+                <!-- =========================
+                     BLOCO 3 (totais finais por pessoa)
+                     ========================= -->
+                <list type="account">
+                    
+                    <item>
+                        <seg>A</seg>
+                        <persName ref="#jose_ribeiro_pinto_costa">José Ribeiro Pinto Costa</persName>
+                        <measure type="lineTotal" unit="BRL-réis" quantity="408480">408$480</measure>
+                    </item>
+                    
+                    <item>
+                        <persName ref="#antonio_maria_sousa">Antônio Maria de Sousa</persName>
+                        <measure type="lineTotal" unit="BRL-réis" quantity="618160">618$160</measure>
+                    </item>
+                    
+                    <item>
+                        <persName ref="#joao_pedro_costa_freire">João Pedro da Costa Freire</persName>
+                        <measure type="lineTotal" unit="BRL-réis" quantity="626580">626$580</measure>
+                    </item>
+                    
+                    <item>
+                        <persName ref="#antonio_rodrigues_filho">Antônio Rodrigues Filho</persName>
+                        <measure type="lineTotal" unit="BRL-réis" quantity="637200">637$200</measure>
+                    </item>
+                    
+                </list>
+                
+                <ab type="subtotal">
+                    <measure unit="BRL-réis" quantity="2290420">2:290$420</measure>
+                </ab>
+                
+                <!-- linha como impresso: "$. 10:544$303" -->
+                <fw type="sum" place="margin">
+                    <seg>$. </seg>
+                    <measure unit="BRL-réis" quantity="10544303">10:544$303</measure>
+                </fw>
+                
+                <!-- =========================
+                     BLOCO 4 (cálculos “Carretas”)
+                     ========================= -->
+                <ab type="calculation">
+                    <seg>Carretas</seg><lb/>
+                    <num value="87">87</num><lb/>
+                    <num value="4">4</num><lb/>
+                    
+                    <measure unit="BRL-réis" quantity="1089200">1:089.200</measure>
+                    <num value="140">140</num>
+                    <measure unit="BRL-réis" quantity="186480">186.480</measure><lb/>
+                    
+                    <measure unit="BRL-réis" quantity="180000">180</measure>
+                    <num value="19">19</num>
+                    <measure unit="BRL-réis" quantity="272370">272.370</measure><lb/>
+                    
+                    <seg>_________</seg>
+                    <seg>_____</seg>
+                    <measure unit="BRL-réis" quantity="18000">18.000</measure><lb/>
+                    
+                    <measure unit="BRL-réis" quantity="1269200">1:269.200</measure>
+                    <num value="250">250</num>
+                    <measure unit="BRL-réis" quantity="178000">178.000</measure><lb/>
+                    
+                    <measure unit="BRL-réis" quantity="221500">221.500</measure><lb/>
+                    <seg>________</seg><lb/>
+                    <measure unit="BRL-réis" quantity="876430">876.430</measure>
+                </ab>
+                
+                <!-- =========================
+                     BLOCO 5 (encomendas – nota e itens finais)
+                     ========================= -->
+                <note type="editorial" n="*">
+                    (*) Contas das encomendas das pessoas abaixo declaradas para o
+                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                    <persName ref="#joao_goncalves_silva">João Gonçalves da Silva</persName>.
+                </note>
+                
+                <ab type="calculation">
+                    <measure unit="BRL-réis" quantity="56880">56:880</measure><lb/>
+                    <num value="38">38</num><lb/>
+                    <seg>_____</seg><lb/>
+                    
+                    <measure type="qty" unit="arroba" quantity="2">2</measure>
+                    <seg>arrobas de açúcar</seg>
+                    <measure type="unitPrice" unit="BRL-réis" quantity="12800">12$800</measure>
+                    <measure type="lineTotal" unit="BRL-réis" quantity="25600">25$600</measure>
+                    <measure unit="BRL-réis" quantity="18880">18:880</measure><lb/>
+                    
+                    <measure type="qty" unit="sack" quantity="1">1</measure>
+                    <seg>saco para o mesmo</seg>
+                    <measure type="lineTotal" unit="BRL-réis">
+                        <gap reason="omitted" extent="1" unit="value"/>
+                        <seg>$</seg>
+                    </measure>
+                </ab>
                 
             </div>
-            
         </body>
     </text>
 </TEI>

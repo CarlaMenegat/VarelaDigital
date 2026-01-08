@@ -31,5 +31,18 @@
             </location>
             <note>Levantamento político-militar de caráter liberal ocorrido em 1842, tendo lideranças civis e militares em São Paulo e Minas Gerais. Foi reprimido pelo governo imperial, resultando na prisão de diversas figuras do Partido Liberal.</note>
         </event>
+        
+        <event xml:id="subs_boqueirao_1837" type="financialSubscription">
+            <label>Subscrição do Boqueirão</label>
+            <desc>
+                Subscrição coletiva realizada por moradores do distrito do Boqueirão,
+                destinada a financiar a luta da independência durante a Revolução Farroupilha.
+                As contribuições foram organizadas por ações mensais a partir de
+                1.º de outubro de 1837.
+            </desc>
+            <date when="1837-10-01"/>
+            <placeName ref="#boqueirao"/>
+            <affiliation ref="#republica_rio_grandense"/>
+        </event>
     </listEvent>
 </standOff>

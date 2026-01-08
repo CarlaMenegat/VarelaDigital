@@ -1,122 +1,228 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
-        
         <fileDesc>
             <titleStmt>
                 <title>Ofício CV-238 – Domingos José de Almeida</title>
                 <author>Domingos José de Almeida</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
-            
+            <editionStmt>
+                <edition>
+                    Varela Digital – Edição digital revisada da Coleção Varela, vol. II
+                    (Anais do Arquivo Histórico do RS)
+                </edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-09-15">15 de setembro de 2025</date>
+            </editionStmt>
+            <extent>
+                <extent>1 ofício</extent>
+                <measure type="pages">2</measure>
+                <note type="project">
+                    Integra o conjunto CV-1 a CV-558 da Coleção Varela.
+                </note>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <publisher>
+                    Coleção Varela – Anais do Arquivo Histórico do RS, vol. II
+                </publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
                 </availability>
             </publicationStmt>
-            
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais.
+                    Porto Alegre, 1978. 23 cm.
+                    (Coleção Varela, v. 2, t. 1).
+                    Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>
+                    Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa:
+                    documentos CV-1 a CV-558.
+                    Ficha catalográfica impressa consultada.
+                </note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso;
+                    OCR realizado em Python; texto convertido e marcado em TEI P5
+                    por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>
-                    Anais do Arquivo Histórico do Rio Grande do Sul, vol. III (1941).
-                    <ptr target="data/standoff/standoff-persons.xml"/>
-                    <ptr target="data/standoff/standoff-places.xml"/>
-                    <ptr target="data/standoff/standoff-events.xml"/>
-                    <ptr target="data/standoff/standoff-orgs.xml"/>
-                </bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <biblScope unit="page" from="204" to="205">204–205</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
-        
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    O projeto Varela Digital realiza a digitalização, OCR em Python
+                    e marcação XML/TEI P5 dos documentos da Coleção Varela,
+                    a partir das transcrições do volume II dos Anais do Arquivo
+                    Histórico do Rio Grande do Sul. As entidades nomeadas são
+                    tratadas por standoff markup, garantindo interoperabilidade
+                    e pesquisa avançada.
+                </p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
         <profileDesc>
-            <correspDesc>
-                
-                <correspAction type="sent">
-                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
-                    <orgName ref="#secretaria_fazenda">Secretaria de Estado dos Negócios da Fazenda</orgName>
-                    <placeName ref="#piratini">Piratini</placeName>
-                    <date when="1838-04-05">5 de abril de 1838</date>
-                </correspAction>
-                
-                <!-- O destinatário (“<choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>”) não é identificável → não marcar -->
-                <correspAction type="received">
-                    <persName><choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice></persName>
-                </correspAction>
-                
-            </correspDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+            </langUsage>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais do Arquivo Histórico
+                    do Rio Grande do Sul.
+                </handNote>
+                <handNote xml:id="hand_guimaraes" medium="manuscript">
+                    Letra atribuída a Inácio José de Oliveira Guimarães,
+                    conforme nota de endosso do documento original.
+                </handNote>
+            </handDesc>
         </profileDesc>
-        
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-09-15">15/09/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento
+                    por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2026-01-08">08/01/2026</date>
+                    Inclusão de notas históricas, metadados catalográficos
+                    e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     
     
     <text>
         <body>
-            
-            <div type="officialDocument" xml:id="CV-238">
+            <div type="office" xml:id="CV-238">
                 
-                <dateline>
-                    <orgName ref="#secretaria_fazenda">Secretaria de Estado dos Negócios da Fazenda</orgName>,
-                    <placeName ref="#piratini">Piratini</placeName>,
-                    <date when="1838-04-05">5 de abril de 1838</date>.
-                </dateline>
+                <opener>
+                    <dateline>
+                        <orgName ref="#secretaria_fazenda">Secretaria de Estado dos Negócios da Fazenda</orgName>,
+                        <placeName ref="#piratini">Piratini</placeName>,
+                        <date when="1838-04-05">5 de abril de 1838</date>.
+                    </dateline>
+                </opener>
                 
                 <p>
-                    Devendo se pôr em efetivo andamento quanto dispõem os decretos de 
-                    <date when="1836-11-11">11 de novembro de 1836</date> e 
-                    <date when="1837-04-05">5 de abril de 1837</date>, não só para pôr em arrecadação os bens 
-                    abandonados pelo inimigo, que por uma inconcebível apatia ou criminosa 
-                    indolência se têm deixado à mão destruidora do tempo e de homens imorais, 
-                    que nos excessos de mal entendido patriotismo derrocam capitais que fadigas 
-                    imensas e louváveis economias hão acumulado; mas ainda para segurar ao 
-                    Estado o produto desses bens, ou aos inocentes filhos do país, que pelos feitos 
-                    de seus pais não devem ser privados das solicitudes de uma nação que 
-                    reconhece os princípios de justiça e sobre eles baseia sua conduta, e 
-                    outrossim para que tais produtos convenientemente aplicados sejam para 
+                    Devendo se pôr em efetivo andamento quanto dispõem os decretos de
+                    <date when="1836-11-11">11 de novembro de 1836</date> e
+                    <date when="1837-04-05">5 de abril de 1837</date>, não só para pôr em arrecadação os bens
+                    abandonados pelo inimigo, que por uma inconcebível apatia ou criminosa
+                    indolência se têm deixado à mão destruidora do tempo e de homens imorais,
+                    que nos excessos de mal entendido patriotismo derrocam capitais que fadigas
+                    imensas e louváveis economias hão acumulado; mas ainda para segurar ao
+                    Estado o produto desses bens, ou aos inocentes filhos do país, que pelos feitos
+                    de seus pais não devem ser privados das solicitudes de uma nação que
+                    reconhece os princípios de justiça e sobre eles baseia sua conduta, e
+                    outrossim para que tais produtos convenientemente aplicados sejam para
                     minorar as privações dos cidadãos que se acham em armas, e de suas famílias,
-                    determina o governo que <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> sem perda de tempo remeta a esta Secretaria 
-                    de Estado uma relação de todas as propriedades que no distrito de sua 
-                    jurisdição se acharem incursas nas disposições dos decretos citados, 
+                    determina o governo que <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> sem perda de tempo remeta a esta Secretaria
+                    de Estado uma relação de todas as propriedades que no distrito de sua
+                    jurisdição se acharem incursas nas disposições dos decretos citados,
                     declarando:
                 </p>
                 
-                <p>
-                    1.º — quais os proprietários, se estes bandeando-se ao inimigo nos fizeram 
-                    guerra, ou se quando ela ateou-se em janeiro de 1836 se achavam já em ponto 
-                    ocupado e sem meios de evadirem-se;<br/>
-                    2.º — se são casados e têm filhos, e se estes existem nas administrações das 
-                    casas, ou no Exército;<br/>
-                    3.º — que porção de campo pouco mais ou menos forma cada uma das 
-                    propriedades, que prédios ou fábricas nelas existem, e aproximadamente que 
-                    número de animais vacuns, cavalares e ovelhuns; quantos escravos, seus 
-                    sexos, idades e ofícios;<br/>
-                    4.º — finalmente, o valor estimativo de ditas propriedades, seus móveis e 
-                    utensílios.
-                </p>
+                <list type="ordered">
+                    <item>
+                        <label>1.º</label>
+                        quais os proprietários, se estes bandeando-se ao inimigo nos fizeram
+                        guerra, ou se quando ela ateou-se em janeiro de 1836 se achavam já em ponto
+                        ocupado e sem meios de evadirem-se;
+                    </item>
+                    <item>
+                        <label>2.º</label>
+                        se são casados e têm filhos, e se estes existem nas administrações das
+                        casas, ou no Exército;
+                    </item>
+                    <item>
+                        <label>3.º</label>
+                        que porção de campo pouco mais ou menos forma cada uma das
+                        propriedades, que prédios ou fábricas nelas existem, e aproximadamente que
+                        número de animais vacuns, cavalares e ovelhuns; quantos escravos, seus
+                        sexos, idades e ofícios;
+                    </item>
+                    <item>
+                        <label>4.º</label>
+                        finalmente, o valor estimativo de ditas propriedades, seus móveis e
+                        utensílios.
+                    </item>
+                </list>
                 
                 <p>
-                    Iguais relações se exigem dos próprios nacionais. O governo recomenda ao seu 
-                    patriotismo o pronto andamento desta ordem, removendo de pronto qualquer 
-                    obstáculo que a ela se oponha, podendo para levar a efeito tão importante 
-                    serviço chamar em seu auxílio as pessoas de probidade e aptidão que julgar 
+                    Iguais relações se exigem dos próprios nacionais. O governo recomenda ao seu
+                    patriotismo o pronto andamento desta ordem, removendo de pronto qualquer
+                    obstáculo que a ela se oponha, podendo para levar a efeito tão importante
+                    serviço chamar em seu auxílio as pessoas de probidade e aptidão que julgar
                     necessárias, não desfalcando contudo praças do exército.
                 </p>
                 
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
-                    <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                    <signed>
+                        <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                    </signed>
                 </closer>
                 
-                <note type="endorsement">
+                <note type="endorsement" place="verso">
                     Ofício de <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>,
-                    <date when="1838-04-05">5 de abril</date>, recebido em 
-                    <date when="1838-05-01">1.º de maio</date>.<br/>
+                    <date when="1838-04-05">5 de abril</date>, recebido em
+                    <date when="1838-05-01">1.º de maio</date>.<lb/>
                     (Letra de Inácio José de Oliveira Guimarães)
                 </note>
                 
             </div>
-            
         </body>
     </text>
-    
 </TEI>

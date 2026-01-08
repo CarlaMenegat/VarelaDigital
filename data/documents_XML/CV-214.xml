@@ -66,15 +66,15 @@
                     <series>
                         <title>II Série</title>
                     </series>
-                    <relatedItem type="replyTo">
-                        <ref target="#CV-212">CV-212</ref>
-                    </relatedItem>
                 </biblStruct>
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
                 <ptr target="data/standoff/standoff-orgs.xml"/>
                 <ptr target="data/standoff/standoff-relations.xml"/>
+                <relatedItem type="replyTo">
+                    <ref target="#CV-212">CV-212</ref>
+                </relatedItem>
             </sourceDesc>
         </fileDesc>
         

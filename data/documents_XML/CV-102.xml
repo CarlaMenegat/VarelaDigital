@@ -90,6 +90,16 @@
                     <label>Ferramenta de OCR utilizada na transcrição</label>
                 </application>
             </appInfo>
+            <charDecl>
+                <char xml:id="masonic_three_points">
+                    <charName>Three masonic points</charName>
+                    <charProp>
+                        <localName>unicode</localName>
+                        <value>U+2234</value>
+                    </charProp>
+                    <desc>Sinal maçônico dos três pontos (∴), usado como marca simbólica e abreviativa.</desc>
+                </char>
+            </charDecl>
         </encodingDesc>
         
         <profileDesc>
@@ -162,7 +172,7 @@
                 <p>Remeto-lhe a cópia do requerimento que fiz à Comissão em <placeName ref="#porto_alegre">Porto Alegre</placeName>, 
                     Comissão que me parece não teve andamento pelas desordens de <placeName ref="#rio_pardo">Rio Pardo</placeName>; e vos 
                     mando para dela se extrair o que for necessário para o requerimento na Corte, devendo advertir-vos que o Capitão <persName ref="#jose_inacio_ourives">José Inácio</persName>, 
-                    por antonomasia o Juca Ourives, não tem a metade dos meus serviços e tem 400$000 rs. de pensão 
+                    por antonomasia o Juca Ourives, não tem a metade dos meus serviços e tem <measure type="currency" unit="BRL-réis" quantity="40000">400$000 rs.</measure> de pensão 
                     <pb n="1v"/>
                     <seg type="folio">[1v.]</seg>
                     anual, porque teve 
@@ -187,8 +197,13 @@
                     nossa amizade e necessidade minha.</p>
                 
                 <closer>
-                    <salute>Vossa prosperidade muito ambiciona quem é e será sempre vosso sincero e obrigado <choice><abbr>Ir∴</abbr><expan>Irmão</expan></choice> e amigo :</salute>
-                    <signed>
+                    <salute>Vossa prosperidade muito ambiciona quem é e será sempre vosso sincero e obrigado <choice>
+                                                                                                                <abbr>Ir<g ref="#masonic_three_points">∴</g></abbr>
+                                                                                                                <expan>Irmão</expan>
+                                                                                                            </choice>
+                                                                                                            e amigo
+                                                                                                        </salute>
+                        <signed>
                         <persName type="pseudonym" subtype="masonic" ref="#melo">Teseu</persName>
                     </signed>
                 </closer>

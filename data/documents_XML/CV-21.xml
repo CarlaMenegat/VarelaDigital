@@ -167,14 +167,36 @@
                 
                 <note type="endorsement" place="3v">
                     À Contadoria. Lemos.
-                    Verificado o documento junto na quantia de 5:326$500 rs.:
-                    <list>
-                        <item>197 novilhos — 4$500 = 886$500</item>
-                        <item>247 vacas — 3$200 = 796$800</item>
-                        <item>3036 reses de criar — 1$200 = 3:643$200</item>
+                    Verificado o documento junto na quantia de 
+                    <measure type="currency" unit="BRL-réis" quantity="5326500">5:326$500</measure> rs.:
+                    
+                    <list type="account">
+                        <item>
+                            <measure unit="head" quantity="197">197</measure> novilhos —
+                            <measure type="currency" unit="BRL-réis" quantity="4500">4$500</measure> =
+                            <measure type="currency" unit="BRL-réis" quantity="886500">886$500</measure>
+                        </item>
+                        <item>
+                            <measure unit="head" quantity="247">247</measure> vacas —
+                            <measure type="currency" unit="BRL-réis" quantity="3200">3$200</measure> =
+                            <measure type="currency" unit="BRL-réis" quantity="796800">796$800</measure>
+                        </item>
+                        <item>
+                            <measure unit="head" quantity="3036">3036</measure> reses de criar —
+                            <measure type="currency" unit="BRL-réis" quantity="1200">1$200</measure> =
+                            <measure type="currency" unit="BRL-réis" quantity="3643200">3:643$200</measure>
+                        </item>
                     </list>
-                    <dateline>Contadoria Geral do Tesouro em<placeName ref="#bage">Bagé</placeName>, <date when="1842-01-25">25 de janeiro de 1842</date>.</dateline>
-                    <persName ref="#viana_contador">Contador interino Viana</persName>
+                    
+                    <dateline>
+                        Contadoria Geral do Tesouro em
+                        <placeName ref="#bage">Bagé</placeName>,
+                        <date when="1842-01-25">25 de janeiro de 1842</date>.
+                    </dateline>
+                    
+                    <signed>
+                        <persName ref="#viana_contador">Contador interino Viana</persName>
+                    </signed>
                 </note>
                 
                 <note type="endorsement" place="">
