@@ -2028,88 +2028,155 @@
             </note>
         </person>
         
-        <person xml:id="carlota">
-            <persName>Carlota</persName>
-            <note>Comadre de Bernardina, mencionada nominalmente.</note>
-        </person>
-        
         <person xml:id="manuel_campis">
             <persName>Manuel Campis</persName>
-            <note>Indivíduo mencionado diretamente na carta.</note>
+            <idno type="project"/>
+            <note>
+                Indivíduo mencionado em carta de <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                a <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>,
+                em contexto de saudações familiares e de convivência social, ao lado de
+                <persName ref="#jose_rodrigues_chaves">José Rodrigues Chaves</persName> e
+                <persName ref="#carlota">Carlota</persName>. Identificação incompleta.
+            </note>
         </person>
         
         <person xml:id="luis_rossetti">
             <persName>Luís Rossetti</persName>
-            <note>Redator do jornal oficial criado pelo Governo Farroupilha, "O Povo".</note>
+            <persName type="full">Luigi Rossetti</persName>
+            <idno type="viaf">https://viaf.org/en/viaf/73112992</idno>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10320514</idno>
+            <birth when="1800-05-11">
+                <placeName ref="#genova">Gênova</placeName>
+            </birth>
+            <death when="1840-11-24">
+                <placeName ref="#viamao">Viamão</placeName>
+            </death>
+            <state type="roleInTime" xml:id="rossetti_jornalista">
+                <roleName>Jornalista</roleName>
+                <note>Atuou como redator e editor de periódicos políticos de orientação republicana.</note>
+            </state>
+            <state type="roleInTime" xml:id="rossetti_editor_opovo">
+                <roleName>Redator e editor</roleName>
+                <affiliation ref="#jornal_o_povo"/>
+                <date from="1838" to="1839"/>
+                <note>
+                    Editor do jornal <hi rend="italic">O Povo</hi>, órgão oficial da República Rio-Grandense,
+                    impresso com tipografia adquirida em Montevidéu.
+                </note>
+            </state>
+            <state type="roleInTime" xml:id="rossetti_carbonario">
+                <roleName>Carbonário</roleName>
+                <affiliation ref="#carbonaria"/>
+                <note>
+                    Vinculado à rede internacional republicana associada à Giovine Italia,
+                    liderada por Giuseppe Mazzini.
+                </note>
+            </state>
+            <state type="roleInTime" xml:id="rossetti_secretario_juliana">
+                <roleName>Secretário de Estado</roleName>
+                <affiliation ref="#republica_juliana"/>
+                <date when="1839"/>
+                <note>
+                    Nomeado secretário da República Juliana após a Tomada de Laguna.
+                </note>
+            </state>
+            <state type="roleInTime" xml:id="rossetti_capitao_farroupilha">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+                <note>
+                    Morreu em combate durante a ofensiva imperial sobre Viamão,
+                    no episódio conhecido como Combate do Passo do Vigário (1840).
+                </note>
+            </state>
+            <note>
+                Jornalista e intelectual italiano, natural de Gênova, exilado político e militante
+                republicano ligado à Carbonária e à Giovine Italia. Chegou à América do Sul em 1827,
+                estabelecendo-se no Brasil e no Uruguai. Atuou como figura central na propaganda
+                republicana da Revolução Farroupilha, colaborando estreitamente com líderes como
+                Domingos José de Almeida e Giuseppe Garibaldi. Foi responsável pela implantação
+                da tipografia e pela edição do jornal oficial da República Rio-Grandense,
+                <hi rend="italic">O Povo</hi>.
+            </note>
         </person>
         
-        <person xml:id="joao_santos_quiminda">
-            <persName>João dos Santos Quimindá</persName>
-            <note>Indivíduo mencionado como reclamante da posse da escrava.</note>
-        </person>
-        
-        <person xml:id="araujo">
-            <persName>Araújo</persName>
-            <note>Proprietário ausente da escrava mencionada em carta.</note>
-        </person>
-        
-        <person xml:id="serafim_dos_anjos_franca">
-            <persName>Serafim dos Anjos França</persName>
-            <note>Inspetor Geral do Tesouro da República Rio-Grandense.</note>
-        </person>
-        
-        <person xml:id="antonio_francisco_reis">
-            <persName>Antônio Francisco dos Reis</persName>
-            <note>Escriturário que certifica a conformidade do documento.</note>
-        </person>
-        
-        <person xml:id="v_s_cunha_filho">
-            <persName>V. S. da Cunha Filho</persName>
-            <note>Revisor que certifica a conformidade do documento.</note>
+        <person xml:id="antonia_gonçalves_silva">
+            <persName>Antônia Gonçalves da Silva</persName>
+            <idno type="project"/>
+            <persName type="short">D. Antônia</persName>
+            <note>Proprietária de armazéns na Barra de Camaquã, mencionada como ponto de possível guarda dos “efeitos apresados”.</note>
         </person>
         
         <person xml:id="manuel_silva_pacheco">
             <persName>Manuel da Silva Pacheco</persName>
-            <note>Juiz de Paz de São João.</note>
+            <idno type="project"/>
+            <note>Mencionado como Juiz de Paz de <placeName ref="#sao_joao">São João</placeName>, responsável por informar sobre a existência dos efeitos apresados.</note>
         </person>
         
         <person xml:id="francisco_antonio_machado">
             <persName>Francisco Antônio Machado</persName>
-            <note>Cidadão encarregado do transporte dos efeitos apresados.</note>
+            <idno type="project"/>
+            <note>Indicado como responsável por partir “com carretas” para conduzir os efeitos apresados.</note>
         </person>
         
-        <person xml:id="antonia_gonçalves_silva">
-            <persName>D. Antônia</persName>
-            <note>Irmã de Bento Gonçalves. Proprietária de armazéns na Barra de Camaquã.</note>
+        <person xml:id="joao_santos_quiminda">
+            <persName>João dos Santos Quimindá</persName>
+            <idno type="project"/>
+            <note>
+                Indivíduo mencionado como reclamante da posse e do serviço de uma mulher escravizada,
+                que lhe fora cedida em Pelotas pelo general João Manuel Lima e Silva. É acusado, no
+                contexto da carta, de maus-tratos, e a pessoa escravizada manifesta recusa em retornar
+                à sua casa, alegando temor de represálias.
+            </note>
         </person>
         
-        <place xml:id="sao_joao">
-            <placeName>São João</placeName>
-            <note>Freguesia citada no documento; identificação precisa ainda não determinada.</note>
-        </place>
+        <person xml:id="araujo">
+            <persName>Araújo</persName>
+            <idno type="project"/>
+            <note>
+                Indivíduo mencionado como ausente e identificado, no contexto da carta,
+                como titular da posse da escrava cuja situação é discutida. Não há
+                informações adicionais sobre sua identidade ou função.
+            </note>
+        </person>
         
-        <place xml:id="passo_mendonca">
-            <placeName>Passo do Mendonça</placeName>
-            <note>Local tradicionalmente referido nas rotas da região do Camaquã; coordenadas não determinadas.</note>
-        </place>
+        <person xml:id="serafim_dos_anjos_franca">
+            <persName>Serafim dos Anjos França</persName>
+            <idno type="project"/>
+            <note>
+                Inspetor Geral do Tesouro da República Rio-Grandense.
+            </note>
+        </person>
         
-        <place xml:id="barra_camaqua">
-            <placeName>Barra de Camaquã</placeName>
-            <geo>-31.3317, -51.9627</geo>
-            <note>Localidade próxima ao encontro do rio Camaquã com a Laguna dos Patos.</note>
-        </place>
+        <person xml:id="antonio_francisco_reis">
+            <persName>Antônio Francisco dos Reis</persName>
+            <idno type="project"/>
+            <note>
+                Escriturário mencionado como responsável por certificar a conformidade do
+                documento, atuando no impedimento do oficial-maior.
+            </note>
+        </person>
+        
+        <person xml:id="v_s_cunha_filho">
+            <persName>V. S. da Cunha Filho</persName>
+            <idno type="project"/>
+            <note>
+                Indivíduo que subscreve a certificação de conformidade de um documento
+                administrativo; a função institucional não é explicitada no texto.
+            </note>
+        </person>
         
         <person xml:id="joaquim_pereira_fagundes">
             <persName>Joaquim Pereira Fagundes</persName>
-            <note>Capitão e Chefe Geral da Polícia do Departamento do Boqueirão.</note>
-        </person> <!--corrigir vendo se é a mesma pessoa da anotação abaixo ou desambiguar se não for-->
-        
-        <person xml:id="joaquim_pereira_fagundes">
-            <persName>Joaquim Pereira Fagundes</persName>
-            <idno></idno>
-            <roleName>Chefe de Polícia da Fronteira de Bagé</roleName>
-            <roleName>Capitão</roleName>
-            <note>Capitão e Chefe de Polícia da Fronteira de Bagé.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="joaquim_pereira_fagundes_capitao_chefe_policia_boqueirao">
+                <roleName>Capitão</roleName>
+                <roleName>Chefe Geral da Polícia do Departamento do Boqueirão</roleName>
+                <date when="1838-10"/>
+            </state>
+            <note>
+                Oficial militar com o posto de Capitão, exercendo a função de Chefe Geral
+                da Polícia do Departamento do Boqueirão, conforme ofício de outubro de 1838.
+            </note>
         </person>
         
         <person xml:id="joaquim_pereira">

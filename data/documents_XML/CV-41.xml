@@ -3,13 +3,14 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-41 – Cláudio de Abreu</title>
+                <title>Documento CV-41 – Requerimento de Cláudio de Abreu sobre sobras de sesmaria</title>
                 <author>Cláudio de Abreu</author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
                 <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
                 <respStmt>
@@ -18,11 +19,13 @@
                 </respStmt>
                 <date when="2025-06-25">25 de junho de 2025</date>
             </editionStmt>
+            
             <extent>
-                <extent>1 carta</extent>
+                <extent>1 documento administrativo</extent>
                 <measure type="pages">2</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
+            
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
                 <pubPlace>Porto Alegre</pubPlace>
@@ -30,20 +33,28 @@
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            
             <seriesStmt>
                 <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
                 <biblScope type="volume">Vol. II</biblScope>
                 <biblScope type="series">II Série</biblScope>
             </seriesStmt>
+            
             <notesStmt>
                 <note type="catalogue">
-                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm.
+                    (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
                 </note>
-                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note>
+                    Conteúdo: 2. Coleção de Alfredo Varela – documentos CV-1 a CV-558.
+                    Ficha catalográfica impressa consultada.
+                </note>
                 <note type="processo">
-                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python,
+                    txt gerado e convertido com marcação TEI P5 por Carla Menegat.
                 </note>
             </notesStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -63,6 +74,7 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
+                
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
@@ -73,7 +85,12 @@
         
         <encodingDesc>
             <projectDesc>
-                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+                <p>
+                    O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5
+                    dos documentos da Coleção Varela, a partir das transcrições do volume II dos
+                    Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas
+                    via standoff markup, garantindo interoperabilidade e pesquisa avançada.
+                </p>
             </projectDesc>
             <appInfo>
                 <application ident="Python_OCR_Tools" version="2.1">
@@ -89,22 +106,14 @@
                     Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
                 </language>
             </langUsage>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="#claudio_abreu">Cláudio de Abreu</persName>
-                    <placeName ref="#alegrete">Alegrete</placeName>
-                    <date when="1843-03-18">18 de março de 1843</date>
-                </correspAction>
-                <correspAction type="received">
-                    <persName><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></persName>
-                </correspAction>
-            </correspDesc>
+            
             <handDesc>
                 <handNote xml:id="hand_main" medium="print">
                     Texto conforme edição impressa dos Anais.
                 </handNote>
             </handDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -123,50 +132,62 @@
         <surface xml:id="CV-41_1r" n="1r"/>
         <surface xml:id="CV-41_1v" n="1v"/>
     </facsimile>
-
+    
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-41">
+            <div type="officialDocument" xml:id="CV-41">
+                
                 <opener>
-                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e 
+                        <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> 
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                    </salute>
                 </opener>
                 
                 <p>
-                    O Suplicante <persName ref="#claudio_abreu">Tenente-coronel Cláudio de Abreu</persName> vem de novo ante 
-                    <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> ponderar que, devendo ser morosa a medida legislativa da 
-                    <orgName ref="#assembleia_constituinte">Assembléia Geral do Estado</orgName>, com a qual 
-                    <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> deferiu a 
-                    súplica inclusa a respeito da sesmaria que requereu das sobras dos seus campos, 
-                    não só por motivo da guerra atual como por se achar a mesma Assembléia a 
-                    concluir seus trabalhos, receia o Suplicante que outro qualquer súdito da 
-                    República intente a concessão pretendida.
-                    Por isso recorre novamente a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> 
-                    para que se digne ordenar que o Suplicante 
-                    possa continuar na posse em que se acha das sobras de sua sesmaria, até que 
-                    possa aparecer a dita medida legislativa que lhas conceda, ficando-lhe com 
-                    preferência este direito, visto que a ninguém pode prejudicar tal deliberação, 
-                    por ser o prédio um só rincão possuído pelo Suplicante, o qual não tem dúvida 
-                    em sujeitar-se a qualquer ônus que a Assembléia houver de impor quando tais 
-                    sobras sejam verificadas e concedidas.
+                    O Suplicante <persName ref="#claudio_abreu">Tenente-coronel Cláudio de Abreu</persName> vem de novo
+                    ante <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> ponderar que, devendo ser
+                    morosa a medida legislativa da
+                    <orgName ref="#assembleia_constituinte">Assembléia Geral do Estado</orgName>, com a qual
+                    <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> deferiu a súplica inclusa a
+                    respeito da sesmaria que requereu das sobras de seus campos, não só por motivo
+                    da guerra atual como por se achar a mesma Assembléia a concluir seus trabalhos,
+                    receia o Suplicante que outro qualquer súdito da República intente a concessão
+                    pretendida.
+                </p>
+                
+                <p>
+                    Por isso recorre novamente a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>
+                    para que se digne ordenar que o Suplicante possa continuar na posse em que se
+                    acha das sobras de sua sesmaria, até que possa aparecer a dita medida legislativa
+                    que lhas conceda, ficando-lhe com preferência este direito, visto que a ninguém
+                    pode prejudicar tal deliberação, por ser o prédio um só rincão possuído pelo
+                    Suplicante, o qual não tem dúvida em sujeitar-se a qualquer ônus que a Assembléia
+                    houver de impor quando tais sobras sejam verificadas e concedidas.
                 </p>
                 
                 <closer>
-                    <salute><choice><abbr>R.J.</abbr><expan>Receber Justiça</expan></choice></salute>
+                    <salute>
+                        <choice><abbr>R.J.</abbr><expan>Receber Justiça</expan></choice>
+                    </salute>
                 </closer>
                 
-                <note type="dispatch" place="1r.">
+                <note type="dispatch" place="1r">
                     Sim, salvo o direito de terceiro.<br/>
-                    <orgName ref="#secretaria_interior">Secretaria do Interior</orgName> em 
-                    <placeName ref="#alegrete">Alegrete</placeName>, 
+                    <orgName ref="#secretaria_interior">Secretaria do Interior</orgName> em
+                    <placeName ref="#alegrete">Alegrete</placeName>,
                     <date when="1843-03-18">18 de março de 1843</date>.<br/>
-                    <persName ref="#sa_brito">Sá Brito</persName>.
+                    <signed>
+                        <persName ref="#sa_brito">Sá Brito</persName>
+                    </signed>
                 </note>
                 
                 <note type="endorsement" place="1v">
-                    1
-                    <date when="1843-05-18">Maio 18, 1843.</date><br/>
-                    Despacho das sobras do campo de <placeName ref="#inhanduí_rincao">Inhanduí</placeName>.
+                    <date when="1843-05-18">Maio 18, 1843</date>.<br/>
+                    Despacho das sobras do campo de
+                    <placeName ref="#inhanduí_rincao">Inhanduí</placeName>.
                 </note>
                 
             </div>

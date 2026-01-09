@@ -3,13 +3,16 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-44 – Relatório de operação militar</title>
-                <author>Francisco Pedro de Abreu</author>
+                <title>Relatório militar CV-44 – Francisco Pedro de Abreu ao Brigadeiro Francisco Xavier da Cunha</title>
+                <author>
+                    <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
+                </author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
                 <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
                 <respStmt>
@@ -18,11 +21,14 @@
                 </respStmt>
                 <date when="2025-06-27">27 de junho de 2025</date>
             </editionStmt>
+            
             <extent>
-                <extent>1 carta</extent>
-                <measure type="pages">3</measure>
+                <extent>1 relatório militar</extent>
+                <!-- AJUSTE AQUI: confira se você conta faces (4) ou fólios (2). -->
+                <measure type="pages">4</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
+            
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
                 <pubPlace>Porto Alegre</pubPlace>
@@ -30,11 +36,13 @@
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            
             <seriesStmt>
                 <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
                 <biblScope type="volume">Vol. II</biblScope>
                 <biblScope type="series">II Série</biblScope>
             </seriesStmt>
+            
             <notesStmt>
                 <note type="catalogue">
                     Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
@@ -44,6 +52,7 @@
                     Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
                 </note>
             </notesStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -55,7 +64,7 @@
                             <date when="1978">1978</date>
                             <biblScope type="volume">2</biblScope>
                             <biblScope type="part">Coleção Varela, t. 1</biblScope>
-                            <biblScope unit="page" from="40" to="42">40-42</biblScope>
+                            <biblScope unit="page" from="40" to="42">40–42</biblScope>
                             <measure type="extent">23 cm</measure>
                         </imprint>
                     </monogr>
@@ -63,11 +72,12 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
-                <ptr target="data/standoff/standoff-persons.xml" />
-                <ptr target="data/standoff/standoff-places.xml" />
-                <ptr target="data/standoff/standoff-events.xml" />
-                <ptr target="data/standoff/standoff-orgs.xml" />
-                <ptr target="data/standoff/standoff-relations.xml" />
+                
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
@@ -85,10 +95,9 @@
         <profileDesc>
             <langUsage>
                 <language ident="pt-BR">Português do Brasil</language>
-                <language ident="pt-BR">
-                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
-                </language>
+                <language ident="pt-BR">Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.</language>
             </langUsage>
+            
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
@@ -96,15 +105,19 @@
                     <date when="1838-07-16">16 de julho de 1838</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Brigadeiro e Comandante da Guarnição desta Capital</persName>
+                    <persName ref="#francisco_xavier_cunha">Francisco Xavier da Cunha</persName>
+                    <roleName>Brigadeiro; Comandante da Guarnição da Capital</roleName>
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
                 </correspAction>
             </correspDesc>
+            
             <handDesc>
                 <handNote xml:id="hand_main" medium="print">
                     Texto conforme edição impressa dos Anais.
                 </handNote>
             </handDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -129,7 +142,7 @@
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-44">
+            <div type="officialDocument" subtype="militaryReport" xml:id="CV-44">
                 
                 <opener>
                     <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>

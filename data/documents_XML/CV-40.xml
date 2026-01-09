@@ -3,117 +3,151 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-40 – Cláudio de Abreu</title>
+                <title>Petição CV-40 – Requerimento de Cláudio de Abreu sobre sobras de sesmaria</title>
                 <author>Cláudio de Abreu</author>
-                    <respStmt>
-                        <resp>Edição digital</resp>
-                        <name>Carla Menegat</name>
-                    </respStmt>
-                </titleStmt>
-                <editionStmt>
-                    <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
-                    <respStmt>
-                        <resp>Transcrição, anotação, pesquisa e revisão</resp>
-                        <name>Carla Menegat</name>
-                    </respStmt>
-                    <date when="2025-06-25">25 de junho de 2025</date>
-                </editionStmt>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>
+                    Varela Digital – Edição digital revisada da Coleção Varela, vol. II
+                    (Anais do Arquivo Histórico do Rio Grande do Sul)
+                </edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-06-25">25 de junho de 2025</date>
+            </editionStmt>
+            
             <extent>
-                <extent>1 carta</extent>
+                <extent>1 documento administrativo (petição)</extent>
                 <measure type="pages">1</measure>
-                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
+                <note type="project">
+                    Integra o conjunto CV-1 a CV-558 da Coleção Varela.
+                </note>
             </extent>
-                <publicationStmt>
-                    <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
-                    <pubPlace>Porto Alegre</pubPlace>
-                    <availability status="free">
-                        <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
-                    </availability>
-                </publicationStmt>
-                <seriesStmt>
-                    <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
-                    <biblScope type="volume">Vol. II</biblScope>
-                    <biblScope type="series">II Série</biblScope>
-                </seriesStmt>
-                <notesStmt>
-                    <note type="catalogue">
-                        Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
-                    </note>
-                    <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
-                    <note type="processo">
-                        Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
-                    </note>
-                </notesStmt>
-                <sourceDesc>
-                    <biblStruct>
-                        <monogr>
-                            <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
-                            <author>Arquivo Histórico do Rio Grande do Sul</author>
-                            <imprint>
-                                <pubPlace>Porto Alegre</pubPlace>
-                                <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
-                                <date when="1978">1978</date>
-                                <biblScope type="volume">2</biblScope>
-                                <biblScope type="part">Coleção Varela, t. 1</biblScope>
-                                <biblScope unit="page" from="38" to="39">38-39</biblScope>
-                                <measure type="extent">23 cm</measure>
-                            </imprint>
-                        </monogr>
-                        <series>
-                            <title>II Série</title>
-                        </series>
-                    </biblStruct>
-                    <ptr target="data/standoff/standoff-persons.xml"/>
-                    <ptr target="data/standoff/standoff-places.xml"/>
-                    <ptr target="data/standoff/standoff-events.xml"/>
-                    <ptr target="data/standoff/standoff-orgs.xml"/>
-                    <ptr target="data/standoff/standoff-relations.xml"/>
-                </sourceDesc>
-            </fileDesc>
             
-            <encodingDesc>
-                <projectDesc>
-                    <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
-                </projectDesc>
-                <appInfo>
-                    <application ident="Python_OCR_Tools" version="2.1">
-                        <label>Ferramenta de OCR utilizada na transcrição</label>
-                    </application>
-                </appInfo>
-            </encodingDesc>
+            <publicationStmt>
+                <publisher>
+                    Coleção Varela – Anais do Arquivo Histórico do RS, vol. II
+                </publisher>
+                <pubPlace>Porto Alegre</pubPlace>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
             
-            <profileDesc>
-                <langUsage>
-                    <language ident="pt-BR">Português do Brasil</language>
-                    <language ident="pt-BR">
-                        Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
-                    </language>
-                </langUsage>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="#claudio_abreu">Cláudio de Abreu</persName>
-                    <placeName ref="#alegrete">Alegrete</placeName>
-                    <date when="1843-02-21">21 de fevereiro de 1843</date>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="#sa_brito">Sá Brito</persName>
-                </correspAction>
-            </correspDesc>
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais.
+                    Porto Alegre, 1978. 23 cm.
+                    (Coleção Varela, v. 2, t. 1).
+                    Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>
+                    Conteúdo: Coleção de Alfredo Varela – documentos CV-1 a CV-558.
+                    Ficha catalográfica impressa consultada.
+                </note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso,
+                    OCR realizado em Python, texto convertido e marcado em TEI P5
+                    por Carla Menegat.
+                </note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title>
+                            Anais do Arquivo Histórico do Rio Grande do Sul
+                        </title>
+                        <author>
+                            Arquivo Histórico do Rio Grande do Sul
+                        </author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>
+                                Instituto Estadual do Livro DAC/SEC
+                            </publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">
+                                Coleção Varela, t. 1
+                            </biblScope>
+                            <biblScope unit="page" from="38" to="39">
+                                38–39
+                            </biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
+                
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    O projeto Varela Digital realiza a digitalização, OCR em Python e
+                    marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das
+                    transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande
+                    do Sul. As entidades nomeadas são tratadas por meio de standoff markup,
+                    garantindo interoperabilidade e pesquisa avançada.
+                </p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
+            
             <handDesc>
                 <handNote xml:id="hand_main" medium="print">
                     Texto conforme edição impressa dos Anais.
                 </handNote>
             </handDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
                     <date when="2025-06-26">26/06/2025</date>
-                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                    Digitalização, transcrição e revisão inicial do documento
+                    por Carla Menegat.
                 </item>
                 <item>
-                    <date when="2025-11-26">26/11/2025</date>
-                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                    <date when="2026-01-08">08/01/2026</date>
+                    Revisão editorial, reclassificação tipológica como
+                    documento administrativo e validação catalográfica.
                 </item>
             </list>
         </revisionDesc>
@@ -122,55 +156,69 @@
     <facsimile>
         <surface xml:id="CV-40_1r" n="1r"/>
     </facsimile>
-
+    
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-40">
+            <div type="officialDocument" xml:id="CV-40">
+                
                 <opener>
-                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e 
+                        <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> 
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                    </salute>
                 </opener>
                 
                 <p>
-                    Diz o <persName ref="#claudio_abreu">Tenente-coronel Cláudio de Abreu</persName>, que ele está de 
+                    Diz o <persName ref="#claudio_abreu">Tenente-coronel Cláudio de Abreu</persName> que ele está de 
                     posse há perto de vinte e nove anos de uma fazenda denominada 
-                    <placeName ref="#inhanduí_rincao">Inhanduí</placeName>, aonde tem benfeitorias de grande valor, situada em 
-                    campos que lhe foram concedidos por Carta de Sesmaria na extensão de uma 
-                    légua de frente e três de fundos, dividindo-se pelo Norte com a barra onde se 
-                    junta o <placeName ref="#ibirapuita">Ibirapuitã</placeName> com o <placeName ref="#inhanduí">Inhanduí</placeName>, e fazem frente pelo Sul com 
-                    uma coxilha, e pelo Este com um banhado que serve de divisa aos campos de 
+                    <placeName ref="#inhanduí_rincao">Inhanduí</placeName>, onde tem benfeitorias de grande valor, 
+                    situada em campos que lhe foram concedidos por Carta de Sesmaria na extensão 
+                    de uma légua de frente e três de fundos, dividindo-se pelo Norte com a barra 
+                    onde se junta o <placeName ref="#ibirapuita">Ibirapuitã</placeName> com o 
+                    <placeName ref="#inhanduí">Inhanduí</placeName>, fazendo frente pelo Sul com uma coxilha, 
+                    pelo Este com um banhado que serve de divisa aos campos de 
                     <persName ref="#jose_antonio_siqueira">José Antônio de Siqueira</persName>, 
-                    deságua no <placeName ref="#ibirapuita">Ibirapuitã</placeName>, e também pelo Leste
-                    e pelo Oeste se divide com o mesmo <placeName ref="#inhanduí">Inhanduí</placeName> até sua barra;
-                    e porque estes campos ainda não fossem medidos e demarcados, e o Suplicante 
-                    presuma que dentro das supracitadas confrontações haja sobras daquela sesmaria, 
-                    temendo-se que outro qualquer as requeira em dano do Suplicante em razão de não poder
-                    admitir outro morador por ser um só rincão, motivos porque<br/>
-                    pede a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que se digne em atenção ao exposto <br/> 
-                    haver por bem conceder ao Suplicante 
-                    por Carta de Sesmaria as sobras <br/>
-                    existentes que houver no mencionado rincão, <br />
-                    a fim de acutelar o dano que mencionou.
+                    e também pelo Leste e pelo Oeste se dividindo com o mesmo 
+                    <placeName ref="#inhanduí">Inhanduí</placeName> até sua barra.
                 </p>
                 
-                
+                <p>
+                    E porque estes campos ainda não foram medidos e demarcados, e o Suplicante 
+                    presume que dentro das supracitadas confrontações haja sobras daquela 
+                    sesmaria, temendo que outro qualquer as requeira em dano do Suplicante, 
+                    em razão de não poder admitir outro morador por ser um só rincão,
+                    pede a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice> 
+                    se digne, em atenção ao exposto, haver por bem conceder ao Suplicante, 
+                    por Carta de Sesmaria, as sobras existentes que houver no mencionado rincão, 
+                    a fim de acautelar o dano que menciona.
+                </p>
                 
                 <closer>
-                    <salute><choice><abbr>E.R.J.</abbr><expan>Espero Receber Justiça</expan></choice></salute>
-                    <dateline><placeName ref="#alegrete">Alegrete</placeName>, 
-                        <date when="1843-02-21">21 de fevereiro de 1843</date>.</dateline>
+                    <salute>
+                        <choice><abbr>E.R.J.</abbr><expan>Espero Receber Justiça</expan></choice>
+                    </salute>
+                    <dateline>
+                        <placeName ref="#alegrete">Alegrete</placeName>,
+                        <date when="1843-02-21">21 de fevereiro de 1843</date>.
+                    </dateline>
                     <signed>
                         <persName ref="#claudio_abreu">Cláudio de Abreu</persName>
                     </signed>
                 </closer>
                 
-                <note type="dispatch" place="1r.">
+                <note type="dispatch" place="1r">
                     Dependendo a pretensão do peticionário de medida legislativa, recorra à 
-                    <orgName ref="#assembleia_constituinte">Assembléia Geral Constituinte e Legislativa do Estado</orgName>.<br/>
+                    <orgName ref="#assembleia_constituinte">
+                        Assembléia Geral Constituinte e Legislativa do Estado
+                    </orgName>.<br/>
                     <orgName ref="#secretaria_interior">Secretaria do Interior</orgName>, 
                     em <placeName ref="#alegrete">Alegrete</placeName>, 
                     <date when="1843-02-25">25 de fevereiro de 1843</date>.<br/>
-                    <persName ref="#sa_brito">Sá Brito</persName>.
+                    <signed>
+                        <persName ref="#sa_brito">Sá Brito</persName>
+                    </signed>
                 </note>
                 
             </div>

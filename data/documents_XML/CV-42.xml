@@ -3,13 +3,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Relação de materiais militares – CV-42</title>
-                <author>Firmino Luís Gomes de Abreu</author>
+                <title>Relação de materiais militares CV-42 – Firmino Luís Gomes de Abreu (Arsenal de Guerra)</title>
+                <author>
+                    <persName ref="#firmino_luis_gomes_de_abreu">Firmino Luís Gomes de Abreu</persName>
+                    <roleName>Almoxarife</roleName>
+                </author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
                 <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
                 <respStmt>
@@ -18,11 +22,13 @@
                 </respStmt>
                 <date when="2025-06-25">25 de junho de 2025</date>
             </editionStmt>
+            
             <extent>
-                <extent>1 carta</extent>
+                <extent>1 documento administrativo</extent>
                 <measure type="pages">1</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
+            
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
                 <pubPlace>Porto Alegre</pubPlace>
@@ -30,11 +36,13 @@
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            
             <seriesStmt>
                 <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
                 <biblScope type="volume">Vol. II</biblScope>
                 <biblScope type="series">II Série</biblScope>
             </seriesStmt>
+            
             <notesStmt>
                 <note type="catalogue">
                     Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
@@ -44,6 +52,7 @@
                     Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
                 </note>
             </notesStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -55,7 +64,7 @@
                             <date when="1978">1978</date>
                             <biblScope type="volume">2</biblScope>
                             <biblScope type="part">Coleção Varela, t. 1</biblScope>
-                            <biblScope unit="page" from="39" to="40">39-40</biblScope>
+                            <biblScope unit="page" from="39" to="40">39–40</biblScope>
                             <measure type="extent">23 cm</measure>
                         </imprint>
                     </monogr>
@@ -63,6 +72,7 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
+                
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
@@ -85,23 +95,16 @@
         <profileDesc>
             <langUsage>
                 <language ident="pt-BR">Português do Brasil</language>
-                <language ident="pt-BR">
-                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
-                </language>
+                <language ident="pt-BR">Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.</language>
             </langUsage>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="#firmino_luis_gomes_de_abreu">Firmino Luís Gomes de Abreu</persName>
-                    <orgName ref="#arsenal_guerra">Arsenal de Guerra</orgName>
-                    <date when="1840-12-26">26 de dezembro de 1840</date>
-                </correspAction>
-            </correspDesc>
+            
             <handDesc>
                 <handNote xml:id="hand_main" medium="print">
                     Texto conforme edição impressa dos Anais.
                 </handNote>
             </handDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -123,7 +126,7 @@
     
     <text>
         <body>
-            <div type="inventory" xml:id="CV-42">
+            <div type="officialDocument" subtype="inventory" xml:id="CV-42">
                 
                 <head>Relação do que foi tomado aos rebeldes e veio para este Arsenal, a saber:</head>
                 
