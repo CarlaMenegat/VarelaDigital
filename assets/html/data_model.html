@@ -24,70 +24,41 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="../../index.html">Varela Digital</a>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
+
             <li class="nav-item">
-              <a class="nav-link" href="../../index.html">Homepage</a>
+              <a class="nav-link active" href="../../index.html">Homepage</a>
             </li>
 
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="lettersDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
+              <a class="nav-link dropdown-toggle" href="#" id="lettersDropdown"role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Documents
               </a>
               <ul class="dropdown-menu" aria-labelledby="lettersDropdown">
-                <li>
-                  <a class="dropdown-item" href="letters-index.html">Index</a>
-                </li>
+                <li><a class="dropdown-item" href="letters-index.html">Index</a></li>
                 <li><a class="dropdown-item" href="viewer.html">Viewer</a></li>
               </ul>
             </li>
 
-            <!-- Keep the dropdown, but remove "Documentation" link from the footer requirement:
-                 We'll keep only "Data Model" highlighted here for navigation,
-                 and place the Documentation link in the footer as requested. -->
+            <!-- Documentation dropdown -->
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle active"
-                href="#"
-                id="docsDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
+              <a class="nav-link dropdown-toggle" href="#" id="docsDropdown"role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Documentation
               </a>
               <ul class="dropdown-menu" aria-labelledby="docsDropdown">
-                <li>
-                  <a class="dropdown-item active" href="data_model.html"
-                    >Data Model</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="project_discussion.html"
-                    >Theoretical Framework</a
-                  >
-                </li>
+                <li><a class="dropdown-item" href="documentation.html">Overview</a></li>
+                <li><a class="dropdown-item" href="data_model.html">Data Model</a></li>
+                <li><a class="dropdown-item" href="project_discussion.html">Theoretical Framework</a></li>
               </ul>
             </li>
+
           </ul>
         </div>
       </div>

@@ -18,69 +18,50 @@
     <body>
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <!-- LINK CORRIGIDO: index.html na raiz -->
-                <a class="navbar-brand" href="../../index.html">Varela Digital</a>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../../index.html">Varela Digital</a>
 
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav"
-                    aria-controls="navbarNav"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="../../index.html">Homepage</a>
-                    </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../../index.html">Homepage</a>
+            </li>
 
-                    <li class="nav-item dropdown">
-                        <a
-                        class="nav-link dropdown-toggle"
-                        href="#"
-                        id="lettersDropdown"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                        >
-                        Documents
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="lettersDropdown">
-                        <li>
-                            <a class="dropdown-item" href="index-docs.html">
-                                Index
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="viewer.html">
-                            Viewer
-                            </a>
-                        </li>
-                        </ul>
-                    </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="lettersDropdown"role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Documents
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="lettersDropdown">
+                <li><a class="dropdown-item" href="letters-index.html">Index</a></li>
+                <li><a class="dropdown-item" href="viewer.html">Viewer</a></li>
+              </ul>
+            </li>
 
-                    <li class="nav-item">
-                        <a
-                        class="nav-link"
-                        href="project_discussion.html"
-                        >
-                        Theoretical Framework
-                        </a>
-                    </li>
+            <!-- Documentation dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="docsDropdown"role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Documentation
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="docsDropdown">
+                <li><a class="dropdown-item" href="documentation.html">Overview</a></li>
+                <li><a class="dropdown-item" href="data_model.html">Data Model</a></li>
+                <li><a class="dropdown-item" href="project_discussion.html">Theoretical Framework</a></li>
+              </ul>
+            </li>
 
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
+          </ul>
+        </div>
+      </div>
+    </nav>
+        
         <!-- Letter navigation -->
         <div class="container mt-3 text-center">
             <div class="letter-nav d-inline-flex align-items-center gap-3">

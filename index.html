@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Varela Digital</title>
 
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Project CSS -->
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/home.css">
   </head>
 
   <body class="homepage">
@@ -31,7 +35,7 @@
 
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="lettersDropdown"
-                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Documents
               </a>
               <ul class="dropdown-menu" aria-labelledby="lettersDropdown">
@@ -40,8 +44,17 @@
               </ul>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="assets/html/project_discussion.html">Theoretical Framework</a>
+            <!-- Documentation dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="docsDropdown"
+                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Documentation
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="docsDropdown">
+                <li><a class="dropdown-item" href="assets/html/documentation.html">Overview</a></li>
+                <li><a class="dropdown-item" href="assets/html/data_model.html">Data Model</a></li>
+                <li><a class="dropdown-item" href="assets/html/project_discussion.html">Theoretical Framework</a></li>
+              </ul>
             </li>
 
           </ul>
@@ -49,21 +62,26 @@
       </div>
     </nav>
 
-    <!-- Full-width contextual image -->
+    <!-- Context image -->
     <section class="context-image">
       <img
         src="assets/images/Carga_de_Cavalaria_by_Guilherme_Litran.jpg"
         alt="Illustration of a cavalry charge during the Farroupilha Revolution"
       />
-      <div class="context-caption">
-        Cavalry Charge, oil on canvas, Guilherme Litran, 1893.
-      </div>
+
+      <!-- Caption styled like documentation figure captions -->
+      <figure class="home-figure-caption">
+        <figcaption>
+          <strong>Figure.</strong> Cavalry Charge, oil on canvas, Guilherme Litran, 1893.
+        </figcaption>
+      </figure>
     </section>
 
     <!-- Main textual content -->
-    <main class="page-text">
+    <main class="page-text home-main">
 
-      <div class="intro-box">
+      <!-- Intro box (darker bordeaux tone via CSS) -->
+      <section class="home-box home-box--intro">
         <p>
           <em>Varela Digital</em> is a digital scholarly edition and knowledge website
           dedicated to the correspondence preserved in the Varela Collection,
@@ -71,16 +89,16 @@
           Farroupilha Revolution (1835–1845).
         </p>
 
-        <p>
+        <p class="mb-0">
           The pilot corpus is based on the letters published in Volume II of the
           <em>Anais do Arquivo Histórico do Rio Grande do Sul</em>. All documents are
           encoded in TEI–XML and enriched through structured metadata, standoff
           annotation, and linked data modeling.
         </p>
-      </div>
+      </section>
 
-      <div class="explore-box">
-
+      <!-- Explore box -->
+      <section class="home-box home-box--explore">
         <h2>What you can explore</h2>
 
         <ul>
@@ -90,8 +108,8 @@
           <li>A reproducible editorial workflow from TEI to HTML and RDF</li>
         </ul>
 
-        <div class="mt-4 d-flex gap-3 flex-wrap">
-          <a href="index.html" class="btn btn-outline-secondary">
+        <div class="home-actions">
+          <a href="assets/html/letters-index.html" class="btn btn-outline-secondary">
             Browse the Documents
           </a>
 
@@ -103,24 +121,24 @@
             Read the Editorial Framework
           </a>
         </div>
-
-      </div>
+      </section>
 
     </main>
 
-    <!-- Footer -->
-    <footer class="text-center py-4 mt-5">
+    <!-- Footer (same structure as documentation/data_model; includes Documentation link) -->
+    <footer class="home-footer text-center py-4 mt-5">
       <p>
         Developed by <strong>Carla Menegat</strong> |
         <a href="mailto:carla.menegat@studio.unibo.it">carla.menegat@studio.unibo.it</a> |
-        <a href="https://github.com/CarlaMenegat" target="_blank">GitHub</a> |
+        <a href="https://github.com/CarlaMenegat" target="_blank" rel="noopener">GitHub</a> |
+        <a href="assets/html/documentation.html">Documentation</a> |
         Licensed under
-        <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+        <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>
       </p>
 
-      <p>
+      <p class="mb-0">
         Final examination project for the
-        <a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge" target="_blank">
+        <a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge" target="_blank" rel="noopener">
           Master Degree in Digital Humanities and Digital Knowledge (DHDK)
         </a>,
         University of Bologna.

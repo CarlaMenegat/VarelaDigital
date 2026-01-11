@@ -123,6 +123,43 @@ figure.model-figure.tall img {
   max-height: 640px;
 }
 
+/* =====================================================
+   Documentation buttons (override Bootstrap)
+   ===================================================== */
+
+/* Base button */
+.vd-page .btn-outline-primary {
+  color: #5E121A;                 /* vinho do site */
+  border-color: #C4B3B2;          /* borda suave */
+  background-color: transparent;
+  font-weight: 500;
+  padding: 0.45rem 1.1rem;
+  border-radius: 12px;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hover / focus */
+.vd-page .btn-outline-primary:hover,
+.vd-page .btn-outline-primary:focus {
+  color: #ffffff;
+  background-color: #5E121A;      /* vinho sólido */
+  border-color: #5E121A;
+  box-shadow: none;
+}
+
+/* Active state */
+.vd-page .btn-outline-primary:active {
+  background-color: #4a0e14;      /* vinho mais escuro */
+  border-color: #4a0e14;
+  color: #ffffff;
+}
+
+/* Remove Bootstrap focus ring */
+.vd-page .btn-outline-primary:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 0.15rem rgba(94, 18, 26, 0.25);
+}
+
 /* ---- Footer: more separation + calmer typography ---- */
 .vd-footer {
   margin-top: 3rem;
@@ -147,7 +184,7 @@ figure.model-figure.tall img {
 }
 
 .vd-footer .footer-small {
-  font-size: 0.95rem;
+  font-size: 0.8rem;
   opacity: 0.9;
 }
 

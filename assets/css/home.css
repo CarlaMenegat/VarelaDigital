@@ -1,0 +1,135 @@
+/* ===== Top image strip (static, non-hero) ===== */
+:root{
+  /* ajuste fino se sua navbar fixed for mais alta/baixa */
+  --nav-h: 74px;
+}
+
+/* a seção toda desce abaixo da navbar */
+.context-image{
+  width: 100%;
+  padding-top: var(--nav-h);
+  background: transparent;
+}
+
+/* a imagem vira uma faixa: altura controlada, sem “hero” */
+.context-image img{
+  display: block;
+  width: 100%;
+  height: clamp(480px, 60vh, 720px);
+  object-fit: cover;
+  object-position: center 35%; /* ajuste o enquadramento (subir/descer) */
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+/* caption mais próxima da imagem */
+.context-caption{
+  max-width: 1120px;
+  margin: 0.4rem auto 0; /* ↓ reduz espaço abaixo da imagem */
+  padding: 0 1rem;
+  font-size: 0.98rem;
+  color: #2b2b2b;
+}
+
+.context-caption strong{
+  color: #5E121A;
+  font-weight: 700;
+}
+
+/* layout breathing room; keeps navbar from overlapping */
+.home-main {
+  padding-top: 110px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* constrain content width similar to documentation pages */
+.home-box {
+  max-width: 1100px;
+  margin: 0 auto;
+  border: 1px solid #C4B3B2;
+  border-radius: 12px;
+  padding: 1.25rem 1.25rem;
+}
+
+/* primeira box: mais próxima da imagem */
+.home-box--intro {
+  background: rgba(94, 18, 26, 0.16); /* bordô suave */
+  margin-top: 0.9rem;   /* ↓ diminui espaço figura → box */
+  margin-bottom: 3.2rem; /* ↑ aumenta espaço entre as duas boxes */
+}
+
+/* segunda box como cartão limpo */
+.home-box--explore {
+  background: #ffffff;
+  margin-top: 0; /* espaçamento vem só da intro-box */
+}
+
+.home-box--explore h2 {
+  margin-bottom: 0.9rem;
+  font-size: 1.25rem;     /* ↓ menor que antes */
+  font-weight: 500;       /* menos pesado que h2 */
+  margin-bottom: 0.9rem;
+}
+
+.home-box--explore ul {
+  margin-bottom: 1.1rem;
+}
+
+/* buttons row */
+.home-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 0.25rem;
+}
+
+/* Caption style, alinhada com documentation/data_model */
+.home-figure-caption {
+  margin: 0;
+  padding: 0;
+}
+
+.home-figure-caption figcaption {
+  margin-top: 0.55rem;
+  margin-left: 16px;
+  margin-right: 16px;
+  color: #5E121A;
+  font-size: 0.95rem;
+}
+
+/* Footer separation + same background feel used elsewhere */
+.home-footer {
+  border-top: 1px solid #D9D6CE;
+  background: #F8F5EF;
+}
+
+.home-footer p {
+  margin-bottom: 0.5rem;
+}
+
+.home-footer p:last-child {
+  margin-bottom: 0;
+}
+
+/* Small screens */
+@media (max-width: 576px) {
+  .home-main {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .home-box {
+    padding: 1rem 1rem;
+  }
+
+  .home-figure-caption figcaption {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .home-box--intro {
+    margin-top: 0.7rem;
+    margin-bottom: 2.6rem;
+  }
+}
