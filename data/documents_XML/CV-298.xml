@@ -56,7 +56,10 @@
                     <salute>Meu <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Presidente</salute>
                 </opener>
                 
-                <p>Já não me posso conter em silêncio. <persName ref="#matos">Matos</persName> tem desenvolvido coisas que ................. veja esses ofícios e cartas, e depois de combinar com as cartas anteriores do mesmo <persName ref="#matos">Matos</persName> diga-me que juízo se pode fazer de semelhante homem. O ladrão do <persName ref="#casas">Casas</persName> dizem-me que aí está. Pergunte-lhe pela esperteza dos 945 pesos que recebeu pelo <orgName ref="#tesouro">Tesouro</orgName> e por <persName ref="#joaquim_pereira_fagundes">Joaquim Pereira Fagundes</persName>. Este homem, se me vem falar, apanha na cara, para o que já me previno.</p>
+                <p>Já não me posso conter em silêncio. <persName ref="#matos">Matos</persName> tem desenvolvido coisas que ................. 
+                    veja esses ofícios e cartas, e depois de combinar com as cartas anteriores do mesmo <persName ref="#matos">Matos</persName> 
+                    diga-me que juízo se pode fazer de semelhante homem. O ladrão do <persName ref="#casas">Casas</persName> dizem-me que aí está. 
+                    Pergunte-lhe pela esperteza dos <measure type="currency" unit="peso" quantity="945">945 pesos</measure> que recebeu pelo <orgName ref="#tesouro">Tesouro</orgName> e por <persName ref="#joaquim_pereira_fagundes">Joaquim Pereira Fagundes</persName>. Este homem, se me vem falar, apanha na cara, para o que já me previno.</p>
                 
                 <closer>
                     <p>De <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice></p>

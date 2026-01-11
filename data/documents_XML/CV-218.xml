@@ -161,8 +161,10 @@
                 
                 <postscript place="1v">
                     Manda dar a <persName ref="#manuel_madruga">Manuel Madruga</persName>
-                    <measure type="currency" unit="BRL-réis" quantity="49080">Rs. 49$080</measure>, quarenta e nove mil e oitenta, e ao primo
-                    <persName ref="#bernardino_vieira">Bernardino Vieira</persName> 24 patacões,
+                    <measure type="currency" unit="BRL-réis" quantity="49080">Rs. 49$080</measure>,
+                    quarenta e nove mil e oitenta, e ao primo
+                    <persName ref="#bernardino_vieira">Bernardino Vieira</persName>
+                    <measure type="currency" unit="patacão" quantity="24">24 patacões</measure>,
                     vinte e quatro patacões, e a <persName ref="#bruno">Bruno</persName> e a
                     <persName ref="#joao_jose_victorica">Victorica</persName> envia as adjuntas.
                 </postscript>

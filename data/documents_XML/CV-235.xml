@@ -154,7 +154,7 @@
                             Dinheiro que de sua conta dei a
                             <persName ref="#jose_maria_olave">José Maria Olave</persName>.
                         </desc>
-                        <note type="accountNote">(101 pesos)</note>
+                        <note type="accountNote">(<measure type="currency" unit="peso" quantity="101">101 pesos</measure>)</note>
                         <measure type="currency" unit="BRL-réis" quantity="80800">80$800</measure>
                     </item>
                     
@@ -234,7 +234,7 @@
                         <desc>
                             C. <persName ref="#pedro_jose_lima">Pedro José de Lima</persName>.
                         </desc>
-                        <note type="accountNote">(20 patacões prata)</note>
+                        <note type="accountNote">(<measure type="currency" unit="patacão-prata" quantity="20">20 patacões <seg type="spec">prata</seg></measure>)</note>
                         <measure type="currency" unit="BRL-réis" quantity="33600">33$600</measure>
                     </item>
                     
@@ -242,7 +242,9 @@
                         <desc>
                             C. <persName ref="#anacleto_jose_matos">Anacleto José de Matos</persName>.
                         </desc>
-                        <note type="accountNote">(4 patacões prata)</note>
+                        <note type="accountNote">
+                            (<measure type="currency" unit="patacão-prata" quantity="4">4 patacões <seg type="spec">prata</seg></measure>)
+                        </note>
                         <measure type="currency" unit="BRL-réis" quantity="6720">6$720</measure>
                     </item>
                     
@@ -250,7 +252,9 @@
                         <desc>
                             C. <persName ref="#vilaca">Vilaça</persName>.
                         </desc>
-                        <note type="accountNote">(4 patacões prata)</note>
+                        <note type="accountNote">
+                            (<measure type="currency" unit="patacão-prata" quantity="4">4 patacões <seg type="spec">prata</seg></measure>)
+                        </note>
                         <measure type="currency" unit="BRL-réis" quantity="6720">6$720</measure>
                     </item>
                     
@@ -267,7 +271,10 @@
                                 Tenente-coronel Silvano José Monteiro de Araújo e Paula
                             </persName>.
                         </desc>
-                        <note type="accountNote">(27 patacões prata) <seg type="status">pg.</seg></note>
+                        <note type="accountNote">
+                            (<measure type="currency" unit="patacão-prata" quantity="27">27 patacões <seg type="spec">prata</seg></measure>)
+                            <seg type="status">pg.</seg>
+                        </note>
                         <measure type="currency" unit="BRL-réis" quantity="45360">45$360</measure>
                     </item>
                     
@@ -275,7 +282,9 @@
                         <desc>
                             <persName ref="#bento_joaquim_chaves">Alferes Bento Joaquim de Chaves</persName>.
                         </desc>
-                        <note type="accountNote">(48 pesos emp.)</note>
+                        <note type="accountNote">
+                            (<measure type="currency" unit="peso-emp." quantity="48">48 pesos emp.</measure>)
+                        </note>
                         <measure type="currency" unit="BRL-réis" quantity="67200">67$200</measure>
                     </item>
                     
@@ -283,7 +292,9 @@
                         <desc>
                             <persName ref="#leandro_jose_costa">Tenente Leandro José da Costa</persName>.
                         </desc>
-                        <note type="accountNote">(5 patacões prata)</note>
+                        <note type="accountNote">
+                            (<measure type="currency" unit="patacão-prata" quantity="5">5 patacões <seg type="spec">prata</seg></measure>)
+                        </note>
                         <measure type="currency" unit="BRL-réis" quantity="8400">8$400</measure>
                     </item>
                     
@@ -291,7 +302,9 @@
                         <desc>
                             <persName ref="#francisco_goncalves_meireles">Francisco Gonçalves Meireles</persName>.
                         </desc>
-                        <note type="accountNote">(20 patacões prata)</note>
+                        <note type="accountNote">
+                            (<measure type="currency" unit="patacão-prata" quantity="20">20 patacões <seg type="spec">prata</seg></measure>)
+                        </note>
                         <measure type="currency" unit="BRL-réis" quantity="33600">33$600</measure>
                     </item>
                     
@@ -301,7 +314,9 @@
                                 José Gomes Ferreira Guimarães Cabeça
                             </persName>.
                         </desc>
-                        <note type="accountNote">(6 patacões prata)</note>
+                        <note type="accountNote">
+                            (<measure type="currency" unit="patacão-prata" quantity="6">6 patacões <seg type="spec">prata</seg></measure>)
+                        </note>
                         <measure type="currency" unit="BRL-réis" quantity="10080">10$080</measure>
                     </item>
                     
@@ -316,7 +331,9 @@
                         <desc>
                             <persName ref="#tomas_silva_ramos">Tenente Tomás da Silva Ramos</persName>.
                         </desc>
-                        <note type="accountNote">(3 patacões)</note>
+                        <note type="accountNote">
+                            (<measure type="currency" unit="patacão" quantity="3">3 patacões</measure>)
+                        </note>
                         <measure type="currency" unit="BRL-réis" quantity="5040">5$040</measure>
                     </item>
                     
@@ -337,7 +354,9 @@
                             <date when="1838-04-06">Abril 6</date>,
                             <persName ref="#isaias_antonio_silva">Isaías Antônio da Silva</persName>.
                         </desc>
-                        <note type="accountNote">(6 patacões prata)</note>
+                        <note type="accountNote">
+                            (<measure type="currency" unit="patacão-prata" quantity="6">6 patacões <seg type="spec">prata</seg></measure>)
+                        </note>
                         <measure type="currency" unit="BRL-réis" quantity="10560">10$560</measure>
                     </item>
                     
@@ -346,7 +365,8 @@
                             <persName ref="#jose_manoel_leao">Coronel José Manoel de Leão</persName>.
                         </desc>
                         <note type="accountNote">
-                            64$rs prata <seg type="status">pg.</seg>
+                            <measure type="currency" unit="rs-prata" quantity="64">64$rs prata</measure>
+                            <seg type="status">pg.</seg>
                         </note>
                         <measure type="currency" unit="BRL-réis" quantity="117120">117$120</measure>
                     </item>
@@ -360,7 +380,9 @@
                         <desc>
                             <persName ref="#mariano_gloria">Major Mariano Glória</persName>.
                         </desc>
-                        <note type="accountNote">uma onça</note>
+                        <note type="accountNote">
+                            <measure type="currency" unit="onça" quantity="1">uma onça</measure>
+                        </note>
                         <measure type="currency" unit="BRL-réis" quantity="28000">28$000</measure>
                     </item>
                     

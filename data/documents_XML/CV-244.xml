@@ -133,8 +133,9 @@
                 
                 <p>
                     Diz-me o sujeito que me mandou as onças que por elas lhe oferecem 
-                    <measure type="currency" unit="BRL-réis" quantity="1500">15 patacões</measure> 
-                    em prata e 
+                    <measure type="currency" unit="patacão" quantity="15">
+                        15 patacões <seg type="spec">prata</seg>
+                    </measure> e 
                     <measure type="currency" unit="BRL-réis" quantity="100">um</measure> 
                     em cobre; haja portanto 
                     <choice><abbr>V. Mcê.</abbr><expan>Vossa Mercê</expan></choice> de dar ao 

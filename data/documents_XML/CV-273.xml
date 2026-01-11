@@ -55,7 +55,7 @@
                 </opener>
                 
                 <p>
-                    Mande-me as sessenta onças para fazê-las entrar e sair imediatamente
+                    Mande-me as As onças que pedi, basta que me envie somente <measure type="currency" unit="onça" quantity="60">sessenta onças</measure>, para fazê-las entrar e sair imediatamente
                     do Tesouro para Matos e Antônio Gonçalves, que as querem já para
                     providências da viagem; e eu fiquei de lhas mandar.
                 </p>
@@ -72,7 +72,18 @@
                 </p>
                 
                 <note type="response">
-                    Remeto cinquenta e cinco onças em ouro e cinco em prata, que faz as sessenta.
+                    Remeto 
+                    <measure type="currency" unit="onça" quantity="55">
+                        cinquenta e cinco <seg type="spec">ouro</seg>
+                    </measure>
+                    e 
+                    <measure type="currency" unit="onça" quantity="5">
+                        cinco <seg type="spec">prata</seg>
+                    </measure>,
+                    que faz 
+                    <measure type="currency" unit="onça" quantity="60">
+                        as sessenta
+                    </measure>.
                     <signed>(a) <persName ref="#bento_goncalves">B. G. Silva</persName></signed>
                 </note>
                 

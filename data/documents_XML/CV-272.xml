@@ -62,7 +62,10 @@
                 </p>
                 
                 <p>
-                    Ao seu patrício Carline dei 30 patacões, 20 ao primeiro próprio e 30 ao
+                    Ao seu patrício Carline dei 
+                    <measure type="currency" unit="patacão" quantity="30">30 patacões</measure>, 
+                    <measure type="currency" unit="patacão" quantity="20">20</measure> ao primeiro próprio 
+                    e <measure type="currency" unit="patacão" quantity="30">30</measure> ao
                     segundo: esta classe de gente não é mui fácil contentar-se. Os Srs.
                     Engenheiro e Artilheiro têm tido um procedimento que se não compadece
                     com os defensores de princípios, cuidam que nadamos em ouro. Não é

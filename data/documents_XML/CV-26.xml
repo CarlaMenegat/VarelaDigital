@@ -140,7 +140,9 @@
                     obrigado pelas circunstâncias a importuná-lo, não só por meu respeito como por outros,
                     como agora acontece, que tendo antes de ontem pedido recurso para o hospital agora o
                     faço para mim; estou bem certo do que me mandou dizer, porém a necessidade a tudo obriga
-                    e por isso um ou dois patacões tudo é suficiente para quem não tem vintém e nem a quem o
+                    e por isso <measure type="currency" unit="patacão" quantity="1">um patacão</measure>
+                    ou <measure type="currency" unit="patacão" quantity="2">dois patacões</measure>
+                    tudo é suficiente para quem não tem vintém e nem a quem o
                     pedir se não for a <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>. 
                     Carne tenho, porém tudo o mais falta e por isso conto de <choice><abbr>V.Ex.ª</abbr><expan>Vossa Excelência</expan></choice>
                     todo o socorro, lembrando-lhe que mais o incomode por minha família do que por mim.
@@ -156,9 +158,9 @@
                 
                 <note type="endorsement" place="1v">
                     <p>
-                        Mandei três patacões. (a) Almeida.<br/>
-                        Mais 2 patacões a 28.<br/>
-                        Mais 10 ditos a 30 do corrente.<br/>
+                        Mandei <measure type="currency" unit="patacão" quantity="3">três patacões</measure>. (a) Almeida.<br/>
+                        Mais <measure type="currency" unit="patacão" quantity="2">2 patacões</measure> a 28.<br/>
+                        Mais <measure type="currency" unit="patacão" quantity="10">10 ditos</measure> a 30 do corrente.<br/>
                         Carregado ao Hospital.<br/>
                         <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e 
                         <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> 

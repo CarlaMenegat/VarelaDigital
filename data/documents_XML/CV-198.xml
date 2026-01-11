@@ -164,7 +164,7 @@
                 <p>O resto do dinheiro, que fico a trocar, como da roupa que se está
                     a fazer, 4.ª-feira, 18 do presente mês, seguirão comigo na direção de
                     <placeName ref="#pelotas">Pelotas</placeName>, onde creio nos encontraremos; na maleta marca X é
-                    que vão as 9 onças.</p>
+                    que vão as <measure type="currency" unit="onça" quantity="9">9 onças</measure>.</p>
                 
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V. S.</abbr><expan>Vossa Senhoria</expan></choice>º muitos anos.</salute>

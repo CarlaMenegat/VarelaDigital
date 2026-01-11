@@ -137,7 +137,7 @@
                     <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.</salute>
                 </opener>
                 
-                <p>Tenho sido importuno na exigência dos trezentos trinta e dois e meio pesos que pela interposição e responsabilidade de 
+                <p>Tenho sido importuno na exigência dos <measure type="currency" unit="peso" quantity="332,5">trezentos trinta e dois e meio pesos</measure> que pela interposição e responsabilidade de 
                     <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> deram por recebidos do 
                     <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#manuel_severino_xavier">Manuel Severino Xavier</persName>, 
                     na Receitoria de <placeName ref="#tacuarembo">Taquarembó</placeName>, porque, como já disse a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> 
@@ -159,7 +159,7 @@
                         <pb n="1v"/>
                         <seg type="folio">[1v.]</seg>
                         Bitancurt</persName> asseverou ao <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
-                    <persName ref="#palacios">Palácios</persName> que tinha entregado os 332 1/2 pesos ao mesmo charqueador a quem 
+                    <persName ref="#palacios">Palácios</persName> que tinha entregado os <measure type="currency" unit="peso" quantity="332,5">trezentos trinta e dois e meio pesos</measure> ao mesmo charqueador a quem 
                     <persName ref="#manuel_severino_xavier">Manuel Severino Xavier</persName> vendeu a tropa.</p>
                 
                 <p>Deixando com esta explicação satisfeita a resposta à sua prezada de <date when="1849-10-19">19 do presente</date>, fico</p>
