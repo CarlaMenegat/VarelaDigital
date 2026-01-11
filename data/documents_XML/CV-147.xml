@@ -3,8 +3,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-147 – Secretaria da Guerra para Inácio José de Oliveira Guimarães</title>
-                <author>Serafim Joaquim de Alencastre</author>
+                <title>Ofício CV-147 – Secretaria dos Negócios da Guerra a Inácio José de Oliveira Guimarães</title>
+                <author>
+                    <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName>
+                </author>
                 <respStmt>
                     <resp>Transcrição e codificação TEI</resp>
                     <name>Carla Menegat</name>
@@ -14,6 +16,7 @@
                     <name>Carla Menegat</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
                 <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
                 <respStmt>
@@ -22,11 +25,13 @@
                 </respStmt>
                 <date when="2025-07-23">23 de julho de 2025</date>
             </editionStmt>
+            
             <extent>
-                <extent>1 carta</extent>
+                <extent>1 ofício</extent>
                 <measure type="pages">2</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
+            
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
                 <pubPlace>Porto Alegre</pubPlace>
@@ -34,11 +39,13 @@
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            
             <seriesStmt>
                 <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
                 <biblScope type="volume">Vol. II</biblScope>
                 <biblScope type="series">II Série</biblScope>
             </seriesStmt>
+            
             <notesStmt>
                 <note type="catalogue">
                     Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
@@ -48,6 +55,7 @@
                     Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
                 </note>
             </notesStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -67,6 +75,7 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
+                
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
@@ -89,10 +98,9 @@
         <profileDesc>
             <langUsage>
                 <language ident="pt-BR">Português do Brasil</language>
-                <language ident="pt-BR">
-                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
-                </language>
+                <language ident="pt-BR">Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.</language>
             </langUsage>
+            
             <correspDesc>
                 <correspAction type="sent">
                     <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName>
@@ -103,12 +111,12 @@
                     <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>
                 </correspAction>
             </correspDesc>
+            
             <handDesc>
-                <handNote xml:id="hand_main" medium="print">
-                    Texto conforme edição impressa dos Anais.
-                </handNote>
+                <handNote xml:id="hand_main" medium="print">Texto conforme edição impressa dos Anais.</handNote>
             </handDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -122,52 +130,41 @@
             </list>
         </revisionDesc>
     </teiHeader>
-
+    
     <facsimile>
         <surface xml:id="CV-147_1r" n="1r"/>
         <surface xml:id="CV-147_1v" n="1v"/>
     </facsimile>
-
-
+    
     <text>
         <body>
-            <div type="letter" xml:id="CV-147">
+            <div type="officialDocument" subtype="oficio" xml:id="CV-147">
                 
-                <opener><salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute></opener>
+                <opener>
+                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                </opener>
                 
-                <p>Nesta data se ordenou por parte do governo ao cidadão 
-                    <persName ref="#pedro_vieira">Coronel Pedro Vieira</persName> para promover, além de 
-                    <placeName ref="#camaqua">Camaquã</placeName>, uma reunião de todos os homens capazes de 
-                    empunhar armas, a fim de com ela colocar-se no ponto que julgue mais apropriado, 
-                    não só para observar os movimentos do inimigo, mas ainda para perseguir e bater 
-                    qualquer grupo que, durante a ausência da 
-                    <orgName ref="#divisao_esquerda">Divisão da Esquerda</orgName>, ouse pisar nosso território; 
-                    em consequência a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
-                    cumpre coadjuvá-lo em tudo aquilo que estiver ao seu 
-                    alcance, procedendo no seu município à reunião de todos aqueles homens que ainda 
-                    nele existam aptos para o serviço, suspendendo todas as portarias de isenção, 
-                    certo que a lei suprema é a salvação pública. Confio que para desempenho de tão 
-                    salutar providência <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
-                    fará, como costuma, todos os sacrifícios.</p>
+                <p>Nesta data se ordenou por parte do governo ao cidadão <persName ref="#pedro_vieira">Coronel Pedro Vieira</persName> 
+                    para promover, além de <placeName ref="#camaqua">Camaquã</placeName>, uma reunião de todos os homens capazes 
+                    de empunhar armas, a fim de com ela colocar-se no ponto que julgue mais apropriado, não só para observar os 
+                    movimentos do inimigo, mas ainda para perseguir e bater qualquer grupo que, durante a ausência da 
+                    <orgName ref="#divisao_esquerda">Divisão da Esquerda</orgName>, ouse pisar nosso território; em consequência a 
+                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> cumpre coadjuvá-lo em tudo aquilo que estiver 
+                    ao seu alcance, procedendo no seu município à reunião de todos aqueles homens que ainda nele existam aptos para 
+                    o serviço, suspendendo todas as portarias de isenção, certo que a lei suprema é a salvação pública. Confio que 
+                    para desempenho de tão salutar providência <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> fará, 
+                    como costuma, todos os sacrifícios.</p>
                 
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
-                    <dateline>
-                        <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName> em
-                        <placeName ref="#cacapava">Caçapava</placeName>,
-                        <date when="1840-04-01">1.º de abril de 1840</date>
-                    </dateline>
+                    <dateline><orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, <date when="1840-04-01">1.º de abril de 1840</date>.</dateline>
                     <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.</addressee>
                     <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
                 <note type="endorsement" place="1v">
-                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.  
-                    
-                    Ofício do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <persName ref="#serafim_alencastre">Ministro da Guerra</persName> de 
-                    <date when="1840-04-01">1.º de abril</date>, recebido a <date when="1840-04-09">9 do mesmo,</date>  
-                    ordenando a reunião do departamento e fazê-la marchar às ordens do 
-                    <persName ref="#pedro_vieira">Coronel Vieira</persName>.
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.
+                    Ofício do <roleName>Ministro da Guerra</roleName> <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName> de <date when="1840-04-01">1.º de abril</date>, recebido a <date when="1840-04-09">9 do mesmo</date>, ordenando a reunião do departamento e fazê-la marchar às ordens do <persName ref="#pedro_vieira">Coronel Vieira</persName>.
                 </note>
                 
             </div>

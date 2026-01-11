@@ -3,8 +3,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>CV-142 — Ofício de Serafim Joaquim de Alencastre a João Antônio da Silveira</title>
-                <author>Serafim Joaquim de Alencastre</author>
+                <title>Ofício CV-142 – Resposta da Secretaria da Guerra a João Antônio da Silveira</title>
+                <author>
+                    <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName>
+                </author>
                 <respStmt>
                     <resp>Transcrição e codificação TEI</resp>
                     <name>Carla Menegat</name>
@@ -23,7 +25,7 @@
                 <date when="2025-07-23">23 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <extent>1 carta</extent>
+                <extent>1 ofício</extent>
                 <measure type="pages">1</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
@@ -95,6 +97,7 @@
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
+                    <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName>
                     <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
                     <placeName ref="#cacapava">Caçapava</placeName>
                     <date when="1840-03-19">19 de março de 1840</date>
@@ -130,7 +133,7 @@
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-142">
+            <div type="officialDocument" subtype="oficio" xml:id="CV-142">
                 <opener>
                     <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
@@ -159,7 +162,7 @@
                         <date when="1840-03-19">19 de março de 1840</date>.
                     </dateline>
                     <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>.</addressee>
-                    <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>.</signed>
+                    <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
             </div>

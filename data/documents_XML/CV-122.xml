@@ -3,7 +3,7 @@
         <fileDesc>
             <titleStmt>
                 <title>CV-122 — Carta de Serafim Joaquim de Alencastre para João Antônio da Silveira</title>
-                <author >Serafim Joaquim de Alencastre</author>
+                <author>Serafim Joaquim de Alencastre</author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -54,13 +54,16 @@
                             <date when="1978">1978</date>
                             <biblScope type="volume">2</biblScope>
                             <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            
+                            <!-- Ajuste mínimo: manter só o que foi efetivamente impresso e explicar o "esperado" na nota -->
                             <biblScope unit="page" from="120" to="120">120</biblScope>
-                            <biblScope unit="page" from="107" to="107">107</biblScope>
+                            
                             <note type="editorial">
                                 A paginação desta carta reflete um erro de impressão na edição de 1978:
                                 o conteúdo que deveria ocupar a página 108 foi impresso na página 120,
                                 deslocando a sequência até a página 119.
                             </note>
+                            
                             <measure type="extent">23 cm</measure>
                         </imprint>
                     </monogr>
@@ -90,9 +93,7 @@
         <profileDesc>
             <langUsage>
                 <language ident="pt-BR">Português do Brasil</language>
-                <language ident="pt-BR">
-                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
-                </language>
+                <language ident="pt-BR">Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.</language>
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
@@ -105,11 +106,10 @@
                 </correspAction>
             </correspDesc>
             <handDesc>
-                <handNote xml:id="hand_main" medium="print">
-                    Texto conforme edição impressa dos Anais.
-                </handNote>
+                <handNote xml:id="hand_main" medium="print">Texto conforme edição impressa dos Anais.</handNote>
             </handDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -123,16 +123,15 @@
             </list>
         </revisionDesc>
     </teiHeader>
-
+    
     <facsimile>
         <surface xml:id="CV-122_1r" n="1r"/>
         <surface xml:id="CV-122_1v" n="1v"/>
     </facsimile>
-
     
     <text>
         <body>
-            <div type="letter">
+            <div type="letter" xml:id="CV-122">
                 <opener>
                     <dateline>
                         <placeName ref="#cacapava">Caçapava</placeName>,
@@ -143,11 +142,11 @@
                 
                 <p>
                     Posto que o nosso conhecimento seja mui antigo, apesar de
-                    que não esteja radicado por relações mais estreitas, contudo, 
-                    persuadido que tenha chegado ao conhecimento de 
-                    <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
+                    que não esteja radicado por relações mais estreitas, contudo,
+                    persuadido que tenha chegado ao conhecimento de
+                    <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>
                     o decreto do governo de 13 do corrente, eu não devo deixar de me dirigir
-                    a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
+                    a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>
                     para lhe fazer sentir o quanto eu estou bem penetrado do
                     melindroso de minha posição, prevalecendo-me da estranha sensação
                     que precisamente deverá despertar, ao mesmo passo que foram
@@ -181,7 +180,7 @@
                     <seg type="folio">[1v.]</seg>
                     mamente se não satisfizer as esperanças dos bons patriotas
                     e a espectação do vulgo, que nem sempre é justo a respeito de nossas ações.
-                    Espero a resposta de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
+                    Espero a resposta de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>
                     e que, com franqueza, aprove
                     ou desaprove a minha resolução.
                 </p>
@@ -193,7 +192,6 @@
                     </salute>
                     <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
-                
             </div>
         </body>
     </text>

@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-152 – Serafim Joaquim de Alencastre para o Comandante Geral de Polícia do Boqueirão</title>
+                <title>Ofício CV-152 – Serafim Joaquim de Alencastre ao Comandante Geral de Polícia do Boqueirão</title>
                 <author>Serafim Joaquim de Alencastre</author>
                 <respStmt>
                     <resp>Transcrição e codificação TEI</resp>
@@ -23,7 +23,7 @@
                 <date when="2025-07-25">25 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <extent>1 carta</extent>
+                <extent>1 ofício</extent>
                 <measure type="pages">2</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
@@ -89,9 +89,7 @@
         <profileDesc>
             <langUsage>
                 <language ident="pt-BR">Português do Brasil</language>
-                <language ident="pt-BR">
-                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
-                </language>
+                <language ident="pt-BR">Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.</language>
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
@@ -104,11 +102,10 @@
                 </correspAction>
             </correspDesc>
             <handDesc>
-                <handNote xml:id="hand_main" medium="print">
-                    Texto conforme edição impressa dos Anais.
-                </handNote>
+                <handNote xml:id="hand_main" medium="print">Texto conforme edição impressa dos Anais.</handNote>
             </handDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -122,16 +119,15 @@
             </list>
         </revisionDesc>
     </teiHeader>
-
+    
     <facsimile>
         <surface xml:id="CV-152_1r" n="1r"/>
         <surface xml:id="CV-152_1v" n="1v"/>
     </facsimile>
-
-
+    
     <text>
         <body>
-            <div type="letter" xml:id="CV-152">
+            <div type="officialDocument" subtype="oficio" xml:id="CV-152">
                 
                 <opener>
                     <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
@@ -154,16 +150,24 @@
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
                     <addressee>
-                        <persName ref="#inacio_guimaraes">Comandante Geral de Polícia</persName> 
-                        do Departamento do <placeName ref="#sao_lourenco">Boqueirão</placeName>.
+                        <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>,
+                        Comandante Geral de Polícia do Departamento do <placeName ref="#sao_lourenco">Boqueirão</placeName>.
                     </addressee>
                     <dateline>Quartel-general em <placeName ref="#bage">Bagé</placeName>, 
-                        <date when="1841-10-04">4 de outubro 1841</date>.</dateline>
-                    <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName> 1.º Deputado do <persName ref="#bento_goncalves">General Chefe do Estado-maior do Exército</persName></signed>
+                        <date when="1841-10-04">4 de outubro de 1841</date>.
+                    </dateline>
+                    <signed>
+                        <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>,
+                        <roleName>1.º Deputado do</roleName>
+                        <persName ref="#bento_goncalves">General Chefe do Estado-maior do Exército</persName>.
+                    </signed>
                 </closer>
                 
                 <note type="endorsement" place="1v">
-                    <choice><abbr>S. da R.</abbr><expan><orgName ref="#secretaria_presidencia_republica">Secretaria da Presidência da República</orgName></expan></choice>
+                    <choice>
+                        <abbr>S. da R.</abbr>
+                        <expan><orgName ref="#secretaria_presidencia_republica">Secretaria da Presidência da República</orgName></expan>
+                    </choice>
                     Ao cidadão <persName ref="#inacio_guimaraes">Chefe Geral de Polícia</persName> do 
                     departamento do <placeName ref="#sao_lourenco">Boqueirão</placeName>,  
                     do 1.º Deputado do General Chefe do Estado-maior.  

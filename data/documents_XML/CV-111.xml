@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Documento CV-111 – Requerimento (fragmentário)</title>
+                <title>CV-111 – Requerimento fragmentário de Antônio de Melo e Albuquerque</title>
                 <author>
                     <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName>
                 </author>
@@ -21,7 +21,7 @@
                 <date when="2025-07-12">12 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <extent>1 documento</extent>
+                <extent>1 requerimento fragmentário</extent>
                 <measure type="pages">4</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
@@ -133,7 +133,7 @@
     
     <text>
         <body>
-            <div type="legal" subtype="petition" xml:id="CV-111">
+            <div type="officialDocument" subtype="petition" xml:id="CV-111">
                 
                 <head>Requerimento (fragmentário)</head>
                 

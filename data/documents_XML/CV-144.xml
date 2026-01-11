@@ -3,8 +3,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-144 – Secretaria da Guerra para João Antônio da Silveira</title>
-                <author>Serafim Joaquim de Alencastre</author>
+                <title>Ofício CV-144 – Secretaria da Guerra a João Antônio da Silveira</title>
+                <author>
+                    <orgName ref="#ministerio_guerra">Secretaria dos Negócios da Guerra</orgName>
+                </author>
                 <respStmt>
                     <resp>Transcrição e codificação TEI</resp>
                     <name>Carla Menegat</name>
@@ -131,7 +133,7 @@
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-144">
+            <div type="officialDocument" subtype="oficio" xml:id="CV-144">
                 <opener>
                     <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>

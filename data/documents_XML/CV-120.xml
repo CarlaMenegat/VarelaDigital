@@ -96,9 +96,8 @@
                     <date when="1836-10-27">27 de outubro de 1836</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Tenente-general das forças da capital de 
-                        <placeName ref="#porto_alegre">Porto Alegre</placeName>
-                    </persName>
+                    <roleName>Tenente-general das forças da capital</roleName>
+                    <placeName ref="#porto_alegre">Porto Alegre</placeName>
                 </correspAction>
             </correspDesc>
             <handDesc>
@@ -125,49 +124,66 @@
         <surface xml:id="CV-120_1r" n="1r"/>
         <surface xml:id="CV-120_1v" n="1v"/>
     </facsimile>
-
+    
     
     <text>
         <body>
             <div type="letter" xml:id="CV-120">
                 
                 <opener>
-                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e
+                        <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice>
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                    </salute>
                 </opener>
                 
-                <p>Tendo-me o <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
-                    Presidente ordenado por ofício que eu
+                <p>
+                    Tendo-me o <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice>
+                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente ordenado por ofício que eu
                     tomasse conta do emprego das autoridades deste distrito, para o
                     que vinha competente força para me coadjuvar, pois que não me
                     devo fiar nos anarquistas do mesmo distrito que por obrigados se
                     apresentaram em revista, é de grande necessidade que a pequena
-                    força que aqui se acha comandada pelo Tenente Antônio Pedro,
-                    digo, João Pedro, se não retire deste mesmo distrito, porque se
-                    mostra com certeza que pelas imediações do <placeName ref="#arroio_velhaco"></placeName>Velhaco há anarquis-
+                    força que aqui se acha comandada pelo Tenente
+                    <choice>
+                        <sic>Antônio Pedro</sic>
+                        <corr>João Pedro</corr>
+                    </choice>,
+                    se não retire deste mesmo distrito, porque se
+                    mostra com certeza que pelas imediações do
+                    <placeName ref="#arroio_velhaco">Arroio Velhaco</placeName> há anarquis-
                     tas refugiados em malocas, onde nestas é de supor se acham o cé-
                     lebre <persName ref="#manuel_antonio_celebre">Manuel Antônio</persName>, anarquista, ex-juiz de paz, e o do distrito
                     vizinho de São João por nome <persName ref="#joao_evangelista_tavares">João Evangelista</persName>; portanto, é de
                     grande precisão que se conserve aqui uma força equivalente para
                     repelir algum assalto destes malvados que suas tenções é assassi-
                     narem os pacíficos, e ainda os mesmos companheiros deles que aqui
-                    se apresentaram.</p>
+                    se apresentaram.
+                </p>
                 
-                <p>Eu espero que <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> 
+                <p>
+                    Eu espero que <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>
                     providencie o mais possível a fim de termos
                     algum sossego em um distrito onde eu estou <gap reason="illegible"/> destes honrados
-                    homens <gap reason="illegible"/> 
+                    homens <gap reason="illegible"/>
                     <pb n="1v"/>
                     <seg type="folio">[1v.]</seg>
                     porque se eu tomei conta do juizado é para fazer respeitar
                     <gap reason="illegible"/> autoridades legais e entre anarquistas não me é possível sem
-                    risco de vidas.</p>
+                    risco de vidas.
+                </p>
                 
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muitos anos.</salute>
-                    <dateline><placeName ref="#dores_camaqua">Distrito das Dores</placeName>, 
+                    <dateline>
+                        <placeName ref="#dores_camaqua">Distrito das Dores</placeName>,
                         <date when="1836-10-27">27 de outubro de 1836</date>.
                     </dateline>
-                    <signed><persName ref="#manuel_alencastre">Manuel José de Alencastre</persName>, Juiz de paz da capela das <placeName ref="#dores_camaqua">Dores</placeName>.</signed>
+                    <signed>
+                        <persName ref="#manuel_jose_alencastre">Manuel José de Alencastre</persName>,
+                        Juiz de paz da capela das <placeName ref="#dores_camaqua">Dores</placeName>.
+                    </signed>
                 </closer>
                 
             </div>

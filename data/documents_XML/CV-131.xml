@@ -3,9 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-131 – Circular do Ministério da Guerra para João Antônio da Silveira</title>
+                <title>Circular CV-131 – Remessa de exemplares de decreto</title>
                 <author>
-                    <orgName>Secretaria dos Negócios da Guerra</orgName>
+                    <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName>
                 </author>
                 <respStmt>
                     <resp>Edição digital</resp>
@@ -128,15 +128,17 @@
     
     <text>
         <body>
-            <div type="circular" xml:id="CV-131">
+            <div type="officialDocument" subtype="circular" xml:id="CV-131">
                 
                 <opener>
                     <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
                 <p>
-                    Inclusos remeto a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 12 exemplares do decreto <date when="1839-12-22">desta data</date>,
-                    para que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> faça a efetiva sua publicidade e execução.
+                    Inclusos remeto a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 12 exemplares do decreto 
+                    <date when="1839-12-22">desta data</date>,
+                    para que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> faça a efetiva sua publicidade 
+                    e execução.
                 </p>
                 
                 <closer>
@@ -150,9 +152,11 @@
                 </closer>
                 
             </div>
-
-            <div type="attachment" subtype="printed">
-                <note type="editorial">Circular impressa anexada ao ofício.</note>
+            
+            <div type="attachment" subtype="decree">
+                <note type="editorial">
+                    Circular impressa anexada ao ofício.
+                </note>
             </div>
         </body>
     </text>

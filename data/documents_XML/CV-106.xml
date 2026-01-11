@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Petição CV-106 – Petição de Antônio de Melo e Albuquerque para o General-em-chefe</title>
+                <title>CV-106 – Petição de Antônio de Melo e Albuquerque ao General-em-chefe</title>
                 <author><persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName></author>
                 <respStmt>
                     <resp>Edição digital</resp>
@@ -19,7 +19,7 @@
                 <date when="2025-07-09">09 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <extent>1 documento</extent>
+                <extent>1 petição administrativa</extent>
                 <measure type="pages">2</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
@@ -128,7 +128,7 @@
     
     <text>
         <body>
-            <div type="petition" xml:id="CV-106">
+            <div type="officialDocument" subtype="petition" xml:id="CV-106">
                 <head>Petição de Antônio de Melo e Albuquerque ao General-em-chefe</head>
                 
                 <opener>

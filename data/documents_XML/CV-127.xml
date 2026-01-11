@@ -85,9 +85,7 @@
         <profileDesc>
             <langUsage>
                 <language ident="pt-BR">Português do Brasil</language>
-                <language ident="pt-BR">
-                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
-                </language>
+                <language ident="pt-BR">Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.</language>
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
@@ -100,11 +98,10 @@
                 </correspAction>
             </correspDesc>
             <handDesc>
-                <handNote xml:id="hand_main" medium="print">
-                    Texto conforme edição impressa dos Anais.
-                </handNote>
+                <handNote xml:id="hand_main" medium="print">Texto conforme edição impressa dos Anais.</handNote>
             </handDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -118,12 +115,11 @@
             </list>
         </revisionDesc>
     </teiHeader>
-
+    
     <facsimile>
         <surface xml:id="CV-127_1r" n="1r"/>
         <surface xml:id="CV-127_1v" n="1v"/>
     </facsimile>
-
     
     <text>
         <body>
@@ -134,8 +130,8 @@
                 </opener>
                 
                 <p>
-                    Passo às mãos de <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>, por cópia, o ofício anexo do 
-                    <persName ref="#gomes_porto"></persName>Juiz de Paz de <placeName ref="#santa_maria">Santa Maria</placeName> e a portaria inclusa. Pelo ofício
+                    Passo às mãos de <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>, por cópia, o ofício anexo do
+                    <persName ref="#gomes_porto">Gomes Porto</persName>, Juiz de Paz de <placeName ref="#santa_maria">Santa Maria</placeName> e a portaria inclusa. Pelo ofício
                     de <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> de 16 do corrente, por participações daquele mesmo juiz
                     de paz e de outros cidadãos, vejo que o negócio é mais sério do
                     que pensava e que por consequência é necessário encará-lo com a
@@ -145,7 +141,7 @@
                 <p>
                     A portaria e o mesmo ofício mostram concludentemente quem são
                     os influentes, e quase todos têm sido anistiados pelo governo.
-                    Ao <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> General <persName ref="#bento_manoel">Bento Manuel</persName> 
+                    Ao <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> General <persName ref="#bento_manoel">Bento Manuel</persName>
                     e a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> cumpre mais principalmente
                     tomarem as medidas convenientes para impedir que esse fermento,
                     a que já se pode dar o nome de força, tenha maior incremento,
@@ -154,23 +150,22 @@
                 </p>
                 
                 <p>
-                    Uma vez que caiam em poder de <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> alguns dos chefes 
-                    mencionados pelo Juiz de Paz <persName ref="#gomes_porto">Gomes Porto</persName> no ofício junto, 
+                    Uma vez que caiam em poder de <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> alguns dos chefes
+                    mencionados pelo Juiz de Paz <persName ref="#gomes_porto">Gomes Porto</persName> no ofício junto,
                     <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> lhes
-                    deverá aplicar o disposto no decreto do Governo de <date when="1839-02-05">5 de fevereiro</date> do corrente ano, 
+                    deverá aplicar o disposto no decreto do Governo de <date when="1839-02-05">5 de fevereiro</date> do corrente ano,
                     porque quase todos hão sido prisioneiros
                     e anistiados, e se acham nas circunstâncias marcadas pelo mesmo
                     decreto.
                 </p>
                 
+                <pb n="1v"/>
+                <seg type="folio">[1v.]</seg>
+                
                 <closer>
-                    <salute>
-                        Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>
-                        <pb n="1v"/>
-                        <seg type="folio">[1v.]</seg>
-                    </salute>
+                    <salute>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
                     <dateline>
-                        <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName> em 
+                        <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName> em
                         <placeName ref="#cacapava">Caçapava</placeName>, <date when="1839-12-19">19 de dezembro de 1839</date>.
                     </dateline>
                     <addressee>
@@ -180,7 +175,7 @@
                     <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
-                <note type="endorsement">
+                <note type="endorsement" place="1v">
                     Respondido a <date when="1839-12-22">22 do corrente</date>.
                 </note>
                 

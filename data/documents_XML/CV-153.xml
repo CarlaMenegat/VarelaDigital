@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-153 – Serafim Joaquim de Alencastre para João Antônio da Silveira</title>
+                <title>Ofício CV-153 – Serafim Joaquim de Alencastre a João Antônio da Silveira</title>
                 <author>Serafim Joaquim de Alencastre</author>
                 <respStmt>
                     <resp>Transcrição e codificação TEI</resp>
@@ -23,7 +23,7 @@
                 <date when="2025-07-25">25 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <extent>1 carta</extent>
+                <extent>1 ofício</extent>
                 <measure type="pages">2</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
@@ -131,7 +131,7 @@
 
     <text>
         <body>
-            <div type="letter" xml:id="CV-153">
+            <div type="officialDocument" subtype="oficio" xml:id="CV-153">
                     
                 <opener>
                     <salute><choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>

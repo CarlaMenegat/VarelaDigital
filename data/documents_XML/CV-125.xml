@@ -3,8 +3,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-125 – Serafim Joaquim de Alencastre para João Antônio da Silveira</title>
-                <author>Serafim Joaquim de Alencastre</author>
+                <title>Ofício CV-125 – Secretaria da Guerra para João Antônio da Silveira</title>
+                <author>
+                    <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName>
+                </author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -19,7 +21,7 @@
                 <date when="2025-07-12">12 de julho de 2025</date>
             </editionStmt>
             <extent>
-                <extent>1 carta</extent>
+                <extent>1 ofício</extent>
                 <measure type="pages">2</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
@@ -85,30 +87,28 @@
         <profileDesc>
             <langUsage>
                 <language ident="pt-BR">Português do Brasil</language>
-                <language ident="pt-BR">
-                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
-                </language>
+                <language ident="pt-BR">Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.</language>
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
+                    <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName>
                     <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
-                    <date when="1839-12-18">18 de dezembro de 1839</date>
                     <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1839-12-18">18 de dezembro de 1839</date>
                 </correspAction>
                 <correspAction type="received">
                     <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
                 </correspAction>
             </correspDesc>
             <handDesc>
-                <handNote xml:id="hand_main" medium="print">
-                    Texto conforme edição impressa dos Anais.
-                </handNote>
+                <handNote xml:id="hand_main" medium="print">Texto conforme edição impressa dos Anais.</handNote>
             </handDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2025-07-18">18/07/2025</date>
+                    <date when="2025-07-12">12/07/2025</date>
                     Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
                 </item>
                 <item>
@@ -118,58 +118,66 @@
             </list>
         </revisionDesc>
     </teiHeader>
-
+    
     <facsimile>
         <surface xml:id="CV-125_1r" n="1r"/>
         <surface xml:id="CV-125_1v" n="1v"/>
     </facsimile>
-
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-125">
+            <div type="officialDocument" subtype="oficio" xml:id="CV-125">
                 
                 <opener>
                     <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Foi presente ao <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Vice-presidente da República o ofício 
-                    de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> de 16 do corrente, e, inteirado do que 
-                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> comunica, <choice><abbr>S. Ex.ª</abbr><expan>Sua Excelência</expan></choice> 
-                    manda responder a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> que, sabendo por outros canais a 
-                    aparição dessa força e seu ingresso em <placeName ref="#santa_maria">Santa Maria</placeName>, tem dado as providências 
-                    que em tal caso cumpriam pôr-se em ação e que estavam à disposição do governo; todavia recomenda a 
-                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> que se dirija ao <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> General 
-                    <persName ref="#bento_manoel">Bento Manuel</persName> e ao Tenente-coronel <persName ref="#jose_gomes_portinho">Portinho</persName>, 
-                    que a esta hora estará em movimento com o corpo de seu mando, mas como é de presumir venha pela [sic] por 
-                    <placeName ref="#sao_francisco">São Francisco</placeName> ou <placeName ref="#sao_xavier">São Xavier</placeName>, 
-                    talvez venha a ficar isolado. Em todo o caso veja <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> se bate o inimigo, e 
-                    quando o não possa fazer pela inferioridade de sua força e ele se encaminhe para cá, então deverá 
-                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> tomar-lhe a frente, o flanco ou a retaguarda, 
-                    e trazê-lo sempre em vistas, e aqui o esperaremos a pé firme. As participações do Major 
-                    <persName ref="#fontoura">Fontoura</persName> e do Juiz de Paz <persName ref="#porto">Porto</persName> me asseveram 
-                    que a força inimiga é de cento e tantos homens; por isso espera o governo que 
-                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> dê uma noção circunstanciada de seu número certo, 
-                    se veio gente de <placeName ref="#sao_paulo">São Paulo</placeName>, que força tem <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>, 
+                <p>
+                    Foi presente ao <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Vice-presidente da República o ofício
+                    de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> de <date when="1839-12-16">16 do corrente</date>, e, inteirado do que
+                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> comunica, <choice><abbr>S. Ex.ª</abbr><expan>Sua Excelência</expan></choice>
+                    manda responder a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> que, sabendo por outros canais a
+                    aparição dessa força e seu ingresso em <placeName ref="#santa_maria">Santa Maria</placeName>, tem dado as providências
+                    que em tal caso cumpriam pôr-se em ação e que estavam à disposição do governo; todavia recomenda a
+                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> que se dirija ao <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> General
+                    <persName ref="#bento_manoel">Bento Manuel</persName> e ao Tenente-coronel <persName ref="#jose_gomes_portinho">Portinho</persName>,
+                    que a esta hora estará em movimento com o corpo de seu mando, mas como é de presumir venha <sic>pela</sic> por
+                    <placeName ref="#sao_francisco">São Francisco</placeName> ou <placeName ref="#sao_xavier">São Xavier</placeName>,
+                    talvez venha a ficar isolado.
+                </p>
+                
+                <p>
+                    Em todo o caso veja <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> se bate o inimigo, e
+                    quando o não possa fazer pela inferioridade de sua força e ele se encaminhe para cá, então deverá
+                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> tomar-lhe a frente, o flanco ou a retaguarda,
+                    e trazê-lo sempre em vistas, e aqui o esperaremos a pé firme. As participações do Major
+                    <persName ref="#fontoura">Fontoura</persName> e do Juiz de Paz <persName ref="#gomes_porto">Porto</persName> me asseveram
+                    que a força inimiga é de cento e tantos homens; por isso espera o governo que
+                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> dê uma noção circunstanciada de seu número certo,
+                    se veio gente de <placeName ref="#sao_paulo">São Paulo</placeName>, que força tem <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>,
                     que reuniões espera, e se pretende atacar o inimigo, e em suma, do que for ocorrendo.
-                    A cópia junta informará a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> que o inimigo, 
-                    ou parte de sua força, inda permanece pelas proximidades de <placeName ref="#santa_maria">Santa Maria</placeName>, 
-                    e como o inimigo aparece aquém de <placeName ref="#sao_goncalo">São Gonçalo</placeName>, talvez haja alguma combinação, 
-                    e nesta hipótese preciso é que tudo se empreenda para baldar-lhe a junção que premeditam. O <orgName ref="#corpo_lanceiros_2">2.º Corpo de Lanceiros</orgName> 
+                </p>
+                
+                <p>
+                    A cópia junta informará a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> que o inimigo,
+                    ou parte de sua força, inda permanece pelas proximidades de <placeName ref="#santa_maria">Santa Maria</placeName>,
+                    e como o inimigo aparece aquém de <placeName ref="#sao_goncalo">São Gonçalo</placeName>, talvez haja alguma combinação,
+                    e nesta hipótese preciso é que tudo se empreenda para baldar-lhe a junção que premeditam. O <orgName ref="#corpo_lanceiros_2">2.º Corpo de Lanceiros</orgName>
                     estará talvez disponível, e poderá engrossar a força de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.
-                    O Coronel <persName ref="#agostinho_antonio_mello">Agostinho</persName> deverá subir com alguma gente pela 
-                    <placeName ref="#picada_botucarai">Picada do Botucaraí</placeName> e o Major <persName ref="#fontoura">Fontoura</persName> 
-                    me participou que se encaminhava para <placeName ref="#santa_maria">Santa Maria</placeName> e mui conveniente seria 
-                    que obrassem de acordo e combinação. Se neste município se efetuar as reuniões a que se deram princípio, talvez 
+                    O Coronel <persName ref="#agostinho_antonio_mello">Agostinho</persName> deverá subir com alguma gente pela
+                    <placeName ref="#picada_botucarai">Picada do Botucaraí</placeName> e o Major <persName ref="#fontoura">Fontoura</persName>
+                    me participou que se encaminhava para <placeName ref="#santa_maria">Santa Maria</placeName> e mui conveniente seria
+                    que obrassem de acordo e combinação. Se neste município se efetuar as reuniões a que se deram princípio, talvez
                     será possível desprender-se alguma força para essa parte etc.
-                    O Furriel <persName ref="#teodoro_medeiros">Teodoro José de Medeiros</persName>, portador, será em parte satisfeito do 
-                    que requer, não podendo ser em tudo porque o <orgName ref="#trem_guerra_farroupilha">Trem de Guerra</orgName> 
-                    se acha exausto de muitos gêneros principais.</p>
+                    O Furriel <persName ref="#teodoro_medeiros">Teodoro José de Medeiros</persName>, portador, será em parte satisfeito do
+                    que requer, não podendo ser em tudo porque o <orgName ref="#trem_guerra_farroupilha">Trem de Guerra</orgName>
+                    se acha exausto de muitos gêneros principais.
+                </p>
                 
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
                     <dateline>
-                        <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName> em 
+                        <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName> em
                         <placeName ref="#cacapava">Caçapava</placeName>, <date when="1839-12-18">18 de dezembro de 1839</date>.
                     </dateline>
                     <addressee>
@@ -179,7 +187,9 @@
                     <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
-                <note type="endorsement" place="1r">Respondido a <date when="1839-12-21">21 do corrente.</date></note>
+                <note type="endorsement" place="1r">
+                    Respondido a <date when="1839-12-21">21 do corrente</date>.
+                </note>
                 
             </div>
         </body>

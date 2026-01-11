@@ -3,13 +3,14 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-138 – Serafim Joaquim de Alencastre para Inácio José de Oliveira Guimarães</title>
+                <title>Ofício CV-138 – Serafim Joaquim de Alencastre a Inácio José de Oliveira Guimarães</title>
                 <author>Serafim Joaquim de Alencastre</author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
                 <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
                 <respStmt>
@@ -18,11 +19,13 @@
                 </respStmt>
                 <date when="2025-07-21">21 de julho de 2025</date>
             </editionStmt>
+            
             <extent>
-                <extent>1 carta</extent>
+                <extent>1 ofício</extent>
                 <measure type="pages">2</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
+            
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
                 <pubPlace>Porto Alegre</pubPlace>
@@ -30,11 +33,13 @@
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            
             <seriesStmt>
                 <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
                 <biblScope type="volume">Vol. II</biblScope>
                 <biblScope type="series">II Série</biblScope>
             </seriesStmt>
+            
             <notesStmt>
                 <note type="catalogue">
                     Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
@@ -44,6 +49,7 @@
                     Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
                 </note>
             </notesStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -63,6 +69,7 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
+                
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
@@ -85,10 +92,9 @@
         <profileDesc>
             <langUsage>
                 <language ident="pt-BR">Português do Brasil</language>
-                <language ident="pt-BR">
-                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
-                </language>
+                <language ident="pt-BR">Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.</language>
             </langUsage>
+            
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
@@ -96,17 +102,15 @@
                     <date when="1840-02-29">29 de fevereiro de 1840</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#inacio_guimaraes">
-                        Inácio José de Oliveira Guimarães
-                    </persName>
+                    <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>
                 </correspAction>
             </correspDesc>
+            
             <handDesc>
-                <handNote xml:id="hand_main" medium="print">
-                    Texto conforme edição impressa dos Anais.
-                </handNote>
+                <handNote xml:id="hand_main" medium="print">Texto conforme edição impressa dos Anais.</handNote>
             </handDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -120,62 +124,72 @@
             </list>
         </revisionDesc>
     </teiHeader>
-
+    
     <facsimile>
         <surface xml:id="CV-138_1r" n="1r"/>
         <surface xml:id="CV-138_1v" n="1v"/>
     </facsimile>
-
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-138">
+            <div type="officialDocument" subtype="oficio" xml:id="CV-138">
                 
                 <opener>
-                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice>
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                    </salute>
                 </opener>
                 
-                <p>Para conhecimento de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> e devida execução na parte que
-                    lhe toca, incluso lhe remeto 4 exemplares do decreto de <date when="1840-02-29">hoje</date>
-                    pelo qual <choice><abbr>S. Exª.</abbr><expan>Sua Excelência</expan></choice> o 
+                <p>
+                    Para conhecimento de <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> e devida execução na parte que
+                    lhe toca, incluso lhe remeto 4 exemplares do decreto de <date when="1840-02-29">hoje</date>,
+                    pelo qual <choice><abbr>S. Ex.ª</abbr><expan>Sua Excelência</expan></choice> o
                     <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Vice-presidente da República houve por bem
                     determinar que o decreto de <date when="1839-12-12">12 de dezembro último</date> seja executado
-                    logo que recebido pelas autoridades a quem foram dirigidos.</p>
+                    logo que recebido pelas autoridades a quem foram dirigidos.
+                </p>
                 
                 <closer>
-                    <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
-                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</addressee>
+                    <salute>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
+                    
                     <dateline>
-                        <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>,
+                        <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName> em
+                        <placeName ref="#cacapava">Caçapava</placeName>,
                         <date when="1840-02-29">29 de fevereiro de 1840</date>.
                     </dateline>
+                    
+                    <addressee>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice>
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                        <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.
+                    </addressee>
+                    
                     <signed>
                         <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
                     </signed>
                 </closer>
                 
                 <note type="endorsement" place="1v">
-                    Ofício do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Ministro da Guerra de <date when="1840-02-29">29 de fevereiro</date>, recebido
-                    a <date when="1840-03-12">12 de março</date>, mandando executar de pronto o disposto sobre
-                    passaportes.<br/>
+                    Ofício do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Ministro da Guerra de
+                    <date when="1840-02-29">29 de fevereiro</date>, recebido a <date when="1840-03-12">12 de março</date>,
+                    mandando executar de pronto o disposto sobre passaportes.
                 </note>
                 
                 <note type="endorsement" place="1v">
-                    <choice><abbr>S. da R.</abbr><expan>Secretaria da República</expan></choice><br/>
-                    Ao cidadão 
-                    <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>, 
-                    Comandante Geral de Polícia do Departamento do Boqueirão.<br/>
-                    Do Ministro da Guerra<br/>.
+                    <choice>
+                        <abbr>S. da R.</abbr>
+                        <expan>Secretaria da Presidência da República</expan>
+                    </choice><lb/>
+                    Ao cidadão <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>,
+                    Comandante Geral de Polícia do Departamento do Boqueirão.<lb/>
+                    Do Ministro da Guerra.<lb/>
                     <placeName ref="#cacapava">Caçapava</placeName>.
                 </note>
                 
-                <note type="endorsement" place="1v">
-                    <seal type="stamp">
-                        <desc>
-                            Carimbo na <seg type="folio">folha 1v.</seg>.
-                        </desc>
-                    </seal>
-                </note>
+                <seal type="stamp" place="1v">
+                    <desc>Carimbo na <seg type="folio">folha 1v</seg>.</desc>
+                </seal>
                 
                 <note type="editorial">Exemplar impresso de um decreto anexo ao documento CV-138.</note>
                 

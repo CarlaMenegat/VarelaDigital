@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-130 – Serafim Joaquim de Alencastre para Inácio José de Oliveira Guimarães</title>
+                <title>Ofício CV-130 – Serafim Joaquim de Alencastre para Inácio José de Oliveira Guimarães</title>
                 <author>
                     <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
                 </author>
@@ -12,6 +12,7 @@
                     <name>Carla Menegat</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
                 <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
                 <respStmt>
@@ -20,11 +21,13 @@
                 </respStmt>
                 <date when="2025-07-18">18 de julho de 2025</date>
             </editionStmt>
+            
             <extent>
-                <extent>1 carta</extent>
+                <extent>1 ofício</extent>
                 <measure type="pages">2</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
+            
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
                 <pubPlace>Porto Alegre</pubPlace>
@@ -32,11 +35,13 @@
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            
             <seriesStmt>
                 <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
                 <biblScope type="volume">Vol. II</biblScope>
                 <biblScope type="series">II Série</biblScope>
             </seriesStmt>
+            
             <notesStmt>
                 <note type="catalogue">
                     Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
@@ -46,6 +51,7 @@
                     Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
                 </note>
             </notesStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -87,10 +93,9 @@
         <profileDesc>
             <langUsage>
                 <language ident="pt-BR">Português do Brasil</language>
-                <language ident="pt-BR">
-                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
-                </language>
+                <language ident="pt-BR">Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.</language>
             </langUsage>
+            
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
@@ -101,12 +106,12 @@
                     <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>
                 </correspAction>
             </correspDesc>
+            
             <handDesc>
-                <handNote xml:id="hand_main" medium="print">
-                    Texto conforme edição impressa dos Anais.
-                </handNote>
+                <handNote xml:id="hand_main" medium="print">Texto conforme edição impressa dos Anais.</handNote>
             </handDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -120,51 +125,72 @@
             </list>
         </revisionDesc>
     </teiHeader>
-
+    
     <facsimile>
         <surface xml:id="CV-130_1r" n="1r"/>
         <surface xml:id="CV-130_1v" n="1v"/>
     </facsimile>
-
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-130">
+            <div type="officialDocument" subtype="oficio" xml:id="CV-130">
                 
                 <opener>
-                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice>
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                    </salute>
                 </opener>
                 
-                <p>Apesar do que se lhe ordenou pela circular que, com data de <date when="1839-12-19">ontem</date>, 
-                    se endereçou a todos os chefes de polícia, tenho a acrescentar que as 
-                    suas ordens a respeito devem ser terminantes, despregando toda energia 
-                    para com aqueles que, sem justa causa, não queiram acudir ao reclamo 
-                    da Pátria na presente crise, fazendo-os responsáveis para com o governo 
-                    da incúria e fraqueza com que se portarem, e remetendo presos a esta 
-                    capital os mais omissos no desempenho de suas ordens.</p>
+                <p>
+                    Apesar do que se lhe ordenou pela circular que, com data de
+                    <date when="1839-12-19">ontem</date>, se endereçou a todos os chefes de polícia, tenho a acrescentar que as
+                    suas ordens a respeito devem ser terminantes, despregando toda energia
+                    para com aqueles que, sem justa causa, não queiram acudir ao reclamo
+                    da Pátria na presente crise, fazendo-os responsáveis para com o governo
+                    da incúria e fraqueza com que se portarem, e remetendo presos a esta
+                    capital os mais omissos no desempenho de suas ordens.
+                </p>
                 
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
-                    <dateline><placeName ref="#cacapava">Secretaria dos Negócios da Guerra e Marinha em Caçapava</placeName>,
-                    <date when="1839-12-20">20 de dezembro de 1839</date>.</dateline>
-                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice><persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>, 
-                        Chefe de Polícia do Departamento do <placeName ref="#sao_lourenco">Boqueirão</placeName>. </addressee>
-                        Do <orgName ref="#ministerio_guerra">Ministério da Guerra</orgName>.<br/>
-                    <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
+                    
+                    <dateline>
+                        <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra e Marinha</orgName> em
+                        <placeName ref="#cacapava">Caçapava</placeName>,
+                        <date when="1839-12-20">20 de dezembro de 1839</date>.
+                    </dateline>
+                    
+                    <addressee>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice>
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                        <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>,
+                        Chefe de Polícia do Departamento do <placeName ref="#sao_lourenco">Boqueirão</placeName>.
+                    </addressee>
+                    
+                    <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
                 <note type="endorsement" place="1v">
-                    <p>Ofício do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <persName ref="#serafim_alencastre">Ministro da Guerra</persName> 
-                        de <date when="1839-12-20">20 de dezembro</date>, recebido a 
-                        <date when="1839-12-27">27 do mesmo</date>.<br/>
-                        <choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice> 
-                        logo, logo.</p>
+                    Ofício do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice>
+                    <persName ref="#serafim_alencastre">Ministro da Guerra</persName> de
+                    <date when="1839-12-20">20 de dezembro</date>, recebido a
+                    <date when="1839-12-27">27 do mesmo</date>.<lb/>
+                    <choice>
+                        <abbr>S. da R.</abbr>
+                        <expan>Secretaria da Presidência da República</expan>
+                    </choice>
+                    logo, logo.
                 </note>
                 
                 <note type="endorsement" place="1v">
-                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>,
-                        Chefe de Polícia do Departamento do <placeName ref="#sao_lourenco">Boqueirão</placeName>. </addressee>
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice>
+                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                    <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>,
+                    Chefe de Polícia do Departamento do <placeName ref="#sao_lourenco">Boqueirão</placeName>.<lb/>
+                    Do <orgName ref="#ministerio_guerra">Ministério da Guerra</orgName>.
                 </note>
+                
             </div>
         </body>
     </text>

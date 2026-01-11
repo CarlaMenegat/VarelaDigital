@@ -87,11 +87,11 @@
                 <language ident="pt-BR">Português do Brasil</language>
                 <language ident="pt-BR">
                     Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
-                </language>>
+                </language>
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#serafim_alencastre">Ministro da Guerra e Marinha</persName>
+                    Ministro da Guerra e Marinha
                     <placeName ref="#cacapava">Caçapava</placeName>
                     <date when="1839-12-16">16 de dezembro de 1839</date>
                 </correspAction>
@@ -147,7 +147,7 @@
                     <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
                     tome suas medidas a fim de ver se são batidos antes de verificarem 
                     sua fuga, para o que combinará 
-                    <choice><abbr>V. S.º</abbr><expan>Vossa Senhoria</expan></choice> 
+                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
                     com os chefes de forças mais imediatas e Comandantes Gerais de 
                     Polícia dos Municípios.
                 </p>

@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-134 – Saturnino de Sousa e Oliveira para Manuel José de Simas</title>
+                <title>Documento oficial (reservado) CV-134 – Saturnino de Sousa e Oliveira para Manuel José de Simas</title>
                 <author>Saturnino de Sousa e Oliveira</author>
                 <respStmt>
                     <resp>Edição digital</resp>
@@ -127,7 +127,7 @@
     
     <text>
         <body>
-            <div type="letter" subtype="copy" xml:id="CV-134">
+            <div type="officialDocument" subtype="reserved" xml:id="CV-134">
                 
                 <opener>
                     <note type="rubric">Reservado</note>

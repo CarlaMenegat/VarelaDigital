@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-150 – Secretaria da Guerra para João Antônio da Silveira</title>
+                <title>Ofício CV-150 – Secretaria da Guerra para João Antônio da Silveira</title>
                 <author>Serafim Joaquim de Alencastre</author>
                 <respStmt>
                     <resp>Transcrição e codificação TEI</resp>
@@ -14,6 +14,7 @@
                     <name>Carla Menegat</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
                 <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
                 <respStmt>
@@ -22,11 +23,13 @@
                 </respStmt>
                 <date when="2025-07-24">24 de julho de 2025</date>
             </editionStmt>
+            
             <extent>
-                <extent>1 carta</extent>
+                <extent>1 ofício</extent>
                 <measure type="pages">2</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
+            
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
                 <pubPlace>Porto Alegre</pubPlace>
@@ -34,11 +37,13 @@
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            
             <seriesStmt>
                 <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
                 <biblScope type="volume">Vol. II</biblScope>
                 <biblScope type="series">II Série</biblScope>
             </seriesStmt>
+            
             <notesStmt>
                 <note type="catalogue">
                     Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
@@ -48,6 +53,7 @@
                     Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
                 </note>
             </notesStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -89,10 +95,9 @@
         <profileDesc>
             <langUsage>
                 <language ident="pt-BR">Português do Brasil</language>
-                <language ident="pt-BR">
-                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
-                </language>
+                <language ident="pt-BR">Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.</language>
             </langUsage>
+            
             <correspDesc>
                 <correspAction type="sent">
                     <orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName>
@@ -103,12 +108,12 @@
                     <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
                 </correspAction>
             </correspDesc>
+            
             <handDesc>
-                <handNote xml:id="hand_main" medium="print">
-                    Texto conforme edição impressa dos Anais.
-                </handNote>
+                <handNote xml:id="hand_main" medium="print">Texto conforme edição impressa dos Anais.</handNote>
             </handDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -122,38 +127,54 @@
             </list>
         </revisionDesc>
     </teiHeader>
-
+    
     <facsimile>
         <surface xml:id="CV-150_1r" n="1r"/>
     </facsimile>
-
+    
     <text>
         <body>
-            <div type="letter" xml:id="CV-150">
+            <div type="officialDocument" subtype="oficio" xml:id="CV-150">
                 
-                <opener><salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute></opener>
+                <opener>
+                    <salute>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice>
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                    </salute>
+                </opener>
                 
-                <p>Passo às mãos de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> a cópia junta da qual verá 
-                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> os movimentos do inimigo. É mui provável que, 
-                    sabendo nosso estado indefeso, intente vir a esta capital.</p>
+                <p>
+                    Passo às mãos de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> a cópia junta da qual verá
+                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> os movimentos do inimigo. É mui provável que,
+                    sabendo nosso estado indefeso, intente vir a esta capital.
+                </p>
                 
-                <p>Neste pressuposto, o governo faz, desde já, retirar para <placeName ref="#sao_gabriel">São Gabriel</placeName> a 
-                    bagagem mais pesada, bem como as cavalhadas que se acham em <placeName ref="#sao_sepe">São Sepé</placeName> e 
-                    <placeName ref="#vacacai">Vacacaí</placeName>.</p>
+                <p>
+                    Neste pressuposto, o governo faz, desde já, retirar para <placeName ref="#sao_gabriel">São Gabriel</placeName> a
+                    bagagem mais pesada, bem como as cavalhadas que se acham em <placeName ref="#sao_sepe">São Sepé</placeName> e
+                    <placeName ref="#vacacai">Vacacaí</placeName>.
+                </p>
                 
-                <p>É pois necessário e cumpre que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> faça aproximar uma 
-                    força que nos proteja, não tanto pelo pessoal, mas pelo material que bastante tem sofrido. </p>
-                    
+                <p>
+                    É pois necessário e cumpre que <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> faça aproximar uma
+                    força que nos proteja, não tanto pelo pessoal, mas pelo material que bastante tem sofrido.
+                </p>
+                
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
-                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName></addressee>
-                    <dateline> 
+                    
+                    <dateline>
                         <orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName> em
-                        <placeName ref="#cacapava">Caçapava</placeName>, <date when="1840-05-27">27 de maio de 1840</date>
+                        <placeName ref="#cacapava">Caçapava</placeName>,
+                        <date when="1840-05-27">27 de maio de 1840</date>.
                     </dateline>
+                    
                     <addressee>
-                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio Silveira</persName>.
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice>
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                        <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>.
                     </addressee>
+                    
                     <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 

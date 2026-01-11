@@ -3,13 +3,16 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-140 – Serafim Joaquim de Alencastre para Inácio José de Oliveira Guimarães</title>
-                <author>Serafim Joaquim de Alencastre</author>
+                <title>Ofício CV-140 — Secretaria dos Negócios da Guerra a Inácio José de Oliveira Guimarães</title>
+                <author>
+                    <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName>
+                </author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
                 <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
                 <respStmt>
@@ -18,11 +21,13 @@
                 </respStmt>
                 <date when="2025-07-22">22 de julho de 2025</date>
             </editionStmt>
+            
             <extent>
-                <extent>1 carta</extent>
+                <extent>1 ofício</extent>
                 <measure type="pages">2</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
+            
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
                 <pubPlace>Porto Alegre</pubPlace>
@@ -30,11 +35,13 @@
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            
             <seriesStmt>
                 <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
                 <biblScope type="volume">Vol. II</biblScope>
                 <biblScope type="series">II Série</biblScope>
             </seriesStmt>
+            
             <notesStmt>
                 <note type="catalogue">
                     Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
@@ -44,6 +51,7 @@
                     Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
                 </note>
             </notesStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -63,6 +71,7 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
+                
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
@@ -85,10 +94,8 @@
         <profileDesc>
             <langUsage>
                 <language ident="pt-BR">Português do Brasil</language>
-                <language ident="pt-BR">
-                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
-                </language>
             </langUsage>
+            
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
@@ -99,12 +106,12 @@
                     <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>
                 </correspAction>
             </correspDesc>
+            
             <handDesc>
-                <handNote xml:id="hand_main" medium="print">
-                    Texto conforme edição impressa dos Anais.
-                </handNote>
+                <handNote xml:id="hand_main" medium="print">Texto conforme edição impressa dos Anais.</handNote>
             </handDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -118,78 +125,91 @@
             </list>
         </revisionDesc>
     </teiHeader>
-
+    
     <facsimile>
         <surface xml:id="CV-140_1r" n="1r"/>
         <surface xml:id="CV-140_1v" n="1v"/>
         <surface xml:id="CV-140_2r" n="2r"/>
         <surface xml:id="CV-140_2v" n="2v"/>
     </facsimile>
-
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-140">
+            <div type="officialDocument" subtype="oficio" xml:id="CV-140">
                 
                 <opener>
-                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice>
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                    </salute>
                 </opener>
                 
-                <p>O governo, inteirado suficientemente da essência do único ofício
-                    que de <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> hei recebido, com data de 
+                <p>
+                    O governo, inteirado suficientemente da essência do único ofício
+                    que de <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> hei recebido, com data de
                     <date when="1840-02-06">6 do passado</date>, me ordenou
-                    que respondesse a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> que, quanto aos contrabandistas, 
+                    que respondesse a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> que, quanto aos contrabandistas,
                     <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> tolere
                     ou deixe de tolerar tal abuso, uma vez que lhe pareça útil ou perigoso
                     aos interesses do Estado, ou ao menos fazendo minorar esse tráfico,
-                    com os meios que estejam em sua alçada.</p>
+                    com os meios que estejam em sua alçada.
+                </p>
                 
-                <p>Felizmente o governo reconhece quanto <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> relata em seguida
+                <p>
+                    Felizmente o governo reconhece quanto <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> relata em seguida
                     no seu mesmo ofício, e por isso, não podendo sancionar a reclamação
-                    de <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
-                    a respeito do destacamento de <orgName ref="#corpos_primeira_linha">1.º Linha</orgName>, autoriza 
+                    de <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>
+                    a respeito do destacamento de <orgName ref="#corpos_primeira_linha">1.º Linha</orgName>, autoriza
                     <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>,
                     como tem autorizado a outros, para criar um contingente de 20 praças
                     de 1.º Linha, as quais receberão aquele vestuário, munição e pagamento
                     que as circunstâncias permitirem, devendo, contudo, serem sempre mais
                     atendidos. Qualquer terá baixa ou passagem logo que a requeira, e no
-                    fim da luta terão todos demissão do serviço. 
+                    fim da luta terão todos demissão do serviço.
                     <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> encarregará a um
                     1.º tenente ou proporá um cidadão para os comandar, podendo aqui
-                    mandar buscar o armamento e munição indispensável. 
+                    mandar buscar o armamento e munição indispensável.
                     Desta sorte fica <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> bem servido, porque todos devem ser de sua
-                    escolha. Se 
-                    <pb n="1v" />
+                    escolha. Se
+                    <pb n="1v"/>
                     <seg type="folio">[1v.]</seg>
-                    fosse possível <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
+                    fosse possível <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>
                     verificar uma subscrição para lhes dar
-                    um socorro pecuniário, creia <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
+                    um socorro pecuniário, creia <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>
                     que muito adiantaria e o número
                     marcado mais depressa se completaria. Não digo que a subscrição seja
-                    para sempre, mas sim pela primeira vez, para os atrair.</p>
+                    para sempre, mas sim pela primeira vez, para os atrair.
+                </p>
                 
-                <p>Um destacamento dos <orgName ref="#corpos_primeira_linha">corpos de 1.º Linha</orgName> não pode de modo algum
+                <p>
+                    Um destacamento dos <orgName ref="#corpos_primeira_linha">corpos de 1.º Linha</orgName> não pode de modo algum
                     ser útil. O soldado fora de sua corporação perde o hábito militar, esquece-se
                     da disciplina e contrai o vício da insubordinação, além de que, quando chegam
                     a desmoralizar-se, são os piores membros da sociedade.
                     Se ainda a medida indicada não agradar a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>, haja de apontar outra
-                    que lhe convenha e convenha ao bem do serviço da Pátria.</p>
+                    que lhe convenha e convenha ao bem do serviço da Pátria.
+                </p>
                 
                 <closer>
-                    <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
+                    <salute>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
                     <dateline>
-                        <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>,
+                        <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName> em
+                        <placeName ref="#cacapava">Caçapava</placeName>,
                         <date when="1840-03-09">9 de março de 1840</date>.
                     </dateline>
-                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>, 
-                        Chefe de Polícia do Departamento do <placeName ref="#sao_lourenco">Boqueirão</placeName>. </addressee>
+                    <addressee>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice>
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                        <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>,
+                        Chefe de Polícia do Departamento do Boqueirão.
+                    </addressee>
                     <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
                 <note type="endorsement" place="2v">
-                    Ofício do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Ministro da Guerra 
-                    de <date when="1840-03-09">9 de março,</date>
-                    recebido a <date when="1840-03-22">22 do mesmo</date>, sobre as polícias, contrabandistas, etc..
+                    Ofício do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Ministro da Guerra
+                    de <date when="1840-03-09">9 de março</date>,
+                    recebido a <date when="1840-03-22">22 do mesmo</date>, sobre as polícias, contrabandistas, etc.
                 </note>
                 
             </div>

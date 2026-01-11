@@ -129,7 +129,12 @@
             <div type="letter" xml:id="CV-104">
                 
                 <opener>
-                    <salute>S. N. e I.</salute>
+                    <salute>
+                        <choice>
+                            <abbr>S. N. e I.</abbr>
+                            <expan>Senhor Nosso e Ilustríssimo</expan>
+                        </choice>
+                    </salute>
                 </opener>
                 
                 <p>Segue em diligência até as bandas de <placeName ref="#rio_pardo">Rio Pardo</placeName>, <persName ref="#pardo_fortunato">Fortunato</persName>, pardo que foi 

@@ -3,8 +3,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-143 — Carta de Serafim Joaquim de Alencastre ao Coronel João Antônio da Silveira</title>
-                <author>Serafim Joaquim de Alencastre</author>
+                <title>Ofício CV-143 — Secretaria da Guerra a João Antônio da Silveira</title>
+                <author>
+                    <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName>
+                </author>
                 <respStmt>
                     <resp>Transcrição e codificação TEI</resp>
                     <name>Carla Menegat</name>
@@ -14,6 +16,7 @@
                     <name>Carla Menegat</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
                 <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
                 <respStmt>
@@ -22,11 +25,13 @@
                 </respStmt>
                 <date when="2025-07-23">23 de julho de 2025</date>
             </editionStmt>
+            
             <extent>
-                <extent>1 carta</extent>
+                <extent>1 ofício</extent>
                 <measure type="pages">2</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
+            
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
                 <pubPlace>Porto Alegre</pubPlace>
@@ -34,11 +39,13 @@
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            
             <seriesStmt>
                 <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
                 <biblScope type="volume">Vol. II</biblScope>
                 <biblScope type="series">II Série</biblScope>
             </seriesStmt>
+            
             <notesStmt>
                 <note type="catalogue">
                     Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
@@ -48,6 +55,7 @@
                     Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
                 </note>
             </notesStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -62,8 +70,7 @@
                             <biblScope unit="page" from="119" to="119">119</biblScope>
                             <biblScope unit="page" from="121" to="121">121</biblScope>
                             <note type="editorial">
-                                A descontinuidade da paginação resulta de um erro tipográfico na edição
-                                impressa de 1978, no qual páginas foram deslocadas fora da sequência correta.
+                                A descontinuidade da paginação resulta de um erro tipográfico na edição impressa de 1978, no qual páginas foram deslocadas fora da sequência correta.
                             </note>
                             <measure type="extent">23 cm</measure>
                         </imprint>
@@ -94,12 +101,11 @@
         <profileDesc>
             <langUsage>
                 <language ident="pt-BR">Português do Brasil</language>
-                <language ident="pt-BR">
-                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
-                </language>
             </langUsage>
+            
             <correspDesc>
                 <correspAction type="sent">
+                    <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName>
                     <persName ref="#alencastre">Serafim Joaquim de Alencastre</persName>
                     <placeName ref="#cacapava">Caçapava</placeName>
                     <date when="1840-03-21">21 de março de 1840</date>
@@ -108,12 +114,12 @@
                     <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
                 </correspAction>
             </correspDesc>
+            
             <handDesc>
-                <handNote xml:id="hand_main" medium="print">
-                    Texto conforme edição impressa dos Anais.
-                </handNote>
+                <handNote xml:id="hand_main" medium="print">Texto conforme edição impressa dos Anais.</handNote>
             </handDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -127,60 +133,77 @@
             </list>
         </revisionDesc>
     </teiHeader>
-
+    
     <facsimile>
         <surface xml:id="CV-143_1r" n="1r"/>
         <surface xml:id="CV-143_1v" n="1v"/>
     </facsimile>
-
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-143">
+            <div type="officialDocument" subtype="oficio" xml:id="CV-143">
                 <opener>
-                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice>
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                    </salute>
                 </opener>
                 
                 <p>
-                    Neste momento, uma hora da noite, chega o 
+                    Neste momento, uma hora da noite, chega o
                     <persName ref="#fileno_oliveira_santos">Capitão Fileno</persName>
-                    e diz que o inimigo ao amanhecer de hoje estará neste lugar; 
-                    cumpre pois que 
-                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>, 
-                    enquanto aqui nos defendemos, se encaminhe diretamente a esta capital, 
-                    porque com aparição da força de 
+                    e diz que o inimigo ao amanhecer de hoje estará neste lugar;
+                    cumpre pois que
+                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>,
+                    enquanto aqui nos defendemos, se encaminhe diretamente a esta capital,
+                    porque com aparição da força de
                     <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>,
                     na retaguarda ou flanco do inimigo, ele se verá obrigado a passar aqui momentaneamente.
-                    Nem um só instante deve 
-                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
+                    Nem um só instante deve
+                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>
                     vacilar, e a esperança de sua coadjuvação nos ajudará a defender.
-                    Isto é o que o governo ordena a 
-                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>, 
+                    Isto é o que o governo ordena a
+                    <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>,
                     e espera sua rápida execução.
                 </p>
                 
                 <closer>
-                    <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice></salute>
-                    <signed><orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName></signed>
+                    <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
+                    <signed>
+                        <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName>
+                    </signed>
                     <dateline>
                         <placeName ref="#cacapava">Caçapava</placeName>,
                         <date when="1840-03-21">21 de março de 1840</date>
                     </dateline>
-                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>.</addressee>
-                    <signed><persName ref="#alencastre">(a) Serafim Joaquim de Alencastre</persName></signed>
+                    <addressee>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice>
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                        <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>.
+                    </addressee>
+                    <signed>
+                        <persName ref="#alencastre">(a) Serafim Joaquim de Alencastre</persName>
+                    </signed>
                 </closer>
                 
                 <note type="endorsement" place="1v">
-                    <p><choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice></p><br/>
-                    <p>Ao cidadão 
+                    <p>
+                        <choice>
+                            <abbr>S. da R.</abbr>
+                            <expan>Secretaria da Presidência da República</expan>
+                        </choice>
+                    </p>
+                    <p>
+                        Ao cidadão
                         <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>,
                         Comandante da <orgName ref="#divisao_direita">Divisão Direita</orgName>.
-                        Onde se achar.</p>
+                        Onde se achar.
+                    </p>
                 </note>
                 
                 <note type="editorial">
                     Anexo a esse documento encontrava-se o ofício de <date when="1840-03-20">20 de março de 1840</date>
-                    do Capitão <persName ref="#fileno_oliveira_santos">Fileno de Oliveira Santos</persName> ao 
+                    do Capitão <persName ref="#fileno_oliveira_santos">Fileno de Oliveira Santos</persName> ao
                     <persName ref="#major_maximiano">Maximiano Rodrigues Fernandes</persName>.
                 </note>
                 

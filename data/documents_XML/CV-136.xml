@@ -3,8 +3,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-136 – Serafim Joaquim de Alencastre para João Antônio da Silveira</title>
-                <author>Serafim Joaquim de Alencastre</author>
+                <title>Documento oficial CV-136 – Secretaria da Guerra para João Antônio da Silveira</title>
+                <author>
+                    <orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName>
+                </author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -127,7 +129,7 @@
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-136">
+            <div type="officialDocument" subtype="dispatch" xml:id="CV-136">
                 
                 <opener>
                     <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>

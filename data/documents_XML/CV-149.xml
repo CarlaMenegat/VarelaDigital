@@ -4,7 +4,9 @@
         <fileDesc>
             <titleStmt>
                 <title>Circular CV-149 – Circular da Secretaria da Guerra para Inácio José de Oliveira Guimarães</title>
-                <author><orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName></author>
+                <author>
+                    <orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName>
+                </author>
                 <respStmt>
                     <resp>Transcrição e codificação TEI</resp>
                     <name>Carla Menegat</name>
@@ -14,6 +16,7 @@
                     <name>Carla Menegat</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
                 <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
                 <respStmt>
@@ -22,11 +25,13 @@
                 </respStmt>
                 <date when="2025-07-24">24 de julho de 2025</date>
             </editionStmt>
+            
             <extent>
-                <extent>1 carta</extent>
+                <extent>1 circular</extent>
                 <measure type="pages">2</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
+            
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
                 <pubPlace>Porto Alegre</pubPlace>
@@ -34,11 +39,13 @@
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            
             <seriesStmt>
                 <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
                 <biblScope type="volume">Vol. II</biblScope>
                 <biblScope type="series">II Série</biblScope>
             </seriesStmt>
+            
             <notesStmt>
                 <note type="catalogue">
                     Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
@@ -48,6 +55,7 @@
                     Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
                 </note>
             </notesStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -89,16 +97,13 @@
         <profileDesc>
             <langUsage>
                 <language ident="pt-BR">Português do Brasil</language>
-                <language ident="pt-BR">
-                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
-                </language>
+                <language ident="pt-BR">Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.</language>
             </langUsage>
             <handDesc>
-                <handNote xml:id="hand_main" medium="print">
-                    Texto conforme edição impressa dos Anais.
-                </handNote>
+                <handNote xml:id="hand_main" medium="print">Texto conforme edição impressa dos Anais.</handNote>
             </handDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -112,79 +117,82 @@
             </list>
         </revisionDesc>
     </teiHeader>
-
+    
     <facsimile>
         <surface xml:id="CV-149_1r" n="1r"/>
         <surface xml:id="CV-149_1v" n="1v"/>
     </facsimile>
-
     
     <text>
         <body>
-            <div type="circular" xml:id="CV-149">
+            <div type="officialDocument" subtype="circular" xml:id="CV-149">
                 
                 <opener>
-                    <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
+                    <salute>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice>
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                    </salute>
                 </opener>
                 
-                <p>Achando-se o <persName ref="#camilo_campelo">Tenente-coronel Camilo</persName> encarregado pelo governo das 
-                    operações além de <placeName ref="#camaqua">Camaquã</placeName>, durante a ausência do Comandante da 
-                    <orgName ref="#divisao_esquerda">Divisão da Esquerda</orgName>, claro fica que a ele só compete a segurança e 
-                    tranquilidade da fronteira que lhe foi confiada; e por isso é da rigorosa obrigação de <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> 
-                    prestar-se por todos os meios ao seu alcance às suas reclamações.</p>
+                <p>
+                    Achando-se o <persName ref="#camilo_campelo">Tenente-coronel Camilo</persName> encarregado pelo governo das
+                    operações além de <placeName ref="#camaqua">Camaquã</placeName>, durante a ausência do Comandante da
+                    <orgName ref="#divisao_esquerda">Divisão da Esquerda</orgName>, claro fica que a ele só compete a segurança e
+                    tranquilidade da fronteira que lhe foi confiada; e por isso é da rigorosa obrigação de
+                    <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> prestar-se por todos os meios ao seu alcance às suas reclamações.
+                </p>
                 
-                <p>Mister é pois coadjuvá-lo, remetendo-lhe <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice> os 
-                    contingentes que for possível e até reunindo-se a ele quando urjam as circunstâncias. Para defender e evitar-se as 
-                    frequentes invasões do inimigo, deve haver uma massa, e jamais com pequenas frações nos respectivos municípios se 
-                    poderá conseguir bons resultados, como desgraçadamente tem acontecido segundo faz sentir aquele comandante.</p>
+                <p>
+                    Mister é pois coadjuvá-lo, remetendo-lhe <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> os
+                    contingentes que for possível e até reunindo-se a ele quando urjam as circunstâncias. Para defender e evitar-se as
+                    frequentes invasões do inimigo, deve haver uma massa, e jamais com pequenas frações nos respectivos municípios se
+                    poderá conseguir bons resultados, como desgraçadamente tem acontecido segundo faz sentir aquele comandante.
+                </p>
                 
                 <closer>
                     <salute>
-                        Confia o governo que 
-                        <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>
-                        será exato observador de suas ordens.
-                        Deus guarde a 
-                        <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.
+                        Confia o governo que <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> será exato observador de suas ordens.
+                        Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.
                     </salute>
-                    <addresse><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice><persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName></addresse>
+                    
+                    <addressee>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice>
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                        <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.
+                    </addressee>
                     
                     <dateline>
                         <orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName> em
                         <placeName ref="#cacapava">Caçapava</placeName>,
-                        <date when="1840-05-20">20 de maio de 1840</date>
+                        <date when="1840-05-20">20 de maio de 1840</date>.
                     </dateline>
-                    <signed>(a) <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
+                    
+                    <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
-                
                 
                 <note type="endorsement" place="1v">
                     <choice>
                         <abbr>S. da R.</abbr>
                         <expan><orgName ref="#secretaria_presidencia_republica">Secretaria da Presidência da República</orgName></expan>
-                    </choice>
-                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>, 
-                    Comandante Geral de Polícia do <placeName ref="#sao_lourenco">Departamento do Boqueirão</placeName>.  
-                    Do <orgName ref="#ministerio_guerra">Ministério da Guerra</orgName>.  
-                    
-                    <placeName ref="#cacapava">Caçapava</placeName>.  
-                    <placeName ref="#piratini">Piratini</placeName>.  
+                    </choice><lb/>
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice>
+                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                    <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>,
+                    Comandante Geral de Polícia do <placeName ref="#sao_lourenco">Departamento do Boqueirão</placeName>.<lb/>
+                    Do <orgName ref="#ministerio_guerra">Ministério da Guerra</orgName>.<lb/>
+                    <placeName ref="#cacapava">Caçapava</placeName>.<lb/>
+                    <placeName ref="#piratini">Piratini</placeName>.
                 </note>
                 
                 <note type="endorsement" place="1v">
-                    Circular do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Ministro da Guerra de 
-                    <date when="1840-05-20">20 de maio</date>, recebida a 
-                    <date when="1840-06-03">3 de junho</date>, reiterando tudo reunir-se ao 
-                    <persName ref="#camilo_campelo">Coronel Camilo</persName>, quando ele assim o exija, etc., etc.
+                    Circular do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Ministro da Guerra de
+                    <date when="1840-05-20">20 de maio</date>, recebida a <date when="1840-06-03">3 de junho</date>,
+                    reiterando tudo reunir-se ao <persName ref="#camilo_campelo">Coronel Camilo</persName>, quando ele assim o exija, etc., etc.
                 </note>
                 
-                <note type="endorsement" place="1v">
-                    <seal type="stamp">
-                        <desc>
-                            Carimbo na <seg type="folio">folha 1v</seg>.
-                        </desc>
-                    </seal>
-                </note>
-
+                <seal type="stamp" place="1v">
+                    <desc>Carimbo na <seg type="folio">folha 1v</seg>.</desc>
+                </seal>
                 
             </div>
         </body>

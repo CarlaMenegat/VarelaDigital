@@ -3,13 +3,20 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-129 – Serafim Joaquim de Alencastre para Inácio José de Oliveira Guimarães</title>
-                <author>Serafim Joaquim de Alencastre</author>
+                <title>CV-129 — Circular da Secretaria dos Negócios da Guerra a Inácio José de Oliveira Guimarães</title>
+                <author>
+                    <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName>
+                </author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
                 </respStmt>
             </titleStmt>
+            
             <editionStmt>
                 <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
                 <respStmt>
@@ -18,10 +25,13 @@
                 </respStmt>
                 <date when="2025-07-18">18 de julho de 2025</date>
             </editionStmt>
+            
             <extent>
-                <measure type="pages">1 carta (do conjunto CV-1 a CV-558)</measure>
-                <measure type="words">xxx palavras</measure>
+                <extent>1 circular</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
+            
             <publicationStmt>
                 <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
                 <pubPlace>Porto Alegre</pubPlace>
@@ -29,11 +39,13 @@
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
+            
             <seriesStmt>
                 <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
                 <biblScope type="volume">Vol. II</biblScope>
                 <biblScope type="series">II Série</biblScope>
             </seriesStmt>
+            
             <notesStmt>
                 <note type="catalogue">
                     Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
@@ -43,6 +55,7 @@
                     Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
                 </note>
             </notesStmt>
+            
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -62,6 +75,7 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
+                
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
@@ -84,13 +98,11 @@
         <profileDesc>
             <langUsage>
                 <language ident="pt-BR">Português do Brasil</language>
-                <language ident="pt-BR">
-                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
-                </language>
             </langUsage>
+            
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
+                    <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName>
                     <placeName ref="#cacapava">Caçapava</placeName>
                     <date when="1839-12-19">19 de dezembro de 1839</date>
                 </correspAction>
@@ -98,12 +110,12 @@
                     <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>
                 </correspAction>
             </correspDesc>
+            
             <handDesc>
-                <handNote xml:id="hand_main" medium="print">
-                    Texto conforme edição impressa dos Anais.
-                </handNote>
+                <handNote xml:id="hand_main" medium="print">Texto conforme edição impressa dos Anais.</handNote>
             </handDesc>
         </profileDesc>
+        
         <revisionDesc>
             <list>
                 <item>
@@ -117,71 +129,55 @@
             </list>
         </revisionDesc>
     </teiHeader>
-
+    
     <facsimile>
         <surface xml:id="CV-129_1r" n="1r"/>
         <surface xml:id="CV-129_1v" n="1v"/>
     </facsimile>
-
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-129">
+            <div type="officialDocument" subtype="circular">
                 
                 <opener>
                     <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>
-                    Um abalo geral em todas as forças inimigas, e por diversos pontos do Estado,
-                    indica o resultado de um plano combinado contra a liberdade e independência
-                    do povo continentino, por isso que a aparição inopinada de alguns grupos
-                    imperiais nos lugares de mais fácil acesso, as suas horrorosas tropelias,
-                    confirma esta verdade: razão suficiente e poderosa para se desenvolver com
-                    a maior energia os meios eficazes de fazer abortar suas maquinações.
-                </p>
+                <p>Um abalo geral em todas as forças inimigas, e por diversos pontos do Estado, indica o resultado de um plano 
+                    combinado contra a liberdade e independência do povo continentino, por isso que a aparição inopinada de
+                    alguns grupos imperiais nos lugares de mais fácil acesso, as suas horrorosas tropelias, confirma esta verdade: 
+                    razão suficiente e poderosa para se desenvolver com a maior energia os meios eficazes de fazer abortar suas 
+                    maquinações.</p>
                 
-                <p>
-                    <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> deverá desde já, 
-                    com a presteza possível, mandar reunir toda a gente
-                    de seu município à <orgName ref="#divisao_esquerda">Divisão da Esquerda</orgName>,
-                    não excetuando um só homem que possa montar a cavalo, suspendendo todas
-                    as portarias, sejam da autoridade que for, ainda mesmo aquelas mais absolutas,
-                    porque a crise assim urge e determina.
-                </p>
+                <p><choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice> deverá desde já, com a presteza possível, 
+                    mandar reunir toda a gente de seu município à <orgName ref="#divisao_esquerda">Divisão da Esquerda</orgName>, 
+                    não excetuando um só homem que possa montar a cavalo, suspendendo todas as portarias, sejam da autoridade que 
+                    for, ainda mesmo aquelas mais absolutas, porque a crise assim urge e determina.</p>
                 
-                <p>
-                    Mandará igualmente levantar toda a cavalhada que houver, tirando-se o nome
-                    dos donos e o número de cavalos com que se prestam, para quando forem
-                    restituídos serem pagos pelos cofres nacionais os que faltarem, o que o governo
-                    espera da atividade e patriotismo de <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.
-                </p>
+                <p>Mandará igualmente levantar toda a cavalhada que houver, tirando-se o nome dos donos e o número de cavalos 
+                    com que se prestam, para quando forem restituídos serem pagos pelos cofres nacionais os que faltarem, o que o 
+                    governo espera da atividade e patriotismo de <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
                 
                 <closer>
-                    <p>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</p>
-                    <dateline>
-                        Secretaria da Guerra em
-                        <placeName ref="#cacapava">Caçapava</placeName>,
-                        <date when="1839-12-19">19 de dezembro de 1839</date>.
-                    </dateline>
-                    <signed>
-                        <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
-                    </signed>
+                    <salute>Deus guarde a <choice><abbr>V.S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
+                    <dateline><orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, <date when="1839-12-19">19 de dezembro de 1839</date>.</dateline>
+                    <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
                 <note type="endorsement" place="1v">
-                    Ofício do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Ministro da Guerra de 19 de dezembro recebido a <date when="1839-12-25">25 do mesmo</date>.  
-                    Circular.  
+                    Ofício do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice>
+                    <persName ref="#serafim_alencastre">Ministro da Guerra</persName>
+                    de <date when="1839-12-19">19 de dezembro</date>, recebido a <date when="1839-12-25">25 do mesmo</date>. Circular.
                 </note>
                 
                 <note type="endorsement" place="1v">
                     <choice>
                         <abbr>S. da R.</abbr>
-                        <expan>Secretaria da República</expan>
+                        <expan><orgName ref="#secretaria_presidencia_republica">Secretaria da Presidência da República</orgName></expan>
                     </choice>
-                    Ao cidadão <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>,
-                    Chefe Geral de Polícia.
+                    Ao cidadão <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>, Chefe Geral de Polícia.
                 </note>
+                
             </div>
         </body>
     </text>

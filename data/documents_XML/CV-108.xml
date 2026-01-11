@@ -135,17 +135,16 @@
                 <p>Andando o comandante de polícia deste distrito na diligência de prender alguns desertores do 
                     <orgName ref="#guardas_nacionais_8corpo">8.º Corpo de Guardas Nacionais</orgName>, agarrou um de 1.º Linha, que nesta data remeto a <choice><abbr>V.Ex</abbr><expan>Vossa Excelência</expan></choice>º. 
                     Seu nome é <persName ref="#francisco_fabiano_silva">Francisco Fabiano da Silva</persName> e não menciono o batalhão a que pertence porque ele o não conhece, ou não quer declarar.
-                    É quanto me cumpre e tenho a honra levar ao respeitável conhecimento de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> 
-                    Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muitos anos.
+                    É quanto me cumpre e tenho a honra levar ao respeitável conhecimento de <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice>.
                 </p>
                 
-                <dateline>
-                    Quartel do <orgName ref="#comando_militar_santo_antonio">Comando Militar do município de Santo Antônio</orgName>, 
-                    <placeName ref="#santo_antonio_patrulha">Santo Antônio</placeName>, 
-                    <date when="1842-12-07">7 de dezembro de 1842</date>.
-                </dateline>
-                
                 <closer>
+                    <salute>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> muitos anos.</salute>
+                    <dateline>
+                        Quartel do <orgName ref="#comando_militar_santo_antonio">Comando Militar do município de Santo Antônio</orgName>, 
+                        <placeName ref="#santo_antonio_patrulha">Santo Antônio</placeName>, 
+                        <date when="1842-12-07">7 de dezembro de 1842</date>.
+                    </dateline>
                     <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#luis_alves_lima_silva">Barão de Caxias</persName>,<br/>Digmo. Presidente e General-em-chefe do Exército.</addressee>
                     <signed>
                         <persName ref="#antonio_melo_albuquerque">Antônio de Melo e Albuquerque</persName><br/>

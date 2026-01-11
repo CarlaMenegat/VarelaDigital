@@ -134,12 +134,19 @@
             <div type="letter" xml:id="CV-157">
                 
                 <opener>
-                    <salute><choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
-                        <persName ref="#joao_antonio_silveira">General João Antônio</persName></salute>
-                    <dateline><placeName ref="#bage">Bagé</placeName>, <date when="1842-01-28">28 de janeiro 1842</date>.</dateline>
+                    <dateline>
+                        <placeName ref="#bage">Bagé</placeName>, 
+                        <date when="1842-01-28">28 de janeiro de 1842</date>.
+                    </dateline>
+                    <salute>
+                        <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> 
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                        <persName ref="#joao_antonio_silveira">General João Antônio</persName>
+                    </salute>
                 </opener>
                 
-                <p>Esta tem por objeto prevenir a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> sobre um fato que 
+                <p>
+                    Esta tem por objeto prevenir a <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> sobre um fato que 
                     teve lugar entre mim e <persName ref="#jose_mariano_matos">José Mariano de Matos</persName>, a fim de que 
                     <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> não se guie sobre as primeiras informações, 
                     suspenda o seu juízo a tal respeito, e não me repute criminoso sem me ouvir.
@@ -150,12 +157,17 @@
                     <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#jose_mariano_matos">José Mariano</persName> 
                     assim o quer, e bom será que ele me não obrigue a mais terrível contingência.
                     Nas circunstâncias em que me acho, só a consideração e amizade de meus patrícios poderão dulcificar o azedume de minha 
-                    situação.</p>
+                    situação.
+                </p>
                 
                 <closer>
-                    <salute>Creia <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que eu sou com estima e respeito, 
-                    de <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, patrício e amigo obrigado.</salute>
-                    <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
+                    <salute>
+                        Creia <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice> que eu sou com estima e respeito, 
+                        de <choice><abbr>V. Ex.ª</abbr><expan>Vossa Excelência</expan></choice>, patrício e amigo obrigado.
+                    </salute>
+                    <signed>
+                        <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
+                    </signed>
                 </closer>
                 
                 <note type="endorsement" place="1v">

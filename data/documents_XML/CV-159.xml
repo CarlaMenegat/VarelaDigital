@@ -133,7 +133,7 @@
                 <opener>
                     <salute>Amigo e Senhor</salute>
                     <dateline>
-                        <placeName ref="#rosario">Rosário</placeName>,
+                        <placeName ref="#rosario_do_sul">Rosário</placeName>,
                         <date when="1843-07-23">23 de julho</date>.
                     </dateline>
                 </opener>
@@ -154,7 +154,7 @@
                     não temos nada.</p>
                 
                 <p>O governo deve ordenar aos generais que usem dos uniformes que lhes competem: isto concorre muito para 
-                    despertar certa influência nos oficiais moços. O militar deve ter entusiasmo e até certo ar de <choice><sic>impozam</sic><note type="editorial">[sic]</note></choice>. 
+                    despertar certa influência nos oficiais moços. O militar deve ter entusiasmo e até certo ar de <sic>impozam</sic>. 
                     Um general que sempre se apresenta de poncho, às vezes até de jaqueta de brim e um chapéu de abas grandes, que 
                     influência poderá excitar?</p>
                 
@@ -162,7 +162,7 @@
                     Lembra-me um dito do <persName ref="#joao_jose_damasceno">Coronel Damasceno</persName>; dizia:
                     <pb n="1v" />
                     <seg type="folio">[1v.]</seg>
-                    <quote><orig type="popular">oiem que repúbrica que os generá andão de ponche de toaia</orig></quote>,
+                    <quote><orig type="popular" xml:lang="pt">oiem que repúbrica que os generá andão de ponche de toaia</orig></quote>,
                     referindo ao <persName ref="#antonio_sousa_neto">General Neto</persName>, que usava de uns ponchos brancos.
                     Poderá alguém pensar que isto é uma bagatela, pois pelo contrário influi muito para a disciplina de um exército.</p>
                 
@@ -174,8 +174,6 @@
                     seria uma fortuna. Vou ter de quinze a vinte cornetas para a banda de música, e há somente três instrumentos; diz-me 
                     o general que mandou vir mais, contudo desejo que mandeis vir as que vos peço. Vai a carta para o 
                     <persName ref="#tenente_ferreira">ex-Tenente Ferreira</persName>.</p>
-                
-                <p></p>
                 
                 <closer>
                     <salute>

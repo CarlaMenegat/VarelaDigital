@@ -3,9 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>CV-121 — Ofício sobre deserções no corpo do Major Maximiano</title>
+                <title>CV-121 — Carta sobre deserções no corpo do Major Maximiano</title>
                 <author>
-                    <orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName>
+                    <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
                 </author>
                 <respStmt>
                     <resp>Transcrição e codificação TEI</resp>
@@ -27,7 +27,7 @@
             </editionStmt>
             
             <extent>
-                <extent>1 ofício</extent>
+                <extent>1 carta</extent>
                 <measure type="pages">2</measure>
                 <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
             </extent>
@@ -48,11 +48,16 @@
             
             <notesStmt>
                 <note type="catalogue">
-                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm.
+                    (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
                 </note>
-                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note>
+                    Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558.
+                    Ficha catalográfica impressa consultada.
+                </note>
                 <note type="processo">
-                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python,
+                    txt gerado e convertido com marcação TEI P5 por Carla Menegat.
                 </note>
             </notesStmt>
             
@@ -81,6 +86,7 @@
                         <title>II Série</title>
                     </series>
                 </biblStruct>
+                
                 <ptr target="data/standoff/standoff-persons.xml"/>
                 <ptr target="data/standoff/standoff-places.xml"/>
                 <ptr target="data/standoff/standoff-events.xml"/>
@@ -91,7 +97,12 @@
         
         <encodingDesc>
             <projectDesc>
-                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+                <p>
+                    O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5
+                    dos documentos da Coleção Varela, a partir das transcrições do volume II dos
+                    Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas
+                    via standoff markup, garantindo interoperabilidade e pesquisa avançada.
+                </p>
             </projectDesc>
             <appInfo>
                 <application ident="Python_OCR_Tools" version="2.1">
@@ -104,6 +115,18 @@
             <langUsage>
                 <language ident="pt-BR">Português do Brasil</language>
             </langUsage>
+            
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
+                    <orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName>
+                    <placeName ref="#cacapava">Caçapava</placeName>
+                    <date when="1839-12-14">14 de dezembro de 1839</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>
+                </correspAction>
+            </correspDesc>
             
             <handDesc>
                 <handNote xml:id="hand_main" medium="print">
@@ -130,53 +153,75 @@
         <surface xml:id="CV-121_1r" n="1r"/>
         <surface xml:id="CV-121_1v" n="1v"/>
     </facsimile>
-
     
     <text>
         <body>
-            <div type="officialDocument" xml:id="CV-121">
+            <div type="letter" xml:id="CV-121">
+                
                 <opener>
-                    <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></p>
+                    <salute>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice>
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
+                    </salute>
                 </opener>
                 
                 <p>
-                    Tendo levado ao conhecimento do <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <persName ref="#gomes_jardim">Vice-presidente do Estado</persName>
-                    as bem fundadas ponderações de <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> contidas no seu ofício do
-                    1.º do que rege com respeito às deserções que têm havido no corpo
-                    do <persName ref= "major_maximiano">Major Maximiano</persName>; o mesmo <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>,
-                    posto que assim lastime um tal comportamento, aliás digno de
-                    severa punição, todavia se conforma com os raciocínios de <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> e
-                    aprova tudo o que <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> há obrado em semelhante caso, ao mesmo
-                    passo que submete à prudência de <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> a iniciativa desse objeto,
-                    seguro que <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> procederá de um modo legítimo e conforme a boa
-                    ordem do serviço do Estado.
+                    Tendo levado ao conhecimento do 
+                    <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> 
+                    <persName ref="#gomes_jardim">Gomes Jardim</persName>, 
+                    <roleName>vice-presidente do Estado</roleName>,
+                    as bem fundadas ponderações de 
+                    <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>
+                    contidas no seu ofício do 1.º do que rege com respeito às deserções que têm havido no corpo
+                    do <persName ref="#major_maximiano">Major Maximiano</persName>; o mesmo 
+                    <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice>
+                    <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>,
+                    posto que assim lastime um tal comportamento, aliás digno de severa punição, todavia se conforma
+                    com os raciocínios de 
+                    <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>
+                    e aprova tudo o que 
+                    <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>
+                    há obrado em semelhante caso, ao mesmo passo que submete à prudência de 
+                    <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>
+                    a iniciativa desse objeto, seguro que 
+                    <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>
+                    procederá de um modo legítimo e conforme a boa ordem do serviço do Estado.
                 </p>
                 
                 <closer>
-                    <salute>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>.</salute> 
-                    <dateline><orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 
-                        <date when="1839-12-14">14 de dezembro de 1839</date>.</dateline>
+                    <salute>
+                        Deus guarde a 
+                        <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>.
+                    </salute>
+                    <dateline>
+                        <orgName ref="#secretaria_guerra">Secretaria da Guerra</orgName> em 
+                        <placeName ref="#cacapava">Caçapava</placeName>, 
+                        <date when="1839-12-14">14 de dezembro de 1839</date>.
+                    </dateline>
                     <signed>
                         <persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName>
                     </signed>
                 </closer>
                 
-                <note type="endorsement" place="1v">
-                    <choice>
-                        <abbr>S. da R.</abbr>
-                        <expan>Secretaria da República</expan>
-                    </choice>
-                    Ao cidadão Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>, 
-                    Comandante da <orgName ref="#divisao_direita">Divisão Direita</orgName>.<br/>
-                    Onde se achar.<br/>
-                    Do <orgName ref="#ministerio_guerra">Ministério da Guerra</orgName>. <br/>
-                    <placeName ref="#cacapava">Caçapava</placeName>
-                </note>
-                
-                <seal place="1v">
-                    <desc>Carimbo no verso do documento.</desc>
-                </seal>
             </div>
+            
+            <note type="endorsement" place="1v">
+                <choice>
+                    <abbr>S. da R.</abbr>
+                    <expan>Secretaria da Presidência da República</expan>
+                </choice>
+                Ao cidadão Coronel 
+                <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>,
+                Comandante da <orgName ref="#divisao_direita">Divisão Direita</orgName>.<lb/>
+                Onde se achar.<lb/>
+                Do <orgName ref="#ministerio_guerra">Ministério da Guerra</orgName>.<lb/>
+                <placeName ref="#cacapava">Caçapava</placeName>.
+            </note>
+            
+            <seal place="1v">
+                <desc>Carimbo no verso do documento.</desc>
+            </seal>
+            
         </body>
     </text>
 </TEI>

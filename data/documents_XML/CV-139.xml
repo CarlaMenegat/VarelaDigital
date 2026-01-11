@@ -3,8 +3,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-139 – Circular do Ministério da Guerra para Inácio José de Oliveira Guimarães</title>
-                <author>Serafim Joaquim de Alencastre</author>
+                <title>Circular CV-139 – Reiteração sobre execução de decreto e controle de passaportes</title>
+                <author>
+                    <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName>
+                </author>
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -128,7 +130,7 @@
     
     <text>
         <body>
-            <div type="circular" xml:id="CV-139">
+            <div type="officialDocument" subtype="circular" xml:id="CV-139">
                 
                 <opener>
                     <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
@@ -149,7 +151,7 @@
                         <placeName ref="#cacapava">Caçapava</placeName>,
                         <date when="1840-03-06">6 de março de 1840</date>
                     </dateline>
-                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Coronel <persName ref="#joao_antonio_silveira">João Antônio da Silveira</persName>.</addressee>
+                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName>.</addressee>
                     <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>
                 
