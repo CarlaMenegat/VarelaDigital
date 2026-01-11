@@ -1,0 +1,162 @@
+/* =========================================================
+   Varela Digital — Data Model page (page-specific CSS)
+   File: /assets/css/data_model.css
+   ========================================================= */
+
+/* ---- Page baseline tweaks (keep colours & fonts from styles.css) ---- */
+
+:root{
+  --vd-bg: #F8F5EF;
+  --vd-ink: #2f2f2f;
+  --vd-accent: #5E121A;
+  --vd-border: #C4B3B2;
+  --vd-card: #FFFFFF;
+}
+
+/* Reduce overall type size + improve readability */
+body {
+  font-size: 13px;            /* was visually bigger */
+  line-height: 1.55;
+}
+
+/* Ensure content doesn’t touch screen edges */
+.vd-page {
+  max-width: 1100px;          /* keep it “documentation-like” */
+  margin: 0 auto;
+  padding: 2.2rem 1.2rem 3rem;
+}
+
+/* Title hierarchy */
+.vd-page h1 {
+  font-size: 1.9 rem;
+  letter-spacing: -0.02em;
+  margin: 0.4rem 0 0.8rem;
+  color: var(--vd-ink);
+}
+
+.vd-page h2 {
+  font-size: 1.9 rem;
+  margin: 2.0rem 0 0.8rem;
+  color: var(--vd-ink);
+}
+
+.vd-page h3 {
+  font-size: 1.2rem;
+  margin: 1.2rem 0 0.6rem;
+  color: var(--vd-ink);
+}
+
+/* Paragraph spacing a bit tighter than thesis */
+.vd-page p {
+  margin: 0.55rem 0;
+}
+
+/* Keep your coloured code styling, but avoid “shouting” */
+.vd-page code {
+  color: var(--vd-accent);
+  font-weight: 600;
+  background: rgba(122, 31, 41, 0.08);
+  padding: 0.08rem 0.35rem;
+  border-radius: 6px;
+}
+
+/* ---- Prefix box (better breathing + consistent width) ---- */
+.prefix-box {
+  background: var(--vd-card);
+  border: 1px solid var(--vd-border);
+  border-radius: 12px;
+  padding: 0.9rem 1rem;
+  margin: 0.75rem 0 1.4rem;
+  overflow-x: auto;
+}
+
+.prefix-box pre {
+  margin: 0;
+  font-size: 0.7rem;
+  line-height: 1.4;
+}
+
+/* ---- Module blocks ---- */
+.vd-module {
+  margin-top: 2.2rem;
+}
+
+.vd-module:first-of-type {
+  margin-top: 1.2rem;
+}
+
+/* A subtle separator line between modules */
+.vd-module + .vd-module {
+  padding-top: 1.2rem;
+  border-top: 1px solid rgba(196,179,178,0.55);
+}
+
+/* ---- Figures: consistent sizing + prevent over-zoom ---- */
+figure.model-figure {
+  margin: 1rem 0 0;
+  padding: 0.8rem;
+  background: #fff;
+  border: 1px solid var(--vd-border);
+  border-radius: 14px;
+}
+
+/* Make ALL diagrams visually consistent on the page */
+figure.model-figure img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+
+  /* Key: prevent tiny/simple diagrams from becoming huge */
+  max-height: 520px;      /* adjust if you want more/less */
+  object-fit: contain;
+}
+
+figure.model-figure figcaption {
+  margin-top: 0.75rem;
+  color: var(--vd-accent);
+  font-size: 0.7rem;
+}
+
+/* If you have a diagram that is very “tall”, you can opt-in with .tall */
+figure.model-figure.tall img {
+  max-height: 640px;
+}
+
+/* ---- Footer: more separation + calmer typography ---- */
+.vd-footer {
+  margin-top: 3rem;
+  padding-top: 1.6rem;
+  border-top: 1px solid rgba(196,179,178,0.75);
+  text-align: center;
+  color: var(--vd-ink);
+}
+
+.vd-footer a {
+  color: var(--vd-accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.vd-footer a:hover {
+  text-decoration: underline;
+}
+
+.vd-footer .footer-links {
+  margin-bottom: 0.55rem;
+}
+
+.vd-footer .footer-small {
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+/* ---- Responsive tweaks ---- */
+@media (max-width: 768px) {
+  .vd-page {
+    padding: 1.6rem 1rem 2.4rem;
+  }
+  .vd-page h1 { font-size: 2.15rem; }
+  .vd-page h2 { font-size: 1.75rem; }
+  figure.model-figure img { max-height: 420px; }
+}

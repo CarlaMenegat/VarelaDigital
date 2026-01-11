@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Documentation | Varela Digital</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Project CSS -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+        <!-- NAVBAR (ajuste se necessário para bater com a sua) -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Varela Digital</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                                Documentation
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item active" href="documentation.html">Overview</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/VarelaDigital/assets/html/data_model.html">Data Model</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- CONTENT -->
+        <main class="container mt-5 mb-5">
+
+            <h1 class="mb-4">Documentation</h1>
+
+            <p>
+                The documentation of the Varela Digital project describes the conceptual,
+                editorial, and semantic structures adopted to represent the Varela Collection
+                as a scholarly digital edition.
+            </p>
+
+            <p>
+                In particular, the project combines TEI XML encoding with a Knowledge Graph
+                based on RDF and JSON-LD in order to support cross-document analysis,
+                interoperability, and the explicit modelling of historical relations.
+            </p>
+
+            <p>
+                The following section presents the Data Model, which formalises the core
+                entities and relationships that structure the corpus and enable semantic
+                enrichment beyond individual documents.
+            </p>
+
+            <a href="data_model.html" class="btn btn-outline-primary mt-3">
+                View Data Model
+            </a>
+
+        </main>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>

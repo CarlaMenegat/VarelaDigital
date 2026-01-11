@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Varela Digital — Data Model</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Global site styles -->
+    <link rel="stylesheet" href="../css/styles.css" />
+
+    <!-- Page-specific tweaks (layout/typography/figures/footer) -->
+    <link rel="stylesheet" href="../css/data_model.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../../index.html">Varela Digital</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html">Homepage</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="lettersDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Documents
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="lettersDropdown">
+                <li>
+                  <a class="dropdown-item" href="letters-index.html">Index</a>
+                </li>
+                <li><a class="dropdown-item" href="viewer.html">Viewer</a></li>
+              </ul>
+            </li>
+
+            <!-- Keep the dropdown, but remove "Documentation" link from the footer requirement:
+                 We'll keep only "Data Model" highlighted here for navigation,
+                 and place the Documentation link in the footer as requested. -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                id="docsDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Documentation
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="docsDropdown">
+                <li>
+                  <a class="dropdown-item active" href="data_model.html"
+                    >Data Model</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="project_discussion.html"
+                    >Theoretical Framework</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main content -->
+    <!-- pad top because navbar is fixed -->
+    <main class="vd-page" style="padding-top: 110px">
+      <h1>Data Model</h1>
+
+      <p>
+        The <em>Varela Digital</em> Knowledge Graph stores the project’s data in
+        RDF (serialised as JSON-LD), and is populated with reused and
+        project-specific classes and properties. The documentation below presents
+        the core modules of the model and the main modelling choices adopted to
+        represent the collection, its documentary units, and the semantic
+        relations extracted from the texts.
+      </p>
+
+      <h3>List of prefixes</h3>
+      <div class="prefix-box" aria-label="List of prefixes">
+        <pre>
+vd:      https://w3id.org/varela-digital/
+hrao:    https://w3id.org/hrao/
+fabio:   http://purl.org/spar/fabio/
+frbr:    http://purl.org/vocab/frbr/core#
+dcterms: http://purl.org/dc/terms/
+foaf:    http://xmlns.com/foaf/0.1/
+pro:     http://purl.org/spar/pro/
+time:    http://www.w3.org/2006/time#
+doco:    http://purl.org/spar/doco/
+san:     http://purl.org/spar/san/
+cnt:     http://www.w3.org/2011/content#
+bio:     http://purl.org/vocab/bio/0.1/
+owl:     http://www.w3.org/2002/07/owl#
+rdf:     http://www.w3.org/1999/02/22-rdf-syntax-ns#
+rdfs:    http://www.w3.org/2000/01/rdf-schema#
+xml:     http://www.w3.org/XML/1998/namespace
+xsd:     http://www.w3.org/2001/XMLSchema#
+        </pre>
+      </div>
+
+      <!-- Module 1 -->
+      <section class="vd-module" id="module-1">
+        <h2>Module 1 — The Collection</h2>
+
+        <p>
+          The collection model (M1) describes the Varela Collection as an
+          intellectual and editorial entity. The Varela Collection is modelled as
+          an instance of <code>fabio:WorkCollection</code>, representing a
+          coherent scholarly aggregation of documentary works united by
+          provenance, historical context, and editorial mediation.
+        </p>
+
+        <p>
+          Each individual document in the collection is modelled as an instance
+          of <code>frbr:Work</code> and linked to the collection through the
+          <code>frbr:part</code> relation. This modelling choice allows
+          heterogeneous documentary genres — including letters, official
+          documents, accounts, and legal texts — to coexist within a unified
+          conceptual framework, while remaining distinguishable at the level of
+          documentary typology.
+        </p>
+
+        <p>
+          The collection model provides the structural entry point for the
+          Knowledge Graph, enabling navigation, aggregation, and querying across
+          documents and supporting the integration of multiple textual
+          expressions, material manifestations, and editorial realizations. By
+          adopting a FRBR-aligned approach through the FaBiO ontology, the model
+          treats the collection as a first-class intellectual object, independent
+          of any single physical or digital instantiation.
+        </p>
+
+        <figure class="model-figure tall">
+          <img
+            src="../../data_models/CollectionModel.png"
+            alt="Data Model of the Varela Collection"
+          />
+          <figcaption>
+            <strong>Figure 1.</strong> Data Model of the Varela Collection.
+          </figcaption>
+        </figure>
+      </section>
+
+      <!-- Module 2 -->
+      <section class="vd-module" id="module-2">
+        <h2>Module 2 — Letters and Documentary Models</h2>
+
+        <p>
+          The second module (M2) describes letters as documentary works and
+          models their different material and editorial manifestations within the
+          <em>Varela Digital</em> corpus. Each letter is represented as an
+          instance of <code>fabio:Letter</code>, understood as a subclass of
+          <code>frbr:Work</code>, and linked to the collection through
+          <code>frbr:part</code>.
+        </p>
+
+        <p>
+          At the level of the letter as a work, the model records the document
+          identifier (<code>dcterms:identifier</code>), the sending date
+          (<code>dcterms:date</code>), the place of dispatch
+          (<code>dcterms:spatial</code>), the sender
+          (<code>dcterms:creator</code>), the addressee
+          (<code>pro:addressee</code>), and the internal textual structure
+          through discrete textual segments (<code>doco:contains</code>,
+          <code>doco:TextChunk</code>).
+        </p>
+
+        <p>
+          The model supports multiple manifestations of the same letter through
+          <code>frbr:embodiment</code>. Manuscript letters are represented as
+          <code>fabio:AnalogManifestation</code> and linked to physical exemplars
+          (<code>frbr:Item</code>) with identifiers and physical extent. Printed
+          letters, as published in the
+          <em>Anais do Arquivo Histórico do Rio Grande do Sul</em>, are modelled
+          as analog manifestations with publication date
+          (<code>dcterms:issued</code>), publisher
+          (<code>dcterms:publisher</code>), rights statements, and an explicit
+          editorial interpretation process (<code>hico:InterpretationAct</code>,
+          <code>hico:interpretedBy</code>). Bibliographic information such as
+          volume and page range is associated with the corresponding item. Digital
+          letters are represented as <code>fabio:DigitalManifestation</code>,
+          linked to digital items carrying identifiers and rights information.
+        </p>
+
+        <p>
+          This module provides a unified framework for representing the
+          intellectual identity of letters and their diverse material and
+          editorial forms, while maintaining compatibility with FRBR-based
+          bibliographic modelling and Linked Open Data practices.
+        </p>
+
+        <figure class="model-figure tall">
+          <img
+            src="../../data_models/letterModel.png"
+            alt="Data Model of Letters in the Varela Digital project"
+          />
+          <figcaption>
+            <strong>Figure 2.</strong> Data Model of Letters and their
+            manifestations.
+          </figcaption>
+        </figure>
+      </section>
+
+      <!-- Module 3 -->
+      <section class="vd-module" id="module-3">
+        <h2>Module 3 — HRAO Relations Extracted from Text</h2>
+
+        <p>
+          <strong>Semantic relations model (HRAO)</strong><br />
+          The HRAO module of the Varela Digital data model represents the
+          semantic relations extracted from the letters and recorded through
+          standoff annotation. Rather than introducing new classes, HRAO acts as
+          a controlled vocabulary of domain-specific
+          <code>owl:ObjectProperty</code> predicates that connect existing nodes
+          in the Knowledge Graph—primarily <code>foaf:Person</code>,
+          <code>foaf:Agent</code>, <code>san:Event</code>, and
+          <code>geo:SpatialThing</code>. This design keeps the model interoperable
+          and FRBR-aligned while making historically meaningful relations explicit
+          and queryable.
+        </p>
+
+        <p>
+          The model captures three main relation families. First, interpersonal
+          relations link persons to persons through properties such as
+          <code>foaf:knows</code> and HRAO predicates (e.g.,
+          <code>hrao:hasKinship</code>, <code>hrao:servedUnder</code>,
+          <code>hrao:followedPoliticalAlignmentOf</code>), reflecting social ties
+          and political positioning expressed in the corpus. Second, institutional
+          relations connect persons to organizations using, for example,
+          <code>schema:memberOf</code> and organization-to-organization hierarchies
+          via <code>schema:subOrganizationOf</code>; these links support the
+          reconstruction of affiliation networks and administrative structures.
+          Third, event-based relations connect persons to <code>san:Event</code>
+          via <code>hrao:participatedInEvent</code>, while events are anchored
+          spatially through <code>san:hasPlace</code> to
+          <code>geo:SpatialThing</code>, enabling temporal-spatial analyses of
+          participation and movement across the correspondence.
+        </p>
+
+        <figure class="model-figure">
+          <img
+            src="../../data_models/relations_model.png"
+            alt="Semantic relations model (HRAO) for Varela Digital"
+          />
+          <figcaption>
+            <strong>Figure 3.</strong> Semantic relations model (HRAO) used to
+            express interpersonal, institutional, and event-based links in the
+            Varela Digital Knowledge Graph.
+          </figcaption>
+        </figure>
+      </section>
+
+      <!-- Footer (separated + includes Documentation link as requested) -->
+      <footer class="vd-footer">
+        <div class="footer-links">
+          Developed by <strong>Carla Menegat</strong> |
+          <a href="mailto:carla.menegat@studio.unibo.it"
+            >carla.menegat@studio.unibo.it</a
+          >
+          |
+          <a href="https://github.com/CarlaMenegat" target="_blank" rel="noopener"
+            >GitHub</a
+          >
+          |
+          Licensed under
+          <a
+            href="https://creativecommons.org/licenses/by/4.0/"
+            target="_blank"
+            rel="noopener"
+            >CC BY 4.0</a
+          >
+          |
+          <a href="project_discussion.html">Documentation</a>
+        </div>
+
+        <div class="footer-small">
+          Final examination project for the
+          <a
+            href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge"
+            target="_blank"
+            rel="noopener"
+          >
+            Master Degree in Digital Humanities and Digital Knowledge (DHDK)
+          </a>
+          , University of Bologna.
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
