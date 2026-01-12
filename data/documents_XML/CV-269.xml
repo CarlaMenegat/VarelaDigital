@@ -1,72 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
-        
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-269 – Sobre recibos de couros e acertos de contas</title>
                 <author>Domingos José de Almeida</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
-            
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-09-22">22 de setembro de 2025</date>
+            </editionStmt>
+            <extent>
+                <extent>1 carta</extent>
+                <measure type="pages">2</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">
-                        CC BY 4.0
-                    </licence>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
-            
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III (1941).</bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <biblScope unit="page" from="221" to="222">221-222</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
         
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
         <profileDesc>
-            
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
-                
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     <placeName ref="#piratini">Piratini</placeName>
                     <date when="1838-11-21">21 de novembro de 1838</date>
                 </correspAction>
-                
                 <correspAction type="received">
                     <persName ref="#manuel_martins_barroso">
                         Manuel Martins Barroso
                     </persName>
                     <note>Contador Geral do Tesouro.</note>
                 </correspAction>
-                
             </correspDesc>
-            
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
-        
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-09-22">22/09/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2026-01-12">12/01/2026</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
-    
     
     <text>
         <body>
             
-            <div type="carta" xml:id="CV-269">
+            <div type="letter" xml:id="CV-269a">
                 
                 <opener>
                     <dateline>
                         <placeName ref="#piratini">Piratini</placeName>,
                         <date when="1838-11-21">21 de novembro de 1838</date>.
                     </dateline>
-                    <salute>Amigo <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Barroso</salute>
+                    <salute>
+                        Amigo 
+                        <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                        <persName ref="#manuel_martins_barroso">Barroso</persName>
+                    </salute>
                 </opener>
                 
                 <p>
                     Entre os meus papéis antigos, que por acaso ontem revi, dei com
-                    o recibo junto, pelo qual vejo dever o Estado a Teodolindo
-                    unicamente 344 couros, que a 960 réis cada um produzem
-                    Rs. 330$240, e não 426$240 de que trata o documento que se
-                    lhe passou, e me foi apresentado para lhe mandar dar outros
-                    couros.
+                    o recibo junto, pelo qual vejo dever o Estado a 
+                    <persName ref="#teodolino_farinha">Teodolindo</persName>
+                    unicamente 
+                    <measure type="commodity" unit="couro" quantity="344">344 couros</measure>,
+                    que a 
+                    <measure type="currency" unit="BRL-réis" quantity="960">960 réis</measure> 
+                    cada um produzem 
+                    <measure type="currency" unit="BRL-réis" quantity="330240">330$240</measure>,
+                    e não 
+                    <measure type="currency" unit="BRL-réis" quantity="426240">426$240</measure>
+                    de que trata o documento que se lhe passou, e me foi apresentado
+                    para lhe mandar dar outros couros.
                 </p>
                 
                 <p>
@@ -77,7 +166,7 @@
                 
                 <p>
                     Faça-me o favor de dar a relação dos livros que supri para o
-                    Tribunal a fim de arranjar de uma vez esses documentos, etc…
+                    Tribunal, a fim de arranjar de uma vez esses documentos, etc…
                 </p>
                 
                 <closer>
@@ -87,16 +176,33 @@
                     </signed>
                 </closer>
                 
-                <p>
-                    <salute><choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Amigo</salute>
-                </p>
+            </div>
+            
+            <div type="reply" xml:id="CV-269b">
+                
+                <opener>
+                    <salute>
+                        <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> 
+                        Amigo
+                    </salute>
+                </opener>
                 
                 <p>
-                    O documento que Farinha apresentou passado por José Jerônimo
-                    mostra ter entregado àquele 556 couros e não 656. Há de erro
-                    contra a Fazenda, segundo recibo que agora aparece, de 96$000 rs.,
-                    proveniente dos 100 couros da diferença nos documentos; porém
-                    a conta à vista dos documentos aqui existentes está certa.
+                    O documento que 
+                    <persName ref="#teodolino_farinha">Farinha</persName> 
+                    apresentou, passado por 
+                    <persName ref="#jose_jeronimo_amaral">José Jerônimo</persName>,
+                    mostra ter entregado àquele 
+                    <measure type="commodity" unit="couro" quantity="556">556 couros</measure>
+                    e não 
+                    <measure type="commodity" unit="couro" quantity="656">656</measure>.
+                    Há erro contra a Fazenda, segundo recibo que agora aparece,
+                    de 
+                    <measure type="currency" unit="BRL-réis" quantity="96000">96$000</measure> 
+                    réis, proveniente dos 
+                    <measure type="commodity" unit="couro" quantity="100">100 couros</measure>
+                    da diferença nos documentos; porém a conta, à vista dos documentos
+                    aqui existentes, está certa.
                 </p>
                 
                 <closer>
@@ -106,13 +212,14 @@
                     </signed>
                 </closer>
                 
-                <note type="verso">
-                    Endereçado a Manuel Martins Barroso, Contador Geral do Tesouro.
-                    Indicação: “Em mão”. Marcado como “Respondida”.
-                </note>
-                
             </div>
             
+            <note type="endorsement" place="1v">
+                Endereçado a 
+                <persName ref="#manuel_martins_barroso">Manuel Martins Barroso</persName>, 
+                Contador Geral do <orgName ref="#tesouro">Tesouro</orgName>.
+                Em mão. Respondida. 
+            </note>
         </body>
     </text>
     

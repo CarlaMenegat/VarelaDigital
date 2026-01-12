@@ -1859,11 +1859,6 @@
             mutual="true"/>
         
         <relation
-            name="schema:memberOf"
-            active="#joao_antonio_silveira"
-            passive="#republica_rio_grandense"/>
-        
-        <relation
             name="foaf:knows"
             active="#joao_antonio_silveira"
             passive="#joaquim_prado_lima"
@@ -1872,11 +1867,6 @@
             name="schema:memberOf"
             active="#divisao_direita"
             passive="#exercito_farroupilha"/>
-        
-        <relation 
-            name="schema:memberOf"
-            active="#joao_antonio_silveira"
-            passive="#divisao_direita"/>
         
         <relation
             name="schema:memberOf"
@@ -4275,13 +4265,13 @@
         
         <relation
             name="foaf:knows"
-            active="#luis_rossetti"
+            active="#rossetti"
             passive="#domingos_jose_almeida"
             mutual="true"/>
         
         <relation
             name="foaf:knows"
-            active="#luis_rossetti"
+            active="#rossetti"
             passive="#giuseppe_garibaldi"
             mutual="true"/>
         
@@ -4350,6 +4340,262 @@
             passive="#joaquim_pereira_fagundes"
             mutual="true"/>
         
+        <relation
+            name="foaf:knows"
+            active="#quincoze"
+            passive="#domingos_jose_almeida"
+            mutual="true"/>
+        
+        <relation
+            name="schema:creditor"
+            active="#quincoze"
+            passive="#domingos_jose_almeida"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#antonio_jose_bonilha"
+            mutual="true"/>
+            
+        
+        <relation
+            name="foaf:knows"
+            active="#inacio_guimaraes"
+            passive="#antonio_jose_bonilha"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#inacio_guimaraes"
+            passive="#antonio_jose_abreu"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#domingos_jose_almeida" 
+            passive="#manuel_martins_barroso"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#domingos_jose_almeida" 
+            passive="#teodolindo" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#domingos_jose_almeida" 
+            passive="#antonio_jose_bonilha"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#domingos_jose_almeida" 
+            passive="#zambeccari" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#domingos_jose_almeida" 
+            passive="#joao_tomas_farinha" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#domingos_jose_almeida" 
+            passive="#rossetti" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#domingos_jose_almeida" 
+            passive="#garibaldi" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#domingos_jose_almeida" 
+            passive="#jose_jeronimo_amaral" 
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#teodolino_farinha"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#domingos_jose_almeida" 
+            passive="#coronel_gama" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#bento_goncalves_silva" 
+            passive="#coronel_gama" 
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#joao_antonio_silveira"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#domingos_jose_almeida" 
+            passive="#cuneo" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#domingos_jose_almeida" 
+            passive="#castellini" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#domingos_jose_almeida" 
+            passive="#garibaldi" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#domingos_jose_almeida" 
+            passive="#rossetti" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#domingos_jose_almeida" 
+            passive="#zambeccari" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#domingos_jose_almeida" 
+            passive="#jose_mariano_cunha" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#domingos_jose_almeida" 
+            passive="#carline" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#rossetti" 
+            passive="#cuneo" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#rossetti" 
+            passive="#castellini" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#rossetti" 
+            passive="#garibaldi" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#rossetti" 
+            passive="#zambeccari" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#rossetti" 
+            passive="#jose_mariano_cunha" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#rossetti" 
+            passive="#carline" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#joaquim_prado_lima" 
+            passive="#domingos_jose_almeida" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#joaquim_prado_lima" 
+            passive="#joao_antonio_silveira" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#domingos_jose_almeida" 
+            passive="#fidencio_machado" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#joao_antonio_silveira" 
+            passive="#fidencio_machado" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#rafael_teixeira_marins" 
+            passive="#domingos_jose_almeida" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#domingos_jose_almeida" 
+            passive="#bento_goncalves" 
+            mutual="true"/>
+
+        <relation 
+            name="foaf:knows" 
+            active="#domingos_jose_almeida" 
+            passive="#sa_brito" 
+            mutual="true"/>
+
+        <relation 
+            name="foaf:knows" 
+            active="#domingos_jose_almeida" 
+            passive="#jose_joaquim_silva_maia" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#bento_goncalves" 
+            passive="#sa_brito" 
+            mutual="true"/>
+
+        <relation 
+            name="foaf:knows" 
+            active="#bento_goncalves" 
+            passive="#jose_joaquim_silva_maia" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#domingos_jose_almeida" 
+            passive="#robert_bisley" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#domingos_jose_almeida" 
+            passive="#jeronimo_teixeira_almeida" 
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows" 
+            active="#robert_bisley" 
+            passive="#jeronimo_teixeira_almeida" 
+            mutual="true"/>
         
     </standOff>
 </TEI>

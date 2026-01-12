@@ -118,8 +118,14 @@
         
         <org xml:id="marinha_farroupilha" type="militaryOrganization">
             <orgName>Marinha Farroupilha</orgName>
-            <idno type="project"></idno>
-            <note>Força naval da República Rio-Grandense, responsável por operações fluviais e costeiras durante a Revolução Farroupilha.</note>
+            <idno type="project"/>
+            <affiliation ref="#republica_rio_grandense"/>
+            <note>
+                Força naval da República Rio-Grandense, responsável por operações fluviais e costeiras
+                durante a Revolução Farroupilha (1835–1845). Atuou no patrulhamento de rios, lagoas e
+                litoral, bem como em ações de corso contra embarcações do Império do Brasil, contando
+                com a participação de comandantes e corsários estrangeiros.
+            </note>
         </org>
         
         <org xml:id="oitavo_batalhao_cacadores" type="militaryUnit">
@@ -348,7 +354,14 @@
         <org xml:id="tesouro" type="governmentOffice">
             <orgName>Tesouro</orgName>
             <idno type="project"/>
-            <note>Órgão central responsável pelas finanças públicas da República Rio-Grandense, incluindo arrecadação, pagamentos e escrituração.</note>
+            <state type="roleInTime" xml:id="tesouro_republica_rio_grandense">
+                <roleName>Órgão central de finanças públicas</roleName>
+                <affiliation ref="#ministerio_fazenda"/>
+            </state>
+            <note>
+                Órgão responsável pelas finanças públicas da República Rio-Grandense, incluindo
+                arrecadação, pagamentos e escrituração, operando sob a tutela do Ministério da Fazenda.
+            </note>
         </org>
         
         <org xml:id="secretaria_tesouro" type="governmentOffice">
@@ -643,21 +656,56 @@
             </note>
         </org>
         
-        <org xml:id="secretaria_guerra" type="governmentSecretariat">
+        <org xml:id="secretaria_guerra" type="governmentOffice">
             <orgName>Secretaria dos Negócios da Guerra</orgName>
             <idno type="project"/>
-            <affiliation ref="#republica_rio_grandense"/>
+            <state type="roleInTime" xml:id="secretaria_guerra_rr">
+                <roleName>Secretaria do Ministério da Guerra</roleName>
+                <affiliation ref="#ministerio_guerra"/>
+                <note>
+                    Encarregada de redigir, registrar e expedir ordens militares; comunicar instruções
+                    a comandantes e autoridades militares; e gerir a documentação operacional e
+                    administrativa relacionada às forças republicanas.
+                </note>
+            </state>
             <note>
-                Secretaria subordinada ao Ministério da Guerra da República Rio-Grandense, 
-                encarregada de redigir, registrar e expedir ordens militares; comunicar 
-                instruções aos comandantes de distrito; e gerenciar documentação operacional 
-                e administrativa relacionada às forças republicanas.
+                Secretaria administrativa vinculada ao Ministério da Guerra da República Rio-Grandense.
             </note>
         </org>
         
-        <org xml:id="periodico_povo">
-            <orgName>Povo</orgName>
-            <note>Periódico da República Rio-Grandense, utilizado para comunicados oficiais e notícias do governo.</note>
+        <org xml:id="periodico_povo" type="periodical">
+            <orgName>O Povo</orgName>
+            <orgName type="variant">Povo</orgName>
+            <orgName type="subtitle">Jornal político, literário e ministerial da República Riograndense</orgName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10339599</idno>
+            <state type="roleInTime" xml:id="periodico_povo_oficial">
+                <roleName>Periódico oficial da República Rio-Grandense</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
+            <state type="roleInTime" xml:id="periodico_povo_piratini">
+                <roleName>Edição e circulação em Piratini</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <date type="begin" when="1838-09-01"/>
+                <date type="end" when="1839-03-06"/>
+                <note>Sede editorial inicialmente em <placeName ref="#piratini">Piratini</placeName>.</note>
+            </state>
+            <state type="roleInTime" xml:id="periodico_povo_cacapava">
+                <roleName>Edição e circulação em Caçapava</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <date type="begin" when="1839-03-07"/>
+                <date type="end" when="1840-05-22"/>
+                <note>
+                    Transferido para <placeName ref="#cacapava">Caçapava</placeName> com a mudança da capital.
+                </note>
+            </state>
+            <note>
+                Jornal sul-rio-grandense e principal periódico oficial da República Rio-Grandense.
+                Foi editado por <persName ref="#rossetti">Luigi Rossetti</persName> e organizado por
+                <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>. Em sua fase final,
+                foi brevemente editado por <persName ref="#cuneo">Giovanni Battista Cuneo</persName>.
+                Publicava comunicados oficiais e notícias do governo; circulava, em geral, duas vezes por semana,
+                com interrupções ocasionadas pela guerra.
+            </note>
         </org>
         
         <org xml:id="corpo_cruz_alta">

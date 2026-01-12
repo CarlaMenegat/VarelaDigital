@@ -1496,6 +1496,15 @@
             </note>
         </person>
         
+        <person xml:id="antonio_goncalves">
+            <persName>Antônio Gonçalves</persName>
+            <idno type="project"></idno>
+            <note>
+                Mencionado em CV-273 (1838) como destinatário de onças remetidas por Almeida, para providências de viagem.
+                Identidade incompleta.
+            </note>
+        </person>
+        
         <person xml:id="vilaca">
             <persName>Vilaça</persName>
         </person>
@@ -1725,7 +1734,12 @@
         
         <person xml:id="quincoze">
             <persName>Carlos Fernandez de Quincoze</persName>
-            <note>Cidadão que manteve relações financeiras e correspondência direta com Domingos José de Almeida, possivelmente ligado ao comércio local.</note>
+            <idno type="project"></idno>
+            <note>
+                Indivíduo que manteve correspondência direta e relação financeira com
+                Domingos José de Almeida, a quem adiantou quantia em dinheiro conforme
+                registrado na carta CV-261, assinando nota de quitação no mesmo documento.
+            </note>
         </person>
         
         <person xml:id="forte_gatto">
@@ -2028,7 +2042,7 @@
             </note>
         </person>
         
-        <person xml:id="manuel_campis">
+        <person xml:id="manuel_campis"> 
             <persName>Manuel Campis</persName>
             <idno type="project"/>
             <note>
@@ -2040,7 +2054,7 @@
             </note>
         </person>
         
-        <person xml:id="luis_rossetti">
+        <person xml:id="rossetti">
             <persName>Luís Rossetti</persName>
             <persName type="full">Luigi Rossetti</persName>
             <idno type="viaf">https://viaf.org/en/viaf/73112992</idno>
@@ -2200,17 +2214,24 @@
         
         <person xml:id="antonio_jose_bonilha">
             <persName>Antônio José Bonilha</persName>
-            <note>Cidadão encarregado de transportar farinha apreendida na sumaca “Mineira”.</note>
+            <idno type="project"></idno>
+            <note>
+                Cidadão encarregado de transportar farinha apreendida na sumaca “Mineira”, conforme menções documentais.
+            </note>
         </person>
         
         <person xml:id="manuel_martins_barroso">
             <persName>Manuel Martins Barroso</persName>
-            <note>Contador Geral do Tesouro da República Rio-Grandense.</note>
-        </person>
-        
-        <person xml:id="luis_rossetti">
-            <persName>Luís Rossetti</persName>
-            <note>Tenente italiano e redator do jornal oficial da República Rio-Grandense.</note>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="manuel_martins_barroso_contador_geral">
+                <roleName>Contador Geral do Tesouro</roleName>
+                <affiliation ref="#tesouro"/>
+                <note>Função administrativa mencionada na correspondência de Domingos José de Almeida.</note>
+            </state>
+            <note>
+                Funcionário mencionado como Contador Geral do Tesouro, destinatário e signatário de correspondência
+                relativa a contas e ajustes.
+            </note>
         </person>
         
         <person xml:id="garibaldi">
@@ -2237,33 +2258,123 @@
         </person>
         
         <person xml:id="zambeccari">
-            <persName>Giovanni Battista Zambeccari</persName>
-            <note>Companheiro de Garibaldi na Legião Italiana, atuante na República Rio-Grandense.</note>
+            <persName>Tito Livio Zambeccari</persName>
+            <persName type="variant">Giovanni Battista Zambeccari</persName>
+            <birth when="1802-06-30">30 de junho de 1802</birth>
+            <death when="1862-12-02">2 de dezembro de 1862</death>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3529584</idno>
+            <idno type="viaf">https://viaf.org/en/viaf/67521090</idno>
+            <state type="roleInTime" xml:id="zambeccari_naturalista">
+                <roleName>Naturalista</roleName>
+            </state>
+            <state type="roleInTime" xml:id="zambeccari_revolucionario">
+                <roleName>Revolucionário italiano</roleName>
+                <note>Atuou na América do Sul e esteve ligado a círculos liberais.</note>
+            </state>
+            <state type="roleInTime" xml:id="zambeccari_assessor_farroupilha">
+                <roleName>Assessor político e militar</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <note>Mencionado como próximo de líderes farroupilhas e associado à organização política do movimento.</note>
+            </state>
+            <note>
+                Intelectual e revolucionário italiano radicado no sul da América do Sul, com atuação científica e
+                política no Rio Grande do Sul. É referido na historiografia como próximo de lideranças farroupilhas,
+                incluindo Domingos José de Almeida.
+            </note>
+        </person>
+        
+        <person xml:id="jose_mariano_cunha">
+            <persName>José Mariano da Cunha</persName>
+            <idno type="project"></idno>
+            <note>Mencionado em CV-272 como informante sobre a chegada de Luís Rossetti a Piratini.</note>
+        </person>
+        
+        <person xml:id="carline">
+            <persName>Carline</persName>
+            <idno type="project"></idno>
+            <note>Patrício de Luís Rossetti; recebeu valores em patacões por intermédio de Domingos José de Almeida (CV-272). Identidade incompleta.</note>
         </person>
         
         <person xml:id="cuneo">
             <persName>Giovanni Battista Cuneo</persName>
-            <note>Italiano aliado de Garibaldi e participante das operações republicanas.</note>
+            <birth when="1809-11-09">9 de novembro de 1809</birth>
+            <death when="1875-12-18">18 de dezembro de 1875</death>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q3661306</idno>
+            <idno type="viaf">https://viaf.org/en/viaf/79003589</idno>
+            <note>
+                Jornalista, político e patriota italiano (Giovine Italia), associado à circulação de ideias mazzinianas
+                na América do Sul e colaborador próximo de Giuseppe Garibaldi. Mencionado em CV-272 no círculo italiano
+                ligado a Rossetti.
+            </note>
         </person>
         
         <person xml:id="castellini">
             <persName>Luigi Castellini</persName>
-            <note>Italiano envolvido na luta republicana e próximo ao grupo de Rossetti e Garibaldi.</note>
+            <idno type="project"></idno>
+            <note>Mencionado em CV-272 como integrante do círculo italiano associado a Luís Rossetti e Giuseppe Garibaldi.</note>
+        </person>
+        
+        <person xml:id="fidencio_machado">
+            <persName>Fidêncio Machado</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="fidencio_machado_sargento">
+                <roleName>Sargento</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+                <note>
+                    Atuou como condutor de cavalos destinados ao exército, sendo elogiado
+                    pelo bom desempenho da comissão e pelas condições em que os animais
+                    chegaram ao destino.
+                </note>
+            </state>
+            <note>
+                Sargento mencionado em correspondência administrativa de 1839, responsável
+                pelo transporte de cavalos para o exército republicano, no contexto da
+                logística militar da Revolução Farroupilha.
+            </note>
         </person>
         
         <person xml:id="jose_silva_brandao">
             <persName>José da Silva Brandão</persName>
-            <note>Ministro e Secretário de Estado dos Negócios da Guerra, Marinha e Exterior da República Rio-Grandense.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="jsb_ministro_guerra_marinha_exterior">
+                <roleName>Ministro e Secretário de Estado dos Negócios da Guerra, Marinha e Exterior</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <note>
+                    Responsável pela condução dos assuntos militares, navais e diplomáticos
+                    do governo da República Rio-Grandense durante a Revolução Farroupilha.
+                </note>
+            </state>
+            <note>
+                Figura do alto escalão do governo farroupilha, mencionada em documentação
+                administrativa e política da República Rio-Grandense.
+            </note>
         </person>
         
         <person xml:id="joaquim_gomes_araujo">
             <persName>Joaquim Gomes de Araújo</persName>
-            <note>Capitão envolvido em compras de fazendas para o exército farroupilha.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="jga_capitao_farroupilha">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+                <note>
+                    Oficial envolvido em operações de aquisição de fazendas e suprimentos
+                    destinados ao exército republicano.
+                </note>
+            </state>
+            <note>
+                Capitão citado em correspondência administrativa relacionada à logística
+                militar e ao abastecimento das forças farroupilhas.
+            </note>
         </person>
         
         <person xml:id="rafael_teixeira_marins">
             <persName>Rafael Teixeira Marins</persName>
-            <note>Militar ou agente administrativo da República Rio-Grandense citado em documentos oficiais.</note>
+            <idno type="project"/>
+            <note>
+                Agente mencionado em correspondência administrativa de janeiro de 1839,
+                destinatário de ordens relativas a providências militares e logísticas
+                no âmbito da República Rio-Grandense.
+            </note>
         </person>
         
         <person xml:id="joao_pedro_ramirez">
@@ -2278,12 +2389,55 @@
         
         <person xml:id="roberto_bisley">
             <persName>Roberto G. Bisley</persName>
-            <note>Capitão e armador corsário associado à República Rio-Grandense.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="roberto_bisley_capitao">
+                <roleName>Capitão</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <note>Nomeado como “Capitão” no contrato de sociedade de corso (CV-285).</note>
+            </state>
+            <state type="roleInTime" xml:id="roberto_bisley_corsario">
+                <roleName>Corsário</roleName>
+                <affiliation ref="#marinha_farroupilha"/>
+                <note>
+                    Atuou como comandante do lanchão corsário armado por sociedade, com carta patente da República,
+                    exercendo atividades de corso contra embarcações do Império do Brasil.
+                </note>
+            </state>
+            <state type="roleInTime" xml:id="roberto_bisley_armador">
+                <roleName>Armador</roleName>
+                <affiliation ref="#marinha_farroupilha"/>
+                <note>
+                    Sócio responsável por compra, equipamento, armamento e comando do lanchão; recebe percentagem como comandante,
+                    além da quota como armador, conforme artigos do contrato (CV-285).
+                </note>
+            </state>
+            <note>
+                Corsário associado à República Rio-Grandense durante a Revolução Farroupilha, responsável por adquirir e comandar
+                embarcação destinada ao corso na barra de Rio Grande. Sua atuação insere-se na estratégia naval e econômica de
+                hostilização ao comércio imperial por meio de captura de presas.
+            </note>
         </person>
         
         <person xml:id="jeronimo_teixeira_almeida">
             <persName>Jerônimo Teixeira de Almeida</persName>
-            <note>Comerciante e colaborador da República, atuando na logística de presas e descargas.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="jeronimo_teixeira_almeida_socio_corsario">
+                <roleName>Sócio armador</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <note>Sócio do trato de sociedade do corsário (CV-285), com obrigações operacionais e contábeis.</note>
+            </state>
+            <state type="roleInTime" xml:id="jeronimo_teixeira_almeida_logistica_presas">
+                <roleName>Agente de logística das presas</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+                <note>
+                    Responsável por deslocar-se a Mostardas, manter observação da costa, fomentar descarga,
+                    dispor dos efeitos do carregamento e manter escrituração e avisos aos sócios (art. 3 e 8, CV-285).
+                </note>
+            </state>
+            <note>
+                Colaborador do empreendimento corsário contratado em 1839, encarregado de coordenar aspectos logísticos da chegada,
+                descarga e administração de presas na costa (Mostardas), mantendo escrituração e comunicação com os demais sócios.
+            </note>
         </person>
         
         <person xml:id="joaquim_faria_correa">
@@ -2390,11 +2544,6 @@
         <person xml:id="assis">
             <persName>Assis</persName>
             <note>Destinatário de remessa financeira mencionada por Almeida.</note>
-        </person>
-        
-        <person xml:id="fructuoso_rivera">
-            <persName>Dom Fructuoso Rivera</persName>
-            <note>Líder político e militar uruguaio, chefe do Partido Colorado e figura central na Guerra Grande.</note>
         </person>
         
         <person xml:id="matos">
@@ -2608,6 +2757,30 @@
         
         <person xml:id="joao_tomas_farinha">
             <persName>João Tomás Farinha</persName>
+            <idno type="project"></idno>
+            <note>
+                Indivíduo citado em contexto de documentos e contas.
+            </note>
+        </person>
+        
+        <person xml:id="teodolino_farinha">
+            <persName>Teodolino Farinha</persName>
+            <idno type="project"></idno>
+            
+            <state type="roleInTime" xml:id="teodolino_farinha_construtor">
+                <roleName>Construtor</roleName>
+                <affiliation ref="#pelotas"/>
+                <note>
+                    Atuou como um dos construtores do Mercado Público de Pelotas, em colaboração
+                    com José Vieira Pimenta, no projeto do arquiteto Roberto Offer, entre 1840 e 1850.
+                </note>
+            </state>
+            
+            <note>
+                Construtor citado em documentação da Coleção Varela em contexto de contas e recibos,
+                e identificado na historiografia local como um dos responsáveis pela edificação do
+                Mercado Público de Pelotas, importante patrimônio urbano do século XIX.
+            </note>
         </person>
         
         <person xml:id="carlos_munoz">
@@ -4022,10 +4195,6 @@
             <persName>Pereira</persName>
         </person>
         
-        <person xml:id="gama">
-            <persName>Gama</persName>
-        </person>
-        
         <person xml:id="guerrido">
             <persName>Guerrido</persName>
         </person>
@@ -4910,7 +5079,51 @@
         </person>
         
         <person xml:id="brigadeiro_gama">
-            <persName>Brigadeiro Gama</persName>
+            <persName>José Maria da Gama Lobo d’Eça</persName>
+            <persName type="alias">Brigadeiro Gama</persName>
+            <persName type="alias">Barão de Saicã</persName>
+            <birth when="1793-09-15">15 de setembro de 1793</birth>
+            <death when="1872-12-28">28 de dezembro de 1872</death>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q10309986</idno>
+            <state type="roleInTime" xml:id="gama_coronel_1838">
+                <roleName>Coronel</roleName>
+                <date type="attested" when="1838-12"/>
+                <note>Posto ocupado à época das menções documentais de dezembro de 1838.</note>
+            </state>
+            <state type="roleInTime" xml:id="gama_brigadeiro">
+                <roleName>Brigadeiro</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <state type="roleInTime" xml:id="gama_barão_saica">
+                <roleName>Barão de Saicã</roleName>
+                <affiliation ref="#imperio_brasil"/>
+                <date type="begin" when="1866-08-28"/>
+                <note>Título nobiliárquico concedido por D. Pedro II.</note>
+            </state>
+            <note>
+                Militar brasileiro de carreira, atuante nas campanhas do sul do Império, incluindo
+                conflitos nas Missões, a Guerra Cisplatina e a Revolução Farroupilha, na qual
+                participou do lado legalista. É referido nos documentos da Coleção Varela como
+                “Brigadeiro Gama”.
+            </note>
+        </person>
+        
+        <person xml:id="coronel_gama">
+            <persName>Gama</persName>
+            <persName type="alias">Coronel Gama</persName>
+            <idno type="project"></idno>
+            
+            <state type="roleInTime" xml:id="coronel_gama_farroupilha">
+                <roleName>Coronel</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+                <note>Mencionado em contexto de operações nas Missões e de recebimento de cavalos.</note>
+            </state>
+            
+            <note>
+                Oficial identificado apenas pelo sobrenome “Gama” nas cartas da Coleção Varela, referido como
+                “Coronel Gama” em contexto de operações nas Missões. Trata-se de indivíduo distinto do
+                Brigadeiro José Maria da Gama Lobo d’Eça (legalista).
+            </note>
         </person>
         
         <person xml:id="jose_luis_bustamante">
@@ -6155,14 +6368,34 @@
             <note>Oficial farroupilha mencionado como atuante ao lado de Antônio de Sousa Neto.</note>
         </person>
         
-        <person xml:id="correia">
-            <persName>Major Correia</persName>
+        <person xml:id="joaquim_correia">
+            <persName>Joaquim de Faria Correia</persName>
             <idno type="project"></idno>
             <state type="roleInTime" xml:id="correia_major_farroupilha">
                 <roleName>Major</roleName>
                 <affiliation ref="#republica_rio_grandense"/>
             </state>
             <note>Major farroupilha que operava em conjunto com Castilho e Antônio de Sousa Neto.</note>
+        </person>
+        
+        <person xml:id="manuel_pires">
+            <persName>Manuel Pires</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="manuel_pires_major">
+                <roleName>Major</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+                <note>
+                    Oficial indicado para encarregar-se da fatura e remessa de tropas de gado
+                    destinadas a Montevidéu, no contexto de arrecadação e logística militar
+                    da República Rio-Grandense.
+                </note>
+            </state>
+            <note>
+                Major mencionado em correspondência de Domingos José de Almeida como possível
+                responsável pela organização e envio de gado de corte a partir do distrito
+                de São Gabriel, no contexto do empréstimo e das contribuições voluntárias
+                para a luta republicana.
+            </note>
         </person>
         
         <person xml:id="jose_maria_betancourt">

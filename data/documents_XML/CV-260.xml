@@ -146,7 +146,7 @@
     <text>
         <body>
             
-            <div type="oficio" xml:id="CV-260">
+            <div type="officialDocument" subtype="oficio" xml:id="CV-260">
                 
                 <dateline>
                     <placeName ref="#piratini">Piratini</placeName>,
