@@ -1,5 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<standOff xmlns="http://www.tei-c.org/ns/1.0">
+<standOff xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Varela Digital — Standoff de Eventos</title>
+                <respStmt>
+                    <resp>Modelagem, identificação e curadoria de eventos históricos</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Projeto Varela Digital</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <p>
+                    Arquivo auxiliar contendo eventos históricos mencionados ou inferidos
+                    a partir dos documentos da Coleção Varela, modelados em TEI P5 por meio
+                    de standoff markup.
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    O projeto Varela Digital realiza a edição digital, anotação semântica
+                    e modelagem de entidades nomeadas dos documentos da Coleção Varela
+                    (Anais do Arquivo Histórico do Rio Grande do Sul, vol. II).
+                </p>
+                <p>
+                    Os eventos deste arquivo incluem combates, batalhas, deslocamentos,
+                    atos administrativos, prisões, proclamações e outros acontecimentos
+                    relevantes para a história da Revolução Farroupilha, identificados
+                    a partir da correspondência e documentação associada.
+                </p>
+                <p>
+                    Cada evento é descrito em TEI P5 com o elemento <code>event</code>,
+                    incluindo descrição textual (<code>desc</code>), datação
+                    (<code>date</code>), localização (<code>location</code> /
+                    <code>placeName</code> / <code>geo</code>) e notas explicativas.
+                    O modelo conceitual é compatível com práticas de Linked Open Data,
+                    permitindo conversão futura para RDF/JSON-LD.
+                </p>
+            </projectDesc>
+            
+            <editorialDecl>
+                <p>
+                    A identificação e caracterização dos eventos baseiam-se na edição
+                    impressa dos Anais, no contexto documental imediato e, quando necessário,
+                    em informações historiográficas complementares.
+                </p>
+                <p>
+                    Datas e localizações podem ser explícitas ou inferidas. Em casos de
+                    incerteza, esta é indicada em nota editorial. As coordenadas geográficas
+                    são fornecidas quando identificáveis, podendo ser ajustadas ou
+                    refinadas posteriormente pelo editor.
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">
+                    Português do Brasil — idioma das descrições editoriais,
+                    notas explicativas e modelagem dos eventos.
+                </language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change when="2026-01-14">
+                Criação do arquivo de standoff de eventos do projeto Varela Digital,
+                com padronização editorial e semântica para interoperabilidade e
+                conversão futura em Linked Open Data.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    
     <listEvent>
         <event xml:id="combate_espinilho">
             <desc>Combate do Espinilho</desc>

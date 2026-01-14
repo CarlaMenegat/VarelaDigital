@@ -1,5 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <standOff xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Varela Digital — Standoff de Lugares</title>
+                <respStmt>
+                    <resp>Modelagem, identificação e curadoria de entidades toponímicas</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Projeto Varela Digital</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <p>
+                    Arquivo auxiliar contendo todas as entradas de lugares (topônimos)
+                    mencionados nos documentos da Coleção Varela, modelados em TEI P5
+                    por meio de standoff markup.
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    O projeto Varela Digital realiza a edição digital, anotação semântica
+                    e modelagem de entidades nomeadas dos documentos da Coleção Varela
+                    (Anais do Arquivo Histórico do Rio Grande do Sul, vol. II).
+                </p>
+                <p>
+                    Os lugares deste arquivo são descritos em TEI P5 com <code>place</code>,
+                    incluindo formas de nome (<code>placeName</code>), identificadores externos
+                    quando disponíveis (por exemplo, GeoNames), coordenadas geográficas
+                    (<code>geo</code>) e notas de contextualização histórica.
+                </p>
+                <p>
+                    O modelo conceitual subjacente é compatível com práticas de Linked Open Data,
+                    permitindo a conversão posterior para RDF/JSON-LD e a integração com
+                    vocabulários geoespaciais. Tais vocabulários não são serializados
+                    neste arquivo TEI, mas orientam a estrutura e a padronização dos dados.
+                </p>
+            </projectDesc>
+            
+            <editorialDecl>
+                <p>
+                    As identificações toponímicas foram estabelecidas a partir do contexto
+                    documental e da edição impressa dos Anais. Quando possível, os lugares
+                    são alinhados a identificadores persistentes (GeoNames). Conforme o padrão
+                    editorial do projeto, pode haver campos reservados para preenchimento
+                    posterior pelo editor (por exemplo, <code>idno type="geonames"</code>).
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">
+                    Português do Brasil — idioma das descrições editoriais, notas e modelagem toponímica.
+                </language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change when="2026-01-14">
+                Criação do arquivo de standoff de lugares do projeto Varela Digital,
+                com padronização para interoperabilidade e conversão futura em Linked Open Data.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    
     <listPlace>
         <place xml:id="brasil">
             <placeName>Brasil</placeName>
@@ -329,11 +405,6 @@
             <geo>-31.61667, -52.25</geo>
             <note>Localidade próxima de Pelotas, na região da Serra dos Tapes.</note>
         </place>
-
-        <place xml:id="feliz_retiro">
-            <placeName>Feliz Retiro</placeName>
-            <note>Localidade rural onde residiu Bernardina.</note>
-        </place> <!-- corrigir para a id "retiro"-->
         
         <place xml:id="bom_retiro">
             <placeName>Bom Retiro</placeName>
@@ -512,19 +583,6 @@
             <note>Cerro localizado no interior de Candelário, entre Sobradinho e Passa-Sete no Rio Grande do Sul.</note>
         </place>
         
-        <place xml:id="botucarai">
-            <placeName>Botucaraí</placeName>
-            <idno type="geonames">https://www.geonames.org/3469139/botucarai.html</idno>
-            <geo>-29.7125, -52.88972</geo>
-            <note>Povoação no interior de candelária.</note>
-        </place> <!--corrigir pq temos duas entradas iguais-->
-        
-        <place xml:id="botucarai">
-            <placeName>Serra de Botucaraí</placeName>
-            <geo>-29.3082, -52.3814</geo>
-            <note>Formação serrana localizada entre Sobradinho e Passa-Sete, mencionada como corredor estratégico de movimentação farroupilha.</note>
-        </place>  <!--corrigir pq temos duas entradas iguais, aqui usar botucarai_serra como id-->
-        
         <place xml:id="sao_jose">
             <placeName>São José</placeName>
             <idno type="geonames">https://www.geonames.org/7575805/fazenda-sao-jose.html</idno>
@@ -610,11 +668,6 @@
             <geo>-28.4826, -48.7806</geo>
             <note>Cidade catarinense; destino de embarcações após a apreensão.</note>
         </place>
-        
-        <place xml:id="vila_setembrina">
-            <placeName>Vila Setembrina</placeName>
-            <note>Denominação política usada pelo governo farroupilha; localização histórica aproximada.</note>
-        </place> <!--corrigir para id porto_alegre-->
         
         <place xml:id="sao_martinho">
             <placeName>São Martinho</placeName>
@@ -729,17 +782,6 @@
             <note>Localidade na divisa entre o Brasil e o Uruguai, próxima do rio de mesmo nome.</note>
         </place>
         
-        <place xml:id="santa_ana">
-            <placeName>Santa Ana</placeName>
-            <note>Localidade fronteiriça onde se faria a entrega dos novilhos.</note>
-        </place> <!--corrigir para id santana_livramento-->
-        
-        
-        <place xml:id="passo_enforcados">
-            <placeName>Passo dos Enforcados</placeName>
-            <note>Topônimo citado como ponto de travessia.</note>
-        </place>
-        
         <place xml:id="chui">
             <placeName>Chuí</placeName>
             <idno type="geonames">https://www.geonames.org/3466187/chui.html</idno>
@@ -766,12 +808,6 @@
             <geo>--30.2795, -51.18696</geo>
             <note>Também conhecido como Rio Guaíba, esse lago é formado pelo encontro de diferentes rios - Jacuí, Gravataí, Caí e dos Sinos - que desembocam na Lagoa dos Patos.</note>
         </place>
-        
-        <place xml:id="rio_guaiba">
-            <placeName>Rio Guaíba</placeName>
-            <geo>-30.11833 -51.32139</geo>
-            <note>Curso d’água no Rio Grande do Sul; ponto de referência aproximado baseado em município de Guaíba. </note>
-        </place> <!--corrigir para id guaíba-->
         
         <place xml:id="pedras_brancas">
             <placeName type="historical">Pedras Brancas</placeName>
@@ -814,12 +850,6 @@
             <geo>-30.6733, -51.3953</geo>
             <note>Pequeno porto às margens da Lagoa dos Patos, Rio Grande do Sul.</note>
         </place>
-
-        <place xml:id="ilha_dos_tapes">
-            <placeName>Ilha dos Tapes</placeName>
-            <geo>-30.6733, -51.3958</geo> 
-            <note>Ilha lagunar situada na margem da Lagoa dos Patos, município de Tapes (RS), utilizada como ponto de desembarque nas operações militares de 1839.</note>
-        </place> <!--Corrigir para id tapes-->
 
         <place xml:id="ilha_paciencia">
             <placeName>Ilha da Paciência</placeName>
@@ -905,16 +935,6 @@
             <geo>-30.31646, -52.13372</geo>
             <note>Elevação no RS identificada como “Cerro do Roque”. </note>
         </place>
-        
-        <place xml:id="charqueadas_barra">
-            <placeName type="historical">Charqueadas da Barra</placeName>
-            <placeName type="historical">Charqueadas da Costa</placeName>
-            <placeName type="modern">Charqueadas</placeName>
-            <idno type="geonames">https://www.geonames.org/3466261/charqueadas.html</idno>
-            <geo>-29.95472, -51.62528</geo>
-            <note>Região produtora de charque na margem do Jacuí. </note>
-        </place> <!--corrigir para id charqueadas-->
-
         
         <place xml:id="ponta_rasa">
             <placeName>Ponta Rasa</placeName>
@@ -1161,32 +1181,6 @@
             <geo>-29.62056 -54.17889</geo>
             <note>Antiga localidade conhecida como Rincão de São Pedro, correspondente ao atual município de São Pedro do Sul, Rio Grande do Sul.</note>
         </place>
-        
-        <place xml:id="escuna_incorporacao">
-            <placeName>Escuna Incorporação</placeName>
-            <idno type="geonames"></idno>
-            <note>Embarcação legalista onde Domingos José de Almeida esteve detido em 1835.</note>
-        </place>
-        
-        
-        <place xml:id="passo_das_pedras">
-            <placeName>Passo das Pedras</placeName>
-            <note></note>
-        </place>
-        
-        <place xml:id="passo_beca">
-            <placeName>Passo do Beca</placeName>
-            <note>Ponto de travessia utilizado no século XIX na região do rio São Gonçalo, associado às rotas de transporte entre Pelotas e Rio Grande.</note>
-        </place>
-        
-        <place xml:id="aguas_mornas">
-            <placeName>Águas Mornas</placeName>
-            <note>Topônimo hidrotermal local; localização exata desconhecida, não correspondente ao município homônimo de SC.</note>
-        </place>
-        
-        <place xml:id="andrade">
-            <placeName>Andrade</placeName>
-            <note>Povoado mencionado como local de escrita da carta CV-161.</note>
-        </place>
+
     </listPlace>
 </standOff>

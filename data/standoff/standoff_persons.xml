@@ -1,5 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<standOff xmlns="http://www.tei-c.org/ns/1.0">
+<standOff xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Varela Digital — Standoff de Pessoas</title>
+                <respStmt>
+                    <resp>Modelagem, curadoria e normalização das entradas prosopográficas</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Projeto Varela Digital</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <p>
+                    Arquivo auxiliar contendo entradas <gi>person</gi> em TEI P5 (standoff) para as pessoas mencionadas
+                    nos documentos da Coleção Varela (Anais do Arquivo Histórico do Rio Grande do Sul, vol. II).
+                    As informações biográficas, funções e vínculos institucionais são consolidadas a partir da
+                    edição impressa e de pesquisa editorial complementar.
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    O projeto Varela Digital realiza a digitalização, OCR e marcação TEI P5 dos documentos da Coleção Varela.
+                    Este arquivo reúne, em standoff markup, as entidades do tipo <gi>person</gi> com normalização de nomes,
+                    identificação (quando possível) e descrição de funções em tempo (<gi>state</gi> do tipo <att>roleInTime</att>),
+                    para garantir interoperabilidade e apoiar transformação para RDF/JSON-LD.
+                </p>
+            </projectDesc>
+            
+            <editorialDecl>
+                <p>
+                    Cada entrada <gi>person</gi> deve conter ao menos um <gi>persName</gi>. Sempre que não houver identificadores
+                    externos (p. ex. VIAF ou Wikidata), incluir <gi>idno</gi> com <att>type</att>="project" logo após o nome.
+                    Quando disponíveis, usar <gi>idno</gi> com <att>type</att>="viaf" e/ou <att>type</att>="wikidata".
+                </p>
+                <p>
+                    Papéis, cargos e funções são modelados prioritariamente por <gi>state</gi> com
+                    <att>type</att>="roleInTime", incluindo <gi>roleName</gi>, <gi>affiliation</gi> e, quando possível,
+                    datas de início e/ou fim por <gi>date</gi> com <att>type</att>="begin" e <att>type</att>="end".
+                    Informações incertas ou inferidas são registradas em <gi>note</gi> com redação editorial explícita
+                    (por exemplo: “provável”, “possivelmente”, “identidade incompleta”).
+                </p>
+                <p>
+                    Relações entre pessoas (por exemplo, <att>name</att>="foaf:knows") e outras relações semânticas
+                    (por exemplo, <att>name</att>="rel:*" e <att>name</att>="hrao:*") são modeladas separadamente no arquivo
+                    <ref target="data/standoff/standoff-relations.xml">standoff-relations.xml</ref>.
+                </p>
+            </editorialDecl>
+            
+            <classDecl>
+                <taxonomy xml:id="vd_person_types">
+                    <desc>Convenções editoriais para descrição de pessoas no Varela Digital.</desc>
+                    <category xml:id="vd_person_core">
+                        <catDesc>Entrada mínima: <gi>persName</gi> + <gi>idno</gi> (type="project" quando não houver autoridade externa) + <gi>note</gi> quando necessário.</catDesc>
+                    </category>
+                    <category xml:id="vd_person_roles">
+                        <catDesc>Funções e cargos: modelados por <gi>state</gi> type="roleInTime", com <gi>roleName</gi>, <gi>affiliation</gi> e datas quando disponíveis.</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil — idioma das descrições editoriais, notas e modelagem.</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change when="2026-01-14">Criação do arquivo de standoff de pessoas e definição das regras editoriais de normalização.</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    
     <listPerson>
         <person xml:id="raul_abbott">
             <persName>Raul Abbott</persName>
@@ -2309,9 +2391,10 @@
         </person>
         
         <person xml:id="castellini">
-            <persName>Luigi Castellini</persName>
+            <persName>Napoleone Castellini</persName>
             <idno type="project"></idno>
-            <note>Mencionado em CV-272 como integrante do círculo italiano associado a Luís Rossetti e Giuseppe Garibaldi.</note>
+            <note>Integrante do círculo italiano associado a Luís Rossetti e Giuseppe Garibaldi. 
+                Negociante radicado em Montevidéu, frequentemente associado ao envio de gados e suprimentos.</note>
         </person>
         
         <person xml:id="fidencio_machado">
@@ -2442,17 +2525,36 @@
         
         <person xml:id="joaquim_faria_correa">
             <persName>Joaquim de Faria Corrêa</persName>
-            <note>Major, responsável por operações de gado e logística militar.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="joaquim_faria_correa_major">
+                <roleName>Major</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <note>
+                Major farroupilha citado em correspondência oficial como responsável por
+                operações logísticas, especialmente relacionadas à fatura, condução e
+                remessa de tropas de gado destinadas ao exército republicano.
+            </note>
         </person>
         
         <person xml:id="natalio_rusca">
             <persName>Natálio Rusca</persName>
-            <note>Negociante citado em contratos de fornecimento durante a Revolução Farroupilha.</note>
+            <idno type="project"/>
+            <note>
+                Negociante citado em contratos e correspondência relativos ao fornecimento
+                de gêneros, fazendas e outros artigos para o exército da República
+                Rio-Grandense durante a Revolução Farroupilha.
+            </note>
         </person>
         
         <person xml:id="manuel_jose_ferreira">
             <persName>Manuel José Ferreira</persName>
-            <note>Prisioneiro citado em investigação militar sobre tentativa de sedução de soldados.</note>
+            <idno type="project"/>
+            <note>
+                Indivíduo citado como prisioneiro em investigação militar relativa a
+                tentativa de sedução de soldados ou aliciamento indevido, em contexto
+                de disciplina e segurança das forças em campanha.
+            </note>
         </person>
         
         <person xml:id="antonio_silva_jardim">
@@ -2484,14 +2586,16 @@
             </note>
         </person>
         
-        <person xml:id="napoleone_castellini">
-            <persName>Napoleone Castellini</persName>
-            <note>Negociante radicado em Montevidéu, frequentemente associado ao envio de gados e suprimentos.</note>
-        </person>
-        
         <person xml:id="joao_bonifacio">
             <persName>João Bonifácio</persName>
-            <note>Referência histórica mencionada como exemplo de medida política após a abdicação de D. Pedro I.</note>
+            <idno type="project"/>
+            <note>
+                Personagem citado como referência política no contexto posterior à abdicação
+                de D. Pedro I. Não foi identificada figura histórica relevante com este nome.
+                É provável que se trate de uma referência imprecisa a
+                José Bonifácio de Andrada e Silva, estadista central do período,
+                frequentemente evocado como exemplo de ação política e moral.
+            </note>
         </person>
         
         <person xml:id="domingos_crescencio_carvalho">
@@ -2543,17 +2647,43 @@
         
         <person xml:id="assis">
             <persName>Assis</persName>
-            <note>Destinatário de remessa financeira mencionada por Almeida.</note>
+            <idno type="project"/>
+            <note>
+                Indivíduo citado como destinatário de remessa financeira determinada por
+                Domingos José de Almeida, no contexto de pagamentos realizados a partir
+                de recursos administrados em Montevidéu.
+            </note>
         </person>
         
-        <person xml:id="matos">
-            <persName>Matos</persName>
-            <note>Indivíduo citado criticamente nas correspondências, envolvido em negociações com Rivera e Casas.</note>
+        <person xml:id="re">
+            <persName>Ré</persName>
+            <idno type="project"/>
+            <note>
+                Pessoa mencionada como credora do Estado rio-grandense, relacionada ao
+                pagamento de papel e remédios adquiridos para uso público.
+            </note>
         </person>
         
-        <person xml:id="casas">
+        <person xml:id="deal">
+            <persName>Deal</persName>
+            <idno type="project"/>
+            <note>
+                Pessoa citada como credora do Estado rio-grandense, mencionada em contexto
+                de pagamento de valores por conta do Tesouro.
+            </note>
+        </person>
+        
+        <person xml:id="antonio_casas">
             <persName>Dom Antônio Casas</persName>
-            <note>Indivíduo acusado de irregularidades financeiras envolvendo fundos do Tesouro.</note>
+            <idno type="project"/>
+            <note>
+                Indivíduo envolvido em controvérsia financeira relacionada a pagamentos do
+                Tesouro da República Rio-Grandense. Em correspondência de Domingos José de
+                Almeida (CV-298), é acusado de irregularidades no recebimento de valores;
+                contudo, cartas posteriores indicam que Antônio Casas teria sido lesado pelo
+                pagador do Tesouro, Anacleto José de Matos, sugerindo conflito administrativo
+                e possível desvio ou má gestão de recursos.
+            </note>
         </person>
         
         <person xml:id="vasco_amaro">
@@ -3432,6 +3562,21 @@
                 23 de dezembro de 1888). Republicano, aderiu ao movimento farroupilha e integrou
                 seu governo, exercendo pastas ministeriais. Após a anistia, retornou à advocacia
                 e seguiu carreira na magistratura e administração pública.
+            </note>
+        </person>
+        
+        <person xml:id="joaquim_jose_silva">
+            <persName>Joaquim José da Silva</persName>
+            <idno type="project"/>
+            
+            <state type="roleInTime" xml:id="joaquim_jose_silva_coronel">
+                <roleName>Coronel</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            
+            <note>
+                Morador do Departamento; citado como coronel que ofereceu, por empréstimo,
+                cem novilhos de corte para o esforço de guerra da República Rio-Grandense.
             </note>
         </person>
         
@@ -4894,10 +5039,6 @@
             <note>Provavelmente comerciante ou fornecedor citado para compra de óleo.</note>
         </person>
         
-        <person xml:id="faria">
-            <persName>Faria</persName>
-        </person>
-        
         <person xml:id="tristao_de_borba">
             <persName>Tristão de Borba</persName>
         </person>
@@ -5023,6 +5164,11 @@
         
         <person xml:id="luis_bocquin_des_hilaires">
             <persName>D. Luís Bocquin des Hilaires</persName>
+            <idno type="project"/>
+            <note>
+                Médico ou fornecedor de medicamentos citado como credor do Estado
+                rio-grandense, em razão da venda de remédios destinados ao esforço de guerra.
+            </note>
         </person>
         
         <person xml:id="pablo_ramon">

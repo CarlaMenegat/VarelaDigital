@@ -1,31 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carta CV-290 – Domingos José de Almeida para Antônio da Silva Jardim</title>
+                <title>Ofício CV-290 – Recrutamento de potros e mulas</title>
                 <author>Domingos José de Almeida</author>
+                <respStmt>
+                    <resp>Transcrição e codificação TEI</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edição digital</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
             </titleStmt>
-            
+            <editionStmt>
+                <edition>Varela Digital – Edição digital revisada da Coleção Varela, vol. II (Anais do Arquivo Histórico do RS)</edition>
+                <respStmt>
+                    <resp>Transcrição, anotação, pesquisa e revisão</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+                <date when="2025-09-19">19 de setembro de 2025</date>
+            </editionStmt>
+            <extent>
+                <extent>1 ofício</extent>
+                <measure type="pages">4</measure>
+                <note type="project">Integra o conjunto CV-1 a CV-558 da Coleção Varela.</note>
+            </extent>
             <publicationStmt>
-                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS</publisher>
+                <publisher>Coleção Varela – Anais do Arquivo Histórico do RS, vol. II</publisher>
+                <pubPlace>Porto Alegre</pubPlace>
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
                 </availability>
             </publicationStmt>
-            
+            <seriesStmt>
+                <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                <biblScope type="volume">Vol. II</biblScope>
+                <biblScope type="series">II Série</biblScope>
+            </seriesStmt>
+            <notesStmt>
+                <note type="catalogue">
+                    Catálogo: Arquivo Histórico do Rio Grande do Sul, Anais. Porto Alegre, 1978. 23 cm. (Coleção Varela, v. 2, t. 1). Publicado pelo Instituto Estadual do Livro DAC/SEC.
+                </note>
+                <note>Conteúdo: 2. Coleção de Alfredo Varela – correspondência ativa: documentos CV-1 a CV-558. Ficha catalográfica impressa consultada.</note>
+                <note type="processo">
+                    Imagem digitalizada em alta resolução a partir do volume impresso, OCR realizado em Python, txt gerado e convertido com marcação TEI P5 por Carla Menegat.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <bibl>
-                    Anais do Arquivo Histórico do Rio Grande do Sul, Vol. III. Porto Alegre: 1941.
-                    <ptr target="data/standoff/standoff-persons.xml"/>
-                    <ptr target="data/standoff/standoff-places.xml"/>
-                    <ptr target="data/standoff/standoff-events.xml"/>
-                    <ptr target="data/standoff/standoff-orgs.xml"/>
-                </bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Anais do Arquivo Histórico do Rio Grande do Sul</title>
+                        <author>Arquivo Histórico do Rio Grande do Sul</author>
+                        <imprint>
+                            <pubPlace>Porto Alegre</pubPlace>
+                            <publisher>Instituto Estadual do Livro DAC/SEC</publisher>
+                            <date when="1978">1978</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="part">Coleção Varela, t. 1</biblScope>
+                            <biblScope unit="page" from="232" to="232">232</biblScope>
+                            <measure type="extent">23 cm</measure>
+                        </imprint>
+                    </monogr>
+                    <series>
+                        <title>II Série</title>
+                    </series>
+                </biblStruct>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-events.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
+                <ptr target="data/standoff/standoff-relations.xml"/>
             </sourceDesc>
         </fileDesc>
-        
+        <encodingDesc>
+            <projectDesc>
+                <p>O projeto Varela Digital realiza a digitalização, OCR em Python e marcação XML/TEI P5 dos documentos da Coleção Varela, a partir das transcrições do volume II dos Anais do Arquivo Histórico do Rio Grande do Sul. As entidades nomeadas são tratadas via standoff markup, garantindo interoperabilidade e pesquisa avançada.</p>
+            </projectDesc>
+            <appInfo>
+                <application ident="Python_OCR_Tools" version="2.1">
+                    <label>Ferramenta de OCR utilizada na transcrição</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
         <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">Português do Brasil</language>
+                <language ident="pt-BR">
+                    Texto editorial, notas, cabeçalhos, descrições e metadados produzidos na edição digital.
+                </language>
+            </langUsage>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
@@ -33,38 +98,75 @@
                     <date when="1839-03-01">1.º de março de 1839</date>
                     <orgName ref="#secretaria_fazenda">Secretaria do Estado dos Negócios da Fazenda</orgName>
                 </correspAction>
-                
                 <correspAction type="received">
                     <persName ref="#antonio_silva_jardim">Antônio da Silva Jardim</persName>
                     <orgName ref="#policia_municipio">Polícia Municipal</orgName>
                 </correspAction>
             </correspDesc>
+            <handDesc>
+                <handNote xml:id="hand_main" medium="print">
+                    Texto conforme edição impressa dos Anais.
+                </handNote>
+            </handDesc>
         </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-09-22">22/09/2025</date>
+                    Digitalização, transcrição e revisão inicial do documento por Carla Menegat.
+                </item>
+                <item>
+                    <date when="2026-01-12">12/01/2026</date>
+                    Inclusão de notas históricas, metadados catalográficos e validação da ficha impressa.
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     
     <text>
         <body>
-            <div type="letter" xml:id="CV-290">
+            <div type="officialDocument" subtype="copy" xml:id="CV-290">
                 
                 <opener>
                     <salute><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice></salute>
                 </opener>
                 
-                <p>Manda o <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Presidente do Estado que <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>, sem perda de tempo, determine aos comandantes de polícia seus subordinados que, nos seus respectivos distritos, passem a recrutar sem demora todos os potros e mulas das propriedades dos inimigos da república que se acham arroladas, para serem arrendadas como dispõe o decreto de 11 de novembro de 1836, cujos animais remeterão para o lugar que <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> lhes indicar, e deve ser o rincão mais atacado que existir no município, para dele se enviar às divisões do exército aquelas porções que convier.</p>
+                <p>Manda o <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                    Presidente do Estado que <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice>, 
+                    sem perda de tempo, determine aos comandantes de polícia seus subordinados que, nos seus 
+                    respectivos distritos, passem a recrutar sem demora todos os potros e mulas das propriedades dos 
+                    inimigos da república que se acham arroladas, para serem arrendadas como dispõe o decreto de 
+                    <date when="1836-11-11">11 de novembro de 1836</date>, cujos animais remeterão para o lugar que 
+                    <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> lhes indicar, e deve ser o rincão 
+                    mais atacado que existir no município, para dele se enviar às divisões do exército aquelas 
+                    porções que convier.</p>
                 
-                <p>Além de tais animais, <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> determinará aos comandantes citados que todos os potros capazes de se domarem pertencentes aos criadores de seus distritos façam juntamente apartar e seguir ao mesmo destino que para aqueles indico, passando a seus proprietários os competentes documentos, para em tempo idôneo serem satisfeitos de suas importâncias.</p>
+                <p>Além de tais animais, <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> determinará 
+                    aos comandantes citados que todos os potros capazes de se domarem pertencentes aos criadores 
+                    de seus distritos façam juntamente apartar e seguir ao mesmo destino que para aqueles indico, 
+                    passando a seus proprietários os competentes documentos, para em tempo idôneo serem satisfeitos 
+                    de suas importâncias.</p>
                 
-                <p>O cuidado, a marcha de todos animais a que me refiro, <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> deverá encarregar a um homem de reconhecida inteligência e probidade a quem fornecerá os peães necessários para tal fim. De todas as dificuldades que encontrar na pronta execução desta ordem <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> me avisará para serem removidas com a presteza que o caso exigir.</p>
-                
-                <p>Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> <orgName ref="#secretaria_fazenda">Secretaria do Estado dos Negócios da Fazenda</orgName> em <placeName ref="#cacapava">Caçapava</placeName>, 1.º de março de 1839.</p>
+                <p>O cuidado, a marcha de todos animais a que me refiro, <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> 
+                    deverá encarregar a um homem de reconhecida inteligência e probidade a quem fornecerá os peães 
+                    necessários para tal fim. De todas as dificuldades que encontrar na pronta execução desta ordem 
+                    <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> me avisará para serem removidas 
+                    com a presteza que o caso exigir.</p>
                 
                 <closer>
-                    <signed>Domingos José de Almeida</signed>
+                    <salute>
+                        Deus guarde a <choice><abbr>V.Sª.</abbr><expan>Vossa Senhoria</expan></choice> 
+                    </salute>
+                    <dateline>
+                        <orgName ref="#secretaria_fazenda">Secretaria do Estado dos Negócios da Fazenda</orgName> 
+                        em <placeName ref="#cacapava">Caçapava</placeName>, <date when="1839-03-01">1.º de março de 1839</date>.
+                    </dateline>
+                    <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
+                    <addressee>
+                        <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
+                        <persName ref="#antonio_silva_jardim">Antônio da Silva Jardim</persName>, 
+                        Juiz Municipal e Chefe Geral de Polícia deste Município.</addressee>
                 </closer>
-                
-                <p><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#antonio_silva_jardim">Antônio da Silva Jardim</persName>, Juiz Municipal e Chefe Geral de Polícia deste Município.</p>
-                
-                <note type="endorsement">[Cópia]</note>
                 
             </div>
         </body>

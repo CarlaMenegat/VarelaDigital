@@ -10,6 +10,7 @@
                     <name>Carla Menegat</name>
                 </respStmt>
             </titleStmt>
+            
             <publicationStmt>
                 <publisher>Projeto Varela Digital</publisher>
                 <availability status="free">
@@ -18,10 +19,48 @@
                     </licence>
                 </availability>
             </publicationStmt>
+            
             <sourceDesc>
                 <p>Arquivo auxiliar contendo todas as relações entre entidades nomeadas modeladas em TEI standoff.</p>
+                <ptr target="data/documents_XML/"/>
+                <ptr target="data/standoff/standoff-persons.xml"/>
+                <ptr target="data/standoff/standoff-places.xml"/>
+                <ptr target="data/standoff/standoff-orgs.xml"/>
             </sourceDesc>
         </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    Este arquivo reúne relações interentidades (pessoas, organizações, lugares e eventos)
+                    identificadas no corpus Varela Digital. As relações são modeladas em TEI standoff,
+                    com identificadores estáveis (xml:id), e visam à interoperabilidade e conversão
+                    para RDF/JSON-LD.
+                </p>
+            </projectDesc>
+            
+            <listPrefixDef>
+                <prefixDef
+                    ident="foaf"
+                    matchPattern="([\\w-]+)"
+                    replacementPattern="http://xmlns.com/foaf/0.1/$1"/>
+                
+                <prefixDef
+                    ident="schema"
+                    matchPattern="([\\w-]+)"
+                    replacementPattern="https://schema.org/$1"/>
+                
+                <prefixDef
+                    ident="rel"
+                    matchPattern="([\\w-]+)"
+                    replacementPattern="https://vocab.org/relationship/$1"/>
+                
+                <prefixDef
+                    ident="hrao"
+                    matchPattern="([\\w-]+)"
+                    replacementPattern="https://carlamenegat.github.io/VarelaDigital/assets/html/hrao.html#$1"/>
+            </listPrefixDef>
+        </encodingDesc>
         
         <profileDesc>
             <langUsage>
@@ -30,7 +69,10 @@
         </profileDesc>
         
         <revisionDesc>
-            <change when="2025-11-26">Criação do arquivo de standoff de relações para o projeto Varela Digital.</change>
+            <listChange>
+                <change when="2025-11-26">Criação do arquivo de standoff de relações para o projeto Varela Digital.</change>
+                <change when="2026-01-14">Atualização e ampliação das relações durante revisão do corpus.</change>
+            </listChange>
         </revisionDesc>
     </teiHeader>
     
@@ -4450,7 +4492,7 @@
         <relation 
             name="foaf:knows" 
             active="#domingos_jose_almeida" 
-            passive="#castellini" 
+            passive="#napoleone_castellini" 
             mutual="true"/>
         
         <relation 
@@ -4492,7 +4534,7 @@
         <relation 
             name="foaf:knows" 
             active="#rossetti" 
-            passive="#castellini" 
+            passive="#napoleone_castellini" 
             mutual="true"/>
         
         <relation 
@@ -4595,6 +4637,84 @@
             name="foaf:knows" 
             active="#robert_bisley" 
             passive="#jeronimo_teixeira_almeida" 
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#joaquim_faria_correa"
+            passive="#domingos_jose_almeida"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#joaquim_faria_correa"
+            passive="#joao_antonio_silveira"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#natalio_rusca"
+            passive="#domingos_jose_almeida"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#joao_antonio_silveira"
+            passive="#manuel_jose_ferreira"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#bento_goncalves"
+            passive="#domingos_crescencio_carvalho"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#assis"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#bento_goncalves"
+            passive="#assis"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#luis_bocquin_des_hilaires"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#bento_goncalves"
+            passive="#luis_bocquin_des_hilaires"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#re"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#bento_goncalves"
+            passive="#re"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#deal"
+            mutual="true"/>
+        
+        <relation 
+            name="foaf:knows"
+            active="#bento_goncalves"
+            passive="#deal"
             mutual="true"/>
         
     </standOff>

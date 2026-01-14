@@ -1,5 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<standOff xmlns="http://www.tei-c.org/ns/1.0">
+<standOff xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pt-BR">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Varela Digital — Standoff de Organizações</title>
+                <respStmt>
+                    <resp>Modelagem, identificação e curadoria de organizações</resp>
+                    <name>Carla Menegat</name>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Projeto Varela Digital</publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        CC BY 4.0
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <p>
+                    Arquivo auxiliar contendo organizações mencionadas nos documentos da Coleção Varela,
+                    modeladas em TEI P5 por meio de standoff markup. Inclui órgãos de governo, unidades
+                    administrativas, corpos militares, instituições civis, periódicos e outras entidades
+                    coletivas relevantes para o contexto histórico da Revolução Farroupilha (1835–1845)
+                    e de suas redes políticas e militares.
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    O projeto Varela Digital realiza a edição digital, anotação semântica e modelagem de
+                    entidades nomeadas dos documentos da Coleção Varela (Anais do Arquivo Histórico do Rio
+                    Grande do Sul, vol. II).
+                </p>
+                <p>
+                    As organizações deste arquivo são descritas com o elemento <code>org</code>,
+                    podendo incluir denominações variantes (<code>orgName</code>), identificadores externos
+                    (<code>idno</code>), estados e funções ao longo do tempo (<code>state</code> com
+                    <code>roleName</code> e <code>affiliation</code>) e notas editoriais explicativas.
+                </p>
+                <p>
+                    Quando não há identificadores de autoridade disponíveis (por exemplo, VIAF ou Wikidata),
+                    utiliza-se um identificador interno do projeto por meio de <code>&lt;idno type="project"/&gt;</code>.
+                    O modelo é compatível com práticas de Linked Open Data, permitindo conversão futura para RDF/JSON-LD.
+                </p>
+            </projectDesc>
+            
+            <editorialDecl>
+                <p>
+                    A identificação e normalização das organizações baseiam-se na edição impressa dos Anais
+                    e no contexto documental imediato. Denominações variantes, mudanças institucionais e
+                    subordinações são registradas quando explicitadas ou inferíveis com base em evidências
+                    textuais. Em casos de incerteza ou ambiguidade, essa condição é indicada em nota editorial.
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="pt-BR">
+                    Português do Brasil — idioma das descrições editoriais, notas explicativas e marcação.
+                </language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change when="2026-01-14">
+                Criação do arquivo de standoff de organizações do projeto Varela Digital, com padronização
+                editorial e semântica para interoperabilidade e conversão futura em Linked Open Data.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    
     <listOrg>
         <org xml:id="colecao_varela" type="archiveCollection">
             <orgName>Coleção Varela</orgName>
@@ -175,11 +251,6 @@
             </note>
         </org>
         
-        <org xml:id="segundo_batalhao" type="militaryUnit">
-            <orgName>2.º Batalhão</orgName>
-            <note>Unidade do Exército Imperial, mencionada em operações sob comando do Brigadeiro Filipe Neri de Oliveira.</note>
-        </org>
-        
         <org xml:id="corpo_lanceiros_negros" type="militaryUnit">
             <orgName>Corpo de Lanceiros Negros</orgName>
             <idno type="project"/>
@@ -247,19 +318,6 @@
                 Unidade militar mencionada em atestado redigido por Domingos José de Almeida (após 4 de janeiro de 1837),
                 indicando que a 3.ª Companhia do Esquadrão de Pelotas integrava o 4.º Corpo da 1.ª Brigada.
             </note>
-        </org>
-        
-        <org xml:id="quarta_reparticao_interior">
-            <orgName>4ª Repartição do Interior</orgName>
-        </org>
-        
-        <org xml:id="3_corpo_lanceiros">
-            <orgName>3.º Corpo de Lanceiros</orgName>
-        </org>
-        
-        <org xml:id="inspetoria">
-            <orgName>Inspetoria</orgName>
-            <note>Referência à Inspetoria responsável pela auditoria ou fiscalização contábil no Tesouro.</note>
         </org>
         
         <org xml:id="guardas_nacionais_8corpo" type="militaryUnit">
@@ -330,25 +388,42 @@
         <org xml:id="ministerio_interior" type="ministry">
             <orgName>Ministério dos Negócios do Interior</orgName>
             <idno type="project"/>
-            <note>Órgão superior da estrutura administrativa da República Rio-grandense, ao qual estava subordinada a Secretaria de Estado dos Negócios do Interior.</note>
+            <affiliation ref="#republica_rio_grandense"/>
+            <note>
+                Órgão superior da estrutura administrativa da República Rio-Grandense,
+                responsável pela formulação e coordenação das políticas internas do Estado.
+            </note>
         </org>
         
         <org xml:id="secretaria_interior" type="governmentOffice">
             <orgName>Secretaria de Estado dos Negócios do Interior</orgName>
             <idno type="project"/>
-            <note>Órgão do governo farroupilha responsável pela administração das questões internas do Estado.</note>
+            <affiliation ref="#ministerio_interior"/>
+            <note>
+                Órgão do governo farroupilha responsável pela execução administrativa
+                das questões internas do Estado, subordinado ao Ministério dos Negócios do Interior.
+            </note>
         </org>
         
         <org xml:id="ministerio_fazenda" type="governmentMinistry">
             <orgName>Ministério da Fazenda</orgName>
             <idno type="project"/>
-            <note>Órgão superior responsável pela política financeira e fiscal da República Rio-Grandense.</note>
+            <affiliation ref="#republica_rio_grandense"/>
+            <note>
+                Órgão superior responsável pela formulação e coordenação da política
+                financeira, fiscal e fazendária da República Rio-Grandense.
+            </note>
         </org>
         
         <org xml:id="secretaria_fazenda" type="governmentOffice">
             <orgName>Secretaria de Estado dos Negócios da Fazenda</orgName>
             <idno type="project"/>
-            <note>Órgão do governo farroupilha responsável pela administração cotidiana das finanças públicas.</note>
+            <affiliation ref="#ministerio_fazenda"/>
+            <note>
+                Órgão do governo farroupilha responsável pela administração cotidiana
+                das finanças públicas, incluindo arrecadação, pagamentos, escrituração
+                e tramitação de ordens financeiras, subordinado ao Ministério da Fazenda.
+            </note>
         </org>
         
         <org xml:id="tesouro" type="governmentOffice">
@@ -367,19 +442,28 @@
         <org xml:id="secretaria_tesouro" type="governmentOffice">
             <orgName>Secretaria do Tesouro</orgName>
             <idno type="project"/>
-            <note>Departamento administrativo interno do Tesouro, responsável por registro, tramitação e organização das ordens financeiras.</note>
+            <affiliation ref="#tesouro"/>
+            <note>
+                Departamento administrativo interno do Tesouro, responsável pelo
+                registro, tramitação, escrituração e organização das ordens financeiras
+                e expedientes contábeis.
+            </note>
         </org>
         
         <org xml:id="tribunal_tesouro" type="governmentOffice">
             <orgName>Tribunal do Tesouro</orgName>
             <idno type="project"/>
-            <note>Órgão de supervisão, auditoria e julgamento de contas do governo farroupilha.</note>
+            <affiliation ref="#tesouro"/>
+            <note>
+                Órgão de supervisão, auditoria e julgamento das contas públicas do
+                governo farroupilha, subordinado ao Tesouro.
+            </note>
         </org>
         
         <org xml:id="coletoria_jaguarao" type="administrativeUnit">
             <orgName>Coletoria de Jaguarão</orgName>
             <idno type="project"/>
-            <affiliation ref="#ministerio_fazenda"/>
+            <affiliation ref="#tesouro"/>
             <note>
                 Órgão fiscal responsável pela arrecadação local em Jaguarão durante o 
                 período farroupilha; mencionada em correspondência oficial entre autoridades 
@@ -390,7 +474,7 @@
         <org xml:id="coletoria_piratini" type="administrativeUnit">
             <orgName>Coletoria de Piratini</orgName>
             <idno type="project"/>
-            <affiliation ref="#ministerio_fazenda"/>
+            <affiliation ref="#tesouro"/>
             <note>
                 Órgão fiscal sediado em Piratini, primeira capital farroupilha, responsável 
                 pela arrecadação de tributos e controle financeiro local.
@@ -400,7 +484,7 @@
         <org xml:id="coletoria_pelotas" type="administrativeUnit">
             <orgName>Coletoria de Pelotas</orgName>
             <idno type="project"/>
-            <affiliation ref="#ministerio_fazenda"/>
+            <affiliation ref="#tesouro"/>
             <note>
                 Unidade administrativa encarregada da coleta de rendas em Pelotas durante 
                 o governo farroupilha, citada em correspondência oficial da época.
@@ -410,7 +494,7 @@
         <org xml:id="coletoria_erval" type="administrativeUnit">
             <orgName>Coletoria do Erval</orgName>
             <idno type="project"/>
-            <affiliation ref="#ministerio_fazenda"/>
+            <affiliation ref="#tesouro"/>
             <note>
                 Órgão fiscal localizado no distrito do Erval (Herval), então vinculado ao município de Jaguarão, 
                 responsável pela arrecadação de rendas durante o governo da República Rio-Grandense.
@@ -420,7 +504,7 @@
         <org xml:id="coletoria_bage" type="administrativeUnit">
             <orgName>Coletoria de Bagé</orgName>
             <idno type="project"/>
-            <affiliation ref="#ministerio_fazenda"/>
+            <affiliation ref="#tesouro"/>
             <note>
                 Órgão fiscal local subordinado ao Ministério da Fazenda da República Rio-Grandense, 
                 responsável pela arrecadação de tributos no município de Bagé.
@@ -430,7 +514,7 @@
         <org xml:id="coletoria_alegrete_sao_borja" type="administrativeUnit">
             <orgName>Coletoria Geral dos Municípios de Alegrete e São Borja</orgName>
             <idno type="project"/>
-            <affiliation ref="#ministerio_fazenda"/>
+            <affiliation ref="#tesouro"/>
             <note>
                 Unidade fiscal subordinada ao Ministério da Fazenda, encarregada da arrecadação 
                 e fiscalização tributária nos municípios de Alegrete e São Borja, região da fronteira oeste.
@@ -440,7 +524,7 @@
         <org xml:id="reparticao_fiscal_rio_uruguai" type="administrativeUnit">
             <orgName>Repartição Fiscal do Rio Uruguai</orgName>
             <idno type="project"/>
-            <affiliation ref="#ministerio_fazenda"/>
+            <affiliation ref="#tesouro"/>
             <note>
                 Repartição fiscal subordinada ao Ministério da Fazenda, responsável pela 
                 fiscalização tributária, aduaneira e fluvial na navegação do Rio Uruguai.
@@ -473,15 +557,6 @@
             <idno type="project"/>
             <note>Propriedades rurais pertencentes ao Estado; remanescentes das antigas estâncias dos jesuítas e administradas pelo Tesouro.</note>
         </org>
-
-        <org xml:id="presidencia_estado">
-            <orgName>Presidência do Estado</orgName>
-            <note>Órgão máximo da administração da República Rio-Grandense.</note>
-        </org>
-        
-        <org xml:id="presidencia_republica">
-            <orgName>Presidência da República</orgName>
-        </org>
         
         <org xml:id="exercito_farroupilha" type="militaryOrganization">
             <orgName>Exército Republicano Rio-Grandense</orgName>
@@ -495,7 +570,7 @@
         <org xml:id="divisao_direita" type="militaryUnit">
             <orgName>Divisão Direita</orgName>
             <idno type="project"></idno>
-            <affiliation ref="#republica_rio_grandense"/>
+            <affiliation ref="#exercito_farroupilha"/>
             <note>Grande unidade militar do Exército Republicano Rio-Grandense, atuante 
                 em operações estratégicas durante a Revolução Farroupilha.</note>
         </org>
@@ -522,21 +597,6 @@
                 31 de agosto de 1837, na qual Antônio Vicente de Siqueira Pereira Leitão
                 aparece como comandante desta coluna.
             </note>
-        </org>
-        
-        <org xml:id="jornal_oficial_republica">
-            <orgName>Jornal Oficial da República Rio-Grandense</orgName>
-            <note>Periódico criado pelo governo farroupilha para divulgação de atos oficiais.</note>
-        </org>
-        
-        <org xml:id="policia_alegrete">
-            <orgName>Comando Geral de Polícia de Alegrete</orgName>
-            <note>Autoridade policial local durante o período farroupilha.</note>
-        </org>
-        
-        <org xml:id="juiz_municipal">
-            <orgName>Juiz Municipal</orgName>
-            <note>Cargo judicial na administração local da República Rio-Grandense.</note>
         </org>
         
         <org xml:id="trem_guerra_farroupilha" type="militaryUnit">
@@ -600,26 +660,6 @@
                 oficiais farroupilhas e liberais integraram ou comandaram unidades da Guarda 
                 Nacional após a Revolução Farroupilha.
             </note>
-        </org>
-        
-        <org xml:id="divisao_auxiliadora">
-            <orgName>Divisão Auxiliadora</orgName>
-            <note>Corpo militar destacado para operações externas, atuando no Estado Catarinense e citado como responsável por manter posições avançadas estratégicas.</note>
-        </org>
-        
-        <org xml:id="guarnicao_cacapava">
-            <orgName>Guarnição de Caçapava</orgName>
-            <note>Unidade militar responsável pela defesa da capital rio-grandense.</note>
-        </org>
-        
-        <org xml:id="governo_republica">
-            <orgName>Governo da República Rio-Grandense</orgName>
-            <note>Administração central do Estado republicano formado pelos farroupilhas a partir de 1836.</note>
-        </org>
-        
-        <org xml:id="corpo_1_linha">
-            <orgName>1º Corpo</orgName>
-            <note>Unidade militar da estrutura farroupilha, mencionada como subordinada ao comando da Divisão.</note>
         </org>
         
         <org xml:id="secretaria_justica" type="governmentOffice">
@@ -708,59 +748,11 @@
             </note>
         </org>
         
-        <org xml:id="corpo_cruz_alta">
-            <orgName>Corpo da Cruz Alta</orgName>
-            <note>Unidade militar de Guardas Nacionais.</note>
-        </org>
-        
         <org xml:id="terceiro_batalhao_cacadores" type="militaryUnit">
             <orgName>3.º Batalhão de Caçadores</orgName>
             <affiliation ref="#imperio_brasil"/>
             <idno type="project"/>
             <note>Batalhão do Exército Imperial Brasileiro, atuante no Rio Grande do Sul durante a Guerra dos Farrapos.</note>
-        </org>
-        
-        <org xml:id="procuradores_gerais">
-            <orgName>Procuradores Gerais</orgName>
-        </org>
-        
-        <org xml:id="conselho_investigacao">
-            <orgName>Conselho de Investigação</orgName>
-            <note>Instância preliminar responsável por formação da culpa.</note>
-        </org>
-        
-        <org xml:id="conselho_guerra">
-            <orgName>Conselho de Guerra</orgName>
-            <note>Instância militar responsável por julgamento.</note>
-        </org>
-        
-        <org xml:id="juri_acusacao">
-            <orgName>Júri da Acusação</orgName>
-            <note>Instância civil comparável ao Conselho de Investigação.</note>
-        </org>
-        
-        <org xml:id="companhia_artifices">
-            <orgName>Companhia de Artífices</orgName>
-            <note>Unidade militar responsável pelo fornecimento dos soldados requisitados.</note>
-        </org>
-        
-        <org xml:id="corpo_guardas_nacionais">
-            <orgName>Corpo de Guardas Nacionais</orgName>
-            <note>Organização militar responsável pelas praças destinatárias dos efeitos.</note>
-        </org>
-        
-        <org xml:id="4_batalhao">
-            <orgName>4.º Batalhão</orgName>
-            <note>Unidade militar referida no contexto administrativo-logístico.</note>
-        </org>
-        
-        <org xml:id="quartel_mestre_general">
-            <orgName>Quartel-mestre-general</orgName>
-        </org>
-        
-        <org xml:id="infantaria">
-            <orgName>Infantaria</orgName>
-            <note>Ramo militar terrestre que compunha as forças armadas durante a Revolução Farroupilha.</note>
         </org>
         
         <org xml:id="arsenal_guerra_imperial" type="militaryFacility">
@@ -787,12 +779,6 @@
                 <date type="begin" when="1839"/>
             </state>
             <note>Batalhão do Exército Imperial responsável por prisões militares; em 1839 estava sob o comando do Brigadeiro Filipe Neri de Oliveira.</note>
-        </org>
-        
-        <org xml:id="corpo_provisorio">
-            <orgName>Provisório</orgName>
-            <note>Corpo de tropas mencionado como parte do contingente de sessenta e duas praças empregado na operação.</note>
-            <affiliation>Exército do Império do Brasil</affiliation>
         </org>
         
         <org xml:id="quinta_comp_cavalaria" type="militaryUnit">
@@ -888,10 +874,6 @@
             </note>
         </org>
         
-        <org xml:id="guarda_militar_policia">
-            <orgName>Guarda Militar da Polícia</orgName>
-        </org>
-        
         <org xml:id="comando_militar_santo_antonio" type="militaryCommand">
             <orgName>Comando Militar do Município de Santo Antônio</orgName>
             <idno type="project"/>
@@ -902,11 +884,6 @@
                 responsável pela organização das forças locais, diligências policiais e 
                 comunicações ao presidente da província durante a Revolução Farroupilha.
             </note>
-        </org>
-        
-        <org xml:id="ministerio_guerra_marinha">
-            <orgName>Secretaria dos Negócios da Guerra e Marinha</orgName>
-            <note>Órgão do governo da República Rio-Grandense responsável pela administração militar.</note>
         </org>
         
         <org xml:id="segundo_corpo" type="militaryUnit">
