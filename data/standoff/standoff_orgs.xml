@@ -910,7 +910,7 @@
         <org xml:id="1_brigada_guarda_nacional">
             <orgName>1.º Brigada de Guarda Nacional</orgName>
             <idno type="project"/>
-            <affiliation ref="#republica_rio_grandense"/>
+            <affiliation ref="#exercito_farroupilha"/>
             <note>Unidade militar da Guarda Nacional mencionada nas correspondências farroupilhas.</note>
         </org>
         
@@ -991,14 +991,6 @@
                 Companhia da Guarda Nacional imperial, mencionada em contexto de mobilização
                 e operações militares no início da Revolução Farroupilha.
             </note>
-        </org>
-        
-        <org xml:id="quartel_permanentes">
-            <orgName>Quartel dos Permanentes</orgName>
-        </org>
-        
-        <org xml:id="12_companhia_gn">
-            <orgName>12ª Companhia da Guarda Nacional</orgName>
         </org>
         
         <org xml:id="camara_sao_jose_norte" type="governmentBody">
