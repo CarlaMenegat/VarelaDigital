@@ -164,6 +164,6 @@ if __name__ == "__main__":
             base_number = int(match.group(1))
             carta_id = xml_file.stem  # keeps CV-147a exactly
 
-            # Process only CV-1 to CV-180 (including suffixed files)
-            if 1 <= base_number <= 180:
+            # Process only CV-181 to CV-300 (including suffixed files)
+            if 181 <= base_number <= 300:
                 generate_facsimile_if_missing(xml_file, carta_id)

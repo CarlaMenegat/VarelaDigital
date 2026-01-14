@@ -123,6 +123,14 @@
             </list>
         </revisionDesc>
     </teiHeader>
+
+    <facsimile>
+        <surface xml:id="CV-190_1r" n="1r"/>
+        <surface xml:id="CV-190_1v" n="1v"/>
+        <surface xml:id="CV-190_2r" n="2r"/>
+        <surface xml:id="CV-190_2v" n="2v"/>
+    </facsimile>
+
     
     <text>
         <body>

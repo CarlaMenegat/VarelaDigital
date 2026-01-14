@@ -295,11 +295,6 @@
             </state>
         </person>
         
-        <person xml:id="jose_ferreira_gomes_roque">
-            <persName>José Ferreira Gomes Roque</persName>
-            <note>Destinatário da carta, responsável pelo recibo solicitado.</note>
-        </person>
-        
         <person xml:id="joao_manuel_lima_silva">
             <persName>João Manuel de Lima e Silva</persName>
             <idno type="viaf">https://viaf.org/viaf/70353959</idno>
@@ -324,11 +319,6 @@
                 General da República Rio-Grandense. Morreu em 1839 e recebeu exéquias oficiais 
                 em Caçapava, onde sua morte foi amplamente lamentada pelas lideranças da RRG.
             </note>
-        </person>
-        
-        <person xml:id="maria_angela_corte_real_de_lima">
-            <persName>Maria Ângela Corte Real de Lima</persName>
-            <note>Pessoa proprietária mencionada na carta, cujo patrimônio foi objeto de decisão administrativa.</note>
         </person>
         
         <person xml:id="antonio_abreu">
@@ -518,7 +508,6 @@
                 farroupilha e um dos negociadores da Paz de Ponche Verde.
             </note>
         </person>
-
         
         <person xml:id="francisco_pedro_abreu">
             <persName>Francisco Pedro de Abreu</persName>
@@ -940,11 +929,6 @@
             <note>Militar farroupilha, coronel da República Rio-Grandense, atuante em operações militares no período da Revolução Farroupilha. Primo de Bento Gonçalves da Silva.</note>
         </person>
         
-        <person xml:id="jose_carlos_pinto">
-            <persName>José Carlos Pinto</persName>
-            <note>Agente do Estado da República Rio-Grandense, mencionado como destinatário de quantias registradas.</note>
-        </person>
-        
         <person xml:id="jaime_legris">
             <persName>Jaime Legris</persName>
             <idno type="project"/>
@@ -954,25 +938,10 @@
             </note>
         </person>
         
-        <person xml:id="joao_goncalves_padilha">
-            <persName>João Gonçalves Padilha</persName>
-            <note>Proprietário de estância citada no contexto da abertura da picada do Pinhal.</note>
-        </person>
-        
         <person xml:id="coronel_leberio">
             <persName>Coronel Lebério</persName>
             <idno type="project"></idno>
             <note>Parente de Antônio Francisco dos Santos Abreu, citado na correspondência da Coleção Varela. A grafia do nome segue o registro original das cartas.</note>
-        </person>
-        
-        <person xml:id="dona_joaquina_pavao">
-            <persName>Dona Joaquina do Pavão</persName>
-            <note>Moradora da região de Pelotas mencionada na carta; teve seus filhos presos conforme o relato.</note>
-        </person>
-        
-        <person xml:id="rolim">
-            <persName>Rolim</persName>
-            <note>Homem preso em Pelotas junto aos filhos de Dona Joaquina do Pavão, segundo a carta.</note>
         </person>
         
         <person xml:id="antonio_belarmino_ribeiro">
