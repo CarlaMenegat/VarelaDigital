@@ -85,12 +85,14 @@
         
         <org xml:id="arquivo_dja" type="personalArchive">
             <orgName>Arquivo pessoal de Domingos José de Almeida</orgName>
+            <idno type="project"></idno>
             <orgName type="alt">Coleção Abrilina</orgName>
             <note>Fundo documental original da família Almeida, posteriormente transferido por Abrilina Almeida e utilizado por Alfredo Varela na formação da Coleção Varela.</note>
         </org>
         
         <org xml:id="estado_rs" type="government">
             <orgName>Estado do Rio Grande do Sul</orgName>
+            <idno type="project"></idno>
             <state type="roleInTime" xml:id="estado_recebe_colecao_1936">
                 <roleName>Recepção e incorporação da Coleção Varela</roleName>
                 <affiliation ref="#colecao_varela"/>
@@ -100,6 +102,7 @@
         
         <org xml:id="museu_julio_castilhos" type="museum">
             <orgName>Museu Júlio de Castilhos</orgName>
+            <idno type="project"></idno>
             <state type="roleInTime" xml:id="estado_deposita_no_museu">
                 <roleName>Depósito institucional da Coleção Varela</roleName>
                 <affiliation ref="#colecao_varela"/>
@@ -108,6 +111,7 @@
         
         <org xml:id="arquivo_hrs" type="archive">
             <orgName>Arquivo Histórico do Rio Grande do Sul</orgName>
+            <idno type="project"></idno>
             <state type="roleInTime" xml:id="estado_transfere_para_ahrs_1954">
                 <roleName>Transferência da Coleção Varela ao Arquivo Histórico do Rio Grande do Sul</roleName>
                 <affiliation ref="#colecao_varela"/>
@@ -288,6 +292,7 @@
         
         <org xml:id="estate_jose_augusto_ledek" type="estate">
             <orgName>Espólio de José Augusto Ledek</orgName>
+            <idno type="project"></idno>
             <state type="roleInTime" xml:id="curadoria_estate_ledek">
                 <roleName>Curador dos bens</roleName>
                 <persName ref="#antonio_jose_abreu"/>
@@ -562,7 +567,7 @@
             <orgName>Exército Republicano Rio-Grandense</orgName>
             <orgName type="variant">Exército Republicano Rio-grandense</orgName>
             <orgName type="alias">Exército Farroupilha</orgName>
-            <idno type="project"></idno>
+            <idno type="project"/>
             <affiliation ref="#republica_rio_grandense"/>
             <note>Força militar da República Rio-Grandense durante a Revolução Farroupilha.</note>
         </org>
@@ -996,6 +1001,7 @@
         <org xml:id="camara_sao_jose_norte" type="governmentBody">
             <orgName>Câmara Municipal de São José do Norte</orgName>
             <orgName type="variant">Câmara da Vila do Norte</orgName>
+            <idno type="project"/>
             <placeName ref="#sao_jose_do_norte">São José do Norte</placeName>
             <affiliation ref="#republica_rio_grandense"/>
             <note>
