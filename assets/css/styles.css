@@ -5,21 +5,11 @@
 ========================= */
 
 :root{
-  --vd-navbar-offset: 72px;
-
-  --vd-bg: #F8F5EF;
-  --vd-ink: #2f2f2f;
-  --vd-accent: #5E121A;
-  --vd-border: #C4B3B2;
-  --vd-border-soft: rgba(196,179,178,0.55);
-  --vd-card: #FFFFFF;
-
-  --vd-btn-gray: #6c757d;
+  --vd-navbar-offset: 72px; /* adjust if needed */
 }
 
-/* Viewer page gets top padding to avoid navbar overlap */
 body.vd-viewer {
-  padding-top: 74px;
+  padding-top: 74px; /* adjust if needed (try 70–90px) */
 }
 
 /* =========================
@@ -31,8 +21,8 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: var(--vd-bg);
-  color: var(--vd-ink);
+  background-color: #F8F5EF;
+  color: #2f2f2f;
 }
 
 /* =========================
@@ -48,11 +38,11 @@ html, body {
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-size: 1.6rem;
-  color: var(--vd-accent) !important;
+  color: #5E121A !important;
 }
 
 .navbar-nav .nav-link {
-  color: var(--vd-accent) !important;
+  color: #5E121A !important;
   font-family: 'Playfair Display', serif;
 }
 
@@ -66,148 +56,117 @@ html, body {
   overflow: hidden;
 }
 
-/* transcription + annotations wrapper */
+/* transcription + annotations (center area) */
 .content-wrapper {
   display: flex;
   flex: 1 1 auto;
   min-width: 0;
   gap: 1rem;
   padding: 1rem;
+  align-items: stretch;
 }
 
 /* =========================
-   METADATA SIDEBAR (DISCRETE)
-   (matches your HTML: #metadataPanel)
+   METADATA PANEL (new sidebar layout)
 ========================= */
 
-.metadata-panel{
-  width: 320px;
-  min-width: 320px;
-  max-width: 30vw;
-  padding: 1rem 1rem 0.75rem;
-  background: transparent;            /* more discreet */
-  border-left: 1px solid var(--vd-border-soft);
-  color: var(--vd-ink);               /* do NOT make it burgundy-heavy */
-  overflow-y: auto;
-  flex-shrink: 0;
+.metadata-panel {
+  width: 340px;
+  max-width: 360px;
+  min-width: 280px;
+  padding: 1rem 1rem;
+  border-left: 1px solid rgba(196,179,178,0.75);
+  background: #F8F5EF;
 }
 
-/* Title similar weight/size to other boxes headers, but not huge */
-.metadata-title{
+.metadata-title {
   margin: 0 0 0.75rem 0;
-  font-size: 1.25rem;                 /* smaller than before */
-  font-weight: 650;
-  color: var(--vd-ink);
-}
-
-/* Definition list like Garibaldi’s: compact, readable, not shouting */
-.metadata-dl{
-  margin: 0;
-  font-size: 0.95rem;                 /* close to reading text */
-  line-height: 1.45;
-}
-
-.metadata-dl dt{
-  margin-top: 0.75rem;
+  font-size: 1.4rem;
   font-weight: 700;
-  color: var(--vd-ink);
+  color: #2f2f2f;
 }
 
-.metadata-dl dd{
+.metadata-dl {
+  margin: 0;
+}
+
+.metadata-dl dt {
+  font-weight: 700;
+  margin-top: 0.65rem;
+}
+
+.metadata-dl dd {
   margin: 0.15rem 0 0 0;
-  color: var(--vd-ink);
-  opacity: 0.92;
+  color: #2f2f2f;
 }
 
-/* Actions block */
-.metadata-actions{
-  margin-top: 1rem;
+.metadata-actions {
+  margin-top: 1.25rem;
+}
+
+.metadata-actions .btn {
+  border-color: #5E121A !important;
+  color: #5E121A !important;
+}
+
+.metadata-actions .btn:hover,
+.metadata-actions .btn:focus {
+  background: #5E121A !important;
+  border-color: #5E121A !important;
+  color: #fff !important;
 }
 
 /* ===============================
    Varela Digital buttons
-   =============================== */
+=============================== */
 
-/* Bordeaux outline */
-.btn-vd{
-  color: var(--vd-accent);
-  border: 1px solid var(--vd-accent);
+/* Bordeaux outline button (reusable) */
+.btn-vd {
+  color: #5E121A;
+  border: 1px solid #5E121A;
   background: transparent;
 }
 
 .btn-vd:hover,
-.btn-vd:focus{
+.btn-vd:focus {
   color: #fff;
-  background: var(--vd-accent);
-  border-color: var(--vd-accent);
+  background: #5E121A;
+  border-color: #5E121A;
 }
 
-.btn-vd:focus{
+.btn-vd:focus {
   box-shadow: 0 0 0 0.2rem rgba(94, 18, 26, 0.25);
 }
 
-/* Gray outline */
-.btn-vd-gray{
-  color: var(--vd-btn-gray);
-  border: 1px solid var(--vd-btn-gray);
-  background: transparent;
-}
-
-.btn-vd-gray:hover,
-.btn-vd-gray:focus{
-  color: #fff;
-  background: var(--vd-btn-gray);
-  border-color: var(--vd-btn-gray);
-}
-
-.btn-vd-gray:focus{
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.25);
-}
-
-/* Make sidebar buttons consistent */
-.metadata-panel .btn{
-  width: 100%;
-}
-
-/* Neutralize Bootstrap "primary" look if you forget to change classes */
-.metadata-panel .btn-outline-primary{
-  color: var(--vd-accent);
-  border-color: var(--vd-accent);
-}
-.metadata-panel .btn-outline-primary:hover{
-  background: var(--vd-accent);
-  border-color: var(--vd-accent);
-}
-
 /* =========================
-   COLUMNS
+   COLUMNS (viewer center)
 ========================= */
 
-.left-column,
-.right-column {
+.left-column {
   display: flex;
+  flex-direction: column;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.annotations-column,
+.right-column {
+  display: none !important;
   flex-direction: column;
   min-width: 0;
 }
 
-/* Default: annotations hidden */
-.right-column {
-  display: none;
-}
-
-/* Default: transcription expands */
-.left-column {
-  flex: 1 1 auto;
-}
-
-/* When annotations open (JS adds body.annotations-open) */
+body.annotations-open .annotations-column,
 body.annotations-open .right-column {
-  display: flex;
-  flex: 1 1 0;
+  display: flex !important;
+  flex: 0 0 32%;
+  max-width: 520px;     
+  min-width: 300px;    
 }
 
 body.annotations-open .left-column {
-  flex: 1 1 0;
+  flex: 1 1 68%;
+  min-width: 0;
 }
 
 /* =========================
@@ -220,9 +179,29 @@ body.annotations-open .left-column {
   min-height: 0;
   padding: 1rem;
   border-radius: 12px;
-  background-color: var(--vd-card);
-  border: 1px solid var(--vd-border);
+  background-color: #FFFFFF;
+  border: 1px solid #C4B3B2;
   overflow-y: auto;
+}
+
+.annotation-card {
+  background: #fff;
+  border: 1px solid rgba(196,179,178,0.9);
+  border-radius: 10px;
+  padding: 0.85rem 0.9rem;
+}
+
+.annotation-title {
+  margin: 0 0 0.35rem 0;
+  font-weight: 700;
+  color: #2f2f2f;
+}
+
+.annotation-idno a {
+  color: #5E121A;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
 }
 
 /* =========================
@@ -236,9 +215,9 @@ body.annotations-open .left-column {
 }
 
 .tab-button {
-  border: 1px solid var(--vd-border);
-  background: var(--vd-bg);
-  color: var(--vd-accent);
+  border: 1px solid #C4B3B2;
+  background: #F8F5EF;
+  color: #5E121A;
   border-radius: 6px;
   padding: 0.25rem 0.55rem;
   font-size: 0.9rem;
@@ -272,7 +251,7 @@ body.annotations-open .left-column {
 
 #letter-info .letter-title {
   font-size: 0.95rem;
-  color: var(--vd-accent);
+  color: #5E121A;
 }
 
 #letter-info .letter-date {
@@ -299,11 +278,16 @@ body.annotations-open .left-column {
     width: 100%;
     max-width: none;
     border-left: none;
-    border-top: 1px solid var(--vd-border-soft);
+    border-top: 1px solid rgba(196,179,178,0.75);
   }
 
-  .right-column {
-    display: flex;
+  /* On small screens, annotations should appear stacked (not side-by-side) */
+  body.annotations-open .annotations-column,
+  body.annotations-open .right-column {
+    display: flex !important;
+    flex: 1 1 auto;
+    max-width: none;
+    min-width: 0;
   }
 }
 
@@ -316,11 +300,11 @@ body.annotations-open .left-column {
   padding: 1.6rem 1rem;
   border-top: 1px solid rgba(196,179,178,0.75);
   text-align: center;
-  color: var(--vd-ink);
+  color: #2f2f2f;
 }
 
 .vd-footer a {
-  color: var(--vd-accent);
+  color: #5E121A;
   text-decoration: none;
   font-weight: 600;
 }

@@ -593,6 +593,19 @@
             <note>Credor citado na correspondência da Coleção Varela, aguardando pagamento do Tesouro da República Rio-Grandense.</note>
         </person>
         
+        <person xml:id="vasco_amaro">
+            <persName>Vasco Amaro</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="vasco_amaro_coletor">
+                <roleName>Coletor</roleName>
+                <date notBefore="1838" notAfter="1839"/>
+            </state>
+            <note>
+                Coletor citado na carta CV-300 como responsável por receber, por ordem do governo,
+                valores entregues por Dom Antônio Casas.
+            </note>
+        </person>
+        
         <person xml:id="bento_goncalves">
             <persName>Bento Gonçalves da Silva</persName>
             <idno type="viaf">https://viaf.org/viaf/3272801</idno>

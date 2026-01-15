@@ -32,6 +32,57 @@ const BASE_RDF_TTL_PATH  = BASE_RDF_PATH + 'ttl/';  // CV-300.ttl
 let VIEW_MODE = 'reading';
 let CURRENT_TEI_DOC = null;
 
+const TEI_NS = 'http://www.tei-c.org/ns/1.0';
+
+function normUnknown(v) {
+  const s = (v || '').trim();
+  if (!s) return '';
+  if (s.toLowerCase() === 'unknown') return '';
+  return s;
+}
+
+// Returns ONLY <note> that are direct children of entry (not notes inside <state>)
+function getDirectChildNotes(entry) {
+  return Array.from(entry.children || []).filter(ch => (ch.localName || '').toLowerCase() === 'note');
+}
+
+// pt-BR month names (lowercase)
+const PT_MONTHS = [
+  'janeiro','fevereiro','março','abril','maio','junho',
+  'julho','agosto','setembro','outubro','novembro','dezembro'
+];
+
+// Format ISO-ish dates into "DD mês AAAA" when possible
+function formatPtBRDate(when) {
+  const w = (when || '').trim();
+  if (!w) return '';
+
+  // YYYY-MM-DD
+  let m = w.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (m) {
+    const y = m[1];
+    const mo = parseInt(m[2], 10);
+    const d = parseInt(m[3], 10);
+    if (mo >= 1 && mo <= 12) return `${d} ${PT_MONTHS[mo - 1]} ${y}`;
+    return `${d} ${y}`;
+  }
+
+  // YYYY-MM
+  m = w.match(/^(\d{4})-(\d{2})$/);
+  if (m) {
+    const y = m[1];
+    const mo = parseInt(m[2], 10);
+    if (mo >= 1 && mo <= 12) return `${PT_MONTHS[mo - 1]} ${y}`;
+    return y;
+  }
+
+  // YYYY
+  m = w.match(/^(\d{4})$/);
+  if (m) return m[1];
+
+  return w; // fallback (keeps whatever came)
+}
+
 // One index for all standoff entities: key = xml:id, value = Element
 let STANDOFF_INDEX = Object.create(null);
 
@@ -351,18 +402,21 @@ function setupAnnotationBehaviour() {
 
     // Dates with @when (even if no ref)
     if (span.dataset.when) {
-      document.body.classList.add('annotations-open');
-      box.classList.remove('d-none');
+    document.body.classList.add('annotations-open');
+    box.classList.remove('d-none');
 
-      content.innerHTML = `
-        <div class="annotation-card">
-          <h6 class="annotation-title">Date</h6>
-          <div class="small text-muted mb-2">${span.dataset.when}</div>
-          <p class="small mb-0">${span.textContent.trim()}</p>
-        </div>
-      `;
-      return;
-    }
+    const when = span.dataset.when.trim();
+    const pretty = formatPtBRDate(when);
+
+    content.innerHTML = `
+      <div class="annotation-card">
+        <h6 class="annotation-title">Date</h6>
+        <div class="small text-muted mb-2">${pretty || when}</div>
+        <p class="small mb-0">${pretty || when}</p>
+      </div>
+    `;
+    return;
+  }
   });
 
   closeBtn.addEventListener('click', () => {
@@ -456,15 +510,24 @@ function renderStandoffEntryCard(entry) {
   // Title/note/extra
   let kind = tag;
   let title = '';
-  let note = getFirst('note');
+  const directNotes = getDirectChildNotes(entry);
+  let note = directNotes.length ? textOf(directNotes[directNotes.length - 1]) : '';
   let extra = '';
 
   if (tag === 'person') {
-    title = getFirst('persName');
-    const birth = qAllLocal('birth')[0]?.getAttribute('when') || '';
-    const death = qAllLocal('death')[0]?.getAttribute('when') || '';
-    if (birth || death) extra = `<div class="small text-muted mb-1">${birth || '?'} – ${death || '?'}</div>`;
+  title = getFirst('persName');
+
+  const birthRaw = qAllLocal('birth')[0]?.getAttribute('when') || '';
+  const deathRaw = qAllLocal('death')[0]?.getAttribute('when') || '';
+
+  const birth = normUnknown(birthRaw);
+  const death = normUnknown(deathRaw);
+
+  // Only show life dates if we have at least one real value
+  if (birth || death) {
+    extra = `<div class="small text-muted mb-1">${birth || ''}${(birth && death) ? ' – ' : ''}${death || ''}</div>`;
   }
+}
 
   if (tag === 'place') {
     const placeNames = qAllLocal('placeName');
