@@ -78,7 +78,7 @@ async function loadStandoffFiles() {
 
 function renderViewer(teiDoc, fileName) {
   renderLetterNavInfo(teiDoc);
-  renderMetadataSidebar(teiDoc, fileName);
+  renderMetadataPanel(teiDoc, fileName);
   renderText(teiDoc);
 }
 
@@ -102,26 +102,93 @@ function renderLetterNavInfo(teiDoc) {
 }
 
 /* =========================================================
-   Metadata sidebar
+   Metadata panel (NEW layout)
    ========================================================= */
 
-function renderMetadataSidebar(teiDoc, fileName) {
-  const c = document.getElementById('metadata-content');
-  if (!c) return;
+const BASE_RDF_PATH = '../../data/rdf/';
+const BASE_RDF_JSON_PATH = BASE_RDF_PATH + 'json/'; // e.g., CV-300.json
+const BASE_RDF_TTL_PATH  = BASE_RDF_PATH + 'ttl/';  // e.g., CV-300.ttl
 
-  const q = s => teiDoc.querySelector(s)?.textContent || '';
-  const qa = (s, a) => teiDoc.querySelector(s)?.getAttribute(a) || '';
+function renderMetadataPanel(teiDoc, fileName) {
+  const panel = document.getElementById('metadataPanel');
+  if (!panel) return;
 
-  c.innerHTML = `
-    <div class="metadata-entry"><strong>Title:</strong> ${q('titleStmt > title')}</div>
-    <div class="metadata-entry"><strong>From:</strong> ${q('correspAction[type="sent"] persName')}</div>
-    <div class="metadata-entry"><strong>To:</strong> ${q('correspAction[type="received"] persName')}</div>
-    <div class="metadata-entry"><strong>Place:</strong> ${q('correspAction[type="sent"] placeName')}</div>
-    <div class="metadata-entry"><strong>Date:</strong> ${qa('correspAction[type="sent"] date','when')}</div>
-    <div class="metadata-entry">
-      <a href="${BASE_XML_PATH + fileName}" target="_blank">Download TEI XML</a>
-    </div>
-  `;
+  // Targets (new HTML ids)
+  const mdTitle = document.getElementById('mdTitle');
+  const mdFrom  = document.getElementById('mdFrom');
+  const mdTo    = document.getElementById('mdTo');
+  const mdPlace = document.getElementById('mdPlace');
+  const mdDate  = document.getElementById('mdDate');
+  const mdType  = document.getElementById('mdType');
+
+  const dlXml    = document.getElementById('dlXml');
+  const dlJsonld = document.getElementById('dlJsonld');
+  const dlTtl    = document.getElementById('dlTtl');
+
+  const safeSet = (el, val) => {
+    if (!el) return;
+    const v = (val || '').trim();
+    el.textContent = v ? v : '—';
+  };
+
+
+  // Title
+  const title = teiDoc.querySelector('teiHeader titleStmt > title')?.textContent || '';
+
+  // From/To can be persName OR orgName (first one inside correspAction)
+  const firstParty = (actionType) => {
+    const action = teiDoc.querySelector(`teiHeader correspDesc correspAction[type="${actionType}"]`);
+    if (!action) return '';
+    const node = action.querySelector('persName, orgName');
+    return node ? node.textContent : '';
+  };
+
+  // Place and date (sent) if present
+  const sentAction = teiDoc.querySelector(`teiHeader correspDesc correspAction[type="sent"]`);
+  const place = sentAction?.querySelector('placeName')?.textContent || '';
+  const dateWhen = sentAction?.querySelector('date')?.getAttribute('when') || '';
+
+  // Document type = @type of first div in body
+  const docType = teiDoc.querySelector('text > body > div')?.getAttribute('type') || '';
+
+  safeSet(mdTitle, title);
+  safeSet(mdFrom, firstParty('sent'));
+  safeSet(mdTo, firstParty('received'));
+  safeSet(mdPlace, place);
+  safeSet(mdDate, dateWhen);
+  safeSet(mdType, docType);
+
+  const stem = (fileName || '').replace(/\.xml$/i, '');
+  const xmlHref  = BASE_XML_PATH + fileName;
+  const jsonHref = BASE_RDF_JSON_PATH + stem + '.json'; 
+  const ttlHref  = BASE_RDF_TTL_PATH  + stem + '.ttl';
+
+  setDownloadLink(dlXml, xmlHref, `Download TEI XML`);
+  setDownloadLink(dlJsonld, jsonHref, `Download JSON-LD`);
+  setDownloadLink(dlTtl, ttlHref, `Download TTL`);
+}
+
+function setDownloadLink(aEl, href, label) {
+  if (!aEl) return;
+  aEl.href = href;
+  aEl.setAttribute('download', '');
+  aEl.textContent = label;
+}
+
+async function checkFileExists(url) {
+  try {
+    const res = await fetch(url, { method: 'HEAD' });
+    return res.ok;
+  } catch {
+    return false;
+  }
+}
+
+function toggleLink(aEl, enabled) {
+  if (!aEl) return;
+  aEl.classList.toggle('disabled', !enabled);
+  aEl.setAttribute('aria-disabled', enabled ? 'false' : 'true');
+  aEl.tabIndex = enabled ? 0 : -1;
 }
 
 /* =========================================================
