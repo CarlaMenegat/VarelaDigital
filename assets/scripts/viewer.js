@@ -12,6 +12,8 @@ const STANDOFF_BASE_PATH = '../../data/standoff/';
 const BASE_RDF_PATH = '../../data/rdf/';
 const BASE_RDF_JSON_PATH = BASE_RDF_PATH + 'json/';
 const BASE_RDF_TTL_PATH  = BASE_RDF_PATH + 'ttl/';
+const INDEXES_BASE_PATH = '../../data/indexes/';
+const DEFAULT_ORDER = 'collection';
 
 const STANDOFF_FILES = {
   persons: STANDOFF_BASE_PATH + 'standoff_persons.xml',
@@ -142,15 +144,129 @@ document.addEventListener('DOMContentLoaded', async () => {
   const fileParam = getQueryParam('file');
   if (!fileParam) return;
 
-  CURRENT_TEI_DOC = await fetchXML(BASE_XML_PATH + fileParam);
-  await loadStandoffFiles();
-  readSurfaces(CURRENT_TEI_DOC);
+  try {
+    CURRENT_TEI_DOC = await fetchXML(BASE_XML_PATH + fileParam);
+    await loadStandoffFiles();
+    readSurfaces(CURRENT_TEI_DOC);
 
-  renderViewer(CURRENT_TEI_DOC, fileParam);
-  setupViewTabs();
-  setupAnnotationBehaviour();
-  setupSurfaceSelector();
+    renderViewer(CURRENT_TEI_DOC, fileParam);
+
+    setupViewTabs();
+    setupAnnotationBehaviour();
+
+    disableNonImplementedUI();
+
+    await setupDocNavigator(fileParam);
+  } catch (e) {
+    console.error(e);
+  }
 });
+
+function buildViewerURL(file) {
+  const url = new URL(window.location.href);
+  url.searchParams.set('file', file);
+  return url.toString();
+}
+
+function setNavTarget(el, targetFile, disabled) {
+  if (!el) return;
+
+  const isLink = el.tagName === 'A';
+  if (disabled || !targetFile) {
+    el.classList.add('disabled');
+    el.setAttribute('aria-disabled', 'true');
+    if (isLink) el.removeAttribute('href');
+    return;
+  }
+
+  el.classList.remove('disabled');
+  el.removeAttribute('aria-disabled');
+
+  const href = buildViewerURL(targetFile);
+
+  if (isLink) {
+    el.href = href;
+    return;
+  }
+
+  el.onclick = (ev) => {
+    ev.preventDefault();
+    window.location.href = href;
+  };
+}
+
+async function getOrderListFromURLorManifest() {
+  const params = new URLSearchParams(window.location.search);
+
+  const listParam = params.get('list');
+  if (listParam) {
+    return listParam
+      .split(',')
+      .map(s => decodeURIComponent(s.trim()))
+      .filter(Boolean);
+  }
+
+  const order = (params.get('order') || DEFAULT_ORDER).trim();
+  const manifestPath = INDEXES_BASE_PATH + order + '.json';
+
+  try {
+    const res = await fetch(manifestPath);
+    if (!res.ok) throw new Error(`manifest ${manifestPath} ${res.status}`);
+    const data = await res.json();
+    if (Array.isArray(data)) return data.map(String);
+  } catch (e) {
+    console.warn('Could not load manifest:', manifestPath, e);
+  }
+
+  return [];
+}
+
+function guessPrevNextByCVNumber(fileParam) {
+  const m = String(fileParam).match(/^CV-(\d+)([a-z])?\.xml$/i);
+  if (!m) return { prev: null, next: null };
+
+  const num = parseInt(m[1], 10);
+  const suf = (m[2] || '').toLowerCase();
+
+  // Basic fallback:
+  // - ignores a/b ordering (because you have CV-147a etc.)
+  // - works for main numeric sequence
+  const prev = num > 1 ? `CV-${num - 1}.xml` : null;
+  const next = `CV-${num + 1}.xml`;
+
+  // If current has suffix, keep same num fallback to base:
+  // CV-147a -> prev tries CV-147.xml (optional)
+  if (suf) {
+    return { prev: `CV-${num}.xml`, next: `CV-${num}.xml` };
+  }
+
+  return { prev, next };
+}
+
+async function setupDocNavigator(currentFile) {
+  const prevEl =
+    document.querySelector('#btnPrev, #prevBtn, a[data-nav="prev"], button[data-nav="prev"]');
+  const nextEl =
+    document.querySelector('#btnNext, #nextBtn, a[data-nav="next"], button[data-nav="next"]');
+
+  if (!prevEl && !nextEl) return;
+
+  const list = await getOrderListFromURLorManifest();
+  if (list.length) {
+    const i = list.indexOf(currentFile);
+    const prev = i > 0 ? list[i - 1] : null;
+    const next = i >= 0 && i < list.length - 1 ? list[i + 1] : null;
+
+    setNavTarget(prevEl, prev, !prev);
+    setNavTarget(nextEl, next, !next);
+    return;
+  }
+
+  // fallback if no manifest/list
+  const g = guessPrevNextByCVNumber(currentFile);
+  setNavTarget(prevEl, g.prev, !g.prev);
+  setNavTarget(nextEl, g.next, !g.next);
+}
 
 
 /* =========================================================
@@ -285,18 +401,12 @@ function setupSurfaceSelector() {
   if (!sel) return;
 
   sel.innerHTML = '';
-  for (const s of SURFACES) {
-    const opt = document.createElement('option');
-    opt.value = s.n;
-    opt.textContent = s.n;
-    sel.appendChild(opt);
-  }
+  const opt = document.createElement('option');
+  opt.value = '';
+  opt.textContent = '—';
+  sel.appendChild(opt);
 
-  sel.value = CURRENT_SURFACE;
-  sel.addEventListener('change', () => {
-    CURRENT_SURFACE = sel.value;
-    renderText(CURRENT_TEI_DOC);
-  });
+  sel.disabled = true;
 }
 
 /* =========================================================
@@ -311,10 +421,7 @@ function renderText(teiDoc) {
   const div = xFirst(teiDoc, '//tei:text/tei:body/tei:div[1]');
   if (!div) return;
 
-  const nodes = sliceBySurface(div, CURRENT_SURFACE);
-  const frag = document.createDocumentFragment();
-  nodes.forEach(n => frag.appendChild(renderNode(n)));
-  layer.appendChild(frag);
+  layer.appendChild(renderNode(div));
 }
 
 /* =========================================================
