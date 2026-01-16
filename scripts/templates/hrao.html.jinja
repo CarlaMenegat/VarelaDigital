@@ -76,7 +76,7 @@
                 <li><a class="dropdown-item" href="documentation.html">Overview</a></li>
                 <li><a class="dropdown-item" href="data_model.html">Data Model</a></li>
                 <li>
-                  <a class="dropdown-item active" href="hrao.html">HRAO Vocabulary</a>
+                  <a class="dropdown-item active" href="hrao.html">HRAO Ontology</a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="project_discussion.html"
@@ -96,9 +96,9 @@
 
       <p class="mb-1">
         <strong>Other formats:</strong>
-        <a href="../../vocabulary/hrao.rdf">RDF/XML</a> ·
-        <a href="../../vocabulary/hrao.jsonld">JSON-LD</a> ·
-        <a href="../../vocabulary/hrao_declaration.ttl">Turtle</a>
+        <a href="../../ontology/hrao.rdf">RDF/XML</a> ·
+        <a href="../../ontology/hrao.jsonld">JSON-LD</a> ·
+        <a href="../../ontology/hrao_declaration.ttl">Turtle</a>
       </p>
 
       {% if creators and creators|length %}
@@ -116,7 +116,7 @@
       {% endif %}
 
       <h3>Namespace</h3>
-      <p class="mb-1">Vocabulary base URI: <code>{{ ontology_uri }}</code></p>
+      <p class="mb-1">ontology base URI: <code>{{ ontology_uri }}</code></p>
       <p>Suggested prefix: <code>{{ prefix }}</code></p>
 
       <h3>Prefixes</h3>
@@ -128,7 +128,7 @@
       <div class="hrao-implementation-notes">
         <h3>Implementation notes</h3>
         <p>
-          The HRAO vocabulary documentation is automatically generated from its
+          The HRAO ontology documentation is automatically generated from its
           Turtle declaration using a lightweight Python pipeline based on
           <a href="https://rdflib.readthedocs.io/" target="_blank" rel="noopener">RDFLib</a>
           and

@@ -10,9 +10,9 @@ from jinja2 import Environment, FileSystemLoader
 
 BASE = Path(__file__).resolve().parent.parent
 
-TTL_IN = BASE / "vocabulary" / "hrao_declaration.ttl"
-RDF_OUT = BASE / "vocabulary" / "hrao.rdf"
-JSONLD_OUT = BASE / "vocabulary" / "hrao.jsonld"
+TTL_IN = BASE / "ontology" / "hrao_declaration.ttl"
+RDF_OUT = BASE / "ontology" / "hrao.rdf"
+JSONLD_OUT = BASE / "ontology" / "hrao.jsonld"
 HTML_OUT = BASE / "assets" / "html" / "hrao.html"
 
 TEMPLATES_DIR = BASE / "scripts" / "templates"
@@ -146,7 +146,7 @@ def main() -> None:
     template = env.get_template(TEMPLATE_NAME)
 
     html = template.render(
-        title="HRAO — Vocabulary | Varela Digital",
+        title="HRAO — ontology | Varela Digital",
         heading="HRAO: Historical Relations from Annotated Objects",
         ontology_uri=ontology_uri,
         ontology_comment=ontology_comment,

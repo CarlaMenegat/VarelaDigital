@@ -236,29 +236,9 @@
             passive="#combate_espinilho"/>
         
         <relation
-            name="hrao:wasPrisonerInEvent"
-            active="#roque_faustino"
-            passive="#combate_espinilho"/>
-        
-        <relation
             name="hrao:killed"
             active="#roque_faustino"
             passive="#joao_manuel_lima_silva"/>
-        
-        <relation
-            name="hrao:followedPoliticalAlignmentOf"
-            active="#bento_manoel"
-            passive="#republica_rio_grandense"/>
-        
-        <relation
-            name="hrao:followedPoliticalAlignmentOf"
-            active="#bento_manoel"
-            passive="#imperio_brasil"/>
-        
-        <relation
-            name="hrao:followedPoliticalAlignmentOf"
-            active="#bento_manoel"
-            passive="#republica_rio_grandense"/>
         
         <relation
             name="hrao:participatedInEvent"
@@ -307,11 +287,6 @@
             name="hrao:participatedInEvent"
             active="#teixeira_nunes"
             passive="#combate_espinilho"/>
-        
-        <relation
-            name="hrao:wasKilledInEvent"
-            active="#teixeira_nunes"
-            passive="#evento_porongos_1844"/>
         
         <relation
             name="hrao:participatedInEvent"
@@ -418,7 +393,7 @@
             mutual="true"/>
         
         <relation
-            name="hrao:landDisputeWith"
+            name="rel:AntagonistOf"
             active="#jose_sousa"
             passive="#joao_costa"/>
         
@@ -463,12 +438,6 @@
             passive="#republica_rio_grandense"/>
         
         <relation
-            name="hrao:requestedCustodianshipFrom"
-            active="#antonio_abreu"
-            passive="#republica_rio_grandense"
-            mutual="false"/>
-        
-        <relation
             name="prov:wasAttributedTo"
             active="#estate_jose_augusto_ledek"
             passive="#freitas"/>
@@ -477,21 +446,10 @@
             name="prov:wasAttributedTo"
             active="#estate_jose_augusto_ledek"
             passive="#bernardo_pires"/>
-        
-        <relation
-            name="hrao:appointedCuratorOf"
-            active="#antonio_belarmino_ribeiro"
-            passive="#antonio_abreu"
-            mutual="false"/>
-        
+
         <relation
             name="prov:wasAttributedTo"
             active="#estate_jose_augusto_ledek"
-            passive="#antonio_abreu"/>
-        
-        <relation
-            name="hrao:appointedCuratorOf"
-            active="#antonio_belarmino_ribeiro"
             passive="#antonio_abreu"/>
         
         <relation
@@ -520,16 +478,6 @@
             passive="#guilherme_schnepf"/>
         
         <relation
-            name="hrao:deliveredMessageTo"
-            active="#barbosa"
-            passive="#antonio_sousa_neto"/>
-        
-        <relation
-            name="hrao:deliveredMessageTo"
-            active="#antonio_abreu"
-            passive="#dutra"/>
-        
-        <relation
             name="rel:enemyOf"
             active="#general_valente"
             passive="#republica_rio_grandense"/>
@@ -548,11 +496,6 @@
             name="hrao:participatedInEvent"
             active="#joaquim_pedro"
             passive="#combate_seival"/>
-        
-        <relation
-            name="hrao:deliveredMessageTo"
-            active="#capitao_miguel"
-            passive="#domingos_jose_almeida"/>
         
         <relation
             name="schema:memberOf"
@@ -580,11 +523,6 @@
             passive="#imperio_brasil"/>
         
         <relation
-            name="hrao:followedPoliticalAlignmentOf"
-            active="#tobias"
-            passive="#republica_rio_grandense"/>
-        
-        <relation
             name="foaf:knows"
             active="#tobias"
             passive="#bento_goncalves"
@@ -595,11 +533,6 @@
             active="#tobias"
             passive="#domingos_jose_almeida"
             mutual="true"/>
-        
-        <relation
-            name="hrao:wasCapturedIn"
-            active="#tobias"
-            passive="#palmeira_das_missoes"/>
         
         <relation
             name="hrao:deliveredOrderTo"
@@ -662,19 +595,9 @@
             passive="#antonio_pedro_abreu"/>
         
         <relation
-            name="hrao:belongsToUnit"
-            active="#alferes_ferreira"
-            passive="#guardas_nacionais_5corpo"/>
-        
-        <relation
             name="hrao:hasKinship"
             active="#tomas_jose_silva"
             passive="#manuel_luis_osorio"/>
-        
-        <relation
-            name="hrao:coordinatedWith"
-            active="#antonio_pedro_abreu"
-            passive="#fernando_kersting"/>
         
         <relation
             name="pro:commader"
@@ -687,49 +610,14 @@
             passive="#antonio_rodrigues"/>
         
         <relation
-            name="hrao:approached"
-            active="#forca_rebelde_indeterminada"
-            passive="#charqueadas"/>
-        
-        <relation
-            name="hrao:approached"
-            active="#forca_rebelde_rrg"
-            passive="#charqueadas"/>
-        
-        <relation
-            name="hrao:retreatedTo"
-            active="#forca_rebelde_rrg"
-            passive="#ilha_paciencia"/>
-        
-        <relation
             name="hrao:confiscatedPropertyFrom"
             active="#forca_rebelde_rrg"
             passive="#manuel_antonio"/>
         
         <relation
-            name="hrao:belongsToUnit"
-            active="#manuel_antonio"
-            passive="#guardas_nacionais_5corpo"/>
-        
-        <relation
-            name="hrao:hasKinAmong"
-            active="#antonio_francisco_almeida"
-            passive="#republica_rio_grandense"/>
-        
-        <relation
-            name="hrao:hasChildrenAmong"
-            active="#antonio_francisco_almeida"
-            passive="#republica_rio_grandense"/>
-        
-        <relation
             name="hrao:alignedWith"
             active="#sete_pernas"
             passive="#republica_rio_grandense"/>
-        
-        <relation 
-            name="hrao:belongsToUnit"
-            active="#joaquim_rodrigues"
-            passive="#guardas_nacionais_5corpo"/>
         
         <relation 
             name="schema:memberOf"
@@ -750,11 +638,6 @@
             name="schema:memberOf"
             active="#claudio_abreu"
             passive="#republica_rio_grandense"/>
-        
-        <relation 
-            name="hrao:heldPossessionOf"
-            active="#claudio_abreu"
-            passive="#inhanduí_rincao"/>
         
         <relation 
             name="hrao:receivedLandGrantFor"
@@ -792,19 +675,9 @@
             passive="#francisco_xavier_cunha"/>
         
         <relation
-            name="hrao:belongsToUnit"
-            active="#domingos_vicente"
-            passive="#esquadrao_barra"/>
-        
-        <relation
             name="hrao:arrested"
             active="#francisco_pedro_abreu"
             passive="#domingos_vicente"/>
-        
-        <relation
-            name="hrao:reportedTo"
-            active="#francisco_pedro_abreu"
-            passive="#francisco_xavier_cunha"/>
         
         <relation
             name="hrao:requestedMilitaryDecisionFrom"
@@ -837,17 +710,17 @@
             passive="#francisco_pedro_abreu"/>
         
         <relation
-            name="hrao:hadPropertyConfiscatedBy"
+            name="rel:AntagonistOf"
             active="#joao_antonio_lopes"
             passive="#francisco_pedro_abreu"/>
         
         <relation 
-            name="hrao:requestedPaymentFor"
+            name="schema:creditor"
             active="#francisco_pedro_abreu"
             passive="#sebastiao_afonso_silva"/>
         
         <relation 
-            name="hrao:requestedPaymentFor"
+            name="schema:creditor"
             active="#francisco_pedro_abreu"
             passive="#jose_luis_silva"/>
         
@@ -855,21 +728,6 @@
             name="hrao:requestedFrom"
             active="#francisco_pedro_abreu"
             passive="#antonio_elzeario_miranda_brito"/>
-        
-        <relation 
-            name="hrao:servedUnder"
-            active="#sebastiao_afonso_silva"
-            passive="#imperio_brasil"/>
-        
-        <relation 
-            name="hrao:servedUnder"
-            active="#jose_luis_silva"
-            passive="#imperio_brasil"/>
-        
-        <relation 
-            name="hrao:servedUnder"
-            active="#jose_cesario_abreu"
-            passive="#imperio_brasil"/>
         
         <relation 
             name="schema:memberOf"
@@ -1037,11 +895,6 @@
             passive="#republica_rio_grandense"/>
         
         <relation 
-            name="hrao:belongsToUnit"
-            active="#claro_jose_sousa"
-            passive="#imperio_brasil"/>
-        
-        <relation 
             name="rel:siblingOf"
             active="#duarte_canabarro"
             passive="#canabarro"
@@ -1053,16 +906,6 @@
             passive="#bento_manoel"/>
         
         <relation 
-            name="hrao:servedUnder"
-            active="#tenente_isaias_antonio"
-            passive="#imperio_brasil"/>
-        
-        <relation
-            name="hrao:servedUnder"
-            active="#tomas_pereira"
-            passive="#republica_rio_grandense"/>
-        
-        <relation 
             name="schema:affiliation"
             active="#sebastiao_rego_barros"
             passive="#imperio_brasil"/>
@@ -1071,11 +914,6 @@
             name="schema:affiliation"
             active="#eleuterio_jose_pereira"
             passive="#republica_rio_grandense"/>
-        
-        <relation
-            name="hrao:deliveredMessageTo"
-            active="#dona_antonia_brejo"
-            passive="#garibaldi"/>
         
         <relation 
             name="schema:memberOf"
@@ -1098,11 +936,6 @@
             name="hrao:killed"
             active="#imperio_brasil"
             passive="#jose_manuel_de_leao"/>
-        
-        <relation 
-            name="hrao:belongsToUnit"
-            active="#capitao_christe"
-            passive="#oitavo_batalhao"/>
         
         <relation 
             name="schema:memberOf"
@@ -1148,21 +981,6 @@
             name="hrao:killed"
             active="#oitavo_batalhao"
             passive="#antonio_turpim"/>
-        
-        <relation 
-            name="hrao:servedUnder"
-            active="#alferes_carvalho"
-            passive="#imperio_brasil"/>
-        
-        <relation 
-            name="hrao:servedUnder"
-            active="#fidelis_pais_silva"
-            passive="#imperio_brasil"/>
-        
-        <relation
-            name="hrao:servedUnder"
-            active="#tenente_nogueira"
-            passive="#republica_rio_grandense"/>
         
         <relation 
             name="rel:siblingOf"
@@ -1246,11 +1064,6 @@
             passive="#imperio_brasil"/>
         
         <relation
-            name="hrao:heldPossessionOf"
-            active="#gomes_jardim"
-            passive="#braga"/>
-        
-        <relation
             name="schema:memberOf"
             active="#gomes_jardim"
             passive="#republica_rio_grandense"/>
@@ -1259,11 +1072,6 @@
             name="schema:memberOf"
             active="#joao_ferreira"
             passive="#republica_rio_grandense"/>
-        
-        <relation
-            name="hrao:reportedTo"
-            active="#joao_ferreira"
-            passive="#francisco_pedro_abreu"/>
         
         <relation 
             name="hrao:wasImprisonedBy"
@@ -1389,18 +1197,8 @@
         
         <relation 
             name="schema:memberOf"
-            active="#correia"
+            active="#joaquim_correia"
             passive="#republica_rio_grandense"/>
-        
-        <relation 
-            name="hrao:followedPoliticalAlignmentOf"
-            active="#castilho"
-            passive="#antonio_sousa_neto"/>
-        
-        <relation 
-            name="hrao:followedPoliticalAlignmentOf"
-            active="#correia"
-            passive="#antonio_sousa_neto"/>
         
         <relation
             name="schema:memberOf"
@@ -1427,11 +1225,6 @@
             active="#francisco_lima_silva"
             passive="#luis_alves_lima_silva"
             mutual="true"/>
-        
-        <relation
-            name="hrao:coordinatedWith"
-            active="#francisco_lima_silva"
-            passive="#francisco_pedro_abreu"/>
         
         <relation
             name="rel:parentOf"
@@ -1620,7 +1413,7 @@
             passive="#republica_rio_grandense"/>
         
         <relation
-            name="hrao:inConflictWith"
+            name="rel:AntagonistOf"
             active="#mariano_gloria"
             passive="#francisco_pedro_abreu"/>
         
@@ -1680,27 +1473,11 @@
             active="#francisco_antonio_da_silva_bitancourt" 
             passive="#imperio_brasil"/>
         
-        <relation
-            name="hrao:hasKinship"
-            active="#joaquim_francisco_santos_abreu"
-            passive="#bento_goncalves"
-            mutual="true"/>
-        
         <relation 
             name="foaf:knows"
             active="#joaquim_francisco_santos_abreu"
             passive="#inacio_guimaraes"
             mutual="true"/>
-        
-        <relation
-            name="hrao:followedPoliticalAlignmentOf"
-            active="#inacio_guimaraes"
-            passive="#republica_rio_grandense"/>
-        
-        <relation
-            name="hrao:followedPoliticalAlignmentOf"
-            active="#joaquim_francisco_santos_abreu"
-            passive="#republica_rio_grandense"/>
         
         <relation
             name="schema:memberOf"
@@ -1846,17 +1623,7 @@
         <relation
             name="hrao:servedUnder"
             active="#jacinto_guedes"
-            passive="#bento_manuel_ribeiro"/>
-        
-        <relation
-            name="hrao:refusedToFollow"
-            active="#jacinto_guedes"
-            passive="#bento_manuel_ribeiro"/>
-        
-        <relation
-            name="hrao:defeatedInBattle"
-            active="#jacinto_guedes"
-            passive="#jose_santos_loureiro"/>
+            passive="#bento_manoel"/>
         
         <relation
             name="hrao:wasImprisonedBy"
@@ -1868,11 +1635,6 @@
             active="#jacinto_guedes"
             passive="#francisco_pedro_abreu"
             mutual="true"/>
-        
-        <relation
-            name="hrao:wasReplacedBy"
-            active="#marechal_barreto"
-            passive="#marciano_pereira_ribeiro"/>
 
         <relation
             name="schema:memberOf"
@@ -2020,19 +1782,9 @@
             mutual="true"/>
         
         <relation 
-            name="hrao:belongsToUnit"
-            active="#lucio_antonio_santa_ana"
-            passive="#terceiro_batalhao_cacadores"/>
-        
-        <relation 
             name="hrao:wasImprisonedBy"
             active="#lucio_antonio_santa_ana"
             passive="#republica_rio_grandense"/>
-        
-        <relation 
-            name="hrao:defeatedInBattle"
-            active="#antonio_correia_seara"
-            passive="#agostinho_antonio_melo"/>
         
         <relation 
             name="hrao:servedUnder"
@@ -2043,11 +1795,6 @@
             name="hrao:wasImprisonedBy"
             active="#camilo_maria_meneses"
             passive="#imperio_brasil"/>
-        
-        <relation
-            name="hrao:coerced"
-            active="#camilo_maria_meneses"
-            passive="#capitao_paula"/>
         
         <relation 
             name="foaf:knows" 
@@ -2305,7 +2052,7 @@
             mutual="true"/>
         
         <relation
-            name="hrao:inConflictWith"
+            name="rel:AntagonistOf"
             active="#felix_eduardo_aguiar"
             passive="#dionisio_coronel"/>
         
@@ -2504,16 +2251,6 @@
             active="#antonio_melo_albuquerque"
             passive="#luis_alves_lima_silva"/>
         
-        <relation
-            name="hrao:reportedTo"
-            active="#pedro_jose_alemao"
-            passive="#antonio_melo_albuquerque"/>
-        
-        <relation
-            name="hrao:deliveredMessageTo"
-            active="#joao_lourenco_vidal"
-            passive="#tomas_jose_silva"/>
-        
         <relation 
             name="foaf:knows" 
             active="#antonio_melo_albuquerque" 
@@ -2531,11 +2268,6 @@
             active="#antonio_melo_albuquerque" 
             passive="#vitorino_jose_carneiro_monteiro"
             mutual="true"/>
-        
-        <relation
-            name="hrao:followedPoliticalAlignmentOf"
-            active="#oliverio_ortiz"
-            passive="#bento_manoel"/>
         
         <relation
             name="hrao:hasKinship"
@@ -2646,11 +2378,6 @@
             active="#alexandre_pereira"
             passive="#joao_antonio_silveira"
             mutual="true"/>
-        
-        <relation
-            name="hrao:reportedTo"
-            active="#vicente_ferrer_almeida"
-            passive="#serafim_alencastre"/>
         
         <relation
             name="schema:memberOf"
@@ -3025,12 +2752,12 @@
             mutual="true"/>
         
         <relation
-            name="hrao:socialKinship"
+            name="hrao:compadreOf"
             active="#batista_fernandes"
             passive="#bernardina_barcelos_almeida"/>
         
         <relation
-            name="hrao:brotherInLawOf"
+            name="hrao:hasKinship"
             active="#manuel_antunes_porciuncula"
             passive="#bento_goncalves"/>
         
@@ -3042,29 +2769,26 @@
         <relation 
             name="hrao:compadreOf" 
             active="#jose_felix" 
-            passive="#bernardina_barcelos_almeida"/>
+            passive="#bernardina_barcelos_almeida"
+            mutual="true"/>
         
         <relation 
             name="hrao:compadreOf" 
             active="#bernardina_barcelos_almeida" 
-            passive="#rolino_pereira_barros"/>
+            passive="#rolino_pereira_barros"
+            mutual="true"/>
         
         <relation 
             name="hrao:compadreOf" 
             active="#rolino_pereira_barros" 
-            passive="#bernardina_barcelos_almeida"/>
+            passive="#bernardina_barcelos_almeida"
+            mutual="true"/>
         
         <relation
             name="hrao:hasKinship"
-            type="maternalUncle"
             active="#boaventura_rodrigues_barcelos"
-            passive="#bernardina_barcelos_almeida"/>
-        
-        <relation
-            name="hrao:hasKinship"
-            type="niece"
-            active="#bernardina_barcelos_almeida"
-            passive="#boaventura_rodrigues_barcelos"/>
+            passive="#bernardina_barcelos_almeida"
+            mutual="true"/>
         
         <relation
             name="hrao:hasKinship"

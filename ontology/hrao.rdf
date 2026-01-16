@@ -4,13 +4,13 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#killed">
+  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#participatedInEvent">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">killed</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that an agent caused the death of another agent, based on historical sources.</rdfs:comment>
+    <rdfs:label xml:lang="en">participated in event</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates that an agent participated in a historical event, such as a battle, encounter, campaign, or gathering.</rdfs:comment>
     <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
     <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <rdfs:range rdf:resource="http://example.org/san#Event"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#commanded">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -20,120 +20,26 @@
     <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
     <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#issuedOrderToFree">
+  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#wasImprisonedBy">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">issued order to free</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that an agent issued an order to release a prisoner or detainee.</rdfs:comment>
+    <rdfs:label xml:lang="en">was imprisoned by</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates that an agent was imprisoned by another agent, typically a government, military authority, or institution.</rdfs:comment>
     <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
     <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
     <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#hasKinAmong">
+  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#hasKinship">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-    <rdfs:label xml:lang="en">has kin among</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that an agent has relatives among a group, faction, or set of agents, without specifying the exact degree of kinship.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#hadPropertyConfiscatedBy">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">had property confiscated by</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that a person or agent had their property confiscated, seized, or appropriated by another agent, typically in military or political conflict.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#socialKinship">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-    <rdfs:label xml:lang="en">has social kinship with</rdfs:label>
-    <rdfs:comment xml:lang="en">
-Represents non-biological, non-marital kinship created through ritual,
-social, or customary bonds such as compadrio (godparenthood), ritual
-parenthood, fraternity bonds or other historically relevant forms of 
-fictive kinship. The property is symmetric because these relations are
-mutually acknowledged in historical records.
-</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/relationship/relatedTo"/>
+    <rdfs:label xml:lang="en">has kinship with</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates a family or kinship relation not covered by more specific relationship properties.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/relationship/associateOf"/>
     <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#servedUnder">
+  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#killed">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">served under</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that an agent held an office, function, or role under the authority or leadership of another agent.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#coordinatedWith">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">coordinated with</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that two agents coordinated actions, decisions, or strategic movements in a historical context, especially in military or administrative settings.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#approached">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">approached</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that an agent (often a military unit) moved toward or approached a specific place or strategic location.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://purl.org/dc/terms/Location"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#brotherInLawOf">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-    <rdfs:label xml:lang="en">is brother-in-law of</rdfs:label>
-    <rdfs:comment xml:lang="en">
-Represents an affinal kinship relation — brother-in-law — indicating that
-two persons are related through marriage (e.g., spouse’s sibling or
-sibling’s spouse). The property is symmetric because the relation holds
-equally in both directions.
-</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/relationship/relatedTo"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#defeatedInBattle">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">defeated in battle</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that one agent militarily defeated another agent in battle, skirmish, or engagement.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#influenced"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#refusedToFollow">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">refused to follow orders of</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that an agent refused to comply with or obey the directives issued by another agent, particularly in a military or administrative context.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#requestedPaymentFor">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">requested payment for</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that an agent requested that another agent receive payment or financial compensation, typically in military or administrative contexts.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#wasKilledInEvent">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">was killed in event</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that an agent died as a direct consequence of a historical event, such as a battle, ambush, or other violent occurrence.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://example.org/san#Event"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#followedPoliticalAlignmentOf">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">followed the political alignment of</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that an agent followed or aligned themselves with the political or strategic orientation of another agent, especially in contexts of shifting loyalties, leadership, or factional dynamics in historical settings.</rdfs:comment>
+    <rdfs:label xml:lang="en">killed</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates that an agent caused the death of another agent, based on historical sources.</rdfs:comment>
     <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
     <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
     <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
@@ -147,79 +53,6 @@ equally in both directions.
     <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#requestedCustodianshipFrom">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">requested custodianship from</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that an agent formally requested to be appointed as custodian or depositary of goods, estates or documents, typically in administrative or legal contexts.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#wasImprisonedBy">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">was imprisoned by</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that an agent was imprisoned by another agent, typically a government, military authority, or institution.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#wasReplacedBy">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">was replaced by</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that an agent holding an office or command position was replaced by another agent, whether in military, political, or administrative contexts.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#landDisputeWith">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-    <rdfs:label xml:lang="en">land dispute with</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that two historical agents were engaged in a dispute over land, property boundaries, or territorial rights.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#participatedInEvent">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">participated in event</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that an agent participated in a historical event, such as a battle, encounter, campaign, or gathering.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://example.org/san#Event"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#belongsToUnit">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">belongs to military or administrative unit</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that a person or agent is a member of, or formally belongs to, a military or administrative unit, corps, regiment, or organizational subdivision.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#retreatedTo">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">retreated to</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that an agent (often a military force) withdrew or moved away from a location toward another location as a strategic or defensive action.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://purl.org/dc/terms/Location"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#appointedCuratorOf">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">appointed as curator</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that an agent with administrative or legal authority appointed another agent as curator or custodian of an estate, property, or goods, typically in probate or inheritance contexts.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#wasCapturedIn">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">was captured in</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates the place where an agent was captured in a historical context.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#atLocation"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#requestedPoliticalFavorFrom">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:label xml:lang="en">requested a political favor from</rdfs:label>
@@ -228,91 +61,10 @@ equally in both directions.
     <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
     <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#deliveredPrisoners">
+  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#servedUnder">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">delivered prisoners</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that an agent transferred prisoners to another agent or authority.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#actedOnBehalfOf"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#reportedTo">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">reported to</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that an agent reported information, orders, or status updates to another agent in a hierarchical or administrative context.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#communicatedWith"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#wasTransferredTo">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">was transferred to</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that an agent was transferred to the custody or authority of another agent.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#inConflictWith">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-    <rdfs:label xml:lang="en">in conflict with</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that two agents were in conflict, opposition, or antagonistic engagement within a historical context.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#deliveredMessageTo">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">delivered message to</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that an agent acted as a messenger or courier by delivering a written message, letter, or communication to another agent, typically in historical or military correspondence contexts.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#receivedPrisoners">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">received prisoners</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that an agent received custody of one or more prisoners.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#wasPrisonerInEvent">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">was taken prisoner in event</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that an agent was taken prisoner during a particular historical event.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://example.org/san#Event"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#hasKinship">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">has kinship with</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates a family or kinship relation not covered by more specific relationship properties.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/relationship/associateOf"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#coerced">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">coerced</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that the active agent coerced or forced the passive agent to comply with a military or political action.</rdfs:comment>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:isDefinedBy rdf:resource="https://carlamenegat.github.io/VarelaDigital/hrao#"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#heldPossessionOf">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">held possession of</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that a person held long-term possession, use, or control of a property, land parcel, estate, or territorial unit in a historical context.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#hasChildrenAmong">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">has children among</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that an agent has one or more children within a particular group, faction, or set of agents.</rdfs:comment>
+    <rdfs:label xml:lang="en">served under</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates that an agent held an office, function, or role under the authority or leadership of another agent.</rdfs:comment>
     <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
     <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
     <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
@@ -322,13 +74,5 @@ equally in both directions.
     <owl:versionIRI rdf:resource="https://carlamenegat.github.io/VarelaDigital/hrao/1.0/"/>
     <rdfs:label xml:lang="en">Historical Relations and Agency Ontology</rdfs:label>
     <owl:versionInfo>1.0 (Varela Digital, 2026)</owl:versionInfo>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://carlamenegat.github.io/VarelaDigital/hrao#transferredToCustodyOf">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:label xml:lang="en">transferred to custody of</rdfs:label>
-    <rdfs:comment xml:lang="en">Indicates that an agent transferred a person or entity into the custody of another agent.</rdfs:comment>
-    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#actedOnBehalfOf"/>
-    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
   </rdf:Description>
 </rdf:RDF>
