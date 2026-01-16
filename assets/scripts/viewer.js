@@ -131,8 +131,8 @@ function formatPtBRDate(iso) {
   const m = s.match(/^(\d{4})(?:-(\d{2})(?:-(\d{2}))?)?$/);
   if (!m) return '';
   const months = ['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
-  if (m[3]) return `${parseInt(m[3])} ${months[parseInt(m[2]) - 1]} ${m[1]}`;
-  if (m[2]) return `${months[parseInt(m[2]) - 1]} ${m[1]}`;
+  if (m[3]) return `${parseInt(m[3], 10)} ${months[parseInt(m[2], 10) - 1]} ${m[1]}`;
+  if (m[2]) return `${months[parseInt(m[2], 10) - 1]} ${m[1]}`;
   return m[1];
 }
 
@@ -171,16 +171,25 @@ function buildViewerURL(file) {
 function setNavTarget(el, targetFile, disabled) {
   if (!el) return;
 
-  const isLink = el.tagName === 'A';
+  const tag = (el.tagName || '').toUpperCase();
+  const isLink = tag === 'A';
+  const isButton = tag === 'BUTTON';
+
   if (disabled || !targetFile) {
     el.classList.add('disabled');
     el.setAttribute('aria-disabled', 'true');
+
     if (isLink) el.removeAttribute('href');
+    if (isButton) el.disabled = true;
+
+    // also remove click handler if any
+    el.onclick = null;
     return;
   }
 
   el.classList.remove('disabled');
   el.removeAttribute('aria-disabled');
+  if (isButton) el.disabled = false;
 
   const href = buildViewerURL(targetFile);
 
@@ -198,6 +207,7 @@ function setNavTarget(el, targetFile, disabled) {
 async function getOrderListFromURLorManifest() {
   const params = new URLSearchParams(window.location.search);
 
+  // 1) explicit list in URL: ?list=CV-1.xml,CV-2.xml...
   const listParam = params.get('list');
   if (listParam) {
     return listParam
@@ -206,14 +216,31 @@ async function getOrderListFromURLorManifest() {
       .filter(Boolean);
   }
 
+  // 2) manifest: ../../data/indexes/<order>.json
   const order = (params.get('order') || DEFAULT_ORDER).trim();
   const manifestPath = INDEXES_BASE_PATH + order + '.json';
 
   try {
-    const res = await fetch(manifestPath);
+    const res = await fetch(manifestPath, { cache: 'no-cache' });
     if (!res.ok) throw new Error(`manifest ${manifestPath} ${res.status}`);
+
     const data = await res.json();
-    if (Array.isArray(data)) return data.map(String);
+    if (!Array.isArray(data)) return [];
+
+    // Accept BOTH:
+    // - ["CV-1.xml", "CV-2.xml", ...]
+    // - [{id:"CV-1", file:"CV-1.xml"}, ...]
+    const list = data.map(item => {
+      if (typeof item === 'string') return item.trim();
+      if (item && typeof item === 'object') {
+        if (typeof item.file === 'string') return item.file.trim();
+        if (typeof item.xml === 'string') return item.xml.trim(); // optional future key
+        if (typeof item.path === 'string') return item.path.trim(); // optional future key
+      }
+      return '';
+    }).filter(Boolean);
+
+    return list;
   } catch (e) {
     console.warn('Could not load manifest:', manifestPath, e);
   }
@@ -228,14 +255,11 @@ function guessPrevNextByCVNumber(fileParam) {
   const num = parseInt(m[1], 10);
   const suf = (m[2] || '').toLowerCase();
 
-  // Basic fallback:
-  // - ignores a/b ordering (because you have CV-147a etc.)
-  // - works for main numeric sequence
+  // Basic fallback (ignores suffix ordering):
   const prev = num > 1 ? `CV-${num - 1}.xml` : null;
   const next = `CV-${num + 1}.xml`;
 
-  // If current has suffix, keep same num fallback to base:
-  // CV-147a -> prev tries CV-147.xml (optional)
+  // If current has suffix, fallback to base file
   if (suf) {
     return { prev: `CV-${num}.xml`, next: `CV-${num}.xml` };
   }
@@ -244,14 +268,18 @@ function guessPrevNextByCVNumber(fileParam) {
 }
 
 async function setupDocNavigator(currentFile) {
-  const prevEl =
-    document.querySelector('#btnPrev, #prevBtn, a[data-nav="prev"], button[data-nav="prev"]');
-  const nextEl =
-    document.querySelector('#btnNext, #nextBtn, a[data-nav="next"], button[data-nav="next"]');
+  // match YOUR HTML ids (prev-letter / next-letter) plus older variants
+  const prevEl = document.querySelector(
+    '#prev-letter, #btnPrev, #prevBtn, a[data-nav="prev"], button[data-nav="prev"]'
+  );
+  const nextEl = document.querySelector(
+    '#next-letter, #btnNext, #nextBtn, a[data-nav="next"], button[data-nav="next"]'
+  );
 
   if (!prevEl && !nextEl) return;
 
   const list = await getOrderListFromURLorManifest();
+
   if (list.length) {
     const i = list.indexOf(currentFile);
     const prev = i > 0 ? list[i - 1] : null;
@@ -268,13 +296,41 @@ async function setupDocNavigator(currentFile) {
   setNavTarget(nextEl, g.next, !g.next);
 }
 
+/* =========================================================
+   UI flags (remove non-implemented controls)
+========================================================= */
+
+function disableNonImplementedUI() {
+  // Remove Encoded/Diplomatic buttons if they still exist in DOM
+  document.querySelectorAll('.tab-button').forEach(btn => {
+    const v = (btn.dataset.view || '').toLowerCase();
+    if (v === 'encoded' || v === 'diplomatic') btn.remove();
+  });
+
+  // Ensure Reading is active
+  const readingBtn = document.querySelector('.tab-button[data-view="reading"]');
+  if (readingBtn) {
+    readingBtn.disabled = false;
+    readingBtn.classList.add('active');
+  }
+
+  // Hide surface selector block if it exists
+  const sel = document.getElementById('surface-selector');
+  if (sel) {
+    const wrapper =
+      sel.closest('.surface-selector-wrapper') ||
+      sel.closest('.surface-selector') ||
+      sel.parentElement;
+    if (wrapper) wrapper.style.display = 'none';
+    else sel.style.display = 'none';
+  }
+}
 
 /* =========================================================
    Standoff loading
 ========================================================= */
 
 async function loadStandoffFiles() {
-  // already loaded?
   if (STANDOFF_INDEX.__loaded) return;
 
   const entries = [];
@@ -283,9 +339,11 @@ async function loadStandoffFiles() {
     try {
       const doc = await fetchXML(path);
 
-      // listPerson/person OR listPlace/place OR listOrg/org OR listEvent/event
-      const nodes = xAll(doc, `//tei:${kind === 'persons' ? 'person' : kind === 'places' ? 'place' : kind === 'orgs' ? 'org' : 'event'}`);
-      // The above is too strict because your files may wrap in <listPerson>. So we will also accept any tei:person/tei:place/tei:org/tei:event:
+      const nodes = xAll(
+        doc,
+        `//tei:${kind === 'persons' ? 'person' : kind === 'places' ? 'place' : kind === 'orgs' ? 'org' : 'event'}`
+      );
+
       const fallback =
         kind === 'persons' ? xAll(doc, `//tei:person`) :
         kind === 'places'  ? xAll(doc, `//tei:place`)  :
@@ -293,13 +351,12 @@ async function loadStandoffFiles() {
         xAll(doc, `//tei:event`);
 
       (nodes.length ? nodes : fallback).forEach(n => entries.push({ kind, node: n }));
-
     } catch (e) {
       console.warn(`Could not load standoff: ${kind}`, e);
     }
   }
 
-  for (const { kind, node } of entries) {
+  for (const { node } of entries) {
     const id = attr(node, 'id', XML_NS);
     if (!id) continue;
     STANDOFF_INDEX[id] = node;
@@ -315,8 +372,6 @@ async function loadStandoffFiles() {
 function renderViewer(teiDoc, fileName) {
   renderLetterNavInfo(teiDoc);
   renderMetadataPanel(teiDoc, fileName);
-
-  
   renderText(teiDoc);
 }
 
@@ -338,7 +393,7 @@ function renderLetterNavInfo(teiDoc) {
 }
 
 /* =========================================================
-   Metadata panel (your current HTML IDs)
+   Metadata panel
 ========================================================= */
 
 function renderMetadataPanel(teiDoc, fileName) {
@@ -357,7 +412,6 @@ function renderMetadataPanel(teiDoc, fileName) {
 
   const title = xText(teiDoc, '//tei:teiHeader//tei:titleStmt/tei:title[1]');
 
-  // From/To: first persName OR orgName inside correspAction
   const from = xText(teiDoc, 'string((//tei:teiHeader//tei:correspDesc//tei:correspAction[@type="sent"][1]/*[self::tei:persName or self::tei:orgName][1]))');
   const to   = xText(teiDoc, 'string((//tei:teiHeader//tei:correspDesc//tei:correspAction[@type="received"][1]/*[self::tei:persName or self::tei:orgName][1]))');
 
@@ -387,7 +441,7 @@ function setDownloadLink(aEl, href, label) {
 }
 
 /* =========================================================
-   Surfaces
+   Surfaces (kept, but disabled in UI / not used)
 ========================================================= */
 
 function readSurfaces(teiDoc) {
@@ -396,21 +450,8 @@ function readSurfaces(teiDoc) {
   CURRENT_SURFACE = SURFACES[0]?.n || '';
 }
 
-function setupSurfaceSelector() {
-  const sel = document.getElementById('surface-selector');
-  if (!sel) return;
-
-  sel.innerHTML = '';
-  const opt = document.createElement('option');
-  opt.value = '';
-  opt.textContent = '—';
-  sel.appendChild(opt);
-
-  sel.disabled = true;
-}
-
 /* =========================================================
-   Text rendering (surface-aware)
+   Text rendering
 ========================================================= */
 
 function renderText(teiDoc) {
@@ -425,89 +466,23 @@ function renderText(teiDoc) {
 }
 
 /* =========================================================
-   Surface slicing logic (FIXED)
-========================================================= */
-
-function normalizeFolio(f) {
-  return (f || '').trim();
-}
-
-function extractFolioFromSeg(segNode) {
-  const m = segNode.textContent.toLowerCase().match(/(\d+[rv])/);
-  return m ? m[1] : '';
-}
-
-function extractFolioFromPlace(placeAttr) {
-  const m = (placeAttr || '').toLowerCase().match(/(\d+[rv])/);
-  return m ? m[1] : '';
-}
-
-function collectTopLevelElementNodes(divNode) {
-  return Array.from(divNode.childNodes).filter(n =>
-    n.nodeType === Node.ELEMENT_NODE ||
-    (n.nodeType === Node.TEXT_NODE && n.textContent.trim())
-  );
-}
-
-function sliceBySurface(divNode, targetSurface) {
-  const kids = collectTopLevelElementNodes(divNode);
-  const surfaces = SURFACES.map(s => s.n);
-  const wanted = normalizeFolio(targetSurface) || surfaces[0];
-
-  let activeSurface = surfaces[0];
-  const buckets = new Map();
-
-  const ensure = s => {
-    if (!buckets.has(s)) buckets.set(s, []);
-    return buckets.get(s);
-  };
-
-  surfaces.forEach(ensure);
-
-  for (const n of kids) {
-    if (n.nodeType !== Node.ELEMENT_NODE) {
-      ensure(activeSurface).push(n);
-      continue;
-    }
-
-    if (n.namespaceURI === TEI_NS && n.localName === 'pb') {
-      const pbN = normalizeFolio(attr(n, 'n'));
-      if (pbN) activeSurface = pbN;
-      continue;
-    }
-
-    if (n.namespaceURI === TEI_NS && n.localName === 'seg' && attr(n, 'type') === 'folio') {
-      const fol = extractFolioFromSeg(n);
-      if (fol) activeSurface = fol;
-      continue;
-    }
-
-    if (n.namespaceURI === TEI_NS && n.localName === 'note' && attr(n, 'type') === 'endorsement') {
-      const fol = extractFolioFromPlace(attr(n, 'place'));
-      ensure(fol || activeSurface).push(n);
-      continue;
-    }
-
-    ensure(activeSurface).push(n);
-  }
-
-  return buckets.get(wanted) || [];
-}
-
-
-/* =========================================================
    View tabs
 ========================================================= */
 
 function setupViewTabs() {
   document.querySelectorAll('.tab-button').forEach(btn => {
     btn.addEventListener('click', () => {
+      if (btn.disabled) return;
+
       VIEW_MODE = btn.dataset.view;
+
       document.querySelectorAll('.tab-button').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
+
       document.querySelectorAll('.transcription-layer').forEach(l =>
         l.classList.toggle('d-none', l.dataset.view !== VIEW_MODE)
       );
+
       renderText(CURRENT_TEI_DOC);
     });
   });
@@ -530,7 +505,6 @@ function setupAnnotationBehaviour() {
     const span = e.target.closest('.annotated');
     if (!span) return;
 
-    // entities with @ref
     if (span.dataset.ref) {
       const id = span.dataset.ref.replace('#', '');
       const entry = STANDOFF_INDEX[id];
@@ -541,7 +515,6 @@ function setupAnnotationBehaviour() {
       return;
     }
 
-    // dates without @ref but with @when
     if (span.dataset.when) {
       const when = (span.dataset.when || '').trim();
       const pretty = formatPtBRDate(when);
@@ -575,12 +548,10 @@ function getLocalId(entry) {
 }
 
 function qAllLocal(entry, localName) {
-  // direct TEI namespace elements
   return Array.from(entry.getElementsByTagNameNS(TEI_NS, localName));
 }
 
 function getDirectChildNotes(entry) {
-  // only <note> that are direct children of the entry (not inside <state>)
   const out = [];
   for (const ch of Array.from(entry.childNodes || [])) {
     if (ch.nodeType === Node.ELEMENT_NODE && ch.namespaceURI === TEI_NS && ch.localName === 'note') {
@@ -596,7 +567,7 @@ function renderIdnos(entry, kind) {
     value: textOf(n)
   }));
 
-  const hasProjectPlaceholder = idnos.some(x => x.type === 'project'); // empty or not
+  const hasProjectPlaceholder = idnos.some(x => x.type === 'project');
   const filtered = idnos.filter(x => x.type && x.type !== 'project' && x.value);
 
   const parts = [];
@@ -636,11 +607,7 @@ function renderIdnos(entry, kind) {
 }
 
 function renderVariants(entry, kind) {
-  const map = {
-    person: 'persName',
-    place: 'placeName',
-    org: 'orgName'
-  };
+  const map = { person: 'persName', place: 'placeName', org: 'orgName' };
   const ln = map[kind];
   if (!ln) return '';
 
@@ -655,11 +622,9 @@ function renderVariants(entry, kind) {
 }
 
 function renderStandoffEntryCard(entry) {
-  if (!entry) {
-    return `<p class="text-muted small">No annotation available.</p>`;
-  }
+  if (!entry) return `<p class="text-muted small">No annotation available.</p>`;
 
-  const tag = (entry.localName || '').toLowerCase(); // person/place/org/event
+  const tag = (entry.localName || '').toLowerCase();
   const localId = getLocalId(entry);
 
   const getFirst = (localName) => {
@@ -671,7 +636,6 @@ function renderStandoffEntryCard(entry) {
   let title = '';
   let extra = '';
 
-  // NOTE: prefer LAST direct child note on the entry (not inside <state>)
   const directNotes = getDirectChildNotes(entry);
   const note = directNotes.length ? textOf(directNotes[directNotes.length - 1]) : '';
 
@@ -733,21 +697,13 @@ function renderNode(node) {
     return document.createDocumentFragment();
   }
 
-  const ln = node.localName; // namespace-safe
+  const ln = node.localName;
   let el;
 
   switch (ln) {
-    case 'div':
-      el = document.createElement('div');
-      break;
-
-    case 'p':
-      el = document.createElement('p');
-      break;
-
-    case 'head':
-      el = document.createElement('h3');
-      break;
+    case 'div': el = document.createElement('div'); break;
+    case 'p': el = document.createElement('p'); break;
+    case 'head': el = document.createElement('h3'); break;
 
     case 'choice':
       if (VIEW_MODE === 'reading') {
@@ -762,12 +718,13 @@ function renderNode(node) {
       el = document.createElement('span');
       el.className = 'page-break';
       el.id = n ? `pb-${n}` : '';
-      el.textContent = VIEW_MODE === 'reading' ? (n ? `[${n}]` : '[pb]') : (n ? `[pb ${n}]` : '[pb]');
+      el.textContent = VIEW_MODE === 'reading'
+        ? (n ? `[${n}]` : '[pb]')
+        : (n ? `[pb ${n}]` : '[pb]');
       break;
     }
 
     case 'seg': {
-      // keep folio markers out of reading if you want
       const type = attr(node, 'type');
       if (type === 'folio' && VIEW_MODE === 'reading') {
         return document.createDocumentFragment();
@@ -809,7 +766,6 @@ function renderNode(node) {
       break;
 
     case 'g':
-      // special glyph char; just render its textContent
       el = document.createElement('span');
       break;
 
@@ -817,7 +773,6 @@ function renderNode(node) {
       el = document.createElement('span');
   }
 
-  // children
   for (const ch of Array.from(node.childNodes)) {
     el.appendChild(renderNode(ch));
   }
