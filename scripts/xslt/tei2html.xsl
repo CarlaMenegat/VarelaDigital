@@ -4,9 +4,11 @@
                 xmlns:tei="http://www.tei-c.org/ns/1.0"
                 exclude-result-prefixes="tei">
     
-    <!-- HTML output -->
     <xsl:output method="html" encoding="UTF-8" indent="yes"/>
     <xsl:strip-space elements="*"/>
+    
+    <!-- receives the source XML filename (e.g., CV-23.xml) -->
+    <xsl:param name="sourceFile" select="''"/>
     
     <!-- =========================
          Root: full HTML page
@@ -19,17 +21,24 @@
                 <title>
                     <xsl:value-of select="normalize-space(//tei:teiHeader//tei:titleStmt/tei:title[1])"/>
                 </title>
-
                 <link rel="stylesheet" href="../../css/styles.css"/>
             </head>
             
-            <body class="vd-viewer">
+            <body>
+                <xsl:attribute name="class">vd-viewer</xsl:attribute>
+                
+                <!-- bind TEI source filename for viewer.js (no querystring required) -->
+                <xsl:if test="string-length(normalize-space($sourceFile)) &gt; 0">
+                    <xsl:attribute name="data-file">
+                        <xsl:value-of select="normalize-space($sourceFile)"/>
+                    </xsl:attribute>
+                </xsl:if>
+                
                 <main class="main-content">
                     <div class="content-wrapper">
                         <div class="left-column">
                             <div class="transcription-box">
                                 
-                                <!-- Title block -->
                                 <div id="letter-info" style="margin-bottom:0.75rem;">
                                     <div class="letter-title">
                                         <xsl:value-of select="normalize-space(//tei:teiHeader//tei:titleStmt/tei:title[1])"/>
@@ -39,14 +48,12 @@
                                     </div>
                                 </div>
                                 
-                                <!-- Body -->
                                 <div class="tei-body">
                                     <xsl:apply-templates select="//tei:text/tei:body/tei:div[1]"/>
                                 </div>
                                 
                             </div>
                         </div>
-
                     </div>
                 </main>
             </body>
@@ -82,7 +89,6 @@
         <h3><xsl:apply-templates/></h3>
     </xsl:template>
     
-    <!-- Line groups (poetry etc.) -->
     <xsl:template match="tei:lg">
         <div class="tei-lg">
             <xsl:apply-templates/>
@@ -132,7 +138,7 @@
     <!-- =========================
          Notes / endorsements / hand
          ========================== -->
-
+    
     <xsl:template match="tei:note[@type='endorsement']">
         <div class="tei-endorsement">
             <xsl:apply-templates/>
@@ -176,7 +182,6 @@
         </xsl:choose>
     </xsl:template>
     
-    <!-- expan/abbr: just pass through -->
     <xsl:template match="tei:expan|tei:abbr">
         <xsl:apply-templates/>
     </xsl:template>
@@ -194,20 +199,24 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-
+    
     <xsl:template match="tei:persName|tei:placeName|tei:orgName">
         <span class="annotated">
             <xsl:if test="@ref">
-                <xsl:attribute name="data-ref"><xsl:value-of select="@ref"/></xsl:attribute>
+                <xsl:attribute name="data-ref">
+                    <xsl:value-of select="@ref"/>
+                </xsl:attribute>
             </xsl:if>
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-
+    
     <xsl:template match="tei:date">
         <span class="annotated">
             <xsl:if test="@when">
-                <xsl:attribute name="data-when"><xsl:value-of select="@when"/></xsl:attribute>
+                <xsl:attribute name="data-when">
+                    <xsl:value-of select="@when"/>
+                </xsl:attribute>
             </xsl:if>
             <xsl:apply-templates/>
         </span>
@@ -220,6 +229,7 @@
     <!-- =========================
          Whitespace-safe text output
          ========================== -->
+    
     <xsl:template match="text()">
         <xsl:value-of select="."/>
     </xsl:template>

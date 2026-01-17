@@ -1,4 +1,4 @@
-/* Paths */
+/* ===== Paths ===== */
 const BASE_XML_PATH = '../../data/documents_XML/';
 const DOCUMENTS_HTML_PATH_PRIMARY = '../documents_html/';
 const DOCUMENTS_HTML_PATH_FALLBACK = '../../assets/html/documents_html/';
@@ -21,21 +21,22 @@ const STANDOFF_FILES = {
   events: STANDOFF_BASE_PATH + 'standoff_events.xml'
 };
 
-/* Namespaces */
+/* ===== Namespaces ===== */
 const TEI_NS = 'http://www.tei-c.org/ns/1.0';
 const XML_NS = 'http://www.w3.org/XML/1998/namespace';
 const NS = { tei: TEI_NS, xml: XML_NS };
 
-/* State */
+/* ===== State ===== */
 let VIEW_MODE = 'reading';
-let CURRENT_FILE = '';
-let CURRENT_STEM = '';
-let CURRENT_HTML_PATH = '';
+let CURRENT_FILE = '';        // may be CV-23.xml OR CV-23.html
+let CURRENT_STEM = '';        // CV-23
+let CURRENT_HTML_PATH = '';   // resolved html path used (when fetched)
+let CURRENT_HTML_BASE = '';   // resolved base dir for html navigation
 let METADATA_INDEX = null;
 
 const STANDOFF_INDEX = Object.create(null);
 
-/* Env */
+/* ===== Env ===== */
 function isLocalhost() {
   const h = (window.location.hostname || '').toLowerCase();
   return h === 'localhost' || h === '127.0.0.1';
@@ -48,7 +49,7 @@ function allowTranslationApiFallback() {
   return isLocalhost();
 }
 
-/* Utilities */
+/* ===== Utilities ===== */
 function getQueryParam(name) {
   return new URLSearchParams(window.location.search).get(name);
 }
@@ -147,19 +148,51 @@ async function fetchJSON(path) {
   if (!res.ok) throw new Error(`Failed to load ${path} (${res.status})`);
   return await res.json();
 }
-function buildViewerURL(file) {
-  const url = new URL(window.location.href);
-  url.searchParams.set('file', file);
-  return url.toString();
+
+function getDocFileFromDOMOrURL() {
+  const qp = getQueryParam('file');
+  if (qp) return qp.trim();
+
+  const bodyFile = (document.body?.dataset?.file || '').trim();
+  if (bodyFile) return bodyFile;
+
+  const path = String(window.location.pathname || '');
+  const m = path.match(/([^/]+)\.html$/i);
+  if (m && m[1]) return `${m[1]}.html`;
+
+  return '';
 }
-function setNavTarget(el, targetFile, disabled) {
+
+function isStandaloneDocHTMLPage() {
+  const path = String(window.location.pathname || '');
+  const looksLikeDoc = /\/documents_html\/[^/]+\.html$/i.test(path) || /\.html$/i.test(path);
+  const hasTeiBody = !!document.querySelector('.tei-body');
+  return looksLikeDoc && hasTeiBody;
+}
+
+function ensureHTMLBaseFromPath(path) {
+  if (!path) return '';
+  const i = path.lastIndexOf('/');
+  if (i < 0) return '';
+  return path.slice(0, i + 1);
+}
+
+function buildDocHTMLHrefFromStem(stem) {
+  const s = stemFromFile(stem);
+  if (!s) return '';
+
+  const base = CURRENT_HTML_BASE || DOCUMENTS_HTML_PATH_PRIMARY;
+  return `${base}${s}.html`;
+}
+
+function setNavTarget(el, targetFileXmlOrHtml, disabled) {
   if (!el) return;
 
   const tag = (el.tagName || '').toUpperCase();
   const isLink = tag === 'A';
   const isButton = tag === 'BUTTON';
 
-  if (disabled || !targetFile) {
+  if (disabled || !targetFileXmlOrHtml) {
     el.classList.add('disabled');
     el.setAttribute('aria-disabled', 'true');
     if (isLink) el.removeAttribute('href');
@@ -168,11 +201,12 @@ function setNavTarget(el, targetFile, disabled) {
     return;
   }
 
+  const targetStem = stemFromFile(targetFileXmlOrHtml);
+  const href = buildDocHTMLHrefFromStem(targetStem);
+
   el.classList.remove('disabled');
   el.removeAttribute('aria-disabled');
   if (isButton) el.disabled = false;
-
-  const href = buildViewerURL(targetFile);
 
   if (isLink) {
     el.href = href;
@@ -185,9 +219,9 @@ function setNavTarget(el, targetFile, disabled) {
   };
 }
 
-/* Boot */
+/* ===== Boot ===== */
 document.addEventListener('DOMContentLoaded', async () => {
-  const fileParam = getQueryParam('file');
+  const fileParam = getDocFileFromDOMOrURL();
   if (!fileParam) return;
 
   CURRENT_FILE = fileParam;
@@ -196,23 +230,44 @@ document.addEventListener('DOMContentLoaded', async () => {
   try {
     await loadDocumentHTML(CURRENT_STEM);
     await loadStandoffFiles();
+
     setupViewTabs();
     setupAnnotationBehaviour();
     disableNonImplementedUI();
-    await setupDocNavigator(CURRENT_FILE.endsWith('.html') ? `${CURRENT_STEM}.xml` : CURRENT_FILE);
-    await renderMetadataPanel(CURRENT_STEM, CURRENT_FILE);
+
+    await setupDocNavigator(`${CURRENT_STEM}.xml`);
+    await renderMetadataPanel(CURRENT_STEM, `${CURRENT_STEM}.xml`);
+
     if ((VIEW_MODE || '').toLowerCase() === 'translation') {
-      await renderTranslation(CURRENT_FILE);
+      await renderTranslation(`${CURRENT_STEM}.xml`);
     }
   } catch (e) {
     console.error(e);
   }
 });
 
-/* Document HTML */
+/* ===== Document HTML ===== */
 async function loadDocumentHTML(stem) {
   const readingLayer = document.querySelector(`.transcription-layer[data-view="reading"]`);
   if (!readingLayer) return;
+
+  if (isStandaloneDocHTMLPage()) {
+    CURRENT_HTML_PATH = String(window.location.pathname || '');
+    CURRENT_HTML_BASE = ensureHTMLBaseFromPath(CURRENT_HTML_PATH) || DOCUMENTS_HTML_PATH_PRIMARY;
+
+    const existingLetterInfo = document.getElementById('letter-info');
+    const existingBody = document.querySelector('.tei-body');
+
+    if (existingBody) {
+      readingLayer.innerHTML = existingBody.innerHTML;
+    }
+
+    if (existingLetterInfo) {
+      const dstLetterInfo = document.getElementById('letter-info');
+      if (dstLetterInfo) dstLetterInfo.innerHTML = existingLetterInfo.innerHTML;
+    }
+    return;
+  }
 
   const candidates = [
     `${DOCUMENTS_HTML_PATH_PRIMARY}${stem}.html`,
@@ -236,6 +291,7 @@ async function loadDocumentHTML(stem) {
   }
 
   CURRENT_HTML_PATH = usedPath;
+  CURRENT_HTML_BASE = ensureHTMLBaseFromPath(usedPath) || DOCUMENTS_HTML_PATH_PRIMARY;
 
   const doc = new DOMParser().parseFromString(htmlText, 'text/html');
 
@@ -254,7 +310,7 @@ async function loadDocumentHTML(stem) {
   }
 }
 
-/* Navigator */
+/* ===== Navigator ===== */
 async function getOrderListFromURLorManifest() {
   const params = new URLSearchParams(window.location.search);
 
@@ -291,6 +347,7 @@ async function getOrderListFromURLorManifest() {
 
   return [];
 }
+
 function guessPrevNextByCVNumber(fileParam) {
   const m = String(fileParam).match(/^CV-(\d+)([a-z])?\.xml$/i);
   if (!m) return { prev: null, next: null };
@@ -307,6 +364,7 @@ function guessPrevNextByCVNumber(fileParam) {
 
   return { prev, next };
 }
+
 async function setupDocNavigator(currentFileXml) {
   const prevEl = document.querySelector(
     '#prev-letter, #btnPrev, #prevBtn, a[data-nav="prev"], button[data-nav="prev"]'
@@ -334,7 +392,7 @@ async function setupDocNavigator(currentFileXml) {
   setNavTarget(nextEl, g.next, !g.next);
 }
 
-/* UI */
+/* ===== UI ===== */
 function disableNonImplementedUI() {
   document.querySelectorAll('.tab-button').forEach(btn => {
     const v = (btn.dataset.view || '').toLowerCase();
@@ -360,7 +418,7 @@ function disableNonImplementedUI() {
   }
 }
 
-/* Standoff */
+/* ===== Standoff ===== */
 async function loadStandoffFiles() {
   if (STANDOFF_INDEX.__loaded) return;
 
@@ -396,7 +454,7 @@ async function loadStandoffFiles() {
   STANDOFF_INDEX.__loaded = true;
 }
 
-/* Tabs */
+/* ===== Tabs ===== */
 function setupViewTabs() {
   document.querySelectorAll('.tab-button').forEach(btn => {
     btn.addEventListener('click', async () => {
@@ -416,13 +474,13 @@ function setupViewTabs() {
       });
 
       if (VIEW_MODE === 'translation') {
-        await renderTranslation(CURRENT_FILE);
+        await renderTranslation(`${CURRENT_STEM}.xml`);
       }
     });
   });
 }
 
-/* Annotations */
+/* ===== Annotations ===== */
 function setupAnnotationBehaviour() {
   const box = document.getElementById('annotations-box');
   const content = document.getElementById('annotations-content');
@@ -470,7 +528,7 @@ function setupAnnotationBehaviour() {
   });
 }
 
-/* Standoff card */
+/* ===== Standoff card ===== */
 function getLocalId(entry) {
   return attr(entry, 'id', XML_NS);
 }
@@ -605,7 +663,7 @@ function renderStandoffEntryCard(entry) {
   `;
 }
 
-/* Metadata */
+/* ===== Metadata ===== */
 async function loadMetadataIndex() {
   if (METADATA_INDEX) return METADATA_INDEX;
   try {
@@ -622,7 +680,7 @@ function setDownloadLink(aEl, href, label) {
   aEl.setAttribute('download', '');
   aEl.textContent = label;
 }
-async function renderMetadataPanel(stem, fileParam) {
+async function renderMetadataPanel(stem, fileParamXml) {
   const mdTitle = document.getElementById('mdTitle');
   const mdFrom = document.getElementById('mdFrom');
   const mdTo = document.getElementById('mdTo');
@@ -663,13 +721,13 @@ async function renderMetadataPanel(stem, fileParam) {
     safeSet(mdType, '');
   }
 
-  const xmlFile = fileParam.endsWith('.xml') ? fileParam : `${stem}.xml`;
+  const xmlFile = fileParamXml.endsWith('.xml') ? fileParamXml : `${stem}.xml`;
   setDownloadLink(dlXml, BASE_XML_PATH + xmlFile, 'Download TEI XML');
   setDownloadLink(dlJsonld, BASE_RDF_JSON_PATH + stem + '.json', 'Download JSON-LD');
   setDownloadLink(dlTtl, BASE_RDF_TTL_PATH + stem + '.ttl', 'Download TTL');
 }
 
-/* Translation */
+/* ===== Translation ===== */
 function translationJSONToHTML(data) {
   const disclaimer = escapeHTML(data?.disclaimer || '');
   const translation = escapeHTML(data?.translation || '');
@@ -702,13 +760,13 @@ function translationUnavailableHTML(cachePath) {
     ${prodNote}
   `;
 }
-async function renderTranslation(fileParam) {
+async function renderTranslation(fileParamXmlOrHtml) {
   const layer = document.querySelector(`.transcription-layer[data-view="translation"]`);
   if (!layer) return;
 
   layer.innerHTML = `<p class="text-muted small mb-0">Loading translation…</p>`;
 
-  const stem = stemFromFile(fileParam);
+  const stem = stemFromFile(fileParamXmlOrHtml);
   const target = DEFAULT_TARGET_LANG;
   const cachePath = `${TRANSLATIONS_BASE_PATH}${target}/${stem}.json`;
 
