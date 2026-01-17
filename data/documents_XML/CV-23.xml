@@ -93,7 +93,7 @@
                 <correspAction type="sent">
                     <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName>
                     <date when="1843-05-29">29 de maio de 1843</date>
-                    <placeName ref="#sao_lourenco"></placeName>
+                    <placeName ref="#sao_lourenco">São Lourenço</placeName>
                 </correspAction>
                 <correspAction type="received">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
@@ -154,12 +154,6 @@
                     <salute>Seu antigo e obrigado amigo</salute>
                     <signed><persName ref="#abreu">Antônio Francisco dos Santos Abreu</persName>.</signed>
                 </closer>
-                
-                <note type="endorsement" place="1r">
-                    <p>Respondida a 29 de junho de 1843. 
-                        <note type="hand">Letra de <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName> na <seg type="folio">folha 1r</seg>.</note>
-                    </p>
-                </note>
                 
                 <note type="endorsement" place="1r">
                     <p>Respondida a 29 de junho de 1843.</p>

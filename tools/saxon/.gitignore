@@ -1,5 +1,0 @@
-# XSLT processor (tool, not project content)
-tools/saxon/*.jar
-
-# Generated HTML (derived from TEI)
-data/documents_HTML/*.html

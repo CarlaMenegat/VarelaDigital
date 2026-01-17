@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:tei="http://www.tei-c.org/ns/1.0"
+                exclude-result-prefixes="tei">
+    
+    <!-- HTML output -->
+    <xsl:output method="html" encoding="UTF-8" indent="yes"/>
+    <xsl:strip-space elements="*"/>
+    
+    <!-- =========================
+         Root: full HTML page
+         ========================== -->
+    <xsl:template match="/">
+        <html lang="pt-BR">
+            <head>
+                <meta charset="utf-8"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                <title>
+                    <xsl:value-of select="normalize-space(//tei:teiHeader//tei:titleStmt/tei:title[1])"/>
+                </title>
+
+                <link rel="stylesheet" href="../../css/styles.css"/>
+            </head>
+            
+            <body class="vd-viewer">
+                <main class="main-content">
+                    <div class="content-wrapper">
+                        <div class="left-column">
+                            <div class="transcription-box">
+                                
+                                <!-- Title block -->
+                                <div id="letter-info" style="margin-bottom:0.75rem;">
+                                    <div class="letter-title">
+                                        <xsl:value-of select="normalize-space(//tei:teiHeader//tei:titleStmt/tei:title[1])"/>
+                                    </div>
+                                    <div class="letter-date">
+                                        <xsl:value-of select="string((//tei:teiHeader//tei:correspDesc//tei:correspAction[@type='sent'][1]/tei:date[1]/@when))"/>
+                                    </div>
+                                </div>
+                                
+                                <!-- Body -->
+                                <div class="tei-body">
+                                    <xsl:apply-templates select="//tei:text/tei:body/tei:div[1]"/>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                </main>
+            </body>
+        </html>
+    </xsl:template>
+    
+    <!-- =========================
+         Block structure
+         ========================== -->
+    
+    <xsl:template match="tei:div">
+        <div class="tei-div">
+            <xsl:apply-templates/>
+        </div>
+        <div class="tei-spacer"></div>
+    </xsl:template>
+    
+    <xsl:template match="tei:opener|tei:closer|tei:postscript|tei:dateline|tei:salute|tei:signed|tei:addressee">
+        <div>
+            <xsl:attribute name="class">
+                <xsl:text>tei-</xsl:text>
+                <xsl:value-of select="local-name()"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:p">
+        <p><xsl:apply-templates/></p>
+    </xsl:template>
+    
+    <xsl:template match="tei:head">
+        <h3><xsl:apply-templates/></h3>
+    </xsl:template>
+    
+    <!-- Line groups (poetry etc.) -->
+    <xsl:template match="tei:lg">
+        <div class="tei-lg">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:l">
+        <div class="tei-l">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <!-- =========================
+         Lists
+         ========================== -->
+    
+    <xsl:template match="tei:list">
+        <ul class="tei-list">
+            <xsl:apply-templates/>
+        </ul>
+    </xsl:template>
+    
+    <xsl:template match="tei:item">
+        <li><xsl:apply-templates/></li>
+    </xsl:template>
+    
+    <!-- =========================
+         Tables
+         ========================== -->
+    
+    <xsl:template match="tei:table">
+        <table class="tei-table">
+            <tbody>
+                <xsl:apply-templates/>
+            </tbody>
+        </table>
+    </xsl:template>
+    
+    <xsl:template match="tei:row">
+        <tr><xsl:apply-templates/></tr>
+    </xsl:template>
+    
+    <xsl:template match="tei:cell">
+        <td><xsl:apply-templates/></td>
+    </xsl:template>
+    
+    <!-- =========================
+         Notes / endorsements / hand
+         ========================== -->
+
+    <xsl:template match="tei:note[@type='endorsement']">
+        <div class="tei-endorsement">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:note[@type='hand']">
+        <span class="tei-note-hand">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:note[not(@type='endorsement') and not(@type='hand')]">
+        <div class="tei-note">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="tei:handShift">
+        <div class="tei-handshift">
+            <xsl:text>Letra: </xsl:text>
+            <xsl:value-of select="@new"/>
+        </div>
+    </xsl:template>
+    
+    <!-- =========================
+         Inline / semantic
+         ========================== -->
+    
+    <xsl:template match="tei:choice">
+        <xsl:choose>
+            <xsl:when test="tei:expan">
+                <xsl:apply-templates select="tei:expan/node()"/>
+            </xsl:when>
+            <xsl:when test="tei:abbr">
+                <xsl:apply-templates select="tei:abbr/node()"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
+    <!-- expan/abbr: just pass through -->
+    <xsl:template match="tei:expan|tei:abbr">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="tei:pb">
+        <span class="page-break">
+            <xsl:text>[</xsl:text>
+            <xsl:value-of select="@n"/>
+            <xsl:text>]</xsl:text>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:seg[@type='folio']">
+        <span class="tei-folio">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <xsl:template match="tei:persName|tei:placeName|tei:orgName">
+        <span class="annotated">
+            <xsl:if test="@ref">
+                <xsl:attribute name="data-ref"><xsl:value-of select="@ref"/></xsl:attribute>
+            </xsl:if>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <xsl:template match="tei:date">
+        <span class="annotated">
+            <xsl:if test="@when">
+                <xsl:attribute name="data-when"><xsl:value-of select="@when"/></xsl:attribute>
+            </xsl:if>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:lb">
+        <br/>
+    </xsl:template>
+    
+    <!-- =========================
+         Whitespace-safe text output
+         ========================== -->
+    <xsl:template match="text()">
+        <xsl:value-of select="."/>
+    </xsl:template>
+    
+</xsl:stylesheet>

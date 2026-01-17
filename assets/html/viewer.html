@@ -98,25 +98,16 @@
 
                     <div class="transcription-box">
 
-                        <!-- View mode tabs 
+                        <!-- View mode tabs -->
                         <div class="transcription-tabs mb-2">
-                            <button class="tab-button active" data-view="reading">
+                            <button class="tab-button active" data-view="reading" type="button">
                                 Reading
                             </button>
 
-                            <button class="tab-button" data-view="encoded">
-                                Encoded
+                            <button class="tab-button" data-view="translation" type="button">
+                                Translation
                             </button>
-
-                            <button
-                                class="tab-button"
-                                data-view="diplomatic"
-                                disabled
-                                title="Diplomatic view will be available in a future phase"
-                                >
-                                Diplomatic
-                            </button>
-                        </div>-->
+                        </div>
 
                         <!-- Surface selector 
                         <div class="surface-selector-wrapper mb-2">
@@ -134,6 +125,13 @@
                             id="transcription-reading"
                             class="transcription-layer px-2 py-1"
                             data-view="reading">
+                        </div>
+
+                        <!-- Translation view -->
+                        <div
+                            id="transcription-translation"
+                            class="transcription-layer px-2 py-1 d-none"
+                            data-view="translation">
                         </div>
 
                         <!-- Encoded view 
@@ -154,18 +152,6 @@
                             </p>
                         </div>-->
 
-                    </div>
-
-                    <!-- Translation placeholder -->
-                    <div class="pt-3 d-flex justify-content-end">
-                        <button
-                            class="btn btn-sm btn-outline-secondary"
-                            disabled
-                            title="Planned feature: AI-assisted translation"
-                            type="button"
-                        >
-                            AI-assisted translation (planned)
-                        </button>
                     </div>
 
                 </div>

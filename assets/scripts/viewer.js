@@ -1,70 +1,71 @@
-/* =========================================================
-   Varela Digital – TEI Viewer (robust TEI namespace version)
-   ========================================================= */
-
-console.log('viewer.js loaded');
-
-/* =========================
-   Paths
-========================= */
+/* Paths */
 const BASE_XML_PATH = '../../data/documents_XML/';
+const DOCUMENTS_HTML_PATH_PRIMARY = '../documents_html/';
+const DOCUMENTS_HTML_PATH_FALLBACK = '../../assets/html/documents_html/';
+
 const STANDOFF_BASE_PATH = '../../data/standoff/';
 const BASE_RDF_PATH = '../../data/rdf/';
 const BASE_RDF_JSON_PATH = BASE_RDF_PATH + 'json/';
-const BASE_RDF_TTL_PATH  = BASE_RDF_PATH + 'ttl/';
+const BASE_RDF_TTL_PATH = BASE_RDF_PATH + 'ttl/';
 const INDEXES_BASE_PATH = '../../data/indexes/';
 const DEFAULT_ORDER = 'collection';
 
+const TRANSLATIONS_BASE_PATH = '../../data/translations/';
+const DEFAULT_TARGET_LANG = 'en';
+const TRANSLATION_API_URL = 'http://127.0.0.1:8000/translate';
+
 const STANDOFF_FILES = {
   persons: STANDOFF_BASE_PATH + 'standoff_persons.xml',
-  places:  STANDOFF_BASE_PATH + 'standoff_places.xml',
-  orgs:    STANDOFF_BASE_PATH + 'standoff_orgs.xml',
-  events:  STANDOFF_BASE_PATH + 'standoff_events.xml'
+  places: STANDOFF_BASE_PATH + 'standoff_places.xml',
+  orgs: STANDOFF_BASE_PATH + 'standoff_orgs.xml',
+  events: STANDOFF_BASE_PATH + 'standoff_events.xml'
 };
 
-/* =========================
-   Namespaces
-========================= */
+/* Namespaces */
 const TEI_NS = 'http://www.tei-c.org/ns/1.0';
 const XML_NS = 'http://www.w3.org/XML/1998/namespace';
-
 const NS = { tei: TEI_NS, xml: XML_NS };
 
-/* =========================
-   State
-========================= */
+/* State */
 let VIEW_MODE = 'reading';
-let CURRENT_TEI_DOC = null;
-let BODY_DIV = null;
+let CURRENT_FILE = '';
+let CURRENT_STEM = '';
+let CURRENT_HTML_PATH = '';
+let METADATA_INDEX = null;
 
 const STANDOFF_INDEX = Object.create(null);
 
-let SURFACES = [];
-let CURRENT_SURFACE = '';
+/* Env */
+function isLocalhost() {
+  const h = (window.location.hostname || '').toLowerCase();
+  return h === 'localhost' || h === '127.0.0.1';
+}
+function isGitHubPages() {
+  const h = (window.location.hostname || '').toLowerCase();
+  return h.endsWith('github.io');
+}
+function allowTranslationApiFallback() {
+  return isLocalhost();
+}
 
-/* =========================================================
-   Utilities
-========================================================= */
-
+/* Utilities */
 function getQueryParam(name) {
   return new URLSearchParams(window.location.search).get(name);
 }
-
-async function fetchXML(path) {
-  const res = await fetch(path);
-  if (!res.ok) throw new Error(`Failed to load ${path} (${res.status})`);
-  const txt = await res.text();
-  const doc = new DOMParser().parseFromString(txt, 'application/xml');
-  if (doc.getElementsByTagName('parsererror').length) {
-    throw new Error(`XML parse error in ${path}`);
-  }
-  return doc;
+function stemFromFile(fileName) {
+  return String(fileName || '').replace(/\.xml$/i, '').replace(/\.html$/i, '');
 }
-
+function escapeHTML(s) {
+  return String(s || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
 function nsResolver(prefix) {
   return NS[prefix] || null;
 }
-
 function xFirst(docOrNode, xpath) {
   const r = (docOrNode.ownerDocument || docOrNode).evaluate(
     xpath,
@@ -75,7 +76,6 @@ function xFirst(docOrNode, xpath) {
   );
   return r.singleNodeValue || null;
 }
-
 function xAll(docOrNode, xpath) {
   const out = [];
   const it = (docOrNode.ownerDocument || docOrNode).evaluate(
@@ -89,7 +89,6 @@ function xAll(docOrNode, xpath) {
   while (n) { out.push(n); n = it.iterateNext(); }
   return out;
 }
-
 function xText(docOrNode, xpath) {
   const r = (docOrNode.ownerDocument || docOrNode).evaluate(
     xpath,
@@ -100,31 +99,26 @@ function xText(docOrNode, xpath) {
   );
   return (r.stringValue || '').trim();
 }
-
 function attr(node, name, ns = null) {
   if (!node) return '';
   if (ns) return (node.getAttributeNS(ns, name) || '').trim();
   return (node.getAttribute(name) || '').trim();
 }
-
 function textOf(node) {
   return (node?.textContent || '').trim();
 }
-
 function normUnknown(v) {
   const s = (v || '').trim();
   if (!s || s.toLowerCase() === 'unknown') return '';
   return s;
 }
-
 function buildProjectURI(localId, kind) {
   if (!localId) return '';
-  if (kind === 'org')   return `https://carlamenegat.github.io/VarelaDigital/org/${localId}`;
+  if (kind === 'org') return `https://carlamenegat.github.io/VarelaDigital/org/${localId}`;
   if (kind === 'place') return `https://carlamenegat.github.io/VarelaDigital/place/${localId}`;
   if (kind === 'event') return `https://carlamenegat.github.io/VarelaDigital/event/${localId}`;
   return `https://carlamenegat.github.io/VarelaDigital/person/${localId}`;
 }
-
 function formatPtBRDate(iso) {
   const s = (iso || '').trim();
   if (!s) return '';
@@ -135,39 +129,29 @@ function formatPtBRDate(iso) {
   if (m[2]) return `${months[parseInt(m[2], 10) - 1]} ${m[1]}`;
   return m[1];
 }
-
-/* =========================================================
-   Init
-========================================================= */
-
-document.addEventListener('DOMContentLoaded', async () => {
-  const fileParam = getQueryParam('file');
-  if (!fileParam) return;
-
-  try {
-    CURRENT_TEI_DOC = await fetchXML(BASE_XML_PATH + fileParam);
-    await loadStandoffFiles();
-    readSurfaces(CURRENT_TEI_DOC);
-
-    renderViewer(CURRENT_TEI_DOC, fileParam);
-
-    setupViewTabs();
-    setupAnnotationBehaviour();
-
-    disableNonImplementedUI();
-
-    await setupDocNavigator(fileParam);
-  } catch (e) {
-    console.error(e);
+async function fetchText(path) {
+  const res = await fetch(path, { cache: 'no-cache' });
+  if (!res.ok) throw new Error(`Failed to load ${path} (${res.status})`);
+  return await res.text();
+}
+async function fetchXML(path) {
+  const txt = await fetchText(path);
+  const doc = new DOMParser().parseFromString(txt, 'application/xml');
+  if (doc.getElementsByTagName('parsererror').length) {
+    throw new Error(`XML parse error in ${path}`);
   }
-});
-
+  return doc;
+}
+async function fetchJSON(path) {
+  const res = await fetch(path, { cache: 'no-store' });
+  if (!res.ok) throw new Error(`Failed to load ${path} (${res.status})`);
+  return await res.json();
+}
 function buildViewerURL(file) {
   const url = new URL(window.location.href);
   url.searchParams.set('file', file);
   return url.toString();
 }
-
 function setNavTarget(el, targetFile, disabled) {
   if (!el) return;
 
@@ -178,11 +162,8 @@ function setNavTarget(el, targetFile, disabled) {
   if (disabled || !targetFile) {
     el.classList.add('disabled');
     el.setAttribute('aria-disabled', 'true');
-
     if (isLink) el.removeAttribute('href');
     if (isButton) el.disabled = true;
-
-    // also remove click handler if any
     el.onclick = null;
     return;
   }
@@ -204,10 +185,79 @@ function setNavTarget(el, targetFile, disabled) {
   };
 }
 
+/* Boot */
+document.addEventListener('DOMContentLoaded', async () => {
+  const fileParam = getQueryParam('file');
+  if (!fileParam) return;
+
+  CURRENT_FILE = fileParam;
+  CURRENT_STEM = stemFromFile(fileParam);
+
+  try {
+    await loadDocumentHTML(CURRENT_STEM);
+    await loadStandoffFiles();
+    setupViewTabs();
+    setupAnnotationBehaviour();
+    disableNonImplementedUI();
+    await setupDocNavigator(CURRENT_FILE.endsWith('.html') ? `${CURRENT_STEM}.xml` : CURRENT_FILE);
+    await renderMetadataPanel(CURRENT_STEM, CURRENT_FILE);
+    if ((VIEW_MODE || '').toLowerCase() === 'translation') {
+      await renderTranslation(CURRENT_FILE);
+    }
+  } catch (e) {
+    console.error(e);
+  }
+});
+
+/* Document HTML */
+async function loadDocumentHTML(stem) {
+  const readingLayer = document.querySelector(`.transcription-layer[data-view="reading"]`);
+  if (!readingLayer) return;
+
+  const candidates = [
+    `${DOCUMENTS_HTML_PATH_PRIMARY}${stem}.html`,
+    `${DOCUMENTS_HTML_PATH_FALLBACK}${stem}.html`
+  ];
+
+  let htmlText = '';
+  let usedPath = '';
+
+  for (const p of candidates) {
+    try {
+      htmlText = await fetchText(p);
+      usedPath = p;
+      break;
+    } catch (_) {}
+  }
+
+  if (!htmlText) {
+    readingLayer.innerHTML = `<p class="text-muted small mb-0">HTML not found for <code>${escapeHTML(stem)}</code>.</p>`;
+    return;
+  }
+
+  CURRENT_HTML_PATH = usedPath;
+
+  const doc = new DOMParser().parseFromString(htmlText, 'text/html');
+
+  const srcLetterInfo = doc.getElementById('letter-info');
+  const dstLetterInfo = document.getElementById('letter-info');
+  if (dstLetterInfo && srcLetterInfo) {
+    dstLetterInfo.innerHTML = srcLetterInfo.innerHTML;
+  }
+
+  const srcBody = doc.querySelector('.tei-body');
+  if (srcBody) {
+    readingLayer.innerHTML = srcBody.innerHTML;
+  } else {
+    const fallback = doc.querySelector('.transcription-box') || doc.body;
+    readingLayer.innerHTML = fallback ? fallback.innerHTML : htmlText;
+  }
+}
+
+/* Navigator */
 async function getOrderListFromURLorManifest() {
   const params = new URLSearchParams(window.location.search);
 
-  // 1) explicit list in URL: ?list=CV-1.xml,CV-2.xml...
   const listParam = params.get('list');
   if (listParam) {
     return listParam
@@ -216,7 +266,6 @@ async function getOrderListFromURLorManifest() {
       .filter(Boolean);
   }
 
-  // 2) manifest: ../../data/indexes/<order>.json
   const order = (params.get('order') || DEFAULT_ORDER).trim();
   const manifestPath = INDEXES_BASE_PATH + order + '.json';
 
@@ -227,27 +276,21 @@ async function getOrderListFromURLorManifest() {
     const data = await res.json();
     if (!Array.isArray(data)) return [];
 
-    // Accept BOTH:
-    // - ["CV-1.xml", "CV-2.xml", ...]
-    // - [{id:"CV-1", file:"CV-1.xml"}, ...]
-    const list = data.map(item => {
+    return data.map(item => {
       if (typeof item === 'string') return item.trim();
       if (item && typeof item === 'object') {
         if (typeof item.file === 'string') return item.file.trim();
-        if (typeof item.xml === 'string') return item.xml.trim(); // optional future key
-        if (typeof item.path === 'string') return item.path.trim(); // optional future key
+        if (typeof item.xml === 'string') return item.xml.trim();
+        if (typeof item.path === 'string') return item.path.trim();
       }
       return '';
     }).filter(Boolean);
-
-    return list;
   } catch (e) {
     console.warn('Could not load manifest:', manifestPath, e);
   }
 
   return [];
 }
-
 function guessPrevNextByCVNumber(fileParam) {
   const m = String(fileParam).match(/^CV-(\d+)([a-z])?\.xml$/i);
   if (!m) return { prev: null, next: null };
@@ -255,20 +298,16 @@ function guessPrevNextByCVNumber(fileParam) {
   const num = parseInt(m[1], 10);
   const suf = (m[2] || '').toLowerCase();
 
-  // Basic fallback (ignores suffix ordering):
   const prev = num > 1 ? `CV-${num - 1}.xml` : null;
   const next = `CV-${num + 1}.xml`;
 
-  // If current has suffix, fallback to base file
   if (suf) {
     return { prev: `CV-${num}.xml`, next: `CV-${num}.xml` };
   }
 
   return { prev, next };
 }
-
-async function setupDocNavigator(currentFile) {
-  // match YOUR HTML ids (prev-letter / next-letter) plus older variants
+async function setupDocNavigator(currentFileXml) {
   const prevEl = document.querySelector(
     '#prev-letter, #btnPrev, #prevBtn, a[data-nav="prev"], button[data-nav="prev"]'
   );
@@ -281,7 +320,7 @@ async function setupDocNavigator(currentFile) {
   const list = await getOrderListFromURLorManifest();
 
   if (list.length) {
-    const i = list.indexOf(currentFile);
+    const i = list.indexOf(currentFileXml);
     const prev = i > 0 ? list[i - 1] : null;
     const next = i >= 0 && i < list.length - 1 ? list[i + 1] : null;
 
@@ -290,31 +329,26 @@ async function setupDocNavigator(currentFile) {
     return;
   }
 
-  // fallback if no manifest/list
-  const g = guessPrevNextByCVNumber(currentFile);
+  const g = guessPrevNextByCVNumber(currentFileXml);
   setNavTarget(prevEl, g.prev, !g.prev);
   setNavTarget(nextEl, g.next, !g.next);
 }
 
-/* =========================================================
-   UI flags (remove non-implemented controls)
-========================================================= */
-
+/* UI */
 function disableNonImplementedUI() {
-  // Remove Encoded/Diplomatic buttons if they still exist in DOM
   document.querySelectorAll('.tab-button').forEach(btn => {
     const v = (btn.dataset.view || '').toLowerCase();
     if (v === 'encoded' || v === 'diplomatic') btn.remove();
   });
 
-  // Ensure Reading is active
   const readingBtn = document.querySelector('.tab-button[data-view="reading"]');
   if (readingBtn) {
     readingBtn.disabled = false;
-    readingBtn.classList.add('active');
+    if (!document.querySelector('.tab-button.active')) {
+      readingBtn.classList.add('active');
+    }
   }
 
-  // Hide surface selector block if it exists
   const sel = document.getElementById('surface-selector');
   if (sel) {
     const wrapper =
@@ -326,10 +360,7 @@ function disableNonImplementedUI() {
   }
 }
 
-/* =========================================================
-   Standoff loading
-========================================================= */
-
+/* Standoff */
 async function loadStandoffFiles() {
   if (STANDOFF_INDEX.__loaded) return;
 
@@ -346,8 +377,8 @@ async function loadStandoffFiles() {
 
       const fallback =
         kind === 'persons' ? xAll(doc, `//tei:person`) :
-        kind === 'places'  ? xAll(doc, `//tei:place`)  :
-        kind === 'orgs'    ? xAll(doc, `//tei:org`)    :
+        kind === 'places' ? xAll(doc, `//tei:place`) :
+        kind === 'orgs' ? xAll(doc, `//tei:org`) :
         xAll(doc, `//tei:event`);
 
       (nodes.length ? nodes : fallback).forEach(n => entries.push({ kind, node: n }));
@@ -365,133 +396,33 @@ async function loadStandoffFiles() {
   STANDOFF_INDEX.__loaded = true;
 }
 
-/* =========================================================
-   Viewer rendering
-========================================================= */
-
-function renderViewer(teiDoc, fileName) {
-  renderLetterNavInfo(teiDoc);
-  renderMetadataPanel(teiDoc, fileName);
-  renderText(teiDoc);
-}
-
-/* =========================================================
-   Letter header info (title/date)
-========================================================= */
-
-function renderLetterNavInfo(teiDoc) {
-  const box = document.getElementById('letter-info');
-  if (!box) return;
-
-  const title = xText(teiDoc, '//tei:teiHeader//tei:titleStmt/tei:title[1]');
-  const date = xText(teiDoc, 'string((//tei:teiHeader//tei:correspDesc//tei:correspAction[@type="sent"][1]/tei:date[1]/@when))');
-
-  box.innerHTML = `
-    <div class="letter-title">${title || ''}</div>
-    <div class="letter-date">${date || ''}</div>
-  `;
-}
-
-/* =========================================================
-   Metadata panel
-========================================================= */
-
-function renderMetadataPanel(teiDoc, fileName) {
-  const mdTitle = document.getElementById('mdTitle');
-  const mdFrom  = document.getElementById('mdFrom');
-  const mdTo    = document.getElementById('mdTo');
-  const mdPlace = document.getElementById('mdPlace');
-  const mdDate  = document.getElementById('mdDate');
-  const mdType  = document.getElementById('mdType');
-
-  const dlXml    = document.getElementById('dlXml');
-  const dlJsonld = document.getElementById('dlJsonld');
-  const dlTtl    = document.getElementById('dlTtl');
-
-  const safeSet = (el, val) => { if (el) el.textContent = (val && val.trim()) ? val.trim() : '—'; };
-
-  const title = xText(teiDoc, '//tei:teiHeader//tei:titleStmt/tei:title[1]');
-
-  const from = xText(teiDoc, 'string((//tei:teiHeader//tei:correspDesc//tei:correspAction[@type="sent"][1]/*[self::tei:persName or self::tei:orgName][1]))');
-  const to   = xText(teiDoc, 'string((//tei:teiHeader//tei:correspDesc//tei:correspAction[@type="received"][1]/*[self::tei:persName or self::tei:orgName][1]))');
-
-  const place = xText(teiDoc, 'string((//tei:teiHeader//tei:correspDesc//tei:correspAction[@type="sent"][1]/tei:placeName[1]))');
-  const date  = xText(teiDoc, 'string((//tei:teiHeader//tei:correspDesc//tei:correspAction[@type="sent"][1]/tei:date[1]/@when))');
-
-  const docType = xText(teiDoc, 'string((//tei:text//tei:body//tei:div[1]/@type))');
-
-  safeSet(mdTitle, title);
-  safeSet(mdFrom, from);
-  safeSet(mdTo, to);
-  safeSet(mdPlace, place);
-  safeSet(mdDate, date);
-  safeSet(mdType, docType);
-
-  const stem = (fileName || '').replace(/\.xml$/i, '');
-  setDownloadLink(dlXml, BASE_XML_PATH + fileName, 'Download TEI XML');
-  setDownloadLink(dlJsonld, BASE_RDF_JSON_PATH + stem + '.json', 'Download JSON-LD');
-  setDownloadLink(dlTtl, BASE_RDF_TTL_PATH + stem + '.ttl', 'Download TTL');
-}
-
-function setDownloadLink(aEl, href, label) {
-  if (!aEl) return;
-  aEl.href = href;
-  aEl.setAttribute('download', '');
-  aEl.textContent = label;
-}
-
-/* =========================================================
-   Surfaces (kept, but disabled in UI / not used)
-========================================================= */
-
-function readSurfaces(teiDoc) {
-  const surfaces = xAll(teiDoc, '//tei:facsimile/tei:surface');
-  SURFACES = surfaces.map(s => ({ n: attr(s, 'n') })).filter(s => s.n);
-  CURRENT_SURFACE = SURFACES[0]?.n || '';
-}
-
-/* =========================================================
-   Text rendering
-========================================================= */
-
-function renderText(teiDoc) {
-  const layer = document.querySelector(`.transcription-layer[data-view="${VIEW_MODE}"]`);
-  if (!layer) return;
-
-  layer.innerHTML = '';
-  const div = xFirst(teiDoc, '//tei:text/tei:body/tei:div[1]');
-  if (!div) return;
-
-  layer.appendChild(renderNode(div));
-}
-
-/* =========================================================
-   View tabs
-========================================================= */
-
+/* Tabs */
 function setupViewTabs() {
   document.querySelectorAll('.tab-button').forEach(btn => {
-    btn.addEventListener('click', () => {
+    btn.addEventListener('click', async () => {
       if (btn.disabled) return;
 
-      VIEW_MODE = btn.dataset.view;
+      const next = (btn.dataset.view || '').toLowerCase();
+      if (!next) return;
+
+      VIEW_MODE = next;
 
       document.querySelectorAll('.tab-button').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
 
-      document.querySelectorAll('.transcription-layer').forEach(l =>
-        l.classList.toggle('d-none', l.dataset.view !== VIEW_MODE)
-      );
+      document.querySelectorAll('.transcription-layer').forEach(l => {
+        const v = (l.dataset.view || '').toLowerCase();
+        l.classList.toggle('d-none', v !== VIEW_MODE);
+      });
 
-      renderText(CURRENT_TEI_DOC);
+      if (VIEW_MODE === 'translation') {
+        await renderTranslation(CURRENT_FILE);
+      }
     });
   });
 }
 
-/* =========================================================
-   Annotation behaviour
-========================================================= */
-
+/* Annotations */
 function setupAnnotationBehaviour() {
   const box = document.getElementById('annotations-box');
   const content = document.getElementById('annotations-content');
@@ -524,8 +455,8 @@ function setupAnnotationBehaviour() {
       content.innerHTML = `
         <div class="annotation-card">
           <h6 class="annotation-title">Date</h6>
-          <div class="small text-muted mb-2">${when}</div>
-          <p class="small mb-0">${pretty || when}</p>
+          <div class="small text-muted mb-2">${escapeHTML(when)}</div>
+          <p class="small mb-0">${escapeHTML(pretty || when)}</p>
         </div>
       `;
       return;
@@ -539,18 +470,13 @@ function setupAnnotationBehaviour() {
   });
 }
 
-/* =========================================================
-   Standoff card renderer
-========================================================= */
-
+/* Standoff card */
 function getLocalId(entry) {
   return attr(entry, 'id', XML_NS);
 }
-
 function qAllLocal(entry, localName) {
   return Array.from(entry.getElementsByTagNameNS(TEI_NS, localName));
 }
-
 function getDirectChildNotes(entry) {
   const out = [];
   for (const ch of Array.from(entry.childNodes || [])) {
@@ -560,7 +486,6 @@ function getDirectChildNotes(entry) {
   }
   return out;
 }
-
 function renderIdnos(entry, kind) {
   const idnos = qAllLocal(entry, 'idno').map(n => ({
     type: (n.getAttribute('type') || '').trim(),
@@ -575,8 +500,8 @@ function renderIdnos(entry, kind) {
   for (const x of filtered) {
     parts.push(`
       <div class="annotation-idno small">
-        <strong>${x.type}:</strong>
-        <a href="${x.value}" target="_blank" rel="noopener">${x.value}</a>
+        <strong>${escapeHTML(x.type)}:</strong>
+        <a href="${escapeHTML(x.value)}" target="_blank" rel="noopener">${escapeHTML(x.value)}</a>
       </div>
     `);
   }
@@ -597,7 +522,7 @@ function renderIdnos(entry, kind) {
       parts.push(`
         <div class="annotation-idno small">
           <strong>project:</strong>
-          <a href="${proj}" target="_blank" rel="noopener">${proj}</a>
+          <a href="${escapeHTML(proj)}" target="_blank" rel="noopener">${escapeHTML(proj)}</a>
         </div>
       `);
     }
@@ -605,7 +530,6 @@ function renderIdnos(entry, kind) {
 
   return parts.join('');
 }
-
 function renderVariants(entry, kind) {
   const map = { person: 'persName', place: 'placeName', org: 'orgName' };
   const ln = map[kind];
@@ -616,11 +540,10 @@ function renderVariants(entry, kind) {
 
   return `
     <div class="small text-muted mb-2">
-      <strong>Variants:</strong> ${names.join(' · ')}
+      <strong>Variants:</strong> ${escapeHTML(names.join(' · '))}
     </div>
   `;
 }
-
 function renderStandoffEntryCard(entry) {
   if (!entry) return `<p class="text-muted small">No annotation available.</p>`;
 
@@ -648,7 +571,7 @@ function renderStandoffEntryCard(entry) {
     const death = normUnknown(deathRaw);
 
     if (birth || death) {
-      extra = `<div class="small text-muted mb-1">${birth || ''}${(birth && death) ? ' – ' : ''}${death || ''}</div>`;
+      extra = `<div class="small text-muted mb-1">${escapeHTML(birth || '')}${(birth && death) ? ' – ' : ''}${escapeHTML(death || '')}</div>`;
     }
   }
 
@@ -665,7 +588,7 @@ function renderStandoffEntryCard(entry) {
   if (tag === 'event') {
     title = getFirst('desc') || `Event ${localId}`;
     const when = qAllLocal(entry, 'date')[0]?.getAttribute('when') || '';
-    if (when) extra = `<div class="small text-muted mb-1">${formatPtBRDate(when) || when}</div>`;
+    if (when) extra = `<div class="small text-muted mb-1">${escapeHTML(formatPtBRDate(when) || when)}</div>`;
   }
 
   const variants = renderVariants(entry, kind);
@@ -673,109 +596,156 @@ function renderStandoffEntryCard(entry) {
 
   return `
     <div class="annotation-card">
-      <h6 class="annotation-title">${title || localId || '—'}</h6>
+      <h6 class="annotation-title">${escapeHTML(title || localId || '—')}</h6>
       ${extra}
       ${variants}
       ${idnos ? `<div class="mb-2">${idnos}</div>` : ''}
-      ${note ? `<p class="small mb-0">${note}</p>` : ''}
+      ${note ? `<p class="small mb-0">${escapeHTML(note)}</p>` : ''}
     </div>
   `;
 }
 
-/* =========================================================
-   TEI → HTML rendering
-========================================================= */
+/* Metadata */
+async function loadMetadataIndex() {
+  if (METADATA_INDEX) return METADATA_INDEX;
+  try {
+    METADATA_INDEX = await fetchJSON(INDEXES_BASE_PATH + 'metadata.json');
+    return METADATA_INDEX;
+  } catch (_) {
+    METADATA_INDEX = null;
+    return null;
+  }
+}
+function setDownloadLink(aEl, href, label) {
+  if (!aEl) return;
+  aEl.href = href;
+  aEl.setAttribute('download', '');
+  aEl.textContent = label;
+}
+async function renderMetadataPanel(stem, fileParam) {
+  const mdTitle = document.getElementById('mdTitle');
+  const mdFrom = document.getElementById('mdFrom');
+  const mdTo = document.getElementById('mdTo');
+  const mdPlace = document.getElementById('mdPlace');
+  const mdDate = document.getElementById('mdDate');
+  const mdType = document.getElementById('mdType');
 
-function renderNode(node) {
-  if (!node) return document.createDocumentFragment();
+  const dlXml = document.getElementById('dlXml');
+  const dlJsonld = document.getElementById('dlJsonld');
+  const dlTtl = document.getElementById('dlTtl');
 
-  if (node.nodeType === Node.TEXT_NODE) {
-    return document.createTextNode(node.textContent);
+  const safeSet = (el, val) => { if (el) el.textContent = (val && String(val).trim()) ? String(val).trim() : '—'; };
+
+  let meta = null;
+  const idx = await loadMetadataIndex();
+  if (idx) {
+    if (idx[stem]) meta = idx[stem];
+    else if (idx[`${stem}.xml`]) meta = idx[`${stem}.xml`];
+    else if (idx[`${stem}.html`]) meta = idx[`${stem}.html`];
   }
 
-  if (node.nodeType !== Node.ELEMENT_NODE) {
-    return document.createDocumentFragment();
+  if (meta) {
+    safeSet(mdTitle, meta.title || meta.mdTitle || '');
+    safeSet(mdFrom, meta.from || meta.sender || meta.mdFrom || '');
+    safeSet(mdTo, meta.to || meta.receiver || meta.mdTo || '');
+    safeSet(mdPlace, meta.place || meta.sent_place || meta.mdPlace || '');
+    safeSet(mdDate, meta.date || meta.when || meta.mdDate || '');
+    safeSet(mdType, meta.type || meta.docType || meta.mdType || '');
+  } else {
+    const letterInfo = document.getElementById('letter-info');
+    const t = letterInfo?.querySelector('.letter-title')?.textContent || '';
+    const d = letterInfo?.querySelector('.letter-date')?.textContent || '';
+    safeSet(mdTitle, t);
+    safeSet(mdDate, d);
+    safeSet(mdFrom, '');
+    safeSet(mdTo, '');
+    safeSet(mdPlace, '');
+    safeSet(mdType, '');
   }
 
-  const ln = node.localName;
-  let el;
+  const xmlFile = fileParam.endsWith('.xml') ? fileParam : `${stem}.xml`;
+  setDownloadLink(dlXml, BASE_XML_PATH + xmlFile, 'Download TEI XML');
+  setDownloadLink(dlJsonld, BASE_RDF_JSON_PATH + stem + '.json', 'Download JSON-LD');
+  setDownloadLink(dlTtl, BASE_RDF_TTL_PATH + stem + '.ttl', 'Download TTL');
+}
 
-  switch (ln) {
-    case 'div': el = document.createElement('div'); break;
-    case 'p': el = document.createElement('p'); break;
-    case 'head': el = document.createElement('h3'); break;
+/* Translation */
+function translationJSONToHTML(data) {
+  const disclaimer = escapeHTML(data?.disclaimer || '');
+  const translation = escapeHTML(data?.translation || '');
 
-    case 'choice':
-      if (VIEW_MODE === 'reading') {
-        const expan = xFirst(node, './tei:expan');
-        return expan ? renderNode(expan) : document.createDocumentFragment();
-      }
-      el = document.createElement('span');
-      break;
+  const paras = translation
+    .split(/\n{2,}/g)
+    .map(p => p.trim())
+    .filter(Boolean)
+    .map(p => `<p>${p.replace(/\n/g, '<br/>')}</p>`)
+    .join('');
 
-    case 'pb': {
-      const n = attr(node, 'n');
-      el = document.createElement('span');
-      el.className = 'page-break';
-      el.id = n ? `pb-${n}` : '';
-      el.textContent = VIEW_MODE === 'reading'
-        ? (n ? `[${n}]` : '[pb]')
-        : (n ? `[pb ${n}]` : '[pb]');
-      break;
-    }
+  return `
+    <div class="translation-disclaimer-box" role="note" aria-label="AI-assisted translation notice">
+      <div class="translation-disclaimer-title">AI-assisted translation</div>
+      <div class="translation-disclaimer-text" style="white-space: pre-wrap;">${disclaimer}</div>
+    </div>
+    <div class="translation-body">
+      ${paras || '<p class="text-muted small">Empty translation.</p>'}
+    </div>
+  `;
+}
+function translationUnavailableHTML(cachePath) {
+  const prodNote = isGitHubPages()
+    ? `<p class="text-muted small mb-0">This site is served via GitHub Pages, so translations must be pre-generated and committed as static JSON files.</p>`
+    : '';
 
-    case 'seg': {
-      const type = attr(node, 'type');
-      if (type === 'folio' && VIEW_MODE === 'reading') {
-        return document.createDocumentFragment();
-      }
-      el = document.createElement('span');
-      el.className = 'page-break';
-      break;
-    }
+  return `
+    <p class="text-muted small mb-2">Translation not available for this document yet.</p>
+    <p class="text-muted small mb-2">Expected cache: <code>${escapeHTML(cachePath)}</code></p>
+    ${prodNote}
+  `;
+}
+async function renderTranslation(fileParam) {
+  const layer = document.querySelector(`.transcription-layer[data-view="translation"]`);
+  if (!layer) return;
 
-    case 'persName':
-    case 'placeName':
-    case 'orgName': {
-      el = document.createElement('span');
-      el.className = 'annotated';
-      const r = attr(node, 'ref');
-      if (r) el.dataset.ref = r;
-      break;
-    }
+  layer.innerHTML = `<p class="text-muted small mb-0">Loading translation…</p>`;
 
-    case 'date': {
-      el = document.createElement('span');
-      el.className = 'annotated';
-      const r = attr(node, 'ref');
-      const when = attr(node, 'when');
-      if (r) el.dataset.ref = r;
-      if (when) el.dataset.when = when;
-      break;
-    }
+  const stem = stemFromFile(fileParam);
+  const target = DEFAULT_TARGET_LANG;
+  const cachePath = `${TRANSLATIONS_BASE_PATH}${target}/${stem}.json`;
 
-    case 'opener':
-    case 'closer':
-    case 'postscript':
-    case 'note':
-    case 'dateline':
-    case 'salute':
-    case 'signed':
-    case 'addressee':
-      el = document.createElement('div');
-      break;
+  try {
+    const data = await fetchJSON(cachePath);
+    layer.innerHTML = translationJSONToHTML(data);
+    return;
+  } catch (_) {}
 
-    case 'g':
-      el = document.createElement('span');
-      break;
-
-    default:
-      el = document.createElement('span');
+  if (!allowTranslationApiFallback()) {
+    layer.innerHTML = translationUnavailableHTML(cachePath);
+    return;
   }
 
-  for (const ch of Array.from(node.childNodes)) {
-    el.appendChild(renderNode(ch));
-  }
+  try {
+    const res = await fetch(TRANSLATION_API_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ file: `${stem}.xml`, target: target, force: false })
+    });
 
-  return el;
+    if (!res.ok) {
+      let detail = `API ${res.status}`;
+      try {
+        const err = await res.json();
+        if (err?.detail) detail = String(err.detail);
+      } catch (_) {}
+      throw new Error(detail);
+    }
+
+    const data = await res.json();
+    layer.innerHTML = translationJSONToHTML(data);
+  } catch (e2) {
+    const msg = escapeHTML(e2?.message || String(e2));
+    layer.innerHTML = `
+      ${translationUnavailableHTML(cachePath)}
+      <p class="text-muted small mt-2 mb-0">Dev API error: <code>${msg}</code></p>
+    `;
+  }
 }

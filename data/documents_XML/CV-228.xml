@@ -130,270 +130,273 @@
         <surface xml:id="CV-228_1r" n="1r"/>
     </facsimile>
 
-    
-    <div type="subscription" xml:id="CV-228">
-        
-        <note type="editorial">
-            Cópia dada em <date when="1837-10-12">12 de outubro de 1837</date>.
-        </note>
-        
-        <p>
-            Subscrição com que gratuitamente concorrem os moradores do
-            Distrito do <placeName ref="#sao_lourenco">Boqueirão</placeName>,
-            para as exigências da presente luta da nossa independência,
-            sendo por ações mensalmente, e estas não menos cada uma de
-            <measure type="shareValue" unit="BRL-réis" quantity="1000">1$000</measure>,
-            tendo princípio no <date when="1837-10-01">1.º de outubro de 1837</date>
-            e pelo tempo de três anos.
-        </p>
-        
-        <table>
-            <row>
-                <cell>Subscritor</cell>
-                <cell>Ações</cell>
-                <cell>Total</cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName></cell>
-                <cell><num value="5">5</num></cell>
-                <cell><measure type="subscriptionTotal" unit="BRL-réis" quantity="5000">5$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#joaquim_vieira_braga">Joaquim Vieira Braga</persName></cell>
-                <cell><num value="2">2</num></cell>
-                <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#joao_nunes_silva">João Nunes da Silva</persName></cell>
-                <cell><num value="1">1</num></cell>
-                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#joaquim_antonio_fagundes">Joaquim Antônio Fagundes</persName></cell>
-                <cell><num value="1">1</num></cell>
-                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#aleixo_goncalves_moreira">Aleixo Gonçalves Moreira</persName></cell>
-                <cell><num value="1">1</num></cell>
-                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#jeronimo_ribeiro_silva">Jerônimo Ribeiro da Silva</persName></cell>
-                <cell><num value="1">1</num></cell>
-                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#joao_manuel_fernandes">João Manuel Fernandes</persName></cell>
-                <cell><num value="1">1</num></cell>
-                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#americo_pereira_silva">Américo Pereira da Silva</persName></cell>
-                <cell><num value="2">2</num></cell>
-                <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#joao_pereira_silva">João Pereira da Silva</persName></cell>
-                <cell><num value="1">1</num></cell>
-                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#simao_jose_silva">Simão José da Silva</persName></cell>
-                <cell><num value="2">2</num></cell>
-                <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#jose_bernardes_rodrigues_martins">José Bernardes Rodrigues Martins</persName></cell>
-                <cell><num value="4">4</num></cell>
-                <cell><measure unit="BRL-réis" quantity="4000">4$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#antonio_jose_vale">Antônio José do Vale</persName></cell>
-                <cell><num value="1">1</num></cell>
-                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#joao_batista_barbosa">João Batista Barbosa</persName></cell>
-                <cell><num value="2">2</num></cell>
-                <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#luis_pimenta_sampaio">Luís Pimenta de Sampaio</persName></cell>
-                <cell><num value="2">2</num></cell>
-                <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#antonio_manuel_rodrigues_carvalho">Antônio Manuel Rodrigues de Carvalho</persName></cell>
-                <cell><num value="2">2</num></cell>
-                <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#tomas_cardoso_osorio">Tomás Cardoso Osório</persName></cell>
-                <cell><num value="1">1</num></cell>
-                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#baltasar_jose_rodrigues_soares">Baltasar José Rodrigues Soares</persName></cell>
-                <cell><num value="1">1</num></cell>
-                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
-            </row>
-            
-            <row role="subtotal">
-                <cell>Transporte</cell>
-                <cell><num value="30">30</num></cell>
-                <cell><measure type="subscriptionSubtotal" unit="BRL-réis" quantity="30000">30$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#ana_joaquina_silva_santos">Ana Joaquina da Silva Santos</persName></cell>
-                <cell><num value="2">2</num></cell>
-                <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#francisco_jose_vargas">Francisco José de Vargas</persName></cell>
-                <cell><num value="1">1</num></cell>
-                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#joao_batista_vitor">João Batista Vitor</persName></cell>
-                <cell><num value="1">1</num></cell>
-                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#albertino_lopes_soares">Albertino Lopes Soares</persName></cell>
-                <cell><num value="1">1</num></cell>
-                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#antonio_cardoso_osorio">Antônio Cardoso Osório</persName></cell>
-                <cell><num value="1">1</num></cell>
-                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#baltasar_jose_rodrigues_soares_filho">Baltasar José Rodrigues Soares Filho</persName></cell>
-                <cell><num value="1">1</num></cell>
-                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#antonio_francisco_pinto_oliveira">Antônio Francisco Pinto de Oliveira</persName></cell>
-                <cell><num value="1">1</num></cell>
-                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#francisco_jose_araujo">Francisco José de Araújo</persName></cell>
-                <cell><num value="4">4</num></cell>
-                <cell><measure unit="BRL-réis" quantity="4000">4$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#francisco_tomas_cunha">Francisco Tomás da Cunha</persName></cell>
-                <cell><num value="1">1</num></cell>
-                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#francisco_vilela_moreira">Francisco Vilela Moreira</persName></cell>
-                <cell><num value="1">1</num></cell>
-                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#manoel_martins_porto">Manoel Martins Porto</persName></cell>
-                <cell><num value="1">1</num></cell>
-                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#melchior_cardoso_osorio">Melchior Cardoso Osório</persName></cell>
-                <cell><num value="1">1</num></cell>
-                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#manuel_rodrigues_mendes">Manuel Rodrigues Mendes</persName></cell>
-                <cell><num value="1">1</num></cell>
-                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#felicio_soares_silva">Felício Soares da Silva</persName></cell>
-                <cell><num value="2">2</num></cell>
-                <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#bernardino_soares_silva">Bernardino Soares da Silva</persName></cell>
-                <cell><num value="2">2</num></cell>
-                <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#guiomar_maria_soares">Guiomar Maria Soares</persName></cell>
-                <cell><num value="5">5</num></cell>
-                <cell><measure unit="BRL-réis" quantity="5000">5$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#manoel_soares_silva">Manoel Soares da Silva</persName></cell>
-                <cell><num value="3">3</num></cell>
-                <cell><measure unit="BRL-réis" quantity="3000">3$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#david_silveira_duarte">David Silveira Duarte</persName></cell>
-                <cell><num value="1">1</num></cell>
-                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
-            </row>
-            
-            <row>
-                <cell><persName ref="#inacio_jose_mendonca">Inácio José de Mendonça</persName></cell>
-                <cell><num value="1">1</num></cell>
-                <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
-            </row>
-            
-            <row role="total">
-                <cell>Total</cell>
-                <cell><num value="57">57</num></cell>
-                <cell><measure type="subscriptionTotal" unit="BRL-réis" quantity="57000">57$000</measure></cell>
-            </row>
-        </table>
-        
-        <closer>
-            <dateline>
-                Fazenda do Salso,
-                <date when="1837-10-12">12 de outubro de 1837</date>.
-            </dateline>
-            <signed>(a) <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName></signed>
-        </closer>
-        
-        <note type="editorial">
-            Este documento está anexo ao <ref target="#CV-227">CV-227</ref>.
-        </note>
-        
-    </div>
+    <text>
+        <body>
+            <div type="subscription" xml:id="CV-228">
+                
+                <note type="editorial">
+                    Cópia dada em <date when="1837-10-12">12 de outubro de 1837</date>.
+                </note>
+                
+                <p>
+                    Subscrição com que gratuitamente concorrem os moradores do
+                    Distrito do <placeName ref="#sao_lourenco">Boqueirão</placeName>,
+                    para as exigências da presente luta da nossa independência,
+                    sendo por ações mensalmente, e estas não menos cada uma de
+                    <measure type="shareValue" unit="BRL-réis" quantity="1000">1$000</measure>,
+                    tendo princípio no <date when="1837-10-01">1.º de outubro de 1837</date>
+                    e pelo tempo de três anos.
+                </p>
+                
+                <table>
+                    <row>
+                        <cell>Subscritor</cell>
+                        <cell>Ações</cell>
+                        <cell>Total</cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName></cell>
+                        <cell><num value="5">5</num></cell>
+                        <cell><measure type="subscriptionTotal" unit="BRL-réis" quantity="5000">5$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#joaquim_vieira_braga">Joaquim Vieira Braga</persName></cell>
+                        <cell><num value="2">2</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#joao_nunes_silva">João Nunes da Silva</persName></cell>
+                        <cell><num value="1">1</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#joaquim_antonio_fagundes">Joaquim Antônio Fagundes</persName></cell>
+                        <cell><num value="1">1</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#aleixo_goncalves_moreira">Aleixo Gonçalves Moreira</persName></cell>
+                        <cell><num value="1">1</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#jeronimo_ribeiro_silva">Jerônimo Ribeiro da Silva</persName></cell>
+                        <cell><num value="1">1</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#joao_manuel_fernandes">João Manuel Fernandes</persName></cell>
+                        <cell><num value="1">1</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#americo_pereira_silva">Américo Pereira da Silva</persName></cell>
+                        <cell><num value="2">2</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#joao_pereira_silva">João Pereira da Silva</persName></cell>
+                        <cell><num value="1">1</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#simao_jose_silva">Simão José da Silva</persName></cell>
+                        <cell><num value="2">2</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#jose_bernardes_rodrigues_martins">José Bernardes Rodrigues Martins</persName></cell>
+                        <cell><num value="4">4</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="4000">4$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#antonio_jose_vale">Antônio José do Vale</persName></cell>
+                        <cell><num value="1">1</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#joao_batista_barbosa">João Batista Barbosa</persName></cell>
+                        <cell><num value="2">2</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#luis_pimenta_sampaio">Luís Pimenta de Sampaio</persName></cell>
+                        <cell><num value="2">2</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#antonio_manuel_rodrigues_carvalho">Antônio Manuel Rodrigues de Carvalho</persName></cell>
+                        <cell><num value="2">2</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#tomas_cardoso_osorio">Tomás Cardoso Osório</persName></cell>
+                        <cell><num value="1">1</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#baltasar_jose_rodrigues_soares">Baltasar José Rodrigues Soares</persName></cell>
+                        <cell><num value="1">1</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+                    </row>
+                    
+                    <row role="subtotal">
+                        <cell>Transporte</cell>
+                        <cell><num value="30">30</num></cell>
+                        <cell><measure type="subscriptionSubtotal" unit="BRL-réis" quantity="30000">30$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#ana_joaquina_silva_santos">Ana Joaquina da Silva Santos</persName></cell>
+                        <cell><num value="2">2</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#francisco_jose_vargas">Francisco José de Vargas</persName></cell>
+                        <cell><num value="1">1</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#joao_batista_vitor">João Batista Vitor</persName></cell>
+                        <cell><num value="1">1</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#albertino_lopes_soares">Albertino Lopes Soares</persName></cell>
+                        <cell><num value="1">1</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#antonio_cardoso_osorio">Antônio Cardoso Osório</persName></cell>
+                        <cell><num value="1">1</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#baltasar_jose_rodrigues_soares_filho">Baltasar José Rodrigues Soares Filho</persName></cell>
+                        <cell><num value="1">1</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#antonio_francisco_pinto_oliveira">Antônio Francisco Pinto de Oliveira</persName></cell>
+                        <cell><num value="1">1</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#francisco_jose_araujo">Francisco José de Araújo</persName></cell>
+                        <cell><num value="4">4</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="4000">4$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#francisco_tomas_cunha">Francisco Tomás da Cunha</persName></cell>
+                        <cell><num value="1">1</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#francisco_vilela_moreira">Francisco Vilela Moreira</persName></cell>
+                        <cell><num value="1">1</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#manoel_martins_porto">Manoel Martins Porto</persName></cell>
+                        <cell><num value="1">1</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#melchior_cardoso_osorio">Melchior Cardoso Osório</persName></cell>
+                        <cell><num value="1">1</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#manuel_rodrigues_mendes">Manuel Rodrigues Mendes</persName></cell>
+                        <cell><num value="1">1</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#felicio_soares_silva">Felício Soares da Silva</persName></cell>
+                        <cell><num value="2">2</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#bernardino_soares_silva">Bernardino Soares da Silva</persName></cell>
+                        <cell><num value="2">2</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="2000">2$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#guiomar_maria_soares">Guiomar Maria Soares</persName></cell>
+                        <cell><num value="5">5</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="5000">5$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#manoel_soares_silva">Manoel Soares da Silva</persName></cell>
+                        <cell><num value="3">3</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="3000">3$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#david_silveira_duarte">David Silveira Duarte</persName></cell>
+                        <cell><num value="1">1</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+                    </row>
+                    
+                    <row>
+                        <cell><persName ref="#inacio_jose_mendonca">Inácio José de Mendonça</persName></cell>
+                        <cell><num value="1">1</num></cell>
+                        <cell><measure unit="BRL-réis" quantity="1000">1$000</measure></cell>
+                    </row>
+                    
+                    <row role="total">
+                        <cell>Total</cell>
+                        <cell><num value="57">57</num></cell>
+                        <cell><measure type="subscriptionTotal" unit="BRL-réis" quantity="57000">57$000</measure></cell>
+                    </row>
+                </table>
+                
+                <closer>
+                    <dateline>
+                        Fazenda do Salso,
+                        <date when="1837-10-12">12 de outubro de 1837</date>.
+                    </dateline>
+                    <signed>(a) <persName ref="#inacio_guimaraes">Inácio José de Oliveira Guimarães</persName></signed>
+                </closer>
+                
+                <note type="editorial">
+                    Este documento está anexo ao <ref target="#CV-227">CV-227</ref>.
+                </note>
+                
+            </div>
+        </body>
+    </text>
 </TEI>

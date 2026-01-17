@@ -160,8 +160,8 @@ body.annotations-open .annotations-column,
 body.annotations-open .right-column {
   display: flex !important;
   flex: 0 0 32%;
-  max-width: 520px;     
-  min-width: 300px;    
+  max-width: 520px;
+  min-width: 300px;
 }
 
 body.annotations-open .left-column {
@@ -226,6 +226,134 @@ body.annotations-open .left-column {
 .tab-button.active {
   background: rgba(122, 31, 41, 0.15);
   border-color: rgba(122, 31, 41, 0.5);
+}
+
+.translation-disclaimer-box {
+  border: 1px solid rgba(196,179,178,0.9);
+  background-color: #F8F5EF;
+  padding: 0.85rem 1rem;
+  margin: 0.75rem 0 1.4rem 0;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  line-height: 1.45;
+}
+
+.translation-disclaimer-title {
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #666;
+  margin-bottom: 0.4rem;
+}
+
+.translation-disclaimer-text {
+  color: #555;
+}
+
+/* =========================
+   TEI block spacing
+   (blank line between blocks)
+========================= */
+
+.tei-div {
+  margin-bottom: 1rem; /* “linha em branco” após cada div TEI */
+}
+
+.tei-opener,
+.tei-closer,
+.tei-postscript,
+.tei-dateline,
+.tei-salute,
+.tei-signed,
+.tei-addressee {
+  margin-bottom: 0.6rem;
+}
+
+/* Paragraph rhythm inside TEI body */
+.tei-body p {
+  margin: 0 0 0.9rem 0;
+  line-height: 1.55;
+}
+
+/* Prevent the last paragraph from creating extra whitespace */
+.tei-body p:last-child {
+  margin-bottom: 0;
+}
+
+/* =========================
+   TEI notes (endorsement / hand)
+========================= */
+
+.tei-endorsement {
+  margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
+  padding: 0.55rem 0.75rem;
+  border-left: 3px solid rgba(94, 18, 26, 0.35);
+  background: rgba(122, 31, 41, 0.06);
+  border-radius: 8px;
+}
+
+.tei-endorsement p {
+  margin: 0;
+}
+
+.tei-note-hand {
+  font-style: italic;
+  color: #444;
+}
+
+/* A folio segment, when shown */
+.tei-folio {
+  white-space: nowrap;
+}
+
+/* =========================
+   handShift rendering
+========================= */
+
+.tei-handshift {
+  margin-top: 0.35rem;
+  font-size: 0.85rem;
+  color: rgba(47, 47, 47, 0.75);
+}
+
+/* =========================
+   TEI LISTS
+========================= */
+
+.tei-list {
+  margin: 0.75rem 0 1rem 1.25rem;
+  padding: 0;
+  list-style-type: disc;
+}
+
+.tei-list li {
+  margin: 0.35rem 0;
+  padding-left: 0.25rem;
+  line-height: 1.45;
+}
+
+/* =========================
+   TEI TABLES
+========================= */
+
+.tei-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0 1.25rem 0;
+  font-size: 0.9rem;
+}
+
+.tei-table td {
+  border: 1px solid rgba(196,179,178,0.85);
+  padding: 0.45rem 0.55rem;
+  vertical-align: top;
+  line-height: 1.35;
+}
+
+.tei-table tr:nth-child(even) td {
+  background-color: rgba(248,245,239,0.6);
 }
 
 /* =========================
