@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Varela Digital — Historical Context</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Global site styles -->
+    <link rel="stylesheet" href="../css/styles.css" />
+
+    <!-- Page-specific tweaks (standalone; do NOT reuse data_model.css here) -->
+    <link rel="stylesheet" href="../css/historical_context.css" />
+  </head>
+
+  <body>
+    <!-- Navbar (assets/html/*) -->
+    <nav class="navbar navbar-expand-lg fixed-top vd-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html">Varela Digital</a>
+
+            <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html">Homepage</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="collectionDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            The Collection
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="collectionDropdown">
+                            <li><a class="dropdown-item" href="letters-index.html">Index</a></li>
+                            <li><a class="dropdown-item" href="viewer.html?file=CV-1.xml">Viewer</a></li>
+                            <li><hr class="dropdown-divider" /></li>
+                            <li><a class="dropdown-item" href="indexes.html">Explore Indexes</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Historical Context as top-level -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="historical_context.html">Historical Context</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="docsDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            Documentation
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="docsDropdown">
+                            <li><a class="dropdown-item" href="documentation.html">Overview</a></li>
+                            <li><a class="dropdown-item" href="data_model.html">Data Model</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <main class="vd-page vd-context-page" style="padding-top: 110px">
+      <header class="vd-context-header">
+        <h1>Historical Context</h1>
+
+        <p class="vd-lead">
+          This page provides historical and archival background for the
+          <em>Varela Digital</em> pilot corpus. It is intended as a contextual
+          introduction to the documents and to the editorial choices of the
+          project, rather than a comprehensive historiographical account.
+        </p>
+      </header>
+
+      <div class="vd-context-layout">
+        <!-- Sidebar -->
+        <aside class="vd-toc" aria-label="On this page">
+          <div class="vd-toc-title">On this page</div>
+          <ul class="vd-toc-list">
+            <li><a href="#scope">Scope and purpose</a></li>
+            <li>
+              <a href="#farroupilha">The Farroupilha Revolution (1835–1845)</a>
+            </li>
+            <li>
+              <a href="#correspondence">Correspondence as a historical source</a>
+            </li>
+            <li><a href="#varela">The Varela Collection</a></li>
+            <li>
+              <a href="#anais">The <em>Anais</em> and the pilot corpus (Volume II)</a>
+            </li>
+            <li><a href="#modelling">From context to digital modelling</a></li>
+          </ul>
+        </aside>
+
+        <!-- IMPORTANT: wrapper that keeps all sections in ONE column -->
+        <div class="vd-context-content">
+            <!-- Section 1 -->
+            <section id="scope" class="vd-section">
+                <h2>Introduction</h2>
+
+                <figure class="vd-figure vd-figure-right">
+                    <img
+                        src="../images/MemorialDoRioGrandeDoSul.jpg"
+                        alt="Memorial do Rio Grande do Sul, sede do Arquivo Histórico do Rio Grande do Sul"
+                    />
+                    <figcaption>
+                        Memorial do Rio Grande do Sul, located at Praça da Alfândega in Porto Alegre,
+                        current headquarters of the Arquivo Histórico do Rio Grande do Sul, where the Varela Collection is preserved.
+                    </figcaption>
+                </figure>
+
+                <p>
+                    <em>Varela Digital</em> is a digital scholarly edition and knowledge-oriented research environment dedicated
+                    to the correspondence preserved in the Varela Collection, held by the Arquivo Histórico do Rio Grande do Sul.
+                    Developed within a broader historical investigation of the Farroupilha Revolution (1835–1845), the project
+                    publishes a representative portion of this corpus through TEI/XML encoding, structured metadata, and semantic modelling.
+                </p>
+
+                <p>
+                    The Varela correspondence offers a privileged perspective on how the rebellion was governed and negotiated in practice:
+                    orders, requests, mediation, and administrative routines appear side by side with private communication.
+                    In particular, the letters make visible the transregional dimension of the conflict by documenting cross-border
+                    networks linking Rio Grande do Sul to Uruguay and the wider Río de la Plata world.
+                </p>
+
+                <p>
+                    The edition is based on the printed transcriptions published in the <em>Anais do Arquivo Histórico do Rio Grande do Sul</em>.
+                    While the collection comprises more than 550 documentary units, this project focuses on a pilot corpus of
+                    300 documents (CV-1 to CV-300), starting from Volume II (1978), the first <em>Anais</em> volume to publish Varela materials.
+                    Beyond access to texts, <em>Varela Digital</em> models persons, places, events, and relations across documents using Linked Open Data,
+                    enabling navigation, indexing, and future spatial and network visualizations grounded in historical interpretation.
+                </p>
+            </section>
+
+            <!-- Section 2 -->
+            <section id="farroupilha" class="vd-section">
+                <h2>The Farroupilha Revolution (1835–1845)</h2>
+
+                <figure class="vd-figure vd-figure-wide">
+                    <img
+                        src="../images/Mappa_do_Theatro_da_Guerra_Provincia_do_Rio_Grande_de_S._Pedro_do_Sul_1839_(Cartográfico).jpg"
+                        alt="Map of the theatre of war in the Province of Rio Grande do Sul, 1839"
+                    />
+                    <figcaption>
+                        Map of the theatre of war in the Province of Rio Grande do Sul (1839),
+                        illustrating the spatial dimension of the Farroupilha conflict and its frontier dynamics.
+                    </figcaption>
+                </figure>
+
+                <p>
+                    The Farroupilha Revolution (also known as the Ragamuffin War) was a prolonged political and military conflict
+                    fought in the southern province of Rio Grande do Sul between 1835 and 1845. Emerging in the turbulent decades
+                    following Brazilian independence, the rebellion developed within a wider crisis of imperial governance:
+                    provincial elites negotiated, resisted, and reshaped the reach of a still-consolidating central state.
+                    In Rio Grande do Sul, these tensions intersected with a frontier economy, militarized local society,
+                    and long-standing disputes over fiscal policy, military command, and the distribution of political authority.
+                </p>
+
+                <p>
+                    Although often narrated through the lens of regionalism, the Farroupilha conflict cannot be reduced to a local
+                    episode. It mobilized competing projects of legitimacy and sovereignty, and it produced concrete experiments in
+                    rebel administration—taxation, policing, military recruitment, diplomatic representation, and everyday governance.
+                    The documentary record also reveals a war shaped by contingency: shifting alliances, internal factionalism,
+                    pragmatic negotiations, and the constant need to secure resources, transport, and communication across a vast
+                    territory.
+                </p>
+
+                <figure class="vd-figure vd-figure-left small-portrait">
+                    <img
+                        src="../images/Lancero_de_la_época_de_Rivera.png"
+                        alt="Lanceiro negro, nineteenth-century illustration"
+                    />
+                    <figcaption>
+                        Illustration of a Black lancer (<em>lanceiro negro</em>), highlighting the participation
+                        of enslaved and freed men in the military dynamics of the Río de la Plata frontier conflicts.
+                    </figcaption>
+                </figure>
+
+                <h3>1. Political background in the Empire of Brazil</h3>
+                <p>
+                    The revolt unfolded during a period marked by political instability and the redefinition of the imperial order.
+                    Debates over decentralization, provincial autonomy, and the limits of central authority informed how actors
+                    justified rebellion, framed grievances, and negotiated reconciliation. In this context, political language
+                    often blended constitutional arguments with practical concerns: who could appoint commanders, collect revenue,
+                    regulate commerce, and enforce justice in a border province where military power and civil administration were
+                    deeply intertwined.
+                </p>
+
+                <h3>2. Rio Grande do Sul as a frontier society</h3>
+                <p>
+                    Rio Grande do Sul was not only a peripheral province; it was a strategic frontier zone. Its economy depended on
+                    cattle-raising, charque production, and regional trade networks, while its society was shaped by mobility,
+                    militarization, and contested boundaries. These conditions affected both the causes and the course of the conflict.
+                    The war’s logistics—horses, troops, weapons, supplies, and routes—were inseparable from local landholding patterns,
+                    labor relations, and the ability of families and communities to sustain prolonged mobilization.
+                </p>
+
+                <h3>3. War and rebel government</h3>
+                <p>
+                    The Farroupilha Revolution produced forms of rebel governance that combined improvisation and institutional
+                    ambition. Letters document administrative routines and urgent decisions: issuing orders, responding to reports,
+                    directing movements, negotiating provisions, and managing justice and policing. They also expose the human texture
+                    of governance during wartime, in which political ideals coexisted with scarcity, uncertainty, and the constant need
+                    to maintain authority across dispersed and often unstable local command structures.
+                </p>
+
+                <figure class="vd-figure-right small-portrait">
+                    <img
+                        src="../images/Garibaldi_(1866).jpg"
+                        alt="Portrait of Giuseppe Garibaldi"
+                    />
+                    <figcaption>
+                        <strong>Figure.</strong> Giuseppe Garibaldi wearing a poncho, c. 1866.
+                        His participation in the Farroupilha Revolution and circulation between South
+                        America and Europe exemplify the transnational networks documented in the
+                        Varela Collection.
+                    </figcaption>
+                </figure>
+
+                <h3>4. A transnational conflict: Uruguay and the Río de la Plata</h3>
+                <p>
+                    The rebellion’s trajectory was profoundly shaped by cross-border dynamics. Rio Grande do Sul was connected to
+                    Uruguay and the broader Río de la Plata world through kinship networks, exile routes, military circulation, and
+                    political negotiations. Farroupilha actors engaged with shifting factions across the border, relying on diplomacy,
+                    personal mediation, and strategic alliances. The correspondence preserved in the Varela Collection is especially
+                    valuable for reconstructing these interactions, since letters register not only formal positions but also informal
+                    channels of information and influence.
+                </p>
+
+                <h3>5. Why correspondence matters</h3>
+                <p>
+                    Letters are not merely sources that “report” events; they are instruments that made the war governable.
+                    They record decisions in formation, conflicts in real time, and the practical work of sustaining authority through
+                    writing. For this reason, the Varela Collection—predominantly composed of personal and administrative correspondence—
+                    offers an exceptional entry point into the Farroupilha Revolution as lived political practice: negotiation, command,
+                    persuasion, and the management of networks across space.
+                </p>
+
+
+                <details class="vd-biblio" id="biblio-farroupilha">
+                <summary>Bibliography for this section</summary>
+
+                <div class="vd-biblio-body">
+                    <p class="vd-biblio-note">
+                    The references below indicate the main works that inform the
+                    historical synthesis presented in this section.
+                    </p>
+
+                    <ul class="vd-biblio-list">
+                    <!-- NOTE: we will convert these items to Chicago later -->
+                    <li>
+                        Arquivo Histórico do Rio Grande do Sul.
+                        <em>Anais do Arquivo Histórico do Rio Grande do Sul: Coleção Varela</em>,
+                        vol. 2, t. 1, <em>Correspondência ativa: documentos CV-1 a CV-558</em>.
+                        Porto Alegre: Instituto Estadual do Livro, 1978.
+                    </li>
+                    <li>
+                        Guazzelli, Cesar Augusto Barcellos.
+                        <em>O horizonte da província: a República Rio-Grandense e os caudilhos do Rio da Prata (1835–1845)</em>.
+                        São Paulo: Linus, 2013.
+                    </li>
+                    <li>
+                        Leitman, Spencer.
+                        <em>Raízes sócio-econômicas da Guerra dos Farrapos</em>.
+                        Rio de Janeiro: Graal, 1979.
+                    </li>
+                    <li>
+                        Menegat, Carla.
+                        <em>Domingos José de Almeida, o estadista da República Riograndense:
+                        o casal Domingos José de Almeida e Bernardina Rodrigues Barcellos na Revolução Farroupilha</em>.
+                        São Paulo: Instituto Memoria Editora, 2010.
+                    </li>
+                    <li>
+                        Menegat, Carla.
+                        “Homens de fronteira, homens de Império: discurso político, campanha militar e barganha
+                        na relação entre a Corte e pecuaristas brasileiros na fronteira meridional.”
+                        In <em>Anais do Congresso Nacional da ANPUH</em>, 11–32, 2017.
+                    </li>
+                    <li>
+                        Menegat, Carla.
+                        “Brasileiros e pecuária no norte do Uruguai: produção e mercado em meados do século XIX.”
+                        <em>Mundo Agrario</em> 21, no. 46 (2020): e131.
+                    </li>
+                    <li>
+                        Menegat, Carla.
+                        “‘Transportando fortunas para povoar deserta e inculta campanha’:
+                        brasileiros e produção pecuária no norte do Uruguai em meados do século XIX.”
+                        <em>História Econômica &amp; História de Empresas</em> 23, no. 1 (2020): 63–95.
+                    </li>
+                    <li>
+                        Vargas, Jonas Moreira.
+                        “Um perfil da elite política rio-grandense e suas redes de relações com a classe dos grandes proprietários
+                        na fronteira sul (1845–1866).”
+                        In <em>Fronteiras na história: atores sociais e historicidade na formação do Brasil Meridional
+                        (séculos XVIII–XX)</em>, organizado por Ângela Maria Schmitt e Maria D’Ajuda Alomba Ribeiro Winter,
+                        166–190. Chapecó: Editora UFFS, 2021.
+                    </li>
+                    </ul>
+                </div>
+                </details>
+            </section>
+
+            <!-- Section 3 -->
+            <section id="correspondence" class="vd-section">
+                <h2>Correspondence as a historical source</h2>
+
+                <p>
+                    Correspondence occupies a central place in the historical study of the nineteenth century,
+                    particularly in contexts marked by political instability, territorial fragmentation, and
+                    fragile institutional structures. Letters functioned simultaneously as instruments of
+                    communication, administration, negotiation, and authority, allowing actors to govern,
+                    coordinate, and justify actions across distance. In the context of the Farroupilha Revolution,
+                    written correspondence was not merely a record of events but a constitutive element of political
+                    and military practice.
+                </p>
+
+                <p>
+                    The documents preserved in the Varela Collection reflect this multifunctional character.
+                    Personal letters coexist with administrative orders, reports, requests, and endorsements,
+                    often within the same exchange. These texts register decisions in formation, shifts in
+                    allegiance, logistical constraints, and strategies of persuasion, revealing how political
+                    authority was exercised through writing in a frontier society shaped by war, mobility,
+                    and negotiation.
+                </p>
+
+                <p>
+                    From a historiographical perspective, correspondence offers access to temporal processes
+                    rather than retrospective narratives. Letters are produced under conditions of uncertainty:
+                    they anticipate outcomes, respond to incomplete information, and attempt to influence
+                    future actions. This makes them particularly valuable for reconstructing networks of
+                    interaction, chains of command, and the circulation of information, but also challenging
+                    to interpret when treated as isolated texts.
+                </p>
+
+                <p>
+                    These characteristics make correspondence especially suited to a data-oriented approach.
+                    Letters are inherently relational documents: they presuppose senders and recipients, refer
+                    to places, events, institutions, and other individuals, and are embedded in sequences of
+                    exchange. Modeling correspondence as structured data allows these relations to be made
+                    explicit, connected across documents, and analyzed beyond the linear reading of individual
+                    texts.
+                </p>
+
+                <p>
+                    In <em>Varela Digital</em>, correspondence is therefore treated not only as a textual genre
+                    but as a relational infrastructure. TEI/XML encoding captures the internal structure of
+                    letters and their editorial mediation, while semantic modeling expresses the historical
+                    relations articulated through writing—between persons, institutions, events, and places.
+                    This approach bridges traditional historical analysis and computational representation,
+                    enabling new forms of navigation, comparison, and interpretation grounded in the sources
+                    themselves.
+                </p>
+            </section>
+
+
+            <!-- Section 4 -->
+            <section id="varela" class="vd-section">
+                <h2>The Varela Collection and its formation</h2>
+
+                <p>
+                    The Varela Collection is the result of a long and layered process of accumulation rather than a
+                    single archival initiative. Its formation reflects successive moments of preservation, expansion,
+                    and institutionalization linked to the memory of the Farroupilha Revolution.
+                </p>
+
+                <p>
+                    The core of the collection originated in the personal archive of Domingos José de Almeida, one of
+                    the central political leaders of the rebellion. During and after the conflict, Almeida preserved
+                    correspondence and administrative documents related to the revolutionary government and its
+                    networks. Although he intended to write a history of the Farroupilha Revolution, this project was
+                    never completed, and the documents remained within the family after his death.
+                </p>
+
+                <figure class="vd-figure-right small-portrait">
+                    <img
+                        src="../images/Domingos_José_de_Almeida_foto.jpg"
+                        alt="Domingos José de Almeida"
+                    />
+                    <figcaption>
+                        Domingos José de Almeida, one of the central political figures of the Farroupilha Revolution
+                        and original nucleus of what would later become the Varela Collection.
+                    </figcaption>
+                </figure>
+
+                <p>
+                    In the late nineteenth and early twentieth centuries, the archive was transferred to Alfredo
+                    Varela, who substantially expanded the original corpus by incorporating documents from other
+                    private sources. Through this process, a personal archive linked to a single political actor was
+                    transformed into a broader documentary collection associated with the rebellion as a whole.
+                    Varela’s collecting practices contributed to shaping both the scope of the collection and its
+                    retrospective interpretation.
+                </p>
+
+                <p>
+                    In 1936, during the centennial commemorations of the Farroupilha Revolution, the collection was
+                    donated to the government of Rio Grande do Sul and incorporated into public custody. It was
+                    initially housed within the State Museum and later became part of the Arquivo Histórico do Rio
+                    Grande do Sul, established as an independent institution in 1954. From that moment on, the
+                    collection underwent processes of archival organization, description, and editorial mediation,
+                    culminating in its publication in the <em>Anais do Arquivo Histórico do Rio Grande do Sul</em>.
+                </p>
+
+                <p>
+                    Recognizing this trajectory is essential for interpreting the documents preserved in the Varela
+                    Collection. The corpus reflects multiple historical layers: the immediacy of revolutionary
+                    correspondence, the logic of a personal archive, the interventions of a private collector, and
+                    the institutional frameworks of twentieth-century archival preservation. <em>Varela Digital</em>
+                    engages with this complexity by treating the collection as a historically constructed object,
+                    rather than as a neutral repository of sources.
+                </p>
+
+                <details class="vd-biblio" id="biblio-varela">
+                    <summary>Bibliography for this section</summary>
+
+                    <div class="vd-biblio-body">
+                        <ul class="vd-biblio-list">
+                            <li>
+                            Arce, Ana Inês. <em>Os “verendos restos da sublime geração farroupilha, que andei a recolher de entre
+                            o pó das idades”: uma história arquivística da Coleção Varela</em>. Trabalho de Conclusão de Curso em
+                            Arquivologia, Universidade Federal do Rio Grande do Sul, 2011.
+                            </li>
+
+                            <li>
+                            Silva, Camila. <em>Arquivo, história e memória: o processo de constituição e patrimonialização de um
+                            acervo privado – a Coleção Varela AHRS, 1858–1936</em>. Tese de Doutorado em História, Universidade do
+                            Vale do Rio dos Sinos, 2019.
+                            </li>
+                        </ul>
+                    </div>
+                </details>
+            </section>
+
+            <!-- Section 5 -->
+            <section id="anais" class="vd-section">
+                <h2>The <em>Anais do Arquivo Histórico do Rio Grande do Sul</em> and the pilot corpus</h2>
+
+                <p>
+                    The <em>Anais do Arquivo Histórico do Rio Grande do Sul</em> constitute the principal editorial gateway
+                    through which the Varela Collection has been made accessible to researchers. Published over several
+                    decades, the series presents transcriptions of archival documents accompanied by editorial mediation,
+                    contextual notes, and standardized document identifiers.
+                </p>
+
+                <figure class="vd-figure vd-figure-small">
+                    <img
+                        src="../images/05104252_8730_GDO.png"
+                        alt="Arquivo Histórico do Rio Grande do Sul logo"
+                    />
+                    <figcaption>
+                        Arquivo Histórico do Rio Grande do Sul (AHRS), the institution responsible
+                        for the preservation and publication of the Varela Collection.
+                    </figcaption>
+                </figure>
+
+                <p>
+                    The present project begins with Volume II of the <em>Anais</em>, published in 1978, which is the first
+                    volume to include documents from the Varela Collection related to the Farroupilha Revolution.
+                    This volume contains the initial segment of the active correspondence, numbered CV-1 to CV-558,
+                    and establishes the editorial conventions that structure subsequent volumes of the series.
+                </p>
+
+                <p>
+                    Although the Secretariat of Culture of Rio Grande do Sul has made the volumes of the <em>Anais</em>
+                    available online in PDF format, the digital reproduction of Volume II is incomplete, and the printed
+                    edition has long been out of circulation. These conditions limit accessibility and reuse, particularly
+                    for systematic analysis, indexing, and cross-document research.
+                </p>
+
+                <p>
+                    For methodological reasons <em>Varela Digital</em>
+                    focuses on a pilot corpus of 300 documents, corresponding to CV-1 through CV-300. This selection
+                    allows for the full implementation and testing of editorial encoding, semantic annotation, and
+                    data modeling workflows, while remaining representative of the documentary typologies, authors,
+                    and historical contexts present in the collection as a whole.
+                </p>
+
+                <p>
+                    By re-encoding this pilot corpus as a structured digital edition and knowledge-oriented resource,
+                    the project does not aim to replace the <em>Anais</em>, but rather to complement them. The digital
+                    edition preserves the editorial mediation of the printed volumes while extending their analytical
+                    potential through machine-readable structure, explicit semantic relations, and future visualizations.
+                </p>
+            </section>
+
+            <!-- Section 6 -->
+            <section id="modelling" class="vd-section">
+                <h2>From context to digital modelling</h2>
+
+                <p>
+                    The historical characteristics of the Varela correspondence—its relational density, its
+                    administrative hybridity, and its grounding in everyday political practice—directly inform
+                    the digital modelling choices adopted in <em>Varela Digital</em>. Rather than treating letters
+                    as isolated textual artifacts, the project approaches them as nodes within a broader
+                    historical system composed of people, institutions, places, events, and acts of communication.
+                </p>
+
+                <p>
+                    This perspective motivates the combined use of TEI/XML encoding and Linked Open Data
+                    technologies. TEI provides a structured representation of the textual and editorial features
+                    of each document, preserving the organization of the printed edition while making explicit
+                    elements such as senders, recipients, dates, places, and internal textual divisions.
+                    At the same time, semantic modelling enables the representation of historical relations
+                    expressed in the correspondence—social, institutional, political, and event-based—across
+                    documents and beyond the boundaries of individual letters.
+                </p>
+
+                <p>
+                    By translating historically grounded entities and relations into interoperable data models,
+                    <em>Varela Digital</em> transforms contextual knowledge into a navigable and extensible
+                    research environment. This approach supports advanced indexing, cross-document exploration,
+                    and future visualizations of spatial circulation and social networks, while remaining
+                    anchored in the close reading and critical interpretation of primary sources.
+                </p>
+
+                <p>
+                    The result is a knowledge-oriented digital edition in which historical context and digital
+                    structure are not separate layers but mutually reinforcing components. Modelling becomes
+                    an interpretative act, shaped by historiographical questions and archival realities, and
+                    the digital edition functions not only as a medium of access but as a tool for historical
+                    inquiry.
+                </p>
+
+                <div class="mt-4 d-flex gap-3 flex-wrap">
+                    <a href="documentation.html" class="btn btn-outline-primary">Project Documentation</a>
+                    <a href="data_model.html" class="btn btn-outline-primary">Data Model</a>
+                </div>
+            </section>
+        </div>
+        </div>
+
+      <!-- Footer -->
+      <footer class="vd-footer">
+        <div class="footer-links">
+          Developed by <strong>Carla Menegat</strong> |
+          <a href="mailto:carla.menegat@studio.unibo.it">carla.menegat@studio.unibo.it</a> |
+          <a href="https://github.com/CarlaMenegat" target="_blank" rel="noopener">GitHub</a> |
+          Licensed under
+          <a
+            href="https://creativecommons.org/licenses/by/4.0/"
+            target="_blank"
+            rel="noopener"
+            >CC BY 4.0</a
+          >
+          |
+        </div>
+
+        <div class="footer-small">
+          Final examination project for the
+          <a
+            href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge"
+            target="_blank"
+            rel="noopener"
+          >
+            Master Degree in Digital Humanities and Digital Knowledge (DHDK)
+          </a>
+          , University of Bologna.
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
