@@ -1,6 +1,6 @@
 /* ===== Paths ===== */
 const BASE_XML_PATH = '../../data/documents_XML/';
-const DOCUMENTS_HTML_PATH_PRIMARY = '../documents_html/';
+const DOCUMENTS_HTML_PATH_PRIMARY = './documents_html/';
 const DOCUMENTS_HTML_PATH_FALLBACK = '../../assets/html/documents_html/';
 
 const STANDOFF_BASE_PATH = '../../data/standoff/';
@@ -28,10 +28,9 @@ const NS = { tei: TEI_NS, xml: XML_NS };
 
 /* ===== State ===== */
 let VIEW_MODE = 'reading';
-let CURRENT_FILE = '';        // may be CV-23.xml OR CV-23.html
-let CURRENT_STEM = '';        // CV-23
-let CURRENT_HTML_PATH = '';   // resolved html path used (when fetched)
-let CURRENT_HTML_BASE = '';   // resolved base dir for html navigation
+let CURRENT_FILE = '';
+let CURRENT_STEM = '';
+let CURRENT_HTML_PATH = '';
 let METADATA_INDEX = null;
 
 const STANDOFF_INDEX = Object.create(null);
@@ -148,7 +147,11 @@ async function fetchJSON(path) {
   if (!res.ok) throw new Error(`Failed to load ${path} (${res.status})`);
   return await res.json();
 }
-
+function buildViewerURL(file) {
+  const url = new URL(window.location.href);
+  url.searchParams.set('file', file);
+  return url.toString();
+}
 function getDocFileFromDOMOrURL() {
   const qp = getQueryParam('file');
   if (qp) return qp.trim();
@@ -156,67 +159,7 @@ function getDocFileFromDOMOrURL() {
   const bodyFile = (document.body?.dataset?.file || '').trim();
   if (bodyFile) return bodyFile;
 
-  const path = String(window.location.pathname || '');
-  const m = path.match(/([^/]+)\.html$/i);
-  if (m && m[1]) return `${m[1]}.html`;
-
   return '';
-}
-
-function isStandaloneDocHTMLPage() {
-  const path = String(window.location.pathname || '');
-  const looksLikeDoc = /\/documents_html\/[^/]+\.html$/i.test(path) || /\.html$/i.test(path);
-  const hasTeiBody = !!document.querySelector('.tei-body');
-  return looksLikeDoc && hasTeiBody;
-}
-
-function ensureHTMLBaseFromPath(path) {
-  if (!path) return '';
-  const i = path.lastIndexOf('/');
-  if (i < 0) return '';
-  return path.slice(0, i + 1);
-}
-
-function buildDocHTMLHrefFromStem(stem) {
-  const s = stemFromFile(stem);
-  if (!s) return '';
-
-  const base = CURRENT_HTML_BASE || DOCUMENTS_HTML_PATH_PRIMARY;
-  return `${base}${s}.html`;
-}
-
-function setNavTarget(el, targetFileXmlOrHtml, disabled) {
-  if (!el) return;
-
-  const tag = (el.tagName || '').toUpperCase();
-  const isLink = tag === 'A';
-  const isButton = tag === 'BUTTON';
-
-  if (disabled || !targetFileXmlOrHtml) {
-    el.classList.add('disabled');
-    el.setAttribute('aria-disabled', 'true');
-    if (isLink) el.removeAttribute('href');
-    if (isButton) el.disabled = true;
-    el.onclick = null;
-    return;
-  }
-
-  const targetStem = stemFromFile(targetFileXmlOrHtml);
-  const href = buildDocHTMLHrefFromStem(targetStem);
-
-  el.classList.remove('disabled');
-  el.removeAttribute('aria-disabled');
-  if (isButton) el.disabled = false;
-
-  if (isLink) {
-    el.href = href;
-    return;
-  }
-
-  el.onclick = (ev) => {
-    ev.preventDefault();
-    window.location.href = href;
-  };
 }
 
 /* ===== Boot ===== */
@@ -251,24 +194,6 @@ async function loadDocumentHTML(stem) {
   const readingLayer = document.querySelector(`.transcription-layer[data-view="reading"]`);
   if (!readingLayer) return;
 
-  if (isStandaloneDocHTMLPage()) {
-    CURRENT_HTML_PATH = String(window.location.pathname || '');
-    CURRENT_HTML_BASE = ensureHTMLBaseFromPath(CURRENT_HTML_PATH) || DOCUMENTS_HTML_PATH_PRIMARY;
-
-    const existingLetterInfo = document.getElementById('letter-info');
-    const existingBody = document.querySelector('.tei-body');
-
-    if (existingBody) {
-      readingLayer.innerHTML = existingBody.innerHTML;
-    }
-
-    if (existingLetterInfo) {
-      const dstLetterInfo = document.getElementById('letter-info');
-      if (dstLetterInfo) dstLetterInfo.innerHTML = existingLetterInfo.innerHTML;
-    }
-    return;
-  }
-
   const candidates = [
     `${DOCUMENTS_HTML_PATH_PRIMARY}${stem}.html`,
     `${DOCUMENTS_HTML_PATH_FALLBACK}${stem}.html`
@@ -291,7 +216,6 @@ async function loadDocumentHTML(stem) {
   }
 
   CURRENT_HTML_PATH = usedPath;
-  CURRENT_HTML_BASE = ensureHTMLBaseFromPath(usedPath) || DOCUMENTS_HTML_PATH_PRIMARY;
 
   const doc = new DOMParser().parseFromString(htmlText, 'text/html');
 
@@ -363,6 +287,39 @@ function guessPrevNextByCVNumber(fileParam) {
   }
 
   return { prev, next };
+}
+
+function setNavTarget(el, targetFileXml, disabled) {
+  if (!el) return;
+
+  const tag = (el.tagName || '').toUpperCase();
+  const isLink = tag === 'A';
+  const isButton = tag === 'BUTTON';
+
+  if (disabled || !targetFileXml) {
+    el.classList.add('disabled');
+    el.setAttribute('aria-disabled', 'true');
+    if (isLink) el.removeAttribute('href');
+    if (isButton) el.disabled = true;
+    el.onclick = null;
+    return;
+  }
+
+  el.classList.remove('disabled');
+  el.removeAttribute('aria-disabled');
+  if (isButton) el.disabled = false;
+
+  const href = buildViewerURL(targetFileXml);
+
+  if (isLink) {
+    el.href = href;
+    return;
+  }
+
+  el.onclick = (ev) => {
+    ev.preventDefault();
+    window.location.href = href;
+  };
 }
 
 async function setupDocNavigator(currentFileXml) {
@@ -666,21 +623,43 @@ function renderStandoffEntryCard(entry) {
 /* ===== Metadata ===== */
 async function loadMetadataIndex() {
   if (METADATA_INDEX) return METADATA_INDEX;
+
   try {
-    METADATA_INDEX = await fetchJSON(INDEXES_BASE_PATH + 'metadata.json');
-    return METADATA_INDEX;
-  } catch (_) {
+    const data = await fetchJSON(INDEXES_BASE_PATH + 'metadata.json');
+
+    if (Array.isArray(data)) {
+      const idx = Object.create(null);
+      for (const row of data) {
+        const key = (row?.cv_id || row?.id || row?.file || '').trim();
+        if (!key) continue;
+        idx[key] = row;
+      }
+      METADATA_INDEX = idx;
+      return METADATA_INDEX;
+    }
+
+    if (data && typeof data === 'object') {
+      METADATA_INDEX = data;
+      return METADATA_INDEX;
+    }
+
     METADATA_INDEX = null;
+    return null;
+  } catch (e) {
+    METADATA_INDEX = null;
+    console.warn('Could not load metadata index:', e);
     return null;
   }
 }
+
 function setDownloadLink(aEl, href, label) {
   if (!aEl) return;
   aEl.href = href;
   aEl.setAttribute('download', '');
   aEl.textContent = label;
 }
-async function renderMetadataPanel(stem, fileParamXml) {
+
+async function renderMetadataPanel(stem, fileNameXml) {
   const mdTitle = document.getElementById('mdTitle');
   const mdFrom = document.getElementById('mdFrom');
   const mdTo = document.getElementById('mdTo');
@@ -692,23 +671,36 @@ async function renderMetadataPanel(stem, fileParamXml) {
   const dlJsonld = document.getElementById('dlJsonld');
   const dlTtl = document.getElementById('dlTtl');
 
-  const safeSet = (el, val) => { if (el) el.textContent = (val && String(val).trim()) ? String(val).trim() : '—'; };
+  const safeSet = (el, val) => {
+    if (!el) return;
+    const v = (val == null) ? '' : String(val).trim();
+    el.textContent = v ? v : '—';
+  };
+
+  const idx = await loadMetadataIndex();
 
   let meta = null;
-  const idx = await loadMetadataIndex();
   if (idx) {
-    if (idx[stem]) meta = idx[stem];
-    else if (idx[`${stem}.xml`]) meta = idx[`${stem}.xml`];
-    else if (idx[`${stem}.html`]) meta = idx[`${stem}.html`];
+    meta =
+      idx[stem] ||
+      idx[`${stem}.xml`] ||
+      idx[`${stem}.html`] ||
+      idx[stem.replace(/^CV-/, 'cv-')] ||
+      null;
+
+    if (!meta) {
+      const k = Object.keys(idx).find(key => stemFromFile(key) === stem);
+      if (k) meta = idx[k];
+    }
   }
 
   if (meta) {
-    safeSet(mdTitle, meta.title || meta.mdTitle || '');
-    safeSet(mdFrom, meta.from || meta.sender || meta.mdFrom || '');
-    safeSet(mdTo, meta.to || meta.receiver || meta.mdTo || '');
-    safeSet(mdPlace, meta.place || meta.sent_place || meta.mdPlace || '');
-    safeSet(mdDate, meta.date || meta.when || meta.mdDate || '');
-    safeSet(mdType, meta.type || meta.docType || meta.mdType || '');
+    safeSet(mdTitle, meta.subject || meta.title || '');
+    safeSet(mdFrom, meta.author_name || meta.from || '');
+    safeSet(mdTo, meta.recipient_name || meta.to || '');
+    safeSet(mdPlace, meta.place_label || meta.place || '');
+    safeSet(mdDate, meta.date || meta.when || '');
+    safeSet(mdType, meta.type || meta.doc_type || '');
   } else {
     const letterInfo = document.getElementById('letter-info');
     const t = letterInfo?.querySelector('.letter-title')?.textContent || '';
@@ -721,7 +713,7 @@ async function renderMetadataPanel(stem, fileParamXml) {
     safeSet(mdType, '');
   }
 
-  const xmlFile = fileParamXml.endsWith('.xml') ? fileParamXml : `${stem}.xml`;
+  const xmlFile = fileNameXml && fileNameXml.endsWith('.xml') ? fileNameXml : `${stem}.xml`;
   setDownloadLink(dlXml, BASE_XML_PATH + xmlFile, 'Download TEI XML');
   setDownloadLink(dlJsonld, BASE_RDF_JSON_PATH + stem + '.json', 'Download JSON-LD');
   setDownloadLink(dlTtl, BASE_RDF_TTL_PATH + stem + '.ttl', 'Download TTL');

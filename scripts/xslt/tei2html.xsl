@@ -2,17 +2,15 @@
 <xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:tei="http://www.tei-c.org/ns/1.0"
-                exclude-result-prefixes="tei">
+                xmlns:xml="http://www.w3.org/XML/1998/namespace"
+                exclude-result-prefixes="tei xml">
     
     <xsl:output method="html" encoding="UTF-8" indent="yes"/>
-    <xsl:strip-space elements="*"/>
     
-    <!-- receives the source XML filename (e.g., CV-23.xml) -->
+    <xsl:key name="handById" match="tei:handNote" use="@xml:id"/>
+    
     <xsl:param name="sourceFile" select="''"/>
     
-    <!-- =========================
-         Root: full HTML page
-         ========================== -->
     <xsl:template match="/">
         <html lang="pt-BR">
             <head>
@@ -27,7 +25,6 @@
             <body>
                 <xsl:attribute name="class">vd-viewer</xsl:attribute>
                 
-                <!-- bind TEI source filename for viewer.js (no querystring required) -->
                 <xsl:if test="string-length(normalize-space($sourceFile)) &gt; 0">
                     <xsl:attribute name="data-file">
                         <xsl:value-of select="normalize-space($sourceFile)"/>
@@ -60,9 +57,42 @@
         </html>
     </xsl:template>
     
-    <!-- =========================
-         Block structure
-         ========================== -->
+    <xsl:template name="hand-label">
+        <xsl:param name="ref"/>
+        
+        <xsl:variable name="id">
+            <xsl:choose>
+                <xsl:when test="starts-with($ref,'#')">
+                    <xsl:value-of select="substring($ref,2)"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="$ref"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        
+        <xsl:variable name="hn" select="key('handById',$id)[1]"/>
+        
+        <xsl:choose>
+            <xsl:when test="$hn and normalize-space(string($hn/tei:persName[1])) != ''">
+                <xsl:value-of select="normalize-space(string($hn/tei:persName[1]))"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="$id"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template name="note-hand-prefix">
+        <xsl:if test="@hand">
+            <div class="tei-handshift">
+                <xsl:text>Letra de </xsl:text>
+                <xsl:call-template name="hand-label">
+                    <xsl:with-param name="ref" select="@hand"/>
+                </xsl:call-template>
+            </div>
+        </xsl:if>
+    </xsl:template>
     
     <xsl:template match="tei:div">
         <div class="tei-div">
@@ -101,10 +131,6 @@
         </div>
     </xsl:template>
     
-    <!-- =========================
-         Lists
-         ========================== -->
-    
     <xsl:template match="tei:list">
         <ul class="tei-list">
             <xsl:apply-templates/>
@@ -114,10 +140,6 @@
     <xsl:template match="tei:item">
         <li><xsl:apply-templates/></li>
     </xsl:template>
-    
-    <!-- =========================
-         Tables
-         ========================== -->
     
     <xsl:template match="tei:table">
         <table class="tei-table">
@@ -135,38 +157,35 @@
         <td><xsl:apply-templates/></td>
     </xsl:template>
     
-    <!-- =========================
-         Notes / endorsements / hand
-         ========================== -->
-    
     <xsl:template match="tei:note[@type='endorsement']">
         <div class="tei-endorsement">
+            <xsl:call-template name="note-hand-prefix"/>
             <xsl:apply-templates/>
         </div>
     </xsl:template>
     
     <xsl:template match="tei:note[@type='hand']">
         <span class="tei-note-hand">
+            <xsl:call-template name="note-hand-prefix"/>
             <xsl:apply-templates/>
         </span>
     </xsl:template>
     
     <xsl:template match="tei:note[not(@type='endorsement') and not(@type='hand')]">
         <div class="tei-note">
+            <xsl:call-template name="note-hand-prefix"/>
             <xsl:apply-templates/>
         </div>
     </xsl:template>
     
     <xsl:template match="tei:handShift">
         <div class="tei-handshift">
-            <xsl:text>Letra: </xsl:text>
-            <xsl:value-of select="@new"/>
+            <xsl:text>Letra de </xsl:text>
+            <xsl:call-template name="hand-label">
+                <xsl:with-param name="ref" select="@new"/>
+            </xsl:call-template>
         </div>
     </xsl:template>
-    
-    <!-- =========================
-         Inline / semantic
-         ========================== -->
     
     <xsl:template match="tei:choice">
         <xsl:choose>
@@ -187,17 +206,12 @@
     </xsl:template>
     
     <xsl:template match="tei:pb">
-        <span class="page-break">
-            <xsl:text>[</xsl:text>
-            <xsl:value-of select="@n"/>
-            <xsl:text>]</xsl:text>
-        </span>
+        <!-- Hide page/surface markers in reading view -->
     </xsl:template>
     
     <xsl:template match="tei:seg[@type='folio']">
-        <span class="tei-folio">
-            <xsl:apply-templates/>
-        </span>
+        <!-- Hide folio seg in reading view -->
+        <xsl:apply-templates/>
     </xsl:template>
     
     <xsl:template match="tei:persName|tei:placeName|tei:orgName">
@@ -226,9 +240,19 @@
         <br/>
     </xsl:template>
     
-    <!-- =========================
-         Whitespace-safe text output
-         ========================== -->
+    <!-- ===== Whitespace handling (fix for choice+choice collapsing) ===== -->
+    <xsl:template match="text()[normalize-space(.)='']">
+        <xsl:choose>
+            <!-- inside text-flow containers: keep ONE space only when it is between nodes -->
+            <xsl:when test="parent::tei:p or parent::tei:head or parent::tei:l or parent::tei:note or parent::tei:ab or parent::tei:seg">
+                <xsl:if test="preceding-sibling::node() and following-sibling::node()">
+                    <xsl:text> </xsl:text>
+                </xsl:if>
+            </xsl:when>
+            <!-- otherwise: drop indentation whitespace -->
+            <xsl:otherwise/>
+        </xsl:choose>
+    </xsl:template>
     
     <xsl:template match="text()">
         <xsl:value-of select="."/>
