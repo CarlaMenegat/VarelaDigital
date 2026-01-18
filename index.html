@@ -110,41 +110,40 @@
         <h2>Domain and corpus</h2>
 
         <p>
-          The project focuses on nineteenth-century political correspondence from
-          Rio Grande do Sul in a context of war and state-building.
-          The pilot set currently covers the documents of the Varela Collection
-          published in the <em>Anais</em> (Volume II), including letters and related items.
+          The Farroupilha Revolution (1835–1845) was one of the longest and most complex armed conflicts in
+          nineteenth-century Brazil. Far from a homogeneous or isolated uprising, it unfolded within a broader
+          South American context marked by civil wars, fragile state formation, and intense political negotiation
+          across borders. In the southernmost province of the Brazilian Empire, competing projects of autonomy,
+          federalism, and political legitimacy intersected with military mobilization and everyday governance.
         </p>
-
-        <ul class="home-bullets">
-          <li><strong>Temporal scope:</strong> 1835–1845 (Farroupilha Revolution)</li>
-          <li><strong>Document type:</strong> correspondence and related administrative texts</li>
-          <li><strong>Primary source:</strong> published transcription in the <em>Anais</em> (Arquivo Histórico do RS)</li>
-        </ul>
-      </section>
-
-      <!-- 3) Archive location (simple map) -->
-      <section class="home-box home-box--archive">
-        <h2>Archive</h2>
 
         <p>
-          The Varela Collection is preserved by the <strong>Arquivo Histórico do Rio Grande do Sul</strong> (Porto Alegre, Brazil).
-          The map below indicates the location of the institution that holds the collection.
+          Rather than approaching the conflict solely through institutional or military narratives, <em>Varela Digital</em>
+          adopts correspondence as a privileged historical source for understanding the Farroupilha Revolution.
+          Letters reveal how political authority, military command, family ties, and personal trust were articulated
+          in practice, often under conditions of uncertainty, mobility, and territorial fragmentation. The domain
+          of this project is therefore not only the revolution as an event, but the dense web of social, political,
+          and administrative relations that sustained it over a decade.
         </p>
 
-        <div class="home-map">
-          <!-- Replace the src with the embed URL you want (Google Maps or OpenStreetMap). -->
-          <iframe
-            title="Arquivo Histórico do Rio Grande do Sul — location map"
-            src="PASTE_YOUR_MAP_EMBED_URL_HERE"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            allowfullscreen
-          ></iframe>
-        </div>
+        <p>
+          The corpus of <em>Varela Digital</em> is drawn from the Varela Collection, a documentary set formed in the
+          nineteenth century and later incorporated into the holdings of the Arquivo Histórico do Rio Grande do Sul.
+          The collection is composed predominantly of personal and administrative correspondence exchanged among
+          political leaders, military officers, civil authorities, and family members during the Farroupilha period.
+          These documents offer a privileged perspective on both high-level decision-making and the everyday
+          management of war, territory, and social relations.
+        </p>
 
-        <p class="home-map-caption mb-0">
-          <strong>Note:</strong> circulation maps (send/receive places) and network visualisations will be presented in a dedicated section of the website (work in progress).
+        <p>
+          The pilot corpus is based on the published edition of the Varela Collection in the
+          <em>Anais do Arquivo Histórico do Rio Grande do Sul</em>. The project begins with Volume II of the
+          <em>Anais</em>, as this is the first volume to include documents from the Varela Collection itself.
+          Although later volumes expand and complement the set, Volume II constitutes the earliest systematic
+          publication of these materials and provides a coherent starting point for a digital scholarly edition.
+          Working from this printed edition allows the project to address both the editorial legacy of the
+          <em>Anais</em> and the possibilities of re-encoding, modeling, and recontextualizing the documents
+          within a digital environment.
         </p>
       </section>
 
@@ -153,32 +152,76 @@
         <h2>What you can explore</h2>
 
         <ul class="home-bullets">
-          <li>Transcriptions of letters and related documents</li>
-          <li>Correspondence metadata (sender, recipient, place, date)</li>
-          <li>Named entities and semantic relations extracted from the texts</li>
-          <li>A transparent workflow from TEI to HTML and RDF</li>
+          <li>
+            <strong>Read the collection in sequence:</strong>
+            open the Viewer and navigate the documents following the order of the collection.
+          </li>
+
+          <li>
+            <strong>Browse indexes:</strong>
+            access document lists by sender, recipient, place and date of sending, document ID,
+            and—later—by mentioned people and places.
+          </li>
+
+          <li>
+            <strong>Project documentation:</strong>
+            consult the editorial workflow, encoding decisions, and data modeling choices
+            underlying the digital edition.
+          </li>
+
+          <li>
+            <strong>Historical context:</strong>
+            read an expanded introduction to the Farroupilha Revolution and to the formation
+            of the Varela Collection.
+          </li>
         </ul>
 
         <div class="home-actions">
-          <a href="assets/html/letters-index.html" class="btn btn-outline-secondary">
-            Browse the Documents
-          </a>
-
-          <a href="assets/html/viewer.html" class="btn btn-outline-secondary">
+          <a href="assets/html/viewer.html?file=CV-1.xml" class="btn btn-outline-secondary">
             Open the Viewer
           </a>
 
-          <a href="assets/html/documentation.html" class="btn btn-outline-secondary">
-            Documentation Overview
+          <a href="assets/html/indexes.html" class="btn btn-outline-secondary">
+            Explore Indexes
           </a>
 
-          <a href="assets/html/hrao.html" class="btn btn-outline-secondary">
-            HRAO Ontology
+          <a href="assets/html/documentation.html" class="btn btn-outline-secondary">
+            Project Documentation
+          </a>
+
+          <a href="assets/html/historical_context.html" class="btn btn-outline-secondary">
+            Historical Context
           </a>
         </div>
       </section>
-
     </main>
+
+    <!-- Archive location (Google Maps embed) -->
+      <section class="home-box home-box--map" aria-label="Archive location">
+        <h2>Archive location</h2>
+
+        <div class="home-map-embed">
+          <iframe
+            title="Arquivo Histórico do Rio Grande do Sul — Memorial do Rio Grande do Sul"
+            src="https://www.google.com/maps?q=Arquivo+Hist%C3%B3rico+do+Rio+Grande+do+Sul,+Pra%C3%A7a+da+Alf%C3%A2ndega,+Porto+Alegre&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <p class="home-map-caption mb-0">
+          The primary sources used in this project are preserved at the
+          <a href="https://cultura.rs.gov.br/sobre-ahrs" target="_blank" rel="noopener">
+            Arquivo Histórico do Rio Grande do Sul
+          </a>,
+          an institution created in the early twentieth century to safeguard the documentary heritage of the state.
+          The archive is located in the Memorial do Rio Grande do Sul, in Praça da Alfândega,
+          at the historical centre of Porto Alegre, where it provides public access to manuscript collections,
+          printed sources, and to the digitised volumes of the <em>Anais do Arquivo Histórico do Rio Grande do Sul</em>,
+          which constitute the basis of this digital edition.
+        </p>
+      </section>
 
     <!-- Footer -->
     <footer class="home-footer text-center py-4 mt-5">
