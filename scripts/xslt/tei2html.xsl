@@ -8,7 +8,6 @@
     <xsl:output method="html" encoding="UTF-8" indent="yes"/>
     
     <xsl:key name="handById" match="tei:handNote" use="@xml:id"/>
-    
     <xsl:param name="sourceFile" select="''"/>
     
     <xsl:template match="/">
@@ -57,6 +56,7 @@
         </html>
     </xsl:template>
     
+    <!-- ===== Hand label helpers ===== -->
     <xsl:template name="hand-label">
         <xsl:param name="ref"/>
         
@@ -94,6 +94,7 @@
         </xsl:if>
     </xsl:template>
     
+    <!-- ===== Block structure ===== -->
     <xsl:template match="tei:div">
         <div class="tei-div">
             <xsl:apply-templates/>
@@ -131,6 +132,7 @@
         </div>
     </xsl:template>
     
+    <!-- ===== Lists ===== -->
     <xsl:template match="tei:list">
         <ul class="tei-list">
             <xsl:apply-templates/>
@@ -141,6 +143,7 @@
         <li><xsl:apply-templates/></li>
     </xsl:template>
     
+    <!-- ===== Tables ===== -->
     <xsl:template match="tei:table">
         <table class="tei-table">
             <tbody>
@@ -157,6 +160,24 @@
         <td><xsl:apply-templates/></td>
     </xsl:template>
     
+    <!-- ===== Notes ===== -->
+    
+    <!-- Editorial: block when possible, inline inside text flow -->
+    <xsl:template match="tei:note[@type='editorial']">
+        <xsl:choose>
+            <xsl:when test="ancestor::tei:p or ancestor::tei:head or ancestor::tei:l or ancestor::tei:seg or ancestor::tei:ab">
+                <span class="tei-note tei-note-editorial tei-note-editorial-inline">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:when>
+            <xsl:otherwise>
+                <div class="tei-note tei-note-editorial">
+                    <xsl:apply-templates/>
+                </div>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
     <xsl:template match="tei:note[@type='endorsement']">
         <div class="tei-endorsement">
             <xsl:call-template name="note-hand-prefix"/>
@@ -171,7 +192,8 @@
         </span>
     </xsl:template>
     
-    <xsl:template match="tei:note[not(@type='endorsement') and not(@type='hand')]">
+    <!-- Generic note: but exclude endorsement, hand, editorial -->
+    <xsl:template match="tei:note[not(@type='endorsement') and not(@type='hand') and not(@type='editorial')]">
         <div class="tei-note">
             <xsl:call-template name="note-hand-prefix"/>
             <xsl:apply-templates/>
@@ -187,6 +209,7 @@
         </div>
     </xsl:template>
     
+    <!-- ===== Inline / semantic ===== -->
     <xsl:template match="tei:choice">
         <xsl:choose>
             <xsl:when test="tei:expan">
@@ -205,14 +228,11 @@
         <xsl:apply-templates/>
     </xsl:template>
     
-    <xsl:template match="tei:pb">
-        <!-- Hide page/surface markers in reading view -->
-    </xsl:template>
+    <!-- Hide page/surface markers -->
+    <xsl:template match="tei:pb"/>
     
-    <xsl:template match="tei:seg[@type='folio']">
-        <!-- Hide folio seg in reading view -->
-        <xsl:apply-templates/>
-    </xsl:template>
+    <!-- Hide folio seg markers (don’t output anything) -->
+    <xsl:template match="tei:seg[@type='folio']"/>
     
     <xsl:template match="tei:persName|tei:placeName|tei:orgName">
         <span class="annotated">
@@ -240,16 +260,14 @@
         <br/>
     </xsl:template>
     
-    <!-- ===== Whitespace handling (fix for choice+choice collapsing) ===== -->
+    <!-- ===== Whitespace handling (keep a single inter-node space in text-flow containers) ===== -->
     <xsl:template match="text()[normalize-space(.)='']">
         <xsl:choose>
-            <!-- inside text-flow containers: keep ONE space only when it is between nodes -->
             <xsl:when test="parent::tei:p or parent::tei:head or parent::tei:l or parent::tei:note or parent::tei:ab or parent::tei:seg">
                 <xsl:if test="preceding-sibling::node() and following-sibling::node()">
                     <xsl:text> </xsl:text>
                 </xsl:if>
             </xsl:when>
-            <!-- otherwise: drop indentation whitespace -->
             <xsl:otherwise/>
         </xsl:choose>
     </xsl:template>

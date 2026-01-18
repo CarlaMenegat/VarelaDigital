@@ -44,7 +44,6 @@
               </ul>
             </li>
 
-            <!-- Documentation dropdown -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="docsDropdown"
                  role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -62,14 +61,13 @@
       </div>
     </nav>
 
-    <!-- Context image -->
+    <!-- Context image (UNCHANGED) -->
     <section class="context-image">
       <img
         src="assets/images/Carga_de_Cavalaria_by_Guilherme_Litran.jpg"
         alt="Illustration of a cavalry charge during the Farroupilha Revolution"
       />
 
-      <!-- Caption styled like documentation figure captions -->
       <figure class="home-figure-caption">
         <figcaption>
           <strong>Figure.</strong> Cavalry Charge, oil on canvas, Guilherme Litran, 1893.
@@ -80,32 +78,85 @@
     <!-- Main textual content -->
     <main class="page-text home-main">
 
-      <!-- Intro box (darker bordeaux tone via CSS) -->
+      <!-- 1) Project -->
       <section class="home-box home-box--intro">
+        <h1 class="home-title">Varela Digital</h1>
+
         <p>
-          <em>Varela Digital</em> is a digital scholarly edition and knowledge website
-          dedicated to the correspondence preserved in the Varela Collection,
-          documenting political, military, and social networks during the
-          Farroupilha Revolution (1835–1845).
+          <em>Varela Digital</em> is a digital scholarly edition and knowledge website dedicated to the correspondence preserved in the
+          Varela Collection. The project focuses on political, military, and social communication during the Farroupilha Revolution
+          (1835–1845), using letters and related documents as evidence for reconstructing historical actors, places, and relationships.
+        </p>
+
+        <p>
+          The pilot corpus is based on the documents published in Volume II of the <em>Anais do Arquivo Histórico do Rio Grande do Sul</em>.
+          In this edition, each document is encoded in TEI–XML with consistent editorial practices, including the expansion of abbreviations,
+          the marking of named entities (people, places, organizations, events, dates), and the explicit representation of editorial
+          interventions when they are necessary to clarify the reading.
         </p>
 
         <p class="mb-0">
-          The pilot corpus is based on the letters published in Volume II of the
-          <em>Anais do Arquivo Histórico do Rio Grande do Sul</em>. All documents are
-          encoded in TEI–XML and enriched through structured metadata, standoff
-          annotation, and linked data modeling.
+          To support access and analysis, the project adopts a reproducible workflow that transforms TEI into web-readable HTML via XSLT,
+          and progressively aligns documentary evidence with structured metadata and linked data outputs (RDF / JSON-LD).
+          The website’s viewer presents a reading-oriented transcription and an AI-assisted English translation intended exclusively as an
+          accessibility aid, while standoff files centralize authority entries for entities so that references can be explored consistently
+          across the corpus. In later stages, the same model will enable spatial and network-based visualizations of correspondence flows
+          and historical relations grounded in the source texts.
         </p>
       </section>
 
-      <!-- Explore box -->
+      <!-- 2) Domain -->
+      <section class="home-box home-box--domain">
+        <h2>Domain and corpus</h2>
+
+        <p>
+          The project focuses on nineteenth-century political correspondence from
+          Rio Grande do Sul in a context of war and state-building.
+          The pilot set currently covers the documents of the Varela Collection
+          published in the <em>Anais</em> (Volume II), including letters and related items.
+        </p>
+
+        <ul class="home-bullets">
+          <li><strong>Temporal scope:</strong> 1835–1845 (Farroupilha Revolution)</li>
+          <li><strong>Document type:</strong> correspondence and related administrative texts</li>
+          <li><strong>Primary source:</strong> published transcription in the <em>Anais</em> (Arquivo Histórico do RS)</li>
+        </ul>
+      </section>
+
+      <!-- 3) Archive location (simple map) -->
+      <section class="home-box home-box--archive">
+        <h2>Archive</h2>
+
+        <p>
+          The Varela Collection is preserved by the <strong>Arquivo Histórico do Rio Grande do Sul</strong> (Porto Alegre, Brazil).
+          The map below indicates the location of the institution that holds the collection.
+        </p>
+
+        <div class="home-map">
+          <!-- Replace the src with the embed URL you want (Google Maps or OpenStreetMap). -->
+          <iframe
+            title="Arquivo Histórico do Rio Grande do Sul — location map"
+            src="PASTE_YOUR_MAP_EMBED_URL_HERE"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <p class="home-map-caption mb-0">
+          <strong>Note:</strong> circulation maps (send/receive places) and network visualisations will be presented in a dedicated section of the website (work in progress).
+        </p>
+      </section>
+
+      <!-- Explore -->
       <section class="home-box home-box--explore">
         <h2>What you can explore</h2>
 
-        <ul>
-          <li>Critical transcriptions of letters and related documents</li>
-          <li>Rich correspondence metadata (sender, addressee, place, date)</li>
+        <ul class="home-bullets">
+          <li>Transcriptions of letters and related documents</li>
+          <li>Correspondence metadata (sender, recipient, place, date)</li>
           <li>Named entities and semantic relations extracted from the texts</li>
-          <li>A reproducible editorial workflow from TEI to HTML and RDF</li>
+          <li>A transparent workflow from TEI to HTML and RDF</li>
         </ul>
 
         <div class="home-actions">
@@ -117,15 +168,19 @@
             Open the Viewer
           </a>
 
-          <a href="assets/html/project_discussion.html" class="btn btn-outline-secondary">
-            Read the Editorial Framework
+          <a href="assets/html/documentation.html" class="btn btn-outline-secondary">
+            Documentation Overview
+          </a>
+
+          <a href="assets/html/hrao.html" class="btn btn-outline-secondary">
+            HRAO Ontology
           </a>
         </div>
       </section>
 
     </main>
 
-    <!-- Footer (same structure as documentation/data_model; includes Documentation link) -->
+    <!-- Footer -->
     <footer class="home-footer text-center py-4 mt-5">
       <p>
         Developed by <strong>Carla Menegat</strong> |

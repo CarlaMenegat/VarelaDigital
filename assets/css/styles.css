@@ -308,6 +308,26 @@ body.annotations-open .left-column {
   white-space: nowrap;
 }
 
+.tei-note-editorial {
+  margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
+  padding: 0.55rem 0.75rem;
+  border-left: 3px solid rgba(47, 47, 47, 0.35);
+  background: rgba(47, 47, 47, 0.06);
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.tei-note-editorial-inline {
+  display: inline-block;
+  margin: 0 0.2rem;
+  padding: 0.05rem 0.35rem;
+  border: 1px solid rgba(47, 47, 47, 0.25);
+  background: rgba(47, 47, 47, 0.06);
+  border-radius: 6px;
+  font-size: 0.85em;
+}
+
 /* =========================
    handShift rendering
 ========================= */
