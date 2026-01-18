@@ -16,13 +16,19 @@
   <body class="homepage">
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top vd-navbar">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Varela Digital</a>
+        <a class="navbar-brand" href="./index.html">Varela Digital</a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav" aria-controls="navbarNav"
-                aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -30,29 +36,50 @@
           <ul class="navbar-nav ms-auto">
 
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">Homepage</a>
+              <a class="nav-link" href="./index.html">Homepage</a>
             </li>
 
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="lettersDropdown"
-                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Documents
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="collectionDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                The Collection
               </a>
-              <ul class="dropdown-menu" aria-labelledby="lettersDropdown">
-                <li><a class="dropdown-item" href="assets/html/letters-index.html">Index</a></li>
-                <li><a class="dropdown-item" href="assets/html/viewer.html">Viewer</a></li>
+
+              <ul class="dropdown-menu" aria-labelledby="collectionDropdown">
+                <li><a class="dropdown-item" href="./assets/html/letters-index.html">Index</a></li>
+                <li><a class="dropdown-item" href="./assets/html/viewer.html?file=CV-1.xml">Viewer</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="./assets/html/indexes.html">Explore Indexes</a></li>
               </ul>
             </li>
 
+            <!-- Historical Context as a top-level link -->
+            <li class="nav-item">
+              <a class="nav-link" href="./assets/html/historical_context.html">Historical Context</a>
+            </li>
+
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="docsDropdown"
-                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="docsDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 Documentation
               </a>
+
               <ul class="dropdown-menu" aria-labelledby="docsDropdown">
-                <li><a class="dropdown-item" href="assets/html/documentation.html">Overview</a></li>
-                <li><a class="dropdown-item" href="assets/html/data_model.html">Data Model</a></li>
-                <li><a class="dropdown-item" href="assets/html/project_discussion.html">Theoretical Framework</a></li>
+                <li><a class="dropdown-item" href="./assets/html/documentation.html">Overview</a></li>
+                <li><a class="dropdown-item" href="./assets/html/data_model.html">Data Model</a></li>
+                <!-- Historical Context REMOVED daqui -->
               </ul>
             </li>
 
@@ -176,7 +203,7 @@
           </li>
         </ul>
 
-        <div class="home-actions">
+        <div class="home-actions home-actions--primary">
           <a href="assets/html/viewer.html?file=CV-1.xml" class="btn btn-outline-secondary">
             Open the Viewer
           </a>
@@ -195,7 +222,8 @@
         </div>
       </section>
     </main>
-
+    <br/>
+    
     <!-- Archive location (Google Maps embed) -->
       <section class="home-box home-box--map" aria-label="Archive location">
         <h2>Archive location</h2>

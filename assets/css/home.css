@@ -77,7 +77,7 @@
 
 /* Explore: final card */
 .home-box--explore{
-  background: #ffffff;
+  background: rgba(94, 18, 26, 0.16);
   margin-bottom: 0;
 }
 
@@ -104,6 +104,54 @@
   gap: 0.75rem;
   flex-wrap: wrap;
   margin-top: 0.25rem;
+}
+
+/* =========================================================
+   HOME — Make "What you can explore" buttons more visible
+   ========================================================= */
+
+.home-actions--primary .btn {
+  font-size: 1rem;
+  font-weight: 400;
+
+  padding: 0.55rem 1.1rem;
+  border-radius: 12px;
+
+  /* stronger outline + subtle fill */
+  color: #5E121A;
+  border: 2px solid rgba(94, 18, 26, 0.55);
+  background: rgba(94, 18, 26, 0.06);
+
+  transition: all 0.18s ease-in-out;
+}
+
+/* hover */
+.home-actions--primary .btn:hover {
+  color: #ffffff;
+  background: #5E121A;
+  border-color: #5E121A;
+  transform: translateY(-1px);
+}
+
+/* keyboard focus */
+.home-actions--primary .btn:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 0.18rem rgba(94, 18, 26, 0.25);
+}
+
+/* active press */
+.home-actions--primary .btn:active {
+  transform: translateY(0);
+  background: #4a0e14;
+  border-color: #4a0e14;
+}
+
+/* spacing in the group */
+.home-actions--primary {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 0.9rem;
 }
 
 /* =========================

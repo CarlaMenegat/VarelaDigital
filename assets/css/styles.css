@@ -26,24 +26,85 @@ html, body {
 }
 
 /* =========================
-   NAVBAR
+   NAVBAR — global (all pages)
 ========================= */
 
-.navbar {
+.vd-navbar{
   background-color: rgba(122, 31, 41, 0.75) !important;
   backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-bottom: 1px solid rgba(196,179,178,0.45);
+  overflow: visible !important;
 }
 
-.navbar-brand {
+.vd-navbar .navbar-brand{
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-size: 1.6rem;
   color: #5E121A !important;
+  letter-spacing: -0.01em;
 }
 
-.navbar-nav .nav-link {
-  color: #5E121A !important;
+.vd-navbar .navbar-nav .nav-link{
   font-family: 'Playfair Display', serif;
+  color: rgba(94, 18, 26, 0.92) !important;
+  font-weight: 500;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+}
+
+/* Active */
+.vd-navbar .navbar-nav .nav-link.active{
+  color: #5E121A !important;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+/* Hover */
+.vd-navbar .navbar-nav .nav-link:hover{
+  color: #5E121A !important;
+}
+
+/* Toggler icon visibility on tinted background */
+.vd-navbar .navbar-toggler{
+  border-color: rgba(94, 18, 26, 0.35);
+}
+.vd-navbar .navbar-toggler:focus{
+  box-shadow: 0 0 0 0.15rem rgba(94, 18, 26, 0.18);
+}
+
+/* Dropdown menu styling */
+.vd-navbar .dropdown-menu{
+  font-family: 'Playfair Display', serif;
+  background: rgba(248, 245, 239, 0.98);
+  border: 1px solid rgba(196,179,178,0.85);
+  border-radius: 12px;
+  padding: 0.35rem;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+  position: absolute;
+  z-index: 2000;
+}
+
+/* Dropdown items */
+.vd-navbar .dropdown-item{
+  color: rgba(94, 18, 26, 0.88);
+  border-radius: 10px;
+  padding: 0.5rem 0.75rem;
+  font-weight: 500;
+}
+
+/* Hover/focus */
+.vd-navbar .dropdown-item:hover,
+.vd-navbar .dropdown-item:focus{
+  color: #5E121A;
+  background: rgba(94, 18, 26, 0.10);
+}
+
+/* Divider */
+.vd-navbar .dropdown-divider{
+  border-top: 1px solid rgba(196,179,178,0.6);
+  margin: 0.35rem 0;
 }
 
 /* =========================
