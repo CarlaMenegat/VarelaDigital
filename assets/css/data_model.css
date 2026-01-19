@@ -209,9 +209,10 @@ figure.model-figure.tall img {
   }
 }
 
-/* ---- Footer: more separation + calmer typography ---- */
+/* ---- Footer ---- */
 .vd-footer {
   margin-top: 3rem;
+  padding-bottom: 3rem;
   padding-top: 1.6rem;
   border-top: 1px solid rgba(196,179,178,0.75);
   text-align: center;

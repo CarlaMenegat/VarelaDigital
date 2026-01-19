@@ -504,16 +504,17 @@ body.annotations-open .left-column {
    FOOTER (VD standard)
 ========================= */
 
+/* ---- Footer ---- */
 .vd-footer {
   margin-top: 3rem;
-  padding: 1.6rem 1rem;
+  padding-top: 1.6rem;
   border-top: 1px solid rgba(196,179,178,0.75);
   text-align: center;
-  color: #2f2f2f;
+  color: var(--vd-ink);
 }
 
 .vd-footer a {
-  color: #5E121A;
+  color: var(--vd-accent);
   text-decoration: none;
   font-weight: 600;
 }
