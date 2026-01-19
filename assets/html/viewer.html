@@ -54,9 +54,8 @@
 
                         <ul class="dropdown-menu" aria-labelledby="collectionDropdown">
                             <li><a class="dropdown-item" href="letters-index.html">Index</a></li>
-                            <li><a class="dropdown-item" href="viewer.html?file=CV-1.xml">Viewer</a></li>
                             <li><hr class="dropdown-divider" /></li>
-                            <li><a class="dropdown-item" href="indexes.html">Explore Indexes</a></li>
+                            <li><a class="dropdown-item" href="viewer.html?file=CV-1.xml">Viewer</a></li>
                         </ul>
                     </li>
 
@@ -78,7 +77,9 @@
 
                         <ul class="dropdown-menu" aria-labelledby="docsDropdown">
                             <li><a class="dropdown-item" href="documentation.html">Overview</a></li>
+                            <li><hr class="dropdown-divider" /></li>
                             <li><a class="dropdown-item" href="data_model.html">Data Model</a></li>
+                            <li><hr class="dropdown-divider" /></li>
                             <li><a class="dropdown-item" href="hrao.html">HRAO Ontology</a></li>
                         </ul>
                     </li>
@@ -134,17 +135,6 @@
                             </button>
                         </div>
 
-                        <!-- Surface selector 
-                        <div class="surface-selector-wrapper mb-2">
-                            <label for="surface-selector" class="form-label mb-0">
-                                Surface
-                            </label>
-                            <select
-                                id="surface-selector"
-                                class="form-select form-select-sm w-auto d-inline-block"
-                            ></select>
-                        </div>-->
-
                         <!-- Reading view -->
                         <div
                             id="transcription-reading"
@@ -159,29 +149,11 @@
                             data-view="translation">
                         </div>
 
-                        <!-- Encoded view 
-                        <div
-                            id="transcription-encoded"
-                            class="transcription-layer px-2 py-1 d-none"
-                            data-view="encoded"
-                        ></div>-->
-
-                        <!-- Diplomatic view 
-                        <div
-                            id="transcription-diplomatic"
-                            class="transcription-layer px-2 py-1 d-none"
-                            data-view="diplomatic"
-                        >
-                            <p class="text-muted small">
-                                Diplomatic transcription of the manuscripts will be implemented in a future phase of the project.
-                            </p>
-                        </div>-->
-
                     </div>
 
                 </div>
 
-                <!-- ANNOTATIONS COLUMN (hidden by default via CSS) -->
+                <!-- ANNOTATIONS COLUMN -->
                 <div class="annotations-column d-flex flex-column">
 
                     <div class="annotations-box" id="annotations-box">
