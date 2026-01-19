@@ -508,6 +508,7 @@ body.annotations-open .left-column {
 .vd-footer {
   margin-top: 3rem;
   padding-top: 1.6rem;
+  padding-bottom: 3rem;
   border-top: 1px solid rgba(196,179,178,0.75);
   text-align: center;
   color: var(--vd-ink);
