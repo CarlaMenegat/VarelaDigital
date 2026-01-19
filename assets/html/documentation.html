@@ -2,139 +2,242 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Documentation | Varela Digital</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Varela Digital — Documentation</title>
 
     <!-- Bootstrap -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
 
-    <!-- Project CSS (match the same paths used in data_model.html) -->
+    <!-- Global styles -->
     <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="stylesheet" href="../css/data_model.css" />
+
+    <!-- Page-specific styles -->
+    <link rel="stylesheet" href="../css/documentation.css" />
   </head>
 
   <body>
     <!-- Navbar (assets/html/*) -->
     <nav class="navbar navbar-expand-lg fixed-top vd-navbar">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../../index.html">Varela Digital</a>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html">Varela Digital</a>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+            <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="../../index.html">Homepage</a>
-            </li>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html">Homepage</a>
+                    </li>
 
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="collectionDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                The Collection
-              </a>
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="collectionDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            The Collection
+                        </a>
 
-              <ul class="dropdown-menu" aria-labelledby="collectionDropdown">
-                <li><a class="dropdown-item" href="letters-index.html">Index</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="viewer.html?file=CV-1.xml">Viewer</a></li>
-              </ul>
-            </li>
+                        <ul class="dropdown-menu" aria-labelledby="collectionDropdown">
+                            <li><a class="dropdown-item" href="letters-index.html">Index</a></li>
+                            <li><hr class="dropdown-divider" /></li>
+                            <li><a class="dropdown-item" href="viewer.html?file=CV-1.xml">Viewer</a></li>
+                        </ul>
+                    </li>
 
-            <!-- Historical Context as top-level -->
-            <li class="nav-item">
-              <a class="nav-link" href="historical_context.html">Historical Context</a>
-            </li>
+                    <!-- Historical Context as top-level -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="historical_context.html">Historical Context</a>
+                    </li>
 
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="docsDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Documentation
-              </a>
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="docsDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            Documentation
+                        </a>
 
-              <ul class="dropdown-menu" aria-labelledby="docsDropdown">
-                <li><a class="dropdown-item" href="documentation.html">Overview</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="data_model.html">Data Model</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="hrao.html">HRAO Ontology</a></li>
-              </ul>
-            </li>
-          </ul>
+                        <ul class="dropdown-menu" aria-labelledby="docsDropdown">
+                            <li><a class="dropdown-item" href="documentation.html">Overview</a></li>
+                            <li><hr class="dropdown-divider" /></li>
+                            <li><a class="dropdown-item" href="project_discussion.html">Project Discussion</a></li>
+                            <li><hr class="dropdown-divider" /></li>
+                            <li><a class="dropdown-item" href="data_model.html">Data Model</a></li>
+                            <li><hr class="dropdown-divider" /></li>
+                            <li><a class="dropdown-item" href="hrao.html">HRAO Ontology</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
 
-    <!-- CONTENT (use the same page wrapper as data_model.html) -->
-    <main class="vd-page" style="padding-top: 110px">
-      <h1>Documentation</h1>
+    <!-- Main -->
+    <main class="vd-page vd-doc-page" style="padding-top: 110px">
+      <header class="vd-doc-header">
+        <h1>Documentation</h1>
 
-      <p>
-        The documentation of the <em>Varela Digital</em> project describes the conceptual,
-        editorial, and semantic structures adopted to represent the Varela Collection as a
-        scholarly digital edition.
-      </p>
+        <p class="vd-lead">
+          This page describes how <em>Varela Digital</em> was built: editorial workflow, encoding practices, and
+          data modelling choices. It complements the <a href="historical_context.html">Historical Context</a> page
+          and supports the reuse and evaluation of the edition.
+        </p>
 
-      <p>
-        In particular, the project combines TEI XML encoding with a Knowledge Graph based on
-        RDF and JSON-LD in order to support cross-document analysis, interoperability, and the
-        explicit modelling of historical relations.
-      </p>
+        <div class="vd-quick-actions">
+          <a class="btn btn-outline-primary" href="viewer.html">Open the Viewer</a>
+          <a class="btn btn-outline-primary" href="letters-index.html">Explore Indexes</a>
+          <a class="btn btn-outline-primary" href="data_model.html">Data Model</a>
+          <a class="btn btn-outline-primary" href="project_discussion.html">Theoretical Framework</a>
+        </div>
+      </header>
 
-      <p>
-        The following section presents the Data Model, which formalises the core entities and
-        relationships that structure the corpus and enable semantic enrichment beyond
-        individual documents.
-      </p>
+      <section class="vd-card">
+        <h2>What this documentation covers</h2>
+        <ul class="vd-bullets">
+          <li><strong>Corpus and scope:</strong> the pilot selection (CV-1 to CV-300) and its rationale.</li>
+          <li><strong>Editorial workflow:</strong> how TEI files are produced, revised, and published.</li>
+          <li><strong>Encoding strategy:</strong> what is encoded in the documents vs. in the standoff files.</li>
+          <li><strong>Data modelling:</strong> how documents, people, places, and relations are represented.</li>
+          <li><strong>Outputs:</strong> TEI/XML, JSON-LD, and RDF/Turtle, plus planned visualizations.</li>
+        </ul>
+      </section>
 
-      <p>
-        In addition to the structural data model, the project defines a domain-specific
-        ontology (HRAO) to express historical relations extracted from the corpus.
-      </p>
+      <section class="vd-card">
+        <h2>Workflow at a glance</h2>
 
-      <!-- Simple, consistent call-to-action -->
-      <div class="mt-4 d-flex gap-3 flex-wrap">
-        <a href="data_model.html" class="btn btn-outline-primary">
-          View Data Model
-        </a>
+        <ol class="vd-steps">
+          <li>
+            <strong>Source text</strong> (printed transcriptions in the <em>Anais</em>) is curated into a pilot corpus
+            (CV-1 to CV-300).
+          </li>
+          <li>
+            <strong>TEI/XML encoding</strong> captures document structure and editorial features (dates, places, people, notes).
+          </li>
+          <li>
+            <strong>Standoff enrichment</strong> aggregates authority information (persons, places, institutions) and cross-document links.
+          </li>
+          <li>
+            <strong>Transformation pipeline</strong> generates HTML for reading and exports structured data (JSON-LD / RDF).
+          </li>
+          <li>
+            <strong>Exploration layer</strong> provides viewer navigation, indexes, and (future) maps/networks.
+          </li>
+        </ol>
 
-        <a href="hrao.html" class="btn btn-outline-primary">
-          View HRAO Ontology
-        </a>
-      </div>
+        <div class="vd-note">
+          <strong>Design principle:</strong> the edition is both a reading interface and a structured research dataset.
+          Modelling decisions follow historical questions (actors, institutions, circulation, and events) rather than purely technical convenience.
+        </div>
+      </section>
 
-      <!-- Footer (consistent with data_model.html + “Documentation” link kept here too) -->
+      <section class="vd-card">
+        <h2>Where to find details</h2>
+
+        <div class="vd-grid">
+          <a class="vd-tile" href="data_model.html">
+            <div class="vd-tile-title">Data Model</div>
+            <div class="vd-tile-text">
+              Conceptual entities (Document, Person, Place, Institution) and relations; how TEI maps to LOD outputs.
+            </div>
+          </a>
+
+          <a class="vd-tile" href="project_discussion.html">
+            <div class="vd-tile-title">Theoretical Framework</div>
+            <div class="vd-tile-text">
+              Editorial and DH background: semantic modelling, interpretative layers, and principles guiding the edition.
+            </div>
+          </a>
+
+          <a class="vd-tile" href="historical_context.html">
+            <div class="vd-tile-title">Historical Context</div>
+            <div class="vd-tile-text">
+              Background on the Farroupilha Revolution and the archival history of the Varela Collection.
+            </div>
+          </a>
+
+          <a class="vd-tile" href="letters-index.html">
+            <div class="vd-tile-title">Indexes</div>
+            <div class="vd-tile-text">
+              Browse documents by sender, recipient, place/date of sending, and document identifier (and later: mentioned people/places).
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="vd-card">
+        <h2>Data and reuse</h2>
+
+        <p>
+          The project publishes TEI/XML as the primary editorial format and provides machine-actionable exports
+          (JSON-LD and RDF/Turtle) to support reuse, querying, and future visualizations.
+          Source references remain anchored in the documentary units and editorial structure of the <em>Anais</em>.
+        </p>
+
+        <details class="vd-details">
+          <summary>Planned extensions</summary>
+          <div class="vd-details-body">
+            <ul class="vd-bullets">
+              <li>Expanded indexes (mentioned entities, roles, and relational browsing).</li>
+              <li>Geographic visualization of correspondence circulation.</li>
+              <li>Network visualization of people, institutions, and events across letters.</li>
+              <li>Integration of manuscript images and a diplomatic transcription layer (future development).</li>
+            </ul>
+          </div>
+        </details>
+      </section>
+
+      <section class="vd-card">
+        <h2>Formal models and technical artefacts</h2>
+
+        <p>
+          The conceptual and semantic structures underlying <em>Varela Digital</em> are documented
+          in two complementary components, each presented in a dedicated page.
+          Together, they articulate how historical interpretation is translated into
+          interoperable data.
+        </p>
+
+        <!-- Simple, consistent call-to-action -->
+        <div class="mt-4 d-flex gap-3 flex-wrap">
+          <a href="data_model.html" class="btn btn-outline-primary">
+            View Data Model
+          </a>
+
+          <a href="hrao.html" class="btn btn-outline-primary">
+            View HRAO Ontology
+          </a>
+        </div>
+      </section>
+
+      <!-- Footer -->
       <footer class="vd-footer">
         <div class="footer-links">
           Developed by <strong>Carla Menegat</strong> |
           <a href="mailto:carla.menegat@studio.unibo.it">carla.menegat@studio.unibo.it</a> |
           <a href="https://github.com/CarlaMenegat" target="_blank" rel="noopener">GitHub</a> |
           Licensed under
-          <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> |
+          <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>
+          |
         </div>
 
         <div class="footer-small">
@@ -151,7 +254,6 @@
       </footer>
     </main>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

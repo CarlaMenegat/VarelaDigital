@@ -1,0 +1,247 @@
+/* =========================================================
+   Varela Digital — Documentation (Overview) page
+   File: /assets/css/documentation.css
+   ========================================================= */
+
+:root{
+  --vd-bg: #F8F5EF;
+  --vd-ink: #2f2f2f;
+  --vd-accent: #5E121A;
+  --vd-border: #C4B3B2;
+  --vd-card: #ffffff;
+  --vd-maxw: 1100px;
+}
+
+body{
+  background: var(--vd-bg);
+  color: var(--vd-ink);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+/* Keep dropdown visible above page content */
+.vd-navbar .dropdown-menu{
+  position: absolute;
+  z-index: 2000;
+}
+
+/* Page container */
+.vd-page.vd-doc-page{
+  max-width: var(--vd-maxw);
+  margin: 0 auto;
+  padding: 2.2rem 1.2rem 3rem;
+}
+
+.vd-doc-header{
+  margin-bottom: 1.25rem;
+}
+
+.vd-doc-page h1{
+  font-size: 2.35rem;
+  letter-spacing: -0.02em;
+  margin: 0.2rem 0 0.8rem;
+}
+
+.vd-doc-page h2{
+  font-size: 1.55rem;
+  font-weight: 650;
+  margin: 0 0 0.75rem;
+}
+
+.vd-lead{
+  max-width: 88ch;
+  margin: 0 0 1rem 0;
+  opacity: 0.95;
+}
+
+.vd-quick-actions{
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 0.8rem 0 0;
+}
+
+/* Cards */
+.vd-card{
+  background: var(--vd-card);
+  border: 1px solid rgba(196,179,178,0.85);
+  border-radius: 14px;
+  padding: 1.25rem 1.25rem;
+  margin: 0 auto 1.1rem auto;
+}
+
+/* Bullets + steps */
+.vd-bullets{
+  margin: 0.7rem 0 0 1.1rem;
+}
+
+.vd-bullets li{
+  margin: 0.35rem 0;
+  line-height: 1.45;
+}
+
+.vd-steps{
+  margin: 0.7rem 0 0 1.2rem;
+}
+
+.vd-steps li{
+  margin: 0.55rem 0;
+}
+
+.vd-note{
+  margin-top: 1rem;
+  padding: 0.9rem 1rem;
+  background: rgba(94, 18, 26, 0.06);
+  border: 1px solid rgba(196,179,178,0.85);
+  border-left: 6px solid var(--vd-accent);
+  border-radius: 12px;
+}
+
+/* Tiles grid */
+.vd-grid{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin-top: 0.2rem;
+}
+
+.vd-tile{
+  display: block;
+  padding: 1rem 1.05rem;
+  border: 1px solid rgba(196,179,178,0.85);
+  border-radius: 14px;
+  background: rgba(94, 18, 26, 0.05);
+  text-decoration: none;
+  transition: transform 0.16s ease, background 0.16s ease, border-color 0.16s ease;
+}
+
+.vd-tile:hover{
+  transform: translateY(-1px);
+  background: rgba(94, 18, 26, 0.08);
+  border-color: rgba(94, 18, 26, 0.35);
+}
+
+.vd-tile-title{
+  font-weight: 750;
+  color: var(--vd-accent);
+  margin-bottom: 0.35rem;
+}
+
+.vd-tile-text{
+  color: var(--vd-ink);
+  opacity: 0.95;
+}
+
+/* Details block */
+.vd-details{
+  margin-top: 0.9rem;
+  background: #fff;
+  border: 1px solid rgba(196,179,178,0.95);
+  border-radius: 12px;
+  padding: 0.8rem 1rem;
+}
+
+.vd-details > summary{
+  cursor: pointer;
+  font-weight: 750;
+  color: var(--vd-accent);
+  list-style: none;
+}
+
+.vd-details > summary::-webkit-details-marker{
+  display: none;
+}
+
+.vd-details > summary::after{
+  content: "▾";
+  float: right;
+  color: var(--vd-accent);
+}
+
+.vd-details[open] > summary::after{
+  content: "▴";
+}
+
+.vd-details-body{
+  margin-top: 0.75rem;
+}
+
+/* Buttons (match VD style) */
+.vd-doc-page .btn-outline-primary{
+  color: var(--vd-accent);
+  border: 2px solid rgba(94, 18, 26, 0.55);
+  background: rgba(94, 18, 26, 0.06);
+  font-weight: 500;
+  padding: 0.55rem 1.1rem;
+  border-radius: 12px;
+  transition: all 0.18s ease-in-out;
+}
+
+.vd-doc-page .btn-outline-primary:hover,
+.vd-doc-page .btn-outline-primary:focus{
+  color: #ffffff;
+  background: var(--vd-accent);
+  border-color: var(--vd-accent);
+  box-shadow: none;
+  transform: translateY(-1px);
+}
+
+.vd-doc-page .btn-outline-primary:active{
+  transform: translateY(0);
+  background: #4a0e14;
+  border-color: #4a0e14;
+  color: #ffffff;
+}
+
+.vd-doc-page .btn-outline-primary:focus-visible{
+  outline: none;
+  box-shadow: 0 0 0 0.18rem rgba(94, 18, 26, 0.25);
+}
+
+/* Footer (same language as other pages) */
+.vd-footer{
+  margin-top: 3rem;
+  padding-top: 1.6rem;
+  border-top: 1px solid rgba(196,179,178,0.75);
+  text-align: center;
+}
+
+.vd-footer a{
+  color: var(--vd-accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.vd-footer a:hover{
+  text-decoration: underline;
+}
+
+.vd-footer .footer-links{
+  margin-bottom: 0.55rem;
+}
+
+.vd-footer .footer-small{
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 992px){
+  .vd-grid{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px){
+  .vd-page.vd-doc-page{
+    padding: 1.6rem 1rem 2.4rem;
+  }
+
+  body{
+    font-size: 14.5px;
+  }
+
+  .vd-doc-page h1{
+    font-size: 2.05rem;
+  }
+}
