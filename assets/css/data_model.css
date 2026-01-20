@@ -15,7 +15,7 @@
 
 /* Reduce overall type size + improve readability */
 body {
-  font-size: 13px;            /* was visually bigger */
+  font-size: 15px;            /* was visually bigger */
   line-height: 1.55;
 }
 

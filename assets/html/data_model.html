@@ -20,51 +20,75 @@
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../../index.html">Varela Digital</a>
+    <nav class="navbar navbar-expand-lg fixed-top vd-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html">Varela Digital</a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav" aria-controls="navbarNav"
-                aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+            <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html">Homepage</a>
+                    </li>
 
-            <li class="nav-item">
-              <a class="nav-link active" href="../../index.html">Homepage</a>
-            </li>
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="collectionDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            The Collection
+                        </a>
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="lettersDropdown"role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                The Collection
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="lettersDropdown">
-                <li><a class="dropdown-item" href="letters-index.html">Index</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="viewer.html">Viewer</a></li>
-              </ul>
-            </li>
+                        <ul class="dropdown-menu" aria-labelledby="collectionDropdown">
+                            <li><a class="dropdown-item" href="letters-index.html">Index</a></li>
+                            <li><hr class="dropdown-divider" /></li>
+                            <li><a class="dropdown-item" href="viewer.html?file=CV-1.xml">Viewer</a></li>
+                        </ul>
+                    </li>
 
-            <!-- Documentation dropdown -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="docsDropdown"role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Documentation
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="docsDropdown">
-                <li><a class="dropdown-item" href="documentation.html">Overview</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="data_model.html">Data Model</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="hrao.html">HRAO Ontology</a></li>
-              </ul>
-            </li>
+                    <!-- Historical Context as top-level -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="historical_context.html">Historical Context</a>
+                    </li>
 
-          </ul>
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="docsDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            Documentation
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="docsDropdown">
+                            <li><a class="dropdown-item" href="project_discussion.html">Project Discussion</a></li>
+                            <li><hr class="dropdown-divider" /></li>
+                            <li><a class="dropdown-item" href="data_model.html">Data Model</a></li>
+                            <li><hr class="dropdown-divider" /></li>
+                            <li><a class="dropdown-item" href="hrao.html">HRAO Ontology</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
 
     <!-- Main content -->

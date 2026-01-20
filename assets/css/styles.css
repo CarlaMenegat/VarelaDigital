@@ -30,6 +30,7 @@ html, body {
 ========================= */
 
 .vd-navbar{
+  font-size: 16px; /* or 1rem */
   background-color: rgba(122, 31, 41, 0.75) !important;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -46,6 +47,7 @@ html, body {
 }
 
 .vd-navbar .navbar-nav .nav-link{
+  font-size: 1rem;
   font-family: 'Playfair Display', serif;
   color: rgba(94, 18, 26, 0.92) !important;
   font-weight: 500;
@@ -76,6 +78,7 @@ html, body {
 
 /* Dropdown menu styling */
 .vd-navbar .dropdown-menu{
+  font-size: 1rem;
   font-family: 'Playfair Display', serif;
   background: rgba(248, 245, 239, 0.98);
   border: 1px solid rgba(196,179,178,0.85);
@@ -88,6 +91,7 @@ html, body {
 
 /* Dropdown items */
 .vd-navbar .dropdown-item{
+  font-size: 1rem;
   color: rgba(94, 18, 26, 0.88);
   border-radius: 10px;
   padding: 0.5rem 0.75rem;
