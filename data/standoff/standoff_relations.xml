@@ -4216,7 +4216,7 @@
         <relation 
             name="foaf:knows" 
             active="#domingos_jose_almeida" 
-            passive="#napoleone_castellini" 
+            passive="#castellini" 
             mutual="true"/>
         
         <relation 
@@ -4258,7 +4258,7 @@
         <relation 
             name="foaf:knows" 
             active="#rossetti" 
-            passive="#napoleone_castellini" 
+            passive="#castellini" 
             mutual="true"/>
         
         <relation 
