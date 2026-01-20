@@ -5091,7 +5091,7 @@
                 <affiliation ref="#republica_rio_grandense"/>
             </state>
             <note>Chefe farroupilha mencionado como comandante de uma partida de cerca de 60 homens atuando
-                na região do arroio Camaquã, em movimentações militares de 1844 relatadas por Francisco Pedro de Abreu.</note>
+                na região do Arroio Camaquã, em movimentações militares de 1844 relatadas por Francisco Pedro de Abreu.</note>
         </person>
         
         <person xml:id="joao_pedro_abreu">
@@ -5354,7 +5354,7 @@
             <state type="roleInTime" xml:id="rafael_brandao_comandante_ratos">
                 <roleName>Comandante militar</roleName>
                 <location>
-                    <placeName ref="#arroio_ratos">arroio dos Ratos</placeName>
+                    <placeName ref="#arroio_ratos">Arroio dos Ratos</placeName>
                 </location>
                 <affiliation ref="#republica_rio_grandense"/>
             </state>
