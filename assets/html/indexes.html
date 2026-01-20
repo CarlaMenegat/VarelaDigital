@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Varela Digital — Indexes</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../css/styles.css"/>
+    <link rel="stylesheet" href="../css/indexes.css"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body class="vd-indexes">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top vd-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../../index.html">Varela Digital</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html">Homepage</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                id="collectionDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                The Collection
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="collectionDropdown">
+                <li><a class="dropdown-item" href="indexes.html">Index</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="viewer.html?file=CV-1.xml">Viewer</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="historical_context.html">Historical Context</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="docsDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Documentation
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="docsDropdown">
+                <li><a class="dropdown-item" href="project_discussion.html">Project Discussion</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="data_model.html">Data Model</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="hrao.html">HRAO Ontology</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main -->
+    <main class="vd-indexes-page">
+      <header class="vd-indexes-header">
+        <h1>Indexes</h1>
+        <p class="vd-lead">
+          Filter and explore the pilot corpus by sender, recipient, date, places, and mentioned entities.
+        </p>
+      </header>
+
+      <!-- 2-column layout -->
+      <div class="row g-4 align-items-start vd-indexes-layout">
+        <!-- Sidebar filters -->
+        <aside class="col-12 col-lg-4 col-xl-3">
+          <div class="index-filters">
+            <div class="filter-group">
+              <div class="filter-group-title">Document</div>
+
+              <label class="vd-filter-label" for="searchInput">Search</label>
+              <input id="searchInput" class="form-control" placeholder="Search (CV id, people, places)"/>
+
+              <label class="vd-filter-label" for="yearFilter">Year</label>
+              <select id="yearFilter" class="form-select">
+                <option value="">All years</option>
+              </select>
+
+              <label class="vd-filter-label" for="placeFilter">Sending place</label>
+              <select id="placeFilter" class="form-select">
+                <option value="">All sending places</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <div class="filter-group-title">Correspondence</div>
+
+              <label class="vd-filter-label" for="authorFilter">Sender</label>
+              <select id="authorFilter" class="form-select">
+                <option value="">All senders</option>
+              </select>
+
+              <label class="vd-filter-label" for="recipientFilter">Recipient</label>
+              <select id="recipientFilter" class="form-select">
+                <option value="">All recipients</option>
+              </select>
+
+              <div class="form-check vd-check">
+                <input class="form-check-input" type="checkbox" value="" id="mutualExchangeToggle">
+                <label class="form-check-label" for="mutualExchangeToggle">
+                  Mutual exchange (A ↔ B): treat sender/recipient as a pair in both directions
+                </label>
+              </div>
+            </div>
+
+            <div class="filter-group">
+              <div class="filter-group-title">Mentions</div>
+
+              <label class="vd-filter-label" for="mentionedPeopleFilter">Person</label>
+              <select id="mentionedPeopleFilter" class="form-select">
+                <option value="">Mentioned person</option>
+              </select>
+
+              <label class="vd-filter-label" for="mentionedPlacesFilter">Place</label>
+              <select id="mentionedPlacesFilter" class="form-select">
+                <option value="">Mentioned place</option>
+              </select>
+
+              <label class="vd-filter-label" for="mentionedOrgsFilter">Organisation</label>
+              <select id="mentionedOrgsFilter" class="form-select">
+                <option value="">Mentioned organisation</option>
+              </select>
+
+              <label class="vd-filter-label" for="mentionedEventsFilter">Event</label>
+              <select id="mentionedEventsFilter" class="form-select">
+                <option value="">Mentioned event</option>
+              </select>
+            </div>
+
+            <div class="vd-filters-actions">
+              <button id="clearFiltersBtn" class="btn btn-sm btn-outline-secondary w-100">
+                Clear all filters
+              </button>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Results column -->
+        <section class="col-12 col-lg-8 col-xl-9 vd-results-col">
+          <div class="vd-results-card">
+            <div id="results"></div>
+
+            <div class="pager" aria-label="Pagination">
+              <button id="prevBtn" class="btn btn-outline-secondary">Prev</button>
+              <div class="results-count" id="countInfo"></div>
+              <button id="nextBtn" class="btn btn-outline-secondary">Next</button>
+            </div>
+
+            <nav class="pager-links" id="pageLinks" aria-label="Page numbers"></nav>
+          </div>
+        </section>
+      </div>
+
+      <!-- Footer -->
+      <footer class="vd-footer">
+        <div class="footer-links">
+          Developed by <strong>Carla Menegat</strong> |
+          <a href="mailto:carla.menegat@studio.unibo.it">carla.menegat@studio.unibo.it</a> |
+          <a href="https://github.com/CarlaMenegat" target="_blank" rel="noopener">GitHub</a> |
+          Licensed under
+          <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> |
+        </div>
+
+        <div class="footer-small">
+          Final examination project for the
+          <a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge" target="_blank" rel="noopener">
+            Master Degree in Digital Humanities and Digital Knowledge (DHDK)
+          </a>, University of Bologna.
+        </div>
+      </footer>
+    </main>
+
+    <script src="../scripts/indexes.js"></script>
+  </body>
+</html>

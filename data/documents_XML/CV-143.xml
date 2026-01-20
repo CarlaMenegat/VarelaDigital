@@ -5,7 +5,7 @@
             <titleStmt>
                 <title>Ofício CV-143 — Secretaria da Guerra a João Antônio da Silveira</title>
                 <author>
-                    <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName>
+                    Secretaria dos Negócios da Guerra
                 </author>
                 <respStmt>
                     <resp>Transcrição e codificação TEI</resp>
@@ -182,7 +182,7 @@
                         <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>.
                     </addressee>
                     <signed>
-                        <persName ref="#alencastre">(a) Serafim Joaquim de Alencastre</persName>
+                        <persName ref="#alencastre">Serafim Joaquim de Alencastre</persName>
                     </signed>
                 </closer>
                 
