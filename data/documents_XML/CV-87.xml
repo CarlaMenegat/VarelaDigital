@@ -115,7 +115,7 @@
                     <date when="1840-02-13">13 de fevereiro de 1840</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#antonio_francisco_santos_abreu">Antônio Francisco dos Santos Abreu</persName>
+                    <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName>
                 </correspAction>
             </correspDesc>
             
@@ -165,7 +165,7 @@
                         <date when="1840-02-13">13 de fevereiro de 1840</date>.
                     </dateline>
                     <signed><persName ref="#manuel_martins_silveira_lemos">Manuel Martins da Silveira Lemos</persName>.</signed>
-                    <addressee>Ao cidadão <persName ref="#antonio_francisco_santos_abreu">Antônio Francisco dos Santos Abreu</persName>, <orgName ref="#coletoria">Coletor</orgName> do <placeName ref="#boqueirao">Boqueirão</placeName>.</addressee>
+                    <addressee>Ao cidadão <persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName>, <orgName ref="#coletoria">Coletor</orgName> do <placeName ref="#boqueirao">Boqueirão</placeName>.</addressee>
                 </closer>
                 
                 <note type="editorial">Cópia anexa ao Doc. CV-86</note>

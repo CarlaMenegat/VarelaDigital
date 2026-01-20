@@ -99,7 +99,7 @@
                     <date when="1838-12-07">7 de dezembro de 1838</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#bento_goncalves_silva">Bento Gonçalves da Silva</persName>
+                    <persName ref="#bento_goncalves">Bento Gonçalves da Silva</persName>
                     <note>Presidente do Estado.</note>
                 </correspAction>
             </correspDesc>
@@ -156,7 +156,7 @@
                 
                 <closer>
                     <signed>
-                        <persName ref="#bento_goncalves_silva">B. G. Silva</persName>
+                        <persName ref="#bento_goncalves">B. G. Silva</persName>
                     </signed>
                 </closer>
                 

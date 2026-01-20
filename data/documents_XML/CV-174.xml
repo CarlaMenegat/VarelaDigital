@@ -101,7 +101,7 @@
                 </correspAction>
                 
                 <correspAction type="received">
-                    <persName ref="#bernardina_barcelos_de_almeida">
+                    <persName ref="#bernardina_barcelos_almeida">
                         Bernardina Barcelos de Almeida
                     </persName>
                     <placeName ref="#pelotas">Pelotas</placeName>
@@ -163,7 +163,7 @@
                 
                 <note type="endorsement" place="1v">
                     <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> 
-                    <persName ref="#bernardina_barcelos_de_almeida">Bernardina Barcelos de Almeida</persName>.<br/>
+                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.<br/>
                     Cidade de <placeName ref="#pelotas">Pelotas</placeName>.
                 </note>
                 

@@ -97,14 +97,14 @@
                     <placeName ref="#piratini">Piratini</placeName>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#bento_goncalves_silva">Bento Gonçalves da Silva</persName>
+                    <persName ref="#bento_goncalves">Bento Gonçalves da Silva</persName>
                 </correspAction>
                 <correspAction type="sent">
                     <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     <date when="1839-03-31">31 de março de 1839</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#bento_goncalves_silva">Bento Gonçalves da Silva</persName>
+                    <persName ref="#bento_goncalves">Bento Gonçalves da Silva</persName>
                 </correspAction>
             </correspDesc>
             <handDesc>
@@ -152,7 +152,7 @@
                     <measure type="currency" unit="BRL-réis" quantity="1663200">1:663$200</measure> para pagamento de 
                     papel e remédios que lhe deve o Estado, a <persName ref="#deal">Deal</persName> <measure type="currency" unit="BRL-réis" quantity="384000">384$000</measure> 
                     por conta do mesmo Estado, <measure type="currency" unit="BRL-réis" quantity="480000">480$</measure> 
-                    parte da importância dos remédios que para o mesmo Estado se comprou ao <persName ref="#dr_bocquin">Dr. Bocquin</persName>; 
+                    parte da importância dos remédios que para o mesmo Estado se comprou ao <persName ref="#luis_bocquin_des_hilaires">Dr. Bocquin</persName>; 
                     agora participo também, que apesar de considerar tais escravos vendidos e distribuída sua importância, 
                     vou mandar hoje mesmo contra-ordem, não da venda dos escravos, porque conto com eles perdidos se 
                     <persName ref="#fructuoso_rivera">Fructo</persName> continua na opressão dos orientais, mas sim de 
@@ -183,7 +183,7 @@
                 
                 <closer>
                     <salute>Seu amigo certo</salute> <br/>
-                    <signed><persName ref="#bento_goncalves_silva">B. G. Silva</persName></signed>
+                    <signed><persName ref="#bento_goncalves">B. G. Silva</persName></signed>
                 </closer>
                 
                 <note type="endorsement" place="1v">

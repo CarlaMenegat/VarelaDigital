@@ -99,7 +99,7 @@
                     <orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>
+                    <persName ref="#joaquim_prado_lima">Joaquim dos Santos Prado Lima</persName>
                     <orgName ref="#coletoria_alegrete_sao_borja">Coletoria Geral dos Municípios de Alegrete e São Borja</orgName>
                 </correspAction>
             </correspDesc>
@@ -156,12 +156,12 @@
                 <p></p>
                 
                 <note type="endorsement" place="1v">
-                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>, Coletor Geral dos Municípios de <placeName ref="#alegrete">Alegrete</placeName> e <placeName ref="#sao_borja">São Borja</placeName>.
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_prado_lima">Joaquim dos Santos Prado Lima</persName>, Coletor Geral dos Municípios de <placeName ref="#alegrete">Alegrete</placeName> e <placeName ref="#sao_borja">São Borja</placeName>.
                     <choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice> 
                 </note>
                 
                 <note type="endorsement" place="1v">
-                    Ao cidadão <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>, Coletor Geral dos municípios de <placeName ref="#sao_borja">São Borja</placeName> e <placeName ref="#alegrete">Alegrete</placeName>. Do <orgName ref="#ministerio_fazenda">Ministério da Fazenda</orgName>.
+                    Ao cidadão <persName ref="#joaquim_prado_lima">Joaquim dos Santos Prado Lima</persName>, Coletor Geral dos municípios de <placeName ref="#sao_borja">São Borja</placeName> e <placeName ref="#alegrete">Alegrete</placeName>. Do <orgName ref="#ministerio_fazenda">Ministério da Fazenda</orgName>.
                     <date when="1839-03-15">Março — 15 — 39</date>. 
                     <persName ref="#domingos_jose_almeida">Almeida</persName>. 
                 </note>

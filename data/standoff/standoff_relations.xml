@@ -3632,7 +3632,7 @@
         <relation
             name="foaf:knows"
             active="#domingos_jose_almeida"
-            passive="#florisbelo_dos_santos_pereira"
+            passive="#florisbelo_santos_pereira"
             mutual="true"/>
         
         <relation
@@ -4038,7 +4038,7 @@
         <relation
             name="foaf:knows"
             active="#rossetti"
-            passive="#giuseppe_garibaldi"
+            passive="#garibaldi"
             mutual="true"/>
         
         <relation
@@ -4197,7 +4197,7 @@
         
         <relation 
             name="foaf:knows" 
-            active="#bento_goncalves_silva" 
+            active="#bento_goncalves" 
             passive="#coronel_gama" 
             mutual="true"/>
         
@@ -4439,6 +4439,18 @@
             name="foaf:knows"
             active="#bento_goncalves"
             passive="#deal"
+            mutual="true"/>
+        
+        <relation
+            name="hrao:hasKinship"
+            active="#domingos_jose_almeida"
+            passive="#bernardino_vieira"
+            mutual="true"/>
+        
+        <relation
+            name="foaf:knows"
+            active="#domingos_jose_almeida"
+            passive="#bruno"
             mutual="true"/>
         
     </standOff>

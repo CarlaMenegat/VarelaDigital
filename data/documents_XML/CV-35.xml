@@ -104,7 +104,7 @@
                     Texto conforme edição impressa dos Anais.
                 </handNote>
                 <handNote xml:id="hand_dja" medium="ink">
-                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     <desc>Letra identificada em notas e endossos do documento.</desc>
                 </handNote>
             </handDesc>
@@ -151,7 +151,7 @@
                 <p>
                     Muito estimarei de ter o gosto de o ver aqui pela festa e à minha estimada comadre; eu não lhe 
                     ofereço a minha casa porque tive aviso do dono para despejar e vir para ela o <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
-                    <persName ref="#joaquim_pedro">Joaquim Pedro Soares</persName>, porque é o comandante da
+                    <persName ref="#joaquim_pedro_soares">Joaquim Pedro Soares</persName>, porque é o comandante da
                     Divisão da Esquerda e por isso tudo pode, e o mais é que tenho de ir para o meio da rua porque não
                     há casas de aluguel; enfim desta vez terei de ir morar em 
                     <placeName ref="#pelotas">Pelotas</placeName>; por lá há muitas e até de graça; a demora é enquanto chega
@@ -197,7 +197,7 @@
                 
                 <note type="endorsement" place="1v">
                     <p>
-                        Ao cidadão <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>.
+                        Ao cidadão <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.
                         <placeName ref="#bage">Bagé</placeName>.
                     </p>
                     <handShift new="#hand_dja"/>

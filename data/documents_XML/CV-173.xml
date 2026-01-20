@@ -100,7 +100,7 @@
                     <date when="1835-05-30">30 de maio de 1835</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#bernardina_barcelos_de_almeida">
+                    <persName ref="#bernardina_barcelos_almeida">
                         Bernardina Barcelos de Almeida
                     </persName>
                     <placeName ref="#pelotas">Pelotas</placeName>
@@ -175,7 +175,7 @@
                 
                 <note type="endorsement" place="1v">
                     <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice>
-                    <persName ref="#bernardina_barcelos_de_almeida">Bernardina Barcelos de Almeida</persName>.<br/>
+                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>.<br/>
                     <placeName ref="#pelotas">São Francisco de Paula</placeName>.<br/>
                     <placeName ref="#pelotas">Pelotas</placeName>.
                 </note>

@@ -22,10 +22,10 @@ STANDOFF_DIR = REPO_ROOT / "data" / "standoff"
 OUTPUT_DIR = REPO_ROOT / "data" / "metadata"
 OUTPUT_CSV = OUTPUT_DIR / "metadata_all.csv"
 
-STANDOFF_PERSONS = STANDOFF_DIR / "standoff-persons.xml"
-STANDOFF_ORGS = STANDOFF_DIR / "standoff-orgs.xml"
-STANDOFF_PLACES = STANDOFF_DIR / "standoff-places.xml"
-STANDOFF_EVENTS = STANDOFF_DIR / "standoff-events.xml"
+STANDOFF_PERSONS = STANDOFF_DIR / "standoff_persons.xml"
+STANDOFF_ORGS = STANDOFF_DIR / "standoff_orgs.xml"
+STANDOFF_PLACES = STANDOFF_DIR / "standoff_places.xml"
+STANDOFF_EVENTS = STANDOFF_DIR / "standoff_events.xml"
 
 TEI_NS = {"tei": "http://www.tei-c.org/ns/1.0"}
 XML_ID = "{http://www.w3.org/XML/1998/namespace}id"

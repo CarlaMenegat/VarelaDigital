@@ -104,7 +104,7 @@
                     Texto conforme edição impressa dos Anais.
                 </handNote>
                 <handNote xml:id="hand_dja" medium="ink">
-                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     <desc>Letra identificada em notas e endossos do documento.</desc>
                 </handNote>
             </handDesc>
@@ -152,7 +152,7 @@
                 
                 <closer>
                     <salute>Seu antigo e obrigado amigo</salute>
-                    <signed><persName ref="#abreu">Antônio Francisco dos Santos Abreu</persName>.</signed>
+                    <signed><persName ref="#antonio_abreu">Antônio Francisco dos Santos Abreu</persName>.</signed>
                 </closer>
                 
                 <note type="endorsement" place="1r">

@@ -833,6 +833,21 @@
             <note>Oficial legalista, filho do Brigadeiro Filipe Neri de Oliveira. Atuou sob comando de João Propício Menna Barreto.</note>
         </person>
         
+        <person xml:id="ferreira">
+            <persName>Ferreira</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="ferreira_alferes_expedicao_1838">
+                <roleName>Alferes</roleName>
+                <affiliation ref="#exercito_imperial"/>
+            </state>
+            <note>
+                Militar identificado apenas pelo sobrenome, mencionado na carta CV-47
+                (9 de novembro de 1838) como Alferes participante da expedição comandada
+                por <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.
+                Nome incompleto; sem outros dados biográficos explícitos no corpus.
+            </note>
+        </person>
+        
         <person xml:id="antonio_pedro_abreu">
             <persName>Antônio Pedro de Abreu</persName>
             <idno type="project"></idno>
@@ -1235,6 +1250,12 @@
             <note>Furriel legalista que comandou a partida enviada além do rio Jacuí para enfrentar uma força farroupilha, segundo relato de Antônio Pedro de Abreu.</note>
         </person>
         
+        <person xml:id="bento_joaquim_chaves">
+            <persName>Bento Joaquim de Chaves</persName>
+            <idno type="project"></idno>
+            <note>Alferes citado na conta de despesas e pagamentos (CV-235) como beneficiário de pagamento registrado em patacões/prata e réis.</note>
+        </person>
+        
         <person xml:id="manuel_alz">
             <persName>Manuel Alz.</persName>
             <idno type="project"></idno>
@@ -1332,12 +1353,25 @@
             </note>
         </person>
         
-        <person xml:id="florisbelo_dos_santos_pereira">
+        <person xml:id="florisbelo_santos_pereira">
             <persName>Florisbelo dos Santos Pereira</persName>
             <idno type="project"/>
             <note>
                 Proprietário de casa indicada como local de acolhimento temporário de
                 Bernardina Barcelos de Almeida durante deslocamentos.
+            </note>
+        </person>
+        
+        <person xml:id="firmino_luis_gomes_abreu">
+            <persName>Firmino Luís Gomes de Abreu</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="firmino_luis_gomes_abreu_almoxarife_arsenal_guerra">
+                <roleName>Almoxarife</roleName>
+                <affiliation ref="#arsenal_guerra"/>
+            </state>
+            <note>
+                Almoxarife do <orgName ref="#arsenal_guerra">Arsenal de Guerra</orgName>. Assina a “Relação do que foi tomado
+                aos rebeldes e veio para este Arsenal” (CV-42), datada de 26 de dezembro de 1840.
             </note>
         </person>
         
@@ -1357,6 +1391,34 @@
                 Indivíduo citado como responsável por fornecer bois para a continuação da
                 viagem; identificação incompleta.
             </note>
+        </person>
+        
+        <person xml:id="bernardino_vieira">
+            <persName>Bernardino Vieira</persName>
+            <idno type="project"></idno>
+            <note>Mencionado como “primo” (primo de Domingos José de Almeida / Bernardina Barcelos de Almeida) no postscript da carta CV-218, como destinatário de um pagamento de 24 patacões.</note>
+        </person>
+        
+        <person xml:id="filipe">
+            <persName>Filipe</persName>
+            <idno type="project"></idno>
+            <note>
+                Identificado apenas pelo prenome. Mencionado na carta CV-172 (25 de abril de 1835)
+                como portador/mensageiro associado ao envio por iate (“inda hoje segue o Filipe”).
+                Sem outros dados biográficos explícitos no corpus.
+            </note>
+        </person>
+        
+        <person xml:id="bruno">
+            <persName>Bruno</persName>
+            <idno type="project"></idno>
+            <note>Pessoa mencionada apenas pelo prenome no postscript da carta CV-218, como destinatária do envio de documentos (“envia as adjuntas”). Identidade não identificada nas fontes.</note>
+        </person>
+        
+        <person xml:id="capitao_miguel">
+            <persName>Capitão Miguel</persName>
+            <idno type="project"></idno>
+            <note>Militar referido apenas pelo posto e prenome na carta CV-35, como portador de notícias enviadas por Antônio José de Abreu. Identidade completa não especificada.</note>
         </person>
         
         <person xml:id="joao_antunes">
@@ -1488,7 +1550,24 @@
             </note>
         </person>
         
+        <person xml:id="chevalier">
+            <persName>Chevalier</persName>
+            <idno type="project"></idno>
+            <note>Indivíduo referido apenas pelo sobrenome/apelido “Chevalier” na carta CV-189, associado à administração prática de itens e arrendamentos (conservar o sal; “arranjar” e responder por arrendamento da graxeira). Identidade completa não especificada.</note>
+        </person>
         
+        <person xml:id="d_pedro">
+            <persName>D. Pedro</persName>
+            <idno type="project"></idno>
+            <note>Referido no documento contábil CV-235 apenas como “D. Pedro”, em expressões como “ex-sócio de D. Pedro”. Identidade completa não especificada no texto.</note>
+        </person>
+        
+        <person xml:id="david">
+            <persName>David</persName>
+            <idno type="project"></idno>
+            <note>Mencionado na carta CV-195 apenas pelo prenome, em lista de cumprimentos finais. Identidade completa não especificada no documento.</note>
+        </person>
+
         <person xml:id="joao_jose_victorica">
             <persName xml:lang="pt-BR" type="variant">João José Victorica</persName>
             <persName xml:lang="es" type="attested">Juan José Victorica</persName>
@@ -2802,6 +2881,28 @@
             </note>
         </person>
         
+        <person xml:id="francisco_goncalves_meireles">
+            <persName>Francisco Gonçalves Meireles</persName>
+            <idno type="project"></idno>
+            <note>
+                Pessoa citada na conta CV-235 (Conta de despesas e pagamentos), como destinatário de pagamento
+                em patacões prata.
+            </note>
+        </person>
+        
+        <person xml:id="francisco_pinto_silva">
+            <persName>Francisco Pinto da Silva</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="francisco_pinto_silva_tenente">
+                <roleName>Tenente</roleName>
+                <note>Portador/condutor mencionado no ofício CV-155, responsável por entregar infantes, armas e materiais.</note>
+            </state>
+            <note>
+                Tenente citado no ofício CV-155 (Serafim Joaquim de Alencastre para João Antônio da Silveira), como condutor
+                de armas e materiais.
+            </note>
+        </person>
+        
         <person xml:id="tavares">
             <persName>Tavares</persName>
             <idno type="project"/>
@@ -4112,6 +4213,15 @@
             <note>Tenente legalista sob comando de Francisco Pedro de Abreu, mencionado em operações militares contra forças farroupilhas.</note>
         </person>
         
+        <person xml:id="isaias_antonio_silva">
+            <persName>Isaías Antônio da Silva</persName>
+            <idno type="project"></idno>
+            <note>
+                Pessoa citada no documento contábil CV-235 (Conta de despesas e pagamentos),
+                associada a um lançamento datado de 6 de abril de 1838.
+            </note>
+        </person>
+        
         <person xml:id="tomas_pereira">
             <persName>Tomás Pereira</persName>
             <idno type="project"></idno>
@@ -5291,6 +5401,15 @@
                 combate do Rincão da Cruz (Itaqui) em 17 de janeiro de 1841, capturando cerca de 100 homens.
                 Em setembro de 1843 integrava a 2.ª Divisão de Bento Manuel Ribeiro, sem acompanhá-lo 
                 em suas dissidências para o Império. Figura militar de destaque no setor oeste da República.
+            </note>
+        </person>
+        
+        <person xml:id="gaspar_gomes_dias">
+            <persName>Gaspar Gomes Dias</persName>
+            <idno type="project"></idno>
+            <note>
+                Pessoa citada no documento contábil CV-235 (Conta de despesas e pagamentos), como parte dos lançamentos de
+                pagamentos (“C. Gaspar Gomes Dias”).
             </note>
         </person>
         
@@ -7246,6 +7365,19 @@
             </note>
         </person>
         
+        <person xml:id="felizardo">
+            <persName>Felizardo</persName>
+            <idno type="project"></idno>
+            <note>
+                Indivíduo identificado apenas pelo prenome, mencionado por
+                <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
+                na carta CV-190 (17 de fevereiro de 1836) como possível arrendatário de uma
+                charqueada, em conjunto com o compadre
+                <persName ref="#cipriano_joaquim_rodrigues_barcelos">Cipriano</persName>.
+                Nome incompleto; sem outros dados biográficos ou funcionais explícitos no corpus.
+            </note>
+        </person>
+        
         <person xml:id="jose_jeronimo_amaral">
             <persName>José Jerônimo do Amaral</persName>
             <idno type="project"></idno>
@@ -7693,6 +7825,19 @@
             </note>
         </person>
         
+        <person xml:id="domingos_barbosa">
+            <persName>Domingos Barbosa</persName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="domingos_barbosa_comandante_5_corpo">
+                <roleName>Comandante do 5.º Corpo</roleName>
+                <affiliation ref="#corpo_5_farroupilhas"/>
+            </state>
+            <note>
+                Major mencionado como comandante do 5.º Corpo, preso na Capela das Dores durante
+                operação militar relatada na carta CV-71 (1842).
+            </note>
+        </person>
+        
         <person xml:id="silvano">
             <persName>Silvano</persName>
             <idno type="project"/>
@@ -7756,6 +7901,12 @@
             <note>
                 Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
             </note>
+        </person>
+        
+        <person xml:id="david_silveira_duarte">
+            <persName>David Silveira Duarte</persName>
+            <idno type="project"></idno>
+            <note>Subscritor na “Relação de subscrição do Distrito do Boqueirão” (CV-228), contribuindo com 1 ação (1$000) a partir de 1.º de outubro de 1837.</note>
         </person>
         
         <person xml:id="joaquim_antunes_fagundes">
@@ -7852,6 +8003,18 @@
             <note>
                 Subscritor mencionado na lista de contribuições do distrito do Boqueirão em 1837.
             </note>
+        </person>
+        
+        <person xml:id="ana_joaquina_silva_santos">
+            <persName>Ana Joaquina da Silva Santos</persName>
+            <idno type="project"></idno>
+            <note>Subscritoria listada na “Relação de subscrição do Distrito do Boqueirão” (CV-228), contribuindo com 2 ações mensais para as exigências da luta, a partir de 1º de outubro de 1837.</note>
+        </person>
+        
+        <person xml:id="baltasar_jose_rodrigues_soares_filho">
+            <persName>Baltasar José Rodrigues Soares Filho</persName>
+            <idno type="project"></idno>
+            <note>Subscritor listado na “Relação de subscrição do Distrito do Boqueirão” (CV-228), contribuindo com 1 ação mensal para as exigências da luta a partir de 1º de outubro de 1837.</note>
         </person>
         
         <person xml:id="baltasar_jose_rodrigues_soares">
@@ -8076,6 +8239,283 @@
             </note>
         </person>
         
+        <person xml:id="jose_escravo">
+            <persName>José</persName>
+            <idno type="project"></idno>
+            <note>Homem escravizado, identificado como campeiro na fazenda de Jaguarão, avaliado em conta financeira de 1836.</note>
+        </person>
+        
+        <person xml:id="joaquim_escravo">
+            <persName>Joaquim</persName>
+            <idno type="project"></idno>
+            <note>Homem escravizado da fazenda de Jaguarão, mencionado em conta financeira de 1836; função indicada como “dito”, em continuidade ao item anterior.</note>
+        </person>
+        
+        <person xml:id="alberto_escravo">
+            <persName>Alberto</persName>
+            <idno type="project"></idno>
+            <note>Homem escravizado da fazenda de Jaguarão, listado em conta financeira de 1836 como um dos cinco escravizados avaliados.</note>
+        </person>
+        
+        <person xml:id="pedro_escravo">
+            <persName>Pedro</persName>
+            <idno type="project"></idno>
+            <note>Homem escravizado da fazenda de Jaguarão, mencionado em conta financeira de 1836 entre os escravizados avaliados.</note>
+        </person>
+        
+        <person xml:id="fermiano_escravo">
+            <persName>Fermiano</persName>
+            <idno type="project"></idno>
+            <note>Homem escravizado da fazenda de Jaguarão, listado em conta financeira de 1836 com valor individual especificado.</note>
+        </person>
+        
+        <person xml:id="dona_joaquina_pavao">
+            <persName>Dona Joaquina do Pavão</persName>
+            <idno type="project"></idno>
+            <note>
+                Mulher mencionada na carta CV-28 (Piratini, 21 de março de 1841) como mãe de seis filhos presos em
+                <placeName ref="#pelotas">Pelotas</placeName>.
+            </note>
+        </person>
+        
+        <person xml:id="dr_joao">
+            <persName>João</persName>
+            <idno type="project"></idno>
+            <note>
+                Identificado na carta CV-165 como “o seu amigo o Doutor João”, mencionado por Bernardina Barcelos de Almeida
+                como tendo feito um comentário imprudente em público, na presença de várias pessoas e do
+                <persName ref="#joao_cunha">João da Cunha</persName>, sobre a expectativa de que alguns regressando às suas casas
+                encontrariam seus bens “em praça”. Nome incompleto; “Doutor” indica título/forma de tratamento no contexto.
+            </note>
+        </person>
+        
+        <person xml:id="joao_batista_oliveira">
+            <persName>João Batista de Oliveira</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="joao_batista_oliveira_tenente_1839">
+                <roleName>Tenente</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>
+                Tenente citado na carta CV-128 (16 de dezembro de 1839), identificado como integrante
+                das forças legalistas provenientes de Cima da Serra, envolvido na incursão contra
+                Santa Maria da Boca do Monte.
+            </note>
+        </person>
+        
+        <person xml:id="joao_grande">
+            <persName>João Grande</persName>
+            <idno type="project"></idno>
+            <note>
+                Pessoa citada na carta CV-195 (14 de março de 1836) como alguém a quem Bernardina deve recorrer
+                para administrar os escravizados da casa, diante da ausência do compadre Rolino e de Vicente.
+                Identidade incompleta.
+            </note>
+        </person>
+        
+        <person xml:id="joao_jose_gomes">
+            <persName>João José Gomes</persName>
+            <idno type="project"></idno>
+            <note>
+                Pessoa citada na carta CV-178 (16 de outubro de 1835) como exemplo de alguém cuja casa
+                teria sido alvo de manobras abusivas por parte de credores, situação que Domingos José
+                de Almeida teme que se repita com sua própria família. Identidade incompleta.
+            </note>
+        </person>
+        
+        <person xml:id="joao_pereira_silva">
+            <persName>João Pereira da Silva</persName>
+            <idno type="project"></idno>
+            <note>
+                Morador do Distrito do Boqueirão, citado como subscritor na relação de subscrição
+                do documento CV-228 (12 de outubro de 1837), contribuindo com uma ação mensal
+                no valor de 1$000 para as despesas da luta pela independência. Identidade incompleta.
+            </note>
+        </person>
+        
+        <person xml:id="joaquim_antonio_fagundes">
+            <persName>Joaquim Antônio Fagundes</persName>
+            <idno type="project"></idno>
+            <note>
+                Morador do Distrito do Boqueirão, citado como subscritor na relação de subscrição
+                do documento CV-228 (12 de outubro de 1837), contribuindo com uma ação mensal
+                no valor de 1$000 para as despesas da luta pela independência. Identidade incompleta.
+            </note>
+        </person>
+        
+        <person xml:id="joaquim_braga">
+            <persName>Joaquim Vieira Braga</persName>
+            <idno type="project"></idno>
+            <note>
+                Indivíduo citado no ofício CV-249 (25 de agosto de 1838) como um dos signatários
+                ou acompanhantes das respostas encaminhadas ao Chefe de Polícia do Departamento
+                do Boqueirão. Identidade incompleta; não confundir com homônimos militares ou
+                políticos do período.
+            </note>
+        </person>
+        
+        <person xml:id="joaquim_francisco_botelho">
+            <persName>Joaquim Francisco Botelho</persName>
+            <idno type="project"></idno>
+            <note>
+                Indivíduo citado como Tenente na conta de despesas CV-235
+                (18 de março de 1838), figurando entre os recebedores de pagamento.
+                Não há, até o momento, outras informações biográficas confirmadas.
+            </note>
+        </person>
+        
+        <person xml:id="joaquim_maximo_lobato">
+            <persName>Joaquim Máximo Lobato</persName>
+            <idno type="project"></idno>
+            <note>
+                Indivíduo citado como Tenente na conta de despesas CV-235
+                (18 de março de 1838), figurando entre os recebedores de pagamento.
+                Não há, até o momento, outras informações biográficas confirmadas.
+            </note>
+        </person>
+        
+        <person xml:id="joaquim_santos_faria">
+            <persName>Joaquim dos Santos de Faria</persName>
+            <idno type="project"></idno>
+            <note>
+                Mencionado no documento contábil CV-235 (Piratini, 18 de março de 1838) como recebedor de pagamento
+                no valor de <measure type="currency" unit="BRL-réis" quantity="18920">18$920</measure>, assinalado como “pg.”.
+            </note>
+        </person>
+        
+        <person xml:id="joaquim_vieira_braga">
+            <persName>Joaquim Vieira Braga</persName>
+            <idno type="project"></idno>
+            <note>
+                Subscritor listado no documento CV-228 (Relação de subscrição do Distrito do Boqueirão, 12 de outubro de 1837),
+                contribuindo com <num value="2">2</num> ações, totalizando
+                <measure unit="BRL-réis" quantity="2000">2$000</measure>.
+                Identificação incompleta.
+            </note>
+        </person>
+        
+        <person xml:id="jose_almeida_rebelde">
+            <persName>José de Almeida</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="jose_almeida_rebelde_comandante_destacamento_1838_11_06">
+                <roleName>Comandante de força rebelde</roleName>
+                <affiliation ref="#exercito_farroupilha"/>
+            </state>
+            <note>
+                Militar rebelde mencionado na carta CV-47 (Francisco Pedro de Abreu para Tomás José da Silva, 9 de novembro de 1838).
+                Comandava uma força de cerca de “40 e tantos homens” que se retirava da vila do Triunfo e foi perseguida e derrotada
+                na Volta do Sabino em 6 de novembro de 1838. Identificação incompleta; homônimo possível.
+            </note>
+        </person>
+        
+        <person xml:id="jose_antonio_silva">
+            <persName>José Antônio da Silva</persName>
+            <idno type="project"></idno>
+            <state type="roleInTime" xml:id="jose_antonio_silva_ressarcimento_gado_1838_07">
+                <roleName>Beneficiário de ordem de embolso em gado</roleName>
+                <affiliation ref="#secretaria_fazenda"/>
+            </state>
+            <note>
+                Mencionado no ofício CV-246 (Domingos José de Almeida para Joaquim dos Santos Prado Lima, 26 de julho de 1838).
+                Recebeu (em 6 de julho de 1838) uma ordem desta repartição para ser “embolsado” em gado; a ordem é revogada por não
+                convirem reses das Fazendas Nacionais (antigas fazendas jesuíticas nas Missões), determinando-se que o embolso seja feito
+                em gado de “propriedade inimiga”. Identificação incompleta; homônimo possível.
+            </note>
+        </person>
+        
+        <person xml:id="vilaca">
+            <persName>Vilaça</persName>
+            <idno type="project"></idno>
+            <note>
+                Mencionado na conta de despesas e pagamentos CV-235 (18 de março de 1838), 
+                como recebedor de pagamento em patacões de prata. 
+                O nome aparece apenas como “Vilaça”, sem prenome, 
+                indicando identificação incompleta (possível sobrenome, alcunha ou forma abreviada).
+            </note>
+        </person>
+        
+        <person xml:id="tomas_silva_ramos">
+            <persName>Tomás da Silva Ramos</persName>
+            <idno type="project"></idno>
+            <note>
+                Mencionado na conta de despesas e pagamentos CV-235 (18 de março de 1838),
+                com o posto de Tenente, recebendo pagamento em patacões.
+                Não há outras informações biográficas ou funcionais explícitas no documento.
+            </note>
+        </person>
+        
+        <person xml:id="jose_carlos_pinto">
+            <persName>José Carlos Pinto</persName>
+            <idno type="project"></idno>
+            <note>
+                Mencionado na carta CV-25 (20 de novembro de 1837) como Agente do Estado,
+                no contexto da análise de contas apresentadas ao Ministério da Fazenda.
+                Não há outras informações biográficas explícitas no documento.
+            </note>
+        </person>
+        
+        <person xml:id="jose_de_assis_candall">
+            <persName>José de Assis Candall</persName>
+            <idno type="project"></idno>
+            <note>
+                Mencionado na carta CV-168 (25 de fevereiro de 1843), escrita por Bernardina Barcelos de Almeida,
+                como pessoa que poderia dispor de dinheiro (“se fosse para o Macedo ou Candall ele haveria de ter dinheiro”).
+                Não há indicação explícita de cargo, função pública ou vínculo institucional no documento.
+            </note>
+        </person>
+        
+        <person xml:id="jose_gomes_ferreira_guimaraes_cabeca">
+            <persName>José Gomes Ferreira Guimarães Cabeça</persName>
+            <idno type="project"></idno>
+            <note>
+                Mencionado no documento contábil CV-235 (18 de março de 1838), em conta de despesas e pagamentos
+                entre José Joaquim da Silva Maia e Domingos José de Almeida, como beneficiário de pagamento no valor
+                de 6 patacões de prata (10$080 réis). Não há indicação explícita de cargo, função militar ou vínculo institucional.
+            </note>
+        </person>
+        
+        <person xml:id="jose_maria_olave">
+            <persName>José Maria Olave</persName>
+            <idno type="project"></idno>
+            <note>
+                Pessoa mencionada na conta CV-235 (18 de março de 1838) como destinatário de pagamento
+                realizado por ordem de Domingos José de Almeida, no valor de 101 pesos. Não há indicação
+                de cargo, patente militar ou função administrativa no documento.
+            </note>
+        </person>
+        
+        <person xml:id="jose_moreira">
+            <persName>José Moreira</persName>
+            <idno type="project"></idno>
+            <note>
+                Primo de Bernardina Barcelos de Almeida, mencionado na carta CV-195
+                (14 de março de 1836) entre pessoas das quais se solicitam notícias.
+                Não há indicação de cargo, função política ou atuação militar no documento.
+            </note>
+        </person>
+        
+        <person xml:id="juca_custodio">
+            <persName>Juca Custódio</persName>
+            <idno type="project"></idno>
+            <note>
+                Identificado no documento CV-51 (1.º de março de 1839) como possível
+                denominação alternativa de um tenente referido como “Tenente Caldeira”.
+                É mencionado como ferido (“baleado na caixa do corpo”) durante operação
+                militar fluvial na vila do Triunfo. A equivalência nominal não é
+                afirmada de forma conclusiva no texto.
+            </note>
+        </person>
+        
+        <person xml:id="julio_centeno">
+            <persName>Júlio César Centeno</persName>
+            <idno type="project"></idno>
+            <note>
+                Mencionado no ofício CV-249 (25 de agosto de 1838) como uma das pessoas
+                que prestaram respostas encaminhadas por Inácio José de Oliveira Guimarães
+                à Secretaria da Fazenda. Nenhuma informação adicional de cargo, função
+                ou vínculo institucional é explicitada no documento.
+            </note>
+        </person>
         
     </listPerson>
 </standOff>

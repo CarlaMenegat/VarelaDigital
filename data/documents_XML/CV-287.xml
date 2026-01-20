@@ -99,7 +99,7 @@
                     <orgName ref="#secretaria_fazenda">Secretaria da Fazenda</orgName>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>
+                    <persName ref="#joaquim_prado_lima">Joaquim dos Santos Prado Lima</persName>
                     <orgName ref="#policia_alegrete">Comando Geral de Polícia de Alegrete</orgName>
                 </correspAction>
             </correspDesc>
@@ -158,7 +158,7 @@
                     <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
                     <addressee>
                         <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
-                        <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>. 
+                        <persName ref="#joaquim_prado_lima">Joaquim dos Santos Prado Lima</persName>. 
                         Comandante Geral de Polícia do Departamento de <placeName ref="#alegrete">Alegrete</placeName>.
                     </addressee>
                 </closer>
@@ -170,7 +170,7 @@
 
                 <note type="endorsement" place="1v">
                     <choice><abbr>SR.</abbr><expan>Secretaria da Presidência da República</expan></choice> 
-                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>, 
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_prado_lima">Joaquim dos Santos Prado Lima</persName>, 
                     Comandante Geral de Polícia do Município de <placeName ref="#alegrete">Alegrete</placeName>. Do <orgName ref="#ministerio_fazenda">Ministério da Fazenda</orgName>.
                 </note>
                 

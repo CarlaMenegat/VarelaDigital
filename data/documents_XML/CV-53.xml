@@ -95,7 +95,7 @@
                     <date when="1839-04-03">3 de abril de 1839</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#antonio_elzeario_brito">Antônio Elzeário de Miranda e Brito</persName>
+                    <persName ref="#antonio_elzeario_miranda_brito">Antônio Elzeário de Miranda e Brito</persName>
                 </correspAction>
             </correspDesc>
             <handDesc>
@@ -169,7 +169,7 @@
                         <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e 
                         <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
                         Presidente da Província e Marechal Comandante das Armas da mesma,
-                        <persName ref="#antonio_elzeario_brito">Antônio Elzeário de Miranda e Brito</persName>.<br />
+                        <persName ref="#antonio_elzeario_miranda_brito">Antônio Elzeário de Miranda e Brito</persName>.<br />
                     </addressee>
                     <signed><persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>.<br />
                         Major Comandante interino do 5.º Corpo.</signed>

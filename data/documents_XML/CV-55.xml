@@ -96,7 +96,7 @@
                     <date when="1839-04-20">20 de abril de 1839</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#antonio_elzeario_brito">Antônio Elzeário de Miranda e Brito</persName>
+                    <persName ref="#antonio_elzeario_miranda_brito">Antônio Elzeário de Miranda e Brito</persName>
                 </correspAction>
             </correspDesc>
             <handDesc>
@@ -217,7 +217,7 @@
                     
                     <addressee>
                         <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> Senhor
-                        <persName ref="#antonio_elzeario_brito">Antônio Elzeário de Miranda e Brito</persName>
+                        <persName ref="#antonio_elzeario_miranda_brito">Antônio Elzeário de Miranda e Brito</persName>
                         Presidente da Província e Comandante das Armas da Província do <placeName ref="#rio_grande_sul">Rio Grande do Sul</placeName>
                     </addressee>
                     

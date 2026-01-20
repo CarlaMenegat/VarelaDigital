@@ -96,7 +96,7 @@
                     <date when="1842-09-26">26 de setembro de 1842</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#francisco_chagas_avila_sousa">Francisco das Chagas Martins Ávila e Sousa</persName>
+                    <persName ref="#padre_chagas">Francisco das Chagas Martins Ávila e Sousa</persName>
                 </correspAction>
             </correspDesc>
             <handDesc>
@@ -155,7 +155,7 @@
                         <date when="1842-09-26">26 de setembro de 1842</date>.
                     </dateline>
                     <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
-                        <persName ref="#francisco_chagas_avila_sousa">Padre Francisco das Chagas Martins Ávila e Sousa</persName>, Vigário Apostólico.</addressee>
+                        <persName ref="#padre_chagas">Padre Francisco das Chagas Martins Ávila e Sousa</persName>, Vigário Apostólico.</addressee>
                     <signed><persName ref="#jose_pedroso_albuquerque">José Pedroso de Albuquerque</persName>.</signed>
                 </closer>
                 

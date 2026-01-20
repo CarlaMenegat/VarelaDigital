@@ -99,7 +99,7 @@
                     <orgName ref="#secretaria_fazenda">Secretaria dos Negócios da Fazenda</orgName>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>
+                    <persName ref="#joaquim_prado_lima">Joaquim dos Santos Prado Lima</persName>
                     <orgName ref="#policia_alegrete_fronteira">Chefia Geral de Polícia do Departamento e Fronteira de Alegrete</orgName>
                 </correspAction>
             </correspDesc>
@@ -150,7 +150,7 @@
                         <placeName ref="#cacapava">Caçapava</placeName>, <date when="1839-03-23">23 de março de 1839</date>.
                     </dateline>
                     <signed><persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName></signed>
-                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>, Chefe Geral de Polícia do Departamento e Fronteira de <placeName ref="#alegrete">Alegrete</placeName>.</addressee>
+                    <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_prado_lima">Joaquim dos Santos Prado Lima</persName>, Chefe Geral de Polícia do Departamento e Fronteira de <placeName ref="#alegrete">Alegrete</placeName>.</addressee>
                 </closer>
                 
                 
@@ -160,7 +160,7 @@
                 </note>
                 <note type="endorsement" place="1v">
                     <choice><abbr>S. da R.</abbr><expan>Secretaria da Presidência da República</expan></choice> 
-                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_santos_prado_lima">Joaquim dos Santos Prado Lima</persName>. 
+                    <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joaquim_prado_lima">Joaquim dos Santos Prado Lima</persName>. 
                     Coletor Geral e Chefe de Polícia do Departamento e Fronteira de <placeName ref="#alegrete">Alegrete</placeName>. 
                     Inspetor interino do <orgName ref="#tesouro">Tesouro Público Nacional</orgName>.
                 </note>

@@ -100,7 +100,7 @@
                     <date when="1828-10-21">21 de outubro de 1828</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#bernardina_barcelos">Bernardina Barcelos de Almeida</persName>
+                    <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>
                 </correspAction>
             </correspDesc>
             <handDesc>
@@ -153,7 +153,7 @@
                 </closer>
 
                 <note type="endorsement" place="1v">
-                    <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> D. <persName ref="#bernardina_barcelos">Bernardina Barcelos de Almeida</persName>. 
+                    <choice><abbr>Sra.</abbr><expan>Senhora</expan></choice> D. <persName ref="#bernardina_barcelos_almeida">Bernardina Barcelos de Almeida</persName>. 
                     <placeName ref="#pelotas">Pelotas</placeName>.
                 </note>
                 

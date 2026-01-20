@@ -105,7 +105,7 @@
                     Texto conforme edição impressa dos Anais.
                 </handNote>
                 <handNote xml:id="hand_dja" medium="ink">
-                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     <desc>Letra identificada em notas e endossos do documento.</desc>
                 </handNote>
             </handDesc>
@@ -147,7 +147,7 @@
                 </closer>
                 
                 <note type="endorsement" place="1r">
-                    <p>Ao cidadão Ministro <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>. 
+                    <p>Ao cidadão Ministro <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>. 
                         <placeName ref="#bage">Bagé</placeName>.  
                         Respondida a <date when="1841-11-30">30 de novembro de 1841</date>.</p>
                     <handShift new="#hand_dja"/>

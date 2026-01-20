@@ -93,7 +93,7 @@
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#bento_goncalves_silva">Bento Gonçalves da Silva</persName>
+                    <persName ref="#bento_goncalves">Bento Gonçalves da Silva</persName>
                     <placeName ref="#piratini">Piratini</placeName>
                     <date when="1838-12-15">15 de dezembro de 1838</date>
                 </correspAction>
@@ -106,7 +106,7 @@
                     <date when="1839-01-30">30 de janeiro de 1839</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="#casas">Antônio Casas</persName>
+                    <persName ref="#antonio_casas">Antônio Casas</persName>
                 </correspAction>
             </correspDesc>
             <handDesc>
@@ -165,7 +165,7 @@
                 
                 <postscript> 
                     Recebi do <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> Dom Joaquim Pereira Fagundes o importe de que consta a ordem junta. 
-                    <signed><persName ref="#casas">Antônio Casas</persName>.</signed> Está conforme. 
+                    <signed><persName ref="#antonio_casas">Antônio Casas</persName>.</signed> Está conforme. 
                     <signed><persName ref="#joaquim_pereira_fagundes">Joaquim Pereira Fagundes</persName></signed>. Está conforme. 
                     O oficial-maior e secretário. <persName ref="#antonio_belarmino_ribeiro">Antônio Belarmino Ribeiro</persName>.
                 </postscript>

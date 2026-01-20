@@ -103,7 +103,7 @@
                     Texto conforme edição impressa dos Anais.
                 </handNote>
                 <handNote xml:id="hand_dja" medium="ink">
-                    <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>
+                    <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>
                     <desc>Letra identificada em notas e endossos do documento.</desc>
                 </handNote>
             </handDesc>
@@ -165,7 +165,7 @@
                         <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> e 
                         <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> 
                         <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> 
-                        <persName ref="#domingos_jose_de_almeida">Domingos José de Almeida</persName>.
+                        <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.
                         <date when="1840-04-30">1840 Abril 30</date>.
                     </p>
                     <handShift new="#hand_dja"/>
