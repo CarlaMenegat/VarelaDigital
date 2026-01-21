@@ -204,7 +204,7 @@
         <place xml:id="jaguarao_chico">
             <placeName>Jaguarão Chico</placeName>
             <idno type="geonames">https://www.geonames.org/3460227/arroyo-yaguaron-chico.html</idno>
-            <geo>-32.5608 -53.3753</geo>
+            <geo>-31.95472, -53.94717</geo>
             <note>Arroio tributário do Rio Jaguarão, no sul do Rio Grande do Sul, fronteira com o Uruguai.</note>
         </place>
         
@@ -433,7 +433,7 @@
         <place xml:id="bom_retiro">
             <placeName>Bom Retiro</placeName>
             <indo type="geonames">https://www.geonames.org/3469391/bom-retiro-do-sul.html</indo>
-            <geo>29.60889, -51.94306</geo>
+            <geo>-29.60889, -51.94306</geo>
             <note>Localidade em torno da Propriedade de José Rodrigues Chaves.</note>
         </place> <!-- corrigir para a id "retiro"-->
         

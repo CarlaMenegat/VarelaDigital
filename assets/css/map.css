@@ -1,0 +1,234 @@
+/* =========================================================
+   Varela Digital — Map page
+   File: /assets/css/map.css
+   ========================================================= */
+
+.vd-map-page {
+  padding-top: 5.25rem; /* navbar fixed-top */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+  background: #f6f7f4;
+}
+
+.vd-map-header {
+  max-width: 1100px;
+  margin: 0 auto 1rem auto;
+}
+
+.vd-map-layout {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.vd-map-card {
+  background: #fdfdfb;
+  border-radius: 14px;
+  padding: 0.75rem;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.08);
+}
+
+/* =========================================================
+   Leaflet container
+   ========================================================= */
+
+.vd-leaflet-map {
+  width: 100%;
+  height: 70vh;
+  min-height: 520px;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  background: #eef1ea;
+}
+
+/* ---------------------------------------------------------
+   Aesthetic overlays (non-interactive)
+   --------------------------------------------------------- */
+
+.map-wash {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(220, 228, 210, 0.35),
+    rgba(210, 218, 200, 0.35)
+  );
+  mix-blend-mode: multiply;
+  pointer-events: none;
+  z-index: 300;
+}
+
+.map-paper {
+  position: absolute;
+  inset: 0;
+  background-image: url("../img/paper-texture.png");
+  background-size: 600px 600px;
+  opacity: 0.06;
+  pointer-events: none;
+  z-index: 301;
+}
+
+/* =========================================================
+   Sidebar
+   ========================================================= */
+
+.map-filters {
+  background: #fdfdfb;
+  border-radius: 14px;
+  padding: 1rem;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.08);
+  position: sticky;
+  top: 6.25rem;
+}
+
+.filter-group + .filter-group {
+  margin-top: 1rem;
+}
+
+.filter-group-title {
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+  color: #394636;
+}
+
+.vd-filter-label {
+  font-weight: 600;
+  margin-top: 0.55rem;
+  margin-bottom: 0.35rem;
+  display: inline-block;
+}
+
+.vd-check {
+  margin-top: 0.75rem;
+}
+
+.vd-filters-actions {
+  margin-top: 1rem;
+}
+
+/* =========================================================
+   Status block
+   ========================================================= */
+
+.map-status {
+  border-top: 1px solid rgba(0,0,0,0.08);
+  padding-top: 0.75rem;
+}
+
+.map-status-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.2rem 0;
+}
+
+.map-status-label {
+  opacity: 0.75;
+}
+
+.map-status-value {
+  font-weight: 700;
+}
+
+/* =========================================================
+   Leaflet UI theming
+   ========================================================= */
+
+/* Zoom & layer controls */
+.leaflet-control-zoom,
+.leaflet-control-layers {
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  overflow: hidden;
+}
+
+.leaflet-control-zoom a,
+.leaflet-control-layers-toggle {
+  background-color: #f5f7f1;
+  color: #2f3b2c;
+}
+
+.leaflet-control-zoom a:hover,
+.leaflet-control-layers-toggle:hover {
+  background-color: #e6ebdc;
+}
+
+/* Layer control panel */
+.leaflet-control-layers-expanded {
+  background: #fdfdfb;
+  border-radius: 10px;
+  padding: 0.5rem 0.75rem;
+}
+
+/* =========================================================
+   Markers (circleMarker)
+   ========================================================= */
+
+.leaflet-interactive {
+  stroke: #2f5d3a;
+  fill: #6e9b6b;
+}
+
+.leaflet-interactive:hover {
+  fill: #5a8c60;
+}
+
+/* =========================================================
+   Popup
+   ========================================================= */
+
+.leaflet-popup-content-wrapper {
+  border-radius: 12px;
+  background: #fdfdfb;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.18);
+}
+
+.leaflet-popup-tip {
+  background: #fdfdfb;
+}
+
+.vd-popup h6 {
+  margin: 0 0 0.35rem 0;
+  font-weight: 800;
+  color: #2f3b2c;
+}
+
+.vd-popup .vd-popup-meta {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-bottom: 0.35rem;
+}
+
+.vd-popup ul {
+  margin: 0.25rem 0 0 1.1rem;
+  padding: 0;
+}
+
+.vd-popup li {
+  margin: 0.15rem 0;
+}
+
+.vd-popup a {
+  color: #355f3b;
+  text-decoration: none;
+}
+
+.vd-popup a:hover {
+  text-decoration: underline;
+}
+
+/* =========================================================
+   Responsive
+   ========================================================= */
+
+@media (max-width: 991px) {
+  .map-filters {
+    position: static;
+    top: auto;
+  }
+  .vd-leaflet-map {
+    height: 62vh;
+    min-height: 420px;
+  }
+}

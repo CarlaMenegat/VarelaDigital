@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Varela Digital — Map</title>
+
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+        <!-- Leaflet -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+        <!-- Project styles -->
+        <link rel="stylesheet" href="../css/styles.css"/>
+        <link rel="stylesheet" href="../css/map.css"/>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Leaflet JS -->
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    </head>
+
+    <body class="vd-map">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top vd-navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../../index.html">Varela Digital</a>
+
+                <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                >
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="../../index.html">Homepage</a></li>
+
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle active"
+                                href="#"
+                                id="collectionDropdown"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                The Collection
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="collectionDropdown">
+                                <li><a class="dropdown-item" href="indexes.html">Browse</a></li>
+                                <li><a class="dropdown-item active" href="map.html">Map</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="viewer.html?file=CV-1.xml">Viewer</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link" href="historical_context.html">Historical Context</a></li>
+
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="docsDropdown"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Documentation
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="docsDropdown">
+                                <li><a class="dropdown-item" href="project_discussion.html">Project Discussion</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="data_model.html">Data Model</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="hrao.html">HRAO Ontology</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main -->
+        <main class="vd-map-page">
+            <header class="vd-map-header">
+                <h1>Varela Digital Map</h1>
+                <p class="vd-lead">
+                Explore the correspondence geographically. Filter by year and sender, and switch between sending places and mentioned places.
+                </p>
+            </header>
+
+        <!-- 2-column layout -->
+            <div class="row g-4 align-items-start vd-map-layout">
+                <!-- Sidebar filters -->
+                <aside class="col-12 col-lg-4 col-xl-3">
+                    <div class="map-filters">
+                        <div class="filter-group">
+                        <div class="filter-group-title">Map mode</div>
+
+                            <label class="vd-filter-label" for="mapMode">
+                                Display
+                            </label>
+                            <select id="mapMode" class="form-select">
+                                <option value="sending" selected>Sending places</option>
+                                <option value="mentioned">Mentioned places</option>
+                                <option value="both">Both</option>
+                            </select>
+
+                            <div class="form-text">
+                                “Sending places” uses the main place in the header (correspDesc/dateline).
+                                “Mentioned places” maps all places referenced in the text (if coordinates exist).
+                            </div>
+                        </div>
+
+                        <div class="filter-group">
+                            <div class="filter-group-title">Document</div>
+
+                                <label class="vd-filter-label" for="yearFilter">Year</label>
+                                <select id="yearFilter" class="form-select">
+                                    <option value="">All years</option>
+                                </select>
+                            </div>
+
+                        <div class="filter-group">
+                            <div class="filter-group-title">Correspondence</div>
+
+                            <label class="vd-filter-label" for="senderFilter">Sender</label>
+                            <select id="senderFilter" class="form-select">
+                                <option value="">All senders</option>
+                            </select>
+
+                            <label class="vd-filter-label" for="recipientFilter">Recipient</label>
+                            <select id="recipientFilter" class="form-select">
+                                <option value="">All recipients</option>
+                            </select>
+
+                            <div class="form-check vd-check">
+                                <input class="form-check-input" type="checkbox" value="" id="mutualExchangeToggle">
+                                <label class="form-check-label" for="mutualExchangeToggle">
+                                Mutual exchange (A ↔ B)
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="vd-filters-actions">
+                            <button id="clearFiltersBtn" class="btn btn-sm btn-outline-secondary w-100">
+                                Clear filters
+                            </button>
+                        </div>
+
+                        <!-- Small status block -->
+                        <div class="map-status mt-3">
+                            <div class="map-status-row">
+                                <span class="map-status-label">Documents</span>
+                                <span class="map-status-value" id="docCount">—</span>
+                            </div>
+                            <div class="map-status-row">
+                                <span class="map-status-label">Plotted places</span>
+                                <span class="map-status-value" id="placeCount">—</span>
+                            </div>
+                            <div class="map-status-row">
+                                <span class="map-status-label">Missing coordinates</span>
+                                <span class="map-status-value" id="missingGeoCount">—</span>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Map column -->
+                <section class="col-12 col-lg-8 col-xl-9">
+                    <div class="vd-map-card">
+                        <div id="map" class="vd-leaflet-map" aria-label="Map">
+                            <!-- Optional aesthetic overlays (CSS-controlled) -->
+                            <div class="map-wash" aria-hidden="true"></div>
+                            <div class="map-paper" aria-hidden="true"></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Footer -->
+            <footer class="vd-footer">
+                <div class="footer-links">
+                    Developed by <strong>Carla Menegat</strong> |
+                    <a href="mailto:carla.menegat@studio.unibo.it">carla.menegat@studio.unibo.it</a> |
+                    <a href="https://github.com/CarlaMenegat" target="_blank" rel="noopener">GitHub</a> |
+                    Licensed under
+                    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> |
+                </div>
+
+                <div class="footer-small">
+                    Final examination project for the
+                    <a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge" target="_blank" rel="noopener">
+                        Master Degree in Digital Humanities and Digital Knowledge (DHDK)
+                    </a>, University of Bologna.
+                </div>
+            </footer>
+        </main>
+
+        <script src="../scripts/map.js"></script>
+    </body>
+</html>
