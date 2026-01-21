@@ -104,7 +104,6 @@
             <correspDesc>
                 <correspAction type="sent">
                     <orgName ref="#secretaria_guerra">Secretaria dos Negócios da Guerra</orgName>
-                    <placeName ref="#joao_machado">João Machado</placeName>
                     <date when="1840-03-25">25 de março de 1840</date>
                 </correspAction>
                 <correspAction type="received">
@@ -161,7 +160,7 @@
                 
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V. S.ª</abbr><expan>Vossa Senhoria</expan></choice>.</salute>
-                    <dateline><placeName ref="#joao_machado">João Machado</placeName>, <date when="1840-03-25">25, ao amanhecer, de março de 1840</date>.</dateline>
+                    <dateline>João Machado, <date when="1840-03-25">25, ao amanhecer, de março de 1840</date>.</dateline>
                     <addressee><choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#joao_antonio_silveira">Coronel João Antônio da Silveira</persName>.</addressee>
                     <signed><persName ref="#serafim_alencastre">Serafim Joaquim de Alencastre</persName></signed>
                 </closer>

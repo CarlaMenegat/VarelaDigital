@@ -2393,7 +2393,7 @@
         </person>
         
         <person xml:id="robert_bisley">
-            <persName>Roberto G. Bisley</persName>
+            <persName>Robert G. Bisley</persName>
             <idno type="project"/>
             <state type="roleInTime" xml:id="roberto_bisley_capitao">
                 <roleName>Capitão</roleName>
@@ -4317,7 +4317,7 @@
                 <roleName>Tenente-coronel</roleName>
                 <affiliation ref="#republica_rio_grandense"/>
                 <location>
-                    <placeName ref="#encruzilhada">Encruzilhada</placeName>
+                    <placeName ref="#encruzilhada_do_sul">Encruzilhada</placeName>
                 </location>
             </state>
             <note>Chefe farroupilha, referido como tenente-coronel e atuante na região de Encruzilhada.</note>

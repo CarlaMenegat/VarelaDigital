@@ -92,7 +92,6 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#francisco_pedro_abreu">Francisco Pedro de Abreu</persName>
-                    <placeName ref="#picada">Acampamento da Picada</placeName>
                     <date when="1838-11-18">18 de novembro de 1838</date>
                 </correspAction>
                 <correspAction type="received">
@@ -148,7 +147,7 @@
                     
                     <closer>
                         <salute>Deus guarde a <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> por muitos anos.</salute>
-                        <dateline><placeName ref="#picada">Acampamento da Picada</placeName>, <date when="1838-11-18">18 de novembro de 1838</date>.</dateline>
+                        <dateline>Acampamento da Picada, <date when="1838-11-18">18 de novembro de 1838</date>.</dateline>
                         <addressee>
                             <choice><abbr>Ilmo.</abbr><expan>Ilustríssimo</expan></choice> <choice><abbr>Exmo.</abbr><expan>Excelentíssimo</expan></choice> 
                             <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice> <persName ref="#tomas_jose_silva">Tomás José da Silva</persName>.<br/>

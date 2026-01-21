@@ -92,7 +92,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="#joao_pedro_abreu">João Pedro de Abreu</persName>
-                    <placeName ref="#velhaco">Arroio do Velhaco</placeName>
+                    <placeName ref="#arroio_velhaco">Arroio do Velhaco</placeName>
                     <date when="1836-10-27">27 de outubro de 1836</date>
                 </correspAction>
                 <correspAction type="received">
@@ -147,7 +147,7 @@
                     feito por ora prisões nos mesmos por estar ainda muito perto o inimigo e desconfiar que se principiar a prender alguns, 
                     os outros, noticiosos, fujam a reforçarem as fileiras dos rebeldes, o que guardo para quando vier o Major 
                     <persName ref="#paulo_pereira_silva_alano">Paulo Alano</persName> com forças para guarnecer a costa de 
-                    <placeName ref="#camaqua">Camaquã</placeName>. Os três distritos acham-se cheios de anarquistas e de ladrões facinorosos; 
+                    <placeName ref="#rio_camaqua">Camaquã</placeName>. Os três distritos acham-se cheios de anarquistas e de ladrões facinorosos; 
                     os cidadãos pacíficos e amigos da ordem legal me suplicam com lágrimas e me impedem a minha retirada 
                     <pb n="1v"/>
                     <seg type="folio">[1v.]</seg>
@@ -170,7 +170,7 @@
                     que <choice><abbr>V.Exª.</abbr><expan>Vossa Excelência</expan></choice> dê as 
                     providências que achar mais conveniente. A muito custo tenho reunido duzentos e tantos cavalos e estes acham-se quase 
                     todos incapazes de poder servir no presente por estarem bastante magros; nestes mesmos vou fazendo o serviço até juntar 
-                    mais alguns. O inimigo retirou-se para o outro lado de <placeName ref="#camaqua">Camaquã</placeName>, ficando do lado de 
+                    mais alguns. O inimigo retirou-se para o outro lado de <placeName ref="#rio_camaqua">Camaquã</placeName>, ficando do lado de 
                     cá deste arroio uma partida, que me dizem ser de mais de 60 homens, comandada pelo rebelde 
                     <persName ref="#mariano_gloria">Mariano Glória</persName>, e o inimigo levou na sua retirada tudo quanto foi cavalo que 
                     havia nestes distritos fazendo seguir alguns moradores pacíficos com seus cavalos e até éguas mansas.
@@ -181,7 +181,7 @@
                 <closer>
                     <salute>Deus guarde a <choice><abbr>V.Exª</abbr><expan>Vossa Excelência</expan></choice> por muitos anos.</salute>
                     <dateline> 
-                        Acampamento volante nas imediações do <placeName ref="#velhaco">Arroio do Velhaco</placeName>, 
+                        Acampamento volante nas imediações do <placeName ref="#arroio_velhaco">Arroio do Velhaco</placeName>, 
                         <date when="1836-10-27">27 de outubro de 1836</date>.
                     </dateline>
                     <addressee>
@@ -191,7 +191,7 @@
                     <signed>
                         <persName ref="#joao_pedro_abreu">João Pedro de Abreu</persName><br/>
                         Tenente Comandante da Polícia do <placeName ref="#arroio_ratos">Arroio dos Ratos</placeName> até o 
-                        <placeName ref="#velhaco">Arroio Velhaco</placeName>.
+                        <placeName ref="#arroio_velhaco">Arroio Velhaco</placeName>.
                     </signed>
                 </closer>
                 

@@ -134,6 +134,16 @@
             <note>Região rural histórica correspondente à área hoje integrada ao município de Nova Santa Rita (RS), citada em documentos da Revolução Farroupilha.</note>
         </place>
         
+        <place xml:id="charqueadas">
+            <placeName>Charqueadas</placeName>
+            <placeName>Charqueadas da Barra</placeName>
+            <placeName>Charqueadas do Jacuí</placeName>
+            <placeName>Barra do Jacuí</placeName>
+            <idno type="geonames">https://www.geonames.org/3466261/charqueadas.html</idno>
+            <geo>-29.95472 -51.62528</geo>
+            <note>Região onde historicamente se localizavam charqueadas ao longo da costa do Rio Jacuí.</note>
+        </place>
+        
         <place xml:id="passo_fundo">
             <placeName>Passo Fundo</placeName>
             <idno type="geonames">https://www.geonames.org/3454857/passo-fundo.html</idno>
@@ -228,6 +238,20 @@
             <idno type="geonames">https://www.geonames.org/13029720/sao-joao-batista.html</idno>
             <geo>-28.37188, -54.40057</geo>
             <note>Distrito. Corresponde à localidade de São João Batista na região das Missões no Rio Grande do Sul.</note>
+        </place>
+        
+        <place xml:id="sao_francisco_xavier">
+            <placeName xml:lang="pt-BR" type="attested">São Francisco Xavier</placeName>
+            <placeName xml:lang="pt-BR" type="variant">São Francisco</placeName>
+            <placeName xml:lang="pt-BR" type="variant">São Xavier</placeName>
+            <placeName xml:lang="pt-BR" type="modern">Porto Xavier</placeName>
+            <idno type="geonames">https://www.geonames.org/3452608/porto-xavier.html</idno>
+            <geo>-27.90556, -55.1375</geo>
+            <note>
+                Redução jesuítica dos Sete Povos das Missões. Nos documentos do século XIX,
+                aparece abreviadamente como “São Francisco” ou “São Xavier”. Corresponde à
+                atual cidade de Porto Xavier, no Rio Grande do Sul.
+            </note>
         </place>
         
         <place xml:id="inhamanda">
@@ -482,6 +506,13 @@
             <note>Canal que liga a Lagoa dos Patos à Lagoa Mirim, situado em Pelotas, Rio Grande do Sul.</note>
         </place>
         
+        <place xml:id="palmar">
+            <placeName xml:lang="pt-BR" type="attested">Santa Vitória do Palmar</placeName>
+            <idno type="geonames">https://www.geonames.org/3449747/santa-vitoria-do-palmar.html</idno>
+            <geo>-33.51889, -53.36806</geo>
+            <note>Cidade localizada no extremo sul da província do Rio Grande do Sul, próxima à fronteira com o Uruguai.</note>
+        </place>
+        
         <place xml:id="cerro_largo">
             <placeName>Cerro Largo</placeName>
             <idno type="geonames">https://www.geonames.org/3443173/departamento-de-cerro-largo.html</idno>
@@ -542,7 +573,7 @@
         </place>
         
         <place xml:id="sao_fructuoso">
-            <placeName type="historical">São Fructuoso</placeName>
+            <placeName type="historical">San Fructuoso</placeName>
             <placeName type="modern">Tacuarembó</placeName>
             <idno type="geonames">https://www.geonames.org/3440034/tacuarembo.html</idno>
             <geo>-31.7200, -55.9800</geo>
@@ -621,7 +652,8 @@
         </place>
         
         <place xml:id="dores_camaqua">
-            <placeName>Distrito das Dores / Capela das Dores</placeName>
+            <placeName>Capela das Dores</placeName>
+            <placeName>Distrito das Dores</placeName>
             <idno type="geonames">https://www.geonames.org/6318661/sentinela-do-sul.html</idno>
             <geo>-30.61139, -51.57889</geo>
             <note>Antigo Distrito de Dores de Camaquã (ou Capela de Nossa Senhora das Dores), fundado em 1819 com a doação de terras para a capela dedicada a Nossa Senhora das Dores; em 1831 passou a integrar a Vila de Bom Jesus do Triunfo e em 1833 foi elevado a freguesia; corresponde ao atual município de Sentinela do Sul, RS, Brasil, e ao topônimo citado em fontes históricas do século XIX, como documentos da Revolução Farroupilha [web:6][web:21][web:26].</note>

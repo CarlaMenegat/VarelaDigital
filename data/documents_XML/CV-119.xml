@@ -98,7 +98,7 @@
                 </correspAction>
                 <correspAction type="received">
                     <persName ref="#domingos_almeida">Domingo José de Almeida</persName>
-                    <placeName ref="#bage_rs">Bagé</placeName>
+                    <placeName ref="#bage">Bagé</placeName>
                 </correspAction>
             </correspDesc>
             <handDesc>
@@ -162,7 +162,7 @@
                 
                 <note type="endorsement" place="1v.">
                     Illustríssimo ciudadano Don Domingo José de Almeida — 
-                    <placeName ref="#bage_rs">Bagé</placeName>.<br/>
+                    <placeName ref="#bage">Bagé</placeName>.<br/>
                 </note>
                 
                 <note type="endorsement" place="1r.">
