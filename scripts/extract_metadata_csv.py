@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import csv
+import re
 import sys
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -63,6 +64,14 @@ def uniq_preserve(seq: Iterable[str]) -> List[str]:
         seen.add(x)
         out.append(x)
     return out
+
+
+def base_cv_id(x: str) -> str:
+    x = strip_text(x)
+    m = re.match(r"^(CV-\d+)([a-z])?$", x, flags=re.IGNORECASE)
+    if not m:
+        return x
+    return m.group(1)
 
 
 @dataclass
@@ -178,32 +187,67 @@ def parse_standoff_places(path: Path) -> Dict[str, EntityRecord]:
 
 
 def parse_standoff_events(path: Path) -> Dict[str, EntityRecord]:
+    """
+    Your standoff is now:
+      <listEvent>
+         <eventName xml:id="..."> ... </eventName>
+      </listEvent>
+
+    Label preference:
+      1) first <desc>
+      2) first <label>
+      3) xml:id
+    """
     idx: Dict[str, EntityRecord] = {}
     if not path.exists():
         return idx
 
     root = ET.parse(path).getroot()
-    for ev in root.findall(".//tei:event", TEI_NS):
+
+    for ev in root.findall(".//tei:eventName", TEI_NS):
         xml_id = ev.get(XML_ID)
         if not xml_id:
             continue
 
-        descs = _collect_texts(ev, "tei:desc")
-        label = descs[0] if descs else xml_id
-        aliases = uniq_preserve(descs[1:])
+        desc = ev.find("tei:desc", TEI_NS)
+        lab = ev.find("tei:label", TEI_NS)
+
+        if desc is not None and strip_text("".join(desc.itertext())):
+            label = strip_text("".join(desc.itertext()))
+        elif lab is not None and strip_text("".join(lab.itertext())):
+            label = strip_text("".join(lab.itertext()))
+        else:
+            label = xml_id
 
         uri = f"{PROJECT_EVENT_BASE}{xml_id}"
-        idx[xml_id] = EntityRecord(xml_id=xml_id, label=label, uri=uri, aliases=aliases)
+        idx[xml_id] = EntityRecord(xml_id=xml_id, label=label, uri=uri, aliases=[])
 
     return idx
 
 
 def extract_cv_id(root: ET.Element, fallback_filename: str) -> str:
-    div = find_first(root, ".//tei:text//tei:div")
-    if div is not None:
-        xml_id = div.get(XML_ID)
-        if xml_id:
-            return xml_id.strip()
+    """
+    Prefer the xml:id of a letter div:
+      - If there is a div[@type='letter'] whose id is NOT suffixed (a/b), use it.
+      - Else if only suffixed ones exist (CV-250a, CV-250b), return base CV-250.
+      - Else fallback to filename stem.
+    """
+    letter_divs = find_all(root, ".//tei:text//tei:div[@type='letter']")
+    ids = []
+    for d in letter_divs:
+        did = strip_text(d.get(XML_ID) or "")
+        if did:
+            ids.append(did)
+
+    for did in ids:
+        if re.match(r"^CV-\d+$", did, flags=re.IGNORECASE):
+            return did
+
+    for did in ids:
+        m = re.match(r"^(CV-\d+)[a-z]$", did, flags=re.IGNORECASE)
+        if m:
+            return m.group(1)
+
     return Path(fallback_filename).stem
 
 
@@ -228,18 +272,22 @@ def extract_author_from_header(root: ET.Element) -> Tuple[str, str]:
     return "", ""
 
 
-def extract_corresp_sent_received(root: ET.Element) -> Tuple[str, str, str, str, str]:
+def extract_corresp_primary_pair(root: ET.Element) -> Tuple[str, str, str, str, str]:
+    """
+    If multiple correspAction exist (letter + reply in same file),
+    use the first 'sent' + first 'received' as the "primary" pair.
+    """
     sent_p = find_first(
         root,
-        ".//tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:persName[@ref]",
+        ".//tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent'][1]/tei:persName[@ref]",
     )
     recv_p = find_first(
         root,
-        ".//tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received']/tei:persName[@ref]",
+        ".//tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received'][1]/tei:persName[@ref]",
     )
     sent_date = find_first(
         root,
-        ".//tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date[@when]",
+        ".//tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent'][1]/tei:date[@when]",
     )
 
     author_name = strip_text("".join(sent_p.itertext())) if sent_p is not None else ""
@@ -255,7 +303,7 @@ def extract_corresp_sent_received(root: ET.Element) -> Tuple[str, str, str, str,
 def extract_main_date_norm(root: ET.Element) -> str:
     sent_date = find_first(
         root,
-        ".//tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:date[@when]",
+        ".//tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent'][1]/tei:date[@when]",
     )
     if sent_date is not None:
         return strip_text(sent_date.get("when"))
@@ -270,7 +318,7 @@ def extract_main_date_norm(root: ET.Element) -> str:
 def extract_main_place_from_corresp(root: ET.Element) -> Tuple[str, str]:
     p = find_first(
         root,
-        ".//tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName[@ref]",
+        ".//tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent'][1]/tei:placeName[@ref]",
     )
     if p is not None:
         return strip_text("".join(p.itertext())), normalize_ref(p.get("ref", ""))
@@ -322,13 +370,15 @@ def collect_mentions(
         rid = normalize_ref(ev.get("ref", ""))
         add(events, rid, "".join(ev.itertext()))
 
-    for ev in find_all(root, ".//tei:text//tei:rs[@type='event'][@ref]"):
-        rid = normalize_ref(ev.get("ref", ""))
-        add(events, rid, "".join(ev.itertext()))
+    for ev in find_all(root, ".//tei:text//tei:rs[@ref]"):
+        if (ev.get("type") or "").strip().lower() == "event":
+            rid = normalize_ref(ev.get("ref", ""))
+            add(events, rid, "".join(ev.itertext()))
 
-    for ev in find_all(root, ".//tei:text//tei:name[@type='event'][@ref]"):
-        rid = normalize_ref(ev.get("ref", ""))
-        add(events, rid, "".join(ev.itertext()))
+    for ev in find_all(root, ".//tei:text//tei:name[@ref]"):
+        if (ev.get("type") or "").strip().lower() == "event":
+            rid = normalize_ref(ev.get("ref", ""))
+            add(events, rid, "".join(ev.itertext()))
 
     return people, orgs, places, events
 
@@ -428,7 +478,7 @@ def main() -> int:
         cv_id = extract_cv_id(root, path.name)
         subject = extract_subject(root)
 
-        c_author_name, c_author_ref, recipient_name, recipient_ref, _sent_when = extract_corresp_sent_received(root)
+        c_author_name, c_author_ref, recipient_name, recipient_ref, _sent_when = extract_corresp_primary_pair(root)
         if c_author_name or c_author_ref:
             author_name, author_ref = c_author_name, c_author_ref
         else:
@@ -516,7 +566,7 @@ def main() -> int:
                 "mentioned_places": safe_join(mentioned_places, ";"),
                 "mentioned_events": safe_join(mentioned_events, ";"),
                 "mentioned_dates": mentioned_dates,
-                "text_file": str(path),
+                "text_file": path.name,
             }
         )
 

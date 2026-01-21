@@ -45,7 +45,15 @@
                                 </div>
                                 
                                 <div class="tei-body">
-                                    <xsl:apply-templates select="//tei:text/tei:body/tei:div[1]"/>
+                                    <!-- ✅ NEW: render all letter divs (a/b) if present; else fallback to all divs -->
+                                    <xsl:choose>
+                                        <xsl:when test="//tei:text/tei:body//tei:div[@type='letter']">
+                                            <xsl:apply-templates select="//tei:text/tei:body//tei:div[@type='letter']"/>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:apply-templates select="//tei:text/tei:body//tei:div"/>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
                                 </div>
                                 
                             </div>
@@ -97,6 +105,20 @@
     <!-- ===== Block structure ===== -->
     <xsl:template match="tei:div">
         <div class="tei-div">
+            
+            <!-- ✅ NEW: if more than one letter exists in the file, add a small section header -->
+            <xsl:if test="@type='letter' and count(//tei:text/tei:body//tei:div[@type='letter']) &gt; 1">
+                <div class="tei-letter-part" style="margin:0.75rem 0; font-weight:600;">
+                    <xsl:choose>
+                        <xsl:when test="position()=1">Carta</xsl:when>
+                        <xsl:when test="position()=2">Resposta</xsl:when>
+                        <xsl:otherwise>
+                            <xsl:text>Parte </xsl:text><xsl:value-of select="position()"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </div>
+            </xsl:if>
+            
             <xsl:apply-templates/>
         </div>
         <div class="tei-spacer"></div>
@@ -162,7 +184,6 @@
     
     <!-- ===== Notes ===== -->
     
-    <!-- Editorial: block when possible, inline inside text flow -->
     <xsl:template match="tei:note[@type='editorial']">
         <xsl:choose>
             <xsl:when test="ancestor::tei:p or ancestor::tei:head or ancestor::tei:l or ancestor::tei:seg or ancestor::tei:ab">
@@ -192,7 +213,6 @@
         </span>
     </xsl:template>
     
-    <!-- Generic note: but exclude endorsement, hand, editorial -->
     <xsl:template match="tei:note[not(@type='endorsement') and not(@type='hand') and not(@type='editorial')]">
         <div class="tei-note">
             <xsl:call-template name="note-hand-prefix"/>
@@ -231,10 +251,11 @@
     <!-- Hide page/surface markers -->
     <xsl:template match="tei:pb"/>
     
-    <!-- Hide folio seg markers (don’t output anything) -->
+    <!-- Hide folio seg markers -->
     <xsl:template match="tei:seg[@type='folio']"/>
     
-    <xsl:template match="tei:persName|tei:placeName|tei:orgName">
+    <!-- ✅ NEW: include tei:eventName as annotated too -->
+    <xsl:template match="tei:persName|tei:placeName|tei:orgName|tei:eventName">
         <span class="annotated">
             <xsl:if test="@ref">
                 <xsl:attribute name="data-ref">
@@ -260,7 +281,7 @@
         <br/>
     </xsl:template>
     
-    <!-- ===== Whitespace handling (keep a single inter-node space in text-flow containers) ===== -->
+    <!-- ===== Whitespace handling ===== -->
     <xsl:template match="text()[normalize-space(.)='']">
         <xsl:choose>
             <xsl:when test="parent::tei:p or parent::tei:head or parent::tei:l or parent::tei:note or parent::tei:ab or parent::tei:seg">

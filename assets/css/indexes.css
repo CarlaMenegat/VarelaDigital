@@ -1,0 +1,212 @@
+/* =========================================================
+   Varela Digital — Indexes page
+   File: /assets/css/indexes.css
+   ========================================================= */
+
+:root{
+  --vd-navbar-offset: 72px;
+  --vd-border: #C4B3B2;
+  --vd-accent: #5E121A;
+  --vd-bg: #F8F5EF;
+}
+
+/* topo nunca atrás da navbar */
+body.vd-indexes{
+  padding-top: calc(var(--vd-navbar-offset) + 24px);
+}
+
+/* wrapper do conteúdo */
+.vd-indexes-page{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 18px 2.5rem;
+}
+
+.vd-indexes-header{
+  margin-bottom: 1rem;
+}
+
+/* =========================================================
+   LAYOUT: sidebar + results
+   ========================================================= */
+
+.vd-indexes-layout{
+  margin-top: 0.75rem;
+}
+
+/* Sidebar box */
+.index-filters{
+  background:#fff;
+  border:1px solid var(--vd-border);
+  border-radius:12px;
+  padding:1rem;
+  margin-bottom:1.25rem;
+
+  /* Sticky like a normal sidebar (no internal scroll) */
+  position: sticky;
+  top: calc(var(--vd-navbar-offset) + 18px);
+
+  /* IMPORTANT: remove internal scrolling */
+  max-height: none;
+  overflow: visible;
+}
+
+/* section headings inside filters */
+.filter-group{
+  padding-bottom: 0.9rem;
+  margin-bottom: 0.9rem;
+  border-bottom: 1px solid rgba(196,179,178,0.45);
+}
+
+.filter-group:last-child{
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.filter-group-title{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  color: rgba(47,47,47,0.95);
+  margin-bottom: 0.5rem;
+}
+
+.vd-filter-label{
+  display:block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  opacity: 0.85;
+  margin: 0.55rem 0 0.25rem;
+}
+
+.vd-check{
+  margin-top: 0.65rem;
+}
+
+.vd-filters-actions{
+  margin-top: 1rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid rgba(196,179,178,0.45);
+}
+
+/* Results column card */
+.vd-results-col{
+  min-width: 0; /* prevent overflow */
+}
+
+.vd-results-card{
+  background: transparent;
+  border-radius: 12px;
+}
+
+/* =========================================================
+   Results list
+   ========================================================= */
+
+.index-item{
+  border-bottom:1px solid rgba(196,179,178,0.5);
+  padding:0.9rem 0;
+}
+
+.index-item:last-child{
+  border-bottom: none;
+}
+
+.index-meta{
+  font-size:0.9rem;
+  opacity:0.85;
+  margin-top: 0.15rem;
+}
+
+.index-item a{
+  color: var(--vd-accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* =========================================================
+   Pager
+   ========================================================= */
+
+.pager{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:1rem;
+  margin-top:1.2rem;
+  padding-top:0.9rem;
+  border-top:1px solid rgba(196,179,178,0.5);
+  flex-wrap: wrap;
+}
+
+.pager .btn{
+  min-width:110px;
+}
+
+.results-count{
+  font-size:0.92rem;
+  opacity:0.85;
+  text-align: center;
+  flex: 1 1 auto;
+}
+
+/* numeric pagination links */
+.pager-links{
+  display:flex;
+  gap: 0.35rem;
+  align-items:center;
+  justify-content:center;
+  margin-top: 0.55rem;
+  flex-wrap: wrap;
+}
+
+.page-link-btn{
+  display:inline-block;
+  padding: 0.22rem 0.55rem;
+  border: 1px solid rgba(196,179,178,0.85);
+  border-radius: 10px;
+  background: rgba(255,255,255,0.65);
+  color: rgba(94, 18, 26, 0.9);
+  text-decoration: none;
+  font-size: 0.92rem;
+}
+
+.page-link-btn:hover{
+  background: rgba(94, 18, 26, 0.10);
+  color: var(--vd-accent);
+}
+
+.page-link-btn.is-active{
+  background: rgba(122, 31, 41, 0.15);
+  border-color: rgba(122, 31, 41, 0.45);
+  color: var(--vd-accent);
+  font-weight: 600;
+}
+
+.page-ellipsis{
+  opacity: 0.7;
+  padding: 0 0.2rem;
+}
+
+/* =========================================================
+   Responsive
+   ========================================================= */
+
+@media (max-width: 992px){
+  .index-filters{
+    position: static;
+    top: auto;
+  }
+}
+
+@media (max-width: 576px){
+  body.vd-indexes{
+    padding-top: calc(var(--vd-navbar-offset) + 18px);
+  }
+  .vd-indexes-page{
+    padding: 0 12px 2.2rem;
+  }
+  .pager .btn{
+    min-width: 96px;
+  }
+}

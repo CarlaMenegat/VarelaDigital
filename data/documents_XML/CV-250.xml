@@ -136,8 +136,6 @@
     
     <text>
         <body>
-            <text>
-                <body>
 
                     <div type="letter" xml:id="CV-250a">
                         
@@ -193,13 +191,10 @@
                             <choice><abbr>Sr.</abbr><expan>Senhor</expan></choice>
                             Presidente do Estado. Sua residência.
                             Volta com resposta.
-                            <PersName ref="#bento_goncalves">Silva.</PersName>
+                            <signed><persName ref="#bento_goncalves">Silva</persName>.</signed>
                         </note>
                         
                     </div>
-                    
-                </body>
-            </text>
         </body>
     </text>
     

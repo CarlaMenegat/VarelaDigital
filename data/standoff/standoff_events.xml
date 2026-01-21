@@ -85,7 +85,7 @@
     </teiHeader>
     
     <listEvent>
-        <event xml:id="combate_espinilho">
+        <eventName xml:id="combate_espinilho">
             <desc>Combate do Espinilho</desc>
             <date when="1837-10-25">25 de outubro de 1837</date>
             <location>
@@ -93,9 +93,9 @@
                 <geo>-31.3347 -56.0947</geo>
             </location>
             <note>Combate ocorrido durante a Revolução Farroupilha entre forças farroupilhas comandadas por David Canabarro e forças legalistas. Resultou em vitória rebelde e é citado em correspondência de Raul Abbott, baseada em relatos orais do veterano Coritiba.</note>
-        </event>
+        </eventName>
         
-        <event xml:id="porongos_1844">
+        <eventName xml:id="porongos_1844">
             <desc>Emboscada de Porongos</desc>
             <date when="1844-11-14">14 de novembro de 1844</date>
             <location>
@@ -103,9 +103,9 @@
                 <geo>-31.5833 -53.3833</geo>
             </location>
             <note>Emboscada ocorrida durante a fase final da Revolução Farroupilha, resultando na morte de Joaquim Teixeira Nunes e na desmobilização forçada do Corpo de Lanceiros Negros.</note>
-        </event>
+        </eventName>
         
-        <event xml:id="revolta_liberal_1842">
+        <eventName xml:id="revolta_liberal_1842">
             <desc>Revolta Liberal de 1842</desc>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q9068547</idno>
             <date when="1842">1842</date>
@@ -114,9 +114,9 @@
                 <placeName ref="#minas_gerais">Minas Gerais</placeName>
             </location>
             <note>Levantamento político-militar de caráter liberal ocorrido em 1842, tendo lideranças civis e militares em São Paulo e Minas Gerais. Foi reprimido pelo governo imperial, resultando na prisão de diversas figuras do Partido Liberal.</note>
-        </event>
+        </eventName>
         
-        <event xml:id="subs_boqueirao_1837" type="financialSubscription">
+        <eventName xml:id="subs_boqueirao_1837" type="financialSubscription">
             <label>Subscrição do Boqueirão</label>
             <desc>
                 Subscrição coletiva realizada por moradores do distrito do Boqueirão,
@@ -127,6 +127,6 @@
             <date when="1837-10-01"/>
             <placeName ref="#boqueirao"/>
             <affiliation ref="#republica_rio_grandense"/>
-        </event>
+        </eventName>
     </listEvent>
 </standOff>

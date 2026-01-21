@@ -370,11 +370,42 @@
             <note>Unidade militar da Guarda Nacional do Império do Brasil, atuante durante a Revolução Farroupilha.</note>
         </org>
         
+        <org xml:id="infantaria_11batalhao" type="militaryUnit">
+            <orgName>11.º Batalhão de Infantaria</orgName>
+            <orgName type="variant">11.º da mesma arma</orgName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="infantaria_11batalhao_imperio_rs_1840">
+                <roleName>Batalhão de infantaria</roleName>
+                <affiliation ref="#exercito_imperial"/>
+            </state>
+            <note>
+                Unidade de infantaria do Exército Imperial (linha) atuante na Província de São Pedro do Rio Grande do Sul.
+                Em CV-63 (17 dez. 1840), é mencionada como “11.º da mesma arma”, atravessando o Passo Real do Rio dos Sinos
+                juntamente com o 5.º Batalhão de Infantaria e outras forças em operação contra rebeldes.
+            </note>
+        </org>
+        
         <org xml:id="terceiro_batalhao" type="militaryUnit">
             <orgName>3.º Batalhão de Infantaria</orgName>
             <idno type="project"/>
             <affiliation ref="#imperio_brasil"/>
             <note>Batalhão do Exército Imperial Brasileiro atuante durante a Revolução Farroupilha.</note>
+        </org>
+        
+        <org xml:id="corpo_provisorio" type="militaryUnit">
+            <orgName>Corpo Provisório</orgName>
+            <orgName type="variant">Provisório</orgName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="corpo_provisorio_imperio_rs_1838">
+                <roleName>Unidade militar</roleName>
+                <affiliation ref="#exercito_imperial"/>
+            </state>
+            <note>
+                Designação abreviada, nos documentos, para um corpo/unidade militar de caráter temporário
+                (“provisório”), empregado em operações e destacamentos no contexto da Guerra dos Farrapos.
+                Em CV-44 (1838), aparece como “Provisório”, compondo parte das praças enviadas em ação
+                na costa da Lagoa dos Patos sob comando de Francisco Pedro de Abreu.
+            </note>
         </org>
         
         <org xml:id="camara_alegrete" type="governmentBody">
@@ -604,6 +635,22 @@
             </note>
         </org>
         
+        <org xml:id="segundo_batalhao" type="militaryUnit">
+            <orgName>2.º Batalhão</orgName>
+            <orgName type="variant">Batalhão 2.º</orgName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="segundo_batalhao_imperio_rs_1839">
+                <roleName>Batalhão de infantaria</roleName>
+                <affiliation ref="#exercito_imperial"/>
+            </state>
+            <note>
+                Unidade militar do Exército Imperial atuante na Província de São Pedro do Rio Grande do Sul.
+                Em CV-54 (11 abr. 1839), parte do 2.º Batalhão segue embarcada na barca de vapor “Liberal”,
+                sob comando do Brigadeiro Filipe Neri, enquanto outra parte permanece no Passo do Caí com o
+                tenente-coronel Fernandes.
+            </note>
+        </org>
+        
         <org xml:id="trem_guerra_farroupilha" type="militaryUnit">
             <orgName>Trem de Guerra</orgName>
             <idno type="project"/>
@@ -632,6 +679,23 @@
                 manutenção e reparo de armamentos, munições, equipamentos bélicos e utensílios 
                 necessários às operações do exército farroupilha durante a Revolução Farroupilha 
                 (1835–1845).
+            </note>
+        </org>
+        
+        <org xml:id="arsenal_guerra" type="militaryFacility">
+            <orgName>Arsenal de Guerra</orgName>
+            <orgName type="variant">Arsenal de Guerra da Província do Rio Grande do Sul</orgName>
+            <orgName type="variant">Arsenal de Guerra do Rio Grande do Sul</orgName>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="arsenal_guerra_imperio_rs">
+                <roleName>Estabelecimento militar</roleName>
+                <affiliation ref="#exercito_imperial"/>
+            </state>
+            <note>
+                Estabelecimento militar do Império do Brasil no Rio Grande do Sul, vinculado ao Exército,
+                destinado à guarda, fabricação, manutenção e reparo de armamentos, munições e demais
+                equipamentos bélicos. Nos documentos, pode aparecer abreviado como “Arsenal”, em geral
+                em contexto administrativo e logístico militar.
             </note>
         </org>
         
