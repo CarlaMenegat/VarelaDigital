@@ -94,6 +94,53 @@ def _collect_texts(parent: ET.Element, xpath: str) -> List[str]:
     return vals
 
 
+def _first(xs: List[ET.Element]) -> Optional[ET.Element]:
+    return xs[0] if xs else None
+
+
+def _first_corresp_action(root: ET.Element, typ: str) -> Optional[ET.Element]:
+    actions = root.findall(
+        ".//tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction",
+        TEI_NS,
+    )
+    for a in actions:
+        if (a.get("type") or "").strip() == typ:
+            return a
+    return None
+
+
+def _extract_name_and_ref(action: Optional[ET.Element]) -> Tuple[str, str]:
+    if action is None:
+        return "", ""
+
+    pn = _first(action.findall("tei:persName[@ref]", TEI_NS))
+    if pn is not None:
+        return strip_text("".join(pn.itertext())), normalize_ref(pn.get("ref", ""))
+
+    on = _first(action.findall("tei:orgName[@ref]", TEI_NS))
+    if on is not None:
+        return strip_text("".join(on.itertext())), normalize_ref(on.get("ref", ""))
+
+    pn2 = _first(action.findall("tei:persName", TEI_NS))
+    if pn2 is not None:
+        return strip_text("".join(pn2.itertext())), ""
+
+    on2 = _first(action.findall("tei:orgName", TEI_NS))
+    if on2 is not None:
+        return strip_text("".join(on2.itertext())), ""
+
+    return "", ""
+
+
+def _extract_when(action: Optional[ET.Element]) -> str:
+    if action is None:
+        return ""
+    d = action.find("tei:date[@when]", TEI_NS)
+    if d is None:
+        return ""
+    return strip_text(d.get("when") or "")
+
+
 def parse_standoff_persons(path: Path) -> Dict[str, EntityRecord]:
     idx: Dict[str, EntityRecord] = {}
     if not path.exists():
@@ -187,17 +234,6 @@ def parse_standoff_places(path: Path) -> Dict[str, EntityRecord]:
 
 
 def parse_standoff_events(path: Path) -> Dict[str, EntityRecord]:
-    """
-    Your standoff is now:
-      <listEvent>
-         <eventName xml:id="..."> ... </eventName>
-      </listEvent>
-
-    Label preference:
-      1) first <desc>
-      2) first <label>
-      3) xml:id
-    """
     idx: Dict[str, EntityRecord] = {}
     if not path.exists():
         return idx
@@ -226,12 +262,6 @@ def parse_standoff_events(path: Path) -> Dict[str, EntityRecord]:
 
 
 def extract_cv_id(root: ET.Element, fallback_filename: str) -> str:
-    """
-    Prefer the xml:id of a letter div:
-      - If there is a div[@type='letter'] whose id is NOT suffixed (a/b), use it.
-      - Else if only suffixed ones exist (CV-250a, CV-250b), return base CV-250.
-      - Else fallback to filename stem.
-    """
     letter_divs = find_all(root, ".//tei:text//tei:div[@type='letter']")
     ids = []
     for d in letter_divs:
@@ -273,40 +303,21 @@ def extract_author_from_header(root: ET.Element) -> Tuple[str, str]:
 
 
 def extract_corresp_primary_pair(root: ET.Element) -> Tuple[str, str, str, str, str]:
-    """
-    If multiple correspAction exist (letter + reply in same file),
-    use the first 'sent' + first 'received' as the "primary" pair.
-    """
-    sent_p = find_first(
-        root,
-        ".//tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent'][1]/tei:persName[@ref]",
-    )
-    recv_p = find_first(
-        root,
-        ".//tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='received'][1]/tei:persName[@ref]",
-    )
-    sent_date = find_first(
-        root,
-        ".//tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent'][1]/tei:date[@when]",
-    )
+    sent_action = _first_corresp_action(root, "sent")
+    recv_action = _first_corresp_action(root, "received")
 
-    author_name = strip_text("".join(sent_p.itertext())) if sent_p is not None else ""
-    author_ref = normalize_ref(sent_p.get("ref", "")) if sent_p is not None else ""
+    author_name, author_ref = _extract_name_and_ref(sent_action)
+    recipient_name, recipient_ref = _extract_name_and_ref(recv_action)
+    sent_when = _extract_when(sent_action)
 
-    recipient_name = strip_text("".join(recv_p.itertext())) if recv_p is not None else ""
-    recipient_ref = normalize_ref(recv_p.get("ref", "")) if recv_p is not None else ""
-
-    sent_when = strip_text(sent_date.get("when")) if sent_date is not None else ""
     return author_name, author_ref, recipient_name, recipient_ref, sent_when
 
 
 def extract_main_date_norm(root: ET.Element) -> str:
-    sent_date = find_first(
-        root,
-        ".//tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent'][1]/tei:date[@when]",
-    )
-    if sent_date is not None:
-        return strip_text(sent_date.get("when"))
+    sent_action = _first_corresp_action(root, "sent")
+    when = _extract_when(sent_action)
+    if when:
+        return when
 
     dl_date = find_first(root, ".//tei:text//tei:dateline//tei:date[@when]")
     if dl_date is not None and strip_text(dl_date.get("when")):
@@ -316,12 +327,11 @@ def extract_main_date_norm(root: ET.Element) -> str:
 
 
 def extract_main_place_from_corresp(root: ET.Element) -> Tuple[str, str]:
-    p = find_first(
-        root,
-        ".//tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction[@type='sent'][1]/tei:placeName[@ref]",
-    )
-    if p is not None:
-        return strip_text("".join(p.itertext())), normalize_ref(p.get("ref", ""))
+    sent_action = _first_corresp_action(root, "sent")
+    if sent_action is not None:
+        pl = sent_action.find("tei:placeName[@ref]", TEI_NS)
+        if pl is not None:
+            return strip_text("".join(pl.itertext())), normalize_ref(pl.get("ref", ""))
 
     dp = find_first(root, ".//tei:text//tei:dateline//tei:placeName[@ref]")
     if dp is not None:
