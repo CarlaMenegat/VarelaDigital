@@ -354,7 +354,7 @@
             passive="#viana_contador"/>
         
         <relation
-            name="rel:isCousinOf"
+            name="hrao:hasKinship"
             active="#onofre_pires"
             passive="#bento_goncalves"
             mutual="true"/>
@@ -371,7 +371,7 @@
             passive="#departamento_boqueirao"/>
         
         <relation
-            name="rel:sonInLawOf"
+            name="hrao:hasKinship"
             active="#inacio_guimaraes"
             passive="#bento_goncalves"/>
         
@@ -478,7 +478,7 @@
             passive="#guilherme_schnepf"/>
         
         <relation
-            name="rel:enemyOf"
+            name="rel:antagonistOf"
             active="#general_valente"
             passive="#republica_rio_grandense"/>
         
@@ -653,6 +653,7 @@
             name="hrao:petitionedTo"
             active="#claudio_abreu"
             passive="#sa_brito"/>
+        
         <relation
             name="rel:childOf"
             active="#antonio_jose_goncalves_chaves_filho"
@@ -1280,7 +1281,7 @@
             passive="#farias"/>
         
         <relation
-            name="rel:hasKinshipWith"
+            name="hrao:hasKinship"
             active="#francisco_pedro_abreu"
             passive="#urbano_soares_silva"
             mutual="true"/>
@@ -1361,36 +1362,16 @@
             active="#batista"
             passive="#imperio_brasil"/>
         
-        <relation
-            name="hrao:wasReprimandedBy"
-            active="#batista"
-            passive="#francisco_pedro_abreu"/>
-        
         <relation 
             name="hrao:servedUnder"
             active="#carcerero"
             passive="#imperio_brasil"/>
-        
-        <relation
-            name="hrao:wasReprimandedBy"
-            active="#carcerero"
-            passive="#francisco_pedro_abreu"/>
         
         <relation 
             name="foaf:knows"
             active="#francisco_pedro_abreu"
             passive="#domingos_jose_almeida"
             mutual="true"/>
-        
-        <relation
-            name="hrao:appointedBy"
-            active="#manuel_jose_alencastre"
-            passive="#jose_araujo_ribeiro"/>
-        
-        <relation
-            name="prov:wasInfluencedBy"
-            active="#jose_rodrigues_tavares"
-            passive="#joao_pedro_abreu"/>
         
         <relation
             name="prov:reportedTo"
@@ -1427,16 +1408,6 @@
             name="hrao:commanded"
             active="#francisco_chagas_santos"
             passive="#francisco_pedro_abreu"/>
-
-        <relation 
-            name="hrao:desertedFrom" 
-            active="#jose_andre" 
-            passive="#imperio_brasil"/>
-        
-        <relation 
-            name="hrao:desertedFrom" 
-            active="#joao_marques" 
-            passive="#imperio_brasil"/>
         
         <relation 
             name="hrao:desertedFrom" 
@@ -1457,16 +1428,6 @@
             name="foaf:knows" 
             active="#joao_marques" 
             passive="#luis_carlos"/>
-
-        <relation 
-            name="hrao:incitedDesertionOf" 
-            active="#joao_marques" 
-            passive="#grupo_30_soldados"/>
-        
-        <relation 
-            name="hrao:incitedDesertionOf" 
-            active="#luis_carlos" 
-            passive="#grupo_30_soldados"/>
         
         <relation 
             name="schema:memberOf" 
@@ -1600,21 +1561,6 @@
             passive="#capitao_fortunato"
             mutual="true"/>
         
-        <relation 
-            name="hrao:reportsTo"
-            active="#manuel_alvares"
-            passive="#jose_inacio_silva_abreu"/>
-        
-        <relation 
-            name="hrao:reportsTo"
-            active="#major_carneiro"
-            passive="#jose_inacio_silva_abreu"/>
-        
-        <relation 
-            name="hrao:reportsTo"
-            active="#capitao_fortunato"
-            passive="#jose_inacio_silva_abreu"/>
-        
         <relation
             name="schema:memberOf"
             active="#jacinto_guedes"
@@ -1667,6 +1613,7 @@
             active="#joao_antonio_silveira"
             passive="#joaquim_prado_lima"
             mutual="true"/>
+        
         <relation 
             name="schema:memberOf"
             active="#divisao_direita"
@@ -1676,11 +1623,6 @@
             name="schema:memberOf"
             active="#joaquim_prado_lima"
             passive="#camara_alegrete"/>
-        
-        <relation
-            name="hrao:attacked"
-            active="#jose_inacio_silva_abreu"
-            passive="#siqueira"/>
         
         <relation
             name="hrao:wasImprisonedBy"
@@ -2006,46 +1948,6 @@
             mutual="true"/>
         
         <relation 
-            name="hrao:beneficiaryOf"
-            active="#nazario_verao"
-            passive="#urbano_jose_afonso"/>
-        
-        <relation 
-            name="hrao:beneficiaryOf"
-            active="#valdomiro_sousa"
-            passive="#urbano_jose_afonso"/>
-        
-        <relation 
-            name="hrao:beneficiaryOf"
-            active="#manuel_moreira_miranda"
-            passive="#urbano_jose_afonso"/>
-        
-        <relation 
-            name="hrao:beneficiaryOf"
-            active="#filipe_rodrigues"
-            passive="#urbano_jose_afonso"/>
-        
-        <relation 
-            name="hrao:beneficiaryOf"
-            active="#maria_moreira_silva"
-            passive="#urbano_jose_afonso"/>
-        
-        <relation 
-            name="hrao:witnessed"
-            active="#manuel_ferreira_bica"
-            passive="#contrato_urbano_juliao"/>
-        
-        <relation 
-            name="hrao:witnessed"
-            active="#justino_bernardes_castro"
-            passive="#contrato_urbano_juliao"/>
-        
-        <relation 
-            name="hrao:witnessed"
-            active="#manuel_moreira_miranda"
-            passive="#contrato_urbano_juliao"/>
-        
-        <relation 
             name="foaf:knows"
             active="#felix_eduardo_aguiar"
             passive="#camilo_campelo"
@@ -2155,11 +2057,6 @@
             mutual="true"/>
         
         <relation 
-            name="hrao:wasPrisonerOf"
-            active="#silva_tavares"
-            passive="#republica_rio_grandense"/>
-        
-        <relation 
             name="foaf:knows"
             active="#silva_tavares"
             passive="#manuel_marques_sousa"
@@ -2242,11 +2139,6 @@
             mutual="true"/>
         
         <relation
-            name="pro:cammander"
-            active="#antonio_melo_albuquerque"
-            passive="#comando_militar_santo_antonio"/>
-        
-        <relation
             name="hrao:servedUnder"
             active="#antonio_melo_albuquerque"
             passive="#luis_alves_lima_silva"/>
@@ -2281,7 +2173,7 @@
             mutual= "true"/>
         
         <relation 
-            name="hrao:partOf"
+            name="schema:memberOf"
             active="#secretaria_justica"
             passive="#ministerio_justica"/>
         
@@ -2484,12 +2376,12 @@
             mutual="true"/>
         
         <relation
-            name="rel:fatherOf"
+            name="rel:parentOf"
             active="#ricardo_melo_albuquerque"
             passive="#agostinho_antonio_mello"/>
         
         <relation
-            name="rel:fatherOf"
+            name="rel:parentOf"
             active="#ricardo_melo_albuquerque"
             passive="#antonio_melo_albuquerque"/>
         
@@ -2839,15 +2731,14 @@
             mutual="true"/>
         
         <relation 
-            name="hrao:hasSocialKinship"
+            name="hrao:compadreOf"
             active="#bernardina_barcelos_almeida"
             passive="#bento_goncalves"
             mutual="true">
-            <desc>Compadres</desc>
         </relation>
         
         <relation 
-            name="hrao:hasSocialKinship"
+            name="hrao:compadreOf"
             active="#domingos_jose_almeida"
             passive="#bento_goncalves"
             mutual="true">
@@ -2867,11 +2758,6 @@
             mutual="true"/>
         
         <relation 
-            name="prov:actedOnBehalfOf"
-            active="#joao_cunha"
-            passive="#domingos_jose_almeida"/>
-        
-        <relation 
             name="foaf:knows"
             active="#domingos_jose_almeida"
             passive="#bernardo_pires"
@@ -2884,7 +2770,7 @@
             mutual="true"/>
         
         <relation
-            name="hrao:hasSocialKinship"
+            name="hrao:compadreOf"
             active="#joao_antonio_compa"
             passive="#domingos_jose_almeida"
             mutual="true">
@@ -2892,7 +2778,7 @@
         </relation>
         
         <relation
-            name="hrao:hasSocialKinship"
+            name="hrao:compadreOf"
             active="#joao_antonio_compa"
             passive="#bernardina_barcelos_almeida"
             mutual="true">
@@ -2931,7 +2817,6 @@
             active="#jose_rodrigues_barcelos"
             passive="#bernardina_barcelos_almeida"
             mutual="true">
-            <desc>Tio e sobrinha</desc>
         </relation>
         
         <relation 
@@ -3039,7 +2924,7 @@
             passive="#domingos_jose_almeida"/>
         
         <relation 
-            name="hrao:hasSocialKinship"
+            name="hrao:compadreOf"
             mutual="true"
             active="#rolino_pereira_barros"
             passive="#domingos_jose_almeida">
@@ -3047,7 +2932,7 @@
         </relation>
         
         <relation 
-            name="hrao:hasSocialKinship"
+            name="hrao:compadreOf"
             mutual="true"
             active="#rolino_pereira_barros"
             passive="#bernardina_barcelos_almeida">
@@ -3086,7 +2971,7 @@
             passive="#cipriano_joaquim_rodrigues_barcelos"/>
         
         <relation 
-            name="hrao:hasSocialKinship"
+            name="hrao:compadreOf"
             active="#jose_felix"
             passive="#domingos_jose_almeida"
             mutual="true">
@@ -3094,12 +2979,10 @@
         </relation>
         
         <relation 
-            name="hrao:hasSocialKinship"
+            name="hrao:compadreOf"
             active="#jose_felix"
             passive="#bernardina_barcelos_almeida"
-            mutual="true">
-            <desc>Compadres</desc>
-        </relation>
+            mutual="true"/>
         
         <relation 
             name="foaf:knows"
@@ -3117,9 +3000,7 @@
             name="hrao:hasKinship"
             active="#francisco_rodrigues_barcelos"
             passive="#bernardina_barcelos_almeida"
-            mutual="true">
-            <desc>Tio e sobrinha</desc>
-        </relation>
+            mutual="true"/>
         
         <relation 
             name="foaf:knows"
@@ -3158,12 +3039,10 @@
             mutual="true"/>
         
         <relation 
-            name="hrao:hasSocialKinship"
+            name="hrao:compadreOf"
             active="#belchior"
             passive="#domingos_jose_almeida"
-            mutual="true">
-            <desc>Compadres</desc>
-        </relation>
+            mutual="true"/>
         
         <relation 
             name="foaf:knows"
@@ -3340,9 +3219,7 @@
             name="hrao:hasKinship"
             active="#jose_moreira"
             passive="#bernardina_barcelos_almeida"
-            mutual="true">
-            <desc>Primos</desc>
-        </relation>
+            mutual="true"/>
         
         <relation 
             name="foaf:knows" 
@@ -3437,6 +3314,7 @@
             name="schema:creditor"
             active="#guilherme_carvalho"
             passive="#domingos_jose_almeida"/>
+        
         <relation
             name="foaf:knows"
             active="#domingos_jose_almeida"
@@ -3454,6 +3332,7 @@
             active="#domingos_jose_almeida"
             passive="#manuel_rodrigues_cordeiro"
             mutual="true"/>
+        
         <relation
             name="rel:siblingOf"
             active="#fontoura"
