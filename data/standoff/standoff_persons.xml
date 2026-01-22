@@ -239,10 +239,10 @@
             <idno type="wikidata">https://www.wikidata.org/wiki/Q136892737</idno>
             <state type="roleInTime" xml:id="boaventura_commendador">
                 <roleName>Comendador</roleName>
+                <affiliation ref="#imperio_do_brasil"/>
             </state>
             <state type="roleInTime" xml:id="boaventura_charqueador">
                 <roleName>Charqueador e comerciante de grosso trato</roleName>
-                <affiliation ref="#imperio_do_brasil"/>
             </state>
             <note>
                 Importante charqueador e comerciante de Pelotas, ligado ao partido 
@@ -281,8 +281,8 @@
             <roleName>Major</roleName>
             <roleName>Tenente-general</roleName>
             <roleName>Ministro da Guerra</roleName>
-            <affiliation>império do Brasil</affiliation>
-            <affiliation>Partido Liberal</affiliation>
+            <affiliation ref="#imperio_do_brasil"/>
+            <affiliation ref="#partido_liberal"/>
             <note>Inicia a farroupilha como Major. Se tornou Barão, Visconde e Conde de Porto Alegre.</note>
         </person>
         
@@ -2194,6 +2194,7 @@
                 <roleName>Capitão</roleName>
                 <roleName>Chefe Geral da Polícia do Departamento do Boqueirão</roleName>
                 <date when="1838-10"/>
+                <affiliation ref="#republica_rio_grandense"/>
             </state>
             <note>
                 Oficial militar com o posto de Capitão, exercendo a função de Chefe Geral
@@ -2527,13 +2528,13 @@
             <death when="1840"/>
             <state type="roleInTime" xml:id="dcc_soldado_1801">
                 <roleName>Soldado</roleName>
-                <affiliation ref="#imperio_brasileiro"/>
+                <affiliation ref="#imperio_brasil"/>
                 <date from="1801" to="1828"/>
                 <note>Participação na Guerra Cisplatina, iniciando como soldado.</note>
             </state>
             <state type="roleInTime" xml:id="dcc_capitao_1828">
                 <roleName>Capitão</roleName>
-                <affiliation ref="#imperio_brasileiro"/>
+                <affiliation ref="#imperio_brasil"/>
                 <date when="1828"/>
                 <note>Concluiu a Guerra Cisplatina no posto de capitão.</note>
             </state>
@@ -2748,7 +2749,7 @@
             </state>
             <state type="roleInTime" xml:id="morais_deputado_rrg">
                 <roleName>Deputado à Assembleia Constituinte</roleName>
-                <affiliation ref="#assembleia_geral"/>
+                <affiliation ref="#assembleia_constituinte"/>
                 <date when="1838"/>
             </state>
             <note>Oficial farroupilha, Tenente-coronel e Comandante da Guarnição de Caçapava. Eleito deputado à Assembleia Constituinte da República Rio-Grandense em 1838.</note>
@@ -2759,7 +2760,7 @@
             <idno type="project"></idno>
             <state type="roleInTime" xml:id="firmino_abreu_almoxarife_1840">
                 <roleName>Almoxarife</roleName>
-                <affiliation ref="#arsenal_guerra_imperial"/>
+                <affiliation ref="#arsenal_guerra"/>
                 <date type="begin" when="1840"/>
             </state>
             <note>Oficial legalista, almoxarife do Arsenal de Guerra do Império do Brasil em 1840.</note>
@@ -3547,7 +3548,7 @@
             </state>
             <state type="roleInTime" xml:id="portinho_barao_cruz_alta">
                 <roleName>Barão de Cruz Alta</roleName>
-                <affiliation ref="#imperio_brasileiro"/>
+                <affiliation ref="#imperio_brasil"/>
             </state>
             <state type="roleInTime" xml:id="portinho_deputado_provincial">
                 <roleName>Deputado provincial</roleName>
@@ -6655,7 +6656,7 @@
             </state>
             <state type="roleInTime" xml:id="manuel_simas_coronel">
                 <roleName>Coronel</roleName>
-                <affiliation ref="#imperio_brasileiro"/>
+                <affiliation ref="#imperio_brasil"/>
             </state>
             <note>Major legalista, destinatário de ordem reservada emitida pelo Presidente Saturnino na correspondência militar. 
                 Coronel legalista do Exército Imperial, mencionado como destinatário de 
@@ -6669,7 +6670,7 @@
             <idno type="project"/>
             <state type="roleInTime" xml:id="manuel_lima_major_imperial">
                 <roleName>Major</roleName>
-                <affiliation ref="#imperio_brasileiro"/>
+                <affiliation ref="#imperio_brasil"/>
             </state>
             <note>
                 Oficial legalista identificado como “Major às ordens” na certificação 
@@ -6684,7 +6685,7 @@
             <idno type="project"/>
             <state type="roleInTime" xml:id="luis_barreto_oficial_imperial">
                 <roleName>Oficial</roleName>
-                <affiliation ref="#imperio_brasileiro"/>
+                <affiliation ref="#imperio_brasil"/>
             </state>
             <note>
                 Oficial legalista que certifica a conformidade da circular encaminhada 
@@ -7032,7 +7033,7 @@
             <idno type="project"/>
             <state type="roleInTime" xml:id="batista_legalista">
                 <roleName>Simpatizante / colaborador caramuru</roleName>
-                <affiliation ref="#caramurus"/>
+                <affiliation ref="#imperio_brasil"/>
             </state>
             <note>
                 Compadre de Bernardina Barcelos de Almeida. É citado como envolvido com os 
