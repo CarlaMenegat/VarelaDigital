@@ -1,14 +1,14 @@
 /* =========================================================
    Varela Digital — Map page
-   File: /assets/css/map.css
    ========================================================= */
 
+/* ---------- Page layout ---------- */
+
 .vd-map-page {
-  padding-top: 5.25rem; /* navbar fixed-top */
+  padding-top: 5.25rem; /* navbar */
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 2rem;
-  background: #f6f7f4;
 }
 
 .vd-map-header {
@@ -22,15 +22,11 @@
 }
 
 .vd-map-card {
-  background: #fdfdfb;
+  background: #fff;
   border-radius: 14px;
   padding: 0.75rem;
-  box-shadow: 0 10px 28px rgba(0,0,0,0.08);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
 }
-
-/* =========================================================
-   Leaflet container
-   ========================================================= */
 
 .vd-leaflet-map {
   width: 100%;
@@ -39,47 +35,15 @@
   border-radius: 12px;
   overflow: hidden;
   position: relative;
-  background: #eef1ea;
 }
 
-/* ---------------------------------------------------------
-   Aesthetic overlays (non-interactive)
-   --------------------------------------------------------- */
-
-.map-wash {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    180deg,
-    rgba(220, 228, 210, 0.35),
-    rgba(210, 218, 200, 0.35)
-  );
-  mix-blend-mode: multiply;
-  pointer-events: none;
-  z-index: 300;
-}
-
-.map-paper {
-  position: absolute;
-  inset: 0;
-  background-image: url("../img/paper-texture.png");
-  background-size: 600px 600px;
-  opacity: 0.06;
-  pointer-events: none;
-  z-index: 301;
-}
-
-/* =========================================================
-   Sidebar
-   ========================================================= */
+/* ---------- Sidebar (filters) ---------- */
 
 .map-filters {
-  background: #fdfdfb;
+  background: #fff;
   border-radius: 14px;
   padding: 1rem;
-  box-shadow: 0 10px 28px rgba(0,0,0,0.08);
-  position: sticky;
-  top: 6.25rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
 }
 
 .filter-group + .filter-group {
@@ -89,14 +53,15 @@
 .filter-group-title {
   font-weight: 700;
   margin-bottom: 0.6rem;
-  color: #394636;
 }
 
 .vd-filter-label {
   font-weight: 600;
   margin-top: 0.55rem;
   margin-bottom: 0.35rem;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
 }
 
 .vd-check {
@@ -107,12 +72,8 @@
   margin-top: 1rem;
 }
 
-/* =========================================================
-   Status block
-   ========================================================= */
-
 .map-status {
-  border-top: 1px solid rgba(0,0,0,0.08);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
   padding-top: 0.75rem;
 }
 
@@ -131,67 +92,11 @@
   font-weight: 700;
 }
 
-/* =========================================================
-   Leaflet UI theming
-   ========================================================= */
-
-/* Zoom & layer controls */
-.leaflet-control-zoom,
-.leaflet-control-layers {
-  border-radius: 10px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
-  overflow: hidden;
-}
-
-.leaflet-control-zoom a,
-.leaflet-control-layers-toggle {
-  background-color: #f5f7f1;
-  color: #2f3b2c;
-}
-
-.leaflet-control-zoom a:hover,
-.leaflet-control-layers-toggle:hover {
-  background-color: #e6ebdc;
-}
-
-/* Layer control panel */
-.leaflet-control-layers-expanded {
-  background: #fdfdfb;
-  border-radius: 10px;
-  padding: 0.5rem 0.75rem;
-}
-
-/* =========================================================
-   Markers (circleMarker)
-   ========================================================= */
-
-.leaflet-interactive {
-  stroke: #2f5d3a;
-  fill: #6e9b6b;
-}
-
-.leaflet-interactive:hover {
-  fill: #5a8c60;
-}
-
-/* =========================================================
-   Popup
-   ========================================================= */
-
-.leaflet-popup-content-wrapper {
-  border-radius: 12px;
-  background: #fdfdfb;
-  box-shadow: 0 10px 24px rgba(0,0,0,0.18);
-}
-
-.leaflet-popup-tip {
-  background: #fdfdfb;
-}
+/* ---------- Popup ---------- */
 
 .vd-popup h6 {
   margin: 0 0 0.35rem 0;
   font-weight: 800;
-  color: #2f3b2c;
 }
 
 .vd-popup .vd-popup-meta {
@@ -209,26 +114,344 @@
   margin: 0.15rem 0;
 }
 
-.vd-popup a {
-  color: #355f3b;
-  text-decoration: none;
-}
-
-.vd-popup a:hover {
-  text-decoration: underline;
-}
-
-/* =========================================================
-   Responsive
-   ========================================================= */
+/* ---------- Responsive (mobile/tablet) ---------- */
 
 @media (max-width: 991px) {
-  .map-filters {
-    position: static;
-    top: auto;
-  }
   .vd-leaflet-map {
     height: 62vh;
     min-height: 420px;
   }
+}
+
+/* =========================================================
+   Desktop: keep map visible + single scroll (filters)
+   - Body does NOT scroll
+   - Filters scroll inside sidebar
+   - Map stays visible
+   - Footer becomes a fixed bar
+   ========================================================= */
+
+@media (min-width: 992px) {
+  :root {
+    --vd-footer-bar-h: 3.25rem;
+  }
+
+  /* Prevent body scroll (single-scroll experience) */
+  html,
+  body.vd-map {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  /* Make main behave like an app layout */
+  .vd-map-page {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+    /* CRITICAL: avoid any global centering shrinking the row */
+    align-items: stretch;
+
+    padding-top: 5.25rem;
+    padding-bottom: calc(var(--vd-footer-bar-h) + 0.75rem);
+  }
+
+  /* Header compact */
+  .vd-map-header {
+    flex: 0 0 auto;
+    margin: 0 auto 0.75rem auto;
+  }
+
+  .vd-map-header h1 {
+    margin-bottom: 0.35rem;
+  }
+
+  .vd-map-header .vd-lead {
+    margin-bottom: 0;
+  }
+
+  /* The row must fill available space */
+  .vd-map-layout {
+    flex: 1 1 auto;
+    min-height: 0; /* critical for nested scrolling */
+    overflow: hidden;
+
+    /* CRITICAL: ensure row stretches full width (fix “filete”) */
+    width: 100%;
+  }
+
+  /* Columns must also allow nested scrolling */
+  .vd-map-layout > aside,
+  .vd-map-layout > section {
+    min-height: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  /* Sidebar scroll */
+  .map-filters {
+    height: 100%;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding-bottom: 1.25rem;
+  }
+
+  /* Map takes all remaining height */
+  .vd-map-card {
+    height: 100%;
+  }
+
+  .vd-leaflet-map {
+    height: 100%;
+    min-height: 0;
+  }
+
+  /* Footer fixed bar */
+  .vd-footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1030;
+    background: rgba(248, 245, 239, 0.96);
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 0.65rem 1rem;
+    margin: 0;
+  }
+
+  .vd-footer .footer-links,
+  .vd-footer .footer-small {
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  .vd-footer .footer-small {
+    font-size: 0.85rem;
+    opacity: 0.9;
+  }
+}
+
+/* =========================================================
+   Leaflet aesthetic tuning (site-friendly palette)
+   ========================================================= */
+
+.vd-map .leaflet-container {
+  background: #f6f2ec;
+  font-family: inherit;
+}
+
+.vd-map .leaflet-control-attribution {
+  background: rgba(253, 253, 251, 0.85);
+  border-radius: 10px;
+  padding: 0.2rem 0.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.vd-map .leaflet-bar a {
+  background: rgba(253, 253, 251, 0.92);
+  color: #2f3b2c;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.vd-map .leaflet-bar a:hover {
+  background: rgba(253, 253, 251, 1);
+}
+
+/* ---------- Protect marker colors from global CSS ---------- */
+
+.vd-map .leaflet-overlay-pane svg path.leaflet-interactive {
+  vector-effect: non-scaling-stroke;
+}
+
+/* Sending markers */
+.vd-map .leaflet-overlay-pane svg path.leaflet-interactive.vd-marker-sending {
+  fill: #4e7a5a !important;
+  stroke: #2f5d3a !important;
+  fill-opacity: 0.62 !important;
+  stroke-opacity: 0.95 !important;
+}
+
+/* Mentioned markers */
+.vd-map .leaflet-overlay-pane svg path.leaflet-interactive.vd-marker-mentioned {
+  fill: #b56a5a !important;
+  stroke: #7a3e34 !important;
+  fill-opacity: 0.62 !important;
+  stroke-opacity: 0.95 !important;
+}
+
+/* All places markers */
+.vd-map .leaflet-overlay-pane svg path.leaflet-interactive.vd-marker-all {
+  fill: #6b6b6b !important;
+  stroke: rgba(0, 0, 0, 0.45) !important;
+  fill-opacity: 0.58 !important;
+  stroke-opacity: 0.9 !important;
+}
+
+/* Hover/focus */
+.vd-map .leaflet-overlay-pane svg path.leaflet-interactive.vd-marker-sending:hover,
+.vd-map .leaflet-overlay-pane svg path.leaflet-interactive.vd-marker-mentioned:hover,
+.vd-map .leaflet-overlay-pane svg path.leaflet-interactive.vd-marker-all:hover {
+  fill-opacity: 0.78 !important;
+  stroke-width: 2 !important;
+}
+
+/* ---------- Legend ---------- */
+
+.vd-map-legend {
+  background: rgba(253, 253, 251, 0.92);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 0.6rem 0.75rem;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
+  font-size: 0.95rem;
+  color: #2f3b2c;
+}
+
+/* =========================================================
+   Advanced filters (accordion)
+   ========================================================= */
+
+.vd-advanced-filters {
+  margin-top: 1rem;
+}
+
+.vd-advanced-filters .accordion-item {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  overflow: hidden;
+  background: rgba(253, 253, 251, 0.92);
+}
+
+.vd-advanced-filters .accordion-button {
+  font-weight: 700;
+  color: #2f3b2c;
+  background: rgba(253, 253, 251, 0.92);
+  box-shadow: none;
+  padding: 0.75rem 0.9rem;
+}
+
+.vd-advanced-filters .accordion-button:not(.collapsed) {
+  background: rgba(248, 245, 239, 0.95);
+}
+
+.vd-advanced-filters .accordion-body {
+  padding: 0.85rem 0.9rem 0.95rem 0.9rem;
+}
+
+.vd-advanced-filters .filter-group + .filter-group {
+  margin-top: 0.85rem;
+}
+
+/* Threshold badge */
+#thresholdValue {
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  font-weight: 700;
+}
+
+#thresholdValueInline {
+  font-weight: 800;
+}
+
+/* =========================================================
+   Density slider (threshold) — match site palette
+   ========================================================= */
+
+#thresholdFilter {
+  --track-bg: rgba(78, 122, 90, 0.22);
+  --thumb-bg: #4e7a5a;
+  --thumb-border: #2f5d3a;
+  --track-height: 4px;
+
+  appearance: none;
+  -webkit-appearance: none;
+
+  width: 100%;
+  height: var(--track-height);
+  background: var(--track-bg);
+  border-radius: 999px;
+  outline: none;
+  margin-top: 0.35rem;
+}
+
+/* WebKit */
+#thresholdFilter::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--thumb-bg);
+  border: 2px solid var(--thumb-border);
+  cursor: pointer;
+  margin-top: calc(-8px + var(--track-height) / 2);
+}
+
+/* Firefox */
+#thresholdFilter::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--thumb-bg);
+  border: 2px solid var(--thumb-border);
+  cursor: pointer;
+}
+
+#thresholdFilter::-moz-range-track {
+  height: var(--track-height);
+  background: var(--track-bg);
+  border-radius: 999px;
+}
+
+/* =========================================================
+   Inline help button (tooltip trigger)
+   ========================================================= */
+
+.vd-help {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background: rgba(253, 253, 251, 0.92);
+  color: #2f3b2c;
+  font-size: 0.75rem;
+  font-weight: 800;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.vd-help:hover {
+  background: rgba(248, 245, 239, 0.95);
+}
+
+/* Temporal play progress */
+#yearPlayProgress {
+  background: #4E7A5A; /* same as sending marker */
+}
+
+/* =========================================================
+   Temporal animation controls (Play / Stop)
+   ========================================================= */
+
+/* Play button – green, consistent with map palette */
+#playYearsBtn.btn-outline-primary {
+  --bs-btn-color: #4E7A5A;
+  --bs-btn-border-color: #4E7A5A;
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: #4E7A5A;
+  --bs-btn-hover-border-color: #4E7A5A;
+  --bs-btn-active-bg: #3F684C;
+  --bs-btn-active-border-color: #3F684C;
+  --bs-btn-disabled-color: #8AAE9A;
+  --bs-btn-disabled-border-color: #8AAE9A;
+}
+
+/* Stop button – neutral, secondary */
+#stopYearsBtn.btn-outline-secondary {
+  opacity: 0.85;
 }
