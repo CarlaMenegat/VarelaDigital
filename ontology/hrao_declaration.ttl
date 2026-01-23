@@ -19,12 +19,12 @@ hrao: a owl:Ontology ;
     owl:versionInfo "1.0 (Varela Digital, 2026)" .
 
 #################################################################
-# Property: hrao:requestedPoliticalFavorFrom
+# Property: hrao:requestedIntercession
 #################################################################
 
-hrao:requestedPoliticalFavorFrom a owl:ObjectProperty ;
-    rdfs:label "requested a political favor from"@en ;
-    rdfs:comment "Indicates that an agent requested a political favor, intercession, or informal influence from another agent in a historical or political context."@en ;
+hrao:requestedIntercession a owl:ObjectProperty ;
+    rdfs:label "requested intercession from"@en ;
+    rdfs:comment "Indicates that an agent requested informal intercession, influence, protection, or assistance from another agent, as expressed in a historical source."@en ;
     rdfs:subPropertyOf prov:wasInfluencedBy ;
     rdfs:domain foaf:Agent ;
     rdfs:range  foaf:Agent .
@@ -35,18 +35,20 @@ hrao:requestedPoliticalFavorFrom a owl:ObjectProperty ;
 
 hrao:participatedInEvent a owl:ObjectProperty ;
     rdfs:label "participated in event"@en ;
-    rdfs:comment "Indicates that an agent participated in a historical event, such as a battle, encounter, campaign, or gathering."@en ;
+    rdfs:comment "Indicates that an agent participated in a historical event (e.g., battle, uprising, campaign, meeting), as evidenced by a historical source. Kept as a lightweight property within the FRBR–FaBiO + FOAF/REL stack; aligned with CIDOC CRM participation modeling."@en ;
+    rdfs:seeAlso <http://www.cidoc-crm.org/cidoc-crm/P11_had_participant> ;
     rdfs:subPropertyOf prov:wasInfluencedBy ;
     rdfs:domain foaf:Agent ;
     rdfs:range  san:Event .
 
 #################################################################
-# Property: hrao:killed
+# Property: hrao:causedDeathOf
 #################################################################
 
-hrao:killed a owl:ObjectProperty ;
-    rdfs:label "killed"@en ;
-    rdfs:comment "Indicates that an agent caused the death of another agent, based on historical sources."@en ;
+hrao:causedDeathOf a owl:ObjectProperty ;
+    rdfs:label "caused the death of"@en ;
+    rdfs:comment "Indicates that the actions of an agent resulted in the death of another agent, as reported in a historical source. This formulation avoids attributing direct or individual intent when the source indicates collective or indirect responsibility."@en ;
+    rdfs:seeAlso <http://www.cidoc-crm.org/cidoc-crm/P100_was_death_of> ;
     rdfs:subPropertyOf prov:wasInfluencedBy ;
     rdfs:domain foaf:Agent ;
     rdfs:range  foaf:Agent .
@@ -57,7 +59,7 @@ hrao:killed a owl:ObjectProperty ;
 
 hrao:servedUnder a owl:ObjectProperty ;
     rdfs:label "served under"@en ;
-    rdfs:comment "Indicates that an agent held an office, function, or role under the authority or leadership of another agent."@en ;
+    rdfs:comment "Indicates that an agent (foaf:Person or foaf:Group) held an office, function, or role under the authority or leadership of another agent (foaf:Person or foaf:Group), as evidenced by a historical source (e.g., military chain of command)."@en ;
     rdfs:subPropertyOf prov:wasInfluencedBy ;
     rdfs:domain foaf:Agent ;
     rdfs:range  foaf:Agent .
@@ -95,13 +97,4 @@ hrao:commanded a owl:ObjectProperty ;
     rdfs:domain foaf:Agent ;
     rdfs:range  foaf:Agent .
 
-#################################################################
-# Property: hrao:hasKinship
-#################################################################
 
-hrao:hasKinship a owl:ObjectProperty ;
-    rdfs:label "has kinship with"@en ;
-    rdfs:comment "Indicates a family or kinship relation not covered by more specific relationship properties."@en ;
-    rdfs:subPropertyOf rel:associateOf ;
-    rdfs:domain foaf:Person ;
-    rdfs:range  foaf:Person .

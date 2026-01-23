@@ -236,7 +236,7 @@
             passive="#combate_espinilho"/>
         
         <relation
-            name="hrao:killed"
+            name="hrao:causedDeathOf"
             active="#roque_faustino"
             passive="#joao_manuel_lima_silva"/>
         
@@ -354,13 +354,13 @@
             passive="#viana_contador"/>
         
         <relation
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#onofre_pires"
             passive="#bento_goncalves"
             mutual="true"/>
         
         <relation
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#coronel_leberio"
             passive="#antonio_abreu"
             mutual="true"/>
@@ -371,7 +371,7 @@
             passive="#departamento_boqueirao"/>
         
         <relation
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#inacio_guimaraes"
             passive="#bento_goncalves"/>
         
@@ -398,7 +398,7 @@
             passive="#joao_costa"/>
         
         <relation
-            name="hrao:requestedPoliticalFavorFrom"
+            name="hrao:requestedIntercession"
             active="#antonio_abreu"
             passive="#domingos_jose_almeida"/>
         
@@ -421,7 +421,7 @@
             mutual="true"/>
         
         <relation
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#coronel_leberio"
             passive="#antonio_abreu"
             mutual="true"/>
@@ -595,7 +595,7 @@
             passive="#antonio_pedro_abreu"/>
         
         <relation
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#tomas_jose_silva"
             passive="#manuel_luis_osorio"/>
         
@@ -876,7 +876,7 @@
             passive="#imperio_brasil"/>
         
         <relation
-            name="hrao:killed"
+            name="hrao:causedDeathOf"
             active="#imperio_brasil"
             passive="#joao_jose_damasceno"/>
         
@@ -902,7 +902,7 @@
             mutual="true"/>
         
         <relation 
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#francisco_xavier"
             passive="#bento_manoel"/>
         
@@ -934,7 +934,7 @@
             mutual="true"/>
         
         <relation 
-            name="hrao:killed"
+            name="hrao:causedDeathOf"
             active="#imperio_brasil"
             passive="#jose_manuel_de_leao"/>
         
@@ -979,7 +979,7 @@
             passive="#imperio_brasil"/>
         
         <relation 
-            name="hrao:killed"
+            name="hrao:causedDeathOf"
             active="#oitavo_batalhao"
             passive="#antonio_turpim"/>
         
@@ -1276,12 +1276,12 @@
             passive="#esquadrao_triunfo"/>
         
         <relation 
-            name="hrao:killed"
+            name="hrao:causedDeathOf"
             active="#jose_alves_medeiros"
             passive="#farias"/>
         
         <relation
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#francisco_pedro_abreu"
             passive="#urbano_soares_silva"
             mutual="true"/>
@@ -1502,7 +1502,7 @@
             passive="#tesouro"/>
         
         <relation
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             mutual="true"
             active="#antonio_abreu"
             passive="#bento_goncalves"/>
@@ -1706,13 +1706,13 @@
             mutual="true"/>
         
         <relation
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#pedro_jose_gomes_abreu"
             passive="#jose_antonio_araujo_ribeiro"
             mutual="true"/>
         
         <relation
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#antonio_jose_pires"
             passive="#joao_da_costa"
             mutual="true"/>
@@ -2073,7 +2073,7 @@
             passive="#fronteira_jaguarão"/>
         
         <relation 
-            name="hrao:hasKinship" 
+            name="rico:hasFamilyAssociationWith" 
             active="#vitorino_jose_carneiro_monteiro" 
             passive="#bento_manoel" 
             mutual="false"/>
@@ -2162,7 +2162,7 @@
             mutual="true"/>
         
         <relation
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#oliverio_ortiz"
             passive="#jose_pedroso_albuquerque"/>
         
@@ -2649,7 +2649,7 @@
             passive="#bernardina_barcelos_almeida"/>
         
         <relation
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#manuel_antunes_porciuncula"
             passive="#bento_goncalves"/>
         
@@ -2677,13 +2677,13 @@
             mutual="true"/>
         
         <relation
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#boaventura_rodrigues_barcelos"
             passive="#bernardina_barcelos_almeida"
             mutual="true"/>
         
         <relation
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#luis_azevedo"
             passive="#boaventura_rodrigues_barcelos"
             mutual="true"/>
@@ -2695,7 +2695,7 @@
             mutual="true"/>
         
         <relation
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#luis_azevedo"
             passive="#bernardina_barcelos_almeida"
             mutual="true"/>
@@ -2786,7 +2786,7 @@
         </relation>
         
         <relation
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#luis_rodrigues_barcelos"
             passive="#bernardina_barcelos_almeida">
             <desc>Tio de Bernardina Barcelos de Almeida</desc>
@@ -2813,7 +2813,7 @@
             passive="#bernardina_barcelos_almeida"/>
         
         <relation 
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#jose_rodrigues_barcelos"
             passive="#bernardina_barcelos_almeida"
             mutual="true">
@@ -2832,7 +2832,7 @@
             mutual="true"/>
         
         <relation 
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#bernardino_rodrigues_barcelos_filho"
             passive="#bernardina_barcelos_almeida"
             mutual="true">
@@ -2952,14 +2952,14 @@
             mutual="true"/>
         
         <relation
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#cipriano_rodrigues_barcelos"
             passive="#bernardina_barcelos_almeida">
             <desc>Tio</desc>
         </relation>
         
         <relation
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#cipriano_joaquim_rodrigues_barcelos"
             passive="#bernardina_barcelos_almeida">
             <desc>Primos</desc>
@@ -2997,7 +2997,7 @@
             mutual="true"/>
         
         <relation 
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#francisco_rodrigues_barcelos"
             passive="#bernardina_barcelos_almeida"
             mutual="true"/>
@@ -3150,13 +3150,13 @@
             mutual="true"/>
         
         <relation 
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#joao_goncalves_silva"
             passive="#bento_goncalves"
             mutual="true"/>
         
         <relation 
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#manuel_goncalves_silva"
             passive="#bento_goncalves"
             mutual="true"/>
@@ -3216,7 +3216,7 @@
             mutual="true"/>
         
         <relation 
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#jose_moreira"
             passive="#bernardina_barcelos_almeida"
             mutual="true"/>
@@ -3368,7 +3368,7 @@
             mutual="true"/>
         
         <relation
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#luis_rodrigues_barcelos"
             passive="#bernardina_barcelos_almeida"/>
         
@@ -3616,7 +3616,7 @@
             mutual="true"/>
         
         <relation
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#bernardina_barcelos_almeida"
             passive="#carlota"
             mutual="true"/>
@@ -4321,7 +4321,7 @@
             mutual="true"/>
         
         <relation
-            name="hrao:hasKinship"
+            name="rico:hasFamilyAssociationWith"
             active="#domingos_jose_almeida"
             passive="#bernardino_vieira"
             mutual="true"/>

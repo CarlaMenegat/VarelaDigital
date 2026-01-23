@@ -18,77 +18,76 @@
   </head>
 
   <body>
-    <!-- Navbar (assets/html/*) -->
-    <nav class="navbar navbar-expand-lg fixed-top vd-navbar">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../../index.html">Varela Digital</a>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../../index.html">Varela Digital</a>
 
-            <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            >
-            <span class="navbar-toggler-icon"></span>
-            </button>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../../index.html">Homepage</a>
-                    </li>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <!-- Homepage -->
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html">Homepage</a>
+            </li>
 
-                    <li class="nav-item dropdown">
-                        <a
-                            class="nav-link dropdown-toggle"
-                            href="#"
-                            id="collectionDropdown"
-                            role="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                        >
-                            The Collection
-                        </a>
+            <!-- Documents -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="lettersDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Documents
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="lettersDropdown">
+                <li><a class="dropdown-item" href="letters-index.html">Index</a></li>
+                <li><a class="dropdown-item" href="viewer.html">Viewer</a></li>
+              </ul>
+            </li>
 
-                        <ul class="dropdown-menu" aria-labelledby="collectionDropdown">
-                            <li><a class="dropdown-item" href="indexes.html">Browse</a></li>
-                            <li><hr class="dropdown-divider" /></li>
-                            <li><a class="dropdown-item" href="viewer.html?file=CV-1.xml">Viewer</a></li>
-                        </ul>
-                    </li>
-
-                    <!-- Historical Context as top-level -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="historical_context.html">Historical Context</a>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a
-                            class="nav-link dropdown-toggle"
-                            href="#"
-                            id="docsDropdown"
-                            role="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                        >
-                            Documentation
-                        </a>
-
-                        <ul class="dropdown-menu" aria-labelledby="docsDropdown">
-
-                            <li><a class="dropdown-item" href="project_discussion.html">Project Discussion</a></li>
-                            <li><hr class="dropdown-divider" /></li>
-                            <li><a class="dropdown-item" href="data_model.html">Data Model</a></li>
-                            <li><hr class="dropdown-divider" /></li>
-                            <li><a class="dropdown-item" href="hrao.html">HRAO Ontology</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+            <!-- Documentation dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                id="docsDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Documentation
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="docsDropdown">
+                <li><a class="dropdown-item" href="documentation.html">Overview</a></li>
+                <li><a class="dropdown-item" href="data_model.html">Data Model</a></li>
+                <li>
+                  <a class="dropdown-item active" href="hrao.html">HRAO Ontology</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="project_discussion.html"
+                    >Theoretical Framework</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <!-- Main content -->
@@ -160,15 +159,15 @@ xsd:     http://www.w3.org/2001/XMLSchema#
           <tbody>
             
             <tr>
-              <td><a href="#commanded">commanded</a></td>
-              <td><code>https://carlamenegat.github.io/VarelaDigital/hrao#commanded</code></td>
-              <td>Indicates that an agent exercised military or organizational command over another agent.</td>
+              <td><a href="#causedDeathOf">caused the death of</a></td>
+              <td><code>https://carlamenegat.github.io/VarelaDigital/hrao#causedDeathOf</code></td>
+              <td>Indicates that the actions of an agent resulted in the death of another agent, as reported in a historical source. This formulation avoids attributing direct o…</td>
             </tr>
             
             <tr>
-              <td><a href="#hasKinship">has kinship with</a></td>
-              <td><code>https://carlamenegat.github.io/VarelaDigital/hrao#hasKinship</code></td>
-              <td>Indicates a family or kinship relation not covered by more specific relationship properties.</td>
+              <td><a href="#commanded">commanded</a></td>
+              <td><code>https://carlamenegat.github.io/VarelaDigital/hrao#commanded</code></td>
+              <td>Indicates that an agent exercised military or organizational command over another agent.</td>
             </tr>
             
             <tr>
@@ -178,27 +177,21 @@ xsd:     http://www.w3.org/2001/XMLSchema#
             </tr>
             
             <tr>
-              <td><a href="#killed">killed</a></td>
-              <td><code>https://carlamenegat.github.io/VarelaDigital/hrao#killed</code></td>
-              <td>Indicates that an agent caused the death of another agent, based on historical sources.</td>
-            </tr>
-            
-            <tr>
               <td><a href="#participatedInEvent">participated in event</a></td>
               <td><code>https://carlamenegat.github.io/VarelaDigital/hrao#participatedInEvent</code></td>
-              <td>Indicates that an agent participated in a historical event, such as a battle, encounter, campaign, or gathering.</td>
+              <td>Indicates that an agent participated in a historical event (e.g., battle, uprising, campaign, meeting), as evidenced by a historical source. Kept as a lightwei…</td>
             </tr>
             
             <tr>
-              <td><a href="#requestedPoliticalFavorFrom">requested a political favor from</a></td>
-              <td><code>https://carlamenegat.github.io/VarelaDigital/hrao#requestedPoliticalFavorFrom</code></td>
-              <td>Indicates that an agent requested a political favor, intercession, or informal influence from another agent in a historical or political context.</td>
+              <td><a href="#requestedIntercession">requested intercession from</a></td>
+              <td><code>https://carlamenegat.github.io/VarelaDigital/hrao#requestedIntercession</code></td>
+              <td>Indicates that an agent requested informal intercession, influence, protection, or assistance from another agent, as expressed in a historical source.</td>
             </tr>
             
             <tr>
               <td><a href="#servedUnder">served under</a></td>
               <td><code>https://carlamenegat.github.io/VarelaDigital/hrao#servedUnder</code></td>
-              <td>Indicates that an agent held an office, function, or role under the authority or leadership of another agent.</td>
+              <td>Indicates that an agent (foaf:Person or foaf:Group) held an office, function, or role under the authority or leadership of another agent (foaf:Person or foaf:G…</td>
             </tr>
             
             <tr>
@@ -213,6 +206,30 @@ xsd:     http://www.w3.org/2001/XMLSchema#
 
       <h3 class="mt-4">Properties</h3>
 
+      
+      <section class="vd-module" id="causedDeathOf">
+        <h2 style="font-size: 1.25rem; margin-bottom: 0.6rem">
+          caused the death of
+        </h2>
+
+        <p class="mb-2"><strong>URI:</strong> <code>https://carlamenegat.github.io/VarelaDigital/hrao#causedDeathOf</code></p>
+
+        
+        <p class="mb-1"><strong>Domain:</strong> <code>http://xmlns.com/foaf/0.1/Agent</code></p>
+        
+
+        
+        <p class="mb-1"><strong>Range:</strong> <code>http://xmlns.com/foaf/0.1/Agent</code></p>
+        
+
+        
+
+        
+
+        
+
+        <p class="mb-0">Indicates that the actions of an agent resulted in the death of another agent, as reported in a historical source. This formulation avoids attributing direct or individual intent when the source indicates collective or indirect responsibility.</p>
+      </section>
       
       <section class="vd-module" id="commanded">
         <h2 style="font-size: 1.25rem; margin-bottom: 0.6rem">
@@ -236,30 +253,6 @@ xsd:     http://www.w3.org/2001/XMLSchema#
         
 
         <p class="mb-0">Indicates that an agent exercised military or organizational command over another agent.</p>
-      </section>
-      
-      <section class="vd-module" id="hasKinship">
-        <h2 style="font-size: 1.25rem; margin-bottom: 0.6rem">
-          has kinship with
-        </h2>
-
-        <p class="mb-2"><strong>URI:</strong> <code>https://carlamenegat.github.io/VarelaDigital/hrao#hasKinship</code></p>
-
-        
-        <p class="mb-1"><strong>Domain:</strong> <code>http://xmlns.com/foaf/0.1/Person</code></p>
-        
-
-        
-        <p class="mb-1"><strong>Range:</strong> <code>http://xmlns.com/foaf/0.1/Person</code></p>
-        
-
-        
-
-        
-
-        
-
-        <p class="mb-0">Indicates a family or kinship relation not covered by more specific relationship properties.</p>
       </section>
       
       <section class="vd-module" id="compadreOf">
@@ -288,30 +281,6 @@ xsd:     http://www.w3.org/2001/XMLSchema#
         <p class="mb-0">Indicates a mutual spiritual kinship relation between two persons, arising from the ritual of baptism or confirmation, common in Ibero-American societies.</p>
       </section>
       
-      <section class="vd-module" id="killed">
-        <h2 style="font-size: 1.25rem; margin-bottom: 0.6rem">
-          killed
-        </h2>
-
-        <p class="mb-2"><strong>URI:</strong> <code>https://carlamenegat.github.io/VarelaDigital/hrao#killed</code></p>
-
-        
-        <p class="mb-1"><strong>Domain:</strong> <code>http://xmlns.com/foaf/0.1/Agent</code></p>
-        
-
-        
-        <p class="mb-1"><strong>Range:</strong> <code>http://xmlns.com/foaf/0.1/Agent</code></p>
-        
-
-        
-
-        
-
-        
-
-        <p class="mb-0">Indicates that an agent caused the death of another agent, based on historical sources.</p>
-      </section>
-      
       <section class="vd-module" id="participatedInEvent">
         <h2 style="font-size: 1.25rem; margin-bottom: 0.6rem">
           participated in event
@@ -333,15 +302,15 @@ xsd:     http://www.w3.org/2001/XMLSchema#
 
         
 
-        <p class="mb-0">Indicates that an agent participated in a historical event, such as a battle, encounter, campaign, or gathering.</p>
+        <p class="mb-0">Indicates that an agent participated in a historical event (e.g., battle, uprising, campaign, meeting), as evidenced by a historical source. Kept as a lightweight property within the FRBR–FaBiO + FOAF/REL stack; aligned with CIDOC CRM participation modeling.</p>
       </section>
       
-      <section class="vd-module" id="requestedPoliticalFavorFrom">
+      <section class="vd-module" id="requestedIntercession">
         <h2 style="font-size: 1.25rem; margin-bottom: 0.6rem">
-          requested a political favor from
+          requested intercession from
         </h2>
 
-        <p class="mb-2"><strong>URI:</strong> <code>https://carlamenegat.github.io/VarelaDigital/hrao#requestedPoliticalFavorFrom</code></p>
+        <p class="mb-2"><strong>URI:</strong> <code>https://carlamenegat.github.io/VarelaDigital/hrao#requestedIntercession</code></p>
 
         
         <p class="mb-1"><strong>Domain:</strong> <code>http://xmlns.com/foaf/0.1/Agent</code></p>
@@ -357,7 +326,7 @@ xsd:     http://www.w3.org/2001/XMLSchema#
 
         
 
-        <p class="mb-0">Indicates that an agent requested a political favor, intercession, or informal influence from another agent in a historical or political context.</p>
+        <p class="mb-0">Indicates that an agent requested informal intercession, influence, protection, or assistance from another agent, as expressed in a historical source.</p>
       </section>
       
       <section class="vd-module" id="servedUnder">
@@ -381,7 +350,7 @@ xsd:     http://www.w3.org/2001/XMLSchema#
 
         
 
-        <p class="mb-0">Indicates that an agent held an office, function, or role under the authority or leadership of another agent.</p>
+        <p class="mb-0">Indicates that an agent (foaf:Person or foaf:Group) held an office, function, or role under the authority or leadership of another agent (foaf:Person or foaf:Group), as evidenced by a historical source (e.g., military chain of command).</p>
       </section>
       
       <section class="vd-module" id="wasImprisonedBy">

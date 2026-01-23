@@ -128,14 +128,10 @@
    - Body does NOT scroll
    - Filters scroll inside sidebar
    - Map stays visible
-   - Footer becomes a fixed bar
+   - Footer is a sticky bar (does NOT cover the map)
    ========================================================= */
 
 @media (min-width: 992px) {
-  :root {
-    --vd-footer-bar-h: 3.25rem;
-  }
-
   /* Prevent body scroll (single-scroll experience) */
   html,
   body.vd-map {
@@ -145,7 +141,7 @@
 
   /* Make main behave like an app layout */
   .vd-map-page {
-    height: 100vh;
+    height: 100dvh; /* better than 100vh on modern browsers */
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -154,7 +150,7 @@
     align-items: stretch;
 
     padding-top: 5.25rem;
-    padding-bottom: calc(var(--vd-footer-bar-h) + 0.75rem);
+    padding-bottom: 0; /* footer is sticky and occupies layout space */
   }
 
   /* Header compact */
@@ -207,26 +203,28 @@
     min-height: 0;
   }
 
-  /* Footer fixed bar */
-  .vd-footer {
-    position: fixed;
-    left: 0;
-    right: 0;
+  /* Footer sticky bar (map-only override; do not touch styles.css) */
+  body.vd-map .vd-footer {
+    position: sticky; /* IMPORTANT: occupies layout, won’t overlap map */
     bottom: 0;
+    left: auto;
+    right: auto;
+
+    margin-top: 0 !important;          /* overrides styles.css margin-top: 3rem */
+    padding: 0.65rem 1rem !important;  /* overrides styles.css padding-bottom: 3rem etc */
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+
     z-index: 1030;
     background: rgba(248, 245, 239, 0.96);
-    border-top: 1px solid rgba(0, 0, 0, 0.08);
-    padding: 0.65rem 1rem;
-    margin: 0;
   }
 
-  .vd-footer .footer-links,
-  .vd-footer .footer-small {
+  body.vd-map .vd-footer .footer-links,
+  body.vd-map .vd-footer .footer-small {
     margin: 0;
     line-height: 1.2;
   }
 
-  .vd-footer .footer-small {
+  body.vd-map .vd-footer .footer-small {
     font-size: 0.85rem;
     opacity: 0.9;
   }
