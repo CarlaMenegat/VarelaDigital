@@ -1,34 +1,57 @@
 /* =========================================================
-   Varela Digital — Map page
+   Varela Digital — Map page (clean)
+   - Desktop: app layout (no page scroll)
+   - Sidebar scrolls internally
+   - Map fills remaining viewport height
+   - No footer on map page
+   - Header title scaled down (proportional)
    ========================================================= */
 
-/* ---------- Page layout ---------- */
+/* ---------- Base layout (all screens) ---------- */
 
-.vd-map-page {
-  padding-top: 5.25rem; /* navbar */
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 2rem;
+body.vd-map .vd-map-page {
+  /* fixed navbar offset */
+  padding-top: 5rem;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
 }
 
-.vd-map-header {
+/* Keep header width nice */
+body.vd-map .vd-map-header {
   max-width: 1100px;
-  margin: 0 auto 1rem auto;
-}
-
-.vd-map-layout {
-  max-width: 1400px;
   margin: 0 auto;
 }
 
-.vd-map-card {
+/* Header typography (scaled down) */
+body.vd-map .vd-map-header h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 0 0 0.25rem 0;
+  font-weight: 700;
+}
+
+body.vd-map .vd-map-header .vd-lead {
+  font-size: 0.95rem;
+  line-height: 1.45;
+  margin: 0;
+  max-width: 720px;
+}
+
+body.vd-map .vd-map-layout {
+  /* layout width handled by bootstrap container */
+  width: 100%;
+}
+
+body.vd-map .vd-map-card {
   background: #fff;
   border-radius: 14px;
-  padding: 0.75rem;
+  padding: 1rem;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
 }
 
-.vd-leaflet-map {
+/* Default (mobile/tablet): map has a sensible fixed height */
+body.vd-map .vd-leaflet-map {
   width: 100%;
   height: 70vh;
   min-height: 520px;
@@ -39,194 +62,179 @@
 
 /* ---------- Sidebar (filters) ---------- */
 
-.map-filters {
+body.vd-map .map-filters {
   background: #fff;
-  border-radius: 14px;
+  border-radius: 16px;
   padding: 1rem;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
 }
 
-.filter-group + .filter-group {
+body.vd-map .filter-group + .filter-group {
   margin-top: 1rem;
 }
 
-.filter-group-title {
+body.vd-map .filter-group-title {
   font-weight: 700;
   margin-bottom: 0.6rem;
 }
 
-.vd-filter-label {
-  font-weight: 600;
-  margin-top: 0.55rem;
+body.vd-map .vd-filter-label {
+  font-weight: 500;
+  margin-top: 0.45rem;
   margin-bottom: 0.35rem;
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
+  gap: 0.50rem;
 }
 
-.vd-check {
+body.vd-map .vd-check {
   margin-top: 0.75rem;
 }
 
-.vd-filters-actions {
+body.vd-map .vd-filters-actions {
   margin-top: 1rem;
 }
 
-.map-status {
+body.vd-map .map-status {
   border-top: 1px solid rgba(0, 0, 0, 0.08);
   padding-top: 0.75rem;
 }
 
-.map-status-row {
+body.vd-map .map-status-row {
   display: flex;
   justify-content: space-between;
   gap: 0.75rem;
   padding: 0.2rem 0;
 }
 
-.map-status-label {
+body.vd-map .map-status-label {
   opacity: 0.75;
 }
 
-.map-status-value {
-  font-weight: 700;
+body.vd-map .map-status-value {
+  font-weight: 300;
 }
 
 /* ---------- Popup ---------- */
 
-.vd-popup h6 {
+body.vd-map .vd-popup h6 {
   margin: 0 0 0.35rem 0;
   font-weight: 800;
 }
 
-.vd-popup .vd-popup-meta {
+body.vd-map .vd-popup .vd-popup-meta {
   font-size: 0.9rem;
   opacity: 0.8;
   margin-bottom: 0.35rem;
 }
 
-.vd-popup ul {
+body.vd-map .vd-popup ul {
   margin: 0.25rem 0 0 1.1rem;
   padding: 0;
 }
 
-.vd-popup li {
+body.vd-map .vd-popup li {
   margin: 0.15rem 0;
 }
 
 /* ---------- Responsive (mobile/tablet) ---------- */
 
 @media (max-width: 991px) {
-  .vd-leaflet-map {
+  body.vd-map .vd-map-header h1 {
+    font-size: 1.85rem;
+  }
+
+  body.vd-map .vd-map-header .vd-lead {
+    font-size: 0.95rem;
+  }
+
+  body.vd-map .vd-leaflet-map {
     height: 62vh;
     min-height: 420px;
   }
 }
 
 /* =========================================================
-   Desktop: keep map visible + single scroll (filters)
-   - Body does NOT scroll
-   - Filters scroll inside sidebar
-   - Map stays visible
-   - Footer is a sticky bar (does NOT cover the map)
+   Desktop: app layout, NO overflow beyond viewport
    ========================================================= */
 
 @media (min-width: 992px) {
-  /* Prevent body scroll (single-scroll experience) */
+  /* No page scroll on desktop */
   html,
   body.vd-map {
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  /* Main occupies the viewport (navbar handled via padding-top) */
+  body.vd-map .vd-map-page {
+    height: calc(100dvh - 5px);
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  /* IMPORTANT:
+     This layout assumes your <main class="vd-map-page"> contains a bootstrap container
+     (e.g., <div class="container-xxl"> ... header + row ... </div>).
+     We rely on that container to define a 2-row grid: header / content. */
+  body.vd-map .vd-map-page > .container-xxl,
+  body.vd-map .vd-map-page > .container-xl,
+  body.vd-map .vd-map-page > .container-lg,
+  body.vd-map .vd-map-page > .container,
+  body.vd-map .vd-map-page > .container-fluid {
     height: 100%;
     overflow: hidden;
+
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 1rem;
   }
 
-  /* Make main behave like an app layout */
-  .vd-map-page {
-    height: 100dvh; /* better than 100vh on modern browsers */
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-
-    /* CRITICAL: avoid any global centering shrinking the row */
-    align-items: stretch;
-
-    padding-top: 5.25rem;
-    padding-bottom: 0; /* footer is sticky and occupies layout space */
+  /* Header stays compact */
+  body.vd-map .vd-map-header {
+    margin: 0;
   }
 
-  /* Header compact */
-  .vd-map-header {
-    flex: 0 0 auto;
-    margin: 0 auto 0.75rem auto;
-  }
-
-  .vd-map-header h1 {
-    margin-bottom: 0.35rem;
-  }
-
-  .vd-map-header .vd-lead {
-    margin-bottom: 0;
-  }
-
-  /* The row must fill available space */
-  .vd-map-layout {
-    flex: 1 1 auto;
-    min-height: 0; /* critical for nested scrolling */
-    overflow: hidden;
-
-    /* CRITICAL: ensure row stretches full width (fix “filete”) */
-    width: 100%;
-  }
-
-  /* Columns must also allow nested scrolling */
-  .vd-map-layout > aside,
-  .vd-map-layout > section {
+  /* Content row must be allowed to shrink inside the grid */
+  body.vd-map .vd-map-layout {
     min-height: 0;
     height: 100%;
     overflow: hidden;
   }
 
-  /* Sidebar scroll */
-  .map-filters {
+  /* IMPORTANT: Bootstrap columns need min-height:0 so children can scroll/fill */
+  body.vd-map .vd-map-layout > aside,
+  body.vd-map .vd-map-layout > section {
+    min-height: 0;
     height: 100%;
+    overflow: hidden;
+  }
+
+  /* Sidebar scrolls internally */
+  body.vd-map .map-filters {
+    height: 100%;
+    min-height: 0;
     overflow-y: auto;
     overscroll-behavior: contain;
     padding-bottom: 1.25rem;
   }
 
-  /* Map takes all remaining height */
-  .vd-map-card {
-    height: 100%;
-  }
-
-  .vd-leaflet-map {
+  /* Map column fills vertically */
+  body.vd-map .vd-map-card {
     height: 100%;
     min-height: 0;
   }
 
-  /* Footer sticky bar (map-only override; do not touch styles.css) */
+  /* On desktop, map fills 100% of its column height (no vh/min-height) */
+  body.vd-map .vd-leaflet-map {
+    height: 100%;
+    min-height: 0;
+  }
+
+  /* Map page has NO footer (override global styles.css safely) */
   body.vd-map .vd-footer {
-    position: sticky; /* IMPORTANT: occupies layout, won’t overlap map */
-    bottom: 0;
-    left: auto;
-    right: auto;
-
-    margin-top: 0 !important;          /* overrides styles.css margin-top: 3rem */
-    padding: 0.65rem 1rem !important;  /* overrides styles.css padding-bottom: 3rem etc */
-    border-top: 1px solid rgba(0, 0, 0, 0.08);
-
-    z-index: 1030;
-    background: rgba(248, 245, 239, 0.96);
-  }
-
-  body.vd-map .vd-footer .footer-links,
-  body.vd-map .vd-footer .footer-small {
-    margin: 0;
-    line-height: 1.2;
-  }
-
-  body.vd-map .vd-footer .footer-small {
-    font-size: 0.85rem;
-    opacity: 0.9;
+    display: none !important;
   }
 }
 
@@ -234,36 +242,36 @@
    Leaflet aesthetic tuning (site-friendly palette)
    ========================================================= */
 
-.vd-map .leaflet-container {
+body.vd-map .leaflet-container {
   background: #f6f2ec;
   font-family: inherit;
 }
 
-.vd-map .leaflet-control-attribution {
+body.vd-map .leaflet-control-attribution {
   background: rgba(253, 253, 251, 0.85);
   border-radius: 10px;
   padding: 0.2rem 0.5rem;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
-.vd-map .leaflet-bar a {
+body.vd-map .leaflet-bar a {
   background: rgba(253, 253, 251, 0.92);
   color: #2f3b2c;
   border: 1px solid rgba(0, 0, 0, 0.10);
 }
 
-.vd-map .leaflet-bar a:hover {
+body.vd-map .leaflet-bar a:hover {
   background: rgba(253, 253, 251, 1);
 }
 
 /* ---------- Protect marker colors from global CSS ---------- */
 
-.vd-map .leaflet-overlay-pane svg path.leaflet-interactive {
+body.vd-map .leaflet-overlay-pane svg path.leaflet-interactive {
   vector-effect: non-scaling-stroke;
 }
 
 /* Sending markers */
-.vd-map .leaflet-overlay-pane svg path.leaflet-interactive.vd-marker-sending {
+body.vd-map .leaflet-overlay-pane svg path.leaflet-interactive.vd-marker-sending {
   fill: #4e7a5a !important;
   stroke: #2f5d3a !important;
   fill-opacity: 0.62 !important;
@@ -271,7 +279,7 @@
 }
 
 /* Mentioned markers */
-.vd-map .leaflet-overlay-pane svg path.leaflet-interactive.vd-marker-mentioned {
+body.vd-map .leaflet-overlay-pane svg path.leaflet-interactive.vd-marker-mentioned {
   fill: #b56a5a !important;
   stroke: #7a3e34 !important;
   fill-opacity: 0.62 !important;
@@ -279,7 +287,7 @@
 }
 
 /* All places markers */
-.vd-map .leaflet-overlay-pane svg path.leaflet-interactive.vd-marker-all {
+body.vd-map .leaflet-overlay-pane svg path.leaflet-interactive.vd-marker-all {
   fill: #6b6b6b !important;
   stroke: rgba(0, 0, 0, 0.45) !important;
   fill-opacity: 0.58 !important;
@@ -287,16 +295,16 @@
 }
 
 /* Hover/focus */
-.vd-map .leaflet-overlay-pane svg path.leaflet-interactive.vd-marker-sending:hover,
-.vd-map .leaflet-overlay-pane svg path.leaflet-interactive.vd-marker-mentioned:hover,
-.vd-map .leaflet-overlay-pane svg path.leaflet-interactive.vd-marker-all:hover {
+body.vd-map .leaflet-overlay-pane svg path.leaflet-interactive.vd-marker-sending:hover,
+body.vd-map .leaflet-overlay-pane svg path.leaflet-interactive.vd-marker-mentioned:hover,
+body.vd-map .leaflet-overlay-pane svg path.leaflet-interactive.vd-marker-all:hover {
   fill-opacity: 0.78 !important;
   stroke-width: 2 !important;
 }
 
 /* ---------- Legend ---------- */
 
-.vd-map-legend {
+body.vd-map .vd-map-legend {
   background: rgba(253, 253, 251, 0.92);
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 12px;
@@ -310,18 +318,18 @@
    Advanced filters (accordion)
    ========================================================= */
 
-.vd-advanced-filters {
+body.vd-map .vd-advanced-filters {
   margin-top: 1rem;
 }
 
-.vd-advanced-filters .accordion-item {
+body.vd-map .vd-advanced-filters .accordion-item {
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 12px;
   overflow: hidden;
   background: rgba(253, 253, 251, 0.92);
 }
 
-.vd-advanced-filters .accordion-button {
+body.vd-map .vd-advanced-filters .accordion-button {
   font-weight: 700;
   color: #2f3b2c;
   background: rgba(253, 253, 251, 0.92);
@@ -329,25 +337,25 @@
   padding: 0.75rem 0.9rem;
 }
 
-.vd-advanced-filters .accordion-button:not(.collapsed) {
+body.vd-map .vd-advanced-filters .accordion-button:not(.collapsed) {
   background: rgba(248, 245, 239, 0.95);
 }
 
-.vd-advanced-filters .accordion-body {
+body.vd-map .vd-advanced-filters .accordion-body {
   padding: 0.85rem 0.9rem 0.95rem 0.9rem;
 }
 
-.vd-advanced-filters .filter-group + .filter-group {
+body.vd-map .vd-advanced-filters .filter-group + .filter-group {
   margin-top: 0.85rem;
 }
 
 /* Threshold badge */
-#thresholdValue {
+body.vd-map #thresholdValue {
   border: 1px solid rgba(0, 0, 0, 0.10);
   font-weight: 700;
 }
 
-#thresholdValueInline {
+body.vd-map #thresholdValueInline {
   font-weight: 800;
 }
 
@@ -355,7 +363,7 @@
    Density slider (threshold) — match site palette
    ========================================================= */
 
-#thresholdFilter {
+body.vd-map #thresholdFilter {
   --track-bg: rgba(78, 122, 90, 0.22);
   --thumb-bg: #4e7a5a;
   --thumb-border: #2f5d3a;
@@ -373,7 +381,7 @@
 }
 
 /* WebKit */
-#thresholdFilter::-webkit-slider-thumb {
+body.vd-map #thresholdFilter::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
 
@@ -387,7 +395,7 @@
 }
 
 /* Firefox */
-#thresholdFilter::-moz-range-thumb {
+body.vd-map #thresholdFilter::-moz-range-thumb {
   width: 16px;
   height: 16px;
   border-radius: 50%;
@@ -396,7 +404,7 @@
   cursor: pointer;
 }
 
-#thresholdFilter::-moz-range-track {
+body.vd-map #thresholdFilter::-moz-range-track {
   height: var(--track-height);
   background: var(--track-bg);
   border-radius: 999px;
@@ -406,7 +414,7 @@
    Inline help button (tooltip trigger)
    ========================================================= */
 
-.vd-help {
+body.vd-map .vd-help {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -423,33 +431,29 @@
   cursor: pointer;
 }
 
-.vd-help:hover {
+body.vd-map .vd-help:hover {
   background: rgba(248, 245, 239, 0.95);
 }
 
 /* Temporal play progress */
-#yearPlayProgress {
-  background: #4E7A5A; /* same as sending marker */
+body.vd-map #yearPlayProgress {
+  background: #4e7a5a;
 }
 
-/* =========================================================
-   Temporal animation controls (Play / Stop)
-   ========================================================= */
-
-/* Play button – green, consistent with map palette */
-#playYearsBtn.btn-outline-primary {
-  --bs-btn-color: #4E7A5A;
-  --bs-btn-border-color: #4E7A5A;
+/* Play button – green */
+body.vd-map #playYearsBtn.btn-outline-primary {
+  --bs-btn-color: #4e7a5a;
+  --bs-btn-border-color: #4e7a5a;
   --bs-btn-hover-color: #ffffff;
-  --bs-btn-hover-bg: #4E7A5A;
-  --bs-btn-hover-border-color: #4E7A5A;
-  --bs-btn-active-bg: #3F684C;
-  --bs-btn-active-border-color: #3F684C;
-  --bs-btn-disabled-color: #8AAE9A;
-  --bs-btn-disabled-border-color: #8AAE9A;
+  --bs-btn-hover-bg: #4e7a5a;
+  --bs-btn-hover-border-color: #4e7a5a;
+  --bs-btn-active-bg: #3f684c;
+  --bs-btn-active-border-color: #3f684c;
+  --bs-btn-disabled-color: #8aae9a;
+  --bs-btn-disabled-border-color: #8aae9a;
 }
 
-/* Stop button – neutral, secondary */
-#stopYearsBtn.btn-outline-secondary {
+/* Stop button – neutral */
+body.vd-map #stopYearsBtn.btn-outline-secondary {
   opacity: 0.85;
 }

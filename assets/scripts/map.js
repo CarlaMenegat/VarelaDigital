@@ -776,6 +776,7 @@ async function boot() {
   syncThresholdUI();
 
   applyFilters(true);
+  setTimeout(() => MAP && MAP.invalidateSize(), 50);
 
   [
     mapModeSelect,
