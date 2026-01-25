@@ -305,7 +305,7 @@
             </state>
         </org>
         
-        <org xml:id="3cia_esquadrao_pelotas" type="militaryUnit">
+        <org xml:id="terceira_cia_esquadrao_pelotas" type="militaryUnit">
             <orgName>3.ª Companhia do Esquadrão de Pelotas</orgName>
             <idno type="project"/>
             <affiliation ref="#exercito_farroupilha"/>
@@ -315,7 +315,7 @@
             </note>
         </org>
         
-        <org xml:id="4corpo_1brigada" type="militaryUnit">
+        <org xml:id="quarto_corpo_1brigada" type="militaryUnit">
             <orgName>4.º Corpo da 1.ª Brigada</orgName>
             <idno type="project"/>
             <affiliation ref="#exercito_farroupilha"/>
@@ -884,13 +884,6 @@
             <note>Unidade militar imperial mencionada em contexto de mobilização de praças sob comando de um major.</note>
         </org>
         
-        <org xml:id="esquadrao_barra">
-            <orgName>Esquadrão da Barra</orgName>
-            <idno type="project"></idno>
-            <note>Esquadrão citado como estando sob o comando de Francisco Pedro de Abreu.</note>
-            <affiliation ref="#imperio_brasil"/>
-        </org>
-        
         <org xml:id="esquadrao_triunfo" type="militaryUnit">
             <orgName>Esquadrão do Triunfo</orgName>
             <idno type="project"></idno>
@@ -976,7 +969,7 @@
             <note>Unidade da Guarda Nacional imperial mencionada em contexto de mobilização e operações durante a Guerra dos Farrapos.</note>
         </org>
         
-        <org xml:id="1_brigada_guarda_nacional">
+        <org xml:id="primeira_brigada_guarda_nacional">
             <orgName>1.º Brigada de Guarda Nacional</orgName>
             <idno type="project"/>
             <affiliation ref="#exercito_farroupilha"/>
@@ -1049,10 +1042,10 @@
             </note>
         </org>
         
-        <org xml:id="12_companhia_gn" type="militaryUnit">
+        <org xml:id="decimasegunda_companhia_gn" type="militaryUnit">
             <orgName>12.ª Companhia da Guarda Nacional</orgName>
             <idno type="project"/>
-            <state type="roleInTime" xml:id="12_companhia_gn_imperial">
+            <state type="roleInTime" xml:id="decimasegunda_companhia_gn_imperial">
                 <roleName>Companhia da Guarda Nacional do Império do Brasil</roleName>
                 <affiliation ref="#guarda_nacional_imperial"/>
             </state>

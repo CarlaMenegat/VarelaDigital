@@ -903,7 +903,7 @@
         
         <relation 
             name="rico:hasFamilyAssociationWith"
-            active="#francisco_xavier"
+            active="#francisco_xavier_ribeiro"
             passive="#bento_manoel"/>
         
         <relation 
@@ -1137,7 +1137,7 @@
         
         <relation 
             name="schema:memberOf" 
-            active="#filipe_neri_oliveira" 
+            active="#filipe_de_oliveira_neri" 
             passive="#oitavo_batalhao"/>
         
         <relation 
@@ -3324,7 +3324,7 @@
         <relation
             name="foaf:knows"
             active="#domingos_jose_almeida"
-            passive="#francisco_xavier"
+            passive="#francisco_xavier_capitao"
             mutual="true"/>
         
         <relation
@@ -3883,12 +3883,12 @@
         <relation
             name="prov:wasAssociatedWith"
             active="#domingos_jose_silveira_filho"
-            passive="#3cia_esquadrao_pelotas"/>
+            passive="#terceira_cia_esquadrao_pelotas"/>
         
         <relation
             name="prov:wasAssociatedWith"
             active="#antonio_carlos_soveral"
-            passive="#4corpo_1brigada"/>
+            passive="#quarto_corpo_1brigada"/>
         
         <relation
             name="foaf:knows"

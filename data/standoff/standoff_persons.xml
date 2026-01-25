@@ -569,10 +569,10 @@
             <note>Oficial legalista, comandante da guarnição de Porto Alegre durante a Guerra Farroupilha.</note>
         </person>
         
-        <person xml:id="francisco_xavier">
+        <person xml:id="francisco_xavier_capitao">
             <persName>Francisco Xavier</persName>
             <idno type="project"/>
-            <state type="roleInTime" xml:id="francisco_xavier_capitao">
+            <state type="roleInTime" xml:id="francisco_xavier_capitao_farroupilha">
                 <roleName>Capitão</roleName>
             </state>
             <state type="roleInTime" xml:id="francisco_xavier_comandante_sao_jose_norte_1836">
@@ -1613,6 +1613,10 @@
                 <roleName>Major</roleName>
                 <affiliation ref="#exercito_farroupilha"/>
             </state>
+            <state type="roleInTime" xml:id="mariano_gloria_comandante_rrg">
+                <roleName>Comandante de partida</roleName>
+                <affiliation ref="#republica_rio_grandense"/>
+            </state>
             <note>
                 Oficial farroupilha citado com o posto de Major. 
                 Dados biográficos completos ainda não confirmados; identificado apenas 
@@ -1741,9 +1745,9 @@
         <person xml:id="domingos_jose_silveira_filho">
             <persName>Domingos José de Silveira Filho</persName>
             <idno type="project"/>
-            <state type="roleInTime" xml:id="djsf_2_sargento_3cia_esquadrao_pelotas">
+            <state type="roleInTime" xml:id="djsf_2_sargento_terceira_cia_esquadrao_pelotas">
                 <roleName>2.º sargento</roleName>
-                <affiliation ref="#3cia_esquadrao_pelotas"/>
+                <affiliation ref="#terceira_cia_esquadrao_pelotas"/>
                 <note>Mencionado por Almeida como 2.º sargento da 3.ª Companhia do Esquadrão de Pelotas.</note>
             </state>
             <note>
@@ -1758,7 +1762,7 @@
             <idno type="project"/>
             <state type="roleInTime" xml:id="soveral_major_1brigada_4corpo">
                 <roleName>Major</roleName>
-                <affiliation ref="#4corpo_1brigada"/>
+                <affiliation ref="#quarto_corpo_1brigada"/>
                 <note>Mencionado como oficial sob cujas ordens esteve força destacada no Estado Oriental.</note>
             </state>
             <note>
@@ -1885,48 +1889,49 @@
             <idno type="viaf">https://viaf.org/viaf/23627851</idno>
             <note>Jornalista e político rio-grandense; importante ativista liberal do período.</note>
         </person>
-
+        
         <person xml:id="jose_mariano_matos">
             <persName>José Mariano de Matos</persName>
             <idno type="wikidata">https://www.wikidata.org/wiki/Q10310051</idno>
             <birth when="1801-06-19">19 de junho de 1801</birth>
             <death when="1875-09-06">6 de setembro de 1875</death>
+            
             <state type="roleInTime" xml:id="jmm_deputado_provincial_rs_1835">
                 <roleName>Deputado provincial</roleName>
                 <affiliation ref="#assembleia_provincial_rs"/>
                 <date type="begin" when="1835"/>
             </state>
+            
             <state type="roleInTime" xml:id="jmm_ministro_guerra_marinha_rrg">
                 <roleName>Ministro da Guerra e da Marinha</roleName>
                 <affiliation ref="#republica_rio_grandense"/>
                 <date type="begin" when="1838"/>
             </state>
+            
             <state type="roleInTime" xml:id="jmm_vice_presidente_rrg">
                 <roleName>Vice-presidente da República Rio-Grandense</roleName>
                 <affiliation ref="#republica_rio_grandense"/>
                 <date type="begin" when="1839"/>
             </state>
+            
             <state type="roleInTime" xml:id="jmm_ministro_guerra_imperio_1864">
                 <roleName>Ministro da Guerra do Império do Brasil</roleName>
                 <affiliation ref="#imperio_brasil"/>
                 <date type="begin" when="1864-01-15"/>
                 <date type="end" when="1864-05-22"/>
             </state>
+            
             <state type="roleInTime" xml:id="jmm_brigadeiro_imperio">
                 <roleName>Brigadeiro</roleName>
                 <affiliation ref="#imperio_brasil"/>
                 <date type="begin" when="1847"/>
             </state>
+            
             <state type="roleInTime" xml:id="jmm_conselho_supremo_militar">
                 <roleName>Membro do Conselho Supremo Militar e de Justiça</roleName>
                 <affiliation ref="#imperio_brasil"/>
             </state>
-            <state type="roleInTime" xml:id="jmm_ministro_guerra_imperio_1864">
-                <roleName>Ministro da Guerra do Império do Brasil</roleName>
-                <affiliation ref="#imperio_brasil"/>
-                <date type="begin" when="1864-01-15"/>
-                <date type="end" when="1864-05-22"/>
-            </state>
+            
             <note>
                 Político e militar farroupilha, eleito vice-presidente da República Rio-Grandense 
                 (1839), exercendo papel administrativo central durante o conflito. 
@@ -2493,11 +2498,6 @@
         <person xml:id="jose_leandro">
             <persName>José Leandro</persName>
             <note>Indivíduo citado em disputa doméstica remetida ao Presidente do Estado.</note>
-        </person>
-        
-        <person xml:id="joaquim_jose_silva">
-            <persName>Joaquim José da Silva</persName>
-            <note>Coronel e morador do Departamento, contribuinte com oferta de gado.</note>
         </person>
         
         <person xml:id="rolino_pereira_barros">
@@ -3337,15 +3337,6 @@
             </note>
         </person>
         
-        <person xml:id="manuel_lucas_oliveira">
-            <persName>Manuel Lucas de Oliveira</persName>
-            <roleName>Tenente-coronel</roleName>
-            <idno type="viaf">https://viaf.org/en/viaf/14095044</idno>
-            <idno type="wikidata">https://www.wikidata.org/wiki/Q10324329</idno>
-            <roleName>Comandante da 1ª Brigada de Guardas Nacionais</roleName>
-            <note>Tenente-coronel farroupilha citado como comandante de brigada em 1841.</note>
-        </person>
-        
         <person xml:id="manuel_aleman">
             <persName>Manuel de Aleman</persName>
             <persName type="variant" xml:lang="es">Manuel Alemán</persName>
@@ -3472,11 +3463,6 @@
                 Agente aliado aos farroupilhas, citado como responsável por obter informações
                 em Pelotas para transmissão a uma embarcação; foi preso e submetido a maus-tratos.
             </note>
-        </person>
-        
-        <person xml:id="fayete">
-            <persName>Fayete</persName>
-            <note>Nome sem prenome completo — permanece como identificado apenas por forma única no corpus.</note>
         </person>
         
         <person xml:id="casaca">
@@ -4080,7 +4066,7 @@
             <note>Major farroupilha, irmão de David Canabarro.</note>
         </person>
         
-        <person xml:id="francisco_xavier">
+        <person xml:id="francisco_xavier_ribeiro">
             <persName>Francisco Xavier</persName>
             <idno type="project"></idno>
             <state type="roleInTime" xml:id="francisco_xavier_tenente_rrg">
@@ -4543,10 +4529,10 @@
             <note>Soldado farroupilha que foi preso pelas forças do Império, conseguiu escapar e forneceu informações estratégicas.</note>
         </person>
         
-        <person xml:id="melo">
+        <person xml:id="melo_major">
             <persName>Melo</persName>
             <idno type="project"/>
-            <state type="roleInTime" xml:id="melo_major">
+            <state type="roleInTime" xml:id="melo_major_imperio">
                 <roleName>Major</roleName>
                 <affiliation ref="#imperio_brasil"/>
             </state>
@@ -4649,12 +4635,8 @@
         </person>
         
         <person xml:id="capitao_lucas">
-            <persName>
-                <choice>
-                    <sic>Cecas</sic>
-                    <corr>Lucas</corr>
-                </choice>
-            </persName>
+            <persName>Lucas</persName>
+            <persName>Cecas</persName>
             <note type="editorial">Original de difícil leitura no impresso; registrado como "Lucas" em um ponto e "Cecas" em outro.</note>
             <state type="roleInTime" xml:id="capitao_lucas_capitao_legalista">
                 <roleName>Capitão</roleName>
@@ -5178,10 +5160,7 @@
         </person>
         
         <person xml:id="paulo_pereira_silva_alano">
-            <persName>
-                <forename>Paulo</forename>
-                <surname>Pereira da Silva Alano</surname>
-            </persName>
+            <persName>Paulo Pereira da Silva Alano</persName>
             <persName type="alias">Paulo Alano</persName>
             <idno type="project"></idno>
             <state type="roleInTime" xml:id="paulo_alano_sargentomor">
@@ -5193,16 +5172,6 @@
                 <affiliation ref="#imperio_brasil"/>
             </state>
             <note>Oficial legalista identificado como Sargento-mor e posteriormente Major. Mencionado em operações militares para guarnecer a costa do Camaquã durante a Revolução Farroupilha.</note>
-        </person>
-        
-        <person xml:id="mariano_gloria">
-            <persName>Mariano Glória</persName>
-            <state type="roleInTime" xml:id="mariano_gloria_comandante_rrg">
-                <roleName>Comandante de partida</roleName>
-                <affiliation ref="#republica_rio_grandense"/>
-            </state>
-            <note>Chefe farroupilha mencionado como comandante de uma partida de cerca de 60 homens atuando
-                na região do Arroio Camaquã, em movimentações militares de 1844 relatadas por Francisco Pedro de Abreu.</note>
         </person>
         
         <person xml:id="joao_pedro_abreu">
@@ -6034,11 +6003,6 @@
                 <note>Oficial encarregado de remeter cavalos para o comando militar.</note>
             </state>
             <note>Alferes citado como responsável pelo envio de bons cavalos ao capitão Rodrigo Antônio da Silva.</note>
-        </person>
-        
-        <person xml:id="antonio_elzeario_miranda_brito">
-            <persName>Antônio Elzeário de Miranda e Brito</persName>
-            <note>Marechal e Presidente da Província.</note>
         </person>
         
         <person xml:id="jose_joaquim_cabeleira">
@@ -8240,12 +8204,6 @@
             </note>
         </person>
         
-        <person xml:id="jose_escravo">
-            <persName>José</persName>
-            <idno type="project"></idno>
-            <note>Homem escravizado, identificado como campeiro na fazenda de Jaguarão, avaliado em conta financeira de 1836.</note>
-        </person>
-        
         <person xml:id="joaquim_escravo">
             <persName>Joaquim</persName>
             <idno type="project"></idno>
@@ -8716,6 +8674,19 @@
             <note>
                 Tenente-coronel citado no documento contábil CV-235 (Piratini, 18 de março de 1838),
                 em lançamento de pagamento (com indicação “pg.”) associado a 27 patacões prata.
+            </note>
+        </person>
+        
+        <person xml:id="t_j_t_a_g">
+            <persName>T. J. T. de A. G.</persName>
+            <idno type="project"/>
+            <note>
+                Autor não identificado, conhecido apenas pelas iniciais “T. J. T. de A. G.”.
+                Assina a carta CV-216, datada de 19 de julho de 1837, enviada do lugar
+                <placeName ref="#pedregal">Pedregal</placeName> a
+                <persName ref="#domingos_jose_almeida">Domingos José de Almeida</persName>.
+                Não foi possível determinar com segurança o nome completo ou a função
+                administrativa do signatário.
             </note>
         </person>
         

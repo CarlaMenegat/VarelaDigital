@@ -457,3 +457,17 @@ body.vd-map #playYearsBtn.btn-outline-primary {
 body.vd-map #stopYearsBtn.btn-outline-secondary {
   opacity: 0.85;
 }
+
+/* Dropdown current page — site palette */
+.vd-navbar .dropdown-item.is-current {
+  background: rgba(78, 122, 90, 0.12); /* verde suave do site */
+  color: #2f3b2c;
+  font-weight: 600;
+}
+
+/* Evita azul do Bootstrap */
+.vd-navbar .dropdown-item.is-current:active,
+.vd-navbar .dropdown-item.is-current:hover {
+  background: rgba(78, 122, 90, 0.18);
+  color: #2f3b2c;
+}

@@ -98,12 +98,14 @@ def _first(xs: List[ET.Element]) -> Optional[ET.Element]:
     return xs[0] if xs else None
 
 
-def _first_corresp_action(root: ET.Element, typ: str) -> Optional[ET.Element]:
-    actions = root.findall(
-        ".//tei:teiHeader/tei:profileDesc/tei:correspDesc/tei:correspAction",
-        TEI_NS,
-    )
-    for a in actions:
+def _first_corresp_desc(root: ET.Element) -> Optional[ET.Element]:
+    return root.find(".//tei:teiHeader/tei:profileDesc/tei:correspDesc", TEI_NS)
+
+
+def _first_action_in_corresp(cdesc: Optional[ET.Element], typ: str) -> Optional[ET.Element]:
+    if cdesc is None:
+        return None
+    for a in cdesc.findall("tei:correspAction", TEI_NS):
         if (a.get("type") or "").strip() == typ:
             return a
     return None
@@ -239,7 +241,6 @@ def parse_standoff_events(path: Path) -> Dict[str, EntityRecord]:
         return idx
 
     root = ET.parse(path).getroot()
-
     for ev in root.findall(".//tei:eventName", TEI_NS):
         xml_id = ev.get(XML_ID)
         if not xml_id:
@@ -303,8 +304,9 @@ def extract_author_from_header(root: ET.Element) -> Tuple[str, str]:
 
 
 def extract_corresp_primary_pair(root: ET.Element) -> Tuple[str, str, str, str, str]:
-    sent_action = _first_corresp_action(root, "sent")
-    recv_action = _first_corresp_action(root, "received")
+    cdesc = _first_corresp_desc(root)
+    sent_action = _first_action_in_corresp(cdesc, "sent")
+    recv_action = _first_action_in_corresp(cdesc, "received")
 
     author_name, author_ref = _extract_name_and_ref(sent_action)
     recipient_name, recipient_ref = _extract_name_and_ref(recv_action)
@@ -314,7 +316,8 @@ def extract_corresp_primary_pair(root: ET.Element) -> Tuple[str, str, str, str, 
 
 
 def extract_main_date_norm(root: ET.Element) -> str:
-    sent_action = _first_corresp_action(root, "sent")
+    cdesc = _first_corresp_desc(root)
+    sent_action = _first_action_in_corresp(cdesc, "sent")
     when = _extract_when(sent_action)
     if when:
         return when
@@ -327,7 +330,9 @@ def extract_main_date_norm(root: ET.Element) -> str:
 
 
 def extract_main_place_from_corresp(root: ET.Element) -> Tuple[str, str]:
-    sent_action = _first_corresp_action(root, "sent")
+    cdesc = _first_corresp_desc(root)
+    sent_action = _first_action_in_corresp(cdesc, "sent")
+
     if sent_action is not None:
         pl = sent_action.find("tei:placeName[@ref]", TEI_NS)
         if pl is not None:
@@ -496,22 +501,18 @@ def main() -> int:
 
         author_uri = ""
         if author_ref:
-            if author_ref in persons_idx:
-                author_uri = persons_idx[author_ref].uri
-            elif author_ref in orgs_idx:
-                author_uri = orgs_idx[author_ref].uri
+            if author_ref in orgs_idx:
+                author_uri = f"{PROJECT_ORG_BASE}{author_ref}"
             else:
+                # default: treat as person xml:id
                 author_uri = f"{PROJECT_PERSON_BASE}{author_ref}"
 
         recipient_uri = ""
         if recipient_ref:
-            if recipient_ref in persons_idx:
-                recipient_uri = persons_idx[recipient_ref].uri
-            elif recipient_ref in orgs_idx:
-                recipient_uri = orgs_idx[recipient_ref].uri
+            if recipient_ref in orgs_idx:
+                recipient_uri = f"{PROJECT_ORG_BASE}{recipient_ref}"
             else:
                 recipient_uri = f"{PROJECT_PERSON_BASE}{recipient_ref}"
-
         date_norm = extract_main_date_norm(root)
 
         place_label, place_ref = extract_main_place_from_corresp(root)

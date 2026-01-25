@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Carta CV-102 – Teseu (Melo) para Oliveira</title>
-                <author><persName ref="#teseu">Teseu</persName></author>
+                Teseu
                 <respStmt>
                     <resp>Edição digital</resp>
                     <name>Carla Menegat</name>
@@ -111,8 +111,7 @@
             </langUsage>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="#teseu">Teseu</persName>
-                    <persName ref="#melo">Melo</persName>
+                    <persName ref="#melo">Teseu</persName>
                     <placeName ref="#cruz_alta">Cruz Alta</placeName>
                     <date when="1838-10-11">11 de outubro de 1838</date>
                 </correspAction>
