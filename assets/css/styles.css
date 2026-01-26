@@ -8,6 +8,7 @@
   --vd-navbar-offset: 72px; /* adjust if needed */
 }
 
+/* Viewer page only */
 body.vd-viewer {
   padding-top: 74px; /* adjust if needed (try 70–90px) */
 }
@@ -318,11 +319,10 @@ body.annotations-open .left-column {
 
 /* =========================
    TEI block spacing
-   (blank line between blocks)
 ========================= */
 
 .tei-div {
-  margin-bottom: 1rem; /* “linha em branco” após cada div TEI */
+  margin-bottom: 1rem;
 }
 
 .tei-opener,
@@ -335,13 +335,11 @@ body.annotations-open .left-column {
   margin-bottom: 0.6rem;
 }
 
-/* Paragraph rhythm inside TEI body */
 .tei-body p {
   margin: 0 0 0.9rem 0;
   line-height: 1.55;
 }
 
-/* Prevent the last paragraph from creating extra whitespace */
 .tei-body p:last-child {
   margin-bottom: 0;
 }
@@ -368,7 +366,6 @@ body.annotations-open .left-column {
   color: #444;
 }
 
-/* A folio segment, when shown */
 .tei-folio {
   white-space: nowrap;
 }
@@ -494,7 +491,6 @@ body.annotations-open .left-column {
     border-top: 1px solid rgba(196,179,178,0.75);
   }
 
-  /* On small screens, annotations should appear stacked (not side-by-side) */
   body.annotations-open .annotations-column,
   body.annotations-open .right-column {
     display: flex !important;
@@ -508,7 +504,6 @@ body.annotations-open .left-column {
    FOOTER (VD standard)
 ========================= */
 
-/* ---- Footer ---- */
 .vd-footer {
   margin-top: 3rem;
   padding-top: 1.6rem;

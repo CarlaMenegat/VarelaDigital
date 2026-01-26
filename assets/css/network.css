@@ -1,0 +1,303 @@
+/* =========================================================
+   Varela Digital — Network page (FINAL, CLEAN)
+   - Layout corrigido
+   - Sidebar estável
+   - Canvas ocupa todo o espaço
+   - Botões no verde do mapa (#2f3b2c)
+   - Navbar active consistente com Map
+   ========================================================= */
+
+:root{
+  --vd-navbar-offset: 71px;
+  --vd-gap: 1rem;
+
+  /* Map green */
+  --vd-green: #2f3b2c;
+  --vd-green-dark: #2f5d3a;
+
+  /* Sidebar sizing */
+  --vd-sidebar-w: 380px;
+  --vd-sidebar-min: 340px;
+}
+
+/* =========================================================
+   BASE
+========================================================= */
+
+body.vd-network{
+  background-color: #F8F5EF;
+}
+
+/* Wrapper under fixed navbar */
+body.vd-network .vd-network-page{
+  padding-top: calc(var(--vd-navbar-offset) + 1rem);
+  padding-bottom: 1rem;
+}
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+body.vd-network .vd-network-header{
+  max-width: 1100px;
+  margin: 0 auto 1rem auto;
+}
+
+body.vd-network .vd-network-header h1{
+  font-size: 2rem;
+  line-height: 1.15;
+  margin: 0 0 .25rem 0;
+  font-weight: 700;
+}
+
+body.vd-network .vd-network-header .vd-lead{
+  font-size: 0.95rem;
+  line-height: 1.45;
+  margin: 0;
+  max-width: 760px;
+}
+
+/* =========================================================
+   CARDS
+========================================================= */
+
+body.vd-network .network-filters,
+body.vd-network .vd-network-card{
+  background: #fff;
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+}
+
+/* =========================================================
+   CANVAS
+========================================================= */
+
+body.vd-network .vd-network-canvas{
+  width: 100%;
+  height: 70vh;
+  min-height: 490px; /* reduzido visualmente, sem quebrar layout */
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* =========================================================
+   SIDEBAR CONTENT (compact)
+========================================================= */
+
+body.vd-network .filter-group + .filter-group{
+  margin-top: 0.75rem;
+}
+
+body.vd-network .filter-group-title{
+  font-weight: 700;
+  margin-bottom: 0.45rem;
+}
+
+body.vd-network .vd-filter-label{
+  font-weight: 500;
+  margin-top: 0.35rem;
+  margin-bottom: 0.25rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Inputs mais compactos */
+body.vd-network .network-filters .form-select,
+body.vd-network .network-filters .form-control{
+  padding-top: 0.45rem;
+  padding-bottom: 0.45rem;
+  line-height: 1.2;
+}
+
+/* Botões mais baixos */
+body.vd-network .network-filters .btn{
+  padding-top: 0.45rem;
+  padding-bottom: 0.45rem;
+}
+
+body.vd-network .vd-filters-actions{
+  margin-top: 0.75rem;
+}
+
+/* =========================================================
+   DESKTOP APP LAYOUT (ALINHAMENTO CORRETO)
+========================================================= */
+
+@media (min-width: 992px){
+
+  html, body{
+    height: 100%;
+  }
+
+  body.vd-network .vd-network-page{
+    height: 100dvh;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  body.vd-network .vd-network-page > .container-xxl{
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 1rem;
+    overflow: hidden;
+  }
+
+  body.vd-network .vd-network-layout{
+    height: 100%;
+    min-height: 0;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-columns:
+      minmax(var(--vd-sidebar-min), var(--vd-sidebar-w))
+      1fr;
+
+    gap: var(--vd-gap);
+    align-items: stretch;
+  }
+
+  body.vd-network .vd-network-layout > aside,
+  body.vd-network .vd-network-layout > section{
+    min-height: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  /* Sidebar scrolla internamente, mesma altura do painel */
+  body.vd-network .network-filters{
+    height: 100%;
+    overflow-y: auto;
+    padding-bottom: 1rem;
+  }
+
+  body.vd-network .vd-network-card{
+    height: 100%;
+    min-height: 0;
+  }
+
+  body.vd-network .vd-network-canvas{
+    height: 100%;
+    min-height: 0;
+  }
+
+  /* Hide footer if present */
+  body.vd-network .vd-footer{
+    display: none !important;
+  }
+}
+
+/* =========================================================
+   MOBILE / TABLET
+========================================================= */
+
+@media (max-width: 991px){
+
+  body.vd-network .vd-network-page{
+    height: auto;
+    overflow: visible;
+  }
+
+  body.vd-network .vd-network-canvas{
+    height: 62vh;
+    min-height: 420px;
+  }
+
+  body.vd-network .vd-network-header h1{
+    font-size: 1.85rem;
+  }
+}
+
+/* =========================================================
+   BUTTONS — MAP GREEN (NO BLUE)
+========================================================= */
+
+body.vd-network .btn-primary,
+body.vd-network .btn-outline-primary{
+  --bs-btn-color: var(--vd-green);
+  --bs-btn-border-color: var(--vd-green);
+  --bs-btn-bg: transparent;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--vd-green);
+  --bs-btn-hover-border-color: var(--vd-green);
+  --bs-btn-active-bg: var(--vd-green-dark);
+  --bs-btn-active-border-color: var(--vd-green-dark);
+  --bs-btn-focus-shadow-rgb: 47,59,44;
+}
+
+body.vd-network .btn-outline-secondary{
+  color: #555;
+  border-color: #bbb;
+}
+
+body.vd-network .btn-outline-secondary:hover{
+  background: #eee;
+}
+
+/* =========================================================
+   SLIDER — MAP GREEN (#2f3b2c)
+========================================================= */
+
+body.vd-network #minWeight{
+  appearance: none;
+  -webkit-appearance: none;
+
+  width: 100%;
+  height: 4px;
+  border-radius: 999px;
+  background: rgba(47, 59, 44, 0.22);
+  outline: none;
+  margin-top: 0.25rem;
+
+  accent-color: #2f3b2c;
+}
+
+body.vd-network #minWeight::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  appearance: none;
+
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #2f3b2c;
+  border: 2px solid #2f5d3a;
+  cursor: pointer;
+  margin-top: -6px;
+}
+
+body.vd-network #minWeight::-moz-range-thumb{
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #2f3b2c;
+  border: 2px solid #2f5d3a;
+  cursor: pointer;
+}
+
+/* =========================================================
+   BADGES
+========================================================= */
+
+body.vd-network #weightValue{
+  border: 1px solid rgba(0,0,0,0.10);
+  font-weight: 700;
+}
+
+body.vd-network #weightValueInline{
+  font-weight: 800;
+}
+
+/* =========================================================
+   NAVBAR ACTIVE — SAME AS MAP
+========================================================= */
+
+body.vd-network .vd-navbar .nav-link.active,
+body.vd-network .vd-navbar .dropdown-item.active{
+  background: rgba(47, 59, 44, 0.15) !important;
+  color: #2f2f2f !important;
+  text-decoration: none;
+  border-radius: 8px;
+}

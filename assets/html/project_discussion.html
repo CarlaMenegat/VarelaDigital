@@ -12,7 +12,6 @@
 
   <body>
     <!-- Navbar (assets/html/*) -->
-    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top vd-navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="../../index.html">Varela Digital</a>
@@ -31,13 +30,10 @@
 
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-
-            <!-- Homepage -->
             <li class="nav-item">
               <a class="nav-link" href="../../index.html">Homepage</a>
             </li>
 
-            <!-- The Collection -->
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -45,15 +41,11 @@
                 id="collectionDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
-                aria-expanded="false"
               >
                 The Collection
               </a>
-
-              <ul class="dropdown-menu" aria-labelledby="collectionDropdown">
-                <li>
-                  <a class="dropdown-item" href="indexes.html">Browse</a>
-                </li>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="indexes.html">Browse</a></li>
                 <li>
                   <a class="dropdown-item" href="viewer.html?file=CV-1.xml">Viewer</a>
                 </li>
@@ -68,27 +60,21 @@
                 id="explorationDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
-                aria-expanded="false"
               >
                 Data Exploration
               </a>
-
-              <ul class="dropdown-menu" aria-labelledby="explorationDropdown">
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="map.html">Map</a></li>
                 <li>
-                  <a class="dropdown-item" href="map.html">Map</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="network.html">Social Network</a>
+                  <a class="dropdown-item active" href="network.html">Social Network</a>
                 </li>
               </ul>
             </li>
 
-            <!-- Historical Context -->
             <li class="nav-item">
               <a class="nav-link" href="historical_context.html">Historical Context</a>
             </li>
 
-            <!-- Documentation -->
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -96,27 +82,18 @@
                 id="docsDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
-                aria-expanded="false"
               >
                 Documentation
               </a>
-
-              <ul class="dropdown-menu" aria-labelledby="docsDropdown">
+              <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="project_discussion.html">
-                    Project Discussion
-                  </a>
+                  <a class="dropdown-item" href="project_discussion.html">Project Discussion</a>
                 </li>
                 <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="data_model.html">Data Model</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="hrao.html">HRAO Ontology</a>
-                </li>
+                <li><a class="dropdown-item" href="data_model.html">Data Model</a></li>
+                <li><a class="dropdown-item" href="hrao.html">HRAO Ontology</a></li>
               </ul>
             </li>
-
           </ul>
         </div>
       </div>
