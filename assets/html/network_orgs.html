@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Varela Digital — Organizations</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Global + page styles -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/network_orgs.css" />
+
+    <!-- D3 (hierarchy) -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Navbar helper -->
+    <script src="../scripts/navbar.js"></script>
+  </head>
+
+  <body class="vd-network vd-orgs-network">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top vd-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../../index.html">Varela Digital</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html">Homepage</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="collectionDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                The Collection
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="indexes.html">Browse</a></li>
+                <li>
+                  <a class="dropdown-item" href="viewer.html?file=CV-1.xml">Viewer</a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- Data Exploration -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                id="explorationDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                Data Exploration
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="map.html">Map</a></li>
+                <li><a class="dropdown-item" href="network.html">Social Network</a></li>
+                <li><a class="dropdown-item" href="network_family.html">Family Network</a></li>
+                <li><a class="dropdown-item" href="network_orgs.html">Organizations</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="historical_context.html">Historical Context</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="docsDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                Documentation
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="project_discussion.html">Project Discussion</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="data_model.html">Data Model</a></li>
+                <li><a class="dropdown-item" href="hrao.html">HRAO Ontology</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main -->
+    <main class="vd-network-page">
+      <div class="container-xxl vd-network-shell">
+        <!-- Header -->
+        <header class="vd-network-header px-3 px-lg-4 pt-3">
+          <h1>Organizations</h1>
+          <p class="vd-lead">
+            Explore institutional hierarchies derived from the project’s interpretative layer
+            (standoff annotations). This view models affiliations between organizations and
+            units, allowing navigation across administrative and military structures.
+          </p>
+        </header>
+
+        <!-- Content layout -->
+        <div class="vd-network-layout px-3 px-lg-4 pb-3">
+          <!-- Sidebar -->
+          <aside class="vd-network-sidebar">
+            <div class="network-filters">
+              <div class="filter-group">
+                <div class="filter-group-title">Filters</div>
+
+                <label class="vd-filter-label" for="orgTypeFilter">Organization type</label>
+                <select id="orgTypeFilter" class="form-select">
+                  <option value="all" selected>All types</option>
+                </select>
+
+                <label class="vd-filter-label" for="orgSearch">Search</label>
+                <input
+                  id="orgSearch"
+                  type="search"
+                  class="form-control"
+                  placeholder="Type to search…"
+                  autocomplete="off"
+                />
+
+                <div class="form-text">
+                  Filter by type and quickly locate an organization by name.
+                </div>
+              </div>
+
+              <div class="filter-group">
+                <div class="filter-group-title">Navigation</div>
+
+                <div class="d-flex gap-2 mt-2">
+                  <button id="expandAllBtn" class="btn btn-sm btn-outline-secondary w-50">
+                    Expand all
+                  </button>
+                  <button id="collapseAllBtn" class="btn btn-sm btn-outline-secondary w-50">
+                    Collapse all
+                  </button>
+                </div>
+
+                <div class="d-flex gap-2 mt-2">
+                  <button id="fitNetworkBtn" class="btn btn-sm btn-outline-secondary w-50">
+                    Fit
+                  </button>
+                  <button id="resetBtn" class="btn btn-sm btn-outline-secondary w-50">
+                    Reset
+                  </button>
+                </div>
+
+                <div class="form-text">
+                  Expand/collapse the hierarchy and reset the view.
+                </div>
+              </div>
+            </div>
+          </aside>
+
+          <!-- Visualization -->
+          <section class="vd-network-main">
+            <div class="vd-network-card">
+              <div
+                id="orgsTree"
+                class="vd-network-canvas"
+                aria-label="Organizations hierarchy"
+              ></div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- Orgs logic -->
+    <script src="../scripts/network_orgs.js"></script>
+  </body>
+</html>

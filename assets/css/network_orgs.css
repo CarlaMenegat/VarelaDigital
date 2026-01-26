@@ -1,0 +1,270 @@
+/* =========================================================
+   Varela Digital — Organizations (Hierarchy)
+   network_orgs.css
+   - Same layout language as network.css
+   - Clean + minimal (page-specific only)
+   ========================================================= */
+
+:root{
+  --vd-navbar-offset: 71px;
+  --vd-gap: 1rem;
+
+  /* Map green */
+  --vd-green: #2f3b2c;
+  --vd-green-dark: #2f5d3a;
+
+  /* Sidebar sizing */
+  --vd-sidebar-w: 380px;
+  --vd-sidebar-min: 340px;
+}
+
+/* =========================================================
+   BASE
+========================================================= */
+
+body.vd-orgs-network{
+  background-color: #F8F5EF;
+}
+
+/* Wrapper under fixed navbar */
+body.vd-orgs-network .vd-network-page{
+  padding-top: calc(var(--vd-navbar-offset) + 1rem);
+  padding-bottom: 1rem;
+}
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+body.vd-orgs-network .vd-network-header{
+  max-width: 1100px;
+  margin: 0 auto 1rem auto;
+}
+
+body.vd-orgs-network .vd-network-header h1{
+  font-size: 2rem;
+  line-height: 1.15;
+  margin: 0 0 .25rem 0;
+  font-weight: 700;
+}
+
+body.vd-orgs-network .vd-network-header .vd-lead{
+  font-size: 0.95rem;
+  line-height: 1.45;
+  margin: 0;
+  max-width: 760px;
+}
+
+/* =========================================================
+   LAYOUT
+========================================================= */
+
+body.vd-orgs-network .vd-network-layout{
+  display: grid;
+  grid-template-columns: minmax(var(--vd-sidebar-min), var(--vd-sidebar-w)) 1fr;
+  gap: var(--vd-gap);
+  align-items: stretch;
+}
+
+/* Sidebar / main */
+body.vd-orgs-network .vd-network-sidebar{
+  min-height: 0;
+}
+
+body.vd-orgs-network .vd-network-main{
+  min-width: 0;
+  min-height: 0;
+}
+
+/* =========================================================
+   CARDS
+========================================================= */
+
+body.vd-orgs-network .network-filters,
+body.vd-orgs-network .vd-network-card{
+  background: #fff;
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+}
+
+/* Sidebar spacing */
+body.vd-orgs-network .filter-group + .filter-group{
+  margin-top: 1rem;
+}
+
+body.vd-orgs-network .filter-group-title{
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+
+body.vd-orgs-network .vd-filter-label{
+  font-weight: 500;
+  margin-top: 0.45rem;
+  margin-bottom: 0.35rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* =========================================================
+   CANVAS (D3 container)
+========================================================= */
+
+body.vd-orgs-network .vd-network-canvas{
+  width: 100%;
+  height: 70vh;
+  min-height: 520px;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* subtle paper background inside canvas */
+body.vd-orgs-network #orgsTree{
+  background: rgba(248,245,239,0.35);
+}
+
+/* =========================================================
+   DESKTOP APP LAYOUT (no bottom crop, internal scroll)
+========================================================= */
+
+@media (min-width: 992px){
+  html, body{
+    height: 100%;
+  }
+
+  body.vd-orgs-network .vd-network-page{
+    height: 100dvh;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  body.vd-orgs-network .vd-network-page > .container-xxl{
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 1rem;
+    overflow: hidden;
+  }
+
+  body.vd-orgs-network .vd-network-layout{
+    height: 100%;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  body.vd-orgs-network .vd-network-layout > aside,
+  body.vd-orgs-network .vd-network-layout > section{
+    min-height: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  /* Sidebar scrolls internally */
+  body.vd-orgs-network .network-filters{
+    height: 100%;
+    overflow-y: auto;
+    padding-bottom: 1rem;
+  }
+
+  /* Main card fills */
+  body.vd-orgs-network .vd-network-card{
+    height: 100%;
+    min-height: 0;
+  }
+
+  /* Canvas fills */
+  body.vd-orgs-network .vd-network-canvas{
+    height: 100%;
+    min-height: 0;
+  }
+
+  body.vd-orgs-network .vd-footer{
+    display: none !important;
+  }
+}
+
+/* =========================================================
+   MOBILE / TABLET
+========================================================= */
+
+@media (max-width: 991px){
+  body.vd-orgs-network .vd-network-page{
+    height: auto;
+    overflow: visible;
+  }
+
+  body.vd-orgs-network .vd-network-layout{
+    grid-template-columns: 1fr;
+  }
+
+  body.vd-orgs-network .vd-network-canvas{
+    height: 62vh;
+    min-height: 420px;
+  }
+
+  body.vd-orgs-network .vd-network-header h1{
+    font-size: 1.85rem;
+  }
+}
+
+/* =========================================================
+   BUTTONS — MATCH MAP GREEN (no bootstrap blue)
+========================================================= */
+
+/* force green behavior for primary variants used in this page */
+body.vd-orgs-network .btn-primary,
+body.vd-orgs-network .btn-outline-primary{
+  --bs-btn-color: var(--vd-green);
+  --bs-btn-border-color: var(--vd-green);
+  --bs-btn-bg: transparent;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--vd-green);
+  --bs-btn-hover-border-color: var(--vd-green);
+  --bs-btn-active-bg: var(--vd-green-dark);
+  --bs-btn-active-border-color: var(--vd-green-dark);
+  --bs-btn-focus-shadow-rgb: 47,59,44;
+}
+
+/* your sidebar uses outline-secondary buttons */
+body.vd-orgs-network .btn-outline-secondary{
+  color: #555;
+  border-color: #bbb;
+}
+
+body.vd-orgs-network .btn-outline-secondary:hover{
+  background: #eee;
+}
+
+/* =========================================================
+   D3 TREE STYLES (hooks used by network_orgs.js)
+========================================================= */
+
+body.vd-orgs-network .vd-org-link{
+  stroke: rgba(0,0,0,0.28);
+  stroke-width: 1.2px;
+  fill: none;
+}
+
+body.vd-orgs-network .vd-org-node circle{
+  fill: #fff;
+  stroke: rgba(47,59,44,0.75);
+  stroke-width: 1.5px;
+}
+
+body.vd-orgs-network .vd-org-node text{
+  font-size: 12px;
+  fill: rgba(0,0,0,0.82);
+}
+
+body.vd-orgs-network .vd-org-node.vd-org-root circle{
+  fill: rgba(47,59,44,0.12);
+  stroke: rgba(47,59,44,0.95);
+}
+
+/* optional hover class */
+body.vd-orgs-network .vd-org-node.vd-hover circle{
+  stroke: rgba(0,0,0,0.8);
+  stroke-width: 2px;
+}
