@@ -8,14 +8,14 @@ from rdflib import Graph, RDF, RDFS, OWL, URIRef, Literal
 from jinja2 import Environment, FileSystemLoader
 
 
-BASE = Path(__file__).resolve().parent.parent
+BASE = Path(__file__).resolve().parents[2]
 
-TTL_IN = BASE / "ontology" / "hrao_declaration.ttl"
-RDF_OUT = BASE / "ontology" / "hrao.rdf"
-JSONLD_OUT = BASE / "ontology" / "hrao.jsonld"
+TTL_IN = BASE / "assets" / "hrao" / "hrao_declaration.ttl"
+RDF_OUT = BASE / "assets" / "hrao" / "hrao.rdf"
+JSONLD_OUT = BASE / "assets" / "hrao" / "hrao.jsonld"
 HTML_OUT = BASE / "assets" / "html" / "hrao.html"
 
-TEMPLATES_DIR = BASE / "scripts" / "templates"
+TEMPLATES_DIR = BASE / "assets" / "hrao"
 TEMPLATE_NAME = "hrao.html.jinja"
 
 
