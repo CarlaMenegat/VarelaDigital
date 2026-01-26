@@ -1,10 +1,5 @@
 /* =========================================================
    Varela Digital — Network page (FINAL, CLEAN)
-   - Layout corrigido
-   - Sidebar estável
-   - Canvas ocupa todo o espaço
-   - Botões no verde do mapa (#2f3b2c)
-   - Navbar active consistente com Map
    ========================================================= */
 
 :root{
@@ -28,7 +23,6 @@ body.vd-network{
   background-color: #F8F5EF;
 }
 
-/* Wrapper under fixed navbar */
 body.vd-network .vd-network-page{
   padding-top: calc(var(--vd-navbar-offset) + 1rem);
   padding-bottom: 1rem;
@@ -290,14 +284,3 @@ body.vd-network #weightValueInline{
   font-weight: 800;
 }
 
-/* =========================================================
-   NAVBAR ACTIVE — SAME AS MAP
-========================================================= */
-
-body.vd-network .vd-navbar .nav-link.active,
-body.vd-network .vd-navbar .dropdown-item.active{
-  background: rgba(47, 59, 44, 0.15) !important;
-  color: #2f2f2f !important;
-  text-decoration: none;
-  border-radius: 8px;
-}

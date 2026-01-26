@@ -111,6 +111,30 @@ html, body {
   border-top: 1px solid rgba(196,179,178,0.6);
   margin: 0.35rem 0;
 }
+/* =========================
+   NAVBAR — active state 
+========================= */
+
+.vd-navbar .dropdown-item.is-current,
+.vd-navbar .dropdown-item.active{
+  color: #5E121A !important;
+  background: rgba(94, 18, 26, 0.10) !important;
+  text-decoration: none !important;
+}
+
+/* Optional: a tiny “selected” feel without changing layout */
+.vd-navbar .dropdown-item.is-current{
+  font-weight: 600;
+}
+
+/* Keep top-level active exactly as your global design (underline) */
+.vd-navbar .navbar-nav .nav-link.active{
+  background: transparent !important;
+  border-radius: 0 !important;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
 
 /* =========================
    VIEWER — MAIN LAYOUT
