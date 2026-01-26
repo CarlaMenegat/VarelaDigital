@@ -1,6 +1,12 @@
 /* =========================================================
-   Varela Digital — Social Network (Cytoscape)
+   Varela Digital — Social Network (Cytoscape) — PERFORMANCE PASS
    Source: data/network/network_people.json
+
+   Goals:
+   - Faster first render (especially on large graphs)
+   - Avoid expensive re-layouts on every slider tick
+   - Reuse computed subsets where possible
+   - Keep UI responsive (requestIdleCallback / RAF)
    ========================================================= */
 
 const DATA_PATH = "../../data/network/network_people.json";
@@ -18,12 +24,29 @@ let LAST_FIT_SCOPE = "largest"; // "largest" | "all"
 // keep one observer (desktop layout changes / sidebar scrollbars, etc.)
 let RESIZE_OBSERVER = null;
 
+// --- NEW: caches to avoid rebuilding arrays repeatedly
+let EDGES_BY_MODE = { correspondence: [], comention: [] };
+let NODES_BY_ID = new Map(); // id -> {id,label}
+let LAST_ELEMENTS_KEY = ""; // mode|minWeight (avoid redundant rebuild)
+let LAST_ELEMENTS = null; // last built {nodes,edges}
+let LAST_MIN_WEIGHT = 1;
+let LAST_MODE = "correspondence";
+
 function debounce(fn, wait = 160) {
   let t = null;
   return (...args) => {
     clearTimeout(t);
     t = setTimeout(() => fn(...args), wait);
   };
+}
+
+// Prefer idle time for heavy work; fallback to setTimeout
+function runWhenIdle(fn, timeout = 250) {
+  if (typeof requestIdleCallback === "function") {
+    requestIdleCallback(fn, { timeout });
+  } else {
+    setTimeout(fn, 0);
+  }
 }
 
 const UI = {
@@ -141,56 +164,99 @@ function hideEmptyState() {
 }
 
 /* -----------------------------
-   Build elements
+   Pre-index data for speed (NEW)
 ----------------------------- */
 
-function buildElements(mode, minWeight) {
-  const used = new Set();
-  const wanted = normalizeType(mode);
+function indexNetworkData() {
+  // nodes map
+  NODES_BY_ID = new Map();
+  (NETWORK.nodes || []).forEach((n) => {
+    NODES_BY_ID.set(n.id, { id: n.id, label: nodeLabel(n) });
+  });
 
-  const edgesRaw = (NETWORK.edges || []).map((e) => ({
-    ...e,
-    type: normalizeType(e.type),
-    weight: typeof e.weight === "number" ? e.weight : parseInt(e.weight || "1", 10) || 1,
-  }));
+  // edges by mode, normalized + weight as int
+  EDGES_BY_MODE = { correspondence: [], comention: [] };
+  (NETWORK.edges || []).forEach((e) => {
+    const type = normalizeType(e.type);
+    if (type !== "correspondence" && type !== "comention") return;
 
-  const edges = edgesRaw
-    .filter((e) => e.type === wanted)
-    .filter((e) => (e.weight || 0) >= minWeight)
-    .map((e) => {
-      used.add(e.source);
-      used.add(e.target);
-      return {
-        data: {
-          id: e.id || `${e.source}__${e.target}__${e.type}`,
-          type: e.type,
-          source: e.source,
-          target: e.target,
-          weight: e.weight || 1,
-          directed: !!e.directed,
-          evidence: Array.isArray(e.evidence) ? e.evidence : [],
-        },
-      };
+    const weight =
+      typeof e.weight === "number" ? e.weight : parseInt(e.weight || "1", 10) || 1;
+
+    EDGES_BY_MODE[type].push({
+      id: e.id || `${e.source}__${e.target}__${type}`,
+      type,
+      source: e.source,
+      target: e.target,
+      weight,
+      directed: !!e.directed,
+      evidence: Array.isArray(e.evidence) ? e.evidence : [],
     });
+  });
 
-  const nodes = (NETWORK.nodes || [])
-    .filter((n) => used.has(n.id))
-    .map((n) => ({
+  // Optional: sort edges descending by weight so filtering can early-exit later
+  // (kept simple; not strictly required)
+  EDGES_BY_MODE.correspondence.sort((a, b) => b.weight - a.weight);
+  EDGES_BY_MODE.comention.sort((a, b) => b.weight - a.weight);
+}
+
+/* -----------------------------
+   Build elements (FAST + cached)
+----------------------------- */
+
+function buildElementsFast(mode, minWeight) {
+  const wanted = normalizeType(mode);
+  const key = `${wanted}|${minWeight}`;
+
+  // If only minWeight changed upward/downward a bit, we still rebuild,
+  // but we avoid doing it twice in the same tick.
+  if (key === LAST_ELEMENTS_KEY && LAST_ELEMENTS) return LAST_ELEMENTS;
+
+  const used = new Set();
+  const edgesSrc = EDGES_BY_MODE[wanted] || [];
+
+  // Because edges are sorted desc by weight:
+  // - if minWeight is high, we can skip a lot once weight drops below it.
+  const edges = [];
+  for (const e of edgesSrc) {
+    if (e.weight < minWeight) break;
+    used.add(e.source);
+    used.add(e.target);
+    edges.push({
       data: {
-        id: n.id,
-        label: nodeLabel(n),
+        id: e.id,
+        type: e.type,
+        source: e.source,
+        target: e.target,
+        weight: e.weight,
+        directed: e.directed,
+        evidence: e.evidence,
       },
-    }));
+    });
+  }
 
-  return { nodes, edges };
+  const nodes = [];
+  for (const id of used) {
+    const n = NODES_BY_ID.get(id);
+    nodes.push({
+      data: {
+        id,
+        label: n?.label || humanizeId(id),
+      },
+    });
+  }
+
+  const out = { nodes, edges };
+  LAST_ELEMENTS_KEY = key;
+  LAST_ELEMENTS = out;
+  LAST_MODE = wanted;
+  LAST_MIN_WEIGHT = minWeight;
+  return out;
 }
 
 /* -----------------------------
    Layout tuning
-   - The biggest practical gain for “amontoado” is:
-     1) nodeRepulsion + nodeOverlap
-     2) nodeDimensionsIncludeLabels (layout considers labels)
-     3) spacingFactor for extra separation
+   NOTE: COSE is expensive; keep iterations controlled.
 ----------------------------- */
 
 function layoutFor(mode, nodeCount, edgeCount) {
@@ -198,44 +264,40 @@ function layoutFor(mode, nodeCount, edgeCount) {
   const dense = nodeCount > 220 || edgeCount > 800;
   const veryDense = nodeCount > 380 || edgeCount > 1600;
 
-  // Stronger repulsion + overlap padding
-  const baseRepulsion = isCo ? 65000 : 28000;
-  const repulsion = veryDense ? baseRepulsion * 1.3 : dense ? baseRepulsion * 1.15 : baseRepulsion;
+  // Keep repulsion strong but avoid huge iterations that lock the UI
+  const baseRepulsion = isCo ? 62000 : 26000;
+  const repulsion = veryDense ? baseRepulsion * 1.25 : dense ? baseRepulsion * 1.1 : baseRepulsion;
 
-  const baseEdge = isCo ? 260 : 200;
-  const edgeLen = veryDense ? baseEdge * 1.08 : baseEdge;
+  const baseEdge = isCo ? 250 : 190;
+  const edgeLen = veryDense ? baseEdge * 1.06 : baseEdge;
 
-  const iter = veryDense ? 750 : dense ? 1000 : 1200;
+  // PERF: reduce numIter for big graphs (huge win)
+  const iter = veryDense ? 420 : dense ? 520 : 650;
 
   return {
     name: "cose",
     animate: false,
     randomize: true,
 
-    // Key “de-amontoar” knobs:
     nodeRepulsion: repulsion,
-    nodeOverlap: 18, // padding between nodes (helps a lot)
+    nodeOverlap: 16,
     idealEdgeLength: edgeLen,
     edgeElasticity: isCo ? 0.18 : 0.16,
     gravity: isCo ? 0.03 : 0.04,
-    componentSpacing: isCo ? 360 : 190,
-    spacingFactor: isCo ? 1.35 : 1.2,
+    componentSpacing: isCo ? 340 : 180,
+    spacingFactor: isCo ? 1.25 : 1.12,
 
-    // Make layout account for label size (important when many names)
-    nodeDimensionsIncludeLabels: true,
-
+    nodeDimensionsIncludeLabels: false, // PERF: label-aware layout is expensive
     numIter: iter,
 
-    // Cooling (keeps it from “collapsing” too early)
-    initialTemp: 2000,
-    coolingFactor: 0.99,
+    initialTemp: 1800,
+    coolingFactor: 0.985,
     minTemp: 1.0,
   };
 }
 
 /* -----------------------------
    Cytoscape style
-   FIX: remove maroon edges; use neutral grays
 ----------------------------- */
 
 const STYLE = [
@@ -265,26 +327,18 @@ const STYLE = [
       "border-width": 2,
     },
   },
-
-  // Base edges: neutral gray (no brown)
   {
     selector: "edge",
     style: {
       width: "mapData(weight, 1, 20, 1, 6)",
       "curve-style": "bezier",
-
       "line-color": "rgba(0,0,0,0.24)",
       "target-arrow-color": "rgba(0,0,0,0.24)",
-
-      // directed only shows arrow if we keep triangle; we will remove for co-mentions below
       "target-arrow-shape": "triangle",
       "arrow-scale": 0.8,
-
       opacity: 0.85,
     },
   },
-
-  // Co-mentions: still gray, no arrow, slightly lighter
   {
     selector: 'edge[type="comention"]',
     style: {
@@ -293,8 +347,6 @@ const STYLE = [
       opacity: 0.78,
     },
   },
-
-  // Hover: darker gray for feedback
   {
     selector: "edge:hover",
     style: {
@@ -303,12 +355,11 @@ const STYLE = [
       opacity: 1,
     },
   },
-
   { selector: ".vd-dim", style: { opacity: 0.10 } },
 ];
 
 /* -----------------------------
-   Smart fit: largest component vs all
+   Smart fit
 ----------------------------- */
 
 function largestComponent() {
@@ -360,9 +411,16 @@ function initCytoscape(elements) {
     style: STYLE,
 
     wheelSensitivity: 0.18,
-    pixelRatio: 1, // stable rendering on retina; bump to 2 if you prefer crisp lines
+    pixelRatio: 1,
     boxSelectionEnabled: false,
     selectionType: "single",
+
+    // PERF knobs
+    motionBlur: true,
+    motionBlurOpacity: 0.15,
+    textureOnViewport: true,
+    hideEdgesOnViewport: false,
+    hideLabelsOnViewport: true,
   });
 
   cy.on("tap", (evt) => {
@@ -371,7 +429,6 @@ function initCytoscape(elements) {
   cy.on("tap", "node", (evt) => showNodeTooltip(evt.target));
   cy.on("tap", "edge", (evt) => showEdgeTooltip(evt.target));
 
-  // Keep Cytoscape synced with container size (critical on desktop app layouts)
   setupResizeObserver();
 }
 
@@ -386,17 +443,16 @@ function setupResizeObserver() {
         if (!cy) return;
         cy.resize();
 
-        // don’t explode user’s current zoom/pan if they are exploring:
-        // only “re-fit” when we’re not focused and we previously fit largest.
+        // avoid re-fit during exploration
         if (!FOCUS_NODE_ID && LAST_FIT_SCOPE === "largest") {
           fitLargestComponent(90);
         }
-      }, 120)
+      }, 140)
     );
 
     RESIZE_OBSERVER.observe(UI.container);
   } catch (e) {
-    // ResizeObserver not supported — ignore
+    // ignore
   }
 }
 
@@ -414,8 +470,8 @@ function runLayout(mode, elements, onDone) {
 
   layout.on("layoutstop", finish);
 
-  // Safety fallback (dense layouts can stall on some machines)
-  setTimeout(finish, normalizeType(mode) === "comention" ? 7000 : 5000);
+  // shorter fallback: we reduced iter, so this is safe
+  setTimeout(finish, normalizeType(mode) === "comention" ? 4500 : 3500);
 
   layout.run();
 }
@@ -424,6 +480,7 @@ function updateGraph(elements, mode, onDone) {
   if (!cy) {
     initCytoscape(elements);
   } else {
+    // PERF: batch remove/add is fine; keep it minimal
     cy.stop();
     cy.batch(() => {
       cy.elements().remove();
@@ -436,17 +493,21 @@ function updateGraph(elements, mode, onDone) {
 }
 
 /* -----------------------------
-   Node sizing
+   Node sizing (PERF: only after layout, and skip if huge)
 ----------------------------- */
 
 function updateNodeSizesByDegree() {
   if (!cy) return;
+
+  const nCount = cy.nodes().length;
+  // PERF: for very large graphs, skip dynamic sizing (big win)
+  if (nCount > 900) return;
+
   const degs = cy.nodes().map((n) => n.degree());
   const maxDeg = Math.max(1, ...degs);
 
   cy.nodes().forEach((n) => {
     const d = n.degree();
-    // 9..24 (slightly larger = readable without insane zoom)
     const size = Math.max(9, Math.min(24, 9 + Math.round((15 * d) / maxDeg)));
     n.style("width", size);
     n.style("height", size);
@@ -590,14 +651,15 @@ function showEdgeTooltip(edge) {
 }
 
 /* -----------------------------
-   Person SELECT population
+   Person SELECT population (PERF: build once)
 ----------------------------- */
 
 function populatePersonSelect() {
   if (!UI.personSelect) return;
 
-  const items = (NETWORK.nodes || [])
-    .map((n) => ({ id: n.id, label: nodeLabel(n) }))
+  // Use NODES_BY_ID (already built)
+  const items = Array.from(NODES_BY_ID.values())
+    .map((n) => ({ id: n.id, label: n.label }))
     .sort((a, b) => a.label.localeCompare(b.label, "pt-BR"));
 
   UI.personSelect.innerHTML =
@@ -606,7 +668,7 @@ function populatePersonSelect() {
 }
 
 /* -----------------------------
-   Refresh
+   Refresh (NEW: idle scheduling + smaller work per tick)
 ----------------------------- */
 
 function refresh() {
@@ -617,8 +679,9 @@ function refresh() {
   closeTooltip();
   setLoading(true);
 
-  requestAnimationFrame(() => {
-    const elements = buildElements(mode, minWeight);
+  // don’t block UI; schedule heavy work when idle
+  runWhenIdle(() => {
+    const elements = buildElementsFast(mode, minWeight);
 
     if (!elements.edges.length) {
       setLoading(false);
@@ -633,27 +696,27 @@ function refresh() {
 
     hideEmptyState();
 
-    updateGraph(elements, mode, () => {
-      if (!cy) {
+    // Keep DOM responsive before layout
+    requestAnimationFrame(() => {
+      updateGraph(elements, mode, () => {
+        if (!cy) {
+          setLoading(false);
+          return;
+        }
+
+        updateNodeSizesByDegree();
+
+        if (FOCUS_NODE_ID) {
+          const depth = parseInt(UI.egoDepth?.value || "1", 10) || 1;
+          applyFocus(FOCUS_NODE_ID, depth);
+        } else {
+          fitLargestComponent(90);
+        }
+
         setLoading(false);
-        return;
-      }
-
-      updateNodeSizesByDegree();
-
-      // Re-apply focus if any
-      if (FOCUS_NODE_ID) {
-        const depth = parseInt(UI.egoDepth?.value || "1", 10) || 1;
-        applyFocus(FOCUS_NODE_ID, depth);
-      } else {
-        // Default: show the largest component (readable),
-        // not “everything” (which makes it microscopic).
-        fitLargestComponent(90);
-      }
-
-      setLoading(false);
+      });
     });
-  });
+  }, 300);
 }
 
 /* -----------------------------
@@ -670,19 +733,26 @@ async function main() {
   if (!res.ok) throw new Error(`Failed to load ${DATA_PATH} (HTTP ${res.status})`);
   NETWORK = await res.json();
 
+  // NEW: index once
+  indexNetworkData();
+
   populatePersonSelect();
 
   UI.mode?.addEventListener("change", () => {
     clearFocus();
+    // reset cache key (mode changed)
+    LAST_ELEMENTS_KEY = "";
     refresh();
   });
 
+  // PERF: "input" still OK, but we debounce heavier and keep work idle
   UI.minWeight?.addEventListener(
     "input",
     debounce(() => {
       clearFocus();
+      // minWeight changed -> new key
       refresh();
-    }, 190)
+    }, 220)
   );
 
   // Fit button toggles largest <-> all
