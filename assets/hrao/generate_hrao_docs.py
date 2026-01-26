@@ -10,12 +10,15 @@ from jinja2 import Environment, FileSystemLoader
 
 BASE = Path(__file__).resolve().parents[2]
 
-TTL_IN = BASE / "assets" / "hrao" / "hrao_declaration.ttl"
-RDF_OUT = BASE / "assets" / "hrao" / "hrao.rdf"
-JSONLD_OUT = BASE / "assets" / "hrao" / "hrao.jsonld"
-HTML_OUT = BASE / "assets" / "html" / "hrao.html"
+PROJECT_ROOT = Path(__file__).resolve().parents[2] 
+HRAO_DIR = PROJECT_ROOT / "assets" / "hrao"
 
-TEMPLATES_DIR = BASE / "assets" / "hrao"
+TTL_IN = HRAO_DIR / "hrao_declaration.ttl"
+RDF_OUT = HRAO_DIR / "hrao.rdf"
+JSONLD_OUT = HRAO_DIR / "hrao.jsonld"
+HTML_OUT = PROJECT_ROOT / "assets" / "html" / "hrao.html"
+
+TEMPLATES_DIR = HRAO_DIR
 TEMPLATE_NAME = "hrao.html.jinja"
 
 

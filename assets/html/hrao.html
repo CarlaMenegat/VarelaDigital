@@ -4,19 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HRAO — ontology | Varela Digital</title>
+
+    <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+
+    <!-- Global site styles -->
     <link rel="stylesheet" href="../css/styles.css" />
+    <!-- Reuse the documentation/data_model look -->
     <link rel="stylesheet" href="../css/data_model.css" />
-    <script src="../scripts/navbar.js"></script>
   </head>
 
   <body>
     <!-- Navbar -->
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top vd-navbar">
+    <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="../../index.html">Varela Digital</a>
 
@@ -34,68 +37,52 @@
 
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
+            <!-- Homepage -->
             <li class="nav-item">
               <a class="nav-link" href="../../index.html">Homepage</a>
             </li>
 
+            <!-- Documents -->
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
-                id="collectionDropdown"
+                id="lettersDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
+                aria-expanded="false"
               >
-                The Collection
+                Documents
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="indexes.html">Browse</a></li>
-                <li>
-                  <a class="dropdown-item" href="viewer.html?file=CV-1.xml">Viewer</a>
-                </li>
+              <ul class="dropdown-menu" aria-labelledby="lettersDropdown">
+                <li><a class="dropdown-item" href="letters-index.html">Index</a></li>
+                <li><a class="dropdown-item" href="viewer.html">Viewer</a></li>
               </ul>
             </li>
 
-            <!-- Data Exploration -->
+            <!-- Documentation dropdown -->
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle active"
                 href="#"
-                id="explorationDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-              >
-                Data Exploration
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="map.html">Map</a></li>
-                <li><a class="dropdown-item" href="network.html">Social Network</a></li>
-                <li><a class="dropdown-item" href="network_family.html">Family Network</a></li>
-                <li><a class="dropdown-item" href="network_orgs.html">Organizations</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="historical_context.html">Historical Context</a>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
                 id="docsDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
+                aria-expanded="false"
               >
                 Documentation
               </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="project_discussion.html">Project Discussion</a>
-                </li>
-                <li><hr class="dropdown-divider" /></li>
+              <ul class="dropdown-menu" aria-labelledby="docsDropdown">
+                <li><a class="dropdown-item" href="documentation.html">Overview</a></li>
                 <li><a class="dropdown-item" href="data_model.html">Data Model</a></li>
-                <li><a class="dropdown-item" href="hrao.html">HRAO Ontology</a></li>
+                <li>
+                  <a class="dropdown-item active" href="hrao.html">HRAO Ontology</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="project_discussion.html"
+                    >Theoretical Framework</a
+                  >
+                </li>
               </ul>
             </li>
           </ul>
@@ -109,9 +96,9 @@
 
       <p class="mb-1">
         <strong>Other formats:</strong>
-        <a href="../../ontology/hrao.rdf">RDF/XML</a> ·
-        <a href="../../ontology/hrao.jsonld">JSON-LD</a> ·
-        <a href="../../ontology/hrao_declaration.ttl">Turtle</a>
+        <a href="../hrao/hrao.rdf">RDF/XML</a> ·
+        <a href="../hrao/hrao.jsonld">JSON-LD</a> ·
+        <a href="../hrao/hrao_declaration.ttl">Turtle</a>
       </p>
 
       

@@ -8,7 +8,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 XML_DIR = PROJECT_ROOT / "data" / "documents_XML"
 
 TARGET_LANG = "en"
-OUT_DIR = PROJECT_ROOT / "data" / "translations" / TARGET_LANG
+OUT_DIR = PROJECT_ROOT / "assets" / "data" / "translations" / TARGET_LANG
 
 DISCLAIMER = """AI-assisted translation
 
