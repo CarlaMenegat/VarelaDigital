@@ -1,8 +1,8 @@
 console.log("map.js loaded");
 
-const INDEXES_URL = "../../data/indexes/indexes.json";
-const STANDOFF_PLACES_URL = "../../data/standoff/standoff_places.xml";
-const ALIGNMENTS_URL = "../../data/indexes/alignments.json";
+const INDEXES_URL = "../data/indexes/indexes.json";
+const STANDOFF_PLACES_URL = "../data/standoff/standoff_places.xml";
+const ALIGNMENTS_URL = "../data/indexes/alignments.json";
 
 const mapModeSelect = document.getElementById("mapMode");
 const yearFilter = document.getElementById("yearFilter");

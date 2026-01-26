@@ -1,15 +1,9 @@
 /* =========================================================
    Varela Digital — Social Network (Cytoscape) — PERFORMANCE PASS
    Source: data/network/network_people.json
-
-   Goals:
-   - Faster first render (especially on large graphs)
-   - Avoid expensive re-layouts on every slider tick
-   - Reuse computed subsets where possible
-   - Keep UI responsive (requestIdleCallback / RAF)
    ========================================================= */
 
-const DATA_PATH = "../../data/network/network_people.json";
+const DATA_PATH = "../data/network/network_people.json";
 const VIEWER_PATTERN = "viewer.html?file={cv}.xml";
 
 let NETWORK = null;

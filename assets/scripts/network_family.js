@@ -7,7 +7,7 @@
    - rel:*            (directed/undirected depending on edge.directed)
    ========================================================= */
 
-const DATA_PATH = "../../data/network/network_family.json";
+const DATA_PATH = "../data/network/network_family.json";
 
 let NETWORK = null;
 let cy = null;

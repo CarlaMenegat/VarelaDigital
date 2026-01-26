@@ -44,7 +44,7 @@ function scrollToTopSmooth() {
    Load data
 ------------------------- */
 
-fetch("../../data/indexes/indexes.json")
+fetch("../data/indexes/indexes.json")
   .then((res) => {
     if (!res.ok) throw new Error("Failed to load indexes.json");
     return res.json();
