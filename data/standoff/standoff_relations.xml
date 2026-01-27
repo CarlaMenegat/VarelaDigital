@@ -78,91 +78,10 @@
     
     <standOff type="relations">
         
-        
         <relation
             name="prov:wasDerivedFrom"
             active="#colecao_varela"
             passive="#arquivo_dja"/>
-        
-        <relation
-            name="pro:holdsRoleInTime"
-            active="#abrilina_almeida"
-            passive="#abrilina_transfere_arquivo_dja"/>
-        
-        <relation
-            name="pro:withRole"
-            active="#abrilina_transfere_arquivo_dja"
-            passive="#pro:transferAgent"/>
-        
-        <relation
-            name="pro:relatesToEntity"
-            active="#abrilina_transfere_arquivo_dja"
-            passive="#arquivo_dja"/>
-        
-        <relation
-            name="pro:holdsRoleInTime"
-            active="#alfredo_varela"
-            passive="#alfredo_custodia_arquivo_dja"/>
-        
-        <relation
-            name="pro:holdsRoleInTime"
-            active="#alfredo_varela"
-            passive="#alfredo_doacao_colecao_1936"/>
-        
-        <relation
-            name="pro:withRole"
-            active="#alfredo_doacao_colecao_1936"
-            passive="#pro:donor"/>
-        
-        <relation
-            name="pro:relatesToEntity"
-            active="#alfredo_doacao_colecao_1936"
-            passive="#colecao_varela"/>
-
-        <relation
-            name="pro:holdsRoleInTime"
-            active="#estado_rs"
-            passive="#estado_recebe_colecao_1936"/>
-        
-        <relation
-            name="pro:withRole"
-            active="#estado_recebe_colecao_1936"
-            passive="#pro:curator"/>
-        
-        <relation
-            name="pro:holdsRoleInTime"
-            active="#estado_rs"
-            passive="#estado_deposita_no_museu"/>
-        
-        <relation
-            name="pro:withRole"
-            active="#estado_deposita_no_museu"
-            passive="#pro:transferAgent"/>
-        
-        <relation
-            name="pro:relatesToEntity"
-            active="#estado_deposita_no_museu"
-            passive="#museu_julio_castilhos"/>
-        
-        <relation
-            name="pro:holdsRoleInTime"
-            active="#estado_rs"
-            passive="#estado_transfere_para_ahrs_1954"/>
-        
-        <relation
-            name="pro:withRole"
-            active="#estado_transfere_para_ahrs_1954"
-            passive="#pro:transferAgent"/>
-        
-        <relation
-            name="pro:relatesToEntity"
-            active="#estado_transfere_para_ahrs_1954"
-            passive="#arquivo_hrs"/>
-        
-        <relation
-            name="pro:relatesToEntity"
-            active="#estado_recebe_colecao_1936"
-            passive="#colecao_varela"/>
         
         <relation 
             name="dcterms:isVersionOf" 
@@ -262,7 +181,7 @@
             passive="#bento_goncalves"/>
         
         <relation
-            name="rel:hasUncle"
+            name="rico:hasFamilyAssociationWith"
             active="#antonio_abreu"
             passive="#bento_goncalves"/>
         
@@ -366,7 +285,7 @@
             mutual="true"/>
         
         <relation
-            name="schema:affiliation"
+            name="foaf:affiliation "
             active="#inacio_guimaraes"
             passive="#departamento_boqueirao"/>
         
@@ -376,7 +295,7 @@
             passive="#bento_goncalves"/>
         
         <relation
-            name="schema:affiliation"
+            name="foaf:affiliation "
             active="#inacio_guimaraes"
             passive="#departamento_boqueirao"/>
         
@@ -393,7 +312,7 @@
             mutual="true"/>
         
         <relation
-            name="rel:AntagonistOf"
+            name="rel:antagonistOf"
             active="#jose_sousa"
             passive="#joao_costa"/>
         
@@ -453,7 +372,7 @@
             passive="#antonio_abreu"/>
         
         <relation
-            name="hrao:appointedProxyOf"
+            name="foaf:knows"
             active="#antonio_abreu"
             passive="#mateus"/>
         
@@ -473,7 +392,7 @@
             passive="#tesouro"/>
         
         <relation
-            name="hrao:requestedPoliticalFavorFor"
+            name="hrao:requestedIntercession"
             active="#antonio_abreu"
             passive="#guilherme_schnepf"/>
         
@@ -483,14 +402,14 @@
             passive="#republica_rio_grandense"/>
         
         <relation
-            name="schema:affiliation"
+            name="foaf:affiliation "
             active="#general_valente"
             passive="#imperio_brasil"/>
         
         <relation
-            name="hrao:subordinateTo"
-            active="#joaquim_pedro"
-            passive="#domingos_jose_almeida"/>
+            name="hrao:commanded"
+            active="#domingos_jose_almeida"
+            passive="#joaquim_pedro"/>
         
         <relation 
             name="hrao:participatedInEvent"
@@ -535,7 +454,7 @@
             mutual="true"/>
         
         <relation
-            name="hrao:deliveredOrderTo"
+            name="foaf:knows"
             active="#antonio_pedro_abreu"
             passive="#alferes_cruz"/>
         
@@ -550,42 +469,42 @@
             passive="#imperio_brasil"/>
         
         <relation
-            name="hrao:wasPrisonerOf"
+            name="hrao:wasImprisonedBy"
             active="#candido_machado_sousa"
             passive="#imperio_brasil"/>
         
         <relation
-            name="hrao:wasPrisonerOf"
+            name="hrao:wasImprisonedBy"
             active="#sebastiao_gomes"
             passive="#imperio_brasil"/>
         
         <relation
-            name="hrao:wasPrisonerOf"
+            name="hrao:wasImprisonedBy"
             active="#francisco_machado"
             passive="#imperio_brasil"/>
         
         <relation
-            name="hrao:wasPrisonerOf"
+            name="hrao:wasImprisonedBy"
             active="#joao_rodrigues"
             passive="#imperio_brasil"/>
         
         <relation
-            name="hrao:wasPrisonerOf"
+            name="hrao:wasImprisonedBy"
             active="#inacio_furtado"
             passive="#imperio_brasil"/>
         
         <relation
-            name="hrao:wasPrisonerOf"
+            name="hrao:wasImprisonedBy"
             active="#manuel_jose_santos"
             passive="#imperio_brasil"/>
         
         <relation
-            name="hrao:wasPrisonerOf"
+            name="hrao:wasImprisonedBy"
             active="#feliciano_francisco"
             passive="#imperio_brasil"/>
         
         <relation
-            name="hrao:wasPrisonerOf"
+            name="hrao:wasImprisonedBy"
             active="#francisco_jose_nascimento_junior"
             passive="#imperio_brasil"/>
         
@@ -600,19 +519,9 @@
             passive="#manuel_luis_osorio"/>
         
         <relation
-            name="pro:commader"
-            active="#fernando_kersting"
-            passive="#esquadrao_triunfo"/>
-        
-        <relation
             name="hrao:commanded"
             active="#antonio_pedro_abreu"
             passive="#antonio_rodrigues"/>
-        
-        <relation
-            name="hrao:confiscatedPropertyFrom"
-            active="#forca_rebelde_rrg"
-            passive="#manuel_antonio"/>
         
         <relation
             name="hrao:alignedWith"
@@ -630,7 +539,7 @@
             passive="#republica_rio_grandense"/>
         
         <relation 
-            name="hrao:wasTakenPrisonerBy"
+            name="hrao:wasImprisonedBy"
             active="#jose_romao_taborda"
             passive="#imperio_brasil"/>
         
@@ -640,17 +549,7 @@
             passive="#republica_rio_grandense"/>
         
         <relation 
-            name="hrao:receivedLandGrantFor"
-            active="#claudio_abreu"
-            passive="#inhanduí_rincao"/>
-        
-        <relation 
-            name="hrao:hasBorderWith"
-            active="#inhanduí_rincao"
-            passive="#jose_antonio_siqueira"/>
-        
-        <relation 
-            name="hrao:petitionedTo"
+            name="foaf:knows"
             active="#claudio_abreu"
             passive="#sa_brito"/>
         
@@ -665,23 +564,18 @@
             passive="#antonio_jose_goncalves_chaves"
             mutual="true"/>
         
-        <relation 
-            name="pro:commander"
-            active="#francisco_pedro_abreu"
-            passive="#esquadrao_barra"/>
-        
         <relation
             name="hrao:subordinateTo"
             active="#francisco_pedro_abreu"
             passive="#francisco_xavier_cunha"/>
         
         <relation
-            name="hrao:arrested"
+            name="rel:antagonistOf"
             active="#francisco_pedro_abreu"
             passive="#domingos_vicente"/>
         
         <relation
-            name="hrao:requestedMilitaryDecisionFrom"
+            name="hrao:requestedIntercession"
             active="#francisco_pedro_abreu"
             passive="#francisco_xavier_cunha"/>
         
@@ -711,7 +605,7 @@
             passive="#francisco_pedro_abreu"/>
         
         <relation
-            name="rel:AntagonistOf"
+            name="rel:antagonistOf"
             active="#joao_antonio_lopes"
             passive="#francisco_pedro_abreu"/>
         
@@ -726,7 +620,7 @@
             passive="#jose_luis_silva"/>
         
         <relation 
-            name="hrao:requestedFrom"
+            name="requestedIntercession"
             active="#francisco_pedro_abreu"
             passive="#antonio_elzeario_miranda_brito"/>
         
@@ -907,12 +801,12 @@
             passive="#bento_manoel"/>
         
         <relation 
-            name="schema:affiliation"
+            name="foaf:affiliation "
             active="#sebastiao_rego_barros"
             passive="#imperio_brasil"/>
         
         <relation
-            name="schema:affiliation"
+            name="foaf:affiliation "
             active="#eleuterio_jose_pereira"
             passive="#republica_rio_grandense"/>
         
@@ -1374,7 +1268,7 @@
             mutual="true"/>
         
         <relation
-            name="prov:reportedTo"
+            name="foaf:knows"
             active="#joao_pedro_abreu"
             passive="#jose_araujo_ribeiro"/>
         
@@ -1394,7 +1288,7 @@
             passive="#republica_rio_grandense"/>
         
         <relation
-            name="rel:AntagonistOf"
+            name="rel:antagonistOf"
             active="#mariano_gloria"
             passive="#francisco_pedro_abreu"/>
         
@@ -1408,11 +1302,6 @@
             name="hrao:commanded"
             active="#francisco_chagas_santos"
             passive="#francisco_pedro_abreu"/>
-        
-        <relation 
-            name="hrao:desertedFrom" 
-            active="#luis_carlos" 
-            passive="#imperio_brasil"/>
 
         <relation 
             name="foaf:knows" 
@@ -1954,7 +1843,7 @@
             mutual="true"/>
         
         <relation
-            name="rel:AntagonistOf"
+            name="rel:antagonistOf"
             active="#felix_eduardo_aguiar"
             passive="#dionisio_coronel"/>
         
@@ -2066,11 +1955,6 @@
             name="hrao:servedUnder"
             active="#silva_tavares"
             passive="#francisco_chagas_santos"/>
-        
-        <relation 
-            name="pro:commander"
-            active="#silva_tavares"
-            passive="#fronteira_jaguarão"/>
         
         <relation 
             name="rico:hasFamilyAssociationWith" 
@@ -2280,11 +2164,6 @@
             name="hrao:commanded"
             active="#serafim_alencastre"
             passive="#vicente_ferrer_almeida"/>
-        
-        <relation 
-            name="pro:commander"
-            active="#vicente_ferrer_almeida"
-            passive="#corpo_lanceiros_negros"/>
         
         <relation
             name="foaf:knows"

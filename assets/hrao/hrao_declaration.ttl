@@ -1,4 +1,4 @@
-@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/assets/html/hrao/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -36,7 +36,6 @@ hrao:requestedIntercession a owl:ObjectProperty ;
 hrao:participatedInEvent a owl:ObjectProperty ;
     rdfs:label "participated in event"@en ;
     rdfs:comment "Indicates that an agent participated in a historical event (e.g., battle, uprising, campaign, meeting), as evidenced by a historical source. Kept as a lightweight property within the FRBR–FaBiO + FOAF/REL stack; aligned with CIDOC CRM participation modeling."@en ;
-    rdfs:seeAlso <http://www.cidoc-crm.org/cidoc-crm/P11_had_participant> ;
     rdfs:subPropertyOf prov:wasInfluencedBy ;
     rdfs:domain foaf:Agent ;
     rdfs:range  san:Event .
@@ -48,7 +47,6 @@ hrao:participatedInEvent a owl:ObjectProperty ;
 hrao:causedDeathOf a owl:ObjectProperty ;
     rdfs:label "caused the death of"@en ;
     rdfs:comment "Indicates that the actions of an agent resulted in the death of another agent, as reported in a historical source. This formulation avoids attributing direct or individual intent when the source indicates collective or indirect responsibility."@en ;
-    rdfs:seeAlso <http://www.cidoc-crm.org/cidoc-crm/P100_was_death_of> ;
     rdfs:subPropertyOf prov:wasInfluencedBy ;
     rdfs:domain foaf:Agent ;
     rdfs:range  foaf:Agent .
