@@ -1,16 +1,22 @@
+@prefix bibo:    <http://purl.org/ontology/bibo/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dublin core
-@prefix: pro
-@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
-@prefix vd: <https://carlamenegat.github.io/VarelaDigital/>.
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix pro: <http://purl.org/spar/pro/> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rel: <http://purl.org/vocab/relationship/> .
-@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
-@prefix schema1: <http://schema.org/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix doco:    <http://purl.org/spar/doco/> .
+@prefix fabio:   <http://purl.org/spar/fabio/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix frbr:    <http://purl.org/vocab/frbr/core#> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix hico:    <http://purl.org/emmedi/hico/> .
+@prefix pro:     <http://purl.org/spar/pro/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel:     <http://purl.org/vocab/relationship/> .
+@prefix rico:    <https://www.ica.org/standards/RiC/ontology#> .
+@prefix schema:  <https://schema.org/> .
+@prefix time:    <http://www.w3.org/2006/time#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix vd:      <https://github.com/CarlaMenegat/VarelaDigital/> .
+@prefix hrao:    <https://carlamenegat.github.io/VarelaDigital/assets/html/hrao/> .
 
 <https://carlamenegat.github.io/VarelaDigital/CV-17> dcterms:isVersionOf <https://carlamenegat.github.io/VarelaDigital/CV-13> .
 
@@ -37,7 +43,7 @@
 
 <https://carlamenegat.github.io/VarelaDigital/francisco_chagas_avila_sousa> foaf:knows <https://carlamenegat.github.io/VarelaDigital/person/jose_pedroso_albuquerque> .
 
-<https://carlamenegat.github.io/VarelaDigital/joaquim_pedro> ns1:participatedInEvent <https://carlamenegat.github.io/VarelaDigital/combate_seival> ;
+<https://carlamenegat.github.io/VarelaDigital/joaquim_pedro> hrao:participatedInEvent <https://carlamenegat.github.io/VarelaDigital/combate_seival> ;
     ns1:subordinateTo <https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida> .
 
 <https://carlamenegat.github.io/VarelaDigital/joaquim_rodrigues_barcelos> rel:parentOf <https://carlamenegat.github.io/VarelaDigital/person/cipriano_joaquim_rodrigues_barcelos> .
@@ -4278,7 +4284,7 @@
 <https://carlamenegat.github.io/VarelaDigital/person/teixeira_nunes> a foaf:Person ;
     rdfs:label "Joaquim Teixeira Nunes"@pt ;
     schema1:sameAs <https://www.wikidata.org/wiki/Q10379126> ;
-    ns1:participatedInEvent <https://carlamenegat.github.io/VarelaDigital/combate_espinilho>,
+    hrao:participatedInEvent <https://carlamenegat.github.io/VarelaDigital/combate_espinilho>,
         <https://carlamenegat.github.io/VarelaDigital/evento_porongos_1844> .
 
 <https://carlamenegat.github.io/VarelaDigital/person/tenente_saraiva> a foaf:Person ;
@@ -4290,7 +4296,7 @@
         <https://www.wikidata.org/wiki/Q10311944> ;
     foaf:knows <https://carlamenegat.github.io/VarelaDigital/person/bento_goncalves>,
         <https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida> ;
-    ns1:participatedInEvent <https://carlamenegat.github.io/VarelaDigital/revolta_liberal_1842> ;
+    hrao:participatedInEvent <https://carlamenegat.github.io/VarelaDigital/revolta_liberal_1842> ;
     ns1:wasImprisonedBy <https://carlamenegat.github.io/VarelaDigital/org/imperio_brasil> .
 
 <https://carlamenegat.github.io/VarelaDigital/person/xavier_ferreira> a foaf:Person ;
@@ -4625,7 +4631,7 @@
     rdfs:label "David José Martins"@pt ;
     schema1:sameAs <https://viaf.org/en/viaf/48454698>,
         <https://www.wikidata.org/wiki/Q17276409> ;
-    ns1:participatedInEvent <https://carlamenegat.github.io/VarelaDigital/combate_espinilho> .
+    hrao:participatedInEvent <https://carlamenegat.github.io/VarelaDigital/combate_espinilho> .
 
 <https://carlamenegat.github.io/VarelaDigital/person/candido_machado_sousa> a foaf:Person ;
     rdfs:label "Cândido Machado de Sousa"@pt ;
@@ -4784,7 +4790,7 @@
     schema1:memberOf <https://carlamenegat.github.io/VarelaDigital/org/partido_liberal> ;
     schema1:sameAs <https://viaf.org/en/viaf/30870854>,
         <https://www.wikidata.org/wiki/Q1791593> ;
-    ns1:participatedInEvent <https://carlamenegat.github.io/VarelaDigital/revolta_liberal_1842> ;
+    hrao:participatedInEvent <https://carlamenegat.github.io/VarelaDigital/revolta_liberal_1842> ;
     ns1:wasImprisonedBy <https://carlamenegat.github.io/VarelaDigital/org/imperio_brasil> .
 
 <https://carlamenegat.github.io/VarelaDigital/person/feliciano_francisco> a foaf:Person ;
@@ -5852,7 +5858,7 @@
 
 <https://carlamenegat.github.io/VarelaDigital/person/demetrio_ribeiro> a foaf:Person ;
     rdfs:label "Demétrio Ribeiro"@pt ;
-    ns1:participatedInEvent <https://carlamenegat.github.io/VarelaDigital/combate_espinilho> .
+    hrao:participatedInEvent <https://carlamenegat.github.io/VarelaDigital/combate_espinilho> .
 
 <https://carlamenegat.github.io/VarelaDigital/person/dionisio_coronel> a foaf:Person ;
     rdfs:label "Dionísio Coronel"@pt ;
@@ -6886,7 +6892,7 @@
         <https://www.wikidata.org/wiki/Q3638335> ;
     foaf:knows <https://carlamenegat.github.io/VarelaDigital/person/bernardina_barcelos_almeida>,
         <https://carlamenegat.github.io/VarelaDigital/person/lope_chico> ;
-    ns1:participatedInEvent <https://carlamenegat.github.io/VarelaDigital/combate_espinilho> .
+    hrao:participatedInEvent <https://carlamenegat.github.io/VarelaDigital/combate_espinilho> .
 
 <https://carlamenegat.github.io/VarelaDigital/person/cipriano_joaquim_rodrigues_barcelos> a foaf:Person ;
     rdfs:label "Cipriano Joaquim Rodrigues Barcelos"@pt ;
