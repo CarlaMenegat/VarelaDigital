@@ -40,25 +40,47 @@
             </projectDesc>
             
             <listPrefixDef>
+                
                 <prefixDef
                     ident="foaf"
-                    matchPattern="([\\w-]+)"
+                    matchPattern="([\w-]+)"
                     replacementPattern="http://xmlns.com/foaf/0.1/$1"/>
                 
                 <prefixDef
                     ident="schema"
-                    matchPattern="([\\w-]+)"
+                    matchPattern="([\w-]+)"
                     replacementPattern="https://schema.org/$1"/>
                 
                 <prefixDef
                     ident="rel"
-                    matchPattern="([\\w-]+)"
-                    replacementPattern="https://vocab.org/relationship/$1"/>
+                    matchPattern="([\w-]+)"
+                    replacementPattern="http://purl.org/vocab/relationship/$1"/>
                 
                 <prefixDef
                     ident="hrao"
-                    matchPattern="([\\w-]+)"
-                    replacementPattern="https://carlamenegat.github.io/VarelaDigital/assets/html/hrao.html#$1"/>
+                    matchPattern="([\w-]+)"
+                    replacementPattern="https://carlamenegat.github.io/VarelaDigital/hrao#$1"/>
+                
+                <prefixDef
+                    ident="dcterms"
+                    matchPattern="([\w-]+)"
+                    replacementPattern="http://purl.org/dc/terms/$1"/>
+                
+                <prefixDef
+                    ident="pro"
+                    matchPattern="([\w-]+)"
+                    replacementPattern="http://purl.org/spar/pro/$1"/>
+                
+                <prefixDef
+                    ident="prov"
+                    matchPattern="([\w-]+)"
+                    replacementPattern="http://www.w3.org/ns/prov#$1"/>
+                
+                <prefixDef
+                    ident="rico"
+                    matchPattern="([\w-]+)"
+                    replacementPattern="https://www.ica.org/standards/RiC/ontology#$1"/>
+                
             </listPrefixDef>
         </encodingDesc>
         
@@ -365,7 +387,7 @@
             name="prov:wasAttributedTo"
             active="#estate_jose_augusto_ledek"
             passive="#bernardo_pires"/>
-
+        
         <relation
             name="prov:wasAttributedTo"
             active="#estate_jose_augusto_ledek"
@@ -620,7 +642,7 @@
             passive="#jose_luis_silva"/>
         
         <relation 
-            name="requestedIntercession"
+            name="hrao:requestedIntercession"
             active="#francisco_pedro_abreu"
             passive="#antonio_elzeario_miranda_brito"/>
         
@@ -1978,7 +2000,7 @@
             name="foaf:knows"
             active="#pardo_fortunato"
             passive="#antonio_melo_albuquerque"
-            mutual="true"/>|
+            mutual="true"/>
         
         <relation 
             name="foaf:knows" 
@@ -2711,11 +2733,10 @@
             mutual="true"/>
         
         <relation 
-            name="rico:hasFamilyAssociationWith"
+            name="rel:siblingOf"
             active="#bernardino_rodrigues_barcelos_filho"
             passive="#bernardina_barcelos_almeida"
             mutual="true">
-            <desc>Irmãos</desc>
         </relation>
         
         <relation 
@@ -2834,14 +2855,12 @@
             name="rico:hasFamilyAssociationWith"
             active="#cipriano_rodrigues_barcelos"
             passive="#bernardina_barcelos_almeida">
-            <desc>Tio</desc>
         </relation>
         
         <relation
             name="rico:hasFamilyAssociationWith"
             active="#cipriano_joaquim_rodrigues_barcelos"
             passive="#bernardina_barcelos_almeida">
-            <desc>Primos</desc>
         </relation>
         
         <relation
@@ -2854,7 +2873,6 @@
             active="#jose_felix"
             passive="#domingos_jose_almeida"
             mutual="true">
-            <desc>Compadres</desc>
         </relation>
         
         <relation 

@@ -20,10 +20,11 @@ from __future__ import annotations
 import csv
 import re
 from pathlib import Path
+from datetime import date
 
 from lxml import etree as ET
 from rdflib import Graph, Literal, Namespace, URIRef
-from rdflib.namespace import RDF, RDFS, XSD
+from rdflib.namespace import RDF, RDFS, XSD, SKOS
 
 
 # -----------------------------
@@ -51,6 +52,16 @@ PERSON_BASE = BASE_URI + "person/"
 ORG_BASE = BASE_URI + "org/"
 LETTER_BASE = BASE_URI + "letter/"
 
+# lightweight provenance resources (Option B)
+DATASET_URI = URIRef(BASE_URI + "dataset/kbvareladigital")
+PROCESS_URI = URIRef(BASE_URI + "process/rdf-generation")
+AGENT_URI = URIRef(BASE_URI + "agent/carla-menegat")
+
+SOURCE_PERSONS_URI = URIRef(BASE_URI + "source/standoff_persons_xml")
+SOURCE_ORGS_URI = URIRef(BASE_URI + "source/standoff_orgs_xml")
+SOURCE_RELATIONS_URI = URIRef(BASE_URI + "source/standoff_relations_xml")
+SOURCE_METADATA_URI = URIRef(BASE_URI + "source/metadata_all_csv")
+
 TEI_NS = {"tei": "http://www.tei-c.org/ns/1.0"}
 XML_ID = "{http://www.w3.org/XML/1998/namespace}id"
 
@@ -62,6 +73,9 @@ PROV = Namespace("http://www.w3.org/ns/prov#")
 REL = Namespace("http://purl.org/vocab/relationship/")
 RICO = Namespace("https://www.ica.org/standards/RiC/ontology#")
 
+# IMPORTANT: for RDF predicates, HRAO must be the namespace ending with '#'
+HRAO = Namespace(BASE_URI + "hrao#")
+
 PREFIX_MAP = {
     "dcterms": str(DCTERMS),
     "foaf": str(FOAF),
@@ -70,7 +84,7 @@ PREFIX_MAP = {
     "prov": str(PROV),
     "rel": str(REL),
     "rico": str(RICO),
-    "hrao": BASE_URI + "hrao#",
+    "hrao": str(HRAO),
 }
 
 
@@ -91,6 +105,10 @@ def letter_uri(cv_id: str) -> URIRef:
 
 
 def parse_curie(curie: str) -> URIRef:
+    """
+    Resolve a CURIE like 'hrao:servedUnder' using PREFIX_MAP.
+    Accepts full URIs as-is.
+    """
     if curie.startswith(("http://", "https://")):
         return URIRef(curie)
     prefix, local = curie.split(":", 1)
@@ -107,6 +125,10 @@ def split_semicolon(v: str | None) -> list[str]:
 
 
 def parse_mentions(field: str | None) -> list[str]:
+    """
+    CSV format assumed: label|URI ; label|URI ; ...
+    Returns only the URI part.
+    """
     out: list[str] = []
     for entry in split_semicolon(field):
         parts = [p.strip() for p in entry.split("|")]
@@ -131,6 +153,9 @@ def add_date(graph: Graph, subj: URIRef, date_str: str | None) -> None:
 
 
 def resolve_entity_uri(entity_id: str, person_ids: set[str], org_ids: set[str]) -> URIRef:
+    """
+    entity_id is expected to be an xml:id (from standoff), without '#'.
+    """
     if entity_id in person_ids:
         return person_uri(entity_id)
     if entity_id in org_ids:
@@ -140,7 +165,7 @@ def resolve_entity_uri(entity_id: str, person_ids: set[str], org_ids: set[str]) 
 
 def canonicalize_uri(raw: str, sameas_index: dict[str, URIRef]) -> URIRef:
     """
-    If raw is an external URI that appears as schema:sameAs in standoff,
+    If raw is an external URI present in standoff as skos:exactMatch,
     replace it with the internal project URI. Otherwise keep raw.
     """
     raw = (raw or "").strip()
@@ -170,14 +195,16 @@ def load_persons(graph: Graph) -> tuple[set[str], dict[str, URIRef]]:
 
         graph.add((u, RDF.type, FOAF.Person))
 
+        # First persName as label (keeps current behavior)
         name_el = p.find("./tei:persName", TEI_NS)
         if name_el is not None and (name_el.text or "").strip():
             graph.add((u, RDFS.label, Literal(name_el.text.strip(), lang="pt")))
 
+        # Reconciliation links (project URI is subject; external URIs are exactMatch)
         for idno in p.findall("./tei:idno", TEI_NS):
             val = (idno.text or "").strip()
             if val.startswith(("http://", "https://")):
-                graph.add((u, SCHEMA.sameAs, URIRef(val)))
+                graph.add((u, SKOS.exactMatch, URIRef(val)))
                 sameas_index[val] = u
 
     return person_ids, sameas_index
@@ -205,7 +232,7 @@ def load_orgs(graph: Graph) -> tuple[set[str], dict[str, URIRef]]:
         for idno in o.findall("./tei:idno", TEI_NS):
             val = (idno.text or "").strip()
             if val.startswith(("http://", "https://")):
-                graph.add((u, SCHEMA.sameAs, URIRef(val)))
+                graph.add((u, SKOS.exactMatch, URIRef(val)))
                 sameas_index[val] = u
 
     return org_ids, sameas_index
@@ -232,12 +259,45 @@ def load_relations(graph: Graph, person_ids: set[str], org_ids: set[str]) -> Non
         graph.add((subj, pred, obj))
 
 
+def add_dataset_provenance(graph: Graph) -> None:
+    """
+    Option B provenance: dataset/process/source-level provenance, not per statement.
+    """
+    # Dataset node
+    graph.add((DATASET_URI, RDF.type, PROV.Entity))
+    graph.add((DATASET_URI, RDF.type, SCHEMA.Dataset))
+    graph.add((DATASET_URI, DCTERMS.title, Literal("Varela Digital — Knowledge Base (RDF dataset)", lang="en")))
+    graph.add((DATASET_URI, DCTERMS.source, URIRef("https://github.com/CarlaMenegat/VarelaDigital")))
+
+    # Agent
+    graph.add((AGENT_URI, RDF.type, FOAF.Person))
+    graph.add((AGENT_URI, FOAF.name, Literal("Carla Menegat")))
+
+    # Sources
+    for src in (SOURCE_PERSONS_URI, SOURCE_ORGS_URI, SOURCE_RELATIONS_URI, SOURCE_METADATA_URI):
+        graph.add((src, RDF.type, PROV.Entity))
+
+    # Process
+    graph.add((PROCESS_URI, RDF.type, PROV.Activity))
+    graph.add((PROCESS_URI, PROV.used, SOURCE_PERSONS_URI))
+    graph.add((PROCESS_URI, PROV.used, SOURCE_ORGS_URI))
+    graph.add((PROCESS_URI, PROV.used, SOURCE_RELATIONS_URI))
+    graph.add((PROCESS_URI, PROV.used, SOURCE_METADATA_URI))
+    graph.add((PROCESS_URI, PROV.wasAssociatedWith, AGENT_URI))
+
+    # Link dataset to process
+    graph.add((DATASET_URI, PROV.wasGeneratedBy, PROCESS_URI))
+    graph.add((DATASET_URI, DCTERMS.created, Literal(date.today().isoformat(), datatype=XSD.date)))
+
+
 # -----------------------------
 # Main
 # -----------------------------
 
 def build_graph() -> None:
     g = Graph()
+
+    # Bind prefixes to avoid ns1/ns2 surprises
     g.bind("dcterms", DCTERMS)
     g.bind("foaf", FOAF)
     g.bind("pro", PRO)
@@ -245,6 +305,8 @@ def build_graph() -> None:
     g.bind("prov", PROV)
     g.bind("rel", REL)
     g.bind("rico", RICO)
+    g.bind("skos", SKOS)
+    g.bind("hrao", HRAO)
 
     person_ids, person_sameas = load_persons(g)
     org_ids, org_sameas = load_orgs(g)
@@ -276,17 +338,21 @@ def build_graph() -> None:
             if place_uri:
                 g.add((letter, DCTERMS.spatial, URIRef(place_uri)))
 
+            # Canonicalize mentions when possible
             for u in parse_mentions(row.get("mentioned_people")):
-                g.add((letter, SCHEMA.mentions, URIRef(u)))
+                g.add((letter, SCHEMA.mentions, canonicalize_uri(u, sameas_index)))
 
             for u in parse_mentions(row.get("mentioned_orgs")):
-                g.add((letter, SCHEMA.mentions, URIRef(u)))
+                g.add((letter, SCHEMA.mentions, canonicalize_uri(u, sameas_index)))
 
             for u in parse_mentions(row.get("mentioned_places")):
-                g.add((letter, SCHEMA.mentions, URIRef(u)))
+                g.add((letter, SCHEMA.mentions, canonicalize_uri(u, sameas_index)))
 
             for u in parse_mentions(row.get("mentioned_events")):
-                g.add((letter, SCHEMA.mentions, URIRef(u)))
+                g.add((letter, SCHEMA.mentions, canonicalize_uri(u, sameas_index)))
+
+    # Add dataset-level provenance (Option B)
+    add_dataset_provenance(g)
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     g.serialize(str(OUT_TTL), format="turtle")
