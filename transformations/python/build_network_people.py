@@ -97,12 +97,10 @@ def canonical_person_uri(g: Graph, u: URIRef, sameas_idx: Dict[str, str]) -> Opt
     if us.startswith(PERSON_BASE):
         return us
 
-    # try sameAs mapping
     mapped = sameas_idx.get(us)
     if mapped:
         return mapped
 
-    # fallback: accept as person if typed as foaf:Person
     if (u, RDF.type, FOAF_PERSON) in g:
         return us
 
@@ -134,7 +132,6 @@ def build_network() -> dict:
         else:
             labels[s_str] = s_str.rsplit("/", 1)[-1]
 
-        # If internal has sameAs, also project that label onto the external URI key (helps UI if external slips in)
         if is_person_internal(s):
             for o in g.objects(s, SCHEMA_SAMEAS):
                 if is_uri(o):
@@ -172,7 +169,6 @@ def build_network() -> dict:
                 if au:
                     addressees.append(au)
 
-        # correspondence edges (directed)
         for c in creators:
             for a in addressees:
                 if c != a:
@@ -180,7 +176,6 @@ def build_network() -> dict:
                     corr[key]["weight"] += 1
                     corr[key]["evidence"].add(cid)
 
-        # co-mentions edges (undirected)
         mentioned_set: Set[str] = set()
         for o in g.objects(letter, SCHEMA_MENTIONS):
             if not is_uri(o):

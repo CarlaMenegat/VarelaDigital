@@ -18,7 +18,7 @@ from rdflib.namespace import RDF, RDFS
 # -----------------------------
 
 BASE_DIR = Path("/Users/carlamenegat/Documents/GitHub/Untitled/VarelaDigital")
-IN_RDF = BASE_DIR / "data/rdf/graph.ttl"          # <- Turtle (faster)
+IN_RDF = BASE_DIR / "data/rdf/graph.ttl"         
 OUT_DIR = BASE_DIR / "data/network"
 OUT_JSON = OUT_DIR / "network.json"
 
@@ -177,7 +177,6 @@ def build_network() -> dict:
                     if o_str not in person_labels:
                         person_labels[o_str] = person_labels[s_str]
 
-    # 2) Iterate letters to build correspondence + comention
     corr: Dict[Tuple[str, str], EdgeAgg] = defaultdict(EdgeAgg)
     com: Dict[Tuple[str, str], EdgeAgg] = defaultdict(EdgeAgg)
 
@@ -195,7 +194,6 @@ def build_network() -> dict:
     for letter in letters:
         cv_id = cv_id_from_letter_uri(letter)
 
-        # date (take first literal)
         date_vals = list(g.objects(letter, P_DATE))
         date_str = literal_to_str(date_vals[0]) if date_vals else None
 
@@ -213,13 +211,11 @@ def build_network() -> dict:
                 if au:
                     addressees.append(au)
 
-        # correspondence edges: creator -> addressee
         for c in creators:
             for a in addressees:
                 if c != a:
                     corr[(c, a)].add_evidence(cv_id, date_str)
 
-        # co-mentions: persons mentioned in same letter
         mentioned_people: Set[str] = set()
         for o in g.objects(letter, P_MENTIONS):
             if not is_uri(o):
@@ -234,7 +230,6 @@ def build_network() -> dict:
             key = (u, v) if u < v else (v, u)
             com[key].add_evidence(cv_id, date_str)
 
-    # 3) Build nodes list (only persons that appear in edges)
     node_ids: Set[str] = set()
     for (s, t) in corr.keys():
         node_ids.add(s)
@@ -251,7 +246,6 @@ def build_network() -> dict:
             "type": "Person",
         })
 
-    # 4) Build edges
     edges = []
 
     for (s, t), agg in corr.items():

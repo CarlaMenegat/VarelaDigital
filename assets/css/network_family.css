@@ -109,7 +109,6 @@ body.vd-family-network .vd-filters-actions{
     overflow: hidden;
   }
 
-  /* custom layout (flex-based shell like your network page) */
   body.vd-family-network .vd-network-layout{
     height: 100%;
     min-height: 0;
@@ -137,16 +136,34 @@ body.vd-family-network .vd-filters-actions{
     padding-bottom: 1.25rem;
   }
 
-  /* Network card fills */
+  /* IMPORTANT: make the main column a vertical layout:
+     - network card takes remaining height
+     - legend stays visible below (no clipping) */
+  body.vd-family-network .vd-network-main{
+    height: 100%;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    gap: .85rem;
+    overflow: hidden;
+  }
+
+  /* Network card fills remaining space */
   body.vd-family-network .vd-network-card{
+    flex: 1 1 auto;
+    min-height: 0;
+    height: auto; /* overrides old height:100% behavior */
+  }
+
+  /* Canvas fills the card */
+  body.vd-family-network .vd-network-canvas{
     height: 100%;
     min-height: 0;
   }
 
-  /* Canvas fills */
-  body.vd-family-network .vd-network-canvas{
-    height: 100%;
-    min-height: 0;
+  /* Legend should not be clipped */
+  body.vd-family-network .vd-network-legend-card{
+    flex: 0 0 auto;
   }
 
   /* Hide footer if present */
@@ -259,7 +276,7 @@ body.vd-family-network .vd-tooltip-anchor{
    ========================================================= */
 
 body.vd-family-network .vd-network-legend-card{
-  margin-top: .85rem;
+  margin-top: 0; /* now spacing is controlled by the flex gap */
   background: #fff;
   border-radius: 16px;
   padding: .85rem 1rem;

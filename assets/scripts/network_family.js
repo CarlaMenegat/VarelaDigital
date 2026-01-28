@@ -1,10 +1,6 @@
 /* =========================================================
    Varela Digital — Family Network (Cytoscape)
-   Source: ../../data/network/network_family.json
-
-   Types in JSON:
-   - hrao:compadreOf  (undirected)
-   - rel:*            (directed/undirected depending on edge.directed)
+   Source: ../data/network/network_family.json
    ========================================================= */
 
 const DATA_PATH = "../data/network/network_family.json";
@@ -12,13 +8,8 @@ const DATA_PATH = "../data/network/network_family.json";
 let NETWORK = null;
 let cy = null;
 
-// focus state
 let FOCUS_NODE_ID = null;
-
-// fit toggle
-let LAST_FIT_SCOPE = "largest"; // "largest" | "all"
-
-// resize observer
+let LAST_FIT_SCOPE = "largest";
 let RESIZE_OBSERVER = null;
 
 function debounce(fn, wait = 160) {
@@ -30,12 +21,9 @@ function debounce(fn, wait = 160) {
 }
 
 const UI = {
-  // Mode selector for family network
-  mode: document.getElementById("familyMode"), // all | family | compadre
-
+  mode: document.getElementById("familyMode"),
   fitBtn: document.getElementById("fitNetworkBtn"),
   container: document.getElementById("network"),
-
   personSelect: document.getElementById("personSelect"),
   egoDepth: document.getElementById("egoDepth"),
   focusBtn: document.getElementById("focusBtn"),
@@ -47,18 +35,14 @@ function normalizeType(t) {
 }
 
 function isCompadreType(t) {
-  // exact in your JSON: "hrao:compadreOf"
   return normalizeType(t) === "hrao:compadreof";
 }
 
 function isFamilyType(t) {
-  // your JSON shows: rel:parentOf, etc. → any "rel:*" counts as family
-  // If later you also include rico:hasFamilyAssociationWith, it will also match here.
   const s = normalizeType(t);
   return s.startsWith("rel:") || s === "rico:hasfamilyassociationwith";
 }
 
-// make xml:id readable when label is missing
 function humanizeId(id) {
   const raw = String(id || "").trim();
   if (!raw) return "—";
@@ -135,7 +119,7 @@ function hideEmptyState() {
 }
 
 /* -----------------------------
-   Build elements (single load)
+   Build elements
 ----------------------------- */
 
 function buildElements() {
@@ -170,76 +154,122 @@ function buildElements() {
 }
 
 /* -----------------------------
-   Layout: fast + stable
-   - If fcose is available, use it; else fallback to cose
+   Layout options
 ----------------------------- */
 
 function layoutOptions(nodeCount, edgeCount) {
-  // "fcose" exists if you included the extension before this script
-  const hasFcose = !!(cytoscape && cytoscape.extensions && cytoscape.extensions("layout", "fcose"));
-  const name = hasFcose ? "fcose" : "cose";
+  const hasFcose = !!(
+    window.cytoscape &&
+    cytoscape.extensions &&
+    cytoscape.extensions("layout", "fcose")
+  );
 
-  if (name === "fcose") {
+  if (hasFcose) {
     return {
       name: "fcose",
       animate: false,
       randomize: true,
-      quality: "default",
-      nodeRepulsion: nodeCount > 250 ? 12000 : 9000,
-      idealEdgeLength: 160,
-      gravity: 0.25,
-      numIter: nodeCount > 250 || edgeCount > 500 ? 550 : 400,
+      quality: "proof",
+
+      nodeRepulsion: nodeCount > 250 ? 26000 : 22000,
+      idealEdgeLength: 190,
+      gravity: 0.16,
+      numIter: nodeCount > 250 || edgeCount > 500 ? 1200 : 900,
+
+      avoidOverlap: true,
+      nodeDimensionsIncludeLabels: false,
+
+      componentSpacing: 140,
+      nodeSeparation: 140,
+      padding: 40,
     };
   }
 
+  // fallback: COSE (mais agressivo e com anti-overlap)
   return {
     name: "cose",
     animate: false,
     randomize: true,
-    nodeRepulsion: nodeCount > 250 ? 16000 : 12000,
-    idealEdgeLength: 140,
-    gravity: 0.08,
-    numIter: nodeCount > 250 || edgeCount > 500 ? 750 : 550,
+
+    nodeRepulsion: nodeCount > 250 ? 26000 : 22000,
+    idealEdgeLength: 190,
+    gravity: 0.05,
+    numIter: nodeCount > 250 || edgeCount > 500 ? 1400 : 1000,
+
+    avoidOverlap: true,
+    nodeOverlap: 20,
+    componentSpacing: 140,
+    padding: 40,
   };
 }
 
 /* -----------------------------
+   Post-pass (anti “bolo”)
+----------------------------- */
+
+function runPostLayoutPass() {
+  if (!cy) return;
+
+  // Um COSE curtinho, só para “descolar” clusters densos sem bagunçar o grafo todo.
+  const post = cy.layout({
+    name: "cose",
+    animate: false,
+    randomize: false,
+    numIter: 300,
+    nodeRepulsion: 28000,
+    idealEdgeLength: 210,
+    gravity: 0.02,
+    avoidOverlap: true,
+    nodeOverlap: 25,
+    componentSpacing: 160,
+    padding: 40,
+  });
+
+  post.run();
+}
+
+/* -----------------------------
    Cytoscape style
-   - edges NOT brown
-   - family edges: neutral grey/greenish
-   - compadre edges: dashed + lighter
-   - arrows only when edge.directed == true
 ----------------------------- */
 
 const STYLE = [
   {
     selector: "node",
     style: {
-      label: "",
+      // labels SEMPRE visíveis
+      label: "data(label)",
       "font-size": 10,
       "text-wrap": "wrap",
-      "text-max-width": 180,
+      "text-max-width": 220,
 
-      "background-color": "#2f3b2c", // map green
+      // melhora legibilidade em fundo claro
+      color: "#1f1f1f",
+      "text-background-color": "rgba(248,245,239,0.92)",
+      "text-background-opacity": 1,
+      "text-background-padding": "2px",
+      "text-background-shape": "roundrectangle",
+      "text-border-opacity": 0,
+
+      "background-color": "#2f3b2c",
       "border-color": "rgba(0,0,0,0.35)",
       "border-width": 1,
 
       width: 10,
       height: 10,
+
+      // afasta label do node um pouco
+      "text-margin-y": -6,
     },
   },
   {
     selector: "node:hover, node:selected, node.vd-focus",
     style: {
-      label: "data(label)",
       "text-outline-width": 2,
       "text-outline-color": "rgba(248,245,239,0.96)",
       "z-index": 10,
       "border-width": 2,
     },
   },
-
-  // Base edge: no arrow by default
   {
     selector: "edge",
     style: {
@@ -250,8 +280,6 @@ const STYLE = [
       "arrow-scale": 0.75,
     },
   },
-
-  // Directed edges (from JSON: directed true) → show arrow
   {
     selector: "edge[directed = 1]",
     style: {
@@ -259,18 +287,15 @@ const STYLE = [
       "target-arrow-color": "rgba(47, 59, 44, 0.35)",
     },
   },
-
-  // Compadre: lighter + dashed + no arrow
   {
     selector: 'edge[type = "hrao:compadreOf"]',
     style: {
       "line-color": "rgba(47, 47, 47, 0.28)",
       "line-style": "dashed",
       "target-arrow-shape": "none",
+      "edge-distances": "node-position",
     },
   },
-
-  // Family (rel:*): keep solid, slightly stronger
   {
     selector: 'edge[type ^= "rel:"]',
     style: {
@@ -278,7 +303,6 @@ const STYLE = [
       "line-style": "solid",
     },
   },
-
   { selector: ".vd-dim", style: { opacity: 0.10 } },
   { selector: ".vd-hide", style: { display: "none" } },
 ];
@@ -340,7 +364,6 @@ function setupResizeObserver() {
         if (!cy) return;
         cy.resize();
 
-        // Don’t nuke user exploration
         if (!FOCUS_NODE_ID && LAST_FIT_SCOPE === "largest") {
           fitLargestComponent(90);
         }
@@ -348,7 +371,7 @@ function setupResizeObserver() {
     );
 
     RESIZE_OBSERVER.observe(UI.container);
-  } catch (e) {
+  } catch {
     // ignore
   }
 }
@@ -487,7 +510,7 @@ function populatePersonSelect() {
 }
 
 /* -----------------------------
-   Filtering WITHOUT relayout (fast)
+   Filtering (no relayout)
 ----------------------------- */
 
 function applyTypeFilter(modeValue) {
@@ -499,7 +522,6 @@ function applyTypeFilter(modeValue) {
 
   cy.edges().forEach((e) => {
     const t = e.data("type") || "";
-
     const show =
       mode === "all" ||
       (mode === "family" && isFamilyType(t)) ||
@@ -508,7 +530,6 @@ function applyTypeFilter(modeValue) {
     e.toggleClass("vd-hide", !show);
   });
 
-  // hide isolated nodes (based on visible edges)
   cy.nodes().forEach((n) => {
     const visibleEdges = n.connectedEdges().filter((e) => !e.hasClass("vd-hide"));
     n.toggleClass("vd-hide", visibleEdges.length === 0);
@@ -516,7 +537,6 @@ function applyTypeFilter(modeValue) {
 
   cy.endBatch();
 
-  // Keep focus if active, else fit
   if (FOCUS_NODE_ID) {
     const depth = parseInt(UI.egoDepth?.value || "1", 10) || 1;
     applyFocus(FOCUS_NODE_ID, depth);
@@ -538,7 +558,11 @@ function initCytoscape(elements) {
     container: UI.container,
     elements: [...elements.nodes, ...elements.edges],
     style: STYLE,
+
+    minZoom: 0.05,
+    maxZoom: 18,
     wheelSensitivity: 0.18,
+
     pixelRatio: 1,
     boxSelectionEnabled: false,
     selectionType: "single",
@@ -577,24 +601,29 @@ async function main() {
 
   initCytoscape(elements);
 
-  // Run layout ONCE
   const layout = cy.layout(layoutOptions(elements.nodes.length, elements.edges.length));
+
+  // Quando terminar o layout principal: rodar um post-pass e só então fit
+  cy.one("layoutstop", () => {
+    if (!cy) return;
+
+    runPostLayoutPass();
+
+    // esperar o post-pass “assentar” um pouco
+    setTimeout(() => {
+      if (!cy) return;
+      fitLargestComponent(90);
+      setLoading(false);
+    }, 0);
+  });
+
   layout.run();
 
-  // Fit after layout
-  setTimeout(() => {
-    if (!cy) return;
-    fitLargestComponent(90);
-    setLoading(false);
-  }, 0);
-
-  // Mode filter (fast, no relayout)
   UI.mode?.addEventListener("change", () => {
     clearFocus();
     applyTypeFilter(UI.mode.value);
   });
 
-  // Fit toggles largest <-> all
   UI.fitBtn?.addEventListener("click", () => {
     if (!cy) return;
     closeTooltip();
@@ -610,7 +639,6 @@ async function main() {
     else fitLargestComponent(90);
   });
 
-  // Focus controls
   if (UI.focusBtn && UI.resetBtn && UI.personSelect && UI.egoDepth) {
     UI.focusBtn.addEventListener("click", () => {
       if (!cy) return;
@@ -641,7 +669,6 @@ async function main() {
     });
   }
 
-  // initial filter
   applyTypeFilter(UI.mode?.value || "all");
 }
 
