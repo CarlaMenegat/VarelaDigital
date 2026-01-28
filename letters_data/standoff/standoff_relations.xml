@@ -135,11 +135,6 @@
             active="#secretaria_interior"
             passive="#ministerio_interior"/>
         
-        <relation 
-            name="prov:wasAttributedTo"
-            active="#processo_de_doacao"
-            passive="#alfredo_varela"/>
-        
         <relation
             name="rel:childOf"
             active="#abrilina_almeida"
@@ -232,7 +227,7 @@
         <relation
             name="hrao:participatedInEvent"
             active="#teixeira_nunes"
-            passive="#evento_porongos_1844"/>
+            passive="#porongos_1844"/>
         
         <relation
             name="schema:memberOf"
@@ -307,19 +302,9 @@
             mutual="true"/>
         
         <relation
-            name="foaf:affiliation "
-            active="#inacio_guimaraes"
-            passive="#departamento_boqueirao"/>
-        
-        <relation
             name="rico:hasFamilyAssociationWith"
             active="#inacio_guimaraes"
             passive="#bento_goncalves"/>
-        
-        <relation
-            name="foaf:affiliation "
-            active="#inacio_guimaraes"
-            passive="#departamento_boqueirao"/>
         
         <relation
             name="foaf:knows"
@@ -733,13 +718,13 @@
         
         <relation 
             name="schema:memberOf"
-            active="#juca_leao"
+            active="#jose_manuel_de_leao"
             passive="#republica_rio_grandense"/>
         
         <relation
             name="rel:employedBy"
             active="#eusebio"
-            passive="#juca_leao"/>
+            passive="#jose_manuel_de_leao"/>
         
         <relation 
             name="schema:memberOf"
@@ -804,7 +789,7 @@
         <relation 
             name="schema:memberOf"
             active="#jose_alves_morais"
-            passive="#assembleia_geral"/>
+            passive="#assembleia_constituinte"/>
         
         <relation 
             name="schema:memberOf"
@@ -1484,7 +1469,7 @@
         
         <relation
             name="hrao:wasImprisonedBy"
-            active="#jose_santos_loureiro"
+            active="#coronel_loureiro"
             passive="#jacinto_guedes"/>
         
         <relation 
@@ -1501,7 +1486,7 @@
         <relation
             name="schema:memberOf"
             active="#joaquim_prado_lima"
-            passive="#assembleia_geral"/>
+            passive="#assembleia_constituinte"/>
 
         <relation
             name="schema:memberOf"
@@ -2074,7 +2059,7 @@
         
         <relation 
             name="foaf:knows"
-            active="#francisco_chagas_avila_sousa"
+            active="#padre_chagas"
             passive="#jose_pedroso_albuquerque"
             mutual= "true"/>
         

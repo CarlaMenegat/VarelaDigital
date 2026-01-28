@@ -1,20 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""
-Varela Digital — Standoff + CSV -> RDF -> JSON-LD
-
-Inputs (fixed paths):
-- data/metadata/metadata_all.csv
-- data/standoff/standoff_persons.xml
-- data/standoff/standoff_orgs.xml
-- data/standoff/standoff_relations.xml
-
-Outputs:
-- data/rdf/graph.ttl
-- data/rdf/graph.jsonld
-"""
-
 from __future__ import annotations
 
 import csv
@@ -32,15 +18,33 @@ from rdflib.namespace import RDF, RDFS, XSD, SKOS
 # -----------------------------
 
 BASE_DIR = Path("/Users/carlamenegat/Documents/GitHub/Untitled/VarelaDigital")
+DATA_DIR = BASE_DIR / "letters_data"
 
-CSV_METADATA = BASE_DIR / "data/metadata/metadata_all.csv"
-STANDOFF_PERSONS = BASE_DIR / "data/standoff/standoff_persons.xml"
-STANDOFF_ORGS = BASE_DIR / "data/standoff/standoff_orgs.xml"
-STANDOFF_RELATIONS = BASE_DIR / "data/standoff/standoff_relations.xml"
+CSV_METADATA = DATA_DIR / "metadata/metadata_all.csv"
 
-OUT_DIR = BASE_DIR / "data/rdf"
+STANDOFF_DIR = DATA_DIR / "standoff"
+STANDOFF_PERSONS = STANDOFF_DIR / "standoff_persons.xml"
+STANDOFF_ORGS = STANDOFF_DIR / "standoff_orgs.xml"
+STANDOFF_PLACES = STANDOFF_DIR / "standoff_places.xml"
+STANDOFF_EVENTS = STANDOFF_DIR / "standoff_events.xml"
+STANDOFF_RELATIONS = STANDOFF_DIR / "standoff_relations.xml"
+
+
+OUT_DIR = BASE_DIR / "assets/data/rdf"
 OUT_TTL = OUT_DIR / "graph.ttl"
 OUT_JSONLD = OUT_DIR / "graph.jsonld"
+
+
+def require_file(p: Path) -> None:
+    if not p.exists():
+        raise FileNotFoundError(f"Required file not found:\n  {p}")
+
+
+def safe_parse(path: Path) -> ET._ElementTree:
+    try:
+        return ET.parse(str(path))
+    except ET.XMLSyntaxError as e:
+        raise RuntimeError(f"XML syntax error while parsing: {path}\n{e}") from e
 
 
 # -----------------------------
@@ -50,15 +54,19 @@ OUT_JSONLD = OUT_DIR / "graph.jsonld"
 BASE_URI = "https://carlamenegat.github.io/VarelaDigital/"
 PERSON_BASE = BASE_URI + "person/"
 ORG_BASE = BASE_URI + "org/"
+PLACE_BASE = BASE_URI + "place/"
+EVENT_BASE = BASE_URI + "event/"
 LETTER_BASE = BASE_URI + "letter/"
 
-# lightweight provenance resources (Option B)
+# Option B provenance
 DATASET_URI = URIRef(BASE_URI + "dataset/kbvareladigital")
 PROCESS_URI = URIRef(BASE_URI + "process/rdf-generation")
 AGENT_URI = URIRef(BASE_URI + "agent/carla-menegat")
 
 SOURCE_PERSONS_URI = URIRef(BASE_URI + "source/standoff_persons_xml")
 SOURCE_ORGS_URI = URIRef(BASE_URI + "source/standoff_orgs_xml")
+SOURCE_PLACES_URI = URIRef(BASE_URI + "source/standoff_places_xml")
+SOURCE_EVENTS_URI = URIRef(BASE_URI + "source/standoff_events_xml")
 SOURCE_RELATIONS_URI = URIRef(BASE_URI + "source/standoff_relations_xml")
 SOURCE_METADATA_URI = URIRef(BASE_URI + "source/metadata_all_csv")
 
@@ -68,12 +76,20 @@ XML_ID = "{http://www.w3.org/XML/1998/namespace}id"
 DCTERMS = Namespace("http://purl.org/dc/terms/")
 FOAF = Namespace("http://xmlns.com/foaf/0.1/")
 PRO = Namespace("http://purl.org/spar/pro/")
-SCHEMA = Namespace("http://schema.org/")
+
+# IMPORTANT: use https consistently to avoid schema1:
+SCHEMA = Namespace("https://schema.org/")
+
 PROV = Namespace("http://www.w3.org/ns/prov#")
 REL = Namespace("http://purl.org/vocab/relationship/")
 RICO = Namespace("https://www.ica.org/standards/RiC/ontology#")
+FABIO = Namespace("http://purl.org/spar/fabio/")
+FRBR = Namespace("http://purl.org/vocab/frbr/core#")
 
-# IMPORTANT: for RDF predicates, HRAO must be the namespace ending with '#'
+# SAN
+SAN = Namespace("http://dati.san.beniculturali.it/ode/?uri=http://dati.san.beniculturali.it/SAN/")
+
+# HRAO predicates must be '#'
 HRAO = Namespace(BASE_URI + "hrao#")
 
 PREFIX_MAP = {
@@ -84,12 +100,15 @@ PREFIX_MAP = {
     "prov": str(PROV),
     "rel": str(REL),
     "rico": str(RICO),
+    "fabio": str(FABIO),
+    "frbr": str(FRBR),
+    "san": str(SAN),
     "hrao": str(HRAO),
 }
 
 
 # -----------------------------
-# Helpers
+# URI builders
 # -----------------------------
 
 def person_uri(pid: str) -> URIRef:
@@ -100,20 +119,52 @@ def org_uri(oid: str) -> URIRef:
     return URIRef(ORG_BASE + oid)
 
 
+def place_uri(pid: str) -> URIRef:
+    return URIRef(PLACE_BASE + pid)
+
+
+def event_uri(eid: str) -> URIRef:
+    return URIRef(EVENT_BASE + eid)
+
+
 def letter_uri(cv_id: str) -> URIRef:
     return URIRef(LETTER_BASE + cv_id)
 
 
-def parse_curie(curie: str) -> URIRef:
+# -----------------------------
+# Normalization helpers
+# -----------------------------
+
+def normalize_schema_uri(u: str) -> str:
+    # Kill schema1 by forcing a single canonical namespace
+    return u.replace("http://schema.org/", "https://schema.org/")
+
+
+def parse_curie(curie: str) -> URIRef | None:
     """
-    Resolve a CURIE like 'hrao:servedUnder' using PREFIX_MAP.
-    Accepts full URIs as-is.
+    Resolve CURIE like 'hrao:servedUnder'.
+    Accepts full URIs as-is (and normalizes schema.org http->https).
     """
+    curie = (curie or "").strip()
+    if not curie:
+        return None
+
     if curie.startswith(("http://", "https://")):
+        curie = normalize_schema_uri(curie)
         return URIRef(curie)
+
+    if ":" not in curie:
+        return None
+
     prefix, local = curie.split(":", 1)
+    prefix = prefix.strip()
+    local = local.strip()
+
+    if not prefix or not local:
+        return None
     if prefix not in PREFIX_MAP:
-        raise KeyError(f"Unknown prefix '{prefix}' in predicate '{curie}'")
+        return None
+
     return URIRef(PREFIX_MAP[prefix] + local)
 
 
@@ -125,15 +176,11 @@ def split_semicolon(v: str | None) -> list[str]:
 
 
 def parse_mentions(field: str | None) -> list[str]:
-    """
-    CSV format assumed: label|URI ; label|URI ; ...
-    Returns only the URI part.
-    """
     out: list[str] = []
     for entry in split_semicolon(field):
         parts = [p.strip() for p in entry.split("|")]
         if len(parts) >= 2 and parts[1].startswith(("http://", "https://")):
-            out.append(parts[1])
+            out.append(parts[1].strip())
     return out
 
 
@@ -152,28 +199,54 @@ def add_date(graph: Graph, subj: URIRef, date_str: str | None) -> None:
         graph.add((subj, DCTERMS.date, Literal(date_str)))
 
 
-def resolve_entity_uri(entity_id: str, person_ids: set[str], org_ids: set[str]) -> URIRef:
-    """
-    entity_id is expected to be an xml:id (from standoff), without '#'.
-    """
+def resolve_entity_uri(
+    entity_id: str,
+    person_ids: set[str],
+    org_ids: set[str],
+    place_ids: set[str],
+    event_ids: set[str],
+) -> URIRef | None:
+    entity_id = (entity_id or "").strip()
+    if not entity_id:
+        return None
+
+    if re.fullmatch(r"CV-\d+[A-Za-z]?", entity_id):
+        return letter_uri(entity_id)
+
     if entity_id in person_ids:
         return person_uri(entity_id)
     if entity_id in org_ids:
         return org_uri(entity_id)
-    return URIRef(BASE_URI + entity_id)
+    if entity_id in place_ids:
+        return place_uri(entity_id)
+    if entity_id in event_ids:
+        return event_uri(entity_id)
+
+    print(f"[WARN] Unknown entity id '{entity_id}' (not in persons/orgs/places/events). Ignoring.")
+    return None
 
 
-def canonicalize_uri(raw: str, sameas_index: dict[str, URIRef]) -> URIRef:
+def canonicalize_uri_strict(raw: str, exactmatch_index: dict[str, URIRef]) -> URIRef | None:
     """
-    If raw is an external URI present in standoff as skos:exactMatch,
-    replace it with the internal project URI. Otherwise keep raw.
+    Strict:
+    - normalize schema.org http->https
+    - if raw is in exactmatch_index -> internal URI
+    - if raw already starts with BASE_URI -> keep
+    - else -> ignore
     """
     raw = (raw or "").strip()
     if not raw:
-        raise ValueError("canonicalize_uri called with empty string")
-    if raw in sameas_index:
-        return sameas_index[raw]
-    return URIRef(raw)
+        return None
+
+    raw = normalize_schema_uri(raw)
+
+    if raw in exactmatch_index:
+        return exactmatch_index[raw]
+
+    if raw.startswith(BASE_URI):
+        return URIRef(raw)
+
+    return None
 
 
 # -----------------------------
@@ -181,9 +254,9 @@ def canonicalize_uri(raw: str, sameas_index: dict[str, URIRef]) -> URIRef:
 # -----------------------------
 
 def load_persons(graph: Graph) -> tuple[set[str], dict[str, URIRef]]:
-    xml = ET.parse(str(STANDOFF_PERSONS))
+    xml = safe_parse(STANDOFF_PERSONS)
     person_ids: set[str] = set()
-    sameas_index: dict[str, URIRef] = {}
+    exact: dict[str, URIRef] = {}
 
     for p in xml.findall(".//tei:listPerson/tei:person", TEI_NS):
         pid = p.get(XML_ID)
@@ -195,25 +268,24 @@ def load_persons(graph: Graph) -> tuple[set[str], dict[str, URIRef]]:
 
         graph.add((u, RDF.type, FOAF.Person))
 
-        # First persName as label (keeps current behavior)
         name_el = p.find("./tei:persName", TEI_NS)
         if name_el is not None and (name_el.text or "").strip():
             graph.add((u, RDFS.label, Literal(name_el.text.strip(), lang="pt")))
 
-        # Reconciliation links (project URI is subject; external URIs are exactMatch)
         for idno in p.findall("./tei:idno", TEI_NS):
             val = (idno.text or "").strip()
             if val.startswith(("http://", "https://")):
+                val = normalize_schema_uri(val)
                 graph.add((u, SKOS.exactMatch, URIRef(val)))
-                sameas_index[val] = u
+                exact[val] = u
 
-    return person_ids, sameas_index
+    return person_ids, exact
 
 
 def load_orgs(graph: Graph) -> tuple[set[str], dict[str, URIRef]]:
-    xml = ET.parse(str(STANDOFF_ORGS))
+    xml = safe_parse(STANDOFF_ORGS)
     org_ids: set[str] = set()
-    sameas_index: dict[str, URIRef] = {}
+    exact: dict[str, URIRef] = {}
 
     for o in xml.findall(".//tei:listOrg/tei:org", TEI_NS):
         oid = o.get(XML_ID)
@@ -232,14 +304,82 @@ def load_orgs(graph: Graph) -> tuple[set[str], dict[str, URIRef]]:
         for idno in o.findall("./tei:idno", TEI_NS):
             val = (idno.text or "").strip()
             if val.startswith(("http://", "https://")):
+                val = normalize_schema_uri(val)
                 graph.add((u, SKOS.exactMatch, URIRef(val)))
-                sameas_index[val] = u
+                exact[val] = u
 
-    return org_ids, sameas_index
+    return org_ids, exact
 
 
-def load_relations(graph: Graph, person_ids: set[str], org_ids: set[str]) -> None:
-    xml = ET.parse(str(STANDOFF_RELATIONS))
+def load_places(graph: Graph) -> tuple[set[str], dict[str, URIRef]]:
+    xml = safe_parse(STANDOFF_PLACES)
+    place_ids: set[str] = set()
+    exact: dict[str, URIRef] = {}
+
+    for pl in xml.findall(".//tei:listPlace/tei:place", TEI_NS):
+        pid = pl.get(XML_ID)
+        if not pid:
+            continue
+
+        place_ids.add(pid)
+        u = place_uri(pid)
+
+        # Minimal typing (change later if your model has a specific class)
+        graph.add((u, RDF.type, RICO.Place))
+
+        name_el = pl.find("./tei:placeName", TEI_NS)
+        if name_el is not None and (name_el.text or "").strip():
+            graph.add((u, RDFS.label, Literal(name_el.text.strip(), lang="pt")))
+
+        for idno in pl.findall("./tei:idno", TEI_NS):
+            val = (idno.text or "").strip()
+            if val.startswith(("http://", "https://")):
+                val = normalize_schema_uri(val)
+                graph.add((u, SKOS.exactMatch, URIRef(val)))
+                exact[val] = u
+
+    return place_ids, exact
+
+
+def load_events(graph: Graph) -> tuple[set[str], dict[str, URIRef]]:
+    xml = safe_parse(STANDOFF_EVENTS)
+    event_ids: set[str] = set()
+    exact: dict[str, URIRef] = {}
+
+    for ev in xml.findall(".//tei:listEvent/tei:event", TEI_NS):
+        eid = ev.get(XML_ID)
+        if not eid:
+            continue
+
+        event_ids.add(eid)
+        u = event_uri(eid)
+
+        graph.add((u, RDF.type, RICO.Event))
+
+        label_el = ev.find("./tei:label", TEI_NS)
+        if label_el is None:
+            label_el = ev.find("./tei:head", TEI_NS)
+        if label_el is not None and (label_el.text or "").strip():
+            graph.add((u, RDFS.label, Literal(label_el.text.strip(), lang="pt")))
+
+        for idno in ev.findall("./tei:idno", TEI_NS):
+            val = (idno.text or "").strip()
+            if val.startswith(("http://", "https://")):
+                val = normalize_schema_uri(val)
+                graph.add((u, SKOS.exactMatch, URIRef(val)))
+                exact[val] = u
+
+    return event_ids, exact
+
+
+def load_relations(
+    graph: Graph,
+    person_ids: set[str],
+    org_ids: set[str],
+    place_ids: set[str],
+    event_ids: set[str],
+) -> None:
+    xml = safe_parse(STANDOFF_RELATIONS)
 
     for r in xml.findall(".//tei:relation", TEI_NS):
         name = (r.get("name") or "").strip()
@@ -247,45 +387,51 @@ def load_relations(graph: Graph, person_ids: set[str], org_ids: set[str]) -> Non
             continue
 
         pred = parse_curie(name)
+        if pred is None:
+            print(f"[WARN] Skipping relation with invalid/unknown predicate @name='{name}'")
+            continue
 
         active = (r.get("active") or "").strip().lstrip("#")
         passive = (r.get("passive") or "").strip().lstrip("#")
         if not active or not passive:
             continue
 
-        subj = resolve_entity_uri(active, person_ids, org_ids)
-        obj = resolve_entity_uri(passive, person_ids, org_ids)
+        subj = resolve_entity_uri(active, person_ids, org_ids, place_ids, event_ids)
+        obj = resolve_entity_uri(passive, person_ids, org_ids, place_ids, event_ids)
+        if subj is None or obj is None:
+            continue
 
         graph.add((subj, pred, obj))
 
 
 def add_dataset_provenance(graph: Graph) -> None:
-    """
-    Option B provenance: dataset/process/source-level provenance, not per statement.
-    """
-    # Dataset node
     graph.add((DATASET_URI, RDF.type, PROV.Entity))
     graph.add((DATASET_URI, RDF.type, SCHEMA.Dataset))
     graph.add((DATASET_URI, DCTERMS.title, Literal("Varela Digital — Knowledge Base (RDF dataset)", lang="en")))
     graph.add((DATASET_URI, DCTERMS.source, URIRef("https://github.com/CarlaMenegat/VarelaDigital")))
 
-    # Agent
     graph.add((AGENT_URI, RDF.type, FOAF.Person))
     graph.add((AGENT_URI, FOAF.name, Literal("Carla Menegat")))
 
-    # Sources
-    for src in (SOURCE_PERSONS_URI, SOURCE_ORGS_URI, SOURCE_RELATIONS_URI, SOURCE_METADATA_URI):
+    for src in (
+        SOURCE_PERSONS_URI,
+        SOURCE_ORGS_URI,
+        SOURCE_PLACES_URI,
+        SOURCE_EVENTS_URI,
+        SOURCE_RELATIONS_URI,
+        SOURCE_METADATA_URI,
+    ):
         graph.add((src, RDF.type, PROV.Entity))
 
-    # Process
     graph.add((PROCESS_URI, RDF.type, PROV.Activity))
     graph.add((PROCESS_URI, PROV.used, SOURCE_PERSONS_URI))
     graph.add((PROCESS_URI, PROV.used, SOURCE_ORGS_URI))
+    graph.add((PROCESS_URI, PROV.used, SOURCE_PLACES_URI))
+    graph.add((PROCESS_URI, PROV.used, SOURCE_EVENTS_URI))
     graph.add((PROCESS_URI, PROV.used, SOURCE_RELATIONS_URI))
     graph.add((PROCESS_URI, PROV.used, SOURCE_METADATA_URI))
     graph.add((PROCESS_URI, PROV.wasAssociatedWith, AGENT_URI))
 
-    # Link dataset to process
     graph.add((DATASET_URI, PROV.wasGeneratedBy, PROCESS_URI))
     graph.add((DATASET_URI, DCTERMS.created, Literal(date.today().isoformat(), datatype=XSD.date)))
 
@@ -295,24 +441,37 @@ def add_dataset_provenance(graph: Graph) -> None:
 # -----------------------------
 
 def build_graph() -> None:
+    require_file(CSV_METADATA)
+    require_file(STANDOFF_PERSONS)
+    require_file(STANDOFF_ORGS)
+    require_file(STANDOFF_PLACES)
+    require_file(STANDOFF_EVENTS)
+    require_file(STANDOFF_RELATIONS)
+
     g = Graph()
 
-    # Bind prefixes to avoid ns1/ns2 surprises
-    g.bind("dcterms", DCTERMS)
-    g.bind("foaf", FOAF)
-    g.bind("pro", PRO)
-    g.bind("schema", SCHEMA)
-    g.bind("prov", PROV)
-    g.bind("rel", REL)
-    g.bind("rico", RICO)
-    g.bind("skos", SKOS)
-    g.bind("hrao", HRAO)
+    # Bind prefixes (override to avoid schema1/ns1)
+    g.bind("dcterms", DCTERMS, override=True)
+    g.bind("foaf", FOAF, override=True)
+    g.bind("pro", PRO, override=True)
+    g.bind("schema", SCHEMA, override=True)
+    g.bind("prov", PROV, override=True)
+    g.bind("rel", REL, override=True)
+    g.bind("rico", RICO, override=True)
+    g.bind("skos", SKOS, override=True)
+    g.bind("hrao", HRAO, override=True)
+    g.bind("fabio", FABIO, override=True)
+    g.bind("frbr", FRBR, override=True)
+    g.bind("san", SAN, override=True)
 
-    person_ids, person_sameas = load_persons(g)
-    org_ids, org_sameas = load_orgs(g)
-    sameas_index = {**person_sameas, **org_sameas}
+    person_ids, person_exact = load_persons(g)
+    org_ids, org_exact = load_orgs(g)
+    place_ids, place_exact = load_places(g)
+    event_ids, event_exact = load_events(g)
 
-    load_relations(g, person_ids, org_ids)
+    exactmatch_index = {**person_exact, **org_exact, **place_exact, **event_exact}
+
+    load_relations(g, person_ids, org_ids, place_ids, event_ids)
 
     with CSV_METADATA.open(encoding="utf-8") as f:
         reader = csv.DictReader(f)
@@ -322,36 +481,38 @@ def build_graph() -> None:
                 continue
 
             letter = letter_uri(cv_id)
-            g.add((letter, RDF.type, SCHEMA.CreativeWork))
+
+            # Your model choice for letters
+            g.add((letter, RDF.type, FABIO.Letter))
+            g.add((letter, RDF.type, FRBR.Work))
 
             author_raw = (row.get("author_uri") or "").strip()
             if author_raw:
-                g.add((letter, DCTERMS.creator, canonicalize_uri(author_raw, sameas_index)))
+                a = canonicalize_uri_strict(author_raw, exactmatch_index)
+                if a is not None:
+                    g.add((letter, DCTERMS.creator, a))
 
             recipient_raw = (row.get("recipient_uri") or "").strip()
             if recipient_raw:
-                g.add((letter, PRO.addressee, canonicalize_uri(recipient_raw, sameas_index)))
+                rcp = canonicalize_uri_strict(recipient_raw, exactmatch_index)
+                if rcp is not None:
+                    g.add((letter, PRO.addressee, rcp))
 
             add_date(g, letter, row.get("date"))
 
-            place_uri = (row.get("place_uri") or "").strip()
-            if place_uri:
-                g.add((letter, DCTERMS.spatial, URIRef(place_uri)))
+            place_raw = (row.get("place_uri") or "").strip()
+            if place_raw:
+                pl = canonicalize_uri_strict(place_raw, exactmatch_index)
+                if pl is not None:
+                    g.add((letter, DCTERMS.spatial, pl))
 
-            # Canonicalize mentions when possible
-            for u in parse_mentions(row.get("mentioned_people")):
-                g.add((letter, SCHEMA.mentions, canonicalize_uri(u, sameas_index)))
+            # Mentions -> SAN refersTo
+            for field in ("mentioned_people", "mentioned_orgs", "mentioned_places", "mentioned_events"):
+                for u in parse_mentions(row.get(field)):
+                    m = canonicalize_uri_strict(u, exactmatch_index)
+                    if m is not None:
+                        g.add((letter, SAN.refersTo, m))
 
-            for u in parse_mentions(row.get("mentioned_orgs")):
-                g.add((letter, SCHEMA.mentions, canonicalize_uri(u, sameas_index)))
-
-            for u in parse_mentions(row.get("mentioned_places")):
-                g.add((letter, SCHEMA.mentions, canonicalize_uri(u, sameas_index)))
-
-            for u in parse_mentions(row.get("mentioned_events")):
-                g.add((letter, SCHEMA.mentions, canonicalize_uri(u, sameas_index)))
-
-    # Add dataset-level provenance (Option B)
     add_dataset_provenance(g)
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)

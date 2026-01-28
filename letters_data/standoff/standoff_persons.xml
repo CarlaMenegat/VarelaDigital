@@ -1812,7 +1812,7 @@
             </state>
             <state type="roleInTime" xml:id="prado_lima_deputado_farroupilha">
                 <roleName>Deputado da Assembleia Constituinte e Legislativa Farroupilha</roleName>
-                <affiliation ref="#assembleia_geral"/>
+                <affiliation ref="#assembleia_constituinte"/>
                 <date type="begin" when="1842"/>
             </state>
             <note>
@@ -5075,7 +5075,7 @@
             </state>
             <state type="roleInTime" xml:id="fchagas_deputado">
                 <roleName>Deputado da Assembleia Geral</roleName>
-                <affiliation ref="#assembleia_geral_império"/>
+                <affiliation ref="#assembleia_constituinte_império"/>
                 <date type="begin" when="1826"/>
             </state>
             <state type="roleInTime" xml:id="fcs_presidente_comandante_armas_rs_1837">

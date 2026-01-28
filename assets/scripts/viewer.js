@@ -1,18 +1,22 @@
 /* ===== Paths ===== */
-const BASE_XML_PATH = '../../data/documents_XML/';
-const DOCUMENTS_HTML_PATH_PRIMARY = './documents_html/';
-const DOCUMENTS_HTML_PATH_FALLBACK = '../../assets/html/documents_html/';
+const HOST = (window.location.hostname || '').toLowerCase();
+const BASE = HOST.endsWith('github.io') ? '/VarelaDigital/' : '/';
 
-const STANDOFF_BASE_PATH = '../../data/standoff/';
-const BASE_RDF_PATH = '../data/rdf/';
+const BASE_XML_PATH = BASE + 'letters_data/documents_XML/';
+
+const DOCUMENTS_HTML_PATH_PRIMARY = BASE + 'assets/html/documents_html/';
+const DOCUMENTS_HTML_PATH_FALLBACK = BASE + 'assets/html/documents_html/';
+
+const STANDOFF_BASE_PATH = BASE + 'letters_data/standoff/';
+
+const BASE_RDF_PATH = BASE + 'assets/data/rdf/';
 const BASE_RDF_JSON_PATH = BASE_RDF_PATH + 'json/';
 const BASE_RDF_TTL_PATH = BASE_RDF_PATH + 'ttl/';
-const INDEXES_BASE_PATH = '../data/indexes/';
+
+const INDEXES_BASE_PATH = BASE + 'assets/data/indexes/';
 const DEFAULT_ORDER = 'collection';
 
-const TRANSLATIONS_BASE_PATH = '../data/translations/';
-const DEFAULT_TARGET_LANG = 'en';
-const TRANSLATION_API_URL = 'http://127.0.0.1:8000/translate';
+const TRANSLATIONS_BASE_PATH = BASE + 'assets/data/translations/';
 
 const STANDOFF_FILES = {
   persons: STANDOFF_BASE_PATH + 'standoff_persons.xml',
