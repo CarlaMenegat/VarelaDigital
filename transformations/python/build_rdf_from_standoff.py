@@ -29,7 +29,6 @@ STANDOFF_PLACES = STANDOFF_DIR / "standoff_places.xml"
 STANDOFF_EVENTS = STANDOFF_DIR / "standoff_events.xml"
 STANDOFF_RELATIONS = STANDOFF_DIR / "standoff_relations.xml"
 
-
 OUT_DIR = BASE_DIR / "assets/data/rdf"
 OUT_TTL = OUT_DIR / "graph.ttl"
 OUT_JSONLD = OUT_DIR / "graph.jsonld"
@@ -86,6 +85,9 @@ RICO = Namespace("https://www.ica.org/standards/RiC/ontology#")
 FABIO = Namespace("http://purl.org/spar/fabio/")
 FRBR = Namespace("http://purl.org/vocab/frbr/core#")
 
+# GEO (WGS84)
+GEO = Namespace("http://www.w3.org/2003/01/geo/wgs84_pos#")
+
 # SAN
 SAN = Namespace("http://dati.san.beniculturali.it/ode/?uri=http://dati.san.beniculturali.it/SAN/")
 
@@ -102,6 +104,7 @@ PREFIX_MAP = {
     "rico": str(RICO),
     "fabio": str(FABIO),
     "frbr": str(FRBR),
+    "geo": str(GEO),
     "san": str(SAN),
     "hrao": str(HRAO),
 }
@@ -136,15 +139,10 @@ def letter_uri(cv_id: str) -> URIRef:
 # -----------------------------
 
 def normalize_schema_uri(u: str) -> str:
-    # Kill schema1 by forcing a single canonical namespace
     return u.replace("http://schema.org/", "https://schema.org/")
 
 
 def parse_curie(curie: str) -> URIRef | None:
-    """
-    Resolve CURIE like 'hrao:servedUnder'.
-    Accepts full URIs as-is (and normalizes schema.org http->https).
-    """
     curie = (curie or "").strip()
     if not curie:
         return None
@@ -227,13 +225,6 @@ def resolve_entity_uri(
 
 
 def canonicalize_uri_strict(raw: str, exactmatch_index: dict[str, URIRef]) -> URIRef | None:
-    """
-    Strict:
-    - normalize schema.org http->https
-    - if raw is in exactmatch_index -> internal URI
-    - if raw already starts with BASE_URI -> keep
-    - else -> ignore
-    """
     raw = (raw or "").strip()
     if not raw:
         return None
@@ -324,8 +315,8 @@ def load_places(graph: Graph) -> tuple[set[str], dict[str, URIRef]]:
         place_ids.add(pid)
         u = place_uri(pid)
 
-        # Minimal typing (change later if your model has a specific class)
-        graph.add((u, RDF.type, RICO.Place))
+        # ✅ Your model: geo:SpatialThing
+        graph.add((u, RDF.type, GEO.SpatialThing))
 
         name_el = pl.find("./tei:placeName", TEI_NS)
         if name_el is not None and (name_el.text or "").strip():
@@ -463,6 +454,7 @@ def build_graph() -> None:
     g.bind("fabio", FABIO, override=True)
     g.bind("frbr", FRBR, override=True)
     g.bind("san", SAN, override=True)
+    g.bind("geo", GEO, override=True)  # ✅ critical for geo:SpatialThing
 
     person_ids, person_exact = load_persons(g)
     org_ids, org_exact = load_orgs(g)
@@ -482,7 +474,6 @@ def build_graph() -> None:
 
             letter = letter_uri(cv_id)
 
-            # Your model choice for letters
             g.add((letter, RDF.type, FABIO.Letter))
             g.add((letter, RDF.type, FRBR.Work))
 
@@ -506,7 +497,6 @@ def build_graph() -> None:
                 if pl is not None:
                     g.add((letter, DCTERMS.spatial, pl))
 
-            # Mentions -> SAN refersTo
             for field in ("mentioned_people", "mentioned_orgs", "mentioned_places", "mentioned_events"):
                 for u in parse_mentions(row.get(field)):
                     m = canonicalize_uri_strict(u, exactmatch_index)

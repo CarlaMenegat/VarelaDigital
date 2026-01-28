@@ -2,6 +2,7 @@
 @prefix fabio: <http://purl.org/spar/fabio/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix geo1: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
 @prefix pro: <http://purl.org/spar/pro/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -4388,109 +4389,109 @@
 <https://carlamenegat.github.io/VarelaDigital/person/tenente_saraiva> a foaf:Person ;
     rdfs:label "Saraiva"@pt .
 
-<https://carlamenegat.github.io/VarelaDigital/place/arambare> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/arambare> a geo1:SpatialThing ;
     rdfs:label "Barra do Velhaco"@pt ;
     skos:exactMatch <https://www.geonames.org/3471824/arambare.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/barra_cacequi> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/barra_cacequi> a geo1:SpatialThing ;
     rdfs:label "Barra do Cacequi"@pt ;
     skos:exactMatch <https://www.geonames.org/3468552/rio-cacequi.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/barra_graxim> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/barra_graxim> a geo1:SpatialThing ;
     rdfs:label "Lagoa do Graxim"@pt ;
     skos:exactMatch <https://www.geonames.org/13545902/lagoa-do-graxaim.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/bom_retiro> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/bom_retiro> a geo1:SpatialThing ;
     rdfs:label "Bom Retiro"@pt .
 
-<https://carlamenegat.github.io/VarelaDigital/place/candiota> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/candiota> a geo1:SpatialThing ;
     rdfs:label "Candiota"@pt ;
     skos:exactMatch <https://www.geonames.org/3467538/candiota.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/cavera> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/cavera> a geo1:SpatialThing ;
     rdfs:label "Caverá"@pt ;
     skos:exactMatch <https://www.geonames.org/6316835/cavera.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/costa_quarai> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/costa_quarai> a geo1:SpatialThing ;
     rdfs:label "Costa de Quaraí"@pt ;
     skos:exactMatch <https://www.geonames.org/3452179/quarai.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/curitibanos> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/curitibanos> a geo1:SpatialThing ;
     rdfs:label "Curitibanos"@pt ;
     skos:exactMatch <https://www.geonames.org/3464974/curitibanos.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/espinilho> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/espinilho> a geo1:SpatialThing ;
     rdfs:label "Espinilho"@pt ;
     skos:exactMatch <https://www.geonames.org/3463943/espinilho.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/fortaleza_laje> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/fortaleza_laje> a geo1:SpatialThing ;
     rdfs:label "Fortaleza da Laje"@pt ;
     skos:exactMatch <https://www.geonames.org/3459067/ilha-da-laje.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/hospital> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/hospital> a geo1:SpatialThing ;
     rdfs:label "Hospital"@pt ;
     skos:exactMatch <https://www.geonames.org/3442345/hospital.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/ilha_da_paciencia> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/ilha_da_paciencia> a geo1:SpatialThing ;
     rdfs:label "Ilha da Paciência"@pt ;
     skos:exactMatch <https://www.geonames.org/3455623/ilha-da-paciencia.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/jacu> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/jacu> a geo1:SpatialThing ;
     rdfs:label "Jacu"@pt ;
     skos:exactMatch <https://www.geonames.org/13037218/arroio-do-jacu.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/jacuizinho> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/jacuizinho> a geo1:SpatialThing ;
     rdfs:label "Jacuizinho"@pt ;
     skos:exactMatch <https://www.geonames.org/6324129/jacuizinho.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/jaguari_rs> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/jaguari_rs> a geo1:SpatialThing ;
     rdfs:label "Jaguari"@pt ;
     skos:exactMatch <https://www.geonames.org/3460221/jaguari.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/laguna> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/laguna> a geo1:SpatialThing ;
     rdfs:label "Laguna"@pt ;
     skos:exactMatch <https://www.geonames.org/6323174/laguna.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/maldonado> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/maldonado> a geo1:SpatialThing ;
     rdfs:label "Maldonado"@pt ;
     skos:exactMatch <https://www.geonames.org/3441894/maldonado.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/melo> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/melo> a geo1:SpatialThing ;
     rdfs:label "Melo"@pt ;
     skos:exactMatch <https://www.geonames.org/3441702/melo.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/palmeira_das_missoes> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/palmeira_das_missoes> a geo1:SpatialThing ;
     rdfs:label "Palmeira das Missões"@pt ;
     skos:exactMatch <https://www.geonames.org/3455416/palmeira-das-missoes.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/parobe_rs> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/parobe_rs> a geo1:SpatialThing ;
     rdfs:label "Parobé"@pt ;
     skos:exactMatch <https://www.geonames.org/3454954/parobe.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/pinhal> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/pinhal> a geo1:SpatialThing ;
     rdfs:label "Picada do Pinhal"@pt ;
     skos:exactMatch <https://www.geonames.org/6317956/pinhal.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/ponta_rasa> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/ponta_rasa> a geo1:SpatialThing ;
     rdfs:label "Ponta Rasa"@pt .
 
-<https://carlamenegat.github.io/VarelaDigital/place/rio_cai> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/rio_cai> a geo1:SpatialThing ;
     rdfs:label "Rio Caí"@pt ;
     skos:exactMatch <https://www.geonames.org/13025066/rio-cai.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/salto> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/salto> a geo1:SpatialThing ;
     rdfs:label "Salto"@pt ;
     skos:exactMatch <https://www.geonames.org/3440714/salto.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/sao_jose> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/sao_jose> a geo1:SpatialThing ;
     rdfs:label "São José"@pt ;
     skos:exactMatch <https://www.geonames.org/7575805/fazenda-sao-jose.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/sao_martinho> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/sao_martinho> a geo1:SpatialThing ;
     rdfs:label "São Martinho"@pt ;
     skos:exactMatch <https://www.geonames.org/6323632/sao-martinho.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/taquari> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/taquari> a geo1:SpatialThing ;
     rdfs:label "Taquari"@pt ;
     skos:exactMatch <https://www.geonames.org/6323667/taquari.html> .
 
@@ -5841,167 +5842,167 @@
 <https://carlamenegat.github.io/VarelaDigital/person/zeferino> a foaf:Person ;
     rdfs:label "Zeferino"@pt .
 
-<https://carlamenegat.github.io/VarelaDigital/place/arapey_chico> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/arapey_chico> a geo1:SpatialThing ;
     rdfs:label "Arapey Chico"@pt ;
     skos:exactMatch <https://www.geonames.org/3443837/rio-arapey-chico.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/arroio_petim> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/arroio_petim> a geo1:SpatialThing ;
     rdfs:label "Arroio Petim"@pt ;
     skos:exactMatch <https://www.geonames.org/3454034/arroio-do-petim.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/arroyocebolati> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/arroyocebolati> a geo1:SpatialThing ;
     rdfs:label "Rio Cebollatí"@pt ;
     skos:exactMatch <https://www.geonames.org/3443254/rio-cebollati.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/batovi> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/batovi> a geo1:SpatialThing ;
     rdfs:label "Batoví"@pt ;
     skos:exactMatch <https://www.geonames.org/10944639/cerro-batovi.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/borore> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/borore> a geo1:SpatialThing ;
     rdfs:label "Bororé"@pt ;
     skos:exactMatch <https://www.geonames.org/6316634/borore.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/brasil> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/brasil> a geo1:SpatialThing ;
     rdfs:label "Brasil"@pt ;
     skos:exactMatch <https://www.geonames.org/3469034/brazil.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/buenos_aires> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/buenos_aires> a geo1:SpatialThing ;
     rdfs:label "Buenos Aires"@pt ;
     skos:exactMatch <https://www.geonames.org/3435910/buenos-aires.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/cai> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/cai> a geo1:SpatialThing ;
     rdfs:label "Caí"@pt ;
     skos:exactMatch <https://www.geonames.org/3448227/sao-sebastiao-do-cai.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/campo_bojuru> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/campo_bojuru> a geo1:SpatialThing ;
     rdfs:label "Campo de Bojuru"@pt ;
     skos:exactMatch <https://www.geonames.org/3469538/bojuru.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/candiotinha> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/candiotinha> a geo1:SpatialThing ;
     rdfs:label "Arroio Candiotinha"@pt ;
     skos:exactMatch <https://www.geonames.org/13036917/arroio-candiotinha.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/chasqueiro> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/chasqueiro> a geo1:SpatialThing ;
     rdfs:label "Arroio Chasqueiro"@pt ;
     skos:exactMatch <https://www.geonames.org/3444846/arroio-chasqueiro.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/corrientes> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/corrientes> a geo1:SpatialThing ;
     rdfs:label "Corrientes"@pt ;
     skos:exactMatch <https://www.geonames.org/3435217/corrientes.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/durazno> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/durazno> a geo1:SpatialThing ;
     rdfs:label "Durazno"@pt ;
     skos:exactMatch <https://www.geonames.org/3442727/durazno.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/ilha_fanfa> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/ilha_fanfa> a geo1:SpatialThing ;
     rdfs:label "Ilha do Fanfa"@pt ;
     skos:exactMatch <https://www.geonames.org/13024961/ilha-do-fanfa.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/ilha_santo_antonio> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/ilha_santo_antonio> a geo1:SpatialThing ;
     rdfs:label "Ilha de Santo Antônio"@pt ;
     skos:exactMatch <https://www.geonames.org/13037469/ilha-de-santo-antonio.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/inhanduí> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/inhanduí> a geo1:SpatialThing ;
     rdfs:label "Inhanduí"@pt ;
     skos:exactMatch <https://www.geonames.org/3461217/arroio-inhandui.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/itaqui> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/itaqui> a geo1:SpatialThing ;
     rdfs:label "Itaqui"@pt ;
     skos:exactMatch <https://www.geonames.org/3460629/itaqui.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/japeju> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/japeju> a geo1:SpatialThing ;
     rdfs:label "Japeju"@pt ;
     skos:exactMatch <https://www.geonames.org/3460134/coxilha-do-japeju.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/palmar> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/palmar> a geo1:SpatialThing ;
     rdfs:label "Santa Vitória do Palmar"@pt ;
     skos:exactMatch <https://www.geonames.org/3449747/santa-vitoria-do-palmar.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/paysandu> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/paysandu> a geo1:SpatialThing ;
     rdfs:label "Paisandú"@pt ;
     skos:exactMatch <https://www.geonames.org/3441243/paysandu.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/pirai> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/pirai> a geo1:SpatialThing ;
     rdfs:label "Piraí"@pt ;
     skos:exactMatch <https://www.geonames.org/3455142/parai.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/retiro> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/retiro> a geo1:SpatialThing ;
     rdfs:label "Retiro"@pt ;
     skos:exactMatch <https://www.geonames.org/3451576/retiro.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/rincao_elrei_rio_pardo> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/rincao_elrei_rio_pardo> a geo1:SpatialThing ;
     rdfs:label "Rincão de El Rei (Rio Pardo)"@pt ;
     skos:exactMatch <https://www.geonames.org/3451280/rincao-del-rei.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/rincao_saica> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/rincao_saica> a geo1:SpatialThing ;
     rdfs:label "Rincão de Saicã"@pt ;
     skos:exactMatch <https://www.geonames.org/3450735/saica.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/rio_antas> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/rio_antas> a geo1:SpatialThing ;
     rdfs:label "Rio das Antas"@pt ;
     skos:exactMatch <https://www.geonames.org/6323243/rio-das-antas.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/rio_dos_sinos> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/rio_dos_sinos> a geo1:SpatialThing ;
     rdfs:label "Rio dos Sinos"@pt ;
     skos:exactMatch <https://www.geonames.org/3447542/rio-dos-sinos.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/rio_grande_barra> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/rio_grande_barra> a geo1:SpatialThing ;
     rdfs:label "Barra do Rio Grande"@pt ;
     skos:exactMatch <https://www.geonames.org/3451137/barra-do-rio-grande.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/rio_tramandai> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/rio_tramandai> a geo1:SpatialThing ;
     rdfs:label "Rio Tramandaí"@pt ;
     skos:exactMatch <https://www.geonames.org/12532161/rio-tramandai.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/rio_uruguai> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/rio_uruguai> a geo1:SpatialThing ;
     rdfs:label "Rio Uruguai"@pt ;
     skos:exactMatch <https://www.geonames.org/3439704/uruguay-river.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/sao_diogo> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/sao_diogo> a geo1:SpatialThing ;
     rdfs:label "São Diogo"@pt ;
     skos:exactMatch <https://www.geonames.org/13037094/sao-diogo.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/sao_fructuoso> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/sao_fructuoso> a geo1:SpatialThing ;
     rdfs:label "San Fructuoso"@pt ;
     skos:exactMatch <https://www.geonames.org/3440034/tacuarembo.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/sao_leopoldo> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/sao_leopoldo> a geo1:SpatialThing ;
     rdfs:label "São Leopoldo"@pt ;
     skos:exactMatch <https://www.geonames.org/3448622/sao-leopoldo.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/sao_paulo_provincia> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/sao_paulo_provincia> a geo1:SpatialThing ;
     rdfs:label "São Paulo"@pt ;
     skos:exactMatch <https://www.geonames.org/3448433/sao-paulo.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/sao_sepe> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/sao_sepe> a geo1:SpatialThing ;
     rdfs:label "São Sepé"@pt ;
     skos:exactMatch <https://www.geonames.org/3448207/sao-sepe.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/sao_tome> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/sao_tome> a geo1:SpatialThing ;
     rdfs:label "São Tomé"@pt ;
     skos:exactMatch <https://www.geonames.org/3835793/santo-tome.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/sarangonha> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/sarangonha> a geo1:SpatialThing ;
     rdfs:label "Sarangonha"@pt ;
     skos:exactMatch <https://www.geonames.org/3447990/ilha-da-saragonha.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/serra_tapes> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/serra_tapes> a geo1:SpatialThing ;
     rdfs:label "Serra dos Tapes"@pt ;
     skos:exactMatch <https://www.geonames.org/3449589/serra-dos-tapes.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/taim> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/taim> a geo1:SpatialThing ;
     rdfs:label "Taim"@pt ;
     skos:exactMatch <https://www.geonames.org/3447067/taim.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/tapes> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/tapes> a geo1:SpatialThing ;
     rdfs:label "Tapes"@pt ;
     skos:exactMatch <https://www.geonames.org/3446880/tapes.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/torotama> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/torotama> a geo1:SpatialThing ;
     rdfs:label "Ilha da Torotama"@pt ;
     skos:exactMatch <https://www.geonames.org/13037322/ilha-da-torotama.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/viamao> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/viamao> a geo1:SpatialThing ;
     rdfs:label "Viamão"@pt ;
     skos:exactMatch <https://www.geonames.org/3445156/viamao.html> .
 
@@ -6585,87 +6586,87 @@
     skos:exactMatch <https://viaf.org/viaf/305373302>,
         <https://www.wikidata.org/wiki/Q10310764> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/aldeia_anjos> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/aldeia_anjos> a geo1:SpatialThing ;
     rdfs:label "Aldeia dos Anjos"@pt ;
     skos:exactMatch <https://www.geonames.org/3462089/gravatai.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/arroio_grande> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/arroio_grande> a geo1:SpatialThing ;
     rdfs:label "Arroio Grande"@pt ;
     skos:exactMatch <https://www.geonames.org/3471422/arroio-grande.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/arroio_pelotas> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/arroio_pelotas> a geo1:SpatialThing ;
     rdfs:label "Arroio de Pelotas"@pt ;
     skos:exactMatch <https://www.geonames.org/3454243/arroio-pelotas.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/barra_camaqua> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/barra_camaqua> a geo1:SpatialThing ;
     rdfs:label "Barra do Camaquã"@pt ;
     skos:exactMatch <https://www.geonames.org/3463760/estrela.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/canoas> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/canoas> a geo1:SpatialThing ;
     rdfs:label "Canoas"@pt ;
     skos:exactMatch <https://www.geonames.org/3467467/canoas.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/cristal> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/cristal> a geo1:SpatialThing ;
     rdfs:label "Cristal"@pt ;
     skos:exactMatch <https://www.geonames.org/6323411/cristal.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/estreito> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/estreito> a geo1:SpatialThing ;
     rdfs:label "Estreito"@pt ;
     skos:exactMatch <https://www.geonames.org/3463780/estreito.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/guaiba> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/guaiba> a geo1:SpatialThing ;
     rdfs:label "Guaíba"@pt ;
     skos:exactMatch <https://www.geonames.org/3462008/lake-guaiba.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/ibirocai> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/ibirocai> a geo1:SpatialThing ;
     rdfs:label "Ibirocaí"@pt ;
     skos:exactMatch <https://www.geonames.org/3461560/arroio-ibirocai.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/ilha_corvo> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/ilha_corvo> a geo1:SpatialThing ;
     rdfs:label "Ilha do Corvo"@pt ;
     skos:exactMatch <https://www.geonames.org/13545893/ilha-do-corvo.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/ilha_paciencia> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/ilha_paciencia> a geo1:SpatialThing ;
     rdfs:label "Ilha da Paciência"@pt ;
     skos:exactMatch <https://www.geonames.org/3455623/ilha-da-paciencia.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/inhanduí_rincao> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/inhanduí_rincao> a geo1:SpatialThing ;
     rdfs:label "Rincão do Inhanduí"@pt ;
     skos:exactMatch <https://www.geonames.org/3461218/inhandui.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/itapua> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/itapua> a geo1:SpatialThing ;
     rdfs:label "Itapuã"@pt ;
     skos:exactMatch <https://www.geonames.org/3460657/ponta-de-itapua.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/missoes> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/missoes> a geo1:SpatialThing ;
     rdfs:label "Missões"@pt ;
     skos:exactMatch <https://www.geonames.org/3448457/sao-miguel-das-missoes.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/morretes> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/morretes> a geo1:SpatialThing ;
     rdfs:label "Morretes"@pt ;
     skos:exactMatch <https://www.geonames.org/3456749> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/passo_mampituba> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/passo_mampituba> a geo1:SpatialThing ;
     rdfs:label "Passo do Mampituba"@pt ;
     skos:exactMatch <https://www.geonames.org/6317511/mampituba.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/pedregal> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/pedregal> a geo1:SpatialThing ;
     rdfs:label "Pedregal"@pt ;
     skos:exactMatch <https://www.geonames.org/13034493/pedregal.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/restinga_seca> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/restinga_seca> a geo1:SpatialThing ;
     rdfs:label "Restinga Seca"@pt ;
     skos:exactMatch <https://www.geonames.org/3451632/restinga-seca.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/sao_francisco_xavier> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/sao_francisco_xavier> a geo1:SpatialThing ;
     rdfs:label "São Francisco Xavier"@pt ;
     skos:exactMatch <https://www.geonames.org/3452608/porto-xavier.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/tavares> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/tavares> a geo1:SpatialThing ;
     rdfs:label "Tavares"@pt ;
     skos:exactMatch <https://www.geonames.org/3446674/tavares.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/toropi> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/toropi> a geo1:SpatialThing ;
     rdfs:label "Toropi"@pt ;
     skos:exactMatch <https://www.geonames.org/3446313/toropi.html> .
 
@@ -6962,51 +6963,51 @@
     skos:exactMatch <https://www.wikidata.org/wiki/Q10392115> ;
     rico:hasFamilyAssociationWith <https://carlamenegat.github.io/VarelaDigital/person/bento_manoel> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/cima_serra> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/cima_serra> a geo1:SpatialThing ;
     rdfs:label "Cima da Serra"@pt ;
     skos:exactMatch <https://www.geonames.org/3449121/sao-francisco-de-paula.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/ibicui> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/ibicui> a geo1:SpatialThing ;
     rdfs:label "Rio Ibicuí"@pt ;
     skos:exactMatch <https://www.geonames.org/3461600/rio-ibicui.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/ibirapuita> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/ibirapuita> a geo1:SpatialThing ;
     rdfs:label "Ibirapuitã"@pt ;
     skos:exactMatch <https://www.geonames.org/3461568/rio-ibirapuita.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/rio_grande_sul> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/rio_grande_sul> a geo1:SpatialThing ;
     rdfs:label "Rio Grande do Sul"@pt ;
     skos:exactMatch <https://www.geonames.org/3451133/rio-grande-do-sul.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/rosario_do_sul> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/rosario_do_sul> a geo1:SpatialThing ;
     rdfs:label "Rosário do Sul"@pt ;
     skos:exactMatch <https://www.geonames.org/3450873/rosario-do-sul.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/santa_catarina> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/santa_catarina> a geo1:SpatialThing ;
     rdfs:label "Santa Catarina"@pt ;
     skos:exactMatch <https://www.geonames.org/3450387/santa-catarina.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/santa_cruz> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/santa_cruz> a geo1:SpatialThing ;
     rdfs:label "Santa Cruz"@pt ;
     skos:exactMatch <https://www.geonames.org/3450269/santa-cruz-do-sul.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/santana_livramento> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/santana_livramento> a geo1:SpatialThing ;
     rdfs:label "Santana do Livramento"@pt ;
     skos:exactMatch <https://www.geonames.org/3449936/sant-ana-do-livramento.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/sao_borja> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/sao_borja> a geo1:SpatialThing ;
     rdfs:label "São Borja"@pt ;
     skos:exactMatch <https://www.geonames.org/3449340/sao-borja.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/sao_joao_batista> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/sao_joao_batista> a geo1:SpatialThing ;
     rdfs:label "São João Batista"@pt ;
     skos:exactMatch <https://www.geonames.org/13029720/sao-joao-batista.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/tres_forquilhas> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/tres_forquilhas> a geo1:SpatialThing ;
     rdfs:label "Três Forquilhas"@pt ;
     skos:exactMatch <https://www.geonames.org/6318792/tres-forquilhas.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/vacaria> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/vacaria> a geo1:SpatialThing ;
     rdfs:label "Vacaria"@pt ;
     skos:exactMatch <https://www.geonames.org/3445630/vacaria.html> .
 
@@ -7151,55 +7152,55 @@
     skos:exactMatch <https://viaf.org/en/viaf/67521090>,
         <https://www.wikidata.org/wiki/Q3529584> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/cerro_roque> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/cerro_roque> a geo1:SpatialThing ;
     rdfs:label "Cerro do Roque"@pt ;
     skos:exactMatch <https://www.geonames.org/3450905/cerro-do-roque.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/chui> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/chui> a geo1:SpatialThing ;
     rdfs:label "Chuí"@pt ;
     skos:exactMatch <https://www.geonames.org/3466187/chui.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/encruzilhada_do_sul> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/encruzilhada_do_sul> a geo1:SpatialThing ;
     rdfs:label "Encruzilhada do Sul"@pt ;
     skos:exactMatch <https://www.geonames.org/3464255/encruzilhada-do-sul.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/inhamanda> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/inhamanda> a geo1:SpatialThing ;
     rdfs:label "Arroio Inhamandá"@pt ;
     skos:exactMatch <https://www.geonames.org/13034762/arroio-inhamanda.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/jaguarao_chico> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/jaguarao_chico> a geo1:SpatialThing ;
     rdfs:label "Jaguarão Chico"@pt ;
     skos:exactMatch <https://www.geonames.org/3460227/arroyo-yaguaron-chico.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/lages> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/lages> a geo1:SpatialThing ;
     rdfs:label "Lages"@pt ;
     skos:exactMatch <https://www.geonames.org/3458930/lages.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/lagoa_patos> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/lagoa_patos> a geo1:SpatialThing ;
     rdfs:label "Lagoa dos Patos"@pt ;
     skos:exactMatch <https://www.geonames.org/12070278/lagoa-dos-patos.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/pedras_altas> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/pedras_altas> a geo1:SpatialThing ;
     rdfs:label "Pedras Altas"@pt ;
     skos:exactMatch <https://www.geonames.org/3454426/pedras-altas.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/rincao_sao_pedro> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/rincao_sao_pedro> a geo1:SpatialThing ;
     rdfs:label "Rincão de São Pedro"@pt ;
     skos:exactMatch <https://www.geonames.org/3448332/sao-pedro-do-sul.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/rio_jacui> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/rio_jacui> a geo1:SpatialThing ;
     rdfs:label "Rio Jacuí"@pt ;
     skos:exactMatch <https://www.geonames.org/3460298/rio-jacui.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/salso> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/salso> a geo1:SpatialThing ;
     rdfs:label "Salso"@pt ;
     skos:exactMatch <https://www.geonames.org/13037099/sanga-do-salso.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/santa_maria_da_boca_do_monte> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/santa_maria_da_boca_do_monte> a geo1:SpatialThing ;
     rdfs:label "Santa Maria da Boca do Monte"@pt ;
     skos:exactMatch <https://www.geonames.org/3450083/santa-maria.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/torres> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/torres> a geo1:SpatialThing ;
     rdfs:label "Torres"@pt ;
     skos:exactMatch <https://www.geonames.org/3446295/torres.html> .
 
@@ -7299,23 +7300,23 @@
 <https://carlamenegat.github.io/VarelaDigital/person/serafim_dos_anjos_franca> a foaf:Person ;
     rdfs:label "Serafim dos Anjos França"@pt .
 
-<https://carlamenegat.github.io/VarelaDigital/place/arroio_velhaco> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/arroio_velhaco> a geo1:SpatialThing ;
     rdfs:label "Arroio Velhaco"@pt ;
     skos:exactMatch <https://www.geonames.org/3445372> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/botucarai_serra> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/botucarai_serra> a geo1:SpatialThing ;
     rdfs:label "Cerro de Botucaraí"@pt ;
     skos:exactMatch <https://www.geonames.org/11979354/cerro-botucarai.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/charqueadas> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/charqueadas> a geo1:SpatialThing ;
     rdfs:label "Charqueadas"@pt ;
     skos:exactMatch <https://www.geonames.org/3466261/charqueadas.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/passo_fundo> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/passo_fundo> a geo1:SpatialThing ;
     rdfs:label "Passo Fundo"@pt ;
     skos:exactMatch <https://www.geonames.org/3454857/passo-fundo.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/sao_goncalo> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/sao_goncalo> a geo1:SpatialThing ;
     rdfs:label "Canal do São Gonçalo"@pt ;
     skos:exactMatch <https://www.geonames.org/3449069/canal-de-sao-goncalo.html> .
 
@@ -7387,31 +7388,31 @@
     foaf:knows <https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida>,
         <https://carlamenegat.github.io/VarelaDigital/person/rolino_pereira_barros> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/cachoeira> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/cachoeira> a geo1:SpatialThing ;
     rdfs:label "Cachoeira"@pt ;
     skos:exactMatch <https://www.geonames.org/3468436/cachoeira-do-sul.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/cerro_largo> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/cerro_largo> a geo1:SpatialThing ;
     rdfs:label "Cerro Largo"@pt ;
     skos:exactMatch <https://www.geonames.org/3443173/departamento-de-cerro-largo.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/mostardas> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/mostardas> a geo1:SpatialThing ;
     rdfs:label "Mostardas"@pt ;
     skos:exactMatch <https://www.geonames.org/3456629/mostardas.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/pedras_brancas> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/pedras_brancas> a geo1:SpatialThing ;
     rdfs:label "Pedras Brancas"@pt ;
     skos:exactMatch <https://www.geonames.org/3473964/guaiba.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/santo_amaro> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/santo_amaro> a geo1:SpatialThing ;
     rdfs:label "Santo Amaro"@pt ;
     skos:exactMatch <https://www.geonames.org/3449708/santo-amaro-do-sul.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/santo_antonio_patrulha> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/santo_antonio_patrulha> a geo1:SpatialThing ;
     rdfs:label "Santo Antônio da Patrulha"@pt ;
     skos:exactMatch <https://www.geonames.org/3449614/santo-antonio-da-patrulha.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/sao_paulo> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/sao_paulo> a geo1:SpatialThing ;
     rdfs:label "São Paulo"@pt ;
     skos:exactMatch <https://www.geonames.org/3448439/sao-paulo.html> .
 
@@ -7456,11 +7457,11 @@
     foaf:knows <https://carlamenegat.github.io/VarelaDigital/person/manuel_marques_sousa> ;
     hrao:servedUnder <https://carlamenegat.github.io/VarelaDigital/person/francisco_chagas_santos> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/arroio_ratos> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/arroio_ratos> a geo1:SpatialThing ;
     rdfs:label "Arroio dos Ratos"@pt ;
     skos:exactMatch <https://www.geonames.org/3471425/arroio-dos-ratos.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/rio_de_janeiro> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/rio_de_janeiro> a geo1:SpatialThing ;
     rdfs:label "Rio de Janeiro"@pt ;
     skos:exactMatch <https://www.geonames.org/3451190/rio-de-janeiro.html> .
 
@@ -7541,19 +7542,19 @@
     hrao:compadreOf <https://carlamenegat.github.io/VarelaDigital/person/bernardina_barcelos_almeida>,
         <https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/santa_maria> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/santa_maria> a geo1:SpatialThing ;
     rdfs:label "Cabo de Santa Maria"@pt ;
     skos:exactMatch <https://www.geonames.org/3440561/cabo-santa-maria.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/sao_jose_norte> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/sao_jose_norte> a geo1:SpatialThing ;
     rdfs:label "São José do Norte"@pt ;
     skos:exactMatch <https://www.geonames.org/3448652/sao-jose-do-norte.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/uruguai> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/uruguai> a geo1:SpatialThing ;
     rdfs:label "Estado Oriental"@pt ;
     skos:exactMatch <https://www.geonames.org/3439705/oriental-republic-of-uruguay.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/vacacai> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/vacacai> a geo1:SpatialThing ;
     rdfs:label "Vacacaí"@pt ;
     skos:exactMatch <https://www.geonames.org/3445639/vacacai.html> .
 
@@ -7580,11 +7581,11 @@
     rdfs:label "Leão Próspero Chastan"@pt ;
     foaf:knows <https://carlamenegat.github.io/VarelaDigital/person/bento_goncalves> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/dores_camaqua> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/dores_camaqua> a geo1:SpatialThing ;
     rdfs:label "Capela das Dores"@pt ;
     skos:exactMatch <https://www.geonames.org/6318661/sentinela-do-sul.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/erval> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/erval> a geo1:SpatialThing ;
     rdfs:label "Erval"@pt ;
     skos:exactMatch <https://www.geonames.org/3461679/herval.html> .
 
@@ -7610,11 +7611,11 @@
     schema:memberOf <https://carlamenegat.github.io/VarelaDigital/org/imperio_brasil>,
         <https://carlamenegat.github.io/VarelaDigital/org/oitavo_batalhao_cacadores> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/jaguarao> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/jaguarao> a geo1:SpatialThing ;
     rdfs:label "Jaguarão"@pt ;
     skos:exactMatch <https://www.geonames.org/3460232/jaguarao.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/montevideu> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/montevideu> a geo1:SpatialThing ;
     rdfs:label "Montevideo"@pt ;
     skos:exactMatch <https://www.geonames.org/3441575/montevideo.html> .
 
@@ -7632,15 +7633,15 @@
     skos:exactMatch <https://www.wikidata.org/wiki/Q10312004> ;
     schema:memberOf <https://carlamenegat.github.io/VarelaDigital/org/imperio_brasil> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/cruz_alta> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/cruz_alta> a geo1:SpatialThing ;
     rdfs:label "Cruz Alta"@pt ;
     skos:exactMatch <https://www.geonames.org/3465108/cruz-alta.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/rio_camaqua> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/rio_camaqua> a geo1:SpatialThing ;
     rdfs:label "Rio de Camaquã"@pt ;
     skos:exactMatch <https://www.geonames.org/3468012/rio-camaqua.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/triunfo> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/triunfo> a geo1:SpatialThing ;
     rdfs:label "Triunfo"@pt ;
     skos:exactMatch <https://www.geonames.org/3446019/triunfo.html> .
 
@@ -7654,7 +7655,7 @@
     hrao:compadreOf <https://carlamenegat.github.io/VarelaDigital/person/bernardina_barcelos_almeida>,
         <https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/cangucu> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/cangucu> a geo1:SpatialThing ;
     rdfs:label "Canguçu"@pt ;
     skos:exactMatch <https://www.geonames.org/3467512/cangucu.html> .
 
@@ -7670,7 +7671,7 @@
     foaf:knows <https://carlamenegat.github.io/VarelaDigital/person/anacleto_jose_matos>,
         <https://carlamenegat.github.io/VarelaDigital/person/jose_sousa_neto> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/rio_pardo> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/rio_pardo> a geo1:SpatialThing ;
     rdfs:label "Rio Pardo"@pt ;
     skos:exactMatch <https://www.geonames.org/3451102/rio-pardo.html> .
 
@@ -7685,7 +7686,7 @@
         <https://www.wikidata.org/wiki/Q4777674> ;
     foaf:knows <https://carlamenegat.github.io/VarelaDigital/person/vicente_paula_simoes_pires> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/sao_gabriel> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/sao_gabriel> a geo1:SpatialThing ;
     rdfs:label "São Gabriel"@pt ;
     skos:exactMatch <https://www.geonames.org/3449099/sao-gabriel.html> .
 
@@ -7717,7 +7718,7 @@
     foaf:knows <https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida>,
         <https://carlamenegat.github.io/VarelaDigital/person/jose_mariano_matos> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/rio_grande> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/rio_grande> a geo1:SpatialThing ;
     rdfs:label "Rio Grande"@pt ;
     skos:exactMatch <https://www.geonames.org/3451138/rio-grande.html> .
 
@@ -7738,7 +7739,7 @@
     schema:debtor <https://carlamenegat.github.io/VarelaDigital/person/alexandre_silveira> ;
     schema:subOrganizationOf <https://carlamenegat.github.io/VarelaDigital/org/secretaria_fazenda> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/alegrete> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/alegrete> a geo1:SpatialThing ;
     rdfs:label "Alegrete"@pt ;
     skos:exactMatch <https://www.geonames.org/3472638/alegrete.html> .
 
@@ -7768,11 +7769,11 @@
     schema:memberOf <https://carlamenegat.github.io/VarelaDigital/org/republica_rio_grandense> ;
     rico:hasFamilyAssociationWith <https://carlamenegat.github.io/VarelaDigital/person/bento_goncalves> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/sao_lourenco> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/sao_lourenco> a geo1:SpatialThing ;
     rdfs:label "São Lourenço"@pt ;
     skos:exactMatch <https://www.geonames.org/3448596/sao-lourenco-do-sul.html> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/bage> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/bage> a geo1:SpatialThing ;
     rdfs:label "Bagé"@pt ;
     skos:exactMatch <https://www.geonames.org/3471196/bage.html> .
 
@@ -7781,7 +7782,7 @@
     skos:exactMatch <https://viaf.org/viaf/7616163939459101160005>,
         <https://www.wikidata.org/wiki/Q162192> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/pelotas> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/pelotas> a geo1:SpatialThing ;
     rdfs:label "Pelotas"@pt ;
     skos:exactMatch <https://www.geonames.org/3454244/pelotas.html> .
 
@@ -7794,7 +7795,7 @@
     hrao:servedUnder <https://carlamenegat.github.io/VarelaDigital/person/serafim_alencastre> ;
     rico:hasFamilyAssociationWith <https://carlamenegat.github.io/VarelaDigital/person/bento_goncalves> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/cacapava> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/cacapava> a geo1:SpatialThing ;
     rdfs:label "Caçapava"@pt ;
     skos:exactMatch <https://www.geonames.org/3468560/cacapava-do-sul.html> .
 
@@ -7829,7 +7830,7 @@
     hrao:commanded <https://carlamenegat.github.io/VarelaDigital/person/vicente_ferrer_almeida> ;
     schema:memberOf <https://carlamenegat.github.io/VarelaDigital/org/assembleia_constituinte> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/porto_alegre> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/porto_alegre> a geo1:SpatialThing ;
     rdfs:label "Porto Alegre"@pt ;
     skos:exactMatch <https://www.geonames.org/3452925/porto-alegre.html> .
 
@@ -7886,7 +7887,7 @@
         <https://carlamenegat.github.io/VarelaDigital/person/rolino_pereira_barros> ;
     rico:hasFamilyAssociationWith <https://carlamenegat.github.io/VarelaDigital/person/carlota> .
 
-<https://carlamenegat.github.io/VarelaDigital/place/piratini> a rico:Place ;
+<https://carlamenegat.github.io/VarelaDigital/place/piratini> a geo1:SpatialThing ;
     rdfs:label "Piratini"@pt ;
     skos:exactMatch <https://www.geonames.org/3453524/piratini.html> .
 
