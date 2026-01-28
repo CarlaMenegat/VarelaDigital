@@ -1,11 +1,8 @@
-@prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix doco: <http://purl.org/spar/doco/> .
 @prefix fabio: <http://purl.org/spar/fabio/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix frbr: <http://purl.org/vocab/frbr/core#> .
 @prefix geo1: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix hico: <http://purl.org/emmedi/hico/> .
 @prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
 @prefix pro: <http://purl.org/spar/pro/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -4320,10 +4317,18 @@
         <https://carlamenegat.github.io/VarelaDigital/person/bernardo_pires>,
         <https://carlamenegat.github.io/VarelaDigital/person/freitas> .
 
+<https://carlamenegat.github.io/VarelaDigital/org/exercito_imperial> a foaf:Organization ;
+    rdfs:label "Exército Imperial Brasileiro"@pt ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q209655> .
+
 <https://carlamenegat.github.io/VarelaDigital/org/faculdade_direito_sao_francisco> a foaf:Organization ;
     rdfs:label "Faculdade de Direito do Largo de São Francisco"@pt ;
     skos:exactMatch <https://viaf.org/en/viaf/155891103>,
         <https://www.wikidata.org/wiki/Q2667184> .
+
+<https://carlamenegat.github.io/VarelaDigital/org/guarda_nacional_imperial> a foaf:Organization ;
+    rdfs:label "Guarda Nacional"@pt ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q311684> .
 
 <https://carlamenegat.github.io/VarelaDigital/org/museu_julio_castilhos> a foaf:Organization ;
     rdfs:label "Museu Júlio de Castilhos"@pt .
@@ -4340,6 +4345,11 @@
 <https://carlamenegat.github.io/VarelaDigital/org/reparticao_fiscal_rio_uruguai> a foaf:Organization ;
     rdfs:label "Repartição Fiscal do Rio Uruguai"@pt ;
     schema:subOrganizationOf <https://carlamenegat.github.io/VarelaDigital/org/tesouro> .
+
+<https://carlamenegat.github.io/VarelaDigital/org/sao_paulo> a foaf:Organization ;
+    rdfs:label "Província de São Paulo"@pt ;
+    skos:exactMatch <https://viaf.org/en/viaf/137083772>,
+        <https://www.wikidata.org/wiki/Q175> .
 
 <https://carlamenegat.github.io/VarelaDigital/org/universidade_coimbra> a foaf:Organization ;
     rdfs:label "Universidade de Coimbra"@pt ;

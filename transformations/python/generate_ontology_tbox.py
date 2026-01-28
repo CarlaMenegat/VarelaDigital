@@ -4,15 +4,15 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Dict, Iterable, List, Set, Tuple
+from typing import Dict, List, Optional, Set, Tuple
 
 from rdflib import Graph, URIRef, Literal
-from rdflib.namespace import RDF, OWL, RDFS, XSD
+from rdflib.namespace import RDF, RDFS, OWL, XSD
 
 
-# -----------------------------
-# Paths
-# -----------------------------
+# ============================================================
+# Paths (project-specific)
+# ============================================================
 
 BASE_DIR = Path("/Users/carlamenegat/Documents/GitHub/Untitled/VarelaDigital")
 
@@ -24,17 +24,34 @@ FROZEN_PROPS = FROZEN_DIR / "properties_used.txt"
 
 OUT_TTL = BASE_DIR / "data_models/ontology/ttl/ontology.ttl"
 
+# HRAO declaration (imported as an ontology dependency)
+HRAO_LOCAL_TTL = BASE_DIR / "assets/hrao/hrao_declaration.ttl"
+HRAO_PUBLIC_IRI = "https://carlamenegat.github.io/VarelaDigital/assets/hrao/hrao_declaration.ttl"
 
-# -----------------------------
-# Ontology URI
-# -----------------------------
-
-ONTOLOGY_URI = URIRef("https://carlamenegat.github.io/VarelaDigital/ontology/ontology")
+# Ontology IRI (public URL of the TTL file you publish)
+ONTOLOGY_IRI = "https://carlamenegat.github.io/VarelaDigital/data_models/ontology/ttl/ontology.ttl"
 
 
-# -----------------------------
-# Helpers
-# -----------------------------
+# ============================================================
+# Policy knobs (important)
+# ============================================================
+
+# These must be DatatypeProperties even if not observed in graph.ttl
+FORCED_DATATYPE_PROPERTIES: Set[str] = {
+    "bibo:pageStart",
+    "bibo:pageEnd",
+    "bibo:volume",
+}
+
+# Avoid domain/range inference for these prefixes (too generic / too risky)
+NO_DOMAIN_RANGE_PREFIXES: Set[str] = {
+    "prov",
+}
+
+
+# ============================================================
+# Small utilities
+# ============================================================
 
 def require_file(p: Path) -> None:
     if not p.exists():
@@ -44,193 +61,351 @@ def require_file(p: Path) -> None:
 def load_terms(path: Path) -> List[str]:
     """
     One CURIE per line (e.g., fabio:Letter, san:refersTo, hrao:servedUnder).
-    Ignores blanks and #-comments in the vocab files.
-    Returns a stable sorted list.
     """
-    terms: Set[str] = set()
+    out: Set[str] = set()
     for line in path.read_text(encoding="utf-8").splitlines():
         t = line.strip()
         if not t or t.startswith("#"):
             continue
-        terms.add(t)
-    return sorted(terms)
+        out.add(t)
+    return sorted(out)
 
 
-def build_ns_map(g: Graph) -> Dict[str, str]:
-    """
-    prefix -> namespace URI string
-    """
+def local_name_from_iri(iri: str) -> str:
+    if "#" in iri:
+        return iri.rsplit("#", 1)[1]
+    return iri.rstrip("/").rsplit("/", 1)[-1]
+
+
+def pretty_label_from_local(local: str) -> str:
+    # snake_case -> words
+    if "_" in local:
+        return local.replace("_", " ").strip()
+    # camelCase -> camel Case
+    out: List[str] = []
+    prev_lower = False
+    for ch in local:
+        if prev_lower and ch.isupper():
+            out.append(" ")
+        out.append(ch)
+        prev_lower = ch.islower()
+    return "".join(out).strip()
+
+
+def uri_for_curie(curie: str, ns_map: Dict[str, str]) -> Optional[URIRef]:
+    curie = (curie or "").strip()
+    if ":" not in curie:
+        return None
+    prefix, local = curie.split(":", 1)
+    prefix, local = prefix.strip(), local.strip()
+    if not prefix or not local:
+        return None
+    ns = ns_map.get(prefix)
+    if not ns:
+        return None
+    return URIRef(ns + local)
+
+
+def ensure_prefix(ns_map: Dict[str, str], prefix: str, ns: str) -> None:
+    if prefix not in ns_map:
+        ns_map[prefix] = ns
+
+
+def build_ns_map_from_graph(g: Graph) -> Dict[str, str]:
     return {p: str(ns) for p, ns in g.namespace_manager.namespaces()}
 
 
-def parse_curie(curie: str) -> Tuple[str, str]:
-    curie = (curie or "").strip()
-    if ":" not in curie:
-        raise ValueError(f"Not a CURIE: {curie}")
-    prefix, local = curie.split(":", 1)
-    prefix = prefix.strip()
-    local = local.strip()
-    if not prefix or not local:
-        raise ValueError(f"Malformed CURIE: {curie}")
-    return prefix, local
-
-
-def uri_for_curie(curie: str, ns_map: Dict[str, str]) -> URIRef:
-    prefix, local = parse_curie(curie)
-    if prefix not in ns_map:
-        raise KeyError(prefix)
-    return URIRef(ns_map[prefix] + local)
-
-
-def used_prefixes(terms: Iterable[str]) -> Set[str]:
-    out: Set[str] = set()
-    for t in terms:
-        if ":" in t:
-            p, _ = t.split(":", 1)
-            out.add(p.strip())
-    return out
-
-
-def infer_property_kind(g: Graph, prop_uri: URIRef) -> str:
+def merge_fallback_prefixes(ns_map: Dict[str, str]) -> Dict[str, str]:
     """
-    Returns "object" or "datatype" based on observed objects in graph:
-      - if any object is a Literal => datatype
-      - else if any object is a URIRef/BNode => object
-    If property never occurs in graph => default "object".
-    If mixed => choose "object" (safer for LOD linking) but you can adjust.
+    Resilient even if graph.ttl is missing some prefix bindings.
+    Also fixes geo: to the WGS84 namespace (needed for geo:SpatialThing).
     """
-    saw_literal = False
-    saw_resource = False
+    # Core
+    ensure_prefix(ns_map, "owl", str(OWL))
+    ensure_prefix(ns_map, "rdf", str(RDF))
+    ensure_prefix(ns_map, "rdfs", str(RDFS))
+    ensure_prefix(ns_map, "xsd", str(XSD))
 
-    for _s, _p, o in g.triples((None, prop_uri, None)):
-        if isinstance(o, Literal):
-            saw_literal = True
-        else:
-            saw_resource = True
+    # Project
+    ensure_prefix(ns_map, "hrao", "https://carlamenegat.github.io/VarelaDigital/hrao#")
 
-        if saw_literal and saw_resource:
-            # mixed usage
-            return "object"
+    # External vocabs
+    ensure_prefix(ns_map, "bibo", "http://purl.org/ontology/bibo/")
+    ensure_prefix(ns_map, "dcterms", "http://purl.org/dc/terms/")
+    ensure_prefix(ns_map, "doco", "http://purl.org/spar/doco/")
+    ensure_prefix(ns_map, "fabio", "http://purl.org/spar/fabio/")
+    ensure_prefix(ns_map, "foaf", "http://xmlns.com/foaf/0.1/")
+    ensure_prefix(ns_map, "frbr", "http://purl.org/vocab/frbr/core#")
+    ensure_prefix(ns_map, "hico", "http://purl.org/emmedi/hico/")
+    ensure_prefix(ns_map, "pro", "http://purl.org/spar/pro/")
+    ensure_prefix(ns_map, "prov", "http://www.w3.org/ns/prov#")
+    ensure_prefix(ns_map, "rel", "http://purl.org/vocab/relationship/")
+    ensure_prefix(ns_map, "rico", "https://www.ica.org/standards/RiC/ontology#")
+    ensure_prefix(ns_map, "schema", "https://schema.org/")
+    ensure_prefix(ns_map, "time", "http://www.w3.org/2006/time#")
+    ensure_prefix(ns_map, "skos", "http://www.w3.org/2004/02/skos/core#")
+    ensure_prefix(ns_map, "san", "http://dati.san.beniculturali.it/ode/?uri=http://dati.san.beniculturali.it/SAN/")
 
-    if saw_literal and not saw_resource:
-        return "datatype"
-    if saw_resource and not saw_literal:
-        return "object"
+    # IMPORTANT: geo: must be WGS84 if you use geo:SpatialThing
+    ns_map["geo"] = "http://www.w3.org/2003/01/geo/wgs84_pos#"
 
-    # not found
-    return "object"
+    return ns_map
 
 
-def format_prefixes(prefix_map: Dict[str, str], prefixes_in_use: Set[str]) -> str:
+def is_infra_term(curie: str) -> bool:
     """
-    Output prefix lines in a stable, readable order:
-    owl, rdf, rdfs, xsd first; then others alphabetically.
+    Terms that should not be declared in ontology.ttl.
     """
-    mandatory = {
-        "owl": str(OWL),
-        "rdf": str(RDF),
-        "rdfs": str(RDFS),
-        "xsd": str(XSD),
+    bad = {
+        "rdf:type",
+        "rdfs:label",
+        "rdfs:comment",
+        "rdfs:subClassOf",
+        "owl:imports",
+        "owl:Ontology",
+        "owl:Class",
+        "owl:ObjectProperty",
+        "owl:DatatypeProperty",
+        "owl:AnnotationProperty",
     }
+    return curie in bad
 
+
+def split_prefix(curie: str) -> str:
+    return curie.split(":", 1)[0] if ":" in curie else ""
+
+
+def property_observation(g: Graph, p: URIRef) -> Tuple[bool, bool]:
+    """
+    Returns (seen_uri_or_bnode, seen_literal)
+    """
+    seen_uri = False
+    seen_lit = False
+    for _s, _p, o in g.triples((None, p, None)):
+        if isinstance(o, Literal):
+            seen_lit = True
+        else:
+            seen_uri = True
+        if seen_uri and seen_lit:
+            break
+    return seen_uri, seen_lit
+
+
+def guess_domain_range(g: Graph, p: URIRef) -> Tuple[Optional[URIRef], Optional[URIRef]]:
+    """
+    Conservative domain/range inference:
+    - domain: if all observed subjects share exactly one rdf:type -> use it
+    - range: if all observed URIRef objects share exactly one rdf:type -> use it
+    Otherwise: None
+    """
+    subj_types: Set[URIRef] = set()
+    obj_types: Set[URIRef] = set()
+
+    for s, _p, o in g.triples((None, p, None)):
+        if isinstance(s, URIRef):
+            for t in g.objects(s, RDF.type):
+                if isinstance(t, URIRef):
+                    subj_types.add(t)
+
+        if isinstance(o, URIRef):
+            for t in g.objects(o, RDF.type):
+                if isinstance(t, URIRef):
+                    obj_types.add(t)
+
+        if len(subj_types) > 1 and len(obj_types) > 1:
+            break
+
+    domain = next(iter(subj_types)) if len(subj_types) == 1 else None
+    range_ = next(iter(obj_types)) if len(obj_types) == 1 else None
+    return domain, range_
+
+
+def ttl_term(iri: URIRef, ns_map: Dict[str, str]) -> str:
+    """
+    Prefer CURIE if possible; else <IRI>.
+    """
+    u = str(iri)
+    best_prefix: Optional[str] = None
+    best_ns: Optional[str] = None
+    for prefix, ns in ns_map.items():
+        if prefix and ns and u.startswith(ns):
+            if best_ns is None or len(ns) > len(best_ns):
+                best_prefix = prefix
+                best_ns = ns
+    if best_prefix and best_ns is not None:
+        local = u[len(best_ns):]
+        if local:
+            return f"{best_prefix}:{local}"
+    return f"<{u}>"
+
+
+# ============================================================
+# Turtle building
+# ============================================================
+
+def prefixes_block(ns_map: Dict[str, str]) -> str:
+    order = [
+        "owl", "rdf", "rdfs", "xsd",
+        "bibo", "dcterms", "doco", "fabio", "foaf", "frbr", "geo",
+        "hico", "hrao", "pro", "prov", "rel", "rico", "san", "schema",
+        "skos", "time",
+    ]
     lines: List[str] = []
-    for p in ("owl", "rdf", "rdfs", "xsd"):
-        lines.append(f"@prefix {p}: <{mandatory[p]}> .")
-
-    # include only prefixes actually needed by the terms (plus the mandatory ones)
-    others = sorted(p for p in prefixes_in_use if p not in mandatory)
-    for p in others:
-        ns = prefix_map.get(p)
+    for p in order:
+        ns = ns_map.get(p)
         if ns:
             lines.append(f"@prefix {p}: <{ns}> .")
-
-    return "\n".join(lines)
-
-
-def write_ontology_ttl(
-    out_path: Path,
-    prefix_map: Dict[str, str],
-    classes: List[str],
-    props: List[str],
-    prop_kinds: Dict[str, str],
-) -> None:
-    prefixes_in_use = used_prefixes(classes) | used_prefixes(props)
-
-    prefix_block = format_prefixes(prefix_map, prefixes_in_use)
-
-    # Ontology header
-    ttl_parts: List[str] = []
-    ttl_parts.append(prefix_block)
-    ttl_parts.append("")
-    ttl_parts.append(f"<{ONTOLOGY_URI}> a owl:Ontology ;")
-    ttl_parts.append('    rdfs:label "Varela Digital Vocabulary Declaration"@en .')
-    ttl_parts.append("")
-
-    # Class declarations
-    for c in classes:
-        ttl_parts.append(f"{c} a owl:Class .")
-    ttl_parts.append("")
-
-    # Property declarations
-    for p in props:
-        kind = prop_kinds.get(p, "object")
-        if kind == "datatype":
-            ttl_parts.append(f"{p} a owl:DatatypeProperty .")
-        else:
-            ttl_parts.append(f"{p} a owl:ObjectProperty .")
-
-    ttl = "\n".join(ttl_parts).strip() + "\n"
-
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text(ttl, encoding="utf-8")
+    return "\n".join(lines) + "\n\n"
 
 
-# -----------------------------
+def ontology_header() -> str:
+    return (
+        f"<{ONTOLOGY_IRI}> a owl:Ontology ;\n"
+        f"    rdfs:label \"Varela Digital Vocabulary Declaration\"@en ;\n"
+        f"    rdfs:comment \"TBox declaration of classes and properties used in the Varela Digital knowledge base.\"@en ;\n"
+        f"    owl:imports <{HRAO_PUBLIC_IRI}> .\n\n"
+    )
+
+
+def declare_class(curie: str, iri: URIRef) -> str:
+    local = local_name_from_iri(str(iri))
+    label = pretty_label_from_local(local)
+    return (
+        f"{curie} a owl:Class ;\n"
+        f"    rdfs:label \"{label}\"@en ;\n"
+        f"    rdfs:comment \"Class used in the Varela Digital knowledge base.\"@en .\n\n"
+    )
+
+
+def declare_property(
+    curie: str,
+    iri: URIRef,
+    kind: URIRef,
+    ns_map: Dict[str, str],
+    domain: Optional[URIRef],
+    range_: Optional[URIRef],
+) -> str:
+    local = local_name_from_iri(str(iri))
+    label = pretty_label_from_local(local)
+
+    comment = (
+        "Project-defined relation used in the Varela Digital knowledge base."
+        if curie.startswith("hrao:")
+        else "Property used in the Varela Digital knowledge base."
+    )
+
+    lines: List[str] = [
+        f"{curie} a {ttl_term(kind, ns_map)} ;",
+        f"    rdfs:label \"{label}\"@en ;",
+        f"    rdfs:comment \"{comment}\"@en ;",
+    ]
+
+    if domain is not None:
+        lines.append(f"    rdfs:domain {ttl_term(domain, ns_map)} ;")
+    if range_ is not None:
+        lines.append(f"    rdfs:range {ttl_term(range_, ns_map)} ;")
+
+    # last ; -> .
+    if lines[-1].endswith(" ;"):
+        lines[-1] = lines[-1][:-2] + " ."
+    else:
+        lines[-1] = lines[-1].rstrip(";") + " ."
+
+    return "\n".join(lines) + "\n\n"
+
+
+# ============================================================
 # Main
-# -----------------------------
+# ============================================================
 
 def main() -> None:
     require_file(GRAPH_TTL)
     require_file(FROZEN_CLASSES)
     require_file(FROZEN_PROPS)
 
+    # HRAO import is optional at runtime: if missing locally, we still generate the TBox.
+    # The public IRI stays in owl:imports anyway.
+    if not HRAO_LOCAL_TTL.exists():
+        print(f"[WARN] HRAO local TTL not found (continuing):\n  {HRAO_LOCAL_TTL}")
+
     g = Graph()
     g.parse(GRAPH_TTL, format="turtle")
 
-    ns_map = build_ns_map(g)
+    ns_map = merge_fallback_prefixes(build_ns_map_from_graph(g))
 
-    classes = load_terms(FROZEN_CLASSES)
-    props = load_terms(FROZEN_PROPS)
+    classes = [c for c in load_terms(FROZEN_CLASSES) if not is_infra_term(c)]
+    props = [p for p in load_terms(FROZEN_PROPS) if not is_infra_term(p)]
 
-    # Validate prefixes exist (fail fast, no silent bad URIs)
-    needed_prefixes = used_prefixes(classes) | used_prefixes(props)
-    missing = sorted(p for p in needed_prefixes if p not in ns_map)
-    if missing:
-        raise RuntimeError(
-            "Missing prefix bindings in graph.ttl for:\n  "
-            + ", ".join(missing)
-            + "\nBind them in graph.ttl or add them to the script's namespace map."
-        )
+    # Validate CURIEs resolvable
+    unresolved_classes = [c for c in classes if uri_for_curie(c, ns_map) is None]
+    unresolved_props = [p for p in props if uri_for_curie(p, ns_map) is None]
+    if unresolved_classes or unresolved_props:
+        msg: List[str] = []
+        if unresolved_classes:
+            msg.append("Unresolved class CURIEs (missing prefix bindings):")
+            msg.extend([f"  - {x}" for x in unresolved_classes])
+        if unresolved_props:
+            msg.append("Unresolved property CURIEs (missing prefix bindings):")
+            msg.extend([f"  - {x}" for x in unresolved_props])
+        raise RuntimeError("\n".join(msg))
 
-    # Infer property kinds from graph
-    prop_kinds: Dict[str, str] = {}
+    out: List[str] = []
+    out.append(prefixes_block(ns_map))
+    out.append(ontology_header())
+
+    # Classes
+    for c in classes:
+        iri = uri_for_curie(c, ns_map)
+        assert iri is not None
+        out.append(declare_class(c, iri))
+
+    # Properties
     for p in props:
-        pu = uri_for_curie(p, ns_map)
-        prop_kinds[p] = infer_property_kind(g, pu)
+        iri = uri_for_curie(p, ns_map)
+        assert iri is not None
 
-    write_ontology_ttl(
-        out_path=OUT_TTL,
-        prefix_map=ns_map,
-        classes=classes,
-        props=props,
-        prop_kinds=prop_kinds,
-    )
+        # A) Forced datatype beats everything
+        if p in FORCED_DATATYPE_PROPERTIES:
+            out.append(declare_property(p, iri, OWL.DatatypeProperty, ns_map, None, None))
+            continue
 
-    print("✔ Generated TBox ontology:")
+        seen_uri, seen_lit = property_observation(g, iri)
+
+        # B) If observed only literals -> DatatypeProperty
+        if seen_lit and not seen_uri:
+            out.append(declare_property(p, iri, OWL.DatatypeProperty, ns_map, None, None))
+            continue
+
+        # C) Otherwise -> ObjectProperty
+        kind = OWL.ObjectProperty
+
+        # Domain/range inference: conservative + opt-out by prefix
+        prefix = split_prefix(p)
+        if prefix in NO_DOMAIN_RANGE_PREFIXES:
+            domain = None
+            range_ = None
+        else:
+            # If not observed at all, don't guess domain/range
+            if not seen_uri and not seen_lit:
+                domain = None
+                range_ = None
+            else:
+                domain, range_ = guess_domain_range(g, iri)
+
+        out.append(declare_property(p, iri, kind, ns_map, domain, range_))
+
+    OUT_TTL.parent.mkdir(parents=True, exist_ok=True)
+    OUT_TTL.write_text("".join(out).strip() + "\n", encoding="utf-8")
+
+    print("✔ Generated ontology.ttl (TBox):")
     print("  ", OUT_TTL)
-    print("✔ From frozen vocab:")
-    print("  ", FROZEN_DIR)
-    print("✔ Property typing inferred from:")
+    print("✔ Ontology IRI:")
+    print("  ", ONTOLOGY_IRI)
+    print("✔ Classes from:")
+    print("  ", FROZEN_CLASSES)
+    print("✔ Properties from:")
+    print("  ", FROZEN_PROPS)
+    print("✔ Evidence graph:")
     print("  ", GRAPH_TTL)
 
 

@@ -57,7 +57,7 @@ PLACE_BASE = BASE_URI + "place/"
 EVENT_BASE = BASE_URI + "event/"
 LETTER_BASE = BASE_URI + "letter/"
 
-# Option B provenance
+# Provenance URIs (instance data)
 DATASET_URI = URIRef(BASE_URI + "dataset/kbvareladigital")
 PROCESS_URI = URIRef(BASE_URI + "process/rdf-generation")
 AGENT_URI = URIRef(BASE_URI + "agent/carla-menegat")
@@ -72,20 +72,20 @@ SOURCE_METADATA_URI = URIRef(BASE_URI + "source/metadata_all_csv")
 TEI_NS = {"tei": "http://www.tei-c.org/ns/1.0"}
 XML_ID = "{http://www.w3.org/XML/1998/namespace}id"
 
+# Core
 DCTERMS = Namespace("http://purl.org/dc/terms/")
 FOAF = Namespace("http://xmlns.com/foaf/0.1/")
 PRO = Namespace("http://purl.org/spar/pro/")
+PROV = Namespace("http://www.w3.org/ns/prov#")
+RICO = Namespace("https://www.ica.org/standards/RiC/ontology#")
+REL = Namespace("http://purl.org/vocab/relationship/")
+FABIO = Namespace("http://purl.org/spar/fabio/")
+FRBR = Namespace("http://purl.org/vocab/frbr/core#")
 
 # IMPORTANT: use https consistently to avoid schema1:
 SCHEMA = Namespace("https://schema.org/")
 
-PROV = Namespace("http://www.w3.org/ns/prov#")
-REL = Namespace("http://purl.org/vocab/relationship/")
-RICO = Namespace("https://www.ica.org/standards/RiC/ontology#")
-FABIO = Namespace("http://purl.org/spar/fabio/")
-FRBR = Namespace("http://purl.org/vocab/frbr/core#")
-
-# GEO (WGS84)
+# GEO (WGS84) — consistent with geo:SpatialThing
 GEO = Namespace("http://www.w3.org/2003/01/geo/wgs84_pos#")
 
 # SAN
@@ -93,6 +93,13 @@ SAN = Namespace("http://dati.san.beniculturali.it/ode/?uri=http://dati.san.benic
 
 # HRAO predicates must be '#'
 HRAO = Namespace(BASE_URI + "hrao#")
+
+# Extra vocabularies that appear in your frozen lists / ontology TBox
+BIBO = Namespace("http://purl.org/ontology/bibo/")
+DOCO = Namespace("http://purl.org/spar/doco/")
+HICO = Namespace("http://purl.org/emmedi/hico/")
+TIME = Namespace("http://www.w3.org/2006/time#")
+
 
 PREFIX_MAP = {
     "dcterms": str(DCTERMS),
@@ -107,6 +114,12 @@ PREFIX_MAP = {
     "geo": str(GEO),
     "san": str(SAN),
     "hrao": str(HRAO),
+
+    # added
+    "bibo": str(BIBO),
+    "doco": str(DOCO),
+    "hico": str(HICO),
+    "time": str(TIME),
 }
 
 
@@ -440,7 +453,11 @@ def build_graph() -> None:
 
     g = Graph()
 
-    # Bind prefixes (override to avoid schema1/ns1)
+    # Bind prefixes (override=True to avoid schema1/ns1)
+    g.bind("rdf", RDF, override=True)
+    g.bind("rdfs", RDFS, override=True)
+    g.bind("xsd", XSD, override=True)
+
     g.bind("dcterms", DCTERMS, override=True)
     g.bind("foaf", FOAF, override=True)
     g.bind("pro", PRO, override=True)
@@ -453,7 +470,13 @@ def build_graph() -> None:
     g.bind("fabio", FABIO, override=True)
     g.bind("frbr", FRBR, override=True)
     g.bind("san", SAN, override=True)
-    g.bind("geo", GEO, override=True)  # ✅ critical for geo:SpatialThing
+    g.bind("geo", GEO, override=True)
+
+    # added binds so they exist in TTL if you want stable prefixes
+    g.bind("bibo", BIBO, override=True)
+    g.bind("doco", DOCO, override=True)
+    g.bind("hico", HICO, override=True)
+    g.bind("time", TIME, override=True)
 
     person_ids, person_exact = load_persons(g)
     org_ids, org_exact = load_orgs(g)

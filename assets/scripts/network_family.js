@@ -169,63 +169,74 @@ function layoutOptions(nodeCount, edgeCount) {
       name: "fcose",
       animate: false,
       randomize: true,
-      quality: "proof",
+      quality: "default",
 
-      nodeRepulsion: nodeCount > 250 ? 26000 : 22000,
-      idealEdgeLength: 190,
-      gravity: 0.16,
-      numIter: nodeCount > 250 || edgeCount > 500 ? 1200 : 900,
+      nodeRepulsion: nodeCount > 250 ? 16000 : 12000,
+      idealEdgeLength: 160,
+
+      gravity: 0.22,
+      numIter: nodeCount > 250 || edgeCount > 500 ? 650 : 500,
 
       avoidOverlap: true,
       nodeDimensionsIncludeLabels: false,
 
-      componentSpacing: 140,
-      nodeSeparation: 140,
-      padding: 40,
+      componentSpacing: 90,
+      nodeSeparation: 80,
+      padding: 30,
     };
   }
 
-  // fallback: COSE (mais agressivo e com anti-overlap)
   return {
     name: "cose",
     animate: false,
     randomize: true,
 
-    nodeRepulsion: nodeCount > 250 ? 26000 : 22000,
-    idealEdgeLength: 190,
-    gravity: 0.05,
-    numIter: nodeCount > 250 || edgeCount > 500 ? 1400 : 1000,
+    nodeRepulsion: nodeCount > 250 ? 20000 : 15000,
+    idealEdgeLength: 170,
+    gravity: 0.06,
+
+    numIter: nodeCount > 250 || edgeCount > 500 ? 900 : 700,
 
     avoidOverlap: true,
-    nodeOverlap: 20,
-    componentSpacing: 140,
-    padding: 40,
+    nodeOverlap: 10,
+    componentSpacing: 90,
+    padding: 30,
   };
 }
 
 /* -----------------------------
-   Post-pass (anti “bolo”)
+   Label control helpers
 ----------------------------- */
 
-function runPostLayoutPass() {
+function clearAllNodeLabels() {
   if (!cy) return;
+  cy.nodes().removeClass("vd-labels");
+}
 
-  // Um COSE curtinho, só para “descolar” clusters densos sem bagunçar o grafo todo.
-  const post = cy.layout({
-    name: "cose",
-    animate: false,
-    randomize: false,
-    numIter: 300,
-    nodeRepulsion: 28000,
-    idealEdgeLength: 210,
-    gravity: 0.02,
-    avoidOverlap: true,
-    nodeOverlap: 25,
-    componentSpacing: 160,
-    padding: 40,
+function showLabelForNode(node) {
+  if (!node || node.empty()) return;
+  node.addClass("vd-labels");
+}
+
+function hideLabelForNode(node) {
+  if (!node || node.empty()) return;
+  // se o node está em foco, mantemos label
+  if (node.hasClass("vd-focus")) return;
+  node.removeClass("vd-labels");
+}
+
+function showLabelsForCollection(col) {
+  if (!cy || !col) return;
+  col.nodes().addClass("vd-labels");
+}
+
+function hideLabelsForNonFocused() {
+  if (!cy) return;
+  cy.nodes().forEach((n) => {
+    if (!n.hasClass("vd-focus") && !n.selected()) {
+      n.removeClass("vd-labels");
+    }
   });
-
-  post.run();
 }
 
 /* -----------------------------
@@ -236,19 +247,17 @@ const STYLE = [
   {
     selector: "node",
     style: {
-      // labels SEMPRE visíveis
-      label: "data(label)",
+      label: "",
+
       "font-size": 10,
       "text-wrap": "wrap",
       "text-max-width": 220,
 
-      // melhora legibilidade em fundo claro
       color: "#1f1f1f",
       "text-background-color": "rgba(248,245,239,0.92)",
       "text-background-opacity": 1,
       "text-background-padding": "2px",
       "text-background-shape": "roundrectangle",
-      "text-border-opacity": 0,
 
       "background-color": "#2f3b2c",
       "border-color": "rgba(0,0,0,0.35)",
@@ -257,19 +266,28 @@ const STYLE = [
       width: 10,
       height: 10,
 
-      // afasta label do node um pouco
       "text-margin-y": -6,
     },
   },
+
+  // quando o node tiver a classe vd-labels → mostra label
+  {
+    selector: "node.vd-labels",
+    style: {
+      label: "data(label)",
+      "z-index": 10,
+    },
+  },
+
+  // hover/selected/focus: mantém destaque visual
   {
     selector: "node:hover, node:selected, node.vd-focus",
     style: {
-      "text-outline-width": 2,
-      "text-outline-color": "rgba(248,245,239,0.96)",
-      "z-index": 10,
       "border-width": 2,
+      "z-index": 12,
     },
   },
+
   {
     selector: "edge",
     style: {
@@ -458,9 +476,14 @@ function showEdgeTooltip(edge) {
 
 function clearFocus() {
   if (!cy) return;
+
   FOCUS_NODE_ID = null;
+
   cy.elements().removeClass("vd-dim");
   cy.nodes().removeClass("vd-focus");
+
+  // volta ao estado: sem labels (só aparecem em hover/selected)
+  clearAllNodeLabels();
 }
 
 function applyFocus(nodeId, depth) {
@@ -473,6 +496,7 @@ function applyFocus(nodeId, depth) {
 
   cy.elements().removeClass("vd-dim");
   cy.nodes().removeClass("vd-focus");
+  clearAllNodeLabels();
 
   let keep = n.closedNeighborhood();
 
@@ -488,6 +512,9 @@ function applyFocus(nodeId, depth) {
   cy.elements().difference(keepWithEdges).addClass("vd-dim");
   n.addClass("vd-focus");
   n.select();
+
+  // no ego network: mostrar labels dos nodes mantidos (melhor para exploração)
+  showLabelsForCollection(keep);
 
   cy.fit(keepWithEdges, 90);
   LAST_FIT_SCOPE = "largest";
@@ -537,6 +564,11 @@ function applyTypeFilter(modeValue) {
 
   cy.endBatch();
 
+  // labels: se não tem foco, só mantém em selected (se houver)
+  if (!FOCUS_NODE_ID) {
+    hideLabelsForNonFocused();
+  }
+
   if (FOCUS_NODE_ID) {
     const depth = parseInt(UI.egoDepth?.value || "1", 10) || 1;
     applyFocus(FOCUS_NODE_ID, depth);
@@ -568,11 +600,39 @@ function initCytoscape(elements) {
     selectionType: "single",
   });
 
+  // background click
   cy.on("tap", (evt) => {
     if (evt.target === cy) closeTooltip();
   });
+
+  // tooltips
   cy.on("tap", "node", (evt) => showNodeTooltip(evt.target));
   cy.on("tap", "edge", (evt) => showEdgeTooltip(evt.target));
+
+  // labels via hover
+  cy.on("mouseover", "node", (evt) => {
+    if (!cy) return;
+    const n = evt.target;
+    showLabelForNode(n);
+  });
+
+  cy.on("mouseout", "node", (evt) => {
+    if (!cy) return;
+    const n = evt.target;
+    // se está focado, deixa
+    if (FOCUS_NODE_ID) return;
+    hideLabelForNode(n);
+  });
+
+  // labels via selection
+  cy.on("select", "node", (evt) => {
+    showLabelForNode(evt.target);
+  });
+
+  cy.on("unselect", "node", (evt) => {
+    if (FOCUS_NODE_ID) return;
+    hideLabelForNode(evt.target);
+  });
 
   setupResizeObserver();
 }
@@ -603,18 +663,10 @@ async function main() {
 
   const layout = cy.layout(layoutOptions(elements.nodes.length, elements.edges.length));
 
-  // Quando terminar o layout principal: rodar um post-pass e só então fit
   cy.one("layoutstop", () => {
     if (!cy) return;
-
-    runPostLayoutPass();
-
-    // esperar o post-pass “assentar” um pouco
-    setTimeout(() => {
-      if (!cy) return;
-      fitLargestComponent(90);
-      setLoading(false);
-    }, 0);
+    fitLargestComponent(90);
+    setLoading(false);
   });
 
   layout.run();
@@ -662,7 +714,6 @@ async function main() {
       clearFocus();
 
       if (cy) {
-        cy.elements().removeClass("vd-dim");
         cy.resize();
         fitLargestComponent(90);
       }
