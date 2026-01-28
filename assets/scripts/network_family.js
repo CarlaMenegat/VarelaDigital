@@ -186,7 +186,7 @@ function layoutOptions(nodeCount, edgeCount) {
       randomize: true,
       quality: "default",
       nodeRepulsion: nodeCount > 250 ? 12000 : 9000,
-      idealEdgeLength: 120,
+      idealEdgeLength: 160,
       gravity: 0.25,
       numIter: nodeCount > 250 || edgeCount > 500 ? 550 : 400,
     };
@@ -196,7 +196,7 @@ function layoutOptions(nodeCount, edgeCount) {
     name: "cose",
     animate: false,
     randomize: true,
-    nodeRepulsion: nodeCount > 250 ? 18000 : 12000,
+    nodeRepulsion: nodeCount > 250 ? 16000 : 12000,
     idealEdgeLength: 140,
     gravity: 0.08,
     numIter: nodeCount > 250 || edgeCount > 500 ? 750 : 550,
