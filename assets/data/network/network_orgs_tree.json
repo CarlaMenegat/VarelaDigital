@@ -4,226 +4,54 @@
   "type": "root",
   "children": [
     {
-      "id": "corpo_exercito_1",
-      "label": "1.º Corpo do Exército Farroupilha",
-      "type": "militaryUnit",
-      "roleInTime": [
-        {
-          "stateId": "corpo_exercito_1_unidade",
-          "roleName": "Corpo do Exército",
-          "affiliation": "exercito_farroupilha"
-        }
-      ]
-    },
-    {
-      "id": "batalhao_11",
-      "label": "11.º Batalhão",
-      "type": "militaryUnit",
-      "roleInTime": [
-        {
-          "stateId": "batalhao_11_exercito_imperial",
-          "roleName": "Unidade de infantaria de linha",
-          "affiliation": "imperio_brasil"
-        }
-      ]
-    },
-    {
-      "id": "infantaria_11batalhao",
-      "label": "11.º Batalhão de Infantaria",
-      "type": "militaryUnit",
-      "roleInTime": [
-        {
-          "stateId": "infantaria_11batalhao_imperio_rs_1840",
-          "roleName": "Batalhão de infantaria",
-          "affiliation": "exercito_imperial"
-        }
-      ]
-    },
-    {
-      "id": "decimasegunda_companhia_gn",
-      "label": "12.ª Companhia da Guarda Nacional",
-      "type": "militaryUnit",
-      "roleInTime": [
-        {
-          "stateId": "decimasegunda_companhia_gn_imperial",
-          "roleName": "Companhia da Guarda Nacional do Império do Brasil",
-          "affiliation": "guarda_nacional_imperial"
-        }
-      ]
-    },
-    {
-      "id": "brigada_2",
-      "label": "2.ª Brigada",
-      "type": "militaryUnit",
-      "roleInTime": [
-        {
-          "stateId": "brigada_2_exercito_imperial",
-          "roleName": "Brigada do Exército Imperial",
-          "affiliation": "exercito_imperial"
-        }
-      ]
-    },
-    {
-      "id": "segundo_batalhao",
-      "label": "2.º Batalhão",
-      "type": "militaryUnit",
-      "roleInTime": [
-        {
-          "stateId": "segundo_batalhao_imperio_rs_1839",
-          "roleName": "Batalhão de infantaria",
-          "affiliation": "exercito_imperial"
-        }
-      ]
-    },
-    {
-      "id": "corpo_cavalaria_2",
-      "label": "2.º Corpo de Cavalaria",
-      "type": "militaryUnit",
-      "roleInTime": [
-        {
-          "stateId": "corpo_cavalaria_2_unidade",
-          "roleName": "Unidade de cavalaria",
-          "affiliation": "exercito_farroupilha"
-        }
-      ]
-    },
-    {
-      "id": "corpo_lanceiros_2",
-      "label": "2.º Corpo de Lanceiros",
-      "type": "militaryUnit",
-      "roleInTime": [
-        {
-          "stateId": "corpo_lanceiros_2_unidade",
-          "roleName": "Unidade de cavalaria leve",
-          "affiliation": "exercito_farroupilha"
-        }
-      ]
-    },
-    {
-      "id": "corpo_5_gn",
-      "label": "5.º Corpo da Guarda Nacional",
-      "type": "militaryUnit",
-      "roleInTime": [
-        {
-          "stateId": "corpo_5_gn_imperial",
-          "roleName": "Unidade da Guarda Nacional do Império do Brasil",
-          "affiliation": "guarda_nacional_imperial"
-        }
-      ]
-    },
-    {
-      "id": "corpo_5_farroupilhas",
-      "label": "5.º Corpo dos rebeldes",
-      "type": "militaryUnit",
-      "roleInTime": [
-        {
-          "stateId": "corpo_5_rebeldes_farroupilha",
-          "roleName": "Unidade militar do Exército Farroupilha",
-          "affiliation": "exercito_farroupilha"
-        }
-      ]
-    },
-    {
-      "id": "brigada_8",
-      "label": "8.ª Brigada",
-      "type": "militaryUnit",
-      "roleInTime": [
-        {
-          "stateId": "brigada_8_exercito_imperial",
-          "roleName": "Brigada do Exército Imperial",
-          "affiliation": "exercito_imperial"
-        }
-      ]
-    },
-    {
-      "id": "arquivo_hrs",
-      "label": "Arquivo Histórico do Rio Grande do Sul",
-      "type": "archive",
-      "roleInTime": [
-        {
-          "stateId": "estado_transfere_para_ahrs_1954",
-          "roleName": "Transferência da Coleção Varela ao Arquivo Histórico do Rio Grande do Sul",
-          "affiliation": "colecao_varela"
-        }
-      ]
-    },
-    {
       "id": "arquivo_dja",
       "label": "Arquivo pessoal de Domingos José de Almeida",
       "type": "personalArchive",
       "roleInTime": []
     },
     {
-      "id": "arsenal",
-      "label": "Arsenal",
-      "type": "militaryFacility",
-      "roleInTime": [
-        {
-          "stateId": "arsenal_farroupilha",
-          "roleName": "Estabelecimento militar",
-          "affiliation": "exercito_farroupilha"
-        }
-      ]
-    },
-    {
-      "id": "arsenal_guerra",
-      "label": "Arsenal de Guerra",
-      "type": "militaryFacility",
-      "roleInTime": [
-        {
-          "stateId": "arsenal_guerra_imperio_rs",
-          "roleName": "Estabelecimento militar",
-          "affiliation": "exercito_imperial"
-        }
-      ]
-    },
-    {
       "id": "colecao_varela",
       "label": "Coleção Varela",
       "type": "archiveCollection",
-      "roleInTime": []
-    },
-    {
-      "id": "corpo_lanceiros_negros",
-      "label": "Corpo de Lanceiros Negros",
-      "type": "militaryUnit",
-      "roleInTime": [
+      "roleInTime": [],
+      "children": [
         {
-          "stateId": "corpo_lanceiros_negros_unidade",
-          "roleName": "Unidade de cavalaria leve",
-          "affiliation": "exercito_farroupilha"
+          "id": "arquivo_hrs",
+          "label": "Arquivo Histórico do Rio Grande do Sul",
+          "type": "archive",
+          "roleInTime": [
+            {
+              "stateId": "estado_transfere_para_ahrs_1954",
+              "roleName": "Transferência da Coleção Varela ao Arquivo Histórico do Rio Grande do Sul",
+              "affiliation": "colecao_varela"
+            }
+          ]
+        },
+        {
+          "id": "estado_rs",
+          "label": "Estado do Rio Grande do Sul",
+          "type": "government",
+          "roleInTime": [
+            {
+              "stateId": "estado_recebe_colecao_1936",
+              "roleName": "Recepção e incorporação da Coleção Varela",
+              "affiliation": "colecao_varela"
+            }
+          ]
+        },
+        {
+          "id": "museu_julio_castilhos",
+          "label": "Museu Júlio de Castilhos",
+          "type": "museum",
+          "roleInTime": [
+            {
+              "stateId": "estado_deposita_no_museu",
+              "roleName": "Depósito institucional da Coleção Varela",
+              "affiliation": "colecao_varela"
+            }
+          ]
         }
       ]
-    },
-    {
-      "id": "corpo_provisorio",
-      "label": "Corpo Provisório",
-      "type": "militaryUnit",
-      "roleInTime": [
-        {
-          "stateId": "corpo_provisorio_imperio_rs_1838",
-          "roleName": "Unidade militar",
-          "affiliation": "exercito_imperial"
-        }
-      ]
-    },
-    {
-      "id": "corpos_primeira_linha",
-      "label": "Corpos de 1.ª Linha",
-      "type": "militaryUnit",
-      "roleInTime": [
-        {
-          "stateId": "corpos_primeira_linha_farroupilha",
-          "roleName": "Tropas regulares de linha",
-          "affiliation": "exercito_farroupilha"
-        }
-      ]
-    },
-    {
-      "id": "camara_alegrete",
-      "label": "Câmara de Alegrete",
-      "type": "governmentBody",
-      "roleInTime": []
     },
     {
       "id": "estate_jose_augusto_ledek",
@@ -238,52 +66,10 @@
       ]
     },
     {
-      "id": "esquadrao_faxinal",
-      "label": "Esquadrão do Faxinal",
-      "type": "militaryUnit",
-      "roleInTime": [
-        {
-          "stateId": "esquadrao_faxinal_imperial",
-          "roleName": "Unidade de cavalaria do Exército Imperial",
-          "affiliation": "exercito_imperial"
-        }
-      ]
-    },
-    {
-      "id": "estado_rs",
-      "label": "Estado do Rio Grande do Sul",
-      "type": "government",
-      "roleInTime": [
-        {
-          "stateId": "estado_recebe_colecao_1936",
-          "roleName": "Recepção e incorporação da Coleção Varela",
-          "affiliation": "colecao_varela"
-        }
-      ]
-    },
-    {
-      "id": "faculdade_direito_sao_francisco",
-      "label": "Faculdade de Direito do Largo de São Francisco",
-      "type": "educationalInstitution",
-      "roleInTime": []
-    },
-    {
       "id": "fazendas_nacionais",
       "label": "Fazendas Nacionais",
       "type": null,
       "roleInTime": []
-    },
-    {
-      "id": "guarda_nacional",
-      "label": "Guarda Nacional",
-      "type": "militaryInstitution",
-      "roleInTime": [
-        {
-          "stateId": "guarda_nacional_imperio",
-          "roleName": "Força militar cidadã",
-          "affiliation": "imperio_brasil"
-        }
-      ]
     },
     {
       "id": "imperio_brasil",
@@ -302,6 +88,18 @@
           "label": "1.º Batalhão de Fuzileiros",
           "type": "militaryUnit",
           "roleInTime": []
+        },
+        {
+          "id": "batalhao_11",
+          "label": "11.º Batalhão",
+          "type": "militaryUnit",
+          "roleInTime": [
+            {
+              "stateId": "batalhao_11_exercito_imperial",
+              "roleName": "Unidade de infantaria de linha",
+              "affiliation": "imperio_brasil"
+            }
+          ]
         },
         {
           "id": "segundo_corpo",
@@ -410,40 +208,182 @@
           "label": "Esquadrão do Triunfo",
           "type": "militaryUnit",
           "roleInTime": []
-        }
-      ]
-    },
-    {
-      "id": "museu_julio_castilhos",
-      "label": "Museu Júlio de Castilhos",
-      "type": "museum",
-      "roleInTime": [
-        {
-          "stateId": "estado_deposita_no_museu",
-          "roleName": "Depósito institucional da Coleção Varela",
-          "affiliation": "colecao_varela"
-        }
-      ]
-    },
-    {
-      "id": "periodico_povo",
-      "label": "O Povo",
-      "type": "periodical",
-      "roleInTime": [
-        {
-          "stateId": "periodico_povo_oficial",
-          "roleName": "Periódico oficial da República Rio-Grandense",
-          "affiliation": "republica_rio_grandense"
         },
         {
-          "stateId": "periodico_povo_piratini",
-          "roleName": "Edição e circulação em Piratini",
-          "affiliation": "republica_rio_grandense"
+          "id": "exercito_imperial",
+          "label": "Exército Imperial Brasileiro",
+          "type": "militaryOrganization",
+          "roleInTime": [],
+          "children": [
+            {
+              "id": "infantaria_11batalhao",
+              "label": "11.º Batalhão de Infantaria",
+              "type": "militaryUnit",
+              "roleInTime": [
+                {
+                  "stateId": "infantaria_11batalhao_imperio_rs_1840",
+                  "roleName": "Batalhão de infantaria",
+                  "affiliation": "exercito_imperial"
+                }
+              ]
+            },
+            {
+              "id": "brigada_2",
+              "label": "2.ª Brigada",
+              "type": "militaryUnit",
+              "roleInTime": [
+                {
+                  "stateId": "brigada_2_exercito_imperial",
+                  "roleName": "Brigada do Exército Imperial",
+                  "affiliation": "exercito_imperial"
+                }
+              ]
+            },
+            {
+              "id": "segundo_batalhao",
+              "label": "2.º Batalhão",
+              "type": "militaryUnit",
+              "roleInTime": [
+                {
+                  "stateId": "segundo_batalhao_imperio_rs_1839",
+                  "roleName": "Batalhão de infantaria",
+                  "affiliation": "exercito_imperial"
+                }
+              ]
+            },
+            {
+              "id": "brigada_8",
+              "label": "8.ª Brigada",
+              "type": "militaryUnit",
+              "roleInTime": [
+                {
+                  "stateId": "brigada_8_exercito_imperial",
+                  "roleName": "Brigada do Exército Imperial",
+                  "affiliation": "exercito_imperial"
+                }
+              ]
+            },
+            {
+              "id": "arsenal_guerra",
+              "label": "Arsenal de Guerra",
+              "type": "militaryFacility",
+              "roleInTime": [
+                {
+                  "stateId": "arsenal_guerra_imperio_rs",
+                  "roleName": "Estabelecimento militar",
+                  "affiliation": "exercito_imperial"
+                }
+              ]
+            },
+            {
+              "id": "corpo_provisorio",
+              "label": "Corpo Provisório",
+              "type": "militaryUnit",
+              "roleInTime": [
+                {
+                  "stateId": "corpo_provisorio_imperio_rs_1838",
+                  "roleName": "Unidade militar",
+                  "affiliation": "exercito_imperial"
+                }
+              ]
+            },
+            {
+              "id": "esquadrao_faxinal",
+              "label": "Esquadrão do Faxinal",
+              "type": "militaryUnit",
+              "roleInTime": [
+                {
+                  "stateId": "esquadrao_faxinal_imperial",
+                  "roleName": "Unidade de cavalaria do Exército Imperial",
+                  "affiliation": "exercito_imperial"
+                }
+              ]
+            }
+          ]
         },
         {
-          "stateId": "periodico_povo_cacapava",
-          "roleName": "Edição e circulação em Caçapava",
-          "affiliation": "republica_rio_grandense"
+          "id": "guarda_nacional_imperial",
+          "label": "Guarda Nacional",
+          "type": "militaryOrganization",
+          "roleInTime": [],
+          "children": [
+            {
+              "id": "decimasegunda_companhia_gn",
+              "label": "12.ª Companhia da Guarda Nacional",
+              "type": "militaryUnit",
+              "roleInTime": [
+                {
+                  "stateId": "decimasegunda_companhia_gn_imperial",
+                  "roleName": "Companhia da Guarda Nacional do Império do Brasil",
+                  "affiliation": "guarda_nacional_imperial"
+                }
+              ]
+            },
+            {
+              "id": "corpo_5_gn",
+              "label": "5.º Corpo da Guarda Nacional",
+              "type": "militaryUnit",
+              "roleInTime": [
+                {
+                  "stateId": "corpo_5_gn_imperial",
+                  "roleName": "Unidade da Guarda Nacional do Império do Brasil",
+                  "affiliation": "guarda_nacional_imperial"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "guarda_nacional",
+          "label": "Guarda Nacional",
+          "type": "militaryInstitution",
+          "roleInTime": [
+            {
+              "stateId": "guarda_nacional_imperio",
+              "roleName": "Força militar cidadã",
+              "affiliation": "imperio_brasil"
+            }
+          ]
+        },
+        {
+          "id": "sao_paulo",
+          "label": "Província de São Paulo",
+          "type": "administrativeRegion",
+          "roleInTime": [
+            {
+              "stateId": "provincia_sp_imperio",
+              "roleName": "Província do Império do Brasil",
+              "affiliation": "imperio_brasil"
+            }
+          ],
+          "children": [
+            {
+              "id": "faculdade_direito_sao_francisco",
+              "label": "Faculdade de Direito do Largo de São Francisco",
+              "type": "educationalInstitution",
+              "roleInTime": []
+            }
+          ]
+        },
+        {
+          "id": "provincia_rio_grande_sul",
+          "label": "Província de São Pedro do Rio Grande do Sul",
+          "type": "administrativeRegion",
+          "roleInTime": [
+            {
+              "stateId": "provincia_rs_imperio",
+              "roleName": "Província do Império do Brasil",
+              "affiliation": "imperio_brasil"
+            }
+          ],
+          "children": [
+            {
+              "id": "assembleia_provincial_rs",
+              "label": "Assembleia Provincial de São Pedro do Rio Grande do Sul",
+              "type": "government",
+              "roleInTime": []
+            }
+          ]
         }
       ]
     },
@@ -460,26 +400,6 @@
       "roleInTime": []
     },
     {
-      "id": "provincia_rio_grande_sul",
-      "label": "Província de São Pedro do Rio Grande do Sul",
-      "type": "administrativeRegion",
-      "roleInTime": [
-        {
-          "stateId": "provincia_rs_imperio",
-          "roleName": "Província do Império do Brasil",
-          "affiliation": "imperio_brasil"
-        }
-      ],
-      "children": [
-        {
-          "id": "assembleia_provincial_rs",
-          "label": "Assembleia Provincial de São Pedro do Rio Grande do Sul",
-          "type": "government",
-          "roleInTime": []
-        }
-      ]
-    },
-    {
       "id": "republica_rio_grandense",
       "label": "República Rio-Grandense",
       "type": "sovereignState",
@@ -489,6 +409,12 @@
           "id": "assembleia_constituinte",
           "label": "Assembleia Geral Constituinte e Legislativa da República Rio-Grandense",
           "type": "legislativeBody",
+          "roleInTime": []
+        },
+        {
+          "id": "camara_alegrete",
+          "label": "Câmara de Alegrete",
+          "type": "governmentBody",
           "roleInTime": []
         },
         {
@@ -510,6 +436,42 @@
               "roleInTime": []
             },
             {
+              "id": "corpo_exercito_1",
+              "label": "1.º Corpo do Exército Farroupilha",
+              "type": "militaryUnit",
+              "roleInTime": [
+                {
+                  "stateId": "corpo_exercito_1_unidade",
+                  "roleName": "Corpo do Exército",
+                  "affiliation": "exercito_farroupilha"
+                }
+              ]
+            },
+            {
+              "id": "corpo_cavalaria_2",
+              "label": "2.º Corpo de Cavalaria",
+              "type": "militaryUnit",
+              "roleInTime": [
+                {
+                  "stateId": "corpo_cavalaria_2_unidade",
+                  "roleName": "Unidade de cavalaria",
+                  "affiliation": "exercito_farroupilha"
+                }
+              ]
+            },
+            {
+              "id": "corpo_lanceiros_2",
+              "label": "2.º Corpo de Lanceiros",
+              "type": "militaryUnit",
+              "roleInTime": [
+                {
+                  "stateId": "corpo_lanceiros_2_unidade",
+                  "roleName": "Unidade de cavalaria leve",
+                  "affiliation": "exercito_farroupilha"
+                }
+              ]
+            },
+            {
               "id": "terceira_cia_esquadrao_pelotas",
               "label": "3.ª Companhia do Esquadrão de Pelotas",
               "type": "militaryUnit",
@@ -522,10 +484,58 @@
               "roleInTime": []
             },
             {
+              "id": "corpo_5_farroupilhas",
+              "label": "5.º Corpo dos rebeldes",
+              "type": "militaryUnit",
+              "roleInTime": [
+                {
+                  "stateId": "corpo_5_rebeldes_farroupilha",
+                  "roleName": "Unidade militar do Exército Farroupilha",
+                  "affiliation": "exercito_farroupilha"
+                }
+              ]
+            },
+            {
+              "id": "arsenal",
+              "label": "Arsenal",
+              "type": "militaryFacility",
+              "roleInTime": [
+                {
+                  "stateId": "arsenal_farroupilha",
+                  "roleName": "Estabelecimento militar",
+                  "affiliation": "exercito_farroupilha"
+                }
+              ]
+            },
+            {
               "id": "coluna_centro",
               "label": "Coluna do Centro",
               "type": "militaryUnit",
               "roleInTime": []
+            },
+            {
+              "id": "corpo_lanceiros_negros",
+              "label": "Corpo de Lanceiros Negros",
+              "type": "militaryUnit",
+              "roleInTime": [
+                {
+                  "stateId": "corpo_lanceiros_negros_unidade",
+                  "roleName": "Unidade de cavalaria leve",
+                  "affiliation": "exercito_farroupilha"
+                }
+              ]
+            },
+            {
+              "id": "corpos_primeira_linha",
+              "label": "Corpos de 1.ª Linha",
+              "type": "militaryUnit",
+              "roleInTime": [
+                {
+                  "stateId": "corpos_primeira_linha_farroupilha",
+                  "roleName": "Tropas regulares de linha",
+                  "affiliation": "exercito_farroupilha"
+                }
+              ]
             },
             {
               "id": "divisao_esquerda",
@@ -538,6 +548,18 @@
               "label": "Divisão Direita",
               "type": "militaryUnit",
               "roleInTime": []
+            },
+            {
+              "id": "trem_guerra_farroupilha",
+              "label": "Trem de Guerra",
+              "type": "militaryUnit",
+              "roleInTime": [
+                {
+                  "stateId": "trem_guerra_farroupilha_logistica",
+                  "roleName": "Aparelho logístico militar",
+                  "affiliation": "exercito_farroupilha"
+                }
+              ]
             }
           ]
         },
@@ -570,6 +592,82 @@
               "label": "Secretaria de Estado dos Negócios da Fazenda",
               "type": "governmentOffice",
               "roleInTime": []
+            },
+            {
+              "id": "tesouro",
+              "label": "Tesouro",
+              "type": "governmentOffice",
+              "roleInTime": [
+                {
+                  "stateId": "tesouro_republica_rio_grandense",
+                  "roleName": "Órgão central de finanças públicas",
+                  "affiliation": "ministerio_fazenda"
+                }
+              ],
+              "children": [
+                {
+                  "id": "coletoria_bage",
+                  "label": "Coletoria de Bagé",
+                  "type": "administrativeUnit",
+                  "roleInTime": []
+                },
+                {
+                  "id": "coletoria_jaguarao",
+                  "label": "Coletoria de Jaguarão",
+                  "type": "administrativeUnit",
+                  "roleInTime": []
+                },
+                {
+                  "id": "coletoria_pelotas",
+                  "label": "Coletoria de Pelotas",
+                  "type": "administrativeUnit",
+                  "roleInTime": []
+                },
+                {
+                  "id": "coletoria_piratini",
+                  "label": "Coletoria de Piratini",
+                  "type": "administrativeUnit",
+                  "roleInTime": []
+                },
+                {
+                  "id": "coletoria_erval",
+                  "label": "Coletoria do Erval",
+                  "type": "administrativeUnit",
+                  "roleInTime": []
+                },
+                {
+                  "id": "coletoria_alegrete_sao_borja",
+                  "label": "Coletoria Geral dos Municípios de Alegrete e São Borja",
+                  "type": "administrativeUnit",
+                  "roleInTime": []
+                },
+                {
+                  "id": "reparticao_fiscal_rio_uruguai",
+                  "label": "Repartição Fiscal do Rio Uruguai",
+                  "type": "administrativeUnit",
+                  "roleInTime": []
+                },
+                {
+                  "id": "secretaria_tesouro",
+                  "label": "Secretaria do Tesouro",
+                  "type": "governmentOffice",
+                  "roleInTime": []
+                },
+                {
+                  "id": "tribunal_tesouro",
+                  "label": "Tribunal do Tesouro",
+                  "type": "governmentOffice",
+                  "roleInTime": [],
+                  "children": [
+                    {
+                      "id": "procuradoria_fiscal",
+                      "label": "Procuradoria Fiscal",
+                      "type": "administrativeUnit",
+                      "roleInTime": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -577,7 +675,21 @@
           "id": "ministerio_guerra",
           "label": "Ministério da Guerra",
           "type": "governmentMinistry",
-          "roleInTime": []
+          "roleInTime": [],
+          "children": [
+            {
+              "id": "secretaria_guerra",
+              "label": "Secretaria dos Negócios da Guerra",
+              "type": "governmentOffice",
+              "roleInTime": [
+                {
+                  "stateId": "secretaria_guerra_rr",
+                  "roleName": "Secretaria do Ministério da Guerra",
+                  "affiliation": "ministerio_guerra"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "ministerio_justica",
@@ -606,118 +718,40 @@
               "roleInTime": []
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "secretaria_republica_riograndense",
-      "label": "Secretaria da República Rio-Grandense",
-      "type": "governmentOffice",
-      "roleInTime": [
-        {
-          "stateId": "secretaria_republica_riograndense_funcao",
-          "roleName": "Órgão administrativo central",
-          "affiliation": "republica_rio_grandense"
-        }
-      ]
-    },
-    {
-      "id": "secretaria_guerra",
-      "label": "Secretaria dos Negócios da Guerra",
-      "type": "governmentOffice",
-      "roleInTime": [
-        {
-          "stateId": "secretaria_guerra_rr",
-          "roleName": "Secretaria do Ministério da Guerra",
-          "affiliation": "ministerio_guerra"
-        }
-      ]
-    },
-    {
-      "id": "tesouro",
-      "label": "Tesouro",
-      "type": "governmentOffice",
-      "roleInTime": [
-        {
-          "stateId": "tesouro_republica_rio_grandense",
-          "roleName": "Órgão central de finanças públicas",
-          "affiliation": "ministerio_fazenda"
-        }
-      ],
-      "children": [
-        {
-          "id": "coletoria_bage",
-          "label": "Coletoria de Bagé",
-          "type": "administrativeUnit",
-          "roleInTime": []
         },
         {
-          "id": "coletoria_jaguarao",
-          "label": "Coletoria de Jaguarão",
-          "type": "administrativeUnit",
-          "roleInTime": []
-        },
-        {
-          "id": "coletoria_pelotas",
-          "label": "Coletoria de Pelotas",
-          "type": "administrativeUnit",
-          "roleInTime": []
-        },
-        {
-          "id": "coletoria_piratini",
-          "label": "Coletoria de Piratini",
-          "type": "administrativeUnit",
-          "roleInTime": []
-        },
-        {
-          "id": "coletoria_erval",
-          "label": "Coletoria do Erval",
-          "type": "administrativeUnit",
-          "roleInTime": []
-        },
-        {
-          "id": "coletoria_alegrete_sao_borja",
-          "label": "Coletoria Geral dos Municípios de Alegrete e São Borja",
-          "type": "administrativeUnit",
-          "roleInTime": []
-        },
-        {
-          "id": "reparticao_fiscal_rio_uruguai",
-          "label": "Repartição Fiscal do Rio Uruguai",
-          "type": "administrativeUnit",
-          "roleInTime": []
-        },
-        {
-          "id": "secretaria_tesouro",
-          "label": "Secretaria do Tesouro",
-          "type": "governmentOffice",
-          "roleInTime": []
-        },
-        {
-          "id": "tribunal_tesouro",
-          "label": "Tribunal do Tesouro",
-          "type": "governmentOffice",
-          "roleInTime": [],
-          "children": [
+          "id": "periodico_povo",
+          "label": "O Povo",
+          "type": "periodical",
+          "roleInTime": [
             {
-              "id": "procuradoria_fiscal",
-              "label": "Procuradoria Fiscal",
-              "type": "administrativeUnit",
-              "roleInTime": []
+              "stateId": "periodico_povo_oficial",
+              "roleName": "Periódico oficial da República Rio-Grandense",
+              "affiliation": "republica_rio_grandense"
+            },
+            {
+              "stateId": "periodico_povo_piratini",
+              "roleName": "Edição e circulação em Piratini",
+              "affiliation": "republica_rio_grandense"
+            },
+            {
+              "stateId": "periodico_povo_cacapava",
+              "roleName": "Edição e circulação em Caçapava",
+              "affiliation": "republica_rio_grandense"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "trem_guerra_farroupilha",
-      "label": "Trem de Guerra",
-      "type": "militaryUnit",
-      "roleInTime": [
+        },
         {
-          "stateId": "trem_guerra_farroupilha_logistica",
-          "roleName": "Aparelho logístico militar",
-          "affiliation": "exercito_farroupilha"
+          "id": "secretaria_republica_riograndense",
+          "label": "Secretaria da República Rio-Grandense",
+          "type": "governmentOffice",
+          "roleInTime": [
+            {
+              "stateId": "secretaria_republica_riograndense_funcao",
+              "roleName": "Órgão administrativo central",
+              "affiliation": "republica_rio_grandense"
+            }
+          ]
         }
       ]
     },

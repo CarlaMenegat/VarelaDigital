@@ -1,6 +1,5 @@
 /* =========================================================
-   Varela Digital — Social Network (Cytoscape) — PERFORMANCE PASS
-   Source: data/network/network_people.json
+   Varela Digital — Social Network (Cytoscape) 
    ========================================================= */
 
 const DATA_PATH = "../data/network/network_people.json";

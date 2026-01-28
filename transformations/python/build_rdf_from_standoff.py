@@ -315,7 +315,6 @@ def load_places(graph: Graph) -> tuple[set[str], dict[str, URIRef]]:
         place_ids.add(pid)
         u = place_uri(pid)
 
-        # ✅ Your model: geo:SpatialThing
         graph.add((u, RDF.type, GEO.SpatialThing))
 
         name_el = pl.find("./tei:placeName", TEI_NS)

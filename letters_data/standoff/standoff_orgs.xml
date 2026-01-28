@@ -136,6 +136,22 @@
             </note>
         </org>
         
+        <org xml:id="sao_paulo" type="administrativeRegion">
+            <orgName type="historical">Província de São Paulo</orgName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q175</idno>
+            <idno type="viaf">https://viaf.org/en/viaf/137083772</idno>
+            <state type="roleInTime" xml:id="provincia_sp_imperio">
+                <roleName>Província do Império do Brasil</roleName>
+                <affiliation ref="#imperio_brasil"/>
+            </state>
+            <note>
+                Unidade administrativa do Império do Brasil ao longo do século XIX, com governo
+                provincial e Assembleia Legislativa própria. Centro político, econômico e jurídico
+                de grande relevância, sediou instituições como a Faculdade de Direito de São Paulo,
+                responsável pela formação de quadros administrativos e políticos do Império.
+            </note>
+        </org>
+        
         <org xml:id="republica_rio_grandense" type="sovereignState">
             <orgName>República Rio-Grandense</orgName>
             <orgName type="variant">República Rio-grandense</orgName>
@@ -161,6 +177,34 @@
                 na defesa da integridade territorial da província do Rio Grande do Sul, enviando presidentes 
                 provinciais, comandantes militares e unidades do Exército e da Guarda Nacional para enfrentar 
                 a República Rio-Grandense.
+            </note>
+        </org>
+        
+        <org xml:id="exercito_imperial" type="militaryOrganization">
+            <orgName type="historical">Exército Imperial Brasileiro</orgName>
+            <orgName type="variant">Exército do Império do Brasil</orgName>
+            <orgName type="alias">Exército Imperial</orgName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q209655</idno>
+            <idno type="project"/>
+            <affiliation ref="#imperio_brasil"/>
+            <note>
+                Força militar regular do Império do Brasil ao longo do século XIX, responsável pela
+                defesa do território imperial e pela repressão de movimentos armados internos, como
+                a Revolução Farroupilha, além de atuar em conflitos externos.
+            </note>
+        </org>
+        
+        <org xml:id="guarda_nacional_imperial" type="militaryOrganization">
+            <orgName type="historical">Guarda Nacional</orgName>
+            <orgName type="alias">Guarda Nacional do Império</orgName>
+            <orgName type="variant">Guarda Nacional Imperial</orgName>
+            <idno type="wikidata">https://www.wikidata.org/wiki/Q311684</idno>
+            <idno type="project"/>
+            <affiliation ref="#imperio_brasil"/>
+            <note>
+                Corpo armado criado no Império do Brasil em 1831, composto por cidadãos proprietários,
+                destinado à manutenção da ordem interna e ao apoio às forças regulares. Teve papel
+                central na repressão de revoltas provinciais e na organização militar local.
             </note>
         </org>
         
@@ -411,6 +455,7 @@
         
         <org xml:id="camara_alegrete" type="governmentBody">
             <orgName>Câmara de Alegrete</orgName>
+            <affiliation ref="#republica_rio_grandense"/>
             <idno type="project"/>
             <note>
                 Câmara municipal da Vila do Alegrete, composta por presidente e vereadores.

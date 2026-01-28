@@ -17,11 +17,17 @@
 @prefix vd:      <https://github.com/CarlaMenegat/VarelaDigital> .
 @prefix hrao:    <https://carlamenegat.github.io/VarelaDigital/assets/html/hrao.html> .
 @prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix san:    <http://dati.san.beniculturali.it/ode/?uri=http://dati.san.beniculturali.it/SAN/> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
 
 @prefix void:   <http://rdfs.org/ns/void#> .
 @prefix dcat:   <http://www.w3.org/ns/dcat#> .
 @prefix pav:    <http://purl.org/pav/> .
 @prefix cc:     <http://creativecommons.org/ns#> .
+
+# NOTE: required by later blocks (frozen vocab partitions + examples)
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix san:    <http://dati.san.beniculturali.it/ode/?uri=http://dati.san.beniculturali.it/SAN/> .
 
 <https://carlamenegat.github.io/VarelaDigital/kbvareladigital.ttl>
     a owl:Ontology ;
@@ -56,11 +62,8 @@
     dcterms:title "Varela Digital — Knowledge Base (KBVarelaDigital)"@pt ;
     dcterms:description "RDF dataset for the Varela Digital knowledge base, describing letters, persons, organizations and relations derived from TEI and standoff files."@en ;
     dcterms:description "Dataset RDF da knowledge base do Varela Digital, descrevendo cartas, pessoas, organizações e relações derivadas de TEI e arquivos standoff."@pt ;
-
     dcterms:source <https://github.com/CarlaMenegat/VarelaDigital> ;
-
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-
     void:vocabulary
         <http://purl.org/dc/terms/> ,
         <http://xmlns.com/foaf/0.1/> ,
@@ -69,20 +72,16 @@
         <http://purl.org/spar/pro/> ,
         <http://purl.org/vocab/relationship/> ,
         <https://www.ica.org/standards/RiC/ontology#> ;
-
     void:exampleResource
         <https://carlamenegat.github.io/VarelaDigital/letter/CV-1> ,
         <https://carlamenegat.github.io/VarelaDigital/person/pedro_ii> ;
-
-    dcterms:references
-        <https://carlamenegat.github.io/VarelaDigital/kbvareladigital.ttl> ;
-
+    dcterms:references <https://carlamenegat.github.io/VarelaDigital/kbvareladigital.ttl> ;
     rdfs:seeAlso
-        <https://github.com/CarlaMenegat/VarelaDigital/tree/main/data/kbvareladigital/extracted/vocab> .
+        <https://github.com/CarlaMenegat/VarelaDigital/tree/main/data_models/kbvareladigital/extracted/vocab> .
 
 
 #################################################################
-# 2) Provenance 
+# 2) Provenance
 #################################################################
 
 <https://carlamenegat.github.io/VarelaDigital/process/rdf-generation>
@@ -102,13 +101,13 @@
 
 
 #################################################################
-# 3) Access methods 
+# 3) Access methods (data dumps)
 #################################################################
 
 <https://carlamenegat.github.io/VarelaDigital/dataset/kbvareladigital>
     void:dataDump
-        <https://carlamenegat.github.io/VarelaDigital/data/rdf/graph.ttl> ,
-        <https://carlamenegat.github.io/VarelaDigital/data/rdf/graph.jsonld> .
+        <https://carlamenegat.github.io/VarelaDigital/assets/data/rdf/graph.ttl> ,
+        <https://carlamenegat.github.io/VarelaDigital/assets/data/rdf/graph.jsonld> .
 
 # If you later expose a SPARQL endpoint, add it here:
 # <https://carlamenegat.github.io/VarelaDigital/dataset/kbvareladigital>
@@ -116,15 +115,16 @@
 
 
 #################################################################
-# 4) Agents 
+# 4) Agents
 #################################################################
 
 <https://carlamenegat.github.io/VarelaDigital/agent/carla-menegat>
     a foaf:Person ;
     foaf:name "Carla Menegat"^^xsd:string .
 
+
 #################################################################
-# 5) Source descriptors 
+# 5) Source descriptors
 #################################################################
 
 <https://carlamenegat.github.io/VarelaDigital/source/standoff_persons_xml>
@@ -146,3 +146,155 @@
     a dcat:Dataset ;
     dcterms:title "metadata_all.csv"^^xsd:string ;
     dcterms:source <https://github.com/CarlaMenegat/VarelaDigital> .
+
+
+#################################################################
+# 6) Effective vocabulary (frozen snapshot) as VOID partitions
+#################################################################
+
+<https://carlamenegat.github.io/VarelaDigital/dataset/kbvareladigital>
+    void:uriSpace "https://carlamenegat.github.io/VarelaDigital/"^^xsd:string ;
+
+    void:classPartition
+        [
+            void:class fabio:Letter ;
+            void:entities "TODO"^^xsd:integer
+        ] ,
+        [
+            void:class frbr:Work ;
+            void:entities "TODO"^^xsd:integer
+        ] ,
+        [
+            void:class foaf:Person ;
+            void:entities "TODO"^^xsd:integer
+        ] ,
+        [
+            void:class foaf:Organization ;
+            void:entities "TODO"^^xsd:integer
+        ] ,
+        [
+            void:class geo:SpatialThing ;
+            void:entities "TODO"^^xsd:integer
+        ] ,
+        [
+            void:class rico:Event ;
+            void:entities "TODO"^^xsd:integer
+        ] ;
+
+    void:propertyPartition
+        [
+            void:property dcterms:creator ;
+            void:triples "TODO"^^xsd:integer
+        ] ,
+        [
+            void:property pro:addressee ;
+            void:triples "TODO"^^xsd:integer
+        ] ,
+        [
+            void:property dcterms:date ;
+            void:triples "TODO"^^xsd:integer
+        ] ,
+        [
+            void:property dcterms:spatial ;
+            void:triples "TODO"^^xsd:integer
+        ] ,
+        [
+            void:property san:refersTo ;
+            void:triples "TODO"^^xsd:integer
+        ] ,
+        [
+            void:property skos:exactMatch ;
+            void:triples "TODO"^^xsd:integer
+        ] .
+
+
+#################################################################
+# 7) Canonical URI patterns (project conventions)
+#################################################################
+
+<https://carlamenegat.github.io/VarelaDigital/dataset/kbvareladigital>
+    dcterms:identifier "kbvareladigital"^^xsd:string ;
+    dcterms:references
+        <https://carlamenegat.github.io/VarelaDigital/person/> ,
+        <https://carlamenegat.github.io/VarelaDigital/org/> ,
+        <https://carlamenegat.github.io/VarelaDigital/place/> ,
+        <https://carlamenegat.github.io/VarelaDigital/event/> ,
+        <https://carlamenegat.github.io/VarelaDigital/letter/> .
+
+
+#################################################################
+# 8) Data modeling patterns (instance-level conventions)
+#################################################################
+
+# Letters are modeled as FRBR Works and FaBiO Letters.
+# Mentions across entity types are expressed with san:refersTo.
+
+<https://carlamenegat.github.io/VarelaDigital/letter/CV-51>
+    a fabio:Letter , frbr:Work ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/francisco_pedro_abreu> ;
+    pro:addressee <https://carlamenegat.github.io/VarelaDigital/person/antonio_elzeario_miranda_brito> ;
+    dcterms:date "1839-03-01"^^xsd:date ;
+    dcterms:spatial <https://carlamenegat.github.io/VarelaDigital/place/porto_alegre> ;
+    san:refersTo
+        <https://carlamenegat.github.io/VarelaDigital/person/rodrigo_lamare> ,
+        <https://carlamenegat.github.io/VarelaDigital/place/triunfo> .
+
+
+#################################################################
+# 8a) Persons
+#################################################################
+
+<https://carlamenegat.github.io/VarelaDigital/person/pedro_ii>
+    a foaf:Person ;
+    rdfs:label "Dom Pedro II"@pt ;
+    skos:exactMatch <https://viaf.org/viaf/41855030> ,
+                    <https://www.wikidata.org/wiki/Q46513> .
+
+<https://carlamenegat.github.io/VarelaDigital/person/serafim_alencastre>
+    a foaf:Person ;
+    rdfs:label "Serafim Joaquim de Alencastre"@pt ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q10370179> .
+
+
+#################################################################
+# 8b) Organizations
+#################################################################
+
+<https://carlamenegat.github.io/VarelaDigital/org/imperio_brasil>
+    a foaf:Organization ;
+    rdfs:label "Império do Brasil"@pt .
+
+
+#################################################################
+# 8c) Places
+#################################################################
+
+<https://carlamenegat.github.io/VarelaDigital/place/porto_alegre>
+    a geo:SpatialThing ;
+    rdfs:label "Porto Alegre"@pt ;
+    skos:exactMatch <https://www.geonames.org/3452925/porto-alegre.html> .
+
+<https://carlamenegat.github.io/VarelaDigital/place/triunfo>
+    a geo:SpatialThing ;
+    rdfs:label "Triunfo"@pt ;
+    skos:exactMatch <https://www.geonames.org/3446019/triunfo.html> .
+
+
+#################################################################
+# 8d) Events
+#################################################################
+
+<https://carlamenegat.github.io/VarelaDigital/event/porongos_1844>
+    a rico:Event ;
+    rdfs:label "Porongos (1844)"@pt .
+
+
+#################################################################
+# 8e) Relations (from standoff_relations.xml)
+#################################################################
+
+<https://carlamenegat.github.io/VarelaDigital/person/serafim_alencastre>
+    hrao:servedUnder <https://carlamenegat.github.io/VarelaDigital/person/pedro_ii> .
+
+<https://carlamenegat.github.io/VarelaDigital/person/francisco_pedro_abreu>
+    foaf:knows <https://carlamenegat.github.io/VarelaDigital/person/antonio_elzeario_miranda_brito> .

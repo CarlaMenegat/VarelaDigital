@@ -1,23 +1,6 @@
 /* =========================================================
-   Varela Digital — Organizations hierarchy (D3, TREE ONLY)
-   File: assets/scripts/network_orgs.js
-
-   Expects:
-     - Container: #orgsTree
-
-   Optional UI (if present):
-     - #orgTypeFilter     (select: "all" or org @type)
-     - #orgSearch         (input)
-     - #expandAllBtn      (button)
-     - #collapseAllBtn    (button)
-     - #fitNetworkBtn     (button)
-     - #resetBtn          (button)
-
-   Data (TREE):
-     - assets/data/network/network_orgs_tree.json
-       { id, label, type?, children:[...] }
-       OR { roots:[...] }
-   ========================================================= */
+   Varela Digital — Organizations hierarchy 
+========================================================== */
 
 const DATA_PATH = "../data/network/network_orgs_tree.json";
 
@@ -31,7 +14,6 @@ let zoom = null;
 let CURRENT_TYPE = "all";
 let CURRENT_QUERY = "";
 
-// Persist collapse state across rebuilds (key: nodeId)
 const COLLAPSED = new Set();
 
 const UI = {
