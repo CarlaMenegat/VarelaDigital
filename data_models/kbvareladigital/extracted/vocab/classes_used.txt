@@ -19,5 +19,9 @@ frbr:Work
 geo:SpatialThing
 hico:InterpretationAct
 pro:RoleInTime
+prov:Activity
+prov:Entity
 rdfs:Literal
 san:Event
+san:EntityReference
+schema:Dataset

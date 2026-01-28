@@ -2,6 +2,7 @@ bibo:pageEnd
 bibo:pageStart
 bibo:volume
 dcterms:creator
+dcterms:created
 dcterms:date
 dcterms:extent
 dcterms:hasPart
@@ -11,10 +12,13 @@ dcterms:isVersionOf
 dcterms:issued
 dcterms:publisher
 dcterms:rights
+dcterms:source
 dcterms:spatial
+dcterms:title
 doco:contains
 foaf:affiliation
 foaf:knows
+foaf:name
 frbr:embodiment
 frbr:exemplar
 frbr:part
@@ -39,10 +43,14 @@ pro:donor
 pro:holdsRoleInTime
 pro:relatesTo
 pro:transferAgent
+prov:used
 pro:withRole
 prov:wasAssociatedWith
 prov:wasAttributedTo
 prov:wasDerivedFrom
+prov:wasGeneratedBy
+rdfs:label
+rdf:type
 rdfs:subClassOf
 rel:antagonistOf
 rel:childOf
@@ -51,6 +59,7 @@ rel:parentOf
 rel:siblingOf
 rel:spouseOf
 rico:hasFamilyAssociationWith
+san:refersTo
 schema:businessPartner
 schema:contributedTo
 schema:creditor
@@ -60,5 +69,6 @@ schema:interactsWith
 schema:memberOf
 schema:subOrganizationOf
 schema:suborganizationOf
+skos:exactMatch
 time:hasBeginning
 time:hasEnd
