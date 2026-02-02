@@ -127,7 +127,7 @@
         
         <relation 
             name="prov:wasAttributedTo"
-            active="#documento_CV_102"
+            active="#CV-102"
             passive="#martim_francisco_filho"/>
         
         <relation
