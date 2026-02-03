@@ -1,0 +1,28 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-102> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/melo> ;
+    dcterms:date "1838-10-11"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-102.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-102.xml> ;
+    dcterms:identifier "CV-102" ;
+    dcterms:relation <https://carlamenegat.github.io/VarelaDigital/person/oliveira> ;
+    dcterms:spatial <https://www.geonames.org/3465108/cruz-alta.html> ;
+    dcterms:title "Carta CV-102 – Teseu (Melo) para Oliveira"@pt-BR ;
+    dcterms:type "letter" ;
+    hrao:addressedTo <https://carlamenegat.github.io/VarelaDigital/person/oliveira> .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-102.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-102.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/melo> foaf:name "Teseu" .
+
+<https://www.geonames.org/3465108/cruz-alta.html> rdfs:label "Cruz Alta"@pt-BR .
+
+<https://carlamenegat.github.io/VarelaDigital/person/oliveira> foaf:name "Oliveira" .
+

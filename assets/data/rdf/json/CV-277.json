@@ -1,0 +1,95 @@
+[
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/person/joao_antonio_silveira",
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "João Antônio da Silveira"
+      }
+    ]
+  },
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-277.xml",
+    "@type": [
+      "http://purl.org/dc/terms/FileFormat"
+    ]
+  },
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/doc/CV-277",
+    "@type": [
+      "http://purl.org/dc/terms/BibliographicResource"
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida"
+      }
+    ],
+    "http://purl.org/dc/terms/date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1838-12-27"
+      }
+    ],
+    "http://purl.org/dc/terms/hasFormat": [
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-277.xml"
+      },
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-277.html"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CV-277"
+      }
+    ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/person/joao_antonio_silveira"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "https://www.geonames.org/3453524/piratini.html"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "pt-BR",
+        "@value": "Ofício CV-277 – Encaminhamento de ofício"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@value": "officialDocument"
+      }
+    ],
+    "https://carlamenegat.github.io/VarelaDigital/hrao#addressedTo": [
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/person/joao_antonio_silveira"
+      }
+    ]
+  },
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida",
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Domingos José de Almeida"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.geonames.org/3453524/piratini.html",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "pt-BR",
+        "@value": "Piratini"
+      }
+    ]
+  },
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-277.html",
+    "@type": [
+      "http://purl.org/dc/terms/FileFormat"
+    ]
+  }
+]

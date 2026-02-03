@@ -1,0 +1,95 @@
+[
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-60.xml",
+    "@type": [
+      "http://purl.org/dc/terms/FileFormat"
+    ]
+  },
+  {
+    "@id": "https://www.geonames.org/3449708/santo-amaro-do-sul.html",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "pt-BR",
+        "@value": "Santo Amaro"
+      }
+    ]
+  },
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/doc/CV-60",
+    "@type": [
+      "http://purl.org/dc/terms/BibliographicResource"
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/person/francisco_pedro_abreu"
+      }
+    ],
+    "http://purl.org/dc/terms/date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1840-06-12"
+      }
+    ],
+    "http://purl.org/dc/terms/hasFormat": [
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-60.xml"
+      },
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-60.html"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CV-60"
+      }
+    ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/person/manuel_jorge_rodrigues"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "https://www.geonames.org/3449708/santo-amaro-do-sul.html"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "pt-BR",
+        "@value": "Carta CV-60 – Francisco Pedro de Abreu para Manuel Jorge Rodrigues"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@value": "letter"
+      }
+    ],
+    "https://carlamenegat.github.io/VarelaDigital/hrao#addressedTo": [
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/person/manuel_jorge_rodrigues"
+      }
+    ]
+  },
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/person/manuel_jorge_rodrigues",
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Manuel Jorge Rodrigues"
+      }
+    ]
+  },
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-60.html",
+    "@type": [
+      "http://purl.org/dc/terms/FileFormat"
+    ]
+  },
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/person/francisco_pedro_abreu",
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Francisco Pedro de Abreu"
+      }
+    ]
+  }
+]

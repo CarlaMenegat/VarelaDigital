@@ -1,0 +1,19 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-21> a dcterms:BibliographicResource ;
+    dcterms:date "1842-01-??" ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-21.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-21.xml> ;
+    dcterms:identifier "CV-21" ;
+    dcterms:spatial <https://www.geonames.org/3471196/bage.html> ;
+    dcterms:title """Documento CV-21 — Petição de Antônio Francisco dos Santos Abreu
+                    sobre quitação de dívida por descontos de direitos"""@pt-BR ;
+    dcterms:type "officialDocument" .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-21.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-21.xml> a dcterms:FileFormat .
+
+<https://www.geonames.org/3471196/bage.html> rdfs:label "Bagé"@pt-BR .
+

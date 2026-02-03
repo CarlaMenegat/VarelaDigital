@@ -1,0 +1,28 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-13> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida> ;
+    dcterms:date "1842-02-20"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-13.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-13.xml> ;
+    dcterms:identifier "CV-13" ;
+    dcterms:relation <https://carlamenegat.github.io/VarelaDigital/person/fontoura> ;
+    dcterms:spatial <https://www.geonames.org/3471196/bage.html> ;
+    dcterms:title "Carta CV-13 – Domingos José de Almeida para Antônio Vicente da Fontoura"@pt-BR ;
+    dcterms:type "letter" ;
+    hrao:addressedTo <https://carlamenegat.github.io/VarelaDigital/person/fontoura> .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-13.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-13.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida> foaf:name "Domingos José de Almeida" .
+
+<https://www.geonames.org/3471196/bage.html> rdfs:label "Bagé"@pt-BR .
+
+<https://carlamenegat.github.io/VarelaDigital/person/fontoura> foaf:name "Antônio Vicente da Fontoura" .
+

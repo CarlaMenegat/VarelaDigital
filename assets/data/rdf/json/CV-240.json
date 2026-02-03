@@ -1,0 +1,69 @@
+[
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-240.xml",
+    "@type": [
+      "http://purl.org/dc/terms/FileFormat"
+    ]
+  },
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/doc/CV-240",
+    "@type": [
+      "http://purl.org/dc/terms/BibliographicResource"
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@value": "Domingos José de Almeida"
+      }
+    ],
+    "http://purl.org/dc/terms/date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1838-04-17"
+      }
+    ],
+    "http://purl.org/dc/terms/hasFormat": [
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-240.xml"
+      },
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-240.html"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CV-240"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "https://www.geonames.org/3453524/piratini.html"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "pt-BR",
+        "@value": "Ofício CV-240 – Domingos José de Almeida para Vasco Madruga de Bitancurt"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@value": "officialDocument"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.geonames.org/3453524/piratini.html",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "pt-BR",
+        "@value": "Piratini"
+      }
+    ]
+  },
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-240.html",
+    "@type": [
+      "http://purl.org/dc/terms/FileFormat"
+    ]
+  }
+]

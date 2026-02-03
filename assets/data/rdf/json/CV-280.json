@@ -1,0 +1,95 @@
+[
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-280.html",
+    "@type": [
+      "http://purl.org/dc/terms/FileFormat"
+    ]
+  },
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/person/joao_antonio_silveira",
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Coronel João Antônio da Silveira"
+      }
+    ]
+  },
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida",
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Domingos José de Almeida"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.geonames.org/3453524/piratini.html",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "pt-BR",
+        "@value": "Piratini"
+      }
+    ]
+  },
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/doc/CV-280",
+    "@type": [
+      "http://purl.org/dc/terms/BibliographicResource"
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida"
+      }
+    ],
+    "http://purl.org/dc/terms/date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1839-01-10"
+      }
+    ],
+    "http://purl.org/dc/terms/hasFormat": [
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-280.xml"
+      },
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-280.html"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CV-280"
+      }
+    ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/person/joao_antonio_silveira"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "https://www.geonames.org/3453524/piratini.html"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "pt-BR",
+        "@value": "Carta CV-280 – Sobre remessa de cavalos ao exército"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@value": "letter"
+      }
+    ],
+    "https://carlamenegat.github.io/VarelaDigital/hrao#addressedTo": [
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/person/joao_antonio_silveira"
+      }
+    ]
+  },
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-280.xml",
+    "@type": [
+      "http://purl.org/dc/terms/FileFormat"
+    ]
+  }
+]

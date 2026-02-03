@@ -1,0 +1,26 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-123> a dcterms:BibliographicResource ;
+    dcterms:creator "Serafim Joaquim de Alencastre" ;
+    dcterms:date "1839-12-16"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-123.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-123.xml> ;
+    dcterms:identifier "CV-123" ;
+    dcterms:relation <https://carlamenegat.github.io/VarelaDigital/person/joao_antonio_silveira> ;
+    dcterms:spatial <https://www.geonames.org/3468560/cacapava-do-sul.html> ;
+    dcterms:title "Carta CV-123 – Carta de Serafim Joaquim de Alencastre para João Antônio da Silveira"@pt-BR ;
+    dcterms:type "letter" ;
+    hrao:addressedTo <https://carlamenegat.github.io/VarelaDigital/person/joao_antonio_silveira> .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-123.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-123.xml> a dcterms:FileFormat .
+
+<https://www.geonames.org/3468560/cacapava-do-sul.html> rdfs:label "Caçapava"@pt-BR .
+
+<https://carlamenegat.github.io/VarelaDigital/person/joao_antonio_silveira> foaf:name "João Antônio da Silveira" .
+

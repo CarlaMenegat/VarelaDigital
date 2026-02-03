@@ -1,0 +1,87 @@
+[
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/doc/CV-214",
+    "@type": [
+      "http://purl.org/dc/terms/BibliographicResource"
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/person/inacio_guimaraes"
+      }
+    ],
+    "http://purl.org/dc/terms/date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1837-07-01"
+      }
+    ],
+    "http://purl.org/dc/terms/hasFormat": [
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-214.xml"
+      },
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-214.html"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CV-214"
+      }
+    ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@language": "pt-BR",
+        "@value": "Piratini"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "pt-BR",
+        "@value": "Carta CV-214 – Inácio José de Oliveira Guimarães para Domingos José de Almeida"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@value": "letter"
+      }
+    ],
+    "https://carlamenegat.github.io/VarelaDigital/hrao#addressedTo": [
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida"
+      }
+    ]
+  },
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-214.html",
+    "@type": [
+      "http://purl.org/dc/terms/FileFormat"
+    ]
+  },
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida",
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Domingos José de Almeida"
+      }
+    ]
+  },
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-214.xml",
+    "@type": [
+      "http://purl.org/dc/terms/FileFormat"
+    ]
+  },
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/person/inacio_guimaraes",
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Inácio José de Oliveira Guimarães"
+      }
+    ]
+  }
+]

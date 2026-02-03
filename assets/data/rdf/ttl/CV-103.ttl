@@ -1,0 +1,28 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-103> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/antonio_melo_albuquerque> ;
+    dcterms:date "1839-07-09"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-103.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-103.xml> ;
+    dcterms:identifier "CV-103" ;
+    dcterms:relation <https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida> ;
+    dcterms:spatial <https://www.geonames.org/3465108/cruz-alta.html> ;
+    dcterms:title "Carta CV-103 – Antônio de Melo e Albuquerque para Domingos José de Almeida"@pt-BR ;
+    dcterms:type "letter" ;
+    hrao:addressedTo <https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida> .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-103.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-103.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/antonio_melo_albuquerque> foaf:name "Antônio de Melo e Albuquerque" .
+
+<https://www.geonames.org/3465108/cruz-alta.html> rdfs:label "Cruz Alta"@pt-BR .
+
+<https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida> foaf:name "Domingos José de Almeida" .
+

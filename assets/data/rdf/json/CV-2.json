@@ -1,0 +1,95 @@
+[
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/person/antonio_abreu",
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Antônio Francisco dos Santos Abreu"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.geonames.org/3460227/arroyo-yaguaron-chico.html",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "pt-BR",
+        "@value": "Jaguarão Chico"
+      }
+    ]
+  },
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/doc/CV-2",
+    "@type": [
+      "http://purl.org/dc/terms/BibliographicResource"
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/person/antonio_abreu"
+      }
+    ],
+    "http://purl.org/dc/terms/date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1838-11-17"
+      }
+    ],
+    "http://purl.org/dc/terms/hasFormat": [
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-2.xml"
+      },
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-2.html"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CV-2"
+      }
+    ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "https://www.geonames.org/3460227/arroyo-yaguaron-chico.html"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "pt-BR",
+        "@value": "Carta CV-2 – Antônio F. dos Santos Abreu para Domingos J. de Almeida"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@value": "letter"
+      }
+    ],
+    "https://carlamenegat.github.io/VarelaDigital/hrao#addressedTo": [
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida"
+      }
+    ]
+  },
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida",
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Domingos José de Almeida"
+      }
+    ]
+  },
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-2.xml",
+    "@type": [
+      "http://purl.org/dc/terms/FileFormat"
+    ]
+  },
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-2.html",
+    "@type": [
+      "http://purl.org/dc/terms/FileFormat"
+    ]
+  }
+]

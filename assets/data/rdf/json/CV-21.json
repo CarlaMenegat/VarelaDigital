@@ -1,0 +1,63 @@
+[
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/doc/CV-21",
+    "@type": [
+      "http://purl.org/dc/terms/BibliographicResource"
+    ],
+    "http://purl.org/dc/terms/date": [
+      {
+        "@value": "1842-01-??"
+      }
+    ],
+    "http://purl.org/dc/terms/hasFormat": [
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-21.xml"
+      },
+      {
+        "@id": "https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-21.html"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CV-21"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@id": "https://www.geonames.org/3471196/bage.html"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "pt-BR",
+        "@value": "Documento CV-21 — Petição de Antônio Francisco dos Santos Abreu\n                    sobre quitação de dívida por descontos de direitos"
+      }
+    ],
+    "http://purl.org/dc/terms/type": [
+      {
+        "@value": "officialDocument"
+      }
+    ]
+  },
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-21.html",
+    "@type": [
+      "http://purl.org/dc/terms/FileFormat"
+    ]
+  },
+  {
+    "@id": "https://www.geonames.org/3471196/bage.html",
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "pt-BR",
+        "@value": "Bagé"
+      }
+    ]
+  },
+  {
+    "@id": "https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-21.xml",
+    "@type": [
+      "http://purl.org/dc/terms/FileFormat"
+    ]
+  }
+]

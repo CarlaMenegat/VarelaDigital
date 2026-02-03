@@ -1,0 +1,21 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-160> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/serafim_alencastre> ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-160.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-160.xml> ;
+    dcterms:identifier "CV-160" ;
+    dcterms:spatial <https://www.geonames.org/3453524/piratini.html> ;
+    dcterms:title "Carta CV-160 – Serafim Joaquim de Alencastre para destinatário não identificado"@pt-BR ;
+    dcterms:type "letter" .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-160.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-160.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/serafim_alencastre> foaf:name "Serafim Joaquim de Alencastre" .
+
+<https://www.geonames.org/3453524/piratini.html> rdfs:label "Piratini"@pt-BR .
+

@@ -1,0 +1,20 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-40> a dcterms:BibliographicResource ;
+    dcterms:creator "Cláudio de Abreu" ;
+    dcterms:date "1843-02-21"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-40.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-40.xml> ;
+    dcterms:identifier "CV-40" ;
+    dcterms:spatial <https://www.geonames.org/3472638/alegrete.html> ;
+    dcterms:title "Petição CV-40 – Requerimento de Cláudio de Abreu sobre sobras de sesmaria"@pt-BR ;
+    dcterms:type "officialDocument" .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-40.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-40.xml> a dcterms:FileFormat .
+
+<https://www.geonames.org/3472638/alegrete.html> rdfs:label "Alegrete"@pt-BR .
+

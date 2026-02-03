@@ -1,0 +1,24 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-162> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/bernardina_barcelos_almeida> ;
+    dcterms:date "1836-01-13"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-162.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-162.xml> ;
+    dcterms:identifier "CV-162" ;
+    dcterms:relation <https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida> ;
+    dcterms:title "Carta CV-162 – Bernardina Barcelos para Domingos José de Almeida"@pt-BR ;
+    dcterms:type "letter" ;
+    hrao:addressedTo <https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida> .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-162.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-162.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/bernardina_barcelos_almeida> foaf:name "Bernardina Barcelos de Almeida" .
+
+<https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida> foaf:name "Domingos José de Almeida" .
+

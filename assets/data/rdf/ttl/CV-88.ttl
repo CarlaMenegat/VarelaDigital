@@ -1,0 +1,19 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-88> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/jose_inacio_silva_abreu> ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-88.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-88.xml> ;
+    dcterms:identifier "CV-88" ;
+    dcterms:title "Carta CV-88 – José Inácio da Silva Abreu para destinatário não identificado"@pt-BR ;
+    dcterms:type "letter" ;
+    hrao:addressedTo "Ilmo.Ilustríssimo amigo" .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-88.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-88.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/jose_inacio_silva_abreu> foaf:name "José Inácio da Silva Abreu" .
+

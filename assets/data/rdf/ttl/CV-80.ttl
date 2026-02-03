@@ -1,0 +1,28 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-80> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/francisco_pedro_abreu> ;
+    dcterms:date "1844-07-01"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-80.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-80.xml> ;
+    dcterms:identifier "CV-80" ;
+    dcterms:relation <https://carlamenegat.github.io/VarelaDigital/person/luis_jose_ferreira> ;
+    dcterms:spatial <https://www.geonames.org/3467512/cangucu.html> ;
+    dcterms:title "Carta CV-80 – Francisco Pedro de Abreu para Luís José Ferreira"@pt-BR ;
+    dcterms:type "letter" ;
+    hrao:addressedTo <https://carlamenegat.github.io/VarelaDigital/person/luis_jose_ferreira> .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-80.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-80.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/francisco_pedro_abreu> foaf:name "Francisco Pedro de Abreu" .
+
+<https://www.geonames.org/3467512/cangucu.html> rdfs:label "Canguçu"@pt-BR .
+
+<https://carlamenegat.github.io/VarelaDigital/person/luis_jose_ferreira> foaf:name "Luís José Ferreira" .
+

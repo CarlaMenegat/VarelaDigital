@@ -1,0 +1,28 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-84> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/joao_pedro_abreu> ;
+    dcterms:date "1842-12-21"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-84.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-84.xml> ;
+    dcterms:identifier "CV-84" ;
+    dcterms:relation <https://carlamenegat.github.io/VarelaDigital/person/francisco_antonio_da_silva_bitancourt> ;
+    dcterms:spatial <https://www.geonames.org/3462089/gravatai.html> ;
+    dcterms:title "Carta CV-84 – João Pedro de Abreu para Francisco Antônio da Silva Bitancourt"@pt-BR ;
+    dcterms:type "letter" ;
+    hrao:addressedTo <https://carlamenegat.github.io/VarelaDigital/person/francisco_antonio_da_silva_bitancourt> .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-84.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-84.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/joao_pedro_abreu> foaf:name "João Pedro de Abreu" .
+
+<https://www.geonames.org/3462089/gravatai.html> rdfs:label "Aldeia dos Anjos"@pt-BR .
+
+<https://carlamenegat.github.io/VarelaDigital/person/francisco_antonio_da_silva_bitancourt> foaf:name "Francisco Antônio da Silva Bitancourt" .
+

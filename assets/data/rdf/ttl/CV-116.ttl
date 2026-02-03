@@ -1,0 +1,25 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-116> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/manuel_aleman> ;
+    dcterms:date "1839-05-09"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-116.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-116.xml> ;
+    dcterms:identifier "CV-116" ;
+    dcterms:relation <https://carlamenegat.github.io/VarelaDigital/person/joao_antonio_silveira> ;
+    dcterms:spatial "Cerro Largo"@pt-BR ;
+    dcterms:title "Carta CV-116 – Manuel de Aleman a Juan Antonio de Silvera"@pt-BR ;
+    dcterms:type "letter" ;
+    hrao:addressedTo <https://carlamenegat.github.io/VarelaDigital/person/joao_antonio_silveira> .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-116.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-116.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/manuel_aleman> foaf:name "Manuel de Aleman" .
+
+<https://carlamenegat.github.io/VarelaDigital/person/joao_antonio_silveira> foaf:name "Juan Antonio de Silvera" .
+

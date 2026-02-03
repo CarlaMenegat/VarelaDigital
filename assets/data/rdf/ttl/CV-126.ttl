@@ -1,0 +1,24 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-126> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/vicente_paula_simoes_pires> ;
+    dcterms:date "1839-12-18"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-126.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-126.xml> ;
+    dcterms:identifier "CV-126" ;
+    dcterms:relation <https://carlamenegat.github.io/VarelaDigital/person/serafim_alencastre> ;
+    dcterms:title "Carta CV-126 – Vicente de Paula Simões Pires para o Ministro da Guerra"@pt-BR ;
+    dcterms:type "letter" ;
+    hrao:addressedTo <https://carlamenegat.github.io/VarelaDigital/person/serafim_alencastre> .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-126.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-126.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/vicente_paula_simoes_pires> foaf:name "Vicente de Paula Simões Pires" .
+
+<https://carlamenegat.github.io/VarelaDigital/person/serafim_alencastre> foaf:name "Ministro e Secretário de Estado dos Negócios da Guerra" .
+

@@ -1,0 +1,22 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-9> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/fontoura> ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-9.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-9.xml> ;
+    dcterms:identifier "CV-9" ;
+    dcterms:relation <https://carlamenegat.github.io/VarelaDigital/person/manuel_martins_silveira_lemos> ;
+    dcterms:title "Carta CV-9 – Correspondência entre Fontoura e Martins sobre dívida de Abreu"@pt-BR ;
+    dcterms:type "letter" ;
+    hrao:addressedTo <https://carlamenegat.github.io/VarelaDigital/person/manuel_martins_silveira_lemos> .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-9.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-9.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/fontoura> foaf:name "Antônio Vicente da Fontoura" .
+
+<https://carlamenegat.github.io/VarelaDigital/person/manuel_martins_silveira_lemos> foaf:name "Manuel Martins da Silveira Lemos" .
+

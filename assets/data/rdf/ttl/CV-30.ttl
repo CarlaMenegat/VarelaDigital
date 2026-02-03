@@ -1,0 +1,14 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-30> a dcterms:BibliographicResource ;
+    dcterms:creator "Antônio José de Abreu" ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-30.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-30.xml> ;
+    dcterms:identifier "CV-30" ;
+    dcterms:title "CV-30 — Requerimento de Antônio José de Abreu ao Juiz de Direito"@pt-BR ;
+    dcterms:type "officialDocument" .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-30.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-30.xml> a dcterms:FileFormat .
+

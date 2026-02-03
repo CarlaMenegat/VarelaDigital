@@ -1,0 +1,28 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-1> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/raul_abbott> ;
+    dcterms:date "1896-04-27"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-1.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-1.xml> ;
+    dcterms:identifier "CV-1" ;
+    dcterms:relation <https://carlamenegat.github.io/VarelaDigital/person/alfredo_varela> ;
+    dcterms:spatial <https://www.geonames.org/3468436/cachoeira-do-sul.html> ;
+    dcterms:title "Carta CV-1 – Raul Abbott para Alfredo"@pt-BR ;
+    dcterms:type "letter" ;
+    hrao:addressedTo <https://carlamenegat.github.io/VarelaDigital/person/alfredo_varela> .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-1.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-1.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/raul_abbott> foaf:name "Raul Abbott" .
+
+<https://www.geonames.org/3468436/cachoeira-do-sul.html> rdfs:label "Cachoeira"@pt-BR .
+
+<https://carlamenegat.github.io/VarelaDigital/person/alfredo_varela> foaf:name "Alfredo Varela" .
+

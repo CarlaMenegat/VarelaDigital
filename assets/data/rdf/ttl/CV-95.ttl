@@ -1,0 +1,23 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-95> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/jose_antonio_ferreira_adrião> ;
+    dcterms:date "1837-12-31"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-95.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-95.xml> ;
+    dcterms:identifier "CV-95" ;
+    dcterms:spatial <https://www.geonames.org/3452925/porto-alegre.html> ;
+    dcterms:title "Documento CV-95 – Parte do Comandante da Polícia sobre Camilo Maria de Meneses"@pt-BR ;
+    dcterms:type "report" .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-95.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-95.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/jose_antonio_ferreira_adrião> foaf:name "José Antônio Ferreira Adrião" .
+
+<https://www.geonames.org/3452925/porto-alegre.html> rdfs:label "Porto Alegre"@pt-BR .
+

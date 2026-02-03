@@ -1,0 +1,24 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-50> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/francisco_pedro_abreu> ;
+    dcterms:date "1838-12-09"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-50.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-50.xml> ;
+    dcterms:identifier "CV-50" ;
+    dcterms:relation <https://carlamenegat.github.io/VarelaDigital/person/tomas_jose_silva> ;
+    dcterms:title "Carta CV-50 – Sobre necessidade de embarcação para infantaria"@pt-BR ;
+    dcterms:type "letter" ;
+    hrao:addressedTo <https://carlamenegat.github.io/VarelaDigital/person/tomas_jose_silva> .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-50.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-50.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/francisco_pedro_abreu> foaf:name "Francisco Pedro de Abreu" .
+
+<https://carlamenegat.github.io/VarelaDigital/person/tomas_jose_silva> foaf:name "Tomás José da Silva" .
+

@@ -1,0 +1,22 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-92> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/paulo_jose_abreu> ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-92.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-92.xml> ;
+    dcterms:identifier "CV-92" ;
+    dcterms:relation <https://carlamenegat.github.io/VarelaDigital/person/antonio_pedro_abreu> ;
+    dcterms:title "Carta CV-92 – Paulo José de Abreu para Antônio Pedro de Abreu"@pt-BR ;
+    dcterms:type "letter" ;
+    hrao:addressedTo <https://carlamenegat.github.io/VarelaDigital/person/antonio_pedro_abreu> .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-92.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-92.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/paulo_jose_abreu> foaf:name "Paulo José de Abreu" .
+
+<https://carlamenegat.github.io/VarelaDigital/person/antonio_pedro_abreu> foaf:name "Antônio Pedro de Abreu" .
+

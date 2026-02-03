@@ -1,0 +1,20 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-249> a dcterms:BibliographicResource ;
+    dcterms:creator "Domingos José de Almeida" ;
+    dcterms:date "1838-08-25"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-249.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-249.xml> ;
+    dcterms:identifier "CV-249" ;
+    dcterms:spatial <https://www.geonames.org/3453524/piratini.html> ;
+    dcterms:title "Ofício CV-249 – Domingos José de Almeida para Inácio José de Oliveira Guimarães"@pt-BR ;
+    dcterms:type "officialDocument" .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-249.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-249.xml> a dcterms:FileFormat .
+
+<https://www.geonames.org/3453524/piratini.html> rdfs:label "Piratini"@pt-BR .
+

@@ -1,0 +1,28 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-197> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida> ;
+    dcterms:date "1836-05-13"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-197.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-197.xml> ;
+    dcterms:identifier "CV-197" ;
+    dcterms:relation <https://carlamenegat.github.io/VarelaDigital/person/joao_manuel_lima_silva> ;
+    dcterms:spatial <https://www.geonames.org/3452925/porto-alegre.html> ;
+    dcterms:title "Documento CV-197 – Correspondência entre Domingos José de Almeida e João Manuel de Lima e Silva"@pt-BR ;
+    dcterms:type "letter" ;
+    hrao:addressedTo <https://carlamenegat.github.io/VarelaDigital/person/joao_manuel_lima_silva> .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-197.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-197.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida> foaf:name "Domingos José de Almeida" .
+
+<https://www.geonames.org/3452925/porto-alegre.html> rdfs:label "Porto Alegre"@pt-BR .
+
+<https://carlamenegat.github.io/VarelaDigital/person/joao_manuel_lima_silva> foaf:name "João Manuel de Lima e Silva" .
+

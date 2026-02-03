@@ -1,0 +1,25 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-119> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/manuel_aleman> ;
+    dcterms:date "1842-10-03"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-119.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-119.xml> ;
+    dcterms:identifier "CV-119" ;
+    dcterms:relation <https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida> ;
+    dcterms:spatial "Cerro Largo"@pt-BR ;
+    dcterms:title "Carta CV-119 – Manuel de Aleman a Domingos José de Almeida"@pt-BR ;
+    dcterms:type "letter" ;
+    hrao:addressedTo <https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida> .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-119.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-119.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/manuel_aleman> foaf:name "Manuel de Aleman" .
+
+<https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida> foaf:name "Domingo José de Almeida" .
+

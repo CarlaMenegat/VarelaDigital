@@ -1,0 +1,28 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-44> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/francisco_pedro_abreu> ;
+    dcterms:date "1838-07-16"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-44.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-44.xml> ;
+    dcterms:identifier "CV-44" ;
+    dcterms:relation <https://carlamenegat.github.io/VarelaDigital/person/francisco_xavier_cunha> ;
+    dcterms:spatial <https://www.geonames.org/3452925/porto-alegre.html> ;
+    dcterms:title "Relatório militar CV-44 – Francisco Pedro de Abreu ao Brigadeiro Francisco Xavier da Cunha"@pt-BR ;
+    dcterms:type "officialDocument" ;
+    hrao:addressedTo <https://carlamenegat.github.io/VarelaDigital/person/francisco_xavier_cunha> .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-44.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-44.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/francisco_pedro_abreu> foaf:name "Francisco Pedro de Abreu" .
+
+<https://www.geonames.org/3452925/porto-alegre.html> rdfs:label "Porto Alegre"@pt-BR .
+
+<https://carlamenegat.github.io/VarelaDigital/person/francisco_xavier_cunha> foaf:name "Francisco Xavier da Cunha" .
+

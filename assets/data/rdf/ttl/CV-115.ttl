@@ -1,0 +1,28 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-115> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/ricardo_melo_albuquerque> ;
+    dcterms:date "1839-12-07"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-115.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-115.xml> ;
+    dcterms:identifier "CV-115" ;
+    dcterms:relation <https://carlamenegat.github.io/VarelaDigital/person/bento_manoel> ;
+    dcterms:spatial <https://www.geonames.org/3465108/cruz-alta.html> ;
+    dcterms:title "Carta CV-115 – Ricardo Antônio de Melo e Albuquerque para Bento Manuel Ribeiro"@pt-BR ;
+    dcterms:type "letter" ;
+    hrao:addressedTo <https://carlamenegat.github.io/VarelaDigital/person/bento_manoel> .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-115.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-115.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/ricardo_melo_albuquerque> foaf:name "Ricardo Antônio de Melo e Albuquerque" .
+
+<https://www.geonames.org/3465108/cruz-alta.html> rdfs:label "Cruz Alta"@pt-BR .
+
+<https://carlamenegat.github.io/VarelaDigital/person/bento_manoel> foaf:name "Bento Manuel Ribeiro" .
+

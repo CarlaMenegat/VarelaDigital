@@ -1,0 +1,28 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-113> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/jose_pedroso_albuquerque> ;
+    dcterms:date "1842-09-27"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-113.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-113.xml> ;
+    dcterms:identifier "CV-113" ;
+    dcterms:relation <https://carlamenegat.github.io/VarelaDigital/person/inacio_guimaraes> ;
+    dcterms:spatial <https://www.geonames.org/3472638/alegrete.html> ;
+    dcterms:title "Carta CV-113 – José Pedroso de Albuquerque para Inácio José de Oliveira Guimarães"@pt-BR ;
+    dcterms:type "letter" ;
+    hrao:addressedTo <https://carlamenegat.github.io/VarelaDigital/person/inacio_guimaraes> .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-113.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-113.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/jose_pedroso_albuquerque> foaf:name "José Pedroso de Albuquerque" .
+
+<https://www.geonames.org/3472638/alegrete.html> rdfs:label "Alegrete"@pt-BR .
+
+<https://carlamenegat.github.io/VarelaDigital/person/inacio_guimaraes> foaf:name "Inácio José de Oliveira Guimarães" .
+

@@ -1,0 +1,28 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-75> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/francisco_pedro_abreu> ;
+    dcterms:date "1843-10-20"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-75.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-75.xml> ;
+    dcterms:identifier "CV-75" ;
+    dcterms:relation <https://carlamenegat.github.io/VarelaDigital/person/urbano_soares_silva> ;
+    dcterms:spatial <https://www.geonames.org/3467512/cangucu.html> ;
+    dcterms:title "Carta CV-75 – Francisco Pedro de Abreu para Urbano Soares da Silva"@pt-BR ;
+    dcterms:type "letter" ;
+    hrao:addressedTo <https://carlamenegat.github.io/VarelaDigital/person/urbano_soares_silva> .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-75.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-75.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/francisco_pedro_abreu> foaf:name "Francisco Pedro de Abreu" .
+
+<https://www.geonames.org/3467512/cangucu.html> rdfs:label "Canguçu"@pt-BR .
+
+<https://carlamenegat.github.io/VarelaDigital/person/urbano_soares_silva> foaf:name "Urbano Soares da Silva" .
+

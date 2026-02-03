@@ -1,0 +1,24 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-25> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/antonio_jose_abreu> ;
+    dcterms:date "1837-11-20"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-25.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-25.xml> ;
+    dcterms:identifier "CV-25" ;
+    dcterms:relation <https://carlamenegat.github.io/VarelaDigital/person/afonso_jose_corte_real> ;
+    dcterms:title "Carta CV-25 – Antônio José de Abreu para Afonso José de Almeida Corte Real"@pt-BR ;
+    dcterms:type "letter" ;
+    hrao:addressedTo <https://carlamenegat.github.io/VarelaDigital/person/afonso_jose_corte_real> .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-25.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-25.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/antonio_jose_abreu> foaf:name "Antônio José de Abreu" .
+
+<https://carlamenegat.github.io/VarelaDigital/person/afonso_jose_corte_real> foaf:name "Afonso José de Almeida Corte Real" .
+

@@ -1,0 +1,28 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-72> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/francisco_pedro_abreu> ;
+    dcterms:date "1842-09-17"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-72.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-72.xml> ;
+    dcterms:identifier "CV-72" ;
+    dcterms:relation <https://carlamenegat.github.io/VarelaDigital/person/jose_maria_betancourt> ;
+    dcterms:spatial <www.geonames.org/7582951/ilha-da-ponta-rasa.html> ;
+    dcterms:title "Carta CV-72 – Francisco Pedro de Abreu para José Maria da Silva Betancourt"@pt-BR ;
+    dcterms:type "letter" ;
+    hrao:addressedTo <https://carlamenegat.github.io/VarelaDigital/person/jose_maria_betancourt> .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-72.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-72.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/francisco_pedro_abreu> foaf:name "Francisco Pedro de Abreu" .
+
+<www.geonames.org/7582951/ilha-da-ponta-rasa.html> rdfs:label "Ponta Rasa"@pt-BR .
+
+<https://carlamenegat.github.io/VarelaDigital/person/jose_maria_betancourt> foaf:name "José Maria da Silva Betancourt" .
+

@@ -1,0 +1,25 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-200> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida> ;
+    dcterms:date "1836-08-09"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-200.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-200.xml> ;
+    dcterms:identifier "CV-200" ;
+    dcterms:relation <https://carlamenegat.github.io/VarelaDigital/person/joaquim_jose_freitas> ;
+    dcterms:spatial "Mostardas"@pt-BR ;
+    dcterms:title "Carta CV-200 – Domingos José de Almeida para Joaquim José de Freitas"@pt-BR ;
+    dcterms:type "letter" ;
+    hrao:addressedTo <https://carlamenegat.github.io/VarelaDigital/person/joaquim_jose_freitas> .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-200.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-200.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/domingos_jose_almeida> foaf:name "Domingos José de Almeida" .
+
+<https://carlamenegat.github.io/VarelaDigital/person/joaquim_jose_freitas> foaf:name "Joaquim José de Freitas" .
+

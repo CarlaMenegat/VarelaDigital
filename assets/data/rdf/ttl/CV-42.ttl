@@ -1,0 +1,19 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-42> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/firmino_luis_gomes_de_abreu> ;
+    dcterms:date "1840-12-26"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-42.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-42.xml> ;
+    dcterms:identifier "CV-42" ;
+    dcterms:title "Relação de materiais militares CV-42 – Firmino Luís Gomes de Abreu (Arsenal de Guerra)"@pt-BR ;
+    dcterms:type "officialDocument" .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-42.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-42.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/firmino_luis_gomes_de_abreu> foaf:name "Firmino Luís Gomes de Abreu" .
+

@@ -1,0 +1,13 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-17> a dcterms:BibliographicResource ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-17.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-17.xml> ;
+    dcterms:identifier "CV-17" ;
+    dcterms:title "CV-17 — Cópia do documento CV-13"@pt-BR ;
+    dcterms:type "copy" .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-17.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-17.xml> a dcterms:FileFormat .
+

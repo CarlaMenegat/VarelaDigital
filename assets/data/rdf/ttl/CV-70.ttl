@@ -1,0 +1,28 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hrao: <https://carlamenegat.github.io/VarelaDigital/hrao#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://carlamenegat.github.io/VarelaDigital/doc/CV-70> a dcterms:BibliographicResource ;
+    dcterms:creator <https://carlamenegat.github.io/VarelaDigital/person/francisco_pedro_abreu> ;
+    dcterms:date "1842-05-24"^^xsd:date ;
+    dcterms:hasFormat <https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-70.html>,
+        <https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-70.xml> ;
+    dcterms:identifier "CV-70" ;
+    dcterms:relation <https://carlamenegat.github.io/VarelaDigital/person/general_valente> ;
+    dcterms:spatial <https://www.geonames.org/3452925/porto-alegre.html> ;
+    dcterms:title "Carta CV-70 – Francisco Pedro de Abreu para Conde do Rio Pardo"@pt-BR ;
+    dcterms:type "letter" ;
+    hrao:addressedTo <https://carlamenegat.github.io/VarelaDigital/person/general_valente> .
+
+<https://carlamenegat.github.io/VarelaDigital/assets/html/documents_html/CV-70.html> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/letters_data/documents_XML/CV-70.xml> a dcterms:FileFormat .
+
+<https://carlamenegat.github.io/VarelaDigital/person/francisco_pedro_abreu> foaf:name "Francisco Pedro de Abreu" .
+
+<https://www.geonames.org/3452925/porto-alegre.html> rdfs:label "Porto Alegre"@pt-BR .
+
+<https://carlamenegat.github.io/VarelaDigital/person/general_valente> foaf:name "Conde do Rio Pardo" .
+
