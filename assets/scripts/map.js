@@ -1,8 +1,30 @@
 console.log("map.js loaded");
 
-const INDEXES_URL = "../data/indexes/indexes.json";
-const STANDOFF_PLACES_URL = "/letters_data/standoff/standoff_places.xml";
-const ALIGNMENTS_URL = "../data/indexes/alignments.json";
+/* =========================================================
+   Paths (GitHub Pages-safe)
+   ========================================================= */
+
+function computeBasePath() {
+  const host = (window.location.hostname || "").toLowerCase();
+  if (host.endsWith("github.io")) {
+    const seg = (window.location.pathname || "").split("/").filter(Boolean);
+    const repo = seg.length ? seg[0] : "VarelaDigital";
+    return `/${repo}/`;
+  }
+  return "/";
+}
+
+const BASE = computeBasePath();
+
+// NOTE: adjust these if your folders differ.
+// Your current script used ../data/... (old layout). Here we use your website layout:
+const INDEXES_URL = BASE + "assets/data/indexes/indexes.json";
+const STANDOFF_PLACES_URL = BASE + "letters_data/standoff/standoff_places.xml";
+const ALIGNMENTS_URL = BASE + "assets/data/indexes/alignments.json";
+
+/* =========================================================
+   DOM
+   ========================================================= */
 
 const mapModeSelect = document.getElementById("mapMode");
 const yearFilter = document.getElementById("yearFilter");
@@ -37,6 +59,10 @@ const mentionedTypeFilter = document.getElementById("mentionedTypeFilter");
 
 const playYearsBtn = document.getElementById("playYearsBtn");
 const stopYearsBtn = document.getElementById("stopYearsBtn");
+
+/* =========================================================
+   State
+   ========================================================= */
 
 let DATA = [];
 let FILTERED = [];
@@ -86,6 +112,26 @@ function parseYearFromISO(dateStr) {
 function getDocYear(d) {
   const y = d?.year ? String(d.year) : parseYearFromISO(d?.date);
   return y && /^\d{4}$/.test(y) ? y : "";
+}
+
+/**
+ * Normalize "mentioned_*" fields that may be:
+ * - array
+ * - empty string
+ * - string "A|uri|label;B|uri|label"
+ */
+function asList(v) {
+  if (Array.isArray(v)) return v.filter(Boolean);
+  if (typeof v === "string") {
+    const s = v.trim();
+    if (!s) return [];
+    // Your metadata/index strings typically separate entities with ';'
+    return s
+      .split(";")
+      .map((x) => x.trim())
+      .filter(Boolean);
+  }
+  return [];
 }
 
 /* =========================================================
@@ -214,10 +260,17 @@ async function loadStandoffPlaces() {
   const parser = new DOMParser();
   const xml = parser.parseFromString(xmlText, "application/xml");
 
-  const placeEls = Array.from(xml.getElementsByTagNameNS("http://www.tei-c.org/ns/1.0", "place"));
+  // Try namespaced TEI first
+  let placeEls = Array.from(xml.getElementsByTagNameNS("http://www.tei-c.org/ns/1.0", "place"));
+
+  // Fallback: if namespace missing for any reason
+  if (!placeEls.length) placeEls = Array.from(xml.getElementsByTagName("place"));
 
   placeEls.forEach((pl) => {
-    const geoEl = pl.getElementsByTagNameNS("http://www.tei-c.org/ns/1.0", "geo")[0];
+    const geoEl =
+      pl.getElementsByTagNameNS("http://www.tei-c.org/ns/1.0", "geo")[0] ||
+      pl.getElementsByTagName("geo")[0];
+
     if (!geoEl) return;
 
     const geo = (geoEl.textContent || "").trim().replace(",", " ");
@@ -231,7 +284,11 @@ async function loadStandoffPlaces() {
       pl.getElementsByTagNameNS("http://www.tei-c.org/ns/1.0", "placeName")
     );
 
-    const labels = placeNameEls.map((n) => (n.textContent || "").trim()).filter(Boolean);
+    const fallbackNames = placeNameEls.length
+      ? placeNameEls
+      : Array.from(pl.getElementsByTagName("placeName"));
+
+    const labels = fallbackNames.map((n) => (n.textContent || "").trim()).filter(Boolean);
     if (labels.length === 0) return;
 
     const canonicalLabel = labels[0];
@@ -291,26 +348,15 @@ function getMentionedTypeValue() {
 
 function docMatchesMentionedType(d, t) {
   if (!t || t === "all") return true;
-  if (t === "people") return Array.isArray(d.mentioned_people) && d.mentioned_people.length > 0;
-  if (t === "orgs") return Array.isArray(d.mentioned_orgs) && d.mentioned_orgs.length > 0;
-  if (t === "events") return Array.isArray(d.mentioned_events) && d.mentioned_events.length > 0;
-  if (t === "places") return Array.isArray(d.mentioned_places) && d.mentioned_places.length > 0;
+  if (t === "people") return asList(d.mentioned_people).length > 0;
+  if (t === "orgs") return asList(d.mentioned_orgs).length > 0;
+  if (t === "events") return asList(d.mentioned_events).length > 0;
+  if (t === "places") return asList(d.mentioned_places).length > 0;
   return true;
 }
 
 /* =========================================================
    Alignment filter (sender OR recipient)
-   alignments.json expected shape:
-   {
-     "byUri": {
-       "https://.../person/antonio_abreu": {
-         "timeline": [
-           { "side":"farroupilha", "from":"1835-01-01", "to":"1845-12-31" },
-           { "side":"imperio", "from":"1846-01-01", "to":"9999-12-31" }
-         ]
-       }
-     }
-   }
    ========================================================= */
 
 function populateAlignmentFilter() {
@@ -558,8 +604,9 @@ function renderMap(mode, resetView) {
       if (d?.place?.label || d?.place_label) missingGeo++;
     }
 
-    // Mentioned places
-    const mentioned = Array.isArray(d.mentioned_places) ? d.mentioned_places : [];
+    // Mentioned places (string or array)
+    const mentioned = asList(d.mentioned_places);
+
     mentioned.forEach((ent) => {
       const lab = getEntityLabel(ent);
       const k = normalizeText(lab);
