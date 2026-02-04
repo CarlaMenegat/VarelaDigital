@@ -1,6 +1,10 @@
 /* =========================================================
-   Varela Digital — Social Network (Cytoscape) 
+   Varela Digital — Social Network (Cytoscape)
+   File: network.js
+   Source: ../data/network/network_people.json
    ========================================================= */
+
+console.log("network.js loaded");
 
 const DATA_PATH = "../data/network/network_people.json";
 const VIEWER_PATTERN = "viewer.html?file={cv}.xml";
@@ -12,18 +16,16 @@ let cy = null;
 let FOCUS_NODE_ID = null;
 
 // Track what "fit" is showing (largest vs all)
-let LAST_FIT_SCOPE = "largest"; // "largest" | "all"
+let LAST_FIT_SCOPE = "all"; // "largest" | "all"
 
 // keep one observer (desktop layout changes / sidebar scrollbars, etc.)
 let RESIZE_OBSERVER = null;
 
-// --- NEW: caches to avoid rebuilding arrays repeatedly
+// caches to avoid rebuilding arrays repeatedly
 let EDGES_BY_MODE = { correspondence: [], comention: [] };
 let NODES_BY_ID = new Map(); // id -> {id,label}
-let LAST_ELEMENTS_KEY = ""; // mode|minWeight (avoid redundant rebuild)
-let LAST_ELEMENTS = null; // last built {nodes,edges}
-let LAST_MIN_WEIGHT = 1;
-let LAST_MODE = "correspondence";
+let LAST_ELEMENTS_KEY = ""; // mode|minWeight
+let LAST_ELEMENTS = null;
 
 function debounce(fn, wait = 160) {
   let t = null;
@@ -33,7 +35,6 @@ function debounce(fn, wait = 160) {
   };
 }
 
-// Prefer idle time for heavy work; fallback to setTimeout
 function runWhenIdle(fn, timeout = 250) {
   if (typeof requestIdleCallback === "function") {
     requestIdleCallback(fn, { timeout });
@@ -100,8 +101,38 @@ function nodeLabel(n) {
   return label ? label : humanizeId(n.id);
 }
 
+/* =========================================================
+   LABEL POLICY — hidden by default
+   - Only show labels when node has class "vd-labels"
+   - In focus: keep labels only on focused node + selected nodes
+   ========================================================= */
+
+function clearAllNodeLabels() {
+  if (!cy) return;
+  cy.nodes().removeClass("vd-labels");
+}
+
+function showLabelForNode(node) {
+  if (!node || node.empty()) return;
+  node.addClass("vd-labels");
+}
+
+function hideLabelForNode(node) {
+  if (!node || node.empty()) return;
+  if (node.hasClass("vd-focus")) return;
+  node.removeClass("vd-labels");
+}
+
+function enforceFocusLabelPolicy() {
+  if (!cy) return;
+  cy.nodes().forEach((n) => {
+    if (n.hasClass("vd-focus") || n.selected()) n.addClass("vd-labels");
+    else n.removeClass("vd-labels");
+  });
+}
+
 /* -----------------------------
-   Overlay + empty state (CSS classes)
+   Overlay + empty state
 ----------------------------- */
 
 function ensureOverlay() {
@@ -157,8 +188,70 @@ function hideEmptyState() {
 }
 
 /* -----------------------------
-   Pre-index data for speed (NEW)
+   Helpers: evidence union + formatting
 ----------------------------- */
+
+function dedupeEvidence(arr) {
+  const seen = new Set();
+  const out = [];
+  (arr || []).forEach((x) => {
+    const s = String(x || "").trim();
+    if (!s) return;
+    if (seen.has(s)) return;
+    seen.add(s);
+    out.push(s);
+  });
+  return out;
+}
+
+function safeArray(v) {
+  return Array.isArray(v) ? v : [];
+}
+
+function evidenceToLinks(evidence, limit = 40) {
+  const ev = safeArray(evidence);
+  if (!ev.length) return "<span style='opacity:.8'>No evidence</span>";
+
+  const links = ev
+    .slice(0, limit)
+    .map((cv) => {
+      const id = String(cv || "").trim();
+      if (!id) return "";
+      const url = viewerUrl(id);
+      return `<a href="${url}" target="_blank" rel="noopener">${escapeHtml(id)}</a>`;
+    })
+    .filter(Boolean)
+    .join(" ");
+
+  const more = ev.length > limit ? ` <span style="opacity:.75">(+${ev.length - limit} more)</span>` : "";
+  return links + more;
+}
+
+/* -----------------------------
+   Data indexing (fast) + evidence for nodes
+   - Merge/aggregate edges to avoid duplicates
+   - Build NODE_EVIDENCE_BY_MODE[id] = Set(cvId)
+----------------------------- */
+
+let NODE_EVIDENCE_BY_MODE = {
+  correspondence: new Map(), // id -> Set(cv)
+  comention: new Map(), // id -> Set(cv)
+};
+
+function addNodeEvidence(mode, nodeId, evidenceArr) {
+  if (!nodeId) return;
+  const m = NODE_EVIDENCE_BY_MODE[mode];
+  if (!m) return;
+  let set = m.get(nodeId);
+  if (!set) {
+    set = new Set();
+    m.set(nodeId, set);
+  }
+  safeArray(evidenceArr).forEach((cv) => {
+    const s = String(cv || "").trim();
+    if (s) set.add(s);
+  });
+}
 
 function indexNetworkData() {
   // nodes map
@@ -167,54 +260,111 @@ function indexNetworkData() {
     NODES_BY_ID.set(n.id, { id: n.id, label: nodeLabel(n) });
   });
 
-  // edges by mode, normalized + weight as int
-  EDGES_BY_MODE = { correspondence: [], comention: [] };
+  // reset node evidence maps
+  NODE_EVIDENCE_BY_MODE = {
+    correspondence: new Map(),
+    comention: new Map(),
+  };
+
+  // buckets to merge duplicates
+  const buckets = {
+    correspondence: new Map(),
+    comention: new Map(),
+  };
+
   (NETWORK.edges || []).forEach((e) => {
     const type = normalizeType(e.type);
     if (type !== "correspondence" && type !== "comention") return;
 
-    const weight =
-      typeof e.weight === "number" ? e.weight : parseInt(e.weight || "1", 10) || 1;
+    const source = String(e.source || "").trim();
+    const target = String(e.target || "").trim();
+    if (!source || !target) return;
 
-    EDGES_BY_MODE[type].push({
-      id: e.id || `${e.source}__${e.target}__${type}`,
-      type,
-      source: e.source,
-      target: e.target,
-      weight,
-      directed: !!e.directed,
-      evidence: Array.isArray(e.evidence) ? e.evidence : [],
-    });
+    const directed = !!e.directed;
+    const weight = typeof e.weight === "number" ? e.weight : parseInt(e.weight || "1", 10) || 1;
+    const evidence = Array.isArray(e.evidence) ? e.evidence : [];
+
+    // track node evidence
+    addNodeEvidence(type, source, evidence);
+    addNodeEvidence(type, target, evidence);
+
+    // canonical pair for co-mention (undirected)
+    let s = source;
+    let t = target;
+    let dirFlag = directed ? "1" : "0";
+    if (type === "comention") {
+      dirFlag = "0";
+      if (s > t) {
+        const tmp = s;
+        s = t;
+        t = tmp;
+      }
+    }
+
+    const key = `${type}|${dirFlag}|${s}|${t}`;
+    const map = buckets[type];
+    const existing = map.get(key);
+
+    if (!existing) {
+      map.set(key, {
+        id: e.id || key,
+        type,
+        source: s,
+        target: t,
+        directed: type === "comention" ? false : directed,
+        weight: Math.max(1, weight),
+        evidence: [...evidence],
+      });
+    } else {
+      existing.weight += Math.max(1, weight);
+      existing.evidence.push(...evidence);
+    }
   });
 
-  // Optional: sort edges descending by weight so filtering can early-exit later
-  // (kept simple; not strictly required)
-  EDGES_BY_MODE.correspondence.sort((a, b) => b.weight - a.weight);
-  EDGES_BY_MODE.comention.sort((a, b) => b.weight - a.weight);
+  EDGES_BY_MODE = { correspondence: [], comention: [] };
+
+  for (const mode of ["correspondence", "comention"]) {
+    const arr = Array.from(buckets[mode].values()).map((x) => {
+      const w = Math.max(1, x.weight);
+      return {
+        ...x,
+        evidence: dedupeEvidence(x.evidence),
+        weight: w,
+        wlog: Math.log2(w + 1),
+      };
+    });
+
+    arr.sort((a, b) => b.weight - a.weight);
+    EDGES_BY_MODE[mode] = arr;
+  }
 }
 
 /* -----------------------------
-   Build elements (FAST + cached)
+   Build elements (with node "strength" for sizing + node evidence count)
+   - strength = sum of incident edge weights in filtered graph
+   - nodeEvidence = list of CV ids for the node in current mode (from index)
 ----------------------------- */
 
 function buildElementsFast(mode, minWeight) {
   const wanted = normalizeType(mode);
   const key = `${wanted}|${minWeight}`;
-
-  // If only minWeight changed upward/downward a bit, we still rebuild,
-  // but we avoid doing it twice in the same tick.
   if (key === LAST_ELEMENTS_KEY && LAST_ELEMENTS) return LAST_ELEMENTS;
 
-  const used = new Set();
   const edgesSrc = EDGES_BY_MODE[wanted] || [];
 
-  // Because edges are sorted desc by weight:
-  // - if minWeight is high, we can skip a lot once weight drops below it.
+  const used = new Set();
+  const strength = new Map(); // nodeId -> sum weights
+
   const edges = [];
   for (const e of edgesSrc) {
     if (e.weight < minWeight) break;
+
     used.add(e.source);
     used.add(e.target);
+
+    strength.set(e.source, (strength.get(e.source) || 0) + e.weight);
+    strength.set(e.target, (strength.get(e.target) || 0) + e.weight);
+
     edges.push({
       data: {
         id: e.id,
@@ -222,19 +372,40 @@ function buildElementsFast(mode, minWeight) {
         source: e.source,
         target: e.target,
         weight: e.weight,
+        wlog: e.wlog,
         directed: e.directed,
         evidence: e.evidence,
       },
     });
   }
 
+  const nodeEvMap = NODE_EVIDENCE_BY_MODE[wanted] || new Map();
+
   const nodes = [];
   for (const id of used) {
     const n = NODES_BY_ID.get(id);
+
+    const s = Math.max(1, strength.get(id) || 1);
+    const slog = Math.log2(s + 1);
+
+    const evSet = nodeEvMap.get(id);
+    const evArr = evSet ? Array.from(evSet) : [];
+
     nodes.push({
       data: {
         id,
         label: n?.label || humanizeId(id),
+
+        // node sizing driver
+        strength: s,
+        slog,
+
+        // evidence for tooltips (node click)
+        evidence: evArr,
+        evidenceCount: evArr.length,
+
+        // colors are fixed/neutral (you said colors didn't work well)
+        color: "#4e7a5a",
       },
     });
   }
@@ -242,30 +413,29 @@ function buildElementsFast(mode, minWeight) {
   const out = { nodes, edges };
   LAST_ELEMENTS_KEY = key;
   LAST_ELEMENTS = out;
-  LAST_MODE = wanted;
-  LAST_MIN_WEIGHT = minWeight;
   return out;
 }
 
-/* -----------------------------
+/* =========================================================
    Layout tuning
-   NOTE: COSE is expensive; keep iterations controlled.
------------------------------ */
+   Goal: more separation INSIDE clusters, without pushing components far apart.
+   ========================================================= */
 
 function layoutFor(mode, nodeCount, edgeCount) {
   const isCo = normalizeType(mode) === "comention";
   const dense = nodeCount > 220 || edgeCount > 800;
   const veryDense = nodeCount > 380 || edgeCount > 1600;
 
-  // Keep repulsion strong but avoid huge iterations that lock the UI
-  const baseRepulsion = isCo ? 62000 : 26000;
-  const repulsion = veryDense ? baseRepulsion * 1.25 : dense ? baseRepulsion * 1.1 : baseRepulsion;
+  const baseRepulsion = isCo ? 98000 : 52000;
+  const repulsion = veryDense ? baseRepulsion * 1.18 : dense ? baseRepulsion * 1.08 : baseRepulsion;
 
-  const baseEdge = isCo ? 250 : 190;
+  const baseEdge = isCo ? 260 : 220;
   const edgeLen = veryDense ? baseEdge * 1.06 : baseEdge;
 
-  // PERF: reduce numIter for big graphs (huge win)
-  const iter = veryDense ? 420 : dense ? 520 : 650;
+  const componentSpacing = isCo ? 260 : 170;
+  const spacingFactor = isCo ? 1.10 : 1.06;
+
+  const iter = veryDense ? 360 : dense ? 500 : 700;
 
   return {
     name: "cose",
@@ -273,14 +443,16 @@ function layoutFor(mode, nodeCount, edgeCount) {
     randomize: true,
 
     nodeRepulsion: repulsion,
-    nodeOverlap: 16,
+    nodeOverlap: 60,
     idealEdgeLength: edgeLen,
-    edgeElasticity: isCo ? 0.18 : 0.16,
-    gravity: isCo ? 0.03 : 0.04,
-    componentSpacing: isCo ? 340 : 180,
-    spacingFactor: isCo ? 1.25 : 1.12,
+    edgeElasticity: isCo ? 0.16 : 0.14,
 
-    nodeDimensionsIncludeLabels: false, // PERF: label-aware layout is expensive
+    gravity: isCo ? 0.040 : 0.055,
+    componentSpacing,
+    spacingFactor,
+
+    avoidOverlap: true,
+    nodeDimensionsIncludeLabels: false,
     numIter: iter,
 
     initialTemp: 1800,
@@ -289,70 +461,126 @@ function layoutFor(mode, nodeCount, edgeCount) {
   };
 }
 
-/* -----------------------------
-   Cytoscape style
------------------------------ */
+/* =========================================================
+   Local ego layout (focus)
+   ========================================================= */
+
+function egoLayoutFor(mode, nodeCount) {
+  const isCo = normalizeType(mode) === "comention";
+  const dense = nodeCount > 90;
+  const veryDense = nodeCount > 170;
+
+  const baseRep = isCo ? 125000 : 90000;
+  const rep = veryDense ? baseRep * 1.18 : dense ? baseRep * 1.08 : baseRep;
+
+  const edgeLen = isCo ? 260 : 220;
+  const iter = veryDense ? 260 : dense ? 320 : 420;
+
+  return {
+    name: "cose",
+    animate: false,
+    randomize: false,
+
+    nodeRepulsion: rep,
+    nodeOverlap: 70,
+    idealEdgeLength: edgeLen,
+    edgeElasticity: 0.14,
+    gravity: 0.03,
+
+    componentSpacing: 180,
+    spacingFactor: 1.08,
+
+    avoidOverlap: true,
+    nodeDimensionsIncludeLabels: false,
+    numIter: iter,
+
+    initialTemp: 1200,
+    coolingFactor: 0.99,
+    minTemp: 1.0,
+  };
+}
+
+/* =========================================================
+   Style
+   - thin edges (log weight)
+   - node size by "slog" (sum of incident weights)
+   - labels only via class vd-labels
+   ========================================================= */
 
 const STYLE = [
   {
     selector: "node",
     style: {
       label: "",
+
       "font-size": 10,
       "text-wrap": "wrap",
       "text-max-width": 180,
+      color: "#1f1f1f",
 
-      "background-color": "#4e7a5a",
+      "text-background-color": "rgba(248,245,239,0.92)",
+      "text-background-opacity": 1,
+      "text-background-padding": "2px",
+      "text-background-shape": "roundrectangle",
+
+      "background-color": "data(color)",
       "border-color": "rgba(0,0,0,0.35)",
       "border-width": 1,
 
-      width: 10,
-      height: 10,
+      width: "mapData(slog, 0, 10, 8, 20)",
+      height: "mapData(slog, 0, 10, 8, 20)",
     },
   },
   {
-    selector: "node:hover, node:selected, node.vd-focus",
+    selector: "node.vd-labels",
     style: {
       label: "data(label)",
       "text-outline-width": 2,
       "text-outline-color": "rgba(248,245,239,0.96)",
       "z-index": 10,
+    },
+  },
+  {
+    selector: "node:hover, node:selected, node.vd-focus",
+    style: {
       "border-width": 2,
+      "z-index": 12,
     },
   },
   {
     selector: "edge",
     style: {
-      width: "mapData(weight, 1, 20, 1, 6)",
+      width: "mapData(wlog, 0, 10, 0.30, 1.35)",
       "curve-style": "bezier",
-      "line-color": "rgba(0,0,0,0.24)",
-      "target-arrow-color": "rgba(0,0,0,0.24)",
+      "line-color": "rgba(0,0,0,0.16)",
+      "target-arrow-color": "rgba(0,0,0,0.16)",
       "target-arrow-shape": "triangle",
-      "arrow-scale": 0.8,
-      opacity: 0.85,
+      "arrow-scale": 0.55,
+      opacity: 0.55,
     },
   },
   {
     selector: 'edge[type="comention"]',
     style: {
       "target-arrow-shape": "none",
-      "line-color": "rgba(0,0,0,0.20)",
-      opacity: 0.78,
+      "line-color": "rgba(0,0,0,0.12)",
+      opacity: 0.42,
     },
   },
   {
     selector: "edge:hover",
     style: {
-      "line-color": "rgba(0,0,0,0.55)",
-      "target-arrow-color": "rgba(0,0,0,0.55)",
-      opacity: 1,
+      width: 2.0,
+      "line-color": "rgba(0,0,0,0.60)",
+      "target-arrow-color": "rgba(0,0,0,0.60)",
+      opacity: 0.95,
     },
   },
   { selector: ".vd-dim", style: { opacity: 0.10 } },
 ];
 
 /* -----------------------------
-   Smart fit
+   Fit helpers
 ----------------------------- */
 
 function largestComponent() {
@@ -387,7 +615,7 @@ function fitLargestComponent(padding = 90) {
   LAST_FIT_SCOPE = "largest";
 }
 
-function fitAll(padding = 60) {
+function fitAll(padding = 55) {
   if (!cy) return;
   cy.fit(undefined, padding);
   LAST_FIT_SCOPE = "all";
@@ -408,7 +636,6 @@ function initCytoscape(elements) {
     boxSelectionEnabled: false,
     selectionType: "single",
 
-    // PERF knobs
     motionBlur: true,
     motionBlurOpacity: 0.15,
     textureOnViewport: true,
@@ -416,18 +643,39 @@ function initCytoscape(elements) {
     hideLabelsOnViewport: true,
   });
 
+  // background tap
   cy.on("tap", (evt) => {
     if (evt.target === cy) closeTooltip();
   });
+
+  // tooltips on tap (node/edge)
   cy.on("tap", "node", (evt) => showNodeTooltip(evt.target));
   cy.on("tap", "edge", (evt) => showEdgeTooltip(evt.target));
+
+  // labels via hover/selection
+  cy.on("mouseover", "node", (evt) => showLabelForNode(evt.target));
+  cy.on("mouseout", "node", (evt) => {
+    if (FOCUS_NODE_ID) {
+      enforceFocusLabelPolicy();
+      return;
+    }
+    hideLabelForNode(evt.target);
+  });
+
+  cy.on("select", "node", (evt) => {
+    showLabelForNode(evt.target);
+    if (FOCUS_NODE_ID) enforceFocusLabelPolicy();
+  });
+
+  cy.on("unselect", "node", () => {
+    if (FOCUS_NODE_ID) enforceFocusLabelPolicy();
+  });
 
   setupResizeObserver();
 }
 
 function setupResizeObserver() {
   if (!UI.container) return;
-
   try {
     if (RESIZE_OBSERVER) RESIZE_OBSERVER.disconnect();
 
@@ -435,16 +683,11 @@ function setupResizeObserver() {
       debounce(() => {
         if (!cy) return;
         cy.resize();
-
-        // avoid re-fit during exploration
-        if (!FOCUS_NODE_ID && LAST_FIT_SCOPE === "largest") {
-          fitLargestComponent(90);
-        }
       }, 140)
     );
 
     RESIZE_OBSERVER.observe(UI.container);
-  } catch (e) {
+  } catch {
     // ignore
   }
 }
@@ -462,10 +705,7 @@ function runLayout(mode, elements, onDone) {
   };
 
   layout.on("layoutstop", finish);
-
-  // shorter fallback: we reduced iter, so this is safe
-  setTimeout(finish, normalizeType(mode) === "comention" ? 4500 : 3500);
-
+  setTimeout(finish, normalizeType(mode) === "comention" ? 5200 : 4200);
   layout.run();
 }
 
@@ -473,7 +713,6 @@ function updateGraph(elements, mode, onDone) {
   if (!cy) {
     initCytoscape(elements);
   } else {
-    // PERF: batch remove/add is fine; keep it minimal
     cy.stop();
     cy.batch(() => {
       cy.elements().remove();
@@ -481,30 +720,10 @@ function updateGraph(elements, mode, onDone) {
     });
   }
 
+  clearAllNodeLabels();
   cy.resize();
+
   runLayout(mode, elements, onDone);
-}
-
-/* -----------------------------
-   Node sizing (PERF: only after layout, and skip if huge)
------------------------------ */
-
-function updateNodeSizesByDegree() {
-  if (!cy) return;
-
-  const nCount = cy.nodes().length;
-  // PERF: for very large graphs, skip dynamic sizing (big win)
-  if (nCount > 900) return;
-
-  const degs = cy.nodes().map((n) => n.degree());
-  const maxDeg = Math.max(1, ...degs);
-
-  cy.nodes().forEach((n) => {
-    const d = n.degree();
-    const size = Math.max(9, Math.min(24, 9 + Math.round((15 * d) / maxDeg)));
-    n.style("width", size);
-    n.style("height", size);
-  });
 }
 
 /* -----------------------------
@@ -516,6 +735,30 @@ function clearFocus() {
   FOCUS_NODE_ID = null;
   cy.elements().removeClass("vd-dim");
   cy.nodes().removeClass("vd-focus");
+  clearAllNodeLabels();
+  closeTooltip();
+}
+
+function buildEgoKeep(node, depth) {
+  let keep = node.closedNeighborhood();
+  if (depth >= 2) {
+    const ring = keep.nodes();
+    ring.forEach((nn) => {
+      keep = keep.union(nn.closedNeighborhood());
+    });
+  }
+  return keep;
+}
+
+function runLocalEgoLayout(mode, keepWithEdges) {
+  if (!cy || !keepWithEdges) return;
+
+  const sub = keepWithEdges.filter((el) => !el.hasClass("vd-dim"));
+  const n = sub.nodes().length;
+  if (n < 3) return;
+
+  const layout = sub.layout(egoLayoutFor(mode, n));
+  layout.run();
 }
 
 function applyFocus(nodeId, depth) {
@@ -528,23 +771,26 @@ function applyFocus(nodeId, depth) {
 
   cy.elements().removeClass("vd-dim");
   cy.nodes().removeClass("vd-focus");
+  clearAllNodeLabels();
 
-  let keep = n.closedNeighborhood();
-
-  if (depth >= 2) {
-    const ring = keep.nodes();
-    ring.forEach((nn) => {
-      keep = keep.union(nn.closedNeighborhood());
-    });
-  }
-
+  const keep = buildEgoKeep(n, depth);
   const keepWithEdges = keep.union(keep.connectedEdges());
 
   cy.elements().difference(keepWithEdges).addClass("vd-dim");
+
   n.addClass("vd-focus");
   n.select();
 
-  cy.fit(keepWithEdges, 90);
+  enforceFocusLabelPolicy();
+
+  const mode = UI.mode?.value || "correspondence";
+  runLocalEgoLayout(mode, keepWithEdges);
+
+  setTimeout(() => {
+    if (!cy) return;
+    cy.fit(keepWithEdges, 95);
+  }, 0);
+
   LAST_FIT_SCOPE = "largest";
 }
 
@@ -595,6 +841,11 @@ function escapeHtml(str) {
     .replaceAll("'", "&#039;");
 }
 
+/**
+ * NODE tooltip now includes evidence links
+ * - For correspondence: evidence are the letters that support that node's connections.
+ * - For comention: also works, but you mostly cared about correspondence.
+ */
 function showNodeTooltip(node) {
   const label = node.data("label");
   const id = node.data("id");
@@ -603,16 +854,29 @@ function showNodeTooltip(node) {
   const indeg = typeof node.indegree === "function" ? node.indegree() : "—";
   const outdeg = typeof node.outdegree === "function" ? node.outdegree() : "—";
 
+  const ev = node.data("evidence") || [];
+  const evCount = node.data("evidenceCount") ?? (Array.isArray(ev) ? ev.length : 0);
+  const evHtml = evidenceToLinks(ev, 40);
+
   const html = `
     <div><strong>${escapeHtml(label)}</strong></div>
     <div style="font-size:12px;opacity:.85">${escapeHtml(id)}</div>
     <div style="margin-top:6px;font-size:12px">
       Degree: <strong>${deg}</strong> · In: <strong>${indeg}</strong> · Out: <strong>${outdeg}</strong>
     </div>
+    <div style="margin-top:8px;font-size:12px">
+      Evidence: <strong>${evCount}</strong>
+    </div>
+    <div style="margin-top:6px;font-size:12px;line-height:1.4">
+      ${evHtml}
+    </div>
   `;
   attachTooltipAt(node.renderedPosition(), html);
 }
 
+/**
+ * EDGE tooltip: evidence links (already aggregated/deduped)
+ */
 function showEdgeTooltip(edge) {
   const type = normalizeType(edge.data("type"));
   const w = edge.data("weight");
@@ -625,32 +889,27 @@ function showEdgeTooltip(edge) {
   const tLabel = t?.data("label") || edge.data("target");
 
   const title = type === "correspondence" ? `${sLabel} → ${tLabel}` : `${sLabel} — ${tLabel}`;
-
-  const evLinks = evidence
-    .slice(0, 30)
-    .map((cv) => `<a href="${viewerUrl(cv)}" target="_blank" rel="noopener">${cv}</a>`)
-    .join(" ");
+  const evHtml = evidenceToLinks(evidence, 40);
 
   const html = `
     <div><strong>${escapeHtml(title)}</strong></div>
     <div style="margin-top:6px;font-size:12px">
-      Weight: <strong>${w}</strong> · Evidence: <strong>${evidence.length}</strong>
+      Weight: <strong>${w}</strong> · Evidence: <strong>${safeArray(evidence).length}</strong>
     </div>
     <div style="margin-top:6px;font-size:12px;line-height:1.4">
-      ${evLinks || "<span style='opacity:.8'>No evidence</span>"}
+      ${evHtml}
     </div>
   `;
   attachTooltipAt(edge.midpoint(), html);
 }
 
 /* -----------------------------
-   Person SELECT population (PERF: build once)
+   Person select
 ----------------------------- */
 
 function populatePersonSelect() {
   if (!UI.personSelect) return;
 
-  // Use NODES_BY_ID (already built)
   const items = Array.from(NODES_BY_ID.values())
     .map((n) => ({ id: n.id, label: n.label }))
     .sort((a, b) => a.label.localeCompare(b.label, "pt-BR"));
@@ -661,7 +920,7 @@ function populatePersonSelect() {
 }
 
 /* -----------------------------
-   Refresh (NEW: idle scheduling + smaller work per tick)
+   Refresh
 ----------------------------- */
 
 function refresh() {
@@ -672,7 +931,6 @@ function refresh() {
   closeTooltip();
   setLoading(true);
 
-  // don’t block UI; schedule heavy work when idle
   runWhenIdle(() => {
     const elements = buildElementsFast(mode, minWeight);
 
@@ -689,7 +947,6 @@ function refresh() {
 
     hideEmptyState();
 
-    // Keep DOM responsive before layout
     requestAnimationFrame(() => {
       updateGraph(elements, mode, () => {
         if (!cy) {
@@ -697,13 +954,11 @@ function refresh() {
           return;
         }
 
-        updateNodeSizesByDegree();
-
         if (FOCUS_NODE_ID) {
           const depth = parseInt(UI.egoDepth?.value || "1", 10) || 1;
           applyFocus(FOCUS_NODE_ID, depth);
         } else {
-          fitLargestComponent(90);
+          fitAll(55);
         }
 
         setLoading(false);
@@ -726,29 +981,24 @@ async function main() {
   if (!res.ok) throw new Error(`Failed to load ${DATA_PATH} (HTTP ${res.status})`);
   NETWORK = await res.json();
 
-  // NEW: index once
   indexNetworkData();
-
   populatePersonSelect();
 
   UI.mode?.addEventListener("change", () => {
     clearFocus();
-    // reset cache key (mode changed)
     LAST_ELEMENTS_KEY = "";
     refresh();
   });
 
-  // PERF: "input" still OK, but we debounce heavier and keep work idle
   UI.minWeight?.addEventListener(
     "input",
     debounce(() => {
       clearFocus();
-      // minWeight changed -> new key
+      LAST_ELEMENTS_KEY = "";
       refresh();
     }, 220)
   );
 
-  // Fit button toggles largest <-> all
   UI.fitBtn?.addEventListener("click", () => {
     if (!cy) return;
     closeTooltip();
@@ -760,11 +1010,9 @@ async function main() {
       return;
     }
 
-    if (LAST_FIT_SCOPE === "largest") {
-      fitAll(60);
-    } else {
-      fitLargestComponent(90);
-    }
+    // toggle
+    if (LAST_FIT_SCOPE === "largest") fitAll(55);
+    else fitLargestComponent(90);
   });
 
   if (UI.focusBtn && UI.resetBtn && UI.personSelect && UI.egoDepth) {
@@ -792,7 +1040,7 @@ async function main() {
       if (cy) {
         cy.elements().removeClass("vd-dim");
         cy.resize();
-        fitLargestComponent(90);
+        fitAll(55);
       }
     });
   }

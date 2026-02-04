@@ -284,3 +284,26 @@ body.vd-network #weightValueInline{
   font-weight: 800;
 }
 
+/* =========================================================
+   HOW TO USE THIS GRAPH MODAL
+========================================================= */
+
+/* Social Network — Help modal */
+#networkHelpModal .modal-body {
+  line-height: 1.4;
+}
+
+#networkHelpModal ul {
+  padding-left: 1.15rem;
+  margin-bottom: 0;
+}
+
+#networkHelpModal .fw-semibold {
+  margin-bottom: 0.35rem;
+}
+
+/* Header button alignment on small screens */
+.vd-network-header .btn {
+  white-space: nowrap;
+}
+

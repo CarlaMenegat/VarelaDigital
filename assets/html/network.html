@@ -112,12 +112,93 @@
         <!-- Header -->
         <header class="vd-network-header px-3 px-lg-4 pt-3">
           <h1>Social Network</h1>
-          <p class="vd-lead">
-            Explore the social network derived from correspondence and co-mentions
-            in the Varela collection. The network is generated from RDF data and
-            represents people as nodes and relationships as edges.
-          </p>
+
+          <div class="d-flex flex-wrap align-items-start justify-content-between gap-2">
+            <p class="vd-lead mb-0" style="max-width: 72ch;">
+              Explore the social network derived from correspondence and co-mentions in the Varela collection.
+              Nodes represent people and edges represent relationships. Hover and click elements to view details
+              and supporting documents.
+            </p>
+
+            <div class="ms-auto">
+              <button
+                type="button"
+                class="btn btn-sm btn-outline-secondary"
+                data-bs-toggle="modal"
+                data-bs-target="#networkHelpModal"
+                aria-controls="networkHelpModal"
+              >
+                How to use this graph
+              </button>
+            </div>
+          </div>
         </header>
+
+        <!-- Help Modal -->
+        <div
+          class="modal fade"
+          id="networkHelpModal"
+          tabindex="-1"
+          aria-labelledby="networkHelpModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="networkHelpModalLabel">How to use this graph</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <div class="modal-body">
+                <div class="mb-3">
+                  <div class="fw-semibold">Navigation</div>
+                  <ul class="mb-0">
+                    <li><strong>Zoom:</strong> use the mouse wheel / trackpad.</li>
+                    <li><strong>Pan:</strong> drag the background.</li>
+                    <li><strong>Rearrange:</strong> drag nodes to reduce overlaps and inspect local structures.</li>
+                  </ul>
+                </div>
+
+                <div class="mb-3">
+                  <div class="fw-semibold">Identify people and relationships</div>
+                  <ul class="mb-0">
+                    <li><strong>Hover</strong> a node to display the person’s name.</li>
+                    <li><strong>Click</strong> a node to view basic information.</li>
+                    <li><strong>Click</strong> an edge to see its type and the list of letters that support it (<em>evidence</em>).</li>
+                  </ul>
+                </div>
+
+                <div class="mb-3">
+                  <div class="fw-semibold">Filters</div>
+                  <ul class="mb-0">
+                    <li><strong>Network mode:</strong> switch between <em>Correspondence</em> and <em>Co-mentions</em>.</li>
+                    <li><strong>Minimum documents:</strong> hide weak connections supported by fewer letters.</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <div class="fw-semibold">Person-centered view</div>
+                  <ul class="mb-0">
+                    <li>Select a person and a depth, then click <strong>Focus</strong> to show their neighborhood.</li>
+                    <li>Use <strong>Reset</strong> to return to the full network.</li>
+                    <li><strong>Fit network</strong> adjusts the view to what is currently displayed.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <!-- Content (CUSTOM LAYOUT: flex, not bootstrap grid) -->
         <div class="vd-network-layout px-3 px-lg-4 pb-3">
