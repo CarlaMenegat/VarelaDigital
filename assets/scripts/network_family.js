@@ -170,16 +170,12 @@ function layoutOptions(nodeCount, edgeCount) {
       animate: false,
       randomize: true,
       quality: "default",
-
       nodeRepulsion: nodeCount > 250 ? 16000 : 12000,
       idealEdgeLength: 160,
-
       gravity: 0.22,
       numIter: nodeCount > 250 || edgeCount > 500 ? 650 : 500,
-
       avoidOverlap: true,
       nodeDimensionsIncludeLabels: false,
-
       componentSpacing: 90,
       nodeSeparation: 80,
       padding: 30,
@@ -190,17 +186,58 @@ function layoutOptions(nodeCount, edgeCount) {
     name: "cose",
     animate: false,
     randomize: true,
-
     nodeRepulsion: nodeCount > 250 ? 20000 : 15000,
     idealEdgeLength: 170,
     gravity: 0.06,
-
     numIter: nodeCount > 250 || edgeCount > 500 ? 900 : 700,
-
     avoidOverlap: true,
     nodeOverlap: 10,
     componentSpacing: 90,
     padding: 30,
+  };
+}
+
+/**
+ * Local "de-overlap" layout for ego network.
+ * Runs only on the focused subgraph and is fast.
+ */
+function egoLayoutOptions(nodeCount) {
+  const hasFcose = !!(
+    window.cytoscape &&
+    cytoscape.extensions &&
+    cytoscape.extensions("layout", "fcose")
+  );
+
+  if (hasFcose) {
+    return {
+      name: "fcose",
+      animate: false,
+      randomize: false,
+      quality: "default",
+      nodeRepulsion: nodeCount > 80 ? 22000 : 26000,
+      idealEdgeLength: 190,
+      gravity: 0.12,
+      numIter: nodeCount > 80 ? 260 : 320,
+      avoidOverlap: true,
+      nodeDimensionsIncludeLabels: false,
+      componentSpacing: 120,
+      nodeSeparation: 120,
+      padding: 40,
+    };
+  }
+
+  return {
+    name: "cose",
+    animate: false,
+    randomize: false,
+    nodeRepulsion: nodeCount > 80 ? 26000 : 32000,
+    idealEdgeLength: 200,
+    gravity: 0.03,
+    numIter: nodeCount > 80 ? 320 : 420,
+    avoidOverlap: true,
+    nodeOverlap: 20,
+    componentSpacing: 120,
+    padding: 40,
   };
 }
 
@@ -220,14 +257,8 @@ function showLabelForNode(node) {
 
 function hideLabelForNode(node) {
   if (!node || node.empty()) return;
-  // se o node está em foco, mantemos label
-  if (node.hasClass("vd-focus")) return;
+  if (node.hasClass("vd-focus")) return; // focus keeps label
   node.removeClass("vd-labels");
-}
-
-function showLabelsForCollection(col) {
-  if (!cy || !col) return;
-  col.nodes().addClass("vd-labels");
 }
 
 function hideLabelsForNonFocused() {
@@ -236,6 +267,20 @@ function hideLabelsForNonFocused() {
     if (!n.hasClass("vd-focus") && !n.selected()) {
       n.removeClass("vd-labels");
     }
+  });
+}
+
+/**
+ * In focus mode, we want labels ONLY for:
+ * - the focused node
+ * - selected nodes
+ * (hover still works via mouseover handlers)
+ */
+function enforceFocusLabelPolicy() {
+  if (!cy) return;
+  cy.nodes().forEach((n) => {
+    if (n.hasClass("vd-focus") || n.selected()) n.addClass("vd-labels");
+    else n.removeClass("vd-labels");
   });
 }
 
@@ -270,7 +315,7 @@ const STYLE = [
     },
   },
 
-  // quando o node tiver a classe vd-labels → mostra label
+  // when node has class vd-labels -> show label
   {
     selector: "node.vd-labels",
     style: {
@@ -279,7 +324,7 @@ const STYLE = [
     },
   },
 
-  // hover/selected/focus: mantém destaque visual
+  // hover/selected/focus highlight
   {
     selector: "node:hover, node:selected, node.vd-focus",
     style: {
@@ -482,8 +527,35 @@ function clearFocus() {
   cy.elements().removeClass("vd-dim");
   cy.nodes().removeClass("vd-focus");
 
-  // volta ao estado: sem labels (só aparecem em hover/selected)
+  // back to: no labels (only hover/selected)
   clearAllNodeLabels();
+}
+
+function buildEgoKeep(node, depth) {
+  let keep = node.closedNeighborhood();
+
+  if (depth >= 2) {
+    // simple depth-2: union neighborhoods of nodes in keep
+    const ring = keep.nodes();
+    ring.forEach((nn) => {
+      keep = keep.union(nn.closedNeighborhood());
+    });
+  }
+
+  return keep;
+}
+
+function runLocalEgoLayout(keepWithEdges) {
+  if (!cy || !keepWithEdges) return;
+
+  // Only layout visible elements in the ego subgraph
+  const sub = keepWithEdges.filter((el) => !el.hasClass("vd-hide") && !el.hasClass("vd-dim"));
+  const nodeCount = sub.nodes().length;
+
+  if (nodeCount < 3) return;
+
+  const layout = sub.layout(egoLayoutOptions(nodeCount));
+  layout.run();
 }
 
 function applyFocus(nodeId, depth) {
@@ -498,25 +570,26 @@ function applyFocus(nodeId, depth) {
   cy.nodes().removeClass("vd-focus");
   clearAllNodeLabels();
 
-  let keep = n.closedNeighborhood();
-
-  if (depth >= 2) {
-    const ring = keep.nodes();
-    ring.forEach((nn) => {
-      keep = keep.union(nn.closedNeighborhood());
-    });
-  }
-
+  const keep = buildEgoKeep(n, depth);
   const keepWithEdges = keep.union(keep.connectedEdges());
 
   cy.elements().difference(keepWithEdges).addClass("vd-dim");
+
   n.addClass("vd-focus");
   n.select();
 
-  // no ego network: mostrar labels dos nodes mantidos (melhor para exploração)
-  showLabelsForCollection(keep);
+  // NEW: labels policy in focus -> only focused + selected (hover still works)
+  enforceFocusLabelPolicy();
 
-  cy.fit(keepWithEdges, 90);
+  // NEW: de-overlap inside ego network
+  runLocalEgoLayout(keepWithEdges);
+
+  // Fit after a tick (layout may change positions)
+  setTimeout(() => {
+    if (!cy) return;
+    cy.fit(keepWithEdges, 95);
+  }, 0);
+
   LAST_FIT_SCOPE = "largest";
 }
 
@@ -564,7 +637,7 @@ function applyTypeFilter(modeValue) {
 
   cy.endBatch();
 
-  // labels: se não tem foco, só mantém em selected (se houver)
+  // labels: if no focus -> keep only selected/hover behaviour
   if (!FOCUS_NODE_ID) {
     hideLabelsForNonFocused();
   }
@@ -619,18 +692,25 @@ function initCytoscape(elements) {
   cy.on("mouseout", "node", (evt) => {
     if (!cy) return;
     const n = evt.target;
-    // se está focado, deixa
-    if (FOCUS_NODE_ID) return;
+    // if focus exists, we still remove label unless it's focus/selected
+    if (FOCUS_NODE_ID) {
+      enforceFocusLabelPolicy();
+      return;
+    }
     hideLabelForNode(n);
   });
 
   // labels via selection
   cy.on("select", "node", (evt) => {
     showLabelForNode(evt.target);
+    if (FOCUS_NODE_ID) enforceFocusLabelPolicy();
   });
 
   cy.on("unselect", "node", (evt) => {
-    if (FOCUS_NODE_ID) return;
+    if (FOCUS_NODE_ID) {
+      enforceFocusLabelPolicy();
+      return;
+    }
     hideLabelForNode(evt.target);
   });
 
