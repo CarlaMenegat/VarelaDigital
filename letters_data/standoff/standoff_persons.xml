@@ -8204,26 +8204,50 @@
         
         <person xml:id="joaquim_escravo">
             <persName>Joaquim</persName>
-            <idno type="project"></idno>
-            <note>Homem escravizado da fazenda de Jaguarão, mencionado em conta financeira de 1836; função indicada como “dito”, em continuidade ao item anterior.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="joaquim_escravizado">
+                <roleName>pessoa escravizada</roleName>
+            </state>
+            <note>
+                Homem escravizado da fazenda de Jaguarão, mencionado em conta financeira de 1836;
+                função indicada como “dito”, em continuidade ao item anterior.
+            </note>
         </person>
         
         <person xml:id="alberto_escravo">
             <persName>Alberto</persName>
-            <idno type="project"></idno>
-            <note>Homem escravizado da fazenda de Jaguarão, listado em conta financeira de 1836 como um dos cinco escravizados avaliados.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="alberto_escravizado">
+                <roleName>pessoa escravizada</roleName>
+            </state>
+            <note>
+                Homem escravizado da fazenda de Jaguarão, listado em conta financeira de 1836
+                como um dos cinco escravizados avaliados.
+            </note>
         </person>
         
         <person xml:id="pedro_escravo">
             <persName>Pedro</persName>
-            <idno type="project"></idno>
-            <note>Homem escravizado da fazenda de Jaguarão, mencionado em conta financeira de 1836 entre os escravizados avaliados.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="pedro_escravizado">
+                <roleName>pessoa escravizada</roleName>
+            </state>
+            <note>
+                Homem escravizado da fazenda de Jaguarão, mencionado em conta financeira de 1836
+                entre os escravizados avaliados.
+            </note>
         </person>
         
         <person xml:id="fermiano_escravo">
             <persName>Fermiano</persName>
-            <idno type="project"></idno>
-            <note>Homem escravizado da fazenda de Jaguarão, listado em conta financeira de 1836 com valor individual especificado.</note>
+            <idno type="project"/>
+            <state type="roleInTime" xml:id="fermiano_escravizado">
+                <roleName>pessoa escravizada</roleName>
+            </state>
+            <note>
+                Homem escravizado da fazenda de Jaguarão, listado em conta financeira de 1836
+                com valor individual especificado.
+            </note>
         </person>
         
         <person xml:id="dona_joaquina_pavao">
