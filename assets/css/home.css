@@ -177,7 +177,7 @@
 .home-map-embed iframe {
   display: block;
   width: 100%;
-  height: 520px;          /* <<< AQUI está o ganho real */
+  height: 520px;          
   border: 0;
 }
 
@@ -195,24 +195,25 @@
   }
 }
 
-/* ---- Footer ---- */
+/* footer*/
 .vd-footer {
   margin-top: 3rem;
-  padding-top: 1.6rem;
   padding-bottom: 3rem;
+  padding-top: 1.6rem;
   border-top: 1px solid rgba(196,179,178,0.75);
   text-align: center;
-  color: var(--vd-ink);
+  color: #5E121A;
 }
 
 .vd-footer a {
-  color: var(--vd-accent);
+  color: #5E121A;
   text-decoration: none;
   font-weight: 600;
 }
 
 .vd-footer a:hover {
   text-decoration: underline;
+  color: #5E121A;
 }
 
 .vd-footer .footer-links {

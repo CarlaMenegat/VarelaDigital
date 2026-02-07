@@ -530,20 +530,21 @@ body.annotations-open .left-column {
 
 .vd-footer {
   margin-top: 3rem;
-  padding-top: 1.6rem;
   padding-bottom: 3rem;
+  padding-top: 1.6rem;
   border-top: 1px solid rgba(196,179,178,0.75);
   text-align: center;
-  color: var(--vd-ink);
+  color: #5E121A;
 }
 
 .vd-footer a {
-  color: var(--vd-accent);
+  color: #5E121A;
   text-decoration: none;
   font-weight: 600;
 }
 
 .vd-footer a:hover {
+  color: #5E121A;
   text-decoration: underline;
 }
 
