@@ -27,7 +27,7 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rel: <http://purl.org/vocab/relationship/> .
 @prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
-@prefix san: <http://dati.san.beniculturali.it/ode/?uri=http://dati.san.beniculturali.it/SAN/> .
+@prefix san: <http://dati.san.beniculturali.it/SAN/> .
 @prefix schema: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 

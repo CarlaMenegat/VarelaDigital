@@ -103,34 +103,40 @@
       <h1>Data Model</h1>
 
       <p>
-        The <em>Varela Digital</em> Knowledge Graph stores the project’s data in
-        RDF (serialised as JSON-LD), and is populated with reused and
-        project-specific classes and properties. The documentation below presents
-        the core modules of the model and the main modelling choices adopted to
-        represent the collection, its documentary units, and the semantic
-        relations extracted from the texts.
+        The <em>Varela Digital</em> Knowledge Graph represents the project corpus as RDF (serialised as JSON-LD),
+        combining reused vocabularies with a minimal project-specific ontology. This documentation describes the
+        model in three modules: (M1) the collection as an intellectual aggregation of documentary works; (M2)
+        letters and other documentary units across FRBR-aligned layers (Work / Expression / Manifestation / Item);
+        and (M3) typed semantic relations extracted from texts and represented as explicit graph assertions.
+        The diagrams provide the normative reference for classes and properties used in the knowledge base exports.
       </p>
 
       <h3>List of prefixes</h3>
       <div class="prefix-box" aria-label="List of prefixes">
         <pre>
-vd:      https://carlamenegat.github.io/VarelaDigital/
-hrao:    https://carlamenegat.github.io/hrao/
-fabio:   http://purl.org/spar/fabio/
-frbr:    http://purl.org/vocab/frbr/core#
-dcterms: http://purl.org/dc/terms/
-foaf:    http://xmlns.com/foaf/0.1/
-pro:     http://purl.org/spar/pro/
-time:    http://www.w3.org/2006/time#
-doco:    http://purl.org/spar/doco/
-san:     http://purl.org/spar/san/
-cnt:     http://www.w3.org/2011/content#
-bio:     http://purl.org/vocab/bio/0.1/
-owl:     http://www.w3.org/2002/07/owl#
-rdf:     http://www.w3.org/1999/02/22-rdf-syntax-ns#
-rdfs:    http://www.w3.org/2000/01/rdf-schema#
-xml:     http://www.w3.org/XML/1998/namespace
-xsd:     http://www.w3.org/2001/XMLSchema#
+vd:       https://carlamenegat.github.io/VarelaDigital/ontology/
+vdrole:   https://carlamenegat.github.io/VarelaDigital/ontology/role/
+hrao:     https://carlamenegat.github.io/hrao/hrao#
+fabio:    http://purl.org/spar/fabio/
+frbr:     http://purl.org/vocab/frbr/core#
+bibo:     http://purl.org/ontology/bibo/
+dct:      http://purl.org/dc/terms/
+doco:     http://purl.org/spar/doco/
+foaf:     http://xmlns.com/foaf/0.1/
+geo:      http://www.w3.org/2003/01/geo/wgs84_pos#
+hico:     http://purl.org/emmedi/hico/
+pro:      http://purl.org/spar/pro/
+prov:     http://www.w3.org/ns/prov#
+rel:      http://purl.org/vocab/relationship/
+rico:     https://www.ica.org/standards/RiC/ontology#
+san:      http://dati.san.beniculturali.it/SAN/
+schema:   https://schema.org/
+skos:     http://www.w3.org/2004/02/skos/core#
+owl:      http://www.w3.org/2002/07/owl#
+rdf:      http://www.w3.org/1999/02/22-rdf-syntax-ns#
+rdfs:     http://www.w3.org/2000/01/rdf-schema#
+xsd:      http://www.w3.org/2001/XMLSchema#
+xml:      http://www.w3.org/XML/1998/namespace
         </pre>
       </div>
 
@@ -139,31 +145,23 @@ xsd:     http://www.w3.org/2001/XMLSchema#
         <h2>Module 1 — The Collection</h2>
 
         <p>
-          The collection model (M1) describes the Varela Collection as an
-          intellectual and editorial entity. The Varela Collection is modelled as
-          an instance of <code>fabio:WorkCollection</code>, representing a
-          coherent scholarly aggregation of documentary works united by
-          provenance, historical context, and editorial mediation.
+          Module 1 (M1) defines the collection-level entry point for the knowledge graph. The Varela Collection is
+          modelled as an instance of <code>fabio:WorkCollection</code>, i.e., an intellectual aggregation that groups
+          heterogeneous documentary works under shared provenance and editorial framing.
         </p>
 
         <p>
-          Each individual document in the collection is modelled as an instance
-          of <code>frbr:Work</code> and linked to the collection through the
-          <code>frbr:part</code> relation. This modelling choice allows
-          heterogeneous documentary genres — including letters, official
-          documents, accounts, and legal texts — to coexist within a unified
-          conceptual framework, while remaining distinguishable at the level of
-          documentary typology.
+          Individual documentary units are modelled as instances of <code>frbr:Work</code> and linked to the collection
+          using <code>dcterms:isPartOf</code>. Documentary genres (e.g., <code>fabio:Letter</code>,
+          <code>fabio:OfficialDocument</code>, <code>fabio:LegalDocument</code>, <code>fabio:FinancialReport</code>) are
+          represented as subclasses of <code>frbr:Work</code>, enabling a unified collection model while preserving
+          typological distinctions at class level.
         </p>
 
         <p>
-          The collection model provides the structural entry point for the
-          Knowledge Graph, enabling navigation, aggregation, and querying across
-          documents and supporting the integration of multiple textual
-          expressions, material manifestations, and editorial realizations. By
-          adopting a FRBR-aligned approach through the FaBiO ontology, the model
-          treats the collection as a first-class intellectual object, independent
-          of any single physical or digital instantiation.
+          This module is intentionally lightweight: it establishes a stable container for aggregation, navigation, and
+          reuse, without requiring any commitment to a single physical carrier. Material and editorial realisations are
+          handled downstream in M2 through FRBR-aligned layers.
         </p>
 
         <figure class="model-figure tall">
@@ -182,47 +180,43 @@ xsd:     http://www.w3.org/2001/XMLSchema#
         <h2>Module 2 — Letters and Documentary Models</h2>
 
         <p>
-          The second module (M2) describes letters as documentary works and
-          models their different material and editorial manifestations within the
-          <em>Varela Digital</em> corpus. Each letter is represented as an
-          instance of <code>fabio:Letter</code>, understood as a subclass of
-          <code>frbr:Work</code>, and linked to the collection through
-          <code>frbr:part</code>.
+          Module 2 (M2) models documentary units—especially letters—across FRBR-aligned layers as implemented through
+          SPAR/FaBiO. Each letter is represented as a <code>fabio:Letter</code> (a subclass of <code>frbr:Work</code>),
+          and is connected to a textual realisation via <code>frbr:realization</code> (<code>fabio:Expression</code>).
+          This separation preserves the documentary identity of the letter while allowing multiple editorial and
+          material instantiations to coexist.
         </p>
 
         <p>
-          At the level of the letter as a work, the model records the document
-          identifier (<code>dcterms:identifier</code>), the sending date
-          (<code>dcterms:date</code>), the place of dispatch
-          (<code>dcterms:spatial</code>), the sender
-          (<code>dcterms:creator</code>), the addressee
-          (<code>pro:addressee</code>), and the internal textual structure
-          through discrete textual segments (<code>doco:contains</code>,
-          <code>doco:TextChunk</code>).
+          Document-level descriptive properties are attached at the expression layer when they characterise the encoded
+          text used by the project (e.g., identifier and dating of the represented text). In particular, the model links
+          <code>fabio:Expression</code> to <code>dcterms:identifier</code>, <code>dcterms:date</code> and
+          <code>dcterms:spatial</code>, and connects the expression to role assignments through PRO
+          (<code>pro:RoleInTime</code>) so that agents can be described with explicit roles (e.g., creator/addressee)
+          and a temporal scope.
         </p>
 
         <p>
-          The model supports multiple manifestations of the same letter through
-          <code>frbr:embodiment</code>. Manuscript letters are represented as
-          <code>fabio:AnalogManifestation</code> and linked to physical exemplars
-          (<code>frbr:Item</code>) with identifiers and physical extent. Printed
-          letters, as published in the
-          <em>Anais do Arquivo Histórico do Rio Grande do Sul</em>, are modelled
-          as analog manifestations with publication date
-          (<code>dcterms:issued</code>), publisher
-          (<code>dcterms:publisher</code>), rights statements, and an explicit
-          editorial interpretation process (<code>hico:InterpretationAct</code>,
-          <code>hico:interpretedBy</code>). Bibliographic information such as
-          volume and page range is associated with the corresponding item. Digital
-          letters are represented as <code>fabio:DigitalManifestation</code>,
-          linked to digital items carrying identifiers and rights information.
+          The internal textual structure is represented through segment-level units (<code>doco:TextChunk</code>) linked
+          from the expression via <code>doco:contains</code>. Text chunks can carry explicit references to modelled
+          entities through SAN (<code>san:refersTo</code>, <code>san:EntityReference</code>), supporting traceability
+          between relation assertions and the textual evidence that motivates them.
         </p>
 
         <p>
-          This module provides a unified framework for representing the
-          intellectual identity of letters and their diverse material and
-          editorial forms, while maintaining compatibility with FRBR-based
-          bibliographic modelling and Linked Open Data practices.
+          Material instantiations are represented through <code>frbr:embodiment</code>. Manuscripts and the 1978 printed
+          edition are modelled as <code>fabio:AnalogManifestation</code>, while the project’s web publication is modelled
+          as <code>fabio:DigitalManifestation</code>. Physical and bibliographic details can be expressed at the item
+          level (<code>frbr:Item</code>) using identifiers and extent/page metadata (e.g., <code>bibo:pageStart</code>,
+          <code>bibo:pageEnd</code>, <code>bibo:volume</code>). Rights information is attached via
+          <code>dcterms:rights</code> to <code>dcterms:RightsStatement</code>.
+        </p>
+
+        <p>
+          Finally, the model records the editorial mediation of the printed edition using HiCO/PROV: the printed
+          manifestation can be linked to an interpretive activity (<code>hico:InterpretationAct</code>,
+          <code>prov:wasGeneratedBy</code>), making explicit that the project encodes an editorial transmission stratum
+          rather than a diplomatic transcription of manuscripts.
         </p>
 
         <figure class="model-figure tall">
@@ -242,40 +236,35 @@ xsd:     http://www.w3.org/2001/XMLSchema#
         <h2>Module 3 — HRAO Relations Extracted from Text</h2>
 
         <p>
-          <strong>Semantic relations model (HRAO)</strong><br />
-          The HRAO module of the Varela Digital data model represents the
-          semantic relations extracted from the letters and recorded through
-          standoff annotation. Rather than introducing new classes, HRAO acts as
-          a controlled ontology of domain-specific
-          <code>owl:ObjectProperty</code> predicates that connect existing nodes
-          in the Knowledge Graph—primarily <code>foaf:Person</code>,
-          <code>foaf:Agent</code>, <code>san:Event</code>, and
-          <code>geo:SpatialThing</code>. This design keeps the model interoperable
-          and FRBR-aligned while making historically meaningful relations explicit
-          and queryable.
+          Module 3 (M3) documents the relation layer used to represent semantic links extracted from the corpus and
+          recorded through standoff annotation. Relations are expressed as <code>owl:ObjectProperty</code> assertions
+          connecting existing entities in the graph—primarily <code>foaf:Person</code>, <code>foaf:Organization</code>,
+          <code>san:Event</code>, and <code>geo:SpatialThing</code>. This design keeps the knowledge base modular and
+          interoperable: the project introduces a minimal set of domain-specific predicates (HRAO) while reusing
+          established vocabularies where possible.
         </p>
 
         <p>
-          The model captures three main relation families. First, interpersonal
-          relations link persons to persons through properties such as
-          <code>foaf:knows</code> and HRAO predicates (e.g.,
-          <code>hrao:hasKinship</code>, <code>hrao:servedUnder</code>,
-          <code>hrao:followedPoliticalAlignmentOf</code>), reflecting social ties
-          and political positioning expressed in the corpus. Second, institutional
-          relations connect persons to organizations using, for example,
-          <code>schema:memberOf</code> and organization-to-organization hierarchies
-          via <code>schema:subOrganizationOf</code>; these links support the
-          reconstruction of affiliation networks and administrative structures.
-          Third, event-based relations connect persons to <code>san:Event</code>
-          via <code>hrao:participatedInEvent</code>, while events are anchored
-          spatially through <code>san:hasPlace</code> to
-          <code>geo:SpatialThing</code>, enabling temporal-spatial analyses of
-          participation and movement across the correspondence.
+          The relation layer combines three families of links. (1) <strong>Person–person relations</strong> are modelled
+          through reused predicates (e.g., <code>foaf:knows</code>) and domain-specific HRAO properties capturing forms of
+          political and institutional interaction (e.g., service, command, imprisonment, intercession). (2)
+          <strong>Person–organisation and organisation–organisation relations</strong> reuse schema.org and related
+          vocabularies (e.g., <code>schema:memberOf</code>, <code>schema:employeeOf</code>,
+          <code>schema:subOrganizationOf</code>) to express affiliation and hierarchy. (3) <strong>Event-based relations</strong>
+          connect persons to <code>san:Event</code> via HRAO predicates (e.g., participation), and events can be grounded
+          spatially via <code>dcterms:spatial</code> to <code>geo:SpatialThing</code>.
+        </p>
+
+        <p>
+          Relation assertions are treated as curated interpretive statements: they are stored separately from the base text,
+          can be revised independently, and are designed to remain linkable to textual evidence through entity references and
+          segment identifiers. This enables deterministic network extraction for visualisations while keeping the model
+          auditable and maintainable.
         </p>
 
         <figure class="model-figure">
           <img
-            src="../../data_models/relationsModel.png"
+            src="../../data_models/relationModel.png"
             alt="Semantic relations model (HRAO) for Varela Digital"
           />
           <figcaption>
