@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Varela Digital — Project Discussion</title>
+    <title>Varela Digital — Project Documentation</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="../css/styles.css" />
     <link rel="stylesheet" href="../css/project_discussion.css" />
@@ -61,11 +62,12 @@
             </li>
 
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="docsDropdown" role="button" data-bs-toggle="dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="docsDropdown" role="button" data-bs-toggle="dropdown">
                 Documentation
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="project_discussion.html">Project Discussion</a></li>
+                <li><a class="dropdown-item" href="project_discussion.html">Project Documentation</a></li>
+                <li><a class="dropdown-item" href="knowledge_base.html">Knowledge Base</a></li>
                 <li><a class="dropdown-item" href="data_model.html">Data Model</a></li>
               </ul>
             </li>
@@ -76,22 +78,21 @@
 
     <main class="vd-page vd-discussion-page" style="padding-top: 110px">
       <header class="vd-header">
-        <h1>Project Discussion</h1>
+        <h1>Project Documentation</h1>
 
         <p class="vd-lead">
-          This page presents the conceptual rationale and editorial approach of <em>Varela Digital</em>.
-          It explains how the project moves from documentary sources to structured representations—TEI,
-          metadata, and Linked Data—in order to support historically meaningful navigation, analysis, and
-          visualisation.
+          This page documents the editorial rationale, technical workflow, and design choices underlying
+          <em>Varela Digital</em>. It describes how documentary sources are transformed into structured
+          representations that support navigation, exploration, and analysis across the website.
         </p>
       </header>
 
       <div class="vd-layout">
+        <!-- Sidebar -->
         <aside class="vd-toc" aria-label="On this page">
           <div class="vd-toc-title">On this page</div>
           <ul class="vd-toc-list">
             <li><a href="#scope">Scope and rationale</a></li>
-            <li><a href="#kb">Knowledge base</a></li>
             <li><a href="#stance">Editorial and interpretive stance</a></li>
             <li><a href="#workflow">From texts to structured data</a></li>
             <li><a href="#interop">Reuse and interoperability</a></li>
@@ -99,132 +100,478 @@
           </ul>
         </aside>
 
+        <!-- Content -->
         <div class="vd-content">
 
-          <!-- Scope -->
           <section id="scope" class="vd-section">
             <h2>Scope and rationale</h2>
-            <h3><em>Varela Digital</em> as a scholarly edition and knowledge environment</h3>
+            <h3><em>Varela Digital</em> as a scholarly edition and documentation-driven project</h3>
 
             <p>
-              <em>Varela Digital</em> is conceived as a scholarly digital edition that goes beyond the online presentation
-              of historical texts. It combines established practices in digital scholarly editing with data modelling and
-              semantic representation, transforming the edition into a knowledge-oriented research environment.
+              <em>Varela Digital</em> is implemented as a documentation-driven scholarly digital edition whose primary
+              objective is to expose the structure, entities, and relations implicit in a historical correspondence
+              corpus. The project integrates textual encoding, metadata normalisation, and semantic modelling within
+              a coherent technical framework designed to support inspection, reuse, and exploratory analysis.
             </p>
 
             <p>
-              Documents are not treated as isolated textual artefacts, but as historical objects situated within networks
-              of people, places, institutions, events, and actions. The project adopts principles of transparency,
-              explicit modelling choices, and reproducibility, extending them through TEI/XML encoding and Linked
-              Open Data–oriented structures.
+              At its core, the project treats TEI/XML not only as a publication format, but as the authoritative
+              representation of editorial decisions. All subsequent layers—indexes, visualisations, and semantic
+              exports—are derived from explicitly encoded structures rather than from ad hoc data extraction. This
+              ensures traceability between documentary evidence and the computational representations presented on
+              the website.
+            </p>
+
+            <p>
+              The scope of the project extends beyond document display. Persons, places, institutions, and relations
+              referenced in the corpus are modelled as first-class entities and documented through authority files
+              and standoff annotations. These entities form the basis for cross-document navigation, network
+              construction, and spatial analysis, enabling users to move systematically between individual documents
+              and aggregated views of the corpus.
+            </p>
+
+            <p>
+              From a technical perspective, <em>Varela Digital</em> is designed as a static, reproducible system.
+              The entire platform is deployed without server-side dependencies, relying instead on pre-generated
+              HTML, structured datasets, and client-side visualisation libraries. This design choice prioritises
+              transparency, long-term maintainability, and ease of reuse over dynamic querying or runtime data
+              generation.
+            </p>
+
+            <p>
+              The project’s documentation plays a central role in this architecture. Rather than treating the website
+              as a black-box interface, <em>Varela Digital</em> exposes its data models, ontologies, and knowledge base
+              artefacts as inspectable components. This documentation-oriented approach positions the edition not
+              only as a reading environment, but also as a technical reference for scholars interested in data-driven
+              approaches to historical correspondence.
             </p>
           </section>
 
-          <!-- Knowledge Base -->
-          <section id="kb" class="vd-section">
-            <h2>Knowledge base</h2>
+          <section id="stance" class="vd-section">
+            <h2>Editorial and interpretive stance</h2>
 
             <p>
-              In <em>Varela Digital</em>, the notion of “knowledge base” refers to the project’s capacity to make documentary
-              evidence computable without detaching it from its editorial and archival grounding. The edition therefore
-              operates as a layered knowledge environment: documents remain the primary scholarly objects, while persons,
-              places, institutions, and events are modelled as explicit entities connected by traceable relations.
+              <em>Varela Digital</em> adopts an explicit and documented editorial stance that distinguishes clearly
+              between source material, editorial mediation, and interpretive modelling. The textual layer of the
+              project is based on the printed transcriptions published in the <em>Anais do Arquivo Histórico do Rio
+              Grande do Sul</em>, which are treated as the authoritative source for encoding.
             </p>
 
             <p>
-              This knowledge base is not conceived as a generic repository of decontextualised facts. Instead, it is a
-              curated representation built from editorial decisions (TEI/XML), operational metadata (CSV), authority
-              files, and a semantic layer (RDF/JSON-LD). Each layer supports a different mode of access: close reading in
-              the viewer, document-level navigation through indexes, and cross-document exploration through spatial and
-              network visualisations.
-            </p>
-
-            <h3>Visualisations as interfaces to the knowledge base</h3>
-            <p>
-              The map and network views are not ancillary outputs, but user-facing interfaces to the underlying structured
-              data. The correspondence map foregrounds spatial circulation and administrative geography, while social and
-              institutional networks highlight patterns of interaction and responsibility among historical actors.
+              As a consequence, the project does not aim to produce a diplomatic or critical edition of the original
+              manuscripts. Orthographic, palaeographic, and material features of the handwritten documents are not
+              reconstructed. Instead, the edition preserves the editorial logic of the printed source and documents
+              this dependency explicitly as part of the project’s scope.
             </p>
 
             <p>
-              Together with metadata-driven indexes, these views enable users to move from individual documents to
-              corpus-level questions, and back to the textual evidence that sustains each relation.
+              Editorial intervention is limited to structural encoding, normalisation required for computational
+              processing, and the identification of entities and relations relevant to historical analysis. These
+              interventions are applied consistently and recorded through TEI/XML markup, authority files, and
+              standoff annotations, allowing them to be isolated from the textual transcription itself.
             </p>
 
-            <h3>Access, reuse, and publication</h3>
             <p>
-              Rather than exposing a public SPARQL endpoint in this pilot phase, the project prioritises lightweight and
-              reproducible publication. The semantic layer is released as RDF/JSON-LD and used to feed the site’s
-              navigational components and visualisation pipeline. This approach preserves interoperability while keeping
-              the platform compatible with static web hosting.
+              Interpretive statements—such as the identification of social roles, institutional affiliations, or
+              relationships between actors—are not embedded directly in the running text. Instead, they are modelled
+              as structured assertions linked to documentary evidence. This separation allows interpretive choices
+              to remain explicit, traceable, and revisable, without compromising the integrity of the encoded text.
             </p>
 
-            <div class="mt-4 d-flex gap-3 flex-wrap">
-              <a class="btn btn-outline-primary" href="https://github.com/CarlaMenegat/VarelaDigital" target="_blank" rel="noopener">
-                Project Repository
-              </a>
+            <p>
+              This editorial configuration positions <em>Varela Digital</em> as a documentation-oriented scholarly
+              edition: one in which transparency of sources, clarity of modelling decisions, and technical
+              reproducibility take precedence over exhaustive textual reconstruction or interpretive closure.
+            </p>
+          </section>
 
-              <a class="btn btn-outline-primary" href="../../data_models/kbvd.ttl" target="_blank" rel="noopener">
-                Download Knowledge Base (Turtle)
-              </a>
+          <section id="workflow" class="vd-section">
+            <h2>From texts to structured data</h2>
 
-              <a class="btn btn-outline-primary" href="../../data_models/ontology_vd.owl" target="_blank" rel="noopener">
-                Download VD Ontology (OWL)
-              </a>
+            <p>
+              The <em>Varela Digital</em> workflow is designed as a controlled, multi-stage pipeline that transforms
+              documentary sources into structured, reusable data while preserving editorial responsibility and
+              traceability. Each stage produces explicit artefacts that serve as inputs for subsequent processes,
+              ensuring that computational representations remain grounded in documented editorial decisions.
+            </p>
 
-              <a class="btn btn-outline-secondary" href="https://carlamenegat.github.io/hrao/" target="_blank" rel="noopener">
-                HRAO vocabulary (external)
-              </a>
+            <p>
+              The workflow is intentionally split into two complementary paths originating from the TEI/XML layer:
+              a text-oriented publication pipeline, dedicated to reading and validation, and a data-oriented
+              extraction pipeline, dedicated to semantic modelling and visualisation. This separation allows the
+              project to support both close textual engagement and corpus-level analytical exploration.
+            </p>
+
+            <figure class="vd-card">
+              <img
+                src="../images/editorial_technical_workflow(1).jpg"
+                alt="Editorial and technical workflow of the Varela Digital project"
+                loading="lazy"
+                style="width:100%; height:auto; border-radius:12px; border:1px solid rgba(196,179,178,0.95);"
+              />
+              <figcaption>
+                Editorial and technical workflow: from TEI/XML to static publication and semantic visualisation
+              </figcaption>
+            </figure>
+
+            <h3>Workflow stages</h3>
+
+            <div class="table-responsive">
+              <table class="table table-sm table-bordered align-middle">
+                <thead>
+                  <tr>
+                    <th>Stage</th>
+                    <th>Input</th>
+                    <th>Process</th>
+                    <th>TEI / Data structures</th>
+                    <th>Outcome / Purpose</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1. Source acquisition</td>
+                    <td>Printed <em>Anais do Arquivo Histórico do Rio Grande do Sul</em> (vol. II, 1978)</td>
+                    <td>High-resolution scanning and OCR (Python workflow), followed by manual revision</td>
+                    <td>Raw text files (intermediate, non-authoritative)</td>
+                    <td>
+                      Establish a clean working transcription faithful to the printed edition, without producing an
+                      authoritative textual layer
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>2. Structural TEI encoding</td>
+                    <td>Revised OCR text</td>
+                    <td>
+                      Encoding of document structure (letter boundaries, paragraphs, openers, closers, postscripts)
+                    </td>
+                    <td>
+                      <code>&lt;TEI&gt;</code>, <code>&lt;teiHeader&gt;</code>, <code>&lt;text&gt;</code>,
+                      <code>&lt;body&gt;</code>, <code>&lt;div type="letter"&gt;</code>, <code>&lt;p&gt;</code>
+                    </td>
+                    <td>
+                      Produce a stable, machine-readable representation of each document as a textual unit
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>3. Archival and editorial metadata</td>
+                    <td>Anais metadata and institutional documentation</td>
+                    <td>
+                      Encoding of archival context, editorial responsibility, and representational constraints
+                    </td>
+                    <td>
+                      <code>&lt;sourceDesc&gt;</code>, <code>&lt;msDesc&gt;</code>,
+                      <code>&lt;editorialDecl&gt;</code>, <code>&lt;revisionDesc&gt;</code>
+                    </td>
+                    <td>
+                      Represent the <em>Anais</em> as a transmission stratum and document editorial assumptions and
+                      limits
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>4. Entity identification (inline anchoring)</td>
+                    <td>TEI body text</td>
+                    <td>
+                      Anchoring textual references to persons, places, organisations, dates, and events
+                    </td>
+                    <td>
+                      <code>&lt;persName&gt;</code>, <code>&lt;placeName&gt;</code>,
+                      <code>&lt;orgName&gt;</code>, <code>&lt;date&gt;</code> with <code>@ref</code>
+                    </td>
+                    <td>
+                      Anchor textual mentions to identifiable entities while preserving textual readability
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>5. Standoff entity modelling</td>
+                    <td>Inline entity references</td>
+                    <td>
+                      Creation and maintenance of external authority files
+                    </td>
+                    <td>
+                      Separate TEI/XML standoff files (persons, places, organisations, events)
+                    </td>
+                    <td>
+                      Enable correction, enrichment, and disambiguation without altering the base transcription
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>6. Editorial intervention marking</td>
+                    <td>Printed <em>Anais</em> text</td>
+                    <td>
+                      Explicit encoding of normalisation, uncertainty, paratext, and editorial notes
+                    </td>
+                    <td>
+                      <code>&lt;note type="editorial"&gt;</code>,
+                      <code>&lt;note type="historical"&gt;</code>,
+                      <code>&lt;sic&gt;</code>, folio markers
+                    </td>
+                    <td>
+                      Preserve the editorial layer of the printed edition transparently, without claiming
+                      diplomatic fidelity
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>7. Relation annotation (standoff)</td>
+                    <td>Curated historical interpretation</td>
+                    <td>
+                      Encoding of interpersonal, institutional, and event-based relations
+                    </td>
+                    <td>
+                      <code>&lt;relation&gt;</code> elements in standoff files (FOAF, HRAO, PRO, Schema)
+                    </td>
+                    <td>
+                      Make historical relations explicit, queryable, and analysable as networks
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>8. Validation and consistency checks</td>
+                    <td>TEI corpus and standoff files</td>
+                    <td>
+                      Schema validation, identifier consistency, and cross-reference checks
+                    </td>
+                    <td>
+                      Project-specific constraints and guidelines
+                    </td>
+                    <td>
+                      Ensure internal coherence, referential integrity, and long-term maintainability
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>9. Version control and documentation</td>
+                    <td>All project files</td>
+                    <td>
+                      Git-based versioning and documentation of editorial decisions
+                    </td>
+                    <td>
+                      Public repository, changelogs, encoding guidelines
+                    </td>
+                    <td>
+                      Guarantee transparency, reproducibility, and future extensibility
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>10. Semantic transformation and publication</td>
+                    <td>Structured metadata and standoff layers</td>
+                    <td>
+                      Generation of RDF/Turtle and JSON-LD, both per document and as an aggregated graph
+                    </td>
+                    <td>
+                      FRBR/FaBiO, FOAF, PRO, HiCO, SAN, HRAO
+                    </td>
+                    <td>
+                      Enable knowledge graph publication, data exploration, and analytical reuse
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </section>
 
-          <!-- Editorial stance -->
-          <section id="stance" class="vd-section">
-            <h2>Editorial and interpretive stance</h2>
-            <p>
-              <em>Varela Digital</em> adopts an editorial stance grounded in transparency and controlled interpretation.
-              The edition preserves the editorial logic of the printed <em>Anais do Arquivo Histórico do Rio Grande do Sul</em>,
-              explicitly documenting its scope, limits, and methodological assumptions.
-            </p>
-          </section>
-
-          <!-- Workflow -->
-          <section id="workflow" class="vd-section">
-            <h2>From texts to structured data</h2>
-            <p>
-              The project is built as a layered environment in which TEI/XML serves as the authoritative textual
-              representation, metadata supports navigation, and RDF/JSON-LD enables semantic modelling and visualisation.
-            </p>
-          </section>
-
-          <!-- Interoperability -->
           <section id="interop" class="vd-section">
             <h2>Reuse and interoperability</h2>
+
             <p>
-              Interoperability is ensured through the reuse of shared standards and vocabularies, combined with the
-              minimal domain-specific extension provided by HRAO.
+              Interoperability in <em>Varela Digital</em> is addressed through the explicit reuse of shared standards,
+              controlled vocabularies, and stable identifiers. Rather than introducing a comprehensive project-specific
+              ontology, the data model combines established Semantic Web vocabularies with a minimal domain-oriented
+              extension designed to express historically meaningful relations.
+            </p>
+
+            <h3>Reused standards and vocabularies</h3>
+
+            <p>
+              The project adopts widely used standards for textual encoding, metadata representation, and semantic
+              modelling. These choices ensure that the resulting datasets can be understood and reused beyond the
+              project context, while remaining compatible with common Digital Humanities workflows.
+            </p>
+
+            <ul class="vd-bullets">
+              <li>
+                <strong>TEI (Text Encoding Initiative):</strong> used as the authoritative format for textual and
+                editorial encoding of documents.
+              </li>
+
+              <li>
+                <strong>Dublin Core (DC):</strong> reused for basic descriptive metadata related to documents,
+                creators, and dates.
+              </li>
+
+              <li>
+                <strong>FOAF (Friend of a Friend):</strong> employed for modelling persons and social relationships
+                at a general level.
+              </li>
+
+              <li>
+                <strong>PRO (Publishing Roles Ontology):</strong> used to represent roles and responsibilities in
+                relation to documents and institutional actors.
+              </li>
+
+              <li>
+                <strong>FaBiO / FRBR-aligned concepts:</strong> applied to distinguish documents as abstract works,
+                expressions, and concrete manifestations where required for bibliographic clarity.
+              </li>
+
+              <li>
+                <strong>HiCO (Historical Context Ontology):</strong> reused to qualify interpretive statements and
+                contextual assertions derived from historical sources.
+              </li>
+
+              <li>
+                <strong>SAN (Scholarly Annotation Namespace):</strong> employed to model references and textual
+                anchoring between documents and interpretive assertions.
+              </li>
+            </ul>
+
+            <h3>HRAO as a domain-specific extension</h3>
+
+            <p>
+              The Historical Relations of Archival Objects (HRAO) vocabulary is reused as a lightweight, domain-specific
+              extension to express relations that are not sufficiently captured by general-purpose ontologies. HRAO
+              introduces a small set of properties designed to model forms of agency, responsibility, and interaction
+              typical of nineteenth-century archival correspondence.
+            </p>
+
+            <p>
+              HRAO is maintained in a separate repository and is referenced by the <em>Varela Digital</em> knowledge
+              base as an external dependency. This separation avoids coupling project data too tightly to a single
+              vocabulary, while enabling clear documentation of the semantic commitments introduced by relation
+              modelling.
+            </p>
+
+            <h3>Data formats and access for reuse</h3>
+
+            <p>
+              To support reuse, the project publishes its semantic representations in standard, non-proprietary
+              formats. The knowledge base is released as RDF/Turtle and JSON-LD, and is documented alongside the
+              project ontology. These formats enable both human inspection and machine processing, without requiring
+              specialised infrastructure.
+            </p>
+
+            <p>
+              While no public SPARQL endpoint is provided in the pilot phase, the published datasets are designed to
+              be compatible with external triple stores and analysis environments. This allows third parties to
+              ingest, query, and extend the data independently of the project website.
+            </p>
+
+            <h3>Interoperability by design</h3>
+
+            <p>
+              By combining shared standards, stable identifiers, and a minimal extension strategy, <em>Varela Digital</em>
+              prioritises interoperability as a design constraint rather than a post-hoc feature. The resulting data
+              model supports alignment with external datasets, integration into broader research infrastructures, and
+              reuse in future scholarly projects without requiring access to the original publication platform.
             </p>
           </section>
 
-          <!-- Roadmap -->
           <section id="roadmap" class="vd-section">
             <h2>Current state and roadmap</h2>
 
             <p>
-              <em>Varela Digital</em> is currently implemented as a functional pilot, supporting close reading,
-              metadata-driven browsing, spatial visualisation of correspondence, and multiple network views derived from
-              explicitly modelled relations.
+              <em>Varela Digital</em> is implemented as a functional pilot project. All core components required to
+              support textual consultation, structured navigation, and data-driven exploration are in place and
+              publicly accessible. The current state reflects a completed editorial and technical workflow rather
+              than a conceptual prototype.
+            </p>
+
+            <h3>Implemented components</h3>
+
+            <ul class="vd-bullets">
+              <li>
+                <strong>Textual edition:</strong> a corpus of TEI/XML documents encoded from the printed
+                <em>Anais do Arquivo Histórico do Rio Grande do Sul</em>, including structural markup, editorial
+                notes, and inline entity anchoring.
+              </li>
+
+              <li>
+                <strong>Document viewer:</strong> static HTML pages generated via XSLT, enriched with client-side
+                JavaScript for annotations, navigation, and validation-oriented reading.
+              </li>
+
+              <li>
+                <strong>Metadata-driven indexes:</strong> CSV-based metadata supporting browsing by document
+                identifier, sender, recipient, date, and places of sending and reception.
+              </li>
+
+              <li>
+                <strong>Standoff authority files:</strong> external TEI/XML files for persons, places,
+                organisations, events, and relations, enabling controlled enrichment and disambiguation.
+              </li>
+
+              <li>
+                <strong>Knowledge base publication:</strong> RDF/Turtle and JSON-LD exports documenting entities,
+                relations, and ontological commitments, published as reusable artefacts.
+              </li>
+
+              <li>
+                <strong>Visualisation interfaces:</strong> interactive map and network views (social, family, and
+                institutional) generated from pre-processed datasets derived from the semantic layer.
+              </li>
+            </ul>
+
+            <h3>Consolidated design decisions</h3>
+
+            <p>
+              Several architectural and methodological choices are treated as stable in the current version of the
+              project. These include static web deployment (GitHub Pages), the absence of server-side components, the
+              use of TEI/XML as the authoritative textual layer, and the publication of the knowledge base as
+              downloadable files rather than through a live querying endpoint.
             </p>
 
             <p>
-              Future developments will focus on extending the corpus, refining the knowledge base, and strengthening
-              alignment with external datasets and research infrastructures.
+              These decisions prioritise transparency, reproducibility, and long-term maintainability over dynamic
+              data generation or real-time querying.
             </p>
 
-            <div class="mt-3 d-flex gap-3 flex-wrap">
-              <a href="data_model.html" class="btn btn-outline-primary">View Data Model</a>
-              <a href="../assets/ontology/ontology_vd.owl" class="btn btn-outline-primary">Ontology</a>
-            </div>
+            <h3>Planned extensions</h3>
+
+              <p>
+                Future work is envisaged primarily as incremental extension rather than architectural revision. This
+                includes the expansion of the corpus, the enrichment of authority files, and the refinement of relation
+                modelling as new historical questions emerge.
+              </p>
+
+              <p>
+                Potential technical extensions include the integration of document images through the International
+                Image Interoperability Framework (IIIF), enabling alignment between textual encoding and visual access
+                to manuscript or printed sources where available. Such an extension would introduce an image layer
+                without altering the project’s existing editorial workflow.
+              </p>
+
+              <p>
+                Another possible development concerns the exposure of project data through a documented application
+                programming interface (API). Rather than replacing the current static publication model, an API would
+                function as an additional access layer, supporting programmatic reuse of metadata, authority files, and
+                derived datasets.
+              </p>
+
+              <p>
+                Finally, future phases may explore the production of diplomatic transcriptions for selected documents,
+                explicitly separated from the current encoded texts. Any such extension would be documented as a
+                parallel editorial layer, allowing comparison between representational strategies without conflating
+                distinct editorial aims.
+              </p>
+
+            <h3>Out of scope</h3>
+
+            <p>
+              The following elements are explicitly considered outside the scope of the current project phase:
+              diplomatic transcription of manuscript sources; automated entity recognition; collaborative editing
+              interfaces; and the provision of a public SPARQL endpoint or server-side API.
+            </p>
+
+            <p>
+              These exclusions are not interpreted as limitations, but as deliberate constraints that define the
+              project’s focus and ensure coherence between editorial aims and technical implementation.
+            </p>
           </section>
 
         </div>
@@ -234,7 +581,9 @@
         <div class="footer-links">
           Developed by <strong>Carla Menegat</strong> |
           <a href="mailto:carla.menegat@studio.unibo.it">carla.menegat@studio.unibo.it</a> |
-          <a href="https://github.com/CarlaMenegat/VarelaDigital" target="_blank" rel="noopener">Project Repository on GitHub</a> |
+          <a href="https://github.com/CarlaMenegat/VarelaDigital" target="_blank" rel="noopener">
+            Project Repository on GitHub
+          </a> |
           Licensed under
           <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>
         </div>

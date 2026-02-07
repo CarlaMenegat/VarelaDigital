@@ -329,3 +329,12 @@ html{
     font-size: 1.35rem;
   }
 }
+
+/* ---- Figure captions (workflow diagrams, code snapshots) ---- */
+.vd-discussion-page figure figcaption{
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: rgba(47, 47, 47, 0.75);
+  margin-top: 0.45rem;
+  line-height: 1.4;
+}
