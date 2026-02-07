@@ -11,7 +11,7 @@
   </head>
 
   <body>
-    <!-- Navbar (assets/html/*) -->
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top vd-navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="../../index.html">Varela Digital</a>
@@ -35,32 +35,17 @@
             </li>
 
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="collectionDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-              >
+              <a class="nav-link dropdown-toggle" href="#" id="collectionDropdown" role="button" data-bs-toggle="dropdown">
                 The Collection
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="indexes.html">Browse</a></li>
-                <li>
-                  <a class="dropdown-item" href="viewer.html?file=CV-1.xml">Viewer</a>
-                </li>
+                <li><a class="dropdown-item" href="viewer.html?file=CV-1.xml">Viewer</a></li>
               </ul>
             </li>
 
-            <!-- Data Exploration -->
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle active"
-                href="#"
-                id="explorationDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-              >
+              <a class="nav-link dropdown-toggle active" href="#" id="explorationDropdown" role="button" data-bs-toggle="dropdown">
                 Data Exploration
               </a>
               <ul class="dropdown-menu">
@@ -76,19 +61,11 @@
             </li>
 
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="docsDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-              >
+              <a class="nav-link dropdown-toggle" href="#" id="docsDropdown" role="button" data-bs-toggle="dropdown">
                 Documentation
               </a>
               <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="project_discussion.html">Project Discussion</a>
-                </li>
+                <li><a class="dropdown-item" href="project_discussion.html">Project Discussion</a></li>
                 <li><a class="dropdown-item" href="data_model.html">Data Model</a></li>
               </ul>
             </li>
@@ -97,7 +74,6 @@
       </div>
     </nav>
 
-    <!-- Main content -->
     <main class="vd-page vd-discussion-page" style="padding-top: 110px">
       <header class="vd-header">
         <h1>Project Discussion</h1>
@@ -111,7 +87,6 @@
       </header>
 
       <div class="vd-layout">
-        <!-- Sidebar -->
         <aside class="vd-toc" aria-label="On this page">
           <div class="vd-toc-title">On this page</div>
           <ul class="vd-toc-list">
@@ -124,10 +99,9 @@
           </ul>
         </aside>
 
-        <!-- Content -->
         <div class="vd-content">
 
-          <!-- Section A -->
+          <!-- Scope -->
           <section id="scope" class="vd-section">
             <h2>Scope and rationale</h2>
             <h3><em>Varela Digital</em> as a scholarly edition and knowledge environment</h3>
@@ -135,311 +109,143 @@
             <p>
               <em>Varela Digital</em> is conceived as a scholarly digital edition that goes beyond the online presentation
               of historical texts. It combines established practices in digital scholarly editing with data modelling and
-              semantic representation, transforming the edition into a knowledge-oriented research environment. Documents
-              are not treated as isolated textual artefacts, but as historical objects situated within networks of people,
-              places, institutions, events, and actions.
+              semantic representation, transforming the edition into a knowledge-oriented research environment.
             </p>
 
             <p>
-              The project adopts core principles of digital scholarly editing—transparency of editorial intervention,
-              explicit modelling choices, and reproducibility—while extending them through TEI/XML encoding and Linked
-              Open Data–oriented structures. Textual encoding serves both interpretive and analytical purposes: it records
-              editorial decisions and enables the formalisation of historical information that can be reused, aggregated,
-              and visualised across the corpus.
-            </p>
-
-            <p>
-              Although correspondence constitutes the dominant genre within the Varela Collection, <em>Varela Digital</em>
-              does not reduce the corpus to letters alone. The data model accommodates the collection’s heterogeneity,
-              including administrative, legal, and financial documents, which coexist organically within the archival
-              assemblage. The centrality of the letter model reflects the empirical structure of the corpus and the
-              analytical focus of the pilot phase, rather than a restrictive editorial choice.
-            </p>
-
-            <p>
-              From a Digital Humanities perspective, the project sits at the intersection of scholarly editing and
-              knowledge representation. The resulting knowledge base supports multiple modes of exploration: sequential
-              reading in the viewer, access through structured indexes, and analysis through spatial and network
-              visualisations derived from explicitly modelled relations.
+              Documents are not treated as isolated textual artefacts, but as historical objects situated within networks
+              of people, places, institutions, events, and actions. The project adopts principles of transparency,
+              explicit modelling choices, and reproducibility, extending them through TEI/XML encoding and Linked
+              Open Data–oriented structures.
             </p>
           </section>
 
-          <!-- Section B -->
+          <!-- Knowledge Base -->
           <section id="kb" class="vd-section">
             <h2>Knowledge base</h2>
 
             <p>
-              <em>Varela Digital</em> is conceived not only as a digital scholarly edition, but as a knowledge-oriented
-              research environment. Its primary objective is to model historical correspondence in a way that preserves
-              textual integrity while making explicit the relations embedded in and across documents. In this sense, the
-              project aligns with digital editions that treat texts, metadata, and contextual entities as interconnected
-              components of a structured knowledge base.
+              In <em>Varela Digital</em>, the notion of “knowledge base” refers to the project’s capacity to make documentary
+              evidence computable without detaching it from its editorial and archival grounding. The edition therefore
+              operates as a layered knowledge environment: documents remain the primary scholarly objects, while persons,
+              places, institutions, and events are modelled as explicit entities connected by traceable relations.
             </p>
 
             <p>
-              The knowledge base is built through the combination of TEI/XML encoding, structured authority files, and
-              Linked Open Data principles. Documents, persons, places, and institutions are represented as entities and
-              connected through historically meaningful relations. This allows users to move beyond document-by-document
-              consultation and to explore patterns of communication, administrative practices, and political networks
-              articulated through correspondence.
+              This knowledge base is not conceived as a generic repository of decontextualised facts. Instead, it is a
+              curated representation built from editorial decisions (TEI/XML), operational metadata (CSV), authority
+              files, and a semantic layer (RDF/JSON-LD). Each layer supports a different mode of access: close reading in
+              the viewer, document-level navigation through indexes, and cross-document exploration through spatial and
+              network visualisations.
+            </p>
+
+            <h3>Visualisations as interfaces to the knowledge base</h3>
+            <p>
+              The map and network views are not ancillary outputs, but user-facing interfaces to the underlying structured
+              data. The correspondence map foregrounds spatial circulation and administrative geography, while social and
+              institutional networks highlight patterns of interaction and responsibility among historical actors.
             </p>
 
             <p>
-              Rather than prioritising exhaustive semantic querying through a public SPARQL endpoint, the project focuses
-              on interpretive affordances that emerge from structured data. These include dynamic indexes, spatial
-              visualisations of correspondence circulation, and network representations of relationships among historical
-              actors. Together, these components support historical inquiry by making relations visible, navigable, and
-              analysable, while keeping documents anchored in their archival and editorial contexts.
+              Together with metadata-driven indexes, these views enable users to move from individual documents to
+              corpus-level questions, and back to the textual evidence that sustains each relation.
             </p>
 
+            <h3>Access, reuse, and publication</h3>
             <p>
-              In this configuration, the knowledge base does not function as a neutral repository of facts, but as a
-              mediated scholarly construct. It supports historically grounded questions about communication, power, and
-              governance during the Farroupilha Revolution, while remaining transparent about its methodological and
-              editorial assumptions.
+              Rather than exposing a public SPARQL endpoint in this pilot phase, the project prioritises lightweight and
+              reproducible publication. The semantic layer is released as RDF/JSON-LD and used to feed the site’s
+              navigational components and visualisation pipeline. This approach preserves interoperability while keeping
+              the platform compatible with static web hosting.
             </p>
 
-            <details class="vd-biblio">
-              <summary>Bibliography for this section</summary>
+            <div class="mt-4 d-flex gap-3 flex-wrap">
+              <a class="btn btn-outline-primary" href="https://github.com/CarlaMenegat/VarelaDigital" target="_blank" rel="noopener">
+                Project Repository
+              </a>
 
-              <div class="vd-biblio-body">
-                <ul class="vd-biblio-list">
-                  <li>
-                    Ciula, Arianna, Paul Spence, and José Miguel Vieira. “Expressing Complex Associations in Medieval Historical Documents:
-                    The Henry III Fine Rolls Project.” <em>Literary and Linguistic Computing</em> 23, no. 3 (2008): 311–25.
-                  </li>
+              <a class="btn btn-outline-primary" href="../../data_models/kbvd.ttl" target="_blank" rel="noopener">
+                Download Knowledge Base (Turtle)
+              </a>
 
-                  <li>
-                    Daquino, Marilena, and Francesca Tomasi. “Historical Context Ontology (HiCO): A Conceptual Model for Describing Context
-                    Information of Cultural Heritage Objects.” In <em>MTSR 2015</em>, 424–36. Cham: Springer, 2015.
-                  </li>
+              <a class="btn btn-outline-primary" href="../../data_models/ontology_vd.owl" target="_blank" rel="noopener">
+                Download VD Ontology (OWL)
+              </a>
 
-                  <li>
-                    Eggert, Paul. “The Archival Impulse and the Editorial Impulse.” In <em>Advances in Digital Scholarly Editing</em>,
-                    121–24. Leiden: Sidestone Press, 2017.
-                  </li>
-
-                  <li>
-                    Spadini, Elena. “A Semantic Web of Editions? A State of the Art on Digital Scholarly Editions of Correspondences in the
-                    Web of Data.” Presentation, 2024.
-                  </li>
-
-                  <li>
-                    Tomasi, Francesca. “Personal Archives in Linked Open Data: The Conceptual Model as an Integration Tool in GLAMs.”
-                    <em>AIB Studi</em> 57, no. 2 (2017): 283–310.
-                  </li>
-                </ul>
-              </div>
-            </details>
+              <a class="btn btn-outline-secondary" href="https://carlamenegat.github.io/hrao/" target="_blank" rel="noopener">
+                HRAO vocabulary (external)
+              </a>
+            </div>
           </section>
 
-          <!-- Section C -->
+          <!-- Editorial stance -->
           <section id="stance" class="vd-section">
             <h2>Editorial and interpretive stance</h2>
-
             <p>
-              <em>Varela Digital</em> adopts an editorial stance that sits between a traditional scholarly edition and what may be
-              described as a knowledge-oriented edition. The project is grounded in rigorous textual encoding and explicit editorial
-              decisions, but its primary goal is not to reconstruct an “ideal” textual state. Instead, it aims to make documents
-              usable as historical evidence within a structured digital environment.
+              <em>Varela Digital</em> adopts an editorial stance grounded in transparency and controlled interpretation.
+              The edition preserves the editorial logic of the printed <em>Anais do Arquivo Histórico do Rio Grande do Sul</em>,
+              explicitly documenting its scope, limits, and methodological assumptions.
             </p>
-
-            <p>
-              This approach requires a clear distinction between documentary fidelity and interpretive mediation. The texts presented in
-              <em>Varela Digital</em> are based on the printed transcriptions published in the <em>Anais do Arquivo Histórico do Rio Grande do Sul</em>,
-              rather than on direct manuscript collation. For this reason, the edition does not claim to be diplomatic with respect to the original
-              handwritten documents. Editorial choices from the printed edition are preserved, and this decision is explicitly documented.
-            </p>
-
-            <p>
-              Editorial transparency is treated as a core principle. Encoding decisions, normalisation criteria, and the scope of annotation are
-              documented and made visible, allowing the edition to be read not only as a textual resource but also as a methodological artefact.
-              The limits of the edition—what it does not attempt to do—are therefore part of its scholarly argument.
-            </p>
-
-            <p>
-              The project also incorporates assisted translation as a support mechanism for access and exploration. Translations are explicitly
-              identified as non-authoritative reading aids rather than scholarly substitutes for the source texts. Their function is to reduce
-              linguistic barriers, while interpretive responsibility remains anchored in the encoded documents and their contextual metadata.
-            </p>
-
-            <p>
-              A key component of the project’s interpretive strategy lies in standoff annotations and external authority files. Relationships among
-              persons, places, institutions, and documents are modelled as structured assertions linked to specific textual evidence. These modelling
-              choices constitute a form of controlled interpretation: they make historical relations explicit, while remaining separable from the
-              transcription itself. In doing so, <em>Varela Digital</em> acknowledges that data modelling is never neutral, but seeks to make
-              interpretation explicit, traceable, and revisable.
-            </p>
-
-            <details class="vd-biblio">
-              <summary>Bibliography for this section</summary>
-
-              <div class="vd-biblio-body">
-                <ul class="vd-biblio-list">
-                  <li>
-                    Ciotti, Fabio, and Francesca Tomasi. “Formal Ontologies, Linked Data, and TEI Semantics.”
-                    <em>Journal of the Text Encoding Initiative</em> 9 (2016).
-                  </li>
-
-                  <li>
-                    Cummings, James. “A World of Difference: Myths and Misconceptions about the TEI.”
-                    <em>Digital Scholarship in the Humanities</em> 34, suppl. 1 (2019): i58–i79.
-                  </li>
-
-                  <li>
-                    Michelone, Francesca. “L’edizione critica tra digitale e stampa: riflessioni metodologiche.”
-                    <em>Umanistica Digitale</em> 10 (2021): 25–48.
-                  </li>
-
-                  <li>
-                    Tomasi, Francesca. “Digital Editions between Embedded Markup and External Representation.”
-                    In <em>Dall’Informatica Umanistica Alle Culture Digitali</em>, 201–18. Rome: Sapienza, 2012.
-                  </li>
-                </ul>
-              </div>
-            </details>
           </section>
 
-          <!-- Section D -->
+          <!-- Workflow -->
           <section id="workflow" class="vd-section">
             <h2>From texts to structured data</h2>
-
             <p>
-              <em>Varela Digital</em> is built as a layered environment in which the same corpus is represented through complementary formats,
-              each designed to support a different set of scholarly and user-facing needs. Rather than treating the documents only as pages to
-              read, the project treats them as structured sources that can be navigated and analysed across the corpus.
-            </p>
-
-            <h3>1. TEI/XML as the textual and editorial layer</h3>
-            <p>
-              TEI/XML is the project’s primary editorial format. It preserves the internal structure of each document (e.g., headings, openings and
-              closings, endorsements, editorial notes, and named entities) and records explicit encoding decisions. TEI is therefore not only a publishing
-              format, but the authoritative representation from which other outputs are derived.
-            </p>
-
-            <h3>2. Metadata as an operational layer for navigation</h3>
-            <p>
-              A structured metadata table (CSV) supports browsing across the corpus, enabling indexes and filters by document identifier, sender, recipient,
-              date, and places of sending and reception. This layer serves users who approach the collection through document-level access points rather than
-              full-text reading, and it also provides a practical bridge between the textual encoding and the knowledge graph.
-            </p>
-
-            <h3>3. XSLT to pre-generated HTML</h3>
-            <p>
-              For web publication, the project adopts XSLT transformations that generate static HTML pages in advance. This choice ensures stable rendering,
-              fast loading times, and maintainability in a GitHub Pages deployment. Pre-generated HTML also makes the edition resilient: the reading interface
-              does not depend on a server-side application, while still supporting interactive features in the browser.
-            </p>
-
-            <h3>4. RDF/JSON-LD as the semantic layer</h3>
-            <p>
-              In parallel to the textual edition, the project produces a semantic representation of the corpus in RDF, serialised as JSON-LD. This layer
-              models documents, persons, places, organisations, and events as identifiable nodes connected through explicit relations, including the domain-specific
-              predicates defined in HRAO. Even without a public SPARQL endpoint in this phase, publishing RDF/JSON-LD supports interoperability, reuse, and future
-              integration with other datasets and research infrastructures.
-            </p>
-
-            <p>
-              Taken together, these layers define the project’s knowledge base: a corpus that can be read as edited text, explored through metadata-driven indexes,
-              and analysed as a graph of entities and relations.
+              The project is built as a layered environment in which TEI/XML serves as the authoritative textual
+              representation, metadata supports navigation, and RDF/JSON-LD enables semantic modelling and visualisation.
             </p>
           </section>
 
-          <!-- Section E -->
+          <!-- Interoperability -->
           <section id="interop" class="vd-section">
             <h2>Reuse and interoperability</h2>
-
             <p>
-              A central design principle of <em>Varela Digital</em> is interoperability. From the outset, the project was conceived not as an isolated digital edition,
-              but as a resource capable of connecting with other datasets, tools, and research initiatives within the broader digital humanities and cultural heritage
-              ecosystem.
-            </p>
-
-            <h3>1. Reused vocabularies and shared standards</h3>
-            <p>
-              Wherever possible, the project reuses established vocabularies and conceptual frameworks, including Dublin Core for basic descriptive metadata, FOAF for
-              modelling persons and social relations, and bibliographic concepts inspired by FRBR and FaBiO. This strategy avoids unnecessary reinvention and ensures
-              that the data produced can be more easily understood, aligned, and reused beyond the scope of this project.
-            </p>
-
-            <h3>2. HRAO as a minimal domain-specific extension</h3>
-            <p>
-              The Historical Relations of Archival Objects (HRAO) ontology was developed as a deliberately minimal and focused extension, introducing only those properties
-              necessary to express historically meaningful relations emerging from the corpus. Rather than competing with existing ontologies, HRAO complements them by
-              capturing forms of agency, responsibility, and interaction that are specific to nineteenth-century correspondence and archival documents.
-            </p>
-
-            <h3>3. Why reuse matters</h3>
-            <p>
-              By combining reused vocabularies with a small set of domain-specific properties, <em>Varela Digital</em> establishes a data model that is both expressive and
-              sustainable. This approach supports linking with external datasets, strengthens the project’s visualisation pipeline, and makes the outputs easier to reuse
-              in other historical and digital contexts.
+              Interoperability is ensured through the reuse of shared standards and vocabularies, combined with the
+              minimal domain-specific extension provided by HRAO.
             </p>
           </section>
 
-          <!-- Section F -->
+          <!-- Roadmap -->
           <section id="roadmap" class="vd-section">
             <h2>Current state and roadmap</h2>
 
             <p>
-              <em>Varela Digital</em> is conceived as an evolving research environment, and its current state reflects a functional pilot implementation rather than a
-              speculative prototype. The platform already supports both close reading and structured exploration of the corpus.
-            </p>
-
-            <h3>1. Current implementation</h3>
-            <p>
-              The current version includes a complete editorial workflow from TEI/XML to static HTML publication, a document viewer with integrated annotations, and
-              metadata-driven indexes that enable access to the corpus by document identifier, sender, recipient, date, and place. The encoding of named entities and
-              relations supports cross-document navigation and provides the basis for semantic analysis.
-            </p>
-
-            <h3>2. Ongoing developments</h3>
-            <p>
-              Building on this foundation, the project is implementing spatial visualisations that map the circulation of correspondence, as well as network visualisations
-              that represent relationships between persons and institutions. In parallel, RDF and JSON-LD exports are being consolidated to reflect the project’s full
-              semantic model.
+              <em>Varela Digital</em> is currently implemented as a functional pilot, supporting close reading,
+              metadata-driven browsing, spatial visualisation of correspondence, and multiple network views derived from
+              explicitly modelled relations.
             </p>
 
             <p>
-              Together, these components define <em>Varela Digital</em> as a knowledge-oriented edition: a platform in which historical texts, editorial interpretation,
-              and structured data converge to support both human inquiry and computational analysis.
-            </p>
-
-            <p class="mb-2">
-              For detailed information about the conceptual model and the project ontology:
+              Future developments will focus on extending the corpus, refining the knowledge base, and strengthening
+              alignment with external datasets and research infrastructures.
             </p>
 
             <div class="mt-3 d-flex gap-3 flex-wrap">
               <a href="data_model.html" class="btn btn-outline-primary">View Data Model</a>
-              <a href="" class="btn btn-outline-primary">Ontology</a>
+              <a href="../assets/ontology/ontology_vd.owl" class="btn btn-outline-primary">Ontology</a>
             </div>
           </section>
 
         </div>
       </div>
 
-      <!-- Footer -->
-        <footer class="vd-footer">
-            <div class="footer-links">
-                Developed by <strong>Carla Menegat</strong> |
-                <a href="mailto:carla.menegat@studio.unibo.it">carla.menegat@studio.unibo.it</a> |
-                <a href="https://github.com/CarlaMenegat/VarelaDigital" target="_blank" rel="noopener">Project Repository in Github</a> |
-                Licensed under
-                <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> |
-            </div>
+      <footer class="vd-footer">
+        <div class="footer-links">
+          Developed by <strong>Carla Menegat</strong> |
+          <a href="mailto:carla.menegat@studio.unibo.it">carla.menegat@studio.unibo.it</a> |
+          <a href="https://github.com/CarlaMenegat/VarelaDigital" target="_blank" rel="noopener">Project Repository on GitHub</a> |
+          Licensed under
+          <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>
+        </div>
 
-            <div class="footer-small">
-                Final dissertation project for the
-                <a
-                    href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge"
-                    target="_blank"
-                    rel="noopener"
-                >
-                    Master Degree in Digital Humanities and Digital Knowledge (DHDK)
-                </a>
-                , University of Bologna.
-            </div>
-        </footer>
+        <div class="footer-small">
+          Final dissertation project for the
+          <a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge" target="_blank" rel="noopener">
+            Master Degree in Digital Humanities and Digital Knowledge (DHDK)
+          </a>, University of Bologna.
+        </div>
+      </footer>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
