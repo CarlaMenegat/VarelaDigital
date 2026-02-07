@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Varela Digital — Knowledge Base</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/project_discussion.css" />
+    <script src="../scripts/navbar.js"></script>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top vd-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../../index.html">Varela Digital</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html">Homepage</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="collectionDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                The Collection
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="indexes.html">Browse</a></li>
+                <li>
+                  <a class="dropdown-item" href="viewer.html?file=CV-1.xml">Viewer</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="explorationDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                Data Exploration
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="map.html">Map</a></li>
+                <li><a class="dropdown-item" href="network.html">Social Network</a></li>
+                <li><a class="dropdown-item" href="network_family.html">Family Network</a></li>
+                <li><a class="dropdown-item" href="network_orgs.html">Organizations</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="historical_context.html">Historical Context</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                id="docsDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                Documentation
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="project_discussion.html">Overview</a></li>
+                <li><a class="dropdown-item" href="knowledge_base.html">Knowledge Base</a></li>
+                <li><a class="dropdown-item" href="data_model.html">Data Model</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main -->
+    <main class="vd-page vd-discussion-page" style="padding-top: 110px">
+      <header class="vd-header">
+        <h1>Knowledge Base</h1>
+
+        <p class="vd-lead">
+          This page documents the technical structure, published artefacts, and access points of the
+          <em>Varela Digital</em> knowledge base. It describes how editorial data are transformed into
+          reusable semantic representations and how these outputs support navigation and visualisation
+          across the website.
+        </p>
+      </header>
+
+      <div class="vd-layout">
+        <!-- TOC -->
+        <aside class="vd-toc" aria-label="On this page">
+          <div class="vd-toc-title">On this page</div>
+          <ul class="vd-toc-list">
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#artefacts">Published artefacts</a></li>
+            <li><a href="#uris">Namespaces and URIs</a></li>
+            <li><a href="#pipeline">Data pipeline</a></li>
+            <li><a href="#visuals">Use in visualisations</a></li>
+            <li><a href="#publication">Publication and access</a></li>
+          </ul>
+        </aside>
+
+        <!-- Content -->
+        <div class="vd-content">
+          <section id="overview" class="vd-section">
+
+            <p>
+              The <em>Varela Digital</em> knowledge base is a published set of static, versioned artefacts derived from
+              the project’s editorial pipeline. It is built from: (i) TEI/XML documents (authoritative textual layer);
+              (ii) a metadata table (CSV) used for indexing and filtering; and (iii) TEI/XML standoff layers that
+              maintain authority records (persons, places, organisations, events) and explicit relation assertions.
+            </p>
+
+            <p>
+              The semantic layer is produced from these controlled inputs and released as RDF/Turtle and JSON-LD. The
+              website consumes pre-generated datasets derived from the same sources, allowing interactive exploration
+              (viewer, indexes, map, and networks) without requiring server-side infrastructure.
+            </p>
+
+            <p>
+              Design constraints of the knowledge base include: traceability to the encoded text, explicit modelling
+              assumptions, stable identifiers, and reproducible publication through Git versioning. The knowledge base
+              is intended to be reusable independently of the web interface.
+            </p>
+          </section>
+
+          <section id="artefacts" class="vd-section">
+            <h2>Published artefacts</h2>
+
+            <p>
+              The knowledge base is distributed through a small number of inspectable files. These artefacts provide both
+              (a) the vocabulary commitments (ontology and reused vocabularies) and (b) the instance-level graph
+              describing documents, entities, and relations.
+            </p>
+
+            <ul class="vd-bullets">
+              <li>
+                <strong>Knowledge Base dump:</strong> <code>data_models/kbvd.ttl</code> (Turtle). Aggregated RDF graph
+                containing entities (documents, persons, places, organisations, events) and relation assertions derived
+                from standoff annotations.
+              </li>
+              <li>
+                <strong>VD ontology:</strong> <code>data_models/ontology_vd.owl</code> (OWL/RDF). Project ontology and
+                namespace declaration for core classes/properties used in the KB.
+              </li>
+              <li>
+                <strong>Metadata table:</strong> <code>letters_data/metadata/metadata_all.csv</code> (CSV). Normalised
+                document-level metadata used for browsing, indexing, and reproducible dataset generation.
+              </li>
+              <li>
+                <strong>External vocabulary:</strong> HRAO (domain-specific relations vocabulary reused as an external
+                dependency for modelling historically meaningful relations).
+              </li>
+            </ul>
+
+            <div class="mt-4 d-flex gap-3 flex-wrap">
+              <a
+                class="btn btn-outline-primary"
+                href="https://github.com/CarlaMenegat/VarelaDigital"
+                target="_blank"
+                rel="noopener"
+              >
+                Project Repository
+              </a>
+
+              <a class="btn btn-outline-primary" href="../../data_models/kbvd.ttl" target="_blank" rel="noopener">
+                Download Knowledge Base (Turtle)
+              </a>
+
+              <a class="btn btn-outline-primary" href="../../data_models/ontology_vd.owl" target="_blank" rel="noopener">
+                Download VD Ontology (OWL)
+              </a>
+
+              <a
+                class="btn btn-outline-primary"
+                href="../../letters_data/metadata/metadata_all.csv"
+                target="_blank"
+                rel="noopener"
+              >
+                Download Metadata (CSV)
+              </a>
+
+              <a class="btn btn-outline-primary" href="https://carlamenegat.github.io/hrao/" target="_blank" rel="noopener">
+                HRAO vocabulary (external)
+              </a>
+            </div>
+
+            <p class="mt-3">
+              For implementation details (scripts, transformations, and derived datasets), consult the repository
+              structure and documentation in the project README.
+            </p>
+          </section>
+
+          <section id="uris" class="vd-section">
+            <h2>Namespaces and URIs</h2>
+
+            <p>
+              The knowledge base adopts stable HTTP URIs for all project resources. URIs are designed to be readable,
+              persistent, and compatible with publication on GitHub Pages. The main project namespace identifies
+              instance resources (documents and entities), while the ontology namespace provides the vocabulary layer.
+            </p>
+
+            <ul class="vd-bullets">
+              <li>
+                <strong>Project base namespace (instances):</strong>
+                <code>https://carlamenegat.github.io/VarelaDigital/</code>
+              </li>
+              <li>
+                <strong>Project ontology namespace (classes/properties):</strong>
+                <code>https://carlamenegat.github.io/VarelaDigital/ontology/</code>
+              </li>
+            </ul>
+
+            <p>
+              Within the project namespace, entities are identified through project-controlled identifiers used
+              consistently across TEI, standoff files, and RDF exports. External identifiers (e.g., VIAF, Wikidata,
+              GeoNames) are linked at instance level when available.
+            </p>
+          </section>
+
+          <section id="pipeline" class="vd-section">
+            <h2>Data pipeline</h2>
+
+            <p>
+              Knowledge base generation follows a deterministic pipeline. TEI/XML provides the authoritative textual
+              representation and inline anchoring, while standoff files provide the curated authority layer and
+              relation assertions. Metadata tables support normalisation and indexing. The semantic layer is generated
+              from these sources and exported as RDF/Turtle and JSON-LD.
+            </p>
+
+            <ul class="vd-bullets">
+              <li>
+                <strong>Inputs:</strong> TEI/XML documents, TEI standoff (persons/places/orgs/events/relations), metadata
+                CSV
+              </li>
+              <li>
+                <strong>Transformations:</strong> programmatic extraction and mapping to RDF (project scripts and
+                mappings)
+              </li>
+              <li>
+                <strong>Outputs:</strong> aggregated RDF graph (<code>kbvd.ttl</code>) and ontology file
+                (<code>ontology_vd.owl</code>)
+              </li>
+            </ul>
+
+            <div class="vd-two-col">
+              <figure class="vd-card">
+                <img
+                  src="../images/kb_code.png"
+                  alt="Excerpt of kbvd.ttl (Turtle serialization)"
+                  loading="lazy"
+                  style="width: 100%; border-radius: 10px; border: 1px solid rgba(196, 179, 178, 0.95)"
+                />
+                <figcaption>
+                  Knowledge Base dump (<code>kbvd.ttl</code>) — excerpt of the Turtle serialisation.
+                </figcaption>
+              </figure>
+
+              <figure class="vd-card">
+                <img
+                  src="../images/ontology_code.png"
+                  alt="Excerpt of ontology_vd.owl (OWL/RDF serialization)"
+                  loading="lazy"
+                  style="width: 100%; border-radius: 10px; border: 1px solid rgba(196, 179, 178, 0.95)"
+                />
+                <figcaption>
+                  VD Ontology (<code>ontology_vd.owl</code>) — excerpt of the OWL/RDF serialisation.
+                </figcaption>
+              </figure>
+            </div>
+
+            <p>
+              The pipeline prioritises referential integrity: identifiers used in inline <code>@ref</code> attributes and
+              standoff authority files are validated for consistency before export, ensuring stable links across the
+              textual edition, the knowledge base, and the visualisation datasets.
+            </p>
+          </section>
+
+          <section id="visuals" class="vd-section">
+            <h2>Use in visualisations</h2>
+
+            <p>
+              The map and network views consume pre-generated JSON datasets derived from the semantic layer. This design
+              avoids runtime querying and ensures fast loading and deterministic behaviour in a static web environment.
+              Each visualisation implements a fixed data contract: nodes and edges are generated from curated entities
+              and relation assertions rather than inferred automatically at display time.
+            </p>
+
+            <p>
+              In practice, the knowledge base supports visualisations in two ways: (i) by providing stable entity
+              identifiers (persons, places, organisations) that can be rendered as nodes; and (ii) by providing explicit
+              relation assertions (e.g., correspondence relations, kinship ties, institutional links) that can be
+              rendered as edges and filtered by type.
+            </p>
+
+            <p>
+              Spatial visualisation relies on place entities aligned to external gazetteers when possible (e.g.,
+              GeoNames). Network visualisations rely on typed relations and controlled identifiers, allowing the same
+              actor to be tracked consistently across documents and analytical views.
+            </p>
+
+            <h3 class="mt-4">Data contract (JSON)</h3>
+
+            <p>
+              Interactive visualisations consume pre-generated JSON datasets derived from RDF exports. The datasets are
+              treated as versioned artefacts: each file corresponds to a specific extraction and modelling state and is
+              intended to be regenerated from the project sources rather than edited manually.
+            </p>
+
+            <ul class="vd-bullets">
+              <li><strong>Social network:</strong> <code>letters_data/data/network/network.json</code></li>
+              <li><strong>People network:</strong> <code>letters_data/data/network/network_people.json</code></li>
+              <li><strong>Family network:</strong> <code>letters_data/data/network/network_family.json</code></li>
+              <li><strong>Organisations (tree):</strong> <code>letters_data/data/network/network_orgs_tree.json</code></li>
+            </ul>
+
+            <p class="mt-3">
+              <strong>Graph datasets (networks):</strong> JSON files representing a graph must expose, at minimum:
+            </p>
+
+            <ul class="vd-bullets">
+              <li><code>nodes</code>: an array of node objects with <code>id</code> (stable identifier) and
+                <code>label</code> (display string). Optional fields may include <code>type</code>,
+                <code>uri</code>, or domain-specific attributes used for styling and filtering.</li>
+              <li><code>edges</code> (or <code>links</code>): an array of edge objects with
+                <code>source</code>, <code>target</code>, and a relation key such as <code>type</code> or
+                <code>predicate</code>. Optional fields may include weights, provenance, or pointers to documentary
+                evidence.</li>
+            </ul>
+
+            <p class="mt-3">
+              <strong>Hierarchy datasets (trees):</strong> organisational trees may use a nested structure (e.g.,
+              <code>children</code>) rather than edges. The minimum requirement is a root node exposing <code>id</code>
+              and <code>label</code>, and recursively defined children nodes with the same fields.
+            </p>
+
+            <div class="mt-3 d-flex gap-3 flex-wrap">
+              <a
+                class="btn btn-outline-primary"
+                href="https://github.com/CarlaMenegat/VarelaDigital/tree/main/transformations/python"
+                target="_blank"
+                rel="noopener"
+              >
+                Regenerate datasets (Python)
+              </a>
+            </div>
+          </section>
+
+          <section id="publication" class="vd-section">
+            <h2>Publication and access</h2>
+
+            <p>
+              The knowledge base is published as static, downloadable exports rather than through a live endpoint. This
+              choice aligns with the project’s deployment model (GitHub Pages) and prioritises reproducibility,
+              inspectability, and long-term accessibility over runtime services.
+            </p>
+
+            <p>
+              Reuse scenarios supported by this publication strategy include: loading <code>kbvd.ttl</code> into a local
+              triple store for querying; re-serialising the data into alternative RDF formats; aligning entities with
+              external authority services; and regenerating derived datasets for map and network analysis.
+            </p>
+
+            <p>
+              A public SPARQL endpoint and a server-side API are intentionally out of scope for the pilot phase, but the
+              published RDF exports are designed to be compatible with external infrastructure should future extensions
+              require it.
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <footer class="vd-footer">
+        <div class="footer-links">
+          Developed by <strong>Carla Menegat</strong> |
+          <a href="mailto:carla.menegat@studio.unibo.it">carla.menegat@studio.unibo.it</a> |
+          <a href="https://github.com/CarlaMenegat/VarelaDigital" target="_blank" rel="noopener"
+            >Project Repository on GitHub</a
+          >
+          |
+          Licensed under
+          <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>
+        </div>
+
+        <div class="footer-small">
+          Final dissertation project for the
+          <a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge" target="_blank" rel="noopener">
+            Master Degree in Digital Humanities and Digital Knowledge (DHDK)
+          </a>, University of Bologna.
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
