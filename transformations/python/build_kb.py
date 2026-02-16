@@ -12,6 +12,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 
 CSV_PATH = os.path.join(ROOT, "letters_data", "metadata", "metadata_all.csv")
 
+# TEI letters with <sourceDesc> (for volume/pages/publisher)
+DOCS_XML_DIR = os.path.join(ROOT, "letters_data", "documents_XML")
+
 STANDOFF_DIR = os.path.join(ROOT, "letters_data", "standoff")
 ST_PERSONS   = os.path.join(STANDOFF_DIR, "standoff_persons.xml")
 ST_ORGS      = os.path.join(STANDOFF_DIR, "standoff_orgs.xml")
@@ -19,6 +22,7 @@ ST_PLACES    = os.path.join(STANDOFF_DIR, "standoff_places.xml")
 ST_EVENTS    = os.path.join(STANDOFF_DIR, "standoff_events.xml")
 ST_RELATIONS = os.path.join(STANDOFF_DIR, "standoff_relations.xml")
 
+# ✅ corrected output path
 OUT_TTL = os.path.join(ROOT, "data_models", "kbvd.ttl")
 
 BASE = "https://carlamenegat.github.io/VarelaDigital/"
@@ -75,7 +79,7 @@ P = {
     "date": "dcterms:date",
     "spatial": "dcterms:spatial",
     "source": "dcterms:source",
-    "isPartOf": "dcterms:isPartOf",
+    "isPartOf": "dct:isPartOf",
     "isVersionOf": "dcterms:isVersionOf",
     "description": "dcterms:description",
     "mentionsPerson": "vd:mentionsPerson",
@@ -93,20 +97,26 @@ P = {
     "subOrgOf": "schema:subOrganizationOf",
     "startDate": "schema:startDate",
     "endDate": "schema:endDate",
+    "realization": "frbr:realization",
+    "embodiment": "frbr:embodiment",
+    "exemplar": "frbr:exemplar",
+    "publisher": "dct:publisher",
+    "identifier": "dct:identifier",
+    "rights": "dct:rights",
 }
 
 T = {
-    "Item": "vd:Item",
     "Person": "foaf:Person",
     "Org": "foaf:Organization",
-    "Place": "vd:Place",
-    "Event": "vd:Event",
+    "Place": "geo:SpatialThing",
+    "Event": "san:Event",
     "RoleInTime": "pro:RoleInTime",
     "Role": "pro:Role",
 }
 
 KB_COLLECTION = BASE + "collection/colecao_varela"
 KB_EDITION    = BASE + "edition/varela_digital"
+
 
 def ttl_escape(s: str) -> str:
     if s is None:
@@ -115,8 +125,10 @@ def ttl_escape(s: str) -> str:
     s = s.replace("\r\n", "\n").replace("\r", "\n")
     return s
 
+
 def normalize_ws(s: str) -> str:
     return re.sub(r"\s+", " ", (s or "").strip())
+
 
 def is_http_uri(u: str) -> bool:
     if not u:
@@ -127,9 +139,11 @@ def is_http_uri(u: str) -> bool:
     except Exception:
         return False
 
+
 def uri_or_none(u: str):
     u = (u or "").strip()
     return u if is_http_uri(u) else None
+
 
 def host_of(u: str) -> str:
     try:
@@ -137,8 +151,10 @@ def host_of(u: str) -> str:
     except Exception:
         return ""
 
+
 def is_vd_uri(u: str) -> bool:
     return host_of(u) == VD_HOST and "/VarelaDigital/" in u
+
 
 def classify_vd_uri(u: str) -> str:
     try:
@@ -159,6 +175,7 @@ def classify_vd_uri(u: str) -> str:
     except Exception:
         return "other"
 
+
 def slugify(label: str) -> str:
     label = normalize_ws(label)
     label = unicodedata.normalize("NFKD", label)
@@ -167,6 +184,7 @@ def slugify(label: str) -> str:
     label = re.sub(r"[^a-z0-9]+", "_", label)
     label = re.sub(r"_+", "_", label).strip("_")
     return label or "unnamed"
+
 
 def safe_float_str(s: str):
     s = (s or "").strip()
@@ -178,32 +196,70 @@ def safe_float_str(s: str):
     except ValueError:
         return None
 
+
 def item_uri(cv_id: str) -> str:
     return BASE_ITEM + cv_id
+
+
+def item_expression_uri(cv_id: str) -> str:
+    return f"{BASE_ITEM}{cv_id}/expression"
+
+
+def item_manifestation_uri(cv_id: str, kind: str) -> str:
+    return f"{BASE_ITEM}{cv_id}/{kind}"
+
+
+def item_exemplar_uri(cv_id: str) -> str:
+    return f"{BASE_ITEM}{cv_id}/exemplar"
+
+def textchunk_uri(cv_id: str, chunk_id: str = "whole") -> str:
+    # One stable TextChunk per letter (minimum viable anchoring)
+    return f"{BASE_ITEM}{cv_id}/chunk/{chunk_id}"
+
+def interpretation_act_uri(cv_id: str) -> str:
+    return f"{BASE_ITEM}{cv_id}/interpretationAct"
+
+def entityref_uri(cv_id: str, kind: str, target_slug: str, n: int) -> str:
+    # Stable per letter + kind + target + counter (avoids collisions)
+    return f"{BASE_ITEM}{cv_id}/ref/{kind}/{target_slug}_{n}"
+
 
 def person_uri(xmlid: str) -> str:
     return BASE_PERSON + xmlid
 
+
 def org_uri(xmlid: str) -> str:
     return BASE_ORG + xmlid
+
 
 def place_uri(xmlid: str) -> str:
     return BASE_PLACE + xmlid
 
+
 def event_uri(xmlid: str) -> str:
     return BASE_EVENT + xmlid
+
 
 def roleintime_uri(xmlid: str) -> str:
     return BASE_ROLEINTIME + xmlid
 
+
 def role_uri_from_label(label: str) -> str:
     return BASE_ROLE + slugify(label)
+
 
 def localname(tag: str) -> str:
     return tag.split("}", 1)[-1] if "}" in tag else tag
 
+
 def get_xml_id(el):
-    return el.attrib.get("{http://www.w3.org/XML/1998/namespace}id") or el.attrib.get("xml:id") or el.attrib.get("id") or ""
+    return (
+        el.attrib.get("{http://www.w3.org/XML/1998/namespace}id")
+        or el.attrib.get("xml:id")
+        or el.attrib.get("id")
+        or ""
+    )
+
 
 def children_texts(el, tagname: str):
     out = []
@@ -212,14 +268,17 @@ def children_texts(el, tagname: str):
             out.append(normalize_ws("".join(c.itertext())))
     return [x for x in out if x]
 
+
 def child_text(el, tagname: str):
     for c in list(el):
         if localname(c.tag) == tagname:
             return normalize_ws("".join(c.itertext()))
     return ""
 
+
 def write_prefixes(f):
     f.write(PREFIX_BLOCK)
+
 
 def _obj_to_ttl(obj: str, is_uri: bool) -> str:
     if not is_uri:
@@ -227,6 +286,7 @@ def _obj_to_ttl(obj: str, is_uri: bool) -> str:
     if obj.startswith("http://") or obj.startswith("https://"):
         return f"<{obj}>"
     return obj
+
 
 def emit_triples(f, subj: str, triples: list):
     if not triples:
@@ -236,6 +296,7 @@ def emit_triples(f, subj: str, triples: list):
         sep = " ;\n    " if i > 0 else ""
         f.write(f"{sep}{pred} {_obj_to_ttl(obj, is_uri)}")
     f.write(" .\n\n")
+
 
 def parse_compound_field(raw: str):
     out = []
@@ -256,6 +317,7 @@ def parse_compound_field(raw: str):
         out.append({"label": label, "uri": uri, "altLabel": alt})
     return out
 
+
 def upsert(store: dict, uri: str, label: str = None, alt: str = None, exact: str = None):
     rec = store.setdefault(uri, {"label": uri, "altLabels": set(), "exactMatches": set()})
     if label and (rec["label"] == uri or not rec["label"]):
@@ -265,6 +327,7 @@ def upsert(store: dict, uri: str, label: str = None, alt: str = None, exact: str
     if exact:
         rec["exactMatches"].add(exact)
     return rec
+
 
 def normalize_relation_uri(u: str):
     u = uri_or_none(u)
@@ -279,6 +342,7 @@ def normalize_relation_uri(u: str):
     if u.startswith(BASE_EVENT + "CV-"):
         return u.replace(BASE_EVENT, BASE_ITEM)
     return u
+
 
 def resolve_project_uri(label: str, uri: str, kind_hint: str, exact_to_project: dict):
     label = normalize_ws(label)
@@ -311,6 +375,7 @@ def resolve_project_uri(label: str, uri: str, kind_hint: str, exact_to_project: 
     pu = person_uri(slugify(label or uri or "unnamed"))
     return pu, "person", uri
 
+
 def ref_to_uri(ref: str, id_to_project: dict, exact_to_project: dict):
     ref = (ref or "").strip()
     if not ref:
@@ -331,6 +396,73 @@ def ref_to_uri(ref: str, id_to_project: dict, exact_to_project: dict):
         return u
 
     return None
+
+
+def find_letter_xml(cv_id: str) -> str | None:
+    if not os.path.isdir(DOCS_XML_DIR):
+        return None
+    candidates = [
+        os.path.join(DOCS_XML_DIR, f"{cv_id}.xml"),
+        os.path.join(DOCS_XML_DIR, f"{cv_id.lower()}.xml"),
+        os.path.join(DOCS_XML_DIR, f"{cv_id.upper()}.xml"),
+    ]
+    for c in candidates:
+        if os.path.exists(c):
+            return c
+    for fn in os.listdir(DOCS_XML_DIR):
+        if not fn.lower().endswith(".xml"):
+            continue
+        if fn.startswith(cv_id) or fn.lower().startswith(cv_id.lower()):
+            p = os.path.join(DOCS_XML_DIR, fn)
+            if os.path.isfile(p):
+                return p
+    return None
+
+
+def extract_print_bibl_from_tei(xml_path: str) -> dict:
+    out = {"volume": None, "page_from": None, "page_to": None, "publisher_label": None, "pubyear": None}
+    try:
+        root = ET.parse(xml_path).getroot()
+    except Exception:
+        return out
+
+    imprint = None
+    for el in root.iter():
+        if localname(el.tag) == "imprint":
+            imprint = el
+            break
+    if imprint is None:
+        return out
+
+    for c in list(imprint):
+        tag = localname(c.tag)
+        if tag == "publisher":
+            val = normalize_ws("".join(c.itertext()))
+            if val:
+                out["publisher_label"] = val
+        elif tag == "date":
+            when = (c.attrib.get("when") or "").strip()
+            if when and re.match(r"^\d{4}$", when):
+                out["pubyear"] = when
+            else:
+                val = normalize_ws("".join(c.itertext()))
+                if val and re.match(r"^\d{4}$", val):
+                    out["pubyear"] = val
+        elif tag == "biblScope":
+            btype = (c.attrib.get("type") or "").strip().lower()
+            unit  = (c.attrib.get("unit") or "").strip().lower()
+            if btype == "volume":
+                val = normalize_ws("".join(c.itertext()))
+                if val:
+                    out["volume"] = val
+            if unit == "page":
+                frm = (c.attrib.get("from") or "").strip()
+                to  = (c.attrib.get("to") or "").strip()
+                if frm:
+                    out["page_from"] = frm
+                if to:
+                    out["page_to"] = to
+    return out
 
 def load_standoffs():
     persons, orgs, places, events = {}, {}, {}, {}
@@ -385,6 +517,7 @@ def load_standoffs():
         id_to_project[xmlid] = pu
         return pu
 
+    # ---- PERSONS + RoleInTime ----
     if os.path.exists(ST_PERSONS):
         root = ET.parse(ST_PERSONS).getroot()
         for el in root.iter():
@@ -471,6 +604,7 @@ def load_standoffs():
                 role_in_time.append((rit_uri, triples))
                 person_roles_index.setdefault(p_uri, set()).add(rit_uri)
 
+        # ---- ORGS ----
     if os.path.exists(ST_ORGS):
         root = ET.parse(ST_ORGS).getroot()
         for el in root.iter():
@@ -502,6 +636,7 @@ def load_standoffs():
                         org_affiliations.append((o_uri, parent))
                         upsert(orgs, parent)
 
+    # ---- PLACES ----
     if os.path.exists(ST_PLACES):
         root = ET.parse(ST_PLACES).getroot()
         for el in root.iter():
@@ -525,6 +660,7 @@ def load_standoffs():
 
             register("place", xid, label, alts, exacts)
 
+    # ---- EVENTS ----
     if os.path.exists(ST_EVENTS):
         root = ET.parse(ST_EVENTS).getroot()
         for el in root.iter():
@@ -546,7 +682,19 @@ def load_standoffs():
 
             register("event", xid, label, [], exacts)
 
-    return persons, orgs, places, events, exact_to_project, id_to_project, role_nodes, role_in_time, person_roles_index, org_affiliations
+    return (
+        persons,
+        orgs,
+        places,
+        events,
+        exact_to_project,
+        id_to_project,
+        role_nodes,
+        role_in_time,
+        person_roles_index,
+        org_affiliations,
+    )
+
 
 def build_relations(id_to_project: dict, exact_to_project: dict):
     triples = []
@@ -578,14 +726,31 @@ def build_relations(id_to_project: dict, exact_to_project: dict):
     return triples
 
 def main():
-    persons, orgs, places, events, exact_to_project, id_to_project, role_nodes, role_in_time, person_roles_index, org_affiliations = load_standoffs()
+    (
+        persons,
+        orgs,
+        places,
+        events,
+        exact_to_project,
+        id_to_project,
+        role_nodes,
+        role_in_time,
+        person_roles_index,
+        org_affiliations,
+    ) = load_standoffs()
 
     discovered_persons = {}
     discovered_orgs = {}
     discovered_places = {}
     discovered_events = {}
 
-    items_triples = []
+    works_triples = []
+    expr_triples_list = []
+    mani_triples_list = []
+    exemplar_triples_list = []
+    textchunk_triples_list = []
+    entityref_triples_list = []
+    hico_triples_list = []
 
     with open(CSV_PATH, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
@@ -594,81 +759,218 @@ def main():
             if not cv_id:
                 continue
 
-            subj = item_uri(cv_id)
-            triples = [("rdf:type", T["Item"], True), (P["isPartOf"], KB_EDITION, True)]
+            work_uri = item_uri(cv_id)
+            expr_uri = item_expression_uri(cv_id)
+            chunk_uri = textchunk_uri(cv_id, "whole")
+            chunk_triples = [
+                ("rdf:type", "doco:TextChunk", True),
+                ("rdfs:label", f"Text chunk (whole letter) — {cv_id}", False),
+            ]
+            textchunk_triples_list.append((chunk_uri, chunk_triples))
+
+            man_uri  = item_manifestation_uri(cv_id, "manuscript")
+            prt_uri  = item_manifestation_uri(cv_id, "print1978")
+            dig_uri  = item_manifestation_uri(cv_id, "digital")
+            ex_uri   = item_exemplar_uri(cv_id)
+            act_uri = interpretation_act_uri(cv_id)
+            hico_triples_list.append((act_uri, [
+                ("rdf:type", "hico:InterpretationAct", True),
+                ("rdfs:label", f"Interpretation act — {cv_id}", False),
+            ]))
+
+            # pull volume/pages/publisher from TEI (documents_XML)
+            tei_path = find_letter_xml(cv_id)
+            bibl = extract_print_bibl_from_tei(tei_path) if tei_path else {}
+            vol = (bibl.get("volume") or "").strip() or None
+            pg_from = (bibl.get("page_from") or "").strip() or None
+            pg_to = (bibl.get("page_to") or "").strip() or None
+            pub_label = (bibl.get("publisher_label") or "").strip() or None
+            pubyear = (bibl.get("pubyear") or "").strip() or None
+
+            # publisher node as foaf:Agent (org)
+            pub_agent_uri = None
+            if pub_label:
+                pub_agent_uri = org_uri(slugify(pub_label))
+                upsert(discovered_orgs, pub_agent_uri, label=pub_label)
+
+            # ---- Work (Letter) ----
+            w_triples = [
+                ("rdf:type", "fabio:Letter", True),
+                ("rdf:type", "frbr:Work", True),
+                (P["isPartOf"], KB_EDITION, True),
+                (P["isPartOf"], KB_COLLECTION, True),   # aligns with CollectionModel
+                (P["realization"], expr_uri, True),
+            ]
 
             title = normalize_ws(row.get("subject"))
             if title:
-                triples.append((P["title"], title, False))
+                w_triples.append((P["title"], title, False))
 
             date = normalize_ws(row.get("date"))
             if date:
-                triples.append((P["date"], date, False))
+                w_triples.append((P["date"], date, False))
 
             lat = safe_float_str(row.get("lat"))
             lon = safe_float_str(row.get("long"))
             if lat:
-                triples.append((P["lat"], lat, False))
+                w_triples.append((P["lat"], lat, False))
             if lon:
-                triples.append((P["long"], lon, False))
+                w_triples.append((P["long"], lon, False))
 
             text_file = normalize_ws(row.get("text_file"))
             if text_file:
-                triples.append((P["source"], text_file, False))
+                w_triples.append((P["source"], text_file, False))
 
+            # creator
             a_name = normalize_ws(row.get("author_name"))
             a_uri  = uri_or_none(row.get("author_uri"))
             if a_name or a_uri:
                 a_proj, a_kind, a_exact = resolve_project_uri(a_name or a_uri, a_uri, "person", exact_to_project)
-                triples.append((P["creator"], a_proj, True))
+                w_triples.append((P["creator"], a_proj, True))
                 if a_kind == "org":
                     upsert(discovered_orgs, a_proj, label=(a_name or None), exact=a_exact)
                 else:
                     upsert(discovered_persons, a_proj, label=(a_name or None), exact=a_exact)
 
+            # recipient
             r_name = normalize_ws(row.get("recipient_name"))
             r_uri  = uri_or_none(row.get("recipient_uri"))
             if r_name or r_uri:
                 r_proj, r_kind, r_exact = resolve_project_uri(r_name or r_uri, r_uri, "person", exact_to_project)
-                triples.append((P["recipient"], r_proj, True))
+                w_triples.append((P["recipient"], r_proj, True))
                 if r_kind == "org":
                     upsert(discovered_orgs, r_proj, label=(r_name or None), exact=r_exact)
                 else:
                     upsert(discovered_persons, r_proj, label=(r_name or None), exact=r_exact)
 
+            # place of writing
             pl_label = normalize_ws(row.get("place_label"))
             pl_uri = uri_or_none(row.get("place_uri"))
             if pl_label or pl_uri:
                 pl_proj, _, pl_exact = resolve_project_uri(pl_label or pl_uri, pl_uri, "place", exact_to_project)
-                triples.append((P["spatial"], pl_proj, True))
+                w_triples.append((P["spatial"], pl_proj, True))
                 upsert(discovered_places, pl_proj, label=(pl_label or None), exact=pl_exact)
 
-            for mp in parse_compound_field(row.get("mentioned_people") or ""):
-                proj, kind, ex = resolve_project_uri(mp["label"] or mp["uri"], mp["uri"], "person", exact_to_project)
-                if kind == "org":
-                    triples.append((P["mentionsOrg"], proj, True))
-                    upsert(discovered_orgs, proj, label=mp["label"] or None, alt=mp["altLabel"], exact=ex)
+            # ---- Mentions as SAN EntityReference (instead of vd:mentions*) ----
+            ref_counter = 0
+
+            def add_entity_reference(kind: str, label: str, uri: str, kind_hint: str):
+                nonlocal ref_counter
+                ref_counter += 1
+
+                proj, resolved_kind, ex = resolve_project_uri(label or uri, uri, kind_hint, exact_to_project)
+
+                # Ensure target entity exists in stores (as before)
+                if resolved_kind == "org":
+                    upsert(discovered_orgs, proj, label=(label or None), alt=None, exact=ex)
+                elif resolved_kind == "place":
+                    upsert(discovered_places, proj, label=(label or None), alt=None, exact=ex)
+                elif resolved_kind == "event":
+                    upsert(discovered_events, proj, label=(label or None), alt=None, exact=ex)
                 else:
-                    triples.append((P["mentionsPerson"], proj, True))
-                    upsert(discovered_persons, proj, label=mp["label"] or None, alt=mp["altLabel"], exact=ex)
+                    upsert(discovered_persons, proj, label=(label or None), alt=None, exact=ex)
+
+                target_slug = slugify(label or proj)
+                er_uri = entityref_uri(cv_id, kind, target_slug, ref_counter)
+
+                er_triples = [
+                    ("rdf:type", "san:EntityReference", True),
+                    ("san:refersTo", proj, True),
+                ]
+                if label:
+                    er_triples.append(("rdfs:label", label, False))
+
+                entityref_triples_list.append((er_uri, er_triples))
+
+                # Link the TextChunk to the EntityReference (as in your LetterModel)
+                chunk_link_triples.append(("san:refersTo", er_uri, True))
+
+
+            # We collect chunk links here and then append them to the chunk node already created
+            chunk_link_triples = []
+
+            for mp in parse_compound_field(row.get("mentioned_people") or ""):
+                add_entity_reference("person", mp["label"], mp["uri"], "person")
 
             for pl in parse_compound_field(row.get("mentioned_places") or ""):
-                proj, _, ex = resolve_project_uri(pl["label"] or pl["uri"], pl["uri"], "place", exact_to_project)
-                triples.append((P["mentionsPlace"], proj, True))
-                upsert(discovered_places, proj, label=pl["label"] or None, alt=pl["altLabel"], exact=ex)
+                add_entity_reference("place", pl["label"], pl["uri"], "place")
 
             for og in parse_compound_field(row.get("mentioned_orgs") or ""):
-                proj, _, ex = resolve_project_uri(og["label"] or og["uri"], og["uri"], "org", exact_to_project)
-                triples.append((P["mentionsOrg"], proj, True))
-                upsert(discovered_orgs, proj, label=og["label"] or None, alt=og["altLabel"], exact=ex)
+                add_entity_reference("org", og["label"], og["uri"], "org")
 
             for ev in parse_compound_field(row.get("mentioned_events") or ""):
-                proj, _, ex = resolve_project_uri(ev["label"] or ev["uri"], ev["uri"], "event", exact_to_project)
-                triples.append((P["mentionsEvent"], proj, True))
-                upsert(discovered_events, proj, label=ev["label"] or None, alt=ev["altLabel"], exact=ex)
+                add_entity_reference("event", ev["label"], ev["uri"], "event")
 
-            items_triples.append((subj, triples))
+            # Append the san:refersTo links to the existing chunk triples (same subject URI)
+            if chunk_link_triples:
+                textchunk_triples_list[-1] = (chunk_uri, chunk_triples + chunk_link_triples)
 
+            works_triples.append((work_uri, w_triples))
+
+            # ---- Expression ----
+            e_triples = [
+                ("rdf:type", "fabio:Expression", True),
+                ("rdf:type", "frbr:Expression", True),
+                (P["embodiment"], man_uri, True),
+                (P["embodiment"], prt_uri, True),
+                (P["embodiment"], dig_uri, True),
+            ]
+            
+            e_triples.append(("doco:contains", chunk_uri, True))
+
+            # ✅ Expression -> pro:isRelatedToRoleInTime (aligns with your LetterModel)
+            involved = set()
+            for pred, obj, is_uri in w_triples:
+                if is_uri and pred in (P["creator"], P["recipient"], P["mentionsPerson"]):
+                    involved.add(obj)
+            for p_u in sorted(involved):
+                for rit in sorted(person_roles_index.get(p_u, set())):
+                    e_triples.append((P["isRelatedToRoleInTime"], rit, True))
+
+            expr_triples_list.append((expr_uri, e_triples))
+
+            # ---- Manifestations ----
+            mani_triples_list.append((man_uri, [
+                ("rdf:type", "fabio:AnalogManifestation", True),
+                ("rdf:type", "frbr:Manifestation", True),
+            ]))
+
+            prt_mani = [
+                ("rdf:type", "fabio:AnalogManifestation", True),
+                ("rdf:type", "frbr:Manifestation", True),
+                (P["exemplar"], ex_uri, True),
+            ]
+            if pub_agent_uri:
+                prt_mani.append((P["publisher"], pub_agent_uri, True))
+            if pubyear:
+                prt_mani.append((P["date"], pubyear, False))
+            mani_triples_list.append((prt_uri, prt_mani))
+
+            dig_mani = [
+                ("rdf:type", "fabio:DigitalManifestation", True),
+                ("rdf:type", "frbr:Manifestation", True),
+                (P["rights"], f"{BASE}rights/digital", True),     
+                ("prov:wasGeneratedBy", act_uri, True),           
+            ]
+            if text_file:
+                dig_mani.append((P["source"], text_file, False))
+            mani_triples_list.append((dig_uri, dig_mani))
+
+            # ---- Exemplar (frbr:Item) ----
+            ex_triples = [
+                ("rdf:type", "frbr:Item", True),
+                (P["identifier"], cv_id, False),
+                ("frbr:exemplarOf", prt_uri, True),
+            ]
+            if vol:
+                ex_triples.append(("bibo:volume", vol, False))
+            if pg_from:
+                ex_triples.append(("bibo:pageStart", pg_from, False))
+            if pg_to:
+                ex_triples.append(("bibo:pageEnd", pg_to, False))
+            exemplar_triples_list.append((ex_uri, ex_triples))
+
+    # merge discovered entities into main stores
     for u, rec in discovered_persons.items():
         upsert(persons, u, label=rec["label"])
         for a in rec["altLabels"]:
@@ -711,10 +1013,31 @@ def main():
             ("rdfs:label", "Varela Digital — Edição digital da Coleção Varela", False),
             (P["isVersionOf"], KB_COLLECTION, True),
         ])
-
-        for subj, triples in sorted(items_triples, key=lambda x: x[0]):
+        
+        for subj, triples in sorted(hico_triples_list, key=lambda x: x[0]):
             emit_triples(out, subj, triples)
 
+        for subj, triples in sorted(works_triples, key=lambda x: x[0]):
+            emit_triples(out, subj, triples)
+
+        # Text chunks
+        for subj, triples in sorted(textchunk_triples_list, key=lambda x: x[0]):
+            emit_triples(out, subj, triples)
+
+        # Entity references
+        for subj, triples in sorted(entityref_triples_list, key=lambda x: x[0]):
+            emit_triples(out, subj, triples)
+        
+        for subj, triples in sorted(expr_triples_list, key=lambda x: x[0]):
+            emit_triples(out, subj, triples)
+
+        for subj, triples in sorted(mani_triples_list, key=lambda x: x[0]):
+            emit_triples(out, subj, triples)
+
+        for subj, triples in sorted(exemplar_triples_list, key=lambda x: x[0]):
+            emit_triples(out, subj, triples)
+
+        # places
         for uri in sorted(places.keys()):
             rec = places[uri]
             triples = [("rdf:type", T["Place"], True)]
@@ -726,6 +1049,7 @@ def main():
                 triples.append((P["exactMatch"], ex, True))
             emit_triples(out, uri, triples)
 
+        # events
         for uri in sorted(events.keys()):
             rec = events[uri]
             triples = [("rdf:type", T["Event"], True)]
@@ -735,6 +1059,7 @@ def main():
                 triples.append((P["exactMatch"], ex, True))
             emit_triples(out, uri, triples)
 
+        # persons (NO LONGER emitting pro:isRelatedToRoleInTime here; it is on Expression now)
         for uri in sorted(persons.keys()):
             rec = persons[uri]
             triples = [("rdf:type", T["Person"], True)]
@@ -744,10 +1069,9 @@ def main():
                 triples.append((P["altLabel"], alt, False))
             for ex in sorted(rec.get("exactMatches", [])):
                 triples.append((P["exactMatch"], ex, True))
-            for rit in sorted(person_roles_index.get(uri, set())):
-                triples.append((P["isRelatedToRoleInTime"], rit, True))
             emit_triples(out, uri, triples)
 
+        # orgs
         for uri in sorted(orgs.keys()):
             rec = orgs[uri]
             triples = [("rdf:type", T["Org"], True)]
@@ -759,22 +1083,27 @@ def main():
                 triples.append((P["exactMatch"], ex, True))
             emit_triples(out, uri, triples)
 
+        # org hierarchy
         for child, parent in org_affiliations:
             emit_triples(out, child, [(P["subOrgOf"], parent, True)])
 
+        # relations from standoff_relations.xml
         for s, p, o in rel_triples:
             emit_triples(out, s, [(p, o, True)])
 
+        # roles
         for ruri in sorted(role_nodes.keys()):
             emit_triples(out, ruri, [
                 ("rdf:type", T["Role"], True),
                 ("rdfs:label", role_nodes[ruri], False),
             ])
 
+        # role in time
         for rit_uri, triples in role_in_time:
             emit_triples(out, rit_uri, triples)
 
     print(f"OK: generated {OUT_TTL}")
+
 
 if __name__ == "__main__":
     main()
